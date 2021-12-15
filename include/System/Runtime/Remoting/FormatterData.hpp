@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: FormatterData
   class FormatterData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::FormatterData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::FormatterData*, "System.Runtime.Remoting", "FormatterData");
 // Type namespace: System.Runtime.Remoting

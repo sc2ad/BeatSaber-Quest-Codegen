@@ -17,7 +17,7 @@ namespace Valve::VR {
   // Forward declaring type: IVRChaperone
   struct IVRChaperone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone, "Valve.VR", "IVRChaperone");
 // Type namespace: Valve.VR
 namespace Valve::VR {

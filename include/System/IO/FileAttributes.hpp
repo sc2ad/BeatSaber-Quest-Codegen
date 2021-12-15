@@ -13,7 +13,7 @@ namespace System::IO {
   // Forward declaring type: FileAttributes
   struct FileAttributes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAttributes, "System.IO", "FileAttributes");
 // Type namespace: System.IO
 namespace System::IO {

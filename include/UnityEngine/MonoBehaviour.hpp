@@ -30,7 +30,7 @@ namespace UnityEngine {
   // Forward declaring type: MonoBehaviour
   class MonoBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::MonoBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MonoBehaviour*, "UnityEngine", "MonoBehaviour");
 // Type namespace: UnityEngine

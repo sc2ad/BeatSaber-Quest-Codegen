@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: PointSet
   class PointSet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::PointSet);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointSet*, "UnityEngine.ProBuilder.Poly2Tri", "PointSet");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

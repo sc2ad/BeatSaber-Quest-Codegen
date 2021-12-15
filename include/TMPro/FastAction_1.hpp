@@ -36,7 +36,7 @@ namespace TMPro {
   template<typename A>
   class FastAction_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::FastAction_1, "TMPro", "FastAction`1");
 // Type namespace: TMPro
 namespace TMPro {

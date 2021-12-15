@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: LaunchInvitePanelFlowResult
   class LaunchInvitePanelFlowResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::LaunchInvitePanelFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchInvitePanelFlowResult*, "Oculus.Platform.Models", "LaunchInvitePanelFlowResult");
 // Type namespace: Oculus.Platform.Models

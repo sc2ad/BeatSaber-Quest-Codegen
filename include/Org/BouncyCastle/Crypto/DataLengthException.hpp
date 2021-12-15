@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: DataLengthException
   class DataLengthException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::DataLengthException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::DataLengthException*, "Org.BouncyCastle.Crypto", "DataLengthException");
 // Type namespace: Org.BouncyCastle.Crypto

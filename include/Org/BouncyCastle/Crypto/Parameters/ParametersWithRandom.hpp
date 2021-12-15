@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: ParametersWithRandom
   class ParametersWithRandom;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithRandom");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

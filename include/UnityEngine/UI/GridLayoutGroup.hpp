@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: GridLayoutGroup
   class GridLayoutGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::GridLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "GridLayoutGroup");
 // Type namespace: UnityEngine.UI
@@ -324,12 +324,12 @@ namespace UnityEngine::UI {
   static check_size<sizeof(GridLayoutGroup), 116 + sizeof(int)> __UnityEngine_UI_GridLayoutGroupSizeCheck;
   static_assert(sizeof(GridLayoutGroup) == 0x78);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Constraint, "UnityEngine.UI", "GridLayoutGroup/Constraint");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startCorner
 // Il2CppName: get_startCorner

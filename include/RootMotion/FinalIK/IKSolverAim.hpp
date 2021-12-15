@@ -29,7 +29,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: IKSolverAim
   class IKSolverAim;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::IKSolverAim);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverAim*, "RootMotion.FinalIK", "IKSolverAim");
 // Type namespace: RootMotion.FinalIK

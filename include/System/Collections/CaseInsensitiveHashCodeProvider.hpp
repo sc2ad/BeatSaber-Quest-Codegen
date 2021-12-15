@@ -26,7 +26,7 @@ namespace System::Collections {
   // Forward declaring type: CaseInsensitiveHashCodeProvider
   class CaseInsensitiveHashCodeProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::CaseInsensitiveHashCodeProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");
 // Type namespace: System.Collections

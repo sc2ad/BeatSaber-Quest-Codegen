@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: PlatformNotSupportedException
   class PlatformNotSupportedException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::PlatformNotSupportedException);
 DEFINE_IL2CPP_ARG_TYPE(System::PlatformNotSupportedException*, "System", "PlatformNotSupportedException");
 // Type namespace: System

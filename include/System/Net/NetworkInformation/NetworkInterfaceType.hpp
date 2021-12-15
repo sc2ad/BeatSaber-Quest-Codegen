@@ -13,7 +13,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: NetworkInterfaceType
   struct NetworkInterfaceType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceType, "System.Net.NetworkInformation", "NetworkInterfaceType");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

@@ -24,7 +24,7 @@ namespace UnityEngine {
   // Forward declaring type: AssetReferenceUIRestriction
   class AssetReferenceUIRestriction;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AssetReferenceUIRestriction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetReferenceUIRestriction*, "UnityEngine", "AssetReferenceUIRestriction");
 // Type namespace: UnityEngine

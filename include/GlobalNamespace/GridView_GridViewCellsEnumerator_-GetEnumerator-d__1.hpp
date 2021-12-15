@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
   // Skipping declaration: List`1 because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1*, "", "GridView/GridViewCellsEnumerator/<GetEnumerator>d__1");
 // Type namespace: 

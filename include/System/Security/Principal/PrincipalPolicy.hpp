@@ -13,7 +13,7 @@ namespace System::Security::Principal {
   // Forward declaring type: PrincipalPolicy
   struct PrincipalPolicy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::PrincipalPolicy, "System.Security.Principal", "PrincipalPolicy");
 // Type namespace: System.Security.Principal
 namespace System::Security::Principal {

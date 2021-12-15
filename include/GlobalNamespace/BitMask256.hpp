@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BitMask256
   struct BitMask256;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMask256, "", "BitMask256");
 // Type namespace: 
 namespace GlobalNamespace {

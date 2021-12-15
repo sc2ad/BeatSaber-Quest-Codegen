@@ -15,7 +15,7 @@ namespace System::Net {
   // Forward declaring type: HeaderVariantInfo
   struct HeaderVariantInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
 // Type namespace: System.Net
 namespace System::Net {

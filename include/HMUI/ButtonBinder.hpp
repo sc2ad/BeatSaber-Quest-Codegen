@@ -41,7 +41,7 @@ namespace HMUI {
   // Forward declaring type: ButtonBinder
   class ButtonBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ButtonBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");
 // Type namespace: HMUI

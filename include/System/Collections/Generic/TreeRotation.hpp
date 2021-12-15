@@ -13,7 +13,7 @@ namespace System::Collections::Generic {
   // Forward declaring type: TreeRotation
   struct TreeRotation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::TreeRotation, "System.Collections.Generic", "TreeRotation");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

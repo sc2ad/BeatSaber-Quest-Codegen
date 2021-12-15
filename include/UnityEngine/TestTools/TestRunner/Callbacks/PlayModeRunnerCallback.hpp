@@ -36,7 +36,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Forward declaring type: PlayModeRunnerCallback
   class PlayModeRunnerCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks

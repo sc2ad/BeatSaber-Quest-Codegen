@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: AddComponentMenu
   class AddComponentMenu;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddComponentMenu);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");
 // Type namespace: UnityEngine

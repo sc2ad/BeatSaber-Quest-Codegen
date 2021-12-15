@@ -25,7 +25,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: IFormatter
   class IFormatter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::IFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IFormatter*, "System.Runtime.Serialization", "IFormatter");
 // Type namespace: System.Runtime.Serialization

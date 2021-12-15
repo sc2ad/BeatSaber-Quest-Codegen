@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Utilities {
   // Forward declaring type: Platform
   class Platform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Platform);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");
 // Type namespace: Org.BouncyCastle.Utilities

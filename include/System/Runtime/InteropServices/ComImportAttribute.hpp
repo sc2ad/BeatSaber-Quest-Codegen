@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: ComImportAttribute
   class ComImportAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::ComImportAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComImportAttribute*, "System.Runtime.InteropServices", "ComImportAttribute");
 // Type namespace: System.Runtime.InteropServices

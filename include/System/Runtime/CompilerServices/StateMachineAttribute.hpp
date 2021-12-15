@@ -24,7 +24,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: StateMachineAttribute
   class StateMachineAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::StateMachineAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");
 // Type namespace: System.Runtime.CompilerServices

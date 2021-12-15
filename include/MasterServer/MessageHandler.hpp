@@ -21,7 +21,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -149,7 +149,7 @@ namespace MasterServer {
   // Forward declaring type: MessageHandler
   class MessageHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::MessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler*, "MasterServer", "MessageHandler");
 // Type namespace: MasterServer
@@ -1145,16 +1145,16 @@ namespace MasterServer {
   static check_size<sizeof(MessageHandler), 120 + sizeof(System::Threading::CancellationTokenSource*)> __MasterServer_MessageHandlerSizeCheck;
   static_assert(sizeof(MessageHandler) == 0x80);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiterId, "MasterServer", "MessageHandler/RequestWaiterId");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServer", "MessageHandler/MessageOrigin");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::HandshakeMessageType, "MasterServer", "MessageHandler/HandshakeMessageType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::UserMessageType, "MasterServer", "MessageHandler/UserMessageType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::DedicatedServerMessageType, "MasterServer", "MessageHandler/DedicatedServerMessageType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::UserMessageType, "MasterServer", "MessageHandler/UserMessageType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::HandshakeMessageType, "MasterServer", "MessageHandler/HandshakeMessageType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServer", "MessageHandler/MessageOrigin");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiterId, "MasterServer", "MessageHandler/RequestWaiterId");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::get_encryptionLayer
 // Il2CppName: get_encryptionLayer

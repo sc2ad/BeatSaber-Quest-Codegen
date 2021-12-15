@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: Caching
   class Caching;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Caching);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Caching*, "UnityEngine", "Caching");
 // Type namespace: UnityEngine

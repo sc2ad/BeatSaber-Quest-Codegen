@@ -17,7 +17,7 @@ namespace RootMotion {
   // Forward declaring type: LargeHeader
   class LargeHeader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::LargeHeader);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LargeHeader*, "RootMotion", "LargeHeader");
 // Type namespace: RootMotion

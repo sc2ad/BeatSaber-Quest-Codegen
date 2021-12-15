@@ -5,7 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: IDigest
   class IDigest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::IDigest);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDigest*, "Org.BouncyCastle.Crypto", "IDigest");
 // Type namespace: Org.BouncyCastle.Crypto

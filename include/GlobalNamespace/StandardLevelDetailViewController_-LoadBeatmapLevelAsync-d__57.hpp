@@ -19,7 +19,7 @@
 // Including type: BeatmapLevelsModel/GetBeatmapLevelResult
 #include "GlobalNamespace/BeatmapLevelsModel.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$LoadBeatmapLevelAsync$d__57, "", "StandardLevelDetailViewController/<LoadBeatmapLevelAsync>d__57");
 // Type namespace: 
 namespace GlobalNamespace {

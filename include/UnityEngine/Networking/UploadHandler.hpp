@@ -19,7 +19,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UploadHandler
   class UploadHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UploadHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandler*, "UnityEngine.Networking", "UploadHandler");
 // Type namespace: UnityEngine.Networking

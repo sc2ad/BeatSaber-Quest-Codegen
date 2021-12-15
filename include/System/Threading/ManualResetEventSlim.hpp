@@ -36,7 +36,7 @@ namespace System::Threading {
   // Forward declaring type: ManualResetEventSlim
   class ManualResetEventSlim;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ManualResetEventSlim);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
 // Type namespace: System.Threading

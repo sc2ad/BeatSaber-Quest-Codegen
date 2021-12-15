@@ -15,7 +15,7 @@ namespace Priority_Queue {
   // Forward declaring type: FastPriorityQueueNode
   class FastPriorityQueueNode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Priority_Queue::FastPriorityQueueNode);
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
 // Type namespace: Priority_Queue

@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_ParameterModifier
   class HEU_ParameterModifier;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterModifier);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier*, "HoudiniEngineUnity", "HEU_ParameterModifier");
 // Type namespace: HoudiniEngineUnity
@@ -180,7 +180,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ParameterModifier), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifierSizeCheck;
   static_assert(sizeof(HEU_ParameterModifier) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterModifier::ModifierAction, "HoudiniEngineUnity", "HEU_ParameterModifier/ModifierAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterModifier::GetNewModifier

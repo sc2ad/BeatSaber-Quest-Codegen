@@ -15,7 +15,7 @@ namespace System::IO {
   // Forward declaring type: WaitForChangedResult
   struct WaitForChangedResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
 // Type namespace: System.IO
 namespace System::IO {

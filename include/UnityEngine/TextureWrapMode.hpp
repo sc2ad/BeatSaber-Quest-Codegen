@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: TextureWrapMode
   struct TextureWrapMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextureWrapMode, "UnityEngine", "TextureWrapMode");
 // Type namespace: UnityEngine
 namespace UnityEngine {

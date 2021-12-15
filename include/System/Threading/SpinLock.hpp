@@ -17,7 +17,7 @@ namespace System::Threading {
   // Forward declaring type: SpinLock
   struct SpinLock;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
 // Type namespace: System.Threading
 namespace System::Threading {

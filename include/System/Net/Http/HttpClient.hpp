@@ -55,7 +55,7 @@ namespace System::Net::Http {
   // Forward declaring type: HttpClient
   class HttpClient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::HttpClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient*, "System.Net.Http", "HttpClient");
 // Type namespace: System.Net.Http

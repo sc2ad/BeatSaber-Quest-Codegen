@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IHealthCheckService
   class IHealthCheckService;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IHealthCheckService);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IHealthCheckService*, "", "IHealthCheckService");
 // Type namespace: 

@@ -26,7 +26,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ConstraintResult
   class ConstraintResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintResult);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintResult*, "NUnit.Framework.Constraints", "ConstraintResult");
 // Type namespace: NUnit.Framework.Constraints

@@ -27,7 +27,7 @@ namespace UnityEngine::TestTools {
   class IEditModeTestYieldInstruction;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "DefaultTestWorkItem/<PerformWork>d__2");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerVRControllersManager
   class PlayerVRControllersManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerVRControllersManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");
 // Type namespace: 

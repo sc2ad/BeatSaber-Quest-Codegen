@@ -20,7 +20,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: ReflectionMethodsCache
   class ReflectionMethodsCache;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::ReflectionMethodsCache);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
 // Type namespace: UnityEngine.UI

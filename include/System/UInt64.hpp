@@ -43,7 +43,7 @@ namespace System {
   // Forward declaring type: UInt64
   struct UInt64;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt64, "System", "UInt64");
 // Type namespace: System
 namespace System {

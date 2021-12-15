@@ -50,7 +50,7 @@ namespace Zenject {
   // Forward declaring type: BindInfo
   class BindInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::BindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindInfo*, "Zenject", "BindInfo");
 // Type namespace: Zenject

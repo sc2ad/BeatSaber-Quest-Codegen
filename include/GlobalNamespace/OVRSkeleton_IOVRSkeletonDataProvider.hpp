@@ -7,7 +7,7 @@
 // Including type: OVRSkeleton
 #include "GlobalNamespace/OVRSkeleton.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::IOVRSkeletonDataProvider*, "", "OVRSkeleton/IOVRSkeletonDataProvider");
 // Type namespace: 

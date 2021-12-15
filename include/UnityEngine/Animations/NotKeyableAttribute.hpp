@@ -13,7 +13,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: NotKeyableAttribute
   class NotKeyableAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Animations::NotKeyableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::NotKeyableAttribute*, "UnityEngine.Animations", "NotKeyableAttribute");
 // Type namespace: UnityEngine.Animations

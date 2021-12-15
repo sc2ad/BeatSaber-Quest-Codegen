@@ -22,7 +22,7 @@ namespace UnityEngine::Sprites {
   // Forward declaring type: DataUtility
   class DataUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Sprites::DataUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprites::DataUtility*, "UnityEngine.Sprites", "DataUtility");
 // Type namespace: UnityEngine.Sprites

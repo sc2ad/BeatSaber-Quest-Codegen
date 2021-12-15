@@ -29,7 +29,7 @@ namespace Mono::Math::Prime::Generator {
   // Forward declaring type: PrimeGeneratorBase
   class PrimeGeneratorBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Math::Prime::Generator::PrimeGeneratorBase);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::PrimeGeneratorBase*, "Mono.Math.Prime.Generator", "PrimeGeneratorBase");
 // Type namespace: Mono.Math.Prime.Generator

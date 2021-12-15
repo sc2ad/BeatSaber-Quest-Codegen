@@ -44,7 +44,7 @@ namespace System::Threading::Tasks {
   class Task_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::MessageHandler::$GetAndSendResponseAsync$d__77_2, "MasterServer", "MessageHandler/<GetAndSendResponseAsync>d__77`2");
 // Type namespace: MasterServer
 namespace MasterServer {

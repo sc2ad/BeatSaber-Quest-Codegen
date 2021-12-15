@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SimpleValueMissionObjectiveChecker
   class SimpleValueMissionObjectiveChecker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleValueMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleValueMissionObjectiveChecker*, "", "SimpleValueMissionObjectiveChecker");
 // Type namespace: 

@@ -10,7 +10,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: ILayoutController
   class ILayoutController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::ILayoutController);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
 // Type namespace: UnityEngine.UI

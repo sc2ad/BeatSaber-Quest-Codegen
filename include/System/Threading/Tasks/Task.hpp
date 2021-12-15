@@ -24,7 +24,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -124,7 +124,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: Task
   class Task;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::Task);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
 // Type namespace: System.Threading.Tasks

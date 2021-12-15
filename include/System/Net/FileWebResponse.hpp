@@ -47,7 +47,7 @@ namespace System::Net {
   // Forward declaring type: FileWebResponse
   class FileWebResponse;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FileWebResponse);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebResponse*, "System.Net", "FileWebResponse");
 // Type namespace: System.Net

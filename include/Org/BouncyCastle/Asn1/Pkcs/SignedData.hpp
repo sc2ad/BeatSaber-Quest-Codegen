@@ -35,7 +35,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // Forward declaring type: SignedData
   class SignedData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::SignedData);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::SignedData*, "Org.BouncyCastle.Asn1.Pkcs", "SignedData");
 // Type namespace: Org.BouncyCastle.Asn1.Pkcs

@@ -17,7 +17,7 @@ namespace HMUI {
   // Forward declaring type: ScreenModeData
   class ScreenModeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScreenModeData);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");
 // Type namespace: HMUI

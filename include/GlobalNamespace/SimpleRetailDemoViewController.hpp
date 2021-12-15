@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SimpleRetailDemoViewController
   class SimpleRetailDemoViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleRetailDemoViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 // Type namespace: 
@@ -198,7 +198,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SimpleRetailDemoViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SimpleRetailDemoViewController*, GlobalNamespace::SimpleRetailDemoViewController::MenuButton>*)> __GlobalNamespace_SimpleRetailDemoViewControllerSizeCheck;
   static_assert(sizeof(SimpleRetailDemoViewController) == 0x98);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoViewController::add_didFinishEvent

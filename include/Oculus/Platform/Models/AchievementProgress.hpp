@@ -19,7 +19,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AchievementProgress
   class AchievementProgress;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AchievementProgress);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
 // Type namespace: Oculus.Platform.Models

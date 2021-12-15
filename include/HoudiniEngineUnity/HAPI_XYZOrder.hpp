@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_XYZOrder
   struct HAPI_XYZOrder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_XYZOrder, "HoudiniEngineUnity", "HAPI_XYZOrder");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

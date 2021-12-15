@@ -29,7 +29,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // Forward declaring type: X509ExtensionEnumerator
   class X509ExtensionEnumerator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator*, "System.Security.Cryptography.X509Certificates", "X509ExtensionEnumerator");
 // Type namespace: System.Security.Cryptography.X509Certificates

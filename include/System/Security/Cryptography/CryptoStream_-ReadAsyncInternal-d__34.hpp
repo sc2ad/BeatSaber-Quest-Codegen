@@ -21,7 +21,7 @@
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -30,7 +30,7 @@ namespace System::Threading {
   class SemaphoreSlim;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {

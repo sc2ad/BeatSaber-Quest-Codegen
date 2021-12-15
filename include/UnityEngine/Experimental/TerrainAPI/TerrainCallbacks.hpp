@@ -23,7 +23,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // Forward declaring type: TerrainCallbacks
   class TerrainCallbacks;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks");
 // Type namespace: UnityEngine.Experimental.TerrainAPI

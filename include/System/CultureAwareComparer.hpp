@@ -28,7 +28,7 @@ namespace System {
   // Forward declaring type: CultureAwareComparer
   class CultureAwareComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::CultureAwareComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::CultureAwareComparer*, "System", "CultureAwareComparer");
 // Type namespace: System

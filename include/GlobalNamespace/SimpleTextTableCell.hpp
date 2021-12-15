@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SimpleTextTableCell
   class SimpleTextTableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleTextTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextTableCell*, "", "SimpleTextTableCell");
 // Type namespace: 

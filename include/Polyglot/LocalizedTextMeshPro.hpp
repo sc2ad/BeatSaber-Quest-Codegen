@@ -30,7 +30,7 @@ namespace Polyglot {
   // Forward declaring type: LocalizedTextMeshPro
   class LocalizedTextMeshPro;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Polyglot::LocalizedTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMeshPro*, "Polyglot", "LocalizedTextMeshPro");
 // Type namespace: Polyglot

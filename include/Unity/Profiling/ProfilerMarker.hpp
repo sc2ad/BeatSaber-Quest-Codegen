@@ -23,7 +23,7 @@ namespace Unity::Profiling {
   // Forward declaring type: ProfilerMarker
   struct ProfilerMarker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {

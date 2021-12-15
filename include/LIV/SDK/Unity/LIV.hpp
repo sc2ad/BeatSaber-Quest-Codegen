@@ -28,7 +28,7 @@ namespace LIV::SDK::Unity {
   // Forward declaring type: LIV
   class LIV;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LIV::SDK::Unity::LIV);
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");
 // Type namespace: LIV.SDK.Unity

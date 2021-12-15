@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativeConditionalAttribute
   class NativeConditionalAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativeConditionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
 // Type namespace: UnityEngine.Bindings

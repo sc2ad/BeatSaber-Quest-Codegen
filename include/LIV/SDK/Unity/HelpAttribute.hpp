@@ -17,7 +17,7 @@ namespace LIV::SDK::Unity {
   // Forward declaring type: HelpAttribute
   class HelpAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LIV::SDK::Unity::HelpAttribute);
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::HelpAttribute*, "LIV.SDK.Unity", "HelpAttribute");
 // Type namespace: LIV.SDK.Unity

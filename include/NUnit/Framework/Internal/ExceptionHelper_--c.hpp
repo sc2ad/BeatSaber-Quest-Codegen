@@ -19,7 +19,7 @@ namespace System {
   class Exception;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::ExceptionHelper::$$c);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper::$$c*, "NUnit.Framework.Internal", "ExceptionHelper/<>c");
 // Type namespace: NUnit.Framework.Internal

@@ -19,7 +19,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativePropertyAttribute
   class NativePropertyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativePropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativePropertyAttribute*, "UnityEngine.Bindings", "NativePropertyAttribute");
 // Type namespace: UnityEngine.Bindings

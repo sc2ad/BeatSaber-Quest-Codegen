@@ -9,7 +9,7 @@
 #include "System/UInt32.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SavWav
   class SavWav;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SavWav);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SavWav*, "", "SavWav");
 // Type namespace: 

@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: SelectionBaseAttribute
   class SelectionBaseAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SelectionBaseAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SelectionBaseAttribute*, "UnityEngine", "SelectionBaseAttribute");
 // Type namespace: UnityEngine

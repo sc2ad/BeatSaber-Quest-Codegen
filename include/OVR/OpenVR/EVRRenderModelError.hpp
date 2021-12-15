@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVRRenderModelError
   struct EVRRenderModelError;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRRenderModelError, "OVR.OpenVR", "EVRRenderModelError");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

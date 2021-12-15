@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -21,7 +21,7 @@ namespace System::Net {
   // Forward declaring type: Dns
   class Dns;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Dns);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Dns*, "System.Net", "Dns");
 // Type namespace: System.Net

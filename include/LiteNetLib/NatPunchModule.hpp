@@ -50,7 +50,7 @@ namespace LiteNetLib {
   // Forward declaring type: NatPunchModule
   class NatPunchModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NatPunchModule);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
 // Type namespace: LiteNetLib
@@ -279,10 +279,10 @@ namespace LiteNetLib {
   static check_size<sizeof(NatPunchModule), 64 + sizeof(LiteNetLib::INatPunchListener*)> __LiteNetLib_NatPunchModuleSizeCheck;
   static_assert(sizeof(NatPunchModule) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::New_ctor
 // Il2CppName: .ctor

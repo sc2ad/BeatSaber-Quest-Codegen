@@ -30,7 +30,7 @@ namespace System::Threading {
   // Forward declaring type: Timer
   class Timer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Timer);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
 // Type namespace: System.Threading

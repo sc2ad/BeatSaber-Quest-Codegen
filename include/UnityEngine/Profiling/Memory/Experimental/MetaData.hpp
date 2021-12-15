@@ -15,7 +15,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   // Forward declaring type: MetaData
   class MetaData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Profiling::Memory::Experimental::MetaData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");
 // Type namespace: UnityEngine.Profiling.Memory.Experimental

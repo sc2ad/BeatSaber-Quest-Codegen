@@ -49,7 +49,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HealthWarningViewController
   class HealthWarningViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HealthWarningViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
 // Type namespace: 

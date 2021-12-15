@@ -13,7 +13,7 @@ namespace UnityEngine::Events {
   // Forward declaring type: UnityEventCallState
   struct UnityEventCallState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventCallState, "UnityEngine.Events", "UnityEventCallState");
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {

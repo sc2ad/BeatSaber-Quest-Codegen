@@ -21,7 +21,7 @@ namespace System::IO {
   class StreamReader;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Util::Tokenizer::StreamTokenReader);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");
 // Type namespace: System.Security.Util

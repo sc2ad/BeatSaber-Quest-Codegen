@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PackedPlayModeBuildLogs
   class PackedPlayModeBuildLogs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PackedPlayModeBuildLogs);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 // Type namespace: 
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PackedPlayModeBuildLogs), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*)> __GlobalNamespace_PackedPlayModeBuildLogsSizeCheck;
   static_assert(sizeof(PackedPlayModeBuildLogs) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PackedPlayModeBuildLogs::get_RuntimeBuildLogs

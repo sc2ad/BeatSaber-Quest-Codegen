@@ -17,7 +17,7 @@ namespace System::Reflection {
   // Forward declaring type: AssemblyInformationalVersionAttribute
   class AssemblyInformationalVersionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::AssemblyInformationalVersionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyInformationalVersionAttribute*, "System.Reflection", "AssemblyInformationalVersionAttribute");
 // Type namespace: System.Reflection

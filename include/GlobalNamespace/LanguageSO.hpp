@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LanguageSO
   class LanguageSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LanguageSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LanguageSO*, "", "LanguageSO");
 // Type namespace: 

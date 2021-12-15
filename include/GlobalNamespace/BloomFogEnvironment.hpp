@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BloomFogEnvironment
   class BloomFogEnvironment;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BloomFogEnvironment);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironment*, "", "BloomFogEnvironment");
 // Type namespace: 

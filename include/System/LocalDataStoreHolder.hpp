@@ -22,7 +22,7 @@ namespace System {
   // Forward declaring type: LocalDataStoreHolder
   class LocalDataStoreHolder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::LocalDataStoreHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder*, "System", "LocalDataStoreHolder");
 // Type namespace: System

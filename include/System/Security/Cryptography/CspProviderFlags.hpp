@@ -13,7 +13,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: CspProviderFlags
   struct CspProviderFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspProviderFlags, "System.Security.Cryptography", "CspProviderFlags");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {

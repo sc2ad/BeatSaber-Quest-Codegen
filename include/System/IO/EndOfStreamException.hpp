@@ -24,7 +24,7 @@ namespace System::IO {
   // Forward declaring type: EndOfStreamException
   class EndOfStreamException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::EndOfStreamException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::EndOfStreamException*, "System.IO", "EndOfStreamException");
 // Type namespace: System.IO

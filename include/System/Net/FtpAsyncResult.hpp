@@ -43,7 +43,7 @@ namespace System::Net {
   // Forward declaring type: FtpAsyncResult
   class FtpAsyncResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FtpAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResult");
 // Type namespace: System.Net

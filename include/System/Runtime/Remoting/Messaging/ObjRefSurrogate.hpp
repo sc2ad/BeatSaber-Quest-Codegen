@@ -28,7 +28,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: ObjRefSurrogate
   class ObjRefSurrogate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::ObjRefSurrogate);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ObjRefSurrogate*, "System.Runtime.Remoting.Messaging", "ObjRefSurrogate");
 // Type namespace: System.Runtime.Remoting.Messaging

@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AvatarPoseMirror
   class AvatarPoseMirror;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarPoseMirror);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror*, "", "AvatarPoseMirror");
 // Type namespace: 

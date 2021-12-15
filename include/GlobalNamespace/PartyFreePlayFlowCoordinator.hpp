@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PartyFreePlayFlowCoordinator
   class PartyFreePlayFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PartyFreePlayFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
 // Type namespace: 

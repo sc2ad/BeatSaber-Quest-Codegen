@@ -24,7 +24,7 @@ namespace System::Collections::Generic {
   template<typename T>
   class LinkedListNode_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::LinkedListNode_1, "System.Collections.Generic", "LinkedListNode`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

@@ -30,7 +30,7 @@ namespace Mono::Net::Security::Private {
   // Forward declaring type: CallbackHelpers
   class CallbackHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
 // Type namespace: Mono.Net.Security.Private

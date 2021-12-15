@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal::Filters {
   // Forward declaring type: FullNameFilter
   class FullNameFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Filters::FullNameFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::FullNameFilter*, "NUnit.Framework.Internal.Filters", "FullNameFilter");
 // Type namespace: NUnit.Framework.Internal.Filters

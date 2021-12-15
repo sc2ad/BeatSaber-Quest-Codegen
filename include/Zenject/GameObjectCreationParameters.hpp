@@ -39,7 +39,7 @@ namespace Zenject {
   // Forward declaring type: GameObjectCreationParameters
   class GameObjectCreationParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::GameObjectCreationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
 // Type namespace: Zenject

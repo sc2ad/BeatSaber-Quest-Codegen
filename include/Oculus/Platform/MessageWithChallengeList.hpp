@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithChallengeList
   class MessageWithChallengeList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithChallengeList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithChallengeList*, "Oculus.Platform", "MessageWithChallengeList");
 // Type namespace: Oculus.Platform

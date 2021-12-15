@@ -36,7 +36,7 @@ namespace Oculus::Platform {
   // Forward declaring type: AssetFile
   class AssetFile;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::AssetFile);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AssetFile*, "Oculus.Platform", "AssetFile");
 // Type namespace: Oculus.Platform

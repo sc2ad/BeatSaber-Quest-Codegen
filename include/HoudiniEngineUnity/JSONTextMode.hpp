@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: JSONTextMode
   struct JSONTextMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONTextMode, "HoudiniEngineUnity", "JSONTextMode");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

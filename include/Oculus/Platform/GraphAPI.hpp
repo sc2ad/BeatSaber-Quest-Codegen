@@ -11,7 +11,7 @@ namespace Oculus::Platform {
   // Forward declaring type: GraphAPI
   class GraphAPI;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::GraphAPI);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GraphAPI*, "Oculus.Platform", "GraphAPI");
 // Type namespace: Oculus.Platform

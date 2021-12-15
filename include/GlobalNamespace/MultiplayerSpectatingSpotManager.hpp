@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerSpectatingSpotManager
   class MultiplayerSpectatingSpotManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatingSpotManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");
 // Type namespace: 

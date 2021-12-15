@@ -26,7 +26,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVRExtendedDisplay
   class CVRExtendedDisplay;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVRExtendedDisplay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");
 // Type namespace: OVR.OpenVR

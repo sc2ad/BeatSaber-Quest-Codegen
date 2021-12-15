@@ -21,7 +21,7 @@ namespace UnityEngine::TextCore {
   // Forward declaring type: Glyph
   class Glyph;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TextCore::Glyph);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
 // Type namespace: UnityEngine.TextCore

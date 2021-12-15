@@ -32,7 +32,7 @@ namespace UnityEngine {
   // Forward declaring type: ReflectionProbe
   class ReflectionProbe;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ReflectionProbe);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 // Type namespace: UnityEngine
@@ -107,7 +107,7 @@ namespace UnityEngine {
   }; // UnityEngine.ReflectionProbe
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ReflectionProbe::CallReflectionProbeEvent

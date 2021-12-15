@@ -37,7 +37,7 @@ namespace System::Net {
   // Forward declaring type: WebException
   class WebException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebException*, "System.Net", "WebException");
 // Type namespace: System.Net

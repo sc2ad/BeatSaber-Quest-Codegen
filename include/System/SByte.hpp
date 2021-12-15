@@ -45,7 +45,7 @@ namespace System {
   // Forward declaring type: SByte
   struct SByte;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
 // Type namespace: System
 namespace System {

@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: HSVColor
   class HSVColor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::HSVColor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");
 // Type namespace: UnityEngine.ProBuilder

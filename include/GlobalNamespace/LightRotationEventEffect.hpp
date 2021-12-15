@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LightRotationEventEffect
   class LightRotationEventEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LightRotationEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationEventEffect*, "", "LightRotationEventEffect");
 // Type namespace: 

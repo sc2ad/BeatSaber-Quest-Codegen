@@ -16,7 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::TimerThread::TimerNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 // Type namespace: System.Net
@@ -174,7 +174,7 @@ namespace System::Net {
   static check_size<sizeof(TimerThread::TimerNode), 64 + sizeof(System::Net::TimerThread::TimerNode*)> __System_Net_TimerThread_TimerNodeSizeCheck;
   static_assert(sizeof(TimerThread::TimerNode) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::get_Next

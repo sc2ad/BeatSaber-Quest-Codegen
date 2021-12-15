@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: ComDefaultInterfaceAttribute
   class ComDefaultInterfaceAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::ComDefaultInterfaceAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");
 // Type namespace: System.Runtime.InteropServices

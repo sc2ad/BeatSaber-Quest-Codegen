@@ -11,7 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -72,7 +72,7 @@ namespace System::Net {
   // Forward declaring type: WebConnection
   class WebConnection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebConnection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 // Type namespace: System.Net
@@ -462,7 +462,7 @@ namespace System::Net {
   static check_size<sizeof(WebConnection), 168 + sizeof(Mono::Net::Security::MonoTlsStream*)> __System_Net_WebConnectionSizeCheck;
   static_assert(sizeof(WebConnection) == 0xB0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnection::set_PriorityRequest

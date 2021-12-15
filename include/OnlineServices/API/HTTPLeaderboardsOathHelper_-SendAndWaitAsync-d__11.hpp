@@ -30,7 +30,7 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendAndWaitAsync>d__11");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

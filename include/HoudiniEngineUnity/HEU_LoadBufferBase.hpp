@@ -22,7 +22,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_LoadBufferBase
   class HEU_LoadBufferBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferBase);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferBase*, "HoudiniEngineUnity", "HEU_LoadBufferBase");
 // Type namespace: HoudiniEngineUnity

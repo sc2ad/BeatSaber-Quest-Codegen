@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.MethodInfo
 #include "System/Reflection/MethodInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -41,7 +41,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: DynamicMethod
   class DynamicMethod;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::DynamicMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::DynamicMethod*, "System.Reflection.Emit", "DynamicMethod");
 // Type namespace: System.Reflection.Emit

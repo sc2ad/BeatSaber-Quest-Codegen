@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: AdditionalCanvasShaderChannels
   struct AdditionalCanvasShaderChannels;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AdditionalCanvasShaderChannels, "UnityEngine", "AdditionalCanvasShaderChannels");
 // Type namespace: UnityEngine
 namespace UnityEngine {

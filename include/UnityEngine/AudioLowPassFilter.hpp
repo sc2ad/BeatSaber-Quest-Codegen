@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: AudioLowPassFilter
   class AudioLowPassFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AudioLowPassFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioLowPassFilter*, "UnityEngine", "AudioLowPassFilter");
 // Type namespace: UnityEngine

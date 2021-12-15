@@ -59,7 +59,7 @@ namespace HMUI {
   // Forward declaring type: InputFieldDataBinder
   class InputFieldDataBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::InputFieldDataBinder);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
 // Type namespace: HMUI

@@ -13,7 +13,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: OneWayAttribute
   class OneWayAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::OneWayAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::OneWayAttribute*, "System.Runtime.Remoting.Messaging", "OneWayAttribute");
 // Type namespace: System.Runtime.Remoting.Messaging

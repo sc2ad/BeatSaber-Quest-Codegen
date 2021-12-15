@@ -15,7 +15,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: AsymmetricSignatureFormatter
   class AsymmetricSignatureFormatter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureFormatter*, "System.Security.Cryptography", "AsymmetricSignatureFormatter");
 // Type namespace: System.Security.Cryptography

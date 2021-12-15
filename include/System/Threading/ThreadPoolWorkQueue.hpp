@@ -24,7 +24,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadPoolWorkQueue
   class ThreadPoolWorkQueue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
 // Type namespace: System.Threading

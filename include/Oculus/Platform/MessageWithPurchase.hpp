@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithPurchase
   class MessageWithPurchase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithPurchase);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchase*, "Oculus.Platform", "MessageWithPurchase");
 // Type namespace: Oculus.Platform

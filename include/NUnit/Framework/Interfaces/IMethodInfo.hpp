@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.IReflectionInfo
 #include "NUnit/Framework/Interfaces/IReflectionInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -37,7 +37,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IMethodInfo
   class IMethodInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IMethodInfo);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IMethodInfo*, "NUnit.Framework.Interfaces", "IMethodInfo");
 // Type namespace: NUnit.Framework.Interfaces

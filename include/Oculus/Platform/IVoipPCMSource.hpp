@@ -5,14 +5,14 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Forward declaring type: IVoipPCMSource
   class IVoipPCMSource;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::IVoipPCMSource);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IVoipPCMSource");
 // Type namespace: Oculus.Platform

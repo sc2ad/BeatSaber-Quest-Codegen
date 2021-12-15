@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AbuseReportRecording
   class AbuseReportRecording;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AbuseReportRecording);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AbuseReportRecording*, "Oculus.Platform.Models", "AbuseReportRecording");
 // Type namespace: Oculus.Platform.Models

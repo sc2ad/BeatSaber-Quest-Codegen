@@ -35,7 +35,7 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
@@ -215,10 +215,10 @@ namespace UnityEngine::Experimental::TerrainAPI {
   static check_size<sizeof(TerrainUtility::TerrainMap), 32 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>*)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMapSizeCheck;
   static_assert(sizeof(TerrainUtility::TerrainMap) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/TileCoord");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::ErrorCode, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/ErrorCode");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/TileCoord");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::GetTerrain
 // Il2CppName: GetTerrain

@@ -18,7 +18,7 @@ namespace System {
   // Forward declaring type: TypeIdentifiers
   class TypeIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TypeIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers*, "System", "TypeIdentifiers");
 // Type namespace: System

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DroneHover
   class DroneHover;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DroneHover);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover*, "", "DroneHover");
 // Type namespace: 

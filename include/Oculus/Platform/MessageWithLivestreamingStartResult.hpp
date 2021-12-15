@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithLivestreamingStartResult
   class MessageWithLivestreamingStartResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithLivestreamingStartResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingStartResult*, "Oculus.Platform", "MessageWithLivestreamingStartResult");
 // Type namespace: Oculus.Platform

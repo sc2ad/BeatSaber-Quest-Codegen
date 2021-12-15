@@ -24,7 +24,7 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorMirror::$SendPoses$d__5, "", "MockPlayerGamePoseGeneratorMirror/<SendPoses>d__5");
 // Type namespace: 
 namespace GlobalNamespace {

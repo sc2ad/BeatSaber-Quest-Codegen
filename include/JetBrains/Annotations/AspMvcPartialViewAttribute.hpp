@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AspMvcPartialViewAttribute
   class AspMvcPartialViewAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::AspMvcPartialViewAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcPartialViewAttribute*, "JetBrains.Annotations", "AspMvcPartialViewAttribute");
 // Type namespace: JetBrains.Annotations

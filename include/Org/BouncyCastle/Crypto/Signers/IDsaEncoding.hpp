@@ -5,7 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // Forward declaring type: IDsaEncoding
   class IDsaEncoding;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::IDsaEncoding);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IDsaEncoding*, "Org.BouncyCastle.Crypto.Signers", "IDsaEncoding");
 // Type namespace: Org.BouncyCastle.Crypto.Signers

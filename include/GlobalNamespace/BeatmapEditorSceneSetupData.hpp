@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapEditorSceneSetupData
   class BeatmapEditorSceneSetupData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapEditorSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
 // Type namespace: 

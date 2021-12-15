@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithCloudStorageConflictMetadata
   class MessageWithCloudStorageConflictMetadata;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithCloudStorageConflictMetadata);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
 // Type namespace: Oculus.Platform

@@ -13,7 +13,7 @@ namespace TMPro {
   // Forward declaring type: Compute_DistanceTransform_EventTypes
   struct Compute_DistanceTransform_EventTypes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DistanceTransform_EventTypes, "TMPro", "Compute_DistanceTransform_EventTypes");
 // Type namespace: TMPro
 namespace TMPro {

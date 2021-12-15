@@ -22,7 +22,7 @@ namespace Mono::Unity {
   // Forward declaring type: CertHelper
   class CertHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Unity::CertHelper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::CertHelper*, "Mono.Unity", "CertHelper");
 // Type namespace: Mono.Unity

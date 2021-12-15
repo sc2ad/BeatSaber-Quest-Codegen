@@ -17,7 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
   // Forward declaring type: StandardLevelDetailViewController
   class StandardLevelDetailViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandardLevelDetailViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 // Type namespace: 
@@ -594,7 +594,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelDetailViewController), 304 + sizeof(bool)> __GlobalNamespace_StandardLevelDetailViewControllerSizeCheck;
   static_assert(sizeof(StandardLevelDetailViewController) == 0x131);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::get_selectedDifficultyBeatmap

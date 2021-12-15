@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: ISubmitHandler
   class ISubmitHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::ISubmitHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ISubmitHandler*, "UnityEngine.EventSystems", "ISubmitHandler");
 // Type namespace: UnityEngine.EventSystems

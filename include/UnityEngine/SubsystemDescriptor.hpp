@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: SubsystemDescriptor
   class SubsystemDescriptor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SubsystemDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemDescriptor*, "UnityEngine", "SubsystemDescriptor");
 // Type namespace: UnityEngine

@@ -17,7 +17,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: IVRResources
   struct IVRResources;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources, "OVR.OpenVR", "IVRResources");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

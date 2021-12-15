@@ -30,7 +30,7 @@ namespace System::Runtime::Remoting::Lifetime {
   class ILease;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");
 // Type namespace: System.Runtime.Remoting.Lifetime

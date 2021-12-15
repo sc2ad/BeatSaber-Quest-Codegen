@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IBakedLightWithRenderer
   class IBakedLightWithRenderer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IBakedLightWithRenderer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBakedLightWithRenderer*, "", "IBakedLightWithRenderer");
 // Type namespace: 

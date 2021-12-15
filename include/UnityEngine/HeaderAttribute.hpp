@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: HeaderAttribute
   class HeaderAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::HeaderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HeaderAttribute*, "UnityEngine", "HeaderAttribute");
 // Type namespace: UnityEngine

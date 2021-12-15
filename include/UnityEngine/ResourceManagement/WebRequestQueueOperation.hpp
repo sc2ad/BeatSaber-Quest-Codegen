@@ -30,7 +30,7 @@ namespace UnityEngine::ResourceManagement {
   // Forward declaring type: WebRequestQueueOperation
   class WebRequestQueueOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::WebRequestQueueOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
 // Type namespace: UnityEngine.ResourceManagement

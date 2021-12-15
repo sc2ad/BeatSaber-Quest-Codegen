@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
   // Forward declaring type: SecObjectIdentifiers
   class SecObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers*, "Org.BouncyCastle.Asn1.Sec", "SecObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Sec

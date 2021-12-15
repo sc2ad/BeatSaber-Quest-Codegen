@@ -13,7 +13,7 @@ namespace System::Reflection {
   // Forward declaring type: GenericParameterAttributes
   struct GenericParameterAttributes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");
 // Type namespace: System.Reflection
 namespace System::Reflection {

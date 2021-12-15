@@ -21,7 +21,7 @@ namespace UnityEngine {
   // Forward declaring type: CharacterController
   class CharacterController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CharacterController);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CharacterController*, "UnityEngine", "CharacterController");
 // Type namespace: UnityEngine

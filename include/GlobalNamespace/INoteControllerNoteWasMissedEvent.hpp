@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: INoteControllerNoteWasMissedEvent
   class INoteControllerNoteWasMissedEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::INoteControllerNoteWasMissedEvent);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteWasMissedEvent*, "", "INoteControllerNoteWasMissedEvent");
 // Type namespace: 

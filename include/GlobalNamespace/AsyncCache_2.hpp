@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   template<typename TKey, typename TValue>
   class AsyncCache_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncCache_2, "", "AsyncCache`2");
 // Type namespace: 
 namespace GlobalNamespace {

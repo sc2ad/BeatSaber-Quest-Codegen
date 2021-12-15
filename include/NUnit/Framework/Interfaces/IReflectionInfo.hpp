@@ -8,14 +8,14 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IReflectionInfo
   class IReflectionInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IReflectionInfo);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
 // Type namespace: NUnit.Framework.Interfaces

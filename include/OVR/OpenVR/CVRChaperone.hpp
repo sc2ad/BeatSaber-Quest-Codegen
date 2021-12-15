@@ -30,7 +30,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVRChaperone
   class CVRChaperone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVRChaperone);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRChaperone*, "OVR.OpenVR", "CVRChaperone");
 // Type namespace: OVR.OpenVR

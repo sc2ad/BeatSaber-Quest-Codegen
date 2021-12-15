@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IPropertyBag
   class IPropertyBag;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IPropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IPropertyBag*, "NUnit.Framework.Interfaces", "IPropertyBag");
 // Type namespace: NUnit.Framework.Interfaces

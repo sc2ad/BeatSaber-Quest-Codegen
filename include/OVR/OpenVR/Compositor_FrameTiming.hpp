@@ -15,7 +15,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: Compositor_FrameTiming
   struct Compositor_FrameTiming;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

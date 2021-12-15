@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: RelativeSfxVolumePerLevelModel
   class RelativeSfxVolumePerLevelModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelModel*, "", "RelativeSfxVolumePerLevelModel");
 // Type namespace: 

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HowToPlayViewController
   class HowToPlayViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HowToPlayViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");
 // Type namespace: 
@@ -160,7 +160,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(HowToPlayViewController), 128 + sizeof(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)> __GlobalNamespace_HowToPlayViewControllerSizeCheck;
   static_assert(sizeof(HowToPlayViewController) == 0x88);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController::HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::add_didFinishEvent

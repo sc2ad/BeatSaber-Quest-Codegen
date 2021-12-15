@@ -22,7 +22,7 @@ namespace System::Resources {
   // Forward declaring type: ResourceLocator
   struct ResourceLocator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceLocator, "System.Resources", "ResourceLocator");
 // Type namespace: System.Resources
 namespace System::Resources {

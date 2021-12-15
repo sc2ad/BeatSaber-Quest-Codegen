@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BombExecutionRating
   class BombExecutionRating;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BombExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 // Type namespace: 
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BombExecutionRating), 24 + sizeof(GlobalNamespace::BombExecutionRating::Rating)> __GlobalNamespace_BombExecutionRatingSizeCheck;
   static_assert(sizeof(BombExecutionRating) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombExecutionRating::get_rating

@@ -26,7 +26,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: RuntimeHelpers
   class RuntimeHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeHelpers);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers*, "System.Runtime.CompilerServices", "RuntimeHelpers");
 // Type namespace: System.Runtime.CompilerServices

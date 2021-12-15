@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: HorizontalOrVerticalLayoutGroup
   class HorizontalOrVerticalLayoutGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
 // Type namespace: UnityEngine.UI

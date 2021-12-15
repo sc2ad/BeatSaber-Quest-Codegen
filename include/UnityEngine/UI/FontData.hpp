@@ -32,7 +32,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: FontData
   class FontData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::FontData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontData*, "UnityEngine.UI", "FontData");
 // Type namespace: UnityEngine.UI

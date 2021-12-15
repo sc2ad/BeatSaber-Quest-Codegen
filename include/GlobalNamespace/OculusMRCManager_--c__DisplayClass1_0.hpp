@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   struct OVRManager_MrcCameraType;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0*, "", "OculusMRCManager/<>c__DisplayClass1_0");
 // Type namespace: 

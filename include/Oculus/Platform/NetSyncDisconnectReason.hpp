@@ -13,7 +13,7 @@ namespace Oculus::Platform {
   // Forward declaring type: NetSyncDisconnectReason
   struct NetSyncDisconnectReason;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncDisconnectReason, "Oculus.Platform", "NetSyncDisconnectReason");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

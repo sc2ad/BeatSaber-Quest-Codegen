@@ -27,7 +27,7 @@ namespace Zenject {
   template<typename TDerived>
   class Installer_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Installer_1, "Zenject", "Installer`1");
 // Type namespace: Zenject
 namespace Zenject {

@@ -64,7 +64,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // Forward declaring type: InitializationOperation
   class InitializationOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::InitializationOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation");
 // Type namespace: UnityEngine.AddressableAssets.Initialization

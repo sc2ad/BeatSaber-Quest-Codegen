@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PS4NetworkPlayerModel
   class PS4NetworkPlayerModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4NetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4NetworkPlayerModel*, "", "PS4NetworkPlayerModel");
 // Type namespace: 

@@ -15,7 +15,7 @@ namespace Valve::VR {
   // Forward declaring type: VRVulkanTextureData_t
   struct VRVulkanTextureData_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRVulkanTextureData_t, "Valve.VR", "VRVulkanTextureData_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

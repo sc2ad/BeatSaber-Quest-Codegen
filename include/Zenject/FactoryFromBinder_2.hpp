@@ -54,7 +54,7 @@ namespace Zenject {
   template<typename TParam1, typename TContract>
   class FactoryFromBinder_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryFromBinder_2, "Zenject", "FactoryFromBinder`2");
 // Type namespace: Zenject
 namespace Zenject {

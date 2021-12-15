@@ -17,7 +17,7 @@ namespace RootMotion {
   // Forward declaring type: InspectorComment
   class InspectorComment;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::InspectorComment);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::InspectorComment*, "RootMotion", "InspectorComment");
 // Type namespace: RootMotion

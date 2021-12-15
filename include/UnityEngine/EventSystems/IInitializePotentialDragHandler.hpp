@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IInitializePotentialDragHandler
   class IInitializePotentialDragHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IInitializePotentialDragHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IInitializePotentialDragHandler*, "UnityEngine.EventSystems", "IInitializePotentialDragHandler");
 // Type namespace: UnityEngine.EventSystems

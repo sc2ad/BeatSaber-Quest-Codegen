@@ -24,7 +24,7 @@ namespace Mono::Util {
   // Forward declaring type: MonoPInvokeCallbackAttribute
   class MonoPInvokeCallbackAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Util::MonoPInvokeCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Util::MonoPInvokeCallbackAttribute*, "Mono.Util", "MonoPInvokeCallbackAttribute");
 // Type namespace: Mono.Util

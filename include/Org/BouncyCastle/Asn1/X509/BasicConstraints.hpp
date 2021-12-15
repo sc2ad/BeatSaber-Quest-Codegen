@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: BasicConstraints
   class BasicConstraints;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::BasicConstraints);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::BasicConstraints*, "Org.BouncyCastle.Asn1.X509", "BasicConstraints");
 // Type namespace: Org.BouncyCastle.Asn1.X509

@@ -28,7 +28,7 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass26_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass26_0`2");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {

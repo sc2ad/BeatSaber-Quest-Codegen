@@ -30,7 +30,7 @@ namespace System::IO {
   class Stream;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebRequest::$$c__DisplayClass78_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::$$c__DisplayClass78_0*, "System.Net", "WebRequest/<>c__DisplayClass78_0");
 // Type namespace: System.Net

@@ -22,7 +22,7 @@ namespace System {
   // Forward declaring type: DelegateData
   class DelegateData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::DelegateData);
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateData*, "System", "DelegateData");
 // Type namespace: System

@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FlyingGameHUDRotation
   class FlyingGameHUDRotation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FlyingGameHUDRotation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
 // Type namespace: 

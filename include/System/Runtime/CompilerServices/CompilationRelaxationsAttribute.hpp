@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: CompilationRelaxationsAttribute
   class CompilationRelaxationsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::CompilationRelaxationsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxationsAttribute*, "System.Runtime.CompilerServices", "CompilationRelaxationsAttribute");
 // Type namespace: System.Runtime.CompilerServices

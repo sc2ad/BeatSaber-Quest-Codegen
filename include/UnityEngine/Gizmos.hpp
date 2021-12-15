@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: Gizmos
   class Gizmos;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Gizmos);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gizmos*, "UnityEngine", "Gizmos");
 // Type namespace: UnityEngine

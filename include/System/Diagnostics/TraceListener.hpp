@@ -19,7 +19,7 @@ namespace System::Diagnostics {
   // Forward declaring type: TraceListener
   class TraceListener;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::TraceListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");
 // Type namespace: System.Diagnostics

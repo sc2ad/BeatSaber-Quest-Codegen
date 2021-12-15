@@ -13,9 +13,9 @@
 #include "GlobalNamespace/OVRPlugin_Recti.hpp"
 // Including type: OVRPlugin/Posef
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerSubmit, "", "OVRPlugin/LayerSubmit");
 // Type namespace: 
 namespace GlobalNamespace {

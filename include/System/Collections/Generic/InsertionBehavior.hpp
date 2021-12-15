@@ -13,7 +13,7 @@ namespace System::Collections::Generic {
   // Forward declaring type: InsertionBehavior
   struct InsertionBehavior;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::InsertionBehavior, "System.Collections.Generic", "InsertionBehavior");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

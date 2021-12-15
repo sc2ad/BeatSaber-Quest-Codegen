@@ -40,7 +40,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationEvents
   class SerializationEvents;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::SerializationEvents);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEvents*, "System.Runtime.Serialization", "SerializationEvents");
 // Type namespace: System.Runtime.Serialization

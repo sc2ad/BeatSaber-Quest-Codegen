@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_CurveOrders
   struct HAPI_CurveOrders;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CurveOrders, "HoudiniEngineUnity", "HAPI_CurveOrders");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BaseMasterServerAcknowledgeMessage
   class BaseMasterServerAcknowledgeMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BaseMasterServerAcknowledgeMessage);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerAcknowledgeMessage*, "", "BaseMasterServerAcknowledgeMessage");
 // Type namespace: 

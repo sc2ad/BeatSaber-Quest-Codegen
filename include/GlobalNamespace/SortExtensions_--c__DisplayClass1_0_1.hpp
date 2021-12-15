@@ -20,7 +20,7 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1, "", "SortExtensions/<>c__DisplayClass1_0`1");
 // Type namespace: 
 namespace GlobalNamespace {

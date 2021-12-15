@@ -13,7 +13,7 @@ namespace System::IO {
   // Forward declaring type: FileSystemEnumerableHelpers
   class FileSystemEnumerableHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::FileSystemEnumerableHelpers);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
 // Type namespace: System.IO

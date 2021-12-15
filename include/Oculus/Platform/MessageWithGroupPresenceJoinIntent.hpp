@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithGroupPresenceJoinIntent
   class MessageWithGroupPresenceJoinIntent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithGroupPresenceJoinIntent);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithGroupPresenceJoinIntent*, "Oculus.Platform", "MessageWithGroupPresenceJoinIntent");
 // Type namespace: Oculus.Platform

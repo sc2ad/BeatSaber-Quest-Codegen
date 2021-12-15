@@ -13,7 +13,7 @@ namespace System::Resources {
   // Forward declaring type: ResourceTypeCode
   struct ResourceTypeCode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceTypeCode, "System.Resources", "ResourceTypeCode");
 // Type namespace: System.Resources
 namespace System::Resources {

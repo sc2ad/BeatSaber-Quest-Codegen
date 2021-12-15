@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapLevelPackSO
   class BeatmapLevelPackSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelPackSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackSO*, "", "BeatmapLevelPackSO");
 // Type namespace: 

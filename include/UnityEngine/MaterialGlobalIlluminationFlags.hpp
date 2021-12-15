@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: MaterialGlobalIlluminationFlags
   struct MaterialGlobalIlluminationFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialGlobalIlluminationFlags, "UnityEngine", "MaterialGlobalIlluminationFlags");
 // Type namespace: UnityEngine
 namespace UnityEngine {

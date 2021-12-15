@@ -23,7 +23,7 @@ namespace Polyglot {
   // Forward declaring type: TsvReader
   class TsvReader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Polyglot::TsvReader);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::TsvReader*, "Polyglot", "TsvReader");
 // Type namespace: Polyglot

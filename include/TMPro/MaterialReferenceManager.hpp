@@ -37,7 +37,7 @@ namespace TMPro {
   // Forward declaring type: MaterialReferenceManager
   class MaterialReferenceManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::MaterialReferenceManager);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");
 // Type namespace: TMPro

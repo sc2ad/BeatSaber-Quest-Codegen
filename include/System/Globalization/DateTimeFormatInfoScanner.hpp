@@ -11,7 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,7 +36,7 @@ namespace System::Globalization {
   // Forward declaring type: DateTimeFormatInfoScanner
   class DateTimeFormatInfoScanner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::DateTimeFormatInfoScanner);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 // Type namespace: System.Globalization
@@ -198,7 +198,7 @@ namespace System::Globalization {
   static check_size<sizeof(DateTimeFormatInfoScanner), 24 + sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern)> __System_Globalization_DateTimeFormatInfoScannerSizeCheck;
   static_assert(sizeof(DateTimeFormatInfoScanner) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::get_KnownWords

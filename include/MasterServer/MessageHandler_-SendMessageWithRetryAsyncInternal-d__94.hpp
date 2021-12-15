@@ -43,7 +43,7 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$SendMessageWithRetryAsyncInternal$d__94, "MasterServer", "MessageHandler/<SendMessageWithRetryAsyncInternal>d__94");
 // Type namespace: MasterServer
 namespace MasterServer {

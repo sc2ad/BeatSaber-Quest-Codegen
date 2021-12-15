@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LightPairSinMoveEventEffect
   class LightPairSinMoveEventEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LightPairSinMoveEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect*, "", "LightPairSinMoveEventEffect");
 // Type namespace: 

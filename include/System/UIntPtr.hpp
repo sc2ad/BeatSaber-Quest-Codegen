@@ -28,7 +28,7 @@ namespace System {
   // Forward declaring type: UIntPtr
   struct UIntPtr;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
 // Type namespace: System
 namespace System {

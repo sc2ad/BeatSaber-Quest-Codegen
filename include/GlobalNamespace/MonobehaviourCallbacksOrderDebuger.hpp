@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MonobehaviourCallbacksOrderDebuger
   class MonobehaviourCallbacksOrderDebuger;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MonobehaviourCallbacksOrderDebuger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");
 // Type namespace: 

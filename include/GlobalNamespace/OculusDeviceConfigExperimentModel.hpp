@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OculusDeviceConfigExperimentModel
   class OculusDeviceConfigExperimentModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusDeviceConfigExperimentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeviceConfigExperimentModel*, "", "OculusDeviceConfigExperimentModel");
 // Type namespace: 

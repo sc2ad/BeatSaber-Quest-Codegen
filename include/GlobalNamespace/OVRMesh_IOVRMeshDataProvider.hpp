@@ -8,7 +8,7 @@
 // Including type: OVRMesh
 #include "GlobalNamespace/OVRMesh.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRMesh::IOVRMeshDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*, "", "OVRMesh/IOVRMeshDataProvider");
 // Type namespace: 

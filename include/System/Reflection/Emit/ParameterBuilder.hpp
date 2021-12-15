@@ -11,7 +11,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: ParameterBuilder
   class ParameterBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::ParameterBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::ParameterBuilder*, "System.Reflection.Emit", "ParameterBuilder");
 // Type namespace: System.Reflection.Emit

@@ -13,7 +13,7 @@ namespace System::Configuration::Assemblies {
   // Forward declaring type: AssemblyVersionCompatibility
   struct AssemblyVersionCompatibility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::Assemblies::AssemblyVersionCompatibility, "System.Configuration.Assemblies", "AssemblyVersionCompatibility");
 // Type namespace: System.Configuration.Assemblies
 namespace System::Configuration::Assemblies {

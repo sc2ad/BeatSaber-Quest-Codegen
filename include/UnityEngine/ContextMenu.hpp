@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: ContextMenu
   class ContextMenu;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ContextMenu);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");
 // Type namespace: UnityEngine

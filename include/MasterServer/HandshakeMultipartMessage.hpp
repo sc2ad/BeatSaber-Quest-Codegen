@@ -27,7 +27,7 @@ namespace MasterServer {
   // Forward declaring type: HandshakeMultipartMessage
   class HandshakeMultipartMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::HandshakeMultipartMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HandshakeMultipartMessage*, "MasterServer", "HandshakeMultipartMessage");
 // Type namespace: MasterServer

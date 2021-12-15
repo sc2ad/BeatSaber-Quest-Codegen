@@ -15,7 +15,7 @@ namespace System::Globalization {
   // Forward declaring type: Bootstring
   class Bootstring;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::Bootstring);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
 // Type namespace: System.Globalization

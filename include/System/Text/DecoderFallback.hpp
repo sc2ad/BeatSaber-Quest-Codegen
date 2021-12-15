@@ -22,7 +22,7 @@ namespace System::Text {
   // Forward declaring type: DecoderFallback
   class DecoderFallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::DecoderFallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallback*, "System.Text", "DecoderFallback");
 // Type namespace: System.Text

@@ -13,7 +13,7 @@ namespace Unity::Collections {
   // Forward declaring type: Allocator
   struct Allocator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::Allocator, "Unity.Collections", "Allocator");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {

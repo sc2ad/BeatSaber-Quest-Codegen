@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IGameplayRpcManager
   class IGameplayRpcManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IGameplayRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGameplayRpcManager*, "", "IGameplayRpcManager");
 // Type namespace: 

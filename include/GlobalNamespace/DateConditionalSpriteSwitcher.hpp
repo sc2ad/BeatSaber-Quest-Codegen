@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DateConditionalSpriteSwitcher
   class DateConditionalSpriteSwitcher;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DateConditionalSpriteSwitcher);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DateConditionalSpriteSwitcher*, "", "DateConditionalSpriteSwitcher");
 // Type namespace: 

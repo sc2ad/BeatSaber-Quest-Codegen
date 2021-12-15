@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // Forward declaring type: RoomAdjustSettingsViewController
   class RoomAdjustSettingsViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::RoomAdjustSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");
 // Type namespace: 

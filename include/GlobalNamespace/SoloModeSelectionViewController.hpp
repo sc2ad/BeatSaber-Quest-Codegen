@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SoloModeSelectionViewController
   class SoloModeSelectionViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SoloModeSelectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController*, "", "SoloModeSelectionViewController");
 // Type namespace: 
@@ -198,7 +198,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SoloModeSelectionViewController), 144 + sizeof(System::Action_2<GlobalNamespace::SoloModeSelectionViewController*, GlobalNamespace::SoloModeSelectionViewController::MenuType>*)> __GlobalNamespace_SoloModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(SoloModeSelectionViewController) == 0x98);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloModeSelectionViewController::MenuType, "", "SoloModeSelectionViewController/MenuType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent

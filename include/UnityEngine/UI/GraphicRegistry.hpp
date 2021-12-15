@@ -45,7 +45,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: GraphicRegistry
   class GraphicRegistry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::GraphicRegistry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
 // Type namespace: UnityEngine.UI

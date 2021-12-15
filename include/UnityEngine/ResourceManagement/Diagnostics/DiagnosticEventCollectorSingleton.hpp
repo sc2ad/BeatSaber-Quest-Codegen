@@ -47,7 +47,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   // Forward declaring type: DiagnosticEventCollectorSingleton
   class DiagnosticEventCollectorSingleton;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton");
 // Type namespace: UnityEngine.ResourceManagement.Diagnostics

@@ -45,7 +45,7 @@ namespace Zenject {
   // Forward declaring type: ScriptableObjectResourceProvider
   class ScriptableObjectResourceProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ScriptableObjectResourceProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider*, "Zenject", "ScriptableObjectResourceProvider");
 // Type namespace: Zenject

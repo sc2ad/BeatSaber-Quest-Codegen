@@ -13,7 +13,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: FullBodyBipedEffector
   struct FullBodyBipedEffector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedEffector, "RootMotion.FinalIK", "FullBodyBipedEffector");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {

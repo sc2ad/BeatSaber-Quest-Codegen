@@ -15,7 +15,7 @@ namespace System {
   // Forward declaring type: __ComObject
   class __ComObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::__ComObject);
 DEFINE_IL2CPP_ARG_TYPE(System::__ComObject*, "System", "__ComObject");
 // Type namespace: System

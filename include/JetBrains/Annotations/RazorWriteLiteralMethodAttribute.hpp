@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: RazorWriteLiteralMethodAttribute
   class RazorWriteLiteralMethodAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::RazorWriteLiteralMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorWriteLiteralMethodAttribute*, "JetBrains.Annotations", "RazorWriteLiteralMethodAttribute");
 // Type namespace: JetBrains.Annotations

@@ -41,7 +41,7 @@ namespace System::Reflection {
   // Forward declaring type: RuntimeAssembly
   class RuntimeAssembly;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::RuntimeAssembly);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");
 // Type namespace: System.Reflection

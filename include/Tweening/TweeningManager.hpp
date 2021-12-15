@@ -43,7 +43,7 @@ namespace Tweening {
   // Forward declaring type: TweeningManager
   class TweeningManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Tweening::TweeningManager);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");
 // Type namespace: Tweening

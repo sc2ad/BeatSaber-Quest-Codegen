@@ -13,7 +13,7 @@ namespace Valve::VR {
   // Forward declaring type: VREvent_Reserved_t
   struct VREvent_Reserved_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_Reserved_t, "Valve.VR", "VREvent_Reserved_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

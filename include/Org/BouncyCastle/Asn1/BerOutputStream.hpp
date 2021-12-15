@@ -13,7 +13,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: BerOutputStream
   class BerOutputStream;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::BerOutputStream);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOutputStream*, "Org.BouncyCastle.Asn1", "BerOutputStream");
 // Type namespace: Org.BouncyCastle.Asn1

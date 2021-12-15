@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: TextGenerationError
   struct TextGenerationError;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationError, "UnityEngine", "TextGenerationError");
 // Type namespace: UnityEngine
 namespace UnityEngine {

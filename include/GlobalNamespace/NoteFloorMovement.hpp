@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteFloorMovement
   class NoteFloorMovement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteFloorMovement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
 // Type namespace: 

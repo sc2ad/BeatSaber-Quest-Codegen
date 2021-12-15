@@ -24,7 +24,7 @@ namespace HMUI {
   // Forward declaring type: EmptyBoxGraphic
   class EmptyBoxGraphic;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::EmptyBoxGraphic);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");
 // Type namespace: HMUI

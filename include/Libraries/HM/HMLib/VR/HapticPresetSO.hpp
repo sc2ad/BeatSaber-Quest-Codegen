@@ -17,7 +17,7 @@ namespace Libraries::HM::HMLib::VR {
   // Forward declaring type: HapticPresetSO
   class HapticPresetSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Libraries::HM::HMLib::VR::HapticPresetSO);
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
 // Type namespace: Libraries.HM.HMLib.VR

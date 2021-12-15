@@ -13,7 +13,7 @@ namespace TMPro {
   // Forward declaring type: TMP_VertexDataUpdateFlags
   struct TMP_VertexDataUpdateFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");
 // Type namespace: TMPro
 namespace TMPro {

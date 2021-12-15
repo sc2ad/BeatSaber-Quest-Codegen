@@ -20,7 +20,7 @@ namespace RootMotion {
   // Forward declaring type: QuaTools
   class QuaTools;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::QuaTools);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::QuaTools*, "RootMotion", "QuaTools");
 // Type namespace: RootMotion

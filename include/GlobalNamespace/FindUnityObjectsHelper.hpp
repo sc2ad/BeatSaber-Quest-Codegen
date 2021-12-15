@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FindUnityObjectsHelper
   class FindUnityObjectsHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FindUnityObjectsHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityObjectsHelper");
 // Type namespace: 

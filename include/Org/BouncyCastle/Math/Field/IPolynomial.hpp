@@ -4,14 +4,14 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.Field
 namespace Org::BouncyCastle::Math::Field {
   // Forward declaring type: IPolynomial
   class IPolynomial;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::Field::IPolynomial);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomial*, "Org.BouncyCastle.Math.Field", "IPolynomial");
 // Type namespace: Org.BouncyCastle.Math.Field

@@ -8,7 +8,7 @@
 // Including type: UnityEngine.Timeline.TimelineClip
 #include "UnityEngine/Timeline/TimelineClip.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::TimelineClipUpgrade*, "UnityEngine.Timeline", "TimelineClip/TimelineClipUpgrade");
 // Type namespace: UnityEngine.Timeline

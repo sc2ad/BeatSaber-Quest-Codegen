@@ -33,7 +33,7 @@ namespace Oculus::Platform {
   // Forward declaring type: WindowsPlatform
   class WindowsPlatform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::WindowsPlatform);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
 // Type namespace: Oculus.Platform

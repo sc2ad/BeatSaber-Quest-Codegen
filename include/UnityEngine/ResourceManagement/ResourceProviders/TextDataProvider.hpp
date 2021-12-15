@@ -29,7 +29,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: TextDataProvider
   class TextDataProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

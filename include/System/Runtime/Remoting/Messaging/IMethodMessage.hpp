@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessage
 #include "System/Runtime/Remoting/Messaging/IMessage.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: IMethodMessage
   class IMethodMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMethodMessage);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMethodMessage*, "System.Runtime.Remoting.Messaging", "IMethodMessage");
 // Type namespace: System.Runtime.Remoting.Messaging

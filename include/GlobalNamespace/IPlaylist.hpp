@@ -12,7 +12,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IPlaylist
   class IPlaylist;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IPlaylist);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPlaylist*, "", "IPlaylist");
 // Type namespace: 

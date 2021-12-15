@@ -24,7 +24,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: BaseTypeRequiredAttribute
   class BaseTypeRequiredAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::BaseTypeRequiredAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");
 // Type namespace: JetBrains.Annotations

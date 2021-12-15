@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: CustomYieldInstruction
   class CustomYieldInstruction;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CustomYieldInstruction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CustomYieldInstruction*, "UnityEngine", "CustomYieldInstruction");
 // Type namespace: UnityEngine

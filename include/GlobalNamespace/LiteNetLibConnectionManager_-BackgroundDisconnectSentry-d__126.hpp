@@ -18,7 +18,7 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::$BackgroundDisconnectSentry$d__126, "", "LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__126");
 // Type namespace: 
 namespace GlobalNamespace {

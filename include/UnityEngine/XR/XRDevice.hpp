@@ -26,7 +26,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: XRDevice
   class XRDevice;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::XR::XRDevice);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
 // Type namespace: UnityEngine.XR

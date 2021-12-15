@@ -44,7 +44,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: AsyncTaskMethodBuilder
   struct AsyncTaskMethodBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

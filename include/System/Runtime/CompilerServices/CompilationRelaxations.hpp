@@ -13,7 +13,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: CompilationRelaxations
   struct CompilationRelaxations;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxations, "System.Runtime.CompilerServices", "CompilationRelaxations");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

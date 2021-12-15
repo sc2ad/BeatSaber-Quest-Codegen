@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Forward declaring type: ICryptoTransform
   class ICryptoTransform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::ICryptoTransform);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::ICryptoTransform*, "System.Security.Cryptography", "ICryptoTransform");
 // Type namespace: System.Security.Cryptography

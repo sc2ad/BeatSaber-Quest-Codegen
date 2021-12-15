@@ -24,7 +24,7 @@ namespace Polyglot {
   // Forward declaring type: LocalizationDocument
   class LocalizationDocument;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Polyglot::LocalizationDocument);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");
 // Type namespace: Polyglot

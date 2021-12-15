@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: TriangulationMode
   struct TriangulationMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationMode");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {

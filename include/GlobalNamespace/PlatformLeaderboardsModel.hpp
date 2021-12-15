@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlatformLeaderboardsModel
   class PlatformLeaderboardsModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 // Type namespace: 
@@ -242,7 +242,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::get_initialized

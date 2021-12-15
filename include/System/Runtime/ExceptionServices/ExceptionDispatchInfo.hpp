@@ -22,7 +22,7 @@ namespace System::Runtime::ExceptionServices {
   // Forward declaring type: ExceptionDispatchInfo
   class ExceptionDispatchInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo*, "System.Runtime.ExceptionServices", "ExceptionDispatchInfo");
 // Type namespace: System.Runtime.ExceptionServices

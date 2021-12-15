@@ -69,7 +69,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVROverlay
   class CVROverlay;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVROverlay);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
 // Type namespace: OVR.OpenVR

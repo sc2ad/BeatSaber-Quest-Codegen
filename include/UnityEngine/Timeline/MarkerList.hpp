@@ -49,7 +49,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: MarkerList
   struct MarkerList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

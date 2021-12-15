@@ -23,7 +23,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: ActionResult
   class ActionResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::ActionResult);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 // Type namespace: UnityEngine.ProBuilder
@@ -157,7 +157,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ActionResult), 24 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_ActionResultSizeCheck;
   static_assert(sizeof(ActionResult) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_status

@@ -52,7 +52,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NetEaseArcadeFlowCoordinator
   class NetEaseArcadeFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NetEaseArcadeFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator*, "", "NetEaseArcadeFlowCoordinator");
 // Type namespace: 

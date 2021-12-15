@@ -41,7 +41,7 @@ namespace System::Runtime::CompilerServices {
   template<typename TResult>
   struct AsyncTaskMethodBuilder_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder`1");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

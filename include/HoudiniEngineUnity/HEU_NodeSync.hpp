@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_NodeSync
   class HEU_NodeSync;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_NodeSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_NodeSync*, "HoudiniEngineUnity", "HEU_NodeSync");
 // Type namespace: HoudiniEngineUnity

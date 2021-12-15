@@ -18,7 +18,7 @@ namespace UnityEngine {
   // Forward declaring type: Cursor
   class Cursor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Cursor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cursor*, "UnityEngine", "Cursor");
 // Type namespace: UnityEngine

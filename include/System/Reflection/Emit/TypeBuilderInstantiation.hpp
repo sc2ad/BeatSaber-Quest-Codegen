@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.TypeInfo
 #include "System/Reflection/TypeInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -20,7 +20,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: TypeBuilderInstantiation
   class TypeBuilderInstantiation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::TypeBuilderInstantiation);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "System.Reflection.Emit", "TypeBuilderInstantiation");
 // Type namespace: System.Reflection.Emit

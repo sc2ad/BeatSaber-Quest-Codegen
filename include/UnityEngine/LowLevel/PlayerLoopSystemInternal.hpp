@@ -21,7 +21,7 @@ namespace UnityEngine::LowLevel {
   // Forward declaring type: PlayerLoopSystemInternal
   struct PlayerLoopSystemInternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystemInternal, "UnityEngine.LowLevel", "PlayerLoopSystemInternal");
 // Type namespace: UnityEngine.LowLevel
 namespace UnityEngine::LowLevel {

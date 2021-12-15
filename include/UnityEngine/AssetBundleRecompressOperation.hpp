@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: AssetBundleRecompressOperation
   class AssetBundleRecompressOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AssetBundleRecompressOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
 // Type namespace: UnityEngine

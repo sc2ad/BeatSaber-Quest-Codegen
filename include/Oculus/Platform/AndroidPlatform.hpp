@@ -28,7 +28,7 @@ namespace Oculus::Platform {
   // Forward declaring type: AndroidPlatform
   class AndroidPlatform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::AndroidPlatform);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AndroidPlatform*, "Oculus.Platform", "AndroidPlatform");
 // Type namespace: Oculus.Platform

@@ -34,7 +34,7 @@ namespace TMPro {
   // Forward declaring type: TMP_DefaultControls
   class TMP_DefaultControls;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_DefaultControls);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls*, "TMPro", "TMP_DefaultControls");
 // Type namespace: TMPro

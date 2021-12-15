@@ -46,7 +46,7 @@ namespace System::Linq {
   template<typename TSource, typename TKey, typename TElement>
   class GroupedEnumerable_3;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::GroupedEnumerable_3, "System.Linq", "GroupedEnumerable`3");
 // Type namespace: System.Linq
 namespace System::Linq {

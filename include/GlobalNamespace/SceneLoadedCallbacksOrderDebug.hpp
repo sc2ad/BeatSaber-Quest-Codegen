@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SceneLoadedCallbacksOrderDebug
   class SceneLoadedCallbacksOrderDebug;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SceneLoadedCallbacksOrderDebug);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug*, "", "SceneLoadedCallbacksOrderDebug");
 // Type namespace: 

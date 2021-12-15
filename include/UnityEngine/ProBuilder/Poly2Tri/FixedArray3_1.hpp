@@ -31,7 +31,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   template<typename T>
   struct FixedArray3_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1, "UnityEngine.ProBuilder.Poly2Tri", "FixedArray3`1");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {

@@ -27,7 +27,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationMotionXToDeltaPlayable
   struct AnimationMotionXToDeltaPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {

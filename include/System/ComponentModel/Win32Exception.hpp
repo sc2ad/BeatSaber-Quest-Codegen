@@ -30,7 +30,7 @@ namespace System::ComponentModel {
   // Forward declaring type: Win32Exception
   class Win32Exception;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::Win32Exception);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Win32Exception*, "System.ComponentModel", "Win32Exception");
 // Type namespace: System.ComponentModel

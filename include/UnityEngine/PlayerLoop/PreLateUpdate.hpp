@@ -17,7 +17,7 @@ namespace UnityEngine::PlayerLoop {
   // Forward declaring type: PreLateUpdate
   struct PreLateUpdate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PreLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {

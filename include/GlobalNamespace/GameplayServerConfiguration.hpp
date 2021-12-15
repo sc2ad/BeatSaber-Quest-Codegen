@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayServerConfiguration
   struct GameplayServerConfiguration;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // Forward declaring type: CryptoProObjectIdentifiers
   class CryptoProObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers*, "Org.BouncyCastle.Asn1.CryptoPro", "CryptoProObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.CryptoPro

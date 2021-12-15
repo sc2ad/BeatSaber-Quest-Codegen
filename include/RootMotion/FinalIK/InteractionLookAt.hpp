@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: InteractionLookAt
   class InteractionLookAt;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::InteractionLookAt);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");
 // Type namespace: RootMotion.FinalIK

@@ -35,7 +35,7 @@ namespace OnlineServices::API {
   // Forward declaring type: IApiLeaderboardsModel
   class IApiLeaderboardsModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::API::IApiLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IApiLeaderboardsModel*, "OnlineServices.API", "IApiLeaderboardsModel");
 // Type namespace: OnlineServices.API

@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: DTSweepBasin
   class DTSweepBasin;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

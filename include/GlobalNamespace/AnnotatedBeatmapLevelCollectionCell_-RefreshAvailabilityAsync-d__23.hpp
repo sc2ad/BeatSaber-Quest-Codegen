@@ -19,7 +19,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class IPreviewBeatmapLevel;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::$RefreshAvailabilityAsync$d__23, "", "AnnotatedBeatmapLevelCollectionCell/<RefreshAvailabilityAsync>d__23");
 // Type namespace: 
 namespace GlobalNamespace {

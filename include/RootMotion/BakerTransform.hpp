@@ -30,7 +30,7 @@ namespace RootMotion {
   // Forward declaring type: BakerTransform
   class BakerTransform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::BakerTransform);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
 // Type namespace: RootMotion

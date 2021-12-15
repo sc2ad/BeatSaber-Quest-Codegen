@@ -30,7 +30,7 @@ namespace UnityEngine::Tilemaps {
   // Forward declaring type: TileData
   struct TileData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileData, "UnityEngine.Tilemaps", "TileData");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {

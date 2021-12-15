@@ -9,7 +9,7 @@
 #include "System/Int32.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -38,7 +38,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Smoothing
   class Smoothing;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Smoothing);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing*, "UnityEngine.ProBuilder", "Smoothing");
 // Type namespace: UnityEngine.ProBuilder

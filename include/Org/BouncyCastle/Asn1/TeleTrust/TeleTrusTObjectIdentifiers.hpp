@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   // Forward declaring type: TeleTrusTObjectIdentifiers
   class TeleTrusTObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.TeleTrust

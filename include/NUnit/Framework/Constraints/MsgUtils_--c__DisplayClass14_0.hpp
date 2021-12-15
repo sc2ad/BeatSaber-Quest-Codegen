@@ -19,7 +19,7 @@ namespace NUnit::Framework::Constraints {
   class ValueFormatter;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_0*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_0");
 // Type namespace: NUnit.Framework.Constraints

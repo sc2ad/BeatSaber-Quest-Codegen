@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // Forward declaring type: HashSet
   class HashSet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::HashSet);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::HashSet*, "Org.BouncyCastle.Utilities.Collections", "HashSet");
 // Type namespace: Org.BouncyCastle.Utilities.Collections

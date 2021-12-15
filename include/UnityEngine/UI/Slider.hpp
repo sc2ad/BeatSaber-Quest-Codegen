@@ -53,7 +53,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Slider
   class Slider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Slider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider*, "UnityEngine.UI", "Slider");
 // Type namespace: UnityEngine.UI
@@ -461,7 +461,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Slider), 345 + sizeof(bool)> __UnityEngine_UI_SliderSizeCheck;
   static_assert(sizeof(Slider) == 0x15A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Slider::Direction, "UnityEngine.UI", "Slider/Direction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Slider::get_fillRect

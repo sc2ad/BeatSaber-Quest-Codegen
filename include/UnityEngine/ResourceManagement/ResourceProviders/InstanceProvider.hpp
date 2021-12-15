@@ -42,7 +42,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: InstanceProvider
   class InstanceProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "InstanceProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

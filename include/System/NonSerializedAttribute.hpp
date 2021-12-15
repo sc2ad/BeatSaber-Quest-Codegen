@@ -17,7 +17,7 @@ namespace System {
   // Forward declaring type: NonSerializedAttribute
   class NonSerializedAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::NonSerializedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::NonSerializedAttribute*, "System", "NonSerializedAttribute");
 // Type namespace: System

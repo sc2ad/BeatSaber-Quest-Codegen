@@ -39,7 +39,7 @@ namespace System::Net {
   // Forward declaring type: ServerCertValidationCallback
   class ServerCertValidationCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::ServerCertValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");
 // Type namespace: System.Net

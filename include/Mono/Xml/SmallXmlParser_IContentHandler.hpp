@@ -8,7 +8,7 @@
 // Including type: Mono.Xml.SmallXmlParser
 #include "Mono/Xml/SmallXmlParser.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Xml::SmallXmlParser::IContentHandler);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
 // Type namespace: Mono.Xml

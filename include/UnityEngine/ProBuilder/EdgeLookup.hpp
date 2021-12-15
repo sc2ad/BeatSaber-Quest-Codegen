@@ -37,7 +37,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: EdgeLookup
   struct EdgeLookup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

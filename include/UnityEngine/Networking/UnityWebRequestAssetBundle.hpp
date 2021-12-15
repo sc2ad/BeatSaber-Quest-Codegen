@@ -23,7 +23,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UnityWebRequestAssetBundle
   class UnityWebRequestAssetBundle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAssetBundle);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle*, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
 // Type namespace: UnityEngine.Networking

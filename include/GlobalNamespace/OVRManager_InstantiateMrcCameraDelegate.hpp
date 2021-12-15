@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: InstantiateMrcCameraDelegate
   class OVRManager_InstantiateMrcCameraDelegate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*, "", "OVRManager/InstantiateMrcCameraDelegate");
 // Type namespace: 

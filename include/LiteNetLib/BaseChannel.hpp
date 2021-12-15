@@ -30,7 +30,7 @@ namespace LiteNetLib {
   // Forward declaring type: BaseChannel
   class BaseChannel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::BaseChannel);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 // Type namespace: LiteNetLib

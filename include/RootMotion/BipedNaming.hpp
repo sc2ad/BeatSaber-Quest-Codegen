@@ -8,7 +8,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -22,7 +22,7 @@ namespace RootMotion {
   // Forward declaring type: BipedNaming
   class BipedNaming;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::BipedNaming);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming*, "RootMotion", "BipedNaming");
 // Type namespace: RootMotion
@@ -304,10 +304,10 @@ namespace RootMotion {
   }; // RootMotion.BipedNaming
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNaming/BoneSide");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneType, "RootMotion", "BipedNaming/BoneType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedNaming::_cctor
 // Il2CppName: .cctor

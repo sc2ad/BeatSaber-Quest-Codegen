@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: Oid
   class Oid;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::Oid);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
 // Type namespace: System.Security.Cryptography

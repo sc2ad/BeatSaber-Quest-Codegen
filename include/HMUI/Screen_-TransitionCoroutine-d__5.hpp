@@ -22,7 +22,7 @@ namespace HMUI {
   // Skipping declaration: ViewController because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::Screen::$TransitionCoroutine$d__5);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen::$TransitionCoroutine$d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");
 // Type namespace: HMUI

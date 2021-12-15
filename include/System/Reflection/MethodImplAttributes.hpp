@@ -13,7 +13,7 @@ namespace System::Reflection {
   // Forward declaring type: MethodImplAttributes
   struct MethodImplAttributes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodImplAttributes, "System.Reflection", "MethodImplAttributes");
 // Type namespace: System.Reflection
 namespace System::Reflection {

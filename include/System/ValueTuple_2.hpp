@@ -40,7 +40,7 @@ namespace System {
   template<typename T1, typename T2>
   struct ValueTuple_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ValueTuple_2, "System", "ValueTuple`2");
 // Type namespace: System
 namespace System {

@@ -41,7 +41,7 @@ namespace UnityEngine::EventSystems {
   class BaseEventData;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Dropdown::DropdownItem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownItem*, "UnityEngine.UI", "Dropdown/DropdownItem");
 // Type namespace: UnityEngine.UI

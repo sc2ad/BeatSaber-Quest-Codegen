@@ -33,7 +33,7 @@ namespace System::Reflection {
   // Forward declaring type: Pointer
   class Pointer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Pointer);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Pointer*, "System.Reflection", "Pointer");
 // Type namespace: System.Reflection

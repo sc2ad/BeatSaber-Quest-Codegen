@@ -20,7 +20,7 @@ namespace UnityEngine::U2D {
   // Forward declaring type: SpriteAtlas
   class SpriteAtlas;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::U2D::SpriteAtlas);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas*, "UnityEngine.U2D", "SpriteAtlas");
 // Type namespace: UnityEngine.U2D

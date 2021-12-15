@@ -13,7 +13,7 @@ namespace System::Net {
   // Forward declaring type: ReadState
   struct ReadState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ReadState, "System.Net", "ReadState");
 // Type namespace: System.Net
 namespace System::Net {

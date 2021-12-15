@@ -59,7 +59,7 @@ namespace HMUI {
   // Forward declaring type: InputFieldView
   class InputFieldView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::InputFieldView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 // Type namespace: HMUI
@@ -396,7 +396,7 @@ namespace HMUI {
   static check_size<sizeof(InputFieldView), 368 + sizeof(UnityEngine::YieldInstruction*)> __HMUI_InputFieldViewSizeCheck;
   static_assert(sizeof(InputFieldView) == 0x178);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_selectionState

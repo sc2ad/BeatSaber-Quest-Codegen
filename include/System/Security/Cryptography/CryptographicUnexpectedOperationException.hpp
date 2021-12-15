@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: CryptographicUnexpectedOperationException
   class CryptographicUnexpectedOperationException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::CryptographicUnexpectedOperationException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicUnexpectedOperationException*, "System.Security.Cryptography", "CryptographicUnexpectedOperationException");
 // Type namespace: System.Security.Cryptography

@@ -49,7 +49,7 @@ namespace System::Security::Claims {
   // Forward declaring type: ClaimsPrincipal
   class ClaimsPrincipal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Claims::ClaimsPrincipal);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
 // Type namespace: System.Security.Claims

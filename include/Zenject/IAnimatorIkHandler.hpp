@@ -10,7 +10,7 @@ namespace Zenject {
   // Forward declaring type: IAnimatorIkHandler
   class IAnimatorIkHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::IAnimatorIkHandler);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
 // Type namespace: Zenject

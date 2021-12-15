@@ -17,7 +17,7 @@ namespace System::Text {
   // Forward declaring type: EncoderExceptionFallbackBuffer
   class EncoderExceptionFallbackBuffer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::EncoderExceptionFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");
 // Type namespace: System.Text

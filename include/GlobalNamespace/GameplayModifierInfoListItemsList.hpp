@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayModifierInfoListItemsList
   class GameplayModifierInfoListItemsList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayModifierInfoListItemsList);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItemsList*, "", "GameplayModifierInfoListItemsList");
 // Type namespace: 

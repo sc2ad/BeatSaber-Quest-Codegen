@@ -53,7 +53,7 @@ namespace System::Collections::Specialized {
   // Forward declaring type: NameObjectCollectionBase
   class NameObjectCollectionBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase*, "System.Collections.Specialized", "NameObjectCollectionBase");
 // Type namespace: System.Collections.Specialized

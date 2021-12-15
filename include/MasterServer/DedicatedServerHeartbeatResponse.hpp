@@ -34,7 +34,7 @@ namespace MasterServer {
   // Forward declaring type: DedicatedServerHeartbeatResponse
   class DedicatedServerHeartbeatResponse;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::DedicatedServerHeartbeatResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerHeartbeatResponse*, "MasterServer", "DedicatedServerHeartbeatResponse");
 // Type namespace: MasterServer

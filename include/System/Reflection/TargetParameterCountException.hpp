@@ -24,7 +24,7 @@ namespace System::Reflection {
   // Forward declaring type: TargetParameterCountException
   class TargetParameterCountException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::TargetParameterCountException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetParameterCountException*, "System.Reflection", "TargetParameterCountException");
 // Type namespace: System.Reflection

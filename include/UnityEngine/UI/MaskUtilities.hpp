@@ -37,7 +37,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: MaskUtilities
   class MaskUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::MaskUtilities);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskUtilities");
 // Type namespace: UnityEngine.UI

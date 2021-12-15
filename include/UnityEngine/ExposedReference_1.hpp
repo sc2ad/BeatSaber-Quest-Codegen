@@ -28,7 +28,7 @@ namespace UnityEngine {
   template<typename T>
   struct ExposedReference_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ExposedReference_1, "UnityEngine", "ExposedReference`1");
 // Type namespace: UnityEngine
 namespace UnityEngine {

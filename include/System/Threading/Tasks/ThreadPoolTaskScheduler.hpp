@@ -29,7 +29,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: ThreadPoolTaskScheduler
   class ThreadPoolTaskScheduler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::ThreadPoolTaskScheduler);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
 // Type namespace: System.Threading.Tasks

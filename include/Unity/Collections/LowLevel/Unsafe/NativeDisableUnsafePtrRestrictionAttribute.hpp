@@ -17,7 +17,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: NativeDisableUnsafePtrRestrictionAttribute
   class NativeDisableUnsafePtrRestrictionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableUnsafePtrRestrictionAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

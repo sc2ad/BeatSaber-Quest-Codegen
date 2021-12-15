@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayModifiersModelSO
   class GameplayModifiersModelSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayModifiersModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "GameplayModifiersModelSO");
 // Type namespace: 

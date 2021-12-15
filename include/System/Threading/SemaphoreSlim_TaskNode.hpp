@@ -21,7 +21,7 @@ namespace System::Threading {
   class ThreadAbortException;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::SemaphoreSlim::TaskNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::TaskNode*, "System.Threading", "SemaphoreSlim/TaskNode");
 // Type namespace: System.Threading

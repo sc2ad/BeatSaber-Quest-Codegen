@@ -8,7 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.RuntimeTypeHandle
 #include "System/RuntimeTypeHandle.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -25,7 +25,7 @@ namespace System {
   // Forward declaring type: TypedReference
   struct TypedReference;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
 // Type namespace: System
 namespace System {

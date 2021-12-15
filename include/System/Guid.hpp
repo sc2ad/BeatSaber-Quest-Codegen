@@ -15,7 +15,7 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -34,7 +34,7 @@ namespace System {
   // Forward declaring type: Guid
   struct Guid;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 // Type namespace: System
 namespace System {

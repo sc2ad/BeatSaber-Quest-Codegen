@@ -23,7 +23,7 @@ namespace System {
   // Forward declaring type: StringComparer
   class StringComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::StringComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::StringComparer*, "System", "StringComparer");
 // Type namespace: System

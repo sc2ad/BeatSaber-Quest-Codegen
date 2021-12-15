@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: UnityTestTimeoutException
   class UnityTestTimeoutException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*, "UnityEngine.TestTools.TestRunner", "UnityTestTimeoutException");
 // Type namespace: UnityEngine.TestTools.TestRunner

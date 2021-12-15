@@ -15,7 +15,7 @@ namespace Mono {
   // Forward declaring type: MonoAssemblyName
   struct MonoAssemblyName;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 // Type namespace: Mono
 namespace Mono {
@@ -181,6 +181,6 @@ namespace Mono {
   static check_size<sizeof(MonoAssemblyName), 72 + sizeof(uint16_t)> __Mono_MonoAssemblyNameSizeCheck;
   static_assert(sizeof(MonoAssemblyName) == 0x4A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

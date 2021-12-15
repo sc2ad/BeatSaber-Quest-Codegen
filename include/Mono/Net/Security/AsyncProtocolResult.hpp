@@ -22,7 +22,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: AsyncProtocolResult
   class AsyncProtocolResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::AsyncProtocolResult);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
 // Type namespace: Mono.Net.Security

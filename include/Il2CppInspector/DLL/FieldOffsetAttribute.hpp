@@ -17,7 +17,7 @@ namespace Il2CppInspector::DLL {
   // Forward declaring type: FieldOffsetAttribute
   class FieldOffsetAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Il2CppInspector::DLL::FieldOffsetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Il2CppInspector::DLL::FieldOffsetAttribute*, "Il2CppInspector.DLL", "FieldOffsetAttribute");
 // Type namespace: Il2CppInspector.DLL

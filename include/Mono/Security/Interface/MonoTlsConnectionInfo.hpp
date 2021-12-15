@@ -19,7 +19,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: MonoTlsConnectionInfo
   class MonoTlsConnectionInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Interface::MonoTlsConnectionInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
 // Type namespace: Mono.Security.Interface

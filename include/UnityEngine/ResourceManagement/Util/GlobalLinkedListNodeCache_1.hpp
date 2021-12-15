@@ -30,7 +30,7 @@ namespace UnityEngine::ResourceManagement::Util {
   template<typename T>
   class GlobalLinkedListNodeCache_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1, "UnityEngine.ResourceManagement.Util", "GlobalLinkedListNodeCache`1");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {

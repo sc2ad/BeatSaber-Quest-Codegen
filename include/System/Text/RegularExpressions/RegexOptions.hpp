@@ -13,7 +13,7 @@ namespace System::Text::RegularExpressions {
   // Forward declaring type: RegexOptions
   struct RegexOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {

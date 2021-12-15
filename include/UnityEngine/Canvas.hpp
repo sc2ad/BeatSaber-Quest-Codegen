@@ -32,7 +32,7 @@ namespace UnityEngine {
   // Forward declaring type: Canvas
   class Canvas;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Canvas);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas*, "UnityEngine", "Canvas");
 // Type namespace: UnityEngine

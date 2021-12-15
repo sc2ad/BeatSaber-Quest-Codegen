@@ -17,7 +17,7 @@ namespace HMUI {
   // Forward declaring type: CustomFormatRangeValuesSlider
   class CustomFormatRangeValuesSlider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::CustomFormatRangeValuesSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CustomFormatRangeValuesSlider*, "HMUI", "CustomFormatRangeValuesSlider");
 // Type namespace: HMUI

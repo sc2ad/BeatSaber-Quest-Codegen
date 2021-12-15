@@ -17,7 +17,7 @@
 // Including type: NetEase.Docker.ReceivedHighscoreData
 #include "NetEase/Docker/ReceivedHighscoreData.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15, "", "NetEaseLeaderboardViewController/<LoadScoresAsync>d__15");
 // Type namespace: 
 namespace GlobalNamespace {

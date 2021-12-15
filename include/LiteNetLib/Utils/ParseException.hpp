@@ -17,7 +17,7 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: ParseException
   class ParseException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::Utils::ParseException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");
 // Type namespace: LiteNetLib.Utils

@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParameters;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2tnb191v1Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves::C2tnb191v1Holder*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves/C2tnb191v1Holder");
 // Type namespace: Org.BouncyCastle.Asn1.X9

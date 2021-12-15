@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: NetSyncSession
   class NetSyncSession;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::NetSyncSession);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSession*, "Oculus.Platform.Models", "NetSyncSession");
 // Type namespace: Oculus.Platform.Models

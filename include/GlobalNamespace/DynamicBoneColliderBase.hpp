@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DynamicBoneColliderBase
   class DynamicBoneColliderBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DynamicBoneColliderBase);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 // Type namespace: 
@@ -181,10 +181,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(DynamicBoneColliderBase), 40 + sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound)> __GlobalNamespace_DynamicBoneColliderBaseSizeCheck;
   static_assert(sizeof(DynamicBoneColliderBase) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::Collide
 // Il2CppName: Collide

@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: AbuseReportOptions
   class AbuseReportOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::AbuseReportOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform", "AbuseReportOptions");
 // Type namespace: Oculus.Platform

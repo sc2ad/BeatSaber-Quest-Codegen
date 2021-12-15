@@ -35,7 +35,7 @@ namespace System::Resources {
   // Forward declaring type: ManifestBasedResourceGroveler
   class ManifestBasedResourceGroveler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Resources::ManifestBasedResourceGroveler);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "System.Resources", "ManifestBasedResourceGroveler");
 // Type namespace: System.Resources

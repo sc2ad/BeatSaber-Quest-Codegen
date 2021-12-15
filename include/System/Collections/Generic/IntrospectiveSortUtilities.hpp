@@ -11,7 +11,7 @@ namespace System::Collections::Generic {
   // Forward declaring type: IntrospectiveSortUtilities
   class IntrospectiveSortUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Generic::IntrospectiveSortUtilities);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::IntrospectiveSortUtilities*, "System.Collections.Generic", "IntrospectiveSortUtilities");
 // Type namespace: System.Collections.Generic

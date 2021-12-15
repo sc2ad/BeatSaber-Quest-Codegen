@@ -35,7 +35,7 @@ namespace System::Globalization {
   // Forward declaring type: TextInfo
   class TextInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::TextInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfo*, "System.Globalization", "TextInfo");
 // Type namespace: System.Globalization

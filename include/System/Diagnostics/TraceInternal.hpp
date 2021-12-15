@@ -18,7 +18,7 @@ namespace System::Diagnostics {
   // Forward declaring type: TraceInternal
   class TraceInternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::TraceInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
 // Type namespace: System.Diagnostics

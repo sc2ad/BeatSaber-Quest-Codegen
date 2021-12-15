@@ -13,7 +13,7 @@ namespace Unity::Collections {
   // Forward declaring type: NativeDisableParallelForRestrictionAttribute
   class NativeDisableParallelForRestrictionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::NativeDisableParallelForRestrictionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeDisableParallelForRestrictionAttribute*, "Unity.Collections", "NativeDisableParallelForRestrictionAttribute");
 // Type namespace: Unity.Collections

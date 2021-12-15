@@ -15,7 +15,7 @@ namespace TMPro {
   // Forward declaring type: FaceInfo_Legacy
   class FaceInfo_Legacy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::FaceInfo_Legacy);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
 // Type namespace: TMPro

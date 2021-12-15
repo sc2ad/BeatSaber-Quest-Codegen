@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_TOPNodeData
   class HEU_TOPNodeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPNodeData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNodeData*, "HoudiniEngineUnity", "HEU_TOPNodeData");
 // Type namespace: HoudiniEngineUnity
@@ -230,7 +230,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_TOPNodeData), 72 + sizeof(HoudiniEngineUnity::HEU_WorkItemTally*)> __HoudiniEngineUnity_HEU_TOPNodeDataSizeCheck;
   static_assert(sizeof(HEU_TOPNodeData) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNodeData::PDGState, "HoudiniEngineUnity", "HEU_TOPNodeData/PDGState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TOPNodeData::Reset

@@ -38,7 +38,7 @@ namespace System {
   template<typename T1, typename T2, typename T3>
   class Tuple_3;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Tuple_3, "System", "Tuple`3");
 // Type namespace: System
 namespace System {

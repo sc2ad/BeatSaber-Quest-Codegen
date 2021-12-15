@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: LocalizationRequiredAttribute
   class LocalizationRequiredAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::LocalizationRequiredAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
 // Type namespace: JetBrains.Annotations

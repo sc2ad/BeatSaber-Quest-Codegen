@@ -28,7 +28,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: CryptographicException
   class CryptographicException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::CryptographicException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptographicException*, "System.Security.Cryptography", "CryptographicException");
 // Type namespace: System.Security.Cryptography

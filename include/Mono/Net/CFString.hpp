@@ -24,7 +24,7 @@ namespace Mono::Net {
   // Forward declaring type: CFString
   class CFString;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFString);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFString*, "Mono.Net", "CFString");
 // Type namespace: Mono.Net

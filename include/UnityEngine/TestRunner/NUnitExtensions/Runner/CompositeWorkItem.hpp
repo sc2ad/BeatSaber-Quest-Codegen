@@ -59,7 +59,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Forward declaring type: CompositeWorkItem
   class CompositeWorkItem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner

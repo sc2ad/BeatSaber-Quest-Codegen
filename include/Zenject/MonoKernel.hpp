@@ -30,7 +30,7 @@ namespace Zenject {
   // Forward declaring type: MonoKernel
   class MonoKernel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::MonoKernel);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");
 // Type namespace: Zenject

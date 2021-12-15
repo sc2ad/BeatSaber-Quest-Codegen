@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // Forward declaring type: INoteMirrorable
   class INoteMirrorable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::INoteMirrorable);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
 // Type namespace: 

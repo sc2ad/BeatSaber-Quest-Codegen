@@ -28,7 +28,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVROverlay::_ShowKeyboardForOverlay);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ShowKeyboardForOverlay*, "Valve.VR", "IVROverlay/_ShowKeyboardForOverlay");
 // Type namespace: Valve.VR

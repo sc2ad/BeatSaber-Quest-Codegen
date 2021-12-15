@@ -45,7 +45,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: SelectionPicker
   class SelectionPicker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPicker);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPicker*, "UnityEngine.ProBuilder", "SelectionPicker");
 // Type namespace: UnityEngine.ProBuilder

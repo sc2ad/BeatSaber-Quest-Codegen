@@ -17,7 +17,7 @@ namespace HMUI {
   // Forward declaring type: ItemForFocussedScrolling
   class ItemForFocussedScrolling;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ItemForFocussedScrolling);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ItemForFocussedScrolling*, "HMUI", "ItemForFocussedScrolling");
 // Type namespace: HMUI

@@ -18,7 +18,7 @@ namespace System::Linq {
   // Forward declaring type: Error
   class Error;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Linq::Error);
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error*, "System.Linq", "Error");
 // Type namespace: System.Linq

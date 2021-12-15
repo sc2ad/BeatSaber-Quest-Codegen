@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVROverlayError
   struct EVROverlayError;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVROverlayError, "OVR.OpenVR", "EVROverlayError");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

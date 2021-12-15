@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FakeMirrorSettings
   class FakeMirrorSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FakeMirrorSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
 // Type namespace: 

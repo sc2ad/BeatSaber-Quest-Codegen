@@ -36,7 +36,7 @@ namespace UnityEngine {
   // Forward declaring type: CanvasRenderer
   class CanvasRenderer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CanvasRenderer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRenderer");
 // Type namespace: UnityEngine

@@ -13,7 +13,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: TestStatus
   struct TestStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestStatus, "NUnit.Framework.Interfaces", "TestStatus");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

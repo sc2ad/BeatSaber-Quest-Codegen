@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Camera
   class SteamVR_Camera;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Camera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Camera*, "", "SteamVR_Camera");
 // Type namespace: 

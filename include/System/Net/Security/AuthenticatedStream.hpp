@@ -17,7 +17,7 @@ namespace System::Net::Security {
   // Forward declaring type: AuthenticatedStream
   class AuthenticatedStream;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Security::AuthenticatedStream);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");
 // Type namespace: System.Net.Security

@@ -22,7 +22,7 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Ice::FloorLightStreakTileEffect::Element);
 DEFINE_IL2CPP_ARG_TYPE(Ice::FloorLightStreakTileEffect::Element*, "Ice", "FloorLightStreakTileEffect/Element");
 // Type namespace: Ice

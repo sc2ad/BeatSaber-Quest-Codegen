@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Math::Field {
   // Forward declaring type: GenericPolynomialExtensionField
   class GenericPolynomialExtensionField;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");
 // Type namespace: Org.BouncyCastle.Math.Field

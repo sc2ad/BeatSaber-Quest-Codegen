@@ -13,7 +13,7 @@ namespace LiteNetLib {
   // Forward declaring type: DeliveryMethod
   struct DeliveryMethod;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DeliveryMethod, "LiteNetLib", "DeliveryMethod");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {

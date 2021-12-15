@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // Forward declaring type: IsoTrailers
   class IsoTrailers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::IsoTrailers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IsoTrailers*, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");
 // Type namespace: Org.BouncyCastle.Crypto.Signers

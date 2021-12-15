@@ -28,7 +28,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: ShoulderRotator
   class ShoulderRotator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::ShoulderRotator);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");
 // Type namespace: RootMotion.FinalIK

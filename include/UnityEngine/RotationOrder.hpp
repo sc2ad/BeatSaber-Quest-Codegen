@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: RotationOrder
   struct RotationOrder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RotationOrder, "UnityEngine", "RotationOrder");
 // Type namespace: UnityEngine
 namespace UnityEngine {

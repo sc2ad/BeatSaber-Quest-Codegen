@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BTSCharacterSpawnEventValueParser
   class BTSCharacterSpawnEventValueParser;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnEventValueParser);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");
 // Type namespace: 

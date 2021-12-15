@@ -15,7 +15,7 @@ namespace Assets::OVR::Scripts {
   // Forward declaring type: Record
   class Record;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Assets::OVR::Scripts::Record);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
 // Type namespace: Assets.OVR.Scripts

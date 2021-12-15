@@ -17,7 +17,7 @@
 // Including type: NetEase.Docker.LogoutData
 #include "NetEase/Docker/LogoutData.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$LogoutAsync$d__20, "", "NetEaseArcadeFlowCoordinator/<LogoutAsync>d__20");
 // Type namespace: 
 namespace GlobalNamespace {

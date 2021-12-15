@@ -14,7 +14,7 @@ namespace UnityEngine {
   // Skipping declaration: MonoBehaviour because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GridView::IDataSource);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView::IDataSource*, "", "GridView/IDataSource");
 // Type namespace: 

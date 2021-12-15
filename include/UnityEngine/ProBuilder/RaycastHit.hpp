@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: RaycastHit
   class RaycastHit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::RaycastHit);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
 // Type namespace: UnityEngine.ProBuilder

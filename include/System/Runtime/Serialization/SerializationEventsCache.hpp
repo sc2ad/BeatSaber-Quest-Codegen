@@ -28,7 +28,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationEventsCache
   class SerializationEventsCache;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::SerializationEventsCache);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventsCache*, "System.Runtime.Serialization", "SerializationEventsCache");
 // Type namespace: System.Runtime.Serialization

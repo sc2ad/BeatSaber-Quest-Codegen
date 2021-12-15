@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EyeTextureFormat
   struct OVRManager_EyeTextureFormat;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_EyeTextureFormat, "", "OVRManager/EyeTextureFormat");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -31,7 +31,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: RuntimeClip
   class RuntimeClip;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::RuntimeClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClip*, "UnityEngine.Timeline", "RuntimeClip");
 // Type namespace: UnityEngine.Timeline

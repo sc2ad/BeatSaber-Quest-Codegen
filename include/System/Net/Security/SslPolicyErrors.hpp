@@ -13,7 +13,7 @@ namespace System::Net::Security {
   // Forward declaring type: SslPolicyErrors
   struct SslPolicyErrors;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");
 // Type namespace: System.Net.Security
 namespace System::Net::Security {

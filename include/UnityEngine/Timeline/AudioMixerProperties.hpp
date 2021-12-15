@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: AudioMixerProperties
   class AudioMixerProperties;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::AudioMixerProperties);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioMixerProperties*, "UnityEngine.Timeline", "AudioMixerProperties");
 // Type namespace: UnityEngine.Timeline

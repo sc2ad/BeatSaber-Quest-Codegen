@@ -15,7 +15,7 @@ namespace Microsoft::Win32 {
   // Forward declaring type: ExpandString
   class ExpandString;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::ExpandString);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
 // Type namespace: Microsoft.Win32

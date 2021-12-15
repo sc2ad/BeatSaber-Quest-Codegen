@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Math::EC {
   // Forward declaring type: AbstractFpCurve
   class AbstractFpCurve;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractFpCurve);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.BouncyCastle.Math.EC", "AbstractFpCurve");
 // Type namespace: Org.BouncyCastle.Math.EC

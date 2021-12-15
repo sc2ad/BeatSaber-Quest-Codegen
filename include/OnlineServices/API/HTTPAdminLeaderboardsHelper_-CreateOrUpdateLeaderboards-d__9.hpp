@@ -17,9 +17,9 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$CreateOrUpdateLeaderboards$d__9, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<CreateOrUpdateLeaderboards>d__9");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

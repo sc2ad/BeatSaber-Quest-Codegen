@@ -36,7 +36,7 @@ namespace System::Collections::Generic {
   class IReadOnlyList_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$UserAuthenticationDataAsync$d__3, "", "UserLoginDtoDataSource/<UserAuthenticationDataAsync>d__3");
 // Type namespace: 
 namespace GlobalNamespace {

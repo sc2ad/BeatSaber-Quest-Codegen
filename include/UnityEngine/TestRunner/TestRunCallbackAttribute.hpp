@@ -25,7 +25,7 @@ namespace UnityEngine::TestRunner {
   // Forward declaring type: TestRunCallbackAttribute
   class TestRunCallbackAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::TestRunCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestRunCallbackAttribute*, "UnityEngine.TestRunner", "TestRunCallbackAttribute");
 // Type namespace: UnityEngine.TestRunner

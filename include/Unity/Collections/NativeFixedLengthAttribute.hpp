@@ -13,7 +13,7 @@ namespace Unity::Collections {
   // Forward declaring type: NativeFixedLengthAttribute
   class NativeFixedLengthAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::NativeFixedLengthAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeFixedLengthAttribute*, "Unity.Collections", "NativeFixedLengthAttribute");
 // Type namespace: Unity.Collections

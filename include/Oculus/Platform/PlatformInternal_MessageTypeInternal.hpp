@@ -10,7 +10,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

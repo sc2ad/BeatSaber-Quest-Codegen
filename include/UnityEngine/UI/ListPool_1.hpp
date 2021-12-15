@@ -30,7 +30,7 @@ namespace UnityEngine::UI {
   template<typename T>
   class ListPool_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UI::ListPool_1, "UnityEngine.UI", "ListPool`1");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

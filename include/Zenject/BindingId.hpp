@@ -25,7 +25,7 @@ namespace Zenject {
   // Forward declaring type: BindingId
   struct BindingId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingId, "Zenject", "BindingId");
 // Type namespace: Zenject
 namespace Zenject {

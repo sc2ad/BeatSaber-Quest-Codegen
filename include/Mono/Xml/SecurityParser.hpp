@@ -31,7 +31,7 @@ namespace Mono::Xml {
   // Forward declaring type: SecurityParser
   class SecurityParser;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Xml::SecurityParser);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SecurityParser*, "Mono.Xml", "SecurityParser");
 // Type namespace: Mono.Xml

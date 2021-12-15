@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -35,7 +35,7 @@ namespace UnityEngine {
   // Forward declaring type: RectTransformUtility
   class RectTransformUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::RectTransformUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransformUtility*, "UnityEngine", "RectTransformUtility");
 // Type namespace: UnityEngine

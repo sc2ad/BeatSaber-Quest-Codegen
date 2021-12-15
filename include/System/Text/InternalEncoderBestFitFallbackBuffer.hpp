@@ -24,7 +24,7 @@ namespace System::Text {
   // Forward declaring type: InternalEncoderBestFitFallbackBuffer
   class InternalEncoderBestFitFallbackBuffer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::InternalEncoderBestFitFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallbackBuffer*, "System.Text", "InternalEncoderBestFitFallbackBuffer");
 // Type namespace: System.Text

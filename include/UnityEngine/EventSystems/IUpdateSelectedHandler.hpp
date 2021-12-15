@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IUpdateSelectedHandler
   class IUpdateSelectedHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IUpdateSelectedHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IUpdateSelectedHandler*, "UnityEngine.EventSystems", "IUpdateSelectedHandler");
 // Type namespace: UnityEngine.EventSystems

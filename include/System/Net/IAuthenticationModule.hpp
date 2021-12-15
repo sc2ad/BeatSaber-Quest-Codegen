@@ -24,7 +24,7 @@ namespace System::Net {
   // Forward declaring type: IAuthenticationModule
   class IAuthenticationModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::IAuthenticationModule);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");
 // Type namespace: System.Net

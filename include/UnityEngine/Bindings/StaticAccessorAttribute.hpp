@@ -19,7 +19,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: StaticAccessorAttribute
   class StaticAccessorAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::StaticAccessorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
 // Type namespace: UnityEngine.Bindings

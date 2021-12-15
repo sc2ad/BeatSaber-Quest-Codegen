@@ -33,7 +33,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: CheckCatalogsOperation
   class CheckCatalogsOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::CheckCatalogsOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::CheckCatalogsOperation*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation");
 // Type namespace: UnityEngine.AddressableAssets

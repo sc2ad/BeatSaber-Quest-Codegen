@@ -12,7 +12,7 @@
 // Including type: OVRPlugin/Posef
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
 // Type namespace: 
 namespace GlobalNamespace {

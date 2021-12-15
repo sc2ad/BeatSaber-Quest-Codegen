@@ -16,7 +16,7 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeviceConfigExperimentModel::$GetBooleanAsync$d__7, "", "OculusDeviceConfigExperimentModel/<GetBooleanAsync>d__7");
 // Type namespace: 
 namespace GlobalNamespace {

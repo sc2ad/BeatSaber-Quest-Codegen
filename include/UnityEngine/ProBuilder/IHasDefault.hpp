@@ -10,7 +10,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: IHasDefault
   class IHasDefault;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::IHasDefault);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");
 // Type namespace: UnityEngine.ProBuilder

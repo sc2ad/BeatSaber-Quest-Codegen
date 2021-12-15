@@ -15,7 +15,7 @@ namespace NUnit::Framework {
   // Forward declaring type: TheoryAttribute
   class TheoryAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::TheoryAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TheoryAttribute*, "NUnit.Framework", "TheoryAttribute");
 // Type namespace: NUnit.Framework

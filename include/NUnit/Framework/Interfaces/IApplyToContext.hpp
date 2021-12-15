@@ -17,7 +17,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IApplyToContext
   class IApplyToContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IApplyToContext);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToContext*, "NUnit.Framework.Interfaces", "IApplyToContext");
 // Type namespace: NUnit.Framework.Interfaces

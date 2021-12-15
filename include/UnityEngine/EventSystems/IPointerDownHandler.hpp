@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IPointerDownHandler
   class IPointerDownHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IPointerDownHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerDownHandler*, "UnityEngine.EventSystems", "IPointerDownHandler");
 // Type namespace: UnityEngine.EventSystems

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MenuDestination;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8, "", "MainMenuDestinationRequestController/<ProcessDestinationRequest>d__8");
 // Type namespace: 
 namespace GlobalNamespace {

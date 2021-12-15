@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: ChannelData
   class ChannelData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::ChannelData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
 // Type namespace: System.Runtime.Remoting

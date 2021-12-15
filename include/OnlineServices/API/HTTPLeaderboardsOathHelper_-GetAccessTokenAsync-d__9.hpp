@@ -27,7 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   class UserAuthenticationData;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<GetAccessTokenAsync>d__9");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

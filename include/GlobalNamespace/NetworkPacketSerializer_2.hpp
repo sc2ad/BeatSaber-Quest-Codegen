@@ -73,7 +73,7 @@ namespace GlobalNamespace {
   template<typename TType, typename TData>
   class NetworkPacketSerializer_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::NetworkPacketSerializer_2, "", "NetworkPacketSerializer`2");
 // Type namespace: 
 namespace GlobalNamespace {

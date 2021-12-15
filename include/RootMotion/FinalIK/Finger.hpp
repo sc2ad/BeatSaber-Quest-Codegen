@@ -33,7 +33,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: Finger
   class Finger;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::Finger);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger*, "RootMotion.FinalIK", "Finger");
 // Type namespace: RootMotion.FinalIK
@@ -296,7 +296,7 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(Finger), 156 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_FingerSizeCheck;
   static_assert(sizeof(Finger) == 0xA8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "Finger/DOF");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Finger::get_initiated

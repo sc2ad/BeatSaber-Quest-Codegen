@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapLevelFilterModel
   class BeatmapLevelFilterModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelFilterModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel*, "", "BeatmapLevelFilterModel");
 // Type namespace: 

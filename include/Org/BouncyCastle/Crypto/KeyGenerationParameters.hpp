@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: KeyGenerationParameters
   class KeyGenerationParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::KeyGenerationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");
 // Type namespace: Org.BouncyCastle.Crypto

@@ -13,7 +13,7 @@ namespace System::Net::Security {
   // Forward declaring type: AuthenticationLevel
   struct AuthenticationLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticationLevel, "System.Net.Security", "AuthenticationLevel");
 // Type namespace: System.Net.Security
 namespace System::Net::Security {

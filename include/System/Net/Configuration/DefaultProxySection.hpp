@@ -25,7 +25,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: DefaultProxySection
   class DefaultProxySection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Configuration::DefaultProxySection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::DefaultProxySection*, "System.Net.Configuration", "DefaultProxySection");
 // Type namespace: System.Net.Configuration

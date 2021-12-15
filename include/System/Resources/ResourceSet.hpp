@@ -35,7 +35,7 @@ namespace System::Resources {
   // Forward declaring type: ResourceSet
   class ResourceSet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Resources::ResourceSet);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceSet*, "System.Resources", "ResourceSet");
 // Type namespace: System.Resources

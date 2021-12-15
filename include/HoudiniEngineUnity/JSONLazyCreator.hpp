@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: JSONLazyCreator
   class JSONLazyCreator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONLazyCreator);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONLazyCreator*, "HoudiniEngineUnity", "JSONLazyCreator");
 // Type namespace: HoudiniEngineUnity

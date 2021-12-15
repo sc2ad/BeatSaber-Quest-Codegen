@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLobbyConnectionController
   class MultiplayerLobbyConnectionController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyConnectionController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "", "MultiplayerLobbyConnectionController");
 // Type namespace: 
@@ -328,10 +328,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLobbyConnectionController), 72 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyConnectionController) == 0x4C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionState
 // Il2CppName: get_connectionState

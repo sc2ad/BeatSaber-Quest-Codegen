@@ -34,7 +34,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: CanvasScaler
   class CanvasScaler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::CanvasScaler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler*, "UnityEngine.UI", "CanvasScaler");
 // Type namespace: UnityEngine.UI
@@ -459,12 +459,12 @@ namespace UnityEngine::UI {
   static check_size<sizeof(CanvasScaler), 84 + sizeof(float)> __UnityEngine_UI_CanvasScalerSizeCheck;
   static_assert(sizeof(CanvasScaler) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::Unit, "UnityEngine.UI", "CanvasScaler/Unit");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScreenMatchMode, "UnityEngine.UI", "CanvasScaler/ScreenMatchMode");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasScaler::ScaleMode, "UnityEngine.UI", "CanvasScaler/ScaleMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasScaler::get_uiScaleMode
 // Il2CppName: get_uiScaleMode

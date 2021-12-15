@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: JsonAssetProvider
   class JsonAssetProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "JsonAssetProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

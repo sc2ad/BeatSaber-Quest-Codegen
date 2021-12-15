@@ -26,7 +26,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: ScriptableRenderContext
   struct ScriptableRenderContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

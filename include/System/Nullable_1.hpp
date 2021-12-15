@@ -21,7 +21,7 @@ namespace System {
   template<typename T>
   struct Nullable_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Nullable_1, "System", "Nullable`1");
 // Type namespace: System
 namespace System {

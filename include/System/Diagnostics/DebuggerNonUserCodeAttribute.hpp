@@ -17,7 +17,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DebuggerNonUserCodeAttribute
   class DebuggerNonUserCodeAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::DebuggerNonUserCodeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerNonUserCodeAttribute*, "System.Diagnostics", "DebuggerNonUserCodeAttribute");
 // Type namespace: System.Diagnostics

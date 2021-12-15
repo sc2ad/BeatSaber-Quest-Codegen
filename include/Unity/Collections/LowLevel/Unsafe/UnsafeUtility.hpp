@@ -31,7 +31,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: UnsafeUtility
   class UnsafeUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

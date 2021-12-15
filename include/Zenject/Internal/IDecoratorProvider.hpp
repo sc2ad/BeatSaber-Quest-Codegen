@@ -28,7 +28,7 @@ namespace Zenject::Internal {
   // Forward declaring type: IDecoratorProvider
   class IDecoratorProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::IDecoratorProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider*, "Zenject.Internal", "IDecoratorProvider");
 // Type namespace: Zenject.Internal

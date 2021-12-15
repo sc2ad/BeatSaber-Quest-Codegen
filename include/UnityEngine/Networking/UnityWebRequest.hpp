@@ -42,7 +42,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UnityWebRequest
   class UnityWebRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UnityWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
 // Type namespace: UnityEngine.Networking

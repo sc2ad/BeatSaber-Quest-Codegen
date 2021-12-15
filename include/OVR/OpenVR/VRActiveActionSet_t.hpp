@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: VRActiveActionSet_t
   struct VRActiveActionSet_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRActiveActionSet_t, "OVR.OpenVR", "VRActiveActionSet_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

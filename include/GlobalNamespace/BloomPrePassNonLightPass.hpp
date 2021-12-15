@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BloomPrePassNonLightPass
   class BloomPrePassNonLightPass;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BloomPrePassNonLightPass);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 // Type namespace: 
@@ -186,7 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BloomPrePassNonLightPass), 28 + sizeof(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType)> __GlobalNamespace_BloomPrePassNonLightPassSizeCheck;
   static_assert(sizeof(BloomPrePassNonLightPass) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::get_executionTimeType

@@ -36,7 +36,7 @@ namespace System {
   // Forward declaring type: UriParser
   class UriParser;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::UriParser);
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 // Type namespace: System
@@ -307,7 +307,7 @@ namespace System {
   static check_size<sizeof(UriParser), 32 + sizeof(::Il2CppString*)> __System_UriParserSizeCheck;
   static_assert(sizeof(UriParser) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UriParser::get_SchemeName

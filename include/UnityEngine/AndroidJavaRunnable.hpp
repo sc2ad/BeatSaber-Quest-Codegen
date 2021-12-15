@@ -26,7 +26,7 @@ namespace UnityEngine {
   // Forward declaring type: AndroidJavaRunnable
   class AndroidJavaRunnable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AndroidJavaRunnable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaRunnable*, "UnityEngine", "AndroidJavaRunnable");
 // Type namespace: UnityEngine

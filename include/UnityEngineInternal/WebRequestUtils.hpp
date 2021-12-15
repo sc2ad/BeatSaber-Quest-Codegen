@@ -23,7 +23,7 @@ namespace UnityEngineInternal {
   // Forward declaring type: WebRequestUtils
   class WebRequestUtils;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngineInternal::WebRequestUtils);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");
 // Type namespace: UnityEngineInternal

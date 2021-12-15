@@ -11,14 +11,14 @@
 #include "UnityEngine/HumanBone.hpp"
 // Including type: UnityEngine.SkeletonBone
 #include "UnityEngine/SkeletonBone.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: HumanDescription
   struct HumanDescription;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");
 // Type namespace: UnityEngine
 namespace UnityEngine {

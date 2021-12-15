@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Skybox
   class SteamVR_Skybox;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Skybox);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 // Type namespace: 
@@ -211,7 +211,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_Skybox), 76 + sizeof(float)> __GlobalNamespace_SteamVR_SkyboxSizeCheck;
   static_assert(sizeof(SteamVR_Skybox) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex

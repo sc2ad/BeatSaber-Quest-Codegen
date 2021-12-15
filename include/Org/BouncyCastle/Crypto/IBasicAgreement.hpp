@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: IBasicAgreement
   class IBasicAgreement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::IBasicAgreement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBasicAgreement*, "Org.BouncyCastle.Crypto", "IBasicAgreement");
 // Type namespace: Org.BouncyCastle.Crypto

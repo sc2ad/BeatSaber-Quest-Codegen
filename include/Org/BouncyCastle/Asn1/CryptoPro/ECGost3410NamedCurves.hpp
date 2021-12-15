@@ -40,7 +40,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // Forward declaring type: ECGost3410NamedCurves
   class ECGost3410NamedCurves;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*, "Org.BouncyCastle.Asn1.CryptoPro", "ECGost3410NamedCurves");
 // Type namespace: Org.BouncyCastle.Asn1.CryptoPro

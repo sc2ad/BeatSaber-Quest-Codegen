@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -24,7 +24,7 @@ namespace Mono::Security::X509 {
   // Forward declaring type: X501
   class X501;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::X501);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501*, "Mono.Security.X509", "X501");
 // Type namespace: Mono.Security.X509

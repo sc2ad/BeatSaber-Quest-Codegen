@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: UnmarshalledAttribute
   class UnmarshalledAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::UnmarshalledAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::UnmarshalledAttribute*, "UnityEngine.Bindings", "UnmarshalledAttribute");
 // Type namespace: UnityEngine.Bindings

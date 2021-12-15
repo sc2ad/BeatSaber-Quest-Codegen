@@ -47,7 +47,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskFactory
   class TaskFactory;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::TaskFactory);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
 // Type namespace: System.Threading.Tasks

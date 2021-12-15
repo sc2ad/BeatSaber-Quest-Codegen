@@ -17,7 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LiteNetLibConnectionManager
   class LiteNetLibConnectionManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 // Type namespace: 
@@ -756,10 +756,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(LiteNetLibConnectionManager), 208 + sizeof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)> __GlobalNamespace_LiteNetLibConnectionManagerSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager) == 0xD8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_userId
 // Il2CppName: get_userId

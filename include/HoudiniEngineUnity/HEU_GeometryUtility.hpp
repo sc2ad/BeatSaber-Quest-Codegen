@@ -11,7 +11,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_GeometryUtility
   class HEU_GeometryUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_GeometryUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeometryUtility*, "HoudiniEngineUnity", "HEU_GeometryUtility");
 // Type namespace: HoudiniEngineUnity

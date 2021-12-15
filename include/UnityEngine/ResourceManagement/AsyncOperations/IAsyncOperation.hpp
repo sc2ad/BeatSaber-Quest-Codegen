@@ -61,7 +61,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: IAsyncOperation
   class IAsyncOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations

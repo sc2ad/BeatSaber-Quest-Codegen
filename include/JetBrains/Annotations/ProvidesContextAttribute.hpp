@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: ProvidesContextAttribute
   class ProvidesContextAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::ProvidesContextAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ProvidesContextAttribute*, "JetBrains.Annotations", "ProvidesContextAttribute");
 // Type namespace: JetBrains.Annotations

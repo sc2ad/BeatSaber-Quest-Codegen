@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_TOPWorkResult
   class HEU_TOPWorkResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPWorkResult);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPWorkResult*, "HoudiniEngineUnity", "HEU_TOPWorkResult");
 // Type namespace: HoudiniEngineUnity

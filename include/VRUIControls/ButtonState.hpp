@@ -24,7 +24,7 @@ namespace VRUIControls {
   // Forward declaring type: ButtonState
   class ButtonState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::ButtonState);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");
 // Type namespace: VRUIControls

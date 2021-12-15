@@ -9,7 +9,7 @@
 #include "System/Globalization/InternalEncodingDataItem.hpp"
 // Including type: System.Globalization.InternalCodePageDataItem
 #include "System/Globalization/InternalCodePageDataItem.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -28,7 +28,7 @@ namespace System::Globalization {
   // Forward declaring type: EncodingTable
   class EncodingTable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::EncodingTable);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EncodingTable*, "System.Globalization", "EncodingTable");
 // Type namespace: System.Globalization

@@ -17,7 +17,7 @@ namespace Mono::Net {
   // Forward declaring type: CFUrl
   class CFUrl;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFUrl);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
 // Type namespace: Mono.Net

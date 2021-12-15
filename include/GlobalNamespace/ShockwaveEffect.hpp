@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ShockwaveEffect
   class ShockwaveEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ShockwaveEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect");
 // Type namespace: 

@@ -24,7 +24,7 @@
 // Including type: OnlineServices.API.Response
 #include "OnlineServices/API/Response.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11, "", "HTTPLeaderboardsModel/<SendLevelScoreResultAsync>d__11");
 // Type namespace: 
 namespace GlobalNamespace {

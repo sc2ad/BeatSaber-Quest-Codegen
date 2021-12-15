@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HMAutoincrementedRequestId
   class HMAutoincrementedRequestId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HMAutoincrementedRequestId);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
 // Type namespace: 

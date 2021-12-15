@@ -18,7 +18,7 @@ namespace Oculus::Platform {
   // Forward declaring type: Entitlements
   class Entitlements;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Entitlements);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements*, "Oculus.Platform", "Entitlements");
 // Type namespace: Oculus.Platform

@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MenuScenesTransitionSetupDataSO
   class MenuScenesTransitionSetupDataSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuScenesTransitionSetupDataSO*, "", "MenuScenesTransitionSetupDataSO");
 // Type namespace: 

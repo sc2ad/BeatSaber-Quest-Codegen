@@ -13,7 +13,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MediaContentType
   struct MediaContentType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MediaContentType, "Oculus.Platform", "MediaContentType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

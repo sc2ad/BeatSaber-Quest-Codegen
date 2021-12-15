@@ -29,7 +29,7 @@ namespace System::Net {
   // Forward declaring type: FtpRequestCreator
   class FtpRequestCreator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FtpRequestCreator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpRequestCreator*, "System.Net", "FtpRequestCreator");
 // Type namespace: System.Net

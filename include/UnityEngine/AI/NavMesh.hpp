@@ -25,7 +25,7 @@ namespace UnityEngine::AI {
   // Forward declaring type: NavMesh
   class NavMesh;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AI::NavMesh);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
 // Type namespace: UnityEngine.AI

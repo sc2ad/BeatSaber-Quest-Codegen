@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: RazorLayoutAttribute
   class RazorLayoutAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::RazorLayoutAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorLayoutAttribute*, "JetBrains.Annotations", "RazorLayoutAttribute");
 // Type namespace: JetBrains.Annotations

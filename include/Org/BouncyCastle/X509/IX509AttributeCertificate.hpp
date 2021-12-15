@@ -10,7 +10,7 @@ namespace Org::BouncyCastle::X509 {
   // Forward declaring type: IX509AttributeCertificate
   class IX509AttributeCertificate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::X509::IX509AttributeCertificate);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::IX509AttributeCertificate*, "Org.BouncyCastle.X509", "IX509AttributeCertificate");
 // Type namespace: Org.BouncyCastle.X509

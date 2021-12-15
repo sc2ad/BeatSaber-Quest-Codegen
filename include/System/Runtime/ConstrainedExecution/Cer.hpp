@@ -13,7 +13,7 @@ namespace System::Runtime::ConstrainedExecution {
   // Forward declaring type: Cer
   struct Cer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Cer, "System.Runtime.ConstrainedExecution", "Cer");
 // Type namespace: System.Runtime.ConstrainedExecution
 namespace System::Runtime::ConstrainedExecution {

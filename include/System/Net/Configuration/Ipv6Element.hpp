@@ -24,7 +24,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: Ipv6Element
   class Ipv6Element;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Configuration::Ipv6Element);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::Ipv6Element*, "System.Net.Configuration", "Ipv6Element");
 // Type namespace: System.Net.Configuration

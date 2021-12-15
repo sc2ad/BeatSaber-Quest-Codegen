@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PS4BeatmapDataAssetFileModel
   class PS4BeatmapDataAssetFileModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4BeatmapDataAssetFileModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4BeatmapDataAssetFileModel");
 // Type namespace: 

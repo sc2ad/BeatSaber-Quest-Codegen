@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: InvalidSignatureException
   class InvalidSignatureException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::InvalidSignatureException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::InvalidSignatureException*, "UnityEngine.TestTools.TestRunner", "InvalidSignatureException");
 // Type namespace: UnityEngine.TestTools.TestRunner

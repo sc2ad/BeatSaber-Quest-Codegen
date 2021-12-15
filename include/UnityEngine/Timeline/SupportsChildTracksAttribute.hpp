@@ -24,7 +24,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: SupportsChildTracksAttribute
   class SupportsChildTracksAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::SupportsChildTracksAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
 // Type namespace: UnityEngine.Timeline

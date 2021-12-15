@@ -24,7 +24,7 @@ namespace System::Xml {
   // Forward declaring type: CharEntityEncoderFallbackBuffer
   class CharEntityEncoderFallbackBuffer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::CharEntityEncoderFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");
 // Type namespace: System.Xml

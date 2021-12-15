@@ -13,7 +13,7 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: NtpLeapIndicator
   struct NtpLeapIndicator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpLeapIndicator, "LiteNetLib.Utils", "NtpLeapIndicator");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {

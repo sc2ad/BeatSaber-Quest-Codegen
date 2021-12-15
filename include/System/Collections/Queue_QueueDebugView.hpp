@@ -8,7 +8,7 @@
 // Including type: System.Collections.Queue
 #include "System/Collections/Queue.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Queue::QueueDebugView);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueDebugView*, "System.Collections", "Queue/QueueDebugView");
 // Type namespace: System.Collections

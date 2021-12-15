@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: StandardLevelScenesTransitionSetupDataSO
   class StandardLevelScenesTransitionSetupDataSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, "", "StandardLevelScenesTransitionSetupDataSO");
 // Type namespace: 

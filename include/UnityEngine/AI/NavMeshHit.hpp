@@ -15,7 +15,7 @@ namespace UnityEngine::AI {
   // Forward declaring type: NavMeshHit
   struct NavMeshHit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshHit, "UnityEngine.AI", "NavMeshHit");
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {

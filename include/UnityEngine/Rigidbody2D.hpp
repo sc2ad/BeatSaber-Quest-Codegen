@@ -20,7 +20,7 @@ namespace UnityEngine {
   // Forward declaring type: Rigidbody2D
   class Rigidbody2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rigidbody2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
 // Type namespace: UnityEngine

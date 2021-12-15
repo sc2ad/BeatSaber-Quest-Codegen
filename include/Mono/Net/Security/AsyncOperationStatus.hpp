@@ -13,7 +13,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: AsyncOperationStatus
   struct AsyncOperationStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncOperationStatus, "Mono.Net.Security", "AsyncOperationStatus");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {

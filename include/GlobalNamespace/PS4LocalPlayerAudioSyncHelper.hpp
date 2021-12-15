@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PS4LocalPlayerAudioSyncHelper
   class PS4LocalPlayerAudioSyncHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4LocalPlayerAudioSyncHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LocalPlayerAudioSyncHelper*, "", "PS4LocalPlayerAudioSyncHelper");
 // Type namespace: 

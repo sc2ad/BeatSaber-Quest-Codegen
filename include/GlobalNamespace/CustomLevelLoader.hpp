@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CustomLevelLoader
   class CustomLevelLoader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CustomLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomLevelLoader*, "", "CustomLevelLoader");
 // Type namespace: 

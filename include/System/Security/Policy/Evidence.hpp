@@ -34,7 +34,7 @@ namespace System::Security::Policy {
   // Forward declaring type: Evidence
   class Evidence;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Policy::Evidence);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");
 // Type namespace: System.Security.Policy

@@ -13,7 +13,7 @@ namespace System::ComponentModel {
   // Forward declaring type: ExpandableObjectConverter
   class ExpandableObjectConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::ExpandableObjectConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ExpandableObjectConverter*, "System.ComponentModel", "ExpandableObjectConverter");
 // Type namespace: System.ComponentModel

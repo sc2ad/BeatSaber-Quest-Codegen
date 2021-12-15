@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ScreenCaptureCache
   class ScreenCaptureCache;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ScreenCaptureCache);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache*, "", "ScreenCaptureCache");
 // Type namespace: 
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenCaptureCache), 16 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*)> __GlobalNamespace_ScreenCaptureCacheSizeCheck;
   static_assert(sizeof(ScreenCaptureCache) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", "ScreenCaptureCache/ScreenshotType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureCache::GetLastScreenshot

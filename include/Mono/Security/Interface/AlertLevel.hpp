@@ -13,7 +13,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: AlertLevel
   struct AlertLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::AlertLevel, "Mono.Security.Interface", "AlertLevel");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {

@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   // Forward declaring type: ResourceManagerException
   class ResourceManagerException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Exceptions::ResourceManagerException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::ResourceManagerException*, "UnityEngine.ResourceManagement.Exceptions", "ResourceManagerException");
 // Type namespace: UnityEngine.ResourceManagement.Exceptions

@@ -20,7 +20,7 @@ namespace RootMotion {
   // Forward declaring type: BipedLimbOrientations
   class BipedLimbOrientations;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::BipedLimbOrientations);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedLimbOrientations");
 // Type namespace: RootMotion

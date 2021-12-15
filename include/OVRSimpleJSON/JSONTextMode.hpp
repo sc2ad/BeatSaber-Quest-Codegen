@@ -13,7 +13,7 @@ namespace OVRSimpleJSON {
   // Forward declaring type: JSONTextMode
   struct JSONTextMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONTextMode, "OVRSimpleJSON", "JSONTextMode");
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {

@@ -12,7 +12,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // Forward declaring type: IAeadBlockCipher
   class IAeadBlockCipher;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadBlockCipher");
 // Type namespace: Org.BouncyCastle.Crypto.Modes

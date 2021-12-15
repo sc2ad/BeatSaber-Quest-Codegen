@@ -19,7 +19,7 @@ namespace UnityEngine {
   class Material;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");
 // Type namespace: 

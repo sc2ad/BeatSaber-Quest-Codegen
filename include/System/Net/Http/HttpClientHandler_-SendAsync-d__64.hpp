@@ -48,7 +48,7 @@ namespace System::IO {
   class Stream;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler::$SendAsync$d__64, "System.Net.Http", "HttpClientHandler/<SendAsync>d__64");
 // Type namespace: System.Net.Http
 namespace System::Net::Http {

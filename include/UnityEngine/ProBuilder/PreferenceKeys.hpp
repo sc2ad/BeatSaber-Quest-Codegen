@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: PreferenceKeys
   class PreferenceKeys;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::PreferenceKeys);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceKeys*, "UnityEngine.ProBuilder", "PreferenceKeys");
 // Type namespace: UnityEngine.ProBuilder

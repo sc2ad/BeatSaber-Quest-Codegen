@@ -16,7 +16,7 @@ namespace Mono::Security::Cryptography {
   // Forward declaring type: PKCS8
   class PKCS8;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::PKCS8);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8*, "Mono.Security.Cryptography", "PKCS8");
 // Type namespace: Mono.Security.Cryptography

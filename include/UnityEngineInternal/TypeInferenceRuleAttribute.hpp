@@ -19,7 +19,7 @@ namespace UnityEngineInternal {
   // Forward declaring type: TypeInferenceRuleAttribute
   class TypeInferenceRuleAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngineInternal::TypeInferenceRuleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute*, "UnityEngineInternal", "TypeInferenceRuleAttribute");
 // Type namespace: UnityEngineInternal

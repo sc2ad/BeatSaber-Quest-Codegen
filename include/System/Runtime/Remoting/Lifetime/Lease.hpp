@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting::Lifetime {
   // Forward declaring type: Lease
   class Lease;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Lifetime::Lease);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease*, "System.Runtime.Remoting.Lifetime", "Lease");
 // Type namespace: System.Runtime.Remoting.Lifetime

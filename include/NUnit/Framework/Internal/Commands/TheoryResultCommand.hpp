@@ -30,7 +30,7 @@ namespace NUnit::Framework::Internal::Commands {
   // Forward declaring type: TheoryResultCommand
   class TheoryResultCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::TheoryResultCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TheoryResultCommand*, "NUnit.Framework.Internal.Commands", "TheoryResultCommand");
 // Type namespace: NUnit.Framework.Internal.Commands

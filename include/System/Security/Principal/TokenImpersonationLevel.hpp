@@ -13,7 +13,7 @@ namespace System::Security::Principal {
   // Forward declaring type: TokenImpersonationLevel
   struct TokenImpersonationLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::TokenImpersonationLevel, "System.Security.Principal", "TokenImpersonationLevel");
 // Type namespace: System.Security.Principal
 namespace System::Security::Principal {

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BaseStateTransition
   class BaseStateTransition;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BaseStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseStateTransition*, "", "BaseStateTransition");
 // Type namespace: 

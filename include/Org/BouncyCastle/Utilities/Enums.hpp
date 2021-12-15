@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Utilities {
   // Forward declaring type: Enums
   class Enums;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Enums);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Enums*, "Org.BouncyCastle.Utilities", "Enums");
 // Type namespace: Org.BouncyCastle.Utilities

@@ -19,7 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRVignette
   class OVRVignette;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRVignette);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 // Type namespace: 
@@ -450,10 +450,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRVignette), 185 + sizeof(bool)> __GlobalNamespace_OVRVignetteSizeCheck;
   static_assert(sizeof(OVRVignette) == 0xBA);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::GetTriangleCount
 // Il2CppName: GetTriangleCount

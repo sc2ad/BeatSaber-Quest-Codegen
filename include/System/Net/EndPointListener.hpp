@@ -62,7 +62,7 @@ namespace System::Net {
   // Forward declaring type: EndPointListener
   class EndPointListener;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::EndPointListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");
 // Type namespace: System.Net

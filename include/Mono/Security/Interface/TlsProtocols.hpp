@@ -13,7 +13,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: TlsProtocols
   struct TlsProtocols;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {

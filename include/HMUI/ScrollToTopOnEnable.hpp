@@ -24,7 +24,7 @@ namespace HMUI {
   // Forward declaring type: ScrollToTopOnEnable
   class ScrollToTopOnEnable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScrollToTopOnEnable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable*, "HMUI", "ScrollToTopOnEnable");
 // Type namespace: HMUI

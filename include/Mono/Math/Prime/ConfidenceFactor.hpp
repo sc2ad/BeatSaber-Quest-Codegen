@@ -13,7 +13,7 @@ namespace Mono::Math::Prime {
   // Forward declaring type: ConfidenceFactor
   struct ConfidenceFactor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");
 // Type namespace: Mono.Math.Prime
 namespace Mono::Math::Prime {

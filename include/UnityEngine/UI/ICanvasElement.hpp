@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: ICanvasElement
   class ICanvasElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::ICanvasElement);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ICanvasElement*, "UnityEngine.UI", "ICanvasElement");
 // Type namespace: UnityEngine.UI

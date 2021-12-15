@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Billboard
   class Billboard;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::Billboard);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard*, "", "Billboard");
 // Type namespace: 
@@ -156,7 +156,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(Billboard), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BillboardSizeCheck;
   static_assert(sizeof(Billboard) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Billboard::RotationMode, "", "Billboard/RotationMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Billboard::Awake

@@ -23,7 +23,7 @@ namespace System::ComponentModel {
   // Forward declaring type: EventHandlerList
   class EventHandlerList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::EventHandlerList);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList*, "System.ComponentModel", "EventHandlerList");
 // Type namespace: System.ComponentModel

@@ -17,7 +17,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_IP_ADDR_STRING
   struct Win32_IP_ADDR_STRING;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADDR_STRING, "System.Net.NetworkInformation", "Win32_IP_ADDR_STRING");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

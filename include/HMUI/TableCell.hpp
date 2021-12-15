@@ -24,7 +24,7 @@ namespace HMUI {
   // Forward declaring type: TableCell
   class TableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::TableCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");
 // Type namespace: HMUI

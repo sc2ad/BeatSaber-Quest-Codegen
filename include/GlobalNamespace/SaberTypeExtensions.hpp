@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberTypeExtensions
   class SaberTypeExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SaberTypeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
 // Type namespace: 

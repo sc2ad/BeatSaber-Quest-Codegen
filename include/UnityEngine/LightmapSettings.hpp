@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: LightmapSettings
   class LightmapSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::LightmapSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightmapSettings*, "UnityEngine", "LightmapSettings");
 // Type namespace: UnityEngine

@@ -15,7 +15,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: VRVulkanTextureData_t
   struct VRVulkanTextureData_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRVulkanTextureData_t, "OVR.OpenVR", "VRVulkanTextureData_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

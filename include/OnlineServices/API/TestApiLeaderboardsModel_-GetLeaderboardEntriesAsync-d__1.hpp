@@ -25,7 +25,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   class LeaderboardEntries;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1, "OnlineServices.API", "TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

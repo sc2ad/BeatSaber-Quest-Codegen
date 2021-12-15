@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MockPlayerSettings
   class MockPlayerSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MockPlayerSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
 // Type namespace: 

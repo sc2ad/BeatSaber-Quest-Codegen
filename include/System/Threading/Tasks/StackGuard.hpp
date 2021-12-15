@@ -17,7 +17,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: StackGuard
   class StackGuard;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::StackGuard);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
 // Type namespace: System.Threading.Tasks

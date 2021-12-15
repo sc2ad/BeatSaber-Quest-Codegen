@@ -31,7 +31,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Forward declaring type: TestResultRendererCallback
   class TestResultRendererCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks

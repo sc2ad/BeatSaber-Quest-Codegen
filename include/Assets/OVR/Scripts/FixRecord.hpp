@@ -11,7 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Assets::OVR::Scripts
@@ -30,7 +30,7 @@ namespace Assets::OVR::Scripts {
   // Forward declaring type: FixRecord
   class FixRecord;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Assets::OVR::Scripts::FixRecord);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord*, "Assets.OVR.Scripts", "FixRecord");
 // Type namespace: Assets.OVR.Scripts

@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ResizableTextMeshPro
   class ResizableTextMeshPro;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ResizableTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResizableTextMeshPro*, "", "ResizableTextMeshPro");
 // Type namespace: 

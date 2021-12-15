@@ -27,7 +27,7 @@ namespace System {
   template<typename TResult>
   class Func_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Func_1, "System", "Func`1");
 // Type namespace: System
 namespace System {

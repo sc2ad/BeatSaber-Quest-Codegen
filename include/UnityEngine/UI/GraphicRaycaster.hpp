@@ -53,7 +53,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: GraphicRaycaster
   class GraphicRaycaster;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::GraphicRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 // Type namespace: UnityEngine.UI
@@ -253,7 +253,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(GraphicRaycaster), 56 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*)> __UnityEngine_UI_GraphicRaycasterSizeCheck;
   static_assert(sizeof(GraphicRaycaster) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics

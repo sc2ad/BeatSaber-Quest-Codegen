@@ -20,7 +20,7 @@
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {

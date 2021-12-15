@@ -34,7 +34,7 @@ namespace System::Security::Principal {
   // Forward declaring type: GenericIdentity
   class GenericIdentity;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Principal::GenericIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");
 // Type namespace: System.Security.Principal

@@ -19,7 +19,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -28,7 +28,7 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::$ConnectToEndPoint$d__84, "", "MasterServerConnectionManager/<ConnectToEndPoint>d__84");
 // Type namespace: 
 namespace GlobalNamespace {

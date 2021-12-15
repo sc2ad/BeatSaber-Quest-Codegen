@@ -54,7 +54,7 @@ namespace HMUI {
   // Forward declaring type: SelectableCell
   class SelectableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::SelectableCell);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 // Type namespace: HMUI
@@ -255,7 +255,7 @@ namespace HMUI {
   static check_size<sizeof(SelectableCell), 57 + sizeof(bool)> __HMUI_SelectableCellSizeCheck;
   static_assert(sizeof(SelectableCell) == 0x3A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SelectableCell::get_highlighted

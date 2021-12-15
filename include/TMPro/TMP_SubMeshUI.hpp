@@ -48,7 +48,7 @@ namespace TMPro {
   // Forward declaring type: TMP_SubMeshUI
   class TMP_SubMeshUI;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_SubMeshUI);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
 // Type namespace: TMPro

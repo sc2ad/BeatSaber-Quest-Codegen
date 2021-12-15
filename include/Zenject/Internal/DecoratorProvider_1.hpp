@@ -43,7 +43,7 @@ namespace Zenject::Internal {
   template<typename TContract>
   class DecoratorProvider_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Internal::DecoratorProvider_1, "Zenject.Internal", "DecoratorProvider`1");
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {

@@ -21,7 +21,7 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::TypeExtensions::$$c__DisplayClass35_1);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_1*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_1");
 // Type namespace: ModestTree

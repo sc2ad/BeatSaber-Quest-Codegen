@@ -13,7 +13,7 @@
 #include "Valve/VR/EVREventType.hpp"
 // Including type: Valve.VR.VREvent_t
 #include "Valve/VR/VREvent_t.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Events
   class SteamVR_Events;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Events);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
 // Type namespace: 

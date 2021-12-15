@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: GraphicsSettings
   class GraphicsSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::GraphicsSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");
 // Type namespace: UnityEngine.Rendering

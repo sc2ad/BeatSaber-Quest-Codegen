@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: TeamList
   class TeamList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::TeamList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::TeamList*, "Oculus.Platform.Models", "TeamList");
 // Type namespace: Oculus.Platform.Models

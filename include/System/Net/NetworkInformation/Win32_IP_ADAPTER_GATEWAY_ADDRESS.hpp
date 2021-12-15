@@ -18,7 +18,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_IP_ADAPTER_GATEWAY_ADDRESS
   struct Win32_IP_ADAPTER_GATEWAY_ADDRESS;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

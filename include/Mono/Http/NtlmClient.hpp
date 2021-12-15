@@ -41,7 +41,7 @@ namespace Mono::Http {
   // Forward declaring type: NtlmClient
   class NtlmClient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Http::NtlmClient);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient*, "Mono.Http", "NtlmClient");
 // Type namespace: Mono.Http

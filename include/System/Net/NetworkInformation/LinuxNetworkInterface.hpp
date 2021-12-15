@@ -26,7 +26,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: LinuxNetworkInterface
   class LinuxNetworkInterface;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::NetworkInformation::LinuxNetworkInterface);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");
 // Type namespace: System.Net.NetworkInformation

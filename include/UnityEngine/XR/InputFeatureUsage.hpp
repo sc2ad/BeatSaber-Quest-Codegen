@@ -17,7 +17,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: InputFeatureUsage
   struct InputFeatureUsage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

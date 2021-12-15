@@ -26,7 +26,7 @@ namespace Zenject {
   // Forward declaring type: NullBindingFinalizer
   class NullBindingFinalizer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::NullBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
 // Type namespace: Zenject

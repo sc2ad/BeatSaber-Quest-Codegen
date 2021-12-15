@@ -27,7 +27,7 @@ namespace System {
   template<typename T>
   class Predicate_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Predicate_1, "System", "Predicate`1");
 // Type namespace: System
 namespace System {

@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TrailElement
   class TrailElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TrailElement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElement*, "", "TrailElement");
 // Type namespace: 

@@ -23,7 +23,7 @@
 #include "System/Int32.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -53,7 +53,7 @@ namespace System {
   // Forward declaring type: Decimal
   struct Decimal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Decimal, "System", "Decimal");
 // Type namespace: System
 namespace System {

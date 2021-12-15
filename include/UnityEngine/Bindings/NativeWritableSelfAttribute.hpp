@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativeWritableSelfAttribute
   class NativeWritableSelfAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativeWritableSelfAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
 // Type namespace: UnityEngine.Bindings

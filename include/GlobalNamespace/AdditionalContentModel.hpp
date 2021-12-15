@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AdditionalContentModel
   class AdditionalContentModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AdditionalContentModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel*, "", "AdditionalContentModel");
 // Type namespace: 
@@ -286,12 +286,12 @@ namespace GlobalNamespace {
   static check_size<sizeof(AdditionalContentModel), 32 + sizeof(System::Action*)> __GlobalNamespace_AdditionalContentModelSizeCheck;
   static_assert(sizeof(AdditionalContentModel) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult, "", "AdditionalContentModel/IsPackBetterBuyThanLevelResult");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::add_didInvalidateDataEvent
 // Il2CppName: add_didInvalidateDataEvent

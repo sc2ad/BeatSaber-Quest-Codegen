@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: AudioDataLoadState
   struct AudioDataLoadState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioDataLoadState, "UnityEngine", "AudioDataLoadState");
 // Type namespace: UnityEngine
 namespace UnityEngine {

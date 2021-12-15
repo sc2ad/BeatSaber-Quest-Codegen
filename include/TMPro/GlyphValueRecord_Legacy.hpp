@@ -19,7 +19,7 @@ namespace TMPro {
   // Forward declaring type: GlyphValueRecord_Legacy
   struct GlyphValueRecord_Legacy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphValueRecord_Legacy, "TMPro", "GlyphValueRecord_Legacy");
 // Type namespace: TMPro
 namespace TMPro {

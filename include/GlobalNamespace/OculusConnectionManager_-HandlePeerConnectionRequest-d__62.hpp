@@ -29,7 +29,7 @@ namespace Oculus::Platform::Models {
   class NetworkingPeer;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::$HandlePeerConnectionRequest$d__62, "", "OculusConnectionManager/<HandlePeerConnectionRequest>d__62");
 // Type namespace: 
 namespace GlobalNamespace {

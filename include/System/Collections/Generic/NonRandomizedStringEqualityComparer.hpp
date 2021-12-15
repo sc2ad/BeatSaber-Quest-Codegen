@@ -17,7 +17,7 @@ namespace System::Collections::Generic {
   // Forward declaring type: NonRandomizedStringEqualityComparer
   class NonRandomizedStringEqualityComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Generic::NonRandomizedStringEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEqualityComparer*, "System.Collections.Generic", "NonRandomizedStringEqualityComparer");
 // Type namespace: System.Collections.Generic

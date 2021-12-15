@@ -10,7 +10,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::Node, "", "OVRBoundary/Node");
 // Type namespace: 
 namespace GlobalNamespace {

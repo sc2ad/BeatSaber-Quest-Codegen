@@ -21,7 +21,7 @@ namespace TMPro {
   // Forward declaring type: TMP_GlyphAdjustmentRecord
   struct TMP_GlyphAdjustmentRecord;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
 // Type namespace: TMPro
 namespace TMPro {

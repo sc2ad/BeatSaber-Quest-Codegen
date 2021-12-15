@@ -13,7 +13,7 @@ namespace System::Net {
   // Forward declaring type: WebExceptionInternalStatus
   struct WebExceptionInternalStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");
 // Type namespace: System.Net
 namespace System::Net {

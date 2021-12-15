@@ -23,7 +23,7 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::HttpClientHandler::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler::$$c*, "System.Net.Http", "HttpClientHandler/<>c");
 // Type namespace: System.Net.Http

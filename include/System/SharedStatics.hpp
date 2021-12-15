@@ -17,7 +17,7 @@ namespace System {
   // Forward declaring type: SharedStatics
   class SharedStatics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::SharedStatics);
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
 // Type namespace: System

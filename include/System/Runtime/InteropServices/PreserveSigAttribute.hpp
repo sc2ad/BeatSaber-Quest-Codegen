@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: PreserveSigAttribute
   class PreserveSigAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::PreserveSigAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::PreserveSigAttribute*, "System.Runtime.InteropServices", "PreserveSigAttribute");
 // Type namespace: System.Runtime.InteropServices

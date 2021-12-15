@@ -17,7 +17,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: RotationLimit
   class RotationLimit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::RotationLimit);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimit*, "RootMotion.FinalIK", "RotationLimit");
 // Type namespace: RootMotion.FinalIK

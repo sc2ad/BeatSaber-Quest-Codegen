@@ -19,7 +19,7 @@ namespace Oculus::Platform {
   // Forward declaring type: CloudStorage2
   class CloudStorage2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::CloudStorage2);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2*, "Oculus.Platform", "CloudStorage2");
 // Type namespace: Oculus.Platform

@@ -15,9 +15,9 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
 // Type namespace: HoudiniEngineUnity
@@ -208,7 +208,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo), 84 + sizeof(bool)> __HoudiniEngineUnity_HEU_GenerateGeoCache_HEU_ColliderInfoSizeCheck;
   static_assert(sizeof(HEU_GenerateGeoCache::HEU_ColliderInfo) == 0x55);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo/ColliderType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo::New_ctor

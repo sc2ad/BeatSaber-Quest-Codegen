@@ -27,7 +27,7 @@ namespace System::Net {
   // Forward declaring type: WebRequestPrefixElement
   class WebRequestPrefixElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebRequestPrefixElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
 // Type namespace: System.Net

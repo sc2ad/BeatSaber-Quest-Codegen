@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: SourceTemplateAttribute
   class SourceTemplateAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::SourceTemplateAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::SourceTemplateAttribute*, "JetBrains.Annotations", "SourceTemplateAttribute");
 // Type namespace: JetBrains.Annotations

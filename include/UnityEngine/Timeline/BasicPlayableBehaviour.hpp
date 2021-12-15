@@ -45,7 +45,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: BasicPlayableBehaviour
   class BasicPlayableBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::BasicPlayableBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::BasicPlayableBehaviour*, "UnityEngine.Timeline", "BasicPlayableBehaviour");
 // Type namespace: UnityEngine.Timeline

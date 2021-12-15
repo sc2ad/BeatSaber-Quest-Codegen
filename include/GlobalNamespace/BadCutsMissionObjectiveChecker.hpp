@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BadCutsMissionObjectiveChecker
   class BadCutsMissionObjectiveChecker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BadCutsMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadCutsMissionObjectiveChecker*, "", "BadCutsMissionObjectiveChecker");
 // Type namespace: 

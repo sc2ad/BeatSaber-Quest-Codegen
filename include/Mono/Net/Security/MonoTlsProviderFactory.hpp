@@ -32,7 +32,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: MonoTlsProviderFactory
   class MonoTlsProviderFactory;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::MonoTlsProviderFactory);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");
 // Type namespace: Mono.Net.Security

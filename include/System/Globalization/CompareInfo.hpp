@@ -48,7 +48,7 @@ namespace System::Globalization {
   // Forward declaring type: CompareInfo
   class CompareInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::CompareInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CompareInfo*, "System.Globalization", "CompareInfo");
 // Type namespace: System.Globalization

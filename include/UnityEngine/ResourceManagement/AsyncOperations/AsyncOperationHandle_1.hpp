@@ -58,7 +58,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   template<typename TObject>
   struct AsyncOperationHandle_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {

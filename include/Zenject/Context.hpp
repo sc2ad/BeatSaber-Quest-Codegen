@@ -53,7 +53,7 @@ namespace Zenject {
   // Forward declaring type: Context
   class Context;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Context);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
 // Type namespace: Zenject

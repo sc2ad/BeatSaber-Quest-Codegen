@@ -13,7 +13,7 @@ namespace NUnit::Framework {
   // Forward declaring type: ActionTargets
   struct ActionTargets;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ActionTargets, "NUnit.Framework", "ActionTargets");
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {

@@ -22,7 +22,7 @@ namespace NUnit::Framework::Internal::Execution {
   // Forward declaring type: CountdownEvent
   class CountdownEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Execution::CountdownEvent);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
 // Type namespace: NUnit.Framework.Internal.Execution

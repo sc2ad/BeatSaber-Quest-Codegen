@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_MeshRenderer
   class Test_MeshRenderer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_MeshRenderer);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_MeshRenderer*, "HoudiniEngineUnity", "Test_MeshRenderer");
 // Type namespace: HoudiniEngineUnity

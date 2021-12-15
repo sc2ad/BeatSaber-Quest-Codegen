@@ -17,7 +17,7 @@ namespace UnityEngine::Scripting {
   // Forward declaring type: GeneratedByOldBindingsGeneratorAttribute
   class GeneratedByOldBindingsGeneratorAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GeneratedByOldBindingsGeneratorAttribute*, "UnityEngine.Scripting", "GeneratedByOldBindingsGeneratorAttribute");
 // Type namespace: UnityEngine.Scripting

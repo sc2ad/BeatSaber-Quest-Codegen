@@ -17,7 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -59,7 +59,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Image
   class Image;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Image);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image*, "UnityEngine.UI", "Image");
 // Type namespace: UnityEngine.UI
@@ -629,10 +629,10 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Image), 244 + sizeof(float)> __UnityEngine_UI_ImageSizeCheck;
   static_assert(sizeof(Image) == 0xF8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::FillMethod, "UnityEngine.UI", "Image/FillMethod");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Type, "UnityEngine.UI", "Image/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Image::get_sprite
 // Il2CppName: get_sprite

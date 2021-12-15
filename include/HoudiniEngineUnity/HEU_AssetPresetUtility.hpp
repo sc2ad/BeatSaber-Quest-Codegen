@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_AssetPresetUtility
   class HEU_AssetPresetUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPresetUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPresetUtility*, "HoudiniEngineUnity", "HEU_AssetPresetUtility");
 // Type namespace: HoudiniEngineUnity

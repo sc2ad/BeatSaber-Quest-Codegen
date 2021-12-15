@@ -29,7 +29,7 @@ namespace Ice {
   // Forward declaring type: BeatmapFloorLightTilesGrid
   class BeatmapFloorLightTilesGrid;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Ice::BeatmapFloorLightTilesGrid);
 DEFINE_IL2CPP_ARG_TYPE(Ice::BeatmapFloorLightTilesGrid*, "Ice", "BeatmapFloorLightTilesGrid");
 // Type namespace: Ice

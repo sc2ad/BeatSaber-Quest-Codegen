@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerPlayerStartState
   struct MultiplayerPlayerStartState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerStartState, "", "MultiplayerPlayerStartState");
 // Type namespace: 
 namespace GlobalNamespace {

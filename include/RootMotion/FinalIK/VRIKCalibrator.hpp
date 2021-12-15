@@ -25,7 +25,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: VRIKCalibrator
   class VRIKCalibrator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::VRIKCalibrator);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator*, "RootMotion.FinalIK", "VRIKCalibrator");
 // Type namespace: RootMotion.FinalIK

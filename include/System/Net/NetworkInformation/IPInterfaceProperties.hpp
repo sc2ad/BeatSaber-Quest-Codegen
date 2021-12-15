@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: IPInterfaceProperties
   class IPInterfaceProperties;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::NetworkInformation::IPInterfaceProperties);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPInterfaceProperties*, "System.Net.NetworkInformation", "IPInterfaceProperties");
 // Type namespace: System.Net.NetworkInformation

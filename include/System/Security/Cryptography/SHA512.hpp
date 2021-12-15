@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: SHA512
   class SHA512;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::SHA512);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA512*, "System.Security.Cryptography", "SHA512");
 // Type namespace: System.Security.Cryptography

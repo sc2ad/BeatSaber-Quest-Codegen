@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TestPlatformUserModel
   class TestPlatformUserModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TestPlatformUserModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel*, "", "TestPlatformUserModel");
 // Type namespace: 

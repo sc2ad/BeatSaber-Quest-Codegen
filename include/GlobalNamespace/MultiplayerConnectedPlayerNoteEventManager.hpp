@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerConnectedPlayerNoteEventManager
   class MultiplayerConnectedPlayerNoteEventManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*, "", "MultiplayerConnectedPlayerNoteEventManager");
 // Type namespace: 
@@ -263,10 +263,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager), 72 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManagerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerNoteEventManager) == 0x50);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteMissEvent");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteCutEvent, "", "MultiplayerConnectedPlayerNoteEventManager/NoteCutEvent");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent
 // Il2CppName: add_connectedPlayerNoteWasCutEvent

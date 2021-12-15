@@ -19,7 +19,7 @@ namespace System {
   // Forward declaring type: NullConsoleDriver
   class NullConsoleDriver;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::NullConsoleDriver);
 DEFINE_IL2CPP_ARG_TYPE(System::NullConsoleDriver*, "System", "NullConsoleDriver");
 // Type namespace: System

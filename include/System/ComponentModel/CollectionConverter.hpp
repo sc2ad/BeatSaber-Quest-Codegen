@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: CollectionConverter
   class CollectionConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::CollectionConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::CollectionConverter*, "System.ComponentModel", "CollectionConverter");
 // Type namespace: System.ComponentModel

@@ -29,7 +29,7 @@ namespace System::Threading {
   // Forward declaring type: SynchronizationContext
   class SynchronizationContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::SynchronizationContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
 // Type namespace: System.Threading

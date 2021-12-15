@@ -18,7 +18,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: Hand
   struct Hand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

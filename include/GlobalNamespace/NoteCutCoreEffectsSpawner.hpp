@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteCutCoreEffectsSpawner
   class NoteCutCoreEffectsSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteCutCoreEffectsSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
 // Type namespace: 

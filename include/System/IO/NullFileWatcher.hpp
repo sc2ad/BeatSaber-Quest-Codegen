@@ -24,7 +24,7 @@ namespace System::IO {
   // Forward declaring type: NullFileWatcher
   class NullFileWatcher;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::NullFileWatcher);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::NullFileWatcher*, "System.IO", "NullFileWatcher");
 // Type namespace: System.IO

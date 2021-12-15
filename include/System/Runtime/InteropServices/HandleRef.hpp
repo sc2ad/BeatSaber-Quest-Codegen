@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: HandleRef
   struct HandleRef;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.CompilerServices.Ephemeron
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
   // Forward declaring type: GC
   class GC;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::GC);
 DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
 // Type namespace: System

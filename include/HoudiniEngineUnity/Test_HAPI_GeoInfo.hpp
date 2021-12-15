@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_HAPI_GeoInfo
   class Test_HAPI_GeoInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_GeoInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_GeoInfo*, "HoudiniEngineUnity", "Test_HAPI_GeoInfo");
 // Type namespace: HoudiniEngineUnity

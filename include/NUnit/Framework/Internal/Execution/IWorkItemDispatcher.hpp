@@ -10,7 +10,7 @@ namespace NUnit::Framework::Internal::Execution {
   // Forward declaring type: IWorkItemDispatcher
   class IWorkItemDispatcher;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Execution::IWorkItemDispatcher);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::IWorkItemDispatcher*, "NUnit.Framework.Internal.Execution", "IWorkItemDispatcher");
 // Type namespace: NUnit.Framework.Internal.Execution

@@ -11,7 +11,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: NoReflectionHelper
   class NoReflectionHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::NoReflectionHelper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
 // Type namespace: Mono.Net.Security

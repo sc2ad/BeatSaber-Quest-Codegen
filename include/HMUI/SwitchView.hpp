@@ -26,7 +26,7 @@ namespace HMUI {
   // Forward declaring type: SwitchView
   class SwitchView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::SwitchView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView*, "HMUI", "SwitchView");
 // Type namespace: HMUI
@@ -222,7 +222,7 @@ namespace HMUI {
   static check_size<sizeof(SwitchView), 96 + sizeof(HMUI::ToggleWithCallbacks*)> __HMUI_SwitchViewSizeCheck;
   static_assert(sizeof(SwitchView) == 0x68);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView::AnimationType, "HMUI", "SwitchView/AnimationType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SwitchView::Awake

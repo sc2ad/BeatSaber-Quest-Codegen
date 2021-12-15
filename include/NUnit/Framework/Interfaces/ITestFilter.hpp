@@ -19,7 +19,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestFilter
   class ITestFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ITestFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFilter*, "NUnit.Framework.Interfaces", "ITestFilter");
 // Type namespace: NUnit.Framework.Interfaces

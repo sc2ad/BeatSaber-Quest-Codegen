@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LobbyPlayerData
   class LobbyPlayerData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LobbyPlayerData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerData*, "", "LobbyPlayerData");
 // Type namespace: 

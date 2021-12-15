@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MainMenuViewController
   class MainMenuViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MainMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController*, "", "MainMenuViewController");
 // Type namespace: 
@@ -344,7 +344,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MainMenuViewController), 224 + sizeof(System::Action_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*>*)> __GlobalNamespace_MainMenuViewControllerSizeCheck;
   static_assert(sizeof(MainMenuViewController) == 0xE8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainMenuViewController::MenuButton, "", "MainMenuViewController/MenuButton");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainMenuViewController::add_didFinishEvent

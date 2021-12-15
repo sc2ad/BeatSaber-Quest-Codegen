@@ -13,14 +13,14 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_AttributeData
   class HEU_AttributeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_AttributeData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData*, "HoudiniEngineUnity", "HEU_AttributeData");
 // Type namespace: HoudiniEngineUnity
@@ -246,10 +246,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AttributeData), 96 + sizeof(HoudiniEngineUnity::HEU_AttributeData::AttributeState)> __HoudiniEngineUnity_HEU_AttributeDataSizeCheck;
   static_assert(sizeof(HEU_AttributeData) == 0x64);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeState, "HoudiniEngineUnity", "HEU_AttributeData/AttributeState");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AttributeData::AttributeType, "HoudiniEngineUnity", "HEU_AttributeData/AttributeType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributeData::IsColorAttribute
 // Il2CppName: IsColorAttribute

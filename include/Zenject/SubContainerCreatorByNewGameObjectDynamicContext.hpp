@@ -31,7 +31,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerCreatorByNewGameObjectDynamicContext
   class SubContainerCreatorByNewGameObjectDynamicContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerCreatorByNewGameObjectDynamicContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectDynamicContext*, "Zenject", "SubContainerCreatorByNewGameObjectDynamicContext");
 // Type namespace: Zenject

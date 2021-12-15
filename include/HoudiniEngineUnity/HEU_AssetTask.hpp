@@ -43,7 +43,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_AssetTask
   class HEU_AssetTask;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetTask);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetTask*, "HoudiniEngineUnity", "HEU_AssetTask");
 // Type namespace: HoudiniEngineUnity
@@ -214,7 +214,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_AssetTask), 88 + sizeof(int64_t)> __HoudiniEngineUnity_HEU_AssetTaskSizeCheck;
   static_assert(sizeof(HEU_AssetTask) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetTask::BuildType, "HoudiniEngineUnity", "HEU_AssetTask/BuildType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetTask::GetTaskSession

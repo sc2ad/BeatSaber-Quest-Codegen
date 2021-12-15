@@ -29,7 +29,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_TaskManager
   class HEU_TaskManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_TaskManager);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TaskManager*, "HoudiniEngineUnity", "HEU_TaskManager");
 // Type namespace: HoudiniEngineUnity

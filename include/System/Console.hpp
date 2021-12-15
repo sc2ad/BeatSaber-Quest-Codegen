@@ -38,7 +38,7 @@ namespace System {
   // Forward declaring type: Console
   class Console;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Console);
 DEFINE_IL2CPP_ARG_TYPE(System::Console*, "System", "Console");
 // Type namespace: System

@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
   // Forward declaring type: VerisignCzagExtension
   class VerisignCzagExtension;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*, "Org.BouncyCastle.Asn1.Misc", "VerisignCzagExtension");
 // Type namespace: Org.BouncyCastle.Asn1.Misc

@@ -13,7 +13,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: UnityTearDownAttribute
   class UnityTearDownAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::UnityTearDownAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::UnityTearDownAttribute*, "UnityEngine.TestTools", "UnityTearDownAttribute");
 // Type namespace: UnityEngine.TestTools

@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   template<typename T0>
   class RemoteProcedureCall_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::RemoteProcedureCall_1, "", "RemoteProcedureCall`1");
 // Type namespace: 
 namespace GlobalNamespace {

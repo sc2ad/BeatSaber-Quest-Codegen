@@ -24,7 +24,7 @@ namespace UnityEngine {
   // Forward declaring type: ScriptableObject
   class ScriptableObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ScriptableObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
 // Type namespace: UnityEngine

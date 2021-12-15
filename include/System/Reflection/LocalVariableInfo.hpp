@@ -22,7 +22,7 @@ namespace System::Reflection {
   // Forward declaring type: LocalVariableInfo
   class LocalVariableInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::LocalVariableInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
 // Type namespace: System.Reflection

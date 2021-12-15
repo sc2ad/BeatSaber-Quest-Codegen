@@ -13,7 +13,7 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: NtpMode
   struct NtpMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpMode, "LiteNetLib.Utils", "NtpMode");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {

@@ -13,7 +13,7 @@ namespace Mono::Security::Protocol::Ntlm {
   // Forward declaring type: NtlmSettings
   class NtlmSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Protocol::Ntlm::NtlmSettings);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
 // Type namespace: Mono.Security.Protocol.Ntlm

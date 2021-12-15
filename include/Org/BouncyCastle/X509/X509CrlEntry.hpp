@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::X509 {
   // Forward declaring type: X509CrlEntry
   class X509CrlEntry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::X509::X509CrlEntry);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlEntry*, "Org.BouncyCastle.X509", "X509CrlEntry");
 // Type namespace: Org.BouncyCastle.X509

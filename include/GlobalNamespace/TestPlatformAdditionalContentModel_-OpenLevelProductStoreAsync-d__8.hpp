@@ -20,7 +20,7 @@
 // Including type: System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
 #include "System/Runtime/CompilerServices/YieldAwaitable_YieldAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__8, "", "TestPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__8");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9*, "", "ShowHideAnimationController/<DeactivateSelfAfterDelayCoroutine>d__9");
 // Type namespace: 

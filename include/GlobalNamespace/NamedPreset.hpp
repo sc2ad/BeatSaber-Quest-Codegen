@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NamedPreset
   class NamedPreset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NamedPreset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
 // Type namespace: 

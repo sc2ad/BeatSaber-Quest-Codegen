@@ -17,7 +17,7 @@ namespace System {
   // Forward declaring type: SerializableAttribute
   class SerializableAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::SerializableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::SerializableAttribute*, "System", "SerializableAttribute");
 // Type namespace: System

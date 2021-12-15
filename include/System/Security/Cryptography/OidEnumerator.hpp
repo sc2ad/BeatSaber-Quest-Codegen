@@ -24,7 +24,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: OidEnumerator
   class OidEnumerator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::OidEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::OidEnumerator*, "System.Security.Cryptography", "OidEnumerator");
 // Type namespace: System.Security.Cryptography

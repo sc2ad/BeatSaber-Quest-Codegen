@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Utilities {
   // Forward declaring type: MemoableResetException
   class MemoableResetException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::MemoableResetException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::MemoableResetException*, "Org.BouncyCastle.Utilities", "MemoableResetException");
 // Type namespace: Org.BouncyCastle.Utilities

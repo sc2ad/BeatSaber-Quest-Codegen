@@ -19,7 +19,7 @@ namespace RootMotion {
   // Forward declaring type: TQ
   class TQ;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::TQ);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");
 // Type namespace: RootMotion

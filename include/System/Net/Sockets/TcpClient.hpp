@@ -35,7 +35,7 @@ namespace System::Net::Sockets {
   // Forward declaring type: TcpClient
   class TcpClient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Sockets::TcpClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
 // Type namespace: System.Net.Sockets

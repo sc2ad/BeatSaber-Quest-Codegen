@@ -20,7 +20,7 @@ namespace TMPro::SpriteAssetUtilities {
   // Forward declaring type: TexturePacker
   class TexturePacker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
 // Type namespace: TMPro.SpriteAssetUtilities

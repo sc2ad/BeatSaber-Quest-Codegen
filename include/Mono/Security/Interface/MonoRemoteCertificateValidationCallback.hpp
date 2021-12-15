@@ -38,7 +38,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: MonoRemoteCertificateValidationCallback
   class MonoRemoteCertificateValidationCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Interface::MonoRemoteCertificateValidationCallback);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*, "Mono.Security.Interface", "MonoRemoteCertificateValidationCallback");
 // Type namespace: Mono.Security.Interface

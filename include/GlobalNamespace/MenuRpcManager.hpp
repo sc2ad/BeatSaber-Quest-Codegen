@@ -54,7 +54,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MenuRpcManager
   class MenuRpcManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 // Type namespace: 
@@ -1230,7 +1230,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuRpcManager), 328 + sizeof(System::Action_2<::Il2CppString*, ::Il2CppString*>*)> __GlobalNamespace_MenuRpcManagerSizeCheck;
   static_assert(sizeof(MenuRpcManager) == 0x150);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager

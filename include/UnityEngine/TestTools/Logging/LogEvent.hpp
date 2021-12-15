@@ -17,7 +17,7 @@ namespace UnityEngine::TestTools::Logging {
   // Forward declaring type: LogEvent
   class LogEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Logging::LogEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 // Type namespace: UnityEngine.TestTools.Logging

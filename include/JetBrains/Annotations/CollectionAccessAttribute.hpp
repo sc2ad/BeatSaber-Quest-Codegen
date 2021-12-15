@@ -19,7 +19,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: CollectionAccessAttribute
   class CollectionAccessAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::CollectionAccessAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
 // Type namespace: JetBrains.Annotations

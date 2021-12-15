@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BitMaskSparse
   class BitMaskSparse;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BitMaskSparse);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskSparse*, "", "BitMaskSparse");
 // Type namespace: 

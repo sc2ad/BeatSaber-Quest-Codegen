@@ -13,7 +13,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: NativeContainerIsReadOnlyAttribute
   class NativeContainerIsReadOnlyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsReadOnlyAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

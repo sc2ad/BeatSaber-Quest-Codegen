@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Security::Certificates {
   // Forward declaring type: CertificateParsingException
   class CertificateParsingException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::Certificates::CertificateParsingException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::Certificates::CertificateParsingException*, "Org.BouncyCastle.Security.Certificates", "CertificateParsingException");
 // Type namespace: Org.BouncyCastle.Security.Certificates

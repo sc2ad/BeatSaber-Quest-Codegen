@@ -36,7 +36,7 @@ namespace System::Net {
   // Forward declaring type: LazyAsyncResult
   class LazyAsyncResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::LazyAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::LazyAsyncResult*, "System.Net", "LazyAsyncResult");
 // Type namespace: System.Net

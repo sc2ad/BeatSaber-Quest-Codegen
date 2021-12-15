@@ -26,7 +26,7 @@ namespace UnityEngine::Events {
   // Forward declaring type: UnityAction
   class UnityAction;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Events::UnityAction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityAction*, "UnityEngine.Events", "UnityAction");
 // Type namespace: UnityEngine.Events

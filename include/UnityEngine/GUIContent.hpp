@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: GUIContent
   class GUIContent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::GUIContent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
 // Type namespace: UnityEngine

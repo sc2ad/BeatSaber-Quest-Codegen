@@ -12,7 +12,7 @@
 // Including type: OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {

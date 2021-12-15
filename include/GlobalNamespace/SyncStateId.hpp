@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SyncStateId
   struct SyncStateId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
 // Type namespace: 
 namespace GlobalNamespace {

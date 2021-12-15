@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: BipedIK
   class BipedIK;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::BipedIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
 // Type namespace: RootMotion.FinalIK

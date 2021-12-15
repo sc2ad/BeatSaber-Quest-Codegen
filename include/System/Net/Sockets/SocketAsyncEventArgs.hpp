@@ -49,7 +49,7 @@ namespace System::Net::Sockets {
   // Forward declaring type: SocketAsyncEventArgs
   class SocketAsyncEventArgs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Sockets::SocketAsyncEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncEventArgs*, "System.Net.Sockets", "SocketAsyncEventArgs");
 // Type namespace: System.Net.Sockets

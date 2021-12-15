@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IRichPresenceData
   class IRichPresenceData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");
 // Type namespace: 

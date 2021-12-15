@@ -16,7 +16,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: FloatingPointNumerics
   class FloatingPointNumerics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::FloatingPointNumerics);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
 // Type namespace: NUnit.Framework.Constraints

@@ -22,7 +22,7 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$RefreshAvailabilityIfNeeded$b__60_0$d, "", "StandardLevelDetailViewController/<<RefreshAvailabilityIfNeeded>b__60_0>d");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SystemHeadsetType
   struct OVRManager_SystemHeadsetType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_SystemHeadsetType, "", "OVRManager/SystemHeadsetType");
 // Type namespace: 
 namespace GlobalNamespace {

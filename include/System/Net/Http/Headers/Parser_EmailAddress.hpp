@@ -8,7 +8,7 @@
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::EmailAddress);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::EmailAddress*, "System.Net.Http.Headers", "Parser/EmailAddress");
 // Type namespace: System.Net.Http.Headers

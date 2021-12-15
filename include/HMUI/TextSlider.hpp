@@ -60,7 +60,7 @@ namespace HMUI {
   // Forward declaring type: TextSlider
   class TextSlider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::TextSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSlider*, "HMUI", "TextSlider");
 // Type namespace: HMUI

@@ -24,7 +24,7 @@ namespace LiteNetLib {
   // Forward declaring type: NetConnectAcceptPacket
   class NetConnectAcceptPacket;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NetConnectAcceptPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");
 // Type namespace: LiteNetLib

@@ -15,7 +15,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_InputAssetPreset
   class HEU_InputAssetPreset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InputAssetPreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputAssetPreset*, "HoudiniEngineUnity", "HEU_InputAssetPreset");
 // Type namespace: HoudiniEngineUnity

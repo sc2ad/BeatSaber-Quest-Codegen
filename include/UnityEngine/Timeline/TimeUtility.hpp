@@ -27,7 +27,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TimeUtility
   class TimeUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimeUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
 // Type namespace: UnityEngine.Timeline

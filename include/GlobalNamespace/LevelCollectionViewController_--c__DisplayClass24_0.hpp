@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class IPreviewBeatmapLevel;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionViewController::$$c__DisplayClass24_0*, "", "LevelCollectionViewController/<>c__DisplayClass24_0");
 // Type namespace: 

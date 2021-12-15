@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: SkeletonBone
   struct SkeletonBone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -30,7 +30,7 @@ namespace UnityEngine {
   // Forward declaring type: AnimationEvent
   class AnimationEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AnimationEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
 // Type namespace: UnityEngine

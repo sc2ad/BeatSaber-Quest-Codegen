@@ -19,7 +19,7 @@ namespace System::Net {
   class SimpleAsyncResult;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebConnectionStream::$$c__DisplayClass75_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");
 // Type namespace: System.Net

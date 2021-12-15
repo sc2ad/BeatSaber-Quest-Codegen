@@ -22,7 +22,7 @@ namespace System {
   // Forward declaring type: ParsingInfo
   struct ParsingInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");
 // Type namespace: System
 namespace System {

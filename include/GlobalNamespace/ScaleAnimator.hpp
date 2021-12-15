@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ScaleAnimator
   class ScaleAnimator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ScaleAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
 // Type namespace: 

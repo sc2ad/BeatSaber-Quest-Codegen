@@ -17,7 +17,7 @@ namespace Microsoft::Win32 {
   // Forward declaring type: RegistryKeyComparer
   class RegistryKeyComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::RegistryKeyComparer);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");
 // Type namespace: Microsoft.Win32

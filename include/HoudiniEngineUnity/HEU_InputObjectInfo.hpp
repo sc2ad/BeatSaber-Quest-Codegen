@@ -45,7 +45,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_InputObjectInfo
   class HEU_InputObjectInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InputObjectInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectInfo*, "HoudiniEngineUnity", "HEU_InputObjectInfo");
 // Type namespace: HoudiniEngineUnity

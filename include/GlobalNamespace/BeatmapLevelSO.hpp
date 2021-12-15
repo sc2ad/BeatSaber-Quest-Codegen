@@ -19,7 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapLevelSO
   class BeatmapLevelSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");
 // Type namespace: 
@@ -478,8 +478,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelSO), 168 + sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult)> __GlobalNamespace_BeatmapLevelSOSizeCheck;
   static_assert(sizeof(BeatmapLevelSO) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult, "", "BeatmapLevelSO/GetBeatmapLevelDataResult");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result, "", "BeatmapLevelSO/GetBeatmapLevelDataResult/Result");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelID
 // Il2CppName: get_levelID

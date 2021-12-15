@@ -14,7 +14,7 @@ namespace Valve::VR {
   // Forward declaring type: VRTextureWithPose_t
   struct VRTextureWithPose_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VRTextureWithPose_t, "Valve.VR", "VRTextureWithPose_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

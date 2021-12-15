@@ -24,7 +24,7 @@ namespace TMPro {
   // Forward declaring type: TMP_TextElement
   class TMP_TextElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_TextElement);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
 // Type namespace: TMPro

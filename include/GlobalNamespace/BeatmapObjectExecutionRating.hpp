@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectExecutionRating
   class BeatmapObjectExecutionRating;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapObjectExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 // Type namespace: 
@@ -136,7 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapObjectExecutionRating), 20 + sizeof(float)> __GlobalNamespace_BeatmapObjectExecutionRatingSizeCheck;
   static_assert(sizeof(BeatmapObjectExecutionRating) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::get_beatmapObjectRatingType

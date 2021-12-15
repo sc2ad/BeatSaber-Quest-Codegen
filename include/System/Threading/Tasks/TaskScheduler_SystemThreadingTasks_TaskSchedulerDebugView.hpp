@@ -8,7 +8,7 @@
 // Including type: System.Threading.Tasks.TaskScheduler
 #include "System/Threading/Tasks/TaskScheduler.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView*, "System.Threading.Tasks", "TaskScheduler/SystemThreadingTasks_TaskSchedulerDebugView");
 // Type namespace: System.Threading.Tasks

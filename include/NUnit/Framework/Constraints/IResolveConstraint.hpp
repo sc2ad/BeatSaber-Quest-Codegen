@@ -17,7 +17,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: IResolveConstraint
   class IResolveConstraint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::IResolveConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IResolveConstraint*, "NUnit.Framework.Constraints", "IResolveConstraint");
 // Type namespace: NUnit.Framework.Constraints

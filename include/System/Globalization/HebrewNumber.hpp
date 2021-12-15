@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -23,7 +23,7 @@ namespace System::Globalization {
   // Forward declaring type: HebrewNumber
   class HebrewNumber;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::HebrewNumber);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
 // Type namespace: System.Globalization
@@ -211,7 +211,7 @@ namespace System::Globalization {
   }; // System.Globalization.HebrewNumber
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::_cctor

@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
   // Skipping declaration: KeyValuePair`2 because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::Enumerator, "HoudiniEngineUnity", "JSONNode/Enumerator");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -128,7 +128,7 @@ namespace HoudiniEngineUnity {
   }; // HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::Enumerator::Type, "HoudiniEngineUnity", "JSONNode/Enumerator/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Enumerator::get_IsValid

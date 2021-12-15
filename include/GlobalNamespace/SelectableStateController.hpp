@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SelectableStateController
   class SelectableStateController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SelectableStateController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController*, "", "SelectableStateController");
 // Type namespace: 
@@ -188,7 +188,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectableStateController), 40 + sizeof(GlobalNamespace::SelectableStateController::ViewState)> __GlobalNamespace_SelectableStateControllerSizeCheck;
   static_assert(sizeof(SelectableStateController) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController::ViewState, "", "SelectableStateController/ViewState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_tweeningManager

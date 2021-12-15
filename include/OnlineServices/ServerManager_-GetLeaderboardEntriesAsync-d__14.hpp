@@ -31,7 +31,7 @@ namespace OnlineServices {
   class PlatformServicesAvailabilityInfo;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14, "OnlineServices", "ServerManager/<GetLeaderboardEntriesAsync>d__14");
 // Type namespace: OnlineServices
 namespace OnlineServices {

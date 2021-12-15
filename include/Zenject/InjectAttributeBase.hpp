@@ -19,7 +19,7 @@ namespace Zenject {
   // Forward declaring type: InjectAttributeBase
   class InjectAttributeBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::InjectAttributeBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
 // Type namespace: Zenject

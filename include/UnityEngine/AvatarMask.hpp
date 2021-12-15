@@ -20,7 +20,7 @@ namespace UnityEngine {
   // Forward declaring type: AvatarMask
   class AvatarMask;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AvatarMask);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
 // Type namespace: UnityEngine

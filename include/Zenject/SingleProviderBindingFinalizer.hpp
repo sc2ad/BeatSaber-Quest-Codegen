@@ -36,7 +36,7 @@ namespace Zenject {
   // Forward declaring type: SingleProviderBindingFinalizer
   class SingleProviderBindingFinalizer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SingleProviderBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SingleProviderBindingFinalizer*, "Zenject", "SingleProviderBindingFinalizer");
 // Type namespace: Zenject

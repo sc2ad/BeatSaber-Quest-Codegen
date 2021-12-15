@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   // Forward declaring type: SynchronousFilter
   class SynchronousFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter");
 // Type namespace: UnityEngine.TestTools.TestRunner.GUI

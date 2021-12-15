@@ -30,7 +30,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: MeshGenerationResult
   struct MeshGenerationResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationResult, "UnityEngine.XR", "MeshGenerationResult");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

@@ -34,7 +34,7 @@ namespace System::Threading {
   // Forward declaring type: CancellationCallbackInfo
   class CancellationCallbackInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::CancellationCallbackInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");
 // Type namespace: System.Threading

@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerConnectedPlayerEffectsSpawner
   class MultiplayerConnectedPlayerEffectsSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*, "", "MultiplayerConnectedPlayerEffectsSpawner");
 // Type namespace: 

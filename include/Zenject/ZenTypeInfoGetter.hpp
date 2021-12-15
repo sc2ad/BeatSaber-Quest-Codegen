@@ -31,7 +31,7 @@ namespace Zenject {
   // Forward declaring type: ZenTypeInfoGetter
   class ZenTypeInfoGetter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ZenTypeInfoGetter);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenTypeInfoGetter*, "Zenject", "ZenTypeInfoGetter");
 // Type namespace: Zenject

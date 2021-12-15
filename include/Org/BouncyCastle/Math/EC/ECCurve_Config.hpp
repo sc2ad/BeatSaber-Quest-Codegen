@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class ECMultiplier;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECCurve::Config);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.BouncyCastle.Math.EC", "ECCurve/Config");
 // Type namespace: Org.BouncyCastle.Math.EC

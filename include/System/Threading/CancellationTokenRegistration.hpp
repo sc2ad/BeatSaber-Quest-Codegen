@@ -28,7 +28,7 @@ namespace System::Threading {
   // Forward declaring type: CancellationTokenRegistration
   struct CancellationTokenRegistration;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
 // Type namespace: System.Threading
 namespace System::Threading {

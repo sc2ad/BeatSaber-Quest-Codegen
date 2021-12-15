@@ -36,7 +36,7 @@ namespace MasterServer {
   // Forward declaring type: DedicatedServerInstanceStatusUpdateRequest
   class DedicatedServerInstanceStatusUpdateRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::DedicatedServerInstanceStatusUpdateRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerInstanceStatusUpdateRequest*, "MasterServer", "DedicatedServerInstanceStatusUpdateRequest");
 // Type namespace: MasterServer

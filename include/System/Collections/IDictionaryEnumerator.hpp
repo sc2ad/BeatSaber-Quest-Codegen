@@ -22,7 +22,7 @@ namespace System::Collections {
   // Forward declaring type: IDictionaryEnumerator
   class IDictionaryEnumerator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::IDictionaryEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionaryEnumerator*, "System.Collections", "IDictionaryEnumerator");
 // Type namespace: System.Collections

@@ -17,7 +17,7 @@ namespace Zenject {
   // Forward declaring type: NoReflectionBakingAttribute
   class NoReflectionBakingAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::NoReflectionBakingAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoReflectionBakingAttribute*, "Zenject", "NoReflectionBakingAttribute");
 // Type namespace: Zenject

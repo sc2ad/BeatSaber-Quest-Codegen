@@ -11,7 +11,7 @@ namespace HMUI {
   // Forward declaring type: EventSystemHelpers
   class EventSystemHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::EventSystemHelpers);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
 // Type namespace: HMUI

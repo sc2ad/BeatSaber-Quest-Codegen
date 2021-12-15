@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TubeLightIntensityTrack
   class TubeLightIntensityTrack;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TubeLightIntensityTrack);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityTrack*, "", "TubeLightIntensityTrack");
 // Type namespace: 

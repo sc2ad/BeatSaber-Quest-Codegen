@@ -13,7 +13,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: MatchTargetFields
   struct MatchTargetFields;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

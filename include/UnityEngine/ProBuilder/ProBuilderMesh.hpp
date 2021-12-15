@@ -27,7 +27,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -98,7 +98,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: ProBuilderMesh
   class ProBuilderMesh;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderMesh);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh*, "UnityEngine.ProBuilder", "ProBuilderMesh");
 // Type namespace: UnityEngine.ProBuilder
@@ -952,7 +952,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(ProBuilderMesh), 248 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_ProBuilderMeshSizeCheck;
   static_assert(sizeof(ProBuilderMesh) == 0x100);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState, "UnityEngine.ProBuilder", "ProBuilderMesh/CacheValidState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_userCollisions

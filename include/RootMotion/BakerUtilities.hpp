@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Keyframe
 #include "UnityEngine/Keyframe.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -23,7 +23,7 @@ namespace RootMotion {
   // Forward declaring type: BakerUtilities
   class BakerUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::BakerUtilities);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
 // Type namespace: RootMotion

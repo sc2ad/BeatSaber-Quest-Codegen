@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: AnimationTriggers
   class AnimationTriggers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::AnimationTriggers);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AnimationTriggers*, "UnityEngine.UI", "AnimationTriggers");
 // Type namespace: UnityEngine.UI

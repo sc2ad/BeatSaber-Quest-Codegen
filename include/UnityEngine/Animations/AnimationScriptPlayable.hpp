@@ -18,7 +18,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationScriptPlayable
   struct AnimationScriptPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {

@@ -13,7 +13,7 @@ namespace System::Net::Sockets {
   // Forward declaring type: SocketOptionName
   struct SocketOptionName;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketOptionName, "System.Net.Sockets", "SocketOptionName");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {

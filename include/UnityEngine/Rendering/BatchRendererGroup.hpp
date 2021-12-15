@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: BatchRendererGroup
   class BatchRendererGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
 // Type namespace: UnityEngine.Rendering

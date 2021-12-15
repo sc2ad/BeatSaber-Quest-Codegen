@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: ExtensionAttribute
   class ExtensionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::ExtensionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ExtensionAttribute*, "System.Runtime.CompilerServices", "ExtensionAttribute");
 // Type namespace: System.Runtime.CompilerServices

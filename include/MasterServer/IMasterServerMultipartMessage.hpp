@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerReliableRequest
 #include "MasterServer/IMasterServerReliableRequest.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: MasterServer
 namespace MasterServer {
   // Forward declaring type: IMasterServerMultipartMessage
   class IMasterServerMultipartMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::IMasterServerMultipartMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMultipartMessage*, "MasterServer", "IMasterServerMultipartMessage");
 // Type namespace: MasterServer

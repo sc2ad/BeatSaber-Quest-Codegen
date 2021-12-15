@@ -28,7 +28,7 @@ namespace Zenject {
   // Forward declaring type: WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
   class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder");
 // Type namespace: Zenject

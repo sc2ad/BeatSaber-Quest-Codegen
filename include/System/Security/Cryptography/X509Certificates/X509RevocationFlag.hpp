@@ -13,7 +13,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // Forward declaring type: X509RevocationFlag
   struct X509RevocationFlag;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509RevocationFlag, "System.Security.Cryptography.X509Certificates", "X509RevocationFlag");
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {

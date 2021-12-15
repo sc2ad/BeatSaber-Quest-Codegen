@@ -23,7 +23,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: OnlineServices.API.ApiResponse`1
 #include "OnlineServices/API/ApiResponse_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: BeatSaberAPI::DataTransferObjects
@@ -32,7 +32,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   class LeaderboardEntries;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__10, "", "HTTPLeaderboardsModel/<GetLeaderboardEntriesAsync>d__10");
 // Type namespace: 
 namespace GlobalNamespace {

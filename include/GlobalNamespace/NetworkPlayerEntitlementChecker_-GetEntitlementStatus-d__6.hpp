@@ -20,7 +20,7 @@
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6, "", "NetworkPlayerEntitlementChecker/<GetEntitlementStatus>d__6");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -26,7 +26,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Sprite
   class TMP_Sprite;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Sprite);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Sprite*, "TMPro", "TMP_Sprite");
 // Type namespace: TMPro

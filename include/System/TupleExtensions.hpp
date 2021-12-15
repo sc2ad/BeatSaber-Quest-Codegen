@@ -23,7 +23,7 @@ namespace System {
   // Forward declaring type: TupleExtensions
   class TupleExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TupleExtensions);
 DEFINE_IL2CPP_ARG_TYPE(System::TupleExtensions*, "System", "TupleExtensions");
 // Type namespace: System

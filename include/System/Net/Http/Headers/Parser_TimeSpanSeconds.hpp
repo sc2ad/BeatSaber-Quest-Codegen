@@ -15,7 +15,7 @@ namespace System {
   struct TimeSpan;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::TimeSpanSeconds);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
 // Type namespace: System.Net.Http.Headers

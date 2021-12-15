@@ -19,7 +19,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // Forward declaring type: UserAuthenticationData
   class UserAuthenticationData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
 // Type namespace: BeatSaberAPI.DataTransferObjects

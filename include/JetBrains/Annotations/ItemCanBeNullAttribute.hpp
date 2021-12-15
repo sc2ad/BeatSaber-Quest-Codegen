@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: ItemCanBeNullAttribute
   class ItemCanBeNullAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::ItemCanBeNullAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ItemCanBeNullAttribute*, "JetBrains.Annotations", "ItemCanBeNullAttribute");
 // Type namespace: JetBrains.Annotations

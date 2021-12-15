@@ -14,7 +14,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVRSettingHelper
   struct CVRSettingHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettingHelper, "OVR.OpenVR", "CVRSettingHelper");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

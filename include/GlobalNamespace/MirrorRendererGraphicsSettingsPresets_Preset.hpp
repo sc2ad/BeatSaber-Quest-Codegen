@@ -18,7 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*, "", "MirrorRendererGraphicsSettingsPresets/Preset");
 // Type namespace: 
@@ -170,7 +170,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererGraphicsSettingsPresets::Preset), 52 + sizeof(bool)> __GlobalNamespace_MirrorRendererGraphicsSettingsPresets_PresetSizeCheck;
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets::Preset) == 0x35);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType, "", "MirrorRendererGraphicsSettingsPresets/Preset/MirrorType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::New_ctor

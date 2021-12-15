@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: Hash128
   struct Hash128;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");
 // Type namespace: UnityEngine
 namespace UnityEngine {

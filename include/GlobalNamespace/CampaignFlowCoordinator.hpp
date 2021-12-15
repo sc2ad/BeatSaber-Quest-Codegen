@@ -52,7 +52,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CampaignFlowCoordinator
   class CampaignFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CampaignFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");
 // Type namespace: 

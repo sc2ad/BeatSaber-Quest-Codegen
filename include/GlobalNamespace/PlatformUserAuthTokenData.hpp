@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlatformUserAuthTokenData
   class PlatformUserAuthTokenData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlatformUserAuthTokenData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 // Type namespace: 
@@ -134,7 +134,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlatformUserAuthTokenData), 24 + sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)> __GlobalNamespace_PlatformUserAuthTokenDataSizeCheck;
   static_assert(sizeof(PlatformUserAuthTokenData) == 0x19);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_token

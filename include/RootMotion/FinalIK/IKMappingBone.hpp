@@ -31,7 +31,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: IKMappingBone
   class IKMappingBone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::IKMappingBone);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingBone*, "RootMotion.FinalIK", "IKMappingBone");
 // Type namespace: RootMotion.FinalIK

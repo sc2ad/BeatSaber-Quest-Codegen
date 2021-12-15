@@ -22,7 +22,7 @@ namespace System::Diagnostics {
   // Forward declaring type: Stopwatch
   class Stopwatch;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::Stopwatch);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");
 // Type namespace: System.Diagnostics

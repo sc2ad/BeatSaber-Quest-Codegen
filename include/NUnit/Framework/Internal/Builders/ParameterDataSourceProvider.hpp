@@ -29,7 +29,7 @@ namespace NUnit::Framework::Internal::Builders {
   // Forward declaring type: ParameterDataSourceProvider
   class ParameterDataSourceProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider*, "NUnit.Framework.Internal.Builders", "ParameterDataSourceProvider");
 // Type namespace: NUnit.Framework.Internal.Builders

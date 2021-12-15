@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: DsaParameter
   class DsaParameter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::DsaParameter);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DsaParameter*, "Org.BouncyCastle.Asn1.X509", "DsaParameter");
 // Type namespace: Org.BouncyCastle.Asn1.X509

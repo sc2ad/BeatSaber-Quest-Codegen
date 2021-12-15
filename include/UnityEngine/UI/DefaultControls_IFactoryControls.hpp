@@ -8,7 +8,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.UI.DefaultControls
 #include "UnityEngine/UI/DefaultControls.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -22,7 +22,7 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::DefaultControls::IFactoryControls);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::IFactoryControls*, "UnityEngine.UI", "DefaultControls/IFactoryControls");
 // Type namespace: UnityEngine.UI

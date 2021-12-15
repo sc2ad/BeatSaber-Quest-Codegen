@@ -20,7 +20,7 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0, "", "BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0");
 // Type namespace: 
 namespace GlobalNamespace {

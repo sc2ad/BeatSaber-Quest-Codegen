@@ -13,7 +13,7 @@ namespace NUnit::Framework::Internal::Execution {
   // Forward declaring type: WorkItemState
   struct WorkItemState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");
 // Type namespace: NUnit.Framework.Internal.Execution
 namespace NUnit::Framework::Internal::Execution {

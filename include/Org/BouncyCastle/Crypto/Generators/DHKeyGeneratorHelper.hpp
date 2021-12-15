@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // Forward declaring type: DHKeyGeneratorHelper
   class DHKeyGeneratorHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
 // Type namespace: Org.BouncyCastle.Crypto.Generators

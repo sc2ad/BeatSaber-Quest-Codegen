@@ -21,7 +21,7 @@
 #include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,7 +49,7 @@ namespace System {
   // Forward declaring type: DateTimeOffset
   struct DateTimeOffset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");
 // Type namespace: System
 namespace System {

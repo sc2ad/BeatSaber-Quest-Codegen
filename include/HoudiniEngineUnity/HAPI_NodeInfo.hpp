@@ -15,7 +15,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_NodeInfo
   struct HAPI_NodeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

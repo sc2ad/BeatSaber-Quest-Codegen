@@ -18,7 +18,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: Bone
   struct Bone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Bone, "UnityEngine.XR", "Bone");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

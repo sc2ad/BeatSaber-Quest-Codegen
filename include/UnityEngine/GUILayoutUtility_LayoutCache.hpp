@@ -24,7 +24,7 @@ namespace UnityEngineInternal {
   class GenericStack;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::GUILayoutUtility::LayoutCache);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
 // Type namespace: UnityEngine

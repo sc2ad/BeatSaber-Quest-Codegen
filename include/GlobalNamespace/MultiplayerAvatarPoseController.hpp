@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerAvatarPoseController
   class MultiplayerAvatarPoseController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerAvatarPoseController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarPoseController*, "", "MultiplayerAvatarPoseController");
 // Type namespace: 

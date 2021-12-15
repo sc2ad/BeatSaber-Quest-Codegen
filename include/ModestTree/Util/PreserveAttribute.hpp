@@ -17,7 +17,7 @@ namespace ModestTree::Util {
   // Forward declaring type: PreserveAttribute
   class PreserveAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::PreserveAttribute*, "ModestTree.Util", "PreserveAttribute");
 // Type namespace: ModestTree.Util

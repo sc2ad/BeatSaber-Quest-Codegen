@@ -71,7 +71,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LocalNetworkDiscoveryManager
   class LocalNetworkDiscoveryManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 // Type namespace: 
@@ -452,7 +452,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LocalNetworkDiscoveryManager), 104 + sizeof(float)> __GlobalNamespace_LocalNetworkDiscoveryManagerSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager) == 0x6C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::get_userId

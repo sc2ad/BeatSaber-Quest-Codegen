@@ -19,7 +19,7 @@ namespace UnityEngine {
   class Terrain;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_1");
 // Type namespace: UnityEngine.Experimental.TerrainAPI

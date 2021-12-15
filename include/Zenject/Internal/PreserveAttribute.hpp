@@ -17,7 +17,7 @@ namespace Zenject::Internal {
   // Forward declaring type: PreserveAttribute
   class PreserveAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::PreserveAttribute*, "Zenject.Internal", "PreserveAttribute");
 // Type namespace: Zenject.Internal

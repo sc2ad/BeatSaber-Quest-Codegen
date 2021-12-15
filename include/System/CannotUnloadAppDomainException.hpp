@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: CannotUnloadAppDomainException
   class CannotUnloadAppDomainException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::CannotUnloadAppDomainException);
 DEFINE_IL2CPP_ARG_TYPE(System::CannotUnloadAppDomainException*, "System", "CannotUnloadAppDomainException");
 // Type namespace: System

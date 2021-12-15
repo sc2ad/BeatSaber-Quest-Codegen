@@ -63,7 +63,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: NUnitEqualityComparer
   class NUnitEqualityComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::NUnitEqualityComparer);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
 // Type namespace: NUnit.Framework.Constraints

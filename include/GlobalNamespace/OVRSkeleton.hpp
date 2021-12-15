@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRSkeleton
   class OVRSkeleton;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSkeleton);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton*, "", "OVRSkeleton");
 // Type namespace: 
@@ -399,7 +399,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSkeleton), 176 + sizeof(int)> __GlobalNamespace_OVRSkeletonSizeCheck;
   static_assert(sizeof(OVRSkeleton) == 0xB4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeleton::SkeletonType, "", "OVRSkeleton/SkeletonType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::get_IsInitialized

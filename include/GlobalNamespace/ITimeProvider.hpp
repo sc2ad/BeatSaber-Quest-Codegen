@@ -10,7 +10,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ITimeProvider
   class ITimeProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ITimeProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ITimeProvider*, "", "ITimeProvider");
 // Type namespace: 

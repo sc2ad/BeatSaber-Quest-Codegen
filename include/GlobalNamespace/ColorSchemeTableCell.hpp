@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorSchemeTableCell
   class ColorSchemeTableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ColorSchemeTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeTableCell*, "", "ColorSchemeTableCell");
 // Type namespace: 

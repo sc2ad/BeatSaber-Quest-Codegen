@@ -19,7 +19,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Entity
   class Entity;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Entity);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
 // Type namespace: UnityEngine.ProBuilder

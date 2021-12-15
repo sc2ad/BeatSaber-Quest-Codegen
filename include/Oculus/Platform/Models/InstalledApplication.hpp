@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: InstalledApplication
   class InstalledApplication;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::InstalledApplication);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::InstalledApplication*, "Oculus.Platform.Models", "InstalledApplication");
 // Type namespace: Oculus.Platform.Models

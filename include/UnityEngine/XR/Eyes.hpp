@@ -18,7 +18,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: Eyes
   struct Eyes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

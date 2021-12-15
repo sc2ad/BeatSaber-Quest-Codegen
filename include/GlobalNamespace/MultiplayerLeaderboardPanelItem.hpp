@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLeaderboardPanelItem
   class MultiplayerLeaderboardPanelItem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLeaderboardPanelItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");
 // Type namespace: 

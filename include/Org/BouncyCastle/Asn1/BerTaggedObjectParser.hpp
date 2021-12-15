@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: BerTaggedObjectParser
   class BerTaggedObjectParser;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::BerTaggedObjectParser);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerTaggedObjectParser*, "Org.BouncyCastle.Asn1", "BerTaggedObjectParser");
 // Type namespace: Org.BouncyCastle.Asn1

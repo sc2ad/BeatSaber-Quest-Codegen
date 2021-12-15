@@ -17,7 +17,7 @@ namespace UnityEngine::U2D {
   // Forward declaring type: SpriteBone
   struct SpriteBone;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
 // Type namespace: UnityEngine.U2D
 namespace UnityEngine::U2D {

@@ -29,7 +29,7 @@ namespace UnityEngine {
   // Forward declaring type: ResourceRequest
   class ResourceRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceRequest);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRequest");
 // Type namespace: UnityEngine

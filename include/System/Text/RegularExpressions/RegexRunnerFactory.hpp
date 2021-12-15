@@ -18,7 +18,7 @@ namespace System::Text::RegularExpressions {
   // Forward declaring type: RegexRunnerFactory
   class RegexRunnerFactory;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::RegularExpressions::RegexRunnerFactory);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunnerFactory*, "System.Text.RegularExpressions", "RegexRunnerFactory");
 // Type namespace: System.Text.RegularExpressions

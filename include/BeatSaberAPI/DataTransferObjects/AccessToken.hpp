@@ -15,7 +15,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   // Forward declaring type: AccessToken
   class AccessToken;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::AccessToken);
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::AccessToken*, "BeatSaberAPI.DataTransferObjects", "AccessToken");
 // Type namespace: BeatSaberAPI.DataTransferObjects

@@ -16,7 +16,7 @@ namespace UnityEngine {
   // Forward declaring type: RemoteConfigSettingsHelper
   class RemoteConfigSettingsHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::RemoteConfigSettingsHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper*, "UnityEngine", "RemoteConfigSettingsHelper");
 // Type namespace: UnityEngine

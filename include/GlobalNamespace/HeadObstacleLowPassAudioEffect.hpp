@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HeadObstacleLowPassAudioEffect
   class HeadObstacleLowPassAudioEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HeadObstacleLowPassAudioEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadObstacleLowPassAudioEffect*, "", "HeadObstacleLowPassAudioEffect");
 // Type namespace: 

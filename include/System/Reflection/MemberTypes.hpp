@@ -13,7 +13,7 @@ namespace System::Reflection {
   // Forward declaring type: MemberTypes
   struct MemberTypes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberTypes, "System.Reflection", "MemberTypes");
 // Type namespace: System.Reflection
 namespace System::Reflection {

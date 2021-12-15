@@ -15,7 +15,7 @@
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -65,7 +65,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: SelectionPickerRenderer
   class SelectionPickerRenderer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPickerRenderer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer*, "UnityEngine.ProBuilder", "SelectionPickerRenderer");
 // Type namespace: UnityEngine.ProBuilder

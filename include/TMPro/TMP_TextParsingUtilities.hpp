@@ -22,7 +22,7 @@ namespace TMPro {
   // Forward declaring type: TMP_TextParsingUtilities
   class TMP_TextParsingUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_TextParsingUtilities);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
 // Type namespace: TMPro

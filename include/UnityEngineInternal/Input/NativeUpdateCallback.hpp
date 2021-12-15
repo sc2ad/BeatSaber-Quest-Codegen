@@ -33,7 +33,7 @@ namespace UnityEngineInternal::Input {
   // Forward declaring type: NativeUpdateCallback
   class NativeUpdateCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngineInternal::Input::NativeUpdateCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "UnityEngineInternal.Input", "NativeUpdateCallback");
 // Type namespace: UnityEngineInternal.Input

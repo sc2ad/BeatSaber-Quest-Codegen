@@ -24,7 +24,7 @@ namespace TMPro {
   // Forward declaring type: TMP_SelectionCaret
   class TMP_SelectionCaret;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_SelectionCaret);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");
 // Type namespace: TMPro

@@ -13,7 +13,7 @@ namespace OnlineServices::API {
   // Forward declaring type: Response
   struct Response;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::Response, "OnlineServices.API", "Response");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

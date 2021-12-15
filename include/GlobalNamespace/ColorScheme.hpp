@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorScheme
   class ColorScheme;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ColorScheme);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");
 // Type namespace: 

@@ -13,7 +13,7 @@ namespace Tweening {
   // Forward declaring type: InterpolationType
   struct InterpolationType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::InterpolationType, "Tweening", "InterpolationType");
 // Type namespace: Tweening
 namespace Tweening {

@@ -26,7 +26,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ComparisonConstraint
   class ComparisonConstraint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonConstraint*, "NUnit.Framework.Constraints", "ComparisonConstraint");
 // Type namespace: NUnit.Framework.Constraints

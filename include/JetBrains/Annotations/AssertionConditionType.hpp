@@ -13,7 +13,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AssertionConditionType
   struct AssertionConditionType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {

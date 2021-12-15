@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: ICriticalNotifyCompletion
   class ICriticalNotifyCompletion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::ICriticalNotifyCompletion);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ICriticalNotifyCompletion*, "System.Runtime.CompilerServices", "ICriticalNotifyCompletion");
 // Type namespace: System.Runtime.CompilerServices

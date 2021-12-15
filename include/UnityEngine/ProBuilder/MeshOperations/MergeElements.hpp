@@ -34,7 +34,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // Forward declaring type: MergeElements
   class MergeElements;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MergeElements);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MergeElements*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

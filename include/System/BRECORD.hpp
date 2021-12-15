@@ -14,7 +14,7 @@ namespace System {
   // Forward declaring type: BRECORD
   struct BRECORD;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::BRECORD, "System", "BRECORD");
 // Type namespace: System
 namespace System {

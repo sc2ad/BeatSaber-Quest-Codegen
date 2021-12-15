@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class BTSStarTextEffectController;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5*, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");
 // Type namespace: 

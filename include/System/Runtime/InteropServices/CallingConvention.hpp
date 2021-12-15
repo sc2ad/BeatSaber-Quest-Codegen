@@ -13,7 +13,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: CallingConvention
   struct CallingConvention;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::CallingConvention, "System.Runtime.InteropServices", "CallingConvention");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

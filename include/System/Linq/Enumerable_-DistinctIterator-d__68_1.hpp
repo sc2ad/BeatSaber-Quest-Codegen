@@ -34,7 +34,7 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::$DistinctIterator$d__68_1, "System.Linq", "Enumerable/<DistinctIterator>d__68`1");
 // Type namespace: System.Linq
 namespace System::Linq {

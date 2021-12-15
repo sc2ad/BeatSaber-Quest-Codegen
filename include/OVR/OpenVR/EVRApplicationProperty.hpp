@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVRApplicationProperty
   struct EVRApplicationProperty;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationProperty, "OVR.OpenVR", "EVRApplicationProperty");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

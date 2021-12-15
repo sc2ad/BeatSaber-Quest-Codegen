@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EnvironmentSizeData
   class EnvironmentSizeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EnvironmentSizeData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData*, "", "EnvironmentSizeData");
 // Type namespace: 
@@ -169,10 +169,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentSizeData), 20 + sizeof(GlobalNamespace::EnvironmentSizeData::CeilingType)> __GlobalNamespace_EnvironmentSizeDataSizeCheck;
   static_assert(sizeof(EnvironmentSizeData) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::CeilingType, "", "EnvironmentSizeData/CeilingType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::FloorType, "", "EnvironmentSizeData/FloorType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSizeData::get_floorType
 // Il2CppName: get_floorType

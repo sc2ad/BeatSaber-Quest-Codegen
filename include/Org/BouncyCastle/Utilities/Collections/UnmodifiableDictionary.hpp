@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // Forward declaring type: UnmodifiableDictionary
   class UnmodifiableDictionary;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionary");
 // Type namespace: Org.BouncyCastle.Utilities.Collections

@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: UserInfo
   class UserInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UserInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo*, "", "UserInfo");
 // Type namespace: 
@@ -132,7 +132,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(UserInfo), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserInfo::Platform, "", "UserInfo/Platform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UserInfo::New_ctor

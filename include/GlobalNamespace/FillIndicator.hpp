@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FillIndicator
   class FillIndicator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FillIndicator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
 // Type namespace: 

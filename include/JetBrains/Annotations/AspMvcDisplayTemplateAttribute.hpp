@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AspMvcDisplayTemplateAttribute
   class AspMvcDisplayTemplateAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::AspMvcDisplayTemplateAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcDisplayTemplateAttribute*, "JetBrains.Annotations", "AspMvcDisplayTemplateAttribute");
 // Type namespace: JetBrains.Annotations

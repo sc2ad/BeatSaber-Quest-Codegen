@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: LinqTunnelAttribute
   class LinqTunnelAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::LinqTunnelAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LinqTunnelAttribute*, "JetBrains.Annotations", "LinqTunnelAttribute");
 // Type namespace: JetBrains.Annotations

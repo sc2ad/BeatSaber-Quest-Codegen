@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: ElGamalPublicKeyParameters
   class ElGamalPublicKeyParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "ElGamalPublicKeyParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

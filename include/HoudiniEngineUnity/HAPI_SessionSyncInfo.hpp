@@ -12,7 +12,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_SessionSyncInfo
   struct HAPI_SessionSyncInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_SessionSyncInfo, "HoudiniEngineUnity", "HAPI_SessionSyncInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

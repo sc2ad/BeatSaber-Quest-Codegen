@@ -24,7 +24,7 @@ namespace System::IO {
   // Forward declaring type: DirectoryNotFoundException
   class DirectoryNotFoundException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::DirectoryNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DirectoryNotFoundException*, "System.IO", "DirectoryNotFoundException");
 // Type namespace: System.IO

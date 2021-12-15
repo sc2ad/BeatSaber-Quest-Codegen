@@ -8,7 +8,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.BindingFlags
 #include "System/Reflection/BindingFlags.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -39,7 +39,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: Reflect
   class Reflect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Reflect);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect*, "NUnit.Framework.Internal", "Reflect");
 // Type namespace: NUnit.Framework.Internal

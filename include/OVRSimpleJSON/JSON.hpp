@@ -18,7 +18,7 @@ namespace OVRSimpleJSON {
   // Forward declaring type: JSON
   class JSON;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVRSimpleJSON::JSON);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSON*, "OVRSimpleJSON", "JSON");
 // Type namespace: OVRSimpleJSON

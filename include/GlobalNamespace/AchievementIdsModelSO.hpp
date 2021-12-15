@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AchievementIdsModelSO
   class AchievementIdsModelSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AchievementIdsModelSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementIdsModelSO*, "", "AchievementIdsModelSO");
 // Type namespace: 

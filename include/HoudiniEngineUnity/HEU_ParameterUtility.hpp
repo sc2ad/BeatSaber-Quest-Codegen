@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HAPI_ParmInfo
 #include "HoudiniEngineUnity/HAPI_ParmInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_ParameterUtility
   class HEU_ParameterUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_ParameterUtility);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ParameterUtility*, "HoudiniEngineUnity", "HEU_ParameterUtility");
 // Type namespace: HoudiniEngineUnity

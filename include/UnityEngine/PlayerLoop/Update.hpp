@@ -17,7 +17,7 @@ namespace UnityEngine::PlayerLoop {
   // Forward declaring type: Update
   struct Update;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Update, "UnityEngine.PlayerLoop", "Update");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {

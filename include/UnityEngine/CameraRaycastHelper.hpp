@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: CameraRaycastHelper
   class CameraRaycastHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CameraRaycastHelper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
 // Type namespace: UnityEngine

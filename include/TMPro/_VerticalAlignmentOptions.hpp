@@ -13,7 +13,7 @@ namespace TMPro {
   // Forward declaring type: _VerticalAlignmentOptions
   struct _VerticalAlignmentOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::_VerticalAlignmentOptions, "TMPro", "_VerticalAlignmentOptions");
 // Type namespace: TMPro
 namespace TMPro {

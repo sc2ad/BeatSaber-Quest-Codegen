@@ -22,7 +22,7 @@
 // Including type: AdditionalContentModel/UpdateEntitlementsResult
 #include "GlobalNamespace/AdditionalContentModel_UpdateEntitlementsResult.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$DataIsValidAsync$d__7, "", "OculusPlatformAdditionalContentModel/<DataIsValidAsync>d__7");
 // Type namespace: 
 namespace GlobalNamespace {

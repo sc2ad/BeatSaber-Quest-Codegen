@@ -31,7 +31,7 @@ namespace Oculus::Platform::Models {
   class Room;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0*, "", "OculusNetworkPlayerModel/<>c__DisplayClass64_0");
 // Type namespace: 

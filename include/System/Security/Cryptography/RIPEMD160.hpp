@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: RIPEMD160
   class RIPEMD160;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::RIPEMD160);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160*, "System.Security.Cryptography", "RIPEMD160");
 // Type namespace: System.Security.Cryptography

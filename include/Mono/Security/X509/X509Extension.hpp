@@ -27,7 +27,7 @@ namespace Mono::Security::X509 {
   // Forward declaring type: X509Extension
   class X509Extension;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::X509Extension);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");
 // Type namespace: Mono.Security.X509

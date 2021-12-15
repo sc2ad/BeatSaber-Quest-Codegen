@@ -22,7 +22,7 @@ namespace UnityEngine::Events {
   class UnityAction_3;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SteamVR_Events::Event_3, "", "SteamVR_Events/Event`3");
 // Type namespace: 
 namespace GlobalNamespace {

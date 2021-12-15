@@ -19,7 +19,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_FIXED_INFO
   struct Win32_FIXED_INFO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

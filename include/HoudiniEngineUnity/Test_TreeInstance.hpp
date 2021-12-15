@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_TreeInstance
   class Test_TreeInstance;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_TreeInstance);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance*, "HoudiniEngineUnity", "Test_TreeInstance");
 // Type namespace: HoudiniEngineUnity

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IConnectedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayer*, "", "IConnectedPlayer");
 // Type namespace: 

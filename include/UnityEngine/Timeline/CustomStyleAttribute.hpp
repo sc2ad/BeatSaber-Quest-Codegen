@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: CustomStyleAttribute
   class CustomStyleAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::CustomStyleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomStyleAttribute*, "UnityEngine.Timeline", "CustomStyleAttribute");
 // Type namespace: UnityEngine.Timeline

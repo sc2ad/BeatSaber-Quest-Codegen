@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_HoudiniAssetRoot
   class HEU_HoudiniAssetRoot;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAssetRoot*, "HoudiniEngineUnity", "HEU_HoudiniAssetRoot");
 // Type namespace: HoudiniEngineUnity

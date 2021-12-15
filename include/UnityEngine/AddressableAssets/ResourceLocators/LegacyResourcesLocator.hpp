@@ -38,7 +38,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Forward declaring type: LegacyResourcesLocator
   class LegacyResourcesLocator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators

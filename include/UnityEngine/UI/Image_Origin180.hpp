@@ -10,7 +10,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Image::Origin180, "UnityEngine.UI", "Image/Origin180");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

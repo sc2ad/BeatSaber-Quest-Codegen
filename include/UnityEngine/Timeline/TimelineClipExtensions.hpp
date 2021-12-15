@@ -25,7 +25,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TimelineClipExtensions
   class TimelineClipExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimelineClipExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipExtensions*, "UnityEngine.Timeline", "TimelineClipExtensions");
 // Type namespace: UnityEngine.Timeline

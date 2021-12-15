@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -19,7 +19,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: Utils
   class Utils;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::Utils);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");
 // Type namespace: System.Security.Cryptography

@@ -13,7 +13,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ToleranceMode
   struct ToleranceMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ToleranceMode, "NUnit.Framework.Constraints", "ToleranceMode");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {

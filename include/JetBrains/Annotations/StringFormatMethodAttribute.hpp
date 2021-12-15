@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: StringFormatMethodAttribute
   class StringFormatMethodAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::StringFormatMethodAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "JetBrains.Annotations", "StringFormatMethodAttribute");
 // Type namespace: JetBrains.Annotations

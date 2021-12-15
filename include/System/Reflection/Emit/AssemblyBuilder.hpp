@@ -13,7 +13,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: AssemblyBuilder
   class AssemblyBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::AssemblyBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::AssemblyBuilder*, "System.Reflection.Emit", "AssemblyBuilder");
 // Type namespace: System.Reflection.Emit

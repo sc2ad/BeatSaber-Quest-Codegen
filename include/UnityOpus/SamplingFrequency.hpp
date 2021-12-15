@@ -13,7 +13,7 @@ namespace UnityOpus {
   // Forward declaring type: SamplingFrequency
   struct SamplingFrequency;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityOpus::SamplingFrequency, "UnityOpus", "SamplingFrequency");
 // Type namespace: UnityOpus
 namespace UnityOpus {

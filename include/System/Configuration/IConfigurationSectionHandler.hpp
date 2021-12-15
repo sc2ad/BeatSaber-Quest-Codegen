@@ -10,7 +10,7 @@ namespace System::Configuration {
   // Forward declaring type: IConfigurationSectionHandler
   class IConfigurationSectionHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Configuration::IConfigurationSectionHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IConfigurationSectionHandler*, "System.Configuration", "IConfigurationSectionHandler");
 // Type namespace: System.Configuration

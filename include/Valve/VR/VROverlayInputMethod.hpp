@@ -13,7 +13,7 @@ namespace Valve::VR {
   // Forward declaring type: VROverlayInputMethod
   struct VROverlayInputMethod;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VROverlayInputMethod, "Valve.VR", "VROverlayInputMethod");
 // Type namespace: Valve.VR
 namespace Valve::VR {

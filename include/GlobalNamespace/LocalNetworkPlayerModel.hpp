@@ -62,7 +62,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LocalNetworkPlayerModel
   class LocalNetworkPlayerModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LocalNetworkPlayerModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel*, "", "LocalNetworkPlayerModel");
 // Type namespace: 

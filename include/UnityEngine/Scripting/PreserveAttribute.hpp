@@ -17,7 +17,7 @@ namespace UnityEngine::Scripting {
   // Forward declaring type: PreserveAttribute
   class PreserveAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Scripting::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::PreserveAttribute*, "UnityEngine.Scripting", "PreserveAttribute");
 // Type namespace: UnityEngine.Scripting

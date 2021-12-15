@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: LogLevel
   struct LogLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::LogLevel, "UnityEngine.ProBuilder", "LogLevel");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

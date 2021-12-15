@@ -12,7 +12,7 @@
 // Including type: OVR.OpenVR.IVRRenderModels
 #include "OVR/OpenVR/IVRRenderModels.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::GetComponentStateUnion, "OVR.OpenVR", "CVRRenderModels/GetComponentStateUnion");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

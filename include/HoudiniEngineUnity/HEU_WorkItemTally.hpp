@@ -15,7 +15,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_WorkItemTally
   class HEU_WorkItemTally;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_WorkItemTally);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_WorkItemTally*, "HoudiniEngineUnity", "HEU_WorkItemTally");
 // Type namespace: HoudiniEngineUnity

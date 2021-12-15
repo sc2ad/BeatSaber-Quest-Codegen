@@ -37,7 +37,7 @@ namespace HMUI {
   // Forward declaring type: DropdownWithTableView
   class DropdownWithTableView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::DropdownWithTableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");
 // Type namespace: HMUI

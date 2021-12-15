@@ -13,7 +13,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: ShaderHardwareTier
   struct ShaderHardwareTier;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderHardwareTier, "UnityEngine.Rendering", "ShaderHardwareTier");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

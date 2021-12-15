@@ -15,7 +15,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: UnmanagedMarshal
   class UnmanagedMarshal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::UnmanagedMarshal);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::UnmanagedMarshal*, "System.Reflection.Emit", "UnmanagedMarshal");
 // Type namespace: System.Reflection.Emit

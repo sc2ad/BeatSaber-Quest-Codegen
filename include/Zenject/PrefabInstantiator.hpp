@@ -56,7 +56,7 @@ namespace Zenject {
   // Forward declaring type: PrefabInstantiator
   class PrefabInstantiator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::PrefabInstantiator);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator*, "Zenject", "PrefabInstantiator");
 // Type namespace: Zenject

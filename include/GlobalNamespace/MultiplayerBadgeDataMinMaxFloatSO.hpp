@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerBadgeDataMinMaxFloatSO
   class MultiplayerBadgeDataMinMaxFloatSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*, "", "MultiplayerBadgeDataMinMaxFloatSO");
 // Type namespace: 

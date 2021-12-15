@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GetAssetBundleFileResult
   struct GetAssetBundleFileResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
 // Type namespace: 
 namespace GlobalNamespace {

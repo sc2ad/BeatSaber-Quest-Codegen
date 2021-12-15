@@ -33,7 +33,7 @@ namespace System::ComponentModel {
   // Forward declaring type: Component
   class Component;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::Component);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");
 // Type namespace: System.ComponentModel

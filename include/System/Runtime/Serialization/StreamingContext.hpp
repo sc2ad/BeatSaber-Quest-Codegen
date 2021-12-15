@@ -15,7 +15,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: StreamingContext
   struct StreamingContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {

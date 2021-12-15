@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Score
   struct StandardScoreSyncState_Score;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncState_Score, "", "StandardScoreSyncState/Score");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -13,7 +13,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: UnicodeDecodingConformance
   struct UnicodeDecodingConformance;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::UnicodeDecodingConformance, "System.Net.Configuration", "UnicodeDecodingConformance");
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {

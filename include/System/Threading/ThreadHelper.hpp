@@ -29,7 +29,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadHelper
   class ThreadHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ThreadHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");
 // Type namespace: System.Threading

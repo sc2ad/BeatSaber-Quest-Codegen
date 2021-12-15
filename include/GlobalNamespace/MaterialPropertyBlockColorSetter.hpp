@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MaterialPropertyBlockColorSetter
   class MaterialPropertyBlockColorSetter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockColorSetter);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockColorSetter*, "", "MaterialPropertyBlockColorSetter");
 // Type namespace: 

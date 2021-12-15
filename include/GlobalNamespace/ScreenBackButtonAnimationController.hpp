@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ScreenBackButtonAnimationController
   class ScreenBackButtonAnimationController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ScreenBackButtonAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 // Type namespace: 
@@ -167,7 +167,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ScreenBackButtonAnimationController), 32 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, int>*)> __GlobalNamespace_ScreenBackButtonAnimationControllerSizeCheck;
   static_assert(sizeof(ScreenBackButtonAnimationController) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::Awake

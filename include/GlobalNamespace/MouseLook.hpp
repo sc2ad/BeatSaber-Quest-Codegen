@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MouseLook
   class MouseLook;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MouseLook);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
 // Type namespace: 

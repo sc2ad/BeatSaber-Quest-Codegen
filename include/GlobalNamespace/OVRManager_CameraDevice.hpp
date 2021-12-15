@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CameraDevice
   struct OVRManager_CameraDevice;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_CameraDevice, "", "OVRManager/CameraDevice");
 // Type namespace: 
 namespace GlobalNamespace {

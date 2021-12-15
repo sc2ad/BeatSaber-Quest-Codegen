@@ -33,7 +33,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: SurrogateSelector
   class SurrogateSelector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::SurrogateSelector);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateSelector*, "System.Runtime.Serialization", "SurrogateSelector");
 // Type namespace: System.Runtime.Serialization

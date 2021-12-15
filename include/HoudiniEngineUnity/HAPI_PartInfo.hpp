@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_PartType
 #include "HoudiniEngineUnity/HAPI_PartType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_PartInfo
   struct HAPI_PartInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PartInfo, "HoudiniEngineUnity", "HAPI_PartInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

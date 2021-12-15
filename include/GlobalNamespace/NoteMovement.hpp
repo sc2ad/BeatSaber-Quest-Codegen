@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteMovement
   class NoteMovement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteMovement);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement*, "", "NoteMovement");
 // Type namespace: 
@@ -369,7 +369,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteMovement), 144 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteMovementSizeCheck;
   static_assert(sizeof(NoteMovement) == 0x9C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMovement::MovementPhase, "", "NoteMovement/MovementPhase");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteMovement::get_movementPhase

@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: RSAPKCS1SHA256SignatureDescription
   class RSAPKCS1SHA256SignatureDescription;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SHA256SignatureDescription");
 // Type namespace: System.Security.Cryptography

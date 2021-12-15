@@ -15,7 +15,7 @@ namespace TMPro {
   // Forward declaring type: CaretInfo
   struct CaretInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
 // Type namespace: TMPro
 namespace TMPro {

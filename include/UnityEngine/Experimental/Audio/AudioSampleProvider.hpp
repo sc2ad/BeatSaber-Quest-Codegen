@@ -16,7 +16,7 @@ namespace UnityEngine::Experimental::Audio {
   // Forward declaring type: AudioSampleProvider
   class AudioSampleProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::Audio::AudioSampleProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
 // Type namespace: UnityEngine.Experimental.Audio

@@ -50,7 +50,7 @@ namespace Zenject {
   // Forward declaring type: AddToGameObjectComponentProviderBase
   class AddToGameObjectComponentProviderBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::AddToGameObjectComponentProviderBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToGameObjectComponentProviderBase*, "Zenject", "AddToGameObjectComponentProviderBase");
 // Type namespace: Zenject

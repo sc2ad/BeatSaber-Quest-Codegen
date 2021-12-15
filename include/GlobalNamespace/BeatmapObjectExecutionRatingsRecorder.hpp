@@ -53,7 +53,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectExecutionRatingsRecorder
   class BeatmapObjectExecutionRatingsRecorder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, "", "BeatmapObjectExecutionRatingsRecorder");
 // Type namespace: 

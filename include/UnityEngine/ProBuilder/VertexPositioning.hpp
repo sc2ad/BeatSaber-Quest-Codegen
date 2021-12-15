@@ -9,7 +9,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,7 +36,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: VertexPositioning
   class VertexPositioning;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::VertexPositioning);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");
 // Type namespace: UnityEngine.ProBuilder

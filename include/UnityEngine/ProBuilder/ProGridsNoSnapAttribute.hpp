@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: ProGridsNoSnapAttribute
   class ProGridsNoSnapAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::ProGridsNoSnapAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProGridsNoSnapAttribute*, "UnityEngine.ProBuilder", "ProGridsNoSnapAttribute");
 // Type namespace: UnityEngine.ProBuilder

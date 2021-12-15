@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Transform2D
   class Transform2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Transform2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D*, "UnityEngine.ProBuilder", "Transform2D");
 // Type namespace: UnityEngine.ProBuilder

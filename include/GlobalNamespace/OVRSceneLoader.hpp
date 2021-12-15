@@ -53,7 +53,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRSceneLoader
   class OVRSceneLoader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSceneLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");
 // Type namespace: 
@@ -292,7 +292,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRSceneLoader), 96 + sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo)> __GlobalNamespace_OVRSceneLoaderSizeCheck;
   static_assert(sizeof(OVRSceneLoader) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::Awake

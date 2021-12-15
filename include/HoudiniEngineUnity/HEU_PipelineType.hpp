@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_PipelineType
   struct HEU_PipelineType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PipelineType, "HoudiniEngineUnity", "HEU_PipelineType");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: WaitForSecondsRealtime
   class WaitForSecondsRealtime;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::WaitForSecondsRealtime);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForSecondsRealtime*, "UnityEngine", "WaitForSecondsRealtime");
 // Type namespace: UnityEngine

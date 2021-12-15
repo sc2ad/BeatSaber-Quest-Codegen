@@ -32,7 +32,7 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3*, "UnityEngine.TestTools", "EnumerableRepeatedTestCommand/<ExecuteEnumerable>d__3");
 // Type namespace: UnityEngine.TestTools

@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: NonLazyBinder
   class NonLazyBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::NonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
 // Type namespace: Zenject

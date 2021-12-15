@@ -17,7 +17,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: RotationLimitHinge
   class RotationLimitHinge;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::RotationLimitHinge);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");
 // Type namespace: RootMotion.FinalIK

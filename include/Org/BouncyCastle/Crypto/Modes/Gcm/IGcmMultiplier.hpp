@@ -5,14 +5,14 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Modes.Gcm
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // Forward declaring type: IGcmMultiplier
   class IGcmMultiplier;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmMultiplier");
 // Type namespace: Org.BouncyCastle.Crypto.Modes.Gcm

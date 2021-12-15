@@ -20,7 +20,7 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   struct KeyValuePair_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Collections::Generic::KeyValuePair_2, "System.Collections.Generic", "KeyValuePair`2");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

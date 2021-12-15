@@ -17,7 +17,7 @@ namespace Mono::Net {
   // Forward declaring type: CFDictionary
   class CFDictionary;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFDictionary);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFDictionary*, "Mono.Net", "CFDictionary");
 // Type namespace: Mono.Net

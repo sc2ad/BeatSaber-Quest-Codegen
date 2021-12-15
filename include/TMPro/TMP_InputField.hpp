@@ -34,7 +34,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -110,7 +110,7 @@ namespace TMPro {
   // Forward declaring type: TMP_InputField
   class TMP_InputField;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_InputField);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField*, "TMPro", "TMP_InputField");
 // Type namespace: TMPro
@@ -1891,14 +1891,14 @@ namespace TMPro {
   static check_size<sizeof(TMP_InputField), 680 + sizeof(UnityEngine::Event*)> __TMPro_TMP_InputFieldSizeCheck;
   static_assert(sizeof(TMP_InputField) == 0x2B0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputField/ContentType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::CharacterValidation, "TMPro", "TMP_InputField/CharacterValidation");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::LineType, "TMPro", "TMP_InputField/LineType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::CharacterValidation, "TMPro", "TMP_InputField/CharacterValidation");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputField/ContentType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_inputSystem
 // Il2CppName: get_inputSystem

@@ -15,7 +15,7 @@ namespace System::Threading {
   // Forward declaring type: AtomicBoolean
   class AtomicBoolean;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::AtomicBoolean);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
 // Type namespace: System.Threading

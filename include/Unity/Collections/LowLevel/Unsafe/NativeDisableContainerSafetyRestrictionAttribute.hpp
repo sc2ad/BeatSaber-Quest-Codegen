@@ -13,7 +13,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: NativeDisableContainerSafetyRestrictionAttribute
   class NativeDisableContainerSafetyRestrictionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableContainerSafetyRestrictionAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

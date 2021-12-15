@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: MatchmakingStats
   class MatchmakingStats;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::MatchmakingStats);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingStats*, "Oculus.Platform.Models", "MatchmakingStats");
 // Type namespace: Oculus.Platform.Models

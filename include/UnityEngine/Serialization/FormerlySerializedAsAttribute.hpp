@@ -17,7 +17,7 @@ namespace UnityEngine::Serialization {
   // Forward declaring type: FormerlySerializedAsAttribute
   class FormerlySerializedAsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Serialization::FormerlySerializedAsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
 // Type namespace: UnityEngine.Serialization

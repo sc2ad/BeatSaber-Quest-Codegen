@@ -13,7 +13,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: ReflectionProbeUsage
   struct ReflectionProbeUsage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ReflectionProbeUsage, "UnityEngine.Rendering", "ReflectionProbeUsage");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

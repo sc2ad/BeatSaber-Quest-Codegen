@@ -35,7 +35,7 @@ namespace TMPro {
   // Forward declaring type: TMP_CharacterInfo
   struct TMP_CharacterInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_CharacterInfo, "TMPro", "TMP_CharacterInfo");
 // Type namespace: TMPro
 namespace TMPro {

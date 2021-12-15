@@ -13,7 +13,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: MeshGenerationStatus
   struct MeshGenerationStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

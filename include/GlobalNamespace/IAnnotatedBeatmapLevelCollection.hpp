@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IAnnotatedBeatmapLevelCollection
   class IAnnotatedBeatmapLevelCollection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IAnnotatedBeatmapLevelCollection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, "", "IAnnotatedBeatmapLevelCollection");
 // Type namespace: 

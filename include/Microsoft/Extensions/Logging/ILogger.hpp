@@ -13,7 +13,7 @@ namespace Microsoft::Extensions::Logging {
   // Forward declaring type: ILogger
   class ILogger;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Extensions::Logging::ILogger);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
 // Type namespace: Microsoft.Extensions.Logging

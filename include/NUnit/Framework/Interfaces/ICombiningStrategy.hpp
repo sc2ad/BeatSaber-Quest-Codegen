@@ -4,7 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -29,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ICombiningStrategy
   class ICombiningStrategy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ICombiningStrategy);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICombiningStrategy*, "NUnit.Framework.Interfaces", "ICombiningStrategy");
 // Type namespace: NUnit.Framework.Interfaces

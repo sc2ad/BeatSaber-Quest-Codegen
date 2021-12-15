@@ -15,7 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GhostEffectBehaviour
   class GhostEffectBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GhostEffectBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour*, "", "GhostEffectBehaviour");
 // Type namespace: 
@@ -364,10 +364,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(GhostEffectBehaviour), 164 + sizeof(bool)> __GlobalNamespace_GhostEffectBehaviourSizeCheck;
   static_assert(sizeof(GhostEffectBehaviour) == 0xA5);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::GhostEffectType, "", "GhostEffectBehaviour/GhostEffectType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::EnableObjects
 // Il2CppName: EnableObjects

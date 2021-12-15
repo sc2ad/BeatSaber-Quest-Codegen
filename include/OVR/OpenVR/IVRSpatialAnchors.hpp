@@ -17,7 +17,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: IVRSpatialAnchors
   struct IVRSpatialAnchors;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

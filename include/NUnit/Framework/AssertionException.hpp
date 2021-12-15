@@ -29,7 +29,7 @@ namespace NUnit::Framework {
   // Forward declaring type: AssertionException
   class AssertionException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::AssertionException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::AssertionException*, "NUnit.Framework", "AssertionException");
 // Type namespace: NUnit.Framework

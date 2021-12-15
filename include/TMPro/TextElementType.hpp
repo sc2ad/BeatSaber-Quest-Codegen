@@ -13,7 +13,7 @@ namespace TMPro {
   // Forward declaring type: TextElementType
   struct TextElementType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextElementType, "TMPro", "TextElementType");
 // Type namespace: TMPro
 namespace TMPro {

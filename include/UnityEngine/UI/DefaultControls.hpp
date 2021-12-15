@@ -12,7 +12,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -38,7 +38,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: DefaultControls
   class DefaultControls;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::DefaultControls);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
 // Type namespace: UnityEngine.UI

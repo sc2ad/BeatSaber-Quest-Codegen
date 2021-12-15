@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Parametric3SliceSpriteController
   class Parametric3SliceSpriteController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::Parametric3SliceSpriteController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
 // Type namespace: 

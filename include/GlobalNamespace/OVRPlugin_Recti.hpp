@@ -14,7 +14,7 @@
 // Including type: OVRPlugin/Sizei
 #include "GlobalNamespace/OVRPlugin_Sizei.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Recti, "", "OVRPlugin/Recti");
 // Type namespace: 
 namespace GlobalNamespace {

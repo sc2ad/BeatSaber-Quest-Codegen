@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IDragHandler
   class IDragHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IDragHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IDragHandler*, "UnityEngine.EventSystems", "IDragHandler");
 // Type namespace: UnityEngine.EventSystems

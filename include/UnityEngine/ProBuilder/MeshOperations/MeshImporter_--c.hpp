@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder {
   class Vertex;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter/<>c");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

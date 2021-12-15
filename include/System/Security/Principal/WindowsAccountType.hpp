@@ -13,7 +13,7 @@ namespace System::Security::Principal {
   // Forward declaring type: WindowsAccountType
   struct WindowsAccountType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsAccountType, "System.Security.Principal", "WindowsAccountType");
 // Type namespace: System.Security.Principal
 namespace System::Security::Principal {

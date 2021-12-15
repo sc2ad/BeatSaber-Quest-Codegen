@@ -22,7 +22,7 @@ namespace System::Text::RegularExpressions {
   // Forward declaring type: SharedReference
   class SharedReference;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::RegularExpressions::SharedReference);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");
 // Type namespace: System.Text.RegularExpressions

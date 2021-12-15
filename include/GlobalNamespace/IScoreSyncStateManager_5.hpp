@@ -54,7 +54,7 @@ namespace GlobalNamespace {
   template<typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
   class IScoreSyncStateManager_5;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IScoreSyncStateManager_5, "", "IScoreSyncStateManager`5");
 // Type namespace: 
 namespace GlobalNamespace {

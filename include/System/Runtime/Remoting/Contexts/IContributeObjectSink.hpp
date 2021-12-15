@@ -22,7 +22,7 @@ namespace System::Runtime::Remoting::Contexts {
   // Forward declaring type: IContributeObjectSink
   class IContributeObjectSink;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContributeObjectSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeObjectSink*, "System.Runtime.Remoting.Contexts", "IContributeObjectSink");
 // Type namespace: System.Runtime.Remoting.Contexts

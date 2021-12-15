@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // Forward declaring type: RsassaPssParameters
   class RsassaPssParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters*, "Org.BouncyCastle.Asn1.Pkcs", "RsassaPssParameters");
 // Type namespace: Org.BouncyCastle.Asn1.Pkcs

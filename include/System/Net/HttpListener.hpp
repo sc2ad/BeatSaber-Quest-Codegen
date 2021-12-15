@@ -79,7 +79,7 @@ namespace System::Net {
   // Forward declaring type: HttpListener
   class HttpListener;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::HttpListener);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");
 // Type namespace: System.Net

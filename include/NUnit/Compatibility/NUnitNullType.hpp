@@ -11,7 +11,7 @@ namespace NUnit::Compatibility {
   // Forward declaring type: NUnitNullType
   class NUnitNullType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Compatibility::NUnitNullType);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::NUnitNullType*, "NUnit.Compatibility", "NUnitNullType");
 // Type namespace: NUnit.Compatibility

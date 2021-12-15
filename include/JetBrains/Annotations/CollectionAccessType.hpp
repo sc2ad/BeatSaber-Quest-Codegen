@@ -13,7 +13,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: CollectionAccessType
   struct CollectionAccessType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessType, "JetBrains.Annotations", "CollectionAccessType");
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {

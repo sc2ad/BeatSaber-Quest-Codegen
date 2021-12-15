@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: OutputLengthException
   class OutputLengthException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::OutputLengthException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::OutputLengthException*, "Org.BouncyCastle.Crypto", "OutputLengthException");
 // Type namespace: Org.BouncyCastle.Crypto

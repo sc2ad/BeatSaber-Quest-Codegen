@@ -31,7 +31,7 @@ namespace Oculus::Platform {
   // Forward declaring type: VoipAudioSourceHiLevel
   class VoipAudioSourceHiLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::VoipAudioSourceHiLevel);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel*, "Oculus.Platform", "VoipAudioSourceHiLevel");
 // Type namespace: Oculus.Platform

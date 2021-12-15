@@ -26,7 +26,7 @@ namespace TMPro {
   // Forward declaring type: TMP_FontUtilities
   class TMP_FontUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_FontUtilities);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontUtilities*, "TMPro", "TMP_FontUtilities");
 // Type namespace: TMPro

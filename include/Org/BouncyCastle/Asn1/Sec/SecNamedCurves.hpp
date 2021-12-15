@@ -50,7 +50,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
   // Forward declaring type: SecNamedCurves
   class SecNamedCurves;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Sec::SecNamedCurves);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecNamedCurves*, "Org.BouncyCastle.Asn1.Sec", "SecNamedCurves");
 // Type namespace: Org.BouncyCastle.Asn1.Sec

@@ -12,7 +12,7 @@ namespace Valve::VR {
   // Forward declaring type: HmdVector2_t
   struct HmdVector2_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdVector2_t, "Valve.VR", "HmdVector2_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

@@ -24,7 +24,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: RuntimeWrappedException
   class RuntimeWrappedException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeWrappedException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");
 // Type namespace: System.Runtime.CompilerServices

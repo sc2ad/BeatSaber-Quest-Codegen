@@ -17,7 +17,7 @@ namespace System::Collections::Concurrent {
   // Forward declaring type: CDSCollectionETWBCLProvider
   class CDSCollectionETWBCLProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Concurrent::CDSCollectionETWBCLProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
 // Type namespace: System.Collections.Concurrent

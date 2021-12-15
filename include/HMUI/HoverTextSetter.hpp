@@ -33,7 +33,7 @@ namespace HMUI {
   // Forward declaring type: HoverTextSetter
   class HoverTextSetter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::HoverTextSetter);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextSetter*, "HMUI", "HoverTextSetter");
 // Type namespace: HMUI

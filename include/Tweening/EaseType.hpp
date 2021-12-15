@@ -13,7 +13,7 @@ namespace Tweening {
   // Forward declaring type: EaseType
   struct EaseType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Tweening::EaseType, "Tweening", "EaseType");
 // Type namespace: Tweening
 namespace Tweening {

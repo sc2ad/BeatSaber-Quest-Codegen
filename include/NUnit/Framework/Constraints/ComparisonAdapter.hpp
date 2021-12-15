@@ -20,7 +20,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ComparisonAdapter
   class ComparisonAdapter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter");
 // Type namespace: NUnit.Framework.Constraints

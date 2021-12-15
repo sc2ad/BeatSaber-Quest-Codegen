@@ -40,7 +40,7 @@ namespace OVRSimpleJSON {
   // Forward declaring type: JSONArray
   class JSONArray;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVRSimpleJSON::JSONArray);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONArray*, "OVRSimpleJSON", "JSONArray");
 // Type namespace: OVRSimpleJSON

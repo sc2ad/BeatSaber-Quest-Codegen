@@ -15,7 +15,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: Error
   class Error;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::Error);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Error*, "Oculus.Platform.Models", "Error");
 // Type namespace: Oculus.Platform.Models

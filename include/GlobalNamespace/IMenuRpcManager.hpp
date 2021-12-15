@@ -49,7 +49,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IMenuRpcManager
   class IMenuRpcManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IMenuRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMenuRpcManager*, "", "IMenuRpcManager");
 // Type namespace: 

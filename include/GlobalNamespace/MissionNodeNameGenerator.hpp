@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MissionNodeNameGenerator
   class MissionNodeNameGenerator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionNodeNameGenerator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeNameGenerator*, "", "MissionNodeNameGenerator");
 // Type namespace: 

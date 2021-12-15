@@ -23,7 +23,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::WindowsPlatform::UnityLogDelegate);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform::UnityLogDelegate*, "Oculus.Platform", "WindowsPlatform/UnityLogDelegate");
 // Type namespace: Oculus.Platform

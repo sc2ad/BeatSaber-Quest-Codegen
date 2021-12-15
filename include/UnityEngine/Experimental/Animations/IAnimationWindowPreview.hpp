@@ -17,7 +17,7 @@ namespace UnityEngine::Experimental::Animations {
   // Forward declaring type: IAnimationWindowPreview
   class IAnimationWindowPreview;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::Animations::IAnimationWindowPreview);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Animations::IAnimationWindowPreview*, "UnityEngine.Experimental.Animations", "IAnimationWindowPreview");
 // Type namespace: UnityEngine.Experimental.Animations

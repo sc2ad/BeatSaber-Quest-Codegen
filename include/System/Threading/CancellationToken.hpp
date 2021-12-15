@@ -32,7 +32,7 @@ namespace System::Threading {
   // Forward declaring type: CancellationToken
   struct CancellationToken;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 // Type namespace: System.Threading
 namespace System::Threading {

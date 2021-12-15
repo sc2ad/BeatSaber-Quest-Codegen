@@ -17,7 +17,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: NativeContainerAttribute
   class NativeContainerAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

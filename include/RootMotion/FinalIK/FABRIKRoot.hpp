@@ -26,7 +26,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: FABRIKRoot
   class FABRIKRoot;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::FABRIKRoot);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot*, "RootMotion.FinalIK", "FABRIKRoot");
 // Type namespace: RootMotion.FinalIK

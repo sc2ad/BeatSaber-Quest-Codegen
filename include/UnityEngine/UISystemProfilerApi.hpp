@@ -18,7 +18,7 @@ namespace UnityEngine {
   // Forward declaring type: UISystemProfilerApi
   class UISystemProfilerApi;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UISystemProfilerApi);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi*, "UnityEngine", "UISystemProfilerApi");
 // Type namespace: UnityEngine

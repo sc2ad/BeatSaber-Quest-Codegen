@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IFilePathSongPreviewAudioClipProvider
   class IFilePathSongPreviewAudioClipProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IFilePathSongPreviewAudioClipProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFilePathSongPreviewAudioClipProvider*, "", "IFilePathSongPreviewAudioClipProvider");
 // Type namespace: 

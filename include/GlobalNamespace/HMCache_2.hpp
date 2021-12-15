@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   template<typename K, typename V>
   class HMCache_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::HMCache_2, "", "HMCache`2");
 // Type namespace: 
 namespace GlobalNamespace {

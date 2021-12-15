@@ -17,7 +17,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: SettingsSectionInternal
   class SettingsSectionInternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Configuration::SettingsSectionInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSectionInternal*, "System.Net.Configuration", "SettingsSectionInternal");
 // Type namespace: System.Net.Configuration

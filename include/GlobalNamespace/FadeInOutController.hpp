@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FadeInOutController
   class FadeInOutController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FadeInOutController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
 // Type namespace: 

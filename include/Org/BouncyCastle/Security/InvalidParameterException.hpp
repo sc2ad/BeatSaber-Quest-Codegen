@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: InvalidParameterException
   class InvalidParameterException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::InvalidParameterException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::InvalidParameterException*, "Org.BouncyCastle.Security", "InvalidParameterException");
 // Type namespace: Org.BouncyCastle.Security

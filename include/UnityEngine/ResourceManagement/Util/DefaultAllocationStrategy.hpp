@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: DefaultAllocationStrategy
   class DefaultAllocationStrategy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "DefaultAllocationStrategy");
 // Type namespace: UnityEngine.ResourceManagement.Util

@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // Forward declaring type: KeyDerivationFunc
   class KeyDerivationFunc;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*, "Org.BouncyCastle.Asn1.Pkcs", "KeyDerivationFunc");
 // Type namespace: Org.BouncyCastle.Asn1.Pkcs

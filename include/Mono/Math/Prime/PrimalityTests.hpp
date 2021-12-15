@@ -23,7 +23,7 @@ namespace Mono::Math::Prime {
   // Forward declaring type: PrimalityTests
   class PrimalityTests;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Math::Prime::PrimalityTests);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");
 // Type namespace: Mono.Math.Prime

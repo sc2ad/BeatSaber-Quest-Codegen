@@ -13,7 +13,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: AsyncCausalityStatus
   struct AsyncCausalityStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

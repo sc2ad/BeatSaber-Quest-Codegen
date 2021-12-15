@@ -13,7 +13,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: BitMask128
 #include "GlobalNamespace/BitMask128.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerStateHash
   struct PlayerStateHash;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
 // Type namespace: 
 namespace GlobalNamespace {

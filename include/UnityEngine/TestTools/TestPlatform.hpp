@@ -13,7 +13,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: TestPlatform
   struct TestPlatform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestPlatform, "UnityEngine.TestTools", "TestPlatform");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {

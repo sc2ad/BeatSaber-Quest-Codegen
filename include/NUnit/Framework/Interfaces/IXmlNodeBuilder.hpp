@@ -17,7 +17,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IXmlNodeBuilder
   class IXmlNodeBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IXmlNodeBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IXmlNodeBuilder*, "NUnit.Framework.Interfaces", "IXmlNodeBuilder");
 // Type namespace: NUnit.Framework.Interfaces

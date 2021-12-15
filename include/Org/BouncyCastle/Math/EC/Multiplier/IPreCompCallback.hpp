@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Forward declaring type: IPreCompCallback
   class IPreCompCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "IPreCompCallback");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier

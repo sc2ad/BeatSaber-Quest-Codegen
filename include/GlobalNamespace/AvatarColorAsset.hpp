@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AvatarColorAsset
   class AvatarColorAsset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarColorAsset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorAsset*, "", "AvatarColorAsset");
 // Type namespace: 

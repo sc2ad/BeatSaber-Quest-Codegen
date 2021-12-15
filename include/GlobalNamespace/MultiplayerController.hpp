@@ -92,7 +92,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerController
   class MultiplayerController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController*, "", "MultiplayerController");
 // Type namespace: 
@@ -515,7 +515,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerController), 200 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_MultiplayerControllerSizeCheck;
   static_assert(sizeof(MultiplayerController) == 0xD0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::State, "", "MultiplayerController/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::get_state

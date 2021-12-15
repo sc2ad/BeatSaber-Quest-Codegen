@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: StringConverter
   class StringConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::StringConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::StringConverter*, "System.ComponentModel", "StringConverter");
 // Type namespace: System.ComponentModel

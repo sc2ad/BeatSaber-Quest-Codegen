@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: CryptoException
   class CryptoException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::CryptoException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::CryptoException*, "Org.BouncyCastle.Crypto", "CryptoException");
 // Type namespace: Org.BouncyCastle.Crypto

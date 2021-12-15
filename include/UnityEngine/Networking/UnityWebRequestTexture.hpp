@@ -18,7 +18,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UnityWebRequestTexture
   class UnityWebRequestTexture;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestTexture);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestTexture*, "UnityEngine.Networking", "UnityWebRequestTexture");
 // Type namespace: UnityEngine.Networking

@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DrawIfAttribute
   class DrawIfAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DrawIfAttribute);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");
 // Type namespace: 
@@ -136,7 +136,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(DrawIfAttribute), 40 + sizeof(GlobalNamespace::DrawIfAttribute::DisablingType)> __GlobalNamespace_DrawIfAttributeSizeCheck;
   static_assert(sizeof(DrawIfAttribute) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawIfAttribute::DisablingType, "", "DrawIfAttribute/DisablingType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DrawIfAttribute::New_ctor

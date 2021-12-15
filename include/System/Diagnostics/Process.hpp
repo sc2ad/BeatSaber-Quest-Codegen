@@ -69,7 +69,7 @@ namespace System::Diagnostics {
   // Forward declaring type: Process
   class Process;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::Process);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 // Type namespace: System.Diagnostics
@@ -587,7 +587,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(Process), 232 + sizeof(::Il2CppString*)> __System_Diagnostics_ProcessSizeCheck;
   static_assert(sizeof(Process) == 0xF0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_Associated

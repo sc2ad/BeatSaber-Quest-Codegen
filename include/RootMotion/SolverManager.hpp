@@ -28,7 +28,7 @@ namespace RootMotion {
   // Forward declaring type: SolverManager
   class SolverManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::SolverManager);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
 // Type namespace: RootMotion

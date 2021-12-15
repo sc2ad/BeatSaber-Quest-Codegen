@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename TItem, typename TDistance>
   class NearestNeighbourList_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2, "UnityEngine.ProBuilder.KdTree", "NearestNeighbourList`2");
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {

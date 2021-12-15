@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: IssuingDistributionPoint
   class IssuingDistributionPoint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuingDistributionPoint*, "Org.BouncyCastle.Asn1.X509", "IssuingDistributionPoint");
 // Type namespace: Org.BouncyCastle.Asn1.X509

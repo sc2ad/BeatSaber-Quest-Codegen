@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_Gradient
   class Test_Gradient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_Gradient);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Gradient*, "HoudiniEngineUnity", "Test_Gradient");
 // Type namespace: HoudiniEngineUnity

@@ -38,7 +38,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: PlayableOutputExtensions
   class PlayableOutputExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Playables::PlayableOutputExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions*, "UnityEngine.Playables", "PlayableOutputExtensions");
 // Type namespace: UnityEngine.Playables

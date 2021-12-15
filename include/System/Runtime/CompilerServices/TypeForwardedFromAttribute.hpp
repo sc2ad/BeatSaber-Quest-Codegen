@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: TypeForwardedFromAttribute
   class TypeForwardedFromAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::TypeForwardedFromAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");
 // Type namespace: System.Runtime.CompilerServices

@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Profiling.Experimental.DebugScreenCapture
 #include "UnityEngine/Profiling/Experimental/DebugScreenCapture.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,7 +39,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   // Forward declaring type: MemoryProfiler
   class MemoryProfiler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
 // Type namespace: UnityEngine.Profiling.Memory.Experimental

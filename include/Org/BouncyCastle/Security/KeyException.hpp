@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: KeyException
   class KeyException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::KeyException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::KeyException*, "Org.BouncyCastle.Security", "KeyException");
 // Type namespace: Org.BouncyCastle.Security

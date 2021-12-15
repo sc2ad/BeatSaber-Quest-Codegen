@@ -24,7 +24,7 @@ namespace System::IO {
   // Forward declaring type: PathTooLongException
   class PathTooLongException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::PathTooLongException);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::PathTooLongException*, "System.IO", "PathTooLongException");
 // Type namespace: System.IO

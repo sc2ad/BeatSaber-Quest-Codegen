@@ -17,7 +17,7 @@ namespace System::Collections::Specialized {
   // Forward declaring type: CaseSensitiveStringDictionary
   class CaseSensitiveStringDictionary;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::CaseSensitiveStringDictionary);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CaseSensitiveStringDictionary*, "System.Collections.Specialized", "CaseSensitiveStringDictionary");
 // Type namespace: System.Collections.Specialized

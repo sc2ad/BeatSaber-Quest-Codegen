@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: InvalidDataSourceException
   class InvalidDataSourceException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::InvalidDataSourceException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");
 // Type namespace: NUnit.Framework.Internal

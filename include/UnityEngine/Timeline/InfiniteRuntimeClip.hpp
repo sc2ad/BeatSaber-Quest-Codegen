@@ -26,7 +26,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: InfiniteRuntimeClip
   class InfiniteRuntimeClip;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::InfiniteRuntimeClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
 // Type namespace: UnityEngine.Timeline

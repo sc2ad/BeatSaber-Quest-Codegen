@@ -24,7 +24,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: InvalidTestFixtureException
   class InvalidTestFixtureException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::InvalidTestFixtureException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidTestFixtureException*, "NUnit.Framework.Internal", "InvalidTestFixtureException");
 // Type namespace: NUnit.Framework.Internal

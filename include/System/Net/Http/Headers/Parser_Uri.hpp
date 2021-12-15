@@ -15,7 +15,7 @@ namespace System {
   class Uri;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::Uri);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Uri*, "System.Net.Http.Headers", "Parser/Uri");
 // Type namespace: System.Net.Http.Headers

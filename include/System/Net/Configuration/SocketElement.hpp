@@ -24,7 +24,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: SocketElement
   class SocketElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Configuration::SocketElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SocketElement*, "System.Net.Configuration", "SocketElement");
 // Type namespace: System.Net.Configuration

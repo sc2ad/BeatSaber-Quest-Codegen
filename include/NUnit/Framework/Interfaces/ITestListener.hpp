@@ -21,7 +21,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestListener
   class ITestListener;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ITestListener);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestListener*, "NUnit.Framework.Interfaces", "ITestListener");
 // Type namespace: NUnit.Framework.Interfaces

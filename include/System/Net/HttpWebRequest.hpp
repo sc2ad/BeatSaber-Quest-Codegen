@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -100,7 +100,7 @@ namespace System::Net {
   // Forward declaring type: HttpWebRequest
   class HttpWebRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::HttpWebRequest);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest*, "System.Net", "HttpWebRequest");
 // Type namespace: System.Net
@@ -1103,10 +1103,10 @@ namespace System::Net {
   static check_size<sizeof(HttpWebRequest), 416 + sizeof(System::Net::WebConnection*)> __System_Net_HttpWebRequestSizeCheck;
   static_assert(sizeof(HttpWebRequest) == 0x1A8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.Net", "HttpWebRequest/AuthorizationState");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::get_Address
 // Il2CppName: get_Address

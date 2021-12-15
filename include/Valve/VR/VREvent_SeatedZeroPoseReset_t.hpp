@@ -12,7 +12,7 @@ namespace Valve::VR {
   // Forward declaring type: VREvent_SeatedZeroPoseReset_t
   struct VREvent_SeatedZeroPoseReset_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_SeatedZeroPoseReset_t, "Valve.VR", "VREvent_SeatedZeroPoseReset_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

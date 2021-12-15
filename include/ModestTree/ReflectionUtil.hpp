@@ -72,7 +72,7 @@ namespace ModestTree {
   // Forward declaring type: ReflectionUtil
   class ReflectionUtil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::ReflectionUtil);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUtil");
 // Type namespace: ModestTree

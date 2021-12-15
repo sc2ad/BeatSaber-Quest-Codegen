@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: RazorSectionAttribute
   class RazorSectionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::RazorSectionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorSectionAttribute*, "JetBrains.Annotations", "RazorSectionAttribute");
 // Type namespace: JetBrains.Annotations

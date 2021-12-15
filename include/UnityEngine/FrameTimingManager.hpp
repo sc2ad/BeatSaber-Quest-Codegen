@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.FrameTiming
 #include "UnityEngine/FrameTiming.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: FrameTimingManager
   class FrameTimingManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::FrameTimingManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");
 // Type namespace: UnityEngine

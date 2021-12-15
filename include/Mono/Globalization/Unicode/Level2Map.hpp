@@ -15,7 +15,7 @@ namespace Mono::Globalization::Unicode {
   // Forward declaring type: Level2Map
   class Level2Map;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Globalization::Unicode::Level2Map);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
 // Type namespace: Mono.Globalization.Unicode

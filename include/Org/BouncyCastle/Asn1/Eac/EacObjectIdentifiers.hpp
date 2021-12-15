@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::Eac {
   // Forward declaring type: EacObjectIdentifiers
   class EacObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Eac

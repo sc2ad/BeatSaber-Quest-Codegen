@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerAgreements
   class PlayerAgreements;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerAgreements);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAgreements*, "", "PlayerAgreements");
 // Type namespace: 

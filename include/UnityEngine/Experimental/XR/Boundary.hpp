@@ -24,7 +24,7 @@ namespace UnityEngine::Experimental::XR {
   // Forward declaring type: Boundary
   class Boundary;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::XR::Boundary);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
 // Type namespace: UnityEngine.Experimental.XR

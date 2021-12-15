@@ -13,7 +13,7 @@ namespace System::IO {
   // Forward declaring type: WatcherChangeTypes
   struct WatcherChangeTypes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WatcherChangeTypes, "System.IO", "WatcherChangeTypes");
 // Type namespace: System.IO
 namespace System::IO {

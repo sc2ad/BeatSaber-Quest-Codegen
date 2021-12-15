@@ -13,7 +13,7 @@ namespace System::Net {
   // Forward declaring type: CloseExState
   struct CloseExState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CloseExState, "System.Net", "CloseExState");
 // Type namespace: System.Net
 namespace System::Net {

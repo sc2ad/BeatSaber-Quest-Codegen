@@ -24,7 +24,7 @@ namespace System::Net {
   // Forward declaring type: ICertificatePolicy
   class ICertificatePolicy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::ICertificatePolicy);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
 // Type namespace: System.Net

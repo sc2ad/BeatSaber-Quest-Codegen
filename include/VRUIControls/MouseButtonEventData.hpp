@@ -23,7 +23,7 @@ namespace VRUIControls {
   // Forward declaring type: MouseButtonEventData
   class MouseButtonEventData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::MouseButtonEventData);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
 // Type namespace: VRUIControls

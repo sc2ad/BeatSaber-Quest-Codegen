@@ -37,7 +37,7 @@ namespace Zenject {
   // Forward declaring type: TypeAnalyzer
   class TypeAnalyzer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::TypeAnalyzer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer*, "Zenject", "TypeAnalyzer");
 // Type namespace: Zenject

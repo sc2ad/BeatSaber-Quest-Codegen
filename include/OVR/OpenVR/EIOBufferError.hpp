@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EIOBufferError
   struct EIOBufferError;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EIOBufferError, "OVR.OpenVR", "EIOBufferError");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

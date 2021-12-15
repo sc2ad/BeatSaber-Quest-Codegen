@@ -24,7 +24,7 @@ namespace TMPro {
   // Forward declaring type: TMP_GlyphValueRecord
   struct TMP_GlyphValueRecord;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphValueRecord, "TMPro", "TMP_GlyphValueRecord");
 // Type namespace: TMPro
 namespace TMPro {

@@ -26,7 +26,7 @@ namespace System::Threading {
   // Forward declaring type: SendOrPostCallback
   class SendOrPostCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::SendOrPostCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SendOrPostCallback*, "System.Threading", "SendOrPostCallback");
 // Type namespace: System.Threading

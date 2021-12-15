@@ -73,7 +73,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameServerPlayersTableView
   class GameServerPlayersTableView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameServerPlayersTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView*, "", "GameServerPlayersTableView");
 // Type namespace: 

@@ -13,7 +13,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: CipherSuiteCode
   struct CipherSuiteCode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {

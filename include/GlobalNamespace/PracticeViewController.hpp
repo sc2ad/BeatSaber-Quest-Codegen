@@ -57,7 +57,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PracticeViewController
   class PracticeViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PracticeViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
 // Type namespace: 

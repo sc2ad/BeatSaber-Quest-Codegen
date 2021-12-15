@@ -26,7 +26,7 @@ namespace System::Reflection {
   // Forward declaring type: Missing
   class Missing;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Missing);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Missing*, "System.Reflection", "Missing");
 // Type namespace: System.Reflection

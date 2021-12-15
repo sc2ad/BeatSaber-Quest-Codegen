@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BackgroundTextureGradientSwitchEventEffect
   class BackgroundTextureGradientSwitchEventEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*, "", "BackgroundTextureGradientSwitchEventEffect");
 // Type namespace: 

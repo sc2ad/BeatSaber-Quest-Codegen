@@ -24,7 +24,7 @@ namespace System::ComponentModel {
   // Forward declaring type: EnumConverter
   class EnumConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::EnumConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter*, "System.ComponentModel", "EnumConverter");
 // Type namespace: System.ComponentModel

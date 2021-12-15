@@ -10,7 +10,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector4s, "", "OVRPlugin/Vector4s");
 // Type namespace: 
 namespace GlobalNamespace {

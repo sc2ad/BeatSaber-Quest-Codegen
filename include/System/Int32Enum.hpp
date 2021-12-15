@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: Int32Enum
   struct Int32Enum;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Int32Enum, "System", "Int32Enum");
 // Type namespace: System
 namespace System {

@@ -41,7 +41,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerDependencyProvider
   class SubContainerDependencyProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerDependencyProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerDependencyProvider*, "Zenject", "SubContainerDependencyProvider");
 // Type namespace: Zenject

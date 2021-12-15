@@ -19,7 +19,7 @@
 // Including type: NetEase.Docker.LoginData
 #include "NetEase/Docker/LoginData.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController::$LoginAsync$d__4, "", "NetEaseLoginController/<LoginAsync>d__4");
 // Type namespace: 
 namespace GlobalNamespace {

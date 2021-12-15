@@ -19,7 +19,7 @@ namespace Mono::Net {
   // Forward declaring type: CFObject
   class CFObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFObject);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");
 // Type namespace: Mono.Net

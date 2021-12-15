@@ -37,7 +37,7 @@ namespace TMPro {
   // Forward declaring type: TMP_SpriteAnimator
   class TMP_SpriteAnimator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_SpriteAnimator);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
 // Type namespace: TMPro

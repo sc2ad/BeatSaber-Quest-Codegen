@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: InputRecord
   struct InputRecord;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::InputRecord, "System", "InputRecord");
 // Type namespace: System
 namespace System {

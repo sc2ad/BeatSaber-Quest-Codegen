@@ -17,7 +17,7 @@ namespace Mono::Security::Cryptography {
   // Forward declaring type: MD2
   class MD2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::MD2);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2*, "Mono.Security.Cryptography", "MD2");
 // Type namespace: Mono.Security.Cryptography

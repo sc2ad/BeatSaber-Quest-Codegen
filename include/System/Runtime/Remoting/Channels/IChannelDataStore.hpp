@@ -10,7 +10,7 @@ namespace System::Runtime::Remoting::Channels {
   // Forward declaring type: IChannelDataStore
   class IChannelDataStore;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Channels::IChannelDataStore);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelDataStore*, "System.Runtime.Remoting.Channels", "IChannelDataStore");
 // Type namespace: System.Runtime.Remoting.Channels

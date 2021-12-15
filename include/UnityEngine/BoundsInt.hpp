@@ -25,7 +25,7 @@ namespace UnityEngine {
   // Forward declaring type: BoundsInt
   struct BoundsInt;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
 // Type namespace: UnityEngine
 namespace UnityEngine {

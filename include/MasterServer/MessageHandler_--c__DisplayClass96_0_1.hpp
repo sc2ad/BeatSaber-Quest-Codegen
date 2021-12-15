@@ -49,7 +49,7 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(MasterServer::MessageHandler::$$c__DisplayClass96_0_1, "MasterServer", "MessageHandler/<>c__DisplayClass96_0`1");
 // Type namespace: MasterServer
 namespace MasterServer {

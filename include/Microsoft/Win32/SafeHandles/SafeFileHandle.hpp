@@ -17,7 +17,7 @@ namespace Microsoft::Win32::SafeHandles {
   // Forward declaring type: SafeFileHandle
   class SafeFileHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeFileHandle);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFileHandle*, "Microsoft.Win32.SafeHandles", "SafeFileHandle");
 // Type namespace: Microsoft.Win32.SafeHandles

@@ -71,7 +71,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   template<typename TObject>
   class ProviderOperation_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1, "UnityEngine.ResourceManagement.AsyncOperations", "ProviderOperation`1");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {

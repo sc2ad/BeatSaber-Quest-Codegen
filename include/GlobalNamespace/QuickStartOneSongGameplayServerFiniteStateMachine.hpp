@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: QuickStartOneSongGameplayServerFiniteStateMachine
   class QuickStartOneSongGameplayServerFiniteStateMachine;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine*, "", "QuickStartOneSongGameplayServerFiniteStateMachine");
 // Type namespace: 

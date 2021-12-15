@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapLevelLoader
   class BeatmapLevelLoader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader*, "", "BeatmapLevelLoader");
 // Type namespace: 
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(BeatmapLevelLoader), 24 + sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*)> __GlobalNamespace_BeatmapLevelLoaderSizeCheck;
   static_assert(sizeof(BeatmapLevelLoader) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult, "", "BeatmapLevelLoader/LoadBeatmapLevelResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelLoader::New_ctor

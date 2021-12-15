@@ -33,7 +33,7 @@ namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: ObjectInitializationData
   struct ObjectInitializationData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {

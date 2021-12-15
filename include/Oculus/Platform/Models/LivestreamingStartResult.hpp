@@ -19,7 +19,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: LivestreamingStartResult
   class LivestreamingStartResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStartResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
 // Type namespace: Oculus.Platform.Models

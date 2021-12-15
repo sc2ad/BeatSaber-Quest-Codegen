@@ -12,7 +12,7 @@
 // Including type: Valve.VR.IVROverlay
 #include "Valve/VR/IVROverlay.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::PollNextOverlayEventUnion, "Valve.VR", "CVROverlay/PollNextOverlayEventUnion");
 // Type namespace: Valve.VR
 namespace Valve::VR {

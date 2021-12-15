@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorChangeUIEventType
   struct ColorChangeUIEventType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorChangeUIEventType, "", "ColorChangeUIEventType");
 // Type namespace: 
 namespace GlobalNamespace {

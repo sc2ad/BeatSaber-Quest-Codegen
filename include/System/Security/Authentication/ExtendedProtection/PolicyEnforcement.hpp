@@ -13,7 +13,7 @@ namespace System::Security::Authentication::ExtendedProtection {
   // Forward declaring type: PolicyEnforcement
   struct PolicyEnforcement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::PolicyEnforcement, "System.Security.Authentication.ExtendedProtection", "PolicyEnforcement");
 // Type namespace: System.Security.Authentication.ExtendedProtection
 namespace System::Security::Authentication::ExtendedProtection {

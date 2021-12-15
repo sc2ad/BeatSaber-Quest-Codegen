@@ -28,7 +28,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: BeforeAfterTestCommandState
   class BeforeAfterTestCommandState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::BeforeAfterTestCommandState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "UnityEngine.TestTools", "BeforeAfterTestCommandState");
 // Type namespace: UnityEngine.TestTools

@@ -43,7 +43,7 @@ namespace System::Net {
   // Forward declaring type: SimpleAsyncResult
   class SimpleAsyncResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::SimpleAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult*, "System.Net", "SimpleAsyncResult");
 // Type namespace: System.Net

@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AspMvcViewAttribute
   class AspMvcViewAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::AspMvcViewAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcViewAttribute*, "JetBrains.Annotations", "AspMvcViewAttribute");
 // Type namespace: JetBrains.Annotations

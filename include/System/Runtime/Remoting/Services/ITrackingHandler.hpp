@@ -20,7 +20,7 @@ namespace System::Runtime::Remoting::Services {
   // Forward declaring type: ITrackingHandler
   class ITrackingHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Services::ITrackingHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
 // Type namespace: System.Runtime.Remoting.Services

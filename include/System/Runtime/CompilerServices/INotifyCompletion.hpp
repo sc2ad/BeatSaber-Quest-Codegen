@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: INotifyCompletion
   class INotifyCompletion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::INotifyCompletion);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::INotifyCompletion*, "System.Runtime.CompilerServices", "INotifyCompletion");
 // Type namespace: System.Runtime.CompilerServices

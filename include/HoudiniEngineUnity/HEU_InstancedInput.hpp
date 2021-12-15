@@ -26,7 +26,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_InstancedInput
   class HEU_InstancedInput;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InstancedInput);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InstancedInput*, "HoudiniEngineUnity", "HEU_InstancedInput");
 // Type namespace: HoudiniEngineUnity

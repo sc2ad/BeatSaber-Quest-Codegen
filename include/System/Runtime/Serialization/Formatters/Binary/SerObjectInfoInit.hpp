@@ -27,7 +27,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // Forward declaring type: SerObjectInfoInit
   class SerObjectInfoInit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoInit");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary

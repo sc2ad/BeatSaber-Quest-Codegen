@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: RSAPKCS1SignatureFormatter
   class RSAPKCS1SignatureFormatter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SignatureFormatter);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureFormatter*, "System.Security.Cryptography", "RSAPKCS1SignatureFormatter");
 // Type namespace: System.Security.Cryptography

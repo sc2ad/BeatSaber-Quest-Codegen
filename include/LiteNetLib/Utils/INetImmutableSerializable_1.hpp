@@ -24,7 +24,7 @@ namespace LiteNetLib::Utils {
   template<typename T>
   class INetImmutableSerializable_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::INetImmutableSerializable_1, "LiteNetLib.Utils", "INetImmutableSerializable`1");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {

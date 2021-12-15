@@ -21,7 +21,7 @@ namespace Mono::Unity {
   // Forward declaring type: UnityTls
   class UnityTls;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Unity::UnityTls);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
 // Type namespace: Mono.Unity

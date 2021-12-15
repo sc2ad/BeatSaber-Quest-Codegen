@@ -19,7 +19,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: LinkedAccount
   class LinkedAccount;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::LinkedAccount);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");
 // Type namespace: Oculus.Platform.Models

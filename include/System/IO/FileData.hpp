@@ -19,7 +19,7 @@ namespace System::IO {
   // Forward declaring type: FileData
   class FileData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::FileData);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
 // Type namespace: System.IO

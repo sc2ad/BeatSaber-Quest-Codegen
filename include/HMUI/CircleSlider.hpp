@@ -55,7 +55,7 @@ namespace HMUI {
   // Forward declaring type: CircleSlider
   class CircleSlider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::CircleSlider);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleSlider*, "HMUI", "CircleSlider");
 // Type namespace: HMUI

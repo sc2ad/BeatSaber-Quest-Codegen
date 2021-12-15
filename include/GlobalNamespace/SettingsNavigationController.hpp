@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SettingsNavigationController
   class SettingsNavigationController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SettingsNavigationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController*, "", "SettingsNavigationController");
 // Type namespace: 
@@ -183,7 +183,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SettingsNavigationController), 176 + sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*)> __GlobalNamespace_SettingsNavigationControllerSizeCheck;
   static_assert(sizeof(SettingsNavigationController) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController::FinishAction, "", "SettingsNavigationController/FinishAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::add_didFinishEvent

@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Texture2D
 #include "UnityEngine/Texture2D.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: ImageConversion
   class ImageConversion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ImageConversion);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageConversion*, "UnityEngine", "ImageConversion");
 // Type namespace: UnityEngine

@@ -17,7 +17,7 @@ namespace System::Globalization {
   // Forward declaring type: Punycode
   class Punycode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::Punycode);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Punycode*, "System.Globalization", "Punycode");
 // Type namespace: System.Globalization

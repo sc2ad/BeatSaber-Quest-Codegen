@@ -26,7 +26,7 @@ namespace RootMotion {
   // Forward declaring type: TriggerEventBroadcaster
   class TriggerEventBroadcaster;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::TriggerEventBroadcaster);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
 // Type namespace: RootMotion

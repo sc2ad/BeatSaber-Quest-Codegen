@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   template<typename TKey, typename TValue>
   class IReferenceCountingCache_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IReferenceCountingCache_2, "", "IReferenceCountingCache`2");
 // Type namespace: 
 namespace GlobalNamespace {

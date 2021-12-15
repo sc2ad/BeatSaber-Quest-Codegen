@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass66_0_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass66_0`1");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {

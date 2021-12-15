@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: SystemException
   class SystemException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::SystemException);
 DEFINE_IL2CPP_ARG_TYPE(System::SystemException*, "System", "SystemException");
 // Type namespace: System

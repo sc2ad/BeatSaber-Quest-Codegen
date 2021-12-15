@@ -26,7 +26,7 @@ namespace HMUI {
   // Forward declaring type: ButtonStaticAnimations
   class ButtonStaticAnimations;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ButtonStaticAnimations);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");
 // Type namespace: HMUI

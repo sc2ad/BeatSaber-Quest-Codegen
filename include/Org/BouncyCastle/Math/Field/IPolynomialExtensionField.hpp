@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Math::Field {
   // Forward declaring type: IPolynomialExtensionField
   class IPolynomialExtensionField;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::Field::IPolynomialExtensionField);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "IPolynomialExtensionField");
 // Type namespace: Org.BouncyCastle.Math.Field

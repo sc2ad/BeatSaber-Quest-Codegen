@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // Forward declaring type: PemReader
   class PemReader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemReader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");
 // Type namespace: Org.BouncyCastle.Utilities.IO.Pem

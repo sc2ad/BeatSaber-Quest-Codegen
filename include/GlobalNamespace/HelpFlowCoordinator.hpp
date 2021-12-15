@@ -60,7 +60,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HelpFlowCoordinator
   class HelpFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HelpFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HelpFlowCoordinator*, "", "HelpFlowCoordinator");
 // Type namespace: 

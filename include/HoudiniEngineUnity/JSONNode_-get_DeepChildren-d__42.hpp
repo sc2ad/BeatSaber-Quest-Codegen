@@ -22,7 +22,7 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42*, "HoudiniEngineUnity", "JSONNode/<get_DeepChildren>d__42");
 // Type namespace: HoudiniEngineUnity

@@ -80,7 +80,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerSessionManager
   class MultiplayerSessionManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerSessionManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 // Type namespace: 
@@ -655,10 +655,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerSessionManager), 176 + sizeof(GlobalNamespace::ConnectedPlayerManager*)> __GlobalNamespace_MultiplayerSessionManagerSizeCheck;
   static_assert(sizeof(MultiplayerSessionManager) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner

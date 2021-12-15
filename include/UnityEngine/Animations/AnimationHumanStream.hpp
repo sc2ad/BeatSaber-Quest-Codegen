@@ -14,7 +14,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationHumanStream
   struct AnimationHumanStream;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {

@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // Forward declaring type: EndoPreCompInfo
   class EndoPreCompInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, "Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo");
 // Type namespace: Org.BouncyCastle.Math.EC.Endo

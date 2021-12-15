@@ -24,7 +24,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // Forward declaring type: IRemoteTestResultDataFactory
   class IRemoteTestResultDataFactory;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "IRemoteTestResultDataFactory");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers

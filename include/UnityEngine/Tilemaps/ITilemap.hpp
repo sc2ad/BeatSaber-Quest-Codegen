@@ -27,7 +27,7 @@ namespace UnityEngine::Tilemaps {
   // Forward declaring type: ITilemap
   class ITilemap;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Tilemaps::ITilemap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::ITilemap*, "UnityEngine.Tilemaps", "ITilemap");
 // Type namespace: UnityEngine.Tilemaps

@@ -13,7 +13,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: IKeyEvaluator
   class IKeyEvaluator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::IKeyEvaluator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
 // Type namespace: UnityEngine.AddressableAssets

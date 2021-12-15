@@ -34,7 +34,7 @@ namespace NetEase {
   // Forward declaring type: DockerWrap
   class DockerWrap;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NetEase::DockerWrap);
 DEFINE_IL2CPP_ARG_TYPE(NetEase::DockerWrap*, "NetEase", "DockerWrap");
 // Type namespace: NetEase

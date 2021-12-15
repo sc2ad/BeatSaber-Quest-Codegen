@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TrackingOrigin
   struct OVRManager_TrackingOrigin;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_TrackingOrigin, "", "OVRManager/TrackingOrigin");
 // Type namespace: 
 namespace GlobalNamespace {

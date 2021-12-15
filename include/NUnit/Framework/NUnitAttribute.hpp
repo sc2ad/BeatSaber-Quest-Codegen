@@ -17,7 +17,7 @@ namespace NUnit::Framework {
   // Forward declaring type: NUnitAttribute
   class NUnitAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::NUnitAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::NUnitAttribute*, "NUnit.Framework", "NUnitAttribute");
 // Type namespace: NUnit.Framework

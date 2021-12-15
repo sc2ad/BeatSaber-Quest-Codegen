@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PosesSerializer
   class PosesSerializer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PosesSerializer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesSerializer*, "", "PosesSerializer");
 // Type namespace: 

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MissionNodeConnection;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionMapAnimationController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$$c*, "", "MissionMapAnimationController/<>c");
 // Type namespace: 

@@ -24,7 +24,7 @@ namespace System::Threading {
   // Forward declaring type: WaitHandleCannotBeOpenedException
   class WaitHandleCannotBeOpenedException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::WaitHandleCannotBeOpenedException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandleCannotBeOpenedException*, "System.Threading", "WaitHandleCannotBeOpenedException");
 // Type namespace: System.Threading

@@ -17,7 +17,7 @@ namespace System::IO {
   // Forward declaring type: SearchResult
   class SearchResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::SearchResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchResult*, "System.IO", "SearchResult");
 // Type namespace: System.IO

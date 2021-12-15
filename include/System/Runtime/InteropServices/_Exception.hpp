@@ -10,7 +10,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: _Exception
   class _Exception;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::_Exception);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_Exception*, "System.Runtime.InteropServices", "_Exception");
 // Type namespace: System.Runtime.InteropServices

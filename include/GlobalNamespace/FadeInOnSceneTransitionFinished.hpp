@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FadeInOnSceneTransitionFinished
   class FadeInOnSceneTransitionFinished;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FadeInOnSceneTransitionFinished);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");
 // Type namespace: 

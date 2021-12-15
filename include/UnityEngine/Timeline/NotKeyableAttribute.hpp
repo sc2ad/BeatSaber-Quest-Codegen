@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: NotKeyableAttribute
   class NotKeyableAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::NotKeyableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotKeyableAttribute*, "UnityEngine.Timeline", "NotKeyableAttribute");
 // Type namespace: UnityEngine.Timeline

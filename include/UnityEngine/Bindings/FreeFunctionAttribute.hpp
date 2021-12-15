@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: FreeFunctionAttribute
   class FreeFunctionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::FreeFunctionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");
 // Type namespace: UnityEngine.Bindings

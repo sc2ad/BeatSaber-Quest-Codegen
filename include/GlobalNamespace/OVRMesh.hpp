@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRMesh
   class OVRMesh;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRMesh);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh*, "", "OVRMesh");
 // Type namespace: 
@@ -176,7 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMesh), 48 + sizeof(bool)> __GlobalNamespace_OVRMeshSizeCheck;
   static_assert(sizeof(OVRMesh) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::MeshType, "", "OVRMesh/MeshType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMesh::get_IsInitialized

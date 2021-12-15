@@ -41,7 +41,7 @@ namespace Zenject {
   // Forward declaring type: EmptyGameObjectProvider
   class EmptyGameObjectProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::EmptyGameObjectProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::EmptyGameObjectProvider*, "Zenject", "EmptyGameObjectProvider");
 // Type namespace: Zenject

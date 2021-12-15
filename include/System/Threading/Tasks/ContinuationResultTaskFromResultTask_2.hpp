@@ -25,7 +25,7 @@ namespace System::Threading::Tasks {
   template<typename TAntecedentResult, typename TResult>
   class ContinuationResultTaskFromResultTask_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Threading::Tasks::ContinuationResultTaskFromResultTask_2, "System.Threading.Tasks", "ContinuationResultTaskFromResultTask`2");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

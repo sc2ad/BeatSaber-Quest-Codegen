@@ -10,7 +10,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IPoolablePacket
   class IPoolablePacket;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IPoolablePacket);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPoolablePacket*, "", "IPoolablePacket");
 // Type namespace: 

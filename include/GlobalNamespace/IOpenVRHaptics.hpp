@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IOpenVRHaptics
   class IOpenVRHaptics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IOpenVRHaptics);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IOpenVRHaptics*, "", "IOpenVRHaptics");
 // Type namespace: 

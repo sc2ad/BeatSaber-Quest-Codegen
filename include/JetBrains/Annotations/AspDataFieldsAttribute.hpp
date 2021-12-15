@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AspDataFieldsAttribute
   class AspDataFieldsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::AspDataFieldsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspDataFieldsAttribute*, "JetBrains.Annotations", "AspDataFieldsAttribute");
 // Type namespace: JetBrains.Annotations

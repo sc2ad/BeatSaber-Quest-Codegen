@@ -26,7 +26,7 @@ namespace Oculus::Platform {
   // Forward declaring type: Media
   class Media;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Media);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media*, "Oculus.Platform", "Media");
 // Type namespace: Oculus.Platform

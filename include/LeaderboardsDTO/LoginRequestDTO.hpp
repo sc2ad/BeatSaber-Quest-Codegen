@@ -15,7 +15,7 @@ namespace LeaderboardsDTO {
   // Forward declaring type: LoginRequestDTO
   class LoginRequestDTO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LeaderboardsDTO::LoginRequestDTO);
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LoginRequestDTO*, "LeaderboardsDTO", "LoginRequestDTO");
 // Type namespace: LeaderboardsDTO

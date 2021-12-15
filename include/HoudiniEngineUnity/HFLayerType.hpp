@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HFLayerType
   struct HFLayerType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HFLayerType, "HoudiniEngineUnity", "HFLayerType");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

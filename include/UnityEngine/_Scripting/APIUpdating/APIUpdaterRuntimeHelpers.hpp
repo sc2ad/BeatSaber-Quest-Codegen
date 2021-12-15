@@ -18,7 +18,7 @@ namespace UnityEngine::_Scripting::APIUpdating {
   // Forward declaring type: APIUpdaterRuntimeHelpers
   class APIUpdaterRuntimeHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
 // Type namespace: UnityEngine._Scripting.APIUpdating

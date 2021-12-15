@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CreateServerViewController
   class CreateServerViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CreateServerViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");
 // Type namespace: 

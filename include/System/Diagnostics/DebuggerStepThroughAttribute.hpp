@@ -17,7 +17,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DebuggerStepThroughAttribute
   class DebuggerStepThroughAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::DebuggerStepThroughAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerStepThroughAttribute*, "System.Diagnostics", "DebuggerStepThroughAttribute");
 // Type namespace: System.Diagnostics

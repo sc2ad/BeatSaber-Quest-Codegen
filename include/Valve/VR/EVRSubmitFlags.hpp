@@ -13,7 +13,7 @@ namespace Valve::VR {
   // Forward declaring type: EVRSubmitFlags
   struct EVRSubmitFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVRSubmitFlags, "Valve.VR", "EVRSubmitFlags");
 // Type namespace: Valve.VR
 namespace Valve::VR {

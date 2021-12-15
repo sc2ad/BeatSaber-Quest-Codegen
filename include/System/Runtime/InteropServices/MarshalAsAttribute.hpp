@@ -24,7 +24,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: MarshalAsAttribute
   class MarshalAsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::MarshalAsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
 // Type namespace: System.Runtime.InteropServices

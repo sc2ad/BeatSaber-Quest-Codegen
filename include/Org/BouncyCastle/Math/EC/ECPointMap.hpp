@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC {
   // Forward declaring type: ECPointMap
   class ECPointMap;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECPointMap);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPointMap*, "Org.BouncyCastle.Math.EC", "ECPointMap");
 // Type namespace: Org.BouncyCastle.Math.EC

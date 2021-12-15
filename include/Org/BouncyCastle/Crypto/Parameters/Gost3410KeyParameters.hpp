@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: Gost3410KeyParameters
   class Gost3410KeyParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "Gost3410KeyParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

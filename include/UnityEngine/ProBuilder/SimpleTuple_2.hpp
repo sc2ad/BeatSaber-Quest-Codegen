@@ -20,7 +20,7 @@ namespace UnityEngine::ProBuilder {
   template<typename T1, typename T2>
   struct SimpleTuple_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::SimpleTuple_2, "UnityEngine.ProBuilder", "SimpleTuple`2");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

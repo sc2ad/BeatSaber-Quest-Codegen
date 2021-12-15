@@ -17,7 +17,7 @@ namespace HMUI {
   // Forward declaring type: ButtonSpriteSwapToggle
   class ButtonSpriteSwapToggle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ButtonSpriteSwapToggle);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwapToggle*, "HMUI", "ButtonSpriteSwapToggle");
 // Type namespace: HMUI

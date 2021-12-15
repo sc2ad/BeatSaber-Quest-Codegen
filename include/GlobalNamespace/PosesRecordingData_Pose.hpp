@@ -14,7 +14,7 @@
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingData::Pose, "", "PosesRecordingData/Pose");
 // Type namespace: 
 namespace GlobalNamespace {

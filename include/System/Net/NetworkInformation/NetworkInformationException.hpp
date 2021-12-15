@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: NetworkInformationException
   class NetworkInformationException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::NetworkInformation::NetworkInformationException);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInformationException*, "System.Net.NetworkInformation", "NetworkInformationException");
 // Type namespace: System.Net.NetworkInformation

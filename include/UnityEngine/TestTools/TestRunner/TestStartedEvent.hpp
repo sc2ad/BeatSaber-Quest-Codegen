@@ -24,7 +24,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: TestStartedEvent
   class TestStartedEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::TestStartedEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestStartedEvent*, "UnityEngine.TestTools.TestRunner", "TestStartedEvent");
 // Type namespace: UnityEngine.TestTools.TestRunner

@@ -34,7 +34,7 @@ namespace MasterServer {
   // Forward declaring type: DedicatedServerInstanceNoLongerOccupiedRequest
   class DedicatedServerInstanceNoLongerOccupiedRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerInstanceNoLongerOccupiedRequest*, "MasterServer", "DedicatedServerInstanceNoLongerOccupiedRequest");
 // Type namespace: MasterServer

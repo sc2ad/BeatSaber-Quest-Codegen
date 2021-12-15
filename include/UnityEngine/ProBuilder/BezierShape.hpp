@@ -32,7 +32,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: BezierShape
   class BezierShape;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::BezierShape);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
 // Type namespace: UnityEngine.ProBuilder

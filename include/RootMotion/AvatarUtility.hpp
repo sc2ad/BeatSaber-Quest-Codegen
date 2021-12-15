@@ -33,7 +33,7 @@ namespace RootMotion {
   // Forward declaring type: AvatarUtility
   class AvatarUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::AvatarUtility);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
 // Type namespace: RootMotion

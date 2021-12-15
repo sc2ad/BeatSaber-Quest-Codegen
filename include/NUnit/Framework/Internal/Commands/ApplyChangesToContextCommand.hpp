@@ -41,7 +41,7 @@ namespace NUnit::Framework::Internal::Commands {
   // Forward declaring type: ApplyChangesToContextCommand
   class ApplyChangesToContextCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*, "NUnit.Framework.Internal.Commands", "ApplyChangesToContextCommand");
 // Type namespace: NUnit.Framework.Internal.Commands

@@ -13,7 +13,7 @@ namespace System::Runtime::Serialization::Formatters {
   // Forward declaring type: FormatterAssemblyStyle
   struct FormatterAssemblyStyle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle, "System.Runtime.Serialization.Formatters", "FormatterAssemblyStyle");
 // Type namespace: System.Runtime.Serialization.Formatters
 namespace System::Runtime::Serialization::Formatters {

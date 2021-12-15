@@ -11,7 +11,7 @@ namespace System::Net {
   // Forward declaring type: TransportContext
   class TransportContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::TransportContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TransportContext*, "System.Net", "TransportContext");
 // Type namespace: System.Net

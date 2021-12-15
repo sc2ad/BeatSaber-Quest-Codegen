@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MissionNodeConnection
   class MissionNodeConnection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionNodeConnection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
 // Type namespace: 

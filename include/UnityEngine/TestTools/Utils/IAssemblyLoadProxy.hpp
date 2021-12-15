@@ -20,7 +20,7 @@ namespace UnityEngine::TestTools::Utils {
   // Forward declaring type: IAssemblyLoadProxy
   class IAssemblyLoadProxy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::IAssemblyLoadProxy);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "IAssemblyLoadProxy");
 // Type namespace: UnityEngine.TestTools.Utils

@@ -27,7 +27,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: SystemCertificateValidator
   class SystemCertificateValidator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::SystemCertificateValidator);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::SystemCertificateValidator*, "Mono.Net.Security", "SystemCertificateValidator");
 // Type namespace: Mono.Net.Security

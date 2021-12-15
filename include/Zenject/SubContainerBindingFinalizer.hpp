@@ -42,7 +42,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerBindingFinalizer
   class SubContainerBindingFinalizer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBindingFinalizer*, "Zenject", "SubContainerBindingFinalizer");
 // Type namespace: Zenject

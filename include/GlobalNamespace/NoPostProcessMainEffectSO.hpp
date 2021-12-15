@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoPostProcessMainEffectSO
   class NoPostProcessMainEffectSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoPostProcessMainEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoPostProcessMainEffectSO*, "", "NoPostProcessMainEffectSO");
 // Type namespace: 

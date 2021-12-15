@@ -12,7 +12,7 @@ namespace TMPro {
   // Forward declaring type: TagAttribute
   struct TagAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TagAttribute, "TMPro", "TagAttribute");
 // Type namespace: TMPro
 namespace TMPro {

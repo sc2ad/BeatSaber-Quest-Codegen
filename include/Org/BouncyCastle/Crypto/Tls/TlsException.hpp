@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // Forward declaring type: TlsException
   class TlsException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsException*, "Org.BouncyCastle.Crypto.Tls", "TlsException");
 // Type namespace: Org.BouncyCastle.Crypto.Tls

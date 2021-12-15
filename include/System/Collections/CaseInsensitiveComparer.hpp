@@ -26,7 +26,7 @@ namespace System::Collections {
   // Forward declaring type: CaseInsensitiveComparer
   class CaseInsensitiveComparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::CaseInsensitiveComparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");
 // Type namespace: System.Collections

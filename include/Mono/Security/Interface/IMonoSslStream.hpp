@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Security
@@ -44,7 +44,7 @@ namespace Mono::Security::Interface {
   // Forward declaring type: IMonoSslStream
   class IMonoSslStream;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Interface::IMonoSslStream);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::IMonoSslStream*, "Mono.Security.Interface", "IMonoSslStream");
 // Type namespace: Mono.Security.Interface

@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRPlatformMenu
   class OVRPlatformMenu;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRPlatformMenu);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");
 // Type namespace: 
@@ -171,7 +171,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRPlatformMenu), 32 + sizeof(System::Func_1<bool>*)> __GlobalNamespace_OVRPlatformMenuSizeCheck;
   static_assert(sizeof(OVRPlatformMenu) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::HandleBackButtonState

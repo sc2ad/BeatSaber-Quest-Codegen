@@ -24,7 +24,7 @@ namespace Tweening {
   // Forward declaring type: SongTimeTweeningManager
   class SongTimeTweeningManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Tweening::SongTimeTweeningManager);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::SongTimeTweeningManager*, "Tweening", "SongTimeTweeningManager");
 // Type namespace: Tweening

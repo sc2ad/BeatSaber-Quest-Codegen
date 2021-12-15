@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: MustUseReturnValueAttribute
   class MustUseReturnValueAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::MustUseReturnValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");
 // Type namespace: JetBrains.Annotations

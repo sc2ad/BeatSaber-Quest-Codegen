@@ -13,7 +13,7 @@ namespace System::Runtime::Serialization::Formatters {
   // Forward declaring type: TypeFilterLevel
   struct TypeFilterLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::TypeFilterLevel, "System.Runtime.Serialization.Formatters", "TypeFilterLevel");
 // Type namespace: System.Runtime.Serialization.Formatters
 namespace System::Runtime::Serialization::Formatters {

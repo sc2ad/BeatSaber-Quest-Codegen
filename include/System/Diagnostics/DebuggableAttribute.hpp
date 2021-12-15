@@ -19,7 +19,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DebuggableAttribute
   class DebuggableAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::DebuggableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
 // Type namespace: System.Diagnostics
@@ -130,7 +130,7 @@ namespace System::Diagnostics {
   static check_size<sizeof(DebuggableAttribute), 16 + sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes)> __System_Diagnostics_DebuggableAttributeSizeCheck;
   static_assert(sizeof(DebuggableAttribute) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute::DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggableAttribute::New_ctor

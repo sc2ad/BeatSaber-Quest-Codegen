@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // Forward declaring type: Kdf2BytesGenerator
   class Kdf2BytesGenerator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "Kdf2BytesGenerator");
 // Type namespace: Org.BouncyCastle.Crypto.Generators

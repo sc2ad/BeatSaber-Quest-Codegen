@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: SerializedTypeRestrictionAttribute
   class SerializedTypeRestrictionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute*, "UnityEngine.ResourceManagement.Util", "SerializedTypeRestrictionAttribute");
 // Type namespace: UnityEngine.ResourceManagement.Util

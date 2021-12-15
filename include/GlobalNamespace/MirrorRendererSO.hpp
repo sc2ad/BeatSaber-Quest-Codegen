@@ -53,7 +53,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MirrorRendererSO
   class MirrorRendererSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MirrorRendererSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 // Type namespace: 
@@ -350,7 +350,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MirrorRendererSO), 144 + sizeof(UnityEngine::Rect)> __GlobalNamespace_MirrorRendererSOSizeCheck;
   static_assert(sizeof(MirrorRendererSO) == 0xA0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::OnValidate

@@ -12,7 +12,7 @@
 // Including type: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION
 #include "System/TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");
 // Type namespace: System
 namespace System {

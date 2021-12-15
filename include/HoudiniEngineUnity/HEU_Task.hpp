@@ -25,7 +25,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_Task
   class HEU_Task;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_Task);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task*, "HoudiniEngineUnity", "HEU_Task");
 // Type namespace: HoudiniEngineUnity
@@ -239,10 +239,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Task), 40 + sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*)> __HoudiniEngineUnity_HEU_TaskSizeCheck;
   static_assert(sizeof(HEU_Task) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskStatus, "HoudiniEngineUnity", "HEU_Task/TaskStatus");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskResult, "HoudiniEngineUnity", "HEU_Task/TaskResult");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskStatus, "HoudiniEngineUnity", "HEU_Task/TaskStatus");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Task::get_TaskGuid
 // Il2CppName: get_TaskGuid

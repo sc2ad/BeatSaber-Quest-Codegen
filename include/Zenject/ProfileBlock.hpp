@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: ProfileBlock
   class ProfileBlock;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ProfileBlock);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProfileBlock*, "Zenject", "ProfileBlock");
 // Type namespace: Zenject

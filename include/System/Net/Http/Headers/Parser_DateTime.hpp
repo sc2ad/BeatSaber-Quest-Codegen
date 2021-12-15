@@ -21,7 +21,7 @@ namespace System {
   struct DateTimeOffset;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::DateTime);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime*, "System.Net.Http.Headers", "Parser/DateTime");
 // Type namespace: System.Net.Http.Headers

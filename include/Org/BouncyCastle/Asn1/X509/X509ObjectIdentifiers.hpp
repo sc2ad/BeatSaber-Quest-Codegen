@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: X509ObjectIdentifiers
   class X509ObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers*, "Org.BouncyCastle.Asn1.X509", "X509ObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.X509

@@ -38,7 +38,7 @@ namespace Tweening {
   // Forward declaring type: Vector3Tween
   class Vector3Tween;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Tweening::Vector3Tween);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween*, "Tweening", "Vector3Tween");
 // Type namespace: Tweening

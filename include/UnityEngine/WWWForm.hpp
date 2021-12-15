@@ -18,7 +18,7 @@ namespace UnityEngine {
   // Forward declaring type: WWWForm
   class WWWForm;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::WWWForm);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm*, "UnityEngine", "WWWForm");
 // Type namespace: UnityEngine

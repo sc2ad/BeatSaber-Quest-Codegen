@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IDeeplinkManager
   class IDeeplinkManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IDeeplinkManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDeeplinkManager*, "", "IDeeplinkManager");
 // Type namespace: 

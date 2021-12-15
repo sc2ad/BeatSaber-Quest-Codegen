@@ -10,7 +10,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IReturnToMenuController
   class IReturnToMenuController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IReturnToMenuController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReturnToMenuController*, "", "IReturnToMenuController");
 // Type namespace: 

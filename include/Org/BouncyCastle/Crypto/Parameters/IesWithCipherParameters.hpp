@@ -13,7 +13,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: IesWithCipherParameters
   class IesWithCipherParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

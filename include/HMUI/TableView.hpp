@@ -19,7 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -63,7 +63,7 @@ namespace HMUI {
   // Forward declaring type: TableView
   class TableView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::TableView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 // Type namespace: HMUI
@@ -500,7 +500,7 @@ namespace HMUI {
   static check_size<sizeof(TableView), 161 + sizeof(bool)> __HMUI_TableViewSizeCheck;
   static_assert(sizeof(TableView) == 0xA2);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TableView::get_selectionType

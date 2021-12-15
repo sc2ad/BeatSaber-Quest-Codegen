@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: CompilerGeneratedAttribute
   class CompilerGeneratedAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::CompilerGeneratedAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilerGeneratedAttribute*, "System.Runtime.CompilerServices", "CompilerGeneratedAttribute");
 // Type namespace: System.Runtime.CompilerServices

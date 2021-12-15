@@ -36,7 +36,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerCreatorByNewPrefab
   class SubContainerCreatorByNewPrefab;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefab);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefab*, "Zenject", "SubContainerCreatorByNewPrefab");
 // Type namespace: Zenject

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SettingsFlowCoordinator
   class SettingsFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SettingsFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 // Type namespace: 
@@ -208,7 +208,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SettingsFlowCoordinator), 192 + sizeof(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)> __GlobalNamespace_SettingsFlowCoordinatorSizeCheck;
   static_assert(sizeof(SettingsFlowCoordinator) == 0xC8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent

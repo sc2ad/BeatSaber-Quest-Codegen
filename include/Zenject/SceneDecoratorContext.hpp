@@ -45,7 +45,7 @@ namespace Zenject {
   // Forward declaring type: SceneDecoratorContext
   class SceneDecoratorContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SceneDecoratorContext);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneDecoratorContext*, "Zenject", "SceneDecoratorContext");
 // Type namespace: Zenject

@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplierValuesRecorder
   class MultiplierValuesRecorder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplierValuesRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");
 // Type namespace: 
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplierValuesRecorder), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*)> __GlobalNamespace_MultiplierValuesRecorderSizeCheck;
   static_assert(sizeof(MultiplierValuesRecorder) == 0x30);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplierValuesRecorder::get_multiplierValues

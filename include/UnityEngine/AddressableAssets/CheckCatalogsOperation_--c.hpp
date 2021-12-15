@@ -25,7 +25,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   class IResourceProvider;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::CheckCatalogsOperation::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::CheckCatalogsOperation::$$c*, "UnityEngine.AddressableAssets", "CheckCatalogsOperation/<>c");
 // Type namespace: UnityEngine.AddressableAssets

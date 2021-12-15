@@ -24,7 +24,7 @@ namespace TMPro {
   // Forward declaring type: TMP_SpriteGlyph
   class TMP_SpriteGlyph;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_SpriteGlyph);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");
 // Type namespace: TMPro

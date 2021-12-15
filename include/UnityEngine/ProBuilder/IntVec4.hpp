@@ -17,7 +17,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: IntVec4
   struct IntVec4;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec4, "UnityEngine.ProBuilder", "IntVec4");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

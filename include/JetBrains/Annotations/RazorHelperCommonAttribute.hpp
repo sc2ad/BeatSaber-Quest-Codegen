@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: RazorHelperCommonAttribute
   class RazorHelperCommonAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::RazorHelperCommonAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorHelperCommonAttribute*, "JetBrains.Annotations", "RazorHelperCommonAttribute");
 // Type namespace: JetBrains.Annotations

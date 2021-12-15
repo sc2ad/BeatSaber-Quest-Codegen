@@ -13,7 +13,7 @@ namespace Zenject {
   // Forward declaring type: SignalMissingHandlerResponses
   struct SignalMissingHandlerResponses;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SignalMissingHandlerResponses, "Zenject", "SignalMissingHandlerResponses");
 // Type namespace: Zenject
 namespace Zenject {

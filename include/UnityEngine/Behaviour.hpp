@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: Behaviour
   class Behaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Behaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
 // Type namespace: UnityEngine

@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: TbsCertificateStructure
   class TbsCertificateStructure;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateStructure");
 // Type namespace: Org.BouncyCastle.Asn1.X509

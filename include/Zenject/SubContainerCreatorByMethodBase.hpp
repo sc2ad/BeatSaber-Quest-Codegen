@@ -34,7 +34,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerCreatorByMethodBase
   class SubContainerCreatorByMethodBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerCreatorByMethodBase);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByMethodBase*, "Zenject", "SubContainerCreatorByMethodBase");
 // Type namespace: Zenject

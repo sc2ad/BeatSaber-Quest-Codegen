@@ -43,7 +43,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -100,7 +100,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Text
   class TMP_Text;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Text);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text*, "TMPro", "TMP_Text");
 // Type namespace: TMPro
@@ -2663,10 +2663,10 @@ namespace TMPro {
   }; // TMPro.TMP_Text
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::UnicodeChar, "TMPro", "TMP_Text/UnicodeChar");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Text::TextInputSources, "TMPro", "TMP_Text/TextInputSources");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Text::get_text
 // Il2CppName: get_text

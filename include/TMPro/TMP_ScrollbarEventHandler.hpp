@@ -32,7 +32,7 @@ namespace TMPro {
   // Forward declaring type: TMP_ScrollbarEventHandler
   class TMP_ScrollbarEventHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_ScrollbarEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ScrollbarEventHandler*, "TMPro", "TMP_ScrollbarEventHandler");
 // Type namespace: TMPro

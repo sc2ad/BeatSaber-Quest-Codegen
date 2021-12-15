@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: TestEnumeratorWrapper
   class TestEnumeratorWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
 // Type namespace: UnityEngine.TestTools.TestRunner

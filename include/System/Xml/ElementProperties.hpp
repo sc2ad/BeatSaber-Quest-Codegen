@@ -13,7 +13,7 @@ namespace System::Xml {
   // Forward declaring type: ElementProperties
   struct ElementProperties;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ElementProperties, "System.Xml", "ElementProperties");
 // Type namespace: System.Xml
 namespace System::Xml {

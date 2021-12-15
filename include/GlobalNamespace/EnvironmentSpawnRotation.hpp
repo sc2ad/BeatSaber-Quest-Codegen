@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EnvironmentSpawnRotation
   class EnvironmentSpawnRotation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EnvironmentSpawnRotation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");
 // Type namespace: 

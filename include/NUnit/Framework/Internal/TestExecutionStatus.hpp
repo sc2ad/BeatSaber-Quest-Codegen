@@ -13,7 +13,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: TestExecutionStatus
   struct TestExecutionStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionStatus, "NUnit.Framework.Internal", "TestExecutionStatus");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {

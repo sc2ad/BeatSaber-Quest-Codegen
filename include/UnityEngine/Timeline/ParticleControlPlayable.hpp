@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: ParticleControlPlayable
   class ParticleControlPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::ParticleControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");
 // Type namespace: UnityEngine.Timeline

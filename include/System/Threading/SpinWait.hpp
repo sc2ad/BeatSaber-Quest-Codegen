@@ -12,7 +12,7 @@ namespace System::Threading {
   // Forward declaring type: SpinWait
   struct SpinWait;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWait");
 // Type namespace: System.Threading
 namespace System::Threading {

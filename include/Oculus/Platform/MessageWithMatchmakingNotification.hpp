@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithMatchmakingNotification
   class MessageWithMatchmakingNotification;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithMatchmakingNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingNotification*, "Oculus.Platform", "MessageWithMatchmakingNotification");
 // Type namespace: Oculus.Platform

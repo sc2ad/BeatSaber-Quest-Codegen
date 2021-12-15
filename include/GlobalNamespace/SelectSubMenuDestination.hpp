@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SelectSubMenuDestination
   class SelectSubMenuDestination;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SelectSubMenuDestination);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");
 // Type namespace: 
@@ -138,7 +138,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectSubMenuDestination), 16 + sizeof(GlobalNamespace::SelectSubMenuDestination::Destination)> __GlobalNamespace_SelectSubMenuDestinationSizeCheck;
   static_assert(sizeof(SelectSubMenuDestination) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectSubMenuDestination::Destination, "", "SelectSubMenuDestination/Destination");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectSubMenuDestination::New_ctor

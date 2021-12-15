@@ -13,7 +13,7 @@ namespace System::Diagnostics {
   // Forward declaring type: ProcessThreadCollection
   class ProcessThreadCollection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::ProcessThreadCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessThreadCollection*, "System.Diagnostics", "ProcessThreadCollection");
 // Type namespace: System.Diagnostics

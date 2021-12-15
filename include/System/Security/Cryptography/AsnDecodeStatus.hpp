@@ -13,7 +13,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: AsnDecodeStatus
   struct AsnDecodeStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnDecodeStatus, "System.Security.Cryptography", "AsnDecodeStatus");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {

@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: ApplicationException
   class ApplicationException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ApplicationException);
 DEFINE_IL2CPP_ARG_TYPE(System::ApplicationException*, "System", "ApplicationException");
 // Type namespace: System

@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: V2Form
   class V2Form;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::V2Form);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::V2Form*, "Org.BouncyCastle.Asn1.X509", "V2Form");
 // Type namespace: Org.BouncyCastle.Asn1.X509

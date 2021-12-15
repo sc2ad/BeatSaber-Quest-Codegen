@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRGazePointer
   class OVRGazePointer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRGazePointer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
 // Type namespace: 

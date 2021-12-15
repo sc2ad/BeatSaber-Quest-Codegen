@@ -37,7 +37,7 @@ namespace Ice {
   // Forward declaring type: NoteCutFloorLightStreakTileEffectSpawner
   class NoteCutFloorLightStreakTileEffectSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Ice::NoteCutFloorLightStreakTileEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(Ice::NoteCutFloorLightStreakTileEffectSpawner*, "Ice", "NoteCutFloorLightStreakTileEffectSpawner");
 // Type namespace: Ice

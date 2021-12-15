@@ -17,7 +17,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: INotification
   class INotification;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Playables::INotification);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotification*, "UnityEngine.Playables", "INotification");
 // Type namespace: UnityEngine.Playables

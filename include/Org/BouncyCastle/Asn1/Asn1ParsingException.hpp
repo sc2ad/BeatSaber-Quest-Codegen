@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: Asn1ParsingException
   class Asn1ParsingException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1ParsingException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1ParsingException*, "Org.BouncyCastle.Asn1", "Asn1ParsingException");
 // Type namespace: Org.BouncyCastle.Asn1

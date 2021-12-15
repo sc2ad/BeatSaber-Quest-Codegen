@@ -15,7 +15,7 @@ namespace TMPro {
   // Forward declaring type: Mesh_Extents
   struct Mesh_Extents;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");
 // Type namespace: TMPro
 namespace TMPro {

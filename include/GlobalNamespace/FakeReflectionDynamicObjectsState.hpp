@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FakeReflectionDynamicObjectsState
   struct FakeReflectionDynamicObjectsState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeReflectionDynamicObjectsState, "", "FakeReflectionDynamicObjectsState");
 // Type namespace: 
 namespace GlobalNamespace {

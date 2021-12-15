@@ -13,7 +13,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskStatus
   struct TaskStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskStatus, "System.Threading.Tasks", "TaskStatus");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

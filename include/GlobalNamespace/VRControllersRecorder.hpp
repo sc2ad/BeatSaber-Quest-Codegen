@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // Forward declaring type: VRControllersRecorder
   class VRControllersRecorder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VRControllersRecorder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder*, "", "VRControllersRecorder");
 // Type namespace: 
@@ -388,7 +388,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(VRControllersRecorder), 160 + sizeof(int)> __GlobalNamespace_VRControllersRecorderSizeCheck;
   static_assert(sizeof(VRControllersRecorder) == 0xA4);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Mode, "", "VRControllersRecorder/Mode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_mode

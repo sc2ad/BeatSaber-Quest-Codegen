@@ -13,7 +13,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: ComInterfaceType
   struct ComInterfaceType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComInterfaceType, "System.Runtime.InteropServices", "ComInterfaceType");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {

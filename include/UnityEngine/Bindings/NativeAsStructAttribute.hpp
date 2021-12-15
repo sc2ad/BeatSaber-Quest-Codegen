@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativeAsStructAttribute
   class NativeAsStructAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativeAsStructAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeAsStructAttribute*, "UnityEngine.Bindings", "NativeAsStructAttribute");
 // Type namespace: UnityEngine.Bindings

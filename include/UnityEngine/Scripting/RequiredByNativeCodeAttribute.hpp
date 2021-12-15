@@ -17,7 +17,7 @@ namespace UnityEngine::Scripting {
   // Forward declaring type: RequiredByNativeCodeAttribute
   class RequiredByNativeCodeAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Scripting::RequiredByNativeCodeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::RequiredByNativeCodeAttribute*, "UnityEngine.Scripting", "RequiredByNativeCodeAttribute");
 // Type namespace: UnityEngine.Scripting

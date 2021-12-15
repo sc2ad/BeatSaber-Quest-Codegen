@@ -12,7 +12,7 @@ namespace UnityEngineInternal::Input {
   // Forward declaring type: NativeInputEventBuffer
   struct NativeInputEventBuffer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputEventBuffer, "UnityEngineInternal.Input", "NativeInputEventBuffer");
 // Type namespace: UnityEngineInternal.Input
 namespace UnityEngineInternal::Input {

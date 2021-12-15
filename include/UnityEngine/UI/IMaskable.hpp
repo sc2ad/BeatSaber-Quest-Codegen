@@ -10,7 +10,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: IMaskable
   class IMaskable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::IMaskable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaskable*, "UnityEngine.UI", "IMaskable");
 // Type namespace: UnityEngine.UI

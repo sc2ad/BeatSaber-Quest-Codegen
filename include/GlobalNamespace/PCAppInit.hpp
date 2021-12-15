@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PCAppInit
   class PCAppInit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PCAppInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCAppInit*, "", "PCAppInit");
 // Type namespace: 

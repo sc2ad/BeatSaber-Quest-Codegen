@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   // Forward declaring type: INetworkConfig
   class INetworkConfig;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::INetworkConfig);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkConfig*, "", "INetworkConfig");
 // Type namespace: 

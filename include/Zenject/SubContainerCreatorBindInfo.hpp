@@ -22,7 +22,7 @@ namespace Zenject {
   // Forward declaring type: SubContainerCreatorBindInfo
   class SubContainerCreatorBindInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::SubContainerCreatorBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
 // Type namespace: Zenject

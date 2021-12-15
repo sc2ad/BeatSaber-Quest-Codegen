@@ -24,7 +24,7 @@ namespace Zenject::Internal {
   // Forward declaring type: LookupId
   class LookupId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::LookupId);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");
 // Type namespace: Zenject.Internal

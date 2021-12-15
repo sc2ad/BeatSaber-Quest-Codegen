@@ -28,7 +28,7 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::MessageHandler::SentRequestWaiter);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::SentRequestWaiter*, "MasterServer", "MessageHandler/SentRequestWaiter");
 // Type namespace: MasterServer

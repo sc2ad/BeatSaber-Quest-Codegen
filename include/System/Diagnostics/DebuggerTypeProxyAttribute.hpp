@@ -24,7 +24,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DebuggerTypeProxyAttribute
   class DebuggerTypeProxyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::DebuggerTypeProxyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerTypeProxyAttribute*, "System.Diagnostics", "DebuggerTypeProxyAttribute");
 // Type namespace: System.Diagnostics

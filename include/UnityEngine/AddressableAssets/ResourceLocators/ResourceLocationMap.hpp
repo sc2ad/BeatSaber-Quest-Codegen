@@ -46,7 +46,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Forward declaring type: ResourceLocationMap
   class ResourceLocationMap;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationMap");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators

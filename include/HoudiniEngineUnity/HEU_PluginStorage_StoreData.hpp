@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginStorage::StoreData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginStorage::StoreData*, "HoudiniEngineUnity", "HEU_PluginStorage/StoreData");
 // Type namespace: HoudiniEngineUnity

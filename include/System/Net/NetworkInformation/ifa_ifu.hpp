@@ -14,7 +14,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: ifa_ifu
   struct ifa_ifu;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::ifa_ifu, "System.Net.NetworkInformation", "ifa_ifu");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

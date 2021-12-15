@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ModifiersSelectionView
   class ModifiersSelectionView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ModifiersSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ModifiersSelectionView*, "", "ModifiersSelectionView");
 // Type namespace: 

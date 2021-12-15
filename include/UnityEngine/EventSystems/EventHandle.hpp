@@ -13,7 +13,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: EventHandle
   struct EventHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventHandle, "UnityEngine.EventSystems", "EventHandle");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::CompilerServices
@@ -25,7 +25,7 @@ namespace System::Collections {
   // Forward declaring type: HashHelpers
   class HashHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::HashHelpers);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
 // Type namespace: System.Collections

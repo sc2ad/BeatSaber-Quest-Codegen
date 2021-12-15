@@ -35,7 +35,7 @@ namespace System::Collections {
   // Forward declaring type: Comparer
   class Comparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Comparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Comparer");
 // Type namespace: System.Collections

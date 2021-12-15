@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestData
 #include "NUnit/Framework/Interfaces/ITestData.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -20,7 +20,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestFixtureData
   class ITestFixtureData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ITestFixtureData);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFixtureData*, "NUnit.Framework.Interfaces", "ITestFixtureData");
 // Type namespace: NUnit.Framework.Interfaces

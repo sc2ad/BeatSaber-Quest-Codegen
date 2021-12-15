@@ -17,7 +17,7 @@ namespace System::IO {
   // Forward declaring type: RenamedEventArgs
   class RenamedEventArgs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::RenamedEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");
 // Type namespace: System.IO

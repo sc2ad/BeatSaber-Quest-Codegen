@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: AttCertValidityPeriod
   class AttCertValidityPeriod;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod*, "Org.BouncyCastle.Asn1.X509", "AttCertValidityPeriod");
 // Type namespace: Org.BouncyCastle.Asn1.X509

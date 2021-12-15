@@ -26,7 +26,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: ConstraintPosition
   class ConstraintPosition;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::ConstraintPosition);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintPosition*, "RootMotion.FinalIK", "ConstraintPosition");
 // Type namespace: RootMotion.FinalIK

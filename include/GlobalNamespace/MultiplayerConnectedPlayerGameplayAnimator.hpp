@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerConnectedPlayerGameplayAnimator
   class MultiplayerConnectedPlayerGameplayAnimator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator*, "", "MultiplayerConnectedPlayerGameplayAnimator");
 // Type namespace: 

@@ -17,14 +17,14 @@
 #include "System/Net/NetworkInformation/OperationalStatus.hpp"
 // Including type: System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
 #include "System/Net/NetworkInformation/Win32_SOCKET_ADDRESS.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_IP_ADAPTER_ADDRESSES
   struct Win32_IP_ADAPTER_ADDRESSES;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_ADDRESSES");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

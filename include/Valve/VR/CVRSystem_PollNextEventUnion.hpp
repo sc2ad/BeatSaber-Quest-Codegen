@@ -12,7 +12,7 @@
 // Including type: Valve.VR.IVRSystem
 #include "Valve/VR/IVRSystem.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::PollNextEventUnion, "Valve.VR", "CVRSystem/PollNextEventUnion");
 // Type namespace: Valve.VR
 namespace Valve::VR {

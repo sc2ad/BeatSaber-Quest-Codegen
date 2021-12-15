@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MainSettingsDefaultValues
   class MainSettingsDefaultValues;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MainSettingsDefaultValues);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
 // Type namespace: 

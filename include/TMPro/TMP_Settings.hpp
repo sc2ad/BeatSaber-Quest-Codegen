@@ -44,7 +44,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Settings
   class TMP_Settings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Settings);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");
 // Type namespace: TMPro

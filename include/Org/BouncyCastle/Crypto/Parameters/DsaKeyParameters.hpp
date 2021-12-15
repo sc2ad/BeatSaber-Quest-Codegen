@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: DsaKeyParameters
   class DsaKeyParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaKeyParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

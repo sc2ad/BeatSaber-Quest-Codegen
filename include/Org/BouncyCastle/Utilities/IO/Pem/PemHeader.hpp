@@ -15,7 +15,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // Forward declaring type: PemHeader
   class PemHeader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
 // Type namespace: Org.BouncyCastle.Utilities.IO.Pem

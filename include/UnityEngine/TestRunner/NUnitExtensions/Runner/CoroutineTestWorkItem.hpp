@@ -47,7 +47,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Forward declaring type: CoroutineTestWorkItem
   class CoroutineTestWorkItem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner

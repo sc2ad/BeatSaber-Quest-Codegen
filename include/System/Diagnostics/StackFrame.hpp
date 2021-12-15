@@ -24,7 +24,7 @@ namespace System::Diagnostics {
   // Forward declaring type: StackFrame
   class StackFrame;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::StackFrame);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
 // Type namespace: System.Diagnostics

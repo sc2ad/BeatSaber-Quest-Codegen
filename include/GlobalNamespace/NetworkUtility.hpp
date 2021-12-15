@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AuthenticationToken
 #include "GlobalNamespace/AuthenticationToken.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: NetworkUtility
   class NetworkUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NetworkUtility);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
 // Type namespace: 

@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVRTrackedCameraFrameLayout
   struct EVRTrackedCameraFrameLayout;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRTrackedCameraFrameLayout, "OVR.OpenVR", "EVRTrackedCameraFrameLayout");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

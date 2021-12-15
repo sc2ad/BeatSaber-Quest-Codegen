@@ -34,7 +34,7 @@ namespace RootMotion {
   // Forward declaring type: BakerHumanoidQT
   class BakerHumanoidQT;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::BakerHumanoidQT);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
 // Type namespace: RootMotion

@@ -32,7 +32,7 @@ namespace System {
   // Forward declaring type: TimeSpan
   struct TimeSpan;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
 // Type namespace: System
 namespace System {

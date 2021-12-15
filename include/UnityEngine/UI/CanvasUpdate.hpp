@@ -13,7 +13,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: CanvasUpdate
   struct CanvasUpdate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdate, "UnityEngine.UI", "CanvasUpdate");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

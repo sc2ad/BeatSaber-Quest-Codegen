@@ -57,7 +57,7 @@ namespace HMUI {
   // Forward declaring type: Slider2D
   class Slider2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::Slider2D);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Slider2D*, "HMUI", "Slider2D");
 // Type namespace: HMUI

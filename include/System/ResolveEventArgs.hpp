@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: ResolveEventArgs
   class ResolveEventArgs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ResolveEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventArgs*, "System", "ResolveEventArgs");
 // Type namespace: System

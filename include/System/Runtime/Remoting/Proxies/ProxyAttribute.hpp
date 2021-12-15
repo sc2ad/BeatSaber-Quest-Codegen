@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting::Proxies {
   // Forward declaring type: ProxyAttribute
   class ProxyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Proxies::ProxyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::ProxyAttribute*, "System.Runtime.Remoting.Proxies", "ProxyAttribute");
 // Type namespace: System.Runtime.Remoting.Proxies

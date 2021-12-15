@@ -20,7 +20,7 @@ namespace TMPro {
   // Forward declaring type: TMP_FontStyleStack
   struct TMP_FontStyleStack;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");
 // Type namespace: TMPro
 namespace TMPro {

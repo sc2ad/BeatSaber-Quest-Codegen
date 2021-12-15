@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class INetworkPlayer;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NetworkPlayersTableView::CellInfo);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");
 // Type namespace: 
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NetworkPlayersTableView::CellInfo), 40 + sizeof(bool)> __GlobalNamespace_NetworkPlayersTableView_CellInfoSizeCheck;
   static_assert(sizeof(NetworkPlayersTableView::CellInfo) == 0x29);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType, "", "NetworkPlayersTableView/CellInfo/CellType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::CellInfo::New_ctor

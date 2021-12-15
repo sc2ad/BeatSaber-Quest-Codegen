@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerOptionsViewController
   class PlayerOptionsViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerOptionsViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerOptionsViewController*, "", "PlayerOptionsViewController");
 // Type namespace: 

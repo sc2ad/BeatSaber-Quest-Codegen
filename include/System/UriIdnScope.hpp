@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: UriIdnScope
   struct UriIdnScope;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UriIdnScope, "System", "UriIdnScope");
 // Type namespace: System
 namespace System {

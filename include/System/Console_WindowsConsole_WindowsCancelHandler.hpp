@@ -23,7 +23,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Console::WindowsConsole::WindowsCancelHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Console::WindowsConsole::WindowsCancelHandler*, "System", "Console/WindowsConsole/WindowsCancelHandler");
 // Type namespace: System

@@ -68,7 +68,7 @@ namespace Zenject {
   // Forward declaring type: DisposeBlock
   class DisposeBlock;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::DisposeBlock);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 // Type namespace: Zenject
@@ -298,7 +298,7 @@ namespace Zenject {
   static check_size<sizeof(DisposeBlock), 24 + sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*)> __Zenject_DisposeBlockSizeCheck;
   static_assert(sizeof(DisposeBlock) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposeBlock::_cctor

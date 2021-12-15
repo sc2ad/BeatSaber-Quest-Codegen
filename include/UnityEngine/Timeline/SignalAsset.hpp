@@ -25,7 +25,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: SignalAsset
   class SignalAsset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::SignalAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
 // Type namespace: UnityEngine.Timeline

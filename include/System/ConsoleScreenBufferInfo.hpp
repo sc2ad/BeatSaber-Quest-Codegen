@@ -17,7 +17,7 @@ namespace System {
   // Forward declaring type: ConsoleScreenBufferInfo
   struct ConsoleScreenBufferInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleScreenBufferInfo, "System", "ConsoleScreenBufferInfo");
 // Type namespace: System
 namespace System {

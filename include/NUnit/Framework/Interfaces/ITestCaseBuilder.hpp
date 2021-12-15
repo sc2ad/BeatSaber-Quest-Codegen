@@ -22,7 +22,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestCaseBuilder
   class ITestCaseBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ITestCaseBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestCaseBuilder*, "NUnit.Framework.Interfaces", "ITestCaseBuilder");
 // Type namespace: NUnit.Framework.Interfaces

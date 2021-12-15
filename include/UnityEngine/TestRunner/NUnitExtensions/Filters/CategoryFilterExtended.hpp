@@ -24,7 +24,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   // Forward declaring type: CategoryFilterExtended
   class CategoryFilterExtended;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "CategoryFilterExtended");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Filters

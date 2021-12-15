@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class IConnectedPlayer;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass99_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass99_0*, "", "MultiplayerSessionManager/<>c__DisplayClass99_0");
 // Type namespace: 

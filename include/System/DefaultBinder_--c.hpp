@@ -22,7 +22,7 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::DefaultBinder::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::$$c*, "System", "DefaultBinder/<>c");
 // Type namespace: System

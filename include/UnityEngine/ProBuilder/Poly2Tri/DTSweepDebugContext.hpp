@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: DTSweepDebugContext
   class DTSweepDebugContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepDebugContext");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

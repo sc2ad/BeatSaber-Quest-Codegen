@@ -47,7 +47,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TimelineClip
   class TimelineClip;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimelineClip);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 // Type namespace: UnityEngine.Timeline
@@ -689,10 +689,10 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimelineClip), 176 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineClipSizeCheck;
   static_assert(sizeof(TimelineClip) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::BlendCurveMode, "UnityEngine.Timeline", "TimelineClip/BlendCurveMode");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasPreExtrapolation
 // Il2CppName: get_hasPreExtrapolation

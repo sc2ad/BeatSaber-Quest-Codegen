@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: RegexPatternAttribute
   class RegexPatternAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::RegexPatternAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RegexPatternAttribute*, "JetBrains.Annotations", "RegexPatternAttribute");
 // Type namespace: JetBrains.Annotations

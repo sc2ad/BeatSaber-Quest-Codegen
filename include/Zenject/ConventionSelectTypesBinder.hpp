@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: ConventionSelectTypesBinder
   class ConventionSelectTypesBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ConventionSelectTypesBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder*, "Zenject", "ConventionSelectTypesBinder");
 // Type namespace: Zenject

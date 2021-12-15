@@ -13,7 +13,7 @@ namespace Mono::Net {
   // Forward declaring type: CFProxyType
   struct CFProxyType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxyType, "Mono.Net", "CFProxyType");
 // Type namespace: Mono.Net
 namespace Mono::Net {

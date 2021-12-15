@@ -13,7 +13,7 @@ namespace Microsoft::Win32 {
   // Forward declaring type: RegistryHive
   struct RegistryHive;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryHive, "Microsoft.Win32", "RegistryHive");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {

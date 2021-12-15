@@ -38,7 +38,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: EnumerableRetryTestCommand
   class EnumerableRetryTestCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::EnumerableRetryTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand*, "UnityEngine.TestTools", "EnumerableRetryTestCommand");
 // Type namespace: UnityEngine.TestTools

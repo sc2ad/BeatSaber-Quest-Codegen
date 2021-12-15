@@ -16,7 +16,7 @@ namespace NetEase::Docker {
   // Forward declaring type: ScoreData
   struct ScoreData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {

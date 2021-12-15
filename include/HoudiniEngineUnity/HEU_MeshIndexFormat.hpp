@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_MeshIndexFormat
   class HEU_MeshIndexFormat;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_MeshIndexFormat);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MeshIndexFormat*, "HoudiniEngineUnity", "HEU_MeshIndexFormat");
 // Type namespace: HoudiniEngineUnity

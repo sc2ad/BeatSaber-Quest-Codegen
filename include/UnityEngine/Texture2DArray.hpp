@@ -25,7 +25,7 @@ namespace UnityEngine {
   // Forward declaring type: Texture2DArray
   class Texture2DArray;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Texture2DArray);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2DArray*, "UnityEngine", "Texture2DArray");
 // Type namespace: UnityEngine

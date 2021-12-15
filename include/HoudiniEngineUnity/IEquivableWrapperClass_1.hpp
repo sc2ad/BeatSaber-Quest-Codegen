@@ -17,7 +17,7 @@ namespace HoudiniEngineUnity {
   template<typename T>
   class IEquivableWrapperClass_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::IEquivableWrapperClass_1, "HoudiniEngineUnity", "IEquivableWrapperClass`1");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

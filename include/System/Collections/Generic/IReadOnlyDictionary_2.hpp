@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   class IReadOnlyDictionary_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IReadOnlyDictionary_2, "System.Collections.Generic", "IReadOnlyDictionary`2");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

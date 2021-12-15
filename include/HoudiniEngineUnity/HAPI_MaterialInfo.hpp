@@ -12,7 +12,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_MaterialInfo
   struct HAPI_MaterialInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_MaterialInfo, "HoudiniEngineUnity", "HAPI_MaterialInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

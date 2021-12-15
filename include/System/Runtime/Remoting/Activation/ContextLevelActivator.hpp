@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting::Activation {
   // Forward declaring type: ContextLevelActivator
   class ContextLevelActivator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Activation::ContextLevelActivator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");
 // Type namespace: System.Runtime.Remoting.Activation

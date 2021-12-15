@@ -9,14 +9,14 @@
 #include "UnityEngine/Component.hpp"
 // Including type: UnityEngine.LOD
 #include "UnityEngine/LOD.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: LODGroup
   class LODGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::LODGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LODGroup*, "UnityEngine", "LODGroup");
 // Type namespace: UnityEngine

@@ -13,7 +13,7 @@ namespace Polyglot {
   // Forward declaring type: Language
   struct Language;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::Language, "Polyglot", "Language");
 // Type namespace: Polyglot
 namespace Polyglot {

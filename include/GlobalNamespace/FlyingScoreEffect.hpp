@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FlyingScoreEffect
   class FlyingScoreEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FlyingScoreEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
 // Type namespace: 

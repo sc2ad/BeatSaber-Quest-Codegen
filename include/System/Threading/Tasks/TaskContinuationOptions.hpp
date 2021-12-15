@@ -13,7 +13,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskContinuationOptions
   struct TaskContinuationOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

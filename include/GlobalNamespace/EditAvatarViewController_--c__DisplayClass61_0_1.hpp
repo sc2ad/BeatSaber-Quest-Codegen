@@ -33,7 +33,7 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass61_0_1, "", "EditAvatarViewController/<>c__DisplayClass61_0`1");
 // Type namespace: 
 namespace GlobalNamespace {

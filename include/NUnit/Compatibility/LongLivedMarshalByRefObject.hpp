@@ -17,7 +17,7 @@ namespace NUnit::Compatibility {
   // Forward declaring type: LongLivedMarshalByRefObject
   class LongLivedMarshalByRefObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Compatibility::LongLivedMarshalByRefObject);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
 // Type namespace: NUnit.Compatibility

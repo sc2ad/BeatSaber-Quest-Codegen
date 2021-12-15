@@ -32,7 +32,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_LoadBufferMesh
   class HEU_LoadBufferMesh;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferMesh);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferMesh*, "HoudiniEngineUnity", "HEU_LoadBufferMesh");
 // Type namespace: HoudiniEngineUnity

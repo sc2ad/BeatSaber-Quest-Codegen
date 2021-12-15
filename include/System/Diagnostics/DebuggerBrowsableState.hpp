@@ -13,7 +13,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DebuggerBrowsableState
   struct DebuggerBrowsableState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerBrowsableState, "System.Diagnostics", "DebuggerBrowsableState");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

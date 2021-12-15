@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberClashEffect
   class SaberClashEffect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SaberClashEffect);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashEffect*, "", "SaberClashEffect");
 // Type namespace: 

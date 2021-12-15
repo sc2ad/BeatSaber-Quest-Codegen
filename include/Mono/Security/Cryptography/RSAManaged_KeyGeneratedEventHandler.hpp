@@ -25,7 +25,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "RSAManaged/KeyGeneratedEventHandler");
 // Type namespace: Mono.Security.Cryptography

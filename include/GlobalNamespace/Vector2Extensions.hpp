@@ -18,7 +18,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Vector2Extensions
   class Vector2Extensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::Vector2Extensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2Extensions*, "", "Vector2Extensions");
 // Type namespace: 

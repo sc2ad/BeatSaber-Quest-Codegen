@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ScoreMissionObjectiveChecker
   class ScoreMissionObjectiveChecker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ScoreMissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker*, "", "ScoreMissionObjectiveChecker");
 // Type namespace: 

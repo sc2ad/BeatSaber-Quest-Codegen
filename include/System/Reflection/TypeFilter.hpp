@@ -28,7 +28,7 @@ namespace System::Reflection {
   // Forward declaring type: TypeFilter
   class TypeFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::TypeFilter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeFilter*, "System.Reflection", "TypeFilter");
 // Type namespace: System.Reflection

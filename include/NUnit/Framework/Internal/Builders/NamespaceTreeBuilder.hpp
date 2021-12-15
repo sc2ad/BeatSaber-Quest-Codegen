@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal::Builders {
   // Forward declaring type: NamespaceTreeBuilder
   class NamespaceTreeBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
 // Type namespace: NUnit.Framework.Internal.Builders

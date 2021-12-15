@@ -15,7 +15,7 @@ namespace System::Net::Sockets {
   // Forward declaring type: LingerOption
   class LingerOption;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Sockets::LingerOption);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
 // Type namespace: System.Net.Sockets

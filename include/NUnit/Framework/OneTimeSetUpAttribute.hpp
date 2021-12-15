@@ -13,7 +13,7 @@ namespace NUnit::Framework {
   // Forward declaring type: OneTimeSetUpAttribute
   class OneTimeSetUpAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::OneTimeSetUpAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::OneTimeSetUpAttribute*, "NUnit.Framework", "OneTimeSetUpAttribute");
 // Type namespace: NUnit.Framework

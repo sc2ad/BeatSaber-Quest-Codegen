@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,7 +26,7 @@ namespace Mono {
   // Forward declaring type: RuntimeMarshal
   class RuntimeMarshal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::RuntimeMarshal);
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeMarshal*, "Mono", "RuntimeMarshal");
 // Type namespace: Mono

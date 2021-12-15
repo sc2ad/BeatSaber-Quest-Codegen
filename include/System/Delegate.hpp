@@ -12,7 +12,7 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -46,7 +46,7 @@ namespace System {
   // Forward declaring type: Delegate
   class Delegate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Delegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");
 // Type namespace: System

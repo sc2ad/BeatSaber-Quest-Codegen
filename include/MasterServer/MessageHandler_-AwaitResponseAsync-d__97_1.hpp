@@ -36,7 +36,7 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::MessageHandler::$AwaitResponseAsync$d__97_1, "MasterServer", "MessageHandler/<AwaitResponseAsync>d__97`1");
 // Type namespace: MasterServer
 namespace MasterServer {

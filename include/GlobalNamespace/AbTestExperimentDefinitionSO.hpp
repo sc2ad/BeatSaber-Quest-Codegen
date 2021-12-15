@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AbTestExperimentDefinitionSO
   class AbTestExperimentDefinitionSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AbTestExperimentDefinitionSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO*, "", "AbTestExperimentDefinitionSO");
 // Type namespace: 
@@ -189,7 +189,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AbTestExperimentDefinitionSO), 56 + sizeof(GlobalNamespace::AbTestExperimentDefinitionSO::Group)> __GlobalNamespace_AbTestExperimentDefinitionSOSizeCheck;
   static_assert(sizeof(AbTestExperimentDefinitionSO) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AbTestExperimentDefinitionSO::Group, "", "AbTestExperimentDefinitionSO/Group");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize

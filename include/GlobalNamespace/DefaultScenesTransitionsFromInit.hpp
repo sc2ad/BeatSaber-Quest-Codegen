@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DefaultScenesTransitionsFromInit
   class DefaultScenesTransitionsFromInit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DefaultScenesTransitionsFromInit);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
 // Type namespace: 

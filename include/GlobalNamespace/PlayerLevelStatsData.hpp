@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerLevelStatsData
   class PlayerLevelStatsData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerLevelStatsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
 // Type namespace: 

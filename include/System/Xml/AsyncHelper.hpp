@@ -21,7 +21,7 @@ namespace System::Xml {
   // Forward declaring type: AsyncHelper
   class AsyncHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::AsyncHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");
 // Type namespace: System.Xml

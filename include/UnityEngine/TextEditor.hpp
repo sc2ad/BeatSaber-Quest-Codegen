@@ -42,7 +42,7 @@ namespace UnityEngine {
   // Forward declaring type: TextEditor
   class TextEditor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TextEditor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 // Type namespace: UnityEngine
@@ -939,10 +939,10 @@ namespace UnityEngine {
   static check_size<sizeof(TextEditor), 140 + sizeof(int)> __UnityEngine_TextEditorSizeCheck;
   static_assert(sizeof(TextEditor) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextEditor::get_text
 // Il2CppName: get_text

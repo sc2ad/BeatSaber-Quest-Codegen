@@ -24,7 +24,7 @@ namespace HMUI {
   // Forward declaring type: TextPageScrollView
   class TextPageScrollView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::TextPageScrollView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");
 // Type namespace: HMUI

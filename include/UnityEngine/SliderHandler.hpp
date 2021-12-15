@@ -27,7 +27,7 @@ namespace UnityEngine {
   // Forward declaring type: SliderHandler
   struct SliderHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");
 // Type namespace: UnityEngine
 namespace UnityEngine {

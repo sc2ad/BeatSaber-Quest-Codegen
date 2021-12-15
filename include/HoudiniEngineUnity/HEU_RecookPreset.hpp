@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_RecookPreset
   class HEU_RecookPreset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_RecookPreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_RecookPreset*, "HoudiniEngineUnity", "HEU_RecookPreset");
 // Type namespace: HoudiniEngineUnity

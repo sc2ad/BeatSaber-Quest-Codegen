@@ -20,7 +20,7 @@ namespace UnityEngine {
   // Forward declaring type: QualitySettings
   class QualitySettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::QualitySettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
 // Type namespace: UnityEngine

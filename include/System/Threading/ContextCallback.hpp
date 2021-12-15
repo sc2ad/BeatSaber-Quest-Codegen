@@ -26,7 +26,7 @@ namespace System::Threading {
   // Forward declaring type: ContextCallback
   class ContextCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ContextCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ContextCallback*, "System.Threading", "ContextCallback");
 // Type namespace: System.Threading

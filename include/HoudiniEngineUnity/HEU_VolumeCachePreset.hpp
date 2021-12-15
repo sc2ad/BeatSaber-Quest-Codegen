@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_VolumeCachePreset
   class HEU_VolumeCachePreset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeCachePreset);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeCachePreset*, "HoudiniEngineUnity", "HEU_VolumeCachePreset");
 // Type namespace: HoudiniEngineUnity

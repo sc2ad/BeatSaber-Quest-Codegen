@@ -26,7 +26,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: DeserializationEventHandler
   class DeserializationEventHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::DeserializationEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::DeserializationEventHandler*, "System.Runtime.Serialization", "DeserializationEventHandler");
 // Type namespace: System.Runtime.Serialization

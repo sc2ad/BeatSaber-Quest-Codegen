@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: ActivationPlayableAsset
   class ActivationPlayableAsset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::ActivationPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationPlayableAsset*, "UnityEngine.Timeline", "ActivationPlayableAsset");
 // Type namespace: UnityEngine.Timeline

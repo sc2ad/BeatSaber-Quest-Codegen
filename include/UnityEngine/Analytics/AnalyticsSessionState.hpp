@@ -13,7 +13,7 @@ namespace UnityEngine::Analytics {
   // Forward declaring type: AnalyticsSessionState
   struct AnalyticsSessionState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionState, "UnityEngine.Analytics", "AnalyticsSessionState");
 // Type namespace: UnityEngine.Analytics
 namespace UnityEngine::Analytics {

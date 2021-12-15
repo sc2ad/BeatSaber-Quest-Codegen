@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TrackLaneRingsRotationEffectSpawner
   class TrackLaneRingsRotationEffectSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner*, "", "TrackLaneRingsRotationEffectSpawner");
 // Type namespace: 
@@ -197,7 +197,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TrackLaneRingsRotationEffectSpawner), 56 + sizeof(GlobalNamespace::IBeatmapObjectCallbackController*)> __GlobalNamespace_TrackLaneRingsRotationEffectSpawnerSizeCheck;
   static_assert(sizeof(TrackLaneRingsRotationEffectSpawner) == 0x40);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffectSpawner::RotationStepType, "", "TrackLaneRingsRotationEffectSpawner/RotationStepType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start

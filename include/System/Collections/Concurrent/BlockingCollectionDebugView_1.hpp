@@ -12,7 +12,7 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class BlockingCollectionDebugView_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::BlockingCollectionDebugView_1, "System.Collections.Concurrent", "BlockingCollectionDebugView`1");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {

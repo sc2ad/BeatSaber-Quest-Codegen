@@ -43,7 +43,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: ServerCertValidationCallbackWrapper
   class ServerCertValidationCallbackWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::ServerCertValidationCallbackWrapper);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ServerCertValidationCallbackWrapper*, "Mono.Net.Security", "ServerCertValidationCallbackWrapper");
 // Type namespace: Mono.Net.Security

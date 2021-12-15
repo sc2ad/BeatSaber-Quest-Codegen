@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: InvalidCipherTextException
   class InvalidCipherTextException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::InvalidCipherTextException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::InvalidCipherTextException*, "Org.BouncyCastle.Crypto", "InvalidCipherTextException");
 // Type namespace: Org.BouncyCastle.Crypto

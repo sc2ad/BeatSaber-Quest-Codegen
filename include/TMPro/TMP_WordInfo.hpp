@@ -22,7 +22,7 @@ namespace TMPro {
   // Forward declaring type: TMP_WordInfo
   struct TMP_WordInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
 // Type namespace: TMPro
 namespace TMPro {

@@ -22,7 +22,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: IMeshModifier
   class IMeshModifier;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::IMeshModifier);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMeshModifier*, "UnityEngine.UI", "IMeshModifier");
 // Type namespace: UnityEngine.UI

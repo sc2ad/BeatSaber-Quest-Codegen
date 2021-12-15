@@ -11,7 +11,7 @@ namespace System::Configuration {
   // Forward declaring type: ConfigurationSectionGroup
   class ConfigurationSectionGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Configuration::ConfigurationSectionGroup);
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSectionGroup*, "System.Configuration", "ConfigurationSectionGroup");
 // Type namespace: System.Configuration

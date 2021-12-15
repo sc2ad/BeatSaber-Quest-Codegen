@@ -13,7 +13,7 @@ namespace Mono::Security::Protocol::Ntlm {
   // Forward declaring type: NtlmAuthLevel
   struct NtlmAuthLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {

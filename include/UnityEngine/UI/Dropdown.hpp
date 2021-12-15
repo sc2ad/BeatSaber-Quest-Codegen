@@ -72,7 +72,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Dropdown
   class Dropdown;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Dropdown);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
 // Type namespace: UnityEngine.UI

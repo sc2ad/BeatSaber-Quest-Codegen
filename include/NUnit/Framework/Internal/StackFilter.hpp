@@ -18,7 +18,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: StackFilter
   class StackFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::StackFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
 // Type namespace: NUnit.Framework.Internal

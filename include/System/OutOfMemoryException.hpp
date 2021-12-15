@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: OutOfMemoryException
   class OutOfMemoryException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::OutOfMemoryException);
 DEFINE_IL2CPP_ARG_TYPE(System::OutOfMemoryException*, "System", "OutOfMemoryException");
 // Type namespace: System

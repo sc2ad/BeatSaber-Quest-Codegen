@@ -33,7 +33,7 @@ namespace NUnit::Framework::Internal::Commands {
   // Forward declaring type: SetUpTearDownItem
   class SetUpTearDownItem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::SetUpTearDownItem);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");
 // Type namespace: NUnit.Framework.Internal.Commands

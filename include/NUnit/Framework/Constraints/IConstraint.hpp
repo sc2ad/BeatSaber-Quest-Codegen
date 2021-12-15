@@ -25,7 +25,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: IConstraint
   class IConstraint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::IConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IConstraint*, "NUnit.Framework.Constraints", "IConstraint");
 // Type namespace: NUnit.Framework.Constraints

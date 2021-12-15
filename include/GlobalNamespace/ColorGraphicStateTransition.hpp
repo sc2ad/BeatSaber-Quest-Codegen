@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorGraphicStateTransition
   class ColorGraphicStateTransition;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ColorGraphicStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorGraphicStateTransition*, "", "ColorGraphicStateTransition");
 // Type namespace: 

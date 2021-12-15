@@ -27,7 +27,7 @@ namespace UnityEngine::Events {
   template<typename T0>
   class UnityAction_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityAction_1, "UnityEngine.Events", "UnityAction`1");
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {

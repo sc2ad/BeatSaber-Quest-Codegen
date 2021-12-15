@@ -24,7 +24,7 @@ namespace System::ComponentModel {
   // Forward declaring type: DesignerAttribute
   class DesignerAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::DesignerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerAttribute*, "System.ComponentModel", "DesignerAttribute");
 // Type namespace: System.ComponentModel

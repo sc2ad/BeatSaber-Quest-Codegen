@@ -17,7 +17,7 @@ namespace Mono::Xml {
   // Forward declaring type: SmallXmlParserException
   class SmallXmlParserException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Xml::SmallXmlParserException);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");
 // Type namespace: Mono.Xml

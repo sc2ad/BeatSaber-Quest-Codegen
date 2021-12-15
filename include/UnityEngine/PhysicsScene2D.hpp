@@ -11,7 +11,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.RaycastHit2D
 #include "UnityEngine/RaycastHit2D.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,7 +36,7 @@ namespace UnityEngine {
   // Forward declaring type: PhysicsScene2D
   struct PhysicsScene2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {

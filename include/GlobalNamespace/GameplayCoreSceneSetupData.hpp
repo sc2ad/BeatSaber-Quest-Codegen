@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayCoreSceneSetupData
   class GameplayCoreSceneSetupData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayCoreSceneSetupData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayCoreSceneSetupData*, "", "GameplayCoreSceneSetupData");
 // Type namespace: 

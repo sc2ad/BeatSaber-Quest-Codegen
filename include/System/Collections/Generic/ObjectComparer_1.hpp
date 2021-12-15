@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
   template<typename T>
   class ObjectComparer_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::ObjectComparer_1, "System.Collections.Generic", "ObjectComparer`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

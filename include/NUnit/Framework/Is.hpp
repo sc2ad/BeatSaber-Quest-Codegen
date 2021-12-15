@@ -24,7 +24,7 @@ namespace NUnit::Framework {
   // Forward declaring type: Is
   class Is;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Is);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Is*, "NUnit.Framework", "Is");
 // Type namespace: NUnit.Framework

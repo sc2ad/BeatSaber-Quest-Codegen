@@ -17,7 +17,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: UIBehaviour
   class UIBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::UIBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
 // Type namespace: UnityEngine.EventSystems

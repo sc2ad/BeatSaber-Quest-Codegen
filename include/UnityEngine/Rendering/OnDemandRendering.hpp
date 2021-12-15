@@ -11,7 +11,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: OnDemandRendering
   class OnDemandRendering;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::OnDemandRendering);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
 // Type namespace: UnityEngine.Rendering

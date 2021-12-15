@@ -7,9 +7,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Math.BigInteger
 #include "Mono/Math/BigInteger.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Math::BigInteger::Kernel);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Kernel*, "Mono.Math", "BigInteger/Kernel");
 // Type namespace: Mono.Math

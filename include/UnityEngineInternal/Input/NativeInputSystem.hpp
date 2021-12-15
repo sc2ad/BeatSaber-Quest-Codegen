@@ -34,7 +34,7 @@ namespace UnityEngineInternal::Input {
   // Forward declaring type: NativeInputSystem
   class NativeInputSystem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngineInternal::Input::NativeInputSystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
 // Type namespace: UnityEngineInternal.Input

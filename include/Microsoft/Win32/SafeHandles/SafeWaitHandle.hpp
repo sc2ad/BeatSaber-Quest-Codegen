@@ -17,7 +17,7 @@ namespace Microsoft::Win32::SafeHandles {
   // Forward declaring type: SafeWaitHandle
   class SafeWaitHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeWaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeWaitHandle*, "Microsoft.Win32.SafeHandles", "SafeWaitHandle");
 // Type namespace: Microsoft.Win32.SafeHandles

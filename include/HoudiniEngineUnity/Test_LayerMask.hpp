@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_LayerMask
   class Test_LayerMask;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_LayerMask);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LayerMask*, "HoudiniEngineUnity", "Test_LayerMask");
 // Type namespace: HoudiniEngineUnity

@@ -28,7 +28,7 @@ namespace System::Linq {
   template<typename TElement>
   class IdentityFunction_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IdentityFunction_1, "System.Linq", "IdentityFunction`1");
 // Type namespace: System.Linq
 namespace System::Linq {

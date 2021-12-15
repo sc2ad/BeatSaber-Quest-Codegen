@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class BloomFogEnvironmentParams;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2*, "", "BloomFogParamsAnimator/<AnimationCoroutine>d__2");
 // Type namespace: 

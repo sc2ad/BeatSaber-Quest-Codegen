@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: SceneSelection
   class SceneSelection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SceneSelection);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SceneSelection*, "UnityEngine.ProBuilder", "SceneSelection");
 // Type namespace: UnityEngine.ProBuilder

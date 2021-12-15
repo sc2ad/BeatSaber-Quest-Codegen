@@ -17,7 +17,7 @@ namespace UnityEngine::Assertions {
   // Forward declaring type: AssertionException
   class AssertionException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Assertions::AssertionException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionException*, "UnityEngine.Assertions", "AssertionException");
 // Type namespace: UnityEngine.Assertions

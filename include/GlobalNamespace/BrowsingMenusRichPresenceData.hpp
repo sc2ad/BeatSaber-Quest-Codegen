@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BrowsingMenusRichPresenceData
   class BrowsingMenusRichPresenceData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BrowsingMenusRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");
 // Type namespace: 

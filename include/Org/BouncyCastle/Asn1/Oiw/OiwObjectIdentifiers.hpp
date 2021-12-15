@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::Oiw {
   // Forward declaring type: OiwObjectIdentifiers
   class OiwObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers*, "Org.BouncyCastle.Asn1.Oiw", "OiwObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Oiw

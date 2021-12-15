@@ -15,7 +15,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: AbstractEventData
   class AbstractEventData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::AbstractEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
 // Type namespace: UnityEngine.EventSystems

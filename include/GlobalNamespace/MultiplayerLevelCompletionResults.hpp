@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLevelCompletionResults
   class MultiplayerLevelCompletionResults;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLevelCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults*, "", "MultiplayerLevelCompletionResults");
 // Type namespace: 
@@ -212,7 +212,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelCompletionResults), 24 + sizeof(GlobalNamespace::LevelCompletionResults*)> __GlobalNamespace_MultiplayerLevelCompletionResultsSizeCheck;
   static_assert(sizeof(MultiplayerLevelCompletionResults) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState, "", "MultiplayerLevelCompletionResults/MultiplayerLevelEndState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelCompletionResults::get_levelEndState

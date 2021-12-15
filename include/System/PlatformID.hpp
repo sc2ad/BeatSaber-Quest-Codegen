@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: PlatformID
   struct PlatformID;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::PlatformID, "System", "PlatformID");
 // Type namespace: System
 namespace System {

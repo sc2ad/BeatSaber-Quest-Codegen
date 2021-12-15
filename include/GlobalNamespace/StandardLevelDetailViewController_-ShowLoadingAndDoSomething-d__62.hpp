@@ -30,7 +30,7 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$ShowLoadingAndDoSomething$d__62, "", "StandardLevelDetailViewController/<ShowLoadingAndDoSomething>d__62");
 // Type namespace: 
 namespace GlobalNamespace {

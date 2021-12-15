@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AudioClipQueue
   class AudioClipQueue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AudioClipQueue);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
 // Type namespace: 

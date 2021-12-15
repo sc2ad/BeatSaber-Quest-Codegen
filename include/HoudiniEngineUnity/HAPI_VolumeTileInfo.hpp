@@ -12,7 +12,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_VolumeTileInfo
   struct HAPI_VolumeTileInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_VolumeTileInfo, "HoudiniEngineUnity", "HAPI_VolumeTileInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: DecimalConverter
   class DecimalConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::DecimalConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DecimalConverter*, "System.ComponentModel", "DecimalConverter");
 // Type namespace: System.ComponentModel

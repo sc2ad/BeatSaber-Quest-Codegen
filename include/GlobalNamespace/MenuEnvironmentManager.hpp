@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MenuEnvironmentManager
   class MenuEnvironmentManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuEnvironmentManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 // Type namespace: 
@@ -141,7 +141,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MenuEnvironmentManager), 32 + sizeof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)> __GlobalNamespace_MenuEnvironmentManagerSizeCheck;
   static_assert(sizeof(MenuEnvironmentManager) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start

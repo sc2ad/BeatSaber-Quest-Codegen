@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class IMultiplayerSpectatingSpot;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotWithFadeCoroutine$d__17*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");
 // Type namespace: 

@@ -10,7 +10,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo::Data, "System.Globalization", "CultureInfo/Data");
 // Type namespace: System.Globalization
 namespace System::Globalization {

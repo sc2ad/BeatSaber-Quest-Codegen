@@ -13,7 +13,7 @@ namespace System::Reflection {
   // Forward declaring type: EventAttributes
   struct EventAttributes;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventAttributes, "System.Reflection", "EventAttributes");
 // Type namespace: System.Reflection
 namespace System::Reflection {

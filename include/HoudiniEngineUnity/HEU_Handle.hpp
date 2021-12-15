@@ -41,7 +41,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_Handle
   class HEU_Handle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_Handle);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Handle*, "HoudiniEngineUnity", "HEU_Handle");
 // Type namespace: HoudiniEngineUnity
@@ -296,7 +296,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_Handle), 112 + sizeof(HoudiniEngineUnity::HAPI_TransformEuler)> __HoudiniEngineUnity_HEU_HandleSizeCheck;
   static_assert(sizeof(HEU_Handle) == 0x98);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Handle::HEU_HandleType, "HoudiniEngineUnity", "HEU_Handle/HEU_HandleType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::get_HandleName

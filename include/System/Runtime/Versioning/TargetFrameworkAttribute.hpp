@@ -17,7 +17,7 @@ namespace System::Runtime::Versioning {
   // Forward declaring type: TargetFrameworkAttribute
   class TargetFrameworkAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Versioning::TargetFrameworkAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");
 // Type namespace: System.Runtime.Versioning

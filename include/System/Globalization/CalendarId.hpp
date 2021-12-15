@@ -13,7 +13,7 @@ namespace System::Globalization {
   // Forward declaring type: CalendarId
   struct CalendarId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarId, "System.Globalization", "CalendarId");
 // Type namespace: System.Globalization
 namespace System::Globalization {

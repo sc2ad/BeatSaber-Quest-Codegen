@@ -54,7 +54,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EulaViewController
   class EulaViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EulaViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController*, "", "EulaViewController");
 // Type namespace: 
@@ -244,7 +244,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EulaViewController), 176 + sizeof(UnityEngine::Coroutine*)> __GlobalNamespace_EulaViewControllerSizeCheck;
   static_assert(sizeof(EulaViewController) == 0xB8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaViewController::ButtonType, "", "EulaViewController/ButtonType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EulaViewController::add_didFinishEvent

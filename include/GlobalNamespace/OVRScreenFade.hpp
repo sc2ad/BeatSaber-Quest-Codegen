@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRScreenFade
   class OVRScreenFade;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRScreenFade);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");
 // Type namespace: 

@@ -17,7 +17,7 @@ namespace System::Reflection {
   // Forward declaring type: AssemblyCopyrightAttribute
   class AssemblyCopyrightAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::AssemblyCopyrightAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");
 // Type namespace: System.Reflection

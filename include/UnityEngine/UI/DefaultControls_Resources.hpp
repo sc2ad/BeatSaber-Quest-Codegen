@@ -17,7 +17,7 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::Resources, "UnityEngine.UI", "DefaultControls/Resources");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

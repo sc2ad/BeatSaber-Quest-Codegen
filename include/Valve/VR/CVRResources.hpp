@@ -26,7 +26,7 @@ namespace Valve::VR {
   // Forward declaring type: CVRResources
   class CVRResources;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::CVRResources);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRResources*, "Valve.VR", "CVRResources");
 // Type namespace: Valve.VR

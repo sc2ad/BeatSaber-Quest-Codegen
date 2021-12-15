@@ -40,7 +40,7 @@ namespace UnityEngine::SceneManagement {
   // Forward declaring type: SceneManager
   class SceneManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SceneManagement::SceneManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");
 // Type namespace: UnityEngine.SceneManagement

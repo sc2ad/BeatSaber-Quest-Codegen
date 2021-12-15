@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: OutAttribute
   class OutAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::OutAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::OutAttribute*, "System.Runtime.InteropServices", "OutAttribute");
 // Type namespace: System.Runtime.InteropServices

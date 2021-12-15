@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.BezierPoint
 #include "UnityEngine/ProBuilder/BezierPoint.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -30,7 +30,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Spline
   class Spline;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Spline);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Spline*, "UnityEngine.ProBuilder", "Spline");
 // Type namespace: UnityEngine.ProBuilder

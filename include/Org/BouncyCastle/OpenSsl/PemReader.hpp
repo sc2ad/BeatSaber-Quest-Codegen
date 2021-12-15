@@ -58,7 +58,7 @@ namespace Org::BouncyCastle::OpenSsl {
   // Forward declaring type: PemReader
   class PemReader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::OpenSsl::PemReader);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemReader*, "Org.BouncyCastle.OpenSsl", "PemReader");
 // Type namespace: Org.BouncyCastle.OpenSsl

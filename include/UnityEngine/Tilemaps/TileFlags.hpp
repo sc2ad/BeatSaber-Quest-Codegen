@@ -13,7 +13,7 @@ namespace UnityEngine::Tilemaps {
   // Forward declaring type: TileFlags
   struct TileFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileFlags, "UnityEngine.Tilemaps", "TileFlags");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {

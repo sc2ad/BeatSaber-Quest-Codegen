@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IDeselectHandler
   class IDeselectHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IDeselectHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IDeselectHandler*, "UnityEngine.EventSystems", "IDeselectHandler");
 // Type namespace: UnityEngine.EventSystems

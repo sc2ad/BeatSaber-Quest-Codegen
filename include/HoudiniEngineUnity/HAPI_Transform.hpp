@@ -9,14 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_Transform
   struct HAPI_Transform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_Transform, "HoudiniEngineUnity", "HAPI_Transform");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

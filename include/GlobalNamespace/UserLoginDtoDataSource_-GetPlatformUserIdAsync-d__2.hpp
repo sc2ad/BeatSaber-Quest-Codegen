@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class UserInfo;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource::$GetPlatformUserIdAsync$d__2, "", "UserLoginDtoDataSource/<GetPlatformUserIdAsync>d__2");
 // Type namespace: 
 namespace GlobalNamespace {

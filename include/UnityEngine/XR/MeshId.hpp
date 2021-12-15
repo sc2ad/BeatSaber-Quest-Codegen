@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: MeshId
   struct MeshId;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

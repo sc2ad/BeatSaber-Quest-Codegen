@@ -17,7 +17,7 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: InvalidTypeException
   class InvalidTypeException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::Utils::InvalidTypeException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");
 // Type namespace: LiteNetLib.Utils

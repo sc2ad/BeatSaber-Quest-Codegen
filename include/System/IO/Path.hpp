@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -25,7 +25,7 @@ namespace System::IO {
   // Forward declaring type: Path
   class Path;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Path);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Path*, "System.IO", "Path");
 // Type namespace: System.IO

@@ -40,7 +40,7 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1, "", "AsyncHelper/<>c__DisplayClass0_0`1");
 // Type namespace: 
 namespace GlobalNamespace {

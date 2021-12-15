@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: DerSet
   class DerSet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::DerSet);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerSet*, "Org.BouncyCastle.Asn1", "DerSet");
 // Type namespace: Org.BouncyCastle.Asn1

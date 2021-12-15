@@ -15,7 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -54,7 +54,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_InputNode
   class HEU_InputNode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InputNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode*, "HoudiniEngineUnity", "HEU_InputNode");
 // Type namespace: HoudiniEngineUnity
@@ -585,10 +585,10 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_InputNode), 144 + sizeof(HoudiniEngineUnity::HEU_InputNodeUICache*)> __HoudiniEngineUnity_HEU_InputNodeSizeCheck;
   static_assert(sizeof(HEU_InputNode) == 0x98);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode::InputNodeType, "HoudiniEngineUnity", "HEU_InputNode/InputNodeType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode::InputObjectType, "HoudiniEngineUnity", "HEU_InputNode/InputObjectType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputNode::InputNodeType, "HoudiniEngineUnity", "HEU_InputNode/InputNodeType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::get_InputType
 // Il2CppName: get_InputType

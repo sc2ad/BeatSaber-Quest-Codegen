@@ -18,7 +18,7 @@ namespace UnityEngine::Experimental::Playables {
   // Forward declaring type: MaterialEffectPlayable
   struct MaterialEffectPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
 // Type namespace: UnityEngine.Experimental.Playables
 namespace UnityEngine::Experimental::Playables {

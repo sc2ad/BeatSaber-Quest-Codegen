@@ -10,7 +10,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: _ConstructorInfo
   class _ConstructorInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::_ConstructorInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_ConstructorInfo*, "System.Runtime.InteropServices", "_ConstructorInfo");
 // Type namespace: System.Runtime.InteropServices

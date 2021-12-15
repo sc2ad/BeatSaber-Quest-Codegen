@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SFB.ExtensionFilter
 #include "SFB/ExtensionFilter.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -24,7 +24,7 @@ namespace SFB {
   // Forward declaring type: IStandaloneFileBrowser
   class IStandaloneFileBrowser;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(SFB::IStandaloneFileBrowser);
 DEFINE_IL2CPP_ARG_TYPE(SFB::IStandaloneFileBrowser*, "SFB", "IStandaloneFileBrowser");
 // Type namespace: SFB

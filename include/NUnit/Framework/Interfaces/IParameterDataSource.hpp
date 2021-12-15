@@ -22,7 +22,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IParameterDataSource
   class IParameterDataSource;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IParameterDataSource);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterDataSource*, "NUnit.Framework.Interfaces", "IParameterDataSource");
 // Type namespace: NUnit.Framework.Interfaces

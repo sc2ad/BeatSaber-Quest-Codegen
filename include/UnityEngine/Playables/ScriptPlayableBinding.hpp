@@ -32,7 +32,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: ScriptPlayableBinding
   class ScriptPlayableBinding;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Playables::ScriptPlayableBinding);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableBinding*, "UnityEngine.Playables", "ScriptPlayableBinding");
 // Type namespace: UnityEngine.Playables

@@ -34,7 +34,7 @@ namespace HMUI {
   // Forward declaring type: ImageWithHint
   class ImageWithHint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ImageWithHint);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
 // Type namespace: HMUI

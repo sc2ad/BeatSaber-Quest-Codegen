@@ -17,7 +17,7 @@ namespace System::Net {
   // Forward declaring type: FtpStatus
   class FtpStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FtpStatus);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
 // Type namespace: System.Net

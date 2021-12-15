@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: ProviderData
   class ProviderData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::ProviderData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");
 // Type namespace: System.Runtime.Remoting

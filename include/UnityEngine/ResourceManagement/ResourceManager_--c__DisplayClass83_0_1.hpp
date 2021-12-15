@@ -30,7 +30,7 @@ namespace System::Collections::Generic {
   class IList_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::ResourceManager::$$c__DisplayClass83_0_1, "UnityEngine.ResourceManagement", "ResourceManager/<>c__DisplayClass83_0`1");
 // Type namespace: UnityEngine.ResourceManagement
 namespace UnityEngine::ResourceManagement {

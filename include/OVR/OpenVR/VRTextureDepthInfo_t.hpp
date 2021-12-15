@@ -18,7 +18,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: VRTextureDepthInfo_t
   struct VRTextureDepthInfo_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRTextureDepthInfo_t, "OVR.OpenVR", "VRTextureDepthInfo_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

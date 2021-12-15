@@ -18,7 +18,7 @@ namespace UnityEngine::Analytics {
   // Forward declaring type: AnalyticsSessionInfo
   class AnalyticsSessionInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Analytics::AnalyticsSessionInfo);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");
 // Type namespace: UnityEngine.Analytics

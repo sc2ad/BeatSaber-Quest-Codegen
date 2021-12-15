@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IAsyncComputeManager
   class IAsyncComputeManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IAsyncComputeManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAsyncComputeManager*, "", "IAsyncComputeManager");
 // Type namespace: 

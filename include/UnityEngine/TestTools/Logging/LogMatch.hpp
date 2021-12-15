@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::Logging {
   // Forward declaring type: LogMatch
   class LogMatch;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Logging::LogMatch);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");
 // Type namespace: UnityEngine.TestTools.Logging

@@ -17,7 +17,7 @@
 #include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,7 +42,7 @@ namespace TMPro {
   // Forward declaring type: TMP_MeshInfo
   struct TMP_MeshInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
 // Type namespace: TMPro
 namespace TMPro {

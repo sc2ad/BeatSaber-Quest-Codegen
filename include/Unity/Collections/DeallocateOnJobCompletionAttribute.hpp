@@ -13,7 +13,7 @@ namespace Unity::Collections {
   // Forward declaring type: DeallocateOnJobCompletionAttribute
   class DeallocateOnJobCompletionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::DeallocateOnJobCompletionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::DeallocateOnJobCompletionAttribute*, "Unity.Collections", "DeallocateOnJobCompletionAttribute");
 // Type namespace: Unity.Collections

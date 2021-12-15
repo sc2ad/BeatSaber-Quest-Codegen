@@ -23,7 +23,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: IClippable
   class IClippable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::IClippable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClippable*, "UnityEngine.UI", "IClippable");
 // Type namespace: UnityEngine.UI

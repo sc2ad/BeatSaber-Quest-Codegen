@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteCutScoreSpawner
   class NoteCutScoreSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteCutScoreSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");
 // Type namespace: 

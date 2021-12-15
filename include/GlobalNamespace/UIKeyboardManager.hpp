@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   // Forward declaring type: UIKeyboardManager
   class UIKeyboardManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UIKeyboardManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
 // Type namespace: 

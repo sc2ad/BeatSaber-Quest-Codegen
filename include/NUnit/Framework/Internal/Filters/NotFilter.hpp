@@ -26,7 +26,7 @@ namespace NUnit::Framework::Internal::Filters {
   // Forward declaring type: NotFilter
   class NotFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Filters::NotFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::NotFilter*, "NUnit.Framework.Internal.Filters", "NotFilter");
 // Type namespace: NUnit.Framework.Internal.Filters

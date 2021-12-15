@@ -13,7 +13,7 @@ namespace Oculus::Platform {
   // Forward declaring type: LeaderboardFilterType
   struct LeaderboardFilterType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LeaderboardFilterType, "Oculus.Platform", "LeaderboardFilterType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

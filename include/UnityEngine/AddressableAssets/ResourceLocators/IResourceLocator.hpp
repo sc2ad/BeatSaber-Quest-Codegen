@@ -35,7 +35,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Forward declaring type: IResourceLocator
   class IResourceLocator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "IResourceLocator");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators

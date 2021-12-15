@@ -19,7 +19,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: IMoveHandler
   class IMoveHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::IMoveHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IMoveHandler*, "UnityEngine.EventSystems", "IMoveHandler");
 // Type namespace: UnityEngine.EventSystems

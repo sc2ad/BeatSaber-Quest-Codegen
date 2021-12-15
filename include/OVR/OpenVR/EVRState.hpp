@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVRState
   struct EVRState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRState, "OVR.OpenVR", "EVRState");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

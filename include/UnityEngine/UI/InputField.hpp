@@ -34,7 +34,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -99,7 +99,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: InputField
   class InputField;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::InputField);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField*, "UnityEngine.UI", "InputField");
 // Type namespace: UnityEngine.UI
@@ -1365,14 +1365,14 @@ namespace UnityEngine::UI {
   static check_size<sizeof(InputField), 520 + sizeof(UnityEngine::Event*)> __UnityEngine_UI_InputFieldSizeCheck;
   static_assert(sizeof(InputField) == 0x210);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI", "InputField/ContentType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::LineType, "UnityEngine.UI", "InputField/LineType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI", "InputField/ContentType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_input
 // Il2CppName: get_input

@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CustomDifficultyBeatmap
   class CustomDifficultyBeatmap;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CustomDifficultyBeatmap);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomDifficultyBeatmap*, "", "CustomDifficultyBeatmap");
 // Type namespace: 

@@ -29,7 +29,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: OffsetModifierVRIK
   class OffsetModifierVRIK;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::OffsetModifierVRIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifierVRIK*, "RootMotion.FinalIK", "OffsetModifierVRIK");
 // Type namespace: RootMotion.FinalIK

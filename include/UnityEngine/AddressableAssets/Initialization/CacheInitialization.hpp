@@ -33,7 +33,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // Forward declaring type: CacheInitialization
   class CacheInitialization;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization");
 // Type namespace: UnityEngine.AddressableAssets.Initialization

@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: ScopeConcreteIdArgConditionCopyNonLazyBinder
   class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");
 // Type namespace: Zenject

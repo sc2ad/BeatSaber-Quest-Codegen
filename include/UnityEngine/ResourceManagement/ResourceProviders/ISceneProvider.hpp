@@ -35,7 +35,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: ISceneProvider
   class ISceneProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "ISceneProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

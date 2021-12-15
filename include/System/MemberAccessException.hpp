@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: MemberAccessException
   class MemberAccessException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::MemberAccessException);
 DEFINE_IL2CPP_ARG_TYPE(System::MemberAccessException*, "System", "MemberAccessException");
 // Type namespace: System

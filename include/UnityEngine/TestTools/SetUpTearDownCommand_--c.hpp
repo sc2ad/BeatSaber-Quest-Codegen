@@ -25,7 +25,7 @@ namespace System::Reflection {
   class MethodInfo;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::SetUpTearDownCommand::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "SetUpTearDownCommand/<>c");
 // Type namespace: UnityEngine.TestTools

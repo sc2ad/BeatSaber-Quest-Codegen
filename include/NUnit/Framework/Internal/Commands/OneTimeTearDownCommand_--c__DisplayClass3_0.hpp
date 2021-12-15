@@ -19,7 +19,7 @@ namespace System {
   class IDisposable;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");
 // Type namespace: NUnit.Framework.Internal.Commands

@@ -25,7 +25,7 @@ namespace UnityEngine {
   // Forward declaring type: WaitUntil
   class WaitUntil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::WaitUntil);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
 // Type namespace: UnityEngine

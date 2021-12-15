@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SimpleTextureLoader
   class SimpleTextureLoader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleTextureLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader*, "", "SimpleTextureLoader");
 // Type namespace: 

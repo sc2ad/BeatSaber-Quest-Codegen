@@ -47,7 +47,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: BaseInputModule
   class BaseInputModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::BaseInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
 // Type namespace: UnityEngine.EventSystems

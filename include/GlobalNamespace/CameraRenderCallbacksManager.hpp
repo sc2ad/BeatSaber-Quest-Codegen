@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CameraRenderCallbacksManager
   class CameraRenderCallbacksManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CameraRenderCallbacksManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
 // Type namespace: 

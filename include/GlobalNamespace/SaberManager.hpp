@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberManager
   class SaberManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SaberManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager*, "", "SaberManager");
 // Type namespace: 

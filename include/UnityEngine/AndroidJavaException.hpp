@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: AndroidJavaException
   class AndroidJavaException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AndroidJavaException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
 // Type namespace: UnityEngine

@@ -25,7 +25,7 @@ namespace UnityEngine::ProBuilder {
   class Face;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Smoothing::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing::$$c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
 // Type namespace: UnityEngine.ProBuilder

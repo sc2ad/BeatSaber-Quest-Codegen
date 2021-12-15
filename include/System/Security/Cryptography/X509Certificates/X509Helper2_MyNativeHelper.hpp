@@ -23,7 +23,7 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Certificate;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Helper2::MyNativeHelper*, "System.Security.Cryptography.X509Certificates", "X509Helper2/MyNativeHelper");
 // Type namespace: System.Security.Cryptography.X509Certificates

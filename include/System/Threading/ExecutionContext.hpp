@@ -59,7 +59,7 @@ namespace System::Threading {
   // Forward declaring type: ExecutionContext
   class ExecutionContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ExecutionContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext*, "System.Threading", "ExecutionContext");
 // Type namespace: System.Threading
@@ -334,7 +334,7 @@ namespace System::Threading {
   static check_size<sizeof(ExecutionContext), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>*)> __System_Threading_ExecutionContextSizeCheck;
   static_assert(sizeof(ExecutionContext) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Flags, "System.Threading", "ExecutionContext/Flags");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::get_isNewCapture

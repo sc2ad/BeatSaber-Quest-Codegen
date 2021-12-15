@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: MacUtilities
   class MacUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::MacUtilities);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::MacUtilities*, "Org.BouncyCastle.Security", "MacUtilities");
 // Type namespace: Org.BouncyCastle.Security

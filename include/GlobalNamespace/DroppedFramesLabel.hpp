@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DroppedFramesLabel
   class DroppedFramesLabel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DroppedFramesLabel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");
 // Type namespace: 

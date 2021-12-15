@@ -13,7 +13,7 @@ namespace Valve::VR {
   // Forward declaring type: EVROverlayIntersectionMaskPrimitiveType
   struct EVROverlayIntersectionMaskPrimitiveType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::EVROverlayIntersectionMaskPrimitiveType, "Valve.VR", "EVROverlayIntersectionMaskPrimitiveType");
 // Type namespace: Valve.VR
 namespace Valve::VR {

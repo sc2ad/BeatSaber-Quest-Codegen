@@ -13,7 +13,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: ShadowSamplingMode
   struct ShadowSamplingMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShadowSamplingMode, "UnityEngine.Rendering", "ShadowSamplingMode");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {

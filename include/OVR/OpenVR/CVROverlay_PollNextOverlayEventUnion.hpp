@@ -12,7 +12,7 @@
 // Including type: OVR.OpenVR.IVROverlay
 #include "OVR/OpenVR/IVROverlay.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay::PollNextOverlayEventUnion, "OVR.OpenVR", "CVROverlay/PollNextOverlayEventUnion");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

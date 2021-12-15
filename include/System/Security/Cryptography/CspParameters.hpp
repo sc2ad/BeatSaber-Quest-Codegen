@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: CspParameters
   class CspParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::CspParameters);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
 // Type namespace: System.Security.Cryptography

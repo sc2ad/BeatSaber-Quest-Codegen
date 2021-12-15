@@ -17,7 +17,7 @@ namespace Zenject {
   // Forward declaring type: IPrefabProvider
   class IPrefabProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::IPrefabProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabProvider*, "Zenject", "IPrefabProvider");
 // Type namespace: Zenject

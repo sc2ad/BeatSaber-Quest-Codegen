@@ -37,7 +37,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // Forward declaring type: ResourceManagerRuntimeData
   class ResourceManagerRuntimeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
 // Type namespace: UnityEngine.AddressableAssets.Initialization

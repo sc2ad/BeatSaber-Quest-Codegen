@@ -24,7 +24,7 @@ namespace System::Threading {
   // Forward declaring type: SynchronizationLockException
   class SynchronizationLockException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::SynchronizationLockException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationLockException*, "System.Threading", "SynchronizationLockException");
 // Type namespace: System.Threading

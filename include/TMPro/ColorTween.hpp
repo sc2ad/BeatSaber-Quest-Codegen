@@ -31,7 +31,7 @@ namespace TMPro {
   // Forward declaring type: ColorTween
   struct ColorTween;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween, "TMPro", "ColorTween");
 // Type namespace: TMPro
 namespace TMPro {
@@ -204,7 +204,7 @@ namespace TMPro {
   static check_size<sizeof(ColorTween), 48 + sizeof(bool)> __TMPro_ColorTweenSizeCheck;
   static_assert(sizeof(ColorTween) == 0x31);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenMode, "TMPro", "ColorTween/ColorTweenMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::ColorTween::get_startColor

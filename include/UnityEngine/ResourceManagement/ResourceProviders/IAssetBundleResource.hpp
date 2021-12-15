@@ -17,7 +17,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: IAssetBundleResource
   class IAssetBundleResource;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

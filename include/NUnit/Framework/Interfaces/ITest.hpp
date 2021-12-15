@@ -34,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITest
   class ITest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ITest);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITest*, "NUnit.Framework.Interfaces", "ITest");
 // Type namespace: NUnit.Framework.Interfaces

@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: HideInInspector
   class HideInInspector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::HideInInspector);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HideInInspector*, "UnityEngine", "HideInInspector");
 // Type namespace: UnityEngine

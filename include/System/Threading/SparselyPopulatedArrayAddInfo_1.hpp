@@ -25,7 +25,7 @@ namespace System::Threading {
   template<typename T>
   struct SparselyPopulatedArrayAddInfo_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Threading::SparselyPopulatedArrayAddInfo_1, "System.Threading", "SparselyPopulatedArrayAddInfo`1");
 // Type namespace: System.Threading
 namespace System::Threading {

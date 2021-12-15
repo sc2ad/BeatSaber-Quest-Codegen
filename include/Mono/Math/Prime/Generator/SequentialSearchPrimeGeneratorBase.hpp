@@ -24,7 +24,7 @@ namespace Mono::Math::Prime::Generator {
   // Forward declaring type: SequentialSearchPrimeGeneratorBase
   class SequentialSearchPrimeGeneratorBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");
 // Type namespace: Mono.Math.Prime.Generator

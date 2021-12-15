@@ -13,7 +13,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: InternalTraceLevel
   struct InternalTraceLevel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTraceLevel, "NUnit.Framework.Internal", "InternalTraceLevel");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {

@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: HandleConstraint2D
   class HandleConstraint2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::HandleConstraint2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleConstraint2D*, "UnityEngine.ProBuilder", "HandleConstraint2D");
 // Type namespace: UnityEngine.ProBuilder

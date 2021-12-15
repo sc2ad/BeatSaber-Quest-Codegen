@@ -24,7 +24,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: XRDisplaySubsystemDescriptor
   class XRDisplaySubsystemDescriptor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::XR::XRDisplaySubsystemDescriptor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystemDescriptor*, "UnityEngine.XR", "XRDisplaySubsystemDescriptor");
 // Type namespace: UnityEngine.XR

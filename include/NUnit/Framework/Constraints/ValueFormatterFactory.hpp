@@ -31,7 +31,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ValueFormatterFactory
   class ValueFormatterFactory;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ValueFormatterFactory);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "NUnit.Framework.Constraints", "ValueFormatterFactory");
 // Type namespace: NUnit.Framework.Constraints

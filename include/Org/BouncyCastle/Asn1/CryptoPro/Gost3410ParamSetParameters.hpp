@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // Forward declaring type: Gost3410ParamSetParameters
   class Gost3410ParamSetParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410ParamSetParameters");
 // Type namespace: Org.BouncyCastle.Asn1.CryptoPro

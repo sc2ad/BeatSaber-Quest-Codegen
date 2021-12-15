@@ -29,7 +29,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_PluginSettings
   class HEU_PluginSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginSettings);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginSettings*, "HoudiniEngineUnity", "HEU_PluginSettings");
 // Type namespace: HoudiniEngineUnity

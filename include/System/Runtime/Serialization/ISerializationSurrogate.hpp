@@ -24,7 +24,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: ISerializationSurrogate
   class ISerializationSurrogate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::ISerializationSurrogate);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializationSurrogate*, "System.Runtime.Serialization", "ISerializationSurrogate");
 // Type namespace: System.Runtime.Serialization

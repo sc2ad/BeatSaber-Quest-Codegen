@@ -24,7 +24,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   // Forward declaring type: AssemblyNameFilter
   class AssemblyNameFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "AssemblyNameFilter");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Filters

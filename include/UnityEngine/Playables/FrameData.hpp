@@ -25,7 +25,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: FrameData
   struct FrameData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
@@ -221,7 +221,7 @@ namespace UnityEngine::Playables {
   static check_size<sizeof(FrameData), 48 + sizeof(UnityEngine::Playables::PlayableOutput)> __UnityEngine_Playables_FrameDataSizeCheck;
   static_assert(sizeof(FrameData) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::FrameData::Flags, "UnityEngine.Playables", "FrameData/Flags");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::FrameData::get_deltaTime

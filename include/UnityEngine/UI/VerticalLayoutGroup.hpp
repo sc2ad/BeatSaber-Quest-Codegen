@@ -17,7 +17,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: VerticalLayoutGroup
   class VerticalLayoutGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::VerticalLayoutGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VerticalLayoutGroup*, "UnityEngine.UI", "VerticalLayoutGroup");
 // Type namespace: UnityEngine.UI

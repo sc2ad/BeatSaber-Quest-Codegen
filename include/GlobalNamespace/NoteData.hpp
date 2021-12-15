@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteData
   class NoteData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");
 // Type namespace: 

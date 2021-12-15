@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: MatchmakingEnqueuedUserList
   class MatchmakingEnqueuedUserList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueuedUserList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUserList*, "Oculus.Platform.Models", "MatchmakingEnqueuedUserList");
 // Type namespace: Oculus.Platform.Models

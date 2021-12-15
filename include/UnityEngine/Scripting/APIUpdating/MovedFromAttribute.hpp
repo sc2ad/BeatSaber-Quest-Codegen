@@ -19,7 +19,7 @@ namespace UnityEngine::Scripting::APIUpdating {
   // Forward declaring type: MovedFromAttribute
   class MovedFromAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");
 // Type namespace: UnityEngine.Scripting.APIUpdating

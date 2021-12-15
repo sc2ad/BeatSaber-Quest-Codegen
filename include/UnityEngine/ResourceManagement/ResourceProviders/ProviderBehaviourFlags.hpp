@@ -13,7 +13,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: ProviderBehaviourFlags
   struct ProviderBehaviourFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderBehaviourFlags");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {

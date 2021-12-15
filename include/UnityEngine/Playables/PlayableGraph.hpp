@@ -39,7 +39,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {

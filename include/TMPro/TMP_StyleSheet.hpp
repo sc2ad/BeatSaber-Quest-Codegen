@@ -33,7 +33,7 @@ namespace TMPro {
   // Forward declaring type: TMP_StyleSheet
   class TMP_StyleSheet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_StyleSheet);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
 // Type namespace: TMPro

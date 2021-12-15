@@ -54,7 +54,7 @@ namespace System::Xml {
   // Forward declaring type: XmlWriterSettings
   class XmlWriterSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::XmlWriterSettings);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriterSettings*, "System.Xml", "XmlWriterSettings");
 // Type namespace: System.Xml

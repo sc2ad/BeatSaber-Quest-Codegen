@@ -25,7 +25,7 @@ namespace System::Threading {
   class ManualResetEvent;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Stream::SynchronousAsyncResult::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::SynchronousAsyncResult::$$c*, "System.IO", "Stream/SynchronousAsyncResult/<>c");
 // Type namespace: System.IO

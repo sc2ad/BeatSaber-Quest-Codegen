@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: X509Extension
   class X509Extension;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509Extension);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Extension*, "Org.BouncyCastle.Asn1.X509", "X509Extension");
 // Type namespace: Org.BouncyCastle.Asn1.X509

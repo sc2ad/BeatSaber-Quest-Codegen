@@ -35,7 +35,7 @@ namespace HMUI {
   // Forward declaring type: InteractableTextMeshPro
   class InteractableTextMeshPro;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::InteractableTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");
 // Type namespace: HMUI

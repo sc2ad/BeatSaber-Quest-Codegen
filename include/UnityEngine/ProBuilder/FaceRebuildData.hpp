@@ -38,7 +38,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: FaceRebuildData
   class FaceRebuildData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::FaceRebuildData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");
 // Type namespace: UnityEngine.ProBuilder

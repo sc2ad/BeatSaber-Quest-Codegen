@@ -21,7 +21,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: MeansImplicitUseAttribute
   class MeansImplicitUseAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::MeansImplicitUseAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
 // Type namespace: JetBrains.Annotations

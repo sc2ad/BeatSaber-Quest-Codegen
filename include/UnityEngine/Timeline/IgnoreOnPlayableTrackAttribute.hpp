@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: IgnoreOnPlayableTrackAttribute
   class IgnoreOnPlayableTrackAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute*, "UnityEngine.Timeline", "IgnoreOnPlayableTrackAttribute");
 // Type namespace: UnityEngine.Timeline

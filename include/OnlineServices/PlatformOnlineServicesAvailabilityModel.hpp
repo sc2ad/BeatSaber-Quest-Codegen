@@ -39,7 +39,7 @@ namespace OnlineServices {
   // Forward declaring type: PlatformOnlineServicesAvailabilityModel
   class PlatformOnlineServicesAvailabilityModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::PlatformOnlineServicesAvailabilityModel);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*, "OnlineServices", "PlatformOnlineServicesAvailabilityModel");
 // Type namespace: OnlineServices

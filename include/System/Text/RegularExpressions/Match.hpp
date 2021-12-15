@@ -11,7 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -27,7 +27,7 @@ namespace System::Text::RegularExpressions {
   // Forward declaring type: Match
   class Match;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::RegularExpressions::Match);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.RegularExpressions", "Match");
 // Type namespace: System.Text.RegularExpressions

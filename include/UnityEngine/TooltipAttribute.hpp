@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: TooltipAttribute
   class TooltipAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TooltipAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TooltipAttribute*, "UnityEngine", "TooltipAttribute");
 // Type namespace: UnityEngine

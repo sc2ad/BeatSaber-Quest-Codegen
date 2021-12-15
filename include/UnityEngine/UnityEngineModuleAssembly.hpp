@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: UnityEngineModuleAssembly
   class UnityEngineModuleAssembly;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UnityEngineModuleAssembly);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngineModuleAssembly*, "UnityEngine", "UnityEngineModuleAssembly");
 // Type namespace: UnityEngine

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MissionObjectiveChecker
   class MissionObjectiveChecker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionObjectiveChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 // Type namespace: 
@@ -236,7 +236,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionObjectiveChecker), 64 + sizeof(bool)> __GlobalNamespace_MissionObjectiveCheckerSizeCheck;
   static_assert(sizeof(MissionObjectiveChecker) == 0x41);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType

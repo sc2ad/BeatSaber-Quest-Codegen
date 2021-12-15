@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRControllerHelper
   class OVRControllerHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRControllerHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper*, "", "OVRControllerHelper");
 // Type namespace: 
@@ -215,7 +215,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRControllerHelper), 93 + sizeof(bool)> __GlobalNamespace_OVRControllerHelperSizeCheck;
   static_assert(sizeof(OVRControllerHelper) == 0x5E);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerHelper::ControllerType, "", "OVRControllerHelper/ControllerType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerHelper::Start

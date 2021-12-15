@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: UtcTimeProvider
   class UtcTimeProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UtcTimeProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UtcTimeProvider*, "", "UtcTimeProvider");
 // Type namespace: 

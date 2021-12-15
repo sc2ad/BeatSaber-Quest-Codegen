@@ -18,7 +18,7 @@ namespace Microsoft::Win32 {
   // Forward declaring type: Registry
   class Registry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::Registry);
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Registry*, "Microsoft.Win32", "Registry");
 // Type namespace: Microsoft.Win32

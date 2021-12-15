@@ -39,7 +39,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // Forward declaring type: X509ChainPolicy
   class X509ChainPolicy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509ChainPolicy);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainPolicy*, "System.Security.Cryptography.X509Certificates", "X509ChainPolicy");
 // Type namespace: System.Security.Cryptography.X509Certificates

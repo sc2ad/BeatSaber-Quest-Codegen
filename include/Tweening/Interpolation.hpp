@@ -18,7 +18,7 @@ namespace Tweening {
   // Forward declaring type: Interpolation
   class Interpolation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Tweening::Interpolation);
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");
 // Type namespace: Tweening

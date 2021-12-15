@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: MatchmakingAdminSnapshot
   class MatchmakingAdminSnapshot;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshot);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");
 // Type namespace: Oculus.Platform.Models

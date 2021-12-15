@@ -17,7 +17,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Math
   class TMP_Math;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Math);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Math*, "TMPro", "TMP_Math");
 // Type namespace: TMPro

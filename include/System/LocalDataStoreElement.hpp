@@ -15,7 +15,7 @@ namespace System {
   // Forward declaring type: LocalDataStoreElement
   class LocalDataStoreElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::LocalDataStoreElement);
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
 // Type namespace: System

@@ -13,7 +13,7 @@ namespace System::Text {
   // Forward declaring type: NormalizationCheck
   struct NormalizationCheck;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::NormalizationCheck, "System.Text", "NormalizationCheck");
 // Type namespace: System.Text
 namespace System::Text {

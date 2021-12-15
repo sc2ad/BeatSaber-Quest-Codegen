@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_Texture2D
   class Test_Texture2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_Texture2D);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Texture2D*, "HoudiniEngineUnity", "Test_Texture2D");
 // Type namespace: HoudiniEngineUnity

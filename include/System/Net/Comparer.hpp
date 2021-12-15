@@ -17,7 +17,7 @@ namespace System::Net {
   // Forward declaring type: Comparer
   class Comparer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Comparer);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Comparer*, "System.Net", "Comparer");
 // Type namespace: System.Net

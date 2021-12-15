@@ -53,7 +53,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: TestResult
   class TestResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestResult);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestResult*, "NUnit.Framework.Internal", "TestResult");
 // Type namespace: NUnit.Framework.Internal

@@ -28,7 +28,7 @@ namespace System::Security {
   // Forward declaring type: XmlSyntaxException
   class XmlSyntaxException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::XmlSyntaxException);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::XmlSyntaxException*, "System.Security", "XmlSyntaxException");
 // Type namespace: System.Security

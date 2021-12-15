@@ -36,7 +36,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVRTrackedCamera
   class CVRTrackedCamera;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVRTrackedCamera);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRTrackedCamera*, "OVR.OpenVR", "CVRTrackedCamera");
 // Type namespace: OVR.OpenVR

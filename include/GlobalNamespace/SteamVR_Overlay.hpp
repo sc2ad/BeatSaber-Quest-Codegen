@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Overlay
   class SteamVR_Overlay;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Overlay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Overlay*, "", "SteamVR_Overlay");
 // Type namespace: 

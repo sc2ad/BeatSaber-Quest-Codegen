@@ -36,7 +36,7 @@ namespace System::Threading {
   class CancellationTokenSource;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$SendAsyncWorker$d__47, "System.Net.Http", "HttpClient/<SendAsyncWorker>d__47");
 // Type namespace: System.Net.Http
 namespace System::Net::Http {

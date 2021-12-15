@@ -24,7 +24,7 @@ namespace System::Diagnostics {
   // Forward declaring type: ProcessWaitHandle
   class ProcessWaitHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::ProcessWaitHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWaitHandle*, "System.Diagnostics", "ProcessWaitHandle");
 // Type namespace: System.Diagnostics

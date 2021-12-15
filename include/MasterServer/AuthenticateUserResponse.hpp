@@ -42,7 +42,7 @@ namespace MasterServer {
   // Forward declaring type: AuthenticateUserResponse
   class AuthenticateUserResponse;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::AuthenticateUserResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse*, "MasterServer", "AuthenticateUserResponse");
 // Type namespace: MasterServer
@@ -182,7 +182,7 @@ namespace MasterServer {
   static check_size<sizeof(AuthenticateUserResponse), 24 + sizeof(MasterServer::AuthenticateUserResponse::Result)> __MasterServer_AuthenticateUserResponseSizeCheck;
   static_assert(sizeof(AuthenticateUserResponse) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse::Result, "MasterServer", "AuthenticateUserResponse/Result");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::get_pool

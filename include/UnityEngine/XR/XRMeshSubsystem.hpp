@@ -32,7 +32,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: XRMeshSubsystem
   class XRMeshSubsystem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
 // Type namespace: UnityEngine.XR

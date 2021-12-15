@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_Vector2SerializationSurrogate
   class HEU_Vector2SerializationSurrogate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_Vector2SerializationSurrogate);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Vector2SerializationSurrogate*, "HoudiniEngineUnity", "HEU_Vector2SerializationSurrogate");
 // Type namespace: HoudiniEngineUnity

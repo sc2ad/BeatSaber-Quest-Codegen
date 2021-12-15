@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: RectSelectMode
   struct RectSelectMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RectSelectMode, "UnityEngine.ProBuilder", "RectSelectMode");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

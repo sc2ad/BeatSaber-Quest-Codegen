@@ -15,7 +15,7 @@ namespace System {
   // Forward declaring type: TypeName
   class TypeName;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TypeName);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeName*, "System", "TypeName");
 // Type namespace: System

@@ -25,7 +25,7 @@ namespace TMPro {
   // Forward declaring type: FloatTween
   struct FloatTween;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FloatTween, "TMPro", "FloatTween");
 // Type namespace: TMPro
 namespace TMPro {

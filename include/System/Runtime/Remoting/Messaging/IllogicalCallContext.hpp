@@ -25,7 +25,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: IllogicalCallContext
   class IllogicalCallContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::IllogicalCallContext);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
 // Type namespace: System.Runtime.Remoting.Messaging

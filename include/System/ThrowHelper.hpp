@@ -28,7 +28,7 @@ namespace System {
   // Forward declaring type: ThrowHelper
   class ThrowHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ThrowHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
 // Type namespace: System

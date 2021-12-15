@@ -42,7 +42,7 @@ namespace UnityEngine::Tilemaps {
   // Forward declaring type: Tile
   class Tile;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Tilemaps::Tile);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::Tile*, "UnityEngine.Tilemaps", "Tile");
 // Type namespace: UnityEngine.Tilemaps
@@ -222,7 +222,7 @@ namespace UnityEngine::Tilemaps {
   static check_size<sizeof(Tile), 124 + sizeof(UnityEngine::Tilemaps::Tile::ColliderType)> __UnityEngine_Tilemaps_TileSizeCheck;
   static_assert(sizeof(Tile) == 0x80);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::Tile::ColliderType, "UnityEngine.Tilemaps", "Tile/ColliderType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tile::get_sprite

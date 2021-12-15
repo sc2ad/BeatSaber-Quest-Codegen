@@ -47,7 +47,7 @@ namespace Ice {
   // Forward declaring type: FloorLightTile
   class FloorLightTile;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Ice::FloorLightTile);
 DEFINE_IL2CPP_ARG_TYPE(Ice::FloorLightTile*, "Ice", "FloorLightTile");
 // Type namespace: Ice

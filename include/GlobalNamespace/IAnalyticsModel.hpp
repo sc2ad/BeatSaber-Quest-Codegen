@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IAnalyticsModel
   class IAnalyticsModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IAnalyticsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAnalyticsModel*, "", "IAnalyticsModel");
 // Type namespace: 

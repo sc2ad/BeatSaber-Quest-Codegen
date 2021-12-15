@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // Forward declaring type: EnumerableProxy
   class EnumerableProxy;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::EnumerableProxy);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*, "Org.BouncyCastle.Utilities.Collections", "EnumerableProxy");
 // Type namespace: Org.BouncyCastle.Utilities.Collections

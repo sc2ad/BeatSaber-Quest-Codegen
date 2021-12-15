@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: Int16Converter
   class Int16Converter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::Int16Converter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Int16Converter*, "System.ComponentModel", "Int16Converter");
 // Type namespace: System.ComponentModel

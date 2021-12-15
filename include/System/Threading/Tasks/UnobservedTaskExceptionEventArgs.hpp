@@ -24,7 +24,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: UnobservedTaskExceptionEventArgs
   class UnobservedTaskExceptionEventArgs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::UnobservedTaskExceptionEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::UnobservedTaskExceptionEventArgs*, "System.Threading.Tasks", "UnobservedTaskExceptionEventArgs");
 // Type namespace: System.Threading.Tasks

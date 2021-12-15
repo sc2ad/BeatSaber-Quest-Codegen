@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ObstacleExecutionRating
   class ObstacleExecutionRating;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ObstacleExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 // Type namespace: 
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ObstacleExecutionRating), 24 + sizeof(GlobalNamespace::ObstacleExecutionRating::Rating)> __GlobalNamespace_ObstacleExecutionRatingSizeCheck;
   static_assert(sizeof(ObstacleExecutionRating) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleExecutionRating::get_rating

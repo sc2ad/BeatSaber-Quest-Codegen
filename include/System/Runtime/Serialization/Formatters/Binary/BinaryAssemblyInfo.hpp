@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // Forward declaring type: BinaryAssemblyInfo
   class BinaryAssemblyInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary

@@ -21,7 +21,7 @@ namespace System::Text::RegularExpressions {
   class Match;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::TNode::$$c);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode::$$c*, "NUnit.Framework.Interfaces", "TNode/<>c");
 // Type namespace: NUnit.Framework.Interfaces

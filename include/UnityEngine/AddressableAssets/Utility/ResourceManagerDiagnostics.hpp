@@ -36,7 +36,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   // Forward declaring type: ResourceManagerDiagnostics
   class ResourceManagerDiagnostics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*, "UnityEngine.AddressableAssets.Utility", "ResourceManagerDiagnostics");
 // Type namespace: UnityEngine.AddressableAssets.Utility

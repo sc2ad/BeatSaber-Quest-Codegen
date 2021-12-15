@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: CipherUtilities
   class CipherUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::CipherUtilities);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities*, "Org.BouncyCastle.Security", "CipherUtilities");
 // Type namespace: Org.BouncyCastle.Security

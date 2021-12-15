@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EnvironmentIntensityReductionOptions
   class EnvironmentIntensityReductionOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EnvironmentIntensityReductionOptions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 // Type namespace: 
@@ -169,10 +169,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(EnvironmentIntensityReductionOptions), 20 + sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType)> __GlobalNamespace_EnvironmentIntensityReductionOptionsSizeCheck;
   static_assert(sizeof(EnvironmentIntensityReductionOptions) == 0x18);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand
 // Il2CppName: get_compressExpand

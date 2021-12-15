@@ -9,7 +9,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
 #include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -39,7 +39,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: UvUnwrapping
   class UvUnwrapping;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::UvUnwrapping);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::UvUnwrapping*, "UnityEngine.ProBuilder", "UvUnwrapping");
 // Type namespace: UnityEngine.ProBuilder

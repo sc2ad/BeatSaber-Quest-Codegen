@@ -25,7 +25,7 @@ namespace NetEase::Docker {
   // Forward declaring type: ReceivedHighscoreData
   struct ReceivedHighscoreData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker", "ReceivedHighscoreData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {

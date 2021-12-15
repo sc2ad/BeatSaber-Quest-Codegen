@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: IssuerSerial
   class IssuerSerial;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::IssuerSerial);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::IssuerSerial*, "Org.BouncyCastle.Asn1.X509", "IssuerSerial");
 // Type namespace: Org.BouncyCastle.Asn1.X509

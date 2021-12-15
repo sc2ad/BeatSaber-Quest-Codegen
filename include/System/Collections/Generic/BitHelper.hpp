@@ -9,14 +9,14 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: BitHelper
   class BitHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Generic::BitHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
 // Type namespace: System.Collections.Generic

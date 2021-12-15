@@ -23,7 +23,7 @@ namespace Oculus::Platform::Models {
   class UserList;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass55_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass55_0*, "", "OculusNetworkPlayerModel/<>c__DisplayClass55_0");
 // Type namespace: 

@@ -57,7 +57,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EditAvatarFlowCoordinator
   class EditAvatarFlowCoordinator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EditAvatarFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator*, "", "EditAvatarFlowCoordinator");
 // Type namespace: 
@@ -266,7 +266,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditAvatarFlowCoordinator), 240 + sizeof(System::Action_1<GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)> __GlobalNamespace_EditAvatarFlowCoordinatorSizeCheck;
   static_assert(sizeof(EditAvatarFlowCoordinator) == 0xF8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType, "", "EditAvatarFlowCoordinator/EditAvatarType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarFlowCoordinator::add_didFinishEvent

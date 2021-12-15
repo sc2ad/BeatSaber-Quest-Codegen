@@ -33,7 +33,7 @@ namespace Oculus::Platform {
   template<typename T>
   class Message_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Oculus::Platform::Message_1, "Oculus.Platform", "Message`1");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

@@ -62,7 +62,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_ThreadedTaskLoadGeo
   class HEU_ThreadedTaskLoadGeo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo");
 // Type namespace: HoudiniEngineUnity
@@ -459,11 +459,13 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_ThreadedTaskLoadGeo), 104 + sizeof(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeoSizeCheck;
   static_assert(sizeof(HEU_ThreadedTaskLoadGeo) == 0x70);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/LoadType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData*, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData/LoadStatus");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, "HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/LoadType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoad
 // Il2CppName: SetupLoad

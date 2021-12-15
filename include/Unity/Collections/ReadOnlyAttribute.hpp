@@ -13,7 +13,7 @@ namespace Unity::Collections {
   // Forward declaring type: ReadOnlyAttribute
   class ReadOnlyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::ReadOnlyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::ReadOnlyAttribute*, "Unity.Collections", "ReadOnlyAttribute");
 // Type namespace: Unity.Collections

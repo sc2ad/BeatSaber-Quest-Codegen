@@ -18,7 +18,7 @@ namespace Mono::Security::X509 {
   // Forward declaring type: X509StoreManager
   class X509StoreManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::X509StoreManager);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509StoreManager*, "Mono.Security.X509", "X509StoreManager");
 // Type namespace: Mono.Security.X509

@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: AdvancingFront
   class AdvancingFront;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

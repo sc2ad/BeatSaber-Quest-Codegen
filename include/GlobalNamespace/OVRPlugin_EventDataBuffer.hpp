@@ -11,9 +11,9 @@
 #include "System/ValueType.hpp"
 // Including type: OVRPlugin/EventType
 #include "GlobalNamespace/OVRPlugin_EventType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::EventDataBuffer, "", "OVRPlugin/EventDataBuffer");
 // Type namespace: 
 namespace GlobalNamespace {

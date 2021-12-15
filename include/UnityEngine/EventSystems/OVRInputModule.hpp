@@ -49,7 +49,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: OVRInputModule
   class OVRInputModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::OVRInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
 // Type namespace: UnityEngine.EventSystems

@@ -7,9 +7,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.UnsafeNclNativeMethods/System.Net.HttpApi
 #include "System/Net/UnsafeNclNativeMethods_HttpApi.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");
 // Type namespace: System.Net

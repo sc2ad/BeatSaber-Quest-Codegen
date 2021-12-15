@@ -26,7 +26,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_CookLogs
   class HEU_CookLogs;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_CookLogs);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookLogs*, "HoudiniEngineUnity", "HEU_CookLogs");
 // Type namespace: HoudiniEngineUnity

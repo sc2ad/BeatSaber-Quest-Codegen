@@ -37,7 +37,7 @@ namespace System::Net::Http {
   // Forward declaring type: HttpMessageHandler
   class HttpMessageHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::HttpMessageHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpMessageHandler*, "System.Net.Http", "HttpMessageHandler");
 // Type namespace: System.Net.Http

@@ -31,7 +31,7 @@ namespace System::Reflection {
   // Forward declaring type: MemberFilter
   class MemberFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::MemberFilter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MemberFilter*, "System.Reflection", "MemberFilter");
 // Type namespace: System.Reflection

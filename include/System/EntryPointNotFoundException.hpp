@@ -24,7 +24,7 @@ namespace System {
   // Forward declaring type: EntryPointNotFoundException
   class EntryPointNotFoundException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::EntryPointNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::EntryPointNotFoundException*, "System", "EntryPointNotFoundException");
 // Type namespace: System

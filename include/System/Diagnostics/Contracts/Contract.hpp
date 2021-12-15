@@ -29,7 +29,7 @@ namespace System::Diagnostics::Contracts {
   // Forward declaring type: Contract
   class Contract;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::Contracts::Contract);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Contracts::Contract*, "System.Diagnostics.Contracts", "Contract");
 // Type namespace: System.Diagnostics.Contracts

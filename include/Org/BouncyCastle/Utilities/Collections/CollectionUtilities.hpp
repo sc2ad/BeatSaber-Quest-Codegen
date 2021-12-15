@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // Forward declaring type: CollectionUtilities
   class CollectionUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::CollectionUtilities);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*, "Org.BouncyCastle.Utilities.Collections", "CollectionUtilities");
 // Type namespace: Org.BouncyCastle.Utilities.Collections

@@ -13,7 +13,7 @@ namespace MasterServer {
   // Forward declaring type: AnalyticsMetricUnit
   struct AnalyticsMetricUnit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AnalyticsMetricUnit, "MasterServer", "AnalyticsMetricUnit");
 // Type namespace: MasterServer
 namespace MasterServer {

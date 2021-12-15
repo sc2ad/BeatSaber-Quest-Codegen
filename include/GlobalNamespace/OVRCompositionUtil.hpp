@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRCompositionUtil
   class OVRCompositionUtil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRCompositionUtil);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCompositionUtil*, "", "OVRCompositionUtil");
 // Type namespace: 

@@ -20,7 +20,7 @@ namespace System {
   // Forward declaring type: IOSelector
   class IOSelector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IOSelector);
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelector*, "System", "IOSelector");
 // Type namespace: System

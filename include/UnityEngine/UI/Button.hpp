@@ -38,7 +38,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Button
   class Button;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Button);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");
 // Type namespace: UnityEngine.UI

@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerConnectedPlayerScoreDiffText
   class MultiplayerConnectedPlayerScoreDiffText;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*, "", "MultiplayerConnectedPlayerScoreDiffText");
 // Type namespace: 
@@ -267,7 +267,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConnectedPlayerScoreDiffText), 136 + sizeof(Tweening::FloatTween*)> __GlobalNamespace_MultiplayerConnectedPlayerScoreDiffTextSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerScoreDiffText) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State, "", "MultiplayerConnectedPlayerScoreDiffText/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::Start

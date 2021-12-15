@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MenuDestination
   class MenuDestination;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuDestination);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuDestination*, "", "MenuDestination");
 // Type namespace: 

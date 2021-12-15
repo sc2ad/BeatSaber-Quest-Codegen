@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRMixedRealityCaptureTest
   class OVRMixedRealityCaptureTest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 // Type namespace: 
@@ -165,7 +165,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(OVRMixedRealityCaptureTest), 40 + sizeof(GlobalNamespace::OVRPlugin::Fovf)> __GlobalNamespace_OVRMixedRealityCaptureTestSizeCheck;
   static_assert(sizeof(OVRMixedRealityCaptureTest) == 0x38);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Start

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LevelCompletionResults
   class LevelCompletionResults;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelCompletionResults);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 // Type namespace: 
@@ -431,10 +431,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelCompletionResults), 132 + sizeof(float)> __GlobalNamespace_LevelCompletionResultsSizeCheck;
   static_assert(sizeof(LevelCompletionResults) == 0x88);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndAction, "", "LevelCompletionResults/LevelEndAction");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
 // Il2CppName: .ctor

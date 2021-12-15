@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -56,7 +56,7 @@ namespace UnityEngine {
   // Forward declaring type: Graphics
   class Graphics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Graphics);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Graphics*, "UnityEngine", "Graphics");
 // Type namespace: UnityEngine

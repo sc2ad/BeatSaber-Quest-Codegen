@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_UpdatePoses
   class SteamVR_UpdatePoses;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_UpdatePoses);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_UpdatePoses*, "", "SteamVR_UpdatePoses");
 // Type namespace: 

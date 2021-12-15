@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // Forward declaring type: SimpleBigDecimal
   class SimpleBigDecimal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");
 // Type namespace: Org.BouncyCastle.Math.EC.Abc

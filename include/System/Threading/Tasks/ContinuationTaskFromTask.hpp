@@ -26,7 +26,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: ContinuationTaskFromTask
   class ContinuationTaskFromTask;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::ContinuationTaskFromTask);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");
 // Type namespace: System.Threading.Tasks

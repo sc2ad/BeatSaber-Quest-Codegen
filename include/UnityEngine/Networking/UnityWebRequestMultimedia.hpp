@@ -23,7 +23,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UnityWebRequestMultimedia
   class UnityWebRequestMultimedia;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestMultimedia);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestMultimedia*, "UnityEngine.Networking", "UnityWebRequestMultimedia");
 // Type namespace: UnityEngine.Networking

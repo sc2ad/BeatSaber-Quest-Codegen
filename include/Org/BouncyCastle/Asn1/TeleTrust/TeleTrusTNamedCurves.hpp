@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   // Forward declaring type: TeleTrusTNamedCurves
   class TeleTrusTNamedCurves;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves");
 // Type namespace: Org.BouncyCastle.Asn1.TeleTrust

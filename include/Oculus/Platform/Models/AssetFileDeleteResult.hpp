@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AssetFileDeleteResult
   class AssetFileDeleteResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AssetFileDeleteResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDeleteResult*, "Oculus.Platform.Models", "AssetFileDeleteResult");
 // Type namespace: Oculus.Platform.Models

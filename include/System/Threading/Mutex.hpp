@@ -13,7 +13,7 @@ namespace System::Threading {
   // Forward declaring type: Mutex
   class Mutex;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Mutex);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Mutex*, "System.Threading", "Mutex");
 // Type namespace: System.Threading

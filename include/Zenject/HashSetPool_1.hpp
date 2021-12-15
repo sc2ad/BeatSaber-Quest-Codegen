@@ -26,7 +26,7 @@ namespace Zenject {
   template<typename T>
   class HashSetPool_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::HashSetPool_1, "Zenject", "HashSetPool`1");
 // Type namespace: Zenject
 namespace Zenject {

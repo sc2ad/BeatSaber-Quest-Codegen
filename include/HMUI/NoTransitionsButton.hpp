@@ -29,7 +29,7 @@ namespace HMUI {
   // Forward declaring type: NoTransitionsButton
   class NoTransitionsButton;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::NoTransitionsButton);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 // Type namespace: HMUI
@@ -157,7 +157,7 @@ namespace HMUI {
   static check_size<sizeof(NoTransitionsButton), 264 + sizeof(HMUI::NoTransitionsButton::SelectionState)> __HMUI_NoTransitionsButtonSizeCheck;
   static_assert(sizeof(NoTransitionsButton) == 0x10C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NoTransitionsButton::get_selectionState

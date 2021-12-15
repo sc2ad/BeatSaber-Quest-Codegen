@@ -13,7 +13,7 @@
 #include "NUnit/Framework/Interfaces/ITestFixtureData.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
 #include "NUnit/Framework/Interfaces/RunState.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework
@@ -53,7 +53,7 @@ namespace NUnit::Framework {
   // Forward declaring type: TestFixtureAttribute
   class TestFixtureAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::TestFixtureAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute*, "NUnit.Framework", "TestFixtureAttribute");
 // Type namespace: NUnit.Framework

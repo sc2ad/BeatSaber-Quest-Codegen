@@ -18,7 +18,7 @@ namespace System::Net {
   // Forward declaring type: HttpVersion
   class HttpVersion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::HttpVersion);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpVersion*, "System.Net", "HttpVersion");
 // Type namespace: System.Net

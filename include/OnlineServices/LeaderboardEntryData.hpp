@@ -22,7 +22,7 @@ namespace OnlineServices {
   // Forward declaring type: LeaderboardEntryData
   class LeaderboardEntryData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::LeaderboardEntryData);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntryData*, "OnlineServices", "LeaderboardEntryData");
 // Type namespace: OnlineServices

@@ -19,7 +19,7 @@ namespace Unity::Collections {
   template<typename T>
   class NativeArrayDebugView_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Unity::Collections::NativeArrayDebugView_1, "Unity.Collections", "NativeArrayDebugView`1");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {

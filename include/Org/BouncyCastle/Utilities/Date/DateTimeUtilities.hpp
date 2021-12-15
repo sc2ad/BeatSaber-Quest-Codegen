@@ -13,7 +13,7 @@ namespace Org::BouncyCastle::Utilities::Date {
   // Forward declaring type: DateTimeUtilities
   class DateTimeUtilities;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
 // Type namespace: Org.BouncyCastle.Utilities.Date

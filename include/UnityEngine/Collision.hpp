@@ -9,7 +9,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ContactPoint
 #include "UnityEngine/ContactPoint.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,7 +25,7 @@ namespace UnityEngine {
   // Forward declaring type: Collision
   class Collision;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Collision);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision*, "UnityEngine", "Collision");
 // Type namespace: UnityEngine

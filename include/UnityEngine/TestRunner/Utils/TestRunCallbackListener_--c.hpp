@@ -40,7 +40,7 @@ namespace UnityEngine::TestRunner {
   class ITestRunCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c");
 // Type namespace: UnityEngine.TestRunner.Utils

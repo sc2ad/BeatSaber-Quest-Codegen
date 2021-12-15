@@ -12,7 +12,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: VRControllerAxis_t
   struct VRControllerAxis_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerAxis_t, "OVR.OpenVR", "VRControllerAxis_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

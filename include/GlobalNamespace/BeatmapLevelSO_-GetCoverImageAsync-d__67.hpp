@@ -24,7 +24,7 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__67, "", "BeatmapLevelSO/<GetCoverImageAsync>d__67");
 // Type namespace: 
 namespace GlobalNamespace {

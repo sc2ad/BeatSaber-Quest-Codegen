@@ -24,7 +24,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: AtlasSpriteProvider
   class AtlasSpriteProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "AtlasSpriteProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

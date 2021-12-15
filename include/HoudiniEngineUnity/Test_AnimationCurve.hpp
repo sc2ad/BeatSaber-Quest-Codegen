@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_AnimationCurve
   class Test_AnimationCurve;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_AnimationCurve);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_AnimationCurve*, "HoudiniEngineUnity", "Test_AnimationCurve");
 // Type namespace: HoudiniEngineUnity

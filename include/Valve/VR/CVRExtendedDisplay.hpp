@@ -26,7 +26,7 @@ namespace Valve::VR {
   // Forward declaring type: CVRExtendedDisplay
   class CVRExtendedDisplay;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::CVRExtendedDisplay);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
 // Type namespace: Valve.VR

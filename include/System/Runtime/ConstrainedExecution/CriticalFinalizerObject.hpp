@@ -15,7 +15,7 @@ namespace System::Runtime::ConstrainedExecution {
   // Forward declaring type: CriticalFinalizerObject
   class CriticalFinalizerObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::ConstrainedExecution::CriticalFinalizerObject);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*, "System.Runtime.ConstrainedExecution", "CriticalFinalizerObject");
 // Type namespace: System.Runtime.ConstrainedExecution

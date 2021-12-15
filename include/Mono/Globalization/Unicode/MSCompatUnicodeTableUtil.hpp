@@ -18,7 +18,7 @@ namespace Mono::Globalization::Unicode {
   // Forward declaring type: MSCompatUnicodeTableUtil
   class MSCompatUnicodeTableUtil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil*, "Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil");
 // Type namespace: Mono.Globalization.Unicode

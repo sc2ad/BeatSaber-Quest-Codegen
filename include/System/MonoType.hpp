@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: MonoType
   class MonoType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::MonoType);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoType*, "System", "MonoType");
 // Type namespace: System

@@ -32,7 +32,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32NetworkInterface2
   class Win32NetworkInterface2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::NetworkInformation::Win32NetworkInterface2);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");
 // Type namespace: System.Net.NetworkInformation

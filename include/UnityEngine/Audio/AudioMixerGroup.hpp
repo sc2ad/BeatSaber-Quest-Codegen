@@ -13,7 +13,7 @@ namespace UnityEngine::Audio {
   // Forward declaring type: AudioMixerGroup
   class AudioMixerGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Audio::AudioMixerGroup);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerGroup*, "UnityEngine.Audio", "AudioMixerGroup");
 // Type namespace: UnityEngine.Audio

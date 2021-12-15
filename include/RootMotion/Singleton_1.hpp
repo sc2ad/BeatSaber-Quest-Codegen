@@ -18,7 +18,7 @@ namespace RootMotion {
   template<typename T>
   class Singleton_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(RootMotion::Singleton_1, "RootMotion", "Singleton`1");
 // Type namespace: RootMotion
 namespace RootMotion {

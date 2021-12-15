@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   // Forward declaring type: ECDHBasicAgreement
   class ECDHBasicAgreement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement");
 // Type namespace: Org.BouncyCastle.Crypto.Agreement

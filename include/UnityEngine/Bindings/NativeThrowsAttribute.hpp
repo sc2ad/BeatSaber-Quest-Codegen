@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativeThrowsAttribute
   class NativeThrowsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativeThrowsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
 // Type namespace: UnityEngine.Bindings

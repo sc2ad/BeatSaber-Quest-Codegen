@@ -22,7 +22,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ISuiteBuilder
   class ISuiteBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ISuiteBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ISuiteBuilder*, "NUnit.Framework.Interfaces", "ISuiteBuilder");
 // Type namespace: NUnit.Framework.Interfaces

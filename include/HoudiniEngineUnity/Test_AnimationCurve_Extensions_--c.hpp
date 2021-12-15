@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
   class Test_AnimationCurve;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c*, "HoudiniEngineUnity", "Test_AnimationCurve_Extensions/<>c");
 // Type namespace: HoudiniEngineUnity

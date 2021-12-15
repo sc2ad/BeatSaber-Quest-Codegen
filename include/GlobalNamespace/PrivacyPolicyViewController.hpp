@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PrivacyPolicyViewController
   class PrivacyPolicyViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PrivacyPolicyViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController*, "", "PrivacyPolicyViewController");
 // Type namespace: 
@@ -168,7 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PrivacyPolicyViewController), 136 + sizeof(System::Action_1<GlobalNamespace::PrivacyPolicyViewController::ButtonType>*)> __GlobalNamespace_PrivacyPolicyViewControllerSizeCheck;
   static_assert(sizeof(PrivacyPolicyViewController) == 0x90);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrivacyPolicyViewController::ButtonType, "", "PrivacyPolicyViewController/ButtonType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PrivacyPolicyViewController::add_didFinishEvent

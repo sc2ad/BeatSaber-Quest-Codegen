@@ -12,7 +12,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: HmdMatrix34_t
   struct HmdMatrix34_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::HmdMatrix34_t, "OVR.OpenVR", "HmdMatrix34_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

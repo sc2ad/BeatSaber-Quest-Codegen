@@ -43,7 +43,7 @@ namespace System {
   // Forward declaring type: UInt32
   struct UInt32;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::UInt32, "System", "UInt32");
 // Type namespace: System
 namespace System {

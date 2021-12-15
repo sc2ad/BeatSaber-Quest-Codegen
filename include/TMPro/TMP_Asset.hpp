@@ -24,7 +24,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Asset
   class TMP_Asset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Asset);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Asset*, "TMPro", "TMP_Asset");
 // Type namespace: TMPro

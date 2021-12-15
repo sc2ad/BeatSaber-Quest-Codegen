@@ -31,7 +31,7 @@ namespace Assets::OVR::Scripts {
   // Forward declaring type: FixMethodDelegate
   class FixMethodDelegate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Assets::OVR::Scripts::FixMethodDelegate);
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixMethodDelegate*, "Assets.OVR.Scripts", "FixMethodDelegate");
 // Type namespace: Assets.OVR.Scripts

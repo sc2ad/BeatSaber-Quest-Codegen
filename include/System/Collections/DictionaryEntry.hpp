@@ -15,7 +15,7 @@ namespace System::Collections {
   // Forward declaring type: DictionaryEntry
   struct DictionaryEntry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");
 // Type namespace: System.Collections
 namespace System::Collections {

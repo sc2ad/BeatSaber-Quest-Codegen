@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   // Forward declaring type: RankModelHelper
   class RankModelHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::RankModelHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModelHelper*, "", "RankModelHelper");
 // Type namespace: 

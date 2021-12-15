@@ -17,7 +17,7 @@ namespace Valve::VR {
   // Forward declaring type: IVRRenderModels
   struct IVRRenderModels;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels, "Valve.VR", "IVRRenderModels");
 // Type namespace: Valve.VR
 namespace Valve::VR {

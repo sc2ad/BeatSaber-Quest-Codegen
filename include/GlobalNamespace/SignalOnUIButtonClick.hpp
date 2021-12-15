@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SignalOnUIButtonClick
   class SignalOnUIButtonClick;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SignalOnUIButtonClick);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick*, "", "SignalOnUIButtonClick");
 // Type namespace: 

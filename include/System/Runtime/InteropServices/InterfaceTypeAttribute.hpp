@@ -19,7 +19,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: InterfaceTypeAttribute
   class InterfaceTypeAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::InterfaceTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
 // Type namespace: System.Runtime.InteropServices

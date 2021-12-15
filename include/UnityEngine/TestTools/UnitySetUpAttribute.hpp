@@ -13,7 +13,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: UnitySetUpAttribute
   class UnitySetUpAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::UnitySetUpAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::UnitySetUpAttribute*, "UnityEngine.TestTools", "UnitySetUpAttribute");
 // Type namespace: UnityEngine.TestTools

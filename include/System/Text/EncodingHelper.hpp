@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -25,7 +25,7 @@ namespace System::Text {
   // Forward declaring type: EncodingHelper
   class EncodingHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::EncodingHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingHelper*, "System.Text", "EncodingHelper");
 // Type namespace: System.Text

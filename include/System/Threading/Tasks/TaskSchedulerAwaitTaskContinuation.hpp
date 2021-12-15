@@ -31,7 +31,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskSchedulerAwaitTaskContinuation
   class TaskSchedulerAwaitTaskContinuation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation");
 // Type namespace: System.Threading.Tasks

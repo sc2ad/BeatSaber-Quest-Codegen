@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PatternFightScenesTransitionSetupDataSO
   class PatternFightScenesTransitionSetupDataSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PatternFightScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, "", "PatternFightScenesTransitionSetupDataSO");
 // Type namespace: 
@@ -164,7 +164,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(PatternFightScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::PatternFightScenesTransitionSetupDataSO*, GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType>*)> __GlobalNamespace_PatternFightScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(PatternFightScenesTransitionSetupDataSO) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightScenesTransitionSetupDataSO::PatternFightEndStateType, "", "PatternFightScenesTransitionSetupDataSO/PatternFightEndStateType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightScenesTransitionSetupDataSO::add_didFinishEvent

@@ -29,7 +29,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: OpenVRInterop
   class OpenVRInterop;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::OpenVRInterop);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVRInterop*, "OVR.OpenVR", "OpenVRInterop");
 // Type namespace: OVR.OpenVR

@@ -20,7 +20,7 @@
 // Including type: AdditionalContentModel/OpenProductStoreResult
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$BuyPackButtonWasPressed$b__56_0$d, "", "StandardLevelDetailViewController/<<BuyPackButtonWasPressed>b__56_0>d");
 // Type namespace: 
 namespace GlobalNamespace {

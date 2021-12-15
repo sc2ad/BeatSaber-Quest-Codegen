@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DrawHelpers
   class DrawHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DrawHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
 // Type namespace: 

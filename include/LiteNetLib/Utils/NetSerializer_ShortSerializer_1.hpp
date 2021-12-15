@@ -23,7 +23,7 @@ namespace LiteNetLib::Utils {
   class NetDataWriter;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::ShortSerializer_1, "LiteNetLib.Utils", "NetSerializer/ShortSerializer`1");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {

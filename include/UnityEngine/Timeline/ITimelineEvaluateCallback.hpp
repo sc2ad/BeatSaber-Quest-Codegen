@@ -10,7 +10,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: ITimelineEvaluateCallback
   class ITimelineEvaluateCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::ITimelineEvaluateCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineEvaluateCallback*, "UnityEngine.Timeline", "ITimelineEvaluateCallback");
 // Type namespace: UnityEngine.Timeline

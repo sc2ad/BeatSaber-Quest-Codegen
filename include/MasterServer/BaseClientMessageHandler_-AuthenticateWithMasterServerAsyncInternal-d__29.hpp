@@ -17,7 +17,7 @@
 #include "GlobalNamespace/EncryptionUtility.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
   class IDiffieHellmanKeyPair;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServerAsyncInternal>d__29");
 // Type namespace: MasterServer
 namespace MasterServer {

@@ -42,7 +42,7 @@ namespace System::Reflection {
   // Forward declaring type: RuntimeConstructorInfo
   class RuntimeConstructorInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::RuntimeConstructorInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeConstructorInfo*, "System.Reflection", "RuntimeConstructorInfo");
 // Type namespace: System.Reflection

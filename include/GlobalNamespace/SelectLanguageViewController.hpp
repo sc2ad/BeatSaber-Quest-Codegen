@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SelectLanguageViewController
   class SelectLanguageViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SelectLanguageViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController*, "", "SelectLanguageViewController");
 // Type namespace: 

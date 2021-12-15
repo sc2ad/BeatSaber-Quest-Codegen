@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EulaDisplayViewController
   class EulaDisplayViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EulaDisplayViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EulaDisplayViewController*, "", "EulaDisplayViewController");
 // Type namespace: 

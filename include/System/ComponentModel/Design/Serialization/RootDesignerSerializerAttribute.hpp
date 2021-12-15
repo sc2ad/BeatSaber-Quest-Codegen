@@ -17,7 +17,7 @@ namespace System::ComponentModel::Design::Serialization {
   // Forward declaring type: RootDesignerSerializerAttribute
   class RootDesignerSerializerAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
 // Type namespace: System.ComponentModel.Design.Serialization

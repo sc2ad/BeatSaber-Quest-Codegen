@@ -13,7 +13,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: AddressablesPlatform
   struct AddressablesPlatform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesPlatform, "UnityEngine.AddressableAssets", "AddressablesPlatform");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {

@@ -33,7 +33,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: DirectorControlPlayable
   class DirectorControlPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::DirectorControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
 // Type namespace: UnityEngine.Timeline

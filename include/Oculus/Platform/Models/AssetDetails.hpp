@@ -24,7 +24,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AssetDetails
   class AssetDetails;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AssetDetails);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetails*, "Oculus.Platform.Models", "AssetDetails");
 // Type namespace: Oculus.Platform.Models

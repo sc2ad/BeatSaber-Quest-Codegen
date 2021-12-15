@@ -13,7 +13,7 @@ namespace System::Diagnostics {
   // Forward declaring type: ProcessWindowStyle
   struct ProcessWindowStyle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessWindowStyle, "System.Diagnostics", "ProcessWindowStyle");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {

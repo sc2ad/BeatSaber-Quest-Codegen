@@ -17,7 +17,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: VROverlayIntersectionMaskPrimitive_t
   struct VROverlayIntersectionMaskPrimitive_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t, "OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

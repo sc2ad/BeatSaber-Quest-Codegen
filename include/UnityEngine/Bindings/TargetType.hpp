@@ -13,7 +13,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: TargetType
   struct TargetType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {

@@ -14,7 +14,7 @@ namespace Valve::VR {
   // Forward declaring type: AppOverrideKeys_t
   struct AppOverrideKeys_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::AppOverrideKeys_t, "Valve.VR", "AppOverrideKeys_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

@@ -11,7 +11,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: IInterval
   class IInterval;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::IInterval);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
 // Type namespace: UnityEngine.Timeline

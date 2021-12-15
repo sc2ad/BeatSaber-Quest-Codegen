@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRMixedRealityCaptureSettings
   class OVRMixedRealityCaptureSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRMixedRealityCaptureSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureSettings*, "", "OVRMixedRealityCaptureSettings");
 // Type namespace: 

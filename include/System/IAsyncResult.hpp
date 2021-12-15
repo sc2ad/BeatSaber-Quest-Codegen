@@ -20,7 +20,7 @@ namespace System {
   // Forward declaring type: IAsyncResult
   class IAsyncResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult*, "System", "IAsyncResult");
 // Type namespace: System

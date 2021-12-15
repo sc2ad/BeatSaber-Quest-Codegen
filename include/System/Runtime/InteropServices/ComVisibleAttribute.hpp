@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: ComVisibleAttribute
   class ComVisibleAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::ComVisibleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");
 // Type namespace: System.Runtime.InteropServices

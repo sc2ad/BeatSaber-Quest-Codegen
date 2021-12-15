@@ -13,7 +13,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: RC5Parameters
   class RC5Parameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "Org.BouncyCastle.Crypto.Parameters", "RC5Parameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

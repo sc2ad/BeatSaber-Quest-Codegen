@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Vector2IntSO
   class Vector2IntSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::Vector2IntSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2IntSO*, "", "Vector2IntSO");
 // Type namespace: 

@@ -24,7 +24,7 @@ namespace Menu::ViewControllers {
   // Forward declaring type: EditAvatarHistorySnapshot
   class EditAvatarHistorySnapshot;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Menu::ViewControllers::EditAvatarHistorySnapshot);
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");
 // Type namespace: Menu.ViewControllers

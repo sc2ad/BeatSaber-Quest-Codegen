@@ -31,7 +31,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class UnityTestExecutionContext;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::SetUpTearDownCommand::$InvokeAfter$d__3);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$InvokeAfter$d__3*, "UnityEngine.TestTools", "SetUpTearDownCommand/<InvokeAfter>d__3");
 // Type namespace: UnityEngine.TestTools

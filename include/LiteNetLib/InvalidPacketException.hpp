@@ -23,7 +23,7 @@ namespace LiteNetLib {
   // Forward declaring type: InvalidPacketException
   class InvalidPacketException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::InvalidPacketException);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::InvalidPacketException*, "LiteNetLib", "InvalidPacketException");
 // Type namespace: LiteNetLib

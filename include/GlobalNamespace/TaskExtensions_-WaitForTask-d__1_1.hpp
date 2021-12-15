@@ -31,7 +31,7 @@ namespace System::Threading::Tasks {
   class Task_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1, "", "TaskExtensions/<WaitForTask>d__1`1");
 // Type namespace: 
 namespace GlobalNamespace {

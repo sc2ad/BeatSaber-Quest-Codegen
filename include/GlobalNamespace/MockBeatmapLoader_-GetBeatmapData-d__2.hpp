@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializable;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$GetBeatmapData$d__2, "", "MockBeatmapLoader/<GetBeatmapData>d__2");
 // Type namespace: 
 namespace GlobalNamespace {

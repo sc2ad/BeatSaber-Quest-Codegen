@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Forward declaring type: FixedPointPreCompInfo
   class FixedPointPreCompInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier

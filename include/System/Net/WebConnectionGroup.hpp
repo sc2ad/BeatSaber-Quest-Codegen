@@ -46,7 +46,7 @@ namespace System::Net {
   // Forward declaring type: WebConnectionGroup
   class WebConnectionGroup;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebConnectionGroup);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup*, "System.Net", "WebConnectionGroup");
 // Type namespace: System.Net

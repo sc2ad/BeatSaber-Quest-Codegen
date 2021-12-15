@@ -23,7 +23,7 @@ namespace System::Reflection {
   // Forward declaring type: CustomAttributeTypedArgument
   struct CustomAttributeTypedArgument;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
 // Type namespace: System.Reflection
 namespace System::Reflection {

@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: NetSyncVoipAttenuationValue
   class NetSyncVoipAttenuationValue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncVoipAttenuationValue*, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");
 // Type namespace: Oculus.Platform.Models

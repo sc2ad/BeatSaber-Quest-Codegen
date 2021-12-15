@@ -25,7 +25,7 @@ namespace Oculus::Platform {
   // Forward declaring type: ApplicationLifecycle
   class ApplicationLifecycle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::ApplicationLifecycle);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationLifecycle*, "Oculus.Platform", "ApplicationLifecycle");
 // Type namespace: Oculus.Platform

@@ -35,7 +35,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: TestListenerWrapper
   class TestListenerWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::TestListenerWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestListenerWrapper*, "UnityEngine.TestTools.TestRunner", "TestListenerWrapper");
 // Type namespace: UnityEngine.TestTools.TestRunner

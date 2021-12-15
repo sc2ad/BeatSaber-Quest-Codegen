@@ -27,7 +27,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: PlatformMappingService
   class PlatformMappingService;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::PlatformMappingService);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
 // Type namespace: UnityEngine.AddressableAssets

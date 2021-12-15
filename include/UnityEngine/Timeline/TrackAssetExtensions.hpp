@@ -20,7 +20,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TrackAssetExtensions
   class TrackAssetExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TrackAssetExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
 // Type namespace: UnityEngine.Timeline

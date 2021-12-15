@@ -46,7 +46,7 @@ namespace Zenject {
   template<typename TParam1>
   class SubContainerCreatorByNewPrefabMethod_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::SubContainerCreatorByNewPrefabMethod_1, "Zenject", "SubContainerCreatorByNewPrefabMethod`1");
 // Type namespace: Zenject
 namespace Zenject {

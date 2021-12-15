@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: DllImportAttribute
   class DllImportAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::DllImportAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
 // Type namespace: System.Runtime.InteropServices

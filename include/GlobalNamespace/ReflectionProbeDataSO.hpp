@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ReflectionProbeDataSO
   class ReflectionProbeDataSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ReflectionProbeDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
 // Type namespace: 

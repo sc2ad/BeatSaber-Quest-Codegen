@@ -34,7 +34,7 @@ namespace System::Net::Http::Headers {
   // Forward declaring type: StringWithQualityHeaderValue
   class StringWithQualityHeaderValue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::StringWithQualityHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::StringWithQualityHeaderValue*, "System.Net.Http.Headers", "StringWithQualityHeaderValue");
 // Type namespace: System.Net.Http.Headers

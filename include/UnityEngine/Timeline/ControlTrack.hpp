@@ -17,7 +17,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: ControlTrack
   class ControlTrack;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::ControlTrack);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlTrack*, "UnityEngine.Timeline", "ControlTrack");
 // Type namespace: UnityEngine.Timeline

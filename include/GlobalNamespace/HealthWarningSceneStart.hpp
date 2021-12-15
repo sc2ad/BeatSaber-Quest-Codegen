@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HealthWarningSceneStart
   class HealthWarningSceneStart;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HealthWarningSceneStart);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart*, "", "HealthWarningSceneStart");
 // Type namespace: 

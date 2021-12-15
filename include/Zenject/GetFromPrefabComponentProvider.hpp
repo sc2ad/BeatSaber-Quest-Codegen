@@ -39,7 +39,7 @@ namespace Zenject {
   // Forward declaring type: GetFromPrefabComponentProvider
   class GetFromPrefabComponentProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::GetFromPrefabComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromPrefabComponentProvider*, "Zenject", "GetFromPrefabComponentProvider");
 // Type namespace: Zenject

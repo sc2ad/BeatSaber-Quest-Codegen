@@ -29,7 +29,7 @@ namespace NUnit::Framework {
   // Forward declaring type: IgnoreException
   class IgnoreException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::IgnoreException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::IgnoreException*, "NUnit.Framework", "IgnoreException");
 // Type namespace: NUnit.Framework

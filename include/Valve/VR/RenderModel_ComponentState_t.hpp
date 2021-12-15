@@ -14,7 +14,7 @@ namespace Valve::VR {
   // Forward declaring type: RenderModel_ComponentState_t
   struct RenderModel_ComponentState_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_ComponentState_t, "Valve.VR", "RenderModel_ComponentState_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

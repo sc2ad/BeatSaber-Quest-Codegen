@@ -17,7 +17,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CameraVideoStreamFrameHeader_t
   struct CameraVideoStreamFrameHeader_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

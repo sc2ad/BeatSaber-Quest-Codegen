@@ -13,7 +13,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: AppliedOffsetMode
   struct AppliedOffsetMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AppliedOffsetMode, "UnityEngine.Timeline", "AppliedOffsetMode");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

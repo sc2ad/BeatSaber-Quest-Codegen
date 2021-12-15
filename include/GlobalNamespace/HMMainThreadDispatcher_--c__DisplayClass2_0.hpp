@@ -19,7 +19,7 @@ namespace System::Collections {
   class IEnumerator;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass2_0");
 // Type namespace: 

@@ -17,7 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -80,7 +80,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_PartData
   class HEU_PartData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_PartData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData*, "HoudiniEngineUnity", "HEU_PartData");
 // Type namespace: HoudiniEngineUnity
@@ -613,7 +613,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_PartData), 152 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PartDataSizeCheck;
   static_assert(sizeof(HEU_PartData) == 0xA0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData::PartOutputType, "HoudiniEngineUnity", "HEU_PartData/PartOutputType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::get_PartID

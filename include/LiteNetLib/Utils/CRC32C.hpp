@@ -9,14 +9,14 @@
 #include "System/Int32.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: CRC32C
   class CRC32C;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::Utils::CRC32C);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::CRC32C*, "LiteNetLib.Utils", "CRC32C");
 // Type namespace: LiteNetLib.Utils

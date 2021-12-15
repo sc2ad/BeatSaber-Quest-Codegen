@@ -10,7 +10,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IDisposableFixture
   class IDisposableFixture;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IDisposableFixture);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IDisposableFixture*, "NUnit.Framework.Interfaces", "IDisposableFixture");
 // Type namespace: NUnit.Framework.Interfaces

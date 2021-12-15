@@ -25,7 +25,7 @@ namespace UnityEngine::SceneManagement {
   // Forward declaring type: SceneManagerAPIInternal
   class SceneManagerAPIInternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SceneManagement::SceneManagerAPIInternal);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPIInternal*, "UnityEngine.SceneManagement", "SceneManagerAPIInternal");
 // Type namespace: UnityEngine.SceneManagement

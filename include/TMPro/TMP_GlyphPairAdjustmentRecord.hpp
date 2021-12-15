@@ -21,7 +21,7 @@ namespace TMPro {
   // Forward declaring type: TMP_GlyphPairAdjustmentRecord
   class TMP_GlyphPairAdjustmentRecord;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_GlyphPairAdjustmentRecord);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphPairAdjustmentRecord*, "TMPro", "TMP_GlyphPairAdjustmentRecord");
 // Type namespace: TMPro

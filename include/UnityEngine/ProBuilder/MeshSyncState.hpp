@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: MeshSyncState
   struct MeshSyncState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshSyncState, "UnityEngine.ProBuilder", "MeshSyncState");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

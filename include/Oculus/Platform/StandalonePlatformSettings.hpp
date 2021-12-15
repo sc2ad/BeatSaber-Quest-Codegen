@@ -15,7 +15,7 @@ namespace Oculus::Platform {
   // Forward declaring type: StandalonePlatformSettings
   class StandalonePlatformSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::StandalonePlatformSettings);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
 // Type namespace: Oculus.Platform

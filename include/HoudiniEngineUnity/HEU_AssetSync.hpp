@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_AssetSync
   class HEU_AssetSync;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetSync);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetSync*, "HoudiniEngineUnity", "HEU_AssetSync");
 // Type namespace: HoudiniEngineUnity

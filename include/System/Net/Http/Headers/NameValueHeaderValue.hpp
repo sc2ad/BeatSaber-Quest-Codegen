@@ -32,7 +32,7 @@ namespace System::Net::Http::Headers {
   // Forward declaring type: NameValueHeaderValue
   class NameValueHeaderValue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::NameValueHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::NameValueHeaderValue*, "System.Net.Http.Headers", "NameValueHeaderValue");
 // Type namespace: System.Net.Http.Headers

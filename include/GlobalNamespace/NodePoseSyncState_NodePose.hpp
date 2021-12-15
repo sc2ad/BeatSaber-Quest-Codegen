@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NodePose
   struct NodePoseSyncState_NodePose;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState_NodePose, "", "NodePoseSyncState/NodePose");
 // Type namespace: 
 namespace GlobalNamespace {

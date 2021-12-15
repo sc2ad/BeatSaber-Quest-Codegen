@@ -64,7 +64,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: TestExecutionContext
   class TestExecutionContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestExecutionContext);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");
 // Type namespace: NUnit.Framework.Internal

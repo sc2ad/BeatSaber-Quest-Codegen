@@ -20,7 +20,7 @@ namespace UnityEngine {
   // Forward declaring type: GUITargetAttribute
   class GUITargetAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::GUITargetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUITargetAttribute*, "UnityEngine", "GUITargetAttribute");
 // Type namespace: UnityEngine

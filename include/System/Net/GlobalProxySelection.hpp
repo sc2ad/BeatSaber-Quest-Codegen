@@ -18,7 +18,7 @@ namespace System::Net {
   // Forward declaring type: GlobalProxySelection
   class GlobalProxySelection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::GlobalProxySelection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::GlobalProxySelection*, "System.Net", "GlobalProxySelection");
 // Type namespace: System.Net

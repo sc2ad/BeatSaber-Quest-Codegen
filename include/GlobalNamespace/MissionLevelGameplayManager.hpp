@@ -49,7 +49,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MissionLevelGameplayManager
   class MissionLevelGameplayManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionLevelGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 // Type namespace: 
@@ -276,7 +276,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MissionLevelGameplayManager), 88 + sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState)> __GlobalNamespace_MissionLevelGameplayManagerSizeCheck;
   static_assert(sizeof(MissionLevelGameplayManager) == 0x5C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::add_levelFailedEvent

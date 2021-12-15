@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: PositionAsUV1
   class PositionAsUV1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::PositionAsUV1);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
 // Type namespace: UnityEngine.UI

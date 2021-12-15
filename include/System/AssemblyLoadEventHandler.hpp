@@ -28,7 +28,7 @@ namespace System {
   // Forward declaring type: AssemblyLoadEventHandler
   class AssemblyLoadEventHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::AssemblyLoadEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::AssemblyLoadEventHandler*, "System", "AssemblyLoadEventHandler");
 // Type namespace: System

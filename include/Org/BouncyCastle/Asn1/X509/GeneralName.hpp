@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: GeneralName
   class GeneralName;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::GeneralName);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralName*, "Org.BouncyCastle.Asn1.X509", "GeneralName");
 // Type namespace: Org.BouncyCastle.Asn1.X509

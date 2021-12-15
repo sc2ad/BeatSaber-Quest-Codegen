@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rendering.ScriptableRenderContext
 #include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -35,7 +35,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: RenderPipelineManager
   class RenderPipelineManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::RenderPipelineManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineManager*, "UnityEngine.Rendering", "RenderPipelineManager");
 // Type namespace: UnityEngine.Rendering

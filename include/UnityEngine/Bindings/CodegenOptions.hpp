@@ -13,7 +13,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: CodegenOptions
   struct CodegenOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::CodegenOptions, "UnityEngine.Bindings", "CodegenOptions");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {

@@ -24,7 +24,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: AssetReferenceTexture2D
   class AssetReferenceTexture2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceTexture2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceTexture2D*, "UnityEngine.AddressableAssets", "AssetReferenceTexture2D");
 // Type namespace: UnityEngine.AddressableAssets

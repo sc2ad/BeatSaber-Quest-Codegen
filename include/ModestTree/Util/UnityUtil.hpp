@@ -36,7 +36,7 @@ namespace ModestTree::Util {
   // Forward declaring type: UnityUtil
   class UnityUtil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::UnityUtil);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil*, "ModestTree.Util", "UnityUtil");
 // Type namespace: ModestTree.Util

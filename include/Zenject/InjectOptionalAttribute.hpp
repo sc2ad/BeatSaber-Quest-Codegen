@@ -17,7 +17,7 @@ namespace Zenject {
   // Forward declaring type: InjectOptionalAttribute
   class InjectOptionalAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::InjectOptionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectOptionalAttribute*, "Zenject", "InjectOptionalAttribute");
 // Type namespace: Zenject

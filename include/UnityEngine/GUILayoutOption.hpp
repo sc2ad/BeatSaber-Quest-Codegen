@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: GUILayoutOption
   class GUILayoutOption;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::GUILayoutOption);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");
 // Type namespace: UnityEngine
@@ -184,7 +184,7 @@ namespace UnityEngine {
   static check_size<sizeof(GUILayoutOption), 24 + sizeof(::Il2CppObject*)> __UnityEngine_GUILayoutOptionSizeCheck;
   static_assert(sizeof(GUILayoutOption) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption::Type, "UnityEngine", "GUILayoutOption/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutOption::New_ctor

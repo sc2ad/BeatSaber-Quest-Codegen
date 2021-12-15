@@ -19,7 +19,7 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: INetSerializable
   class INetSerializable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::Utils::INetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::INetSerializable*, "LiteNetLib.Utils", "INetSerializable");
 // Type namespace: LiteNetLib.Utils

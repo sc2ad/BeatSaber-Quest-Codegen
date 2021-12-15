@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: Collider2D
   class Collider2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Collider2D);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider2D*, "UnityEngine", "Collider2D");
 // Type namespace: UnityEngine

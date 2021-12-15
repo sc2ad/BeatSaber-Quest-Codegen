@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   class IBeatmapLevelPackCollection;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$ReloadCustomLevelPackCollectionAsync$d__32, "", "BeatmapLevelsModel/<ReloadCustomLevelPackCollectionAsync>d__32");
 // Type namespace: 
 namespace GlobalNamespace {

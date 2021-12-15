@@ -28,7 +28,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   // Forward declaring type: TestResultExtensions
   class TestResultExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions

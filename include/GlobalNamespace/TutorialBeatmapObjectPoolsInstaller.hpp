@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TutorialBeatmapObjectPoolsInstaller
   class TutorialBeatmapObjectPoolsInstaller;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectPoolsInstaller*, "", "TutorialBeatmapObjectPoolsInstaller");
 // Type namespace: 

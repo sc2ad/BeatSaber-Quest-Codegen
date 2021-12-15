@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LobbyPlayerPermissionsModel
   class LobbyPlayerPermissionsModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LobbyPlayerPermissionsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerPermissionsModel*, "", "LobbyPlayerPermissionsModel");
 // Type namespace: 

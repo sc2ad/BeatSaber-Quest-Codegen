@@ -24,7 +24,7 @@ namespace UnityEngine {
   // Forward declaring type: Quaternion
   struct Quaternion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
 // Type namespace: UnityEngine
 namespace UnityEngine {

@@ -17,7 +17,7 @@ namespace System::Linq {
   template<typename TKey, typename TElement>
   class IGrouping_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IGrouping_2, "System.Linq", "IGrouping`2");
 // Type namespace: System.Linq
 namespace System::Linq {

@@ -8,7 +8,7 @@
 // Including type: UnityEngine.Timeline.TrackAsset
 #include "UnityEngine/Timeline/TrackAsset.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TrackAsset::TrackAssetUpgrade);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TrackAssetUpgrade*, "UnityEngine.Timeline", "TrackAsset/TrackAssetUpgrade");
 // Type namespace: UnityEngine.Timeline

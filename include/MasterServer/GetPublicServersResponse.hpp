@@ -51,7 +51,7 @@ namespace MasterServer {
   // Forward declaring type: GetPublicServersResponse
   class GetPublicServersResponse;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::GetPublicServersResponse);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersResponse*, "MasterServer", "GetPublicServersResponse");
 // Type namespace: MasterServer
@@ -190,7 +190,7 @@ namespace MasterServer {
   static check_size<sizeof(GetPublicServersResponse), 32 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>*)> __MasterServer_GetPublicServersResponseSizeCheck;
   static_assert(sizeof(GetPublicServersResponse) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicServersResponse::Result, "MasterServer", "GetPublicServersResponse/Result");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::GetPublicServersResponse::get_pool

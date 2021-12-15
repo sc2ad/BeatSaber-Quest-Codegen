@@ -13,7 +13,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: AvailableTrackingData
   struct AvailableTrackingData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::AvailableTrackingData, "UnityEngine.XR", "AvailableTrackingData");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {

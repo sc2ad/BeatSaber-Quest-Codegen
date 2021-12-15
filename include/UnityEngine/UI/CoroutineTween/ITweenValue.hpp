@@ -10,7 +10,7 @@ namespace UnityEngine::UI::CoroutineTween {
   // Forward declaring type: ITweenValue
   class ITweenValue;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ITweenValue);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
 // Type namespace: UnityEngine.UI.CoroutineTween

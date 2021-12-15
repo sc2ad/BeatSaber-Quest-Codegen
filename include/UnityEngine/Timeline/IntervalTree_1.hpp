@@ -36,7 +36,7 @@ namespace UnityEngine::Timeline {
   template<typename T>
   class IntervalTree_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

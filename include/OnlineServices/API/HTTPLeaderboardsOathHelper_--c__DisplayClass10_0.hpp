@@ -19,7 +19,7 @@ namespace UnityEngine::Networking {
   class UnityWebRequest;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_0");
 // Type namespace: OnlineServices.API

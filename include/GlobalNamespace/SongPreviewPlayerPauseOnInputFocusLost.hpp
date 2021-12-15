@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SongPreviewPlayerPauseOnInputFocusLost
   class SongPreviewPlayerPauseOnInputFocusLost;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*, "", "SongPreviewPlayerPauseOnInputFocusLost");
 // Type namespace: 

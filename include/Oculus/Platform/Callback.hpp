@@ -35,7 +35,7 @@ namespace Oculus::Platform {
   // Forward declaring type: Callback
   class Callback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Callback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback*, "Oculus.Platform", "Callback");
 // Type namespace: Oculus.Platform

@@ -15,7 +15,7 @@ namespace System::Runtime::Remoting::Channels {
   // Forward declaring type: CrossAppDomainData
   class CrossAppDomainData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Channels::CrossAppDomainData);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");
 // Type namespace: System.Runtime.Remoting.Channels

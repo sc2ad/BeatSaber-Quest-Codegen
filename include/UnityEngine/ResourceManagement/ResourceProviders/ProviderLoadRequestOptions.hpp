@@ -15,7 +15,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: ProviderLoadRequestOptions
   class ProviderLoadRequestOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "ProviderLoadRequestOptions");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

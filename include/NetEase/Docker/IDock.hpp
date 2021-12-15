@@ -33,7 +33,7 @@ namespace NetEase::Docker {
   // Forward declaring type: IDock
   class IDock;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NetEase::Docker::IDock);
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::IDock*, "NetEase.Docker", "IDock");
 // Type namespace: NetEase.Docker

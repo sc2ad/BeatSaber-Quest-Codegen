@@ -28,7 +28,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRCompositor::_SetTrackingSpace);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_SetTrackingSpace*, "Valve.VR", "IVRCompositor/_SetTrackingSpace");
 // Type namespace: Valve.VR

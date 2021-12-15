@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // Forward declaring type: ZTauElement
   class ZTauElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::ZTauElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");
 // Type namespace: Org.BouncyCastle.Math.EC.Abc

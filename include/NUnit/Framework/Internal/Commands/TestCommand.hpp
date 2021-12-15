@@ -26,7 +26,7 @@ namespace NUnit::Framework::Internal::Commands {
   // Forward declaring type: TestCommand
   class TestCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::TestCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestCommand*, "NUnit.Framework.Internal.Commands", "TestCommand");
 // Type namespace: NUnit.Framework.Internal.Commands

@@ -19,7 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EditAvatarViewController
   class EditAvatarViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EditAvatarViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 // Type namespace: 
@@ -696,10 +696,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(EditAvatarViewController), 328 + sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart)> __GlobalNamespace_EditAvatarViewControllerSizeCheck;
   static_assert(sizeof(EditAvatarViewController) == 0x14C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::FinishAction, "", "EditAvatarViewController/FinishAction");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::FinishAction, "", "EditAvatarViewController/FinishAction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent

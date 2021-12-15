@@ -24,7 +24,7 @@ namespace Mono::Net {
   // Forward declaring type: CFProxySettings
   class CFProxySettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFProxySettings);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxySettings*, "Mono.Net", "CFProxySettings");
 // Type namespace: Mono.Net

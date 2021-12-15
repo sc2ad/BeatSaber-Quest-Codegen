@@ -17,7 +17,7 @@ namespace Mono {
   // Forward declaring type: RuntimePropertyHandle
   struct RuntimePropertyHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimePropertyHandle, "Mono", "RuntimePropertyHandle");
 // Type namespace: Mono
 namespace Mono {

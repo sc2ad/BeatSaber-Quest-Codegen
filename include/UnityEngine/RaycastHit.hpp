@@ -24,7 +24,7 @@ namespace UnityEngine {
   // Forward declaring type: RaycastHit
   struct RaycastHit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
 // Type namespace: UnityEngine
 namespace UnityEngine {

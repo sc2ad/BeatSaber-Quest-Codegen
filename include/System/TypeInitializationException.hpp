@@ -28,7 +28,7 @@ namespace System {
   // Forward declaring type: TypeInitializationException
   class TypeInitializationException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TypeInitializationException);
 DEFINE_IL2CPP_ARG_TYPE(System::TypeInitializationException*, "System", "TypeInitializationException");
 // Type namespace: System

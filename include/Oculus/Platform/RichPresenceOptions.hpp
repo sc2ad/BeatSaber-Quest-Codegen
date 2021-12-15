@@ -29,7 +29,7 @@ namespace Oculus::Platform {
   // Forward declaring type: RichPresenceOptions
   class RichPresenceOptions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::RichPresenceOptions);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");
 // Type namespace: Oculus.Platform

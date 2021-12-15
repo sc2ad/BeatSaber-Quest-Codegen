@@ -16,7 +16,7 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel::$LogoutAsync$d__3, "OnlineServices.API", "HTTPApiLeaderboardsModel/<LogoutAsync>d__3");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

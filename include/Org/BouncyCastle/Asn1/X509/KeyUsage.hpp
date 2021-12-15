@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: KeyUsage
   class KeyUsage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::KeyUsage);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::KeyUsage*, "Org.BouncyCastle.Asn1.X509", "KeyUsage");
 // Type namespace: Org.BouncyCastle.Asn1.X509

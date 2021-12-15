@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Protocol::Ntlm
@@ -21,7 +21,7 @@ namespace Mono::Security::Protocol::Ntlm {
   // Forward declaring type: ChallengeResponse2
   class ChallengeResponse2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse2);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
 // Type namespace: Mono.Security.Protocol.Ntlm

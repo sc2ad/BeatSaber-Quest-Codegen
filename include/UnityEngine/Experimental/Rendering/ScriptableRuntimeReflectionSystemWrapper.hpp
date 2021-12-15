@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::Rendering {
   // Forward declaring type: ScriptableRuntimeReflectionSystemWrapper
   class ScriptableRuntimeReflectionSystemWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");
 // Type namespace: UnityEngine.Experimental.Rendering

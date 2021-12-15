@@ -13,7 +13,7 @@ namespace NUnit::Framework {
   // Forward declaring type: TearDownAttribute
   class TearDownAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::TearDownAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TearDownAttribute*, "NUnit.Framework", "TearDownAttribute");
 // Type namespace: NUnit.Framework

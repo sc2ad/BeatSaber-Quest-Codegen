@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: MonoInstaller
   class MonoInstaller;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::MonoInstaller);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstaller*, "Zenject", "MonoInstaller");
 // Type namespace: Zenject

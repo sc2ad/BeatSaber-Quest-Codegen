@@ -15,7 +15,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_InputInterfaceTilemapSettings
   class HEU_InputInterfaceTilemapSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemapSettings");
 // Type namespace: HoudiniEngineUnity

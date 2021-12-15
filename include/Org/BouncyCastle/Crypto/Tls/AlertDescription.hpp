@@ -11,7 +11,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // Forward declaring type: AlertDescription
   class AlertDescription;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::AlertDescription);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
 // Type namespace: Org.BouncyCastle.Crypto.Tls

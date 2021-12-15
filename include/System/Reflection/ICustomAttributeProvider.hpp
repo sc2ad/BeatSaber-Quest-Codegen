@@ -4,7 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -21,7 +21,7 @@ namespace System::Reflection {
   // Forward declaring type: ICustomAttributeProvider
   class ICustomAttributeProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::ICustomAttributeProvider);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Reflection", "ICustomAttributeProvider");
 // Type namespace: System.Reflection

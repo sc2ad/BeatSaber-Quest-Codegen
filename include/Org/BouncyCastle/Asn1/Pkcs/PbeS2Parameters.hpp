@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // Forward declaring type: PbeS2Parameters
   class PbeS2Parameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*, "Org.BouncyCastle.Asn1.Pkcs", "PbeS2Parameters");
 // Type namespace: Org.BouncyCastle.Asn1.Pkcs

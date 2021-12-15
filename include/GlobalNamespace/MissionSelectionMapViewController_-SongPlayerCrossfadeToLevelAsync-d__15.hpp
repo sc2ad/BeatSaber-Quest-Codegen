@@ -27,7 +27,7 @@ namespace UnityEngine {
   class AudioClip;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController::$SongPlayerCrossfadeToLevelAsync$d__15, "", "MissionSelectionMapViewController/<SongPlayerCrossfadeToLevelAsync>d__15");
 // Type namespace: 
 namespace GlobalNamespace {

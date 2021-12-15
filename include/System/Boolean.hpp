@@ -40,7 +40,7 @@ namespace System {
   // Forward declaring type: Boolean
   struct Boolean;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
 // Type namespace: System
 namespace System {

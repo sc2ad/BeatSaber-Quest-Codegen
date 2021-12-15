@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -57,7 +57,7 @@ namespace VRUIControls {
   // Forward declaring type: VRGraphicRaycaster
   class VRGraphicRaycaster;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::VRGraphicRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 // Type namespace: VRUIControls
@@ -234,7 +234,7 @@ namespace VRUIControls {
   static check_size<sizeof(VRGraphicRaycaster), 64 + sizeof(HMUI::CurvedCanvasSettingsHelper*)> __VRUIControls_VRGraphicRaycasterSizeCheck;
   static_assert(sizeof(VRGraphicRaycaster) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::RaycastCanvas

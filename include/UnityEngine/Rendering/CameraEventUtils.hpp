@@ -18,7 +18,7 @@ namespace UnityEngine::Rendering {
   // Forward declaring type: CameraEventUtils
   class CameraEventUtils;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::CameraEventUtils);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEventUtils*, "UnityEngine.Rendering", "CameraEventUtils");
 // Type namespace: UnityEngine.Rendering

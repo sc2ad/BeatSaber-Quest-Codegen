@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AvatarSaveData
   class AvatarSaveData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarSaveData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
 // Type namespace: 

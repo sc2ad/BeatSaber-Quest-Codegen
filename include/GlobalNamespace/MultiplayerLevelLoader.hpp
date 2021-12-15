@@ -60,7 +60,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLevelLoader
   class MultiplayerLevelLoader;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");
 // Type namespace: 
@@ -292,7 +292,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerLevelLoader), 116 + sizeof(bool)> __GlobalNamespace_MultiplayerLevelLoaderSizeCheck;
   static_assert(sizeof(MultiplayerLevelLoader) == 0x75);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::add_stillDownloadingSongEvent

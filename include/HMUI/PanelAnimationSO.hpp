@@ -33,7 +33,7 @@ namespace HMUI {
   // Forward declaring type: PanelAnimationSO
   class PanelAnimationSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::PanelAnimationSO);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
 // Type namespace: HMUI

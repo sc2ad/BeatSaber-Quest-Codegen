@@ -31,7 +31,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Forward declaring type: ContentCatalogDataEntry
   class ContentCatalogDataEntry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators

@@ -10,7 +10,7 @@ namespace Zenject {
   // Forward declaring type: ILateTickable
   class ILateTickable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ILateTickable);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateTickable*, "Zenject", "ILateTickable");
 // Type namespace: Zenject

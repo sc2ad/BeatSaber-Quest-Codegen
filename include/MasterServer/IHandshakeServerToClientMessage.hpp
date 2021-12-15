@@ -12,7 +12,7 @@ namespace MasterServer {
   // Forward declaring type: IHandshakeServerToClientMessage
   class IHandshakeServerToClientMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::IHandshakeServerToClientMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IHandshakeServerToClientMessage*, "MasterServer", "IHandshakeServerToClientMessage");
 // Type namespace: MasterServer

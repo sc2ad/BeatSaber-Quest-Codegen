@@ -24,7 +24,7 @@ namespace Zenject {
   // Forward declaring type: Installer
   class Installer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Installer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Installer*, "Zenject", "Installer");
 // Type namespace: Zenject

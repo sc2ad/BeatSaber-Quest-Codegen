@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HEU_AssetEventReceiverTest
   class HEU_AssetEventReceiverTest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HEU_AssetEventReceiverTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_AssetEventReceiverTest*, "", "HEU_AssetEventReceiverTest");
 // Type namespace: 

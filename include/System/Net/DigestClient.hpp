@@ -33,7 +33,7 @@ namespace System::Net {
   // Forward declaring type: DigestClient
   class DigestClient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::DigestClient);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestClient*, "System.Net", "DigestClient");
 // Type namespace: System.Net

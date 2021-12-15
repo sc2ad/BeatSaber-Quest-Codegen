@@ -13,7 +13,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TrackBindingFlags
   struct TrackBindingFlags;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingFlags, "UnityEngine.Timeline", "TrackBindingFlags");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {

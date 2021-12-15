@@ -12,7 +12,7 @@
 // Including type: Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code
 #include "Mono/Unity/UnityTls_unitytls_error_code.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {

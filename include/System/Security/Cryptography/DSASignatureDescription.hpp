@@ -17,7 +17,7 @@ namespace System::Security::Cryptography {
   // Forward declaring type: DSASignatureDescription
   class DSASignatureDescription;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::DSASignatureDescription);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDescription*, "System.Security.Cryptography", "DSASignatureDescription");
 // Type namespace: System.Security.Cryptography

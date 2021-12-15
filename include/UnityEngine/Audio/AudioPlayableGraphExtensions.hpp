@@ -20,7 +20,7 @@ namespace UnityEngine::Audio {
   // Forward declaring type: AudioPlayableGraphExtensions
   class AudioPlayableGraphExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Audio::AudioPlayableGraphExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableGraphExtensions*, "UnityEngine.Audio", "AudioPlayableGraphExtensions");
 // Type namespace: UnityEngine.Audio

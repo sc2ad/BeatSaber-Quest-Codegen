@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: YieldAwaitable
   struct YieldAwaitable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {

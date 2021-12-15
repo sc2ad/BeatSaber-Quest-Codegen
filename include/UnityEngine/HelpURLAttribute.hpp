@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: HelpURLAttribute
   class HelpURLAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::HelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
 // Type namespace: UnityEngine

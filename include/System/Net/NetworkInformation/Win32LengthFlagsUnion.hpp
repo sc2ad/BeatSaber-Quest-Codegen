@@ -12,7 +12,7 @@ namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32LengthFlagsUnion
   struct Win32LengthFlagsUnion;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32LengthFlagsUnion, "System.Net.NetworkInformation", "Win32LengthFlagsUnion");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

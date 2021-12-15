@@ -27,7 +27,7 @@ namespace MasterServer {
   // Forward declaring type: ChangeCipherSpecRequest
   class ChangeCipherSpecRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::ChangeCipherSpecRequest);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ChangeCipherSpecRequest*, "MasterServer", "ChangeCipherSpecRequest");
 // Type namespace: MasterServer

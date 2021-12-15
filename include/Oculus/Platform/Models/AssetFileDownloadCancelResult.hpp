@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AssetFileDownloadCancelResult
   class AssetFileDownloadCancelResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AssetFileDownloadCancelResult);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadCancelResult*, "Oculus.Platform.Models", "AssetFileDownloadCancelResult");
 // Type namespace: Oculus.Platform.Models

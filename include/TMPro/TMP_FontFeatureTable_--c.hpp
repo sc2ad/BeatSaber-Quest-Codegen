@@ -25,7 +25,7 @@ namespace TMPro {
   class TMP_GlyphPairAdjustmentRecord;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_FontFeatureTable::$$c);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable::$$c*, "TMPro", "TMP_FontFeatureTable/<>c");
 // Type namespace: TMPro

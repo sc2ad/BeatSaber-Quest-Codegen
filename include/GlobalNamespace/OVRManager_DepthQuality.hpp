@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DepthQuality
   struct OVRManager_DepthQuality;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_DepthQuality, "", "OVRManager/DepthQuality");
 // Type namespace: 
 namespace GlobalNamespace {

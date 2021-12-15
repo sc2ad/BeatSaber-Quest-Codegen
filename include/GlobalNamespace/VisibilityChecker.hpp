@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: VisibilityChecker
   class VisibilityChecker;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VisibilityChecker);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisibilityChecker*, "", "VisibilityChecker");
 // Type namespace: 

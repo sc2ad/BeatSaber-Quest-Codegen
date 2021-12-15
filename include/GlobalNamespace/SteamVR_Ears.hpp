@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_Ears
   class SteamVR_Ears;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Ears);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
 // Type namespace: 

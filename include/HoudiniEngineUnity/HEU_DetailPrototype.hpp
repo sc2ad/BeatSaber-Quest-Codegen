@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_DetailPrototype
   class HEU_DetailPrototype;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_DetailPrototype);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_DetailPrototype*, "HoudiniEngineUnity", "HEU_DetailPrototype");
 // Type namespace: HoudiniEngineUnity

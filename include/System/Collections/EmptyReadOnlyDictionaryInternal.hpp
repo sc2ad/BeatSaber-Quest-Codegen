@@ -32,7 +32,7 @@ namespace System::Collections {
   // Forward declaring type: EmptyReadOnlyDictionaryInternal
   class EmptyReadOnlyDictionaryInternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::EmptyReadOnlyDictionaryInternal);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal*, "System.Collections", "EmptyReadOnlyDictionaryInternal");
 // Type namespace: System.Collections

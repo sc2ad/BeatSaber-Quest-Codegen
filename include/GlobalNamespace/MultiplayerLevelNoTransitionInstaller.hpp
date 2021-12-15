@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLevelNoTransitionInstaller
   class MultiplayerLevelNoTransitionInstaller;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLevelNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelNoTransitionInstaller*, "", "MultiplayerLevelNoTransitionInstaller");
 // Type namespace: 

@@ -19,7 +19,7 @@ namespace System {
   class AttributeUsageAttribute;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::MonoCustomAttrs::AttributeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");
 // Type namespace: System

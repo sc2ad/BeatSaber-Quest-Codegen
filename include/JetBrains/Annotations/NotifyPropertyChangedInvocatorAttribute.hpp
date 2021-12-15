@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: NotifyPropertyChangedInvocatorAttribute
   class NotifyPropertyChangedInvocatorAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*, "JetBrains.Annotations", "NotifyPropertyChangedInvocatorAttribute");
 // Type namespace: JetBrains.Annotations

@@ -29,7 +29,7 @@ namespace ModestTree::Util {
   // Forward declaring type: ValuePair
   class ValuePair;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::ValuePair);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::ValuePair*, "ModestTree.Util", "ValuePair");
 // Type namespace: ModestTree.Util

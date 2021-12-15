@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: RsaBlindingParameters
   class RsaBlindingParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaBlindingParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

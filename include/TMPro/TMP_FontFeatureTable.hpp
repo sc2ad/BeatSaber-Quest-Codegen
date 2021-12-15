@@ -31,7 +31,7 @@ namespace TMPro {
   // Forward declaring type: TMP_FontFeatureTable
   class TMP_FontFeatureTable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_FontFeatureTable);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");
 // Type namespace: TMPro

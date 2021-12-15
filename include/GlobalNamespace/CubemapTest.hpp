@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: CubemapTest
   class CubemapTest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CubemapTest);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapTest*, "", "CubemapTest");
 // Type namespace: 

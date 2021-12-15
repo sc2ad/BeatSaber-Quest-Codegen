@@ -40,7 +40,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: TriangulationContext
   class TriangulationContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

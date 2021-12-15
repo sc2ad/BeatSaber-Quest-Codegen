@@ -25,7 +25,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager*, "", "ConnectedPlayerManager");
 // Type namespace: 
@@ -835,7 +835,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(ConnectedPlayerManager), 328 + sizeof(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>*)> __GlobalNamespace_ConnectedPlayerManagerSizeCheck;
   static_assert(sizeof(ConnectedPlayerManager) == 0x150);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::InternalMessageType, "", "ConnectedPlayerManager/InternalMessageType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner

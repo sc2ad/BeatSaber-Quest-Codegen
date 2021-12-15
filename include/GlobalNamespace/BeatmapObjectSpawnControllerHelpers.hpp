@@ -20,7 +20,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectSpawnControllerHelpers
   class BeatmapObjectSpawnControllerHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerHelpers*, "", "BeatmapObjectSpawnControllerHelpers");
 // Type namespace: 

@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // Forward declaring type: EmptyEnumerable
   class EmptyEnumerable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Utilities::Collections::EmptyEnumerable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EmptyEnumerable*, "Org.BouncyCastle.Utilities.Collections", "EmptyEnumerable");
 // Type namespace: Org.BouncyCastle.Utilities.Collections

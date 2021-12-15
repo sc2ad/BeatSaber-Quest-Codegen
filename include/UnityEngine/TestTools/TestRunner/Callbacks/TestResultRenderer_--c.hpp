@@ -25,7 +25,7 @@ namespace NUnit::Framework::Interfaces {
   class ITestResult;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/<>c");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks

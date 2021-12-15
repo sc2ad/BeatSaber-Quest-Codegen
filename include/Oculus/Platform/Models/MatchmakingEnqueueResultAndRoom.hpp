@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: MatchmakingEnqueueResultAndRoom
   class MatchmakingEnqueueResultAndRoom;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");
 // Type namespace: Oculus.Platform.Models

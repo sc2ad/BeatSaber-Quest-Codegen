@@ -31,7 +31,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: Time
   class Time;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Time);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Time*, "Org.BouncyCastle.Asn1.X509", "Time");
 // Type namespace: Org.BouncyCastle.Asn1.X509

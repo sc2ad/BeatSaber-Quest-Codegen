@@ -13,7 +13,7 @@ namespace System::Reflection {
   // Forward declaring type: CallingConventions
   struct CallingConventions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");
 // Type namespace: System.Reflection
 namespace System::Reflection {

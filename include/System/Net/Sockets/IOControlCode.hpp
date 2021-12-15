@@ -13,7 +13,7 @@ namespace System::Net::Sockets {
   // Forward declaring type: IOControlCode
   struct IOControlCode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::IOControlCode, "System.Net.Sockets", "IOControlCode");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {

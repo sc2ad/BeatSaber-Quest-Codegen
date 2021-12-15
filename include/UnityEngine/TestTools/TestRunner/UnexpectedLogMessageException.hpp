@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // Forward declaring type: UnexpectedLogMessageException
   class UnexpectedLogMessageException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");
 // Type namespace: UnityEngine.TestTools.TestRunner

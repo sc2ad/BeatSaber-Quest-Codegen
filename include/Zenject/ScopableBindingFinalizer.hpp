@@ -42,7 +42,7 @@ namespace Zenject {
   // Forward declaring type: ScopableBindingFinalizer
   class ScopableBindingFinalizer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ScopableBindingFinalizer);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer*, "Zenject", "ScopableBindingFinalizer");
 // Type namespace: Zenject

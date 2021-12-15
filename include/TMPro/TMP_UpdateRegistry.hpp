@@ -31,7 +31,7 @@ namespace TMPro {
   // Forward declaring type: TMP_UpdateRegistry
   class TMP_UpdateRegistry;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_UpdateRegistry);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");
 // Type namespace: TMPro

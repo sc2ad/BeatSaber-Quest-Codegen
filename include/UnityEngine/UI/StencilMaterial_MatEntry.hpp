@@ -25,7 +25,7 @@ namespace UnityEngine {
   class Material;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::StencilMaterial::MatEntry);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
 // Type namespace: UnityEngine.UI

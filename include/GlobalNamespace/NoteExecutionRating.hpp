@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteExecutionRating
   class NoteExecutionRating;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");
 // Type namespace: 
@@ -176,7 +176,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NoteExecutionRating), 40 + sizeof(float)> __GlobalNamespace_NoteExecutionRatingSizeCheck;
   static_assert(sizeof(NoteExecutionRating) == 0x2C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteExecutionRating::Rating, "", "NoteExecutionRating/Rating");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteExecutionRating::get_rating

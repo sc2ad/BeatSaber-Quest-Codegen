@@ -24,7 +24,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadInterruptedException
   class ThreadInterruptedException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ThreadInterruptedException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadInterruptedException*, "System.Threading", "ThreadInterruptedException");
 // Type namespace: System.Threading

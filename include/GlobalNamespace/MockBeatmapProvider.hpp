@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MockBeatmapProvider
   class MockBeatmapProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MockBeatmapProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider*, "", "MockBeatmapProvider");
 // Type namespace: 

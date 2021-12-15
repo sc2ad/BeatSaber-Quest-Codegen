@@ -26,7 +26,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: ServerContextTerminatorSink
   class ServerContextTerminatorSink;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::ServerContextTerminatorSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ServerContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ServerContextTerminatorSink");
 // Type namespace: System.Runtime.Remoting.Messaging

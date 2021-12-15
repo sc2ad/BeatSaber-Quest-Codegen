@@ -13,7 +13,7 @@ namespace Oculus::Platform {
   // Forward declaring type: AbuseReportVideoMode
   struct AbuseReportVideoMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportVideoMode, "Oculus.Platform", "AbuseReportVideoMode");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

@@ -19,7 +19,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: AssertionConditionAttribute
   class AssertionConditionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::AssertionConditionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");
 // Type namespace: JetBrains.Annotations

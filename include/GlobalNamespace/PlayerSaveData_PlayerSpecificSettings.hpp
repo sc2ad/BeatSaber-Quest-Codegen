@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*, "", "PlayerSaveData/PlayerSpecificSettings");
 // Type namespace: 
@@ -297,10 +297,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveData::PlayerSpecificSettings), 64 + sizeof(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData)> __GlobalNamespace_PlayerSaveData_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerSpecificSettings) == 0x44);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData, "", "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData, "", "PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData, "", "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor

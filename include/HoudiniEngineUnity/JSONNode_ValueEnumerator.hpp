@@ -12,7 +12,7 @@
 // Including type: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
 #include "HoudiniEngineUnity/JSONNode_Enumerator.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::ValueEnumerator, "HoudiniEngineUnity", "JSONNode/ValueEnumerator");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

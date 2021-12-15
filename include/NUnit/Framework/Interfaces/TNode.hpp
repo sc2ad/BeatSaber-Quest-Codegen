@@ -34,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: TNode
   class TNode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::TNode);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
 // Type namespace: NUnit.Framework.Interfaces

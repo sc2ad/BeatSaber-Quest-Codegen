@@ -29,7 +29,7 @@ namespace UnityEngine {
   // Forward declaring type: Matrix4x4
   struct Matrix4x4;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 // Type namespace: UnityEngine
 namespace UnityEngine {

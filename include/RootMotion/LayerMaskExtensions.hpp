@@ -8,14 +8,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.LayerMask
 #include "UnityEngine/LayerMask.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
   // Forward declaring type: LayerMaskExtensions
   class LayerMaskExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::LayerMaskExtensions);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LayerMaskExtensions*, "RootMotion", "LayerMaskExtensions");
 // Type namespace: RootMotion

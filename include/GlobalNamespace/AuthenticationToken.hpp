@@ -11,7 +11,7 @@
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AuthenticationToken
   struct AuthenticationToken;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken, "", "AuthenticationToken");
 // Type namespace: 
 namespace GlobalNamespace {
@@ -186,7 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationToken::Platform, "", "AuthenticationToken/Platform");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::AuthenticationToken

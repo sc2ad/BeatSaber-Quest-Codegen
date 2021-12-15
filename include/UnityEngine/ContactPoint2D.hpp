@@ -15,7 +15,7 @@ namespace UnityEngine {
   // Forward declaring type: ContactPoint2D
   struct ContactPoint2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactPoint2D, "UnityEngine", "ContactPoint2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {

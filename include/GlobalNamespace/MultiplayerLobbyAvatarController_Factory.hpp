@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   class IConnectedPlayer;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarController::Factory);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController::Factory*, "", "MultiplayerLobbyAvatarController/Factory");
 // Type namespace: 

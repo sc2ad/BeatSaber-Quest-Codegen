@@ -23,7 +23,7 @@ namespace HMUI {
   template<typename T>
   class IValueChanger_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::IValueChanger_1, "HMUI", "IValueChanger`1");
 // Type namespace: HMUI
 namespace HMUI {

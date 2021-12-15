@@ -32,7 +32,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationClipPlayable
   struct AnimationClipPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {

@@ -19,7 +19,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: TrackedDevicePose_t
   struct TrackedDevicePose_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::TrackedDevicePose_t, "OVR.OpenVR", "TrackedDevicePose_t");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

@@ -45,7 +45,7 @@ namespace System::IO {
   template<typename TSource>
   class FileSystemEnumerableIterator_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IO::FileSystemEnumerableIterator_1, "System.IO", "FileSystemEnumerableIterator`1");
 // Type namespace: System.IO
 namespace System::IO {

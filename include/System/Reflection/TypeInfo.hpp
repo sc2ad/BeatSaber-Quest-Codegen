@@ -17,7 +17,7 @@ namespace System::Reflection {
   // Forward declaring type: TypeInfo
   class TypeInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::TypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TypeInfo*, "System.Reflection", "TypeInfo");
 // Type namespace: System.Reflection

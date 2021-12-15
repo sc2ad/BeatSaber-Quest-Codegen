@@ -13,7 +13,7 @@ namespace System::Globalization {
   // Forward declaring type: MonthNameStyles
   struct MonthNameStyles;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");
 // Type namespace: System.Globalization
 namespace System::Globalization {

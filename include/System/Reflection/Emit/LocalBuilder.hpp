@@ -20,7 +20,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: LocalBuilder
   class LocalBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::LocalBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
 // Type namespace: System.Reflection.Emit

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TestLeaderboardsModel
   class TestLeaderboardsModel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TestLeaderboardsModel);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestLeaderboardsModel*, "", "TestLeaderboardsModel");
 // Type namespace: 

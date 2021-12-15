@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerPositionDisplay
   class MultiplayerPositionDisplay;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerPositionDisplay);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay*, "", "MultiplayerPositionDisplay");
 // Type namespace: 

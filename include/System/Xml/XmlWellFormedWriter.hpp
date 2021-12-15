@@ -19,7 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -57,7 +57,7 @@ namespace System::Xml {
   // Forward declaring type: XmlWellFormedWriter
   class XmlWellFormedWriter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::XmlWellFormedWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter*, "System.Xml", "XmlWellFormedWriter");
 // Type namespace: System.Xml
@@ -1081,18 +1081,18 @@ namespace System::Xml {
   static check_size<sizeof(XmlWellFormedWriter), 168 + sizeof(System::Xml::SecureStringHasher*)> __System_Xml_XmlWellFormedWriterSizeCheck;
   static_assert(sizeof(XmlWellFormedWriter) == 0xB0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::State, "System.Xml", "XmlWellFormedWriter/State");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceKind, "System.Xml", "XmlWellFormedWriter/NamespaceKind");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::SpecialAttribute, "System.Xml", "XmlWellFormedWriter/SpecialAttribute");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceKind, "System.Xml", "XmlWellFormedWriter/NamespaceKind");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::ElementScope, "System.Xml", "XmlWellFormedWriter/ElementScope");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::State, "System.Xml", "XmlWellFormedWriter/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_RawWriter
 // Il2CppName: get_RawWriter

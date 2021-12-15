@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LevelCompletionResultsAnalyticsHelper
   class LevelCompletionResultsAnalyticsHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelCompletionResultsAnalyticsHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsAnalyticsHelper*, "", "LevelCompletionResultsAnalyticsHelper");
 // Type namespace: 

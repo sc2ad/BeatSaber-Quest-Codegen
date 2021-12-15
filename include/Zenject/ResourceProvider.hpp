@@ -37,7 +37,7 @@ namespace Zenject {
   // Forward declaring type: ResourceProvider
   class ResourceProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ResourceProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ResourceProvider*, "Zenject", "ResourceProvider");
 // Type namespace: Zenject

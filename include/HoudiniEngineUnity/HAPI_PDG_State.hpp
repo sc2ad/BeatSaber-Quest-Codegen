@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_PDG_State
   struct HAPI_PDG_State;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_State, "HoudiniEngineUnity", "HAPI_PDG_State");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

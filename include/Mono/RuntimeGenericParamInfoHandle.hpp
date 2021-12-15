@@ -9,7 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: Mono.RuntimeStructs
 #include "Mono/RuntimeStructs.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,7 +30,7 @@ namespace Mono {
   // Forward declaring type: RuntimeGenericParamInfoHandle
   struct RuntimeGenericParamInfoHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
 // Type namespace: Mono
 namespace Mono {

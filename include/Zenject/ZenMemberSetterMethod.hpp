@@ -26,7 +26,7 @@ namespace Zenject {
   // Forward declaring type: ZenMemberSetterMethod
   class ZenMemberSetterMethod;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ZenMemberSetterMethod);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenMemberSetterMethod*, "Zenject", "ZenMemberSetterMethod");
 // Type namespace: Zenject

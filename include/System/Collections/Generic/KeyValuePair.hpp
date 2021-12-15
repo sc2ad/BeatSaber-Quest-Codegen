@@ -11,7 +11,7 @@ namespace System::Collections::Generic {
   // Forward declaring type: KeyValuePair
   class KeyValuePair;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Generic::KeyValuePair);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::KeyValuePair*, "System.Collections.Generic", "KeyValuePair");
 // Type namespace: System.Collections.Generic

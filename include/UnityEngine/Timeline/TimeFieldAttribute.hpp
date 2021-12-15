@@ -25,7 +25,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TimeFieldAttribute
   class TimeFieldAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimeFieldAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 // Type namespace: UnityEngine.Timeline
@@ -117,7 +117,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimeFieldAttribute), 16 + sizeof(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode)> __UnityEngine_Timeline_TimeFieldAttributeSizeCheck;
   static_assert(sizeof(TimeFieldAttribute) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode

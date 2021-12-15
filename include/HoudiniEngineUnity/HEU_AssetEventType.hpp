@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_AssetEventType
   struct HEU_AssetEventType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetEventType, "HoudiniEngineUnity", "HEU_AssetEventType");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

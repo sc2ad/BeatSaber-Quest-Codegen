@@ -13,9 +13,9 @@
 #include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
 // Including type: OVRPlugin/Vector3f
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoundaryGeometry, "", "OVRPlugin/BoundaryGeometry");
 // Type namespace: 
 namespace GlobalNamespace {

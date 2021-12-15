@@ -6,14 +6,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
   // Forward declaring type: Res
   class Res;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::Res);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Res*, "System.Xml", "Res");
 // Type namespace: System.Xml

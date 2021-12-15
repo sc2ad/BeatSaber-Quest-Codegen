@@ -24,7 +24,7 @@ namespace System::IO {
   // Forward declaring type: StringResultHandler
   class StringResultHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::StringResultHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringResultHandler");
 // Type namespace: System.IO

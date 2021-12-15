@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // Forward declaring type: DHPrivateKeyParameters
   class DHPrivateKeyParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHPrivateKeyParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters

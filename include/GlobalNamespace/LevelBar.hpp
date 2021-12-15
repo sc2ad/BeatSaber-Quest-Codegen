@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LevelBar
   class LevelBar;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelBar);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar*, "", "LevelBar");
 // Type namespace: 

@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ManualUpdateManager
   class ManualUpdateManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ManualUpdateManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManualUpdateManager*, "", "ManualUpdateManager");
 // Type namespace: 

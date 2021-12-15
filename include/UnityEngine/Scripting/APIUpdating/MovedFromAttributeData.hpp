@@ -15,7 +15,7 @@ namespace UnityEngine::Scripting::APIUpdating {
   // Forward declaring type: MovedFromAttributeData
   struct MovedFromAttributeData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData, "UnityEngine.Scripting.APIUpdating", "MovedFromAttributeData");
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {

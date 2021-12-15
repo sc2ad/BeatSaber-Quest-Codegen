@@ -33,7 +33,7 @@ namespace HMUI {
   // Forward declaring type: CurvedCanvasSettingsHelper
   class CurvedCanvasSettingsHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::CurvedCanvasSettingsHelper);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
 // Type namespace: HMUI

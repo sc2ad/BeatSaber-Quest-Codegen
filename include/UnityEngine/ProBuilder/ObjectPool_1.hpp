@@ -35,7 +35,7 @@ namespace UnityEngine::ProBuilder {
   template<typename T>
   class ObjectPool_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ObjectPool_1, "UnityEngine.ProBuilder", "ObjectPool`1");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

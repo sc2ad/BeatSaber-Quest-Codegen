@@ -24,7 +24,7 @@ namespace System::Reflection {
   // Forward declaring type: TargetException
   class TargetException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::TargetException);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::TargetException*, "System.Reflection", "TargetException");
 // Type namespace: System.Reflection

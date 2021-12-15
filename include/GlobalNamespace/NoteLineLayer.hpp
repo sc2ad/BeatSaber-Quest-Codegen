@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteLineLayer
   struct NoteLineLayer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineLayer, "", "NoteLineLayer");
 // Type namespace: 
 namespace GlobalNamespace {

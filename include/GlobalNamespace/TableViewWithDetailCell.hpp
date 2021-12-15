@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TableViewWithDetailCell
   class TableViewWithDetailCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TableViewWithDetailCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
 // Type namespace: 

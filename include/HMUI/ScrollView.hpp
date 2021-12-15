@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -63,7 +63,7 @@ namespace HMUI {
   // Forward declaring type: ScrollView
   class ScrollView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScrollView);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 // Type namespace: HMUI
@@ -547,12 +547,12 @@ namespace HMUI {
   static check_size<sizeof(ScrollView), 156 + sizeof(float)> __HMUI_ScrollViewSizeCheck;
   static_assert(sizeof(ScrollView) == 0xA0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::get_viewportTransform
 // Il2CppName: get_viewportTransform

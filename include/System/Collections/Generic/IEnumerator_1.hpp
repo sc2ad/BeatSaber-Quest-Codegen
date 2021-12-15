@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
   template<typename T>
   class IEnumerator_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEnumerator_1, "System.Collections.Generic", "IEnumerator`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

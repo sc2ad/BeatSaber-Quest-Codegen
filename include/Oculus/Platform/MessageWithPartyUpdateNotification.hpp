@@ -24,7 +24,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithPartyUpdateNotification
   class MessageWithPartyUpdateNotification;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithPartyUpdateNotification);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyUpdateNotification*, "Oculus.Platform", "MessageWithPartyUpdateNotification");
 // Type namespace: Oculus.Platform

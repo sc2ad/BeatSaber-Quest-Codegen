@@ -29,7 +29,7 @@ namespace System::Net {
   // Forward declaring type: FileWebRequestCreator
   class FileWebRequestCreator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FileWebRequestCreator);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequestCreator*, "System.Net", "FileWebRequestCreator");
 // Type namespace: System.Net

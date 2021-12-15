@@ -45,7 +45,7 @@ namespace Zenject {
   // Forward declaring type: GetFromGameObjectGetterComponentProvider
   class GetFromGameObjectGetterComponentProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::GetFromGameObjectGetterComponentProvider);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GetFromGameObjectGetterComponentProvider*, "Zenject", "GetFromGameObjectGetterComponentProvider");
 // Type namespace: Zenject

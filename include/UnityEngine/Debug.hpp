@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,7 +31,7 @@ namespace UnityEngine {
   // Forward declaring type: Debug
   class Debug;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Debug);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Debug*, "UnityEngine", "Debug");
 // Type namespace: UnityEngine

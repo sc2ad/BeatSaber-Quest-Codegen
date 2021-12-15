@@ -9,14 +9,14 @@
 #include "System/ValueType.hpp"
 // Including type: System.Net.NetworkInformation.NetworkInterfaceType
 #include "System/Net/NetworkInformation/NetworkInterfaceType.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_MIB_IFROW
   struct Win32_MIB_IFROW;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_MIB_IFROW, "System.Net.NetworkInformation", "Win32_MIB_IFROW");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {

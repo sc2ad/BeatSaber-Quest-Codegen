@@ -40,7 +40,7 @@ namespace UnityEngine::TestTools::Logging {
   // Forward declaring type: LogScope
   class LogScope;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Logging::LogScope);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.TestTools.Logging", "LogScope");
 // Type namespace: UnityEngine.TestTools.Logging

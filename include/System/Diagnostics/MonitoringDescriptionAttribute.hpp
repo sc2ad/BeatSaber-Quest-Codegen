@@ -17,7 +17,7 @@ namespace System::Diagnostics {
   // Forward declaring type: MonitoringDescriptionAttribute
   class MonitoringDescriptionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::MonitoringDescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::MonitoringDescriptionAttribute*, "System.Diagnostics", "MonitoringDescriptionAttribute");
 // Type namespace: System.Diagnostics

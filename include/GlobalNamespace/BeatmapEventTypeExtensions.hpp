@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapEventTypeExtensions
   class BeatmapEventTypeExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapEventTypeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventTypeExtensions*, "", "BeatmapEventTypeExtensions");
 // Type namespace: 

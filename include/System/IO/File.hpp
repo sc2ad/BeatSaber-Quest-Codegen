@@ -9,7 +9,7 @@
 #include "System/Nullable_1.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -48,7 +48,7 @@ namespace System::IO {
   // Forward declaring type: File
   class File;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::File);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::File*, "System.IO", "File");
 // Type namespace: System.IO

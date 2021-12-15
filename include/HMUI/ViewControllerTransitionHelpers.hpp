@@ -35,7 +35,7 @@ namespace HMUI {
   // Forward declaring type: ViewControllerTransitionHelpers
   class ViewControllerTransitionHelpers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
 // Type namespace: HMUI

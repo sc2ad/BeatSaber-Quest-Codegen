@@ -13,7 +13,7 @@ namespace LiteNetLib {
   // Forward declaring type: DisconnectReason
   struct DisconnectReason;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::DisconnectReason, "LiteNetLib", "DisconnectReason");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {

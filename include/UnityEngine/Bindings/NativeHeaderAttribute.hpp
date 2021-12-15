@@ -17,7 +17,7 @@ namespace UnityEngine::Bindings {
   // Forward declaring type: NativeHeaderAttribute
   class NativeHeaderAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Bindings::NativeHeaderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
 // Type namespace: UnityEngine.Bindings

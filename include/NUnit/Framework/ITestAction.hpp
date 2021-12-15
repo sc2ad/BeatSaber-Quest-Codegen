@@ -22,7 +22,7 @@ namespace NUnit::Framework {
   // Forward declaring type: ITestAction
   class ITestAction;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::ITestAction);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ITestAction*, "NUnit.Framework", "ITestAction");
 // Type namespace: NUnit.Framework

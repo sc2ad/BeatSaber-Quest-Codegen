@@ -27,7 +27,7 @@ namespace UnityEngine::Audio {
   // Forward declaring type: AudioMixerPlayable
   struct AudioMixerPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {

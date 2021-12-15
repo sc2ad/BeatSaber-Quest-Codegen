@@ -42,7 +42,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: PointerEventData
   class PointerEventData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::PointerEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");
 // Type namespace: UnityEngine.EventSystems
@@ -438,7 +438,7 @@ namespace UnityEngine::EventSystems {
   static check_size<sizeof(PointerEventData), 300 + sizeof(UnityEngine::EventSystems::PointerEventData::InputButton)> __UnityEngine_EventSystems_PointerEventDataSizeCheck;
   static_assert(sizeof(PointerEventData) == 0x130);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerEnter

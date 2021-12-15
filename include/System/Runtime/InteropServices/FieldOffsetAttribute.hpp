@@ -17,7 +17,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: FieldOffsetAttribute
   class FieldOffsetAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::FieldOffsetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");
 // Type namespace: System.Runtime.InteropServices

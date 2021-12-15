@@ -17,7 +17,7 @@ namespace Zenject {
   // Forward declaring type: MemoryPoolBindInfo
   class MemoryPoolBindInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::MemoryPoolBindInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 // Type namespace: Zenject

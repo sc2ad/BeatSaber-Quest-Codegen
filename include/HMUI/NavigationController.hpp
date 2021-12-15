@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,7 +44,7 @@ namespace HMUI {
   // Forward declaring type: NavigationController
   class NavigationController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::NavigationController);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController*, "HMUI", "NavigationController");
 // Type namespace: HMUI
@@ -248,10 +248,10 @@ namespace HMUI {
   static check_size<sizeof(NavigationController), 144 + sizeof(float)> __HMUI_NavigationControllerSizeCheck;
   static_assert(sizeof(NavigationController) == 0x94);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Alignment, "HMUI", "NavigationController/Alignment");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NavigationController::PushViewController
 // Il2CppName: PushViewController

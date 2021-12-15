@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerModeSelectionViewController
   class MultiplayerModeSelectionViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerModeSelectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 // Type namespace: 
@@ -236,7 +236,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerModeSelectionViewController), 168 + sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)> __GlobalNamespace_MultiplayerModeSelectionViewControllerSizeCheck;
   static_assert(sizeof(MultiplayerModeSelectionViewController) == 0xB0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent

@@ -19,7 +19,7 @@ namespace UnityEngine {
   // Forward declaring type: CapsuleCollider
   class CapsuleCollider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CapsuleCollider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CapsuleCollider*, "UnityEngine", "CapsuleCollider");
 // Type namespace: UnityEngine

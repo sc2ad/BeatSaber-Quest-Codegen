@@ -22,7 +22,7 @@ namespace System::Xml {
   // Forward declaring type: SecureStringHasher
   class SecureStringHasher;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::SecureStringHasher);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::SecureStringHasher*, "System.Xml", "SecureStringHasher");
 // Type namespace: System.Xml

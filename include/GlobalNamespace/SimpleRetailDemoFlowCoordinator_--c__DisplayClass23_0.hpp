@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   class ResultsViewController;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$$c__DisplayClass23_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$$c__DisplayClass23_0*, "", "SimpleRetailDemoFlowCoordinator/<>c__DisplayClass23_0");
 // Type namespace: 

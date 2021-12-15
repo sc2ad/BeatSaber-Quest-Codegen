@@ -13,7 +13,7 @@ namespace System {
   // Forward declaring type: DayOfWeek
   struct DayOfWeek;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DayOfWeek, "System", "DayOfWeek");
 // Type namespace: System
 namespace System {

@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_License
   struct HAPI_License;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_License, "HoudiniEngineUnity", "HAPI_License");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

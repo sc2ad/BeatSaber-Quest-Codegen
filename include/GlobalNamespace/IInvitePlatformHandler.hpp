@@ -10,7 +10,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IInvitePlatformHandler
   class IInvitePlatformHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IInvitePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IInvitePlatformHandler*, "", "IInvitePlatformHandler");
 // Type namespace: 

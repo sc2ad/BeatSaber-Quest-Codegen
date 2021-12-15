@@ -20,7 +20,7 @@ namespace Zenject {
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::IMemoryPool);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool*, "Zenject", "IMemoryPool");
 // Type namespace: Zenject

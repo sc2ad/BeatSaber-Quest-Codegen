@@ -29,7 +29,7 @@ namespace NUnit::Framework {
   // Forward declaring type: ResultStateException
   class ResultStateException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::ResultStateException);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ResultStateException*, "NUnit.Framework", "ResultStateException");
 // Type namespace: NUnit.Framework

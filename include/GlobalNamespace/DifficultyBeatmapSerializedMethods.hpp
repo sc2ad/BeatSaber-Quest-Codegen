@@ -18,7 +18,7 @@ namespace GlobalNamespace {
   // Forward declaring type: DifficultyBeatmapSerializedMethods
   class DifficultyBeatmapSerializedMethods;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DifficultyBeatmapSerializedMethods);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSerializedMethods*, "", "DifficultyBeatmapSerializedMethods");
 // Type namespace: 

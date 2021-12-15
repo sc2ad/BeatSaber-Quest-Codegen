@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: ClientContextTerminatorSink
   class ClientContextTerminatorSink;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ClientContextTerminatorSink");
 // Type namespace: System.Runtime.Remoting.Messaging

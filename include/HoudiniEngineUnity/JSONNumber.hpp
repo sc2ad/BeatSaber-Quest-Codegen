@@ -31,7 +31,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: JSONNumber
   class JSONNumber;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONNumber);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNumber*, "HoudiniEngineUnity", "JSONNumber");
 // Type namespace: HoudiniEngineUnity

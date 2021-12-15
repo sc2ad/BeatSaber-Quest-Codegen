@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EffectPoolsManualInstaller
   class EffectPoolsManualInstaller;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EffectPoolsManualInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EffectPoolsManualInstaller*, "", "EffectPoolsManualInstaller");
 // Type namespace: 

@@ -24,7 +24,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: TrueConstraint
   class TrueConstraint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::TrueConstraint);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::TrueConstraint*, "NUnit.Framework.Constraints", "TrueConstraint");
 // Type namespace: NUnit.Framework.Constraints

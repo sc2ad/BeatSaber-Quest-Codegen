@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: AnimatorUpdateMode
   struct AnimatorUpdateMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorUpdateMode, "UnityEngine", "AnimatorUpdateMode");
 // Type namespace: UnityEngine
 namespace UnityEngine {

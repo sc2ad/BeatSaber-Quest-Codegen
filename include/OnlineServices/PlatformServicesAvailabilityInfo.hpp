@@ -17,7 +17,7 @@ namespace OnlineServices {
   // Forward declaring type: PlatformServicesAvailabilityInfo
   class PlatformServicesAvailabilityInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::PlatformServicesAvailabilityInfo);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 // Type namespace: OnlineServices
@@ -118,7 +118,7 @@ namespace OnlineServices {
   static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::Il2CppString*)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
   static_assert(sizeof(PlatformServicesAvailabilityInfo) == 0x20);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformServicesAvailabilityInfo::get_everythingOK

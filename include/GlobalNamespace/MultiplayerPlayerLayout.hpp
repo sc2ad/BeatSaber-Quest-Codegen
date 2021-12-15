@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerPlayerLayout
   struct MultiplayerPlayerLayout;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerLayout, "", "MultiplayerPlayerLayout");
 // Type namespace: 
 namespace GlobalNamespace {

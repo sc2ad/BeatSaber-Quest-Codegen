@@ -23,7 +23,7 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_Task::TaskCallback);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Task::TaskCallback*, "HoudiniEngineUnity", "HEU_Task/TaskCallback");
 // Type namespace: HoudiniEngineUnity

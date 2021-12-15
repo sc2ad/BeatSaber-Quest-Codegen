@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: Polygon
   class Polygon;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::Polygon);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Polygon*, "UnityEngine.ProBuilder.Poly2Tri", "Polygon");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

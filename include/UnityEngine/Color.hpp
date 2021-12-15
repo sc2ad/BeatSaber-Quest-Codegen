@@ -25,7 +25,7 @@ namespace UnityEngine {
   // Forward declaring type: Color
   struct Color;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
 // Type namespace: UnityEngine
 namespace UnityEngine {

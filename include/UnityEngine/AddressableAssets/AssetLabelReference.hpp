@@ -17,7 +17,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: AssetLabelReference
   class AssetLabelReference;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::AssetLabelReference);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
 // Type namespace: UnityEngine.AddressableAssets

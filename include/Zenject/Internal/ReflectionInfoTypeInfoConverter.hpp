@@ -53,7 +53,7 @@ namespace Zenject::Internal {
   // Forward declaring type: ReflectionInfoTypeInfoConverter
   class ReflectionInfoTypeInfoConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::ReflectionInfoTypeInfoConverter);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter");
 // Type namespace: Zenject.Internal

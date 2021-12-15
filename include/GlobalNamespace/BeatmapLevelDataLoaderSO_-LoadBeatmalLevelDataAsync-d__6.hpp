@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$LoadBeatmalLevelDataAsync$d__6, "", "BeatmapLevelDataLoaderSO/<LoadBeatmalLevelDataAsync>d__6");
 // Type namespace: 
 namespace GlobalNamespace {

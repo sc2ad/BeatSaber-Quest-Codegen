@@ -20,7 +20,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationPlayableGraphExtensions
   class AnimationPlayableGraphExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableGraphExtensions);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
 // Type namespace: UnityEngine.Animations

@@ -33,7 +33,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: IKConstraintBend
   class IKConstraintBend;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::IKConstraintBend);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
 // Type namespace: RootMotion.FinalIK

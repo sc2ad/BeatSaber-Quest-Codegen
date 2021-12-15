@@ -8,7 +8,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NetLogLevel
 #include "LiteNetLib/NetLogLevel.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -22,7 +22,7 @@ namespace LiteNetLib {
   // Forward declaring type: NetDebug
   class NetDebug;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NetDebug);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetDebug*, "LiteNetLib", "NetDebug");
 // Type namespace: LiteNetLib

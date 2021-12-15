@@ -22,7 +22,7 @@ namespace Mono {
   // Forward declaring type: RuntimeRemoteClassHandle
   struct RuntimeRemoteClassHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeRemoteClassHandle, "Mono", "RuntimeRemoteClassHandle");
 // Type namespace: Mono
 namespace Mono {

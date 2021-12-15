@@ -24,7 +24,7 @@ namespace MasterServer {
   class IMasterServerReliableRequest;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$SendAuthenticatedRequestAsync$d__21, "MasterServer", "BaseClientMessageHandler/<SendAuthenticatedRequestAsync>d__21");
 // Type namespace: MasterServer
 namespace MasterServer {

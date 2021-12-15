@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLocalActiveClient
   class MultiplayerLocalActiveClient;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLocalActiveClient);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");
 // Type namespace: 

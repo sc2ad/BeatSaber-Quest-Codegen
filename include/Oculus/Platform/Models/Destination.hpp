@@ -17,7 +17,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: Destination
   class Destination;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::Destination);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");
 // Type namespace: Oculus.Platform.Models

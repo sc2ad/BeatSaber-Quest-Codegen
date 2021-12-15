@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: SingleConverter
   class SingleConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::SingleConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");
 // Type namespace: System.ComponentModel

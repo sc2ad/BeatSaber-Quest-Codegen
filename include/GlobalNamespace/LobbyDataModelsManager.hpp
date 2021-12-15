@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LobbyDataModelsManager
   class LobbyDataModelsManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LobbyDataModelsManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelsManager*, "", "LobbyDataModelsManager");
 // Type namespace: 

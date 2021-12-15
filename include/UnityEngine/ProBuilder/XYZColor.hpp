@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: XYZColor
   class XYZColor;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::XYZColor);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuilder", "XYZColor");
 // Type namespace: UnityEngine.ProBuilder

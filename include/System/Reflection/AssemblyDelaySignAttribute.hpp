@@ -17,7 +17,7 @@ namespace System::Reflection {
   // Forward declaring type: AssemblyDelaySignAttribute
   class AssemblyDelaySignAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::AssemblyDelaySignAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");
 // Type namespace: System.Reflection

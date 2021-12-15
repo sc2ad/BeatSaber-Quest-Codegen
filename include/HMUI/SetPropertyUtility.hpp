@@ -27,7 +27,7 @@ namespace HMUI {
   // Forward declaring type: SetPropertyUtility
   class SetPropertyUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::SetPropertyUtility);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
 // Type namespace: HMUI

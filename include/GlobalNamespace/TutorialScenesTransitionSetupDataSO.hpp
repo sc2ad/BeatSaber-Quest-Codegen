@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TutorialScenesTransitionSetupDataSO
   class TutorialScenesTransitionSetupDataSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TutorialScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");
 // Type namespace: 
@@ -168,7 +168,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TutorialScenesTransitionSetupDataSO), 64 + sizeof(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)> __GlobalNamespace_TutorialScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(TutorialScenesTransitionSetupDataSO) == 0x48);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType, "", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::add_didFinishEvent

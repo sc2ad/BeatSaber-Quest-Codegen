@@ -13,7 +13,7 @@ namespace TMPro {
   // Forward declaring type: CaretPosition
   struct CaretPosition;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretPosition, "TMPro", "CaretPosition");
 // Type namespace: TMPro
 namespace TMPro {

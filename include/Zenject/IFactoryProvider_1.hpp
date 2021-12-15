@@ -38,7 +38,7 @@ namespace Zenject {
   template<typename TContract>
   class IFactoryProvider_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IFactoryProvider_1, "Zenject", "IFactoryProvider`1");
 // Type namespace: Zenject
 namespace Zenject {

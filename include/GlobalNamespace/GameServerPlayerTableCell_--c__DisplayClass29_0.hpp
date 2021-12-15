@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class GameplayModifierInfoListItem;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass29_0");
 // Type namespace: 

@@ -12,7 +12,7 @@ namespace NetEase::Docker {
   // Forward declaring type: LogoutData
   struct LogoutData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {

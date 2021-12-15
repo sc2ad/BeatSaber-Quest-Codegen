@@ -6,14 +6,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Forward declaring type: CryptoConfig
   class CryptoConfig;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Cryptography::CryptoConfig);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoConfig*, "System.Security.Cryptography", "CryptoConfig");
 // Type namespace: System.Security.Cryptography

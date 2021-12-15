@@ -17,7 +17,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: EnumerableTestState
   class EnumerableTestState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::EnumerableTestState);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestState*, "UnityEngine.TestTools", "EnumerableTestState");
 // Type namespace: UnityEngine.TestTools

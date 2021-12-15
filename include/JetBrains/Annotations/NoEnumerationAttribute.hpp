@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: NoEnumerationAttribute
   class NoEnumerationAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::NoEnumerationAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NoEnumerationAttribute*, "JetBrains.Annotations", "NoEnumerationAttribute");
 // Type namespace: JetBrains.Annotations

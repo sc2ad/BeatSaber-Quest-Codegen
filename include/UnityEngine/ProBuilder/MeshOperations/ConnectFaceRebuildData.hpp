@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // Forward declaring type: ConnectFaceRebuildData
   class ConnectFaceRebuildData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations

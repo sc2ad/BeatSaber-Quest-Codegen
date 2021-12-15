@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: UserAndRoom
   class UserAndRoom;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::UserAndRoom);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");
 // Type namespace: Oculus.Platform.Models

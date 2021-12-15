@@ -17,7 +17,7 @@ namespace UnityEngine::TextCore {
   // Forward declaring type: GlyphMetrics
   struct GlyphMetrics;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {

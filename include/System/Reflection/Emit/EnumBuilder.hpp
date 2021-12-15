@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.TypeInfo
 #include "System/Reflection/TypeInfo.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -51,7 +51,7 @@ namespace System::Reflection::Emit {
   // Forward declaring type: EnumBuilder
   class EnumBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Emit::EnumBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::EnumBuilder*, "System.Reflection.Emit", "EnumBuilder");
 // Type namespace: System.Reflection.Emit

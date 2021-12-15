@@ -24,7 +24,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: RaycasterManager
   class RaycasterManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::RaycasterManager);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycasterManager*, "UnityEngine.EventSystems", "RaycasterManager");
 // Type namespace: UnityEngine.EventSystems

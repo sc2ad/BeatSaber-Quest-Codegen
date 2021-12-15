@@ -34,7 +34,7 @@ namespace MasterServer {
   // Forward declaring type: SessionKeepaliveMessage
   class SessionKeepaliveMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::SessionKeepaliveMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::SessionKeepaliveMessage*, "MasterServer", "SessionKeepaliveMessage");
 // Type namespace: MasterServer

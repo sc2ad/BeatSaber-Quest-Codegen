@@ -13,7 +13,7 @@ namespace System::Net::Configuration {
   // Forward declaring type: ConnectionManagementElement
   class ConnectionManagementElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Configuration::ConnectionManagementElement);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ConnectionManagementElement*, "System.Net.Configuration", "ConnectionManagementElement");
 // Type namespace: System.Net.Configuration

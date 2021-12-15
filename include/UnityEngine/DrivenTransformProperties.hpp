@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: DrivenTransformProperties
   struct DrivenTransformProperties;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");
 // Type namespace: UnityEngine
 namespace UnityEngine {

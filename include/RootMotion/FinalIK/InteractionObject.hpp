@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -40,7 +40,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: InteractionObject
   class InteractionObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::InteractionObject);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
 // Type namespace: RootMotion.FinalIK
@@ -407,9 +407,11 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(InteractionObject), 88 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget*>)> __RootMotion_FinalIK_InteractionObjectSizeCheck;
   static_assert(sizeof(InteractionObject) == 0x60);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::WeightCurve);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::get_length
 // Il2CppName: get_length

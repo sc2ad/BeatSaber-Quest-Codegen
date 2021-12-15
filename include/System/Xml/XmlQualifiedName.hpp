@@ -20,7 +20,7 @@ namespace System::Xml {
   // Forward declaring type: XmlQualifiedName
   class XmlQualifiedName;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::XmlQualifiedName);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName*, "System.Xml", "XmlQualifiedName");
 // Type namespace: System.Xml

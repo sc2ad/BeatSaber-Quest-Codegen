@@ -19,7 +19,7 @@ namespace System {
   // Forward declaring type: IPv6AddressHelper
   class IPv6AddressHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IPv6AddressHelper);
 DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
 // Type namespace: System

@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,7 +27,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: IKSolverLimb
   class IKSolverLimb;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::IKSolverLimb);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb*, "RootMotion.FinalIK", "IKSolverLimb");
 // Type namespace: RootMotion.FinalIK
@@ -347,10 +347,10 @@ namespace RootMotion::FinalIK {
   static check_size<sizeof(IKSolverLimb), 312 + sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb::AxisDirection>)> __RootMotion_FinalIK_IKSolverLimbSizeCheck;
   static_assert(sizeof(IKSolverLimb) == 0x140);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::BendModifier, "RootMotion.FinalIK", "IKSolverLimb/BendModifier");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::AxisDirection, "RootMotion.FinalIK", "IKSolverLimb/AxisDirection");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLimb::BendModifier, "RootMotion.FinalIK", "IKSolverLimb/BendModifier");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLimb::get_axisDirections
 // Il2CppName: get_axisDirections

@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LevelListTableCell
   class LevelListTableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelListTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
 // Type namespace: 

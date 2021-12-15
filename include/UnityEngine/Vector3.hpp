@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: Vector3
   struct Vector3;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3, "UnityEngine", "Vector3");
 // Type namespace: UnityEngine
 namespace UnityEngine {

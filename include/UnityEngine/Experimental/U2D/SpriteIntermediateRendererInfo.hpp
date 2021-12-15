@@ -21,7 +21,7 @@ namespace UnityEngine::Experimental::U2D {
   // Forward declaring type: SpriteIntermediateRendererInfo
   struct SpriteIntermediateRendererInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {

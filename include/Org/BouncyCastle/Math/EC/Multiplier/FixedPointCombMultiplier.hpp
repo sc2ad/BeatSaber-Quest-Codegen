@@ -29,7 +29,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Forward declaring type: FixedPointCombMultiplier
   class FixedPointCombMultiplier;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointCombMultiplier");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier

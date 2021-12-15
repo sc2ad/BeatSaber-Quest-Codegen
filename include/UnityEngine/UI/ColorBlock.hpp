@@ -19,7 +19,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: ColorBlock
   struct ColorBlock;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ColorBlock, "UnityEngine.UI", "ColorBlock");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {

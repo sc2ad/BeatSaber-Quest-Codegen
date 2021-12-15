@@ -13,7 +13,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationStatus
   struct AsyncOperationStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationStatus");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {

@@ -17,7 +17,7 @@ namespace TMPro {
   // Forward declaring type: TMP_LineInfo
   struct TMP_LineInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LineInfo, "TMPro", "TMP_LineInfo");
 // Type namespace: TMPro
 namespace TMPro {

@@ -35,7 +35,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: CookedEvent
   class CookedEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::CookedEvent);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::CookedEvent*, "HoudiniEngineUnity", "CookedEvent");
 // Type namespace: HoudiniEngineUnity

@@ -29,7 +29,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Forward declaring type: LegacyResourcesProvider
   class LegacyResourcesProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

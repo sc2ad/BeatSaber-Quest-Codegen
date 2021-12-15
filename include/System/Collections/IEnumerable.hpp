@@ -17,7 +17,7 @@ namespace System::Collections {
   // Forward declaring type: IEnumerable
   class IEnumerable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::IEnumerable);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerable*, "System.Collections", "IEnumerable");
 // Type namespace: System.Collections

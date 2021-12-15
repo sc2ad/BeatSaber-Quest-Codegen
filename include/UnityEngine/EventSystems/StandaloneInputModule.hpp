@@ -28,7 +28,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: StandaloneInputModule
   class StandaloneInputModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::StandaloneInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");
 // Type namespace: UnityEngine.EventSystems

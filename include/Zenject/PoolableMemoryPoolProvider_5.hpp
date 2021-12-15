@@ -48,7 +48,7 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
   class PoolableMemoryPoolProvider_5;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableMemoryPoolProvider_5, "Zenject", "PoolableMemoryPoolProvider`5");
 // Type namespace: Zenject
 namespace Zenject {

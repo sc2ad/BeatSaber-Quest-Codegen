@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerCenterTextAnimator
   class MultiplayerCenterTextAnimator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerCenterTextAnimator);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator*, "", "MultiplayerCenterTextAnimator");
 // Type namespace: 

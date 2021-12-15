@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EventBinder
   class EventBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EventBinder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder*, "", "EventBinder");
 // Type namespace: 

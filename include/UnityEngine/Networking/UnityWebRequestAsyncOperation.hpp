@@ -24,7 +24,7 @@ namespace UnityEngine::Networking {
   // Forward declaring type: UnityWebRequestAsyncOperation
   class UnityWebRequestAsyncOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 // Type namespace: UnityEngine.Networking

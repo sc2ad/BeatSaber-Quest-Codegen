@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Security {
   // Forward declaring type: SecurityUtilityException
   class SecurityUtilityException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Security::SecurityUtilityException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecurityUtilityException*, "Org.BouncyCastle.Security", "SecurityUtilityException");
 // Type namespace: Org.BouncyCastle.Security

@@ -14,7 +14,7 @@ namespace Mono::Net {
   // Forward declaring type: CFStreamClientContext
   struct CFStreamClientContext;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFStreamClientContext, "Mono.Net", "CFStreamClientContext");
 // Type namespace: Mono.Net
 namespace Mono::Net {

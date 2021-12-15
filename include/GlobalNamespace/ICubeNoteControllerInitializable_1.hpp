@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   template<typename T>
   class ICubeNoteControllerInitializable_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ICubeNoteControllerInitializable_1, "", "ICubeNoteControllerInitializable`1");
 // Type namespace: 
 namespace GlobalNamespace {

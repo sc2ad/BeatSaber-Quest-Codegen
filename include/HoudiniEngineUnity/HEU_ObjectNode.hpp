@@ -62,7 +62,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_ObjectNode
   class HEU_ObjectNode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_ObjectNode);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ObjectNode*, "HoudiniEngineUnity", "HEU_ObjectNode");
 // Type namespace: HoudiniEngineUnity

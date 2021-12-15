@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::OpenSsl {
   // Forward declaring type: PemException
   class PemException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::OpenSsl::PemException);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemException*, "Org.BouncyCastle.OpenSsl", "PemException");
 // Type namespace: Org.BouncyCastle.OpenSsl

@@ -18,7 +18,7 @@ namespace UnityEngine {
   // Forward declaring type: AudioSettings
   class AudioSettings;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AudioSettings);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
 // Type namespace: UnityEngine

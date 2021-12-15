@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TextFadeTransitions
   class TextFadeTransitions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TextFadeTransitions);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions*, "", "TextFadeTransitions");
 // Type namespace: 
@@ -186,7 +186,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(TextFadeTransitions), 56 + sizeof(float)> __GlobalNamespace_TextFadeTransitionsSizeCheck;
   static_assert(sizeof(TextFadeTransitions) == 0x3C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextFadeTransitions::State, "", "TextFadeTransitions/State");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::Awake

@@ -12,7 +12,7 @@
 // Including type: Valve.VR.IVRRenderModels
 #include "Valve/VR/IVRRenderModels.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::GetComponentStateUnion, "Valve.VR", "CVRRenderModels/GetComponentStateUnion");
 // Type namespace: Valve.VR
 namespace Valve::VR {

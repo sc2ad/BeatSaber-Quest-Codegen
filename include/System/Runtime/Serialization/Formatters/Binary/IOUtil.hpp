@@ -25,7 +25,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // Forward declaring type: IOUtil
   class IOUtil;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::IOUtil);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary

@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting::Contexts {
   // Forward declaring type: IDynamicMessageSink
   class IDynamicMessageSink;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Contexts::IDynamicMessageSink);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink*, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
 // Type namespace: System.Runtime.Remoting.Contexts

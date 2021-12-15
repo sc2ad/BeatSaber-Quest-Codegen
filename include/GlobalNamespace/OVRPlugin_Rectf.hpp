@@ -14,7 +14,7 @@
 // Including type: OVRPlugin/Sizef
 #include "GlobalNamespace/OVRPlugin_Sizef.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Rectf, "", "OVRPlugin/Rectf");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -27,7 +27,7 @@ namespace MasterServer {
   // Forward declaring type: HandshakeMessageReceivedAcknowledge
   class HandshakeMessageReceivedAcknowledge;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::HandshakeMessageReceivedAcknowledge);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HandshakeMessageReceivedAcknowledge*, "MasterServer", "HandshakeMessageReceivedAcknowledge");
 // Type namespace: MasterServer

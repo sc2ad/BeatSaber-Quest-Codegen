@@ -19,7 +19,7 @@ namespace System::ComponentModel {
   // Forward declaring type: IContainer
   class IContainer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::IContainer);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IContainer*, "System.ComponentModel", "IContainer");
 // Type namespace: System.ComponentModel

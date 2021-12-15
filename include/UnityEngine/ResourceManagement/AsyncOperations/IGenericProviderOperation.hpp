@@ -60,7 +60,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: IGenericProviderOperation
   class IGenericProviderOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IGenericProviderOperation");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations

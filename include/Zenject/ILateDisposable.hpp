@@ -10,7 +10,7 @@ namespace Zenject {
   // Forward declaring type: ILateDisposable
   class ILateDisposable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ILateDisposable);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateDisposable*, "Zenject", "ILateDisposable");
 // Type namespace: Zenject

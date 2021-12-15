@@ -14,7 +14,7 @@
 // Including type: UnityEngine.Vector4
 #include "UnityEngine/Vector4.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TextureRectMatrixf, "", "OVRPlugin/TextureRectMatrixf");
 // Type namespace: 
 namespace GlobalNamespace {

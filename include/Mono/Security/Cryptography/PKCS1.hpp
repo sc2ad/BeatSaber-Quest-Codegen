@@ -5,7 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -19,7 +19,7 @@ namespace Mono::Security::Cryptography {
   // Forward declaring type: PKCS1
   class PKCS1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::PKCS1);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");
 // Type namespace: Mono.Security.Cryptography

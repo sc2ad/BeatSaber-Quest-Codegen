@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: JSONNodeType
   struct JSONNodeType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNodeType, "HoudiniEngineUnity", "JSONNodeType");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

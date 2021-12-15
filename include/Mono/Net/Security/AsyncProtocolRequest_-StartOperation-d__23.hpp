@@ -25,7 +25,7 @@ namespace Mono::Net::Security {
   class AsyncProtocolResult;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$StartOperation$d__23, "Mono.Net.Security", "AsyncProtocolRequest/<StartOperation>d__23");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {

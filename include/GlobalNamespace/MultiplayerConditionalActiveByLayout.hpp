@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerConditionalActiveByLayout
   class MultiplayerConditionalActiveByLayout;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerConditionalActiveByLayout);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout*, "", "MultiplayerConditionalActiveByLayout");
 // Type namespace: 
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(MultiplayerConditionalActiveByLayout), 32 + sizeof(GlobalNamespace::MultiplayerLayoutProvider*)> __GlobalNamespace_MultiplayerConditionalActiveByLayoutSizeCheck;
   static_assert(sizeof(MultiplayerConditionalActiveByLayout) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition, "", "MultiplayerConditionalActiveByLayout/Condition");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConditionalActiveByLayout::Start

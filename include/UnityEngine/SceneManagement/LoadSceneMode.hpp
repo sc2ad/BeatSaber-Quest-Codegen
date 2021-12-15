@@ -13,7 +13,7 @@ namespace UnityEngine::SceneManagement {
   // Forward declaring type: LoadSceneMode
   struct LoadSceneMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneMode, "UnityEngine.SceneManagement", "LoadSceneMode");
 // Type namespace: UnityEngine.SceneManagement
 namespace UnityEngine::SceneManagement {

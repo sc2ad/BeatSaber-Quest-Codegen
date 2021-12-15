@@ -10,7 +10,7 @@ namespace Org::BouncyCastle::Crypto {
   // Forward declaring type: IDerivationParameters
   class IDerivationParameters;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::IDerivationParameters);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDerivationParameters*, "Org.BouncyCastle.Crypto", "IDerivationParameters");
 // Type namespace: Org.BouncyCastle.Crypto

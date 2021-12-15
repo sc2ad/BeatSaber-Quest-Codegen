@@ -26,7 +26,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: LookAtIK
   class LookAtIK;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::LookAtIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");
 // Type namespace: RootMotion.FinalIK

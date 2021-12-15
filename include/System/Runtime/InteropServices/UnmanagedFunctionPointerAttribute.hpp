@@ -21,7 +21,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: UnmanagedFunctionPointerAttribute
   class UnmanagedFunctionPointerAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
 // Type namespace: System.Runtime.InteropServices

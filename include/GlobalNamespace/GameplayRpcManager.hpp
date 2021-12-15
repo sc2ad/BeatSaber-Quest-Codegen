@@ -56,7 +56,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayRpcManager
   class GameplayRpcManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayRpcManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");
 // Type namespace: 
@@ -492,7 +492,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(GameplayRpcManager), 120 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_GameplayRpcManagerSizeCheck;
   static_assert(sizeof(GameplayRpcManager) == 0x80);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::RpcType, "", "GameplayRpcManager/RpcType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::get_enabled

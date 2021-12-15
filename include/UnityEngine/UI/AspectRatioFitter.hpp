@@ -36,7 +36,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: AspectRatioFitter
   class AspectRatioFitter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::AspectRatioFitter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "AspectRatioFitter");
 // Type namespace: UnityEngine.UI
@@ -236,7 +236,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.AspectRatioFitter
   // WARNING Not writing size check since size may be invalid!
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter::AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_aspectMode

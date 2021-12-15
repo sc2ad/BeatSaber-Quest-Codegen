@@ -12,7 +12,7 @@ namespace TMPro {
   // Forward declaring type: TMP_SpriteInfo
   struct TMP_SpriteInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteInfo, "TMPro", "TMP_SpriteInfo");
 // Type namespace: TMPro
 namespace TMPro {

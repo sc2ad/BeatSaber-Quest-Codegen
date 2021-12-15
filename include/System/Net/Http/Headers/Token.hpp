@@ -21,7 +21,7 @@ namespace System::Net::Http::Headers {
   // Forward declaring type: Token
   struct Token;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
@@ -191,7 +191,7 @@ namespace System::Net::Http::Headers {
   static check_size<sizeof(Token), 8 + sizeof(int)> __System_Net_Http_Headers_TokenSizeCheck;
   static_assert(sizeof(Token) == 0xC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token::Type, "System.Net.Http.Headers", "Token/Type");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::Token::get_StartPosition

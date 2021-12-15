@@ -27,7 +27,7 @@ namespace ModestTree {
   // Forward declaring type: TypeStringFormatter
   class TypeStringFormatter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::TypeStringFormatter);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 // Type namespace: ModestTree

@@ -8,7 +8,7 @@
 // Including type: OVRMeshRenderer
 #include "GlobalNamespace/OVRMeshRenderer.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
 // Type namespace: 

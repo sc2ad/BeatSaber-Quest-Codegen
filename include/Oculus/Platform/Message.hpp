@@ -188,7 +188,7 @@ namespace Oculus::Platform {
   // Forward declaring type: Message
   class Message;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Message);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 // Type namespace: Oculus.Platform
@@ -1651,7 +1651,7 @@ namespace Oculus::Platform {
   static check_size<sizeof(Message), 32 + sizeof(Oculus::Platform::Models::Error*)> __Oculus_Platform_MessageSizeCheck;
   static_assert(sizeof(Message) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Message::get_Type

@@ -19,7 +19,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TrackColorAttribute
   class TrackColorAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TrackColorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackColorAttribute*, "UnityEngine.Timeline", "TrackColorAttribute");
 // Type namespace: UnityEngine.Timeline

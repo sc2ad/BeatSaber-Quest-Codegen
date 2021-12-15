@@ -15,7 +15,7 @@ namespace UnityEngine {
   template<typename T>
   struct CastHelper_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::CastHelper_1, "UnityEngine", "CastHelper`1");
 // Type namespace: UnityEngine
 namespace UnityEngine {

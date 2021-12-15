@@ -13,7 +13,7 @@ namespace System::Net {
   // Forward declaring type: HttpStatusCode
   struct HttpStatusCode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");
 // Type namespace: System.Net
 namespace System::Net {

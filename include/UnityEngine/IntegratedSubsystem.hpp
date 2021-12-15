@@ -26,7 +26,7 @@ namespace UnityEngine {
   // Forward declaring type: IntegratedSubsystem
   class IntegratedSubsystem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 // Type namespace: UnityEngine

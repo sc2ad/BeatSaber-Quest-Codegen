@@ -22,7 +22,7 @@ namespace System {
   // Forward declaring type: UriBuilder
   class UriBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::UriBuilder);
 DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");
 // Type namespace: System

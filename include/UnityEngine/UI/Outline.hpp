@@ -24,7 +24,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Outline
   class Outline;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Outline);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Outline*, "UnityEngine.UI", "Outline");
 // Type namespace: UnityEngine.UI

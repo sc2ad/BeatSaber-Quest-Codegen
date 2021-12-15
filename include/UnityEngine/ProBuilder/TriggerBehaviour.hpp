@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: TriggerBehaviour
   class TriggerBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::TriggerBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TriggerBehaviour*, "UnityEngine.ProBuilder", "TriggerBehaviour");
 // Type namespace: UnityEngine.ProBuilder

@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PS4PublisherSKUSettingsSO
   class PS4PublisherSKUSettingsSO;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4PublisherSKUSettingsSO);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4PublisherSKUSettingsSO*, "", "PS4PublisherSKUSettingsSO");
 // Type namespace: 

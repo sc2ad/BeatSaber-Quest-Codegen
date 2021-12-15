@@ -32,7 +32,7 @@ namespace UnityEngine::Animations {
   // Forward declaring type: AnimationLayerMixerPlayable
   struct AnimationLayerMixerPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {

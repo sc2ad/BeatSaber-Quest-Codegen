@@ -42,7 +42,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: PolyShape
   class PolyShape;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::PolyShape);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 // Type namespace: UnityEngine.ProBuilder
@@ -229,7 +229,7 @@ namespace UnityEngine::ProBuilder {
   static check_size<sizeof(PolyShape), 49 + sizeof(bool)> __UnityEngine_ProBuilder_PolyShapeSizeCheck;
   static_assert(sizeof(PolyShape) == 0x32);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_controlPoints

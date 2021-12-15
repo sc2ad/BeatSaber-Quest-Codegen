@@ -13,7 +13,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadPriority
   struct ThreadPriority;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPriority, "System.Threading", "ThreadPriority");
 // Type namespace: System.Threading
 namespace System::Threading {

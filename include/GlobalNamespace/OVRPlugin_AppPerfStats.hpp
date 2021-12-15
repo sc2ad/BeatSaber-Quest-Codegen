@@ -13,9 +13,9 @@
 #include "GlobalNamespace/OVRPlugin_AppPerfFrameStats.hpp"
 // Including type: OVRPlugin/Bool
 #include "GlobalNamespace/OVRPlugin_Bool.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::AppPerfStats, "", "OVRPlugin/AppPerfStats");
 // Type namespace: 
 namespace GlobalNamespace {

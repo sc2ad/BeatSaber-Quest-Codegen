@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: AddDuplicateBehavior
   struct AddDuplicateBehavior;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior, "UnityEngine.ProBuilder.KdTree", "AddDuplicateBehavior");
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {

@@ -12,7 +12,7 @@ namespace Valve::VR {
   // Forward declaring type: VREvent_MessageOverlay_t
   struct VREvent_MessageOverlay_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::VREvent_MessageOverlay_t, "Valve.VR", "VREvent_MessageOverlay_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

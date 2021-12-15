@@ -33,7 +33,7 @@ namespace UnityEngine::Audio {
   // Forward declaring type: AudioPlayableOutput
   struct AudioPlayableOutput;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {

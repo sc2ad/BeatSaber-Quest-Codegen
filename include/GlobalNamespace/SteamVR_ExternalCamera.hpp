@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SteamVR_ExternalCamera
   class SteamVR_ExternalCamera;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_ExternalCamera);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 // Type namespace: 
@@ -384,7 +384,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SteamVR_ExternalCamera), 184 + sizeof(float)> __GlobalNamespace_SteamVR_ExternalCameraSizeCheck;
   static_assert(sizeof(SteamVR_ExternalCamera) == 0xBC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::ReadConfig

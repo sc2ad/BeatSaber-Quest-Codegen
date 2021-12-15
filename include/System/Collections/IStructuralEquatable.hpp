@@ -20,7 +20,7 @@ namespace System::Collections {
   // Forward declaring type: IStructuralEquatable
   class IStructuralEquatable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::IStructuralEquatable);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralEquatable*, "System.Collections", "IStructuralEquatable");
 // Type namespace: System.Collections

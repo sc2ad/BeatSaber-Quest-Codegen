@@ -33,7 +33,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: CollectionTally
   class CollectionTally;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::CollectionTally);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");
 // Type namespace: NUnit.Framework.Constraints

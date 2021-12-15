@@ -24,7 +24,7 @@ namespace System::Resources {
   // Forward declaring type: MissingManifestResourceException
   class MissingManifestResourceException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Resources::MissingManifestResourceException);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::MissingManifestResourceException*, "System.Resources", "MissingManifestResourceException");
 // Type namespace: System.Resources

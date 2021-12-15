@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MainEffectCore
   class MainEffectCore;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MainEffectCore);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
 // Type namespace: 

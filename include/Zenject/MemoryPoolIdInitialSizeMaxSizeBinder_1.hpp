@@ -31,7 +31,7 @@ namespace Zenject {
   template<typename TContract>
   class MemoryPoolIdInitialSizeMaxSizeBinder_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1, "Zenject", "MemoryPoolIdInitialSizeMaxSizeBinder`1");
 // Type namespace: Zenject
 namespace Zenject {

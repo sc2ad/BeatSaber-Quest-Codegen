@@ -25,7 +25,7 @@ namespace UnityEngine::EventSystems {
   class IEventSystemHandler;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::ExecuteEvents::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents::$$c*, "UnityEngine.EventSystems", "ExecuteEvents/<>c");
 // Type namespace: UnityEngine.EventSystems

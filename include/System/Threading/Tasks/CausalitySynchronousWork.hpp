@@ -13,7 +13,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: CausalitySynchronousWork
   struct CausalitySynchronousWork;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CausalitySynchronousWork, "System.Threading.Tasks", "CausalitySynchronousWork");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {

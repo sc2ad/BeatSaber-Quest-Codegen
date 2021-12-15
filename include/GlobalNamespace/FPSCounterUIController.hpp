@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: FPSCounterUIController
   class FPSCounterUIController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::FPSCounterUIController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
 // Type namespace: 

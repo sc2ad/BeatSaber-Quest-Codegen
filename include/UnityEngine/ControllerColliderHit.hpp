@@ -22,7 +22,7 @@ namespace UnityEngine {
   // Forward declaring type: ControllerColliderHit
   class ControllerColliderHit;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ControllerColliderHit);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
 // Type namespace: UnityEngine

@@ -18,7 +18,7 @@ namespace GlobalNamespace {
   template<typename T>
   class ISyncStateSerializable_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISyncStateSerializable_1, "", "ISyncStateSerializable`1");
 // Type namespace: 
 namespace GlobalNamespace {

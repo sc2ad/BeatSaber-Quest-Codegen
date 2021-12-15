@@ -10,7 +10,7 @@ namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: ILogicalThreadAffinative
   class ILogicalThreadAffinative;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::ILogicalThreadAffinative);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ILogicalThreadAffinative*, "System.Runtime.Remoting.Messaging", "ILogicalThreadAffinative");
 // Type namespace: System.Runtime.Remoting.Messaging

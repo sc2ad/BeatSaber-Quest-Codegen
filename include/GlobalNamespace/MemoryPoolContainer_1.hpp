@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   template<typename T>
   class MemoryPoolContainer_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::MemoryPoolContainer_1, "", "MemoryPoolContainer`1");
 // Type namespace: 
 namespace GlobalNamespace {

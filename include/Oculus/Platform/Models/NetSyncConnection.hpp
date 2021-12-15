@@ -21,7 +21,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: NetSyncConnection
   class NetSyncConnection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::NetSyncConnection);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");
 // Type namespace: Oculus.Platform.Models

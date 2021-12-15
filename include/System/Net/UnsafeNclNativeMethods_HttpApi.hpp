@@ -7,14 +7,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.UnsafeNclNativeMethods
 #include "System/Net/UnsafeNclNativeMethods.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
 namespace System::Net {
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::UnsafeNclNativeMethods::HttpApi);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi*, "System.Net", "UnsafeNclNativeMethods/HttpApi");
 // Type namespace: System.Net

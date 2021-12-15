@@ -35,7 +35,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -67,7 +67,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: ScrollRect
   class ScrollRect;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::ScrollRect);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 // Type namespace: UnityEngine.UI
@@ -832,10 +832,10 @@ namespace UnityEngine::UI {
   static check_size<sizeof(ScrollRect), 288 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_ScrollRectSizeCheck;
   static_assert(sizeof(ScrollRect) == 0x128);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_content
 // Il2CppName: get_content

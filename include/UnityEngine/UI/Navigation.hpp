@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Navigation
   struct Navigation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
@@ -194,7 +194,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Navigation), 32 + sizeof(UnityEngine::UI::Selectable*)> __UnityEngine_UI_NavigationSizeCheck;
   static_assert(sizeof(Navigation) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation::Mode, "UnityEngine.UI", "Navigation/Mode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_mode

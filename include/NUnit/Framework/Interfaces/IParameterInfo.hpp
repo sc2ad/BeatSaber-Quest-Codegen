@@ -19,7 +19,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: IParameterInfo
   class IParameterInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::IParameterInfo);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterInfo*, "NUnit.Framework.Interfaces", "IParameterInfo");
 // Type namespace: NUnit.Framework.Interfaces

@@ -15,7 +15,7 @@ namespace System {
   // Forward declaring type: DTSubString
   struct DTSubString;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
 // Type namespace: System
 namespace System {

@@ -52,7 +52,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: ServerIdentity
   class ServerIdentity;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::ServerIdentity);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runtime.Remoting", "ServerIdentity");
 // Type namespace: System.Runtime.Remoting

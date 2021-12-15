@@ -11,7 +11,7 @@ namespace System::Threading {
   // Forward declaring type: _ThreadPoolWaitCallback
   class _ThreadPoolWaitCallback;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::_ThreadPoolWaitCallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
 // Type namespace: System.Threading

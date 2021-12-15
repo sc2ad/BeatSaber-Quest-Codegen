@@ -29,7 +29,7 @@ namespace VRUIControls {
   // Forward declaring type: PhysicsRaycasterWithCache
   class PhysicsRaycasterWithCache;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::PhysicsRaycasterWithCache);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 // Type namespace: VRUIControls
@@ -150,7 +150,7 @@ namespace VRUIControls {
   static check_size<sizeof(PhysicsRaycasterWithCache), 24 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCacheSizeCheck;
   static_assert(sizeof(PhysicsRaycasterWithCache) == 0x1C);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::Raycast

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectData
   class BeatmapObjectData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapObjectData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectData*, "", "BeatmapObjectData");
 // Type namespace: 

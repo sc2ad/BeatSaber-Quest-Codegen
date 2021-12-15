@@ -23,7 +23,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // Forward declaring type: NativeArrayUnsafeUtility
   class NativeArrayUnsafeUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility);
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");
 // Type namespace: Unity.Collections.LowLevel.Unsafe

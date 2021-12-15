@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BTSCharacterResultAnimationController
   class BTSCharacterResultAnimationController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSCharacterResultAnimationController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController*, "", "BTSCharacterResultAnimationController");
 // Type namespace: 

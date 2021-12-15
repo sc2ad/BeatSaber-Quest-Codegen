@@ -31,7 +31,7 @@ namespace Tweening {
   template<typename T>
   class Tween_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Tweening::Tween_1, "Tweening", "Tween`1");
 // Type namespace: Tweening
 namespace Tweening {

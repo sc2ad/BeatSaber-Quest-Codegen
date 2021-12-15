@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerLocalPlayerDisconnectHelper
   class MultiplayerLocalPlayerDisconnectHelper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");
 // Type namespace: 

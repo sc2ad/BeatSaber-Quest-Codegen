@@ -24,7 +24,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadAbortException
   class ThreadAbortException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::ThreadAbortException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadAbortException*, "System.Threading", "ThreadAbortException");
 // Type namespace: System.Threading

@@ -44,7 +44,7 @@ namespace System::Text::RegularExpressions {
   // Forward declaring type: RegexReplacement
   class RegexReplacement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::RegularExpressions::RegexReplacement);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
 // Type namespace: System.Text.RegularExpressions

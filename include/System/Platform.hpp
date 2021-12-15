@@ -18,7 +18,7 @@ namespace System {
   // Forward declaring type: Platform
   class Platform;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Platform);
 DEFINE_IL2CPP_ARG_TYPE(System::Platform*, "System", "Platform");
 // Type namespace: System

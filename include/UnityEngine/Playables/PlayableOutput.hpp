@@ -22,7 +22,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: PlayableOutput
   struct PlayableOutput;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {

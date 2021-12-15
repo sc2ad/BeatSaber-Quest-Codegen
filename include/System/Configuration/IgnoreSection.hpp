@@ -32,7 +32,7 @@ namespace System::Configuration {
   // Forward declaring type: IgnoreSection
   class IgnoreSection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Configuration::IgnoreSection);
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IgnoreSection*, "System.Configuration", "IgnoreSection");
 // Type namespace: System.Configuration

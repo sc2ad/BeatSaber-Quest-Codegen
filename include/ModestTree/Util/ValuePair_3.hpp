@@ -16,7 +16,7 @@ namespace ModestTree::Util {
   template<typename T1, typename T2, typename T3>
   class ValuePair_3;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(ModestTree::Util::ValuePair_3, "ModestTree.Util", "ValuePair`3");
 // Type namespace: ModestTree.Util
 namespace ModestTree::Util {

@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: OVRSceneSampleController
   class OVRSceneSampleController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSceneSampleController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");
 // Type namespace: 

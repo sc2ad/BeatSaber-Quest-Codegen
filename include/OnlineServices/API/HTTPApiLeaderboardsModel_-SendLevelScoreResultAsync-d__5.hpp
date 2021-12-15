@@ -27,7 +27,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   class LevelScoreResult;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel::$SendLevelScoreResultAsync$d__5, "OnlineServices.API", "HTTPApiLeaderboardsModel/<SendLevelScoreResultAsync>d__5");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {

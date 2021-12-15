@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: TerminatesProgramAttribute
   class TerminatesProgramAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::TerminatesProgramAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::TerminatesProgramAttribute*, "JetBrains.Annotations", "TerminatesProgramAttribute");
 // Type namespace: JetBrains.Annotations

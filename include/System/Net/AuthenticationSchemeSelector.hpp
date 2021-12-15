@@ -33,7 +33,7 @@ namespace System::Net {
   // Forward declaring type: AuthenticationSchemeSelector
   class AuthenticationSchemeSelector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::AuthenticationSchemeSelector);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemeSelector*, "System.Net", "AuthenticationSchemeSelector");
 // Type namespace: System.Net

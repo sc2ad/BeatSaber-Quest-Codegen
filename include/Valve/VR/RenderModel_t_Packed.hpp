@@ -21,7 +21,7 @@ namespace Valve::VR {
   // Forward declaring type: RenderModel_t_Packed
   struct RenderModel_t_Packed;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel_t_Packed");
 // Type namespace: Valve.VR
 namespace Valve::VR {

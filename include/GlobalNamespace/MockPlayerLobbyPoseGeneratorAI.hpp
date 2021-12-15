@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MockPlayerLobbyPoseGeneratorAI
   class MockPlayerLobbyPoseGeneratorAI;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*, "", "MockPlayerLobbyPoseGeneratorAI");
 // Type namespace: 

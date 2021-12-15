@@ -24,7 +24,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: NodeList
   class NodeList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::NodeList);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::NodeList*, "NUnit.Framework.Interfaces", "NodeList");
 // Type namespace: NUnit.Framework.Interfaces

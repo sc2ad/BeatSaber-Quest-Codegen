@@ -28,7 +28,7 @@ namespace System::Runtime::Serialization {
   // Forward declaring type: SerializationException
   class SerializationException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::SerializationException);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationException*, "System.Runtime.Serialization", "SerializationException");
 // Type namespace: System.Runtime.Serialization

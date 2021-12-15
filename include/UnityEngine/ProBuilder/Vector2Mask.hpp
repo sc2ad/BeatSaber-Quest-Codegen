@@ -24,7 +24,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: Vector2Mask
   struct Vector2Mask;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

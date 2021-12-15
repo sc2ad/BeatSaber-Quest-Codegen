@@ -19,7 +19,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ResultState
   class ResultState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ResultState);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ResultState*, "NUnit.Framework.Interfaces", "ResultState");
 // Type namespace: NUnit.Framework.Interfaces

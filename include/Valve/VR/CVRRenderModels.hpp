@@ -37,7 +37,7 @@ namespace Valve::VR {
   // Forward declaring type: CVRRenderModels
   class CVRRenderModels;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::CVRRenderModels);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");
 // Type namespace: Valve.VR

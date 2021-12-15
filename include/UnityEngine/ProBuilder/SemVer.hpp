@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: SemVer
   class SemVer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SemVer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SemVer*, "UnityEngine.ProBuilder", "SemVer");
 // Type namespace: UnityEngine.ProBuilder

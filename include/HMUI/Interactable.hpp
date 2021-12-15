@@ -17,7 +17,7 @@ namespace HMUI {
   // Forward declaring type: Interactable
   class Interactable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::Interactable);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Interactable*, "HMUI", "Interactable");
 // Type namespace: HMUI

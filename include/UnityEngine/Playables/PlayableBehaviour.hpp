@@ -28,7 +28,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: PlayableBehaviour
   class PlayableBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Playables::PlayableBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.Playables", "PlayableBehaviour");
 // Type namespace: UnityEngine.Playables

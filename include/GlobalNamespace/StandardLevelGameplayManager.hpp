@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // Forward declaring type: StandardLevelGameplayManager
   class StandardLevelGameplayManager;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandardLevelGameplayManager);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager*, "", "StandardLevelGameplayManager");
 // Type namespace: 
@@ -266,7 +266,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(StandardLevelGameplayManager), 80 + sizeof(GlobalNamespace::StandardLevelGameplayManager::GameState)> __GlobalNamespace_StandardLevelGameplayManagerSizeCheck;
   static_assert(sizeof(StandardLevelGameplayManager) == 0x54);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::GameState, "", "StandardLevelGameplayManager/GameState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelGameplayManager::add_levelFailedEvent

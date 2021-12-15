@@ -13,7 +13,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HAPI_ImagePacking
   struct HAPI_ImagePacking;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_ImagePacking, "HoudiniEngineUnity", "HAPI_ImagePacking");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {

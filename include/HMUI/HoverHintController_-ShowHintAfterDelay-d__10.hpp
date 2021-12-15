@@ -21,7 +21,7 @@ namespace HMUI {
   class HoverHint;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::HoverHintController::$ShowHintAfterDelay$d__10);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$ShowHintAfterDelay$d__10*, "HMUI", "HoverHintController/<ShowHintAfterDelay>d__10");
 // Type namespace: HMUI

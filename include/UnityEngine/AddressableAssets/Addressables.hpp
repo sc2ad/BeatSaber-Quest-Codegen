@@ -16,7 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -105,7 +105,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: Addressables
   class Addressables;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Addressables);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables*, "UnityEngine.AddressableAssets", "Addressables");
 // Type namespace: UnityEngine.AddressableAssets
@@ -610,7 +610,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.Addressables
   #pragma pack(pop)
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables::MergeMode, "UnityEngine.AddressableAssets", "Addressables/MergeMode");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::get_m_Addressables

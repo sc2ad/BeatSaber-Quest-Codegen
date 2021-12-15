@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: DoubleConverter
   class DoubleConverter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::DoubleConverter);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DoubleConverter*, "System.ComponentModel", "DoubleConverter");
 // Type namespace: System.ComponentModel

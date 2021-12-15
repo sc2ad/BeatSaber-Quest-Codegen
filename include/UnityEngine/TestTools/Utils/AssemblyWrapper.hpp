@@ -26,7 +26,7 @@ namespace UnityEngine::TestTools::Utils {
   // Forward declaring type: AssemblyWrapper
   class AssemblyWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::AssemblyWrapper);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyWrapper*, "UnityEngine.TestTools.Utils", "AssemblyWrapper");
 // Type namespace: UnityEngine.TestTools.Utils

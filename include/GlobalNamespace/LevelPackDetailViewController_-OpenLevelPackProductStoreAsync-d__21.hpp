@@ -18,7 +18,7 @@
 // Including type: AdditionalContentModel/OpenProductStoreResult
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__21, "", "LevelPackDetailViewController/<OpenLevelPackProductStoreAsync>d__21");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Math::EC {
   // Forward declaring type: AbstractFpFieldElement
   class AbstractFpFieldElement;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractFpFieldElement);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpFieldElement*, "Org.BouncyCastle.Math.EC", "AbstractFpFieldElement");
 // Type namespace: Org.BouncyCastle.Math.EC

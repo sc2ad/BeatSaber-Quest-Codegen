@@ -17,7 +17,7 @@ namespace JetBrains::Annotations {
   // Forward declaring type: HtmlElementAttributesAttribute
   class HtmlElementAttributesAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(JetBrains::Annotations::HtmlElementAttributesAttribute);
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::HtmlElementAttributesAttribute*, "JetBrains.Annotations", "HtmlElementAttributesAttribute");
 // Type namespace: JetBrains.Annotations

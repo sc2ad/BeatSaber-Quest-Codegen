@@ -22,7 +22,7 @@ namespace Mono {
   // Forward declaring type: RuntimeGPtrArrayHandle
   struct RuntimeGPtrArrayHandle;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
 // Type namespace: Mono
 namespace Mono {

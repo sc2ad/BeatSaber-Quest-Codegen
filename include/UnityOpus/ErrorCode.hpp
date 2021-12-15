@@ -13,7 +13,7 @@ namespace UnityOpus {
   // Forward declaring type: ErrorCode
   struct ErrorCode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityOpus::ErrorCode, "UnityOpus", "ErrorCode");
 // Type namespace: UnityOpus
 namespace UnityOpus {

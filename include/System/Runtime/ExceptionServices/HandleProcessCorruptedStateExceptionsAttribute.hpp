@@ -17,7 +17,7 @@ namespace System::Runtime::ExceptionServices {
   // Forward declaring type: HandleProcessCorruptedStateExceptionsAttribute
   class HandleProcessCorruptedStateExceptionsAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
 // Type namespace: System.Runtime.ExceptionServices

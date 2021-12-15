@@ -43,7 +43,7 @@ namespace UnityEngine {
   // Forward declaring type: SystemInfo
   class SystemInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::SystemInfo);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
 // Type namespace: UnityEngine

@@ -12,7 +12,7 @@
 // Including type: System.Globalization.CompareOptions
 #include "System/Globalization/CompareOptions.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Context, "Mono.Globalization.Unicode", "SimpleCollator/Context");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {

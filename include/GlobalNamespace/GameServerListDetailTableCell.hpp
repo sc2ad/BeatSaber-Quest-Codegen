@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameServerListDetailTableCell
   class GameServerListDetailTableCell;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameServerListDetailTableCell);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListDetailTableCell*, "", "GameServerListDetailTableCell");
 // Type namespace: 

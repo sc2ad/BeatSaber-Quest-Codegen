@@ -37,7 +37,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // Forward declaring type: Holder
   class Holder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::Holder*, "Org.BouncyCastle.Asn1.X509", "Holder");
 // Type namespace: Org.BouncyCastle.Asn1.X509

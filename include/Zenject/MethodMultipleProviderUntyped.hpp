@@ -45,7 +45,7 @@ namespace Zenject {
   // Forward declaring type: MethodMultipleProviderUntyped
   class MethodMultipleProviderUntyped;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::MethodMultipleProviderUntyped);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MethodMultipleProviderUntyped*, "Zenject", "MethodMultipleProviderUntyped");
 // Type namespace: Zenject

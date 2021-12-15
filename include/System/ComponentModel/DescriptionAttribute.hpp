@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: DescriptionAttribute
   class DescriptionAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::DescriptionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DescriptionAttribute*, "System.ComponentModel", "DescriptionAttribute");
 // Type namespace: System.ComponentModel

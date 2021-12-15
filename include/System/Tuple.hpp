@@ -29,7 +29,7 @@ namespace System {
   // Forward declaring type: Tuple
   class Tuple;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Tuple);
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
 // Type namespace: System

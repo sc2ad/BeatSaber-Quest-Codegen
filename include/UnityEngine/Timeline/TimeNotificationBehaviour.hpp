@@ -49,7 +49,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: TimeNotificationBehaviour
   class TimeNotificationBehaviour;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimeNotificationBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 // Type namespace: UnityEngine.Timeline
@@ -227,7 +227,7 @@ namespace UnityEngine::Timeline {
   static check_size<sizeof(TimeNotificationBehaviour), 40 + sizeof(UnityEngine::Playables::Playable)> __UnityEngine_Timeline_TimeNotificationBehaviourSizeCheck;
   static_assert(sizeof(TimeNotificationBehaviour) == 0x34);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource

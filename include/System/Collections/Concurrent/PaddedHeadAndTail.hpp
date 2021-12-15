@@ -12,7 +12,7 @@ namespace System::Collections::Concurrent {
   // Forward declaring type: PaddedHeadAndTail
   struct PaddedHeadAndTail;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {

@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: ForceMode
   struct ForceMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ForceMode, "UnityEngine", "ForceMode");
 // Type namespace: UnityEngine
 namespace UnityEngine {

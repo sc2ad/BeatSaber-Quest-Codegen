@@ -29,7 +29,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskCanceledException
   class TaskCanceledException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::TaskCanceledException);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskCanceledException*, "System.Threading.Tasks", "TaskCanceledException");
 // Type namespace: System.Threading.Tasks

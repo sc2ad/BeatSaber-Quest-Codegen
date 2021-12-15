@@ -8,7 +8,7 @@
 // Including type: NUnit.Framework.Internal.TypeHelper
 #include "NUnit/Framework/Internal/TypeHelper.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeHelper::NonmatchingTypeClass*, "NUnit.Framework.Internal", "TypeHelper/NonmatchingTypeClass");
 // Type namespace: NUnit.Framework.Internal

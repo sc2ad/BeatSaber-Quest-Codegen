@@ -46,7 +46,7 @@ namespace System::Resources {
   // Forward declaring type: RuntimeResourceSet
   class RuntimeResourceSet;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Resources::RuntimeResourceSet);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");
 // Type namespace: System.Resources

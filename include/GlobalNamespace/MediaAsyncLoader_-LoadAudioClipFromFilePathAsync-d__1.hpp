@@ -30,7 +30,7 @@ namespace UnityEngine::Networking {
   class UnityWebRequest;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader::$LoadAudioClipFromFilePathAsync$d__1, "", "MediaAsyncLoader/<LoadAudioClipFromFilePathAsync>d__1");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SelectLevelCategoryViewController
   class SelectLevelCategoryViewController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 // Type namespace: 
@@ -225,7 +225,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(SelectLevelCategoryViewController), 152 + sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*>)> __GlobalNamespace_SelectLevelCategoryViewControllerSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController) == 0xA0);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory

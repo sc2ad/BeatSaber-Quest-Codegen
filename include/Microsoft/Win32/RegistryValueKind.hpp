@@ -13,7 +13,7 @@ namespace Microsoft::Win32 {
   // Forward declaring type: RegistryValueKind
   struct RegistryValueKind;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryValueKind, "Microsoft.Win32", "RegistryValueKind");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {

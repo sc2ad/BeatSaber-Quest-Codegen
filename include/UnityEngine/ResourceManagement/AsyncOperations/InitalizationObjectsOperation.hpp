@@ -35,7 +35,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: InitalizationObjectsOperation
   class InitalizationObjectsOperation;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "InitalizationObjectsOperation");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations

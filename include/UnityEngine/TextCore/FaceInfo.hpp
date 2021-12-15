@@ -15,7 +15,7 @@ namespace UnityEngine::TextCore {
   // Forward declaring type: FaceInfo
   struct FaceInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {

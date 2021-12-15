@@ -26,7 +26,7 @@ namespace System {
   class String;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::Message);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");
 // Type namespace: RootMotion.FinalIK

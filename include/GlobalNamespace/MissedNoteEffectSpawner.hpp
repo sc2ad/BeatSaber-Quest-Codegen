@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MissedNoteEffectSpawner
   class MissedNoteEffectSpawner;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissedNoteEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");
 // Type namespace: 

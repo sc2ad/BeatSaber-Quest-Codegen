@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // Forward declaring type: PlayerSaveDataV1_0_1
   class PlayerSaveDataV1_0_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1*, "", "PlayerSaveDataV1_0_1");
 // Type namespace: 

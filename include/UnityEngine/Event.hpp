@@ -32,7 +32,7 @@ namespace UnityEngine {
   // Forward declaring type: Event
   class Event;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Event);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
 // Type namespace: UnityEngine

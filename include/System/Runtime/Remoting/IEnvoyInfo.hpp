@@ -17,7 +17,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: IEnvoyInfo
   class IEnvoyInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::IEnvoyInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IEnvoyInfo*, "System.Runtime.Remoting", "IEnvoyInfo");
 // Type namespace: System.Runtime.Remoting

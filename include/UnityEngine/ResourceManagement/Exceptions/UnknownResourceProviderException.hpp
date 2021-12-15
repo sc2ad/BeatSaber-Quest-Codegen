@@ -33,7 +33,7 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   // Forward declaring type: UnknownResourceProviderException
   class UnknownResourceProviderException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException*, "UnityEngine.ResourceManagement.Exceptions", "UnknownResourceProviderException");
 // Type namespace: UnityEngine.ResourceManagement.Exceptions

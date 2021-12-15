@@ -24,7 +24,7 @@ namespace UnityEngine::AddressableAssets {
   // Forward declaring type: AssetReferenceSprite
   class AssetReferenceSprite;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::AssetReferenceSprite);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceSprite*, "UnityEngine.AddressableAssets", "AssetReferenceSprite");
 // Type namespace: UnityEngine.AddressableAssets

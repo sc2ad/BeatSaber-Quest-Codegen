@@ -36,7 +36,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: DerExternal
   class DerExternal;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::DerExternal);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerExternal*, "Org.BouncyCastle.Asn1", "DerExternal");
 // Type namespace: Org.BouncyCastle.Asn1

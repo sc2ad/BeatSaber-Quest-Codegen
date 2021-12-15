@@ -13,7 +13,7 @@ namespace System::Threading {
   // Forward declaring type: ThreadState
   struct ThreadState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadState, "System.Threading", "ThreadState");
 // Type namespace: System.Threading
 namespace System::Threading {

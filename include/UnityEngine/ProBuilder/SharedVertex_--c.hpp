@@ -22,7 +22,7 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SharedVertex::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex::$$c*, "UnityEngine.ProBuilder", "SharedVertex/<>c");
 // Type namespace: UnityEngine.ProBuilder

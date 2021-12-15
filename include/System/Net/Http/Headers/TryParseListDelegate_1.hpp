@@ -33,7 +33,7 @@ namespace System::Net::Http::Headers {
   template<typename T>
   class TryParseListDelegate_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Net::Http::Headers::TryParseListDelegate_1, "System.Net.Http.Headers", "TryParseListDelegate`1");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {

@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SongSpeedData
   class SongSpeedData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SongSpeedData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSpeedData*, "", "SongSpeedData");
 // Type namespace: 

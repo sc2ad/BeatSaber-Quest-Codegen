@@ -12,7 +12,7 @@ namespace System::Collections::Generic {
   template<typename K, typename V>
   class IDictionaryDebugView_2;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IDictionaryDebugView_2, "System.Collections.Generic", "IDictionaryDebugView`2");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {

@@ -13,7 +13,7 @@ namespace Oculus::Platform {
   // Forward declaring type: SdkAccountType
   struct SdkAccountType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::SdkAccountType, "Oculus.Platform", "SdkAccountType");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {

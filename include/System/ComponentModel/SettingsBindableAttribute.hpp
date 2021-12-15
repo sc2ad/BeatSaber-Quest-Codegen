@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: SettingsBindableAttribute
   class SettingsBindableAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::SettingsBindableAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::SettingsBindableAttribute*, "System.ComponentModel", "SettingsBindableAttribute");
 // Type namespace: System.ComponentModel

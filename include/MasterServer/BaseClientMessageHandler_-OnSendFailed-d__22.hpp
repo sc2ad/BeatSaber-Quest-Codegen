@@ -29,7 +29,7 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$OnSendFailed$d__22, "MasterServer", "BaseClientMessageHandler/<OnSendFailed>d__22");
 // Type namespace: MasterServer
 namespace MasterServer {

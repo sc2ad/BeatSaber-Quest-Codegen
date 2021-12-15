@@ -17,7 +17,7 @@ namespace System::Runtime::CompilerServices {
   // Forward declaring type: IsReadOnlyAttribute
   class IsReadOnlyAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::IsReadOnlyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IsReadOnlyAttribute*, "System.Runtime.CompilerServices", "IsReadOnlyAttribute");
 // Type namespace: System.Runtime.CompilerServices

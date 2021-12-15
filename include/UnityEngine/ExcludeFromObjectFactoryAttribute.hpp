@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: ExcludeFromObjectFactoryAttribute
   class ExcludeFromObjectFactoryAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ExcludeFromObjectFactoryAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromObjectFactoryAttribute*, "UnityEngine", "ExcludeFromObjectFactoryAttribute");
 // Type namespace: UnityEngine

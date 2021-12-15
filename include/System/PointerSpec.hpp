@@ -29,7 +29,7 @@ namespace System {
   // Forward declaring type: PointerSpec
   class PointerSpec;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::PointerSpec);
 DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec*, "System", "PointerSpec");
 // Type namespace: System

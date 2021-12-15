@@ -48,7 +48,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: AudioPlayableAsset
   class AudioPlayableAsset;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::AudioPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset*, "UnityEngine.Timeline", "AudioPlayableAsset");
 // Type namespace: UnityEngine.Timeline

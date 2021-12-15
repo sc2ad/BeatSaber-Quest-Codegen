@@ -26,7 +26,7 @@ namespace Mono::Http {
   class NtlmSession;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Http::NtlmClient::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient::$$c*, "Mono.Http", "NtlmClient/<>c");
 // Type namespace: Mono.Http

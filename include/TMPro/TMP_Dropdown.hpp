@@ -72,7 +72,7 @@ namespace TMPro {
   // Forward declaring type: TMP_Dropdown
   class TMP_Dropdown;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Dropdown);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 // Type namespace: TMPro

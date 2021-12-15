@@ -17,7 +17,7 @@ namespace Oculus::Platform {
   // Forward declaring type: MessageWithString
   class MessageWithString;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::MessageWithString);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithString*, "Oculus.Platform", "MessageWithString");
 // Type namespace: Oculus.Platform

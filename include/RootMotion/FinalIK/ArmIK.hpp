@@ -26,7 +26,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: ArmIK
   class ArmIK;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::ArmIK);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ArmIK*, "RootMotion.FinalIK", "ArmIK");
 // Type namespace: RootMotion.FinalIK

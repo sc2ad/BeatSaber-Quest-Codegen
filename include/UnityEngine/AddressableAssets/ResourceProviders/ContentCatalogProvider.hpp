@@ -43,7 +43,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   // Forward declaring type: ContentCatalogProvider
   class ContentCatalogProvider;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider");
 // Type namespace: UnityEngine.AddressableAssets.ResourceProviders

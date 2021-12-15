@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MultiplayerPlayerResultsData
   class MultiplayerPlayerResultsData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerPlayerResultsData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerResultsData*, "", "MultiplayerPlayerResultsData");
 // Type namespace: 

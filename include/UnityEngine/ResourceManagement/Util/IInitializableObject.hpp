@@ -26,7 +26,7 @@ namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: IInitializableObject
   class IInitializableObject;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IInitializableObject);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IInitializableObject*, "UnityEngine.ResourceManagement.Util", "IInitializableObject");
 // Type namespace: UnityEngine.ResourceManagement.Util

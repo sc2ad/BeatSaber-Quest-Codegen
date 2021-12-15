@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: LightProbeProxyVolume
   class LightProbeProxyVolume;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::LightProbeProxyVolume);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbeProxyVolume*, "UnityEngine", "LightProbeProxyVolume");
 // Type namespace: UnityEngine

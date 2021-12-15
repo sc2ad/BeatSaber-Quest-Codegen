@@ -30,7 +30,7 @@ namespace System {
   // Forward declaring type: Number
   class Number;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Number);
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");
 // Type namespace: System

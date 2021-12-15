@@ -13,7 +13,7 @@ namespace UnityEngine {
   // Forward declaring type: FilterMode
   struct FilterMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FilterMode, "UnityEngine", "FilterMode");
 // Type namespace: UnityEngine
 namespace UnityEngine {

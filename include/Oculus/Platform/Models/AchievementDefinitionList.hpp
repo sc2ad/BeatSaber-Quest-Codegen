@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: AchievementDefinitionList
   class AchievementDefinitionList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinitionList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinitionList*, "Oculus.Platform.Models", "AchievementDefinitionList");
 // Type namespace: Oculus.Platform.Models

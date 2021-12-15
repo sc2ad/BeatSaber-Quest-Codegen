@@ -14,7 +14,7 @@ namespace Valve::VR {
   // Forward declaring type: NotificationBitmap_t
   struct NotificationBitmap_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::NotificationBitmap_t, "Valve.VR", "NotificationBitmap_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LightWithIds
   class LightWithIds;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds*, "", "LightWithIds");
 // Type namespace: 

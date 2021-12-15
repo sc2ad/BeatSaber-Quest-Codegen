@@ -31,7 +31,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Forward declaring type: PlayerQuitHandler
   class PlayerQuitHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayerQuitHandler*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayerQuitHandler");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks

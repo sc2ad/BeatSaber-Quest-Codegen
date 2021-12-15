@@ -22,7 +22,7 @@ namespace Zenject {
   // Forward declaring type: IdBinder
   class IdBinder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::IdBinder);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");
 // Type namespace: Zenject

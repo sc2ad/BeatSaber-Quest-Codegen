@@ -13,7 +13,7 @@ namespace System::IO::Compression {
   // Forward declaring type: CompressionMode
   struct CompressionMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::CompressionMode, "System.IO.Compression", "CompressionMode");
 // Type namespace: System.IO.Compression
 namespace System::IO::Compression {

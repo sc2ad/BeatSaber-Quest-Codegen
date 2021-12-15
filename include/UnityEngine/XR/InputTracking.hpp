@@ -31,7 +31,7 @@ namespace UnityEngine::XR {
   // Forward declaring type: InputTracking
   class InputTracking;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::XR::InputTracking);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");
 // Type namespace: UnityEngine.XR

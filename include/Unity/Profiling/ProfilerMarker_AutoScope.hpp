@@ -13,7 +13,7 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {

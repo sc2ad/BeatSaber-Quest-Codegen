@@ -57,7 +57,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorsOverrideSettingsPanelController
   class ColorsOverrideSettingsPanelController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ColorsOverrideSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");
 // Type namespace: 

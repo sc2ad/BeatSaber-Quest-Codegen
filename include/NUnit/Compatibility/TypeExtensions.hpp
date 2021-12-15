@@ -18,7 +18,7 @@ namespace NUnit::Compatibility {
   // Forward declaring type: TypeExtensions
   class TypeExtensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Compatibility::TypeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::TypeExtensions*, "NUnit.Compatibility", "TypeExtensions");
 // Type namespace: NUnit.Compatibility

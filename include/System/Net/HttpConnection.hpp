@@ -11,7 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -82,7 +82,7 @@ namespace System::Net {
   // Forward declaring type: HttpConnection
   class HttpConnection;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::HttpConnection);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 // Type namespace: System.Net
@@ -482,10 +482,10 @@ namespace System::Net {
   static check_size<sizeof(HttpConnection), 184 + sizeof(int)> __System_Net_HttpConnectionSizeCheck;
   static_assert(sizeof(HttpConnection) == 0xBC);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpConnection::get_Reuses
 // Il2CppName: get_Reuses

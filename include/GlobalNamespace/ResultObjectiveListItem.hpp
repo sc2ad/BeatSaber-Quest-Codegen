@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ResultObjectiveListItem
   class ResultObjectiveListItem;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ResultObjectiveListItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");
 // Type namespace: 

@@ -27,7 +27,7 @@ namespace MasterServer {
   // Forward declaring type: UserMultipartMessage
   class UserMultipartMessage;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::UserMultipartMessage);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMultipartMessage*, "MasterServer", "UserMultipartMessage");
 // Type namespace: MasterServer

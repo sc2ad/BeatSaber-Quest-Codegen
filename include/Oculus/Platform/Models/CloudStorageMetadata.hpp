@@ -19,7 +19,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: CloudStorageMetadata
   class CloudStorageMetadata;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::CloudStorageMetadata);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadata*, "Oculus.Platform.Models", "CloudStorageMetadata");
 // Type namespace: Oculus.Platform.Models

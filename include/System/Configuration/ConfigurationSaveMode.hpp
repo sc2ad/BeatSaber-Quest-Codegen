@@ -13,7 +13,7 @@ namespace System::Configuration {
   // Forward declaring type: ConfigurationSaveMode
   struct ConfigurationSaveMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSaveMode, "System.Configuration", "ConfigurationSaveMode");
 // Type namespace: System.Configuration
 namespace System::Configuration {

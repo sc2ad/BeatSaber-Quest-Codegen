@@ -13,7 +13,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: EVREventType
   struct EVREventType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVREventType, "OVR.OpenVR", "EVREventType");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {

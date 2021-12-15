@@ -17,9 +17,9 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::$InitializePlayerEncryption$d__128, "", "ConnectedPlayerManager/<InitializePlayerEncryption>d__128");
 // Type namespace: 
 namespace GlobalNamespace {

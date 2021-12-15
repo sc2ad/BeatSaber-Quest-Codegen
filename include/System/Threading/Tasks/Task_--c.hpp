@@ -25,7 +25,7 @@ namespace System::Threading {
   class TimerCallback;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::Task::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
 // Type namespace: System.Threading.Tasks

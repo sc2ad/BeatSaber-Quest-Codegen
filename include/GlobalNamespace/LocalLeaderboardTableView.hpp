@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LocalLeaderboardTableView
   class LocalLeaderboardTableView;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LocalLeaderboardTableView);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
 // Type namespace: 

@@ -22,7 +22,7 @@ namespace System {
   // Forward declaring type: LocalDataStoreSlot
   class LocalDataStoreSlot;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::LocalDataStoreSlot);
 DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreSlot*, "System", "LocalDataStoreSlot");
 // Type namespace: System

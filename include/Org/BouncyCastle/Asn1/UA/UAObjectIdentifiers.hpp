@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1::UA {
   // Forward declaring type: UAObjectIdentifiers
   class UAObjectIdentifiers;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers*, "Org.BouncyCastle.Asn1.UA", "UAObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.UA

@@ -31,7 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorNoAlphaSerializable
   struct ColorNoAlphaSerializable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");
 // Type namespace: 
 namespace GlobalNamespace {

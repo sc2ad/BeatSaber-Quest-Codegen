@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*, "", "PlayerSaveDataV1_0_1/GameplayModifiers");
 // Type namespace: 
@@ -275,12 +275,12 @@ namespace GlobalNamespace {
   static check_size<sizeof(PlayerSaveDataV1_0_1::GameplayModifiers), 32 + sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed)> __GlobalNamespace_PlayerSaveDataV1_0_1_GameplayModifiersSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::GameplayModifiers) == 0x24);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed, "", "PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor
 // Il2CppName: .ctor

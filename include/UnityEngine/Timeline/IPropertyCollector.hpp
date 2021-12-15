@@ -36,7 +36,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: IPropertyCollector
   class IPropertyCollector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::IPropertyCollector);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
 // Type namespace: UnityEngine.Timeline

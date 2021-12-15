@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class IBeatmapLevelPackCollection;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__54, "", "LevelFilteringNavigationController/<UpdateCustomSongs>d__54");
 // Type namespace: 
 namespace GlobalNamespace {

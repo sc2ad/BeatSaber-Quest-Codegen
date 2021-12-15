@@ -29,7 +29,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: TestFilter
   class TestFilter;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter*, "NUnit.Framework.Internal", "TestFilter");
 // Type namespace: NUnit.Framework.Internal

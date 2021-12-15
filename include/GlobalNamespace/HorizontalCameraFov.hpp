@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: HorizontalCameraFov
   class HorizontalCameraFov;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HorizontalCameraFov);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov*, "", "HorizontalCameraFov");
 // Type namespace: 

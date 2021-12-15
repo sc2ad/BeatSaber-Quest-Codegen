@@ -25,7 +25,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: PointerEventDataExtension
   class PointerEventDataExtension;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::PointerEventDataExtension);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventDataExtension*, "UnityEngine.EventSystems", "PointerEventDataExtension");
 // Type namespace: UnityEngine.EventSystems

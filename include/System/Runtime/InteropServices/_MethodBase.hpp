@@ -10,7 +10,7 @@ namespace System::Runtime::InteropServices {
   // Forward declaring type: _MethodBase
   class _MethodBase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::InteropServices::_MethodBase);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_MethodBase*, "System.Runtime.InteropServices", "_MethodBase");
 // Type namespace: System.Runtime.InteropServices

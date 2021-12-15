@@ -28,7 +28,7 @@ namespace HMUI {
   class ScrollViewItemForVisibilityController;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScrollViewItemsVisibilityController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
 // Type namespace: HMUI

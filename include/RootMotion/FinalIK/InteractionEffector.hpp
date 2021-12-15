@@ -47,7 +47,7 @@ namespace RootMotion::FinalIK {
   // Forward declaring type: InteractionEffector
   class InteractionEffector;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::InteractionEffector);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");
 // Type namespace: RootMotion.FinalIK

@@ -42,7 +42,7 @@ namespace VRUIControls {
   // Forward declaring type: VRPointer
   class VRPointer;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::VRPointer);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
 // Type namespace: VRUIControls

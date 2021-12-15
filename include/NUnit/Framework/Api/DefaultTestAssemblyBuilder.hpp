@@ -57,7 +57,7 @@ namespace NUnit::Framework::Api {
   // Forward declaring type: DefaultTestAssemblyBuilder
   class DefaultTestAssemblyBuilder;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Api::DefaultTestAssemblyBuilder);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
 // Type namespace: NUnit.Framework.Api

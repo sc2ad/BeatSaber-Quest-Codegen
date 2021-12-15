@@ -31,7 +31,7 @@ namespace System::IO {
   // Forward declaring type: ErrorEventHandler
   class ErrorEventHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::ErrorEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::ErrorEventHandler*, "System.IO", "ErrorEventHandler");
 // Type namespace: System.IO

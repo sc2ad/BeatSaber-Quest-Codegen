@@ -13,7 +13,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: WellKnownObjectMode
   struct WellKnownObjectMode;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {

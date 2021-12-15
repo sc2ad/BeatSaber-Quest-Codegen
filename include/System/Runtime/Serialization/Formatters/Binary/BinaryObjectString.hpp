@@ -24,7 +24,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // Forward declaring type: BinaryObjectString
   class BinaryObjectString;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectString");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary

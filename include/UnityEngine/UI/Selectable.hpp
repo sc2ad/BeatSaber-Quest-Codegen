@@ -31,7 +31,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -80,7 +80,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Selectable
   class Selectable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Selectable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 // Type namespace: UnityEngine.UI
@@ -544,7 +544,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Selectable), 240 + sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*)> __UnityEngine_UI_SelectableSizeCheck;
   static_assert(sizeof(Selectable) == 0xF8);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectablesArray

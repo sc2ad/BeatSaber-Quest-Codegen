@@ -53,7 +53,7 @@ namespace Zenject {
   // Forward declaring type: FactoryFromBinder3Extensions
   class FactoryFromBinder3Extensions;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::FactoryFromBinder3Extensions);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder3Extensions*, "Zenject", "FactoryFromBinder3Extensions");
 // Type namespace: Zenject

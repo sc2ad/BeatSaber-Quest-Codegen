@@ -15,7 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +40,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_MaterialData
   class HEU_MaterialData;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_MaterialData);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MaterialData*, "HoudiniEngineUnity", "HEU_MaterialData");
 // Type namespace: HoudiniEngineUnity
@@ -187,7 +187,7 @@ namespace HoudiniEngineUnity {
   static check_size<sizeof(HEU_MaterialData), 36 + sizeof(int)> __HoudiniEngineUnity_HEU_MaterialDataSizeCheck;
   static_assert(sizeof(HEU_MaterialData) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MaterialData::Source, "HoudiniEngineUnity", "HEU_MaterialData/Source");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialData::IsExistingMaterial

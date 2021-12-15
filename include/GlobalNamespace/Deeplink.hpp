@@ -15,7 +15,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Deeplink
   class Deeplink;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::Deeplink);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
 // Type namespace: 

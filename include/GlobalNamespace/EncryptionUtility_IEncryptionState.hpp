@@ -9,9 +9,9 @@
 #include "GlobalNamespace/EncryptionUtility.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EncryptionUtility::IEncryptionState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::IEncryptionState*, "", "EncryptionUtility/IEncryptionState");
 // Type namespace: 

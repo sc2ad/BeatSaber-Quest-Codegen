@@ -26,7 +26,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: MaterialUtility
   class MaterialUtility;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MaterialUtility);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MaterialUtility*, "UnityEngine.ProBuilder", "MaterialUtility");
 // Type namespace: UnityEngine.ProBuilder

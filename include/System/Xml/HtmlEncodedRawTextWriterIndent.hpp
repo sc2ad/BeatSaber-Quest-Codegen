@@ -31,7 +31,7 @@ namespace System::Xml {
   // Forward declaring type: HtmlEncodedRawTextWriterIndent
   class HtmlEncodedRawTextWriterIndent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::HtmlEncodedRawTextWriterIndent);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent*, "System.Xml", "HtmlEncodedRawTextWriterIndent");
 // Type namespace: System.Xml

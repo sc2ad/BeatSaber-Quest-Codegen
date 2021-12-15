@@ -33,7 +33,7 @@ namespace System {
   // Forward declaring type: IOSelectorJob
   class IOSelectorJob;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IOSelectorJob);
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
 // Type namespace: System

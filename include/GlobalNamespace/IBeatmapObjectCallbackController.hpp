@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IBeatmapObjectCallbackController
   class IBeatmapObjectCallbackController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IBeatmapObjectCallbackController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectCallbackController*, "", "IBeatmapObjectCallbackController");
 // Type namespace: 

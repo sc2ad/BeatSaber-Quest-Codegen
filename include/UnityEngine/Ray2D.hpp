@@ -15,7 +15,7 @@ namespace UnityEngine {
   // Forward declaring type: Ray2D
   struct Ray2D;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {

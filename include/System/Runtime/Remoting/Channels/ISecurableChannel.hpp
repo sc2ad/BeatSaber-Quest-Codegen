@@ -10,7 +10,7 @@ namespace System::Runtime::Remoting::Channels {
   // Forward declaring type: ISecurableChannel
   class ISecurableChannel;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Channels::ISecurableChannel);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ISecurableChannel*, "System.Runtime.Remoting.Channels", "ISecurableChannel");
 // Type namespace: System.Runtime.Remoting.Channels

@@ -60,7 +60,7 @@ namespace UnityEngine::UI {
   // Forward declaring type: Scrollbar
   class Scrollbar;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::Scrollbar);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 // Type namespace: UnityEngine.UI
@@ -433,7 +433,7 @@ namespace UnityEngine::UI {
   static check_size<sizeof(Scrollbar), 313 + sizeof(bool)> __UnityEngine_UI_ScrollbarSizeCheck;
   static_assert(sizeof(Scrollbar) == 0x13A);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_handleRect

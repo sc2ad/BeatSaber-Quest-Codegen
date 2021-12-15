@@ -13,7 +13,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: EventTriggerType
   struct EventTriggerType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTriggerType, "UnityEngine.EventSystems", "EventTriggerType");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {

@@ -37,7 +37,7 @@ namespace OVR::OpenVR {
   // Forward declaring type: CVRRenderModels
   class CVRRenderModels;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVRRenderModels);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");
 // Type namespace: OVR.OpenVR

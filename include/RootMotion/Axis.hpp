@@ -13,7 +13,7 @@ namespace RootMotion {
   // Forward declaring type: Axis
   struct Axis;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Axis, "RootMotion", "Axis");
 // Type namespace: RootMotion
 namespace RootMotion {

@@ -30,7 +30,7 @@ namespace UnityEngine::TestTools {
   // Forward declaring type: ImmediateEnumerableCommand
   class ImmediateEnumerableCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::ImmediateEnumerableCommand);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::ImmediateEnumerableCommand*, "UnityEngine.TestTools", "ImmediateEnumerableCommand");
 // Type namespace: UnityEngine.TestTools

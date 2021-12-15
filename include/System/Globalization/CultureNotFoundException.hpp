@@ -26,7 +26,7 @@ namespace System::Globalization {
   // Forward declaring type: CultureNotFoundException
   class CultureNotFoundException;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::CultureNotFoundException);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureNotFoundException*, "System.Globalization", "CultureNotFoundException");
 // Type namespace: System.Globalization

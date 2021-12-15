@@ -13,7 +13,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: RunState
   struct RunState;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::RunState, "NUnit.Framework.Interfaces", "RunState");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {

@@ -17,7 +17,7 @@ namespace System::ComponentModel {
   // Forward declaring type: EditorAttribute
   class EditorAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::EditorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EditorAttribute*, "System.ComponentModel", "EditorAttribute");
 // Type namespace: System.ComponentModel

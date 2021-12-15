@@ -10,7 +10,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: IAsn1Choice
   class IAsn1Choice;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1Choice);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1Choice*, "Org.BouncyCastle.Asn1", "IAsn1Choice");
 // Type namespace: Org.BouncyCastle.Asn1

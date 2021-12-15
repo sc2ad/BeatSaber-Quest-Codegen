@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: BaseNoteVisuals
   class BaseNoteVisuals;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BaseNoteVisuals);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
 // Type namespace: 

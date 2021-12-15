@@ -14,7 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestEnumerator::$Execute$d__6);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator::$Execute$d__6*, "UnityEngine.TestTools", "TestEnumerator/<Execute>d__6");
 // Type namespace: UnityEngine.TestTools

@@ -4,7 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -14,7 +14,7 @@ namespace System::Runtime::Remoting {
   // Forward declaring type: IChannelInfo
   class IChannelInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::IChannelInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
 // Type namespace: System.Runtime.Remoting

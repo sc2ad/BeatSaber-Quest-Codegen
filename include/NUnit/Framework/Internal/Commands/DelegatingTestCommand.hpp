@@ -17,7 +17,7 @@ namespace NUnit::Framework::Internal::Commands {
   // Forward declaring type: DelegatingTestCommand
   class DelegatingTestCommand;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::DelegatingTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
 // Type namespace: NUnit.Framework.Internal.Commands

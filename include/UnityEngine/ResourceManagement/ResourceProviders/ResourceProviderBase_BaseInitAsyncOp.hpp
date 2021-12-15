@@ -22,7 +22,7 @@ namespace System {
   class Func_1;
 }
 // Completed forward declares
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/BaseInitAsyncOp");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders

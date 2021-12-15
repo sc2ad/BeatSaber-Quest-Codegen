@@ -17,7 +17,7 @@ namespace UnityEngine {
   // Forward declaring type: ExcludeFromPresetAttribute
   class ExcludeFromPresetAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ExcludeFromPresetAttribute);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromPresetAttribute*, "UnityEngine", "ExcludeFromPresetAttribute");
 // Type namespace: UnityEngine

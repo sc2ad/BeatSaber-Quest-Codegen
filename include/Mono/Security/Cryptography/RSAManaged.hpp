@@ -7,7 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.RSA
 #include "System/Security/Cryptography/RSA.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Cryptography
@@ -29,7 +29,7 @@ namespace Mono::Security::Cryptography {
   // Forward declaring type: RSAManaged
   class RSAManaged;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::RSAManaged);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged*, "Mono.Security.Cryptography", "RSAManaged");
 // Type namespace: Mono.Security.Cryptography

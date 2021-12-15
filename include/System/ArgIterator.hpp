@@ -17,7 +17,7 @@ namespace System {
   // Forward declaring type: ArgIterator
   struct ArgIterator;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
 // Type namespace: System
 namespace System {

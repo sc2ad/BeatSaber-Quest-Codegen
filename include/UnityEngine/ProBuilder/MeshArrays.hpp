@@ -13,7 +13,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: MeshArrays
   struct MeshArrays;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshArrays, "UnityEngine.ProBuilder", "MeshArrays");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {

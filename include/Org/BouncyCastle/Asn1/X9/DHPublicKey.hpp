@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // Forward declaring type: DHPublicKey
   class DHPublicKey;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::DHPublicKey);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHPublicKey*, "Org.BouncyCastle.Asn1.X9", "DHPublicKey");
 // Type namespace: Org.BouncyCastle.Asn1.X9

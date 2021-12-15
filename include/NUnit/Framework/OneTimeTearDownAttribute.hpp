@@ -13,7 +13,7 @@ namespace NUnit::Framework {
   // Forward declaring type: OneTimeTearDownAttribute
   class OneTimeTearDownAttribute;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::OneTimeTearDownAttribute);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::OneTimeTearDownAttribute*, "NUnit.Framework", "OneTimeTearDownAttribute");
 // Type namespace: NUnit.Framework

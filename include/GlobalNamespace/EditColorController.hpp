@@ -41,7 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: EditColorController
   class EditColorController;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EditColorController);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");
 // Type namespace: 

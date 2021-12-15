@@ -19,7 +19,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: Purchase
   class Purchase;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::Purchase);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
 // Type namespace: Oculus.Platform.Models

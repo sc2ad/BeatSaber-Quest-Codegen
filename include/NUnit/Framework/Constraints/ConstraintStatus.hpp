@@ -13,7 +13,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: ConstraintStatus
   struct ConstraintStatus;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintStatus, "NUnit.Framework.Constraints", "ConstraintStatus");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {

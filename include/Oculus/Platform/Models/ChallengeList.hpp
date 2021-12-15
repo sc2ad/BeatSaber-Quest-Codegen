@@ -26,7 +26,7 @@ namespace Oculus::Platform::Models {
   // Forward declaring type: ChallengeList
   class ChallengeList;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Models::ChallengeList);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeList*, "Oculus.Platform.Models", "ChallengeList");
 // Type namespace: Oculus.Platform.Models

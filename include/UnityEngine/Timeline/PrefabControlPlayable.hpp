@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: PrefabControlPlayable
   class PrefabControlPlayable;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::PrefabControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");
 // Type namespace: UnityEngine.Timeline

@@ -8,14 +8,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LiteNetLib.NetLogLevel
 #include "LiteNetLib/NetLogLevel.hpp"
-#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Forward declaring type: INetLogger
   class INetLogger;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::INetLogger);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetLogger*, "LiteNetLib", "INetLogger");
 // Type namespace: LiteNetLib

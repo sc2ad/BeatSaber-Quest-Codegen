@@ -17,7 +17,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LobbyDataModelInstaller
   class LobbyDataModelInstaller;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LobbyDataModelInstaller);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelInstaller*, "", "LobbyDataModelInstaller");
 // Type namespace: 

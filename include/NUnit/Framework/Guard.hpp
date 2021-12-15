@@ -11,7 +11,7 @@ namespace NUnit::Framework {
   // Forward declaring type: Guard
   class Guard;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Guard);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Guard*, "NUnit.Framework", "Guard");
 // Type namespace: NUnit.Framework

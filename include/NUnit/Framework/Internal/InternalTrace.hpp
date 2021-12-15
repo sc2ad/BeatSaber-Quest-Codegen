@@ -27,7 +27,7 @@ namespace NUnit::Framework::Internal {
   // Forward declaring type: InternalTrace
   class InternalTrace;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::InternalTrace);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
 // Type namespace: NUnit.Framework.Internal

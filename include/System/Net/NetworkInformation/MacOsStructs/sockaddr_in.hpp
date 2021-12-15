@@ -13,7 +13,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   // Forward declaring type: sockaddr_in
   struct sockaddr_in;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_in, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_in");
 // Type namespace: System.Net.NetworkInformation.MacOsStructs
 namespace System::Net::NetworkInformation::MacOsStructs {

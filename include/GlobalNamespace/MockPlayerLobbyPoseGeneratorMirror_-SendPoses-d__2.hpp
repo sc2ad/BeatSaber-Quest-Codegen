@@ -17,7 +17,7 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::$SendPoses$d__2, "", "MockPlayerLobbyPoseGeneratorMirror/<SendPoses>d__2");
 // Type namespace: 
 namespace GlobalNamespace {

@@ -39,7 +39,7 @@ namespace LiteNetLib {
   // Forward declaring type: NetEvent
   class NetEvent;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NetEvent);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");
 // Type namespace: LiteNetLib
@@ -244,7 +244,7 @@ namespace LiteNetLib {
   static check_size<sizeof(NetEvent), 80 + sizeof(LiteNetLib::NetPacketReader*)> __LiteNetLib_NetEventSizeCheck;
   static_assert(sizeof(NetEvent) == 0x58);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent::EType, "LiteNetLib", "NetEvent/EType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetEvent::New_ctor

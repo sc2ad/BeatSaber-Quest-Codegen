@@ -21,7 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: LevelDataAssetDownloadUpdate
   struct LevelDataAssetDownloadUpdate;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate, "", "LevelDataAssetDownloadUpdate");
 // Type namespace: 
 namespace GlobalNamespace {
@@ -130,7 +130,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(LevelDataAssetDownloadUpdate), 16 + sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState)> __GlobalNamespace_LevelDataAssetDownloadUpdateSizeCheck;
   static_assert(sizeof(LevelDataAssetDownloadUpdate) == 0x14);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState, "", "LevelDataAssetDownloadUpdate/AssetDownloadingState");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelDataAssetDownloadUpdate::LevelDataAssetDownloadUpdate

@@ -41,7 +41,7 @@ namespace UnityEngine::EventSystems {
   // Forward declaring type: PointerInputModule
   class PointerInputModule;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");
 // Type namespace: UnityEngine.EventSystems

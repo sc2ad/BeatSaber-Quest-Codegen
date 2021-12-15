@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // Forward declaring type: TriangulationConstraint
   class TriangulationConstraint;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri

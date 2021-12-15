@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: BerSequence
   class BerSequence;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::BerSequence);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerSequence*, "Org.BouncyCastle.Asn1", "BerSequence");
 // Type namespace: Org.BouncyCastle.Asn1

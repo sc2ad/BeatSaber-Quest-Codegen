@@ -13,7 +13,7 @@ namespace GlobalNamespace {
   // Forward declaring type: MockPlayerMovementType
   struct MockPlayerMovementType;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerMovementType, "", "MockPlayerMovementType");
 // Type namespace: 
 namespace GlobalNamespace {

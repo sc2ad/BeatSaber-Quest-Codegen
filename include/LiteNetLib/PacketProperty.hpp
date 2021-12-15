@@ -13,7 +13,7 @@ namespace LiteNetLib {
   // Forward declaring type: PacketProperty
   struct PacketProperty;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::PacketProperty, "LiteNetLib", "PacketProperty");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {

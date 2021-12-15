@@ -52,7 +52,7 @@ namespace HMUI {
   template<typename T>
   class UIItemsList_1;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
 // Type namespace: HMUI
 namespace HMUI {

@@ -8,7 +8,7 @@
 // Including type: UnityEngine.Timeline.AnimationPlayableAsset
 #include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 // Completed includes
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
 // Type namespace: UnityEngine.Timeline

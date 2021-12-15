@@ -24,7 +24,7 @@ namespace System::Diagnostics {
   // Forward declaring type: DiagnosticsConfigurationHandler
   class DiagnosticsConfigurationHandler;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Diagnostics::DiagnosticsConfigurationHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
 // Type namespace: System.Diagnostics

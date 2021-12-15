@@ -19,7 +19,7 @@ namespace HoudiniEngineUnity {
   // Forward declaring type: Test_HAPI_ObjectInfo
   class Test_HAPI_ObjectInfo;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_ObjectInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_ObjectInfo*, "HoudiniEngineUnity", "Test_HAPI_ObjectInfo");
 // Type namespace: HoudiniEngineUnity

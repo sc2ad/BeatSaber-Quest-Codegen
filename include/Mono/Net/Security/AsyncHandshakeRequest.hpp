@@ -26,7 +26,7 @@ namespace Mono::Net::Security {
   // Forward declaring type: AsyncHandshakeRequest
   class AsyncHandshakeRequest;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::AsyncHandshakeRequest);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncHandshakeRequest*, "Mono.Net.Security", "AsyncHandshakeRequest");
 // Type namespace: Mono.Net.Security

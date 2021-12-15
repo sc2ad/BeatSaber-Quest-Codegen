@@ -12,7 +12,7 @@ namespace Valve::VR {
   // Forward declaring type: HmdColor_t
   struct HmdColor_t;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::HmdColor_t, "Valve.VR", "HmdColor_t");
 // Type namespace: Valve.VR
 namespace Valve::VR {

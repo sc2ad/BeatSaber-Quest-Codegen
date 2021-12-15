@@ -17,7 +17,7 @@ namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ICommandWrapper
   class ICommandWrapper;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::ICommandWrapper);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");
 // Type namespace: NUnit.Framework.Interfaces

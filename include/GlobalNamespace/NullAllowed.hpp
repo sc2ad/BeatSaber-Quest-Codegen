@@ -19,7 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NullAllowed
   class NullAllowed;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NullAllowed);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed*, "", "NullAllowed");
 // Type namespace: 
@@ -140,7 +140,7 @@ namespace GlobalNamespace {
   static check_size<sizeof(NullAllowed), 32 + sizeof(::Il2CppObject*)> __GlobalNamespace_NullAllowedSizeCheck;
   static_assert(sizeof(NullAllowed) == 0x28);
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NullAllowed::Context, "", "NullAllowed/Context");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NullAllowed::New_ctor

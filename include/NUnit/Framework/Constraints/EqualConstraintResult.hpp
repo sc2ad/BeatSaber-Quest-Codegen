@@ -48,7 +48,7 @@ namespace NUnit::Framework::Constraints {
   // Forward declaring type: EqualConstraintResult
   class EqualConstraintResult;
 }
-#include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
+#include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::EqualConstraintResult);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "NUnit.Framework.Constraints", "EqualConstraintResult");
 // Type namespace: NUnit.Framework.Constraints
