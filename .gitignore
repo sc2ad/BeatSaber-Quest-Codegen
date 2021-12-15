@@ -9,3 +9,11 @@ libs/
 qpm.shared.json
 
 *.zip
+*.json
+!mod.template.json
+!qpm.json
+extern.cmake
+qpm_defines.cmake
+
+build/
+*.qmod
