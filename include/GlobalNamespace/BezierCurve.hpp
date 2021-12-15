@@ -27,15 +27,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BezierCurve/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.Vector3 p0
     // Size: 0xC
     // Offset: 0x0

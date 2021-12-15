@@ -27,12 +27,6 @@ namespace System {
   class Func_1;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: CustomTypeClass`1<TProperty>
-  template<typename TProperty>
-  class CustomTypeClass_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::CustomTypeClass_1, "LiteNetLib.Utils", "NetSerializer/CustomTypeClass`1");
 // Type namespace: LiteNetLib.Utils

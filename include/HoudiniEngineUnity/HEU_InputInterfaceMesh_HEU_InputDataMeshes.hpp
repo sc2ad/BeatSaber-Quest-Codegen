@@ -22,11 +22,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_InputDataMeshes
-  class HEU_InputDataMeshes;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMeshes*, "HoudiniEngineUnity", "HEU_InputInterfaceMesh/HEU_InputDataMeshes");

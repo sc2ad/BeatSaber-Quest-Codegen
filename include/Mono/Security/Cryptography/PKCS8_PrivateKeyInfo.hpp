@@ -31,11 +31,6 @@ namespace System::Security::Cryptography {
   class AsymmetricAlgorithm;
 }
 // Completed forward declares
-// Type namespace: Mono.Security.Cryptography
-namespace Mono::Security::Cryptography {
-  // Forward declaring type: PrivateKeyInfo
-  class PrivateKeyInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo");

@@ -17,11 +17,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: HEU_ColliderInfo
-  class HEU_ColliderInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
@@ -41,15 +36,7 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColliderType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

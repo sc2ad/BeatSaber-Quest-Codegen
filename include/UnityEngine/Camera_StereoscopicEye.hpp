@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: StereoscopicEye
-  struct StereoscopicEye;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera::StereoscopicEye, "UnityEngine", "Camera/StereoscopicEye");
 // Type namespace: UnityEngine
@@ -25,15 +20,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Camera::StereoscopicEye/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

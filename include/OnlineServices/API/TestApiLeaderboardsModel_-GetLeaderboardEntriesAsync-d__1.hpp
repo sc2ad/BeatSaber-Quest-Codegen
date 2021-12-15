@@ -25,11 +25,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   class LeaderboardEntries;
 }
 // Completed forward declares
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <GetLeaderboardEntriesAsync>d__1
-  struct $GetLeaderboardEntriesAsync$d__1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1, "OnlineServices.API", "TestApiLeaderboardsModel/<GetLeaderboardEntriesAsync>d__1");
 // Type namespace: OnlineServices.API
@@ -40,15 +35,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct TestApiLeaderboardsModel::$GetLeaderboardEntriesAsync$d__1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

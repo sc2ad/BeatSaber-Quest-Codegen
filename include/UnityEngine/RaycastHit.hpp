@@ -39,15 +39,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EC7F60
   struct RaycastHit/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEC8494
     // UnityEngine.Vector3 m_Point
     // Size: 0xC

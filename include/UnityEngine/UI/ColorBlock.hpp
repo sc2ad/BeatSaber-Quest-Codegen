@@ -30,15 +30,7 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorBlock/*, public System::ValueType, public System::IEquatable_1<UnityEngine::UI::ColorBlock>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEB41C
     // private UnityEngine.Color m_NormalColor
     // Size: 0x10

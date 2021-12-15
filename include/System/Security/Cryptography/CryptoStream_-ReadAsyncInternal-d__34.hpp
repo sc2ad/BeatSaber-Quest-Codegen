@@ -30,11 +30,6 @@ namespace System::Threading {
   class SemaphoreSlim;
 }
 // Completed forward declares
-// Type namespace: System.Security.Cryptography
-namespace System::Security::Cryptography {
-  // Forward declaring type: <ReadAsyncInternal>d__34
-  struct $ReadAsyncInternal$d__34;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");
 // Type namespace: System.Security.Cryptography
@@ -45,15 +40,7 @@ namespace System::Security::Cryptography {
   // [CompilerGeneratedAttribute] Offset: EA0828
   struct CryptoStream::$ReadAsyncInternal$d__34/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

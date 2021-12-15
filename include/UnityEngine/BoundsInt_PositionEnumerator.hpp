@@ -16,11 +16,6 @@
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: PositionEnumerator
-  struct PositionEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoundsInt::PositionEnumerator, "UnityEngine", "BoundsInt/PositionEnumerator");
 // Type namespace: UnityEngine
@@ -32,15 +27,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BoundsInt::PositionEnumerator/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<UnityEngine::Vector3Int>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly UnityEngine.Vector3Int _min
     // Size: 0xC
     // Offset: 0x0

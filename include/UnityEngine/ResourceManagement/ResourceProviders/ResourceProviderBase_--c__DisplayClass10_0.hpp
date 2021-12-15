@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: <>c__DisplayClass10_0
-  class $$c__DisplayClass10_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");

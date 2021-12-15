@@ -28,11 +28,6 @@ namespace System::Runtime::Serialization {
   class SerializationInfo;
 }
 // Completed forward declares
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: DefaultEncoder
-  class DefaultEncoder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::Encoding::DefaultEncoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::DefaultEncoder*, "System.Text", "Encoding/DefaultEncoder");

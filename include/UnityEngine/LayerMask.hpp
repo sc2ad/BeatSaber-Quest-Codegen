@@ -30,15 +30,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB4E80
   struct LayerMask/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEB8794
     // private System.Int32 m_Mask
     // Size: 0x4

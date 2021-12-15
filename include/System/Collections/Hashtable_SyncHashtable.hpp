@@ -35,11 +35,6 @@ namespace System {
   class Array;
 }
 // Completed forward declares
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: SyncHashtable
-  class SyncHashtable;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Hashtable::SyncHashtable);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::SyncHashtable*, "System.Collections", "Hashtable/SyncHashtable");

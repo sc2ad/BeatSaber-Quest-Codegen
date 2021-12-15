@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass21_0
-  class $$c__DisplayClass21_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ModalView::$$c__DisplayClass21_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");

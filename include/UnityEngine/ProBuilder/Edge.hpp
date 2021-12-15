@@ -43,15 +43,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Edge/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Edge>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 a
     // Size: 0x4
     // Offset: 0x0

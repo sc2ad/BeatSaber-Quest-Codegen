@@ -26,11 +26,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
-  // Forward declaring type: <>c__DisplayClass298_0
-  class $$c__DisplayClass298_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Sockets::Socket::$$c__DisplayClass298_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass298_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass298_0");

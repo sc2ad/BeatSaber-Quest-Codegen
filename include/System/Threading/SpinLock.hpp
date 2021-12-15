@@ -33,15 +33,7 @@ namespace System::Threading {
     public:
     // Nested type: System::Threading::SpinLock::SystemThreading_SpinLockDebugView
     class SystemThreading_SpinLockDebugView;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_owner
     // Size: 0x4
     // Offset: 0x0

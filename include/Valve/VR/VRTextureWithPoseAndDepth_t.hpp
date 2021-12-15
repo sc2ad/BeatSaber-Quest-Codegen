@@ -25,15 +25,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithPoseAndDepth_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Valve.VR.VRTextureDepthInfo_t depth
     // Size: 0x50
     // Offset: 0x0

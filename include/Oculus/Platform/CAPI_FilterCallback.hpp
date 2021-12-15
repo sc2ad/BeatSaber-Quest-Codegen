@@ -26,11 +26,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: FilterCallback
-  class FilterCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::CAPI::FilterCallback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform", "CAPI/FilterCallback");

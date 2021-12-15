@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class MainEffectSO;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Preset
-  class Preset;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*, "", "MainEffectGraphicsSettingsPresetsSO/Preset");

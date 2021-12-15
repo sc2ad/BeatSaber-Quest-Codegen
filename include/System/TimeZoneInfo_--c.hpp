@@ -20,11 +20,6 @@ namespace System {
   class Comparison_1;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TimeZoneInfo::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c");

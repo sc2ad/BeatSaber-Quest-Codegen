@@ -38,15 +38,7 @@ namespace UnityEngine::UI::CoroutineTween {
     public:
     // Nested type: UnityEngine::UI::CoroutineTween::FloatTween::FloatTweenCallback
     class FloatTweenCallback;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.CoroutineTween.FloatTween/UnityEngine.UI.CoroutineTween.FloatTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0

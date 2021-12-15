@@ -12,11 +12,6 @@
 // Including type: Valve.VR.IVROverlay
 #include "Valve/VR/IVROverlay.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: PollNextOverlayEventUnion
-  struct PollNextOverlayEventUnion;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay::PollNextOverlayEventUnion, "Valve.VR", "CVROverlay/PollNextOverlayEventUnion");
 // Type namespace: Valve.VR
@@ -27,15 +22,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVROverlay::PollNextOverlayEventUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Valve.VR.IVROverlay/Valve.VR._PollNextOverlayEvent pPollNextOverlayEvent
     // Size: 0x8
     // Offset: 0x0

@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class MultiplayerLevelCompletionResults;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <StartLevelFinished>d__19
-  class $StartLevelFinished$d__19;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__19");

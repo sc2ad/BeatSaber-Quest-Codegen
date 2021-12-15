@@ -33,11 +33,6 @@ namespace UnityEngine::AddressableAssets {
   class AssetReference;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BTSResultCharacterPlaceWithAnimation
-  class BTSResultCharacterPlaceWithAnimation;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");

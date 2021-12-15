@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: InternalCancelHandler
-  class InternalCancelHandler;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Console::InternalCancelHandler);
 DEFINE_IL2CPP_ARG_TYPE(System::Console::InternalCancelHandler*, "System", "Console/InternalCancelHandler");

@@ -25,11 +25,6 @@ namespace Mono::Globalization::Unicode {
   class Level2Map;
 }
 // Completed forward declares
-// Type namespace: Mono.Globalization.Unicode
-namespace Mono::Globalization::Unicode {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");

@@ -29,11 +29,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: Zenject.Internal
-namespace Zenject::Internal {
-  // Forward declaring type: <GetAllSceneContexts>d__3
-  class $GetAllSceneContexts$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3*, "Zenject.Internal", "ZenUtilInternal/<GetAllSceneContexts>d__3");

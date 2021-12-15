@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.XR.WSA
-namespace UnityEngine::XR::WSA {
-  // Forward declaring type: OnTrackingChangedDelegate
-  class OnTrackingChangedDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*, "UnityEngine.XR.WSA", "WorldAnchor/OnTrackingChangedDelegate");

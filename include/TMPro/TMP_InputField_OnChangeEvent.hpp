@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: OnChangeEvent
-  class OnChangeEvent;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_InputField::OnChangeEvent);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnChangeEvent*, "TMPro", "TMP_InputField/OnChangeEvent");

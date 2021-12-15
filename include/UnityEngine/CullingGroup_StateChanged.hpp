@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: StateChanged
-  class StateChanged;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::CullingGroup::StateChanged);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup::StateChanged*, "UnityEngine", "CullingGroup/StateChanged");

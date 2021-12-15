@@ -20,12 +20,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: <>c__23`1<T>
-  template<typename T>
-  class $$c__23_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ArrayUtility::$$c__23_1, "UnityEngine.ProBuilder", "ArrayUtility/<>c__23`1");
 // Type namespace: UnityEngine.ProBuilder

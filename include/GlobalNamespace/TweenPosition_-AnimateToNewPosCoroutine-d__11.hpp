@@ -16,11 +16,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <AnimateToNewPosCoroutine>d__11
-  class $AnimateToNewPosCoroutine$d__11;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11*, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");

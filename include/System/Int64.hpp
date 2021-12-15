@@ -55,15 +55,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D8F4
   struct Int64/*, public System::ValueType, public System::IComparable_1<int64_t>, public System::IEquatable_1<int64_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int64 m_value
     // Size: 0x8
     // Offset: 0x0

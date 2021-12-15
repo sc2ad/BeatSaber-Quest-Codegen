@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ColorType
-  struct ColorType;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ColorType, "", "BeatmapSaveData/ColorType");
 // Type namespace: 
@@ -25,15 +20,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapSaveData::ColorType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

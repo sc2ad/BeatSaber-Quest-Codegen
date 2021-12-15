@@ -40,15 +40,7 @@ namespace UnityEngine {
   template<typename T>
   struct ExposedReference_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [SerializeField] Offset: 0xEB7ABC
     // public UnityEngine.PropertyName exposedName
     // Size: 0x4

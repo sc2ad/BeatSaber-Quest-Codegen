@@ -22,12 +22,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: ModestTree
-namespace ModestTree {
-  // Forward declaring type: <Yield>d__0`1<T>
-  template<typename T>
-  class $Yield$d__0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(ModestTree::LinqExtensions::$Yield$d__0_1, "ModestTree", "LinqExtensions/<Yield>d__0`1");
 // Type namespace: ModestTree

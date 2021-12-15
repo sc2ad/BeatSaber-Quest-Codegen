@@ -19,11 +19,6 @@ namespace UnityEngine {
   class AnimationCurve;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: MinMaxCurve
-  struct MinMaxCurve;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
 // Type namespace: UnityEngine
@@ -36,15 +31,7 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EE5E38
   struct ParticleSystem::MinMaxCurve/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystemCurveMode m_Mode
     // Size: 0x4
     // Offset: 0x0

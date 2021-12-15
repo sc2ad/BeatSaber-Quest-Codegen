@@ -35,15 +35,7 @@ namespace UnityEngine::XR {
   // [StaticAccessorAttribute] Offset: EDB63C
   struct Hand/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Hand>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0

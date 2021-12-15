@@ -55,15 +55,7 @@ namespace System::Runtime::CompilerServices {
     class $$c__DisplayClass4_0;
     // Nested type: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c
     class $$c;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8
     // Offset: 0x0

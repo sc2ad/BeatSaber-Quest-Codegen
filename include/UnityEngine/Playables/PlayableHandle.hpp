@@ -60,15 +60,7 @@ namespace UnityEngine::Playables {
   // [UsedByNativeCodeAttribute] Offset: EB6E38
   struct PlayableHandle/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Playables::PlayableHandle>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.IntPtr m_Handle
     // Size: 0x8
     // Offset: 0x0

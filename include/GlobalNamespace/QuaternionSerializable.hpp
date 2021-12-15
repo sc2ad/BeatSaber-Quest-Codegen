@@ -44,15 +44,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct QuaternionSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::QuaternionSerializable>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0

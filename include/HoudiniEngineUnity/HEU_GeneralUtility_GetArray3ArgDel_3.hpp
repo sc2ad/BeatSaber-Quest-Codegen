@@ -24,12 +24,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: GetArray3ArgDel`3<ARG3, ARG2, T>
-  template<typename ARG3, typename ARG2, typename T>
-  class GetArray3ArgDel_3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3, "HoudiniEngineUnity", "HEU_GeneralUtility/GetArray3ArgDel`3");
 // Type namespace: HoudiniEngineUnity

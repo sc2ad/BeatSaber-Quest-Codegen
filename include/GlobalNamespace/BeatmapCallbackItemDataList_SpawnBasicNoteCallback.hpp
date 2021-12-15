@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SpawnBasicNoteCallback
-  class SpawnBasicNoteCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, "", "BeatmapCallbackItemDataList/SpawnBasicNoteCallback");

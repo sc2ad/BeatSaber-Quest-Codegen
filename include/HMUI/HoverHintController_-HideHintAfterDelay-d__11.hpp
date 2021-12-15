@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <HideHintAfterDelay>d__11
-  class $HideHintAfterDelay$d__11;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::HoverHintController::$HideHintAfterDelay$d__11);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$HideHintAfterDelay$d__11*, "HMUI", "HoverHintController/<HideHintAfterDelay>d__11");

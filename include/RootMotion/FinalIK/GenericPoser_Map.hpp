@@ -23,11 +23,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Map
-  class Map;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::GenericPoser::Map);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");

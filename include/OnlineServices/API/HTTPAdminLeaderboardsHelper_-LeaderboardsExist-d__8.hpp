@@ -19,11 +19,6 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <LeaderboardsExist>d__8
-  struct $LeaderboardsExist$d__8;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<LeaderboardsExist>d__8");
 // Type namespace: OnlineServices.API
@@ -34,15 +29,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPAdminLeaderboardsHelper::$LeaderboardsExist$d__8/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

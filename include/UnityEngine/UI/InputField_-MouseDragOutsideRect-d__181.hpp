@@ -21,11 +21,6 @@ namespace UnityEngine::EventSystems {
   class PointerEventData;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: <MouseDragOutsideRect>d__181
-  class $MouseDragOutsideRect$d__181;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$MouseDragOutsideRect$d__181*, "UnityEngine.UI", "InputField/<MouseDragOutsideRect>d__181");

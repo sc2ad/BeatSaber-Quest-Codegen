@@ -27,12 +27,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: System.Linq
-namespace System::Linq {
-  // Forward declaring type: WhereEnumerableIterator`1<TSource>
-  template<typename TSource>
-  class WhereEnumerableIterator_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::WhereEnumerableIterator_1, "System.Linq", "Enumerable/WhereEnumerableIterator`1");
 // Type namespace: System.Linq

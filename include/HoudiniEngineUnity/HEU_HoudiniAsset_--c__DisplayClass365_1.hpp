@@ -19,11 +19,6 @@ namespace HoudiniEngineUnity {
   class HEU_Curve;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: <>c__DisplayClass365_1
-  class $$c__DisplayClass365_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_1*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_1");

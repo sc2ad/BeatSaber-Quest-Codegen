@@ -15,11 +15,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Crypto.Engines
-namespace Org::BouncyCastle::Crypto::Engines {
-  // Forward declaring type: Threefish256Cipher
-  class Threefish256Cipher;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Threefish256Cipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/Threefish256Cipher");

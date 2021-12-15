@@ -25,11 +25,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: MatchNumberDelegate
-  class MatchNumberDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::DateTimeParse::MatchNumberDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "DateTimeParse/MatchNumberDelegate");

@@ -15,11 +15,6 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <AuthenticateWithMasterServerAsyncInternalVerbose>d__28
-  struct $AuthenticateWithMasterServerAsyncInternalVerbose$d__28;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternalVerbose$d__28, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServerAsyncInternalVerbose>d__28");
 // Type namespace: MasterServer
@@ -30,15 +25,7 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternalVerbose$d__28/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

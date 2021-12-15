@@ -69,15 +69,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   template<typename TObject>
   struct AsyncOperationHandle_1/*, public System::ValueType, public System::Collections::IEnumerator, public System::IEquatable_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> m_InternalOp
     // Size: 0x8
     // Offset: 0x0

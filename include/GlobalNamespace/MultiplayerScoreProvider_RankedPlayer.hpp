@@ -24,11 +24,6 @@ namespace GlobalNamespace {
   class MultiplayerSyncState_3;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RankedPlayer
-  class RankedPlayer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, "", "MultiplayerScoreProvider/RankedPlayer");

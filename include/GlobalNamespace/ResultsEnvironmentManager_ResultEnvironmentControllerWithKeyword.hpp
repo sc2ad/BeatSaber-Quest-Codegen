@@ -19,11 +19,6 @@ namespace GlobalNamespace {
   class BaseResultsEnvironmentController;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ResultEnvironmentControllerWithKeyword
-  class ResultEnvironmentControllerWithKeyword;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*, "", "ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword");

@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: TestClass
-  struct TestClass;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility::TestClass, "UnityEngine", "ScriptingUtility/TestClass");
 // Type namespace: UnityEngine
@@ -26,15 +21,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ScriptingUtility::TestClass/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value
     // Size: 0x4
     // Offset: 0x0

@@ -27,15 +27,7 @@ namespace UnityEngine::Profiling::Experimental {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DebugScreenCapture/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEB8A70
     // private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
     // Size: 0xFFFFFFFF

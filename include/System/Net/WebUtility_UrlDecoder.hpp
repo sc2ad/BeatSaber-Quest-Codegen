@@ -20,11 +20,6 @@ namespace System::Text {
   class Encoding;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: UrlDecoder
-  class UrlDecoder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebUtility::UrlDecoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");

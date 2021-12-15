@@ -20,11 +20,6 @@
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <GetEntitlementStatus>d__6
-  struct $GetEntitlementStatus$d__6;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6, "", "NetworkPlayerEntitlementChecker/<GetEntitlementStatus>d__6");
 // Type namespace: 
@@ -35,15 +30,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

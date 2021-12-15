@@ -30,11 +30,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <get_beatmapObjectsData>d__32
-  class $get_beatmapObjectsData$d__32;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__32);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__32*, "", "BeatmapData/<get_beatmapObjectsData>d__32");

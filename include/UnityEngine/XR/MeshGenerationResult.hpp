@@ -43,15 +43,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBCB4
   struct MeshGenerationResult/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEDC0F0
     // private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
     // Size: 0x10

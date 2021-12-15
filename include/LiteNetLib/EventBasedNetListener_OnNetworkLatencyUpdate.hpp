@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: OnNetworkLatencyUpdate
-  class OnNetworkLatencyUpdate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*, "LiteNetLib", "EventBasedNetListener/OnNetworkLatencyUpdate");

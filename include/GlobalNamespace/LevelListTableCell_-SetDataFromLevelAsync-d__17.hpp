@@ -29,11 +29,6 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <SetDataFromLevelAsync>d__17
-  struct $SetDataFromLevelAsync$d__17;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell::$SetDataFromLevelAsync$d__17, "", "LevelListTableCell/<SetDataFromLevelAsync>d__17");
 // Type namespace: 
@@ -44,15 +39,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct LevelListTableCell::$SetDataFromLevelAsync$d__17/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -23,15 +23,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DriverDirectMode_FrameTiming/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt32 m_nSize
     // Size: 0x4
     // Offset: 0x0

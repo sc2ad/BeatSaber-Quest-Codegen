@@ -19,11 +19,6 @@
 #include "GlobalNamespace/EncryptionUtility.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <InitializePlayerEncryption>d__128
-  struct $InitializePlayerEncryption$d__128;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::$InitializePlayerEncryption$d__128, "", "ConnectedPlayerManager/<InitializePlayerEncryption>d__128");
 // Type namespace: 
@@ -34,15 +29,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct ConnectedPlayerManager::$InitializePlayerEncryption$d__128/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

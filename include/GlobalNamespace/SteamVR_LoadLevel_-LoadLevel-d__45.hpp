@@ -25,11 +25,6 @@ namespace Valve::VR {
   class CVRCompositor;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LoadLevel>d__45
-  class $LoadLevel$d__45;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45*, "", "SteamVR_LoadLevel/<LoadLevel>d__45");

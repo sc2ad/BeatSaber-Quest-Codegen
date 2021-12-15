@@ -25,11 +25,6 @@ namespace System::Text {
   class Encoding;
 }
 // Completed forward declares
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: NullStreamReader
-  class NullStreamReader;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::StreamReader::NullStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamReader::NullStreamReader*, "System.IO", "StreamReader/NullStreamReader");

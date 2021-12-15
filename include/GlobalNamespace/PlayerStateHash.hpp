@@ -56,15 +56,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct PlayerStateHash/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::PlayerStateHash>, public System::IEquatable_1<GlobalNamespace::PlayerStateHash>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly BitMask128 _bloomFilter
     // Size: 0x10
     // Offset: 0x0

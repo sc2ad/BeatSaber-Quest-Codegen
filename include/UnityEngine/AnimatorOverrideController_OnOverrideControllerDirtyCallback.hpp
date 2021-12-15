@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: OnOverrideControllerDirtyCallback
-  class OnOverrideControllerDirtyCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*, "UnityEngine", "AnimatorOverrideController/OnOverrideControllerDirtyCallback");

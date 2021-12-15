@@ -32,15 +32,7 @@ namespace OVR::OpenVR {
     class _LoadSharedResource;
     // Nested type: OVR::OpenVR::IVRResources::_GetResourceFullPath
     class _GetResourceFullPath;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRResources/OVR.OpenVR._LoadSharedResource LoadSharedResource
     // Size: 0x8
     // Offset: 0x0

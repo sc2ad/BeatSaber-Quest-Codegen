@@ -37,15 +37,7 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   struct BindingId/*, public System::ValueType, public System::IEquatable_1<Zenject::BindingId>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type _type
     // Size: 0x8
     // Offset: 0x0

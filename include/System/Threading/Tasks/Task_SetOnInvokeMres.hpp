@@ -16,11 +16,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: SetOnInvokeMres
-  class SetOnInvokeMres;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::Task::SetOnInvokeMres);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::SetOnInvokeMres*, "System.Threading.Tasks", "Task/SetOnInvokeMres");

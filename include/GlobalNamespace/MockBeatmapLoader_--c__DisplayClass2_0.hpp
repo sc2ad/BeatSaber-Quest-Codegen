@@ -23,11 +23,6 @@ namespace GlobalNamespace {
   class IDifficultyBeatmap;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass2_0
-  class $$c__DisplayClass2_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$$c__DisplayClass2_0*, "", "MockBeatmapLoader/<>c__DisplayClass2_0");

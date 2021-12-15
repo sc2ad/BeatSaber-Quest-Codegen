@@ -39,11 +39,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AddressableAssets
-namespace UnityEngine::AddressableAssets {
-  // Forward declaring type: LoadResourceLocationKeysOp
-  class LoadResourceLocationKeysOp;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeysOp");

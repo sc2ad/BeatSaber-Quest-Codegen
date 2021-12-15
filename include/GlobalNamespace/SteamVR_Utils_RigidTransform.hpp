@@ -28,11 +28,6 @@ namespace Valve::VR {
   struct HmdMatrix44_t;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RigidTransform
-  struct RigidTransform;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
 // Type namespace: 
@@ -44,15 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SteamVR_Utils::RigidTransform/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x0

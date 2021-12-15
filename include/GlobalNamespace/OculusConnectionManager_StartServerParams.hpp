@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class OculusNetworkPlayerModel;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StartServerParams
-  class StartServerParams;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusConnectionManager::StartServerParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::StartServerParams*, "", "OculusConnectionManager/StartServerParams");

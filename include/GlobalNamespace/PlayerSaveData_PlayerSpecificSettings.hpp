@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PlayerSpecificSettings
-  class PlayerSpecificSettings;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*, "", "PlayerSaveData/PlayerSpecificSettings");
@@ -40,15 +35,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EnvironmentEffectsFilterPresetSaveData/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -96,15 +83,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NoteJumpDurationTypeSettingsSaveData/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

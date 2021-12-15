@@ -22,11 +22,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder.Poly2Tri
-namespace UnityEngine::ProBuilder::Poly2Tri {
-  // Forward declaring type: <Enumerate>d__10
-  class $Enumerate$d__10;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10*, "UnityEngine.ProBuilder.Poly2Tri", "FixedBitArray3/<Enumerate>d__10");

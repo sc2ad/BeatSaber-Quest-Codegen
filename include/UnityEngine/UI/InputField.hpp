@@ -137,15 +137,7 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ContentType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -235,15 +227,7 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InputType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -291,15 +275,7 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CharacterValidation/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -365,15 +341,7 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LineType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

@@ -23,11 +23,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Pool
-  class Pool;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSStarTextEffectController::Pool);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController::Pool*, "", "BTSStarTextEffectController/Pool");

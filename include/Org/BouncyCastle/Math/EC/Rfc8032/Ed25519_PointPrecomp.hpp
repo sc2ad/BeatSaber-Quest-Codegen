@@ -13,11 +13,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-  // Forward declaring type: PointPrecomp
-  class PointPrecomp;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointPrecomp");

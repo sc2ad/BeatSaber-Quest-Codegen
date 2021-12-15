@@ -12,11 +12,6 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
-  // Forward declaring type: WSABUF
-  struct WSABUF;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::WSABUF, "System.Net.Sockets", "Socket/WSABUF");
 // Type namespace: System.Net.Sockets
@@ -28,15 +23,7 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Socket::WSABUF/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 len
     // Size: 0x4
     // Offset: 0x0

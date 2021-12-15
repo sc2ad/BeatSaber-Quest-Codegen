@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_tlsctx
-  struct unitytls_tlsctx;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx, "Mono.Unity", "UnityTls/unitytls_tlsctx");
 // Type namespace: Mono.Unity

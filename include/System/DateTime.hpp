@@ -77,15 +77,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTime/*, public System::ValueType, public System::IComparable_1<System::DateTime>, public System::IEquatable_1<System::DateTime>, public System::Runtime::Serialization::ISerializable, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 dateData
     // Size: 0x8
     // Offset: 0x0

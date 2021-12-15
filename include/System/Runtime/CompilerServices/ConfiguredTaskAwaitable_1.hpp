@@ -58,15 +58,7 @@ namespace System::Runtime::CompilerServices {
       using declaring_type = ConfiguredTaskAwaitable_1<TResult>;
       static constexpr std::string_view NESTED_NAME = "ConfiguredTaskAwaiter";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly System.Threading.Tasks.Task`1<TResult> m_task
       // Size: 0x8
       // Offset: 0x0
@@ -139,15 +131,7 @@ namespace System::Runtime::CompilerServices {
       }
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter is generic, or has no fields that are valid for size checks!
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter
     // Size: 0xFFFFFFFF
     // Offset: 0x0

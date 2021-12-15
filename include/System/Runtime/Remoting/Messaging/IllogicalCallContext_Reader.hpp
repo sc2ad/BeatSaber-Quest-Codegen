@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System.Runtime.Remoting.Messaging
-namespace System::Runtime::Remoting::Messaging {
-  // Forward declaring type: Reader
-  struct Reader;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader, "System.Runtime.Remoting.Messaging", "IllogicalCallContext/Reader");
 // Type namespace: System.Runtime.Remoting.Messaging
@@ -26,15 +21,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IllogicalCallContext::Reader/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Runtime.Remoting.Messaging.IllogicalCallContext m_ctx
     // Size: 0x8
     // Offset: 0x0

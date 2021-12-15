@@ -32,11 +32,6 @@ namespace UnityEngine::Networking {
   class UnityWebRequest;
 }
 // Completed forward declares
-// Type namespace: Polyglot
-namespace Polyglot {
-  // Forward declaring type: <DownloadSheet>d__0
-  class $DownloadSheet$d__0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Polyglot::GoogleDownload::$DownloadSheet$d__0);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload::$DownloadSheet$d__0*, "Polyglot", "GoogleDownload/<DownloadSheet>d__0");

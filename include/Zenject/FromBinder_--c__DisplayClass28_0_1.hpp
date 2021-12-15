@@ -31,12 +31,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass28_0`1<TContract>
-  template<typename TContract>
-  class $$c__DisplayClass28_0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FromBinder::$$c__DisplayClass28_0_1, "Zenject", "FromBinder/<>c__DisplayClass28_0`1");
 // Type namespace: Zenject

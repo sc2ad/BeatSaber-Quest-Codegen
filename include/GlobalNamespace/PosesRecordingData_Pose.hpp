@@ -14,11 +14,6 @@
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Pose
-  struct Pose;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingData::Pose, "", "PosesRecordingData/Pose");
 // Type namespace: 
@@ -31,15 +26,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct PosesRecordingData::Pose/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x0

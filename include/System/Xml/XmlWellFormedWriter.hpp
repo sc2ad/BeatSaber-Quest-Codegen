@@ -92,15 +92,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -329,15 +321,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ElementScope/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // System.Int32 prevNSTop
       // Size: 0x4
       // Offset: 0x0
@@ -416,15 +400,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NamespaceKind/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -479,15 +455,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Namespace/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // System.String prefix
       // Size: 0x8
       // Offset: 0x0
@@ -544,15 +512,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AttrName/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // System.String prefix
       // Size: 0x8
       // Offset: 0x0
@@ -608,15 +568,7 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SpecialAttribute/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

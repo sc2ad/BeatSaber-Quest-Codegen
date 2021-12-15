@@ -35,15 +35,7 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: EA0F48
   struct SerializationEntry/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type m_type
     // Size: 0x8
     // Offset: 0x0

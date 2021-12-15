@@ -16,11 +16,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: ColorTweenCallback
-  class ColorTweenCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::ColorTween::ColorTweenCallback);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ColorTween::ColorTweenCallback*, "TMPro", "ColorTween/ColorTweenCallback");

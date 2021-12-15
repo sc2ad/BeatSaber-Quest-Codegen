@@ -26,11 +26,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: LinqEnumerator
-  class LinqEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONNode::LinqEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::LinqEnumerator*, "HoudiniEngineUnity", "JSONNode/LinqEnumerator");

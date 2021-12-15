@@ -24,11 +24,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.IO.Compression
-namespace System::IO::Compression {
-  // Forward declaring type: ReadMethod
-  class ReadMethod;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Compression::DeflateStream::ReadMethod);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::ReadMethod*, "System.IO.Compression", "DeflateStream/ReadMethod");

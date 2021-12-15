@@ -29,11 +29,6 @@ namespace System::Collections {
   class IEnumerator;
 }
 // Completed forward declares
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: NodeKeyValueCollection
-  class NodeKeyValueCollection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeKeyValueCollection*, "System.Collections.Specialized", "ListDictionary/NodeKeyValueCollection");

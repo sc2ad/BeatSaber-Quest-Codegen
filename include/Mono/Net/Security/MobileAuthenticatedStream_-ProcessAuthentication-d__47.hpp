@@ -32,11 +32,6 @@ namespace Mono::Net::Security {
   class AsyncProtocolResult;
 }
 // Completed forward declares
-// Type namespace: Mono.Net.Security
-namespace Mono::Net::Security {
-  // Forward declaring type: <ProcessAuthentication>d__47
-  struct $ProcessAuthentication$d__47;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$ProcessAuthentication$d__47, "Mono.Net.Security", "MobileAuthenticatedStream/<ProcessAuthentication>d__47");
 // Type namespace: Mono.Net.Security
@@ -47,15 +42,7 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MobileAuthenticatedStream::$ProcessAuthentication$d__47/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -32,15 +32,7 @@ namespace UnityEngine::Experimental::Playables {
   // [StaticAccessorAttribute] Offset: EB727C
   struct TexturePlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0

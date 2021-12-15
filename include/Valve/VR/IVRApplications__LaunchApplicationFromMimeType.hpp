@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _LaunchApplicationFromMimeType
-  class _LaunchApplicationFromMimeType;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRApplications::_LaunchApplicationFromMimeType);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_LaunchApplicationFromMimeType*, "Valve.VR", "IVRApplications/_LaunchApplicationFromMimeType");

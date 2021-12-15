@@ -35,15 +35,7 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E9F2B4
   struct CustomAttributeTypedArgument/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Type argumentType
     // Size: 0x8
     // Offset: 0x0

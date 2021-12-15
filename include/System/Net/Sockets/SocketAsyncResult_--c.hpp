@@ -19,11 +19,6 @@ namespace System::Threading {
   class WaitCallback;
 }
 // Completed forward declares
-// Type namespace: System.Net.Sockets
-namespace System::Net::Sockets {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult::$$c*, "System.Net.Sockets", "SocketAsyncResult/<>c");

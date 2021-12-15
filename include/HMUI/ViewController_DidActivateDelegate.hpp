@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: DidActivateDelegate
-  class DidActivateDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewController::DidActivateDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::DidActivateDelegate*, "HMUI", "ViewController/DidActivateDelegate");

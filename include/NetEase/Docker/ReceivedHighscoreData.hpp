@@ -36,15 +36,7 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xF2E8A0
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1

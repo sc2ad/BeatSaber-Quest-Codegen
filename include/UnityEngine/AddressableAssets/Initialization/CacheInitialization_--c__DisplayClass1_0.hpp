@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.AddressableAssets.Initialization
-namespace UnityEngine::AddressableAssets::Initialization {
-  // Forward declaring type: <>c__DisplayClass1_0
-  class $$c__DisplayClass1_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");

@@ -49,11 +49,6 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ScenesTransitionCoroutine>d__36
-  class $ScenesTransitionCoroutine$d__36;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__36);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$ScenesTransitionCoroutine$d__36*, "", "GameScenesManager/<ScenesTransitionCoroutine>d__36");

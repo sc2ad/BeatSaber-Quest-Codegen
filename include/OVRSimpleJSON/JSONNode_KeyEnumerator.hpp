@@ -12,11 +12,6 @@
 // Including type: OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
 // Completed includes
-// Type namespace: OVRSimpleJSON
-namespace OVRSimpleJSON {
-  // Forward declaring type: KeyEnumerator
-  struct KeyEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
 // Type namespace: OVRSimpleJSON
@@ -27,15 +22,7 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   struct JSONNode::KeyEnumerator/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF
     // Offset: 0x0

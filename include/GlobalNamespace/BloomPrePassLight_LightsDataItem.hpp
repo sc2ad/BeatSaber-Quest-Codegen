@@ -25,11 +25,6 @@ namespace System::Collections::Generic {
   class HashSet_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightsDataItem
-  class LightsDataItem;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BloomPrePassLight::LightsDataItem);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");

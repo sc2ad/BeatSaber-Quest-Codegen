@@ -21,11 +21,6 @@ namespace UnityEngine::ProBuilder {
   struct EdgeLookup;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder.MeshOperations
-namespace UnityEngine::ProBuilder::MeshOperations {
-  // Forward declaring type: <>c__DisplayClass14_0
-  class $$c__DisplayClass14_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0*, "UnityEngine.ProBuilder.MeshOperations", "AppendElements/<>c__DisplayClass14_0");

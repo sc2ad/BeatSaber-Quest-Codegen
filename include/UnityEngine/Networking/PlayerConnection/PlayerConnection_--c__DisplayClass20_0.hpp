@@ -19,11 +19,6 @@ namespace UnityEngine::Networking::PlayerConnection {
   class MessageEventArgs;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Networking.PlayerConnection
-namespace UnityEngine::Networking::PlayerConnection {
-  // Forward declaring type: <>c__DisplayClass20_0
-  class $$c__DisplayClass20_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");

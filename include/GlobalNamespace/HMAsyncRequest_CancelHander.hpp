@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CancelHander
-  class CancelHander;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HMAsyncRequest::CancelHander);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest::CancelHander*, "", "HMAsyncRequest/CancelHander");

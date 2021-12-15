@@ -25,11 +25,6 @@ namespace System::Net {
   class ServicePoint;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: ConnectionState
-  class ConnectionState;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebConnectionGroup::ConnectionState);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup::ConnectionState*, "System.Net", "WebConnectionGroup/ConnectionState");

@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <MainCoroutine>d__9
-  class $MainCoroutine$d__9;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VFXController::$MainCoroutine$d__9);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController::$MainCoroutine$d__9*, "", "VFXController/<MainCoroutine>d__9");

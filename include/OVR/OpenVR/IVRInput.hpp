@@ -64,15 +64,7 @@ namespace OVR::OpenVR {
     class _ShowActionOrigins;
     // Nested type: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet
     class _ShowBindingsForActionSet;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRInput/OVR.OpenVR._SetActionManifestPath SetActionManifestPath
     // Size: 0x8
     // Offset: 0x0

@@ -27,11 +27,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class RsaPrivateCrtKeyParameters;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RSACertificateEncryptionProvider
-  class RSACertificateEncryptionProvider;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider*, "", "X509CertificateUtility/RSACertificateEncryptionProvider");

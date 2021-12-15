@@ -24,11 +24,6 @@ namespace NUnit::Framework::Internal {
   class ITestExecutionContext;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
-namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
-  // Forward declaring type: <>c__DisplayClass3_0
-  class $$c__DisplayClass3_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityLogCheckDelegatingCommand/<>c__DisplayClass3_0");

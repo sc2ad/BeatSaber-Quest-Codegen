@@ -24,11 +24,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: ContinuationWrapper
-  class ContinuationWrapper;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");

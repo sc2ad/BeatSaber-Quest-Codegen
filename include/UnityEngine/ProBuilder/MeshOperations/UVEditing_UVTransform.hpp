@@ -12,11 +12,6 @@
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
-// Type namespace: UnityEngine.ProBuilder.MeshOperations
-namespace UnityEngine::ProBuilder::MeshOperations {
-  // Forward declaring type: UVTransform
-  struct UVTransform;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
@@ -28,15 +23,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UVEditing::UVTransform/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector2 translation
     // Size: 0x8
     // Offset: 0x0

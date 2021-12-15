@@ -30,11 +30,6 @@ namespace NUnit::Framework::Interfaces {
   class ITestFilter;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.TestRunner
-namespace UnityEngine::TestTools::TestRunner {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings/<>c");

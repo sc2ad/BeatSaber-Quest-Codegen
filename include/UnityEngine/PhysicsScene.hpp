@@ -44,15 +44,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EC83F8
   struct PhysicsScene/*, public System::ValueType, public System::IEquatable_1<UnityEngine::PhysicsScene>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_Handle
     // Size: 0x4
     // Offset: 0x0

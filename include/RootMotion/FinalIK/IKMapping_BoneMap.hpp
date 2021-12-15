@@ -30,11 +30,6 @@ namespace RootMotion::FinalIK {
   class IKSolverFullBody;
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: BoneMap
-  class BoneMap;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::IKMapping::BoneMap);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");

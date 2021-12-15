@@ -26,12 +26,6 @@ namespace System::Linq {
   class IGrouping_2;
 }
 // Completed forward declares
-// Type namespace: ModestTree
-namespace ModestTree {
-  // Forward declaring type: <>c__7`1<T>
-  template<typename T>
-  class $$c__7_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(ModestTree::LinqExtensions::$$c__7_1, "ModestTree", "LinqExtensions/<>c__7`1");
 // Type namespace: ModestTree

@@ -42,15 +42,7 @@ namespace Valve::VR {
     class _TakeStereoScreenshot;
     // Nested type: Valve::VR::IVRScreenshots::_SubmitScreenshot
     class _SubmitScreenshot;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRScreenshots/Valve.VR._RequestScreenshot RequestScreenshot
     // Size: 0x8
     // Offset: 0x0

@@ -35,11 +35,6 @@ namespace UnityEngine {
   class GameObject;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass17_0
-  class $$c__DisplayClass17_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, "Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0");

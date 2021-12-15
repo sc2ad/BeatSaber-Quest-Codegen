@@ -24,11 +24,6 @@ namespace System::Collections::Generic {
   class IReadOnlyList_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <GetUserFriendsUserIds>d__1
-  struct $GetUserFriendsUserIds$d__1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1, "", "TestPlatformUserModel/<GetUserFriendsUserIds>d__1");
 // Type namespace: 
@@ -39,15 +34,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct TestPlatformUserModel::$GetUserFriendsUserIds$d__1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

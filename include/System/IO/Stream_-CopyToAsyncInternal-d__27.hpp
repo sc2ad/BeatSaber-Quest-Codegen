@@ -21,11 +21,6 @@
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: <CopyToAsyncInternal>d__27
-  struct $CopyToAsyncInternal$d__27;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
 // Type namespace: System.IO
@@ -36,15 +31,7 @@ namespace System::IO {
   // [CompilerGeneratedAttribute] Offset: E9F900
   struct Stream::$CopyToAsyncInternal$d__27/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

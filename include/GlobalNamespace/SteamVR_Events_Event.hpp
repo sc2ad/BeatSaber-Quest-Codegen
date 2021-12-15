@@ -21,11 +21,6 @@ namespace UnityEngine::Events {
   class UnityAction;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Event
-  class Event;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Events::Event);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Event*, "", "SteamVR_Events/Event");

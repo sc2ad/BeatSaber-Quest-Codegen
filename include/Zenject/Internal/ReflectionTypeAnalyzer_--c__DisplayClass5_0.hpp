@@ -32,11 +32,6 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject.Internal
-namespace Zenject::Internal {
-  // Forward declaring type: <>c__DisplayClass5_0
-  class $$c__DisplayClass5_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_0");

@@ -24,11 +24,6 @@ namespace System::Threading::Tasks {
   class TaskCompletionSource_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <RunAsyncCoroutine>d__21
-  class $RunAsyncCoroutine$d__21;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21*, "", "StandaloneMonobehavior/<RunAsyncCoroutine>d__21");

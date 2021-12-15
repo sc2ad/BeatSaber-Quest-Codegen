@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ScrollCoroutine>d__13
-  class $ScrollCoroutine$d__13;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsController::$ScrollCoroutine$d__13*, "", "CreditsController/<ScrollCoroutine>d__13");

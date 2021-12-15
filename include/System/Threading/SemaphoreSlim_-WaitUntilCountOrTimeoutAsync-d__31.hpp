@@ -30,11 +30,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: <WaitUntilCountOrTimeoutAsync>d__31
-  struct $WaitUntilCountOrTimeoutAsync$d__31;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31, "System.Threading", "SemaphoreSlim/<WaitUntilCountOrTimeoutAsync>d__31");
 // Type namespace: System.Threading
@@ -45,15 +40,7 @@ namespace System::Threading {
   // [CompilerGeneratedAttribute] Offset: E9FE4C
   struct SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

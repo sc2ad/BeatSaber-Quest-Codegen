@@ -20,11 +20,6 @@
 // Including type: System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
 #include "System/Runtime/CompilerServices/YieldAwaitable_YieldAwaiter.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <OpenLevelPackProductStoreAsync>d__10
-  struct $OpenLevelPackProductStoreAsync$d__10;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10, "", "TestPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__10");
 // Type namespace: 
@@ -35,15 +30,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct TestPlatformAdditionalContentModel::$OpenLevelPackProductStoreAsync$d__10/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

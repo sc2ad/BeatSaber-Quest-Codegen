@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: MediaType
-  struct MediaType;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::MediaType, "UnityEngine.Timeline", "TimelineAsset/MediaType");
 // Type namespace: UnityEngine.Timeline
@@ -26,15 +21,7 @@ namespace UnityEngine::Timeline {
   // [ObsoleteAttribute] Offset: EFC064
   struct TimelineAsset::MediaType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

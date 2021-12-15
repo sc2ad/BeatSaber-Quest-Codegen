@@ -12,11 +12,6 @@
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: LineSegment
-  struct LineSegment;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities::LineSegment, "TMPro", "TMP_TextUtilities/LineSegment");
 // Type namespace: TMPro
@@ -28,15 +23,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_TextUtilities::LineSegment/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 Point1
     // Size: 0xC
     // Offset: 0x0

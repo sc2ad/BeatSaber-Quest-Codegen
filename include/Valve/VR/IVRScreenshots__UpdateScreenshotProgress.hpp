@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _UpdateScreenshotProgress
-  class _UpdateScreenshotProgress;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRScreenshots::_UpdateScreenshotProgress);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_UpdateScreenshotProgress*, "Valve.VR", "IVRScreenshots/_UpdateScreenshotProgress");

@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-  // Forward declaring type: Algorithm
-  struct Algorithm;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/Algorithm");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
@@ -25,15 +20,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ed448::Algorithm/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

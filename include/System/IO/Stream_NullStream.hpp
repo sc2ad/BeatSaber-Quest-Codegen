@@ -43,11 +43,6 @@ namespace System::IO {
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: NullStream
-  class NullStream;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Stream::NullStream);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::NullStream*, "System.IO", "Stream/NullStream");

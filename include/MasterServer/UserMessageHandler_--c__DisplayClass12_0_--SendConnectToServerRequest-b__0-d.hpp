@@ -29,11 +29,6 @@ namespace MasterServer {
   class ConnectToServerResponse;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <<SendConnectToServerRequest>b__0>d
-  struct $$SendConnectToServerRequest$b__0$d;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass12_0::$$SendConnectToServerRequest$b__0$d, "MasterServer", "UserMessageHandler/<>c__DisplayClass12_0/<<SendConnectToServerRequest>b__0>d");
 // Type namespace: MasterServer
@@ -43,15 +38,7 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UserMessageHandler::$$c__DisplayClass12_0::$$SendConnectToServerRequest$b__0$d/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

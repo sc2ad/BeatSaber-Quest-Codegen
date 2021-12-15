@@ -68,15 +68,7 @@ namespace OVR::OpenVR {
     class _ExportLiveToBuffer;
     // Nested type: OVR::OpenVR::IVRChaperoneSetup::_ImportFromBufferToWorking
     class _ImportFromBufferToWorking;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRChaperoneSetup/OVR.OpenVR._CommitWorkingCopy CommitWorkingCopy
     // Size: 0x8
     // Offset: 0x0

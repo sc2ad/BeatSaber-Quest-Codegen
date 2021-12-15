@@ -37,11 +37,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.GlobalIllumination
-namespace UnityEngine::Experimental::GlobalIllumination {
-  // Forward declaring type: RequestLightsDelegate
-  class RequestLightsDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/RequestLightsDelegate");

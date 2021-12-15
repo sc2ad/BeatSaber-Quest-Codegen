@@ -17,11 +17,6 @@
 // Including type: NetEase.Docker.ReceivedHighscoreData
 #include "NetEase/Docker/ReceivedHighscoreData.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LoadScoresAsync>d__15
-  struct $LoadScoresAsync$d__15;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15, "", "NetEaseLeaderboardViewController/<LoadScoresAsync>d__15");
 // Type namespace: 
@@ -32,15 +27,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct NetEaseLeaderboardViewController::$LoadScoresAsync$d__15/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

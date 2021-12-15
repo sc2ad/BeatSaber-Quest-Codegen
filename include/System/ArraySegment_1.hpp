@@ -172,15 +172,7 @@ namespace System {
       }
     }; // System.ArraySegment`1/System.ArraySegmentEnumerator
     // Could not write size check! Type: System.ArraySegment`1/System.ArraySegmentEnumerator is generic, or has no fields that are valid for size checks!
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private T[] _array
     // Size: 0x8
     // Offset: 0x0

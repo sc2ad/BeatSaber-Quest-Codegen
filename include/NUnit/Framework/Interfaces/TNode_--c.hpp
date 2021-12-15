@@ -21,11 +21,6 @@ namespace System::Text::RegularExpressions {
   class Match;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Interfaces
-namespace NUnit::Framework::Interfaces {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Interfaces::TNode::$$c);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode::$$c*, "NUnit.Framework.Interfaces", "TNode/<>c");

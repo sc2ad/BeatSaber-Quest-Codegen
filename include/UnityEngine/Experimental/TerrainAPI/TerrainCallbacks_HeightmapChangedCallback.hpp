@@ -30,11 +30,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.TerrainAPI
-namespace UnityEngine::Experimental::TerrainAPI {
-  // Forward declaring type: HeightmapChangedCallback
-  class HeightmapChangedCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks/HeightmapChangedCallback");

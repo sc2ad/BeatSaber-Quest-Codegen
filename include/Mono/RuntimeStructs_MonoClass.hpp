@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: MonoClass
-  struct MonoClass;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::MonoClass, "Mono", "RuntimeStructs/MonoClass");
 // Type namespace: Mono

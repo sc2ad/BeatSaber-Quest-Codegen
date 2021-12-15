@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <DisappearAnimation>d__58
-  class $DisappearAnimation$d__58;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58*, "", "AvatarTweenController/<DisappearAnimation>d__58");

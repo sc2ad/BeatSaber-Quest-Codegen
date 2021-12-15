@@ -24,11 +24,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: AddEventAdapter
-  class AddEventAdapter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::EventInfo::AddEventAdapter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo::AddEventAdapter*, "System.Reflection", "EventInfo/AddEventAdapter");

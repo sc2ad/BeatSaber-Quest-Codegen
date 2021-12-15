@@ -24,11 +24,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.Serialization.Formatters.Binary
-namespace System::Runtime::Serialization::Formatters::Binary {
-  // Forward declaring type: TopLevelAssemblyTypeResolver
-  class TopLevelAssemblyTypeResolver;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TopLevelAssemblyTypeResolver");

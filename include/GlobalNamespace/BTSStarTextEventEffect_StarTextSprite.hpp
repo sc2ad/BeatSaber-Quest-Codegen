@@ -19,11 +19,6 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StarTextSprite
-  class StarTextSprite;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");

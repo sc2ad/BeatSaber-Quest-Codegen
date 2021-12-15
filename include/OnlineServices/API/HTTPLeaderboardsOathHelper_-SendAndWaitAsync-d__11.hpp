@@ -30,11 +30,6 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 // Completed forward declares
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <SendAndWaitAsync>d__11
-  struct $SendAndWaitAsync$d__11;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendAndWaitAsync>d__11");
 // Type namespace: OnlineServices.API
@@ -45,15 +40,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

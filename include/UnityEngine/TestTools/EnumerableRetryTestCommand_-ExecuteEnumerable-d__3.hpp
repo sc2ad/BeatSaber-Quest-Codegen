@@ -32,11 +32,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools
-namespace UnityEngine::TestTools {
-  // Forward declaring type: <ExecuteEnumerable>d__3
-  class $ExecuteEnumerable$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::EnumerableRetryTestCommand::$ExecuteEnumerable$d__3);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand::$ExecuteEnumerable$d__3*, "UnityEngine.TestTools", "EnumerableRetryTestCommand/<ExecuteEnumerable>d__3");

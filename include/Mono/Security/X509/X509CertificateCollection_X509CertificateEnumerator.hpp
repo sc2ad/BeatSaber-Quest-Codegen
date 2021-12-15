@@ -21,11 +21,6 @@ namespace Mono::Security::X509 {
   class X509Certificate;
 }
 // Completed forward declares
-// Type namespace: Mono.Security.X509
-namespace Mono::Security::X509 {
-  // Forward declaring type: X509CertificateEnumerator
-  class X509CertificateEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509CertificateCollection::X509CertificateEnumerator*, "Mono.Security.X509", "X509CertificateCollection/X509CertificateEnumerator");

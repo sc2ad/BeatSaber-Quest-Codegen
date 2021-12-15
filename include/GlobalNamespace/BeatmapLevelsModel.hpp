@@ -104,15 +104,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GetBeatmapLevelResult/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly System.Boolean isError
       // Size: 0x1
       // Offset: 0x0
@@ -160,15 +152,7 @@ namespace GlobalNamespace {
       // [TokenAttribute] Offset: FFFFFFFF
       struct DownloadingState/*, public System::Enum*/ {
         public:
-        #ifdef USE_CODEGEN_FIELDS
         public:
-        #else
-        #ifdef CODEGEN_FIELD_ACCESSIBILITY
-        CODEGEN_FIELD_ACCESSIBILITY:
-        #else
-        protected:
-        #endif
-        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
@@ -210,15 +194,7 @@ namespace GlobalNamespace {
       #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelsModel_LevelDownloadingUpdate_DownloadingStateSizeCheck;
       static_assert(sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState) == 0x4);
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly System.String levelID
       // Size: 0x8
       // Offset: 0x0

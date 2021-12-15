@@ -21,11 +21,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParameters;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.TeleTrust
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-  // Forward declaring type: BrainpoolP160t1Holder
-  class BrainpoolP160t1Holder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP160t1Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP160t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160t1Holder");

@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.Experimental.TerrainAPI
-namespace UnityEngine::Experimental::TerrainAPI {
-  // Forward declaring type: <>c__DisplayClass4_0
-  class $$c__DisplayClass4_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_0");

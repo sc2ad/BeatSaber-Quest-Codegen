@@ -17,11 +17,6 @@ namespace Zenject {
   class IPoolable;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: PoolableInfo
-  struct PoolableInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
 // Type namespace: Zenject
@@ -33,15 +28,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PoolableManager::PoolableInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Zenject.IPoolable Poolable
     // Size: 0x8
     // Offset: 0x0

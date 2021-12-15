@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: Callback
-  class Callback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::TimerThread::Callback);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Callback*, "System.Net", "TimerThread/Callback");

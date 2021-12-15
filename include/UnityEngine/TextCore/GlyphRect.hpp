@@ -29,15 +29,7 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EE7BE8
   struct GlyphRect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::GlyphRect>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEE8324
     // private System.Int32 m_X
     // Size: 0x4

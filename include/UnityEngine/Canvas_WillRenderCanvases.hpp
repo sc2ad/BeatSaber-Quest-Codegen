@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: WillRenderCanvases
-  class WillRenderCanvases;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Canvas::WillRenderCanvases);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas::WillRenderCanvases*, "UnityEngine", "Canvas/WillRenderCanvases");

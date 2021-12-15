@@ -24,11 +24,6 @@ namespace UnityEngine::TestRunner {
   class ITestRunCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestRunner.Utils
-namespace UnityEngine::TestRunner::Utils {
-  // Forward declaring type: <>c__DisplayClass6_0
-  class $$c__DisplayClass6_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c__DisplayClass6_0*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c__DisplayClass6_0");

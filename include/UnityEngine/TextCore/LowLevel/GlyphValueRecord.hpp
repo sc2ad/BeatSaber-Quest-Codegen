@@ -29,15 +29,7 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EE7C28
   struct GlyphValueRecord/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphValueRecord>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEE874C
     // private System.Single m_XPlacement
     // Size: 0x4

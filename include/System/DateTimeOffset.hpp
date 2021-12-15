@@ -59,15 +59,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeOffset/*, public System::ValueType, public System::IComparable_1<System::DateTimeOffset>, public System::IEquatable_1<System::DateTimeOffset>, public System::Runtime::Serialization::ISerializable, public System::IComparable, public System::IFormattable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.DateTime m_dateTime
     // Size: 0x8
     // Offset: 0x0

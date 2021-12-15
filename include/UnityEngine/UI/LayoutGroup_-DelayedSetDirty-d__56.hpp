@@ -21,11 +21,6 @@ namespace UnityEngine {
   class RectTransform;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: <DelayedSetDirty>d__56
-  class $DelayedSetDirty$d__56;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");

@@ -38,11 +38,6 @@ namespace System::Threading::Tasks {
   // Skipping declaration: Task because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: ReadWriteTask
-  class ReadWriteTask;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Stream::ReadWriteTask);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");

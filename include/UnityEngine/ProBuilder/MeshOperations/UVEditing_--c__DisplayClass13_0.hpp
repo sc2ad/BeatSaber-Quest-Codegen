@@ -20,11 +20,6 @@ namespace System::Collections::Generic {
   struct KeyValuePair_2;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder.MeshOperations
-namespace UnityEngine::ProBuilder::MeshOperations {
-  // Forward declaring type: <>c__DisplayClass13_0
-  class $$c__DisplayClass13_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass13_0");

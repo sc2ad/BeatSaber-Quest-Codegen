@@ -23,12 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: Getter`2<T, R>
-  template<typename T, typename R>
-  class Getter_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Reflection::MonoProperty::Getter_2, "System.Reflection", "MonoProperty/Getter`2");
 // Type namespace: System.Reflection

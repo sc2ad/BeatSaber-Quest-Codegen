@@ -32,11 +32,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _GetSpatialAnchorPose
-  class _GetSpatialAnchorPose;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose*, "OVR.OpenVR", "IVRSpatialAnchors/_GetSpatialAnchorPose");

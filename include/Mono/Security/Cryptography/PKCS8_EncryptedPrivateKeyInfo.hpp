@@ -13,11 +13,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Mono.Security.Cryptography
-namespace Mono::Security::Cryptography {
-  // Forward declaring type: EncryptedPrivateKeyInfo
-  class EncryptedPrivateKeyInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");

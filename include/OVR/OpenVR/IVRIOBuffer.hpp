@@ -38,15 +38,7 @@ namespace OVR::OpenVR {
     class _Write;
     // Nested type: OVR::OpenVR::IVRIOBuffer::_PropertyContainer
     class _PropertyContainer;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
     // Size: 0x8
     // Offset: 0x0

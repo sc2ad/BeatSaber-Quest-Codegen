@@ -28,15 +28,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: ED79C8
   struct ContactFilter2D/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xED7CD0
     // public System.Boolean useTriggers
     // Size: 0x1

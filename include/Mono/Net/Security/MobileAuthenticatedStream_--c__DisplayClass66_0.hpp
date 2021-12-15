@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Mono.Net.Security
-namespace Mono::Net::Security {
-  // Forward declaring type: <>c__DisplayClass66_0
-  class $$c__DisplayClass66_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");

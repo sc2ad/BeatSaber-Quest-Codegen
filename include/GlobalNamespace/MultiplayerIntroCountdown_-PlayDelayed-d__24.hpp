@@ -21,11 +21,6 @@ namespace UnityEngine {
   class AudioClip;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <PlayDelayed>d__24
-  class $PlayDelayed$d__24;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$PlayDelayed$d__24*, "", "MultiplayerIntroCountdown/<PlayDelayed>d__24");

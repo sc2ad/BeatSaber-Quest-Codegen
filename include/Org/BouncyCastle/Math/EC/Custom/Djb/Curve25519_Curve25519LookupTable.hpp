@@ -22,11 +22,6 @@ namespace Org::BouncyCastle::Math::EC {
   class ECPoint;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Custom.Djb
-namespace Org::BouncyCastle::Math::EC::Custom::Djb {
-  // Forward declaring type: Curve25519LookupTable
-  class Curve25519LookupTable;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519/Curve25519LookupTable");

@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class MultiplayerLevelCompletionResults;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LevelFinishedRpc
-  class LevelFinishedRpc;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::LevelFinishedRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::LevelFinishedRpc*, "", "GameplayRpcManager/LevelFinishedRpc");

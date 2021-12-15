@@ -37,15 +37,7 @@ namespace Mono {
     // [UnsafeValueTypeAttribute] Offset: E9CD04
     struct $public_key_token$e__FixedBuffer/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Byte FixedElementField
       // Size: 0x1
       // Offset: 0x0
@@ -69,15 +61,7 @@ namespace Mono {
     #pragma pack(pop)
     static check_size<sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer), 0 + sizeof(uint8_t)> __Mono_MonoAssemblyName_$public_key_token$e__FixedBufferSizeCheck;
     static_assert(sizeof(MonoAssemblyName::$public_key_token$e__FixedBuffer) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.IntPtr name
     // Size: 0x8
     // Offset: 0x0

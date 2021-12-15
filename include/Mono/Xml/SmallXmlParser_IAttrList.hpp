@@ -9,11 +9,6 @@
 #include "Mono/Xml/SmallXmlParser.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Mono.Xml
-namespace Mono::Xml {
-  // Forward declaring type: IAttrList
-  class IAttrList;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Xml::SmallXmlParser::IAttrList);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");

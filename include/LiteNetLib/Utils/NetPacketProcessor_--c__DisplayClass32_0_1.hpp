@@ -27,12 +27,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: <>c__DisplayClass32_0`1<T>
-  template<typename T>
-  class $$c__DisplayClass32_0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass32_0`1");
 // Type namespace: LiteNetLib.Utils

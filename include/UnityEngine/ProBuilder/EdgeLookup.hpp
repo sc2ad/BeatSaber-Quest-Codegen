@@ -50,15 +50,7 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ProBuilder.Edge m_Local
     // Size: 0x8
     // Offset: 0x0

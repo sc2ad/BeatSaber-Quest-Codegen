@@ -19,11 +19,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: ConnectionState
-  class ConnectionState;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::MessageHandler::ConnectionState);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");

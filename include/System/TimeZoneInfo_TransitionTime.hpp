@@ -29,11 +29,6 @@ namespace System::Runtime::Serialization {
   struct StreamingContext;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: TransitionTime
-  struct TransitionTime;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TransitionTime, "System", "TimeZoneInfo/TransitionTime");
 // Type namespace: System
@@ -46,15 +41,7 @@ namespace System {
   // [TypeForwardedFromAttribute] Offset: E9DEC4
   struct TimeZoneInfo::TransitionTime/*, public System::ValueType, public System::IEquatable_1<System::TimeZoneInfo::TransitionTime>, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.DateTime m_timeOfDay
     // Size: 0x8
     // Offset: 0x0

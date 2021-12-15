@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: RequestCallback
-  class RequestCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Callback::RequestCallback);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Platform", "Callback/RequestCallback");

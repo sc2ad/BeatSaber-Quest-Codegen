@@ -20,11 +20,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ScoresToUploadData
-  class ScoresToUploadData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoresToUploadData*, "", "LeaderboardScoreUploader/ScoresToUploadData");

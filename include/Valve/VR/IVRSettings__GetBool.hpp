@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetBool
-  class _GetBool;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRSettings::_GetBool);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetBool*, "Valve.VR", "IVRSettings/_GetBool");

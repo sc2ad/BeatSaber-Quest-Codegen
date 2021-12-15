@@ -21,11 +21,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParameters;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.Anssi
-namespace Org::BouncyCastle::Asn1::Anssi {
-  // Forward declaring type: Frp256v1Holder
-  class Frp256v1Holder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder*, "Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves/Frp256v1Holder");

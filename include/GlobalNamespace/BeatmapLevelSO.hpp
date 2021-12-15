@@ -101,15 +101,7 @@ namespace GlobalNamespace {
       // [TokenAttribute] Offset: FFFFFFFF
       struct Result/*, public System::Enum*/ {
         public:
-        #ifdef USE_CODEGEN_FIELDS
         public:
-        #else
-        #ifdef CODEGEN_FIELD_ACCESSIBILITY
-        CODEGEN_FIELD_ACCESSIBILITY:
-        #else
-        protected:
-        #endif
-        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
@@ -151,15 +143,7 @@ namespace GlobalNamespace {
       #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResult_ResultSizeCheck;
       static_assert(sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result) == 0x4);
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
       // Size: 0x4
       // Offset: 0x0

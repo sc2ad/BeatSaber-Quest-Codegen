@@ -25,15 +25,7 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpatialAnchorPose_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVR.OpenVR.HmdMatrix34_t mAnchorToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0

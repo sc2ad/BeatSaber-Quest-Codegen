@@ -30,11 +30,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Playables
-namespace UnityEngine::Playables {
-  // Forward declaring type: CreateOutputMethod
-  class CreateOutputMethod;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Playables::PlayableBinding::CreateOutputMethod);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*, "UnityEngine.Playables", "PlayableBinding/CreateOutputMethod");

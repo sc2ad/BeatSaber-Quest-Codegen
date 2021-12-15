@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.LowLevel
-namespace UnityEngine::LowLevel {
-  // Forward declaring type: UpdateFunction
-  class UpdateFunction;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction*, "UnityEngine.LowLevel", "PlayerLoopSystem/UpdateFunction");

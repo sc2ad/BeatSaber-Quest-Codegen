@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class MultiplayerLobbyAvatarController;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <RemovePlayerAndDestroy>d__13
-  class $RemovePlayerAndDestroy$d__13;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13*, "", "MultiplayerLobbyAvatarManager/<RemovePlayerAndDestroy>d__13");

@@ -37,15 +37,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename T>
   struct HyperRect_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private T[] minPoint
     // Size: 0x8
     // Offset: 0x0

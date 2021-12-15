@@ -25,11 +25,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ResourceManagement.Diagnostics
-namespace UnityEngine::ResourceManagement::Diagnostics {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton/<>c");

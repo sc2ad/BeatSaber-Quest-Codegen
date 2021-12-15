@@ -43,15 +43,7 @@ namespace System::Runtime::CompilerServices {
   template<typename TResult>
   struct TaskAwaiter_1/*, public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Threading.Tasks.Task`1<TResult> m_task
     // Size: 0x8
     // Offset: 0x0

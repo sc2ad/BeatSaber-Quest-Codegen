@@ -25,12 +25,6 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: <>c__DisplayClass27_0`1<T>
-  template<typename T>
-  class $$c__DisplayClass27_0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass27_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass27_0`1");
 // Type namespace: LiteNetLib.Utils

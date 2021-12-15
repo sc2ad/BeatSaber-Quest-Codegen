@@ -22,11 +22,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: OVRSimpleJSON
-namespace OVRSimpleJSON {
-  // Forward declaring type: <get_DeepChildren>d__42
-  class $get_DeepChildren$d__42;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVRSimpleJSON::JSONNode::$get_DeepChildren$d__42);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::$get_DeepChildren$d__42*, "OVRSimpleJSON", "JSONNode/<get_DeepChildren>d__42");

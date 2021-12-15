@@ -30,11 +30,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <AnimationCoroutine>d__1
-  class $AnimationCoroutine$d__1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::PanelAnimation::$AnimationCoroutine$d__1);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation::$AnimationCoroutine$d__1*, "HMUI", "PanelAnimation/<AnimationCoroutine>d__1");

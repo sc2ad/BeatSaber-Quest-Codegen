@@ -8,11 +8,6 @@
 // Including type: OVRHaptics
 #include "GlobalNamespace/OVRHaptics.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Config
-  class Config;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRHaptics::Config);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");

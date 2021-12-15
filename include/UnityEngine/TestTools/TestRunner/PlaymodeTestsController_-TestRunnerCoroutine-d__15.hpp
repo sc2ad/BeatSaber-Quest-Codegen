@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.TestTools.TestRunner
-namespace UnityEngine::TestTools::TestRunner {
-  // Forward declaring type: <TestRunnerCoroutine>d__15
-  class $TestRunnerCoroutine$d__15;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$TestRunnerCoroutine$d__15);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$TestRunnerCoroutine$d__15*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<TestRunnerCoroutine>d__15");

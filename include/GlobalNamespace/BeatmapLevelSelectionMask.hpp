@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BeatmapLevelSelectionMask/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::BeatmapLevelSelectionMask>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly BeatmapDifficultyMask difficulties
     // Size: 0x1
     // Offset: 0x0

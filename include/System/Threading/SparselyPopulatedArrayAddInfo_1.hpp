@@ -36,15 +36,7 @@ namespace System::Threading {
   template<typename T>
   struct SparselyPopulatedArrayAddInfo_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.SparselyPopulatedArrayFragment`1<T> m_source
     // Size: 0x8
     // Offset: 0x0

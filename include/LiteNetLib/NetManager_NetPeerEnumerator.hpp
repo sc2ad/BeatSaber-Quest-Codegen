@@ -19,11 +19,6 @@ namespace LiteNetLib {
   class NetPeer;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: NetPeerEnumerator
-  struct NetPeerEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager::NetPeerEnumerator, "LiteNetLib", "NetManager/NetPeerEnumerator");
 // Type namespace: LiteNetLib
@@ -35,15 +30,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NetManager::NetPeerEnumerator/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly LiteNetLib.NetPeer _initialPeer
     // Size: 0x8
     // Offset: 0x0

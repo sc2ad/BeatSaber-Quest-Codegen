@@ -19,11 +19,6 @@ namespace GlobalNamespace {
   class AchievementSO;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: AchievementIdData
-  class AchievementIdData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");

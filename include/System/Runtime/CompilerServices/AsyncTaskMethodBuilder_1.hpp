@@ -52,15 +52,7 @@ namespace System::Runtime::CompilerServices {
   template<typename TResult>
   struct AsyncTaskMethodBuilder_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
     // Size: 0x10
     // Offset: 0x0

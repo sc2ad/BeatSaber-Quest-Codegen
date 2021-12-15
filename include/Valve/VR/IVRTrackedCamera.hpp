@@ -52,15 +52,7 @@ namespace Valve::VR {
     class _GetVideoStreamTextureGL;
     // Nested type: Valve::VR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL
     class _ReleaseVideoStreamTextureGL;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRTrackedCamera/Valve.VR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0

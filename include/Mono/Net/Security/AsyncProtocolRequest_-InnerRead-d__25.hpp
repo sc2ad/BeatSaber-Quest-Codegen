@@ -20,11 +20,6 @@
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 // Completed includes
-// Type namespace: Mono.Net.Security
-namespace Mono::Net::Security {
-  // Forward declaring type: <InnerRead>d__25
-  struct $InnerRead$d__25;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");
 // Type namespace: Mono.Net.Security
@@ -35,15 +30,7 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct AsyncProtocolRequest::$InnerRead$d__25/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

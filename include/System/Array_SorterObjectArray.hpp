@@ -18,11 +18,6 @@ namespace System::Collections {
   class IComparer;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: SorterObjectArray
-  struct SorterObjectArray;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
 // Type namespace: System
@@ -34,15 +29,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterObjectArray/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x0

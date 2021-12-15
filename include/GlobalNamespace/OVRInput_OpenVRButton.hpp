@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OpenVRButton
-  struct OpenVRButton;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRButton, "", "OVRInput/OpenVRButton");
 // Type namespace: 
@@ -26,15 +21,7 @@ namespace GlobalNamespace {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct OVRInput::OpenVRButton/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt64 value__
     // Size: 0x8
     // Offset: 0x0

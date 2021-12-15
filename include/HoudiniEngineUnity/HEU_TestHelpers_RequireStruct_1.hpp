@@ -19,12 +19,6 @@ namespace System {
   class ValueType;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: RequireStruct`1<T>
-  template<typename T>
-  class RequireStruct_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_TestHelpers::RequireStruct_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireStruct`1");
 // Type namespace: HoudiniEngineUnity

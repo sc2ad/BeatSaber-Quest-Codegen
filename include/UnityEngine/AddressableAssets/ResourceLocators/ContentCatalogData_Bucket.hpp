@@ -11,11 +11,6 @@
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: UnityEngine.AddressableAssets.ResourceLocators
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-  // Forward declaring type: Bucket
-  struct Bucket;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::Bucket, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData/Bucket");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators
@@ -27,15 +22,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ContentCatalogData::Bucket/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 dataOffset
     // Size: 0x4
     // Offset: 0x0

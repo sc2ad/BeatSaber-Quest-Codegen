@@ -38,15 +38,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB44C4
   struct Vector2Int/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector2Int>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_X
     // Size: 0x4
     // Offset: 0x0

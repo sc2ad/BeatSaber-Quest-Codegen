@@ -19,11 +19,6 @@ namespace UnityEngine {
   class Material;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: <>c__DisplayClass10_0
-  class $$c__DisplayClass10_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_MaterialManager::$$c__DisplayClass10_0);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::$$c__DisplayClass10_0*, "TMPro", "TMP_MaterialManager/<>c__DisplayClass10_0");

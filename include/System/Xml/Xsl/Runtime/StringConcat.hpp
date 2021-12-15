@@ -35,15 +35,7 @@ namespace System::Xml::Xsl::Runtime {
   // [EditorBrowsableAttribute] Offset: EA9E34
   struct StringConcat/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String s1
     // Size: 0x8
     // Offset: 0x0

@@ -23,11 +23,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <PresentViewControllerCoroutine>d__58
-  class $PresentViewControllerCoroutine$d__58;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewController::$PresentViewControllerCoroutine$d__58);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$PresentViewControllerCoroutine$d__58*, "HMUI", "ViewController/<PresentViewControllerCoroutine>d__58");

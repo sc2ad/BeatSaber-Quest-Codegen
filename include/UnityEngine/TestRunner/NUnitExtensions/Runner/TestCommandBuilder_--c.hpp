@@ -33,11 +33,6 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
-namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");

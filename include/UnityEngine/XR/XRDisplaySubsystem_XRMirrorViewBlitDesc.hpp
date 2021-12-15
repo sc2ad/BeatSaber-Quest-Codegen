@@ -11,11 +11,6 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: UnityEngine.XR
-namespace UnityEngine::XR {
-  // Forward declaring type: XRMirrorViewBlitDesc
-  struct XRMirrorViewBlitDesc;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc, "UnityEngine.XR", "XRDisplaySubsystem/XRMirrorViewBlitDesc");
 // Type namespace: UnityEngine.XR
@@ -28,15 +23,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBA8C
   struct XRDisplaySubsystem::XRMirrorViewBlitDesc/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8
     // Offset: 0x0

@@ -9,11 +9,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine.PlayerLoop
-namespace UnityEngine::PlayerLoop {
-  // Forward declaring type: DispatchEventQueueEvents
-  struct DispatchEventQueueEvents;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate::DispatchEventQueueEvents, "UnityEngine.PlayerLoop", "EarlyUpdate/DispatchEventQueueEvents");
 // Type namespace: UnityEngine.PlayerLoop

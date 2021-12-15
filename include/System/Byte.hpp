@@ -57,15 +57,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D428
   struct Byte/*, public System::ValueType, public System::IComparable_1<uint8_t>, public System::IEquatable_1<uint8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte m_value
     // Size: 0x1
     // Offset: 0x0

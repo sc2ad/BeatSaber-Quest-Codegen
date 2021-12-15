@@ -22,11 +22,6 @@ namespace Valve::VR {
   class CVRRenderModels;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <SetModelAsync>d__21
-  class $SetModelAsync$d__21;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21*, "", "SteamVR_RenderModel/<SetModelAsync>d__21");

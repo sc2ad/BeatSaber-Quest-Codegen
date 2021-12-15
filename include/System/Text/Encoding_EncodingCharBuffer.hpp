@@ -22,11 +22,6 @@ namespace System::Text {
   class DecoderFallbackBuffer;
 }
 // Completed forward declares
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: EncodingCharBuffer
-  class EncodingCharBuffer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::Encoding::EncodingCharBuffer);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingCharBuffer*, "System.Text", "Encoding/EncodingCharBuffer");

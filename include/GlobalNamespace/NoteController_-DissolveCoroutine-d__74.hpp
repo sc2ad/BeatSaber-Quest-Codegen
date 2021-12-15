@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <DissolveCoroutine>d__74
-  class $DissolveCoroutine$d__74;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteController::$DissolveCoroutine$d__74);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteController::$DissolveCoroutine$d__74*, "", "NoteController/<DissolveCoroutine>d__74");

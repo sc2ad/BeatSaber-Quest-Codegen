@@ -29,11 +29,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Timeline
-namespace UnityEngine::Timeline {
-  // Forward declaring type: <get_outputs>d__27
-  class $get_outputs$d__27;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27*, "UnityEngine.Timeline", "TimelineAsset/<get_outputs>d__27");

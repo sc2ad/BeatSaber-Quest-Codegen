@@ -74,15 +74,7 @@ namespace GlobalNamespace {
       using declaring_type = StateBuffer_3<TStateTable, TType, TState>*;
       static constexpr std::string_view NESTED_NAME = "TimestampedStateTable";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Boolean isValid
       // Size: 0x1
       // Offset: 0x0

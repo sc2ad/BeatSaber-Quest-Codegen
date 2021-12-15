@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: SYSTEMTIME
-  struct SYSTEMTIME;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::SYSTEMTIME, "System", "TimeZoneInfo/SYSTEMTIME");
 // Type namespace: System
@@ -26,15 +21,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::SYSTEMTIME/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.UInt16 wYear
     // Size: 0x2
     // Offset: 0x0

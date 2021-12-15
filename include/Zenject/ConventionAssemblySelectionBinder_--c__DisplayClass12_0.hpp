@@ -31,11 +31,6 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__DisplayClass12_0
-  class $$c__DisplayClass12_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0*, "Zenject", "ConventionAssemblySelectionBinder/<>c__DisplayClass12_0");

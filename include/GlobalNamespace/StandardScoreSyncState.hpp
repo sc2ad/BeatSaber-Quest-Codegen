@@ -41,15 +41,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct StandardScoreSyncState/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IStateTable_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>, public GlobalNamespace::IEquatableByReference_1<GlobalNamespace::StandardScoreSyncState>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _modifiedScore
     // Size: 0x4
     // Offset: 0x0

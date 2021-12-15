@@ -20,11 +20,6 @@ namespace UnityEngine::EventSystems {
   // Skipping declaration: PointerEventData because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: MouseButtonEventData
-  class MouseButtonEventData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");

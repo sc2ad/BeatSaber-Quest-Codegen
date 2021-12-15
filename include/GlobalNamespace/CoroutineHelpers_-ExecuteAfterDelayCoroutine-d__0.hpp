@@ -21,11 +21,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ExecuteAfterDelayCoroutine>d__0
-  class $ExecuteAfterDelayCoroutine$d__0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoroutineHelpers::$ExecuteAfterDelayCoroutine$d__0*, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");

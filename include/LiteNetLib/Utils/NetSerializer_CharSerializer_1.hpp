@@ -23,12 +23,6 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: CharSerializer`1<T>
-  template<typename T>
-  class CharSerializer_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::CharSerializer_1, "LiteNetLib.Utils", "NetSerializer/CharSerializer`1");
 // Type namespace: LiteNetLib.Utils

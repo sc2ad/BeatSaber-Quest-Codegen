@@ -32,12 +32,6 @@ namespace MasterServer {
   class IMasterServerReliableRequest;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <SendAuthenticatedRequestAsync>d__20`1<T>
-  template<typename T>
-  struct $SendAuthenticatedRequestAsync$d__20_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::BaseClientMessageHandler::$SendAuthenticatedRequestAsync$d__20_1, "MasterServer", "BaseClientMessageHandler/<SendAuthenticatedRequestAsync>d__20`1");
 // Type namespace: MasterServer
@@ -49,15 +43,7 @@ namespace MasterServer {
   template<typename T>
   struct BaseClientMessageHandler::$SendAuthenticatedRequestAsync$d__20_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

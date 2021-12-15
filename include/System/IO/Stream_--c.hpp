@@ -50,11 +50,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Stream::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$$c*, "System.IO", "Stream/<>c");

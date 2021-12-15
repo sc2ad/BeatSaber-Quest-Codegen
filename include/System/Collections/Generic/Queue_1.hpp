@@ -63,15 +63,7 @@ namespace System::Collections::Generic {
       using declaring_type = Queue_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly System.Collections.Generic.Queue`1<T> _q
       // Size: 0x8
       // Offset: 0x0

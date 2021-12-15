@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: DictionaryNode
-  class DictionaryNode;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::ListDictionary::DictionaryNode);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");

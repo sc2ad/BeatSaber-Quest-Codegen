@@ -41,15 +41,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB455C
   struct Vector4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector4>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0

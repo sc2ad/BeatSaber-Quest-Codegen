@@ -26,11 +26,6 @@ namespace System::Threading {
   class WaitHandle;
 }
 // Completed forward declares
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: TaskWrapperAsyncResult
-  class TaskWrapperAsyncResult;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*, "System.Threading.Tasks", "TaskToApm/TaskWrapperAsyncResult");

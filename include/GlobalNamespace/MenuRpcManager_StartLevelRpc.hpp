@@ -23,11 +23,6 @@ namespace GlobalNamespace {
   class GameplayModifiers;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: StartLevelRpc
-  class StartLevelRpc;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuRpcManager::StartLevelRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::StartLevelRpc*, "", "MenuRpcManager/StartLevelRpc");

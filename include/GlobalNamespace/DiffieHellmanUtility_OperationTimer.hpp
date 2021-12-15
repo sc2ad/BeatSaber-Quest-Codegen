@@ -21,11 +21,6 @@ namespace System::Diagnostics {
   class Stopwatch;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: OperationTimer
-  class OperationTimer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DiffieHellmanUtility::OperationTimer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::OperationTimer*, "", "DiffieHellmanUtility/OperationTimer");

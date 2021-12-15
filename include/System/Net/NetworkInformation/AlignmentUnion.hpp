@@ -38,15 +38,7 @@ namespace System::Net::NetworkInformation {
       // Field size check
       static_assert(sizeof(int) == 0x4);
     };
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
@@ -61,7 +53,7 @@ namespace System::Net::NetworkInformation {
     };
     public:
     // Creating value type constructor for type: AlignmentUnion
-    constexpr AlignmentUnion(uint64_t Alignment_ = {}, int IfIndex_ = {}) noexcept : Alignment{Alignment_}, IfIndex{IfIndex_} {}
+    constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

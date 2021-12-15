@@ -65,15 +65,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D580
   struct Decimal/*, public System::ValueType, public System::IComparable_1<System::Decimal>, public System::IEquatable_1<System::Decimal>, public System::IComparable, public System::IConvertible, public System::IFormattable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 flags
     // Size: 0x4
     // Offset: 0x0

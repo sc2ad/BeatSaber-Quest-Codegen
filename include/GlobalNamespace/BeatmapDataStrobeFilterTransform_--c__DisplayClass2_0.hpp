@@ -20,11 +20,6 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass2_0
-  struct $$c__DisplayClass2_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0, "", "BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0");
 // Type namespace: 
@@ -36,15 +31,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
     // Size: 0x8
     // Offset: 0x0

@@ -20,11 +20,6 @@ namespace System {
   class Comparison_1;
 }
 // Completed forward declares
-// Type namespace: VRUIControls
-namespace VRUIControls {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(VRUIControls::VRGraphicRaycaster::$$c);
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "VRGraphicRaycaster/<>c");

@@ -39,15 +39,7 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderTargetIdentifier/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::RenderTargetIdentifier>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Rendering.BuiltinRenderTextureType m_Type
     // Size: 0x4
     // Offset: 0x0

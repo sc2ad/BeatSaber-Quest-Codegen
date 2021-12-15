@@ -25,11 +25,6 @@ namespace System::Net {
   class SimpleAsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: <>c__DisplayClass11_0
-  class $$c__DisplayClass11_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*, "System.Net", "SimpleAsyncResult/<>c__DisplayClass11_0");

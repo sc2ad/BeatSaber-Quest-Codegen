@@ -222,15 +222,7 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RequestWaiterId/*, public System::ValueType, public System::IEquatable_1<MasterServer::MessageHandler::RequestWaiterId>*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly System.Net.IPEndPoint endPoint
       // Size: 0x8
       // Offset: 0x0
@@ -286,15 +278,7 @@ namespace MasterServer {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct MessageOrigin/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly System.Net.IPEndPoint endPoint
       // Size: 0x8
       // Offset: 0x0
@@ -331,15 +315,7 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HandshakeMessageType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -423,15 +399,7 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UserMessageType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -515,15 +483,7 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DedicatedServerMessageType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

@@ -192,15 +192,7 @@ namespace OVR::OpenVR {
     class _ShowMessageOverlay;
     // Nested type: OVR::OpenVR::IVROverlay::_CloseMessageOverlay
     class _CloseMessageOverlay;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVROverlay/OVR.OpenVR._FindOverlay FindOverlay
     // Size: 0x8
     // Offset: 0x0

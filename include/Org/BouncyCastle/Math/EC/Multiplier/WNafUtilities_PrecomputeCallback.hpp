@@ -29,11 +29,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class WNafPreCompInfo;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: PrecomputeCallback
-  class PrecomputeCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/PrecomputeCallback");

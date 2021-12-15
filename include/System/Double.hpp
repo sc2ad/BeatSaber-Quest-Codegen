@@ -57,15 +57,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D5CC
   struct Double/*, public System::ValueType, public System::IComparable_1<double>, public System::IEquatable_1<double>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Double m_value
     // Size: 0x8
     // Offset: 0x0

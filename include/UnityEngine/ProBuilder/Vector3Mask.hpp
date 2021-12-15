@@ -38,15 +38,7 @@ namespace UnityEngine::ProBuilder {
   // [DefaultMemberAttribute] Offset: F680C4
   struct Vector3Mask/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Vector3Mask>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte m_Mask
     // Size: 0x1
     // Offset: 0x0

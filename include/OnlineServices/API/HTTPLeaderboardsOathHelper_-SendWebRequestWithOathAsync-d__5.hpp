@@ -20,11 +20,6 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <SendWebRequestWithOathAsync>d__5
-  struct $SendWebRequestWithOathAsync$d__5;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendWebRequestWithOathAsync>d__5");
 // Type namespace: OnlineServices.API
@@ -35,15 +30,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

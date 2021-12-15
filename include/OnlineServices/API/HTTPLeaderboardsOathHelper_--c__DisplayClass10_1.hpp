@@ -25,11 +25,6 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 // Completed forward declares
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <>c__DisplayClass10_1
-  class $$c__DisplayClass10_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1);
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");

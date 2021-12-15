@@ -25,15 +25,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VertexGradient/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Color topLeft
     // Size: 0x10
     // Offset: 0x0

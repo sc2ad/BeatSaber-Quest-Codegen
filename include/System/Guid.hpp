@@ -54,15 +54,7 @@ namespace System {
     struct ParseFailureKind;
     // Nested type: System::Guid::GuidResult
     struct GuidResult;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0

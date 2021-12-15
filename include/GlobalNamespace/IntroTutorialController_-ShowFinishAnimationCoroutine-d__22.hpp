@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ShowFinishAnimationCoroutine>d__22
-  class $ShowFinishAnimationCoroutine$d__22;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");

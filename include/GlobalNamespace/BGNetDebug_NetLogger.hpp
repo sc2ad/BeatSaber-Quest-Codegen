@@ -16,11 +16,6 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NetLogger
-  class NetLogger;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BGNetDebug::NetLogger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::NetLogger*, "", "BGNetDebug/NetLogger");

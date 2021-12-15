@@ -24,11 +24,6 @@ namespace System {
   class IAsyncResult;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: <>c__DisplayClass76_0
-  class $$c__DisplayClass76_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebConnectionStream::$$c__DisplayClass76_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass76_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass76_0");

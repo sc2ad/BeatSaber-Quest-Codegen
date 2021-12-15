@@ -40,15 +40,7 @@ namespace System::Net::Http::Headers {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -132,15 +124,7 @@ namespace System::Net::Http::Headers {
     #pragma pack(pop)
     static check_size<sizeof(Token::Type), 0 + sizeof(int)> __System_Net_Http_Headers_Token_TypeSizeCheck;
     static_assert(sizeof(Token::Type) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Net.Http.Headers.Token/System.Net.Http.Headers.Type type
     // Size: 0x4
     // Offset: 0x0

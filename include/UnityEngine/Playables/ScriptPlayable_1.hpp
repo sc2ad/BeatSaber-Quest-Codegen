@@ -58,15 +58,7 @@ namespace UnityEngine::Playables {
   template<typename T>
   struct ScriptPlayable_1/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Playables::ScriptPlayable_1<T>>, public UnityEngine::Playables::IPlayable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0

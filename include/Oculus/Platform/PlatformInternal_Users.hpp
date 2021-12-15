@@ -24,11 +24,6 @@ namespace Oculus::Platform::Models {
   class LinkedAccountList;
 }
 // Completed forward declares
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: Users
-  class Users;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::PlatformInternal::Users);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::Users*, "Oculus.Platform", "PlatformInternal/Users");

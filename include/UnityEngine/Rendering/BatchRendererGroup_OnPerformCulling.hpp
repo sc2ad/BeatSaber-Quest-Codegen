@@ -33,11 +33,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Rendering
-namespace UnityEngine::Rendering {
-  // Forward declaring type: OnPerformCulling
-  class OnPerformCulling;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*, "UnityEngine.Rendering", "BatchRendererGroup/OnPerformCulling");

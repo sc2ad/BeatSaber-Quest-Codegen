@@ -18,11 +18,6 @@ namespace System::Runtime::Remoting::Messaging {
   class CADMethodReturnMessage;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.Remoting.Channels
-namespace System::Runtime::Remoting::Channels {
-  // Forward declaring type: ProcessMessageRes
-  struct ProcessMessageRes;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
 // Type namespace: System.Runtime.Remoting.Channels
@@ -34,15 +29,7 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CrossAppDomainSink::ProcessMessageRes/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Byte[] arrResponse
     // Size: 0x8
     // Offset: 0x0

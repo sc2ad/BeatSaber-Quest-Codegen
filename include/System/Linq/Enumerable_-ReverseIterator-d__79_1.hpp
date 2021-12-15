@@ -24,12 +24,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.Linq
-namespace System::Linq {
-  // Forward declaring type: <ReverseIterator>d__79`1<TSource>
-  template<typename TSource>
-  class $ReverseIterator$d__79_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::$ReverseIterator$d__79_1, "System.Linq", "Enumerable/<ReverseIterator>d__79`1");
 // Type namespace: System.Linq

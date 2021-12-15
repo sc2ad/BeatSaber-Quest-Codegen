@@ -22,11 +22,6 @@ namespace System {
   class Comparison_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster/<>c");

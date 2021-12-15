@@ -19,11 +19,6 @@ namespace System {
   class Exception;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: VersionResult
-  struct VersionResult;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
 // Type namespace: System
@@ -35,15 +30,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Version::VersionResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Version m_parsedVersion
     // Size: 0x8
     // Offset: 0x0

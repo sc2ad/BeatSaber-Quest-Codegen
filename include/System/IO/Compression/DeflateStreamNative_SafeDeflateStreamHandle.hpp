@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.IO.Compression
-namespace System::IO::Compression {
-  // Forward declaring type: SafeDeflateStreamHandle
-  class SafeDeflateStreamHandle;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, "System.IO.Compression", "DeflateStreamNative/SafeDeflateStreamHandle");

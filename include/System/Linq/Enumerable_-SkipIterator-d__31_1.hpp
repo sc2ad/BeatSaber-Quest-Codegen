@@ -22,12 +22,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.Linq
-namespace System::Linq {
-  // Forward declaring type: <SkipIterator>d__31`1<TSource>
-  template<typename TSource>
-  class $SkipIterator$d__31_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::$SkipIterator$d__31_1, "System.Linq", "Enumerable/<SkipIterator>d__31`1");
 // Type namespace: System.Linq

@@ -30,15 +30,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_FontWeightPair/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TMPro.TMP_FontAsset regularTypeface
     // Size: 0x8
     // Offset: 0x0

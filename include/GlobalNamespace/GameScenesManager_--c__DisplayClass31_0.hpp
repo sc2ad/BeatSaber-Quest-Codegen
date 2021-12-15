@@ -25,11 +25,6 @@ namespace Zenject {
   class DiContainer;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass31_0
-  class $$c__DisplayClass31_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass31_0*, "", "GameScenesManager/<>c__DisplayClass31_0");

@@ -12,11 +12,6 @@
 // Including type: OVRPlugin/Posef
 // Already included the same include: GlobalNamespace/OVRPlugin.hpp
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PoseStatef
-  struct PoseStatef;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::PoseStatef, "", "OVRPlugin/PoseStatef");
 // Type namespace: 
@@ -28,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::PoseStatef/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVRPlugin/Posef Pose
     // Size: 0x1C
     // Offset: 0x0

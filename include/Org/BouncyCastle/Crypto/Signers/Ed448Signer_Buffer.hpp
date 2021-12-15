@@ -22,11 +22,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class Ed448PrivateKeyParameters;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Crypto.Signers
-namespace Org::BouncyCastle::Crypto::Signers {
-  // Forward declaring type: Buffer
-  class Buffer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed448Signer/Buffer");

@@ -32,11 +32,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework
-namespace NUnit::Framework {
-  // Forward declaring type: <BuildFrom>d__48
-  class $BuildFrom$d__48;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*, "NUnit.Framework", "TestFixtureAttribute/<BuildFrom>d__48");

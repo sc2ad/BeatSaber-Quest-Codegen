@@ -10,11 +10,6 @@
 // Including type: System.Single
 #include "System/Single.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: NoteUniformScale
-  class NoteUniformScale;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale*, "", "GameplayModifiersConfiguration/NoteUniformScale");

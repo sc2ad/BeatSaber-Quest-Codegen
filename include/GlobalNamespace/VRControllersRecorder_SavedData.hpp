@@ -18,11 +18,6 @@
 namespace GlobalNamespace {
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SavedData
-  class SavedData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VRControllersRecorder::SavedData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData*, "", "VRControllersRecorder/SavedData");

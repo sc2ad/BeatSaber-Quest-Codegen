@@ -21,11 +21,6 @@ namespace UnityEngine {
   class Gradient;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: MinMaxGradient
-  struct MinMaxGradient;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
 // Type namespace: UnityEngine
@@ -38,15 +33,7 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EE5E88
   struct ParticleSystem::MinMaxGradient/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.ParticleSystemGradientMode m_Mode
     // Size: 0x4
     // Offset: 0x0

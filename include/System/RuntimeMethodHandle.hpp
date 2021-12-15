@@ -51,15 +51,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9E394
   struct RuntimeMethodHandle/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr value
     // Size: 0x8
     // Offset: 0x0

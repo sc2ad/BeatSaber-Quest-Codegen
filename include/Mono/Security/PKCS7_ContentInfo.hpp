@@ -20,11 +20,6 @@ namespace Mono::Security {
   class ASN1;
 }
 // Completed forward declares
-// Type namespace: Mono.Security
-namespace Mono::Security {
-  // Forward declaring type: ContentInfo
-  class ContentInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::PKCS7::ContentInfo);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::ContentInfo*, "Mono.Security", "PKCS7/ContentInfo");

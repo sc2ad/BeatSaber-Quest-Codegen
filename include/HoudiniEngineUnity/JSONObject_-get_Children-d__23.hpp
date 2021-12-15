@@ -29,11 +29,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: <get_Children>d__23
-  class $get_Children$d__23;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONObject::$get_Children$d__23);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject::$get_Children$d__23*, "HoudiniEngineUnity", "JSONObject/<get_Children>d__23");

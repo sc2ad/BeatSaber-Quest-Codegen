@@ -21,11 +21,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParameters;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.Sec
-namespace Org::BouncyCastle::Asn1::Sec {
-  // Forward declaring type: Secp112r2Holder
-  class Secp112r2Holder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Secp112r2Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecNamedCurves::Secp112r2Holder*, "Org.BouncyCastle.Asn1.Sec", "SecNamedCurves/Secp112r2Holder");

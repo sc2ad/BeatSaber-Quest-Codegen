@@ -22,11 +22,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::DefaultBinder::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::$$c*, "System", "DefaultBinder/<>c");

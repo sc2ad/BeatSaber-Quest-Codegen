@@ -28,15 +28,7 @@ namespace System::Threading {
   template<typename T>
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [CompilerGeneratedAttribute] Offset: 0xEA4EC0
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF

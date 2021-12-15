@@ -26,15 +26,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECD9BC
   struct AnimatorClipInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_ClipInstanceID
     // Size: 0x4
     // Offset: 0x0

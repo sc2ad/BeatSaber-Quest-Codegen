@@ -46,11 +46,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <SendMultipartMessageWithRetryAsync>d__93
-  struct $SendMultipartMessageWithRetryAsync$d__93;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::$SendMultipartMessageWithRetryAsync$d__93, "MasterServer", "MessageHandler/<SendMultipartMessageWithRetryAsync>d__93");
 // Type namespace: MasterServer
@@ -61,15 +56,7 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MessageHandler::$SendMultipartMessageWithRetryAsync$d__93/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

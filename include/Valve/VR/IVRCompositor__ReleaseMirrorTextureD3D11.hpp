@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _ReleaseMirrorTextureD3D11
-  class _ReleaseMirrorTextureD3D11;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*, "Valve.VR", "IVRCompositor/_ReleaseMirrorTextureD3D11");

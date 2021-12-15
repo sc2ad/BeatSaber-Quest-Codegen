@@ -52,15 +52,7 @@ namespace UnityEngine::UI::CoroutineTween {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColorTweenMode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -102,15 +94,7 @@ namespace UnityEngine::UI::CoroutineTween {
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __UnityEngine_UI_CoroutineTween_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.CoroutineTween.ColorTween/UnityEngine.UI.CoroutineTween.ColorTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0

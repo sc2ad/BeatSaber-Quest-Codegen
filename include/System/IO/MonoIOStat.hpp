@@ -26,15 +26,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoIOStat/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IO.FileAttributes fileAttributes
     // Size: 0x4
     // Offset: 0x0

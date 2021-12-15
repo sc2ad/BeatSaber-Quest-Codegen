@@ -22,11 +22,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <GetLookalikeLetters>d__4
-  class $GetLookalikeLetters$d__4;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4*, "", "ProfanityFilter/<GetLookalikeLetters>d__4");

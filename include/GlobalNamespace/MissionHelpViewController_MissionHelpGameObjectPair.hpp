@@ -24,11 +24,6 @@ namespace UnityEngine {
   class GameObject;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: MissionHelpGameObjectPair
-  class MissionHelpGameObjectPair;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");

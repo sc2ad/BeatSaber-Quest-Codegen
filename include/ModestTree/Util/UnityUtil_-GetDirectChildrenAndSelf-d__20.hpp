@@ -27,11 +27,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: ModestTree.Util
-namespace ModestTree::Util {
-  // Forward declaring type: <GetDirectChildrenAndSelf>d__20
-  class $GetDirectChildrenAndSelf$d__20;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20*, "ModestTree.Util", "UnityUtil/<GetDirectChildrenAndSelf>d__20");

@@ -25,15 +25,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB32E0
   struct FrameTiming/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEB7CE4
     // public System.UInt64 cpuTimePresentCalled
     // Size: 0x8

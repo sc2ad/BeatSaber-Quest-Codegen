@@ -9,11 +9,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: UnityEngine.PlayerLoop
-namespace UnityEngine::PlayerLoop {
-  // Forward declaring type: SynchronizeInputs
-  struct SynchronizeInputs;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::SynchronizeInputs, "UnityEngine.PlayerLoop", "Initialization/SynchronizeInputs");
 // Type namespace: UnityEngine.PlayerLoop

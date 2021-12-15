@@ -17,11 +17,6 @@ namespace System {
   struct IntPtr;
 }
 // Completed forward declares
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: GPtrArray
-  struct GPtrArray;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
 // Type namespace: Mono
@@ -33,15 +28,7 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GPtrArray/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.IntPtr* data
     // Size: 0x8
     // Offset: 0x0

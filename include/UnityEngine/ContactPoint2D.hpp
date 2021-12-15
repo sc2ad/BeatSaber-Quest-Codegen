@@ -29,15 +29,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED7A74
   struct ContactPoint2D/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xED7F38
     // private UnityEngine.Vector2 m_Point
     // Size: 0x8

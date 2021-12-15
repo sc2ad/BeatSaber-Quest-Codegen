@@ -22,12 +22,6 @@ namespace Oculus::Platform {
   // Skipping declaration: Message because it is already included!
 }
 // Completed forward declares
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: RequestCallback`1<T>
-  template<typename T>
-  class RequestCallback_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Oculus::Platform::Callback::RequestCallback_1, "Oculus.Platform", "Callback/RequestCallback`1");
 // Type namespace: Oculus.Platform

@@ -12,11 +12,6 @@
 // Including type: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
 #include "HoudiniEngineUnity/JSONNode_Enumerator.hpp"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: ValueEnumerator
-  struct ValueEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::ValueEnumerator, "HoudiniEngineUnity", "JSONNode/ValueEnumerator");
 // Type namespace: HoudiniEngineUnity
@@ -27,15 +22,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct JSONNode::ValueEnumerator/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF
     // Offset: 0x0

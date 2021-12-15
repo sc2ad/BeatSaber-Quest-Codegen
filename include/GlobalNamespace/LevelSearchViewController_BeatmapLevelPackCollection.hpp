@@ -26,11 +26,6 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BeatmapLevelPackCollection
-  class BeatmapLevelPackCollection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*, "", "LevelSearchViewController/BeatmapLevelPackCollection");

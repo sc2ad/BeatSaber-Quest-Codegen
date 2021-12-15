@@ -27,11 +27,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   class UserAuthenticationData;
 }
 // Completed forward declares
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <GetAccessTokenAsync>d__9
-  struct $GetAccessTokenAsync$d__9;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<GetAccessTokenAsync>d__9");
 // Type namespace: OnlineServices.API
@@ -42,15 +37,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

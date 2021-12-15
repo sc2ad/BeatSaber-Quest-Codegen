@@ -19,11 +19,6 @@ namespace Polyglot {
   class Localization;
 }
 // Completed forward declares
-// Type namespace: Polyglot
-namespace Polyglot {
-  // Forward declaring type: <>c__DisplayClass8_0
-  class $$c__DisplayClass8_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Polyglot::LocalizationImporter::$$c__DisplayClass8_0);
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");

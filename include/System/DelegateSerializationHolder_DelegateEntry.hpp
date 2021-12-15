@@ -24,11 +24,6 @@ namespace System::Runtime::Serialization {
   class SerializationInfo;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: DelegateEntry
-  class DelegateEntry;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::DelegateSerializationHolder::DelegateEntry);
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");

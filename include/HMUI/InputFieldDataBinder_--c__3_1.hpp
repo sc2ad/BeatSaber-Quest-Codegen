@@ -28,12 +28,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__3`1<T>
-  template<typename T>
-  class $$c__3_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::InputFieldDataBinder::$$c__3_1, "HMUI", "InputFieldDataBinder/<>c__3`1");
 // Type namespace: HMUI

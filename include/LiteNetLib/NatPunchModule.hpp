@@ -78,15 +78,7 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RequestEventData/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Net.IPEndPoint LocalEndPoint
       // Size: 0x8
       // Offset: 0x0
@@ -129,15 +121,7 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SuccessEventData/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Net.IPEndPoint TargetEndPoint
       // Size: 0x8
       // Offset: 0x0

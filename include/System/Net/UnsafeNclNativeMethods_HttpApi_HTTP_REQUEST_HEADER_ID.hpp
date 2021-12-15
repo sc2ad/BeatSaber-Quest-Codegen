@@ -9,11 +9,6 @@
 #include "System/Net/UnsafeNclNativeMethods_HttpApi.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: HTTP_REQUEST_HEADER_ID
-  class HTTP_REQUEST_HEADER_ID;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*, "System.Net", "UnsafeNclNativeMethods/HttpApi/HTTP_REQUEST_HEADER_ID");

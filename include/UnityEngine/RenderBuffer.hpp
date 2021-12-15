@@ -26,15 +26,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB30E8
   struct RenderBuffer/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 m_RenderTextureInstanceID
     // Size: 0x4
     // Offset: 0x0

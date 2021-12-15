@@ -25,11 +25,6 @@ namespace Oculus::Platform::Models {
   class User;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass5_1
-  class $$c__DisplayClass5_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1*, "", "OculusPlatformUserModel/<>c__DisplayClass5_1");

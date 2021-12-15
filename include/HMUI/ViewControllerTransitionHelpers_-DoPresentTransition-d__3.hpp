@@ -22,11 +22,6 @@ namespace HMUI {
   // Skipping declaration: ViewController because it is already included!
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <DoPresentTransition>d__3
-  class $DoPresentTransition$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers::$DoPresentTransition$d__3);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoPresentTransition$d__3*, "HMUI", "ViewControllerTransitionHelpers/<DoPresentTransition>d__3");

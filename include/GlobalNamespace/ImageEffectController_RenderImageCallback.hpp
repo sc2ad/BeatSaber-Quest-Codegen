@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RenderImageCallback
-  class RenderImageCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ImageEffectController::RenderImageCallback);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageEffectController::RenderImageCallback*, "", "ImageEffectController/RenderImageCallback");

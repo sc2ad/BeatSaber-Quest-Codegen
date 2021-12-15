@@ -24,15 +24,7 @@ namespace Mono::Security::Interface {
   // [CLSCompliantAttribute] Offset: EA9780
   struct CipherSuiteCode/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt16 value__
     // Size: 0x2
     // Offset: 0x0

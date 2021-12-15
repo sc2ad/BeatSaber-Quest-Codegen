@@ -19,11 +19,6 @@ namespace UnityEngine {
   class Shader;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: ISelectionPickerRenderer
-  class ISelectionPickerRenderer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/ISelectionPickerRenderer");

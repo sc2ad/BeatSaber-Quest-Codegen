@@ -33,15 +33,7 @@ namespace System {
   template<typename T>
   struct Nullable_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // T value
     // Size: 0xFFFFFFFF
     // Offset: 0x0

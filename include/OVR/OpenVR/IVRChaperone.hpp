@@ -44,15 +44,7 @@ namespace OVR::OpenVR {
     class _AreBoundsVisible;
     // Nested type: OVR::OpenVR::IVRChaperone::_ForceBoundsVisible
     class _ForceBoundsVisible;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRChaperone/OVR.OpenVR._GetCalibrationState GetCalibrationState
     // Size: 0x8
     // Offset: 0x0

@@ -13,11 +13,6 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: Unity.Profiling
-namespace Unity::Profiling {
-  // Forward declaring type: AutoScope
-  struct AutoScope;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker::AutoScope, "Unity.Profiling", "ProfilerMarker/AutoScope");
 // Type namespace: Unity.Profiling
@@ -30,15 +25,7 @@ namespace Unity::Profiling {
   // [UsedByNativeCodeAttribute] Offset: EB2014
   struct ProfilerMarker::AutoScope/*, public System::ValueType, public System::IDisposable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xEB7480
     // readonly System.IntPtr m_Ptr
     // Size: 0x8

@@ -29,11 +29,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <GetOtherPlayers>d__78
-  class $GetOtherPlayers$d__78;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__78);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$GetOtherPlayers$d__78*, "", "UnifiedNetworkPlayerModel/<GetOtherPlayers>d__78");

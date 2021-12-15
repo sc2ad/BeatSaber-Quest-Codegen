@@ -34,15 +34,7 @@ namespace OVR::OpenVR {
     class _GetEyeOutputViewport;
     // Nested type: OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo
     class _GetDXGIOutputInfo;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
     // Size: 0x8
     // Offset: 0x0

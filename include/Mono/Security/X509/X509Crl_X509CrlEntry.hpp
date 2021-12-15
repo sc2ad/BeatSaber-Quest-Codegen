@@ -27,11 +27,6 @@ namespace Mono::Security {
   class ASN1;
 }
 // Completed forward declares
-// Type namespace: Mono.Security.X509
-namespace Mono::Security::X509 {
-  // Forward declaring type: X509CrlEntry
-  class X509CrlEntry;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::X509Crl::X509CrlEntry);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");

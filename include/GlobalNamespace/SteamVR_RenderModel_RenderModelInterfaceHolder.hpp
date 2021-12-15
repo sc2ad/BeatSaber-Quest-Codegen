@@ -21,11 +21,6 @@ namespace Valve::VR {
   class CVRRenderModels;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RenderModelInterfaceHolder
-  class RenderModelInterfaceHolder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, "", "SteamVR_RenderModel/RenderModelInterfaceHolder");

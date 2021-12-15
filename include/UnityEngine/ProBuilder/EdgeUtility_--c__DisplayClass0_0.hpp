@@ -21,11 +21,6 @@ namespace UnityEngine::ProBuilder {
   struct Edge;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: <>c__DisplayClass0_0
-  class $$c__DisplayClass0_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder", "EdgeUtility/<>c__DisplayClass0_0");

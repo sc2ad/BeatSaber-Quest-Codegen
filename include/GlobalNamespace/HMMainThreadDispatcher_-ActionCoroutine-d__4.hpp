@@ -21,11 +21,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ActionCoroutine>d__4
-  class $ActionCoroutine$d__4;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__4);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$ActionCoroutine$d__4*, "", "HMMainThreadDispatcher/<ActionCoroutine>d__4");

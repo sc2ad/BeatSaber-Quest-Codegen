@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AI
-namespace UnityEngine::AI {
-  // Forward declaring type: OnNavMeshPreUpdate
-  class OnNavMeshPreUpdate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate*, "UnityEngine.AI", "NavMesh/OnNavMeshPreUpdate");

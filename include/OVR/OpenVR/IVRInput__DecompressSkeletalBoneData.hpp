@@ -33,11 +33,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _DecompressSkeletalBoneData
-  class _DecompressSkeletalBoneData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*, "OVR.OpenVR", "IVRInput/_DecompressSkeletalBoneData");

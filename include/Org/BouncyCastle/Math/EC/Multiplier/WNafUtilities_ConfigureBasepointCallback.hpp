@@ -26,11 +26,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class PreCompInfo;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: ConfigureBasepointCallback
-  class ConfigureBasepointCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities/ConfigureBasepointCallback");

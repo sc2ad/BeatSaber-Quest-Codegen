@@ -21,11 +21,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <StartEffectCoroutine>d__8
-  class $StartEffectCoroutine$d__8;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect::$StartEffectCoroutine$d__8*, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__8");

@@ -35,11 +35,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: WasCutBySaberDelegate
-  class WasCutBySaberDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate*, "", "CuttableBySaber/WasCutBySaberDelegate");

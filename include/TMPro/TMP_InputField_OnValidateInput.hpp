@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: OnValidateInput
-  class OnValidateInput;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_InputField::OnValidateInput);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::OnValidateInput*, "TMPro", "TMP_InputField/OnValidateInput");

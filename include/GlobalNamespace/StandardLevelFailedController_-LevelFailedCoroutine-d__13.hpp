@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class LevelCompletionResults;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LevelFailedCoroutine>d__13
-  class $LevelFailedCoroutine$d__13;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13*, "", "StandardLevelFailedController/<LevelFailedCoroutine>d__13");

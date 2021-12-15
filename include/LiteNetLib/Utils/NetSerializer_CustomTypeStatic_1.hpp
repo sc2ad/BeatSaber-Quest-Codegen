@@ -32,12 +32,6 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: CustomTypeStatic`1<TProperty>
-  template<typename TProperty>
-  class CustomTypeStatic_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::CustomTypeStatic_1, "LiteNetLib.Utils", "NetSerializer/CustomTypeStatic`1");
 // Type namespace: LiteNetLib.Utils

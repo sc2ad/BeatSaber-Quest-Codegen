@@ -19,11 +19,6 @@ namespace System {
   struct IntPtr;
 }
 // Completed forward declares
-// Type namespace: System.Net.NetworkInformation
-namespace System::Net::NetworkInformation {
-  // Forward declaring type: UnixNetworkInterfaceAPI
-  class UnixNetworkInterfaceAPI;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/UnixNetworkInterfaceAPI");

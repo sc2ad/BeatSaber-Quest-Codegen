@@ -18,11 +18,6 @@
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <RefreshAvailabilityAsync>d__19
-  struct $RefreshAvailabilityAsync$d__19;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$RefreshAvailabilityAsync$d__19, "", "LevelPackDetailViewController/<RefreshAvailabilityAsync>d__19");
 // Type namespace: 
@@ -33,15 +28,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct LevelPackDetailViewController::$RefreshAvailabilityAsync$d__19/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

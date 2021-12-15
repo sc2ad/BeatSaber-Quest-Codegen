@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetPropErrorNameFromEnum
-  class _GetPropErrorNameFromEnum;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetPropErrorNameFromEnum*, "Valve.VR", "IVRSystem/_GetPropErrorNameFromEnum");

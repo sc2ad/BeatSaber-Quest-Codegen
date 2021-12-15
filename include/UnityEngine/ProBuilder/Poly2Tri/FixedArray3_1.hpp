@@ -208,15 +208,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       }
     }; // UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10
     // Could not write size check! Type: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10 is generic, or has no fields that are valid for size checks!
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public T _0
     // Size: 0xFFFFFFFF
     // Offset: 0x0

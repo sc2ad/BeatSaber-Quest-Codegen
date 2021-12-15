@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <HideTextCoroutine>d__12
-  class $HideTextCoroutine$d__12;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::HoverTextController::$HideTextCoroutine$d__12);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController::$HideTextCoroutine$d__12*, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");

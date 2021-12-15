@@ -90,15 +90,7 @@ namespace OVR::OpenVR {
     class _LaunchInternalProcess;
     // Nested type: OVR::OpenVR::IVRApplications::_GetCurrentSceneProcessId
     class _GetCurrentSceneProcessId;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRApplications/OVR.OpenVR._AddApplicationManifest AddApplicationManifest
     // Size: 0x8
     // Offset: 0x0

@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _ShouldApplicationPause
-  class _ShouldApplicationPause;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRSystem::_ShouldApplicationPause);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ShouldApplicationPause*, "Valve.VR", "IVRSystem/_ShouldApplicationPause");

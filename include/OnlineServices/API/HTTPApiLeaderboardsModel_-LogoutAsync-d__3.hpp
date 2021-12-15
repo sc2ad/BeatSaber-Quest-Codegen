@@ -16,11 +16,6 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-// Type namespace: OnlineServices.API
-namespace OnlineServices::API {
-  // Forward declaring type: <LogoutAsync>d__3
-  struct $LogoutAsync$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel::$LogoutAsync$d__3, "OnlineServices.API", "HTTPApiLeaderboardsModel/<LogoutAsync>d__3");
 // Type namespace: OnlineServices.API
@@ -32,15 +27,7 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPApiLeaderboardsModel::$LogoutAsync$d__3/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

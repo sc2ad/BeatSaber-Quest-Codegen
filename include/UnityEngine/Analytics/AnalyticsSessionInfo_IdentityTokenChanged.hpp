@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Analytics
-namespace UnityEngine::Analytics {
-  // Forward declaring type: IdentityTokenChanged
-  class IdentityTokenChanged;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged*, "UnityEngine.Analytics", "AnalyticsSessionInfo/IdentityTokenChanged");

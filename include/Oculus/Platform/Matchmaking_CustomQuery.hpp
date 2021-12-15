@@ -30,11 +30,6 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: CustomQuery
-  class CustomQuery;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::Matchmaking::CustomQuery);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
@@ -55,15 +50,7 @@ namespace Oculus::Platform {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Criterion/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.String key
       // Size: 0x8
       // Offset: 0x0

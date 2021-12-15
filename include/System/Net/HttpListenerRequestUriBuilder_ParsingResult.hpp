@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: ParsingResult
-  struct ParsingResult;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder::ParsingResult, "System.Net", "HttpListenerRequestUriBuilder/ParsingResult");
 // Type namespace: System.Net
@@ -25,15 +20,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HttpListenerRequestUriBuilder::ParsingResult/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

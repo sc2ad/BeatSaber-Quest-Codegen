@@ -24,11 +24,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: ModestTree.Util
-namespace ModestTree::Util {
-  // Forward declaring type: <get_AllScenes>d__1
-  class $get_AllScenes$d__1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::UnityUtil::$get_AllScenes$d__1);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$get_AllScenes$d__1*, "ModestTree.Util", "UnityUtil/<get_AllScenes>d__1");

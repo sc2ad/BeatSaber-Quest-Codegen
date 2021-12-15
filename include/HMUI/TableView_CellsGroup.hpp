@@ -25,11 +25,6 @@ namespace HMUI {
   class TableCell;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: CellsGroup
-  class CellsGroup;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::TableView::CellsGroup);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");

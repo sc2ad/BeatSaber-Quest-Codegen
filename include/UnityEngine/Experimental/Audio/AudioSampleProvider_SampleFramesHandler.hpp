@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.Audio
-namespace UnityEngine::Experimental::Audio {
-  // Forward declaring type: SampleFramesHandler
-  class SampleFramesHandler;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*, "UnityEngine.Experimental.Audio", "AudioSampleProvider/SampleFramesHandler");

@@ -22,12 +22,6 @@ namespace UnityEngine::Events {
   class UnityAction_3;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Event`3<T0, T1, T2>
-  template<typename T0, typename T1, typename T2>
-  class Event_3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::SteamVR_Events::Event_3, "", "SteamVR_Events/Event`3");
 // Type namespace: 

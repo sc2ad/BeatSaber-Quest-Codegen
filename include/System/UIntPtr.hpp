@@ -41,15 +41,7 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E9E408
   struct UIntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Void* _pointer
     // Size: 0x8
     // Offset: 0x0

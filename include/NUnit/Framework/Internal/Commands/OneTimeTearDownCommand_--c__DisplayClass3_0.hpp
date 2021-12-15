@@ -19,11 +19,6 @@ namespace System {
   class IDisposable;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Internal.Commands
-namespace NUnit::Framework::Internal::Commands {
-  // Forward declaring type: <>c__DisplayClass3_0
-  class $$c__DisplayClass3_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");

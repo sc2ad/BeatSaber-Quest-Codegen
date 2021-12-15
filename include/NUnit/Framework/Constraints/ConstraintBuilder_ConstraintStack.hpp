@@ -21,11 +21,6 @@ namespace NUnit::Framework::Constraints {
   class IConstraint;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: ConstraintStack
-  class ConstraintStack;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack");

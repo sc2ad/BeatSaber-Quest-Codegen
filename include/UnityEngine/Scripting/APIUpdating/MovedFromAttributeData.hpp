@@ -26,15 +26,7 @@ namespace UnityEngine::Scripting::APIUpdating {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MovedFromAttributeData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String className
     // Size: 0x8
     // Offset: 0x0

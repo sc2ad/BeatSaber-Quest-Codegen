@@ -10,11 +10,6 @@
 // Including type: System.Int32
 #include "System/Int32.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightSwitchEventEffectDataValues
-  class LightSwitchEventEffectDataValues;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues*, "", "BeatmapEventDataExtensions/LightSwitchEventEffectDataValues");

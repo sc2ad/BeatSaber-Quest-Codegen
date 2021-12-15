@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: State
-  struct State;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::State, "System.Diagnostics", "Process/State");
 // Type namespace: System.Diagnostics
@@ -25,15 +20,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Process::State/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

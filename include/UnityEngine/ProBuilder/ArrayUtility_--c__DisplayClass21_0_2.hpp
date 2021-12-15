@@ -26,12 +26,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ProBuilder
-namespace UnityEngine::ProBuilder {
-  // Forward declaring type: <>c__DisplayClass21_0`2<TSource, TKey>
-  template<typename TSource, typename TKey>
-  class $$c__DisplayClass21_0_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2, "UnityEngine.ProBuilder", "ArrayUtility/<>c__DisplayClass21_0`2");
 // Type namespace: UnityEngine.ProBuilder

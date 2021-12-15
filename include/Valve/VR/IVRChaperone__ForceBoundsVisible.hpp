@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _ForceBoundsVisible
-  class _ForceBoundsVisible;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRChaperone::_ForceBoundsVisible);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_ForceBoundsVisible*, "Valve.VR", "IVRChaperone/_ForceBoundsVisible");

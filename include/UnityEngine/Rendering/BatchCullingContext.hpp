@@ -33,15 +33,7 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: EB6AF4
   struct BatchCullingContext/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
     // Size: 0xFFFFFFFF
     // Offset: 0x0

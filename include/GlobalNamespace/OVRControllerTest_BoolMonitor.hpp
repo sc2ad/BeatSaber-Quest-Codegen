@@ -22,11 +22,6 @@ namespace System::Text {
   class StringBuilder;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: BoolMonitor
-  class BoolMonitor;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRControllerTest::BoolMonitor);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OVRControllerTest/BoolMonitor");

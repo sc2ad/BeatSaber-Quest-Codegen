@@ -21,11 +21,6 @@ namespace System {
   class Exception;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: GuidResult
-  struct GuidResult;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
 // Type namespace: System
@@ -37,15 +32,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Guid::GuidResult/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Guid parsedGuid
     // Size: 0x10
     // Offset: 0x0

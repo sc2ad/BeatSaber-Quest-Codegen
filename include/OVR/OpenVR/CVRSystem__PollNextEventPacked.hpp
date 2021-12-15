@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _PollNextEventPacked
-  class _PollNextEventPacked;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::CVRSystem::_PollNextEventPacked);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_PollNextEventPacked*, "OVR.OpenVR", "CVRSystem/_PollNextEventPacked");

@@ -43,15 +43,7 @@ namespace UnityEngine::Tilemaps {
   // [RequiredByNativeCodeAttribute] Offset: F167E8
   struct TileData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Sprite m_Sprite
     // Size: 0x8
     // Offset: 0x0

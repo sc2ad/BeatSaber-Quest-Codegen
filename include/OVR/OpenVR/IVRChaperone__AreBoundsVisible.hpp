@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _AreBoundsVisible
-  class _AreBoundsVisible;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRChaperone::_AreBoundsVisible);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperone::_AreBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_AreBoundsVisible");

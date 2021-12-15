@@ -17,11 +17,6 @@ namespace UnityEngine {
   class Sprite;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: Resources
-  struct Resources;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
 // Type namespace: TMPro
@@ -33,15 +28,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_DefaultControls::Resources/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Sprite standard
     // Size: 0x8
     // Offset: 0x0

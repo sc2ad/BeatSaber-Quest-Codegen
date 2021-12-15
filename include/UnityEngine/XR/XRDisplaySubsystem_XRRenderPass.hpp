@@ -16,11 +16,6 @@
 // Including type: UnityEngine.Rendering.RenderTargetIdentifier
 #include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 // Completed includes
-// Type namespace: UnityEngine.XR
-namespace UnityEngine::XR {
-  // Forward declaring type: XRRenderPass
-  struct XRRenderPass;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
 // Type namespace: UnityEngine.XR
@@ -35,15 +30,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBA08
   struct XRDisplaySubsystem::XRRenderPass/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8
     // Offset: 0x0

@@ -36,11 +36,6 @@ namespace System::Collections::Generic {
   class HashSet_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <RemoveViewControllersCoroutine>d__17
-  class $RemoveViewControllersCoroutine$d__17;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17*, "HMUI", "ContainerViewController/<RemoveViewControllersCoroutine>d__17");

@@ -9,11 +9,6 @@
 #include "Mono/Math/BigInteger.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: Mono.Math
-namespace Mono::Math {
-  // Forward declaring type: Kernel
-  class Kernel;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Math::BigInteger::Kernel);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Kernel*, "Mono.Math", "BigInteger/Kernel");

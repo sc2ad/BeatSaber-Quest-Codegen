@@ -12,11 +12,6 @@
 // Including type: System.TimeZoneInfo/System.SYSTEMTIME
 #include "System/TimeZoneInfo_SYSTEMTIME.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: TIME_ZONE_INFORMATION
-  struct TIME_ZONE_INFORMATION;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
 // Type namespace: System
@@ -28,15 +23,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 Bias
     // Size: 0x4
     // Offset: 0x0

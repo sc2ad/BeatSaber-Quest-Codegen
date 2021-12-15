@@ -33,11 +33,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: OnNatIntroductionSuccess
-  class OnNatIntroductionSuccess;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*, "LiteNetLib", "EventBasedNatPunchListener/OnNatIntroductionSuccess");

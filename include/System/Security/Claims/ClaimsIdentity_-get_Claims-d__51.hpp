@@ -27,11 +27,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.Security.Claims
-namespace System::Security::Claims {
-  // Forward declaring type: <get_Claims>d__51
-  class $get_Claims$d__51;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");

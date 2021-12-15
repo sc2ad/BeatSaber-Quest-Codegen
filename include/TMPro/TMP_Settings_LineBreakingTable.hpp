@@ -20,11 +20,6 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: LineBreakingTable
-  class LineBreakingTable;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_Settings::LineBreakingTable);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");

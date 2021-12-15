@@ -30,11 +30,6 @@ namespace System::Text {
   class StringBuilder;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: NameFragment
-  class NameFragment;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestNameGenerator::NameFragment);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::NameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/NameFragment");

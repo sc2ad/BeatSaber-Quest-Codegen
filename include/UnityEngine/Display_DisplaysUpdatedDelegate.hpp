@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: DisplaysUpdatedDelegate
-  class DisplaysUpdatedDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Display::DisplaysUpdatedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display::DisplaysUpdatedDelegate*, "UnityEngine", "Display/DisplaysUpdatedDelegate");

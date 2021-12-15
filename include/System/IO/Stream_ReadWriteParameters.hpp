@@ -11,11 +11,6 @@
 #include "System/ValueType.hpp"
 #include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: ReadWriteParameters
-  struct ReadWriteParameters;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteParameters, "System.IO", "Stream/ReadWriteParameters");
 // Type namespace: System.IO
@@ -27,15 +22,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Stream::ReadWriteParameters/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x0

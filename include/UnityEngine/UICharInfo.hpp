@@ -27,15 +27,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: ECC428
   struct UICharInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector2 cursorPos
     // Size: 0x8
     // Offset: 0x0

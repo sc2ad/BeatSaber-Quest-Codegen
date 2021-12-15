@@ -28,11 +28,6 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <ConnectToEndPoint>d__84
-  struct $ConnectToEndPoint$d__84;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::$ConnectToEndPoint$d__84, "", "MasterServerConnectionManager/<ConnectToEndPoint>d__84");
 // Type namespace: 
@@ -43,15 +38,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MasterServerConnectionManager::$ConnectToEndPoint$d__84/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

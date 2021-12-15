@@ -26,15 +26,7 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: EA01E4
   struct NativeOverlapped/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IntPtr InternalLow
     // Size: 0x8
     // Offset: 0x0

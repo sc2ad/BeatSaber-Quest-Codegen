@@ -30,11 +30,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: CreateSessionFromTypeDelegate
-  class CreateSessionFromTypeDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate*, "HoudiniEngineUnity", "HEU_SessionManager/CreateSessionFromTypeDelegate");

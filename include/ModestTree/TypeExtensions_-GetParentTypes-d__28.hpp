@@ -27,11 +27,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: ModestTree
-namespace ModestTree {
-  // Forward declaring type: <GetParentTypes>d__28
-  class $GetParentTypes$d__28;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::TypeExtensions::$GetParentTypes$d__28);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$GetParentTypes$d__28*, "ModestTree", "TypeExtensions/<GetParentTypes>d__28");

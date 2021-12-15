@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: <CaretBlink>d__161
-  class $CaretBlink$d__161;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::InputField::$CaretBlink$d__161);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__161*, "UnityEngine.UI", "InputField/<CaretBlink>d__161");

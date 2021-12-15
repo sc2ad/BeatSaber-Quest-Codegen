@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetDriverName
-  class _GetDriverName;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRDriverManager::_GetDriverName);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRDriverManager::_GetDriverName*, "Valve.VR", "IVRDriverManager/_GetDriverName");

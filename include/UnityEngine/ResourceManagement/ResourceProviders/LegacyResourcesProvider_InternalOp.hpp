@@ -21,11 +21,6 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ResourceManagement.ResourceProviders
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-  // Forward declaring type: InternalOp
-  class InternalOp;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider/InternalOp");

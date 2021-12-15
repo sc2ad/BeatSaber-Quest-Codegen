@@ -26,11 +26,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _GetWorkingCollisionBoundsInfo
-  class _GetWorkingCollisionBoundsInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*, "OVR.OpenVR", "IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo");

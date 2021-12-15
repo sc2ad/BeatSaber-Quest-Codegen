@@ -21,11 +21,6 @@ namespace System::Text {
   class DecoderFallbackBuffer;
 }
 // Completed forward declares
-// Type namespace: System.Text
-namespace System::Text {
-  // Forward declaring type: DecoderUTF7Fallback
-  class DecoderUTF7Fallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Text::UTF7Encoding::DecoderUTF7Fallback);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7Fallback*, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");

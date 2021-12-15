@@ -19,11 +19,6 @@ namespace System::Collections {
   class IComparer;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Constraints
-namespace NUnit::Framework::Constraints {
-  // Forward declaring type: ComparerAdapter
-  class ComparerAdapter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/ComparerAdapter");

@@ -22,11 +22,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: TMPro.SpriteAssetUtilities
-namespace TMPro::SpriteAssetUtilities {
-  // Forward declaring type: SpriteDataObject
-  class SpriteDataObject;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");

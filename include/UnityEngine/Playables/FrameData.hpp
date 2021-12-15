@@ -47,15 +47,7 @@ namespace UnityEngine::Playables {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Flags/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -115,15 +107,7 @@ namespace UnityEngine::Playables {
     #pragma pack(pop)
     static check_size<sizeof(FrameData::Flags), 0 + sizeof(int)> __UnityEngine_Playables_FrameData_FlagsSizeCheck;
     static_assert(sizeof(FrameData::Flags) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.UInt64 m_FrameID
     // Size: 0x8
     // Offset: 0x0

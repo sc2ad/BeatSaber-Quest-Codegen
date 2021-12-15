@@ -36,11 +36,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AddressableAssets.ResourceProviders
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-  // Forward declaring type: BundledCatalog
-  class BundledCatalog;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");

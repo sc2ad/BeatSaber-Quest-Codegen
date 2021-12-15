@@ -35,11 +35,6 @@ namespace System::Collections::Generic {
   class Dictionary_2;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.TerrainAPI
-namespace UnityEngine::Experimental::TerrainAPI {
-  // Forward declaring type: TerrainMap
-  class TerrainMap;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap");
@@ -66,15 +61,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TileCoord/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public readonly System.Int32 tileX
       // Size: 0x4
       // Offset: 0x0
@@ -111,15 +98,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ErrorCode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

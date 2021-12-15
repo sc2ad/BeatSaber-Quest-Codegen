@@ -8,11 +8,6 @@
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
-// Type namespace: System.ComponentModel
-namespace System::ComponentModel {
-  // Forward declaring type: StandardValuesCollection
-  class StandardValuesCollection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::ComponentModel::TypeConverter::StandardValuesCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverter::StandardValuesCollection*, "System.ComponentModel", "TypeConverter/StandardValuesCollection");

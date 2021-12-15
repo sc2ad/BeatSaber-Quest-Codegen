@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.UI
-namespace UnityEngine::UI {
-  // Forward declaring type: OnChangeEvent
-  class OnChangeEvent;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UI::InputField::OnChangeEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::OnChangeEvent*, "UnityEngine.UI", "InputField/OnChangeEvent");

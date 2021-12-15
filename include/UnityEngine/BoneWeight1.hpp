@@ -29,15 +29,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB3C78
   struct BoneWeight1/*, public System::ValueType, public System::IEquatable_1<UnityEngine::BoneWeight1>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [SerializeField] Offset: 0xEB7F5C
     // private System.Single m_Weight
     // Size: 0x4

@@ -25,11 +25,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.Utils
-namespace UnityEngine::TestTools::Utils {
-  // Forward declaring type: <StartTimer>d__11
-  class $StartTimer$d__11;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<StartTimer>d__11");

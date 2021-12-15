@@ -31,11 +31,6 @@ namespace Mono::Security::Interface {
   struct MonoSslPolicyErrors;
 }
 // Completed forward declares
-// Type namespace: Mono.Net.Security.Private
-namespace Mono::Net::Security::Private {
-  // Forward declaring type: <>c__DisplayClass0_0
-  class $$c__DisplayClass0_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass0_0");

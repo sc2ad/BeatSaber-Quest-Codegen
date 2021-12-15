@@ -20,11 +20,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: MD5
-  class MD5;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::MD5);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::MD5*, "System.Net.Http.Headers", "Parser/MD5");

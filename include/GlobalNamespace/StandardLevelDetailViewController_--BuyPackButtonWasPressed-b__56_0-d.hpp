@@ -20,11 +20,6 @@
 // Including type: AdditionalContentModel/OpenProductStoreResult
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <<BuyPackButtonWasPressed>b__56_0>d
-  struct $$BuyPackButtonWasPressed$b__56_0$d;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$BuyPackButtonWasPressed$b__56_0$d, "", "StandardLevelDetailViewController/<<BuyPackButtonWasPressed>b__56_0>d");
 // Type namespace: 
@@ -35,15 +30,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct StandardLevelDetailViewController::$$BuyPackButtonWasPressed$b__56_0$d/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

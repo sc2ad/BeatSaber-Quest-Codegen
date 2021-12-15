@@ -25,11 +25,6 @@ namespace NUnit::Framework::Internal {
   class TestFilter;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.TestRunner.GUI
-namespace UnityEngine::TestTools::TestRunner::GUI {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c");

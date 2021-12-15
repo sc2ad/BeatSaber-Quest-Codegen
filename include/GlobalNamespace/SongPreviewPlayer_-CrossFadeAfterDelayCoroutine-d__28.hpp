@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <CrossFadeAfterDelayCoroutine>d__28
-  class $CrossFadeAfterDelayCoroutine$d__28;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__28);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__28*, "", "SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__28");

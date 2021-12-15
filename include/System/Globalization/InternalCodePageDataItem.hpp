@@ -27,15 +27,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InternalCodePageDataItem/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.UInt16 codePage
     // Size: 0x2
     // Offset: 0x0

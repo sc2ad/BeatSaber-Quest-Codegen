@@ -12,11 +12,6 @@
 // Including type: Mono.Unity.UnityTls/Mono.Unity.unitytls_error_code
 #include "Mono/Unity/UnityTls_unitytls_error_code.hpp"
 // Completed includes
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_errorstate
-  struct unitytls_errorstate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_errorstate, "Mono.Unity", "UnityTls/unitytls_errorstate");
 // Type namespace: Mono.Unity
@@ -28,15 +23,7 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_errorstate/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 magic
     // Size: 0x4
     // Offset: 0x0

@@ -12,12 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: RequireClass`1<T>
-  template<typename T>
-  class RequireClass_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireClass`1");
 // Type namespace: HoudiniEngineUnity

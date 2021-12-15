@@ -39,15 +39,7 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: EB6B40
   struct BatchRendererCullingOutput/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Unity.Jobs.JobHandle cullingJobsFence
     // Size: 0xC
     // Offset: 0x0

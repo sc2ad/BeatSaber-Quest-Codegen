@@ -33,11 +33,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: OnNetworkError
-  class OnNetworkError;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::EventBasedNetListener::OnNetworkError);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkError*, "LiteNetLib", "EventBasedNetListener/OnNetworkError");

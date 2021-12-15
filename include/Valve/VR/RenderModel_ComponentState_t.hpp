@@ -25,15 +25,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_ComponentState_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Valve.VR.HmdMatrix34_t mTrackingToComponentRenderModel
     // Size: 0x30
     // Offset: 0x0

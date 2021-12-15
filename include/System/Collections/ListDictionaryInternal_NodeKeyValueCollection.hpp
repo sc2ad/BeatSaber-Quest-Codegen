@@ -26,11 +26,6 @@ namespace System {
   class Array;
 }
 // Completed forward declares
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: NodeKeyValueCollection
-  class NodeKeyValueCollection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::ListDictionaryInternal::NodeKeyValueCollection);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*, "System.Collections", "ListDictionaryInternal/NodeKeyValueCollection");

@@ -58,15 +58,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D450
   struct Char/*, public System::ValueType, public System::IComparable_1<::Il2CppChar>, public System::IEquatable_1<::Il2CppChar>, public System::IComparable, public System::IConvertible*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Char m_value
     // Size: 0x2
     // Offset: 0x0

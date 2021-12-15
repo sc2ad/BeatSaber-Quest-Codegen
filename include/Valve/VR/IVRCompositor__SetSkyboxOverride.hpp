@@ -31,11 +31,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _SetSkyboxOverride
-  class _SetSkyboxOverride;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRCompositor::_SetSkyboxOverride);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_SetSkyboxOverride*, "Valve.VR", "IVRCompositor/_SetSkyboxOverride");

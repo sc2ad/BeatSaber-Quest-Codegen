@@ -26,11 +26,6 @@ namespace System::Collections {
   class IEnumerator;
 }
 // Completed forward declares
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: ValueList
-  class ValueList;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::SortedList::ValueList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::ValueList*, "System.Collections", "SortedList/ValueList");

@@ -27,15 +27,7 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EE7BD8
   struct FaceInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEE7D34
     // private System.Int32 m_FaceIndex
     // Size: 0x4

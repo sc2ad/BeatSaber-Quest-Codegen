@@ -52,11 +52,6 @@ namespace GlobalNamespace {
   class IDiffieHellmanKeyPair;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <AuthenticateWithMasterServerAsyncInternal>d__29
-  struct $AuthenticateWithMasterServerAsyncInternal$d__29;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29, "MasterServer", "BaseClientMessageHandler/<AuthenticateWithMasterServerAsyncInternal>d__29");
 // Type namespace: MasterServer
@@ -67,15 +62,7 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -27,12 +27,6 @@ namespace System::Collections::Generic {
   // Skipping declaration: IEnumerable`1 because it is already included!
 }
 // Completed forward declares
-// Type namespace: System.Linq
-namespace System::Linq {
-  // Forward declaring type: WhereSelectArrayIterator`2<TSource, TResult>
-  template<typename TSource, typename TResult>
-  class WhereSelectArrayIterator_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Enumerable::WhereSelectArrayIterator_2, "System.Linq", "Enumerable/WhereSelectArrayIterator`2");
 // Type namespace: System.Linq

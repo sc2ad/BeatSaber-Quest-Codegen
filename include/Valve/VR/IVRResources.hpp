@@ -32,15 +32,7 @@ namespace Valve::VR {
     class _LoadSharedResource;
     // Nested type: Valve::VR::IVRResources::_GetResourceFullPath
     class _GetResourceFullPath;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
     // Size: 0x8
     // Offset: 0x0

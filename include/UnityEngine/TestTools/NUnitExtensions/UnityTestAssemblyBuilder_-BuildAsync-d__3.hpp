@@ -40,11 +40,6 @@ namespace NUnit::Framework::Internal {
   class TestSuite;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.NUnitExtensions
-namespace UnityEngine::TestTools::NUnitExtensions {
-  // Forward declaring type: <BuildAsync>d__3
-  class $BuildAsync$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::$BuildAsync$d__3*, "UnityEngine.TestTools.NUnitExtensions", "UnityTestAssemblyBuilder/<BuildAsync>d__3");

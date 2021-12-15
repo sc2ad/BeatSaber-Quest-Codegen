@@ -44,15 +44,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DE30
   struct TimeSpan/*, public System::ValueType, public System::IComparable_1<System::TimeSpan>, public System::IEquatable_1<System::TimeSpan>, public System::IComparable, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int64 _ticks
     // Size: 0x8
     // Offset: 0x0

@@ -40,15 +40,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB3FF4
   struct Color/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Color>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single r
     // Size: 0x4
     // Offset: 0x0

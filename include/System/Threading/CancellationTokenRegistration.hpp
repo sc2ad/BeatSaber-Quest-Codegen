@@ -38,15 +38,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CancellationTokenRegistration/*, public System::ValueType, public System::IDisposable, public System::IEquatable_1<System::Threading::CancellationTokenRegistration>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Threading.CancellationCallbackInfo m_callbackInfo
     // Size: 0x8
     // Offset: 0x0

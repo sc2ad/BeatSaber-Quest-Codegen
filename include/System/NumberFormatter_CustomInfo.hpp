@@ -24,11 +24,6 @@ namespace System::Text {
   class StringBuilder;
 }
 // Completed forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: CustomInfo
-  class CustomInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::NumberFormatter::CustomInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");

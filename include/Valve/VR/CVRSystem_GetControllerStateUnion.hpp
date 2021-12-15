@@ -12,11 +12,6 @@
 // Including type: Valve.VR.IVRSystem
 #include "Valve/VR/IVRSystem.hpp"
 // Completed includes
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: GetControllerStateUnion
-  struct GetControllerStateUnion;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::GetControllerStateUnion, "Valve.VR", "CVRSystem/GetControllerStateUnion");
 // Type namespace: Valve.VR
@@ -27,15 +22,7 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRSystem::GetControllerStateUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
     // Size: 0x8
     // Offset: 0x0

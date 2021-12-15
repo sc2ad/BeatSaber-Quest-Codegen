@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: NumberBuffer
-  struct NumberBuffer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number::NumberBuffer, "System", "Number/NumberBuffer");
 // Type namespace: System
@@ -27,15 +22,7 @@ namespace System {
   // [FriendAccessAllowedAttribute] Offset: E9DA8C
   struct Number::NumberBuffer/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Byte* baseAddress
     // Size: 0x8
     // Offset: 0x0

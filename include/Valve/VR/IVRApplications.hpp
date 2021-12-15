@@ -90,15 +90,7 @@ namespace Valve::VR {
     class _LaunchInternalProcess;
     // Nested type: Valve::VR::IVRApplications::_GetCurrentSceneProcessId
     class _GetCurrentSceneProcessId;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRApplications/Valve.VR._AddApplicationManifest AddApplicationManifest
     // Size: 0x8
     // Offset: 0x0

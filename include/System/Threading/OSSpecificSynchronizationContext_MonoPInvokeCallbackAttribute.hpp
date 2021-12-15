@@ -21,11 +21,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: MonoPInvokeCallbackAttribute
-  class MonoPInvokeCallbackAttribute;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::MonoPInvokeCallbackAttribute*, "System.Threading", "OSSpecificSynchronizationContext/MonoPInvokeCallbackAttribute");

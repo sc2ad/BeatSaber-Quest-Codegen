@@ -33,15 +33,7 @@ namespace UnityEngine::U2D {
   // [MovedFromAttribute] Offset: EB5874
   struct SpriteBone/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEB887C
     // private System.String m_Name
     // Size: 0x8

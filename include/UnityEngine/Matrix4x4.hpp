@@ -45,15 +45,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB414C
   struct Matrix4x4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Matrix4x4>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEB82BC
     // public System.Single m00
     // Size: 0x4

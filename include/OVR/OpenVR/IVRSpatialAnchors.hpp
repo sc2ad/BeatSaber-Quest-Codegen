@@ -36,15 +36,7 @@ namespace OVR::OpenVR {
     class _GetSpatialAnchorPose;
     // Nested type: OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor
     class _GetSpatialAnchorDescriptor;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
     // Size: 0x8
     // Offset: 0x0

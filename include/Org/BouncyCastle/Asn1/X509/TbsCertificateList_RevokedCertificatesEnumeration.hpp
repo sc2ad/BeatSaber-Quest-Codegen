@@ -24,11 +24,6 @@ namespace System::Collections {
   class IEnumerator;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.X509
-namespace Org::BouncyCastle::Asn1::X509 {
-  // Forward declaring type: RevokedCertificatesEnumeration
-  class RevokedCertificatesEnumeration;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration*, "Org.BouncyCastle.Asn1.X509", "TbsCertificateList/RevokedCertificatesEnumeration");

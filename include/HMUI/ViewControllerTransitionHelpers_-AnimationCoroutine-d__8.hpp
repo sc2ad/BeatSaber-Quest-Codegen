@@ -22,11 +22,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <AnimationCoroutine>d__8
-  class $AnimationCoroutine$d__8;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8*, "HMUI", "ViewControllerTransitionHelpers/<AnimationCoroutine>d__8");

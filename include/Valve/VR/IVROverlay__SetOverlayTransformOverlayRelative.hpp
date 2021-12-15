@@ -30,11 +30,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _SetOverlayTransformOverlayRelative
-  class _SetOverlayTransformOverlayRelative;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetOverlayTransformOverlayRelative*, "Valve.VR", "IVROverlay/_SetOverlayTransformOverlayRelative");

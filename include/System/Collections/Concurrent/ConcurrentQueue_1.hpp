@@ -77,15 +77,7 @@ namespace System::Collections::Concurrent {
         using declaring_type = typename ConcurrentQueue_1<T>::Segment*;
         static constexpr std::string_view NESTED_NAME = "Slot";
         static constexpr bool IS_VALUE_TYPE = true;
-        #ifdef USE_CODEGEN_FIELDS
         public:
-        #else
-        #ifdef CODEGEN_FIELD_ACCESSIBILITY
-        CODEGEN_FIELD_ACCESSIBILITY:
-        #else
-        protected:
-        #endif
-        #endif
         // public T Item
         // Size: 0xFFFFFFFF
         // Offset: 0x0

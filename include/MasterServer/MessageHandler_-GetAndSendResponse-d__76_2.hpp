@@ -44,12 +44,6 @@ namespace System::Threading::Tasks {
   class Task_1;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <GetAndSendResponse>d__76`2<TRequest, TResponse>
-  template<typename TRequest, typename TResponse>
-  struct $GetAndSendResponse$d__76_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::MessageHandler::$GetAndSendResponse$d__76_2, "MasterServer", "MessageHandler/<GetAndSendResponse>d__76`2");
 // Type namespace: MasterServer
@@ -61,15 +55,7 @@ namespace MasterServer {
   template<typename TRequest, typename TResponse>
   struct MessageHandler::$GetAndSendResponse$d__76_2/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -22,11 +22,6 @@ namespace Org::BouncyCastle::Math::EC {
   class ECPoint;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC
-namespace Org::BouncyCastle::Math::EC {
-  // Forward declaring type: DefaultF2mLookupTable
-  class DefaultF2mLookupTable;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable*, "Org.BouncyCastle.Math.EC", "F2mCurve/DefaultF2mLookupTable");

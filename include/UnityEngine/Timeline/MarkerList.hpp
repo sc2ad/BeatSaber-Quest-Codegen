@@ -61,15 +61,7 @@ namespace UnityEngine::Timeline {
   // [DefaultMemberAttribute] Offset: EFBB90
   struct MarkerList/*, public System::ValueType, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
     // Size: 0x8
     // Offset: 0x0

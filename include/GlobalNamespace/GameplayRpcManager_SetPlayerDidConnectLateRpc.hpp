@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class PlayerSpecificSettingsAtStartNetSerializable;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SetPlayerDidConnectLateRpc
-  class SetPlayerDidConnectLateRpc;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLateRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLateRpc*, "", "GameplayRpcManager/SetPlayerDidConnectLateRpc");

@@ -19,11 +19,6 @@ namespace System::Threading {
   class WaitCallback;
 }
 // Completed forward declares
-// Type namespace: System.Threading.Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Threading::Tasks::AwaitTaskContinuation::$$c);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation::$$c*, "System.Threading.Tasks", "AwaitTaskContinuation/<>c");

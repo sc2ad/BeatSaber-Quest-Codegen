@@ -32,15 +32,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EB2A1C
   struct Cache/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Cache>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_Handle
     // Size: 0x4
     // Offset: 0x0

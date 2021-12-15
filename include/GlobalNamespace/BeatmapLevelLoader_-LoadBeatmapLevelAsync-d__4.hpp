@@ -29,11 +29,6 @@ namespace GlobalNamespace {
   class IBeatmapLevel;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LoadBeatmapLevelAsync>d__4
-  struct $LoadBeatmapLevelAsync$d__4;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::$LoadBeatmapLevelAsync$d__4, "", "BeatmapLevelLoader/<LoadBeatmapLevelAsync>d__4");
 // Type namespace: 
@@ -44,15 +39,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapLevelLoader::$LoadBeatmapLevelAsync$d__4/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

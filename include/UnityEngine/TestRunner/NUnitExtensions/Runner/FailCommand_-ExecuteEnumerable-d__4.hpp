@@ -27,11 +27,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
-namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
-  // Forward declaring type: <ExecuteEnumerable>d__4
-  class $ExecuteEnumerable$d__4;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "FailCommand/<ExecuteEnumerable>d__4");

@@ -20,11 +20,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.Utils
-namespace UnityEngine::TestTools::Utils {
-  // Forward declaring type: <ExMethod>d__10
-  class $ExMethod$d__10;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<ExMethod>d__10");

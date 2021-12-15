@@ -19,11 +19,6 @@ namespace NUnit::Framework::Internal {
   class ITestExecutionContext;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework
-namespace NUnit::Framework {
-  // Forward declaring type: RepeatedTestCommand
-  class RepeatedTestCommand;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::RepeatAttribute::RepeatedTestCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RepeatAttribute::RepeatedTestCommand*, "NUnit.Framework", "RepeatAttribute/RepeatedTestCommand");

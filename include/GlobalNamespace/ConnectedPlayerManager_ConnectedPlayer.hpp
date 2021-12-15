@@ -34,11 +34,6 @@ namespace GlobalNamespace {
   class RollingAverage;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ConnectedPlayer
-  class ConnectedPlayer;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*, "", "ConnectedPlayerManager/ConnectedPlayer");

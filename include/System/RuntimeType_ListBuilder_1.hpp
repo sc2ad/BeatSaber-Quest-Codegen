@@ -17,12 +17,6 @@
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
-// Type namespace: System
-namespace System {
-  // Forward declaring type: ListBuilder`1<T>
-  template<typename T>
-  struct ListBuilder_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::RuntimeType::ListBuilder_1, "System", "RuntimeType/ListBuilder`1");
 // Type namespace: System
@@ -35,15 +29,7 @@ namespace System {
   template<typename T>
   struct RuntimeType::ListBuilder_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private T[] _items
     // Size: 0x8
     // Offset: 0x0

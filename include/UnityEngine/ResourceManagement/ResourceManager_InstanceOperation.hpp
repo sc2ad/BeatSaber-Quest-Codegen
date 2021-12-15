@@ -43,11 +43,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.ResourceManagement
-namespace UnityEngine::ResourceManagement {
-  // Forward declaring type: InstanceOperation
-  class InstanceOperation;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceManager::InstanceOperation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*, "UnityEngine.ResourceManagement", "ResourceManager/InstanceOperation");

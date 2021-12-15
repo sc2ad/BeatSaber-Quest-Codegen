@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _GetTransitionState
-  class _GetTransitionState;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRApplications::_GetTransitionState);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_GetTransitionState*, "OVR.OpenVR", "IVRApplications/_GetTransitionState");

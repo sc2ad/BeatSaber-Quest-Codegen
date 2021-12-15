@@ -35,15 +35,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB3F38
   struct Hash128/*, public System::ValueType, public System::IComparable_1<UnityEngine::Hash128>, public System::IEquatable_1<UnityEngine::Hash128>, public System::IComparable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 m_u32_0
     // Size: 0x4
     // Offset: 0x0

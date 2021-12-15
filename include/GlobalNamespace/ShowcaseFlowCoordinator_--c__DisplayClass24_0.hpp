@@ -23,11 +23,6 @@ namespace GlobalNamespace {
   class EnterPlayerGuestNameViewController;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass24_0
-  class $$c__DisplayClass24_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass24_0");

@@ -24,11 +24,6 @@ namespace System {
   class Uri;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: WebProxyWrapperOpaque
-  class WebProxyWrapperOpaque;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::WebRequest::WebProxyWrapperOpaque);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapperOpaque*, "System.Net", "WebRequest/WebProxyWrapperOpaque");

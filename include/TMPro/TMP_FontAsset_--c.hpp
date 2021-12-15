@@ -30,11 +30,6 @@ namespace UnityEngine::TextCore {
   class Glyph;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_FontAsset::$$c);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");

@@ -19,11 +19,6 @@
 namespace Mono::Unity {
 }
 // Completed forward declares
-// Type namespace: Mono.Unity
-namespace Mono::Unity {
-  // Forward declaring type: unitytls_interface_struct
-  class unitytls_interface_struct;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Unity::UnityTls::unitytls_interface_struct);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");

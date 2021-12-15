@@ -40,15 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorSchemeNetSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public ColorNoAlphaSerializable saberAColor
     // Size: 0x10
     // Offset: 0x0

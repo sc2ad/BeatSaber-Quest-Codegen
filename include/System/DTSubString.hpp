@@ -27,15 +27,7 @@ namespace System {
   // [DefaultMemberAttribute] Offset: E9D780
   struct DTSubString/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.String s
     // Size: 0x8
     // Offset: 0x0

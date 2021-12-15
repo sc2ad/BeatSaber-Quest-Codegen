@@ -28,15 +28,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IPv6AddressFormatter/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt16[] address
     // Size: 0x8
     // Offset: 0x0

@@ -28,11 +28,6 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <get_ParentContextsAndSelf>d__54
-  class $get_ParentContextsAndSelf$d__54;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::InjectContext::$get_ParentContextsAndSelf$d__54);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContextsAndSelf$d__54*, "Zenject", "InjectContext/<get_ParentContextsAndSelf>d__54");

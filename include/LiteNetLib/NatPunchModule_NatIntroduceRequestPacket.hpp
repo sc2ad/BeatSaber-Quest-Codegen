@@ -19,11 +19,6 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib
-namespace LiteNetLib {
-  // Forward declaring type: NatIntroduceRequestPacket
-  class NatIntroduceRequestPacket;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket);
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");

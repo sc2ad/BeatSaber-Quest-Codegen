@@ -32,15 +32,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_GlyphAdjustmentRecord/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 m_GlyphIndex
     // Size: 0x4
     // Offset: 0x0

@@ -21,11 +21,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass52_0
-  class $$c__DisplayClass52_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");

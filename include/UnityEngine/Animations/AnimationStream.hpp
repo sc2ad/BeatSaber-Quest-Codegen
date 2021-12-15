@@ -29,15 +29,7 @@ namespace UnityEngine::Animations {
   // [MovedFromAttribute] Offset: ECEA50
   struct AnimationStream/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt32 m_AnimatorBindingsVersion
     // Size: 0x4
     // Offset: 0x0

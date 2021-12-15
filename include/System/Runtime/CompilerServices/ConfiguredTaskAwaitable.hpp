@@ -50,15 +50,7 @@ namespace System::Runtime::CompilerServices {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ConfiguredTaskAwaiter/*, public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly System.Threading.Tasks.Task m_task
       // Size: 0x8
       // Offset: 0x0
@@ -105,15 +97,7 @@ namespace System::Runtime::CompilerServices {
     #pragma pack(pop)
     static check_size<sizeof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter), 8 + sizeof(bool)> __System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiterSizeCheck;
     static_assert(sizeof(ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) == 0x9);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable/System.Runtime.CompilerServices.ConfiguredTaskAwaiter m_configuredTaskAwaiter
     // Size: 0x9
     // Offset: 0x0

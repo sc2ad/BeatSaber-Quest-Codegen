@@ -19,11 +19,6 @@ namespace System::Threading {
   class SynchronizationContext;
 }
 // Completed forward declares
-// Type namespace: System.Threading
-namespace System::Threading {
-  // Forward declaring type: Reader
-  struct Reader;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
 // Type namespace: System.Threading
@@ -35,15 +30,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExecutionContext::Reader/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.ExecutionContext m_ec
     // Size: 0x8
     // Offset: 0x0

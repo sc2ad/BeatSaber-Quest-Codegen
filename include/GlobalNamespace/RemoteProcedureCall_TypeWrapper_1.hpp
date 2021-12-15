@@ -39,12 +39,6 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: TypeWrapper`1<T>
-  template<typename T>
-  struct TypeWrapper_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::RemoteProcedureCall::TypeWrapper_1, "", "RemoteProcedureCall/TypeWrapper`1");
 // Type namespace: 
@@ -56,15 +50,7 @@ namespace GlobalNamespace {
   template<typename T>
   struct RemoteProcedureCall::TypeWrapper_1/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Object _v
     // Size: 0x8
     // Offset: 0x0

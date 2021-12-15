@@ -22,11 +22,6 @@ namespace GlobalNamespace {
   class MissionNodeConnection;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <UpdateNodesAndConnectionCoroutine>d__15
-  class $UpdateNodesAndConnectionCoroutine$d__15;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15*, "", "MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15");

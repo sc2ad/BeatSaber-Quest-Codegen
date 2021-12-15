@@ -30,11 +30,6 @@ namespace Org::BouncyCastle::Crypto::Macs {
   class HMac;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: EncryptionState
-  class EncryptionState;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EncryptionUtility::EncryptionState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::EncryptionState*, "", "EncryptionUtility/EncryptionState");

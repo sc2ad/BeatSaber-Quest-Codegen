@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _AcknowledgeQuit_UserPrompt
-  class _AcknowledgeQuit_UserPrompt;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt*, "Valve.VR", "IVRSystem/_AcknowledgeQuit_UserPrompt");

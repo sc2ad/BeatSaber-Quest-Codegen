@@ -23,11 +23,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <DismissViewControllerCoroutine>d__62
-  class $DismissViewControllerCoroutine$d__62;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ViewController::$DismissViewControllerCoroutine$d__62);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$DismissViewControllerCoroutine$d__62*, "HMUI", "ViewController/<DismissViewControllerCoroutine>d__62");

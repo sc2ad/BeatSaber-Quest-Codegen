@@ -12,11 +12,6 @@
 // Including type: OVR.OpenVR.IVRSystem
 #include "OVR/OpenVR/IVRSystem.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: GetControllerStateUnion
-  struct GetControllerStateUnion;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::GetControllerStateUnion, "OVR.OpenVR", "CVRSystem/GetControllerStateUnion");
 // Type namespace: OVR.OpenVR
@@ -27,15 +22,7 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRSystem::GetControllerStateUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVR.OpenVR.IVRSystem/OVR.OpenVR._GetControllerState pGetControllerState
     // Size: 0x8
     // Offset: 0x0

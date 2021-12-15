@@ -26,11 +26,6 @@ namespace System {
   class IFormatProvider;
 }
 // Completed forward declares
-// Type namespace: System.IO
-namespace System::IO {
-  // Forward declaring type: SyncTextWriter
-  class SyncTextWriter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::TextWriter::SyncTextWriter);
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::SyncTextWriter*, "System.IO", "TextWriter/SyncTextWriter");

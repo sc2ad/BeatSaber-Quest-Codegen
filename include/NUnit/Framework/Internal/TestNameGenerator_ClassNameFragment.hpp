@@ -22,11 +22,6 @@ namespace System::Reflection {
   class MethodInfo;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: ClassNameFragment
-  class ClassNameFragment;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ClassNameFragment");

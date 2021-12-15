@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: ResolveEventHolder
-  class ResolveEventHolder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::Assembly::ResolveEventHolder);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Assembly::ResolveEventHolder*, "System.Reflection", "Assembly/ResolveEventHolder");

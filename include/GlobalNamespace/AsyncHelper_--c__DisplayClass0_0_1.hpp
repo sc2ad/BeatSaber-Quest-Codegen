@@ -40,12 +40,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass0_0`1<T>
-  template<typename T>
-  class $$c__DisplayClass0_0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1, "", "AsyncHelper/<>c__DisplayClass0_0`1");
 // Type namespace: 
@@ -67,15 +61,7 @@ namespace GlobalNamespace {
       using declaring_type = AsyncHelper::$$c__DisplayClass0_0_1<T>*;
       static constexpr std::string_view NESTED_NAME = "<<RunSync>b__0>d";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

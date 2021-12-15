@@ -12,11 +12,6 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 // Completed includes
-// Type namespace: Mono
-namespace Mono {
-  // Forward declaring type: GenericParamInfo
-  struct GenericParamInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs::GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
 // Type namespace: Mono
@@ -28,15 +23,7 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GenericParamInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Mono.RuntimeStructs/Mono.MonoClass* pklass
     // Size: 0x8
     // Offset: 0x0

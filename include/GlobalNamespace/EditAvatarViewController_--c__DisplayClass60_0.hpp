@@ -25,11 +25,6 @@ namespace System {
   class Func_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass60_0
-  class $$c__DisplayClass60_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0*, "", "EditAvatarViewController/<>c__DisplayClass60_0");

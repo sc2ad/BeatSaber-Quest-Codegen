@@ -32,11 +32,6 @@ namespace UnityEngine::Networking {
   class UnityWebRequest;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LoadTextureCoroutine>d__2
-  class $LoadTextureCoroutine$d__2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2*, "", "SimpleTextureLoader/<LoadTextureCoroutine>d__2");

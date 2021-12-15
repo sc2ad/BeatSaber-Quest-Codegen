@@ -21,12 +21,6 @@ namespace System::Reflection {
   class MethodInfo;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HashSetDelegateHolder`1<T>
-  template<typename T>
-  class HashSetDelegateHolder_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1, "", "HashSetExtensions/HashSetDelegateHolder`1");
 // Type namespace: 

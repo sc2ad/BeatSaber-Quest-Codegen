@@ -44,15 +44,7 @@ namespace Valve::VR {
     class _AreBoundsVisible;
     // Nested type: Valve::VR::IVRChaperone::_ForceBoundsVisible
     class _ForceBoundsVisible;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
     // Size: 0x8
     // Offset: 0x0

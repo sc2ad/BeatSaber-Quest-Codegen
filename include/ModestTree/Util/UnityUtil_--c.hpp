@@ -31,11 +31,6 @@ namespace UnityEngine {
   class Component;
 }
 // Completed forward declares
-// Type namespace: ModestTree.Util
-namespace ModestTree::Util {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(ModestTree::Util::UnityUtil::$$c);
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$$c*, "ModestTree.Util", "UnityUtil/<>c");

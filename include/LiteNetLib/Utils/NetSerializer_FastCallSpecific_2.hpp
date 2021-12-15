@@ -38,12 +38,6 @@ namespace System::Reflection {
   class MethodInfo;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: FastCallSpecific`2<TClass, TProperty>
-  template<typename TClass, typename TProperty>
-  class FastCallSpecific_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::FastCallSpecific_2, "LiteNetLib.Utils", "NetSerializer/FastCallSpecific`2");
 // Type namespace: LiteNetLib.Utils

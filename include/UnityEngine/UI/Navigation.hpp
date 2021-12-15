@@ -45,15 +45,7 @@ namespace UnityEngine::UI {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -107,15 +99,7 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Navigation::Mode), 0 + sizeof(int)> __UnityEngine_UI_Navigation_ModeSizeCheck;
     static_assert(sizeof(Navigation::Mode) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
     // Size: 0x4
     // Offset: 0x0

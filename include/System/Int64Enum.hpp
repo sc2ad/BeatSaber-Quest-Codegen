@@ -23,15 +23,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Int64Enum/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int64 value__
     // Size: 0x8
     // Offset: 0x0

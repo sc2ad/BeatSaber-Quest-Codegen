@@ -16,11 +16,6 @@
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 // Completed includes
-// Type namespace: TMPro.SpriteAssetUtilities
-namespace TMPro::SpriteAssetUtilities {
-  // Forward declaring type: SpriteData
-  struct SpriteData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");
 // Type namespace: TMPro.SpriteAssetUtilities
@@ -32,15 +27,7 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TexturePacker::SpriteData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.String filename
     // Size: 0x8
     // Offset: 0x0

@@ -19,11 +19,6 @@ namespace UnityEngine {
   class AssetBundle;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass6_1
-  class $$c__DisplayClass6_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1");

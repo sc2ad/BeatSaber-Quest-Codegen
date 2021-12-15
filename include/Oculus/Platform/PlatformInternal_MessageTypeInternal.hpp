@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: MessageTypeInternal
-  struct MessageTypeInternal;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
 // Type namespace: Oculus.Platform
@@ -25,15 +20,7 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PlatformInternal::MessageTypeInternal/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.UInt32 value__
     // Size: 0x4
     // Offset: 0x0

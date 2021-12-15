@@ -15,11 +15,6 @@
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
 // Completed il2cpp-utils forward declares
-// Type namespace: System.Diagnostics
-namespace System::Diagnostics {
-  // Forward declaring type: ProcInfo
-  struct ProcInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
 // Type namespace: System.Diagnostics
@@ -31,15 +26,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Process::ProcInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.IntPtr process_handle
     // Size: 0x8
     // Offset: 0x0

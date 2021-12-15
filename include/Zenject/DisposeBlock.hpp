@@ -89,15 +89,7 @@ namespace Zenject {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SpawnedObjectPoolPair/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public Zenject.IMemoryPool Pool
       // Size: 0x8
       // Offset: 0x0

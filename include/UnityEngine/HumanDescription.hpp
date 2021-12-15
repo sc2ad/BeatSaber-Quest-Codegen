@@ -31,15 +31,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ECDE88
   struct HumanDescription/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xECEEF8
     // public UnityEngine.HumanBone[] human
     // Size: 0x8

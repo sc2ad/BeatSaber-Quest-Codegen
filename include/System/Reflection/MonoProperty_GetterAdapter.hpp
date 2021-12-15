@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: GetterAdapter
-  class GetterAdapter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::MonoProperty::GetterAdapter);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty::GetterAdapter*, "System.Reflection", "MonoProperty/GetterAdapter");

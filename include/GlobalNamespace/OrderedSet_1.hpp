@@ -70,15 +70,7 @@ namespace GlobalNamespace {
       using declaring_type = OrderedSet_1<T>*;
       static constexpr std::string_view NESTED_NAME = "ProcessOrder";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0

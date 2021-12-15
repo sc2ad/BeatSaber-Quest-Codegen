@@ -44,11 +44,6 @@ namespace System::Threading::Tasks {
   class Task;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <>c__DisplayClass13_0
-  class $$c__DisplayClass13_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::UserMessageHandler::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass13_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass13_0");

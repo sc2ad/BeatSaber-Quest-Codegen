@@ -19,11 +19,6 @@ namespace NUnit::Framework::Internal {
   class ITestExecutionContext;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework
-namespace NUnit::Framework {
-  // Forward declaring type: RetryCommand
-  class RetryCommand;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::RetryAttribute::RetryCommand);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::RetryAttribute::RetryCommand*, "NUnit.Framework", "RetryAttribute/RetryCommand");

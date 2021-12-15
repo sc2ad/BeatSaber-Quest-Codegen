@@ -31,15 +31,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: ECDD18
   struct SkeletonBone/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xECEDA8
     // public System.String name
     // Size: 0x8

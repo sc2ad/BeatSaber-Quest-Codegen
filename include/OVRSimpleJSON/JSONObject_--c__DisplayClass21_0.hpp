@@ -25,11 +25,6 @@ namespace System::Collections::Generic {
   struct KeyValuePair_2;
 }
 // Completed forward declares
-// Type namespace: OVRSimpleJSON
-namespace OVRSimpleJSON {
-  // Forward declaring type: <>c__DisplayClass21_0
-  class $$c__DisplayClass21_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0);
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$$c__DisplayClass21_0*, "OVRSimpleJSON", "JSONObject/<>c__DisplayClass21_0");

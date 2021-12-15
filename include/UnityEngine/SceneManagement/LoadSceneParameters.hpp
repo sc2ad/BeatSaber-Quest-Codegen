@@ -28,15 +28,7 @@ namespace UnityEngine::SceneManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LoadSceneParameters/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
     // Size: 0x4
     // Offset: 0x0

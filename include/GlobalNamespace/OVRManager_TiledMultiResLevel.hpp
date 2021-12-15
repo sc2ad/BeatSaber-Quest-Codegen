@@ -24,15 +24,7 @@ namespace GlobalNamespace {
   // [ObsoleteAttribute] Offset: EF1734
   struct OVRManager_TiledMultiResLevel/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

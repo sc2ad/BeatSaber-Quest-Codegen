@@ -31,12 +31,6 @@ namespace System::Threading::Tasks {
   class Task_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <WaitForTask>d__1`1<T>
-  template<typename T>
-  struct $WaitForTask$d__1_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1, "", "TaskExtensions/<WaitForTask>d__1`1");
 // Type namespace: 
@@ -48,15 +42,7 @@ namespace GlobalNamespace {
   template<typename T>
   struct TaskExtensions::$WaitForTask$d__1_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -40,15 +40,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetDownloadingState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -90,15 +82,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int)> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
     static_assert(sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.String levelID
     // Size: 0x8
     // Offset: 0x0

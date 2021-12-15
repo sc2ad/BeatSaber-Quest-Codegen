@@ -122,15 +122,7 @@ namespace Valve::VR {
     class _AcknowledgeQuit_Exiting;
     // Nested type: Valve::VR::IVRSystem::_AcknowledgeQuit_UserPrompt
     class _AcknowledgeQuit_UserPrompt;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRSystem/Valve.VR._GetRecommendedRenderTargetSize GetRecommendedRenderTargetSize
     // Size: 0x8
     // Offset: 0x0

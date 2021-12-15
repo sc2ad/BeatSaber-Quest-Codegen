@@ -33,12 +33,6 @@ namespace UnityEngine::UI {
   class InputField;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass2_0`2<T0, T1>
-  template<typename T0, typename T1>
-  class $$c__DisplayClass2_0_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2, "HMUI", "InputFieldDataBinder/<>c__DisplayClass2_0`2");
 // Type namespace: HMUI

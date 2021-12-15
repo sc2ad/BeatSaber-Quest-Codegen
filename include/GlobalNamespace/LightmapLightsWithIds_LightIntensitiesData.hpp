@@ -20,11 +20,6 @@ namespace UnityEngine {
   // Skipping declaration: Color because it is already included!
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: LightIntensitiesData
-  class LightIntensitiesData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*, "", "LightmapLightsWithIds/LightIntensitiesData");

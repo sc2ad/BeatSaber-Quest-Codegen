@@ -10,11 +10,6 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 // Completed includes
-// Type namespace: RootMotion
-namespace RootMotion {
-  // Forward declaring type: AutoDetectParams
-  struct AutoDetectParams;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
 // Type namespace: RootMotion
@@ -26,15 +21,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BipedReferences::AutoDetectParams/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean legsParentInSpine
     // Size: 0x1
     // Offset: 0x0

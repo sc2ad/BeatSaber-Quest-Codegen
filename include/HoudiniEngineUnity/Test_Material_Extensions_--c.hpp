@@ -30,11 +30,6 @@ namespace HoudiniEngineUnity {
   class Test_Material;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::Test_Material_Extensions::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Material_Extensions::$$c*, "HoudiniEngineUnity", "Test_Material_Extensions/<>c");

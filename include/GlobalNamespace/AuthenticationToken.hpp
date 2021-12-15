@@ -51,15 +51,7 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Platform/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
@@ -131,15 +123,7 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(uint8_t)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
     static_assert(sizeof(AuthenticationToken::Platform) == 0x1);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly AuthenticationToken/Platform platform
     // Size: 0x1
     // Offset: 0x0

@@ -26,11 +26,6 @@ namespace System::Runtime::CompilerServices {
   class IAsyncStateMachine;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: MoveNextRunner
-  class MoveNextRunner;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");

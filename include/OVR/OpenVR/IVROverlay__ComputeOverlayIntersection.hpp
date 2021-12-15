@@ -30,11 +30,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _ComputeOverlayIntersection
-  class _ComputeOverlayIntersection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_ComputeOverlayIntersection*, "OVR.OpenVR", "IVROverlay/_ComputeOverlayIntersection");

@@ -32,15 +32,7 @@ namespace Valve::VR {
     class _GetDriverCount;
     // Nested type: Valve::VR::IVRDriverManager::_GetDriverName
     class _GetDriverName;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRDriverManager/Valve.VR._GetDriverCount GetDriverCount
     // Size: 0x8
     // Offset: 0x0

@@ -21,11 +21,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParameters;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Asn1.X9
-namespace Org::BouncyCastle::Asn1::X9 {
-  // Forward declaring type: Prime192v3Holder
-  class Prime192v3Holder;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X962NamedCurves::Prime192v3Holder);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves::Prime192v3Holder*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves/Prime192v3Holder");

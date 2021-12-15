@@ -21,11 +21,6 @@ namespace System::Threading {
   class CancellationTokenSource;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: HMAsyncRequestWithCancellationToken
-  class HMAsyncRequestWithCancellationToken;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, "", "LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken");

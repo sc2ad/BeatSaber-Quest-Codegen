@@ -29,11 +29,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: ReadOnlyArrayList
-  class ReadOnlyArrayList;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::ArrayList::ReadOnlyArrayList);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");

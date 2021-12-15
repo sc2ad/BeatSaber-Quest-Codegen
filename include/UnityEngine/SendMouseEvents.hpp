@@ -44,15 +44,7 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HitInfo/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public UnityEngine.GameObject target
       // Size: 0x8
       // Offset: 0x0

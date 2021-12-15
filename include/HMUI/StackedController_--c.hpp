@@ -20,11 +20,6 @@ namespace HMUI {
   class ViewController;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::StackedController::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");

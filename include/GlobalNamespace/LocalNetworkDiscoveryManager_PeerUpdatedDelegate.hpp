@@ -35,11 +35,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: PeerUpdatedDelegate
-  class PeerUpdatedDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*, "", "LocalNetworkDiscoveryManager/PeerUpdatedDelegate");

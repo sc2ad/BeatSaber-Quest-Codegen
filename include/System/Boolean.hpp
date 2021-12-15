@@ -52,15 +52,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9D400
   struct Boolean/*, public System::ValueType, public System::IComparable_1<bool>, public System::IEquatable_1<bool>, public System::IComparable, public System::IConvertible*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Boolean m_value
     // Size: 0x1
     // Offset: 0x0

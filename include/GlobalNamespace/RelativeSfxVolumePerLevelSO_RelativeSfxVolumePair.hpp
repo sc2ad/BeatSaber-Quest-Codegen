@@ -19,11 +19,6 @@ namespace GlobalNamespace {
   class BeatmapLevelSO;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: RelativeSfxVolumePair
-  class RelativeSfxVolumePair;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*, "", "RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair");

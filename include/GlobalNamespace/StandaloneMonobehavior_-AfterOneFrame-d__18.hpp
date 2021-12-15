@@ -21,11 +21,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <AfterOneFrame>d__18
-  class $AfterOneFrame$d__18;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18*, "", "StandaloneMonobehavior/<AfterOneFrame>d__18");

@@ -36,11 +36,6 @@ namespace Mono::Net {
   class CFProxy;
 }
 // Completed forward declares
-// Type namespace: Mono.Net
-namespace Mono::Net {
-  // Forward declaring type: CFWebProxy
-  class CFWebProxy;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Net::CFNetwork::CFWebProxy);
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");

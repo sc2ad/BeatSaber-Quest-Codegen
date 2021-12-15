@@ -21,11 +21,6 @@ namespace UnityEngine {
   class WaitForSeconds;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <AppearAnimation>d__53
-  class $AppearAnimation$d__53;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$AppearAnimation$d__53);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$AppearAnimation$d__53*, "", "AvatarTweenController/<AppearAnimation>d__53");

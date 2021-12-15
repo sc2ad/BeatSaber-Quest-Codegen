@@ -37,12 +37,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__5`3<TParam1, TContract, TMemoryPool>
-  template<typename TParam1, typename TContract, typename TMemoryPool>
-  class $$c__5_3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryFromBinder1Extensions::$$c__5_3, "Zenject", "FactoryFromBinder1Extensions/<>c__5`3");
 // Type namespace: Zenject

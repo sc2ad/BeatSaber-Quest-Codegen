@@ -30,15 +30,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB48D4
   struct PropertyName/*, public System::ValueType, public System::IEquatable_1<UnityEngine::PropertyName>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Int32 id
     // Size: 0x4
     // Offset: 0x0

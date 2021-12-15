@@ -30,11 +30,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class FixedPointPreCompInfo;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Multiplier
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-  // Forward declaring type: FixedPointCallback
-  class FixedPointCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointUtilities/FixedPointCallback");

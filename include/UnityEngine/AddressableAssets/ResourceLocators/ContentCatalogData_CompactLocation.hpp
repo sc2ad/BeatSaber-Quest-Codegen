@@ -32,11 +32,6 @@ namespace System::Collections::Generic {
   class IList_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AddressableAssets.ResourceLocators
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-  // Forward declaring type: CompactLocation
-  class CompactLocation;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData/CompactLocation");

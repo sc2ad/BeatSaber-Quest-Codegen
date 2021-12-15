@@ -44,15 +44,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     public:
     // Nested type: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10
     class $Enumerate$d__10;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Boolean _0
     // Size: 0x1
     // Offset: 0x0

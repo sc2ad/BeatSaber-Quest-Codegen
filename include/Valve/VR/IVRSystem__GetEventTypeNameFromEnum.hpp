@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetEventTypeNameFromEnum
-  class _GetEventTypeNameFromEnum;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetEventTypeNameFromEnum*, "Valve.VR", "IVRSystem/_GetEventTypeNameFromEnum");

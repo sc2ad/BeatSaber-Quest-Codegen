@@ -22,11 +22,6 @@ namespace Org::BouncyCastle::Math::EC {
   class ECPoint;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Custom.Sec
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-  // Forward declaring type: SecP160R1LookupTable
-  class SecP160R1LookupTable;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Curve::SecP160R1LookupTable);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Curve::SecP160R1LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP160R1Curve/SecP160R1LookupTable");

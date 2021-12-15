@@ -55,15 +55,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct WordWrapState/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 previous_WordBreak
     // Size: 0x4
     // Offset: 0x0

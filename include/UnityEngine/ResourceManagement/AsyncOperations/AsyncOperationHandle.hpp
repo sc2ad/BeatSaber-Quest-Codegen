@@ -63,15 +63,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncOperationHandle/*, public System::ValueType, public System::Collections::IEnumerator*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
     // Size: 0x8
     // Offset: 0x0

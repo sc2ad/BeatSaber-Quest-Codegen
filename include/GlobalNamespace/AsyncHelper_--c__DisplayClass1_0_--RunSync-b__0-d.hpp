@@ -16,11 +16,6 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <<RunSync>b__0>d
-  struct $$RunSync$b__0$d;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d, "", "AsyncHelper/<>c__DisplayClass1_0/<<RunSync>b__0>d");
 // Type namespace: 
@@ -30,15 +25,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

@@ -24,11 +24,6 @@ namespace System {
   class Action;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.CompilerServices
-namespace System::Runtime::CompilerServices {
-  // Forward declaring type: <>c__DisplayClass4_0
-  class $$c__DisplayClass4_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass4_0");

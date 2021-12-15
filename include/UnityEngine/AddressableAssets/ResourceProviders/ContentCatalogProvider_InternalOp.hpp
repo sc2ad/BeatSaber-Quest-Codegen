@@ -37,11 +37,6 @@ namespace System::Collections::Generic {
   class IList_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AddressableAssets.ResourceProviders
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-  // Forward declaring type: InternalOp
-  class InternalOp;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp");

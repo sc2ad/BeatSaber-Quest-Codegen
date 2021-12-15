@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: InputMode
-  struct InputMode;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::StandaloneInputModule::InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
 // Type namespace: UnityEngine.EventSystems
@@ -26,15 +21,7 @@ namespace UnityEngine::EventSystems {
   // [ObsoleteAttribute] Offset: EEB218
   struct StandaloneInputModule::InputMode/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

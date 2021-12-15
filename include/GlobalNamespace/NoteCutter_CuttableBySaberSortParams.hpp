@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class CuttableBySaber;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: CuttableBySaberSortParams
-  class CuttableBySaberSortParams;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NoteCutter::CuttableBySaberSortParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");

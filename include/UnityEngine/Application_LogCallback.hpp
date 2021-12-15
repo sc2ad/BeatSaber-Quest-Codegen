@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: LogCallback
-  class LogCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Application::LogCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application::LogCallback*, "UnityEngine", "Application/LogCallback");

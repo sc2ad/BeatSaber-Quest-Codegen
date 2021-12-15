@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: PCMSetPositionCallback
-  class PCMSetPositionCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::AudioClip::PCMSetPositionCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip::PCMSetPositionCallback*, "UnityEngine", "AudioClip/PCMSetPositionCallback");

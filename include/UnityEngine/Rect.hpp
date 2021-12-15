@@ -41,15 +41,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: EB2EA4
   struct Rect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rect>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xEB7B14
     // private System.Single m_XMin
     // Size: 0x4

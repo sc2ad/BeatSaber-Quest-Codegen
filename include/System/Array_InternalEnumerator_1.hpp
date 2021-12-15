@@ -16,12 +16,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: InternalEnumerator`1<T>
-  template<typename T>
-  struct InternalEnumerator_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::Array::InternalEnumerator_1, "System", "Array/InternalEnumerator`1");
 // Type namespace: System
@@ -33,15 +27,7 @@ namespace System {
   template<typename T>
   struct Array::InternalEnumerator_1/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.Array array
     // Size: 0x8
     // Offset: 0x0

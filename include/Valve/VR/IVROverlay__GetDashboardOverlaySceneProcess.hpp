@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetDashboardOverlaySceneProcess
-  class _GetDashboardOverlaySceneProcess;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetDashboardOverlaySceneProcess*, "Valve.VR", "IVROverlay/_GetDashboardOverlaySceneProcess");

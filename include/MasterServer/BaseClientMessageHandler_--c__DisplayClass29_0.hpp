@@ -43,11 +43,6 @@ namespace GlobalNamespace {
   class IDiffieHellmanKeyPair;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <>c__DisplayClass29_0
-  class $$c__DisplayClass29_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass29_0");

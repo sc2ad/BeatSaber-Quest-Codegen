@@ -24,15 +24,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Coord/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int16 X
     // Size: 0x2
     // Offset: 0x0

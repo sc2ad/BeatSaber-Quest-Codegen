@@ -29,15 +29,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB2A0C
   struct CachedAssetBundle/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x0

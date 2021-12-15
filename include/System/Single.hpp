@@ -57,15 +57,7 @@ namespace System {
   // [ComVisibleAttribute] Offset: E9DCB8
   struct Single/*, public System::ValueType, public System::IComparable_1<float>, public System::IEquatable_1<float>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.Single m_value
     // Size: 0x4
     // Offset: 0x0

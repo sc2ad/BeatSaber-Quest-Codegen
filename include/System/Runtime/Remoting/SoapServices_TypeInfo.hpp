@@ -19,11 +19,6 @@ namespace System::Collections {
   class Hashtable;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.Remoting
-namespace System::Runtime::Remoting {
-  // Forward declaring type: TypeInfo
-  class TypeInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::SoapServices::TypeInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");

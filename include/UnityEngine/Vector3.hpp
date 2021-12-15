@@ -34,15 +34,7 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EB4214
   struct Vector3/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector3>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0

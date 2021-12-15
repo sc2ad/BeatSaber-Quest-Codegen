@@ -29,15 +29,7 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HashAlgorithmName/*, public System::ValueType, public System::IEquatable_1<System::Security::Cryptography::HashAlgorithmName>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x0

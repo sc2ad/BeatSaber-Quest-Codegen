@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ButtonMask
-  class ButtonMask;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::ButtonMask);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");

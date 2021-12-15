@@ -17,11 +17,6 @@ namespace Oculus::Platform::Models {
   class HttpTransferUpdate;
 }
 // Completed forward declares
-// Type namespace: Oculus.Platform
-namespace Oculus::Platform {
-  // Forward declaring type: HTTP
-  class HTTP;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Oculus::Platform::PlatformInternal::HTTP);
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::HTTP*, "Oculus.Platform", "PlatformInternal/HTTP");

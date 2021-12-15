@@ -42,15 +42,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BitMask256/*, public System::ValueType, public GlobalNamespace::IBitMask_1<GlobalNamespace::BitMask256>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask256>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private readonly System.UInt64 _d0
     // Size: 0x8
     // Offset: 0x0

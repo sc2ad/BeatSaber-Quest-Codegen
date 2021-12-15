@@ -31,12 +31,6 @@ namespace System {
   class Func_1;
 }
 // Completed forward declares
-// Type namespace: LiteNetLib.Utils
-namespace LiteNetLib::Utils {
-  // Forward declaring type: FastCallClass`2<TClass, TProperty>
-  template<typename TClass, typename TProperty>
-  class FastCallClass_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::FastCallClass_2, "LiteNetLib.Utils", "NetSerializer/FastCallClass`2");
 // Type namespace: LiteNetLib.Utils

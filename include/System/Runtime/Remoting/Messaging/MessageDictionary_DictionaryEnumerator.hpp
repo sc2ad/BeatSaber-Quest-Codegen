@@ -21,11 +21,6 @@ namespace System::Collections {
   struct DictionaryEntry;
 }
 // Completed forward declares
-// Type namespace: System.Runtime.Remoting.Messaging
-namespace System::Runtime::Remoting::Messaging {
-  // Forward declaring type: DictionaryEnumerator
-  class DictionaryEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator*, "System.Runtime.Remoting.Messaging", "MessageDictionary/DictionaryEnumerator");

@@ -8,11 +8,6 @@
 // Including type: System.Collections.Stack
 #include "System/Collections/Stack.hpp"
 // Completed includes
-// Type namespace: System.Collections
-namespace System::Collections {
-  // Forward declaring type: StackDebugView
-  class StackDebugView;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Stack::StackDebugView);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack::StackDebugView*, "System.Collections", "Stack/StackDebugView");

@@ -14,11 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: SubmitEvent
-  class SubmitEvent;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_InputField::SubmitEvent);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::SubmitEvent*, "TMPro", "TMP_InputField/SubmitEvent");

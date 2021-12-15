@@ -22,11 +22,6 @@ namespace System::Collections::Generic {
   // Skipping declaration: KeyValuePair`2 because it is already included!
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: Enumerator
-  struct Enumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::Enumerator, "HoudiniEngineUnity", "JSONNode/Enumerator");
 // Type namespace: HoudiniEngineUnity
@@ -45,15 +40,7 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -95,15 +82,7 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __HoudiniEngineUnity_JSONNode_Enumerator_TypeSizeCheck;
     static_assert(sizeof(JSONNode::Enumerator::Type) == 0x4);
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type type
     // Size: 0x4
     // Offset: 0x0

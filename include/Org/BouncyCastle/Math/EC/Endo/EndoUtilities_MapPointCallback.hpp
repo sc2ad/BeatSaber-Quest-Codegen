@@ -33,11 +33,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class PreCompInfo;
 }
 // Completed forward declares
-// Type namespace: Org.BouncyCastle.Math.EC.Endo
-namespace Org::BouncyCastle::Math::EC::Endo {
-  // Forward declaring type: MapPointCallback
-  class MapPointCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback);
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*, "Org.BouncyCastle.Math.EC.Endo", "EndoUtilities/MapPointCallback");

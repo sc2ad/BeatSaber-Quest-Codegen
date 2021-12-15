@@ -31,11 +31,6 @@ namespace OnlineServices {
   class PlatformServicesAvailabilityInfo;
 }
 // Completed forward declares
-// Type namespace: OnlineServices
-namespace OnlineServices {
-  // Forward declaring type: <SendLevelScoreResultAsync>d__13
-  struct $SendLevelScoreResultAsync$d__13;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13, "OnlineServices", "LevelScoreUploader/<SendLevelScoreResultAsync>d__13");
 // Type namespace: OnlineServices
@@ -46,15 +41,7 @@ namespace OnlineServices {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct LevelScoreUploader::$SendLevelScoreResultAsync$d__13/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

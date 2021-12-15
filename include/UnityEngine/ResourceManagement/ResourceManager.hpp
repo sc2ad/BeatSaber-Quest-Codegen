@@ -150,15 +150,7 @@ namespace UnityEngine::ResourceManagement {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DiagnosticEventType/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -225,15 +217,7 @@ namespace UnityEngine::ResourceManagement {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DiagnosticEventContext/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
       // Size: 0x18
       // Offset: 0x0

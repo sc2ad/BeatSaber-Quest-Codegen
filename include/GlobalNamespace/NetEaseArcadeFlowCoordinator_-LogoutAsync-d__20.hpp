@@ -17,11 +17,6 @@
 // Including type: NetEase.Docker.LogoutData
 #include "NetEase/Docker/LogoutData.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <LogoutAsync>d__20
-  struct $LogoutAsync$d__20;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$LogoutAsync$d__20, "", "NetEaseArcadeFlowCoordinator/<LogoutAsync>d__20");
 // Type namespace: 
@@ -32,15 +27,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct NetEaseArcadeFlowCoordinator::$LogoutAsync$d__20/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

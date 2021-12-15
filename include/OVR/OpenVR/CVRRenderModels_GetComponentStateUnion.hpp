@@ -12,11 +12,6 @@
 // Including type: OVR.OpenVR.IVRRenderModels
 #include "OVR/OpenVR/IVRRenderModels.hpp"
 // Completed includes
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: GetComponentStateUnion
-  struct GetComponentStateUnion;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::GetComponentStateUnion, "OVR.OpenVR", "CVRRenderModels/GetComponentStateUnion");
 // Type namespace: OVR.OpenVR
@@ -27,15 +22,7 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRRenderModels::GetComponentStateUnion/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState pGetComponentState
     // Size: 0x8
     // Offset: 0x0

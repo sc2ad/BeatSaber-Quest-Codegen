@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: FontTextureRebuildCallback
-  class FontTextureRebuildCallback;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Font::FontTextureRebuildCallback);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font::FontTextureRebuildCallback*, "UnityEngine", "Font/FontTextureRebuildCallback");

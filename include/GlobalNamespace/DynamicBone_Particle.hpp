@@ -23,11 +23,6 @@ namespace UnityEngine {
   class Transform;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: Particle
-  class Particle;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::DynamicBone::Particle);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::Particle*, "", "DynamicBone/Particle");

@@ -41,15 +41,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Triangle/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Triangle>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Int32 m_A
     // Size: 0x4
     // Offset: 0x0

@@ -8,11 +8,6 @@
 // Including type: OVRSkeletonRenderer
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: IOVRSkeletonRendererDataProvider
-  class IOVRSkeletonRendererDataProvider;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*, "", "OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider");

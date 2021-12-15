@@ -31,15 +31,7 @@ namespace UnityEngine::Rendering {
   // [UsedByNativeCodeAttribute] Offset: EB6870
   struct VertexAttributeDescriptor/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEB9624
     // private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
     // Size: 0x4

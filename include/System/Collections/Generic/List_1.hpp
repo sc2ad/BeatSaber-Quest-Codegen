@@ -88,15 +88,7 @@ namespace System::Collections::Generic {
       using declaring_type = List_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private System.Collections.Generic.List`1<T> list
       // Size: 0x8
       // Offset: 0x0

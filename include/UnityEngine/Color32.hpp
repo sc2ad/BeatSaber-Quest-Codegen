@@ -36,15 +36,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EB4094
   struct Color32/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [IgnoreAttribute] Offset: 0xEB8288
     // Ignoring hidden field: private System.Int32 rgba
     // Offset: 0x0

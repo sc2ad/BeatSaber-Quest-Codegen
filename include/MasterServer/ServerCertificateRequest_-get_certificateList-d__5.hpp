@@ -23,11 +23,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <get_certificateList>d__5
-  class $get_certificateList$d__5;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::ServerCertificateRequest::$get_certificateList$d__5);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest::$get_certificateList$d__5*, "MasterServer", "ServerCertificateRequest/<get_certificateList>d__5");

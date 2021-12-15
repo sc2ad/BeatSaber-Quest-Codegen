@@ -34,15 +34,7 @@ namespace OVR::OpenVR {
     class _GetDriverName;
     // Nested type: OVR::OpenVR::IVRDriverManager::_GetDriverHandle
     class _GetDriverHandle;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
     // Size: 0x8
     // Offset: 0x0

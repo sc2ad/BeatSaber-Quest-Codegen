@@ -19,11 +19,6 @@ namespace HMUI {
   class UIKeyboardKey;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass13_0
-  class $$c__DisplayClass13_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::UIKeyboard::$$c__DisplayClass13_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass13_0*, "HMUI", "UIKeyboard/<>c__DisplayClass13_0");

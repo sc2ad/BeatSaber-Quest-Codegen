@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _ShouldAppRenderWithLowResources
-  class _ShouldAppRenderWithLowResources;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_ShouldAppRenderWithLowResources*, "OVR.OpenVR", "IVRCompositor/_ShouldAppRenderWithLowResources");

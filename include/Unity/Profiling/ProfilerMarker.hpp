@@ -38,15 +38,7 @@ namespace Unity::Profiling {
     public:
     // Nested type: Unity::Profiling::ProfilerMarker::AutoScope
     struct AutoScope;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xEB7470
     // readonly System.IntPtr m_Ptr
     // Size: 0x8

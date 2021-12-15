@@ -24,11 +24,6 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: ProviderInfo
-  class ProviderInfo;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Zenject::DiContainer::ProviderInfo);
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");

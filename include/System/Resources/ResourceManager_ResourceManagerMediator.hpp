@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System.Resources
-namespace System::Resources {
-  // Forward declaring type: ResourceManagerMediator
-  class ResourceManagerMediator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Resources::ResourceManager::ResourceManagerMediator);
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");

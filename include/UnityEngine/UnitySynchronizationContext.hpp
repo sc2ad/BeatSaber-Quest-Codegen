@@ -54,15 +54,7 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct WorkRequest/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly System.Threading.SendOrPostCallback m_DelagateCallback
       // Size: 0x8
       // Offset: 0x0

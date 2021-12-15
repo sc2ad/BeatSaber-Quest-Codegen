@@ -14,12 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: UnityEngine.ResourceManagement
-namespace UnityEngine::ResourceManagement {
-  // Forward declaring type: CompletedOperation`1<TObject>
-  template<typename TObject>
-  class CompletedOperation_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::ResourceManagement::ResourceManager::CompletedOperation_1, "UnityEngine.ResourceManagement", "ResourceManager/CompletedOperation`1");
 // Type namespace: UnityEngine.ResourceManagement

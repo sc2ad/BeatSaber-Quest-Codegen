@@ -37,11 +37,6 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*, "", "SongPackMaskModelSO/SongPackMaskItem/<>c");

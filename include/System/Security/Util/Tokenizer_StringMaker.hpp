@@ -20,11 +20,6 @@ namespace System::Text {
   class StringBuilder;
 }
 // Completed forward declares
-// Type namespace: System.Security.Util
-namespace System::Security::Util {
-  // Forward declaring type: StringMaker
-  class StringMaker;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::Util::Tokenizer::StringMaker);
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");

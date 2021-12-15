@@ -32,11 +32,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: Valve.VR
-namespace Valve::VR {
-  // Forward declaring type: _GetCameraProjection
-  class _GetCameraProjection;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Valve::VR::IVRTrackedCamera::_GetCameraProjection);
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetCameraProjection*, "Valve.VR", "IVRTrackedCamera/_GetCameraProjection");

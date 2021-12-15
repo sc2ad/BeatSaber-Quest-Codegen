@@ -35,15 +35,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDB7FC
   struct Bone/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Bone>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0

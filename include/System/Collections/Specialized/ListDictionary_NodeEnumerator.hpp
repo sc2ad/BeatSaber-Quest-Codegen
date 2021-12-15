@@ -21,11 +21,6 @@ namespace System::Collections {
   struct DictionaryEntry;
 }
 // Completed forward declares
-// Type namespace: System.Collections.Specialized
-namespace System::Collections::Specialized {
-  // Forward declaring type: NodeEnumerator
-  class NodeEnumerator;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::ListDictionary::NodeEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::NodeEnumerator*, "System.Collections.Specialized", "ListDictionary/NodeEnumerator");

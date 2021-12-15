@@ -21,11 +21,6 @@ namespace System {
   class UnhandledExceptionEventArgs;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::UnhandledExceptionHandler::$$c);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");

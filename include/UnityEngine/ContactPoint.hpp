@@ -28,15 +28,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: EC83AC
   struct ContactPoint/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // UnityEngine.Vector3 m_Point
     // Size: 0xC
     // Offset: 0x0

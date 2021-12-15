@@ -21,11 +21,6 @@ namespace System::Reflection {
   class Assembly;
 }
 // Completed forward declares
-// Type namespace: System.Reflection
-namespace System::Reflection {
-  // Forward declaring type: LazyCAttrData
-  class LazyCAttrData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Reflection::CustomAttributeData::LazyCAttrData);
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");

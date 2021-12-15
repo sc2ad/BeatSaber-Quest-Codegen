@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine
-namespace UnityEngine {
-  // Forward declaring type: ReapplyDrivenProperties
-  class ReapplyDrivenProperties;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::RectTransform::ReapplyDrivenProperties);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::ReapplyDrivenProperties*, "UnityEngine", "RectTransform/ReapplyDrivenProperties");

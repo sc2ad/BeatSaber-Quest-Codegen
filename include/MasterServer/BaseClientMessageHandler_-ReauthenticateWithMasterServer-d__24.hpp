@@ -15,11 +15,6 @@
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Completed includes
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: <ReauthenticateWithMasterServer>d__24
-  struct $ReauthenticateWithMasterServer$d__24;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$ReauthenticateWithMasterServer$d__24, "MasterServer", "BaseClientMessageHandler/<ReauthenticateWithMasterServer>d__24");
 // Type namespace: MasterServer
@@ -30,15 +25,7 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BaseClientMessageHandler::$ReauthenticateWithMasterServer$d__24/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

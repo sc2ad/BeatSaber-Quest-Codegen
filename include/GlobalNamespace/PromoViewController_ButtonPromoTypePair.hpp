@@ -30,11 +30,6 @@ namespace GlobalNamespace {
   class IAnnotatedBeatmapLevelCollection;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ButtonPromoTypePair
-  class ButtonPromoTypePair;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PromoViewController::ButtonPromoTypePair);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");

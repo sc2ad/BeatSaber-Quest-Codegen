@@ -21,11 +21,6 @@ namespace UnityEngine::EventSystems {
   class PointerEventData;
 }
 // Completed forward declares
-// Type namespace: TMPro
-namespace TMPro {
-  // Forward declaring type: <MouseDragOutsideRect>d__285
-  class $MouseDragOutsideRect$d__285;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285);
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$MouseDragOutsideRect$d__285*, "TMPro", "TMP_InputField/<MouseDragOutsideRect>d__285");

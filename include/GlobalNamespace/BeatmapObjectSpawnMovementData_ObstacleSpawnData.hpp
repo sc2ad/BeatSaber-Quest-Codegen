@@ -12,11 +12,6 @@
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 // Completed includes
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ObstacleSpawnData
-  struct ObstacleSpawnData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, "", "BeatmapObjectSpawnMovementData/ObstacleSpawnData");
 // Type namespace: 
@@ -28,15 +23,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapObjectSpawnMovementData::ObstacleSpawnData/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly UnityEngine.Vector3 moveStartPos
     // Size: 0xC
     // Offset: 0x0

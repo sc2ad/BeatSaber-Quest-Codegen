@@ -8,11 +8,6 @@
 // Including type: System.Globalization.CharUnicodeInfo
 #include "System/Globalization/CharUnicodeInfo.hpp"
 // Completed includes
-// Type namespace: System.Globalization
-namespace System::Globalization {
-  // Forward declaring type: Debug
-  class Debug;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::CharUnicodeInfo::Debug);
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo::Debug*, "System.Globalization", "CharUnicodeInfo/Debug");

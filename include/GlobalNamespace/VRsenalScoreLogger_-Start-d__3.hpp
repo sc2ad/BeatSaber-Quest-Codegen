@@ -21,11 +21,6 @@ namespace UnityEngine {
   class YieldInstruction;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <Start>d__3
-  class $Start$d__3;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::VRsenalScoreLogger::$Start$d__3);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalScoreLogger::$Start$d__3*, "", "VRsenalScoreLogger/<Start>d__3");

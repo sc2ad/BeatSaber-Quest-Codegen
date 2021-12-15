@@ -95,15 +95,7 @@ namespace System::Collections::Generic {
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Entry";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 hashCode
       // Size: 0x4
       // Offset: 0x0
@@ -174,15 +166,7 @@ namespace System::Collections::Generic {
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
       // Offset: 0x0
@@ -352,15 +336,7 @@ namespace System::Collections::Generic {
         using declaring_type = typename Dictionary_2<TKey, TValue>::KeyCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
         static constexpr bool IS_VALUE_TYPE = true;
-        #ifdef USE_CODEGEN_FIELDS
         public:
-        #else
-        #ifdef CODEGEN_FIELD_ACCESSIBILITY
-        CODEGEN_FIELD_ACCESSIBILITY:
-        #else
-        protected:
-        #endif
-        #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0
@@ -617,15 +593,7 @@ namespace System::Collections::Generic {
         using declaring_type = typename Dictionary_2<TKey, TValue>::ValueCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
         static constexpr bool IS_VALUE_TYPE = true;
-        #ifdef USE_CODEGEN_FIELDS
         public:
-        #else
-        #ifdef CODEGEN_FIELD_ACCESSIBILITY
-        CODEGEN_FIELD_ACCESSIBILITY:
-        #else
-        protected:
-        #endif
-        #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0

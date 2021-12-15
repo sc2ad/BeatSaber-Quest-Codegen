@@ -21,11 +21,6 @@ namespace System::Net {
   class IPEndPoint;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: ConnectToServerParams
-  class ConnectToServerParams;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectToServerParams*, "", "LiteNetLibConnectionManager/ConnectToServerParams");

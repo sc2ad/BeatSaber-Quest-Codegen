@@ -25,15 +25,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ECDA78
   struct AnimatorTransitionInfo/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [NativeNameAttribute] Offset: 0xECEBE8
     // private System.Int32 m_FullPath
     // Size: 0x4

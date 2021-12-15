@@ -29,11 +29,6 @@ namespace RootMotion::FinalIK {
   class VRIK;
 }
 // Completed forward declares
-// Type namespace: RootMotion.FinalIK
-namespace RootMotion::FinalIK {
-  // Forward declaring type: Offset
-  class Offset;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(RootMotion::FinalIK::HitReactionVRIK::Offset);
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::Offset*, "RootMotion.FinalIK", "HitReactionVRIK/Offset");

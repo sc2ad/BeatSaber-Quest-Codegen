@@ -123,15 +123,7 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NtlmAuthState/*, public System::Enum*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
@@ -180,15 +172,7 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AuthorizationState/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private readonly System.Net.HttpWebRequest request
       // Size: 0x8
       // Offset: 0x0

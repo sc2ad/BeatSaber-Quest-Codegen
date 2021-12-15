@@ -21,11 +21,6 @@ namespace UnityEngine::EventSystems {
   class BaseEventData;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.EventSystems
-namespace UnityEngine::EventSystems {
-  // Forward declaring type: TriggerEvent
-  class TriggerEvent;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::EventSystems::EventTrigger::TriggerEvent);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::TriggerEvent*, "UnityEngine.EventSystems", "EventTrigger/TriggerEvent");

@@ -22,12 +22,6 @@ namespace System::Net::Http::Headers {
   class TryParseListDelegate_1;
 }
 // Completed forward declares
-// Type namespace: System.Net.Http.Headers
-namespace System::Net::Http::Headers {
-  // Forward declaring type: CollectionHeaderTypeInfo`2<T, U>
-  template<typename T, typename U>
-  class CollectionHeaderTypeInfo_2;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2, "System.Net.Http.Headers", "HeaderInfo/CollectionHeaderTypeInfo`2");
 // Type namespace: System.Net.Http.Headers

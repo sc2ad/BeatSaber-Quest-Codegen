@@ -114,15 +114,7 @@ namespace OVR::OpenVR {
     class _SetExplicitTimingMode;
     // Nested type: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData
     class _SubmitExplicitTimingData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRCompositor/OVR.OpenVR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8
     // Offset: 0x0

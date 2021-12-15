@@ -32,11 +32,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _GetPoseActionData
-  class _GetPoseActionData;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRInput::_GetPoseActionData);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetPoseActionData*, "OVR.OpenVR", "IVRInput/_GetPoseActionData");

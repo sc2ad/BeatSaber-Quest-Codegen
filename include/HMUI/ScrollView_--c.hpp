@@ -20,11 +20,6 @@ namespace System {
   class Func_2;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c
-  class $$c;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScrollView::$$c);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c*, "HMUI", "ScrollView/<>c");

@@ -35,12 +35,6 @@ namespace System::Collections::Generic {
   class IList_1;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.AddressableAssets
-namespace UnityEngine::AddressableAssets {
-  // Forward declaring type: <>c__DisplayClass75_0`1<TObject>
-  template<typename TObject>
-  class $$c__DisplayClass75_0_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass75_0_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass75_0`1");
 // Type namespace: UnityEngine.AddressableAssets

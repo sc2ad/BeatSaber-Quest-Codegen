@@ -34,11 +34,6 @@ namespace UnityEngine {
   class AudioClip;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <GetBeatmapLevelAsync>d__38
-  struct $GetBeatmapLevelAsync$d__38;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$GetBeatmapLevelAsync$d__38, "", "BeatmapLevelsModel/<GetBeatmapLevelAsync>d__38");
 // Type namespace: 
@@ -49,15 +44,7 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapLevelsModel::$GetBeatmapLevelAsync$d__38/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0

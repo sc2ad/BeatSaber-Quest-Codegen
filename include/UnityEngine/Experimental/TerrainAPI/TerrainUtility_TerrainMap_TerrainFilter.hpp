@@ -28,11 +28,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: UnityEngine.Experimental.TerrainAPI
-namespace UnityEngine::Experimental::TerrainAPI {
-  // Forward declaring type: TerrainFilter
-  class TerrainFilter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/TerrainFilter");

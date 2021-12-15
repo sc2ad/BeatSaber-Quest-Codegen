@@ -26,11 +26,6 @@ namespace System::Collections::Generic {
   class HashSet_1;
 }
 // Completed forward declares
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass5_0
-  class $$c__DisplayClass5_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::StackedController::$$c__DisplayClass5_0);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");

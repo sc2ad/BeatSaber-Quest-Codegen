@@ -22,11 +22,6 @@ namespace System::Security::Cryptography {
   class RNGCryptoServiceProvider;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SecureRandomState
-  class SecureRandomState;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SecureRandomProvider::SecureRandomState);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");

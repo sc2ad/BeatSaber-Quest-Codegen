@@ -35,11 +35,6 @@ namespace MasterServer {
   class IMasterServerMultipartMessage;
 }
 // Completed forward declares
-// Type namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: MultipartMessageWaiter
-  class MultipartMessageWaiter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::MessageHandler::MultipartMessageWaiter);
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");

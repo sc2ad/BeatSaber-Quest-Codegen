@@ -10,11 +10,6 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: ScrollPositionType
-  struct ScrollPositionType;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::ScrollPositionType, "HMUI", "TableView/ScrollPositionType");
 // Type namespace: HMUI
@@ -25,15 +20,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TableView::ScrollPositionType/*, public System::Enum*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0

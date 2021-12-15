@@ -28,15 +28,7 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec3/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec3>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public UnityEngine.Vector3 value
     // Size: 0xC
     // Offset: 0x0

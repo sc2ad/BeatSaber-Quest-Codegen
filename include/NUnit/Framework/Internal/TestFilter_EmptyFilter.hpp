@@ -21,11 +21,6 @@ namespace NUnit::Framework::Interfaces {
   class TNode;
 }
 // Completed forward declares
-// Type namespace: NUnit.Framework.Internal
-namespace NUnit::Framework::Internal {
-  // Forward declaring type: EmptyFilter
-  class EmptyFilter;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Framework::Internal::TestFilter::EmptyFilter);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter::EmptyFilter*, "NUnit.Framework.Internal", "TestFilter/EmptyFilter");

@@ -12,11 +12,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: HMUI
-namespace HMUI {
-  // Forward declaring type: <>c__DisplayClass56_1
-  class $$c__DisplayClass56_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HMUI::ScrollView::$$c__DisplayClass56_1);
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass56_1*, "HMUI", "ScrollView/<>c__DisplayClass56_1");

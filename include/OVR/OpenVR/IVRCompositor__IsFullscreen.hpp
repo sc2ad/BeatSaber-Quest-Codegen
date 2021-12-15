@@ -23,11 +23,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: OVR.OpenVR
-namespace OVR::OpenVR {
-  // Forward declaring type: _IsFullscreen
-  class _IsFullscreen;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OVR::OpenVR::IVRCompositor::_IsFullscreen);
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_IsFullscreen*, "OVR.OpenVR", "IVRCompositor/_IsFullscreen");

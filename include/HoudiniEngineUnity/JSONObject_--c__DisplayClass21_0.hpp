@@ -25,11 +25,6 @@ namespace System::Collections::Generic {
   struct KeyValuePair_2;
 }
 // Completed forward declares
-// Type namespace: HoudiniEngineUnity
-namespace HoudiniEngineUnity {
-  // Forward declaring type: <>c__DisplayClass21_0
-  class $$c__DisplayClass21_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0);
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*, "HoudiniEngineUnity", "JSONObject/<>c__DisplayClass21_0");

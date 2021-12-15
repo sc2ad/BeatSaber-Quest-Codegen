@@ -24,11 +24,6 @@ namespace System::Reflection {
   class MethodInfo;
 }
 // Completed forward declares
-// Type namespace: NUnit.Compatibility
-namespace NUnit::Compatibility {
-  // Forward declaring type: <>c__DisplayClass2_0
-  class $$c__DisplayClass2_0;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0);
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*, "NUnit.Compatibility", "AdditionalTypeExtensions/<>c__DisplayClass2_0");

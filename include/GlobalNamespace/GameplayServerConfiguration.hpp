@@ -48,15 +48,7 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct GameplayServerConfiguration/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::GameplayServerConfiguration>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public readonly System.Int32 maxPlayerCount
     // Size: 0x4
     // Offset: 0x0

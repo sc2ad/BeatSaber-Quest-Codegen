@@ -35,15 +35,7 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: EDB71C
   struct Eyes/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Eyes>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0

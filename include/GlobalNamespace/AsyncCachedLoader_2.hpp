@@ -83,15 +83,7 @@ namespace GlobalNamespace {
       using declaring_type = AsyncCachedLoader_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "ScheduledTask";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public TKey keyId
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -153,15 +145,7 @@ namespace GlobalNamespace {
       using declaring_type = AsyncCachedLoader_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<LoadAsync>d__7";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0
@@ -276,15 +260,7 @@ namespace GlobalNamespace {
       using declaring_type = AsyncCachedLoader_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<LoadAllAsync>d__8";
       static constexpr bool IS_VALUE_TYPE = true;
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

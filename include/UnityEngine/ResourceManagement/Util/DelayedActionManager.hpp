@@ -64,15 +64,7 @@ namespace UnityEngine::ResourceManagement::Util {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DelegateInfo/*, public System::ValueType*/ {
       public:
-      #ifdef USE_CODEGEN_FIELDS
       public:
-      #else
-      #ifdef CODEGEN_FIELD_ACCESSIBILITY
-      CODEGEN_FIELD_ACCESSIBILITY:
-      #else
-      protected:
-      #endif
-      #endif
       // private System.Int32 m_Id
       // Size: 0x4
       // Offset: 0x0

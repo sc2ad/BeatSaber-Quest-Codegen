@@ -32,15 +32,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: EDBC1C
   struct MeshId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshId>*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt64 m_SubId1
     // Size: 0x8
     // Offset: 0x0

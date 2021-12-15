@@ -14,12 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: EmptyInternalEnumerator`1<T>
-  template<typename T>
-  class EmptyInternalEnumerator_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Array::EmptyInternalEnumerator_1, "System", "Array/EmptyInternalEnumerator`1");
 // Type namespace: System

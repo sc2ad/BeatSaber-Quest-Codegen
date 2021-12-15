@@ -44,15 +44,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderTextureDescriptor/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEB7F7C
     // private System.Int32 <width>k__BackingField
     // Size: 0x4

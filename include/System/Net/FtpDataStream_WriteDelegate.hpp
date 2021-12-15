@@ -24,11 +24,6 @@ namespace System {
   class AsyncCallback;
 }
 // Completed forward declares
-// Type namespace: System.Net
-namespace System::Net {
-  // Forward declaring type: WriteDelegate
-  class WriteDelegate;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::FtpDataStream::WriteDelegate);
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::WriteDelegate*, "System.Net", "FtpDataStream/WriteDelegate");

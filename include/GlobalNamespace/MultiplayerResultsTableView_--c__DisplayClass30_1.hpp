@@ -21,11 +21,6 @@ namespace UnityEngine {
   struct Vector2;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: <>c__DisplayClass30_1
-  class $$c__DisplayClass30_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1*, "", "MultiplayerResultsTableView/<>c__DisplayClass30_1");

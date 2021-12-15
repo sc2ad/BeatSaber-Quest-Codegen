@@ -114,15 +114,7 @@ namespace Valve::VR {
     class _SetExplicitTimingMode;
     // Nested type: Valve::VR::IVRCompositor::_SubmitExplicitTimingData
     class _SubmitExplicitTimingData;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // Valve.VR.IVRCompositor/Valve.VR._SetTrackingSpace SetTrackingSpace
     // Size: 0x8
     // Offset: 0x0

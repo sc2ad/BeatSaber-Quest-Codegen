@@ -45,15 +45,7 @@ namespace System::Threading {
   // [DebuggerDisplayAttribute] Offset: E9FD10
   struct CancellationToken/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.Threading.CancellationTokenSource m_source
     // Size: 0x8
     // Offset: 0x0

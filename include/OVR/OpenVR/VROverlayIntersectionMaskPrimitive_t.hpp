@@ -27,15 +27,7 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionMaskPrimitive_t/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
     // Size: 0x4
     // Offset: 0x0

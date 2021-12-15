@@ -12,11 +12,6 @@
 // Including type: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION
 #include "System/TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
 // Completed includes
-// Type namespace: System
-namespace System {
-  // Forward declaring type: DYNAMIC_TIME_ZONE_INFORMATION
-  struct DYNAMIC_TIME_ZONE_INFORMATION;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");
 // Type namespace: System
@@ -28,15 +23,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
     // Size: 0x44
     // Offset: 0x0

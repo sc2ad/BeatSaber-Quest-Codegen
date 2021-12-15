@@ -20,11 +20,6 @@ namespace System::Collections {
   // Skipping declaration: IEnumerator because it is already included!
 }
 // Completed forward declares
-// Type namespace: UnityEngine.TestTools.Utils
-namespace UnityEngine::TestTools::Utils {
-  // Forward declaring type: <HandleEnumerableTest>d__8
-  class $HandleEnumerableTest$d__8;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8);
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8*, "UnityEngine.TestTools.Utils", "CoroutineRunner/<HandleEnumerableTest>d__8");

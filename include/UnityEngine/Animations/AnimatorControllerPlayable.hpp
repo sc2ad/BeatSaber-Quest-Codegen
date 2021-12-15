@@ -36,15 +36,7 @@ namespace UnityEngine::Animations {
   // [StaticAccessorAttribute] Offset: ECEAE4
   struct AnimatorControllerPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Animations::AnimatorControllerPlayable>, public UnityEngine::Playables::IPlayable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0

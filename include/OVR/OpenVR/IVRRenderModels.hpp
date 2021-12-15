@@ -66,15 +66,7 @@ namespace OVR::OpenVR {
     class _GetRenderModelOriginalPath;
     // Nested type: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum
     class _GetRenderModelErrorNameFromEnum;
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // OVR.OpenVR.IVRRenderModels/OVR.OpenVR._LoadRenderModel_Async LoadRenderModel_Async
     // Size: 0x8
     // Offset: 0x0

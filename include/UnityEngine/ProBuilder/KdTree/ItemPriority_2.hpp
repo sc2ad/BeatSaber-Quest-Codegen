@@ -24,15 +24,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename TItem, typename TPriority>
   struct ItemPriority_2/*, public System::ValueType*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // public TItem Item
     // Size: 0xFFFFFFFF
     // Offset: 0x0

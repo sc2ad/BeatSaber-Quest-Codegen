@@ -58,15 +58,7 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E9E038
   struct UInt16/*, public System::ValueType, public System::IComparable_1<uint16_t>, public System::IEquatable_1<uint16_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
-    #ifdef USE_CODEGEN_FIELDS
     public:
-    #else
-    #ifdef CODEGEN_FIELD_ACCESSIBILITY
-    CODEGEN_FIELD_ACCESSIBILITY:
-    #else
-    protected:
-    #endif
-    #endif
     // private System.UInt16 m_value
     // Size: 0x2
     // Offset: 0x0

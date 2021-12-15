@@ -24,12 +24,6 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 // Completed forward declares
-// Type namespace: Zenject
-namespace Zenject {
-  // Forward declaring type: <>c__4`1<T>
-  template<typename T>
-  class $$c__4_1;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ConditionCopyNonLazyBinder::$$c__4_1, "Zenject", "ConditionCopyNonLazyBinder/<>c__4`1");
 // Type namespace: Zenject

@@ -21,11 +21,6 @@ namespace GlobalNamespace {
   class PlayersMissingEntitlementsNetSerializable;
 }
 // Completed forward declares
-// Type namespace: 
-namespace GlobalNamespace {
-  // Forward declaring type: SetPlayersMissingEntitlementsToLevelRpc
-  class SetPlayersMissingEntitlementsToLevelRpc;
-}
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*, "", "MenuRpcManager/SetPlayersMissingEntitlementsToLevelRpc");
