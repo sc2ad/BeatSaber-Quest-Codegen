@@ -35,12 +35,6 @@ add_library(
     ${c_file_list}
 )
 
-set_target_properties(
-    ${COMPILE_ID} 
-    PROPERTIES
-        OUTPUT_NAME "debug_${COMPILE_ID}"
-)
-
 # add src dir as include dir
 target_include_directories(${COMPILE_ID} PRIVATE ${SOURCE_DIR})
 # add include dir as include dir
