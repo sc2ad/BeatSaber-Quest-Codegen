@@ -16,7 +16,7 @@ $NDKPath = Get-Content $PSScriptRoot/ndkpath.txt
 
 if (($clean.IsPresent) -or (-not (Test-Path -Path "build")))
 {
-    mkdir build
+    $out = new-item -Path build -ItemType Directory
 } 
 
 cd build
