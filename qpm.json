@@ -14,7 +14,9 @@
     {
       "id": "beatsaber-hook",
       "versionRange": "^3.0.0",
-      "additionalData": {}
+      "additionalData": {
+        "useRelease": true
+      }
     }
   ],
   "additionalData": {}
