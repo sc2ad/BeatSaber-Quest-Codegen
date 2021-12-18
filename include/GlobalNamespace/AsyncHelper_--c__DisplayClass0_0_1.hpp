@@ -130,14 +130,14 @@ namespace GlobalNamespace {
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::$$RunSync$b__0$d::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1::$$RunSync$b__0$d::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, stateMachine)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, stateMachine)));
       }
     }; // AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d
     // Could not write size check! Type: AsyncHelper/<>c__DisplayClass0_0`1/<<RunSync>b__0>d is generic, or has no fields that are valid for size checks!

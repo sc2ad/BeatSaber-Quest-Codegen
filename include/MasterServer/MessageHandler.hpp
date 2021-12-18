@@ -909,7 +909,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultAcknowledgeHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultAcknowledgeHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, packet, origin)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
     }
     // private System.Void DefaultResponseHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -919,7 +919,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultResponseHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultResponseHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, packet, origin)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
     }
     // private System.Void DefaultMultipartMessageHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -929,7 +929,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultMultipartMessageHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultMultipartMessageHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, packet, origin)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
     }
     // private System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> CustomResponseHandler(System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> customHandler)
     // Offset: 0xFFFFFFFF
@@ -972,7 +972,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::GetAndSendResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAndSendResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(tryGetResponse), ::il2cpp_utils::ExtractType(getFailureResponse)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
     }
     // protected System.Threading.Tasks.Task GetAndSendResponseAsync(TRequest request, MasterServer.MessageHandler/MasterServer.MessageOrigin origin, System.Func`3<TRequest,MasterServer.MessageHandler/MasterServer.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFF
@@ -994,7 +994,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::GetAndSendUnreilableResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAndSendUnreilableResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(tryGetResponse), ::il2cpp_utils::ExtractType(getFailureResponse)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
     }
     // protected System.Void SendUnreliableMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerUnreliableMessage message)
     // Offset: 0x14B7370

@@ -87,7 +87,7 @@ namespace UnityEngine::Events {
     void Invoke(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall_4::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, args)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, args)));
     }
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0xFFFFFFFF

@@ -122,14 +122,14 @@ namespace UnityEngine::ProBuilder::KdTree {
     void ExpandCapacity() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ExpandCapacity");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandCapacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Enqueue(TItem item, TPriority priority)
     // Offset: 0xFFFFFFFF
     void Enqueue(TItem item, TPriority priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::Enqueue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(priority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item, priority)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item, priority)));
     }
     // public TItem Dequeue()
     // Offset: 0xFFFFFFFF
@@ -143,7 +143,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void ReorderItem(int index, int direction) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::PriorityQueue_2::ReorderItem");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReorderItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(direction)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, direction)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, direction)));
     }
     // public TPriority GetHighestPriority()
     // Offset: 0xFFFFFFFF

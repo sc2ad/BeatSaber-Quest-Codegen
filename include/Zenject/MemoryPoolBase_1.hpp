@@ -201,28 +201,28 @@ namespace Zenject {
     void Construct(Zenject::IFactory_1<TContract>* factory, Zenject::DiContainer* container, Zenject::MemoryPoolSettings* settings) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Construct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Construct", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(factory), ::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(settings)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, factory, container, settings)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, factory, container, settings)));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void Zenject.IMemoryPool.Despawn(System.Object item)
     // Offset: 0xFFFFFFFF
     void Zenject_IMemoryPool_Despawn(::Il2CppObject* item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Zenject.IMemoryPool.Despawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IMemoryPool.Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // public System.Void Despawn(TContract item)
     // Offset: 0xFFFFFFFF
     void Despawn(TContract item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Despawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // private TContract AllocNew()
     // Offset: 0xFFFFFFFF
@@ -236,28 +236,28 @@ namespace Zenject {
     void Zenject_IValidatable_Validate() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Zenject.IValidatable.Validate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Zenject.IValidatable.Validate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void ShrinkBy(System.Int32 numToRemove)
     // Offset: 0xFFFFFFFF
     void ShrinkBy(int numToRemove) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::ShrinkBy");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ShrinkBy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(numToRemove)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, numToRemove)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, numToRemove)));
     }
     // public System.Void ExpandBy(System.Int32 numToAdd)
     // Offset: 0xFFFFFFFF
     void ExpandBy(int numToAdd) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::ExpandBy");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandBy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(numToAdd)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, numToAdd)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, numToAdd)));
     }
     // protected TContract GetInternal()
     // Offset: 0xFFFFFFFF
@@ -271,42 +271,42 @@ namespace Zenject {
     void Resize(int desiredPoolSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::Resize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(desiredPoolSize)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, desiredPoolSize)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, desiredPoolSize)));
     }
     // private System.Void ExpandPool()
     // Offset: 0xFFFFFFFF
     void ExpandPool() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::ExpandPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandPool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void OnDespawned(TContract item)
     // Offset: 0xFFFFFFFF
     void OnDespawned(TContract item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // protected System.Void OnSpawned(TContract item)
     // Offset: 0xFFFFFFFF
     void OnSpawned(TContract item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::OnSpawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // protected System.Void OnCreated(TContract item)
     // Offset: 0xFFFFFFFF
     void OnCreated(TContract item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::OnCreated");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnCreated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // protected System.Void OnDestroyed(TContract item)
     // Offset: 0xFFFFFFFF
     void OnDestroyed(TContract item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::OnDestroyed");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroyed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0xFFFFFFFF
@@ -320,7 +320,7 @@ namespace Zenject {
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBase_1::__zenInjectMethod0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MemoryPoolBase_1<TContract>*>::get(), "__zenInjectMethod0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1)));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0xFFFFFFFF

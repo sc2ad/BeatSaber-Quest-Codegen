@@ -171,7 +171,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposeBlock::AddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposables)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, disposables)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, disposables)));
     }
     // public System.Void Add(System.IDisposable disposable)
     // Offset: 0x1AA1CDC
@@ -186,7 +186,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposeBlock::StoreSpawnedObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StoreSpawnedObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(pool)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, obj, pool)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, obj, pool)));
     }
     // public T Spawn(Zenject.IMemoryPool`1<T> pool)
     // Offset: 0xFFFFFFFF

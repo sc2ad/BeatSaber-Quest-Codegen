@@ -195,7 +195,7 @@ namespace NUnit::Framework::Constraints {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::NUnitEqualityComparer::CheckGameObjectReference");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework.Constraints", "NUnitEqualityComparer", "CheckGameObjectReference", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(value))));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(value))));
     }
     // public System.Void .ctor()
     // Offset: 0x193741C

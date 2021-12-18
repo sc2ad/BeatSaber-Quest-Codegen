@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     void Enable(bool enabled) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Action_2::Enable");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(enabled)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, enabled)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, enabled)));
     }
   }; // SteamVR_Events/Action`2
   // Could not write size check! Type: SteamVR_Events/Action`2 is generic, or has no fields that are valid for size checks!

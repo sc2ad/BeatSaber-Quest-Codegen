@@ -60,21 +60,21 @@ namespace Zenject {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DictionaryPool_2::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Void OnSpawned(System.Collections.Generic.Dictionary`2<TKey,TValue> items)
     // Offset: 0xFFFFFFFF
     static void OnSpawned(System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DictionaryPool_2::OnSpawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(items)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, items)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, items)));
     }
     // static private System.Void OnDespawned(System.Collections.Generic.Dictionary`2<TKey,TValue> items)
     // Offset: 0xFFFFFFFF
     static void OnDespawned(System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DictionaryPool_2::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<DictionaryPool_2<TKey, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(items)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, items)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, items)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

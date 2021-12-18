@@ -73,7 +73,7 @@ namespace System::Threading::Tasks {
     void InnerInvoke() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::ContinuationResultTaskFromResultTask_2::InnerInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InnerInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // System.Threading.Tasks.ContinuationResultTaskFromResultTask`2
   // Could not write size check! Type: System.Threading.Tasks.ContinuationResultTaskFromResultTask`2 is generic, or has no fields that are valid for size checks!

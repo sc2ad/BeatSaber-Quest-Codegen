@@ -49,7 +49,7 @@ namespace UnityEngine::Events {
     void Invoke(T0 arg0, T1 arg1, T2 arg2) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, arg0, arg1, arg2)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, arg0, arg1, arg2)));
     }
     // public System.IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
@@ -63,7 +63,7 @@ namespace UnityEngine::Events {
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_3::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
     }
   }; // UnityEngine.Events.UnityAction`3
   // Could not write size check! Type: UnityEngine.Events.UnityAction`3 is generic, or has no fields that are valid for size checks!

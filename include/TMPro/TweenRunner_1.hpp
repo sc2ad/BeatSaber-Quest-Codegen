@@ -155,7 +155,7 @@ namespace TMPro {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TweenRunner_1::$Start$d__2::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -169,7 +169,7 @@ namespace TMPro {
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TweenRunner_1::$Start$d__2::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // TMPro.TweenRunner`1/TMPro.<Start>d__2
     // Could not write size check! Type: TMPro.TweenRunner`1/TMPro.<Start>d__2 is generic, or has no fields that are valid for size checks!
@@ -223,21 +223,21 @@ namespace TMPro {
     void Init(UnityEngine::MonoBehaviour* coroutineContainer) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TweenRunner_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(coroutineContainer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, coroutineContainer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, coroutineContainer)));
     }
     // public System.Void StartTween(T info)
     // Offset: 0xFFFFFFFF
     void StartTween(T info) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TweenRunner_1::StartTween");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StartTween", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, info)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, info)));
     }
     // public System.Void StopTween()
     // Offset: 0xFFFFFFFF
     void StopTween() {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TweenRunner_1::StopTween");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "StopTween", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

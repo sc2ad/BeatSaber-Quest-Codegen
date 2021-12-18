@@ -208,7 +208,7 @@ namespace System::Linq {
     void Resize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // System.Int32 InternalGetHashCode(TElement value)
     // Offset: 0xFFFFFFFF

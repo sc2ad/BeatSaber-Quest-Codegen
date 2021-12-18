@@ -2429,7 +2429,7 @@ namespace TMPro {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Text::ResizeInternalArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResizeInternalArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, byref(array))));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, byref(array))));
     }
     // protected System.Void AddFloatToCharArray(System.Double number, ref System.Int32 index, System.Int32 precision)
     // Offset: 0x12696D4

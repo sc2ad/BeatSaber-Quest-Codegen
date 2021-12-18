@@ -43,7 +43,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(defaultValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue)));
     }
     // static public System.Void Init(System.Collections.Generic.List`1<T> array, T defaultValue)
     // Offset: 0xFFFFFFFF
@@ -52,7 +52,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(defaultValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue)));
     }
     // static public System.Void CopyToWithResize(T[] srcArray, ref T[] destArray)
     // Offset: 0xFFFFFFFF
@@ -61,7 +61,7 @@ namespace HoudiniEngineUnity {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::CopyToWithResize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "CopyToWithResize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(srcArray), ::il2cpp_utils::ExtractType(destArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, srcArray, byref(destArray))));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, srcArray, byref(destArray))));
     }
     // static public System.Boolean IsEquivalentArray(T[] arr, T[] other)
     // Offset: 0xFFFFFFFF

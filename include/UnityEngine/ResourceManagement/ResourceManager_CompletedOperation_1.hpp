@@ -81,7 +81,7 @@ namespace UnityEngine::ResourceManagement {
     void Init(TObject result, bool success, ::Il2CppString* errorMsg, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CompletedOperation_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result, success, errorMsg, releaseDependenciesOnFailure)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result, success, errorMsg, releaseDependenciesOnFailure)));
     }
     // protected override System.String get_DebugName()
     // Offset: 0xFFFFFFFF
@@ -118,7 +118,7 @@ namespace UnityEngine::ResourceManagement {
     void Execute() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CompletedOperation_1::Execute");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Execute", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.CompletedOperation`1
   // Could not write size check! Type: UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.CompletedOperation`1 is generic, or has no fields that are valid for size checks!

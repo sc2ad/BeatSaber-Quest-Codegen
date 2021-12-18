@@ -235,7 +235,7 @@ namespace UnityEngine::ProBuilder {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AddOrAppend");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppend", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value)));
     }
     // static public System.Void AddOrAppendRange(System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.List`1<K>> dictionary, T key, System.Collections.Generic.List`1<K> value)
     // Offset: 0xFFFFFFFF
@@ -244,7 +244,7 @@ namespace UnityEngine::ProBuilder {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AddOrAppendRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppendRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value)));
     }
     // static public System.Collections.Generic.IEnumerable`1<TSource> DistinctBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
     // Offset: 0xFFFFFFFF

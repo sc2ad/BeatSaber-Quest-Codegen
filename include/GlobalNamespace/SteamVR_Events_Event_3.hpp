@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     void Listen(UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Listen");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Listen", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, action)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, action)));
     }
     // public System.Void Remove(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFF
     void Remove(UnityEngine::Events::UnityAction_3<T0, T1, T2>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, action)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, action)));
     }
     // public System.Void Send(T0 arg0, T1 arg1, T2 arg2)
     // Offset: 0xFFFFFFFF
     void Send(T0 arg0, T1 arg1, T2 arg2) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Event_3::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, arg0, arg1, arg2)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, arg0, arg1, arg2)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

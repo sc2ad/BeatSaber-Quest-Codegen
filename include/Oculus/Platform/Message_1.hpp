@@ -65,7 +65,7 @@ namespace Oculus::Platform {
       void Invoke(Oculus::Platform::Message_1<T>* message) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, message)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, message)));
       }
       // public System.IAsyncResult BeginInvoke(Oculus.Platform.Message`1<T> message, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
@@ -79,7 +79,7 @@ namespace Oculus::Platform {
       void EndInvoke(System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Message_1::Callback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
       }
     }; // Oculus.Platform.Message`1/Oculus.Platform.Callback
     // Could not write size check! Type: Oculus.Platform.Message`1/Oculus.Platform.Callback is generic, or has no fields that are valid for size checks!

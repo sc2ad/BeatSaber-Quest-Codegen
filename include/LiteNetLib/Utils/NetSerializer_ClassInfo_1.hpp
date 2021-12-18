@@ -100,14 +100,14 @@ namespace LiteNetLib::Utils {
     void Write(T obj, LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::ClassInfo_1::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(writer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, obj, writer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, obj, writer)));
     }
     // public System.Void Read(T obj, LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
     void Read(T obj, LiteNetLib::Utils::NetDataReader* reader) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::ClassInfo_1::Read");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(reader)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, obj, reader)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, obj, reader)));
     }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.ClassInfo`1
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.ClassInfo`1 is generic, or has no fields that are valid for size checks!

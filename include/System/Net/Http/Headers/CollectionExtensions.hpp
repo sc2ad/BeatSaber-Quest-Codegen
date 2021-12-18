@@ -65,7 +65,7 @@ namespace System::Net::Http::Headers {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::CollectionExtensions::ToStringBuilder");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "CollectionExtensions", "ToStringBuilder", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(sb)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, sb)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, sb)));
     }
   }; // System.Net.Http.Headers.CollectionExtensions
   #pragma pack(pop)

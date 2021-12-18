@@ -85,7 +85,7 @@ namespace Oculus::Platform {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::SetNotificationCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Oculus.Platform", "Callback", "SetNotificationCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, type, callback)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, type, callback)));
     }
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/Oculus.Platform.MessageType type, Oculus.Platform.Message/Oculus.Platform.Callback callback)
     // Offset: 0x1749E24

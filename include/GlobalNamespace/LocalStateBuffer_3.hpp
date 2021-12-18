@@ -206,7 +206,7 @@ namespace GlobalNamespace {
     void MarkDirty() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::MarkDirty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "MarkDirty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean TryGetSerializedState(out TStateTable state, out System.Single time, out SyncStateId id)
     // Offset: 0xFFFFFFFF
@@ -227,14 +227,14 @@ namespace GlobalNamespace {
     void SetTime(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::SetTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, time)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, time)));
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::SetState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(state)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, type, state)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, type, state)));
     }
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF

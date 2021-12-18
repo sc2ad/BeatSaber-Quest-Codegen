@@ -88,7 +88,7 @@ namespace System::Threading::Tasks {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Task_1<TResult>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
       }
       // System.Threading.Tasks.Task`1<TResult> <.cctor>b__64_0(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> completed)
       // Offset: 0xFFFFFFFF
@@ -250,7 +250,7 @@ namespace System::Threading::Tasks {
     void DangerousSetResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::DangerousSetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DangerousSetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
     }
     // TResult GetResultCore(System.Boolean waitCompletionNotification)
     // Offset: 0xFFFFFFFF
@@ -338,7 +338,7 @@ namespace System::Threading::Tasks {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Task_1<TResult>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // override System.Void InnerInvoke()
     // Offset: 0xFFFFFFFF
@@ -347,7 +347,7 @@ namespace System::Threading::Tasks {
     void InnerInvoke() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task_1::InnerInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InnerInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // System.Threading.Tasks.Task`1
   // Could not write size check! Type: System.Threading.Tasks.Task`1 is generic, or has no fields that are valid for size checks!

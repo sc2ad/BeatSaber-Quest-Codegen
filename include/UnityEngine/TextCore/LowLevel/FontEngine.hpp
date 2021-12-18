@@ -176,7 +176,7 @@ namespace UnityEngine::TextCore::LowLevel {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::LowLevel::FontEngine::SetMarshallingArraySize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.TextCore.LowLevel", "FontEngine", "SetMarshallingArraySize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(marshallingArray), ::il2cpp_utils::ExtractType(recordCount)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(marshallingArray), recordCount)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(marshallingArray), recordCount)));
     }
     // static System.Void ResetAtlasTexture(UnityEngine.Texture2D texture)
     // Offset: 0x26AB468

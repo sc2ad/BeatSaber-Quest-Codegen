@@ -173,14 +173,14 @@ namespace System::Collections::Generic {
       Enumerator(System::Collections::Generic::List_1<T>* list) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, list)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, list)));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
       void Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Enumerator::Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // public System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -201,7 +201,7 @@ namespace System::Collections::Generic {
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Enumerator::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // System.Collections.Generic.List`1/System.Collections.Generic.Enumerator
     // Could not write size check! Type: System.Collections.Generic.List`1/System.Collections.Generic.Enumerator is generic, or has no fields that are valid for size checks!
@@ -319,7 +319,7 @@ namespace System::Collections::Generic {
     void set_Capacity(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::set_Capacity");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Capacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
@@ -354,7 +354,7 @@ namespace System::Collections::Generic {
     void set_Item(int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, value)));
     }
     // private System.Object System.Collections.IList.get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -368,7 +368,7 @@ namespace System::Collections::Generic {
     void System_Collections_IList_set_Item(int index, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::System.Collections.IList.set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IList.set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, value)));
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
@@ -389,7 +389,7 @@ namespace System::Collections::Generic {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<List_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Boolean IsCompatibleObject(System.Object value)
     // Offset: 0xFFFFFFFF
@@ -403,7 +403,7 @@ namespace System::Collections::Generic {
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // private System.Int32 System.Collections.IList.Add(System.Object item)
     // Offset: 0xFFFFFFFF
@@ -417,7 +417,7 @@ namespace System::Collections::Generic {
     void AddRange(System::Collections::Generic::IEnumerable_1<T>* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::AddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, collection)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, collection)));
     }
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<T> AsReadOnly()
     // Offset: 0xFFFFFFFF
@@ -445,7 +445,7 @@ namespace System::Collections::Generic {
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
@@ -475,35 +475,35 @@ namespace System::Collections::Generic {
     void CopyTo(::ArrayW<T> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     void System_Collections_ICollection_CopyTo(System::Array* array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::System.Collections.ICollection.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, arrayIndex)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, arrayIndex)));
     }
     // public System.Void CopyTo(System.Int32 index, T[] array, System.Int32 arrayIndex, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void CopyTo(int index, ::ArrayW<T> array, int arrayIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex), ::il2cpp_utils::ExtractType(count)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, array, arrayIndex, count)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, array, arrayIndex, count)));
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
     void CopyTo(::ArrayW<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, arrayIndex)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, arrayIndex)));
     }
     // private System.Void EnsureCapacity(System.Int32 min)
     // Offset: 0xFFFFFFFF
     void EnsureCapacity(int min) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::EnsureCapacity");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EnsureCapacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(min)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, min)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, min)));
     }
     // public System.Boolean Exists(System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
@@ -538,7 +538,7 @@ namespace System::Collections::Generic {
     void ForEach(System::Action_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::ForEach");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ForEach", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(action)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, action)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, action)));
     }
     // public System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -587,21 +587,21 @@ namespace System::Collections::Generic {
     void Insert(int index, T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, item)));
     }
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object item)
     // Offset: 0xFFFFFFFF
     void System_Collections_IList_Insert(int index, ::Il2CppObject* item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::System.Collections.IList.Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IList.Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, item)));
     }
     // public System.Void InsertRange(System.Int32 index, System.Collections.Generic.IEnumerable`1<T> collection)
     // Offset: 0xFFFFFFFF
     void InsertRange(int index, System::Collections::Generic::IEnumerable_1<T>* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::InsertRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(collection)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, collection)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, collection)));
     }
     // public System.Boolean Remove(T item)
     // Offset: 0xFFFFFFFF
@@ -615,7 +615,7 @@ namespace System::Collections::Generic {
     void System_Collections_IList_Remove(::Il2CppObject* item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::System.Collections.IList.Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IList.Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // public System.Int32 RemoveAll(System.Predicate`1<T> match)
     // Offset: 0xFFFFFFFF
@@ -629,56 +629,56 @@ namespace System::Collections::Generic {
     void RemoveAt(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::RemoveAt");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveAt", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index)));
     }
     // public System.Void RemoveRange(System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void RemoveRange(int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::RemoveRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, count)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, count)));
     }
     // public System.Void Reverse()
     // Offset: 0xFFFFFFFF
     void Reverse() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Reverse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reverse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Reverse(System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     void Reverse(int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Reverse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reverse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, count)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, count)));
     }
     // public System.Void Sort()
     // Offset: 0xFFFFFFFF
     void Sort() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Sort(System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     void Sort(System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, comparer)));
     }
     // public System.Void Sort(System.Int32 index, System.Int32 count, System.Collections.Generic.IComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     void Sort(int index, int count, System::Collections::Generic::IComparer_1<T>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, count, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, count, comparer)));
     }
     // public System.Void Sort(System.Comparison`1<T> comparison)
     // Offset: 0xFFFFFFFF
     void Sort(System::Comparison_1<T>* comparison) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::List_1::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(comparison)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, comparison)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, comparison)));
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF

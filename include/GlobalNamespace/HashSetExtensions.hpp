@@ -48,7 +48,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HashSetExtensions::SetCapacity");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "HashSetExtensions", "SetCapacity", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hs), ::il2cpp_utils::ExtractType(capacity)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, hs, capacity)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, hs, capacity)));
     }
     // static public System.Collections.Generic.HashSet`1<T> GetHashSet(System.Int32 capacity)
     // Offset: 0xFFFFFFFF

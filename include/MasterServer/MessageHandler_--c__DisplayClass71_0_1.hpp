@@ -79,7 +79,7 @@ namespace MasterServer {
     void $CustomUnreliableResponseHandler$b__0(T packet, MasterServer::MessageHandler::MessageOrigin origin) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass71_0_1::<CustomUnreliableResponseHandler>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CustomUnreliableResponseHandler>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, packet, origin)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, packet, origin)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

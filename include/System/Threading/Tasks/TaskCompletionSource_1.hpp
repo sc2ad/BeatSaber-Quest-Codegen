@@ -81,7 +81,7 @@ namespace System::Threading::Tasks {
     void SpinUntilCompleted() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SpinUntilCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SpinUntilCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean TrySetException(System.Exception exception)
     // Offset: 0xFFFFFFFF
@@ -102,7 +102,7 @@ namespace System::Threading::Tasks {
     void SetResult(TResult result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SetResult");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
     }
     // public System.Boolean TrySetCanceled()
     // Offset: 0xFFFFFFFF
@@ -123,7 +123,7 @@ namespace System::Threading::Tasks {
     void SetCanceled() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskCompletionSource_1::SetCanceled");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetCanceled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

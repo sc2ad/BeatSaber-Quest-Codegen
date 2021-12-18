@@ -121,7 +121,7 @@ namespace HoudiniEngineUnity {
     void set_Item(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Collections.Generic.ICollection`1<TKey> get_Keys()
     // Offset: 0xFFFFFFFF
@@ -156,21 +156,21 @@ namespace HoudiniEngineUnity {
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Void Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue> item)
     // Offset: 0xFFFFFFFF
     void Add(System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue> item)
     // Offset: 0xFFFFFFFF
@@ -191,7 +191,7 @@ namespace HoudiniEngineUnity {
     void CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, arrayIndex)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, arrayIndex)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -233,14 +233,14 @@ namespace HoudiniEngineUnity {
     void OnAfterDeserialize() {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::OnAfterDeserialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnAfterDeserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void OnBeforeSerialize()
     // Offset: 0xFFFFFFFF
     void OnBeforeSerialize() {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SerializableDictionary_2::OnBeforeSerialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnBeforeSerialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -128,14 +128,14 @@ namespace UnityEngine::ProBuilder::KdTree {
       void $GetEnumerator$b__0(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$$c__DisplayClass33_0::<GetEnumerator>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetEnumerator>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node)));
       }
       // System.Void <GetEnumerator>b__1(UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue> node)
       // Offset: 0xFFFFFFFF
       void $GetEnumerator$b__1(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node) {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$$c__DisplayClass33_0::<GetEnumerator>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<GetEnumerator>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node)));
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -281,7 +281,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -295,7 +295,7 @@ namespace UnityEngine::ProBuilder::KdTree {
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::$GetEnumerator$d__33::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // UnityEngine.ProBuilder.KdTree.KdTree`2/UnityEngine.ProBuilder.KdTree.<GetEnumerator>d__33
     // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.KdTree`2/UnityEngine.ProBuilder.KdTree.<GetEnumerator>d__33 is generic, or has no fields that are valid for size checks!
@@ -395,7 +395,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void set_AddDuplicateBehavior(UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::set_AddDuplicateBehavior");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_AddDuplicateBehavior", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
@@ -409,7 +409,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void set_Count(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::set_Count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void .ctor(System.Int32 dimensions, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TKey> typeMath)
     // Offset: 0xFFFFFFFF
@@ -437,7 +437,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void AddNearestNeighbours(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::ArrayW<TKey> target, UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int depth, UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours, TKey maxSearchRadiusSquared) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::AddNearestNeighbours");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddNearestNeighbours", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(target), ::il2cpp_utils::ExtractType(rect), ::il2cpp_utils::ExtractType(depth), ::il2cpp_utils::ExtractType(nearestNeighbours), ::il2cpp_utils::ExtractType(maxSearchRadiusSquared)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node, target, rect, depth, nearestNeighbours, maxSearchRadiusSquared)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node, target, rect, depth, nearestNeighbours, maxSearchRadiusSquared)));
     }
     // public UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>[] RadialSearch(TKey[] center, TKey radius, System.Int32 count)
     // Offset: 0xFFFFFFFF
@@ -451,7 +451,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     void AddNodeToStringBuilder(UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, System::Text::StringBuilder* sb, int depth) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::KdTree_2::AddNodeToStringBuilder");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddNodeToStringBuilder", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(sb), ::il2cpp_utils::ExtractType(depth)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node, sb, depth)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node, sb, depth)));
     }
     // public System.Collections.Generic.IEnumerator`1<UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>> GetEnumerator()
     // Offset: 0xFFFFFFFF

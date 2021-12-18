@@ -47,7 +47,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HEU_ExampleInstanceCustomAttribute::LogArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "HEU_ExampleInstanceCustomAttribute", "LogArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, arr, tupleSize)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, name, arr, tupleSize)));
     }
     // static private System.Void LogAttr(HoudiniEngineUnity.HEU_OutputAttribute outAttr)
     // Offset: 0x1461870

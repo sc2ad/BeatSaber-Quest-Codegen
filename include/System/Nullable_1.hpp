@@ -86,7 +86,7 @@ namespace System {
     Nullable_1(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Nullable_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // private System.Boolean Equals(System.Nullable`1<T> other)
     // Offset: 0xFFFFFFFF

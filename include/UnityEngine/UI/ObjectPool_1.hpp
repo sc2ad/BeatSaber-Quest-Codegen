@@ -118,7 +118,7 @@ namespace UnityEngine::UI {
     void set_countAll(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::set_countAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_countAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Int32 get_countActive()
     // Offset: 0xFFFFFFFF
@@ -153,7 +153,7 @@ namespace UnityEngine::UI {
     void Release(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ObjectPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, element)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, element)));
     }
   }; // UnityEngine.UI.ObjectPool`1
   // Could not write size check! Type: UnityEngine.UI.ObjectPool`1 is generic, or has no fields that are valid for size checks!

@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     void set_Item(int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, value)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
@@ -141,56 +141,56 @@ namespace GlobalNamespace {
     void add_OnElementAdded(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::add_OnElementAdded");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_OnElementAdded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void remove_OnElementAdded(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_OnElementAdded(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::remove_OnElementAdded");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_OnElementAdded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void add_OnElementRemoved(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void add_OnElementRemoved(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::add_OnElementRemoved");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_OnElementRemoved", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void remove_OnElementRemoved(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_OnElementRemoved(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::remove_OnElementRemoved");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_OnElementRemoved", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // private System.Void InvokeAdded(T element)
     // Offset: 0xFFFFFFFF
     void InvokeAdded(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::InvokeAdded");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeAdded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, element)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, element)));
     }
     // private System.Void InvokeRemoved(T element)
     // Offset: 0xFFFFFFFF
     void InvokeRemoved(T element) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::InvokeRemoved");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeRemoved", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(element)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, element)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, element)));
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean Contains(T item)
     // Offset: 0xFFFFFFFF
@@ -204,7 +204,7 @@ namespace GlobalNamespace {
     void CopyTo(::ArrayW<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, arrayIndex)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, arrayIndex)));
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -225,7 +225,7 @@ namespace GlobalNamespace {
     void Insert(int index, T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, item)));
     }
     // public System.Boolean Remove(T item)
     // Offset: 0xFFFFFFFF
@@ -239,7 +239,7 @@ namespace GlobalNamespace {
     void RemoveAt(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ListWithEvents_1::RemoveAt");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveAt", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF

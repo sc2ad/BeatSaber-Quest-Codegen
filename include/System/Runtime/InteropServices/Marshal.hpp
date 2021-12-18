@@ -134,7 +134,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::PtrToStructure");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "PtrToStructure", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ptr), ::il2cpp_utils::ExtractType(structure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ptr, structure)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ptr, structure)));
     }
     // static public T PtrToStructure(System.IntPtr ptr)
     // Offset: 0xFFFFFFFF
@@ -203,7 +203,7 @@ namespace System::Runtime::InteropServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::Marshal::StructureToPtr");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.InteropServices", "Marshal", "StructureToPtr", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(structure), ::il2cpp_utils::ExtractType(ptr), ::il2cpp_utils::ExtractType(fDeleteOld)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, structure, ptr, fDeleteOld)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, structure, ptr, fDeleteOld)));
     }
     // static private System.IntPtr BufferToBSTR(System.Array ptr, System.Int32 slen)
     // Offset: 0x1623DE8

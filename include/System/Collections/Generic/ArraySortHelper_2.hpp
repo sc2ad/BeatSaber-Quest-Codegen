@@ -66,35 +66,35 @@ namespace System::Collections::Generic {
     void Sort(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int index, int length, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, keys, values, index, length, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, keys, values, index, length, comparer)));
     }
     // static private System.Void SwapIfGreaterWithItems(TKey[] keys, TValue[] values, System.Collections.Generic.IComparer`1<TKey> comparer, System.Int32 a, System.Int32 b)
     // Offset: 0xFFFFFFFF
     static void SwapIfGreaterWithItems(::ArrayW<TKey> keys, ::ArrayW<TValue> values, System::Collections::Generic::IComparer_1<TKey>* comparer, int a, int b) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::SwapIfGreaterWithItems");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(comparer), ::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, comparer, a, b)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, comparer, a, b)));
     }
     // static private System.Void Swap(TKey[] keys, TValue[] values, System.Int32 i, System.Int32 j)
     // Offset: 0xFFFFFFFF
     static void Swap(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int i, int j) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::Swap");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "Swap", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(i), ::il2cpp_utils::ExtractType(j)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, i, j)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, i, j)));
     }
     // static System.Void IntrospectiveSort(TKey[] keys, TValue[] values, System.Int32 left, System.Int32 length, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     static void IntrospectiveSort(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int left, int length, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::IntrospectiveSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "IntrospectiveSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, left, length, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, left, length, comparer)));
     }
     // static private System.Void IntroSort(TKey[] keys, TValue[] values, System.Int32 lo, System.Int32 hi, System.Int32 depthLimit, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     static void IntroSort(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int lo, int hi, int depthLimit, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::IntroSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "IntroSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(depthLimit), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, depthLimit, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, depthLimit, comparer)));
     }
     // static private System.Int32 PickPivotAndPartition(TKey[] keys, TValue[] values, System.Int32 lo, System.Int32 hi, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
@@ -108,21 +108,21 @@ namespace System::Collections::Generic {
     static void Heapsort(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int lo, int hi, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::Heapsort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "Heapsort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, comparer)));
     }
     // static private System.Void DownHeap(TKey[] keys, TValue[] values, System.Int32 i, System.Int32 n, System.Int32 lo, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     static void DownHeap(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int i, int n, int lo, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::DownHeap");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "DownHeap", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(i), ::il2cpp_utils::ExtractType(n), ::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, i, n, lo, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, i, n, lo, comparer)));
     }
     // static private System.Void InsertionSort(TKey[] keys, TValue[] values, System.Int32 lo, System.Int32 hi, System.Collections.Generic.IComparer`1<TKey> comparer)
     // Offset: 0xFFFFFFFF
     static void InsertionSort(::ArrayW<TKey> keys, ::ArrayW<TValue> values, int lo, int hi, System::Collections::Generic::IComparer_1<TKey>* comparer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::ArraySortHelper_2::InsertionSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArraySortHelper_2<TKey, TValue>*>::get(), "InsertionSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(lo), ::il2cpp_utils::ExtractType(hi), ::il2cpp_utils::ExtractType(comparer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, comparer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, keys, values, lo, hi, comparer)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

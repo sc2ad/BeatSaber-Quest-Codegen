@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     void SetState(TType type, TState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::SetState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(state)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, type, state)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, type, state)));
     }
     // public TStateTable GetDelta(in TStateTable stateTable)
     // Offset: 0xFFFFFFFF

@@ -78,7 +78,7 @@ namespace System::Linq {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IdentityFunction_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename IdentityFunction_1<TElement>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
       }
       // TElement <get_Instance>b__1_0(TElement x)
       // Offset: 0xFFFFFFFF

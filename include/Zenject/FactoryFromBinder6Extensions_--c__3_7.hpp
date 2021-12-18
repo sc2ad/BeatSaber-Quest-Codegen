@@ -79,14 +79,14 @@ namespace Zenject {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::$$c__3_7::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<FactoryFromBinder6Extensions::$$c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // System.Void <FromMonoPoolableMemoryPool>b__3_0(Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract> x)
     // Offset: 0xFFFFFFFF
     void $FromMonoPoolableMemoryPool$b__3_0(Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::$$c__3_7::<FromMonoPoolableMemoryPool>b__3_0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromMonoPoolableMemoryPool>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, x)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, x)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0xFFFFFFFF

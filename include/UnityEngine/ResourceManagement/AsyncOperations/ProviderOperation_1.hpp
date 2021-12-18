@@ -329,7 +329,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Int32 get_ProvideHandleVersion()
     // Offset: 0xFFFFFFFF
@@ -364,21 +364,21 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void SetDownloadProgressCallback(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::SetDownloadProgressCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetDownloadProgressCallback", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, callback)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, callback)));
     }
     // public System.Void SetWaitForCompletionCallback(System.Func`1<System.Boolean> callback)
     // Offset: 0xFFFFFFFF
     void SetWaitForCompletionCallback(System::Func_1<bool>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::SetWaitForCompletionCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetWaitForCompletionCallback", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, callback)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, callback)));
     }
     // public System.Void GetDependencies(System.Collections.Generic.IList`1<System.Object> dstList)
     // Offset: 0xFFFFFFFF
     void GetDependencies(System::Collections::Generic::IList_1<::Il2CppObject*>* dstList) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::GetDependencies");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDependencies", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dstList)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, dstList)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, dstList)));
     }
     // public TDepObject GetDependency(System.Int32 index)
     // Offset: 0xFFFFFFFF
@@ -394,7 +394,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void SetProgressCallback(System::Func_1<float>* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::SetProgressCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetProgressCallback", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(callback)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, callback)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, callback)));
     }
     // public System.Void ProviderCompleted(T result, System.Boolean status, System.Exception e)
     // Offset: 0xFFFFFFFF
@@ -403,21 +403,21 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::ProviderCompleted");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProviderCompleted", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(status), ::il2cpp_utils::ExtractType(e)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, result, status, e)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, result, status, e)));
     }
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> depOp)
     // Offset: 0xFFFFFFFF
     void Init(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> depOp) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rm), ::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(location), ::il2cpp_utils::ExtractType(depOp)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, rm, provider, location, depOp)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, rm, provider, location, depOp)));
     }
     // public System.Void Init(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider provider, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>> depOp, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
     void Init(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> depOp, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rm), ::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(location), ::il2cpp_utils::ExtractType(depOp), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, rm, provider, location, depOp, releaseDependenciesOnFailure)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, rm, provider, location, depOp, releaseDependenciesOnFailure)));
     }
     // private System.Boolean WaitForCompletionHandler()
     // Offset: 0xFFFFFFFF
@@ -479,7 +479,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::GetDependencies");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDependencies", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(deps)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, deps)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, deps)));
     }
     // override System.Void ReleaseDependencies()
     // Offset: 0xFFFFFFFF
@@ -488,7 +488,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void ReleaseDependencies() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::ReleaseDependencies");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReleaseDependencies", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected override System.Void Execute()
     // Offset: 0xFFFFFFFF
@@ -497,7 +497,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void Execute() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::Execute");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Execute", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected override System.Void Destroy()
     // Offset: 0xFFFFFFFF
@@ -506,7 +506,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void Destroy() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1::Destroy");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Destroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1
   // Could not write size check! Type: UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1 is generic, or has no fields that are valid for size checks!

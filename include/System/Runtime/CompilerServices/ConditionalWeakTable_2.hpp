@@ -193,28 +193,28 @@ namespace System::Runtime::CompilerServices {
     void RehashWithoutResize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::RehashWithoutResize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RehashWithoutResize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void RecomputeSize()
     // Offset: 0xFFFFFFFF
     void RecomputeSize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::RecomputeSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RecomputeSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void Rehash()
     // Offset: 0xFFFFFFFF
     void Rehash() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Rehash");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rehash", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF
@@ -253,7 +253,7 @@ namespace System::Runtime::CompilerServices {
     void Finalize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConditionalWeakTable_2::Finalize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finalize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // System.Runtime.CompilerServices.ConditionalWeakTable`2
   // Could not write size check! Type: System.Runtime.CompilerServices.ConditionalWeakTable`2 is generic, or has no fields that are valid for size checks!

@@ -234,14 +234,14 @@ namespace System::Collections::Concurrent {
     void Initialize(System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int boundedCapacity, int collectionCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Initialize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection), ::il2cpp_utils::ExtractType(boundedCapacity), ::il2cpp_utils::ExtractType(collectionCount)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, collection, boundedCapacity, collectionCount)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, collection, boundedCapacity, collectionCount)));
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // private System.Boolean TryAddWithNoTimeValidation(T item, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -276,42 +276,42 @@ namespace System::Collections::Concurrent {
     void CompleteAdding() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CompleteAdding");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompleteAdding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void CancelWaitingConsumers()
     // Offset: 0xFFFFFFFF
     void CancelWaitingConsumers() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CancelWaitingConsumers");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CancelWaitingConsumers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void CancelWaitingProducers()
     // Offset: 0xFFFFFFFF
     void CancelWaitingProducers() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CancelWaitingProducers");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CancelWaitingProducers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposing)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, disposing)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, disposing)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::System.Collections.ICollection.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -332,14 +332,14 @@ namespace System::Collections::Concurrent {
     static void ValidateMillisecondsTimeout(int millisecondsTimeout) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::ValidateMillisecondsTimeout");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BlockingCollection_1<T>*>::get(), "ValidateMillisecondsTimeout", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(millisecondsTimeout)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, millisecondsTimeout)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, millisecondsTimeout)));
     }
     // private System.Void CheckDisposed()
     // Offset: 0xFFFFFFFF
     void CheckDisposed() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CheckDisposed");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CheckDisposed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

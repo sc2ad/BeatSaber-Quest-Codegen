@@ -146,14 +146,14 @@ namespace System::Threading::Tasks {
       static void CompleteFromAsyncResult(System::IAsyncResult* asyncResult) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncTrimPromise_1::CompleteFromAsyncResult");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskFactory_1<TResult>::FromAsyncTrimPromise_1<TInstance>*>::get(), "CompleteFromAsyncResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asyncResult)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, asyncResult)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, asyncResult)));
       }
       // System.Void Complete(TInstance thisRef, System.Func`3<TInstance,System.IAsyncResult,TResult> endMethod, System.IAsyncResult asyncResult, System.Boolean requiresSynchronization)
       // Offset: 0xFFFFFFFF
       void Complete(TInstance thisRef, System::Func_3<TInstance, System::IAsyncResult*, TResult>* endMethod, System::IAsyncResult* asyncResult, bool requiresSynchronization) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncTrimPromise_1::Complete");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(thisRef), ::il2cpp_utils::ExtractType(endMethod), ::il2cpp_utils::ExtractType(asyncResult), ::il2cpp_utils::ExtractType(requiresSynchronization)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, thisRef, endMethod, asyncResult, requiresSynchronization)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, thisRef, endMethod, asyncResult, requiresSynchronization)));
       }
       // static private System.Void .cctor()
       // Offset: 0xFFFFFFFF
@@ -163,7 +163,7 @@ namespace System::Threading::Tasks {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncTrimPromise_1::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskFactory_1<TResult>::FromAsyncTrimPromise_1<TInstance>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
       }
     }; // System.Threading.Tasks.TaskFactory`1/System.Threading.Tasks.FromAsyncTrimPromise`1
     // Could not write size check! Type: System.Threading.Tasks.TaskFactory`1/System.Threading.Tasks.FromAsyncTrimPromise`1 is generic, or has no fields that are valid for size checks!
@@ -233,7 +233,7 @@ namespace System::Threading::Tasks {
       void $FromAsyncImpl$b__0(System::IAsyncResult* iar) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::$$c__DisplayClass35_0::<FromAsyncImpl>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromAsyncImpl>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(iar)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, iar)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, iar)));
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -298,7 +298,7 @@ namespace System::Threading::Tasks {
       void $FromAsyncImpl$b__1(System::IAsyncResult* iar) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::$$c__DisplayClass35_1::<FromAsyncImpl>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromAsyncImpl>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(iar)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, iar)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, iar)));
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -396,7 +396,7 @@ namespace System::Threading::Tasks {
     static void FromAsyncCoreLogic(System::IAsyncResult* iar, System::Func_2<System::IAsyncResult*, TResult>* endFunction, System::Action_1<System::IAsyncResult*>* endAction, System::Threading::Tasks::Task_1<TResult>* promise, bool requiresSynchronization) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskFactory_1::FromAsyncCoreLogic");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskFactory_1<TResult>*>::get(), "FromAsyncCoreLogic", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(iar), ::il2cpp_utils::ExtractType(endFunction), ::il2cpp_utils::ExtractType(endAction), ::il2cpp_utils::ExtractType(promise), ::il2cpp_utils::ExtractType(requiresSynchronization)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, iar, endFunction, endAction, promise, requiresSynchronization)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, iar, endFunction, endAction, promise, requiresSynchronization)));
     }
     // public System.Threading.Tasks.Task`1<TResult> FromAsync(System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult> beginMethod, System.Func`2<System.IAsyncResult,TResult> endMethod, System.Object state)
     // Offset: 0xFFFFFFFF

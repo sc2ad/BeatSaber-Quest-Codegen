@@ -110,7 +110,7 @@ namespace Zenject {
     void Construct(Zenject::IProvider* provider, Zenject::InjectContext* injectContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::Construct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Construct", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(provider), ::il2cpp_utils::ExtractType(injectContext)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, provider, injectContext)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, provider, injectContext)));
     }
     // protected TValue CreateInternal(System.Collections.Generic.List`1<Zenject.TypeValuePair> extraArgs)
     // Offset: 0xFFFFFFFF
@@ -124,14 +124,14 @@ namespace Zenject {
     void Validate() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::Validate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Validate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
     // Offset: 0xFFFFFFFF
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PlaceholderFactoryBase_1::__zenInjectMethod0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<PlaceholderFactoryBase_1<TValue>*>::get(), "__zenInjectMethod0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0), ::il2cpp_utils::ExtractType(P_1)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0, P_1)));
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0xFFFFFFFF

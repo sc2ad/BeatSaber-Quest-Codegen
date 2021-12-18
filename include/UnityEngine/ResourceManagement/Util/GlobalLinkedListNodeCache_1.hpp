@@ -64,7 +64,7 @@ namespace UnityEngine::ResourceManagement::Util {
     static void Release(System::Collections::Generic::LinkedListNode_1<T>* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalLinkedListNodeCache_1<T>*>::get(), "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, node)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, node)));
     }
   }; // UnityEngine.ResourceManagement.Util.GlobalLinkedListNodeCache`1
   // Could not write size check! Type: UnityEngine.ResourceManagement.Util.GlobalLinkedListNodeCache`1 is generic, or has no fields that are valid for size checks!

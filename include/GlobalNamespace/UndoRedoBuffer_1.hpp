@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // public T Undo()
     // Offset: 0xFFFFFFFF
@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UndoRedoBuffer_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // UndoRedoBuffer`1
   // Could not write size check! Type: UndoRedoBuffer`1 is generic, or has no fields that are valid for size checks!

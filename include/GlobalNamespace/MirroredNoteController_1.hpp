@@ -189,63 +189,63 @@ namespace GlobalNamespace {
     void set_hide(bool value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::set_hide");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_hide", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected System.Void Awake()
     // Offset: 0xFFFFFFFF
     void Awake() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::Awake");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void Update()
     // Offset: 0xFFFFFFFF
     void Update() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::Update");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Update", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void OnDestroy()
     // Offset: 0xFFFFFFFF
     void OnDestroy() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::OnDestroy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void UpdatePositionAndRotation()
     // Offset: 0xFFFFFFFF
     void UpdatePositionAndRotation() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::UpdatePositionAndRotation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdatePositionAndRotation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Mirror(T noteController)
     // Offset: 0xFFFFFFFF
     void Mirror(T noteController) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::Mirror");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Mirror", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, noteController)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, noteController)));
     }
     // private System.Void RemoveListeners()
     // Offset: 0xFFFFFFFF
     void RemoveListeners() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::RemoveListeners");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveListeners", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
     // Offset: 0xFFFFFFFF
     void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::HandleNoteControllerNoteDidStartDissolving");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController), ::il2cpp_utils::ExtractType(duration)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, noteController, duration)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, noteController, duration)));
     }
     // public System.Void HandleNoteControllerNoteDidPassJumpThreeQuarters(NoteControllerBase noteController)
     // Offset: 0xFFFFFFFF
     void HandleNoteControllerNoteDidPassJumpThreeQuarters(GlobalNamespace::NoteControllerBase* noteController) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredNoteController_1::HandleNoteControllerNoteDidPassJumpThreeQuarters");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleNoteControllerNoteDidPassJumpThreeQuarters", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(noteController)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, noteController)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, noteController)));
     }
     // public override ILazyCopyHashSet`1<INoteControllerDidInitEvent> get_didInitEvent()
     // Offset: 0xFFFFFFFF

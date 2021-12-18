@@ -125,14 +125,14 @@ namespace Unity::Collections {
       Enumerator(ByRef<Unity::Collections::NativeArray_1<T>> array) {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, byref(array))));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, byref(array))));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF
       void Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // public System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -146,7 +146,7 @@ namespace Unity::Collections {
       void Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // Unity.Collections.NativeArray`1/Unity.Collections.Enumerator
     // Could not write size check! Type: Unity.Collections.NativeArray`1/Unity.Collections.Enumerator is generic, or has no fields that are valid for size checks!
@@ -232,7 +232,7 @@ namespace Unity::Collections {
     void set_Item(int index, T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::set_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, index, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, index, value)));
     }
     // public System.Boolean get_IsCreated()
     // Offset: 0xFFFFFFFF
@@ -246,14 +246,14 @@ namespace Unity::Collections {
     void Deallocate() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Deallocate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Deallocate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public Unity.Collections.NativeArray`1/Unity.Collections.Enumerator<T> GetEnumerator()
     // Offset: 0xFFFFFFFF

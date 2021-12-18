@@ -97,21 +97,21 @@ namespace GlobalNamespace {
     void set_value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObservableVariableSO_1::set_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void add_didChangeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_didChangeEvent(System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObservableVariableSO_1::add_didChangeEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_didChangeEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void remove_didChangeEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void remove_didChangeEvent(System::Action* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObservableVariableSO_1::remove_didChangeEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_didChangeEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

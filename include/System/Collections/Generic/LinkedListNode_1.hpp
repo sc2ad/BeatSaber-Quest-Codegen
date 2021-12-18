@@ -124,7 +124,7 @@ namespace System::Collections::Generic {
     void set_Value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::set_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
@@ -145,7 +145,7 @@ namespace System::Collections::Generic {
     void Invalidate() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::Invalidate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invalidate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // System.Collections.Generic.LinkedListNode`1
   // Could not write size check! Type: System.Collections.Generic.LinkedListNode`1 is generic, or has no fields that are valid for size checks!

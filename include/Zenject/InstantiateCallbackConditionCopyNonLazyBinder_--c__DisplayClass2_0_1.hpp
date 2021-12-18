@@ -72,7 +72,7 @@ namespace Zenject {
     void $OnInstantiated$b__0(Zenject::InjectContext* ctx, ::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1::<OnInstantiated>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<OnInstantiated>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ctx), ::il2cpp_utils::ExtractType(obj)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, ctx, obj)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, ctx, obj)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0xFFFFFFFF

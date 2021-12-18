@@ -38,14 +38,14 @@ namespace GlobalNamespace {
     void add_cubeNoteControllerDidInitEvent(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ICubeNoteControllerInitializable_1::add_cubeNoteControllerDidInitEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<T> value)
     // Offset: 0xFFFFFFFF
     void remove_cubeNoteControllerDidInitEvent(System::Action_1<T>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ICubeNoteControllerInitializable_1::remove_cubeNoteControllerDidInitEvent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
   }; // ICubeNoteControllerInitializable`1
   // Could not write size check! Type: ICubeNoteControllerInitializable`1 is generic, or has no fields that are valid for size checks!

@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     void set_baseId(GlobalNamespace::SyncStateId value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_baseId");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_baseId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Int32 get_timeOffsetMs()
     // Offset: 0xFFFFFFFF
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     void set_timeOffsetMs(int value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_timeOffsetMs");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_timeOffsetMs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public T get_delta()
     // Offset: 0xFFFFFFFF
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     void set_delta(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateDeltaSerializable_1::set_delta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_delta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
   }; // ISyncStateDeltaSerializable`1
   // Could not write size check! Type: ISyncStateDeltaSerializable`1 is generic, or has no fields that are valid for size checks!

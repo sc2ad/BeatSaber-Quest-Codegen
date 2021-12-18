@@ -122,7 +122,7 @@ namespace UnityEngine::TestTools {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename BeforeAfterTestCommandBase_1<T>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
       }
       // System.Int64 <.ctor>b__3_0()
       // Offset: 0xFFFFFFFF
@@ -335,7 +335,7 @@ namespace UnityEngine::TestTools {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$ExecuteEnumerable$d__12::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -349,28 +349,28 @@ namespace UnityEngine::TestTools {
       void $$m__Finally1() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$ExecuteEnumerable$d__12::<>m__Finally1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void <>m__Finally2()
       // Offset: 0xFFFFFFFF
       void $$m__Finally2() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$ExecuteEnumerable$d__12::<>m__Finally2");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void <>m__Finally3()
       // Offset: 0xFFFFFFFF
       void $$m__Finally3() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$ExecuteEnumerable$d__12::<>m__Finally3");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally3", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::BeforeAfterTestCommandBase_1::$ExecuteEnumerable$d__12::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Collections.Generic.IEnumerator`1<System.Object> System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
       // Offset: 0xFFFFFFFF

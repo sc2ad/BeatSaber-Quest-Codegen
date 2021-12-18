@@ -84,7 +84,7 @@ namespace HMUI {
       void Invoke(int idx, T item) {
         static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::Invoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idx), ::il2cpp_utils::ExtractType(item)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, idx, item)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, idx, item)));
       }
       // public System.IAsyncResult BeginInvoke(System.Int32 idx, T item, System.AsyncCallback callback, System.Object object)
       // Offset: 0xFFFFFFFF
@@ -98,7 +98,7 @@ namespace HMUI {
       void EndInvoke(System::IAsyncResult* result) {
         static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::DataCallback::EndInvoke");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
       }
     }; // HMUI.UIItemsList`1/HMUI.DataCallback
     // Could not write size check! Type: HMUI.UIItemsList`1/HMUI.DataCallback is generic, or has no fields that are valid for size checks!
@@ -195,7 +195,7 @@ namespace HMUI {
     void SetData(int numberOfElements, typename HMUI::UIItemsList_1<T>::DataCallback* dataCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIItemsList_1::SetData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(numberOfElements), ::il2cpp_utils::ExtractType(dataCallback)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, numberOfElements, dataCallback)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, numberOfElements, dataCallback)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

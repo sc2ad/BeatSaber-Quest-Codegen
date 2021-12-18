@@ -113,14 +113,14 @@ namespace HMUI {
     void $AddBindings$b__0(::Il2CppString* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // System.Void <AddBindings>b__1()
     // Offset: 0xFFFFFFFF
     void $AddBindings$b__1() {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2::<AddBindings>b__1");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddBindings>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

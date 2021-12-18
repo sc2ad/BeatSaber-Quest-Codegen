@@ -176,7 +176,7 @@ namespace GlobalNamespace {
     void RemoveKey(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCache_2::RemoveKey");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key)));
     }
     // private System.Lazy`1<System.Threading.Tasks.Task`1<TValue>> <get_Item>b__4_0(TKey toAdd)
     // Offset: 0xFFFFFFFF

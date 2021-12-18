@@ -148,28 +148,28 @@ namespace UnityEngine::ProBuilder {
     void Enqueue(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Enqueue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, obj)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, obj)));
     }
     // public System.Void Empty()
     // Offset: 0xFFFFFFFF
     void Empty() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Empty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Empty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ObjectPool_1::Dispose");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposing)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, disposing)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, disposing)));
     }
   }; // UnityEngine.ProBuilder.ObjectPool`1
   // Could not write size check! Type: UnityEngine.ProBuilder.ObjectPool`1 is generic, or has no fields that are valid for size checks!

@@ -82,7 +82,7 @@ namespace System::Net::Http::Headers {
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::AddToCollection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddToCollection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, collection, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, collection, value)));
     }
     // protected override System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     // Offset: 0xFFFFFFFF

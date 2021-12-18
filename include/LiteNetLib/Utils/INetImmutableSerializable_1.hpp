@@ -39,7 +39,7 @@ namespace LiteNetLib::Utils {
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, writer)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, writer)));
     }
     // public T CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF

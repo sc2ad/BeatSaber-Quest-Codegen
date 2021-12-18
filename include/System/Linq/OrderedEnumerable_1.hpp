@@ -189,7 +189,7 @@ namespace System::Linq {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::OrderedEnumerable_1::$GetEnumerator$d__1::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -203,7 +203,7 @@ namespace System::Linq {
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::OrderedEnumerable_1::$GetEnumerator$d__1::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // System.Linq.OrderedEnumerable`1/System.Linq.<GetEnumerator>d__1
     // Could not write size check! Type: System.Linq.OrderedEnumerable`1/System.Linq.<GetEnumerator>d__1 is generic, or has no fields that are valid for size checks!

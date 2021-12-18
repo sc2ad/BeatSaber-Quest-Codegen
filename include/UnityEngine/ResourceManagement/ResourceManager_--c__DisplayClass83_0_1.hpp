@@ -98,7 +98,7 @@ namespace UnityEngine::ResourceManagement {
     void $ProvideResources$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle x) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::$$c__DisplayClass83_0_1::<ProvideResources>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ProvideResources>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, x)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, x)));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> <ProvideResources>b__1(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle resultHandle)
     // Offset: 0xFFFFFFFF

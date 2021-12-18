@@ -240,14 +240,14 @@ namespace GlobalNamespace {
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAsync$d__7::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, stateMachine)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, stateMachine)));
       }
     }; // AsyncCachedLoader`2/<LoadAsync>d__7
     // Could not write size check! Type: AsyncCachedLoader`2/<LoadAsync>d__7 is generic, or has no fields that are valid for size checks!
@@ -343,14 +343,14 @@ namespace GlobalNamespace {
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::$LoadAllAsync$d__8::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, stateMachine)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, stateMachine)));
       }
     }; // AsyncCachedLoader`2/<LoadAllAsync>d__8
     // Could not write size check! Type: AsyncCachedLoader`2/<LoadAllAsync>d__8 is generic, or has no fields that are valid for size checks!
@@ -432,7 +432,7 @@ namespace GlobalNamespace {
     void ClearCache() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::ClearCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearCache", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Threading.Tasks.Task`1<TValue> LoadAsync(TKey keyId, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -446,7 +446,7 @@ namespace GlobalNamespace {
     void LoadAllAsync() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncCachedLoader_2::LoadAllAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAllAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
   }; // AsyncCachedLoader`2
   // Could not write size check! Type: AsyncCachedLoader`2 is generic, or has no fields that are valid for size checks!

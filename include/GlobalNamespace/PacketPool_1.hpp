@@ -118,21 +118,21 @@ namespace GlobalNamespace {
     void Release(T t) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, t)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, t)));
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void IPacketPool.Release(System.Object o)
     // Offset: 0xFFFFFFFF
     void IPacketPool_Release(::Il2CppObject* o) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::IPacketPool.Release");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IPacketPool.Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, o)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, o)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

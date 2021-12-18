@@ -49,7 +49,7 @@ namespace System {
     void Invoke(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Action_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, obj)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, obj)));
     }
     // public System.IAsyncResult BeginInvoke(T obj, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
@@ -63,7 +63,7 @@ namespace System {
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Action_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, result)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
     }
   }; // System.Action`1
   // Could not write size check! Type: System.Action`1 is generic, or has no fields that are valid for size checks!

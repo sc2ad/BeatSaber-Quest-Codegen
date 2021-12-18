@@ -57,14 +57,14 @@ namespace UnityEngine::UI {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ListPool_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Void Clear(System.Collections.Generic.List`1<T> l)
     // Offset: 0xFFFFFFFF
     static void Clear(System::Collections::Generic::List_1<T>* l) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ListPool_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(l)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, l)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, l)));
     }
     // static public System.Collections.Generic.List`1<T> Get()
     // Offset: 0xFFFFFFFF
@@ -78,7 +78,7 @@ namespace UnityEngine::UI {
     static void Release(System::Collections::Generic::List_1<T>* toRelease) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ListPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ListPool_1<T>*>::get(), "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(toRelease)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, toRelease)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, toRelease)));
     }
   }; // UnityEngine.UI.ListPool`1
   // Could not write size check! Type: UnityEngine.UI.ListPool`1 is generic, or has no fields that are valid for size checks!

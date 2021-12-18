@@ -555,7 +555,7 @@ namespace Zenject {
     void set_BindContainer(Zenject::DiContainer* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactorySubContainerBinderBase_1::set_BindContainer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_BindContainer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected Zenject.FactoryBindInfo get_FactoryBindInfo()
     // Offset: 0xFFFFFFFF
@@ -569,7 +569,7 @@ namespace Zenject {
     void set_FactoryBindInfo(Zenject::FactoryBindInfo* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactorySubContainerBinderBase_1::set_FactoryBindInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_FactoryBindInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
     // Offset: 0xFFFFFFFF
@@ -583,7 +583,7 @@ namespace Zenject {
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactorySubContainerBinderBase_1::set_ProviderFunc");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_ProviderFunc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected Zenject.BindInfo get_BindInfo()
     // Offset: 0xFFFFFFFF
@@ -597,7 +597,7 @@ namespace Zenject {
     void set_BindInfo(Zenject::BindInfo* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactorySubContainerBinderBase_1::set_BindInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_BindInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected System.Object get_SubIdentifier()
     // Offset: 0xFFFFFFFF
@@ -611,7 +611,7 @@ namespace Zenject {
     void set_SubIdentifier(::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactorySubContainerBinderBase_1::set_SubIdentifier");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_SubIdentifier", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // protected System.Type get_ContractType()
     // Offset: 0xFFFFFFFF

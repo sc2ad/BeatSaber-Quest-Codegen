@@ -32,7 +32,7 @@ namespace System::Linq {
     void ComputeKeys(::ArrayW<TElement> elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_1::ComputeKeys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(elements), ::il2cpp_utils::ExtractType(count)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, elements, count)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, elements, count)));
     }
     // System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
@@ -53,7 +53,7 @@ namespace System::Linq {
     void QuickSort(::ArrayW<int> map, int left, int right) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_1::QuickSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QuickSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(map), ::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(right)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, map, left, right)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, map, left, right)));
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

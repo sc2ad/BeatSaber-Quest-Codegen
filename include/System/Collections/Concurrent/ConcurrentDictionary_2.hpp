@@ -321,7 +321,7 @@ namespace System::Collections::Concurrent {
       void Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::DictionaryEnumerator::Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.DictionaryEnumerator
     // Could not write size check! Type: System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.DictionaryEnumerator is generic, or has no fields that are valid for size checks!
@@ -456,7 +456,7 @@ namespace System::Collections::Concurrent {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::$GetEnumerator$d__32::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -470,7 +470,7 @@ namespace System::Collections::Concurrent {
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::$GetEnumerator$d__32::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.<GetEnumerator>d__32
     // Could not write size check! Type: System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.<GetEnumerator>d__32 is generic, or has no fields that are valid for size checks!
@@ -600,7 +600,7 @@ namespace System::Collections::Concurrent {
     void set_Item(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
@@ -635,7 +635,7 @@ namespace System::Collections::Concurrent {
     void System_Collections_IDictionary_set_Item(::Il2CppObject* key, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.IDictionary.set_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IDictionary.set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // static private System.Int32 get_DefaultConcurrencyLevel()
     // Offset: 0xFFFFFFFF
@@ -656,7 +656,7 @@ namespace System::Collections::Concurrent {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Boolean IsValueWriteAtomic()
     // Offset: 0xFFFFFFFF
@@ -712,35 +712,35 @@ namespace System::Collections::Concurrent {
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$TKey_TValue$$_CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // private System.Void CopyToPairs(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyToPairs(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::CopyToPairs");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyToPairs", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // private System.Void CopyToEntries(System.Collections.DictionaryEntry[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyToEntries(::ArrayW<System::Collections::DictionaryEntry> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::CopyToEntries");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyToEntries", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // private System.Void CopyToObjects(System.Object[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyToObjects(::ArrayW<::Il2CppObject*> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::CopyToObjects");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyToObjects", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -761,14 +761,14 @@ namespace System::Collections::Concurrent {
     static void ThrowKeyNotFoundException() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::ThrowKeyNotFoundException");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "ThrowKeyNotFoundException", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Void ThrowKeyNullException()
     // Offset: 0xFFFFFFFF
     static void ThrowKeyNullException() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::ThrowKeyNullException");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "ThrowKeyNullException", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // private System.Int32 GetCountInternal()
     // Offset: 0xFFFFFFFF
@@ -789,7 +789,7 @@ namespace System::Collections::Concurrent {
     void System_Collections_Generic_IDictionary$TKey_TValue$_Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.Generic.IDictionary<TKey,TValue>.Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IDictionary<TKey,TValue>.Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // private System.Boolean System.Collections.Generic.IDictionary<TKey,TValue>.Remove(TKey key)
     // Offset: 0xFFFFFFFF
@@ -803,7 +803,7 @@ namespace System::Collections::Concurrent {
     void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$TKey_TValue$$_Add(System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keyValuePair)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, keyValuePair)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, keyValuePair)));
     }
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue> keyValuePair)
     // Offset: 0xFFFFFFFF
@@ -831,7 +831,7 @@ namespace System::Collections::Concurrent {
     void System_Collections_IDictionary_Add(::Il2CppObject* key, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.IDictionary.Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IDictionary.Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // private System.Boolean System.Collections.IDictionary.Contains(System.Object key)
     // Offset: 0xFFFFFFFF
@@ -852,14 +852,14 @@ namespace System::Collections::Concurrent {
     void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::System.Collections.ICollection.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, array, index)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
     }
     // private System.Void GrowTable(System.Collections.Concurrent.ConcurrentDictionary`2/System.Collections.Concurrent.Tables<TKey,TValue> tables)
     // Offset: 0xFFFFFFFF
     void GrowTable(typename System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::Tables* tables) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::GrowTable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GrowTable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tables)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, tables)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, tables)));
     }
     // static private System.Int32 GetBucket(System.Int32 hashcode, System.Int32 bucketCount)
     // Offset: 0xFFFFFFFF
@@ -873,28 +873,28 @@ namespace System::Collections::Concurrent {
     static void GetBucketAndLockNo(int hashcode, ByRef<int> bucketNo, ByRef<int> lockNo, int bucketCount, int lockCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::GetBucketAndLockNo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ConcurrentDictionary_2<TKey, TValue>*>::get(), "GetBucketAndLockNo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(hashcode), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractType(bucketCount), ::il2cpp_utils::ExtractType(lockCount)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, hashcode, byref(bucketNo), byref(lockNo), bucketCount, lockCount)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, hashcode, byref(bucketNo), byref(lockNo), bucketCount, lockCount)));
     }
     // private System.Void AcquireAllLocks(ref System.Int32 locksAcquired)
     // Offset: 0xFFFFFFFF
     void AcquireAllLocks(ByRef<int> locksAcquired) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::AcquireAllLocks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AcquireAllLocks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locksAcquired)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, byref(locksAcquired))));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, byref(locksAcquired))));
     }
     // private System.Void AcquireLocks(System.Int32 fromInclusive, System.Int32 toExclusive, ref System.Int32 locksAcquired)
     // Offset: 0xFFFFFFFF
     void AcquireLocks(int fromInclusive, int toExclusive, ByRef<int> locksAcquired) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::AcquireLocks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AcquireLocks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromInclusive), ::il2cpp_utils::ExtractType(toExclusive), ::il2cpp_utils::ExtractType(locksAcquired)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, fromInclusive, toExclusive, byref(locksAcquired))));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, fromInclusive, toExclusive, byref(locksAcquired))));
     }
     // private System.Void ReleaseLocks(System.Int32 fromInclusive, System.Int32 toExclusive)
     // Offset: 0xFFFFFFFF
     void ReleaseLocks(int fromInclusive, int toExclusive) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::ConcurrentDictionary_2::ReleaseLocks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReleaseLocks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromInclusive), ::il2cpp_utils::ExtractType(toExclusive)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, fromInclusive, toExclusive)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, fromInclusive, toExclusive)));
     }
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<TKey> GetKeys()
     // Offset: 0xFFFFFFFF

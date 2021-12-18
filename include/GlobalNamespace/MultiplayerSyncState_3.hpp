@@ -94,7 +94,7 @@ namespace GlobalNamespace {
     void ClearBufferedStates() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSyncState_3::ClearBufferedStates");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearBufferedStates", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

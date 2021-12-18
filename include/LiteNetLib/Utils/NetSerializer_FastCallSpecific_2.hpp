@@ -147,7 +147,7 @@ namespace LiteNetLib::Utils {
     void Init(System::Reflection::MethodInfo* getMethod, System::Reflection::MethodInfo* setMethod, bool isArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallSpecific_2::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(getMethod), ::il2cpp_utils::ExtractType(setMethod), ::il2cpp_utils::ExtractType(isArray)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, getMethod, setMethod, isArray)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, getMethod, setMethod, isArray)));
     }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallSpecific`2 is generic, or has no fields that are valid for size checks!

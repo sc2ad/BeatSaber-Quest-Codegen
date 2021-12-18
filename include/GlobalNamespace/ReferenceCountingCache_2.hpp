@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     static void LogError(::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReferenceCountingCache_2::LogError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReferenceCountingCache_2<TKey, TValue>*>::get(), "LogError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, message)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, message)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

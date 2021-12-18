@@ -53,7 +53,7 @@ namespace System::Collections::Generic {
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF

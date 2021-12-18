@@ -106,7 +106,7 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddBindings", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingData)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, bindingData)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, bindingData)));
     }
     // public System.Void AddStringBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.InputField,T>> bindingData)
     // Offset: 0xFFFFFFFF
@@ -116,7 +116,7 @@ namespace HMUI {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddStringBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddStringBindings", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingData)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, bindingData)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, bindingData)));
     }
     // public System.Void ClearBindings()
     // Offset: 0x14C1BC8

@@ -132,7 +132,7 @@ namespace GlobalNamespace {
       void Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::Entry::Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -248,7 +248,7 @@ namespace GlobalNamespace {
       void System_IDisposable_Dispose() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::$Enumerate$d__12::System.IDisposable.Dispose");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Boolean MoveNext()
       // Offset: 0xFFFFFFFF
@@ -262,14 +262,14 @@ namespace GlobalNamespace {
       void $$m__Finally1() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::$Enumerate$d__12::<>m__Finally1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<>m__Finally1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
       // private System.Void System.Collections.IEnumerator.Reset()
       // Offset: 0xFFFFFFFF
       void System_Collections_IEnumerator_Reset() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::$Enumerate$d__12::System.Collections.IEnumerator.Reset");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
       }
     }; // ExpiringDictionary`2/<Enumerate>d__12
     // Could not write size check! Type: ExpiringDictionary`2/<Enumerate>d__12 is generic, or has no fields that are valid for size checks!
@@ -385,7 +385,7 @@ namespace GlobalNamespace {
     void set_Item(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::set_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, System.Int64 expirationLengthMs)
     // Offset: 0xFFFFFFFF
@@ -406,7 +406,7 @@ namespace GlobalNamespace {
     void RemoveExpiredEntries() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::RemoveExpiredEntries");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveExpiredEntries", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
@@ -462,7 +462,7 @@ namespace GlobalNamespace {
     void ResetExpiration(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::ResetExpiration");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResetExpiration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key)));
     }
     // public System.Boolean Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
@@ -483,21 +483,21 @@ namespace GlobalNamespace {
     void Set(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::Set");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Set", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, key, value)));
     }
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
     void PollUpdate() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::PollUpdate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "PollUpdate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private ExpiringDictionary`2/Entry<TKey,TValue> GetEntry(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
@@ -511,7 +511,7 @@ namespace GlobalNamespace {
     void ReleaseEntry(typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry* entry) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ExpiringDictionary_2::ReleaseEntry");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReleaseEntry", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(entry)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, entry)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, entry)));
     }
   }; // ExpiringDictionary`2
   // Could not write size check! Type: ExpiringDictionary`2 is generic, or has no fields that are valid for size checks!

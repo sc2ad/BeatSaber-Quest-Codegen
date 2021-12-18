@@ -60,7 +60,7 @@ namespace Zenject {
     void Reinitialize(TValue item) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPool_1::Reinitialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Reinitialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, item)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
     }
     // private TValue Zenject.IFactory<TValue>.Create()
     // Offset: 0xFFFFFFFF

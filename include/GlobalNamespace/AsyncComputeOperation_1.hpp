@@ -91,21 +91,21 @@ namespace GlobalNamespace {
     void Complete(T computeResult) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation_1::Complete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(computeResult)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, computeResult)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, computeResult)));
     }
     // private System.Void Cancel()
     // Offset: 0xFFFFFFFF
     void Cancel() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation_1::Cancel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Cancel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // private System.Void Fail(System.Exception ex)
     // Offset: 0xFFFFFFFF
     void Fail(System::Exception* ex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation_1::Fail");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Fail", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ex)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, ex)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, ex)));
     }
     // protected T Compute()
     // Offset: 0xFFFFFFFF
@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     void Finally() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation_1::Finally");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Finally", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // protected System.Void .ctor(System.Int32 timeoutMs)
     // Offset: 0xFFFFFFFF
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     void Execute(bool disposed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation_1::Execute");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Execute", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposed)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, disposed)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, disposed)));
     }
   }; // AsyncComputeOperation`1
   // Could not write size check! Type: AsyncComputeOperation`1 is generic, or has no fields that are valid for size checks!

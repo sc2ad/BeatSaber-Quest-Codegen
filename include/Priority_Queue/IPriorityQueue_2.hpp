@@ -58,7 +58,7 @@ namespace Priority_Queue {
     void Enqueue(TItem node, TPriority priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IPriorityQueue_2::Enqueue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Enqueue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(priority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node, priority)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node, priority)));
     }
     // public TItem Dequeue()
     // Offset: 0xFFFFFFFF
@@ -72,7 +72,7 @@ namespace Priority_Queue {
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IPriorityQueue_2::Clear");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
     }
     // public System.Boolean Contains(TItem node)
     // Offset: 0xFFFFFFFF
@@ -86,14 +86,14 @@ namespace Priority_Queue {
     void Remove(TItem node) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IPriorityQueue_2::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node)));
     }
     // public System.Void UpdatePriority(TItem node, TPriority priority)
     // Offset: 0xFFFFFFFF
     void UpdatePriority(TItem node, TPriority priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IPriorityQueue_2::UpdatePriority");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdatePriority", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node), ::il2cpp_utils::ExtractType(priority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, node, priority)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node, priority)));
     }
   }; // Priority_Queue.IPriorityQueue`2
   // Could not write size check! Type: Priority_Queue.IPriorityQueue`2 is generic, or has no fields that are valid for size checks!

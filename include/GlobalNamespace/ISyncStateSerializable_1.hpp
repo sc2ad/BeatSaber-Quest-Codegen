@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     void set_id(GlobalNamespace::SyncStateId value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::set_id");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_id", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public System.Single get_time()
     // Offset: 0xFFFFFFFF
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     void set_time(float value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::set_time");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_time", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
     // public T get_state()
     // Offset: 0xFFFFFFFF
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     void set_state(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ISyncStateSerializable_1::set_state");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_state", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
     }
   }; // ISyncStateSerializable`1
   // Could not write size check! Type: ISyncStateSerializable`1 is generic, or has no fields that are valid for size checks!

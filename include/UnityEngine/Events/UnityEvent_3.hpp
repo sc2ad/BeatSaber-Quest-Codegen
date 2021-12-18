@@ -77,14 +77,14 @@ namespace UnityEngine::Events {
     void AddListener(UnityEngine::Events::UnityAction_3<T0, T1, T2>* call) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_3::AddListener");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddListener", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(call)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, call)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, call)));
     }
     // public System.Void RemoveListener(UnityEngine.Events.UnityAction`3<T0,T1,T2> call)
     // Offset: 0xFFFFFFFF
     void RemoveListener(UnityEngine::Events::UnityAction_3<T0, T1, T2>* call) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_3::RemoveListener");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveListener", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(call)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, call)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, call)));
     }
     // static private UnityEngine.Events.BaseInvokableCall GetDelegate(UnityEngine.Events.UnityAction`3<T0,T1,T2> action)
     // Offset: 0xFFFFFFFF
@@ -98,7 +98,7 @@ namespace UnityEngine::Events {
     void Invoke(T0 arg0, T1 arg1, T2 arg2) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_3::Invoke");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, arg0, arg1, arg2)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, arg0, arg1, arg2)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

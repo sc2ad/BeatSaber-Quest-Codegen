@@ -137,7 +137,7 @@ namespace System::Linq {
     void ComputeKeys(::ArrayW<TElement> elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::ComputeKeys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(elements), ::il2cpp_utils::ExtractType(count)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, elements, count)));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, elements, count)));
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
