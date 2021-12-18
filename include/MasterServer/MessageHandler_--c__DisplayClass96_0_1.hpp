@@ -209,14 +209,14 @@ namespace MasterServer {
       void MoveNext() {
         static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass96_0_1::$$WrapOnSendFailedAwaitResponse$b__0$d::MoveNext");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
       }
       // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
       // Offset: 0xFFFFFFFF
       void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
         static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass96_0_1::$$WrapOnSendFailedAwaitResponse$b__0$d::SetStateMachine");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, stateMachine);
+        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, stateMachine)));
       }
     }; // MasterServer.MessageHandler/MasterServer.<>c__DisplayClass96_0`1/MasterServer.<<WrapOnSendFailedAwaitResponse>b__0>d
     // Could not write size check! Type: MasterServer.MessageHandler/MasterServer.<>c__DisplayClass96_0`1/MasterServer.<<WrapOnSendFailedAwaitResponse>b__0>d is generic, or has no fields that are valid for size checks!
@@ -263,7 +263,7 @@ namespace MasterServer {
     System::Threading::Tasks::Task* $WrapOnSendFailedAwaitResponse$b__0(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::$$c__DisplayClass96_0_1::<WrapOnSendFailedAwaitResponse>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WrapOnSendFailedAwaitResponse>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(cancellationToken)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task*, false>(this, ___internal__method, protocolVersion, remoteEndPoint, message, cancellationToken)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

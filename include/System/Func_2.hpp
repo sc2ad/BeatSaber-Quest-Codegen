@@ -50,21 +50,21 @@ namespace System {
     TResult Invoke(T arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_2::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg)})));
-      return ::il2cpp_utils::RunMethodThrow<TResult, false>(this, ___internal__method, arg);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method, arg)));
     }
     // public System.IAsyncResult BeginInvoke(T arg, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T arg, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_2::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, arg, callback, object);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, arg, callback, object)));
     }
     // public TResult EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     TResult EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_2::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      return ::il2cpp_utils::RunMethodThrow<TResult, false>(this, ___internal__method, result);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method, result)));
     }
   }; // System.Func`2
   // Could not write size check! Type: System.Func`2 is generic, or has no fields that are valid for size checks!

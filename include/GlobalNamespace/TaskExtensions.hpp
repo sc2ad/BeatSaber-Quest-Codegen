@@ -56,7 +56,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WithCancellation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "TaskExtensions", "WithCancellation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, cancellationToken);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, cancellationToken)));
     }
     // static private System.Void WaitForTask(System.Threading.Tasks.Task`1<T> task, System.Threading.Tasks.TaskCompletionSource`1<T> tcs)
     // Offset: 0xFFFFFFFF
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WaitForTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "TaskExtensions", "WaitForTask", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(tcs)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, tcs);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, tcs)));
     }
   }; // TaskExtensions
   #pragma pack(pop)

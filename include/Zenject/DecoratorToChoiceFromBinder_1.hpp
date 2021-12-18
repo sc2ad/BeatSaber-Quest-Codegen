@@ -108,7 +108,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DecoratorToChoiceFromBinder_1::With");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "With", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::FactoryFromBinder_2<TContract, TConcrete>*, false>(this, ___generic__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::FactoryFromBinder_2<TContract, TConcrete>*, false>(this, ___generic__method)));
     }
   }; // Zenject.DecoratorToChoiceFromBinder`1
   // Could not write size check! Type: Zenject.DecoratorToChoiceFromBinder`1 is generic, or has no fields that are valid for size checks!

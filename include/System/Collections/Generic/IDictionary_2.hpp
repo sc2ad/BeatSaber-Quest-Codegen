@@ -39,28 +39,28 @@ namespace System::Collections::Generic {
     TValue get_Item(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::get_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, key);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TValue, false>(this, ___internal__method, key)));
     }
     // public System.Boolean ContainsKey(TKey key)
     // Offset: 0xFFFFFFFF
     bool ContainsKey(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::ContainsKey");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ContainsKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, key)));
     }
     // public System.Void Add(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
     void Add(TKey key, TValue value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, key, value);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, key, value)));
     }
     // public System.Boolean Remove(TKey key)
     // Offset: 0xFFFFFFFF
     bool Remove(TKey key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IDictionary_2::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, key);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, key)));
     }
   }; // System.Collections.Generic.IDictionary`2
   // Could not write size check! Type: System.Collections.Generic.IDictionary`2 is generic, or has no fields that are valid for size checks!

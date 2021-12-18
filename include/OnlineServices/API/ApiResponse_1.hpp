@@ -71,7 +71,7 @@ namespace OnlineServices::API {
     bool get_isError() {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::ApiResponse_1::get_isError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_isError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
     }
     // public System.Void .ctor(OnlineServices.API.Response response, T responseDto)
     // Offset: 0xFFFFFFFF

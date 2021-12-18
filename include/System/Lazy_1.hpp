@@ -167,14 +167,14 @@ namespace System {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename Lazy_1<T>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+        THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
       }
       // T <.cctor>b__27_0()
       // Offset: 0xFFFFFFFF
       T $_cctor$b__27_0() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::$$c::<.cctor>b__27_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.cctor>b__27_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+        return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -256,21 +256,21 @@ namespace System {
     System::Threading::LazyThreadSafetyMode get_Mode() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::get_Mode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Mode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Threading::LazyThreadSafetyMode, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::LazyThreadSafetyMode, false>(this, ___internal__method)));
     }
     // public System.Boolean get_IsValueCreated()
     // Offset: 0xFFFFFFFF
     bool get_IsValueCreated() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::get_IsValueCreated");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsValueCreated", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
     }
     // public System.Void .ctor(System.Func`1<T> valueFactory)
     // Offset: 0xFFFFFFFF
@@ -298,35 +298,35 @@ namespace System {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Object GetObjectFromMode(System.Threading.LazyThreadSafetyMode mode)
     // Offset: 0xFFFFFFFF
     static ::Il2CppObject* GetObjectFromMode(System::Threading::LazyThreadSafetyMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::GetObjectFromMode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Lazy_1<T>*>::get(), "GetObjectFromMode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mode)})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, mode);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, mode)));
     }
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
     void OnSerializing(System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::OnSerializing");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSerializing", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, context)));
     }
     // private T LazyInitValue()
     // Offset: 0xFFFFFFFF
     T LazyInitValue() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::LazyInitValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LazyInitValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
     }
     // private System.Lazy`1/System.Boxed<T> CreateValue()
     // Offset: 0xFFFFFFFF
     typename System::Lazy_1<T>::Boxed* CreateValue() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::CreateValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<typename System::Lazy_1<T>::Boxed*, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<typename System::Lazy_1<T>::Boxed*, false>(this, ___internal__method)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -344,7 +344,7 @@ namespace System {
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppString*, false>(this, ___internal__method)));
     }
   }; // System.Lazy`1
   // Could not write size check! Type: System.Lazy`1 is generic, or has no fields that are valid for size checks!

@@ -83,7 +83,7 @@ namespace UnityEngine {
     T Resolve(UnityEngine::IExposedPropertyTable* resolver) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExposedReference_1::Resolve");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(resolver)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, resolver);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, resolver)));
     }
   }; // UnityEngine.ExposedReference`1
   // Could not write size check! Type: UnityEngine.ExposedReference`1 is generic, or has no fields that are valid for size checks!

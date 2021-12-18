@@ -99,7 +99,7 @@ namespace System::Runtime::CompilerServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Start");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Start", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, byref(stateMachine));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, byref(stateMachine))));
     }
     // public System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0x1620F74
@@ -113,7 +113,7 @@ namespace System::Runtime::CompilerServices {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "AwaitUnsafeOnCompleted", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(awaiter), ::il2cpp_utils::ExtractType(stateMachine)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get()})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___generic__method, byref(awaiter), byref(stateMachine))));
     }
     // public System.Void SetResult()
     // Offset: 0x1620F7C

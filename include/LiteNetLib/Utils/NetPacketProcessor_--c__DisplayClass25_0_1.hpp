@@ -96,7 +96,7 @@ namespace LiteNetLib::Utils {
     void $Subscribe$b__0(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass25_0_1::<Subscribe>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Subscribe>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(userData)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, userData);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, reader, userData)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

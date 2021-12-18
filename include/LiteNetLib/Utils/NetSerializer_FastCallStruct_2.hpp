@@ -80,7 +80,7 @@ namespace LiteNetLib::Utils {
     void Read(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallStruct_2::Read");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Read", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(r)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, inf, r)));
     }
     // public override System.Void Write(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
@@ -89,7 +89,7 @@ namespace LiteNetLib::Utils {
     void Write(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallStruct_2::Write");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(w)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, inf, w)));
     }
     // public override System.Void ReadArray(TClass inf, LiteNetLib.Utils.NetDataReader r)
     // Offset: 0xFFFFFFFF
@@ -98,7 +98,7 @@ namespace LiteNetLib::Utils {
     void ReadArray(TClass inf, LiteNetLib::Utils::NetDataReader* r) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallStruct_2::ReadArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ReadArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(r)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, r);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, inf, r)));
     }
     // public override System.Void WriteArray(TClass inf, LiteNetLib.Utils.NetDataWriter w)
     // Offset: 0xFFFFFFFF
@@ -107,7 +107,7 @@ namespace LiteNetLib::Utils {
     void WriteArray(TClass inf, LiteNetLib::Utils::NetDataWriter* w) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::FastCallStruct_2::WriteArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inf), ::il2cpp_utils::ExtractType(w)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, inf, w);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, inf, w)));
     }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallStruct`2
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.FastCallStruct`2 is generic, or has no fields that are valid for size checks!

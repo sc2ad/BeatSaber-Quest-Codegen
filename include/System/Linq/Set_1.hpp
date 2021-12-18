@@ -194,28 +194,28 @@ namespace System::Linq {
     bool Add(TElement value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, value)));
     }
     // private System.Boolean Find(TElement value, System.Boolean add)
     // Offset: 0xFFFFFFFF
     bool Find(TElement value, bool add) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Find");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Find", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(add)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, add);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, value, add)));
     }
     // private System.Void Resize()
     // Offset: 0xFFFFFFFF
     void Resize() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
     }
     // System.Int32 InternalGetHashCode(TElement value)
     // Offset: 0xFFFFFFFF
     int InternalGetHashCode(TElement value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Set_1::InternalGetHashCode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InternalGetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, value);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, value)));
     }
   }; // System.Linq.Set`1
   // Could not write size check! Type: System.Linq.Set`1 is generic, or has no fields that are valid for size checks!

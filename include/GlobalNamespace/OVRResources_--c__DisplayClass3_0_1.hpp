@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     bool $Load$b__0(::Il2CppString* s) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1::<Load>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<Load>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(s)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, s);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, s)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

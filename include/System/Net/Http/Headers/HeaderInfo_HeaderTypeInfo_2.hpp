@@ -82,7 +82,7 @@ namespace System::Net::Http::Headers {
     void AddToCollection(::Il2CppObject* collection, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::AddToCollection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddToCollection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection), ::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, collection, value);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, collection, value)));
     }
     // protected override System.Object CreateCollection(System.Net.Http.Headers.HttpHeaders headers, System.Net.Http.Headers.HeaderInfo headerInfo)
     // Offset: 0xFFFFFFFF
@@ -91,7 +91,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppObject* CreateCollection(System::Net::Http::Headers::HttpHeaders* headers, System::Net::Http::Headers::HeaderInfo* headerInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::CreateCollection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateCollection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(headers), ::il2cpp_utils::ExtractType(headerInfo)})));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppObject*, false>(this, ___internal__method, headers, headerInfo);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(this, ___internal__method, headers, headerInfo)));
     }
     // public override System.Collections.Generic.List`1<System.String> ToStringCollection(System.Object collection)
     // Offset: 0xFFFFFFFF
@@ -100,7 +100,7 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::ToStringCollection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToStringCollection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::List_1<::Il2CppString*>*, false>(this, ___internal__method, collection);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::List_1<::Il2CppString*>*, false>(this, ___internal__method, collection)));
     }
     // public override System.Boolean TryParse(System.String value, out System.Object result)
     // Offset: 0xFFFFFFFF
@@ -109,7 +109,7 @@ namespace System::Net::Http::Headers {
     bool TryParse(::Il2CppString* value, ByRef<::Il2CppObject*> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::TryParse");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, value, byref(result));
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, value, byref(result))));
     }
   }; // System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.HeaderTypeInfo`2
   // Could not write size check! Type: System.Net.Http.Headers.HeaderInfo/System.Net.Http.Headers.HeaderTypeInfo`2 is generic, or has no fields that are valid for size checks!

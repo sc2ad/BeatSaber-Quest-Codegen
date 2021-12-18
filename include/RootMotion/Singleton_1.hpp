@@ -45,14 +45,14 @@ namespace RootMotion {
     static T get_instance() {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::get_instance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), "get_instance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // protected System.Void Awake()
     // Offset: 0xFFFFFFFF
     void Awake() {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::Awake");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Awake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -74,7 +74,7 @@ namespace RootMotion {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Singleton_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Singleton_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
   }; // RootMotion.Singleton`1
   // Could not write size check! Type: RootMotion.Singleton`1 is generic, or has no fields that are valid for size checks!

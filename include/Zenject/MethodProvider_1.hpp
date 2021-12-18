@@ -101,14 +101,14 @@ namespace Zenject {
     bool get_IsCached() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MethodProvider_1::get_IsCached");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
     }
     // public System.Boolean get_TypeVariesBasedOnMemberType()
     // Offset: 0xFFFFFFFF
     bool get_TypeVariesBasedOnMemberType() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MethodProvider_1::get_TypeVariesBasedOnMemberType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
     }
     // public System.Void .ctor(System.Func`2<Zenject.InjectContext,TReturn> method, Zenject.DiContainer container)
     // Offset: 0xFFFFFFFF
@@ -122,14 +122,14 @@ namespace Zenject {
     System::Type* GetInstanceType(Zenject::InjectContext* context) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MethodProvider_1::GetInstanceType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetInstanceType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context)})));
-      return ::il2cpp_utils::RunMethodThrow<System::Type*, false>(this, ___internal__method, context);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Type*, false>(this, ___internal__method, context)));
     }
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0xFFFFFFFF
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MethodProvider_1::GetAllInstancesWithInjectSplit");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(context), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractType(buffer)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, context, args, byref(injectAction), buffer)));
     }
   }; // Zenject.MethodProvider`1
   // Could not write size check! Type: Zenject.MethodProvider`1 is generic, or has no fields that are valid for size checks!

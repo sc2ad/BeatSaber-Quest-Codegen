@@ -42,7 +42,7 @@ namespace System {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TupleExtensions::Deconstruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "TupleExtensions", "Deconstruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<T1&>(), ::il2cpp_utils::ExtractIndependentType<T2&>()})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, byref(item1), byref(item2));
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, byref(item1), byref(item2))));
     }
   }; // System.TupleExtensions
   #pragma pack(pop)

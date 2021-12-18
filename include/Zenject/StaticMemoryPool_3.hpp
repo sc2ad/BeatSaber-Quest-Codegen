@@ -79,7 +79,7 @@ namespace Zenject {
     void set_OnSpawnMethod(System::Action_3<TParam1, TParam2, TValue>* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPool_3::set_OnSpawnMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_OnSpawnMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
     }
     // public System.Void .ctor(System.Action`3<TParam1,TParam2,TValue> onSpawnMethod, System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
@@ -93,7 +93,7 @@ namespace Zenject {
     TValue Spawn(TParam1 p1, TParam2 p2) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPool_3::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2)})));
-      return ::il2cpp_utils::RunMethodThrow<TValue, false>(this, ___internal__method, p1, p2);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TValue, false>(this, ___internal__method, p1, p2)));
     }
   }; // Zenject.StaticMemoryPool`3
   // Could not write size check! Type: Zenject.StaticMemoryPool`3 is generic, or has no fields that are valid for size checks!

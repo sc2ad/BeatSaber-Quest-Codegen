@@ -232,7 +232,7 @@ namespace System {
       static auto ___internal__logger = ::Logger::get().WithContext("System::String::Join");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "String", "Join", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(separator), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, separator, values);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppString*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, separator, values)));
     }
     // static public System.String Join(System.String separator, System.Collections.Generic.IEnumerable`1<System.String> values)
     // Offset: 0x1DD92B0

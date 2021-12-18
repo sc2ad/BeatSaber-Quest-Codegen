@@ -89,35 +89,35 @@ namespace Zenject {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
     }
     // static private System.Void OnDespawned(T[] arr)
     // Offset: 0xFFFFFFFF
     static void OnDespawned(::ArrayW<T> arr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::OnDespawned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, arr);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, arr)));
     }
     // public T[] Spawn()
     // Offset: 0xFFFFFFFF
     ::ArrayW<T> Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::Spawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::ArrayW<T>, false>(this, ___internal__method)));
     }
     // protected T[] Alloc()
     // Offset: 0xFFFFFFFF
     ::ArrayW<T> Alloc() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::Alloc");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Alloc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<::ArrayW<T>, false>(this, ___internal__method)));
     }
     // static public Zenject.ArrayPool`1<T> GetPool(System.Int32 length)
     // Offset: 0xFFFFFFFF
     static Zenject::ArrayPool_1<T>* GetPool(int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ArrayPool_1::GetPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayPool_1<T>*>::get(), "GetPool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(length)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::ArrayPool_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, length);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::ArrayPool_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, length)));
     }
   }; // Zenject.ArrayPool`1
   // Could not write size check! Type: Zenject.ArrayPool`1 is generic, or has no fields that are valid for size checks!

@@ -71,7 +71,7 @@ namespace System {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Activator::CreateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "Activator", "CreateInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method)));
     }
   }; // System.Activator
   #pragma pack(pop)

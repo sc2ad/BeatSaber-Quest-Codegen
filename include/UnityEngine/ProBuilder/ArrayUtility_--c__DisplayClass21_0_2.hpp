@@ -80,7 +80,7 @@ namespace UnityEngine::ProBuilder {
     bool $DistinctBy$b__0(TSource x) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2::<DistinctBy>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<DistinctBy>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, x);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, x)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -41,14 +41,14 @@ namespace GlobalNamespace {
     void ProcessAllPackets(LiteNetLib::Utils::NetDataReader* reader, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::ProcessAllPackets");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessAllPackets", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(data)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, reader, data);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, reader, data)));
     }
     // public System.Void SerializePacket(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void SerializePacket(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::SerializePacket");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SerializePacket", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, writer, packet);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, writer, packet)));
     }
   }; // INetworkPacketSerializer`1
   // Could not write size check! Type: INetworkPacketSerializer`1 is generic, or has no fields that are valid for size checks!

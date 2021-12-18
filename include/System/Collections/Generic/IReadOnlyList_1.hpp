@@ -38,7 +38,7 @@ namespace System::Collections::Generic {
     T get_Item(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyList_1::get_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method, index);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, index)));
     }
   }; // System.Collections.Generic.IReadOnlyList`1
   // Could not write size check! Type: System.Collections.Generic.IReadOnlyList`1 is generic, or has no fields that are valid for size checks!

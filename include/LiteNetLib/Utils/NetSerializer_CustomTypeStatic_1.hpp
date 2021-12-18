@@ -96,7 +96,7 @@ namespace LiteNetLib::Utils {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::CustomTypeStatic_1::Get");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___generic__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<LiteNetLib::Utils::NetSerializer::FastCall_1<T>*, false>(this, ___generic__method)));
     }
   }; // LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomTypeStatic`1
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomTypeStatic`1 is generic, or has no fields that are valid for size checks!

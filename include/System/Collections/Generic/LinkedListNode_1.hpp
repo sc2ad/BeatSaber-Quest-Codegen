@@ -103,28 +103,28 @@ namespace System::Collections::Generic {
     System::Collections::Generic::LinkedListNode_1<T>* get_Next() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Next");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Next", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method)));
     }
     // public System.Collections.Generic.LinkedListNode`1<T> get_Previous()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::LinkedListNode_1<T>* get_Previous() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Previous");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Previous", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::LinkedListNode_1<T>*, false>(this, ___internal__method)));
     }
     // public T get_Value()
     // Offset: 0xFFFFFFFF
     T get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
     }
     // public System.Void set_Value(T value)
     // Offset: 0xFFFFFFFF
     void set_Value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::set_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
     }
     // public System.Void .ctor(T value)
     // Offset: 0xFFFFFFFF
@@ -145,7 +145,7 @@ namespace System::Collections::Generic {
     void Invalidate() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedListNode_1::Invalidate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invalidate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method)));
     }
   }; // System.Collections.Generic.LinkedListNode`1
   // Could not write size check! Type: System.Collections.Generic.LinkedListNode`1 is generic, or has no fields that are valid for size checks!

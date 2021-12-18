@@ -36,7 +36,7 @@ namespace System::Linq {
     TKey get_Key() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::IGrouping_2::get_Key");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Key", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TKey, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TKey, false>(this, ___internal__method)));
     }
   }; // System.Linq.IGrouping`2
   // Could not write size check! Type: System.Linq.IGrouping`2 is generic, or has no fields that are valid for size checks!

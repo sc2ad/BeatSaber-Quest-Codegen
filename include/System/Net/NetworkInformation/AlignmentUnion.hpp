@@ -24,6 +24,7 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AlignmentUnion/*, public System::ValueType*/ {
     public:
+    public:
     struct __InternalUnionData {
       // public System.Int32 Length
       // Size: 0x4
@@ -38,7 +39,6 @@ namespace System::Net::NetworkInformation {
       // Field size check
       static_assert(sizeof(int) == 0x4);
     };
-    public:
     // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
@@ -53,7 +53,7 @@ namespace System::Net::NetworkInformation {
     };
     public:
     // Creating value type constructor for type: AlignmentUnion
-    constexpr AlignmentUnion(uint64_t Alignment_ = {}) noexcept : Alignment{Alignment_} {}
+    constexpr AlignmentUnion(uint64_t Alignment_ = {}, int IfIndex_ = {}) noexcept : Alignment{Alignment_}, IfIndex{IfIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

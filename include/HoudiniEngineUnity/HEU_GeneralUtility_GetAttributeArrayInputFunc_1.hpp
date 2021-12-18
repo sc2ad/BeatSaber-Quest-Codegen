@@ -48,21 +48,21 @@ namespace HoudiniEngineUnity {
     bool Invoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int start, int end) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end)));
     }
     // public System.IAsyncResult BeginInvoke(System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, out T[] items, System.Int32 start, System.Int32 end, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int start, int end, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(this, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end, callback, object);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end, callback, object)));
     }
     // public System.Boolean EndInvoke(ref HoudiniEngineUnity.HAPI_AttributeInfo info, System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     bool EndInvoke(ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(result)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, byref(info), result);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, byref(info), result)));
     }
   }; // HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1
   // Could not write size check! Type: HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1 is generic, or has no fields that are valid for size checks!

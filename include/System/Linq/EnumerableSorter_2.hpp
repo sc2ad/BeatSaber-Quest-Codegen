@@ -137,7 +137,7 @@ namespace System::Linq {
     void ComputeKeys(::ArrayW<TElement> elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::ComputeKeys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(elements), ::il2cpp_utils::ExtractType(count)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, elements, count);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, elements, count)));
     }
     // override System.Int32 CompareKeys(System.Int32 index1, System.Int32 index2)
     // Offset: 0xFFFFFFFF
@@ -146,7 +146,7 @@ namespace System::Linq {
     int CompareKeys(int index1, int index2) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_2::CompareKeys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompareKeys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index1), ::il2cpp_utils::ExtractType(index2)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, index1, index2);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, index1, index2)));
     }
   }; // System.Linq.EnumerableSorter`2
   // Could not write size check! Type: System.Linq.EnumerableSorter`2 is generic, or has no fields that are valid for size checks!

@@ -84,7 +84,7 @@ namespace ModestTree::Util {
     bool Equals(ModestTree::Util::ValuePair_3<T1, T2, T3>* that) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::Equals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(that)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, that);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, that)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -102,7 +102,7 @@ namespace ModestTree::Util {
     bool Equals(::Il2CppObject* obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, obj);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, obj)));
     }
     // public override System.Int32 GetHashCode()
     // Offset: 0xFFFFFFFF
@@ -111,7 +111,7 @@ namespace ModestTree::Util {
     int GetHashCode() {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::ValuePair_3::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
     }
   }; // ModestTree.Util.ValuePair`3
   // Could not write size check! Type: ModestTree.Util.ValuePair`3 is generic, or has no fields that are valid for size checks!

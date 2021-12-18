@@ -62,7 +62,7 @@ namespace Zenject {
     Zenject::IProvider* $BindInstance$b__0(Zenject::DiContainer* container, System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::$$c__DisplayClass203_0_1::<BindInstance>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<BindInstance>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container), ::il2cpp_utils::ExtractType(type)})));
-      return ::il2cpp_utils::RunMethodThrow<Zenject::IProvider*, false>(this, ___internal__method, container, type);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::IProvider*, false>(this, ___internal__method, container, type)));
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

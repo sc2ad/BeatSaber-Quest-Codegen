@@ -94,21 +94,21 @@ namespace UnityEngine::ProBuilder::KdTree {
     int get_MaxCapacity() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_MaxCapacity");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_MaxCapacity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
     }
     // public System.Boolean get_IsCapacityReached()
     // Offset: 0xFFFFFFFF
     bool get_IsCapacityReached() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::get_IsCapacityReached");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCapacityReached", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
     }
     // public System.Void .ctor(System.Int32 maxCapacity, UnityEngine.ProBuilder.KdTree.ITypeMath`1<TDistance> distanceMath)
     // Offset: 0xFFFFFFFF
@@ -122,21 +122,21 @@ namespace UnityEngine::ProBuilder::KdTree {
     bool Add(TItem item, TDistance distance) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(distance)})));
-      return ::il2cpp_utils::RunMethodThrow<bool, false>(this, ___internal__method, item, distance);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, item, distance)));
     }
     // public TDistance GetFurtherestDistance()
     // Offset: 0xFFFFFFFF
     TDistance GetFurtherestDistance() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::GetFurtherestDistance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetFurtherestDistance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TDistance, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TDistance, false>(this, ___internal__method)));
     }
     // public TItem RemoveFurtherest()
     // Offset: 0xFFFFFFFF
     TItem RemoveFurtherest() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2::RemoveFurtherest");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveFurtherest", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<TItem, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<TItem, false>(this, ___internal__method)));
     }
   }; // UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2
   // Could not write size check! Type: UnityEngine.ProBuilder.KdTree.NearestNeighbourList`2 is generic, or has no fields that are valid for size checks!

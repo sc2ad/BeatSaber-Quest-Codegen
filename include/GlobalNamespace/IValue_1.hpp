@@ -30,14 +30,14 @@ namespace GlobalNamespace {
     T get_value() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::get_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodThrow<T, false>(this, ___internal__method);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
     }
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
     void set_value(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::set_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(this, ___internal__method, value);
+      THROW_UNLESS((::il2cpp_utils::RunMethod<void, false>(this, ___internal__method, value)));
     }
   }; // IValue`1
   // Could not write size check! Type: IValue`1 is generic, or has no fields that are valid for size checks!

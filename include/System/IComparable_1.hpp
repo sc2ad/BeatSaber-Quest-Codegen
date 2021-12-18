@@ -30,7 +30,7 @@ namespace System {
     int CompareTo(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IComparable_1::CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      return ::il2cpp_utils::RunMethodThrow<int, false>(this, ___internal__method, other);
+      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, other)));
     }
   }; // System.IComparable`1
   // Could not write size check! Type: System.IComparable`1 is generic, or has no fields that are valid for size checks!
