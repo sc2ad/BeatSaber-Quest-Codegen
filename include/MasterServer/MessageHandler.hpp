@@ -890,7 +890,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::ObtainVersioned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ObtainVersioned", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obtain)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Func_2<MasterServer::MessageHandler::MessageOrigin, T>*, false>(this, ___generic__method, obtain)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Func_2<MasterServer::MessageHandler::MessageOrigin, T>*, false>(this, ___generic__method, obtain);
     }
     // private System.Func`1<T> ObtainVersioned(System.Func`1<T> obtain)
     // Offset: 0xFFFFFFFF
@@ -899,7 +899,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::ObtainVersioned");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ObtainVersioned", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obtain)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Func_1<T>*, false>(this, ___generic__method, obtain)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Func_1<T>*, false>(this, ___generic__method, obtain);
     }
     // private System.Void DefaultAcknowledgeHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -909,7 +909,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultAcknowledgeHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultAcknowledgeHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packet, origin);
     }
     // private System.Void DefaultResponseHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -919,7 +919,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultResponseHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultResponseHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packet, origin);
     }
     // private System.Void DefaultMultipartMessageHandler(T packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0xFFFFFFFF
@@ -929,7 +929,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::DefaultMultipartMessageHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DefaultMultipartMessageHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packet, origin)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packet, origin);
     }
     // private System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> CustomResponseHandler(System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> customHandler)
     // Offset: 0xFFFFFFFF
@@ -939,7 +939,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::CustomResponseHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CustomResponseHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(customHandler)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(this, ___generic__method, customHandler)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(this, ___generic__method, customHandler);
     }
     // private System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> CustomUnreliableResponseHandler(System.Action`2<T,MasterServer.MessageHandler/MasterServer.MessageOrigin> customHandler)
     // Offset: 0xFFFFFFFF
@@ -949,7 +949,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::CustomUnreliableResponseHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CustomUnreliableResponseHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(customHandler)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(this, ___generic__method, customHandler)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Action_2<T, MasterServer::MessageHandler::MessageOrigin>*, false>(this, ___generic__method, customHandler);
     }
     // private System.Boolean IsUnhandledMessage(MasterServer.IMasterServerReliableRequest packet, MasterServer.MessageHandler/MasterServer.MessageOrigin origin)
     // Offset: 0x14B684C
@@ -972,7 +972,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::GetAndSendResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAndSendResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(tryGetResponse), ::il2cpp_utils::ExtractType(getFailureResponse)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Threading.Tasks.Task GetAndSendResponseAsync(TRequest request, MasterServer.MessageHandler/MasterServer.MessageOrigin origin, System.Func`3<TRequest,MasterServer.MessageHandler/MasterServer.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFF
@@ -983,7 +983,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::GetAndSendResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAndSendResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(tryGetResponse), ::il2cpp_utils::ExtractType(getFailureResponse)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Void GetAndSendUnreilableResponse(TRequest request, MasterServer.MessageHandler/MasterServer.MessageOrigin origin, System.Func`3<TRequest,MasterServer.MessageHandler/MasterServer.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse, System.Func`1<TResponse> getFailureResponse)
     // Offset: 0xFFFFFFFF
@@ -994,7 +994,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::GetAndSendUnreilableResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAndSendUnreilableResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(tryGetResponse), ::il2cpp_utils::ExtractType(getFailureResponse)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TRequest>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResponse>::get()})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, request, origin, tryGetResponse, getFailureResponse);
     }
     // protected System.Void SendUnreliableMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerUnreliableMessage message)
     // Offset: 0x14B7370
@@ -1028,7 +1028,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SendReliableRequestAndAwaitResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendReliableRequestAndAwaitResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(onSendFailedAwaitResponse), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, request, onSendFailedAwaitResponse, cancellationToken)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, request, onSendFailedAwaitResponse, cancellationToken);
     }
     // protected System.Threading.Tasks.Task`1<T> SendReliableResponseAndAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerReliableRequest request, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1038,7 +1038,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SendReliableResponseAndAwaitResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendReliableResponseAndAwaitResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(request), ::il2cpp_utils::ExtractType(response), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, request, response, cancellationToken)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, request, response, cancellationToken);
     }
     // protected System.Threading.Tasks.Task`1<T> SendReliableResponseAndAwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 responseId, MasterServer.IMasterServerReliableResponse response, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1048,7 +1048,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SendReliableResponseAndAwaitResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendReliableResponseAndAwaitResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(responseId), ::il2cpp_utils::ExtractType(response), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, responseId, response, cancellationToken)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, responseId, response, cancellationToken);
     }
     // private System.Void SendMessage(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, MasterServer.IMasterServerMessage message)
     // Offset: 0x14B7414
@@ -1073,7 +1073,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::SendMessageWithRetryAwaitResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendMessageWithRetryAwaitResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(onSendFailedAwaitResponse), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, message, onSendFailedAwaitResponse, cancellationToken)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, message, onSendFailedAwaitResponse, cancellationToken);
     }
     // private System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task> WrapOnSendFailedAwaitResponse(MasterServer.MessageHandler/MasterServer.RequestResponseWaiter waiter, System.Func`5<System.UInt32,System.Net.IPEndPoint,MasterServer.IMasterServerReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailed)
     // Offset: 0xFFFFFFFF
@@ -1083,7 +1083,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::WrapOnSendFailedAwaitResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WrapOnSendFailedAwaitResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(waiter), ::il2cpp_utils::ExtractType(onSendFailed)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, false>(this, ___generic__method, waiter, onSendFailed)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, false>(this, ___generic__method, waiter, onSendFailed);
     }
     // protected System.Threading.Tasks.Task`1<T> AwaitResponseAsync(System.UInt32 protocolVersion, System.Net.IPEndPoint remoteEndPoint, System.UInt32 requestId, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
@@ -1093,7 +1093,7 @@ namespace MasterServer {
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::MessageHandler::AwaitResponseAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AwaitResponseAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(requestId), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, requestId, cancellationToken)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, protocolVersion, remoteEndPoint, requestId, cancellationToken);
     }
     // private System.Threading.Tasks.Task WaitForRetry(System.Int32 retryAttempt, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x14B82A4

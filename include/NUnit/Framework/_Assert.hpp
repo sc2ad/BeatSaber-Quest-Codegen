@@ -48,7 +48,7 @@ namespace NUnit::Framework {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::_Assert::That");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework", "Assert", "That", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(actual), ::il2cpp_utils::ExtractType(expression), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, actual, expression, message, args)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, actual, expression, message, args);
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x193405C

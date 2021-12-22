@@ -39,7 +39,6 @@ namespace System::Net::NetworkInformation {
       // Field size check
       static_assert(sizeof(int) == 0x4);
     };
-    // Creating union for fields at offset: 0x0
     union {
       // public System.UInt64 Alignment
       // Size: 0x8

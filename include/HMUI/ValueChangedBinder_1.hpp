@@ -96,28 +96,28 @@ namespace HMUI {
     void Init() {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ValueChangedBinder_1::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.IValueChanger`1<T>,System.Action`1<T>>> bindingData)
     // Offset: 0xFFFFFFFF
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindingData) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ValueChangedBinder_1::AddBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingData)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, bindingData)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, bindingData);
     }
     // public System.Void AddBinding(HMUI.IValueChanger`1<T> valueChanger, System.Action`1<T> action)
     // Offset: 0xFFFFFFFF
     void AddBinding(HMUI::IValueChanger_1<T>* valueChanger, System::Action_1<T>* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ValueChangedBinder_1::AddBinding");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(valueChanger), ::il2cpp_utils::ExtractType(action)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, valueChanger, action)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, valueChanger, action);
     }
     // public System.Void ClearBindings()
     // Offset: 0xFFFFFFFF
     void ClearBindings() {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ValueChangedBinder_1::ClearBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearBindings", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

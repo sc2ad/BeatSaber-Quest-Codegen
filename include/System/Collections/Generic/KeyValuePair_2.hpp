@@ -68,14 +68,14 @@ namespace System::Collections::Generic {
     TKey get_Key() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Key");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Key", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TKey, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<TKey, false>(this, ___internal__method);
     }
     // public TValue get_Value()
     // Offset: 0xFFFFFFFF
     TValue get_Value() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::get_Value");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TValue, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }
     // public System.Void .ctor(TKey key, TValue value)
     // Offset: 0xFFFFFFFF
@@ -87,7 +87,7 @@ namespace System::Collections::Generic {
     ::Il2CppString* ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::KeyValuePair_2::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppString*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.KeyValuePair`2
   // Could not write size check! Type: System.Collections.Generic.KeyValuePair`2 is generic, or has no fields that are valid for size checks!

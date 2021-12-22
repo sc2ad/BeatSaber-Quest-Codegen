@@ -73,7 +73,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WhenInjectedInto", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::CopyNonLazyBinder*, false>(this, ___generic__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::CopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public Zenject.CopyNonLazyBinder WhenNotInjectedInto()
     // Offset: 0xFFFFFFFF
@@ -82,7 +82,7 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConditionCopyNonLazyBinder::WhenNotInjectedInto");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WhenNotInjectedInto", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::CopyNonLazyBinder*, false>(this, ___generic__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::CopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x14FA424

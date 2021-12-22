@@ -46,21 +46,21 @@ namespace GlobalNamespace {
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Deserialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Deserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(data)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, length, data)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, writer, packet)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, packet);
     }
     // public System.Boolean HandlesType(System.Type type)
     // Offset: 0xFFFFFFFF
     bool HandlesType(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSubSerializer_1::HandlesType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandlesType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, type)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, type);
     }
   }; // INetworkPacketSubSerializer`1
   // Could not write size check! Type: INetworkPacketSubSerializer`1 is generic, or has no fields that are valid for size checks!

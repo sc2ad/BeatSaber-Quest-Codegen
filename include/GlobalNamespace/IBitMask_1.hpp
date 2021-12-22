@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     int get_bitCount() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMask_1::get_bitCount");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_bitCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public T SetBits(System.Int32 offset, System.UInt64 bits)
     // Offset: 0xFFFFFFFF
     T SetBits(int offset, uint64_t bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMask_1::SetBits");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetBits", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(offset), ::il2cpp_utils::ExtractType(bits)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, offset, bits)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, offset, bits);
     }
     // public System.UInt64 GetBits(System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
     uint64_t GetBits(int offset, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMask_1::GetBits");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBits", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(offset), ::il2cpp_utils::ExtractType(count)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<uint64_t, false>(this, ___internal__method, offset, count)));
+      return ::il2cpp_utils::RunMethodRethrow<uint64_t, false>(this, ___internal__method, offset, count);
     }
   }; // IBitMask`1
   // Could not write size check! Type: IBitMask`1 is generic, or has no fields that are valid for size checks!

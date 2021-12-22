@@ -109,14 +109,14 @@ namespace GlobalNamespace {
     TState get_Item(TType t) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::get_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TState, false>(this, ___internal__method, t)));
+      return ::il2cpp_utils::RunMethodRethrow<TState, false>(this, ___internal__method, t);
     }
     // public System.Void set_Item(TType t, TState value)
     // Offset: 0xFFFFFFFF
     void set_Item(TType t, TState value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::set_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t), ::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, t, value)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, t, value);
     }
     // public System.Void .ctor(IConnectedPlayer player, System.Single fullStateUpdateFrequency, System.Single deltaUpdateFrequency, System.Int32 size, StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState> interpolator, StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState> smoother)
     // Offset: 0xFFFFFFFF
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::TryGetSerializedState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pool), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___generic__method, pool, byref(serializable))));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, pool, byref(serializable));
     }
     // public System.Boolean TryGetSerializedStateDelta(IPacketPool`1<T> pool, out T serializable)
     // Offset: 0xFFFFFFFF
@@ -143,35 +143,35 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::TryGetSerializedStateDelta");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pool), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___generic__method, pool, byref(serializable))));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, pool, byref(serializable));
     }
     // public System.Void SetDirty()
     // Offset: 0xFFFFFFFF
     void SetDirty() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::SetDirty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetDirty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void SetCurrentTime(System.Single time)
     // Offset: 0xFFFFFFFF
     void SetCurrentTime(float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::SetCurrentTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetCurrentTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, time)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, time);
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::SetState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(state)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, type, state)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, type, state);
     }
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::GetState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TState, false>(this, ___internal__method, type)));
+      return ::il2cpp_utils::RunMethodRethrow<TState, false>(this, ___internal__method, type);
     }
     // protected override StateBuffer`3<TStateTable,TType,TState> get_stateBuffer()
     // Offset: 0xFFFFFFFF
@@ -180,7 +180,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::get_stateBuffer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_stateBuffer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public override IConnectedPlayer get_player()
     // Offset: 0xFFFFFFFF
@@ -189,7 +189,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* get_player() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::get_player");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_player", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::IConnectedPlayer*, false>(this, ___internal__method);
     }
   }; // LocalMultiplayerSyncState`3
   // Could not write size check! Type: LocalMultiplayerSyncState`3 is generic, or has no fields that are valid for size checks!

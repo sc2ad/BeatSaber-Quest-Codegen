@@ -49,21 +49,21 @@ namespace System {
     TOutput Invoke(TInput input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(input)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TOutput, false>(this, ___internal__method, input)));
+      return ::il2cpp_utils::RunMethodRethrow<TOutput, false>(this, ___internal__method, input);
     }
     // public System.IAsyncResult BeginInvoke(TInput input, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(TInput input, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(input), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, input, callback, object)));
+      return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, input, callback, object);
     }
     // public TOutput EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     TOutput EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Converter_2::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TOutput, false>(this, ___internal__method, result)));
+      return ::il2cpp_utils::RunMethodRethrow<TOutput, false>(this, ___internal__method, result);
     }
   }; // System.Converter`2
   // Could not write size check! Type: System.Converter`2 is generic, or has no fields that are valid for size checks!

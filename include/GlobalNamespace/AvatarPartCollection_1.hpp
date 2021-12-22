@@ -102,14 +102,14 @@ namespace GlobalNamespace {
     int get_count() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::get_count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public T[] get_parts()
     // Offset: 0xFFFFFFFF
     ::ArrayW<T> get_parts() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::get_parts");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_parts", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<::ArrayW<T>, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___internal__method);
     }
     // public System.Void .ctor(T[] parts)
     // Offset: 0xFFFFFFFF
@@ -123,35 +123,35 @@ namespace GlobalNamespace {
     T GetById(::Il2CppString* id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetById");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetById", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, id)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, id);
     }
     // public T GetRandom()
     // Offset: 0xFFFFFFFF
     T GetRandom() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetRandom");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetRandom", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public T GetByIndex(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T GetByIndex(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetByIndex");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetByIndex", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, index)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, index);
     }
     // public System.Int32 GetIndexById(System.String id)
     // Offset: 0xFFFFFFFF
     int GetIndexById(::Il2CppString* id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetIndexById");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetIndexById", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, id)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, id);
     }
     // public T GetDefault()
     // Offset: 0xFFFFFFFF
     T GetDefault() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarPartCollection_1::GetDefault");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDefault", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
   }; // AvatarPartCollection`1
   // Could not write size check! Type: AvatarPartCollection`1 is generic, or has no fields that are valid for size checks!

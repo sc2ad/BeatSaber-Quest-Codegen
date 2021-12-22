@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<T1>* get_activeItems() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_2::get_activeItems");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_activeItems", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::List_1<T1>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T1>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.IMemoryPool`1<T0> memoryPool)
     // Offset: 0xFFFFFFFF
@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     T0 Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_2::Spawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T0, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<T0, false>(this, ___internal__method);
     }
     // public System.Void Despawn(T0 item)
     // Offset: 0xFFFFFFFF
     void Despawn(T0 item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_2::Despawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
   }; // MemoryPoolContainer`2
   // Could not write size check! Type: MemoryPoolContainer`2 is generic, or has no fields that are valid for size checks!

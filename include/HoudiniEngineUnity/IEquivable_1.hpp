@@ -30,7 +30,7 @@ namespace HoudiniEngineUnity {
     bool IsEquivalentTo(T other) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::IEquivable_1::IsEquivalentTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsEquivalentTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, other)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other);
     }
   }; // HoudiniEngineUnity.IEquivable`1
   // Could not write size check! Type: HoudiniEngineUnity.IEquivable`1 is generic, or has no fields that are valid for size checks!

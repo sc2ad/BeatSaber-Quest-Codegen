@@ -69,14 +69,14 @@ namespace TMPro {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TMP_ListPool_1<T>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.Void <.cctor>b__3_0(System.Collections.Generic.List`1<T> l)
       // Offset: 0xFFFFFFFF
       void $_cctor$b__3_0(System::Collections::Generic::List_1<T>* l) {
         static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::$$c::<.cctor>b__3_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<.cctor>b__3_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(l)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, l)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, l);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -106,21 +106,21 @@ namespace TMPro {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static public System.Collections.Generic.List`1<T> Get()
     // Offset: 0xFFFFFFFF
     static System::Collections::Generic::List_1<T>* Get() {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), "Get", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // static public System.Void Release(System.Collections.Generic.List`1<T> toRelease)
     // Offset: 0xFFFFFFFF
     static void Release(System::Collections::Generic::List_1<T>* toRelease) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_ListPool_1::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMP_ListPool_1<T>*>::get(), "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(toRelease)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, toRelease)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, toRelease);
     }
   }; // TMPro.TMP_ListPool`1
   // Could not write size check! Type: TMPro.TMP_ListPool`1 is generic, or has no fields that are valid for size checks!

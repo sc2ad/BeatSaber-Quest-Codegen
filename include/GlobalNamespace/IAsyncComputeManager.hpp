@@ -57,7 +57,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IAsyncComputeManager::BeginOperation");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asyncComputeOperation)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, asyncComputeOperation)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, asyncComputeOperation);
     }
   }; // IAsyncComputeManager
   #pragma pack(pop)

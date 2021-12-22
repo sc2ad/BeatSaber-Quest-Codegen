@@ -82,14 +82,14 @@ namespace System::Threading::Tasks {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename UnwrapPromise_1<TResult>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.Void <InvokeCoreAsync>b__8_0(System.Object state)
       // Offset: 0xFFFFFFFF
       void $InvokeCoreAsync$b__8_0(::Il2CppObject* state) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::$$c::<InvokeCoreAsync>b__8_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<InvokeCoreAsync>b__8_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(state)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, state)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, state);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -156,42 +156,42 @@ namespace System::Threading::Tasks {
     void Invoke(System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(completingTask)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, completingTask)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, completingTask);
     }
     // private System.Void InvokeCore(System.Threading.Tasks.Task completingTask)
     // Offset: 0xFFFFFFFF
     void InvokeCore(System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::InvokeCore");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeCore", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(completingTask)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, completingTask)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, completingTask);
     }
     // private System.Void InvokeCoreAsync(System.Threading.Tasks.Task completingTask)
     // Offset: 0xFFFFFFFF
     void InvokeCoreAsync(System::Threading::Tasks::Task* completingTask) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::InvokeCoreAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InvokeCoreAsync", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(completingTask)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, completingTask)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, completingTask);
     }
     // private System.Void ProcessCompletedOuterTask(System.Threading.Tasks.Task task)
     // Offset: 0xFFFFFFFF
     void ProcessCompletedOuterTask(System::Threading::Tasks::Task* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::ProcessCompletedOuterTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessCompletedOuterTask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
     }
     // private System.Boolean TrySetFromTask(System.Threading.Tasks.Task task, System.Boolean lookForOce)
     // Offset: 0xFFFFFFFF
     bool TrySetFromTask(System::Threading::Tasks::Task* task, bool lookForOce) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::TrySetFromTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TrySetFromTask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(lookForOce)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, task, lookForOce)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, task, lookForOce);
     }
     // private System.Void ProcessInnerTask(System.Threading.Tasks.Task task)
     // Offset: 0xFFFFFFFF
     void ProcessInnerTask(System::Threading::Tasks::Task* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::UnwrapPromise_1::ProcessInnerTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessInnerTask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
     }
   }; // System.Threading.Tasks.UnwrapPromise`1
   // Could not write size check! Type: System.Threading.Tasks.UnwrapPromise`1 is generic, or has no fields that are valid for size checks!

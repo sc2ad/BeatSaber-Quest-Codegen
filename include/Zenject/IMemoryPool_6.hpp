@@ -36,7 +36,7 @@ namespace Zenject {
     TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IMemoryPool_6::Spawn");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(param1), ::il2cpp_utils::ExtractType(param2), ::il2cpp_utils::ExtractType(param3), ::il2cpp_utils::ExtractType(param4), ::il2cpp_utils::ExtractType(param5)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TValue, false>(this, ___internal__method, param1, param2, param3, param4, param5)));
+      return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method, param1, param2, param3, param4, param5);
     }
   }; // Zenject.IMemoryPool`6
   // Could not write size check! Type: Zenject.IMemoryPool`6 is generic, or has no fields that are valid for size checks!

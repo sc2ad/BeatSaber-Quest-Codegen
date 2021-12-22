@@ -71,14 +71,14 @@ namespace Zenject {
     Zenject::MemoryPoolBindInfo* get_MemoryPoolBindInfo() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolExpandBinder_1::get_MemoryPoolBindInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_MemoryPoolBindInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::MemoryPoolBindInfo*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::MemoryPoolBindInfo*, false>(this, ___internal__method);
     }
     // private System.Void set_MemoryPoolBindInfo(Zenject.MemoryPoolBindInfo value)
     // Offset: 0xFFFFFFFF
     void set_MemoryPoolBindInfo(Zenject::MemoryPoolBindInfo* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolExpandBinder_1::set_MemoryPoolBindInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_MemoryPoolBindInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF
@@ -92,14 +92,14 @@ namespace Zenject {
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolExpandBinder_1::ExpandByOneAtATime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByOneAtATime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> ExpandByDoubling()
     // Offset: 0xFFFFFFFF
     Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolExpandBinder_1::ExpandByDoubling");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ExpandByDoubling", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method);
     }
   }; // Zenject.MemoryPoolExpandBinder`1
   // Could not write size check! Type: Zenject.MemoryPoolExpandBinder`1 is generic, or has no fields that are valid for size checks!

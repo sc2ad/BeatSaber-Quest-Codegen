@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     void $WithCancellation$b__0() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1::<WithCancellation>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<WithCancellation>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -49,21 +49,21 @@ namespace UnityEngine::Events {
     void Invoke(T0 arg0, T1 arg1) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_2::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, arg0, arg1)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0, arg1);
     }
     // public System.IAsyncResult BeginInvoke(T0 arg0, T1 arg1, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T0 arg0, T1 arg1, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_2::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, arg0, arg1, callback, object)));
+      return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, arg0, arg1, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityAction_2::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result);
     }
   }; // UnityEngine.Events.UnityAction`2
   // Could not write size check! Type: UnityEngine.Events.UnityAction`2 is generic, or has no fields that are valid for size checks!

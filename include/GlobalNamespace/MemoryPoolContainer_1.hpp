@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<T>* get_activeItems() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_1::get_activeItems");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_activeItems", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::List_1<T>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T>*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(Zenject.IMemoryPool`1<T> memoryPool)
     // Offset: 0xFFFFFFFF
@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     T Spawn() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_1::Spawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Spawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void Despawn(T item)
     // Offset: 0xFFFFFFFF
     void Despawn(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MemoryPoolContainer_1::Despawn");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Despawn", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
   }; // MemoryPoolContainer`1
   // Could not write size check! Type: MemoryPoolContainer`1 is generic, or has no fields that are valid for size checks!

@@ -50,21 +50,21 @@ namespace System {
     TResult Invoke(T1 arg1, T2 arg2, T3 arg3) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_4::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method, arg1, arg2, arg3)));
+      return ::il2cpp_utils::RunMethodRethrow<TResult, false>(this, ___internal__method, arg1, arg2, arg3);
     }
     // public System.IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 arg1, T2 arg2, T3 arg3, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_4::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, arg1, arg2, arg3, callback, object)));
+      return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, arg1, arg2, arg3, callback, object);
     }
     // public TResult EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     TResult EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Func_4::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method, result)));
+      return ::il2cpp_utils::RunMethodRethrow<TResult, false>(this, ___internal__method, result);
     }
   }; // System.Func`4
   // Could not write size check! Type: System.Func`4 is generic, or has no fields that are valid for size checks!

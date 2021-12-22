@@ -103,7 +103,7 @@ namespace System::Runtime::CompilerServices {
       bool get_IsCompleted() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::get_IsCompleted");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_IsCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
       }
       // System.Void .ctor(System.Threading.Tasks.Task`1<TResult> task, System.Boolean continueOnCapturedContext)
       // Offset: 0xFFFFFFFF
@@ -113,21 +113,21 @@ namespace System::Runtime::CompilerServices {
       void OnCompleted(System::Action* continuation) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::OnCompleted");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "OnCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(continuation)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, continuation)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, continuation);
       }
       // public System.Void UnsafeOnCompleted(System.Action continuation)
       // Offset: 0xFFFFFFFF
       void UnsafeOnCompleted(System::Action* continuation) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::UnsafeOnCompleted");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "UnsafeOnCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(continuation)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, continuation)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, continuation);
       }
       // public TResult GetResult()
       // Offset: 0xFFFFFFFF
       TResult GetResult() {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::ConfiguredTaskAwaiter::GetResult");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetResult", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<TResult, false>(this, ___internal__method);
       }
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter is generic, or has no fields that are valid for size checks!
@@ -160,14 +160,14 @@ namespace System::Runtime::CompilerServices {
     ConfiguredTaskAwaitable_1(System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(continueOnCapturedContext)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task, continueOnCapturedContext)));
+      ::il2cpp_utils::RunMethodRethrow<ConfiguredTaskAwaitable_1<TResult>, false>(this, ___internal__method, task, continueOnCapturedContext);
     }
     // public System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<TResult> GetAwaiter()
     // Offset: 0xFFFFFFFF
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter GetAwaiter() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1::GetAwaiter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetAwaiter", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter, false>(this, ___internal__method);
     }
   }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
   // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1 is generic, or has no fields that are valid for size checks!

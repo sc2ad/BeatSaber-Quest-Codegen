@@ -131,14 +131,14 @@ namespace Zenject {
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::TaskInfo::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::TaskInfo*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0)));
+        return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
       // Offset: 0xFFFFFFFF
       static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::TaskInfo::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::TaskInfo*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
     }; // Zenject.TaskUpdater`1/Zenject.TaskInfo
     // Could not write size check! Type: Zenject.TaskUpdater`1/Zenject.TaskInfo is generic, or has no fields that are valid for size checks!
@@ -180,28 +180,28 @@ namespace Zenject {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // TTask <AddTaskInternal>b__7_0(Zenject.TaskUpdater`1/Zenject.TaskInfo<TTask> x)
       // Offset: 0xFFFFFFFF
       TTask $AddTaskInternal$b__7_0(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* x) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c::<AddTaskInternal>b__7_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<AddTaskInternal>b__7_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TTask, false>(this, ___internal__method, x)));
+        return ::il2cpp_utils::RunMethodRethrow<TTask, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
       // Offset: 0xFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0)));
+        return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
       // Offset: 0xFFFFFFFF
       static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -250,21 +250,21 @@ namespace Zenject {
       bool $RemoveTask$b__0(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* x) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c__DisplayClass8_0::<RemoveTask>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RemoveTask>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, x)));
+        return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
       // Offset: 0xFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c__DisplayClass8_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c__DisplayClass8_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0)));
+        return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
       // Offset: 0xFFFFFFFF
       static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::$$c__DisplayClass8_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename TaskUpdater_1<TTask>::$$c__DisplayClass8_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -320,91 +320,91 @@ namespace Zenject {
     System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* get_AllTasks() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::get_AllTasks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_AllTasks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*, false>(this, ___internal__method);
     }
     // private System.Collections.Generic.IEnumerable`1<Zenject.TaskUpdater`1/Zenject.TaskInfo<TTask>> get_ActiveTasks()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* get_ActiveTasks() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::get_ActiveTasks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_ActiveTasks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>*, false>(this, ___internal__method);
     }
     // public System.Void AddTask(TTask task, System.Int32 priority)
     // Offset: 0xFFFFFFFF
     void AddTask(TTask task, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::AddTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddTask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(priority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task, priority)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task, priority);
     }
     // private System.Void AddTaskInternal(TTask task, System.Int32 priority)
     // Offset: 0xFFFFFFFF
     void AddTaskInternal(TTask task, int priority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::AddTaskInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddTaskInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(priority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task, priority)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task, priority);
     }
     // public System.Void RemoveTask(TTask task)
     // Offset: 0xFFFFFFFF
     void RemoveTask(TTask task) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::RemoveTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveTask", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
     }
     // public System.Void OnFrameStart()
     // Offset: 0xFFFFFFFF
     void OnFrameStart() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::OnFrameStart");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnFrameStart", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void UpdateAll()
     // Offset: 0xFFFFFFFF
     void UpdateAll() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::UpdateAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateAll", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void UpdateRange(System.Int32 minPriority, System.Int32 maxPriority)
     // Offset: 0xFFFFFFFF
     void UpdateRange(int minPriority, int maxPriority) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::UpdateRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(minPriority), ::il2cpp_utils::ExtractType(maxPriority)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, minPriority, maxPriority)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, minPriority, maxPriority);
     }
     // private System.Void ClearRemovedTasks(System.Collections.Generic.LinkedList`1<Zenject.TaskUpdater`1/Zenject.TaskInfo<TTask>> tasks)
     // Offset: 0xFFFFFFFF
     void ClearRemovedTasks(System::Collections::Generic::LinkedList_1<typename Zenject::TaskUpdater_1<TTask>::TaskInfo*>* tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::ClearRemovedTasks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearRemovedTasks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tasks)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, tasks)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tasks);
     }
     // private System.Void AddQueuedTasks()
     // Offset: 0xFFFFFFFF
     void AddQueuedTasks() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::AddQueuedTasks");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddQueuedTasks", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void InsertTaskSorted(Zenject.TaskUpdater`1/Zenject.TaskInfo<TTask> task)
     // Offset: 0xFFFFFFFF
     void InsertTaskSorted(typename Zenject::TaskUpdater_1<TTask>::TaskInfo* task) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::InsertTaskSorted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "InsertTaskSorted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
     }
     // protected System.Void UpdateItem(TTask task)
     // Offset: 0xFFFFFFFF
     void UpdateItem(TTask task) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::UpdateItem");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateItem", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, task)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, task);
     }
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0xFFFFFFFF
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TaskUpdater_1::__zenCreateInjectTypeInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TaskUpdater_1<TTask>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -68,7 +68,7 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> $LoadAssetWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass66_0_1::<LoadAssetWithChain>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<LoadAssetWithChain>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(op)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal__method, op)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal__method, op);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

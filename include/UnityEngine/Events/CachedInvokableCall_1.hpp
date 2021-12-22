@@ -79,7 +79,7 @@ namespace UnityEngine::Events {
     void Invoke(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, args)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, args);
     }
     // public override System.Void Invoke(T arg0)
     // Offset: 0xFFFFFFFF
@@ -88,7 +88,7 @@ namespace UnityEngine::Events {
     void Invoke(T arg0) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::CachedInvokableCall_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, arg0)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, arg0);
     }
   }; // UnityEngine.Events.CachedInvokableCall`1
   // Could not write size check! Type: UnityEngine.Events.CachedInvokableCall`1 is generic, or has no fields that are valid for size checks!

@@ -131,7 +131,7 @@ namespace System::Linq {
     System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(System::Linq::EnumerableSorter_1<TElement>* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::OrderedEnumerable_2::GetEnumerableSorter");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerableSorter", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(next)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal__method, next)));
+      return ::il2cpp_utils::RunMethodRethrow<System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal__method, next);
     }
   }; // System.Linq.OrderedEnumerable`2
   // Could not write size check! Type: System.Linq.OrderedEnumerable`2 is generic, or has no fields that are valid for size checks!

@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     T $ToBloomFilter$b__0(T bloomFilter, ::Il2CppString* str) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::$$c__DisplayClass2_0_1::<ToBloomFilter>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToBloomFilter>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bloomFilter), ::il2cpp_utils::ExtractType(str)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, bloomFilter, str)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, bloomFilter, str);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

@@ -143,7 +143,7 @@ namespace GlobalNamespace {
       void $RegisterCallback$b__0(TPacket packet, TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass4_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(data)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, packet, data)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packet, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -209,14 +209,14 @@ namespace GlobalNamespace {
       void $RegisterCallback$b__0(TPacket packet, TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass5_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(data)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, packet, data)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packet, data);
       }
       // TPacket <RegisterCallback>b__1(TData data)
       // Offset: 0xFFFFFFFF
       TPacket $RegisterCallback$b__1(TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass5_0_1::<RegisterCallback>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TPacket, false>(this, ___internal__method, data)));
+        return ::il2cpp_utils::RunMethodRethrow<TPacket, false>(this, ___internal__method, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -268,14 +268,14 @@ namespace GlobalNamespace {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__6_1::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename NetworkPacketSerializer_2<TType, TData>::$$c__6_1<TPacket>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // TPacket <RegisterCallback>b__6_0(TData data)
       // Offset: 0xFFFFFFFF
       TPacket $RegisterCallback$b__6_0(TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__6_1::<RegisterCallback>b__6_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__6_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TPacket, false>(this, ___internal__method, data)));
+        return ::il2cpp_utils::RunMethodRethrow<TPacket, false>(this, ___internal__method, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -331,7 +331,7 @@ namespace GlobalNamespace {
       TPacket $RegisterCallback$b__0(TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass7_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TPacket, false>(this, ___internal__method, data)));
+        return ::il2cpp_utils::RunMethodRethrow<TPacket, false>(this, ___internal__method, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -411,14 +411,14 @@ namespace GlobalNamespace {
       TPacket $RegisterCallback$b__0(LiteNetLib::Utils::NetDataReader* reader, int size, TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass8_0_1::<RegisterCallback>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(data)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<TPacket, false>(this, ___internal__method, reader, size, data)));
+        return ::il2cpp_utils::RunMethodRethrow<TPacket, false>(this, ___internal__method, reader, size, data);
       }
       // System.Void <RegisterCallback>b__1(LiteNetLib.Utils.NetDataReader reader, System.Int32 size, TData data)
       // Offset: 0xFFFFFFFF
       void $RegisterCallback$b__1(LiteNetLib::Utils::NetDataReader* reader, int size, TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass8_0_1::<RegisterCallback>b__1");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterCallback>b__1", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(data)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, size, data)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, size, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -473,7 +473,7 @@ namespace GlobalNamespace {
       void $RegisterSubSerializer$b__0(LiteNetLib::Utils::NetDataReader* reader, int size, TData data) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::$$c__DisplayClass10_0::<RegisterSubSerializer>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<RegisterSubSerializer>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(data)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, size, data)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, size, data);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -568,7 +568,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType, callback)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType, callback);
     }
     // public System.Void RegisterCallback(TType packetType, System.Action`1<TPacket> callback, System.Func`1<TPacket> constructor)
     // Offset: 0xFFFFFFFF
@@ -578,7 +578,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(constructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType, callback, constructor)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType, callback, constructor);
     }
     // public System.Void RegisterCallback(TType packetType, System.Action`2<TPacket,TData> callback)
     // Offset: 0xFFFFFFFF
@@ -588,7 +588,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType, callback)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType, callback);
     }
     // public System.Void RegisterCallback(TType packetType, System.Action`2<TPacket,TData> callback, System.Func`1<TPacket> constructor)
     // Offset: 0xFFFFFFFF
@@ -598,7 +598,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(constructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType, callback, constructor)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType, callback, constructor);
     }
     // public System.Void RegisterCallback(TType packetType, System.Action`2<TPacket,TData> callback, System.Func`2<TData,TPacket> constructor)
     // Offset: 0xFFFFFFFF
@@ -608,7 +608,7 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(constructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType, callback, constructor)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType, callback, constructor);
     }
     // public System.Void UnregisterCallback(TType packetType)
     // Offset: 0xFFFFFFFF
@@ -617,98 +617,98 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::UnregisterCallback");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnregisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TPacket>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___generic__method, packetType)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, packetType);
     }
     // public System.Void RegisterSubSerializer(TType packetType, INetworkPacketSubSerializer`1<TData> subSubSerializer)
     // Offset: 0xFFFFFFFF
     void RegisterSubSerializer(TType packetType, GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::RegisterSubSerializer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterSubSerializer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(subSubSerializer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, packetType, subSubSerializer)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packetType, subSubSerializer);
     }
     // public System.Void UnregisterSubSerializer(TType packetType, INetworkPacketSubSerializer`1<TData> subSubSerializer)
     // Offset: 0xFFFFFFFF
     void UnregisterSubSerializer(TType packetType, GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::UnregisterSubSerializer");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnregisterSubSerializer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packetType), ::il2cpp_utils::ExtractType(subSubSerializer)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, packetType, subSubSerializer)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packetType, subSubSerializer);
     }
     // public System.Void CopyFrom(NetworkPacketSerializer`2<TType,TData> other)
     // Offset: 0xFFFFFFFF
     void CopyFrom(GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::CopyFrom");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyFrom", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, other)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, other);
     }
     // public System.Void SerializePacket(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void SerializePacket(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::SerializePacket");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SerializePacket", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, writer, packet)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, packet);
     }
     // private System.Void SerializePacketInternal(LiteNetLib.Utils.NetDataWriter externalWriter, LiteNetLib.Utils.INetSerializable packet, System.Boolean prependLength)
     // Offset: 0xFFFFFFFF
     void SerializePacketInternal(LiteNetLib::Utils::NetDataWriter* externalWriter, LiteNetLib::Utils::INetSerializable* packet, bool prependLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::SerializePacketInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SerializePacketInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(externalWriter), ::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(prependLength)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, externalWriter, packet, prependLength)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, externalWriter, packet, prependLength);
     }
     // public System.Void ProcessAllPackets(LiteNetLib.Utils.NetDataReader reader, TData data)
     // Offset: 0xFFFFFFFF
     void ProcessAllPackets(LiteNetLib::Utils::NetDataReader* reader, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::ProcessAllPackets");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessAllPackets", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(data)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, data)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, data);
     }
     // public System.Boolean ProcessPacket(LiteNetLib.Utils.NetDataReader reader, TData data)
     // Offset: 0xFFFFFFFF
     bool ProcessPacket(LiteNetLib::Utils::NetDataReader* reader, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::ProcessPacket");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessPacket", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(data)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, reader, data)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, reader, data);
     }
     // private System.Void ProcessPacketInternal(LiteNetLib.Utils.NetDataReader reader, System.Int32 length, TData data)
     // Offset: 0xFFFFFFFF
     void ProcessPacketInternal(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::ProcessPacketInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessPacketInternal", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(data)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, length, data)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // private System.Boolean TryGetPacketType(System.Type type, out System.Byte packetType, out INetworkPacketSubSerializer`1<TData> subSerializer)
     // Offset: 0xFFFFFFFF
     bool TryGetPacketType(System::Type* type, ByRef<uint8_t> packetType, ByRef<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::TryGetPacketType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetPacketType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractIndependentType<uint8_t&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPacketSubSerializer_1<TData>*&>()})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, type, byref(packetType), byref(subSerializer))));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, type, byref(packetType), byref(subSerializer));
     }
     // public System.Boolean HandlesType(System.Type type)
     // Offset: 0xFFFFFFFF
     bool HandlesType(System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::HandlesType");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandlesType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, type)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, type);
     }
     // private System.Void INetworkPacketSubSerializer<TData>.Serialize(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
     void INetworkPacketSubSerializer$TData$_Serialize(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::INetworkPacketSubSerializer<TData>.Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "INetworkPacketSubSerializer<TData>.Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, writer, packet)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, packet);
     }
     // private System.Void INetworkPacketSubSerializer<TData>.Deserialize(LiteNetLib.Utils.NetDataReader reader, System.Int32 length, TData data)
     // Offset: 0xFFFFFFFF
     void INetworkPacketSubSerializer$TData$_Deserialize(LiteNetLib::Utils::NetDataReader* reader, int length, TData data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::INetworkPacketSubSerializer<TData>.Deserialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "INetworkPacketSubSerializer<TData>.Deserialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(data)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, reader, length, data)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, length, data);
     }
     // private System.Void Log(System.String message)
     // Offset: 0xFFFFFFFF
     void Log(::Il2CppString* message) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetworkPacketSerializer_2::Log");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Log", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, message)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, message);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

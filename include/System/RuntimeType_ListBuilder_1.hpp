@@ -96,42 +96,42 @@ namespace System {
     T get_Item(int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::get_Item");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, index)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, index);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::get_Count");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     ListBuilder_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, capacity)));
+      ::il2cpp_utils::RunMethodRethrow<RuntimeType::ListBuilder_1<T>, false>(this, ___internal__method, capacity);
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
     ::ArrayW<T> ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::ToArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<::ArrayW<T>, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___internal__method);
     }
     // public System.Void CopyTo(System.Object[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
     void CopyTo(::ArrayW<::Il2CppObject*> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::CopyTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, array, index)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, array, index);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
   }; // System.RuntimeType/System.ListBuilder`1
   // Could not write size check! Type: System.RuntimeType/System.ListBuilder`1 is generic, or has no fields that are valid for size checks!

@@ -89,21 +89,21 @@ namespace TMPro {
     void Add(System::Action_3<A, B, C>* rhs) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rhs)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, rhs)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Remove(System.Action`3<A,B,C> rhs)
     // Offset: 0xFFFFFFFF
     void Remove(System::Action_3<A, B, C>* rhs) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rhs)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, rhs)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, rhs);
     }
     // public System.Void Call(A a, B b, C c)
     // Offset: 0xFFFFFFFF
     void Call(A a, B b, C c) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction_3::Call");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Call", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractType(c)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, a, b, c)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, a, b, c);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

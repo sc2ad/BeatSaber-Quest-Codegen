@@ -72,7 +72,7 @@ namespace Oculus::Platform {
     void HandleMessage(Oculus::Platform::Message* msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Callback::RequestCallback_1::HandleMessage");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "HandleMessage", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(msg)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, msg)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, msg);
     }
   }; // Oculus.Platform.Callback/Oculus.Platform.RequestCallback`1
   // Could not write size check! Type: Oculus.Platform.Callback/Oculus.Platform.RequestCallback`1 is generic, or has no fields that are valid for size checks!

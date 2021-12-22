@@ -44,21 +44,21 @@ namespace Priority_Queue {
     int get_MaxSize() {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::get_MaxSize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_MaxSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public System.Void Resize(System.Int32 maxNodes)
     // Offset: 0xFFFFFFFF
     void Resize(int maxNodes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::Resize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Resize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(maxNodes)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, maxNodes)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, maxNodes);
     }
     // public System.Void ResetNode(TItem node)
     // Offset: 0xFFFFFFFF
     void ResetNode(TItem node) {
       static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::IFixedSizePriorityQueue_2::ResetNode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResetNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, node)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, node);
     }
   }; // Priority_Queue.IFixedSizePriorityQueue`2
   // Could not write size check! Type: Priority_Queue.IFixedSizePriorityQueue`2 is generic, or has no fields that are valid for size checks!

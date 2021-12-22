@@ -46,21 +46,21 @@ namespace HoudiniEngineUnity {
     bool Invoke(int arg1, ByRef<::ArrayW<T>> data, int start, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, arg1, byref(data), start, length)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, arg1, byref(data), start, length);
     }
     // public System.IAsyncResult BeginInvoke(System.Int32 arg1, out T[] data, System.Int32 start, System.Int32 length, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(int arg1, ByRef<::ArrayW<T>> data, int start, int length, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, arg1, byref(data), start, length, callback, object)));
+      return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, arg1, byref(data), start, length, callback, object);
     }
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     bool EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method, result)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, result);
     }
   }; // HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1
   // Could not write size check! Type: HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1 is generic, or has no fields that are valid for size checks!

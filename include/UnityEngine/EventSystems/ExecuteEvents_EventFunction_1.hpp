@@ -50,21 +50,21 @@ namespace UnityEngine::EventSystems {
     void Invoke(T1 handler, UnityEngine::EventSystems::BaseEventData* eventData) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::EventFunction_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(handler), ::il2cpp_utils::ExtractType(eventData)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, handler, eventData)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, handler, eventData);
     }
     // public System.IAsyncResult BeginInvoke(T1 handler, UnityEngine.EventSystems.BaseEventData eventData, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
     System::IAsyncResult* BeginInvoke(T1 handler, UnityEngine::EventSystems::BaseEventData* eventData, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::EventFunction_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(handler), ::il2cpp_utils::ExtractType(eventData), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<System::IAsyncResult*, false>(this, ___internal__method, handler, eventData, callback, object)));
+      return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, handler, eventData, callback, object);
     }
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0xFFFFFFFF
     void EndInvoke(System::IAsyncResult* result) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::EventFunction_1::EndInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, result)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result);
     }
   }; // UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1
   // Could not write size check! Type: UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1 is generic, or has no fields that are valid for size checks!

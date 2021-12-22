@@ -126,49 +126,49 @@ namespace GlobalNamespace {
     float CellSize() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellSize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CellSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<float, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<float, false>(this, ___internal__method);
     }
     // public System.Int32 NumberOfCells()
     // Offset: 0xFFFFFFFF
     int NumberOfCells() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::NumberOfCells");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "NumberOfCells", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     // Offset: 0xFFFFFFFF
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::CellForIdx");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CellForIdx", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tableView), ::il2cpp_utils::ExtractType(idx)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<HMUI::TableCell*, false>(this, ___internal__method, tableView, idx)));
+      return ::il2cpp_utils::RunMethodRethrow<HMUI::TableCell*, false>(this, ___internal__method, tableView, idx);
     }
     // public System.Int32 GetIdForValue(T value)
     // Offset: 0xFFFFFFFF
     int GetIdForValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetIdForValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetIdForValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, value)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, value);
     }
     // public System.String GetLabelForId(System.Int32 id)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetLabelForId(int id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetLabelForId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetLabelForId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppString*, false>(this, ___internal__method, id)));
+      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method, id);
     }
     // public T GetValueForId(System.Int32 id)
     // Offset: 0xFFFFFFFF
     T GetValueForId(int id) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetValueForId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetValueForId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<T, false>(this, ___internal__method, id)));
+      return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, id);
     }
     // public System.String GetLabelForValue(T value)
     // Offset: 0xFFFFFFFF
     ::Il2CppString* GetLabelForValue(T value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumTableViewDataSource_1::GetLabelForValue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetLabelForValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppString*, false>(this, ___internal__method, value)));
+      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method, value);
     }
     // protected System.Void .ctor()
     // Offset: 0xFFFFFFFF

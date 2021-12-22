@@ -74,7 +74,7 @@ namespace System::Linq {
     TResult $CombineSelectors$b__0(TSource x) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::$$c__DisplayClass7_0_3::<CombineSelectors>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CombineSelectors>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<TResult, false>(this, ___internal__method, x)));
+      return ::il2cpp_utils::RunMethodRethrow<TResult, false>(this, ___internal__method, x);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF

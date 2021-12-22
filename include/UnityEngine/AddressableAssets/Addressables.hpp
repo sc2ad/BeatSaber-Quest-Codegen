@@ -293,7 +293,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAsset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, location)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, location);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAsset(System.Object key)
     // Offset: 0xFFFFFFFF
@@ -302,7 +302,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAsset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAssetAsync(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
     // Offset: 0xFFFFFFFF
@@ -311,7 +311,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(location)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, location)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, location);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> LoadAssetAsync(System.Object key)
     // Offset: 0xFFFFFFFF
@@ -320,7 +320,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation>> LoadResourceLocations(System.Collections.Generic.IList`1<System.Object> keys, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Type type)
     // Offset: 0x15FEBA4
@@ -344,7 +344,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssets");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssets", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFF
@@ -353,7 +353,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations, System.Action`1<TObject> callback, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -362,7 +362,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(locations), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback, releaseDependenciesOnFailure)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, locations, callback, releaseDependenciesOnFailure);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssets(System.Collections.Generic.IList`1<System.Object> keys, System.Action`1<TObject> callback, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode)
     // Offset: 0xFFFFFFFF
@@ -371,7 +371,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssets");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssets", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(mode)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.Generic.IList`1<System.Object> keys, System.Action`1<TObject> callback, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode)
     // Offset: 0xFFFFFFFF
@@ -380,7 +380,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(mode)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.IEnumerable keys, System.Action`1<TObject> callback, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode)
     // Offset: 0xFFFFFFFF
@@ -389,7 +389,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(mode)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.Generic.IList`1<System.Object> keys, System.Action`1<TObject> callback, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -398,7 +398,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(mode), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode, releaseDependenciesOnFailure)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode, releaseDependenciesOnFailure);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Collections.IEnumerable keys, System.Action`1<TObject> callback, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mode, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -407,7 +407,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(keys), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(mode), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode, releaseDependenciesOnFailure)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, keys, callback, mode, releaseDependenciesOnFailure);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssets(System.Object key, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFF
@@ -416,7 +416,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssets");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssets", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Object key, System.Action`1<TObject> callback)
     // Offset: 0xFFFFFFFF
@@ -425,7 +425,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(callback)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback);
     }
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<TObject>> LoadAssetsAsync(System.Object key, System.Action`1<TObject> callback, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
@@ -434,7 +434,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::LoadAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "LoadAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback, releaseDependenciesOnFailure)));
+      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<TObject>*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, key, callback, releaseDependenciesOnFailure);
     }
     // static public System.Void Release(TObject obj)
     // Offset: 0xFFFFFFFF
@@ -443,7 +443,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "Release", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, obj)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, obj);
     }
     // static public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> handle)
     // Offset: 0xFFFFFFFF
@@ -452,7 +452,7 @@ namespace UnityEngine::AddressableAssets {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Addressables::Release");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.AddressableAssets", "Addressables", "Release", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(handle)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, handle)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, handle);
     }
     // static public System.Void Release(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle handle)
     // Offset: 0x15FF1DC

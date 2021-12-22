@@ -45,7 +45,7 @@ namespace Zenject {
     Zenject::ConcreteBinderGeneric_1<TContract>* WithId(::Il2CppObject* identifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteIdBinderGeneric_1::WithId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(identifier)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___internal__method, identifier)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::ConcreteBinderGeneric_1<TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Offset: 0xFFFFFFFF

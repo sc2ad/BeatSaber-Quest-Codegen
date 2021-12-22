@@ -112,21 +112,21 @@ namespace Zenject {
       Zenject::IProvider* $FromMethod$b__0(Zenject::DiContainer* container) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__DisplayClass1_0::<FromMethod>b__0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromMethod>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::IProvider*, false>(this, ___internal__method, container)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::IProvider*, false>(this, ___internal__method, container);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
       // Offset: 0xFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__DisplayClass1_0::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::$$c__DisplayClass1_0*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0)));
+        return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
       // Offset: 0xFFFFFFFF
       static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__DisplayClass1_0::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::$$c__DisplayClass1_0*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -178,28 +178,28 @@ namespace Zenject {
       static void _cctor() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__2_1::.cctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::$$c__2_1<TSubFactory>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // System.Void <FromFactory>b__2_0(Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>> x)
       // Offset: 0xFFFFFFFF
       void $FromFactory$b__2_0(Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>* x) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__2_1::<FromFactory>b__2_0");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<FromFactory>b__2_0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x)})));
-        THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, x)));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, x);
       }
       // static private System.Object __zenCreate(System.Object[] P_0)
       // Offset: 0xFFFFFFFF
       static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__2_1::__zenCreate");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::$$c__2_1<TSubFactory>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0)));
+        return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
       }
       // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
       // Offset: 0xFFFFFFFF
       static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
         static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::$$c__2_1::__zenCreateInjectTypeInfo");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<typename FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>::$$c__2_1<TSubFactory>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-        return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+        return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
       }
       // public System.Void .ctor()
       // Offset: 0xFFFFFFFF
@@ -224,7 +224,7 @@ namespace Zenject {
     Zenject::ConditionCopyNonLazyBinder* FromMethod(System::Func_7<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::FromMethod");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromMethod", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(method)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal__method, method);
     }
     // public Zenject.ConditionCopyNonLazyBinder FromFactory()
     // Offset: 0xFFFFFFFF
@@ -234,21 +234,21 @@ namespace Zenject {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::FromFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromFactory", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSubFactory>::get()}));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::ConditionCopyNonLazyBinder*, false>(this, ___generic__method);
     }
     // public Zenject.FactorySubContainerBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> FromSubContainerResolve()
     // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* FromSubContainerResolve() {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::FromSubContainerResolve");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromSubContainerResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactorySubContainerBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract> FromSubContainerResolve(System.Object subIdentifier)
     // Offset: 0xFFFFFFFF
     Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* FromSubContainerResolve(::Il2CppObject* subIdentifier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder_6::FromSubContainerResolve");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromSubContainerResolve", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(subIdentifier)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method, subIdentifier)));
+      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactorySubContainerBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*, false>(this, ___internal__method, subIdentifier);
     }
   }; // Zenject.FactoryFromBinder`6
   // Could not write size check! Type: Zenject.FactoryFromBinder`6 is generic, or has no fields that are valid for size checks!

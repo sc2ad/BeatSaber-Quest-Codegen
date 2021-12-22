@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::PacketPool_1<T>* get_pool() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ThreadStaticPacketPool_1::get_pool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ThreadStaticPacketPool_1<T>*>::get(), "get_pool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<GlobalNamespace::PacketPool_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::PacketPool_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
   }; // ThreadStaticPacketPool`1
   // Could not write size check! Type: ThreadStaticPacketPool`1 is generic, or has no fields that are valid for size checks!

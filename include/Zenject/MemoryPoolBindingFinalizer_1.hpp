@@ -96,7 +96,7 @@ namespace Zenject {
     void OnFinalizeBinding(Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBindingFinalizer_1::OnFinalizeBinding");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnFinalizeBinding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(container)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, container)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, container);
     }
   }; // Zenject.MemoryPoolBindingFinalizer`1
   // Could not write size check! Type: Zenject.MemoryPoolBindingFinalizer`1 is generic, or has no fields that are valid for size checks!

@@ -44,7 +44,7 @@ namespace System::Linq {
     static void _cctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EmptyEnumerable_1::.cctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<EmptyEnumerable_1<TElement>*>::get(), ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
   }; // System.Linq.EmptyEnumerable`1
   // Could not write size check! Type: System.Linq.EmptyEnumerable`1 is generic, or has no fields that are valid for size checks!

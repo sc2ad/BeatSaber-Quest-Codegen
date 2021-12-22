@@ -200,77 +200,77 @@ namespace UnityEngine::Timeline {
     bool get_dirty() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::get_dirty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_dirty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<bool, false>(this, ___internal__method)));
+      return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // System.Void set_dirty(System.Boolean value)
     // Offset: 0xFFFFFFFF
     void set_dirty(bool value) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::set_dirty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_dirty", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, item)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // public System.Void IntersectsWith(System.Int64 value, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
     void IntersectsWith(int64_t value, System::Collections::Generic::List_1<T>* results) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::IntersectsWith");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IntersectsWith", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(results)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, value, results)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value, results);
     }
     // public System.Void IntersectsWithRange(System.Int64 start, System.Int64 end, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
     void IntersectsWithRange(int64_t start, int64_t end, System::Collections::Generic::List_1<T>* results) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::IntersectsWithRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IntersectsWithRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(results)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, start, end, results)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, start, end, results);
     }
     // public System.Void UpdateIntervals()
     // Offset: 0xFFFFFFFF
     void UpdateIntervals() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::UpdateIntervals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UpdateIntervals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void Query(UnityEngine.Timeline.IntervalTreeNode intervalTreeNode, System.Int64 value, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
     void Query(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t value, System::Collections::Generic::List_1<T>* results) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::Query");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Query", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(intervalTreeNode), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(results)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, intervalTreeNode, value, results)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, intervalTreeNode, value, results);
     }
     // private System.Void QueryRange(UnityEngine.Timeline.IntervalTreeNode intervalTreeNode, System.Int64 start, System.Int64 end, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
     void QueryRange(UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t start, int64_t end, System::Collections::Generic::List_1<T>* results) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::QueryRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QueryRange", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(intervalTreeNode), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(results)})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method, intervalTreeNode, start, end, results)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, intervalTreeNode, start, end, results);
     }
     // private System.Void Rebuild()
     // Offset: 0xFFFFFFFF
     void Rebuild() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::Rebuild");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rebuild", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Int32 Rebuild(System.Int32 start, System.Int32 end)
     // Offset: 0xFFFFFFFF
     int Rebuild(int start, int end) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::Rebuild");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rebuild", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end)})));
-      return THROW_UNLESS((::il2cpp_utils::RunMethod<int, false>(this, ___internal__method, start, end)));
+      return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, start, end);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IntervalTree_1::Clear");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      THROW_UNLESS((::il2cpp_utils::RunMethod<Il2CppObject*, false>(this, ___internal__method)));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
