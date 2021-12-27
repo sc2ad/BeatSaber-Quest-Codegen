@@ -77,7 +77,7 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: DSAParameters
-    constexpr DSAParameters(::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> G_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Y_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> J_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> X_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Seed_ = ::ArrayW<uint8_t>(nullptr), int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
+    constexpr DSAParameters(::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> G_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> Y_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> J_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> X_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> Seed_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

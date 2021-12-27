@@ -53,7 +53,7 @@ namespace UnityEngine {
     static_assert(sizeof(::ArrayW<UnityEngine::Renderer*>) == 0x8);
     public:
     // Creating value type constructor for type: LOD
-    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayW<UnityEngine::Renderer*> renderers_ = ::ArrayW<UnityEngine::Renderer*>(nullptr)) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
+    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayW<UnityEngine::Renderer*> renderers_ = ::ArrayW<UnityEngine::Renderer*>(static_cast<void*>(nullptr))) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

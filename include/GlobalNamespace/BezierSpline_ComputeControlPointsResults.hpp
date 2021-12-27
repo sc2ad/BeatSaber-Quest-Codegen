@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<float>) == 0x8);
     public:
     // Creating value type constructor for type: ComputeControlPointsResults
-    constexpr ComputeControlPointsResults(::ArrayW<float> p1_ = ::ArrayW<float>(nullptr), ::ArrayW<float> p2_ = ::ArrayW<float>(nullptr)) noexcept : p1{p1_}, p2{p2_} {}
+    constexpr ComputeControlPointsResults(::ArrayW<float> p1_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> p2_ = ::ArrayW<float>(static_cast<void*>(nullptr))) noexcept : p1{p1_}, p2{p2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -35,7 +35,7 @@ namespace System::Reflection {
     static_assert(sizeof(::ArrayW<bool>) == 0x8);
     public:
     // Creating value type constructor for type: ParameterModifier
-    constexpr ParameterModifier(::ArrayW<bool> byRef_ = ::ArrayW<bool>(nullptr)) noexcept : byRef{byRef_} {}
+    constexpr ParameterModifier(::ArrayW<bool> byRef_ = ::ArrayW<bool>(static_cast<void*>(nullptr))) noexcept : byRef{byRef_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

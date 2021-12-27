@@ -75,7 +75,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: DiagnosticEvent
-    constexpr DiagnosticEvent(::Il2CppString* m_Graph_ = {}, ::ArrayW<int> m_Dependencies_ = ::ArrayW<int>(nullptr), int m_ObjectId_ = {}, ::Il2CppString* m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
+    constexpr DiagnosticEvent(::Il2CppString* m_Graph_ = {}, ::ArrayW<int> m_Dependencies_ = ::ArrayW<int>(static_cast<void*>(nullptr)), int m_ObjectId_ = {}, ::Il2CppString* m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

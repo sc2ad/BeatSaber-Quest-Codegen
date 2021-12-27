@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: AppPerfStats
-    constexpr AppPerfStats(::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats_ = ::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats>(nullptr), int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
+    constexpr AppPerfStats(::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats> FrameStats_ = ::ArrayW<GlobalNamespace::OVRPlugin::AppPerfFrameStats>(static_cast<void*>(nullptr)), int FrameStatsCount_ = {}, GlobalNamespace::OVRPlugin::Bool AnyFrameStatsDropped_ = {}, float AdaptiveGpuPerformanceScale_ = {}) noexcept : FrameStats{FrameStats_}, FrameStatsCount{FrameStatsCount_}, AnyFrameStatsDropped{AnyFrameStatsDropped_}, AdaptiveGpuPerformanceScale{AdaptiveGpuPerformanceScale_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

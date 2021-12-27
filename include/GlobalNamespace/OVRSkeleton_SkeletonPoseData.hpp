@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: SkeletonPoseData
-    constexpr SkeletonPoseData(GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, float RootScale_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations_ = ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>(nullptr), bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, int SkeletonChangedCount_ = {}) noexcept : RootPose{RootPose_}, RootScale{RootScale_}, BoneRotations{BoneRotations_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, SkeletonChangedCount{SkeletonChangedCount_} {}
+    constexpr SkeletonPoseData(GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, float RootScale_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Quatf> BoneRotations_ = ::ArrayW<GlobalNamespace::OVRPlugin::Quatf>(static_cast<void*>(nullptr)), bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, int SkeletonChangedCount_ = {}) noexcept : RootPose{RootPose_}, RootScale{RootScale_}, BoneRotations{BoneRotations_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, SkeletonChangedCount{SkeletonChangedCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

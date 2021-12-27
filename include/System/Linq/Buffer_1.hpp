@@ -52,7 +52,7 @@ namespace System::Linq {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: Buffer_1
-    constexpr Buffer_1(::ArrayW<TElement> items_ = ::ArrayW<TElement>(nullptr), int count_ = {}) noexcept : items{items_}, count{count_} {}
+    constexpr Buffer_1(::ArrayW<TElement> items_ = ::ArrayW<TElement>(static_cast<void*>(nullptr)), int count_ = {}) noexcept : items{items_}, count{count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -54,7 +54,7 @@ namespace UnityEngine::Tilemaps {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: TileAnimationData
-    constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<UnityEngine::Sprite*>(nullptr), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
+    constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<UnityEngine::Sprite*>(static_cast<void*>(nullptr)), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

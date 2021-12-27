@@ -39,7 +39,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Creating value type constructor for type: Bucket
-    constexpr Bucket(int dataOffset_ = {}, ::ArrayW<int> entries_ = ::ArrayW<int>(nullptr)) noexcept : dataOffset{dataOffset_}, entries{entries_} {}
+    constexpr Bucket(int dataOffset_ = {}, ::ArrayW<int> entries_ = ::ArrayW<int>(static_cast<void*>(nullptr))) noexcept : dataOffset{dataOffset_}, entries{entries_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

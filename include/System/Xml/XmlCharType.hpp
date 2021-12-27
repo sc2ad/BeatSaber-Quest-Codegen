@@ -34,7 +34,7 @@ namespace System::Xml {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::ArrayW<uint8_t> charProperties_ = ::ArrayW<uint8_t>(nullptr)) noexcept : charProperties{charProperties_} {}
+    constexpr XmlCharType(::ArrayW<uint8_t> charProperties_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : charProperties{charProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

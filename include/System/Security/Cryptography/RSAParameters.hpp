@@ -77,7 +77,7 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Creating value type constructor for type: RSAParameters
-    constexpr RSAParameters(::ArrayW<uint8_t> Exponent_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Modulus_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> DP_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> DQ_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> InverseQ_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> D_ = ::ArrayW<uint8_t>(nullptr)) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
+    constexpr RSAParameters(::ArrayW<uint8_t> Exponent_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> Modulus_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> DP_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> DQ_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> InverseQ_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> D_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

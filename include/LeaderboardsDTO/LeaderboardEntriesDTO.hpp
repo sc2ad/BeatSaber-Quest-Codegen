@@ -40,7 +40,7 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>) == 0x8);
     public:
     // Creating value type constructor for type: LeaderboardEntriesDTO
-    constexpr LeaderboardEntriesDTO(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>(nullptr)) noexcept : entries{entries_} {}
+    constexpr LeaderboardEntriesDTO(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>(static_cast<void*>(nullptr))) noexcept : entries{entries_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

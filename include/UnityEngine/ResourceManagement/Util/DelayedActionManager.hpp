@@ -93,7 +93,7 @@ namespace UnityEngine::ResourceManagement::Util {
       static_assert(sizeof(float) == 0x4);
       public:
       // Creating value type constructor for type: DelegateInfo
-      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::ArrayW<::Il2CppObject*> m_Target_ = ::ArrayW<::Il2CppObject*>(nullptr), float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
+      constexpr DelegateInfo(int m_Id_ = {}, System::Delegate* m_Delegate_ = {}, ::ArrayW<::Il2CppObject*> m_Target_ = ::ArrayW<::Il2CppObject*>(static_cast<void*>(nullptr)), float InvocationTime_ = {}) noexcept : m_Id{m_Id_}, m_Delegate{m_Delegate_}, m_Target{m_Target_}, InvocationTime{InvocationTime_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

@@ -94,7 +94,7 @@ namespace System::Reflection {
     static_assert(sizeof(::ArrayW<System::Reflection::MethodInfo*>) == 0x8);
     public:
     // Creating value type constructor for type: MonoEventInfo
-    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::ArrayW<System::Reflection::MethodInfo*> other_methods_ = ::ArrayW<System::Reflection::MethodInfo*>(nullptr)) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
+    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::ArrayW<System::Reflection::MethodInfo*> other_methods_ = ::ArrayW<System::Reflection::MethodInfo*>(static_cast<void*>(nullptr))) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -43,7 +43,7 @@ namespace System::Net {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Creating value type constructor for type: IPv6AddressFormatter
-    constexpr IPv6AddressFormatter(::ArrayW<uint16_t> address_ = ::ArrayW<uint16_t>(nullptr), int64_t scopeId_ = {}) noexcept : address{address_}, scopeId{scopeId_} {}
+    constexpr IPv6AddressFormatter(::ArrayW<uint16_t> address_ = ::ArrayW<uint16_t>(static_cast<void*>(nullptr)), int64_t scopeId_ = {}) noexcept : address{address_}, scopeId{scopeId_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

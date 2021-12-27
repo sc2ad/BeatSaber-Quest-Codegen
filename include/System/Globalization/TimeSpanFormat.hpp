@@ -96,7 +96,7 @@ namespace System::Globalization {
       static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
       public:
       // Creating value type constructor for type: FormatLiterals
-      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::ArrayW<::Il2CppString*> literals_ = ::ArrayW<::Il2CppString*>(nullptr)) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
+      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::ArrayW<::Il2CppString*> literals_ = ::ArrayW<::Il2CppString*>(static_cast<void*>(nullptr))) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

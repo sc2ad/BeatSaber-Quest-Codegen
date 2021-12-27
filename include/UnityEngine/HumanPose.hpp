@@ -52,7 +52,7 @@ namespace UnityEngine {
     static_assert(sizeof(::ArrayW<float>) == 0x8);
     public:
     // Creating value type constructor for type: HumanPose
-    constexpr HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::ArrayW<float> muscles_ = ::ArrayW<float>(nullptr)) noexcept : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
+    constexpr HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::ArrayW<float> muscles_ = ::ArrayW<float>(static_cast<void*>(nullptr))) noexcept : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

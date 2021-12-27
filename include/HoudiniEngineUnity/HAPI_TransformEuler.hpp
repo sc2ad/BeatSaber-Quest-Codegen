@@ -68,7 +68,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
     public:
     // Creating value type constructor for type: HAPI_TransformEuler
-    constexpr HAPI_TransformEuler(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationEuler_ = ::ArrayW<float>(nullptr), ::ArrayW<float> scale_ = ::ArrayW<float>(nullptr), ::ArrayW<float> shear_ = ::ArrayW<float>(nullptr), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_TransformEuler(::ArrayW<float> position_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> rotationEuler_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> scale_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> shear_ = ::ArrayW<float>(static_cast<void*>(nullptr)), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

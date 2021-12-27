@@ -72,7 +72,7 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Creating value type constructor for type: sockaddr_ll
-    constexpr sockaddr_ll(uint16_t sll_family_ = {}, uint16_t sll_protocol_ = {}, int sll_ifindex_ = {}, uint16_t sll_hatype_ = {}, uint8_t sll_pkttype_ = {}, uint8_t sll_halen_ = {}, ::ArrayW<uint8_t> sll_addr_ = ::ArrayW<uint8_t>(nullptr)) noexcept : sll_family{sll_family_}, sll_protocol{sll_protocol_}, sll_ifindex{sll_ifindex_}, sll_hatype{sll_hatype_}, sll_pkttype{sll_pkttype_}, sll_halen{sll_halen_}, sll_addr{sll_addr_} {}
+    constexpr sockaddr_ll(uint16_t sll_family_ = {}, uint16_t sll_protocol_ = {}, int sll_ifindex_ = {}, uint16_t sll_hatype_ = {}, uint8_t sll_pkttype_ = {}, uint8_t sll_halen_ = {}, ::ArrayW<uint8_t> sll_addr_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : sll_family{sll_family_}, sll_protocol{sll_protocol_}, sll_ifindex{sll_ifindex_}, sll_hatype{sll_hatype_}, sll_pkttype{sll_pkttype_}, sll_halen{sll_halen_}, sll_addr{sll_addr_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

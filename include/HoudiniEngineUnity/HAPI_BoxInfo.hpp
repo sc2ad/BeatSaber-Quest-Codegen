@@ -45,7 +45,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::ArrayW<float>) == 0x8);
     public:
     // Creating value type constructor for type: HAPI_BoxInfo
-    constexpr HAPI_BoxInfo(::ArrayW<float> center_ = ::ArrayW<float>(nullptr), ::ArrayW<float> size_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotation_ = ::ArrayW<float>(nullptr)) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
+    constexpr HAPI_BoxInfo(::ArrayW<float> center_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> size_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> rotation_ = ::ArrayW<float>(static_cast<void*>(nullptr))) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

@@ -57,7 +57,7 @@ namespace TMPro {
     T m_DefaultItem;
     public:
     // Creating value type constructor for type: TMP_RichTextTagStack_1
-    constexpr TMP_RichTextTagStack_1(::ArrayW<T> m_ItemStack_ = ::ArrayW<T>(nullptr), int m_Index_ = {}, int m_Capacity_ = {}, T m_DefaultItem_ = {}) noexcept : m_ItemStack{m_ItemStack_}, m_Index{m_Index_}, m_Capacity{m_Capacity_}, m_DefaultItem{m_DefaultItem_} {}
+    constexpr TMP_RichTextTagStack_1(::ArrayW<T> m_ItemStack_ = ::ArrayW<T>(static_cast<void*>(nullptr)), int m_Index_ = {}, int m_Capacity_ = {}, T m_DefaultItem_ = {}) noexcept : m_ItemStack{m_ItemStack_}, m_Index{m_Index_}, m_Capacity{m_Capacity_}, m_DefaultItem{m_DefaultItem_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

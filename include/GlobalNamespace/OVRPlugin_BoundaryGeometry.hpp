@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: BoundaryGeometry
-    constexpr BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f> Points_ = ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>(nullptr), int PointsCount_ = {}) noexcept : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
+    constexpr BoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType BoundaryType_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f> Points_ = ::ArrayW<GlobalNamespace::OVRPlugin::Vector3f>(static_cast<void*>(nullptr)), int PointsCount_ = {}) noexcept : BoundaryType{BoundaryType_}, Points{Points_}, PointsCount{PointsCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

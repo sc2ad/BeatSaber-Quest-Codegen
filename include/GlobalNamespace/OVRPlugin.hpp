@@ -1480,7 +1480,7 @@ namespace GlobalNamespace {
       static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
       public:
       // Creating value type constructor for type: Skeleton
-      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<GlobalNamespace::OVRPlugin::Bone>(nullptr), ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>(nullptr)) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<GlobalNamespace::OVRPlugin::Bone>(static_cast<void*>(nullptr)), ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>(static_cast<void*>(nullptr))) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);

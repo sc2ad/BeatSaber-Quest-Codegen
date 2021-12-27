@@ -43,7 +43,7 @@ namespace SFB {
     static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     public:
     // Creating value type constructor for type: ExtensionFilter
-    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayW<::Il2CppString*> extensions_ = ::ArrayW<::Il2CppString*>(nullptr)) noexcept : name{name_}, extensions{extensions_} {}
+    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayW<::Il2CppString*> extensions_ = ::ArrayW<::Il2CppString*>(static_cast<void*>(nullptr))) noexcept : name{name_}, extensions{extensions_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

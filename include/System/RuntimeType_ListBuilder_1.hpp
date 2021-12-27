@@ -54,7 +54,7 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: ListBuilder_1
-    constexpr ListBuilder_1(::ArrayW<T> items_ = ::ArrayW<T>(nullptr), T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
+    constexpr ListBuilder_1(::ArrayW<T> items_ = ::ArrayW<T>(static_cast<void*>(nullptr)), T item_ = {}, int count_ = {}, int capacity_ = {}) noexcept : items{items_}, item{item_}, count{count_}, capacity{capacity_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

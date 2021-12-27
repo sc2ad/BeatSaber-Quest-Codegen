@@ -39,7 +39,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: HAPI_SphereInfo
-    constexpr HAPI_SphereInfo(::ArrayW<float> center_ = ::ArrayW<float>(nullptr), float radius_ = {}) noexcept : center{center_}, radius{radius_} {}
+    constexpr HAPI_SphereInfo(::ArrayW<float> center_ = ::ArrayW<float>(static_cast<void*>(nullptr)), float radius_ = {}) noexcept : center{center_}, radius{radius_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

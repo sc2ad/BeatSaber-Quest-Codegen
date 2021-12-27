@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*) == 0x8);
     public:
     // Creating value type constructor for type: ProcessMessageRes
-    constexpr ProcessMessageRes(::ArrayW<uint8_t> arrResponse_ = ::ArrayW<uint8_t>(nullptr), System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
+    constexpr ProcessMessageRes(::ArrayW<uint8_t> arrResponse_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

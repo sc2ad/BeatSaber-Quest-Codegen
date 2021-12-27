@@ -43,7 +43,7 @@ namespace System::IO {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: ReadWriteParameters
-    constexpr ReadWriteParameters(::ArrayW<uint8_t> Buffer_ = ::ArrayW<uint8_t>(nullptr), int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
+    constexpr ReadWriteParameters(::ArrayW<uint8_t> Buffer_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

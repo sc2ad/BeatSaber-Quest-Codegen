@@ -52,7 +52,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     static_assert(sizeof(::ArrayW<T>) == 0x8);
     public:
     // Creating value type constructor for type: HyperRect_1
-    constexpr HyperRect_1(::ArrayW<T> minPoint_ = ::ArrayW<T>(nullptr), ::ArrayW<T> maxPoint_ = ::ArrayW<T>(nullptr)) noexcept : minPoint{minPoint_}, maxPoint{maxPoint_} {}
+    constexpr HyperRect_1(::ArrayW<T> minPoint_ = ::ArrayW<T>(static_cast<void*>(nullptr)), ::ArrayW<T> maxPoint_ = ::ArrayW<T>(static_cast<void*>(nullptr))) noexcept : minPoint{minPoint_}, maxPoint{maxPoint_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);

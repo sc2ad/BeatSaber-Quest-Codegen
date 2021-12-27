@@ -45,7 +45,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: HAPI_Viewport
-    constexpr HAPI_Viewport(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationQuaternion_ = ::ArrayW<float>(nullptr), float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
+    constexpr HAPI_Viewport(::ArrayW<float> position_ = ::ArrayW<float>(static_cast<void*>(nullptr)), ::ArrayW<float> rotationQuaternion_ = ::ArrayW<float>(static_cast<void*>(nullptr)), float offset_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, offset{offset_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
