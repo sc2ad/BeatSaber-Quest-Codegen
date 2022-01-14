@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -105,9 +106,9 @@ namespace HoudiniEngineUnity {
     // public System.String _paramName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* paramName;
+    ::StringW paramName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _bDisabled
     // Size: 0x1
     // Offset: 0x20
@@ -132,7 +133,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _parmID
     int& dyn__parmID();
     // Get instance field reference: public System.String _paramName
-    ::Il2CppString*& dyn__paramName();
+    ::StringW& dyn__paramName();
     // Get instance field reference: public System.Boolean _bDisabled
     bool& dyn__bDisabled();
     // Get instance field reference: public System.Boolean[] _boundChannels

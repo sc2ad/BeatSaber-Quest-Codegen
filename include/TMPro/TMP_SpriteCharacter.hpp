@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -47,9 +48,9 @@ namespace TMPro {
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_HashCode
     // Size: 0x4
     // Offset: 0x30
@@ -58,15 +59,15 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
     int& dyn_m_HashCode();
     // public System.String get_name()
     // Offset: 0x1262D40
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void set_name(System.String value)
     // Offset: 0x1262B74
-    void set_name(::Il2CppString* value);
+    void set_name(::StringW value);
     // public System.Int32 get_hashCode()
     // Offset: 0x1262D48
     int get_hashCode();
@@ -96,7 +97,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(::Il2CppString*)>(&TMPro::TMP_SpriteCharacter::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(::StringW)>(&TMPro::TMP_SpriteCharacter::set_name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

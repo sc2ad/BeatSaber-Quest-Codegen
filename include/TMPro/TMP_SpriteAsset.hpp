@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -89,9 +90,9 @@ namespace TMPro {
     // private System.String m_Version
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* m_Version;
+    ::StringW m_Version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Texture spriteSheet
     // Size: 0x8
     // Offset: 0x50
@@ -140,7 +141,7 @@ namespace TMPro {
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_GlyphIndexLookup
     System::Collections::Generic::Dictionary_2<uint, int>*& dyn_m_GlyphIndexLookup();
     // Get instance field reference: private System.String m_Version
-    ::Il2CppString*& dyn_m_Version();
+    ::StringW& dyn_m_Version();
     // Get instance field reference: public UnityEngine.Texture spriteSheet
     UnityEngine::Texture*& dyn_spriteSheet();
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> m_SpriteCharacterTable
@@ -155,10 +156,10 @@ namespace TMPro {
     bool& dyn_m_IsSpriteAssetLookupTablesDirty();
     // public System.String get_version()
     // Offset: 0x12614A4
-    ::Il2CppString* get_version();
+    ::StringW get_version();
     // System.Void set_version(System.String value)
     // Offset: 0x12614AC
-    void set_version(::Il2CppString* value);
+    void set_version(::StringW value);
     // public System.Collections.Generic.List`1<TMPro.TMP_SpriteCharacter> get_spriteCharacterTable()
     // Offset: 0x1261404
     System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>* get_spriteCharacterTable();
@@ -188,7 +189,7 @@ namespace TMPro {
     int GetSpriteIndexFromUnicode(uint unicode);
     // public System.Int32 GetSpriteIndexFromName(System.String name)
     // Offset: 0x1261F1C
-    int GetSpriteIndexFromName(::Il2CppString* name);
+    int GetSpriteIndexFromName(::StringW name);
     // static public TMPro.TMP_SpriteAsset SearchForSpriteByUnicode(TMPro.TMP_SpriteAsset spriteAsset, System.UInt32 unicode, System.Boolean includeFallbacks, out System.Int32 spriteIndex)
     // Offset: 0x1261FAC
     static TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(TMPro::TMP_SpriteAsset* spriteAsset, uint unicode, bool includeFallbacks, ByRef<int> spriteIndex);
@@ -240,7 +241,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_SpriteAsset::*)()>(&TMPro::TMP_SpriteAsset::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::set_version
 // Il2CppName: set_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::set_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(::StringW)>(&TMPro::TMP_SpriteAsset::set_version)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromName
 // Il2CppName: GetSpriteIndexFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(::StringW)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

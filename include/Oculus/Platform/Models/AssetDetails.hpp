@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -53,27 +54,27 @@ namespace Oculus::Platform::Models {
     // public readonly System.String AssetType
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* AssetType;
+    ::StringW AssetType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String DownloadStatus
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* DownloadStatus;
+    ::StringW DownloadStatus;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Filepath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* Filepath;
+    ::StringW Filepath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String IapStatus
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* IapStatus;
+    ::StringW IapStatus;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
     // Size: 0x8
     // Offset: 0x38
@@ -90,26 +91,26 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Metadata
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* Metadata;
+    ::StringW Metadata;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.UInt64 AssetId
     uint64_t& dyn_AssetId();
     // Get instance field reference: public readonly System.String AssetType
-    ::Il2CppString*& dyn_AssetType();
+    ::StringW& dyn_AssetType();
     // Get instance field reference: public readonly System.String DownloadStatus
-    ::Il2CppString*& dyn_DownloadStatus();
+    ::StringW& dyn_DownloadStatus();
     // Get instance field reference: public readonly System.String Filepath
-    ::Il2CppString*& dyn_Filepath();
+    ::StringW& dyn_Filepath();
     // Get instance field reference: public readonly System.String IapStatus
-    ::Il2CppString*& dyn_IapStatus();
+    ::StringW& dyn_IapStatus();
     // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
     Oculus::Platform::Models::LanguagePackInfo*& dyn_LanguageOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo Language
     Oculus::Platform::Models::LanguagePackInfo*& dyn_Language();
     // Get instance field reference: public readonly System.String Metadata
-    ::Il2CppString*& dyn_Metadata();
+    ::StringW& dyn_Metadata();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x17570E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -119,7 +120,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.AssetDetails
   #pragma pack(pop)
-  static check_size<sizeof(AssetDetails), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AssetDetailsSizeCheck;
+  static check_size<sizeof(AssetDetails), 72 + sizeof(::StringW)> __Oculus_Platform_Models_AssetDetailsSizeCheck;
   static_assert(sizeof(AssetDetails) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

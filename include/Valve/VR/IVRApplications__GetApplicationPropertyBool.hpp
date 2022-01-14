@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -51,10 +52,10 @@ namespace Valve::VR {
     }
     // public System.Boolean Invoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError)
     // Offset: 0x18C49A4
-    bool Invoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError);
+    bool Invoke(::StringW pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError);
     // public System.IAsyncResult BeginInvoke(System.String pchAppKey, Valve.VR.EVRApplicationProperty eProperty, ref Valve.VR.EVRApplicationError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x18CF258
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchAppKey, Valve::VR::EVRApplicationProperty eProperty, ByRef<Valve::VR::EVRApplicationError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.EVRApplicationError peError, System.IAsyncResult result)
     // Offset: 0x18CF314
     bool EndInvoke(ByRef<Valve::VR::EVRApplicationError> peError, System::IAsyncResult* result);
@@ -69,7 +70,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, ByRef<Valve::VR::EVRApplicationError>)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::StringW, Valve::VR::EVRApplicationProperty, ByRef<Valve::VR::EVRApplicationError>)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eProperty = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationProperty")->byval_arg;
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, ByRef<Valve::VR::EVRApplicationError>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::StringW, Valve::VR::EVRApplicationProperty, ByRef<Valve::VR::EVRApplicationError>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eProperty = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationProperty")->byval_arg;

@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -40,7 +41,7 @@ namespace System::Security::Cryptography {
     void SetKey(System::Security::Cryptography::AsymmetricAlgorithm* key);
     // public System.Void SetHashAlgorithm(System.String strName)
     // Offset: 0xFFFFFFFF
-    void SetHashAlgorithm(::Il2CppString* strName);
+    void SetHashAlgorithm(::StringW strName);
     // public System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     // Offset: 0xFFFFFFFF
     bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricSignatureDeformatter::SetHashAlgorithm
 // Il2CppName: SetHashAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(::Il2CppString*)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::SetHashAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(::StringW)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::SetHashAlgorithm)> {
   static const MethodInfo* get() {
     static auto* strName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricSignatureDeformatter*), "SetHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{strName});

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -50,74 +51,74 @@ namespace System::Net::Mail {
     // private System.String address
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* address;
+    ::StringW address;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* displayName;
+    ::StringW displayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String host
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* host;
+    ::StringW host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String user
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* user;
+    ::StringW user;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String to_string
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* to_string;
+    ::StringW to_string;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String address
-    ::Il2CppString*& dyn_address();
+    ::StringW& dyn_address();
     // Get instance field reference: private System.String displayName
-    ::Il2CppString*& dyn_displayName();
+    ::StringW& dyn_displayName();
     // Get instance field reference: private System.String host
-    ::Il2CppString*& dyn_host();
+    ::StringW& dyn_host();
     // Get instance field reference: private System.String user
-    ::Il2CppString*& dyn_user();
+    ::StringW& dyn_user();
     // Get instance field reference: private System.String to_string
-    ::Il2CppString*& dyn_to_string();
+    ::StringW& dyn_to_string();
     // public System.String get_Address()
     // Offset: 0x18B9A88
-    ::Il2CppString* get_Address();
+    ::StringW get_Address();
     // public System.String get_DisplayName()
     // Offset: 0x18B9A90
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
     // public System.Void .ctor(System.String address)
     // Offset: 0x18B967C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MailAddress* New_ctor(::Il2CppString* address) {
+    static MailAddress* New_ctor(::StringW address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address)));
     }
     // public System.Void .ctor(System.String address, System.String displayName)
     // Offset: 0x18B96B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName) {
+    static MailAddress* New_ctor(::StringW address, ::StringW displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName)));
     }
     // public System.Void .ctor(System.String address, System.String displayName, System.Text.Encoding displayNameEncoding)
     // Offset: 0x18B96F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MailAddress* New_ctor(::Il2CppString* address, ::Il2CppString* displayName, System::Text::Encoding* displayNameEncoding) {
+    static MailAddress* New_ctor(::StringW address, ::StringW displayName, System::Text::Encoding* displayNameEncoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName, displayNameEncoding)));
     }
     // private System.Void ParseAddress(System.String address)
     // Offset: 0x18B97DC
-    void ParseAddress(::Il2CppString* address);
+    void ParseAddress(::StringW address);
     // static private System.FormatException CreateFormatException()
     // Offset: 0x18B9A20
     static System::FormatException* CreateFormatException();
@@ -135,17 +136,17 @@ namespace System::Net::Mail {
     // Offset: 0x18B9B7C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Mail.MailAddress
   #pragma pack(pop)
-  static check_size<sizeof(MailAddress), 48 + sizeof(::Il2CppString*)> __System_Net_Mail_MailAddressSizeCheck;
+  static check_size<sizeof(MailAddress), 48 + sizeof(::StringW)> __System_Net_Mail_MailAddressSizeCheck;
   static_assert(sizeof(MailAddress) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_Address)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::ParseAddress
 // Il2CppName: ParseAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*)>(&System::Net::Mail::MailAddress::ParseAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::StringW)>(&System::Net::Mail::MailAddress::ParseAddress)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ParseAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
@@ -207,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

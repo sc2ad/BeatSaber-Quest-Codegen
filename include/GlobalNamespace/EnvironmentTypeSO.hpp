@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,17 +41,17 @@ namespace GlobalNamespace {
     // private System.String _typeNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* typeNameLocalizationKey;
+    ::StringW typeNameLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _typeNameLocalizationKey
-    ::Il2CppString*& dyn__typeNameLocalizationKey();
+    ::StringW& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
     // Offset: 0x11DF7D8
-    ::Il2CppString* get_typeNameLocalizationKey();
+    ::StringW get_typeNameLocalizationKey();
     // public System.Void .ctor()
     // Offset: 0x11DF7E0
     // Implemented from: UnityEngine.ScriptableObject
@@ -64,14 +65,14 @@ namespace GlobalNamespace {
     }
   }; // EnvironmentTypeSO
   #pragma pack(pop)
-  static check_size<sizeof(EnvironmentTypeSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_EnvironmentTypeSOSizeCheck;
+  static check_size<sizeof(EnvironmentTypeSO), 24 + sizeof(::StringW)> __GlobalNamespace_EnvironmentTypeSOSizeCheck;
   static_assert(sizeof(EnvironmentTypeSO) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey
 // Il2CppName: get_typeNameLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EnvironmentTypeSO::*)()>(&GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EnvironmentTypeSO::*)()>(&GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentTypeSO*), "get_typeNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,9 +51,9 @@ namespace GlobalNamespace {
     // public System.String localizedKey
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedKey;
+    ::StringW localizedKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Sprite categoryIcon
     // Size: 0x8
     // Offset: 0x20
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
     // Get instance field reference: public System.String localizedKey
-    ::Il2CppString*& dyn_localizedKey();
+    ::StringW& dyn_localizedKey();
     // Get instance field reference: public UnityEngine.Sprite categoryIcon
     UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()

@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -50,15 +51,15 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String secret
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 multiplayerPort
     // Size: 0x4
     // Offset: 0x20
@@ -97,9 +98,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String secret
-    ::Il2CppString*& dyn_secret();
+    ::StringW& dyn_secret();
     // Get instance field reference: public System.Int32 multiplayerPort
     int& dyn_multiplayerPort();
     // Get instance field reference: public System.Boolean blocked

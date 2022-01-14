@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -253,9 +254,9 @@ namespace HMUI {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HMUI.TableCell>> _reusableCells
     // Size: 0x8
     // Offset: 0x88
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>* reusableCells;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HMUI::TableCell*>*>* reusableCells;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HMUI::TableCell*>*>*) == 0x8);
     // private System.Collections.Generic.HashSet`1<System.Int32> _selectedCellIdxs
     // Size: 0x8
     // Offset: 0x90
@@ -330,7 +331,7 @@ namespace HMUI {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<HMUI.TableCell> _visibleCells
     System::Collections::Generic::List_1<HMUI::TableCell*>*& dyn__visibleCells();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HMUI.TableCell>> _reusableCells
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HMUI::TableCell*>*>*& dyn__reusableCells();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HMUI::TableCell*>*>*& dyn__reusableCells();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.Int32> _selectedCellIdxs
     System::Collections::Generic::HashSet_1<int>*& dyn__selectedCellIdxs();
     // Get instance field reference: private System.Int32 _prevMinIdx
@@ -466,7 +467,7 @@ namespace HMUI {
     void DeleteCells(int idx, int count);
     // public HMUI.TableCell DequeueReusableCellForIdentifier(System.String identifier)
     // Offset: 0x14CE170
-    HMUI::TableCell* DequeueReusableCellForIdentifier(::Il2CppString* identifier);
+    HMUI::TableCell* DequeueReusableCellForIdentifier(::StringW identifier);
     // public System.Void SelectCellWithIdx(System.Int32 idx, System.Boolean callbackTable)
     // Offset: 0x14D1EEC
     void SelectCellWithIdx(int idx, bool callbackTable);
@@ -862,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::TableView::DequeueReusableCellForIdentifier
 // Il2CppName: DequeueReusableCellForIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::TableView::*)(::Il2CppString*)>(&HMUI::TableView::DequeueReusableCellForIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::TableView::*)(::StringW)>(&HMUI::TableView::DequeueReusableCellForIdentifier)> {
   static const MethodInfo* get() {
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableView*), "DequeueReusableCellForIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identifier});

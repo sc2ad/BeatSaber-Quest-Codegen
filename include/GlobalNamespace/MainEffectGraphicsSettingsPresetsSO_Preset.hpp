@@ -48,8 +48,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectSO*) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public MainEffectSO mainEffect
     GlobalNamespace::MainEffectSO*& dyn_mainEffect();
     // public System.Void .ctor()

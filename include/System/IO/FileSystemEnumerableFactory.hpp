@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -37,7 +38,7 @@ namespace System::IO {
     public:
     // static System.Collections.Generic.IEnumerable`1<System.String> CreateFileNameIterator(System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
     // Offset: 0x1AF687C
-    static System::Collections::Generic::IEnumerable_1<::Il2CppString*>* CreateFileNameIterator(::Il2CppString* path, ::Il2CppString* originalUserPath, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
+    static System::Collections::Generic::IEnumerable_1<::StringW>* CreateFileNameIterator(::StringW path, ::StringW originalUserPath, ::StringW searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
   }; // System.IO.FileSystemEnumerableFactory
   #pragma pack(pop)
 }
@@ -45,7 +46,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableFactory::CreateFileNameIterator
 // Il2CppName: CreateFileNameIterator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::StringW, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* originalUserPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

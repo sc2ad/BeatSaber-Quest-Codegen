@@ -13,6 +13,7 @@
 #include "UnityEngine/Rendering/VertexAttribute.hpp"
 // Including type: UnityEngine.Rendering.VertexAttributeFormat
 #include "UnityEngine/Rendering/VertexAttributeFormat.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
@@ -98,7 +99,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x1DFC0FC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x1DFC2B0
     // Implemented from: System.ValueType
@@ -159,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -65,9 +66,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> strings;
+    ::ArrayW<::StringW> strings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Int32 _trackcount
     // Size: 0x4
     // Offset: 0x20
@@ -118,7 +119,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32[] _codes
     ::ArrayW<int>& dyn__codes();
     // Get instance field reference: System.String[] _strings
-    ::ArrayW<::Il2CppString*>& dyn__strings();
+    ::ArrayW<::StringW>& dyn__strings();
     // Get instance field reference: System.Int32 _trackcount
     int& dyn__trackcount();
     // Get instance field reference: System.Collections.Hashtable _caps
@@ -136,7 +137,7 @@ namespace System::Text::RegularExpressions {
     // System.Void .ctor(System.Int32[] codes, System.Collections.Generic.List`1<System.String> stringlist, System.Int32 trackcount, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.RegexBoyerMoore bmPrefix, System.Text.RegularExpressions.RegexPrefix fcPrefix, System.Int32 anchors, System.Boolean rightToLeft)
     // Offset: 0x1A392E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexCode* New_ctor(::ArrayW<int> codes, System::Collections::Generic::List_1<::Il2CppString*>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
+    static RegexCode* New_ctor(::ArrayW<int> codes, System::Collections::Generic::List_1<::StringW>* stringlist, int trackcount, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, System::Text::RegularExpressions::RegexPrefix* fcPrefix, int anchors, bool rightToLeft) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCode*, creationType>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft)));
     }

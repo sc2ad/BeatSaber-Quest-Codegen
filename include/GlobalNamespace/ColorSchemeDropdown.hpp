@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -90,9 +91,9 @@ namespace GlobalNamespace {
     // private System.String _cellReuseIdentifier
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* cellReuseIdentifier;
+    ::StringW cellReuseIdentifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _cellSize
     // Size: 0x4
     // Offset: 0x68
@@ -125,7 +126,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeTableCell _cellPrefab
     GlobalNamespace::ColorSchemeTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.String _cellReuseIdentifier
-    ::Il2CppString*& dyn__cellReuseIdentifier();
+    ::StringW& dyn__cellReuseIdentifier();
     // Get instance field reference: private System.Single _cellSize
     float& dyn__cellSize();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<ColorScheme> _colorSchemes

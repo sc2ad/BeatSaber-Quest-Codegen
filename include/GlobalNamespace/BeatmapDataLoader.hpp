@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -109,7 +110,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::ArrayW<uint8_t> data, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromJson(System.String json, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
     // Offset: 0x12CFB88
-    GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::Il2CppString* json, float startBPM, float shuffle, float shufflePeriod);
+    GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::StringW json, float startBPM, float shuffle, float shufflePeriod);
     // static private ColorType ColorTypeFromBeatmapSaveDataNoteType(BeatmapSaveData/NoteType noteType)
     // Offset: 0x12CFAF0
     static GlobalNamespace::ColorType ColorTypeFromBeatmapSaveDataNoteType(GlobalNamespace::BeatmapSaveData::NoteType noteType);
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromJson
 // Il2CppName: GetBeatmapDataFromJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataLoader::*)(::Il2CppString*, float, float, float)>(&GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataLoader::*)(::StringW, float, float, float)>(&GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromJson)> {
   static const MethodInfo* get() {
     static auto* json = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startBPM = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

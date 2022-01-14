@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -23,9 +24,6 @@ namespace System::Threading {
   struct CancellationToken;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ISpriteAsyncLoader
@@ -44,7 +42,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
   }; // ISpriteAsyncLoader
   #pragma pack(pop)
 }
@@ -52,7 +50,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync
 // Il2CppName: LoadSpriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::ISpriteAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::ISpriteAsyncLoader::*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

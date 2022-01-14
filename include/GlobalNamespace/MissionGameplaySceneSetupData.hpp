@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -96,9 +97,9 @@ namespace GlobalNamespace {
     // public readonly System.String backButtonText
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* backButtonText;
+    ::StringW backButtonText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
     ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
@@ -113,17 +114,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // Get instance field reference: public readonly System.String backButtonText
-    ::Il2CppString*& dyn_backButtonText();
+    ::StringW& dyn_backButtonText();
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, GameplayModifiers gameplayModifiers, System.String backButtonText)
     // Offset: 0x1160348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionGameplaySceneSetupData* New_ctor(::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Il2CppString* backButtonText) {
+    static MissionGameplaySceneSetupData* New_ctor(::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionGameplaySceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionGameplaySceneSetupData*, creationType>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, backButtonText)));
     }
   }; // MissionGameplaySceneSetupData
   #pragma pack(pop)
-  static check_size<sizeof(MissionGameplaySceneSetupData), 64 + sizeof(::Il2CppString*)> __GlobalNamespace_MissionGameplaySceneSetupDataSizeCheck;
+  static check_size<sizeof(MissionGameplaySceneSetupData), 64 + sizeof(::StringW)> __GlobalNamespace_MissionGameplaySceneSetupDataSizeCheck;
   static_assert(sizeof(MissionGameplaySceneSetupData) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

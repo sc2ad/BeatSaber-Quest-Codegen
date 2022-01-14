@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0);
@@ -36,16 +37,16 @@ namespace GlobalNamespace {
     // public System.String keyword
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* keyword;
+    ::StringW keyword;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return keyword;
     }
     // Get instance field reference: public System.String keyword
-    ::Il2CppString*& dyn_keyword();
+    ::StringW& dyn_keyword();
     // System.Boolean <GetResultEnvironmentControllerForKeyword>b__0(ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword controllerWithKeyword)
     // Offset: 0x11B5244
     bool $GetResultEnvironmentControllerForKeyword$b__0(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     }
   }; // ResultsEnvironmentManager/<>c__DisplayClass3_0
   #pragma pack(pop)
-  static check_size<sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManager_$$c__DisplayClass3_0SizeCheck;
+  static check_size<sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0), 16 + sizeof(::StringW)> __GlobalNamespace_ResultsEnvironmentManager_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

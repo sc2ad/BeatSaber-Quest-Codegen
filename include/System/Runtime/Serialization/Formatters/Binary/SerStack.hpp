@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -45,9 +46,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String stackId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* stackId;
+    ::StringW stackId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Int32 top
     // Size: 0x4
     // Offset: 0x20
@@ -58,13 +59,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object[] objects
     ::ArrayW<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.String stackId
-    ::Il2CppString*& dyn_stackId();
+    ::StringW& dyn_stackId();
     // Get instance field reference: System.Int32 top
     int& dyn_top();
     // System.Void .ctor(System.String stackId)
     // Offset: 0x1862240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerStack* New_ctor(::Il2CppString* stackId) {
+    static SerStack* New_ctor(::StringW stackId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerStack*, creationType>(stackId)));
     }

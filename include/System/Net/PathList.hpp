@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -73,10 +74,10 @@ namespace System::Net {
     System::Collections::ICollection* get_Values();
     // public System.Object get_Item(System.String s)
     // Offset: 0x16AAB04
-    ::Il2CppObject* get_Item(::Il2CppString* s);
+    ::Il2CppObject* get_Item(::StringW s);
     // public System.Void set_Item(System.String s, System.Object value)
     // Offset: 0x16AAB28
-    void set_Item(::Il2CppString* s, ::Il2CppObject* value);
+    void set_Item(::StringW s, ::Il2CppObject* value);
     // public System.Object get_SyncRoot()
     // Offset: 0x16AAABC
     ::Il2CppObject* get_SyncRoot();
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Net::PathList::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::PathList::*)(::Il2CppString*)>(&System::Net::PathList::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::PathList::*)(::StringW)>(&System::Net::PathList::get_Item)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::PathList::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::PathList::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Net::PathList::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::PathList::*)(::StringW, ::Il2CppObject*)>(&System::Net::PathList::set_Item)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

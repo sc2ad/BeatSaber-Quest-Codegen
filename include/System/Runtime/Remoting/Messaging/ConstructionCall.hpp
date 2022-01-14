@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Activation
@@ -98,9 +99,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _activationTypeName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* activationTypeName;
+    ::StringW activationTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isContextOk
     // Size: 0x1
     // Offset: 0x90
@@ -129,7 +130,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Type _activationType
     System::Type*& dyn__activationType();
     // Get instance field reference: private System.String _activationTypeName
-    ::Il2CppString*& dyn__activationTypeName();
+    ::StringW& dyn__activationTypeName();
     // Get instance field reference: private System.Boolean _isContextOk
     bool& dyn__isContextOk();
     // Get instance field reference: private System.Runtime.Remoting.Proxies.RemotingProxy _sourceProxy
@@ -145,7 +146,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Type* get_ActivationType();
     // public System.String get_ActivationTypeName()
     // Offset: 0x1C516DC
-    ::Il2CppString* get_ActivationTypeName();
+    ::StringW get_ActivationTypeName();
     // public System.Runtime.Remoting.Activation.IActivator get_Activator()
     // Offset: 0x1C516E4
     System::Runtime::Remoting::Activation::IActivator* get_Activator();
@@ -197,7 +198,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1C51770
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
     // Base method: System.Void MethodCall::InitMethodProperty(System.String key, System.Object value)
-    void InitMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
+    void InitMethodProperty(::StringW key, ::Il2CppObject* value);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1C51CD8
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
@@ -237,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName
 // Il2CppName: get_ActivationTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_ActivationTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -328,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty
 // Il2CppName: InitMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -273,9 +274,9 @@ namespace UnityEngine::Timeline {
     // private System.Collections.Generic.List`1<System.String> m_ExposedParameterNames
     // Size: 0x8
     // Offset: 0x80
-    System::Collections::Generic::List_1<::Il2CppString*>* m_ExposedParameterNames;
+    System::Collections::Generic::List_1<::StringW>* m_ExposedParameterNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private UnityEngine.AnimationClip m_AnimationCurves
     // Size: 0x8
     // Offset: 0x88
@@ -319,9 +320,9 @@ namespace UnityEngine::Timeline {
     // private System.String m_DisplayName
     // Size: 0x8
     // Offset: 0xB0
-    ::Il2CppString* m_DisplayName;
+    ::StringW m_DisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
@@ -354,9 +355,9 @@ namespace UnityEngine::Timeline {
     // Set static field: static public readonly System.Double kTimeScaleMax
     static void _set_kTimeScaleMax(double value);
     // Get static field: static readonly System.String kDefaultCurvesName
-    static ::Il2CppString* _get_kDefaultCurvesName();
+    static ::StringW _get_kDefaultCurvesName();
     // Set static field: static readonly System.String kDefaultCurvesName
-    static void _set_kDefaultCurvesName(::Il2CppString* value);
+    static void _set_kDefaultCurvesName(::StringW value);
     // Get static field: static readonly System.Double kMinDuration
     static double _get_kMinDuration();
     // Set static field: static readonly System.Double kMinDuration
@@ -396,7 +397,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.BlendCurveMode m_BlendOutCurveMode
     UnityEngine::Timeline::TimelineClip::BlendCurveMode& dyn_m_BlendOutCurveMode();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> m_ExposedParameterNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_m_ExposedParameterNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn_m_ExposedParameterNames();
     // Get instance field reference: private UnityEngine.AnimationClip m_AnimationCurves
     UnityEngine::AnimationClip*& dyn_m_AnimationCurves();
     // Get instance field reference: private System.Boolean m_Recordable
@@ -410,7 +411,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Double m_PreExtrapolationTime
     double& dyn_m_PreExtrapolationTime();
     // Get instance field reference: private System.String m_DisplayName
-    ::Il2CppString*& dyn_m_DisplayName();
+    ::StringW& dyn_m_DisplayName();
     // public System.Boolean get_hasPreExtrapolation()
     // Offset: 0x2610FF4
     bool get_hasPreExtrapolation();
@@ -446,10 +447,10 @@ namespace UnityEngine::Timeline {
     void set_clipIn(double value);
     // public System.String get_displayName()
     // Offset: 0x261175C
-    ::Il2CppString* get_displayName();
+    ::StringW get_displayName();
     // public System.Void set_displayName(System.String value)
     // Offset: 0x2611764
-    void set_displayName(::Il2CppString* value);
+    void set_displayName(::StringW value);
     // public System.Double get_clipAssetDuration()
     // Offset: 0x261176C
     double get_clipAssetDuration();
@@ -461,7 +462,7 @@ namespace UnityEngine::Timeline {
     void set_curves(UnityEngine::AnimationClip* value);
     // private System.String UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName()
     // Offset: 0x261184C
-    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // public System.Boolean get_hasCurves()
     // Offset: 0x26118B4
     bool get_hasCurves();
@@ -572,7 +573,7 @@ namespace UnityEngine::Timeline {
     void set_recordable(bool value);
     // public System.Collections.Generic.List`1<System.String> get_exposedParameters()
     // Offset: 0x261237C
-    System::Collections::Generic::List_1<::Il2CppString*>* get_exposedParameters();
+    System::Collections::Generic::List_1<::StringW>* get_exposedParameters();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0x2611118
     UnityEngine::Timeline::ClipCaps get_clipCaps();
@@ -663,7 +664,7 @@ namespace UnityEngine::Timeline {
     static double GetExtrapolatedTime(double time, UnityEngine::Timeline::TimelineClip::ClipExtrapolation mode, double duration);
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0x2612DC4
-    void CreateCurves(::Il2CppString* curvesClipName);
+    void CreateCurves(::StringW curvesClipName);
     // private System.Void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
     // Offset: 0x2613060
     void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
@@ -683,10 +684,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0x26130A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.Timeline.TimelineClip
   #pragma pack(pop)
-  static check_size<sizeof(TimelineClip), 176 + sizeof(::Il2CppString*)> __UnityEngine_Timeline_TimelineClipSizeCheck;
+  static check_size<sizeof(TimelineClip), 176 + sizeof(::StringW)> __UnityEngine_Timeline_TimelineClipSizeCheck;
   static_assert(sizeof(TimelineClip) == 0xB8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -789,7 +790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_displayName
 // Il2CppName: get_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_displayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -797,7 +798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_displayName
 // Il2CppName: set_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineClip::set_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::StringW)>(&UnityEngine::Timeline::TimelineClip::set_displayName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -831,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1139,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_exposedParameters
 // Il2CppName: get_exposedParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_exposedParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_exposedParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_exposedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1385,7 +1386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::CreateCurves
 // Il2CppName: CreateCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineClip::CreateCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::StringW)>(&UnityEngine::Timeline::TimelineClip::CreateCurves)> {
   static const MethodInfo* get() {
     static auto* curvesClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curvesClipName});
@@ -1438,7 +1439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

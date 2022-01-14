@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -102,15 +103,15 @@ namespace NUnit::Framework::Internal {
     // private System.String _message
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _stackTrace
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* stackTrace;
+    ::StringW stackTrace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FB50
     // private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
     // Size: 0x8
@@ -145,13 +146,13 @@ namespace NUnit::Framework::Internal {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestResult*>(this);
     }
     // Get static field: static readonly System.String CHILD_ERRORS_MESSAGE
-    static ::Il2CppString* _get_CHILD_ERRORS_MESSAGE();
+    static ::StringW _get_CHILD_ERRORS_MESSAGE();
     // Set static field: static readonly System.String CHILD_ERRORS_MESSAGE
-    static void _set_CHILD_ERRORS_MESSAGE(::Il2CppString* value);
+    static void _set_CHILD_ERRORS_MESSAGE(::StringW value);
     // Get static field: static readonly System.String CHILD_IGNORE_MESSAGE
-    static ::Il2CppString* _get_CHILD_IGNORE_MESSAGE();
+    static ::StringW _get_CHILD_IGNORE_MESSAGE();
     // Set static field: static readonly System.String CHILD_IGNORE_MESSAGE
-    static void _set_CHILD_IGNORE_MESSAGE(::Il2CppString* value);
+    static void _set_CHILD_IGNORE_MESSAGE(::StringW value);
     // static field const value: static System.Double MIN_DURATION
     static constexpr const double MIN_DURATION = 1e-06;
     // Get static field: static System.Double MIN_DURATION
@@ -167,9 +168,9 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private NUnit.Framework.Interfaces.ResultState _resultState
     NUnit::Framework::Interfaces::ResultState*& dyn__resultState();
     // Get instance field reference: private System.String _message
-    ::Il2CppString*& dyn__message();
+    ::StringW& dyn__message();
     // Get instance field reference: private System.String _stackTrace
-    ::Il2CppString*& dyn__stackTrace();
+    ::StringW& dyn__stackTrace();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITest <Test>k__BackingField
     NUnit::Framework::Interfaces::ITest*& dyn_$Test$k__BackingField();
     // Get instance field reference: private System.DateTime <StartTime>k__BackingField
@@ -192,10 +193,10 @@ namespace NUnit::Framework::Internal {
     void set_ResultState(NUnit::Framework::Interfaces::ResultState* value);
     // public System.String get_Name()
     // Offset: 0x2558AFC
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_FullName()
     // Offset: 0x2558BB0
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.Double get_Duration()
     // Offset: 0x2558C64
     double get_Duration();
@@ -216,16 +217,16 @@ namespace NUnit::Framework::Internal {
     void set_EndTime(System::DateTime value);
     // public System.String get_Message()
     // Offset: 0x2558CB0
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // private System.Void set_Message(System.String value)
     // Offset: 0x2558CB8
-    void set_Message(::Il2CppString* value);
+    void set_Message(::StringW value);
     // public System.String get_StackTrace()
     // Offset: 0x2558CC0
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
     // private System.Void set_StackTrace(System.String value)
     // Offset: 0x2558CC8
-    void set_StackTrace(::Il2CppString* value);
+    void set_StackTrace(::StringW value);
     // public System.Int32 get_AssertCount()
     // Offset: 0x2558CD0
     int get_AssertCount();
@@ -255,7 +256,7 @@ namespace NUnit::Framework::Internal {
     void set_OutWriter(System::IO::TextWriter* value);
     // public System.String get_Output()
     // Offset: 0x2558CE8
-    ::Il2CppString* get_Output();
+    ::StringW get_Output();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x2554F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -277,10 +278,10 @@ namespace NUnit::Framework::Internal {
     void SetResult(NUnit::Framework::Interfaces::ResultState* resultState);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0x2559760
-    void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message);
+    void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message);
     // public System.Void SetResult(NUnit.Framework.Interfaces.ResultState resultState, System.String message, System.String stackTrace)
     // Offset: 0x2559754
-    void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message, ::Il2CppString* stackTrace);
+    void SetResult(NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message, ::StringW stackTrace);
     // public System.Void RecordException(System.Exception ex)
     // Offset: 0x255976C
     void RecordException(System::Exception* ex);
@@ -342,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -409,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -417,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::set_Message
 // Il2CppName: set_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(::Il2CppString*)>(&NUnit::Framework::Internal::TestResult::set_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(::StringW)>(&NUnit::Framework::Internal::TestResult::set_Message)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "set_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -426,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -434,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::set_StackTrace
 // Il2CppName: set_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(::Il2CppString*)>(&NUnit::Framework::Internal::TestResult::set_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(::StringW)>(&NUnit::Framework::Internal::TestResult::set_StackTrace)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "set_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -516,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::get_Output
 // Il2CppName: get_Output
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Output)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestResult::*)()>(&NUnit::Framework::Internal::TestResult::get_Output)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestResult*), "get_Output", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -564,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::SetResult
 // Il2CppName: SetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*)>(&NUnit::Framework::Internal::TestResult::SetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(NUnit::Framework::Interfaces::ResultState*, ::StringW)>(&NUnit::Framework::Internal::TestResult::SetResult)> {
   static const MethodInfo* get() {
     static auto* resultState = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ResultState")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -574,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestResult::SetResult
 // Il2CppName: SetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(NUnit::Framework::Interfaces::ResultState*, ::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Internal::TestResult::SetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestResult::*)(NUnit::Framework::Interfaces::ResultState*, ::StringW, ::StringW)>(&NUnit::Framework::Internal::TestResult::SetResult)> {
   static const MethodInfo* get() {
     static auto* resultState = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ResultState")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

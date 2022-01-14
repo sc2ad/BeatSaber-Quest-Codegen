@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -67,9 +68,9 @@ namespace System::Net::NetworkInformation {
     // private System.String name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
     // Size: 0x8
     // Offset: 0x20
@@ -92,7 +93,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ipproperties();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
     System::Collections::Generic::List_1<System::Net::IPAddress*>*& dyn_addresses();
     // Get instance field reference: private System.Byte[] macAddress
@@ -102,7 +103,7 @@ namespace System::Net::NetworkInformation {
     // System.Void .ctor(System.String name)
     // Offset: 0x16A67E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnixNetworkInterface* New_ctor(::Il2CppString* name) {
+    static UnixNetworkInterface* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::UnixNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnixNetworkInterface*, creationType>(name)));
     }
@@ -116,7 +117,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x16A99A4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
     // Base method: System.String NetworkInterface::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
     // Offset: 0x16A99AC
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

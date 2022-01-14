@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVRSimpleJSON
@@ -65,14 +66,14 @@ namespace OVRSimpleJSON {
     // private System.String m_Key
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_Key;
+    ::StringW m_Key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private OVRSimpleJSON.JSONNode m_Node
     OVRSimpleJSON::JSONNode*& dyn_m_Node();
     // Get instance field reference: private System.String m_Key
-    ::Il2CppString*& dyn_m_Key();
+    ::StringW& dyn_m_Key();
     // public System.Void .ctor(OVRSimpleJSON.JSONNode aNode)
     // Offset: 0x18816CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -83,7 +84,7 @@ namespace OVRSimpleJSON {
     // public System.Void .ctor(OVRSimpleJSON.JSONNode aNode, System.String aKey)
     // Offset: 0x18825F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JSONLazyCreator* New_ctor(OVRSimpleJSON::JSONNode* aNode, ::Il2CppString* aKey) {
+    static JSONLazyCreator* New_ctor(OVRSimpleJSON::JSONNode* aNode, ::StringW aKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONLazyCreator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONLazyCreator*, creationType>(aNode, aKey)));
     }
@@ -116,12 +117,12 @@ namespace OVRSimpleJSON {
     // Offset: 0x188276C
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: OVRSimpleJSON.JSONNode JSONNode::get_Item(System.String aKey)
-    OVRSimpleJSON::JSONNode* get_Item(::Il2CppString* aKey);
+    OVRSimpleJSON::JSONNode* get_Item(::StringW aKey);
     // public override System.Void set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
     // Offset: 0x18827DC
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.String aKey, OVRSimpleJSON.JSONNode value)
-    void set_Item(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* value);
+    void set_Item(::StringW aKey, OVRSimpleJSON::JSONNode* value);
     // public override System.Int32 get_AsInt()
     // Offset: 0x1882A00
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -196,7 +197,7 @@ namespace OVRSimpleJSON {
     // Offset: 0x1882910
     // Implemented from: OVRSimpleJSON.JSONNode
     // Base method: System.Void JSONNode::Add(System.String aKey, OVRSimpleJSON.JSONNode aItem)
-    void Add(::Il2CppString* aKey, OVRSimpleJSON::JSONNode* aItem);
+    void Add(::StringW aKey, OVRSimpleJSON::JSONNode* aItem);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x18829E0
     // Implemented from: OVRSimpleJSON.JSONNode
@@ -214,7 +215,7 @@ namespace OVRSimpleJSON {
     void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, OVRSimpleJSON::JSONTextMode aMode);
   }; // OVRSimpleJSON.JSONLazyCreator
   #pragma pack(pop)
-  static check_size<sizeof(JSONLazyCreator), 24 + sizeof(::Il2CppString*)> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
+  static check_size<sizeof(JSONLazyCreator), 24 + sizeof(::StringW)> __OVRSimpleJSON_JSONLazyCreatorSizeCheck;
   static_assert(sizeof(JSONLazyCreator) == 0x20);
   // static public System.Boolean op_Equality(OVRSimpleJSON.JSONLazyCreator a, System.Object b)
   // Offset: 0x18829B0
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(::StringW)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});
@@ -274,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::StringW, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;
@@ -402,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::StringW, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aItem = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;

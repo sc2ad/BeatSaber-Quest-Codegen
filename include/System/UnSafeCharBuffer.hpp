@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -61,7 +62,7 @@ namespace System {
     UnSafeCharBuffer(::Il2CppChar* buffer, int bufferSize);
     // public System.Void AppendString(System.String stringToAppend)
     // Offset: 0x25D32D0
-    void AppendString(::Il2CppString* stringToAppend);
+    void AppendString(::StringW stringToAppend);
   }; // System.UnSafeCharBuffer
   #pragma pack(pop)
   static check_size<sizeof(UnSafeCharBuffer), 12 + sizeof(int)> __System_UnSafeCharBufferSizeCheck;
@@ -75,7 +76,7 @@ namespace System {
 // Writing MetadataGetter for method: System::UnSafeCharBuffer::AppendString
 // Il2CppName: AppendString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnSafeCharBuffer::*)(::Il2CppString*)>(&System::UnSafeCharBuffer::AppendString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnSafeCharBuffer::*)(::StringW)>(&System::UnSafeCharBuffer::AppendString)> {
   static const MethodInfo* get() {
     static auto* stringToAppend = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UnSafeCharBuffer), "AppendString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringToAppend});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -51,7 +52,7 @@ namespace UnityEngine {
     static int GetSampleRate();
     // static public System.String GetSpatializerPluginName()
     // Offset: 0x26B2050
-    static ::Il2CppString* GetSpatializerPluginName();
+    static ::StringW GetSpatializerPluginName();
     // static public UnityEngine.AudioConfiguration GetConfiguration()
     // Offset: 0x26B2084
     static UnityEngine::AudioConfiguration GetConfiguration();
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::GetSpatializerPluginName
 // Il2CppName: GetSpatializerPluginName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::AudioSettings::GetSpatializerPluginName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::AudioSettings::GetSpatializerPluginName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetSpatializerPluginName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

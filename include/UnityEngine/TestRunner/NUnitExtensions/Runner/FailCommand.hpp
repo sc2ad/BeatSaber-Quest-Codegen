@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::NUnitExtensions::Runner
@@ -74,9 +75,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_Message;
+    ::StringW m_Message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
@@ -87,11 +88,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private NUnit.Framework.Interfaces.ResultState m_ResultState
     NUnit::Framework::Interfaces::ResultState*& dyn_m_ResultState();
     // Get instance field reference: private System.String m_Message
-    ::Il2CppString*& dyn_m_Message();
+    ::StringW& dyn_m_Message();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test, NUnit.Framework.Interfaces.ResultState resultState, System.String message)
     // Offset: 0x16C3FF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::Il2CppString* message) {
+    static FailCommand* New_ctor(NUnit::Framework::Internal::Test* test, NUnit::Framework::Interfaces::ResultState* resultState, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FailCommand*, creationType>(test, resultState, message)));
     }
@@ -105,7 +106,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.FailCommand
   #pragma pack(pop)
-  static check_size<sizeof(FailCommand), 32 + sizeof(::Il2CppString*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_FailCommandSizeCheck;
+  static check_size<sizeof(FailCommand), 32 + sizeof(::StringW)> __UnityEngine_TestRunner_NUnitExtensions_Runner_FailCommandSizeCheck;
   static_assert(sizeof(FailCommand) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

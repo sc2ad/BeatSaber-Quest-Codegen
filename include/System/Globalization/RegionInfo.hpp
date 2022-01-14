@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -55,57 +56,57 @@ namespace System::Globalization {
     // private System.String iso2Name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* iso2Name;
+    ::StringW iso2Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String iso3Name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* iso3Name;
+    ::StringW iso3Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String win3Name
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* win3Name;
+    ::StringW win3Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String englishName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* englishName;
+    ::StringW englishName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String nativeName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* nativeName;
+    ::StringW nativeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String currencySymbol
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* currencySymbol;
+    ::StringW currencySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String isoCurrencySymbol
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* isoCurrencySymbol;
+    ::StringW isoCurrencySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String currencyEnglishName
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* currencyEnglishName;
+    ::StringW currencyEnglishName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String currencyNativeName
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* currencyNativeName;
+    ::StringW currencyNativeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Globalization.RegionInfo currentRegion
     static System::Globalization::RegionInfo* _get_currentRegion();
@@ -114,38 +115,38 @@ namespace System::Globalization {
     // Get instance field reference: private System.Int32 regionId
     int& dyn_regionId();
     // Get instance field reference: private System.String iso2Name
-    ::Il2CppString*& dyn_iso2Name();
+    ::StringW& dyn_iso2Name();
     // Get instance field reference: private System.String iso3Name
-    ::Il2CppString*& dyn_iso3Name();
+    ::StringW& dyn_iso3Name();
     // Get instance field reference: private System.String win3Name
-    ::Il2CppString*& dyn_win3Name();
+    ::StringW& dyn_win3Name();
     // Get instance field reference: private System.String englishName
-    ::Il2CppString*& dyn_englishName();
+    ::StringW& dyn_englishName();
     // Get instance field reference: private System.String nativeName
-    ::Il2CppString*& dyn_nativeName();
+    ::StringW& dyn_nativeName();
     // Get instance field reference: private System.String currencySymbol
-    ::Il2CppString*& dyn_currencySymbol();
+    ::StringW& dyn_currencySymbol();
     // Get instance field reference: private System.String isoCurrencySymbol
-    ::Il2CppString*& dyn_isoCurrencySymbol();
+    ::StringW& dyn_isoCurrencySymbol();
     // Get instance field reference: private System.String currencyEnglishName
-    ::Il2CppString*& dyn_currencyEnglishName();
+    ::StringW& dyn_currencyEnglishName();
     // Get instance field reference: private System.String currencyNativeName
-    ::Il2CppString*& dyn_currencyNativeName();
+    ::StringW& dyn_currencyNativeName();
     // static public System.Globalization.RegionInfo get_CurrentRegion()
     // Offset: 0x1C3E6C4
     static System::Globalization::RegionInfo* get_CurrentRegion();
     // public System.String get_CurrencyEnglishName()
     // Offset: 0x1C3EC10
-    ::Il2CppString* get_CurrencyEnglishName();
+    ::StringW get_CurrencyEnglishName();
     // public System.String get_CurrencySymbol()
     // Offset: 0x1C3EC18
-    ::Il2CppString* get_CurrencySymbol();
+    ::StringW get_CurrencySymbol();
     // public System.String get_DisplayName()
     // Offset: 0x1C3EC20
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
     // public System.String get_EnglishName()
     // Offset: 0x1C3EC28
-    ::Il2CppString* get_EnglishName();
+    ::StringW get_EnglishName();
     // public System.Int32 get_GeoId()
     // Offset: 0x1C3EC30
     int get_GeoId();
@@ -154,25 +155,25 @@ namespace System::Globalization {
     bool get_IsMetric();
     // public System.String get_ISOCurrencySymbol()
     // Offset: 0x1C3ECC0
-    ::Il2CppString* get_ISOCurrencySymbol();
+    ::StringW get_ISOCurrencySymbol();
     // public System.String get_NativeName()
     // Offset: 0x1C3ECC8
-    ::Il2CppString* get_NativeName();
+    ::StringW get_NativeName();
     // public System.String get_CurrencyNativeName()
     // Offset: 0x1C3ECD0
-    ::Il2CppString* get_CurrencyNativeName();
+    ::StringW get_CurrencyNativeName();
     // public System.String get_Name()
     // Offset: 0x1C3ECD8
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_ThreeLetterISORegionName()
     // Offset: 0x1C3ECE0
-    ::Il2CppString* get_ThreeLetterISORegionName();
+    ::StringW get_ThreeLetterISORegionName();
     // public System.String get_ThreeLetterWindowsRegionName()
     // Offset: 0x1C3ECE8
-    ::Il2CppString* get_ThreeLetterWindowsRegionName();
+    ::StringW get_ThreeLetterWindowsRegionName();
     // public System.String get_TwoLetterISORegionName()
     // Offset: 0x1C3ECF0
-    ::Il2CppString* get_TwoLetterISORegionName();
+    ::StringW get_TwoLetterISORegionName();
     // public System.Void .ctor(System.Int32 culture)
     // Offset: 0x1C3E8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -183,7 +184,7 @@ namespace System::Globalization {
     // public System.Void .ctor(System.String name)
     // Offset: 0x1C3EAC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegionInfo* New_ctor(::Il2CppString* name) {
+    static RegionInfo* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(name)));
     }
@@ -199,7 +200,7 @@ namespace System::Globalization {
     bool GetByTerritory(System::Globalization::CultureInfo* ci);
     // private System.Boolean construct_internal_region_from_name(System.String name)
     // Offset: 0x1C3EC0C
-    bool construct_internal_region_from_name(::Il2CppString* name);
+    bool construct_internal_region_from_name(::StringW name);
     // static System.Void ClearCachedData()
     // Offset: 0x1C3EE14
     static void ClearCachedData();
@@ -217,10 +218,10 @@ namespace System::Globalization {
     // Offset: 0x1C3EE04
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Globalization.RegionInfo
   #pragma pack(pop)
-  static check_size<sizeof(RegionInfo), 88 + sizeof(::Il2CppString*)> __System_Globalization_RegionInfoSizeCheck;
+  static check_size<sizeof(RegionInfo), 88 + sizeof(::StringW)> __System_Globalization_RegionInfoSizeCheck;
   static_assert(sizeof(RegionInfo) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencyEnglishName
 // Il2CppName: get_CurrencyEnglishName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyEnglishName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyEnglishName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencyEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencySymbol
 // Il2CppName: get_CurrencySymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencySymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencySymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_EnglishName
 // Il2CppName: get_EnglishName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_EnglishName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_EnglishName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_EnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -283,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ISOCurrencySymbol
 // Il2CppName: get_ISOCurrencySymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ISOCurrencySymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ISOCurrencySymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ISOCurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_NativeName
 // Il2CppName: get_NativeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_NativeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_NativeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_NativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrencyNativeName
 // Il2CppName: get_CurrencyNativeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyNativeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_CurrencyNativeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrencyNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ThreeLetterISORegionName
 // Il2CppName: get_ThreeLetterISORegionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterISORegionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterISORegionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ThreeLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -323,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName
 // Il2CppName: get_ThreeLetterWindowsRegionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_ThreeLetterWindowsRegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -331,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_TwoLetterISORegionName
 // Il2CppName: get_TwoLetterISORegionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_TwoLetterISORegionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::get_TwoLetterISORegionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_TwoLetterISORegionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::construct_internal_region_from_name
 // Il2CppName: construct_internal_region_from_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(::Il2CppString*)>(&System::Globalization::RegionInfo::construct_internal_region_from_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(::StringW)>(&System::Globalization::RegionInfo::construct_internal_region_from_name)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "construct_internal_region_from_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -394,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::RegionInfo::*)()>(&System::Globalization::RegionInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

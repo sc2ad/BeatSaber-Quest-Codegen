@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,15 +48,15 @@ namespace Polyglot {
     // private System.String docsId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* docsId;
+    ::StringW docsId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String sheetId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* sheetId;
+    ::StringW sheetId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Polyglot.GoogleDriveDownloadFormat format
     // Size: 0x4
     // Offset: 0x20
@@ -78,9 +79,9 @@ namespace Polyglot {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String docsId
-    ::Il2CppString*& dyn_docsId();
+    ::StringW& dyn_docsId();
     // Get instance field reference: private System.String sheetId
-    ::Il2CppString*& dyn_sheetId();
+    ::StringW& dyn_sheetId();
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format
     Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // Get instance field reference: private UnityEngine.TextAsset textAsset
@@ -95,16 +96,16 @@ namespace Polyglot {
     void set_TextAsset(UnityEngine::TextAsset* value);
     // public System.String get_DocsId()
     // Offset: 0x2629898
-    ::Il2CppString* get_DocsId();
+    ::StringW get_DocsId();
     // public System.Void set_DocsId(System.String value)
     // Offset: 0x26298A0
-    void set_DocsId(::Il2CppString* value);
+    void set_DocsId(::StringW value);
     // public System.String get_SheetId()
     // Offset: 0x26298A8
-    ::Il2CppString* get_SheetId();
+    ::StringW get_SheetId();
     // public System.Void set_SheetId(System.String value)
     // Offset: 0x26298B0
-    void set_SheetId(::Il2CppString* value);
+    void set_SheetId(::StringW value);
     // public Polyglot.GoogleDriveDownloadFormat get_Format()
     // Offset: 0x26298B8
     Polyglot::GoogleDriveDownloadFormat get_Format();
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_DocsId
 // Il2CppName: get_DocsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::LocalizationDocument::*)()>(&Polyglot::LocalizationDocument::get_DocsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Polyglot::LocalizationDocument::*)()>(&Polyglot::LocalizationDocument::get_DocsId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "get_DocsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::set_DocsId
 // Il2CppName: set_DocsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::Il2CppString*)>(&Polyglot::LocalizationDocument::set_DocsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::StringW)>(&Polyglot::LocalizationDocument::set_DocsId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_DocsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -169,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_SheetId
 // Il2CppName: get_SheetId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::LocalizationDocument::*)()>(&Polyglot::LocalizationDocument::get_SheetId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Polyglot::LocalizationDocument::*)()>(&Polyglot::LocalizationDocument::get_SheetId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "get_SheetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::set_SheetId
 // Il2CppName: set_SheetId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::Il2CppString*)>(&Polyglot::LocalizationDocument::set_SheetId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::StringW)>(&Polyglot::LocalizationDocument::set_SheetId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_SheetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

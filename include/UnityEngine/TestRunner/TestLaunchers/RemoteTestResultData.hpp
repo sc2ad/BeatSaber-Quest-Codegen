@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
@@ -55,27 +56,27 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String testId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* testId;
+    ::StringW testId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String fullName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* fullName;
+    ::StringW fullName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String resultState
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* resultState;
+    ::StringW resultState;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public NUnit.Framework.Interfaces.TestStatus testStatus
     // Size: 0x4
     // Offset: 0x30
@@ -105,15 +106,15 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String message
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String stackTrace
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* stackTrace;
+    ::StringW stackTrace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 assertCount
     // Size: 0x4
     // Offset: 0x60
@@ -155,30 +156,30 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String output
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* output;
+    ::StringW output;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String xml
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* xml;
+    ::StringW xml;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayW<::Il2CppString*> childrenIds;
+    ::ArrayW<::StringW> childrenIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.String testId
-    ::Il2CppString*& dyn_testId();
+    ::StringW& dyn_testId();
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.String fullName
-    ::Il2CppString*& dyn_fullName();
+    ::StringW& dyn_fullName();
     // Get instance field reference: public System.String resultState
-    ::Il2CppString*& dyn_resultState();
+    ::StringW& dyn_resultState();
     // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus testStatus
     NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
     // Get instance field reference: public System.Double duration
@@ -188,9 +189,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.DateTime endTime
     System::DateTime& dyn_endTime();
     // Get instance field reference: public System.String message
-    ::Il2CppString*& dyn_message();
+    ::StringW& dyn_message();
     // Get instance field reference: public System.String stackTrace
-    ::Il2CppString*& dyn_stackTrace();
+    ::StringW& dyn_stackTrace();
     // Get instance field reference: public System.Int32 assertCount
     int& dyn_assertCount();
     // Get instance field reference: public System.Int32 failCount
@@ -204,11 +205,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.Boolean hasChildren
     bool& dyn_hasChildren();
     // Get instance field reference: public System.String output
-    ::Il2CppString*& dyn_output();
+    ::StringW& dyn_output();
     // Get instance field reference: public System.String xml
-    ::Il2CppString*& dyn_xml();
+    ::StringW& dyn_xml();
     // Get instance field reference: public System.String[] childrenIds
-    ::ArrayW<::Il2CppString*>& dyn_childrenIds();
+    ::ArrayW<::StringW>& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x16CAC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -218,7 +219,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::ArrayW<::StringW>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
   static_assert(sizeof(RemoteTestResultData) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,9 +63,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String DllName
     static constexpr const char* DllName = "OVRGamepad";
     // Get static field: static private System.String DllName
-    static ::Il2CppString* _get_DllName();
+    static ::StringW _get_DllName();
     // Set static field: static private System.String DllName
-    static void _set_DllName(::Il2CppString* value);
+    static void _set_DllName(::StringW value);
     // Get instance field reference: private System.Boolean initialized
     bool& dyn_initialized();
     // static private System.Boolean OVR_GamepadController_Initialize()

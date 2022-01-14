@@ -15,6 +15,7 @@
 #include "GlobalNamespace/EntitlementsStatus.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -69,202 +70,202 @@ namespace GlobalNamespace {
     float get_syncTime();
     // public System.Void add_getPlayersPermissionConfigurationEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getPlayersPermissionConfigurationEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getPlayersPermissionConfigurationEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getPlayersPermissionConfigurationEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getPlayersPermissionConfigurationEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getPlayersPermissionConfigurationEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setPlayersPermissionConfigurationEvent(System.Action`2<System.String,PlayersLobbyPermissionConfigurationNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_setPlayersPermissionConfigurationEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
+    void add_setPlayersPermissionConfigurationEvent(System::Action_2<::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
     // public System.Void remove_setPlayersPermissionConfigurationEvent(System.Action`2<System.String,PlayersLobbyPermissionConfigurationNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_setPlayersPermissionConfigurationEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
+    void remove_setPlayersPermissionConfigurationEvent(System::Action_2<::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
     // public System.Void add_recommendBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_recommendBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void add_recommendBeatmapEvent(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void remove_recommendBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_recommendBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void remove_recommendBeatmapEvent(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void add_getRecommendedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getRecommendedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getRecommendedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getRecommendedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void add_clearRecommendedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_clearRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void add_clearRecommendedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_clearRecommendedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_clearRecommendedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_clearRecommendedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setSelectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_setSelectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void add_setSelectedBeatmapEvent(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void remove_setSelectedBeatmapEvent(System.Action`2<System.String,BeatmapIdentifierNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_setSelectedBeatmapEvent(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+    void remove_setSelectedBeatmapEvent(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
     // public System.Void add_getSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getSelectedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getSelectedBeatmapEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getSelectedBeatmapEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getSelectedBeatmapEvent(System::Action_1<::StringW>* value);
     // public System.Void add_recommendGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void add_recommendGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void add_recommendGameplayModifiersEvent(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_recommendGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void remove_recommendGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void remove_recommendGameplayModifiersEvent(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_getRecommendedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getRecommendedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getRecommendedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getRecommendedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void add_clearRecommendedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_clearRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void add_clearRecommendedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_clearRecommendedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_clearRecommendedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_clearRecommendedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setSelectGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void add_setSelectGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void add_setSelectGameplayModifiersEvent(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void remove_setSelectGameplayModifiersEvent(System.Action`2<System.String,GameplayModifiers> value)
     // Offset: 0xFFFFFFFF
-    void remove_setSelectGameplayModifiersEvent(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>* value);
+    void remove_setSelectGameplayModifiersEvent(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getSelectedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getSelectedGameplayModifiersEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getSelectedGameplayModifiersEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getSelectedGameplayModifiersEvent(System::Action_1<::StringW>* value);
     // public System.Void add_getIsStartButtonEnabledEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsStartButtonEnabledEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getIsStartButtonEnabledEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getIsStartButtonEnabledEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsStartButtonEnabledEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getIsStartButtonEnabledEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setIsStartButtonEnabledEvent(System.Action`2<System.String,CannotStartGameReason> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsStartButtonEnabledEvent(System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>* value);
+    void add_setIsStartButtonEnabledEvent(System::Action_2<::StringW, GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void remove_setIsStartButtonEnabledEvent(System.Action`2<System.String,CannotStartGameReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsStartButtonEnabledEvent(System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>* value);
+    void remove_setIsStartButtonEnabledEvent(System::Action_2<::StringW, GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void add_getIsReadyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getIsReadyEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getIsReadyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsReadyEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getIsReadyEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void add_setIsReadyEvent(System::Action_2<::StringW, bool>* value);
     // public System.Void remove_setIsReadyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsReadyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void remove_setIsReadyEvent(System::Action_2<::StringW, bool>* value);
     // public System.Void add_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void add_setStartGameTimeEvent(System::Action_2<::StringW, float>* value);
     // public System.Void remove_setStartGameTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_setStartGameTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void remove_setStartGameTimeEvent(System::Action_2<::StringW, float>* value);
     // public System.Void add_cancelledLevelStartEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
+    void add_cancelledLevelStartEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_cancelledLevelStartEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_cancelledLevelStartEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_cancelledLevelStartEvent(System::Action_1<::StringW>* value);
     // public System.Void add_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
+    void add_startedLevelEvent(System::Action_4<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void remove_startedLevelEvent(System.Action`4<System.String,BeatmapIdentifierNetSerializable,GameplayModifiers,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_startedLevelEvent(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
+    void remove_startedLevelEvent(System::Action_4<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>* value);
     // public System.Void add_getStartedLevelEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getStartedLevelEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getStartedLevelEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getStartedLevelEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getStartedLevelEvent(System::Action_1<::StringW>* value);
     // public System.Void add_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getMultiplayerGameStateEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getMultiplayerGameStateEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getMultiplayerGameStateEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getMultiplayerGameStateEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
     // Offset: 0xFFFFFFFF
-    void add_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
+    void add_setMultiplayerGameStateEvent(System::Action_2<::StringW, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void remove_setMultiplayerGameStateEvent(System.Action`2<System.String,MultiplayerGameState> value)
     // Offset: 0xFFFFFFFF
-    void remove_setMultiplayerGameStateEvent(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>* value);
+    void remove_setMultiplayerGameStateEvent(System::Action_2<::StringW, GlobalNamespace::MultiplayerGameState>* value);
     // public System.Void add_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void add_getIsEntitledToLevelEvent(System::Action_2<::StringW, ::StringW>* value);
     // public System.Void remove_getIsEntitledToLevelEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsEntitledToLevelEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void remove_getIsEntitledToLevelEvent(System::Action_2<::StringW, ::StringW>* value);
     // public System.Void add_setPlayersMissingEntitlementsToLevelEvent(System.Action`2<System.String,PlayersMissingEntitlementsNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_setPlayersMissingEntitlementsToLevelEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+    void add_setPlayersMissingEntitlementsToLevelEvent(System::Action_2<::StringW, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void remove_setPlayersMissingEntitlementsToLevelEvent(System.Action`2<System.String,PlayersMissingEntitlementsNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_setPlayersMissingEntitlementsToLevelEvent(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+    void remove_setPlayersMissingEntitlementsToLevelEvent(System::Action_2<::StringW, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void add_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
+    void add_setIsEntitledToLevelEvent(System::Action_3<::StringW, ::StringW, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void remove_setIsEntitledToLevelEvent(System.Action`3<System.String,System.String,EntitlementsStatus> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsEntitledToLevelEvent(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>* value);
+    void remove_setIsEntitledToLevelEvent(System::Action_3<::StringW, ::StringW, GlobalNamespace::EntitlementsStatus>* value);
     // public System.Void add_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
+    void add_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_levelEntitlementStatusesInvalidatedEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_levelEntitlementStatusesInvalidatedEvent(System::Action_1<::StringW>* value);
     // public System.Void add_getIsInLobbyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getIsInLobbyEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getIsInLobbyEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getIsInLobbyEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getIsInLobbyEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void add_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void add_setIsInLobbyEvent(System::Action_2<::StringW, bool>* value);
     // public System.Void remove_setIsInLobbyEvent(System.Action`2<System.String,System.Boolean> value)
     // Offset: 0xFFFFFFFF
-    void remove_setIsInLobbyEvent(System::Action_2<::Il2CppString*, bool>* value);
+    void remove_setIsInLobbyEvent(System::Action_2<::StringW, bool>* value);
     // public System.Void add_cancelCountdownEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
+    void add_cancelCountdownEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_cancelCountdownEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_cancelCountdownEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_cancelCountdownEvent(System::Action_1<::StringW>* value);
     // public System.Void add_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void add_setCountdownEndTimeEvent(System::Action_2<::StringW, float>* value);
     // public System.Void remove_setCountdownEndTimeEvent(System.Action`2<System.String,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_setCountdownEndTimeEvent(System::Action_2<::Il2CppString*, float>* value);
+    void remove_setCountdownEndTimeEvent(System::Action_2<::StringW, float>* value);
     // public System.Void add_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
     // Offset: 0xFFFFFFFF
-    void add_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    void add_setOwnedSongPacksEvent(System::Action_2<::StringW, GlobalNamespace::SongPackMask>* value);
     // public System.Void remove_setOwnedSongPacksEvent(System.Action`2<System.String,SongPackMask> value)
     // Offset: 0xFFFFFFFF
-    void remove_setOwnedSongPacksEvent(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>* value);
+    void remove_setOwnedSongPacksEvent(System::Action_2<::StringW, GlobalNamespace::SongPackMask>* value);
     // public System.Void add_getOwnedSongPacksEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
+    void add_getOwnedSongPacksEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_getOwnedSongPacksEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_getOwnedSongPacksEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_getOwnedSongPacksEvent(System::Action_1<::StringW>* value);
     // public System.Void add_requestedKickPlayerEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_requestedKickPlayerEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void add_requestedKickPlayerEvent(System::Action_2<::StringW, ::StringW>* value);
     // public System.Void remove_requestedKickPlayerEvent(System.Action`2<System.String,System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_requestedKickPlayerEvent(System::Action_2<::Il2CppString*, ::Il2CppString*>* value);
+    void remove_requestedKickPlayerEvent(System::Action_2<::StringW, ::StringW>* value);
     // public System.Void GetPlayersPermissionConfiguration()
     // Offset: 0xFFFFFFFF
     void GetPlayersPermissionConfiguration();
@@ -324,10 +325,10 @@ namespace GlobalNamespace {
     void SetPlayersMissingEntitlementsToLevel(GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
     // public System.Void GetIsEntitledToLevel(System.String levelId)
     // Offset: 0xFFFFFFFF
-    void GetIsEntitledToLevel(::Il2CppString* levelId);
+    void GetIsEntitledToLevel(::StringW levelId);
     // public System.Void SetIsEntitledToLevel(System.String levelId, EntitlementsStatus entitlementStatus)
     // Offset: 0xFFFFFFFF
-    void SetIsEntitledToLevel(::Il2CppString* levelId, GlobalNamespace::EntitlementsStatus entitlementStatus);
+    void SetIsEntitledToLevel(::StringW levelId, GlobalNamespace::EntitlementsStatus entitlementStatus);
     // public System.Void InvalidateLevelEntitlementStatuses()
     // Offset: 0xFFFFFFFF
     void InvalidateLevelEntitlementStatuses();
@@ -360,7 +361,7 @@ namespace GlobalNamespace {
     void GetCountdownEndTime();
     // public System.Void RequestKickPlayer(System.String kickedPlayerId)
     // Offset: 0xFFFFFFFF
-    void RequestKickPlayer(::Il2CppString* kickedPlayerId);
+    void RequestKickPlayer(::StringW kickedPlayerId);
   }; // IMenuRpcManager
   #pragma pack(pop)
 }
@@ -376,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getPlayersPermissionConfigurationEvent
 // Il2CppName: add_getPlayersPermissionConfigurationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getPlayersPermissionConfigurationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getPlayersPermissionConfigurationEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getPlayersPermissionConfigurationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -385,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getPlayersPermissionConfigurationEvent
 // Il2CppName: remove_getPlayersPermissionConfigurationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getPlayersPermissionConfigurationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getPlayersPermissionConfigurationEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getPlayersPermissionConfigurationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -394,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setPlayersPermissionConfigurationEvent
 // Il2CppName: add_setPlayersPermissionConfigurationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setPlayersPermissionConfigurationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setPlayersPermissionConfigurationEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "PlayersLobbyPermissionConfigurationNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setPlayersPermissionConfigurationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -403,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setPlayersPermissionConfigurationEvent
 // Il2CppName: remove_setPlayersPermissionConfigurationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setPlayersPermissionConfigurationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setPlayersPermissionConfigurationEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "PlayersLobbyPermissionConfigurationNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setPlayersPermissionConfigurationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -412,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_recommendBeatmapEvent
 // Il2CppName: add_recommendBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_recommendBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_recommendBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_recommendBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -421,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_recommendBeatmapEvent
 // Il2CppName: remove_recommendBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_recommendBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_recommendBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_recommendBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -430,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getRecommendedBeatmapEvent
 // Il2CppName: add_getRecommendedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getRecommendedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getRecommendedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getRecommendedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -439,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getRecommendedBeatmapEvent
 // Il2CppName: remove_getRecommendedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getRecommendedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getRecommendedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getRecommendedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -448,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_clearRecommendedBeatmapEvent
 // Il2CppName: add_clearRecommendedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_clearRecommendedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_clearRecommendedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_clearRecommendedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -457,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_clearRecommendedBeatmapEvent
 // Il2CppName: remove_clearRecommendedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_clearRecommendedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_clearRecommendedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_clearRecommendedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -466,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setSelectedBeatmapEvent
 // Il2CppName: add_setSelectedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setSelectedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setSelectedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -475,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setSelectedBeatmapEvent
 // Il2CppName: remove_setSelectedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setSelectedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setSelectedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -484,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getSelectedBeatmapEvent
 // Il2CppName: add_getSelectedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getSelectedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getSelectedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -493,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getSelectedBeatmapEvent
 // Il2CppName: remove_getSelectedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getSelectedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getSelectedBeatmapEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getSelectedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -502,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_recommendGameplayModifiersEvent
 // Il2CppName: add_recommendGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::add_recommendGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::add_recommendGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_recommendGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -511,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_recommendGameplayModifiersEvent
 // Il2CppName: remove_recommendGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::remove_recommendGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::remove_recommendGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_recommendGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -520,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getRecommendedGameplayModifiersEvent
 // Il2CppName: add_getRecommendedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getRecommendedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getRecommendedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getRecommendedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -529,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getRecommendedGameplayModifiersEvent
 // Il2CppName: remove_getRecommendedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getRecommendedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getRecommendedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getRecommendedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -538,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_clearRecommendedGameplayModifiersEvent
 // Il2CppName: add_clearRecommendedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_clearRecommendedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_clearRecommendedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_clearRecommendedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -547,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_clearRecommendedGameplayModifiersEvent
 // Il2CppName: remove_clearRecommendedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_clearRecommendedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_clearRecommendedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_clearRecommendedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -556,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setSelectGameplayModifiersEvent
 // Il2CppName: add_setSelectGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::add_setSelectGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::add_setSelectGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setSelectGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -565,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setSelectGameplayModifiersEvent
 // Il2CppName: remove_setSelectGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setSelectGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setSelectGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setSelectGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -574,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getSelectedGameplayModifiersEvent
 // Il2CppName: add_getSelectedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -583,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getSelectedGameplayModifiersEvent
 // Il2CppName: remove_getSelectedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getSelectedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -592,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getIsStartButtonEnabledEvent
 // Il2CppName: add_getIsStartButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsStartButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsStartButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getIsStartButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -601,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getIsStartButtonEnabledEvent
 // Il2CppName: remove_getIsStartButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsStartButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsStartButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getIsStartButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setIsStartButtonEnabledEvent
 // Il2CppName: add_setIsStartButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsStartButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsStartButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setIsStartButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -619,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setIsStartButtonEnabledEvent
 // Il2CppName: remove_setIsStartButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsStartButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsStartButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setIsStartButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -628,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getIsReadyEvent
 // Il2CppName: add_getIsReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsReadyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -637,7 +638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getIsReadyEvent
 // Il2CppName: remove_getIsReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsReadyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setIsReadyEvent
 // Il2CppName: add_setIsReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, bool>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsReadyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -655,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setIsReadyEvent
 // Il2CppName: remove_setIsReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, bool>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsReadyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setIsReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -664,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setStartGameTimeEvent
 // Il2CppName: add_setStartGameTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IMenuRpcManager::add_setStartGameTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, float>*)>(&GlobalNamespace::IMenuRpcManager::add_setStartGameTimeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -673,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setStartGameTimeEvent
 // Il2CppName: remove_setStartGameTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_setStartGameTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_setStartGameTimeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setStartGameTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -682,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_cancelledLevelStartEvent
 // Il2CppName: add_cancelledLevelStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_cancelledLevelStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_cancelledLevelStartEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -691,7 +692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_cancelledLevelStartEvent
 // Il2CppName: remove_cancelledLevelStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_cancelledLevelStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_cancelledLevelStartEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_cancelledLevelStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -700,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_startedLevelEvent
 // Il2CppName: add_startedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::IMenuRpcManager::add_startedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_4<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::IMenuRpcManager::add_startedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -709,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_startedLevelEvent
 // Il2CppName: remove_startedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_4<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_startedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_4<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_startedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_startedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -718,7 +719,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getStartedLevelEvent
 // Il2CppName: add_getStartedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getStartedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getStartedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -727,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getStartedLevelEvent
 // Il2CppName: remove_getStartedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getStartedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getStartedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getStartedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -736,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getMultiplayerGameStateEvent
 // Il2CppName: add_getMultiplayerGameStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getMultiplayerGameStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getMultiplayerGameStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -745,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getMultiplayerGameStateEvent
 // Il2CppName: remove_getMultiplayerGameStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getMultiplayerGameStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getMultiplayerGameStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -754,7 +755,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setMultiplayerGameStateEvent
 // Il2CppName: add_setMultiplayerGameStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::IMenuRpcManager::add_setMultiplayerGameStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::IMenuRpcManager::add_setMultiplayerGameStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -763,7 +764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setMultiplayerGameStateEvent
 // Il2CppName: remove_setMultiplayerGameStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::IMenuRpcManager::remove_setMultiplayerGameStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::IMenuRpcManager::remove_setMultiplayerGameStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setMultiplayerGameStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -772,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getIsEntitledToLevelEvent
 // Il2CppName: add_getIsEntitledToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsEntitledToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, ::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsEntitledToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -781,7 +782,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getIsEntitledToLevelEvent
 // Il2CppName: remove_getIsEntitledToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsEntitledToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, ::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsEntitledToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -790,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setPlayersMissingEntitlementsToLevelEvent
 // Il2CppName: add_setPlayersMissingEntitlementsToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setPlayersMissingEntitlementsToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::add_setPlayersMissingEntitlementsToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "PlayersMissingEntitlementsNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setPlayersMissingEntitlementsToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -799,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setPlayersMissingEntitlementsToLevelEvent
 // Il2CppName: remove_setPlayersMissingEntitlementsToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setPlayersMissingEntitlementsToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::IMenuRpcManager::remove_setPlayersMissingEntitlementsToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "PlayersMissingEntitlementsNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setPlayersMissingEntitlementsToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -808,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setIsEntitledToLevelEvent
 // Il2CppName: add_setIsEntitledToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsEntitledToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_3<::StringW, ::StringW, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsEntitledToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "EntitlementsStatus")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -817,7 +818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setIsEntitledToLevelEvent
 // Il2CppName: remove_setIsEntitledToLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_3<::Il2CppString*, ::Il2CppString*, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsEntitledToLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_3<::StringW, ::StringW, GlobalNamespace::EntitlementsStatus>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsEntitledToLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "EntitlementsStatus")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setIsEntitledToLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -826,7 +827,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent
 // Il2CppName: add_levelEntitlementStatusesInvalidatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -835,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent
 // Il2CppName: remove_levelEntitlementStatusesInvalidatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_levelEntitlementStatusesInvalidatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -844,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getIsInLobbyEvent
 // Il2CppName: add_getIsInLobbyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsInLobbyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getIsInLobbyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -853,7 +854,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getIsInLobbyEvent
 // Il2CppName: remove_getIsInLobbyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsInLobbyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getIsInLobbyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -862,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setIsInLobbyEvent
 // Il2CppName: add_setIsInLobbyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsInLobbyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, bool>*)>(&GlobalNamespace::IMenuRpcManager::add_setIsInLobbyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -871,7 +872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setIsInLobbyEvent
 // Il2CppName: remove_setIsInLobbyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, bool>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsInLobbyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, bool>*)>(&GlobalNamespace::IMenuRpcManager::remove_setIsInLobbyEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setIsInLobbyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -880,7 +881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_cancelCountdownEvent
 // Il2CppName: add_cancelCountdownEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_cancelCountdownEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_cancelCountdownEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -889,7 +890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_cancelCountdownEvent
 // Il2CppName: remove_cancelCountdownEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_cancelCountdownEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_cancelCountdownEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_cancelCountdownEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -898,7 +899,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setCountdownEndTimeEvent
 // Il2CppName: add_setCountdownEndTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IMenuRpcManager::add_setCountdownEndTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, float>*)>(&GlobalNamespace::IMenuRpcManager::add_setCountdownEndTimeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -907,7 +908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setCountdownEndTimeEvent
 // Il2CppName: remove_setCountdownEndTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_setCountdownEndTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, float>*)>(&GlobalNamespace::IMenuRpcManager::remove_setCountdownEndTimeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setCountdownEndTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -916,7 +917,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_setOwnedSongPacksEvent
 // Il2CppName: add_setOwnedSongPacksEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IMenuRpcManager::add_setOwnedSongPacksEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IMenuRpcManager::add_setOwnedSongPacksEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "SongPackMask")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -925,7 +926,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_setOwnedSongPacksEvent
 // Il2CppName: remove_setOwnedSongPacksEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IMenuRpcManager::remove_setOwnedSongPacksEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IMenuRpcManager::remove_setOwnedSongPacksEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "SongPackMask")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_setOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -934,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_getOwnedSongPacksEvent
 // Il2CppName: add_getOwnedSongPacksEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_getOwnedSongPacksEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_getOwnedSongPacksEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -943,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_getOwnedSongPacksEvent
 // Il2CppName: remove_getOwnedSongPacksEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_getOwnedSongPacksEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_getOwnedSongPacksEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_getOwnedSongPacksEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -952,7 +953,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::add_requestedKickPlayerEvent
 // Il2CppName: add_requestedKickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::add_requestedKickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, ::StringW>*)>(&GlobalNamespace::IMenuRpcManager::add_requestedKickPlayerEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "add_requestedKickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -961,7 +962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::remove_requestedKickPlayerEvent
 // Il2CppName: remove_requestedKickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::IMenuRpcManager::remove_requestedKickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(System::Action_2<::StringW, ::StringW>*)>(&GlobalNamespace::IMenuRpcManager::remove_requestedKickPlayerEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "remove_requestedKickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1131,7 +1132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::GetIsEntitledToLevel
 // Il2CppName: GetIsEntitledToLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::IMenuRpcManager::GetIsEntitledToLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::StringW)>(&GlobalNamespace::IMenuRpcManager::GetIsEntitledToLevel)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "GetIsEntitledToLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
@@ -1140,7 +1141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::SetIsEntitledToLevel
 // Il2CppName: SetIsEntitledToLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::Il2CppString*, GlobalNamespace::EntitlementsStatus)>(&GlobalNamespace::IMenuRpcManager::SetIsEntitledToLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::StringW, GlobalNamespace::EntitlementsStatus)>(&GlobalNamespace::IMenuRpcManager::SetIsEntitledToLevel)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* entitlementStatus = &::il2cpp_utils::GetClassFromName("", "EntitlementsStatus")->byval_arg;
@@ -1236,7 +1237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMenuRpcManager::RequestKickPlayer
 // Il2CppName: RequestKickPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::Il2CppString*)>(&GlobalNamespace::IMenuRpcManager::RequestKickPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMenuRpcManager::*)(::StringW)>(&GlobalNamespace::IMenuRpcManager::RequestKickPlayer)> {
   static const MethodInfo* get() {
     static auto* kickedPlayerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMenuRpcManager*), "RequestKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kickedPlayerId});

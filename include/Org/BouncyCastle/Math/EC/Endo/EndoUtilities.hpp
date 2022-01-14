@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Endo
@@ -45,9 +46,9 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // Nested type: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback
     class MapPointCallback;
     // Get static field: static public readonly System.String PRECOMP_NAME
-    static ::Il2CppString* _get_PRECOMP_NAME();
+    static ::StringW _get_PRECOMP_NAME();
     // Set static field: static public readonly System.String PRECOMP_NAME
-    static void _set_PRECOMP_NAME(::Il2CppString* value);
+    static void _set_PRECOMP_NAME(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x2405AD8
     static void _cctor();

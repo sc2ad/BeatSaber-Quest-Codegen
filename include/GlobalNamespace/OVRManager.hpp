@@ -35,6 +35,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -581,13 +582,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean _hadInputFocus
     static void _set__hadInputFocus(bool value);
     // Get static field: static public System.String OCULUS_UNITY_NAME_STR
-    static ::Il2CppString* _get_OCULUS_UNITY_NAME_STR();
+    static ::StringW _get_OCULUS_UNITY_NAME_STR();
     // Set static field: static public System.String OCULUS_UNITY_NAME_STR
-    static void _set_OCULUS_UNITY_NAME_STR(::Il2CppString* value);
+    static void _set_OCULUS_UNITY_NAME_STR(::StringW value);
     // Get static field: static public System.String OPENVR_UNITY_NAME_STR
-    static ::Il2CppString* _get_OPENVR_UNITY_NAME_STR();
+    static ::StringW _get_OPENVR_UNITY_NAME_STR();
     // Set static field: static public System.String OPENVR_UNITY_NAME_STR
-    static void _set_OPENVR_UNITY_NAME_STR(::Il2CppString* value);
+    static void _set_OPENVR_UNITY_NAME_STR(::StringW value);
     // Get static field: static public OVRManager/XRDevice loadedXRDevice
     static GlobalNamespace::OVRManager_XRDevice _get_loadedXRDevice();
     // Set static field: static public OVRManager/XRDevice loadedXRDevice
@@ -629,13 +630,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean prevAudioInIdIsCached
     static void _set_prevAudioInIdIsCached(bool value);
     // Get static field: static private System.String prevAudioOutId
-    static ::Il2CppString* _get_prevAudioOutId();
+    static ::StringW _get_prevAudioOutId();
     // Set static field: static private System.String prevAudioOutId
-    static void _set_prevAudioOutId(::Il2CppString* value);
+    static void _set_prevAudioOutId(::StringW value);
     // Get static field: static private System.String prevAudioInId
-    static ::Il2CppString* _get_prevAudioInId();
+    static ::StringW _get_prevAudioInId();
     // Set static field: static private System.String prevAudioInId
-    static void _set_prevAudioInId(::Il2CppString* value);
+    static void _set_prevAudioInId(::StringW value);
     // Get static field: static private System.Boolean wasPositionTracked
     static bool _get_wasPositionTracked();
     // Set static field: static private System.Boolean wasPositionTracked
@@ -645,9 +646,9 @@ namespace GlobalNamespace {
     // Set static field: static private OVRPlugin/EventDataBuffer eventDataBuffer
     static void _set_eventDataBuffer(GlobalNamespace::OVRPlugin::EventDataBuffer value);
     // Get static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static ::Il2CppString* _get_UnityAlphaOrBetaVersionWarningMessage();
+    static ::StringW _get_UnityAlphaOrBetaVersionWarningMessage();
     // Set static field: static public System.String UnityAlphaOrBetaVersionWarningMessage
-    static void _set_UnityAlphaOrBetaVersionWarningMessage(::Il2CppString* value);
+    static void _set_UnityAlphaOrBetaVersionWarningMessage(::StringW value);
     // Get static field: static public System.Boolean OVRManagerinitialized
     static bool _get_OVRManagerinitialized();
     // Set static field: static public System.Boolean OVRManagerinitialized
@@ -807,10 +808,10 @@ namespace GlobalNamespace {
     static void set_isHmdPresent(bool value);
     // static public System.String get_audioOutId()
     // Offset: 0x177501C
-    static ::Il2CppString* get_audioOutId();
+    static ::StringW get_audioOutId();
     // static public System.String get_audioInId()
     // Offset: 0x177507C
-    static ::Il2CppString* get_audioInId();
+    static ::StringW get_audioInId();
     // static public System.Boolean get_hasVrFocus()
     // Offset: 0x17750DC
     static bool get_hasVrFocus();
@@ -1426,7 +1427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager::get_audioOutId
 // Il2CppName: get_audioOutId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRManager::get_audioOutId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRManager::get_audioOutId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager*), "get_audioOutId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1434,7 +1435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager::get_audioInId
 // Il2CppName: get_audioInId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRManager::get_audioInId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRManager::get_audioInId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager*), "get_audioInId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

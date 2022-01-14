@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -61,9 +62,9 @@ namespace System::Reflection {
     // private System.String m_memberName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_memberName;
+    ::StringW m_memberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.RuntimeType m_reflectedType
     // Size: 0x8
     // Offset: 0x18
@@ -73,15 +74,15 @@ namespace System::Reflection {
     // private System.String m_signature
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_signature;
+    ::StringW m_signature;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_signature2
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_signature2;
+    ::StringW m_signature2;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Reflection.MemberTypes m_memberType
     // Size: 0x4
     // Offset: 0x30
@@ -106,13 +107,13 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
     // Get instance field reference: private System.String m_memberName
-    ::Il2CppString*& dyn_m_memberName();
+    ::StringW& dyn_m_memberName();
     // Get instance field reference: private System.RuntimeType m_reflectedType
     System::RuntimeType*& dyn_m_reflectedType();
     // Get instance field reference: private System.String m_signature
-    ::Il2CppString*& dyn_m_signature();
+    ::StringW& dyn_m_signature();
     // Get instance field reference: private System.String m_signature2
-    ::Il2CppString*& dyn_m_signature2();
+    ::StringW& dyn_m_signature2();
     // Get instance field reference: private System.Reflection.MemberTypes m_memberType
     System::Reflection::MemberTypes& dyn_m_memberType();
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo m_info
@@ -126,10 +127,10 @@ namespace System::Reflection {
     }
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.Reflection.MemberTypes type)
     // Offset: 0x1E96030
-    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::Il2CppString* name, System::RuntimeType* reflectedClass, ::Il2CppString* signature, System::Reflection::MemberTypes type);
+    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::StringW name, System::RuntimeType* reflectedClass, ::StringW signature, System::Reflection::MemberTypes type);
     // static public System.Void GetSerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.String name, System.RuntimeType reflectedClass, System.String signature, System.String signature2, System.Reflection.MemberTypes type, System.Type[] genericArguments)
     // Offset: 0x1E96040
-    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::Il2CppString* name, System::RuntimeType* reflectedClass, ::Il2CppString* signature, ::Il2CppString* signature2, System::Reflection::MemberTypes type, ::ArrayW<System::Type*> genericArguments);
+    static void GetSerializationInfo(System::Runtime::Serialization::SerializationInfo* info, ::StringW name, System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2, System::Reflection::MemberTypes type, ::ArrayW<System::Type*> genericArguments);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1E96554
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -149,7 +150,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo
 // Il2CppName: GetSerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::Il2CppString*, System::RuntimeType*, ::Il2CppString*, System::Reflection::MemberTypes)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::StringW, System::RuntimeType*, ::StringW, System::Reflection::MemberTypes)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo
 // Il2CppName: GetSerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::Il2CppString*, System::RuntimeType*, ::Il2CppString*, ::Il2CppString*, System::Reflection::MemberTypes, ::ArrayW<System::Type*>)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, ::StringW, System::RuntimeType*, ::StringW, ::StringW, System::Reflection::MemberTypes, ::ArrayW<System::Type*>)>(&System::Reflection::MemberInfoSerializationHolder::GetSerializationInfo)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -98,9 +99,9 @@ namespace GlobalNamespace {
     // private System.String _experimentName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* experimentName;
+    ::StringW experimentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _test1GroupSize
     // Size: 0x4
     // Offset: 0x20
@@ -124,9 +125,9 @@ namespace GlobalNamespace {
     // private System.String _salt
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* salt;
+    ::StringW salt;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     // Size: 0x4
     // Offset: 0x38
@@ -137,7 +138,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _experimentName
-    ::Il2CppString*& dyn__experimentName();
+    ::StringW& dyn__experimentName();
     // Get instance field reference: private System.Single _test1GroupSize
     float& dyn__test1GroupSize();
     // Get instance field reference: private System.Single _test2GroupSize
@@ -145,7 +146,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _controlGroupSize
     float& dyn__controlGroupSize();
     // Get instance field reference: private System.String _salt
-    ::Il2CppString*& dyn__salt();
+    ::StringW& dyn__salt();
     // Get instance field reference: private AbTestExperimentDefinitionSO/Group _currentUserTreatmentGroup
     GlobalNamespace::AbTestExperimentDefinitionSO::Group& dyn__currentUserTreatmentGroup();
     // public System.Single get_test1GroupSize()
@@ -156,7 +157,7 @@ namespace GlobalNamespace {
     float get_test2GroupSize();
     // public System.String get_experimentName()
     // Offset: 0x130A360
-    ::Il2CppString* get_experimentName();
+    ::StringW get_experimentName();
     // public AbTestExperimentDefinitionSO/Group get_currentUserTreatmentGroup()
     // Offset: 0x130A368
     GlobalNamespace::AbTestExperimentDefinitionSO::Group get_currentUserTreatmentGroup();
@@ -165,13 +166,13 @@ namespace GlobalNamespace {
     void OnValidate();
     // public System.Void ComputeCurrentUserTreatment(System.String userId)
     // Offset: 0x130A42C
-    void ComputeCurrentUserTreatment(::Il2CppString* userId);
+    void ComputeCurrentUserTreatment(::StringW userId);
     // public System.Void ForceSetTreatmentGroup(AbTestExperimentDefinitionSO/Group group)
     // Offset: 0x130A65C
     void ForceSetTreatmentGroup(GlobalNamespace::AbTestExperimentDefinitionSO::Group group);
     // private AbTestExperimentDefinitionSO/Group AbSplit(System.String userId)
     // Offset: 0x130A450
-    GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::Il2CppString* userId);
+    GlobalNamespace::AbTestExperimentDefinitionSO::Group AbSplit(::StringW userId);
     // public System.Void .ctor()
     // Offset: 0x130A664
     // Implemented from: PersistentScriptableObject
@@ -211,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::get_experimentName
 // Il2CppName: get_experimentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&GlobalNamespace::AbTestExperimentDefinitionSO::get_experimentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&GlobalNamespace::AbTestExperimentDefinitionSO::get_experimentName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AbTestExperimentDefinitionSO*), "get_experimentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::ComputeCurrentUserTreatment
 // Il2CppName: ComputeCurrentUserTreatment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AbTestExperimentDefinitionSO::*)(::Il2CppString*)>(&GlobalNamespace::AbTestExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(&GlobalNamespace::AbTestExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AbTestExperimentDefinitionSO*), "ComputeCurrentUserTreatment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -253,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AbTestExperimentDefinitionSO::AbSplit
 // Il2CppName: AbSplit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AbTestExperimentDefinitionSO::Group (GlobalNamespace::AbTestExperimentDefinitionSO::*)(::Il2CppString*)>(&GlobalNamespace::AbTestExperimentDefinitionSO::AbSplit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AbTestExperimentDefinitionSO::Group (GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(&GlobalNamespace::AbTestExperimentDefinitionSO::AbSplit)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AbTestExperimentDefinitionSO*), "AbSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

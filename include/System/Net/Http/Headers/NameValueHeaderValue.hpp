@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -55,33 +56,33 @@ namespace System::Net::Http::Headers {
     // System.String value
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* value;
+    ::StringW value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: System.String value
-    ::Il2CppString*& dyn_value();
+    ::StringW& dyn_value();
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x17C3818
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // System.Void set_Name(System.String value)
     // Offset: 0x17C3820
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.String get_Value()
     // Offset: 0x17C3828
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // protected internal System.Void .ctor(System.Net.Http.Headers.NameValueHeaderValue source)
     // Offset: 0x17BCE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,13 +92,13 @@ namespace System::Net::Http::Headers {
     }
     // static System.Net.Http.Headers.NameValueHeaderValue Create(System.String name, System.String value)
     // Offset: 0x17BC380
-    static System::Net::Http::Headers::NameValueHeaderValue* Create(::Il2CppString* name, ::Il2CppString* value);
+    static System::Net::Http::Headers::NameValueHeaderValue* Create(::StringW name, ::StringW value);
     // private System.Object System.ICloneable.Clone()
     // Offset: 0x17C3830
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParsePragma(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result)
     // Offset: 0x17C3A08
-    static bool TryParsePragma(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*> result);
+    static bool TryParsePragma(::StringW input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*> result);
     // static System.Boolean TryParseParameters(System.Net.Http.Headers.Lexer lexer, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result, out System.Net.Http.Headers.Token t)
     // Offset: 0x17BD258
     static bool TryParseParameters(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*> result, ByRef<System::Net::Http::Headers::Token> t);
@@ -127,17 +128,17 @@ namespace System::Net::Http::Headers {
     // Offset: 0x17C3AA8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.Headers.NameValueHeaderValue
   #pragma pack(pop)
-  static check_size<sizeof(NameValueHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_NameValueHeaderValueSizeCheck;
+  static check_size<sizeof(NameValueHeaderValue), 24 + sizeof(::StringW)> __System_Net_Http_Headers_NameValueHeaderValueSizeCheck;
   static_assert(sizeof(NameValueHeaderValue) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::NameValueHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::NameValueHeaderValue::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::NameValueHeaderValue::*)(::StringW)>(&System::Net::Http::Headers::NameValueHeaderValue::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::NameValueHeaderValue* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::Http::Headers::NameValueHeaderValue::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::NameValueHeaderValue* (*)(::StringW, ::StringW)>(&System::Net::Http::Headers::NameValueHeaderValue::Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::TryParsePragma
 // Il2CppName: TryParsePragma
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*>)>(&System::Net::Http::Headers::NameValueHeaderValue::TryParsePragma)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*>)>(&System::Net::Http::Headers::NameValueHeaderValue::TryParsePragma)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minimalCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -238,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::NameValueHeaderValue::*)()>(&System::Net::Http::Headers::NameValueHeaderValue::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

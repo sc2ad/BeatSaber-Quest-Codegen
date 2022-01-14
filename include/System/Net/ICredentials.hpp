@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -17,9 +18,6 @@ namespace System {
   class Uri;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Net
 namespace System::Net {
   // Forward declaring type: ICredentials
@@ -38,7 +36,7 @@ namespace System::Net {
     public:
     // public System.Net.NetworkCredential GetCredential(System.Uri uri, System.String authType)
     // Offset: 0xFFFFFFFF
-    System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::Il2CppString* authType);
+    System::Net::NetworkCredential* GetCredential(System::Uri* uri, ::StringW authType);
   }; // System.Net.ICredentials
   #pragma pack(pop)
 }
@@ -46,7 +44,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::ICredentials::GetCredential
 // Il2CppName: GetCredential
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (System::Net::ICredentials::*)(System::Uri*, ::Il2CppString*)>(&System::Net::ICredentials::GetCredential)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (System::Net::ICredentials::*)(System::Uri*, ::StringW)>(&System::Net::ICredentials::GetCredential)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* authType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

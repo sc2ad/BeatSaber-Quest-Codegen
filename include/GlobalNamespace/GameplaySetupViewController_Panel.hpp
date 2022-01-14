@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,9 +48,9 @@ namespace GlobalNamespace {
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly IRefreshable refreshable
     // Size: 0x8
     // Offset: 0x18
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String title
-    ::Il2CppString*& dyn_title();
+    ::StringW& dyn_title();
     // Get instance field reference: public readonly IRefreshable refreshable
     GlobalNamespace::IRefreshable*& dyn_refreshable();
     // Get instance field reference: public readonly UnityEngine.GameObject gameObject
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String title, IRefreshable refreshable, UnityEngine.GameObject gameObject)
     // Offset: 0x1197350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplaySetupViewController::Panel* New_ctor(::Il2CppString* title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
+    static GameplaySetupViewController::Panel* New_ctor(::StringW title, GlobalNamespace::IRefreshable* refreshable, UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplaySetupViewController::Panel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplaySetupViewController::Panel*, creationType>(title, refreshable, gameObject)));
     }

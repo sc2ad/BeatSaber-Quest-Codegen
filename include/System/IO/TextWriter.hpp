@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -123,7 +124,7 @@ namespace System::IO {
     System::IFormatProvider*& dyn_InternalFormatProvider();
     // static private System.String get_InitialNewLine()
     // Offset: 0x1A0A520
-    static ::Il2CppString* get_InitialNewLine();
+    static ::StringW get_InitialNewLine();
     // public System.IFormatProvider get_FormatProvider()
     // Offset: 0x1A0A5B4
     System::IFormatProvider* get_FormatProvider();
@@ -166,13 +167,13 @@ namespace System::IO {
     void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public System.Void Write(System.String value)
     // Offset: 0x1A0AA50
-    void Write(::Il2CppString* value);
+    void Write(::StringW value);
     // public System.Void Write(System.String format, System.Object arg0)
     // Offset: 0x1A0AA94
-    void Write(::Il2CppString* format, ::Il2CppObject* arg0);
+    void Write(::StringW format, ::Il2CppObject* arg0);
     // public System.Void Write(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1A0AAF4
-    void Write(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    void Write(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void WriteLine()
     // Offset: 0x1A0AB6C
     void WriteLine();
@@ -184,19 +185,19 @@ namespace System::IO {
     void WriteLine(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public System.Void WriteLine(System.String value)
     // Offset: 0x1A0ABF4
-    void WriteLine(::Il2CppString* value);
+    void WriteLine(::StringW value);
     // public System.Void WriteLine(System.String format, System.Object arg0)
     // Offset: 0x1A0AD9C
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0);
+    void WriteLine(::StringW format, ::Il2CppObject* arg0);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x1A0ADFC
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    void WriteLine(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Void WriteLine(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1A0AE64
-    void WriteLine(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    void WriteLine(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void WriteLine(System.String format, params System.Object[] arg)
     // Offset: 0x1A0AEDC
-    void WriteLine(::Il2CppString* format, ::ArrayW<::Il2CppObject*> arg);
+    void WriteLine(::StringW format, ::ArrayW<::Il2CppObject*> arg);
     // protected System.Void .ctor()
     // Offset: 0x1A0A528
     // Implemented from: System.MarshalByRefObject
@@ -216,7 +217,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::TextWriter::get_InitialNewLine
 // Il2CppName: get_InitialNewLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::TextWriter::get_InitialNewLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::IO::TextWriter::get_InitialNewLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter*), "get_InitialNewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -323,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*)>(&System::IO::TextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW)>(&System::IO::TextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::Il2CppObject*)>(&System::IO::TextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::Il2CppObject*)>(&System::IO::TextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -342,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -382,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*)>(&System::IO::TextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW)>(&System::IO::TextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -391,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -401,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -412,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::IO::TextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -424,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::IO::TextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::IO::TextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

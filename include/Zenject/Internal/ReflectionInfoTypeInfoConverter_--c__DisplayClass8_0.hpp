@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -55,9 +56,9 @@ namespace Zenject::Internal {
     // public System.String propertyName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* propertyName;
+    ::StringW propertyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
     // Size: 0x8
     // Offset: 0x18
@@ -66,7 +67,7 @@ namespace Zenject::Internal {
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*) == 0x8);
     public:
     // Get instance field reference: public System.String propertyName
-    ::Il2CppString*& dyn_propertyName();
+    ::StringW& dyn_propertyName();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields
     System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*& dyn_writeableFields();
     // System.Boolean <GetOnlyPropertySetter>b__0(System.Reflection.FieldInfo f)

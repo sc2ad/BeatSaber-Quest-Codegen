@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -32,14 +33,14 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x1940CB4
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.String StringConstraint::get_Description()
-    ::Il2CppString* get_Description();
+    ::StringW get_Description();
     // public System.Void .ctor(System.String expected)
     // Offset: 0x193F3D0
     // Implemented from: NUnit.Framework.Constraints.PathConstraint
     // Base method: System.Void PathConstraint::.ctor(System.String expected)
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SamePathConstraint* New_ctor(::Il2CppString* expected) {
+    static SamePathConstraint* New_ctor(::StringW expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::SamePathConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SamePathConstraint*, creationType>(expected)));
     }
@@ -47,7 +48,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x1940D38
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Boolean StringConstraint::Matches(System.String actual)
-    bool Matches(::Il2CppString* actual);
+    bool Matches(::StringW actual);
   }; // NUnit.Framework.Constraints.SamePathConstraint
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ namespace NUnit::Framework::Constraints {
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::SamePathConstraint::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::SamePathConstraint::*)()>(&NUnit::Framework::Constraints::SamePathConstraint::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Constraints::SamePathConstraint::*)()>(&NUnit::Framework::Constraints::SamePathConstraint::get_Description)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::SamePathConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -67,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::SamePathConstraint::Matches
 // Il2CppName: Matches
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::SamePathConstraint::*)(::Il2CppString*)>(&NUnit::Framework::Constraints::SamePathConstraint::Matches)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::SamePathConstraint::*)(::StringW)>(&NUnit::Framework::Constraints::SamePathConstraint::Matches)> {
   static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::SamePathConstraint*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});

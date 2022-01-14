@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -93,27 +94,27 @@ namespace GlobalNamespace {
     // static field const value: static private System.String eyeSuffix
     static constexpr const char* eyeSuffix = " (eye)";
     // Get static field: static private System.String eyeSuffix
-    static ::Il2CppString* _get_eyeSuffix();
+    static ::StringW _get_eyeSuffix();
     // Set static field: static private System.String eyeSuffix
-    static void _set_eyeSuffix(::Il2CppString* value);
+    static void _set_eyeSuffix(::StringW value);
     // static field const value: static private System.String earsSuffix
     static constexpr const char* earsSuffix = " (ears)";
     // Get static field: static private System.String earsSuffix
-    static ::Il2CppString* _get_earsSuffix();
+    static ::StringW _get_earsSuffix();
     // Set static field: static private System.String earsSuffix
-    static void _set_earsSuffix(::Il2CppString* value);
+    static void _set_earsSuffix(::StringW value);
     // static field const value: static private System.String headSuffix
     static constexpr const char* headSuffix = " (head)";
     // Get static field: static private System.String headSuffix
-    static ::Il2CppString* _get_headSuffix();
+    static ::StringW _get_headSuffix();
     // Set static field: static private System.String headSuffix
-    static void _set_headSuffix(::Il2CppString* value);
+    static void _set_headSuffix(::StringW value);
     // static field const value: static private System.String originSuffix
     static constexpr const char* originSuffix = " (origin)";
     // Get static field: static private System.String originSuffix
-    static ::Il2CppString* _get_originSuffix();
+    static ::StringW _get_originSuffix();
     // Set static field: static private System.String originSuffix
-    static void _set_originSuffix(::Il2CppString* value);
+    static void _set_originSuffix(::StringW value);
     // Get instance field reference: private UnityEngine.Transform _head
     UnityEngine::Transform*& dyn__head();
     // Get instance field reference: private UnityEngine.Camera <camera>k__BackingField
@@ -148,7 +149,7 @@ namespace GlobalNamespace {
     static void set_sceneResolutionScale(float value);
     // public System.String get_baseName()
     // Offset: 0x15B6DB8
-    ::Il2CppString* get_baseName();
+    ::StringW get_baseName();
     // public UnityEngine.Ray GetRay()
     // Offset: 0x15B5B24
     UnityEngine::Ray GetRay();
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Camera::get_baseName
 // Il2CppName: get_baseName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR_Camera::*)()>(&GlobalNamespace::SteamVR_Camera::get_baseName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR_Camera::*)()>(&GlobalNamespace::SteamVR_Camera::get_baseName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Camera*), "get_baseName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

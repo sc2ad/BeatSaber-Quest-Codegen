@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,16 +50,16 @@ namespace Zenject {
     // public System.String suffix
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* suffix;
+    ::StringW suffix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return suffix;
     }
     // Get instance field reference: public System.String suffix
-    ::Il2CppString*& dyn_suffix();
+    ::StringW& dyn_suffix();
     // System.Boolean <WithSuffix>b__0(System.Type t)
     // Offset: 0x14FE91C
     bool $WithSuffix$b__0(System::Type* t);
@@ -79,7 +80,7 @@ namespace Zenject {
     }
   }; // Zenject.ConventionFilterTypesBinder/Zenject.<>c__DisplayClass14_0
   #pragma pack(pop)
-  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass14_0), 16 + sizeof(::Il2CppString*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass14_0SizeCheck;
+  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass14_0), 16 + sizeof(::StringW)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass14_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

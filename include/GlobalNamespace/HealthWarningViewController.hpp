@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -104,16 +105,16 @@ namespace GlobalNamespace {
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* healthAndSafetyFullLocalizationKey;
+    ::StringW healthAndSafetyFullLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [LocalizationKeyAttribute] Offset: 0xF456BC
     // private System.String _healthAndSafetyShortLocalizationKey
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* healthAndSafetyShortLocalizationKey;
+    ::StringW healthAndSafetyShortLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Action didFinishEvent
     // Size: 0x8
     // Offset: 0xA0
@@ -144,9 +145,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
     // Get instance field reference: private System.String _healthAndSafetyFullLocalizationKey
-    ::Il2CppString*& dyn__healthAndSafetyFullLocalizationKey();
+    ::StringW& dyn__healthAndSafetyFullLocalizationKey();
     // Get instance field reference: private System.String _healthAndSafetyShortLocalizationKey
-    ::Il2CppString*& dyn__healthAndSafetyShortLocalizationKey();
+    ::StringW& dyn__healthAndSafetyShortLocalizationKey();
     // Get instance field reference: private System.Action didFinishEvent
     System::Action*& dyn_didFinishEvent();
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety

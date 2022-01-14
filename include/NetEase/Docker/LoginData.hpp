@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Forward declaring type: LoginData
@@ -47,12 +45,12 @@ namespace NetEase::Docker {
     // private System.String <UserName>k__BackingField
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* UserName;
+    ::StringW UserName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: LoginData
-    constexpr LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::Il2CppString* UserName_ = {}) noexcept : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
+    constexpr LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::StringW UserName_ = {}) noexcept : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -62,7 +60,7 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <LoginCode>k__BackingField
     int& dyn_$LoginCode$k__BackingField();
     // Get instance field reference: private System.String <UserName>k__BackingField
-    ::Il2CppString*& dyn_$UserName$k__BackingField();
+    ::StringW& dyn_$UserName$k__BackingField();
     // public System.Boolean get_LoginSuccessful()
     // Offset: 0x26CAA94
     bool get_LoginSuccessful();
@@ -74,13 +72,13 @@ namespace NetEase::Docker {
     void set_LoginCode(int value);
     // public System.String get_UserName()
     // Offset: 0x26CAAB0
-    ::Il2CppString* get_UserName();
+    ::StringW get_UserName();
     // public System.Void set_UserName(System.String value)
     // Offset: 0x26CAAB8
-    void set_UserName(::Il2CppString* value);
+    void set_UserName(::StringW value);
   }; // NetEase.Docker.LoginData
   #pragma pack(pop)
-  static check_size<sizeof(LoginData), 8 + sizeof(::Il2CppString*)> __NetEase_Docker_LoginDataSizeCheck;
+  static check_size<sizeof(LoginData), 8 + sizeof(::StringW)> __NetEase_Docker_LoginDataSizeCheck;
   static_assert(sizeof(LoginData) == 0x10);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::get_UserName
 // Il2CppName: get_UserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEase::Docker::LoginData::*)()>(&NetEase::Docker::LoginData::get_UserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NetEase::Docker::LoginData::*)()>(&NetEase::Docker::LoginData::get_UserName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -121,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::set_UserName
 // Il2CppName: set_UserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LoginData::*)(::Il2CppString*)>(&NetEase::Docker::LoginData::set_UserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LoginData::*)(::StringW)>(&NetEase::Docker::LoginData::set_UserName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

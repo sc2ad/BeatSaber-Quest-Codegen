@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -42,9 +43,9 @@ namespace System::Net {
       // private System.String m_name
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* m_name;
+      ::StringW m_name;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // private System.Net.CookieToken m_token
       // Size: 0x4
       // Offset: 0x8
@@ -53,13 +54,13 @@ namespace System::Net {
       static_assert(sizeof(System::Net::CookieToken) == 0x4);
       public:
       // Creating value type constructor for type: RecognizedAttribute
-      constexpr RecognizedAttribute(::Il2CppString* m_name_ = {}, System::Net::CookieToken m_token_ = {}) noexcept : m_name{m_name_}, m_token{m_token_} {}
+      constexpr RecognizedAttribute(::StringW m_name_ = {}, System::Net::CookieToken m_token_ = {}) noexcept : m_name{m_name_}, m_token{m_token_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: private System.String m_name
-      ::Il2CppString*& dyn_m_name();
+      ::StringW& dyn_m_name();
       // Get instance field reference: private System.Net.CookieToken m_token
       System::Net::CookieToken& dyn_m_token();
       // System.Net.CookieToken get_Token()
@@ -67,10 +68,10 @@ namespace System::Net {
       System::Net::CookieToken get_Token();
       // System.Void .ctor(System.String name, System.Net.CookieToken token)
       // Offset: 0x15EBB1C
-      // ABORTED: conflicts with another method.  RecognizedAttribute(::Il2CppString* name, System::Net::CookieToken token);
+      // ABORTED: conflicts with another method.  RecognizedAttribute(::StringW name, System::Net::CookieToken token);
       // System.Boolean IsEqualTo(System.String value)
       // Offset: 0x15EB8A0
-      bool IsEqualTo(::Il2CppString* value);
+      bool IsEqualTo(::StringW value);
     }; // System.Net.CookieTokenizer/System.Net.RecognizedAttribute
     #pragma pack(pop)
     static check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken)> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
@@ -109,9 +110,9 @@ namespace System::Net {
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_name;
+    ::StringW m_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_quoted
     // Size: 0x1
     // Offset: 0x28
@@ -141,15 +142,15 @@ namespace System::Net {
     // private System.String m_tokenStream
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_tokenStream;
+    ::StringW m_tokenStream;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_value
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* m_value;
+    ::StringW m_value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedAttributes
     static ::ArrayW<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedAttributes();
@@ -166,7 +167,7 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 m_length
     int& dyn_m_length();
     // Get instance field reference: private System.String m_name
-    ::Il2CppString*& dyn_m_name();
+    ::StringW& dyn_m_name();
     // Get instance field reference: private System.Boolean m_quoted
     bool& dyn_m_quoted();
     // Get instance field reference: private System.Int32 m_start
@@ -176,9 +177,9 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 m_tokenLength
     int& dyn_m_tokenLength();
     // Get instance field reference: private System.String m_tokenStream
-    ::Il2CppString*& dyn_m_tokenStream();
+    ::StringW& dyn_m_tokenStream();
     // Get instance field reference: private System.String m_value
-    ::Il2CppString*& dyn_m_value();
+    ::StringW& dyn_m_value();
     // System.Boolean get_EndOfCookie()
     // Offset: 0x15EB27C
     bool get_EndOfCookie();
@@ -190,10 +191,10 @@ namespace System::Net {
     bool get_Eof();
     // System.String get_Name()
     // Offset: 0x15EB290
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // System.Void set_Name(System.String value)
     // Offset: 0x15EB298
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // System.Boolean get_Quoted()
     // Offset: 0x15EB2A0
     bool get_Quoted();
@@ -208,14 +209,14 @@ namespace System::Net {
     void set_Token(System::Net::CookieToken value);
     // System.String get_Value()
     // Offset: 0x15EB2C4
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // System.Void set_Value(System.String value)
     // Offset: 0x15EB2CC
-    void set_Value(::Il2CppString* value);
+    void set_Value(::StringW value);
     // System.Void .ctor(System.String tokenStream)
     // Offset: 0x15EB12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CookieTokenizer* New_ctor(::Il2CppString* tokenStream) {
+    static CookieTokenizer* New_ctor(::StringW tokenStream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieTokenizer*, creationType>(tokenStream)));
     }
@@ -224,7 +225,7 @@ namespace System::Net {
     static void _cctor();
     // System.String Extract()
     // Offset: 0x15EB2D4
-    ::Il2CppString* Extract();
+    ::StringW Extract();
     // System.Net.CookieToken FindNext(System.Boolean ignoreComma, System.Boolean ignoreEquals)
     // Offset: 0x15EB364
     System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
@@ -239,7 +240,7 @@ namespace System::Net {
     System::Net::CookieToken TokenFromName(bool parseResponseCookies);
   }; // System.Net.CookieTokenizer
   #pragma pack(pop)
-  static check_size<sizeof(CookieTokenizer), 64 + sizeof(::Il2CppString*)> __System_Net_CookieTokenizerSizeCheck;
+  static check_size<sizeof(CookieTokenizer), 64 + sizeof(::StringW)> __System_Net_CookieTokenizerSizeCheck;
   static_assert(sizeof(CookieTokenizer) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -273,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieTokenizer*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -281,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieTokenizer::*)(::Il2CppString*)>(&System::Net::CookieTokenizer::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieTokenizer::*)(::StringW)>(&System::Net::CookieTokenizer::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieTokenizer*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -324,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieTokenizer*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::set_Value
 // Il2CppName: set_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieTokenizer::*)(::Il2CppString*)>(&System::Net::CookieTokenizer::set_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieTokenizer::*)(::StringW)>(&System::Net::CookieTokenizer::set_Value)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieTokenizer*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -353,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::CookieTokenizer::Extract
 // Il2CppName: Extract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::Extract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::CookieTokenizer::*)()>(&System::Net::CookieTokenizer::Extract)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieTokenizer*), "Extract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -163,9 +164,9 @@ namespace GlobalNamespace {
     // private System.String _songPlayerCrossFadingToLevelId
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* songPlayerCrossFadingToLevelId;
+    ::StringW songPlayerCrossFadingToLevelId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.GameObject _noDataInfoGO
     // Size: 0x8
     // Offset: 0xD0
@@ -202,7 +203,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showHeader
     bool& dyn__showHeader();
     // Get instance field reference: private System.String _songPlayerCrossFadingToLevelId
-    ::Il2CppString*& dyn__songPlayerCrossFadingToLevelId();
+    ::StringW& dyn__songPlayerCrossFadingToLevelId();
     // Get instance field reference: private UnityEngine.GameObject _noDataInfoGO
     UnityEngine::GameObject*& dyn__noDataInfoGO();
     // Get instance field reference: private IPreviewBeatmapLevel _previewBeatmapLevelToBeSelected
@@ -221,7 +222,7 @@ namespace GlobalNamespace {
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionViewController*>* value);
     // public System.Void SetData(IBeatmapLevelCollection beatmapLevelCollection, System.String headerText, UnityEngine.Sprite headerSprite, System.Boolean sortLevels, UnityEngine.GameObject noDataInfoPrefab)
     // Offset: 0x12F4F20
-    void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::Il2CppString* headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
+    void SetData(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::StringW headerText, UnityEngine::Sprite* headerSprite, bool sortLevels, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x12F5220
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
@@ -309,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionViewController::*)(GlobalNamespace::IBeatmapLevelCollection*, ::Il2CppString*, UnityEngine::Sprite*, bool, UnityEngine::GameObject*)>(&GlobalNamespace::LevelCollectionViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionViewController::*)(GlobalNamespace::IBeatmapLevelCollection*, ::StringW, UnityEngine::Sprite*, bool, UnityEngine::GameObject*)>(&GlobalNamespace::LevelCollectionViewController::SetData)> {
   static const MethodInfo* get() {
     static auto* beatmapLevelCollection = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelCollection")->byval_arg;
     static auto* headerText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

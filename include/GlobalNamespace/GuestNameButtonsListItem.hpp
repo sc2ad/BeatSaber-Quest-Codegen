@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     System::Action*& dyn__buttonPressed();
     // public System.Void set_nameText(System.String value)
     // Offset: 0x119A534
-    void set_nameText(::Il2CppString* value);
+    void set_nameText(::StringW value);
     // public System.Void set_buttonPressed(System.Action value)
     // Offset: 0x119A550
     void set_buttonPressed(System::Action* value);
@@ -115,7 +116,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::set_nameText
 // Il2CppName: set_nameText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GuestNameButtonsListItem::*)(::Il2CppString*)>(&GlobalNamespace::GuestNameButtonsListItem::set_nameText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GuestNameButtonsListItem::*)(::StringW)>(&GlobalNamespace::GuestNameButtonsListItem::set_nameText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GuestNameButtonsListItem*), "set_nameText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

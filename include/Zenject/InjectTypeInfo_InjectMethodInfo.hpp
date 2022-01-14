@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -46,9 +47,9 @@ namespace Zenject {
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Zenject.ZenInjectMethod Action
     // Size: 0x8
     // Offset: 0x18
@@ -63,7 +64,7 @@ namespace Zenject {
     static_assert(sizeof(::ArrayW<Zenject::InjectableInfo*>) == 0x8);
     public:
     // Get instance field reference: public readonly System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // Get instance field reference: public readonly Zenject.ZenInjectMethod Action
     Zenject::ZenInjectMethod*& dyn_Action();
     // Get instance field reference: public readonly Zenject.InjectableInfo[] Parameters
@@ -71,7 +72,7 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.ZenInjectMethod action, Zenject.InjectableInfo[] parameters, System.String name)
     // Offset: 0x26BA930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectTypeInfo::InjectMethodInfo* New_ctor(Zenject::ZenInjectMethod* action, ::ArrayW<Zenject::InjectableInfo*> parameters, ::Il2CppString* name) {
+    static InjectTypeInfo::InjectMethodInfo* New_ctor(Zenject::ZenInjectMethod* action, ::ArrayW<Zenject::InjectableInfo*> parameters, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::InjectMethodInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectMethodInfo*, creationType>(action, parameters, name)));
     }

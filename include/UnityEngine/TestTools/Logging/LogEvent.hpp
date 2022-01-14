@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.TestTools.Logging
 namespace UnityEngine::TestTools::Logging {
@@ -40,15 +41,15 @@ namespace UnityEngine::TestTools::Logging {
     // private System.String <Message>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Message;
+    ::StringW Message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <StackTrace>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* StackTrace;
+    ::StringW StackTrace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.LogType <LogType>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -63,25 +64,25 @@ namespace UnityEngine::TestTools::Logging {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Message>k__BackingField
-    ::Il2CppString*& dyn_$Message$k__BackingField();
+    ::StringW& dyn_$Message$k__BackingField();
     // Get instance field reference: private System.String <StackTrace>k__BackingField
-    ::Il2CppString*& dyn_$StackTrace$k__BackingField();
+    ::StringW& dyn_$StackTrace$k__BackingField();
     // Get instance field reference: private UnityEngine.LogType <LogType>k__BackingField
     UnityEngine::LogType& dyn_$LogType$k__BackingField();
     // Get instance field reference: private System.Boolean <IsHandled>k__BackingField
     bool& dyn_$IsHandled$k__BackingField();
     // public System.String get_Message()
     // Offset: 0x16CFE44
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void set_Message(System.String value)
     // Offset: 0x16CFE4C
-    void set_Message(::Il2CppString* value);
+    void set_Message(::StringW value);
     // public System.String get_StackTrace()
     // Offset: 0x16CFE54
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
     // Offset: 0x16CFE5C
-    void set_StackTrace(::Il2CppString* value);
+    void set_StackTrace(::StringW value);
     // public UnityEngine.LogType get_LogType()
     // Offset: 0x16CFE64
     UnityEngine::LogType get_LogType();
@@ -107,7 +108,7 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x16CFE88
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.TestTools.Logging.LogEvent
   #pragma pack(pop)
   static check_size<sizeof(LogEvent), 36 + sizeof(bool)> __UnityEngine_TestTools_Logging_LogEventSizeCheck;
@@ -117,7 +118,7 @@ namespace UnityEngine::TestTools::Logging {
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_Message
 // Il2CppName: set_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogEvent::set_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::StringW)>(&UnityEngine::TestTools::Logging::LogEvent::set_Message)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_StackTrace
 // Il2CppName: set_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogEvent::set_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::StringW)>(&UnityEngine::TestTools::Logging::LogEvent::set_StackTrace)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -189,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

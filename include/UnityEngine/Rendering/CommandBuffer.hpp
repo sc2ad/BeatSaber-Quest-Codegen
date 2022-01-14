@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -106,7 +107,7 @@ namespace UnityEngine::Rendering {
     System::IntPtr& dyn_m_Ptr();
     // public System.Void set_name(System.String value)
     // Offset: 0x1DF7BC4
-    void set_name(::Il2CppString* value);
+    void set_name(::StringW value);
     // static private System.IntPtr InitBuffer()
     // Offset: 0x1DF7B50
     static System::IntPtr InitBuffer();
@@ -199,7 +200,7 @@ namespace UnityEngine::Rendering {
     void Blit(UnityEngine::Rendering::RenderTargetIdentifier source, UnityEngine::Rendering::RenderTargetIdentifier dest, UnityEngine::Material* mat, int pass);
     // public System.Void SetGlobalTexture(System.String name, UnityEngine.Rendering.RenderTargetIdentifier value)
     // Offset: 0x1DF9120
-    void SetGlobalTexture(::Il2CppString* name, UnityEngine::Rendering::RenderTargetIdentifier value);
+    void SetGlobalTexture(::StringW name, UnityEngine::Rendering::RenderTargetIdentifier value);
     // public System.Void SetGlobalTexture(System.Int32 nameID, UnityEngine.Rendering.RenderTargetIdentifier value, UnityEngine.Rendering.RenderTextureSubElement element)
     // Offset: 0x1DF9204
     void SetGlobalTexture(int nameID, UnityEngine::Rendering::RenderTargetIdentifier value, UnityEngine::Rendering::RenderTextureSubElement element);
@@ -241,7 +242,7 @@ namespace UnityEngine::Rendering {
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::Il2CppString*)>(&UnityEngine::Rendering::CommandBuffer::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::StringW)>(&UnityEngine::Rendering::CommandBuffer::set_name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CommandBuffer*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -608,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::CommandBuffer::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::Il2CppString*, UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::CommandBuffer::*)(::StringW, UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::CommandBuffer::SetGlobalTexture)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "RenderTargetIdentifier")->byval_arg;

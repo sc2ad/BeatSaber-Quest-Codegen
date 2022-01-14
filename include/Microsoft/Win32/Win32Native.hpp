@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32
@@ -31,7 +32,7 @@ namespace Microsoft::Win32 {
     class WIN32_FIND_DATA;
     // static public System.String GetMessage(System.Int32 hr)
     // Offset: 0x1C6C2A0
-    static ::Il2CppString* GetMessage(int hr);
+    static ::StringW GetMessage(int hr);
     // static public System.Int32 MakeHRFromErrorCode(System.Int32 errorCode)
     // Offset: 0x1C6C31C
     static int MakeHRFromErrorCode(int errorCode);
@@ -42,7 +43,7 @@ namespace Microsoft::Win32 {
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::GetMessage
 // Il2CppName: GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Microsoft::Win32::Win32Native::GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&Microsoft::Win32::Win32Native::GetMessage)> {
   static const MethodInfo* get() {
     static auto* hr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32Native*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hr});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,15 +48,15 @@ namespace System {
     // private System.String type
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* type;
+    ::StringW type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String assembly
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* assembly;
+    ::StringW assembly;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Object target
     // Size: 0x8
     // Offset: 0x20
@@ -65,21 +66,21 @@ namespace System {
     // private System.String targetTypeAssembly
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* targetTypeAssembly;
+    ::StringW targetTypeAssembly;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String targetTypeName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* targetTypeName;
+    ::StringW targetTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String methodName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* methodName;
+    ::StringW methodName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
     // Size: 0x8
     // Offset: 0x40
@@ -88,23 +89,23 @@ namespace System {
     static_assert(sizeof(System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
     public:
     // Get instance field reference: private System.String type
-    ::Il2CppString*& dyn_type();
+    ::StringW& dyn_type();
     // Get instance field reference: private System.String assembly
-    ::Il2CppString*& dyn_assembly();
+    ::StringW& dyn_assembly();
     // Get instance field reference: private System.Object target
     ::Il2CppObject*& dyn_target();
     // Get instance field reference: private System.String targetTypeAssembly
-    ::Il2CppString*& dyn_targetTypeAssembly();
+    ::StringW& dyn_targetTypeAssembly();
     // Get instance field reference: private System.String targetTypeName
-    ::Il2CppString*& dyn_targetTypeName();
+    ::StringW& dyn_targetTypeName();
     // Get instance field reference: private System.String methodName
-    ::Il2CppString*& dyn_methodName();
+    ::StringW& dyn_methodName();
     // Get instance field reference: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
     System::DelegateSerializationHolder::DelegateEntry*& dyn_delegateEntry();
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
     // Offset: 0x1D53734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::Il2CppString* targetLabel) {
+    static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::StringW targetLabel) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }

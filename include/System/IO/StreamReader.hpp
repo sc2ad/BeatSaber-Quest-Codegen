@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -248,35 +249,35 @@ namespace System::IO {
     // public System.Void .ctor(System.String path)
     // Offset: 0x1AFA098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamReader* New_ctor(::Il2CppString* path) {
+    static StreamReader* New_ctor(::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path)));
     }
     // public System.Void .ctor(System.String path, System.Boolean detectEncodingFromByteOrderMarks)
     // Offset: 0x1B0A9FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamReader* New_ctor(::Il2CppString* path, bool detectEncodingFromByteOrderMarks) {
+    static StreamReader* New_ctor(::StringW path, bool detectEncodingFromByteOrderMarks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, detectEncodingFromByteOrderMarks)));
     }
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding)
     // Offset: 0x1B0AAA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding) {
+    static StreamReader* New_ctor(::StringW path, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding)));
     }
     // public System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize)
     // Offset: 0x1B0AA94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize) {
+    static StreamReader* New_ctor(::StringW path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize)));
     }
     // System.Void .ctor(System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0x1B0AB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamReader* New_ctor(::Il2CppString* path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost) {
+    static StreamReader* New_ctor(::StringW path, System::Text::Encoding* encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamReader*, creationType>(path, encoding, detectEncodingFromByteOrderMarks, bufferSize, checkHost)));
     }
@@ -352,12 +353,12 @@ namespace System::IO {
     // Offset: 0x1B0B31C
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::StringW ReadToEnd();
     // public override System.String ReadLine()
     // Offset: 0x1B0B99C
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::StringW ReadLine();
   }; // System.IO.StreamReader
   #pragma pack(pop)
   static check_size<sizeof(StreamReader), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamReaderSizeCheck;
@@ -586,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StreamReader::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StreamReader::*)()>(&System::IO::StreamReader::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::StreamReader::*)()>(&System::IO::StreamReader::ReadToEnd)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -594,7 +595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::StreamReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StreamReader::*)()>(&System::IO::StreamReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::StreamReader::*)()>(&System::IO::StreamReader::ReadLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

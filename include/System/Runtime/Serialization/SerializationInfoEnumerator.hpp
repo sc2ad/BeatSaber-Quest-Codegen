@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace System::Runtime::Serialization {
     // private System.String[] m_members
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> m_members;
+    ::ArrayW<::StringW> m_members;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Object[] m_data
     // Size: 0x8
     // Offset: 0x18
@@ -93,7 +94,7 @@ namespace System::Runtime::Serialization {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.String[] m_members
-    ::ArrayW<::Il2CppString*>& dyn_m_members();
+    ::ArrayW<::StringW>& dyn_m_members();
     // Get instance field reference: private System.Object[] m_data
     ::ArrayW<::Il2CppObject*>& dyn_m_data();
     // Get instance field reference: private System.Type[] m_types
@@ -112,7 +113,7 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::SerializationEntry get_Current();
     // public System.String get_Name()
     // Offset: 0x19241F4
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Object get_Value()
     // Offset: 0x19242BC
     ::Il2CppObject* get_Value();
@@ -122,7 +123,7 @@ namespace System::Runtime::Serialization {
     // System.Void .ctor(System.String[] members, System.Object[] info, System.Type[] types, System.Int32 numItems)
     // Offset: 0x1922B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationInfoEnumerator* New_ctor(::ArrayW<::Il2CppString*> members, ::ArrayW<::Il2CppObject*> info, ::ArrayW<System::Type*> types, int numItems) {
+    static SerializationInfoEnumerator* New_ctor(::ArrayW<::StringW> members, ::ArrayW<::Il2CppObject*> info, ::ArrayW<System::Type*> types, int numItems) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationInfoEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationInfoEnumerator*, creationType>(members, info, types, numItems)));
     }
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&System::Runtime::Serialization::SerializationInfoEnumerator::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfoEnumerator*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

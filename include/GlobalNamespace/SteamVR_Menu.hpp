@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -136,21 +137,21 @@ namespace GlobalNamespace {
     // private System.String scaleLimitX
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* scaleLimitX;
+    ::StringW scaleLimitX;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String scaleLimitY
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* scaleLimitY;
+    ::StringW scaleLimitY;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String scaleRateText
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* scaleRateText;
+    ::StringW scaleRateText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.CursorLockMode savedCursorLockState
     // Size: 0x4
     // Offset: 0x88
@@ -191,11 +192,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <scale>k__BackingField
     float& dyn_$scale$k__BackingField();
     // Get instance field reference: private System.String scaleLimitX
-    ::Il2CppString*& dyn_scaleLimitX();
+    ::StringW& dyn_scaleLimitX();
     // Get instance field reference: private System.String scaleLimitY
-    ::Il2CppString*& dyn_scaleLimitY();
+    ::StringW& dyn_scaleLimitY();
     // Get instance field reference: private System.String scaleRateText
-    ::Il2CppString*& dyn_scaleRateText();
+    ::StringW& dyn_scaleRateText();
     // Get instance field reference: private UnityEngine.CursorLockMode savedCursorLockState
     UnityEngine::CursorLockMode& dyn_savedCursorLockState();
     // Get instance field reference: private System.Boolean savedCursorVisible

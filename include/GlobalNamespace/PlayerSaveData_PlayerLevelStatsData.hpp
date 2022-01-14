@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData);
@@ -39,9 +40,9 @@ namespace GlobalNamespace {
     // public System.String levelId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* levelId;
+    ::StringW levelId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public BeatmapDifficulty difficulty
     // Size: 0x4
     // Offset: 0x18
@@ -53,9 +54,9 @@ namespace GlobalNamespace {
     // public System.String beatmapCharacteristicName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* beatmapCharacteristicName;
+    ::StringW beatmapCharacteristicName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 highScore
     // Size: 0x4
     // Offset: 0x28
@@ -98,11 +99,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String levelId
-    ::Il2CppString*& dyn_levelId();
+    ::StringW& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty
     GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
     // Get instance field reference: public System.String beatmapCharacteristicName
-    ::Il2CppString*& dyn_beatmapCharacteristicName();
+    ::StringW& dyn_beatmapCharacteristicName();
     // Get instance field reference: public System.Int32 highScore
     int& dyn_highScore();
     // Get instance field reference: public System.Int32 maxCombo

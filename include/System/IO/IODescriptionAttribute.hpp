@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -33,13 +34,13 @@ namespace System::IO {
     // Offset: 0x1A379A8
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.String DescriptionAttribute::get_Description()
-    ::Il2CppString* get_Description();
+    ::StringW get_Description();
     // public System.Void .ctor(System.String description)
     // Offset: 0x1A3792C
     // Implemented from: System.ComponentModel.DescriptionAttribute
     // Base method: System.Void DescriptionAttribute::.ctor(System.String description)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IODescriptionAttribute* New_ctor(::Il2CppString* description) {
+    static IODescriptionAttribute* New_ctor(::StringW description) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IODescriptionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IODescriptionAttribute*, creationType>(description)));
     }
@@ -50,7 +51,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::IODescriptionAttribute::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::IODescriptionAttribute::*)()>(&System::IO::IODescriptionAttribute::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::IODescriptionAttribute::*)()>(&System::IO::IODescriptionAttribute::get_Description)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::IODescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

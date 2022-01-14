@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion
@@ -40,10 +41,10 @@ namespace RootMotion {
     static void _set_logged(bool value);
     // static public System.Void Log(System.String message, RootMotion.Warning/RootMotion.Logger logger, System.Boolean logInEditMode)
     // Offset: 0x1CACAE8
-    static void Log(::Il2CppString* message, RootMotion::Warning::Logger* logger, bool logInEditMode);
+    static void Log(::StringW message, RootMotion::Warning::Logger* logger, bool logInEditMode);
     // static public System.Void Log(System.String message, UnityEngine.Transform context, System.Boolean logInEditMode)
     // Offset: 0x1C966C0
-    static void Log(::Il2CppString* message, UnityEngine::Transform* context, bool logInEditMode);
+    static void Log(::StringW message, UnityEngine::Transform* context, bool logInEditMode);
   }; // RootMotion.Warning
   #pragma pack(pop)
 }
@@ -51,7 +52,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::Warning::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, RootMotion::Warning::Logger*, bool)>(&RootMotion::Warning::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, RootMotion::Warning::Logger*, bool)>(&RootMotion::Warning::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logger = &::il2cpp_utils::GetClassFromName("RootMotion", "Warning/Logger")->byval_arg;
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: RootMotion::Warning::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Transform*, bool)>(&RootMotion::Warning::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::Transform*, bool)>(&RootMotion::Warning::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

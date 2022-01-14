@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -104,9 +105,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -121,7 +122,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<MultiplayerScoreProvider/RankedPlayer> _rankedPlayers
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__rankedPlayers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
     // public System.Boolean get_scoresAvailable()
     // Offset: 0x117427C
     bool get_scoresAvailable();
@@ -145,10 +146,10 @@ namespace GlobalNamespace {
     void Update();
     // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
     // Offset: 0x1178188
-    bool TryGetScore(::Il2CppString* userId, ByRef<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
+    bool TryGetScore(::StringW userId, ByRef<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
     // public System.Int32 GetPositionOfPlayer(System.String userId)
     // Offset: 0x11747E4
-    int GetPositionOfPlayer(::Il2CppString* userId);
+    int GetPositionOfPlayer(::StringW userId);
     // public System.Void .ctor()
     // Offset: 0x1178200
     // Implemented from: UnityEngine.MonoBehaviour
@@ -164,7 +165,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerScoreProvider
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*)> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
+  static check_size<sizeof(MultiplayerScoreProvider), 64 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*)> __GlobalNamespace_MultiplayerScoreProviderSizeCheck;
   static_assert(sizeof(MultiplayerScoreProvider) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -230,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::TryGetScore
 // Il2CppName: TryGetScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::*)(::Il2CppString*, ByRef<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>)>(&GlobalNamespace::MultiplayerScoreProvider::TryGetScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::*)(::StringW, ByRef<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>)>(&GlobalNamespace::MultiplayerScoreProvider::TryGetScore)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "MultiplayerScoreProvider/RankedPlayer")->this_arg;
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::GetPositionOfPlayer
 // Il2CppName: GetPositionOfPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerScoreProvider::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerScoreProvider::GetPositionOfPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerScoreProvider::*)(::StringW)>(&GlobalNamespace::MultiplayerScoreProvider::GetPositionOfPlayer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider*), "GetPositionOfPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

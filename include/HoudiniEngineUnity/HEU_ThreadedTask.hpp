@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -93,9 +94,9 @@ namespace HoudiniEngineUnity {
     // protected System.String _name
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean _isComplete
     bool& dyn__isComplete();
@@ -112,10 +113,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _isBackground
     bool& dyn__isBackground();
     // Get instance field reference: protected System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // public System.String get_TaskName()
     // Offset: 0x1853934
-    ::Il2CppString* get_TaskName();
+    ::StringW get_TaskName();
     // public System.Boolean get_IsComplete()
     // Offset: 0x18535D0
     bool get_IsComplete();
@@ -187,14 +188,14 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_ThreadedTask
   #pragma pack(pop)
-  static check_size<sizeof(HEU_ThreadedTask), 48 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_ThreadedTaskSizeCheck;
+  static check_size<sizeof(HEU_ThreadedTask), 48 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_ThreadedTaskSizeCheck;
   static_assert(sizeof(HEU_ThreadedTask) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::get_TaskName
 // Il2CppName: get_TaskName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&HoudiniEngineUnity::HEU_ThreadedTask::get_TaskName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&HoudiniEngineUnity::HEU_ThreadedTask::get_TaskName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadedTask*), "get_TaskName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

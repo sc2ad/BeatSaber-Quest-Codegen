@@ -110,7 +110,7 @@ namespace System {
     ListBuilder_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::RuntimeType::ListBuilder_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
-      ::il2cpp_utils::RunMethodRethrow<RuntimeType::ListBuilder_1<T>, false>(this, ___internal__method, capacity);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, capacity);
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF

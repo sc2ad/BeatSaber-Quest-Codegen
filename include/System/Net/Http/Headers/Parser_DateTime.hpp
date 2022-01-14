@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -35,15 +36,15 @@ namespace System::Net::Http::Headers {
     // Nested type: System::Net::Http::Headers::Parser::DateTime::$$c
     class $$c;
     // Get static field: static public readonly System.Func`2<System.Object,System.String> ToString
-    static System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get_ToString();
+    static System::Func_2<::Il2CppObject*, ::StringW>* _get_ToString();
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
-    static void _set_ToString(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
+    static void _set_ToString(System::Func_2<::Il2CppObject*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x17C4414
     static void _cctor();
     // static public System.Boolean TryParse(System.String input, out System.DateTimeOffset result)
     // Offset: 0x17C43A0
-    static bool TryParse(::Il2CppString* input, ByRef<System::DateTimeOffset> result);
+    static bool TryParse(::StringW input, ByRef<System::DateTimeOffset> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.DateTime
   #pragma pack(pop)
 }
@@ -59,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::DateTime::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::DateTimeOffset>)>(&System::Net::Http::Headers::Parser::DateTime::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::DateTimeOffset>)>(&System::Net::Http::Headers::Parser::DateTime::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;

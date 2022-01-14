@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Forward declaring type: UploadScoreData
@@ -32,9 +30,9 @@ namespace NetEase::Docker {
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* Track;
+    ::StringW Track;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2EAF8
     // private System.Int32 <Difficulty>k__BackingField
     // Size: 0x4
@@ -95,13 +93,13 @@ namespace NetEase::Docker {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: UploadScoreData
-    constexpr UploadScoreData(::Il2CppString* Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) noexcept : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
+    constexpr UploadScoreData(::StringW Track_ = {}, int Difficulty_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}, bool PlayedUntilEnd_ = {}, float AccuracyPercentage_ = {}, int NoOfHits_ = {}, int NoOfMisses_ = {}, int NoOfBombsHit_ = {}) noexcept : Track{Track_}, Difficulty{Difficulty_}, Score{Score_}, TimeStamp{TimeStamp_}, PlayedUntilEnd{PlayedUntilEnd_}, AccuracyPercentage{AccuracyPercentage_}, NoOfHits{NoOfHits_}, NoOfMisses{NoOfMisses_}, NoOfBombsHit{NoOfBombsHit_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String <Track>k__BackingField
-    ::Il2CppString*& dyn_$Track$k__BackingField();
+    ::StringW& dyn_$Track$k__BackingField();
     // Get instance field reference: private System.Int32 <Difficulty>k__BackingField
     int& dyn_$Difficulty$k__BackingField();
     // Get instance field reference: private System.Int32 <Score>k__BackingField
@@ -120,7 +118,7 @@ namespace NetEase::Docker {
     int& dyn_$NoOfBombsHit$k__BackingField();
     // public System.Void set_Track(System.String value)
     // Offset: 0x26CAB44
-    void set_Track(::Il2CppString* value);
+    void set_Track(::StringW value);
     // public System.Void set_Score(System.Int32 value)
     // Offset: 0x26CAB4C
     void set_Score(int value);
@@ -133,7 +131,7 @@ namespace NetEase::Docker {
 // Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Track
 // Il2CppName: set_Track
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(::Il2CppString*)>(&NetEase::Docker::UploadScoreData::set_Track)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(::StringW)>(&NetEase::Docker::UploadScoreData::set_Track)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

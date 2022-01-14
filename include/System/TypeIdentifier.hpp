@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TypeName
 #include "System/TypeName.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
   // Forward declaring type: TypeIdentifier
@@ -32,7 +30,7 @@ namespace System {
     }
     // public System.String get_InternalName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_InternalName();
+    ::StringW get_InternalName();
   }; // System.TypeIdentifier
   #pragma pack(pop)
 }
@@ -40,7 +38,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TypeIdentifier::get_InternalName
 // Il2CppName: get_InternalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeIdentifier::*)()>(&System::TypeIdentifier::get_InternalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeIdentifier::*)()>(&System::TypeIdentifier::get_InternalName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifier*), "get_InternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

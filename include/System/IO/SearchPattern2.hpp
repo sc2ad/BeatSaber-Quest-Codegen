@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -68,9 +69,9 @@ namespace System::IO {
     // private System.String pattern
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* pattern;
+    ::StringW pattern;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static readonly System.Char[] WildcardChars
     static ::ArrayW<::Il2CppChar> _get_WildcardChars();
@@ -87,21 +88,21 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean hasWildcard
     bool& dyn_hasWildcard();
     // Get instance field reference: private System.String pattern
-    ::Il2CppString*& dyn_pattern();
+    ::StringW& dyn_pattern();
     // public System.Boolean get_HasWildcard()
     // Offset: 0x1A380F0
     bool get_HasWildcard();
     // public System.Void .ctor(System.String pattern)
     // Offset: 0x1A3705C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SearchPattern2* New_ctor(::Il2CppString* pattern) {
+    static SearchPattern2* New_ctor(::StringW pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
     // Offset: 0x1A37DC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SearchPattern2* New_ctor(::Il2CppString* pattern, bool ignore) {
+    static SearchPattern2* New_ctor(::StringW pattern, bool ignore) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
@@ -110,10 +111,10 @@ namespace System::IO {
     static void _cctor();
     // private System.Void Compile(System.String pattern)
     // Offset: 0x1A37E0C
-    void Compile(::Il2CppString* pattern);
+    void Compile(::StringW pattern);
   }; // System.IO.SearchPattern2
   #pragma pack(pop)
-  static check_size<sizeof(SearchPattern2), 32 + sizeof(::Il2CppString*)> __System_IO_SearchPattern2SizeCheck;
+  static check_size<sizeof(SearchPattern2), 32 + sizeof(::StringW)> __System_IO_SearchPattern2SizeCheck;
   static_assert(sizeof(SearchPattern2) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::SearchPattern2::Compile
 // Il2CppName: Compile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::SearchPattern2::*)(::Il2CppString*)>(&System::IO::SearchPattern2::Compile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::SearchPattern2::*)(::StringW)>(&System::IO::SearchPattern2::Compile)> {
   static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::SearchPattern2*), "Compile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern});

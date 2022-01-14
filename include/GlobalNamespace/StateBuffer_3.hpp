@@ -145,14 +145,14 @@ namespace GlobalNamespace {
       TimestampedStateTable(GlobalNamespace::SyncStateId id, float time, TStateTable state) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(id), ::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(state)})));
-        ::il2cpp_utils::RunMethodRethrow<typename StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable, false>(this, ___internal__method, id, time, state);
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, id, time, state);
       }
       // public System.Void .ctor(System.Single time, TStateTable state)
       // Offset: 0xFFFFFFFF
       TimestampedStateTable(float time, TStateTable state) {
         static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::TimestampedStateTable::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time), ::il2cpp_utils::ExtractType(state)})));
-        ::il2cpp_utils::RunMethodRethrow<typename StateBuffer_3<TStateTable, TType, TState>::TimestampedStateTable, false>(this, ___internal__method, time, state);
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, time, state);
       }
       // public System.Boolean Equals(in StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState> other)
       // Offset: 0xFFFFFFFF

@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Internal.InternalTraceLevel
 #include "NUnit/Framework/Internal/InternalTraceLevel.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -48,7 +49,7 @@ namespace NUnit::Framework::Internal {
     static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
     // Offset: 0x2550778
-    static NUnit::Framework::Internal::Logger* GetLogger(::Il2CppString* name);
+    static NUnit::Framework::Internal::Logger* GetLogger(::StringW name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
     // Offset: 0x255087C
     static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
@@ -59,7 +60,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(::Il2CppString*)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(::StringW)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

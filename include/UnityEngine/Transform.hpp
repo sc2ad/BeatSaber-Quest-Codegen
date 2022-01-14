@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -306,10 +307,10 @@ namespace UnityEngine {
     int GetSiblingIndex();
     // static private UnityEngine.Transform FindRelativeTransformWithPath(UnityEngine.Transform transform, System.String path, System.Boolean isActiveOnly)
     // Offset: 0x243977C
-    static UnityEngine::Transform* FindRelativeTransformWithPath(UnityEngine::Transform* transform, ::Il2CppString* path, bool isActiveOnly);
+    static UnityEngine::Transform* FindRelativeTransformWithPath(UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
     // public UnityEngine.Transform Find(System.String n)
     // Offset: 0x24397D4
-    UnityEngine::Transform* Find(::Il2CppString* n);
+    UnityEngine::Transform* Find(::StringW n);
     // System.Void SendTransformChangedScale()
     // Offset: 0x243988C
     void SendTransformChangedScale();
@@ -318,7 +319,7 @@ namespace UnityEngine {
     bool IsChildOf(UnityEngine::Transform* parent);
     // public UnityEngine.Transform FindChild(System.String n)
     // Offset: 0x2439A5C
-    UnityEngine::Transform* FindChild(::Il2CppString* n);
+    UnityEngine::Transform* FindChild(::StringW n);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x2439A60
     System::Collections::IEnumerator* GetEnumerator();
@@ -1195,7 +1196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Transform::FindRelativeTransformWithPath
 // Il2CppName: FindRelativeTransformWithPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*, bool)>(&UnityEngine::Transform::FindRelativeTransformWithPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::StringW, bool)>(&UnityEngine::Transform::FindRelativeTransformWithPath)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1206,7 +1207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Transform::Find
 // Il2CppName: Find
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::Il2CppString*)>(&UnityEngine::Transform::Find)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::StringW)>(&UnityEngine::Transform::Find)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -1232,7 +1233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Transform::FindChild
 // Il2CppName: FindChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::Il2CppString*)>(&UnityEngine::Transform::FindChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::StringW)>(&UnityEngine::Transform::FindChild)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "FindChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});

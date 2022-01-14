@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -50,7 +51,7 @@ namespace NUnit::Framework::Internal {
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NUnitException* New_ctor(::Il2CppString* message, System::Exception* inner) {
+    static NUnitException* New_ctor(::StringW message, System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::NUnitException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitException*, creationType>(message, inner)));
     }

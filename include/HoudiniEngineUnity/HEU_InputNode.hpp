@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -275,21 +276,21 @@ namespace HoudiniEngineUnity {
     // private System.String _inputName
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* inputName;
+    ::StringW inputName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _labelName
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* labelName;
+    ::StringW labelName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _paramName
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* paramName;
+    ::StringW paramName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _connectedNodeID
     // Size: 0x4
     // Offset: 0x78
@@ -360,11 +361,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _requiresUpload
     bool& dyn__requiresUpload();
     // Get instance field reference: private System.String _inputName
-    ::Il2CppString*& dyn__inputName();
+    ::StringW& dyn__inputName();
     // Get instance field reference: private System.String _labelName
-    ::Il2CppString*& dyn__labelName();
+    ::StringW& dyn__labelName();
     // Get instance field reference: private System.String _paramName
-    ::Il2CppString*& dyn__paramName();
+    ::StringW& dyn__paramName();
     // Get instance field reference: private System.Int32 _connectedNodeID
     int& dyn__connectedNodeID();
     // Get instance field reference: private System.Boolean _keepWorldTransform
@@ -409,16 +410,16 @@ namespace HoudiniEngineUnity {
     void set_RequiresUpload(bool value);
     // public System.String get_InputName()
     // Offset: 0x15929D4
-    ::Il2CppString* get_InputName();
+    ::StringW get_InputName();
     // public System.String get_LabelName()
     // Offset: 0x15929DC
-    ::Il2CppString* get_LabelName();
+    ::StringW get_LabelName();
     // public System.String get_ParamName()
     // Offset: 0x15929E4
-    ::Il2CppString* get_ParamName();
+    ::StringW get_ParamName();
     // public System.Void set_ParamName(System.String value)
     // Offset: 0x15929EC
-    void set_ParamName(::Il2CppString* value);
+    void set_ParamName(::StringW value);
     // public System.Boolean get_KeepWorldTransform()
     // Offset: 0x15929F4
     bool get_KeepWorldTransform();
@@ -442,7 +443,7 @@ namespace HoudiniEngineUnity {
     bool IsAssetInput();
     // static public HoudiniEngineUnity.HEU_InputNode CreateSetupInput(System.Int32 nodeID, System.Int32 inputIndex, System.String inputName, System.String labelName, HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputNodeType inputNodeType, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
     // Offset: 0x1592A3C
-    static HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int nodeID, int inputIndex, ::Il2CppString* inputName, ::Il2CppString* labelName, HoudiniEngineUnity::HEU_InputNode::InputNodeType inputNodeType, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+    static HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int nodeID, int inputIndex, ::StringW inputName, ::StringW labelName, HoudiniEngineUnity::HEU_InputNode::InputNodeType inputNodeType, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetInputNodeID(System.Int32 nodeID)
     // Offset: 0x1592AD4
     void SetInputNodeID(int nodeID);
@@ -550,7 +551,7 @@ namespace HoudiniEngineUnity {
     void LoadPreset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputPreset* inputPreset);
     // private System.Boolean FindAddToInputHDA(System.String gameObjectName)
     // Offset: 0x1597168
-    bool FindAddToInputHDA(::Il2CppString* gameObjectName);
+    bool FindAddToInputHDA(::StringW gameObjectName);
     // public System.Void NotifyParentRemovedInput()
     // Offset: 0x15972C4
     void NotifyParentRemovedInput();
@@ -676,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::get_InputName
 // Il2CppName: get_InputName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_InputName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_InputName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "get_InputName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -684,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::get_LabelName
 // Il2CppName: get_LabelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_LabelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_LabelName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "get_LabelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -692,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::get_ParamName
 // Il2CppName: get_ParamName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_ParamName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_InputNode::*)()>(&HoudiniEngineUnity::HEU_InputNode::get_ParamName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "get_ParamName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -700,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::set_ParamName
 // Il2CppName: set_ParamName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_InputNode::set_ParamName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::StringW)>(&HoudiniEngineUnity::HEU_InputNode::set_ParamName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "set_ParamName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -767,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::CreateSetupInput
 // Il2CppName: CreateSetupInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (*)(int, int, ::Il2CppString*, ::Il2CppString*, HoudiniEngineUnity::HEU_InputNode::InputNodeType, HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_InputNode::CreateSetupInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (*)(int, int, ::StringW, ::StringW, HoudiniEngineUnity::HEU_InputNode::InputNodeType, HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_InputNode::CreateSetupInput)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1092,7 +1093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::FindAddToInputHDA
 // Il2CppName: FindAddToInputHDA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputNode::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_InputNode::FindAddToInputHDA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputNode::*)(::StringW)>(&HoudiniEngineUnity::HEU_InputNode::FindAddToInputHDA)> {
   static const MethodInfo* get() {
     static auto* gameObjectName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "FindAddToInputHDA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectName});

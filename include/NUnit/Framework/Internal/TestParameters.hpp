@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -74,9 +75,9 @@ namespace NUnit::Framework::Internal {
     // private System.String <TestName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* TestName;
+    ::StringW TestName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FA24
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
@@ -105,7 +106,7 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
     ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private System.String <TestName>k__BackingField
-    ::Il2CppString*& dyn_$TestName$k__BackingField();
+    ::StringW& dyn_$TestName$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
     // Get instance field reference: private System.Object[] <OriginalArguments>k__BackingField
@@ -124,7 +125,7 @@ namespace NUnit::Framework::Internal {
     void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public System.String get_TestName()
     // Offset: 0x2558420
-    ::Il2CppString* get_TestName();
+    ::StringW get_TestName();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0x2558428
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestParameters::get_TestName
 // Il2CppName: get_TestName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_TestName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestParameters::*)()>(&NUnit::Framework::Internal::TestParameters::get_TestName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "get_TestName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -16,9 +17,6 @@ namespace GlobalNamespace {
   class GameplayModifiers;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Forward declaring type: LevelScoreResultsData
@@ -127,7 +125,7 @@ namespace OnlineServices {
     // Offset: 0x1376EA0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // OnlineServices.LevelScoreResultsData
   #pragma pack(pop)
   static check_size<sizeof(LevelScoreResultsData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LevelScoreResultsDataSizeCheck;
@@ -141,7 +139,7 @@ namespace OnlineServices {
 // Writing MetadataGetter for method: OnlineServices::LevelScoreResultsData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OnlineServices::LevelScoreResultsData::*)()>(&OnlineServices::LevelScoreResultsData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OnlineServices::LevelScoreResultsData::*)()>(&OnlineServices::LevelScoreResultsData::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreResultsData), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

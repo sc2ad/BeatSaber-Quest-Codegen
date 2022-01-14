@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -341,10 +342,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString() {
+    ::StringW ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Lazy_1::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
   }; // System.Lazy`1
   // Could not write size check! Type: System.Lazy`1 is generic, or has no fields that are valid for size checks!

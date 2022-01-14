@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -126,7 +127,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerObservable* get_observable();
     // public System.String get_spotName()
     // Offset: 0x1292744
-    ::Il2CppString* get_spotName();
+    ::StringW get_spotName();
     // public System.Boolean get_isMain()
     // Offset: 0x12927F0
     bool get_isMain();
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName
 // Il2CppName: get_spotName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*), "get_spotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

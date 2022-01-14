@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,7 +44,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.String format, System.String insert)
     // Offset: 0x1A94C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CryptographicException* New_ctor(::Il2CppString* format, ::Il2CppString* insert) {
+    static CryptographicException* New_ctor(::StringW format, ::StringW insert) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(format, insert)));
     }
@@ -64,7 +65,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CryptographicException* New_ctor(::Il2CppString* message) {
+    static CryptographicException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(message)));
     }
@@ -74,7 +75,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CryptographicException* New_ctor(::Il2CppString* message, System::Exception* inner) {
+    static CryptographicException* New_ctor(::StringW message, System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CryptographicException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CryptographicException*, creationType>(message, inner)));
     }

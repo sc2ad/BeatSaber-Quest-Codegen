@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -292,10 +293,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Il2CppObject* obj);
     // private System.Void AppendValue(System.Text.StringBuilder buf, System.Collections.IDictionary oidSymbols, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String val)
     // Offset: 0x1C24FD4
-    void AppendValue(System::Text::StringBuilder* buf, System::Collections::IDictionary* oidSymbols, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Il2CppString* val);
+    void AppendValue(System::Text::StringBuilder* buf, System::Collections::IDictionary* oidSymbols, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW val);
     // public System.String ToString(System.Boolean reverse, System.Collections.IDictionary oidSymbols)
     // Offset: 0x1C25298
-    ::Il2CppString* ToString(bool reverse, System::Collections::IDictionary* oidSymbols);
+    ::StringW ToString(bool reverse, System::Collections::IDictionary* oidSymbols);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0x1C24B38
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
@@ -305,7 +306,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x1C25870
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Org.BouncyCastle.Asn1.X509.X509Name
   #pragma pack(pop)
   static check_size<sizeof(X509Name), 48 + sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*)> __Org_BouncyCastle_Asn1_X509_X509NameSizeCheck;
@@ -354,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Name::AppendValue
 // Il2CppName: AppendValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::X509Name::*)(System::Text::StringBuilder*, System::Collections::IDictionary*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::X509::X509Name::AppendValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::X509Name::*)(System::Text::StringBuilder*, System::Collections::IDictionary*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(&Org::BouncyCastle::Asn1::X509::X509Name::AppendValue)> {
   static const MethodInfo* get() {
     static auto* buf = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* oidSymbols = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Name::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, System::Collections::IDictionary*)>(&Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, System::Collections::IDictionary*)>(&Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
   static const MethodInfo* get() {
     static auto* reverse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* oidSymbols = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Name::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::X509::X509Name::*)()>(&Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::X509::X509Name::*)()>(&Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509Name*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

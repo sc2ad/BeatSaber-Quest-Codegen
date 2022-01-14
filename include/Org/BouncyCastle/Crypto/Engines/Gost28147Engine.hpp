@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -119,7 +120,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayW<uint8_t>& dyn_S();
     // public System.String get_AlgorithmName()
     // Offset: 0x1FC3D24
-    ::Il2CppString* get_AlgorithmName();
+    ::StringW get_AlgorithmName();
     // public System.Boolean get_IsPartialBlockOkay()
     // Offset: 0x1FC3D6C
     bool get_IsPartialBlockOkay();
@@ -128,7 +129,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static void _cctor();
     // static private System.Void AddSBox(System.String sBoxName, System.Byte[] sBox)
     // Offset: 0x1FC37F8
-    static void AddSBox(::Il2CppString* sBoxName, ::ArrayW<uint8_t> sBox);
+    static void AddSBox(::StringW sBoxName, ::ArrayW<uint8_t> sBox);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x1FC3998
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
@@ -158,7 +159,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static void intTobytes(int num, ::ArrayW<uint8_t> outBytes, int outOff);
     // static public System.Byte[] GetSBox(System.String sBoxName)
     // Offset: 0x1FC42F0
-    static ::ArrayW<uint8_t> GetSBox(::Il2CppString* sBoxName);
+    static ::ArrayW<uint8_t> GetSBox(::StringW sBoxName);
     // public System.Void .ctor()
     // Offset: 0x1FC391C
     // Implemented from: System.Object
@@ -177,7 +178,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Gost28147Engine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Engines::Gost28147Engine::*)()>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Crypto::Engines::Gost28147Engine::*)()>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::get_AlgorithmName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Gost28147Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Gost28147Engine::AddSBox
 // Il2CppName: AddSBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::AddSBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::AddSBox)> {
   static const MethodInfo* get() {
     static auto* sBoxName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sBox = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -303,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Gost28147Engine::GetSBox
 // Il2CppName: GetSBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::GetSBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&Org::BouncyCastle::Crypto::Engines::Gost28147Engine::GetSBox)> {
   static const MethodInfo* get() {
     static auto* sBoxName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Gost28147Engine*), "GetSBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sBoxName});

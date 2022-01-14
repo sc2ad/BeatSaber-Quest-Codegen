@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // private System.String _property
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* property;
+    ::StringW property;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x20
@@ -73,7 +74,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _property
-    ::Il2CppString*& dyn__property();
+    ::StringW& dyn__property();
     // Get instance field reference: protected MaterialPropertyBlockController _materialPropertyBlockController
     GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: protected System.Int32 propertyId

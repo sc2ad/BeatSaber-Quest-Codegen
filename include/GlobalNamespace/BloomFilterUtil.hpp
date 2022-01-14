@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -46,12 +47,12 @@ namespace GlobalNamespace {
     class $$c__DisplayClass2_0_1;
     // static private System.UInt32 MurmurHash2(System.String key)
     // Offset: 0x262033C
-    static uint MurmurHash2(::Il2CppString* key);
+    static uint MurmurHash2(::StringW key);
     // static public T ToBloomFilter(System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T ToBloomFilter(::Il2CppString* value, int hashCount, int hashBits) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
+    static T ToBloomFilter(::StringW value, int hashCount, int hashBits) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IBitMask_1<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ToBloomFilter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ToBloomFilter", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -60,8 +61,8 @@ namespace GlobalNamespace {
     // static public T ToBloomFilter(System.Collections.Generic.IEnumerable`1<System.String> strings, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T ToBloomFilter(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* strings, int hashCount, int hashBits) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
+    static T ToBloomFilter(System::Collections::Generic::IEnumerable_1<::StringW>* strings, int hashCount, int hashBits) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IBitMask_1<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ToBloomFilter");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ToBloomFilter", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(strings), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -70,8 +71,8 @@ namespace GlobalNamespace {
     // static public T AddBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T AddBloomFilterEntry(T bitMask, ::Il2CppString* value, int hashCount, int hashBits) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
+    static T AddBloomFilterEntry(T bitMask, ::StringW value, int hashCount, int hashBits) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IBitMask_1<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::AddBloomFilterEntry");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "AddBloomFilterEntry", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -80,8 +81,8 @@ namespace GlobalNamespace {
     // static public System.Boolean ContainsBloomFilterEntry(T bitMask, System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool ContainsBloomFilterEntry(T bitMask, ::Il2CppString* value, int hashCount, int hashBits) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
+    static bool ContainsBloomFilterEntry(T bitMask, ::StringW value, int hashCount, int hashBits) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IBitMask_1<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::ContainsBloomFilterEntry");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BloomFilterUtil", "ContainsBloomFilterEntry", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(hashCount), ::il2cpp_utils::ExtractType(hashBits)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BloomFilterUtil::MurmurHash2
 // Il2CppName: MurmurHash2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&GlobalNamespace::BloomFilterUtil::MurmurHash2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW)>(&GlobalNamespace::BloomFilterUtil::MurmurHash2)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFilterUtil*), "MurmurHash2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

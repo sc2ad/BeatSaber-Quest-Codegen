@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -62,14 +63,14 @@ namespace Mono::Security::Interface {
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
     // Offset: 0x1F95458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TlsException* New_ctor(Mono::Security::Interface::Alert* alert, ::Il2CppString* message) {
+    static TlsException* New_ctor(Mono::Security::Interface::Alert* alert, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(alert, message)));
     }
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
     // Offset: 0x1F954DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::Il2CppString* message) {
+    static TlsException* New_ctor(Mono::Security::Interface::AlertDescription description, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(description, message)));
     }

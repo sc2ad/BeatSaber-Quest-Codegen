@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -165,13 +166,13 @@ namespace System {
     int& dyn_Permilles();
     // static public System.Void GetActiveSection(System.String format, ref System.Boolean positive, System.Boolean zero, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0x1A1CF54
-    static void GetActiveSection(::Il2CppString* format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
+    static void GetActiveSection(::StringW format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x1A1D240
-    static System::NumberFormatter::CustomInfo* Parse(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
+    static System::NumberFormatter::CustomInfo* Parse(::StringW format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
     // Offset: 0x1A1DA64
-    ::Il2CppString* Format(::Il2CppString* format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
+    ::StringW Format(::StringW format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
     // Offset: 0x1A1E41C
     // Implemented from: System.Object
@@ -190,7 +191,7 @@ namespace System {
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::GetActiveSection
 // Il2CppName: GetActiveSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ByRef<bool>, bool, ByRef<int>, ByRef<int>)>(&System::NumberFormatter::CustomInfo::GetActiveSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<bool>, bool, ByRef<int>, ByRef<int>)>(&System::NumberFormatter::CustomInfo::GetActiveSection)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* positive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter::CustomInfo* (*)(::Il2CppString*, int, int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::CustomInfo::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter::CustomInfo* (*)(::StringW, int, int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::CustomInfo::Parse)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Num
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::NumberFormatter::CustomInfo::*)(::Il2CppString*, int, int, System::Globalization::NumberFormatInfo*, bool, System::Text::StringBuilder*, System::Text::StringBuilder*, System::Text::StringBuilder*)>(&System::NumberFormatter::CustomInfo::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::CustomInfo::*)(::StringW, int, int, System::Globalization::NumberFormatInfo*, bool, System::Text::StringBuilder*, System::Text::StringBuilder*, System::Text::StringBuilder*)>(&System::NumberFormatter::CustomInfo::Format)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

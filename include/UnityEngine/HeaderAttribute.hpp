@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -41,26 +42,26 @@ namespace UnityEngine {
     // public readonly System.String header
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* header;
+    ::StringW header;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return header;
     }
     // Get instance field reference: public readonly System.String header
-    ::Il2CppString*& dyn_header();
+    ::StringW& dyn_header();
     // public System.Void .ctor(System.String header)
     // Offset: 0x1D955E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HeaderAttribute* New_ctor(::Il2CppString* header) {
+    static HeaderAttribute* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HeaderAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderAttribute*, creationType>(header)));
     }
   }; // UnityEngine.HeaderAttribute
   #pragma pack(pop)
-  static check_size<sizeof(HeaderAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_HeaderAttributeSizeCheck;
+  static check_size<sizeof(HeaderAttribute), 16 + sizeof(::StringW)> __UnityEngine_HeaderAttributeSizeCheck;
   static_assert(sizeof(HeaderAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -38,22 +39,22 @@ namespace BeatSaberAPI::DataTransferObjects {
     // private System.String <proof>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* proof;
+    ::StringW proof;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return proof;
     }
     // Get instance field reference: private System.String <proof>k__BackingField
-    ::Il2CppString*& dyn_$proof$k__BackingField();
+    ::StringW& dyn_$proof$k__BackingField();
     // public System.String get_proof()
     // Offset: 0x12C79B0
-    ::Il2CppString* get_proof();
+    ::StringW get_proof();
     // public System.Void set_proof(System.String value)
     // Offset: 0x12C79B8
-    void set_proof(::Il2CppString* value);
+    void set_proof(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x12C79C0
     // Implemented from: System.Object
@@ -65,14 +66,14 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.ResultProof
   #pragma pack(pop)
-  static check_size<sizeof(ResultProof), 16 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
+  static check_size<sizeof(ResultProof), 16 + sizeof(::StringW)> __BeatSaberAPI_DataTransferObjects_ResultProofSizeCheck;
   static_assert(sizeof(ResultProof) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof
 // Il2CppName: get_proof
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatSaberAPI::DataTransferObjects::ResultProof::*)()>(&BeatSaberAPI::DataTransferObjects::ResultProof::get_proof)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (BeatSaberAPI::DataTransferObjects::ResultProof::*)()>(&BeatSaberAPI::DataTransferObjects::ResultProof::get_proof)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "get_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::set_proof
 // Il2CppName: set_proof
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatSaberAPI::DataTransferObjects::ResultProof::*)(::Il2CppString*)>(&BeatSaberAPI::DataTransferObjects::ResultProof::set_proof)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatSaberAPI::DataTransferObjects::ResultProof::*)(::StringW)>(&BeatSaberAPI::DataTransferObjects::ResultProof::set_proof)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

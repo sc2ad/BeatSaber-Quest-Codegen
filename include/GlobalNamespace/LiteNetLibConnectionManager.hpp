@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -299,21 +300,21 @@ namespace GlobalNamespace {
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _secret
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private LiteNetLibConnectionManager/NetworkMode _mode
     // Size: 0x4
     // Offset: 0x60
@@ -464,11 +465,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Net.IPEndPoint> _pendingReconnections
     System::Collections::Generic::HashSet_1<System::Net::IPEndPoint*>*& dyn__pendingReconnections();
     // Get instance field reference: private System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private System.String _secret
-    ::Il2CppString*& dyn__secret();
+    ::StringW& dyn__secret();
     // Get instance field reference: private LiteNetLibConnectionManager/NetworkMode _mode
     GlobalNamespace::LiteNetLibConnectionManager::NetworkMode& dyn__mode();
     // Get instance field reference: private LiteNetLibConnectionManager/ConnectionState _connectionState
@@ -505,10 +506,10 @@ namespace GlobalNamespace {
     GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*& dyn_onStatisticsUpdatedEvent();
     // public System.String get_userId()
     // Offset: 0x156BA88
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x156BA90
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Boolean get_isConnected()
     // Offset: 0x156BA98
     bool get_isConnected();
@@ -538,7 +539,7 @@ namespace GlobalNamespace {
     int get_connectionCount();
     // public System.String get_secret()
     // Offset: 0x156BC5C
-    ::Il2CppString* get_secret();
+    ::StringW get_secret();
     // public System.Int32 get_port()
     // Offset: 0x156BC64
     int get_port();
@@ -625,7 +626,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool Init(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IConnectionManager>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initParams)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -633,10 +634,10 @@ namespace GlobalNamespace {
     }
     // public System.Void SetSecret(System.String secret)
     // Offset: 0x156C328
-    void SetSecret(::Il2CppString* secret);
+    void SetSecret(::StringW secret);
     // public System.Void ConnectToEndPoint(System.Net.IPEndPoint remoteEndPoint, System.String remoteUserId, System.String remoteUserName, System.Boolean remoteUserIsConnectionOwner)
     // Offset: 0x156C330
-    void ConnectToEndPoint(System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* remoteUserId, ::Il2CppString* remoteUserName, bool remoteUserIsConnectionOwner);
+    void ConnectToEndPoint(System::Net::IPEndPoint* remoteEndPoint, ::StringW remoteUserId, ::StringW remoteUserName, bool remoteUserIsConnectionOwner);
     // public System.Void Dispose()
     // Offset: 0x156C550
     void Dispose();
@@ -669,7 +670,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnection* GetConnection(int index);
     // public System.Boolean IsConnectedToUser(System.String userId)
     // Offset: 0x156CD84
-    bool IsConnectedToUser(::Il2CppString* userId);
+    bool IsConnectedToUser(::StringW userId);
     // public System.Boolean HasConnectionToEndPoint(System.Net.IPEndPoint endPoint)
     // Offset: 0x156CE38
     bool HasConnectionToEndPoint(System::Net::IPEndPoint* endPoint);
@@ -705,10 +706,10 @@ namespace GlobalNamespace {
     void AcceptAllPendingRequests();
     // private System.Void TryAccept(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
     // Offset: 0x156D4F0
-    void TryAccept(LiteNetLib::ConnectionRequest* request, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
+    void TryAccept(LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // private System.Void CreatePendingConnection(LiteNetLib.NetPeer peer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
     // Offset: 0x156C46C
-    void CreatePendingConnection(LiteNetLib::NetPeer* peer, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
+    void CreatePendingConnection(LiteNetLib::NetPeer* peer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // private System.Void RemoveConnection(LiteNetLib.NetPeer netPeer, LiteNetLib.DisconnectReason reason)
     // Offset: 0x156D66C
     void RemoveConnection(LiteNetLib::NetPeer* netPeer, LiteNetLib::DisconnectReason reason);
@@ -726,7 +727,7 @@ namespace GlobalNamespace {
     LiteNetLib::Utils::NetDataWriter* GetConnectionMessage();
     // private System.Boolean ParseConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String secret, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
     // Offset: 0x156D450
-    bool ParseConnectionMessage(LiteNetLib::Utils::NetDataReader* reader, ByRef<::Il2CppString*> secret, ByRef<::Il2CppString*> userId, ByRef<::Il2CppString*> userName, ByRef<bool> isConnectionOwner);
+    bool ParseConnectionMessage(LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> secret, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
     // private System.Threading.Tasks.Task BackgroundDisconnectSentry()
     // Offset: 0x156DB20
     System::Threading::Tasks::Task* BackgroundDisconnectSentry();
@@ -735,10 +736,10 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task* BackgroundShutdownSentry();
     // private System.Void Log(System.String msg)
     // Offset: 0x156DD40
-    void Log(::Il2CppString* msg);
+    void Log(::StringW msg);
     // private System.Void LogError(System.String msg)
     // Offset: 0x156DDC4
-    void LogError(::Il2CppString* msg);
+    void LogError(::StringW msg);
     // private System.Void <DisposeAsync>b__97_0()
     // Offset: 0x156DE48
     void $DisposeAsync$b__97_0();
@@ -764,7 +765,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -772,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -852,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_secret
 // Il2CppName: get_secret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_secret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_secret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1092,7 +1093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::SetSecret
 // Il2CppName: SetSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::SetSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&GlobalNamespace::LiteNetLibConnectionManager::SetSecret)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "SetSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret});
@@ -1101,7 +1102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint
 // Il2CppName: ConnectToEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, ::StringW, ::StringW, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* remoteUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1199,7 +1200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser
 // Il2CppName: IsConnectedToUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "IsConnectedToUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -1313,7 +1314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::TryAccept
 // Il2CppName: TryAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::TryAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*, ::StringW, ::StringW, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::TryAccept)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("LiteNetLib", "ConnectionRequest")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1325,7 +1326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection
 // Il2CppName: CreatePendingConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, ::StringW, ::StringW, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1382,7 +1383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ParseConnectionMessage
 // Il2CppName: ParseConnectionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataReader*, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>, ByRef<bool>)>(&GlobalNamespace::LiteNetLibConnectionManager::ParseConnectionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataReader*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>, ByRef<bool>)>(&GlobalNamespace::LiteNetLibConnectionManager::ParseConnectionMessage)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -1411,7 +1412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&GlobalNamespace::LiteNetLibConnectionManager::Log)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -1420,7 +1421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&GlobalNamespace::LiteNetLibConnectionManager::LogError)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

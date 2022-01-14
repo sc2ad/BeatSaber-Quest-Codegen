@@ -17,6 +17,7 @@
 #include "System/IConvertible.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -118,31 +119,31 @@ namespace System {
     bool Equals(int obj);
     // public System.String ToString(System.String format)
     // Offset: 0x1A0FD70
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::StringW ToString(::StringW format);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x1A0FDA4
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0x1A0FDD8
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::StringW ToString(::StringW format, System::IFormatProvider* provider);
     // static public System.Int32 Parse(System.String s)
     // Offset: 0x1A0FE10
-    static int Parse(::Il2CppString* s);
+    static int Parse(::StringW s);
     // static public System.Int32 Parse(System.String s, System.Globalization.NumberStyles style)
     // Offset: 0x1A0FE40
-    static int Parse(::Il2CppString* s, System::Globalization::NumberStyles style);
+    static int Parse(::StringW s, System::Globalization::NumberStyles style);
     // static public System.Int32 Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x1A0FE80
-    static int Parse(::Il2CppString* s, System::IFormatProvider* provider);
+    static int Parse(::StringW s, System::IFormatProvider* provider);
     // static public System.Int32 Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0x1A0FEB4
-    static int Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static int Parse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Boolean TryParse(System.String s, out System.Int32 result)
     // Offset: 0x1A0FF04
-    static bool TryParse(::Il2CppString* s, ByRef<int> result);
+    static bool TryParse(::StringW s, ByRef<int> result);
     // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.Int32 result)
     // Offset: 0x1A10074
-    static bool TryParse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, ByRef<int> result);
+    static bool TryParse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, ByRef<int> result);
     // public System.TypeCode GetTypeCode()
     // Offset: 0x1A100CC
     System::TypeCode GetTypeCode();
@@ -205,7 +206,7 @@ namespace System {
     // Offset: 0x1A0FD40
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Int32
   #pragma pack(pop)
   static check_size<sizeof(Int32), 0 + sizeof(int)> __System_Int32SizeCheck;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Int32::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Int32::*)(::Il2CppString*)>(&System::Int32::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Int32::*)(::StringW)>(&System::Int32::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Int32), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -251,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Int32::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Int32::*)(System::IFormatProvider*)>(&System::Int32::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Int32::*)(System::IFormatProvider*)>(&System::Int32::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Int32), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -260,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Int32::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Int32::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Int32::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Int32::*)(::StringW, System::IFormatProvider*)>(&System::Int32::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Int32::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Int32::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&System::Int32::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Int32), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Int32::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::Globalization::NumberStyles)>(&System::Int32::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, System::Globalization::NumberStyles)>(&System::Int32::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Int32::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::IFormatProvider*)>(&System::Int32::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, System::IFormatProvider*)>(&System::Int32::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Int32::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::Globalization::NumberStyles, System::IFormatProvider*)>(&System::Int32::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, System::Globalization::NumberStyles, System::IFormatProvider*)>(&System::Int32::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -310,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Int32::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<int>)>(&System::Int32::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<int>)>(&System::Int32::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Int32::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::IFormatProvider*, ByRef<int>)>(&System::Int32::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::IFormatProvider*, ByRef<int>)>(&System::Int32::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -493,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Int32::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Int32::*)()>(&System::Int32::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Int32::*)()>(&System::Int32::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Int32), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Net
 namespace Mono::Net {
@@ -71,19 +72,19 @@ namespace Mono::Net {
     }
     // static public System.IntPtr dlopen(System.String path, System.Int32 mode)
     // Offset: 0x1829688
-    static System::IntPtr dlopen(::Il2CppString* path, int mode);
+    static System::IntPtr dlopen(::StringW path, int mode);
     // static private System.IntPtr dlsym(System.IntPtr handle, System.String symbol)
     // Offset: 0x182C6B0
-    static System::IntPtr dlsym(System::IntPtr handle, ::Il2CppString* symbol);
+    static System::IntPtr dlsym(System::IntPtr handle, ::StringW symbol);
     // static public System.Void dlclose(System.IntPtr handle)
     // Offset: 0x1829734
     static void dlclose(System::IntPtr handle);
     // static public System.IntPtr GetIndirect(System.IntPtr handle, System.String symbol)
     // Offset: 0x1829730
-    static System::IntPtr GetIndirect(System::IntPtr handle, ::Il2CppString* symbol);
+    static System::IntPtr GetIndirect(System::IntPtr handle, ::StringW symbol);
     // static public System.IntPtr GetCFObjectHandle(System.IntPtr handle, System.String symbol)
     // Offset: 0x182C75C
-    static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::Il2CppString* symbol);
+    static System::IntPtr GetCFObjectHandle(System::IntPtr handle, ::StringW symbol);
     // static System.IntPtr CFRetain(System.IntPtr handle)
     // Offset: 0x182C890
     static System::IntPtr CFRetain(System::IntPtr handle);
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::CFObject::dlopen
 // Il2CppName: dlopen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, int)>(&Mono::Net::CFObject::dlopen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, int)>(&Mono::Net::CFObject::dlopen)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Mono::Net::CFObject::dlsym
 // Il2CppName: dlsym
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&Mono::Net::CFObject::dlsym)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW)>(&Mono::Net::CFObject::dlsym)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* symbol = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Mono::Net::CFObject::GetIndirect
 // Il2CppName: GetIndirect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&Mono::Net::CFObject::GetIndirect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW)>(&Mono::Net::CFObject::GetIndirect)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* symbol = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Mono::Net::CFObject::GetCFObjectHandle
 // Il2CppName: GetCFObjectHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&Mono::Net::CFObject::GetCFObjectHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW)>(&Mono::Net::CFObject::GetCFObjectHandle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* symbol = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

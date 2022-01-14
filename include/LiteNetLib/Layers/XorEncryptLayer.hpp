@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -68,13 +69,13 @@ namespace LiteNetLib::Layers {
     // public System.Void .ctor(System.String key)
     // Offset: 0x1DC5228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XorEncryptLayer* New_ctor(::Il2CppString* key) {
+    static XorEncryptLayer* New_ctor(::StringW key) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Layers::XorEncryptLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XorEncryptLayer*, creationType>(key)));
     }
     // public System.Void SetKey(System.String key)
     // Offset: 0x1DC525C
-    void SetKey(::Il2CppString* key);
+    void SetKey(::StringW key);
     // public System.Void SetKey(System.Byte[] key)
     // Offset: 0x1DC5184
     void SetKey(::ArrayW<uint8_t> key);
@@ -114,7 +115,7 @@ namespace LiteNetLib::Layers {
 // Writing MetadataGetter for method: LiteNetLib::Layers::XorEncryptLayer::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(::Il2CppString*)>(&LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::XorEncryptLayer::*)(::StringW)>(&LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Layers::XorEncryptLayer*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

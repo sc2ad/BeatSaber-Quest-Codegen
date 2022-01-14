@@ -21,6 +21,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -105,9 +106,9 @@ namespace System::Xml {
     // private System.String newLineChars
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* newLineChars;
+    ::StringW newLineChars;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Xml.TriState indent
     // Size: 0x4
     // Offset: 0x30
@@ -119,9 +120,9 @@ namespace System::Xml {
     // private System.String indentChars
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* indentChars;
+    ::StringW indentChars;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean newLineOnAttributes
     // Size: 0x1
     // Offset: 0x40
@@ -193,21 +194,21 @@ namespace System::Xml {
     // private System.String mediaType
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* mediaType;
+    ::StringW mediaType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String docTypeSystem
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* docTypeSystem;
+    ::StringW docTypeSystem;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String docTypePublic
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* docTypePublic;
+    ::StringW docTypePublic;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Xml.XmlStandalone standalone
     // Size: 0x4
     // Offset: 0x80
@@ -236,11 +237,11 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.NewLineHandling newLineHandling
     System::Xml::NewLineHandling& dyn_newLineHandling();
     // Get instance field reference: private System.String newLineChars
-    ::Il2CppString*& dyn_newLineChars();
+    ::StringW& dyn_newLineChars();
     // Get instance field reference: private System.Xml.TriState indent
     System::Xml::TriState& dyn_indent();
     // Get instance field reference: private System.String indentChars
-    ::Il2CppString*& dyn_indentChars();
+    ::StringW& dyn_indentChars();
     // Get instance field reference: private System.Boolean newLineOnAttributes
     bool& dyn_newLineOnAttributes();
     // Get instance field reference: private System.Boolean closeOutput
@@ -262,11 +263,11 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean mergeCDataSections
     bool& dyn_mergeCDataSections();
     // Get instance field reference: private System.String mediaType
-    ::Il2CppString*& dyn_mediaType();
+    ::StringW& dyn_mediaType();
     // Get instance field reference: private System.String docTypeSystem
-    ::Il2CppString*& dyn_docTypeSystem();
+    ::StringW& dyn_docTypeSystem();
     // Get instance field reference: private System.String docTypePublic
-    ::Il2CppString*& dyn_docTypePublic();
+    ::StringW& dyn_docTypePublic();
     // Get instance field reference: private System.Xml.XmlStandalone standalone
     System::Xml::XmlStandalone& dyn_standalone();
     // Get instance field reference: private System.Boolean autoXmlDecl
@@ -287,7 +288,7 @@ namespace System::Xml {
     System::Xml::NewLineHandling get_NewLineHandling();
     // public System.String get_NewLineChars()
     // Offset: 0x26A3A60
-    ::Il2CppString* get_NewLineChars();
+    ::StringW get_NewLineChars();
     // public System.Boolean get_Indent()
     // Offset: 0x26A3A68
     bool get_Indent();
@@ -296,7 +297,7 @@ namespace System::Xml {
     void set_Indent(bool value);
     // public System.String get_IndentChars()
     // Offset: 0x26A3BC0
-    ::Il2CppString* get_IndentChars();
+    ::StringW get_IndentChars();
     // public System.Boolean get_NewLineOnAttributes()
     // Offset: 0x26A3BC8
     bool get_NewLineOnAttributes();
@@ -335,13 +336,13 @@ namespace System::Xml {
     bool get_MergeCDataSections();
     // System.String get_MediaType()
     // Offset: 0x26A3D80
-    ::Il2CppString* get_MediaType();
+    ::StringW get_MediaType();
     // System.String get_DocTypeSystem()
     // Offset: 0x26A3D88
-    ::Il2CppString* get_DocTypeSystem();
+    ::StringW get_DocTypeSystem();
     // System.String get_DocTypePublic()
     // Offset: 0x26A3D90
-    ::Il2CppString* get_DocTypePublic();
+    ::StringW get_DocTypePublic();
     // System.Xml.XmlStandalone get_Standalone()
     // Offset: 0x26A3D98
     System::Xml::XmlStandalone get_Standalone();
@@ -368,7 +369,7 @@ namespace System::Xml {
     System::Xml::XmlWriter* CreateWriter(System::IO::TextWriter* output);
     // private System.Void CheckReadOnly(System.String propertyName)
     // Offset: 0x26A3AE8
-    void CheckReadOnly(::Il2CppString* propertyName);
+    void CheckReadOnly(::StringW propertyName);
     // private System.Void Initialize()
     // Offset: 0x26A3978
     void Initialize();
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NewLineChars
 // Il2CppName: get_NewLineChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NewLineChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NewLineChars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NewLineChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_IndentChars
 // Il2CppName: get_IndentChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_IndentChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_IndentChars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_IndentChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -553,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_MediaType
 // Il2CppName: get_MediaType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_MediaType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_MediaType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_MediaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -561,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_DocTypeSystem
 // Il2CppName: get_DocTypeSystem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypeSystem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypeSystem)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_DocTypeSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -569,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_DocTypePublic
 // Il2CppName: get_DocTypePublic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypePublic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_DocTypePublic)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_DocTypePublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -644,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::CheckReadOnly
 // Il2CppName: CheckReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(::Il2CppString*)>(&System::Xml::XmlWriterSettings::CheckReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(::StringW)>(&System::Xml::XmlWriterSettings::CheckReadOnly)> {
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "CheckReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyName});

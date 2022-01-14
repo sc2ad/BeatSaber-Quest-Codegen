@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -77,9 +78,9 @@ namespace GlobalNamespace {
     // private System.String <masterServerStatusUrl>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* masterServerStatusUrl;
+    ::StringW masterServerStatusUrl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkConfig
     operator GlobalNamespace::INetworkConfig() noexcept {
@@ -96,7 +97,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MasterServerEndPoint <masterServerEndPoint>k__BackingField
     GlobalNamespace::MasterServerEndPoint*& dyn_$masterServerEndPoint$k__BackingField();
     // Get instance field reference: private System.String <masterServerStatusUrl>k__BackingField
-    ::Il2CppString*& dyn_$masterServerStatusUrl$k__BackingField();
+    ::StringW& dyn_$masterServerStatusUrl$k__BackingField();
     // public System.Int32 get_maxPartySize()
     // Offset: 0x156496C
     int get_maxPartySize();
@@ -129,20 +130,20 @@ namespace GlobalNamespace {
     void set_masterServerEndPoint(GlobalNamespace::MasterServerEndPoint* value);
     // public System.String get_masterServerStatusUrl()
     // Offset: 0x15649BC
-    ::Il2CppString* get_masterServerStatusUrl();
+    ::StringW get_masterServerStatusUrl();
     // private System.Void set_masterServerStatusUrl(System.String value)
     // Offset: 0x15649C4
-    void set_masterServerStatusUrl(::Il2CppString* value);
+    void set_masterServerStatusUrl(::StringW value);
     // public System.Void .ctor(INetworkConfig fromNetworkConfig, System.String customServerHostName, System.Int32 port)
     // Offset: 0x15649CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CustomNetworkConfig* New_ctor(GlobalNamespace::INetworkConfig* fromNetworkConfig, ::Il2CppString* customServerHostName, int port) {
+    static CustomNetworkConfig* New_ctor(GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomNetworkConfig::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomNetworkConfig*, creationType>(fromNetworkConfig, customServerHostName, port)));
     }
   }; // CustomNetworkConfig
   #pragma pack(pop)
-  static check_size<sizeof(CustomNetworkConfig), 40 + sizeof(::Il2CppString*)> __GlobalNamespace_CustomNetworkConfigSizeCheck;
+  static check_size<sizeof(CustomNetworkConfig), 40 + sizeof(::StringW)> __GlobalNamespace_CustomNetworkConfigSizeCheck;
   static_assert(sizeof(CustomNetworkConfig) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -234,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_masterServerStatusUrl
 // Il2CppName: get_masterServerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_masterServerStatusUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_masterServerStatusUrl
 // Il2CppName: set_masterServerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(::Il2CppString*)>(&GlobalNamespace::CustomNetworkConfig::set_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(::StringW)>(&GlobalNamespace::CustomNetworkConfig::set_masterServerStatusUrl)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

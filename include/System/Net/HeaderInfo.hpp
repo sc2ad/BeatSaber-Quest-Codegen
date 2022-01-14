@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -65,9 +66,9 @@ namespace System::Net {
     // readonly System.String HeaderName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* HeaderName;
+    ::StringW HeaderName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // readonly System.Boolean AllowMultiValues
     // Size: 0x1
     // Offset: 0x28
@@ -82,13 +83,13 @@ namespace System::Net {
     // Get instance field reference: readonly System.Net.HeaderParser Parser
     System::Net::HeaderParser*& dyn_Parser();
     // Get instance field reference: readonly System.String HeaderName
-    ::Il2CppString*& dyn_HeaderName();
+    ::StringW& dyn_HeaderName();
     // Get instance field reference: readonly System.Boolean AllowMultiValues
     bool& dyn_AllowMultiValues();
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
     // Offset: 0x18A382C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HeaderInfo* New_ctor(::Il2CppString* name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
+    static HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo*, creationType>(name, requestRestricted, responseRestricted, multi, p)));
     }

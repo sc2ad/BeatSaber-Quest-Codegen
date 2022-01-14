@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -48,9 +49,9 @@ namespace NUnit::Framework::Internal::Filters {
     // private System.String <ExpectedValue>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* ExpectedValue;
+    ::StringW ExpectedValue;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF301E0
     // private System.Boolean <IsRegex>k__BackingField
     // Size: 0x1
@@ -60,15 +61,15 @@ namespace NUnit::Framework::Internal::Filters {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <ExpectedValue>k__BackingField
-    ::Il2CppString*& dyn_$ExpectedValue$k__BackingField();
+    ::StringW& dyn_$ExpectedValue$k__BackingField();
     // Get instance field reference: private System.Boolean <IsRegex>k__BackingField
     bool& dyn_$IsRegex$k__BackingField();
     // public System.String get_ExpectedValue()
     // Offset: 0x254F744
-    ::Il2CppString* get_ExpectedValue();
+    ::StringW get_ExpectedValue();
     // private System.Void set_ExpectedValue(System.String value)
     // Offset: 0x254F74C
-    void set_ExpectedValue(::Il2CppString* value);
+    void set_ExpectedValue(::StringW value);
     // public System.Boolean get_IsRegex()
     // Offset: 0x254F754
     bool get_IsRegex();
@@ -77,17 +78,17 @@ namespace NUnit::Framework::Internal::Filters {
     void set_IsRegex(bool value);
     // protected System.String get_ElementName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ElementName();
+    ::StringW get_ElementName();
     // public System.Void .ctor(System.String expectedValue)
     // Offset: 0x254F768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValueMatchFilter* New_ctor(::Il2CppString* expectedValue) {
+    static ValueMatchFilter* New_ctor(::StringW expectedValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::ValueMatchFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueMatchFilter*, creationType>(expectedValue)));
     }
     // protected System.Boolean Match(System.String input)
     // Offset: 0x254F7EC
-    bool Match(::Il2CppString* input);
+    bool Match(::StringW input);
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     // Offset: 0x254F8AC
     // Implemented from: NUnit.Framework.Internal.TestFilter
@@ -102,7 +103,7 @@ namespace NUnit::Framework::Internal::Filters {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ExpectedValue
 // Il2CppName: get_ExpectedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ExpectedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ExpectedValue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "get_ExpectedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -110,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::set_ExpectedValue
 // Il2CppName: set_ExpectedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::set_ExpectedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)(::StringW)>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::set_ExpectedValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "set_ExpectedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName
 // Il2CppName: get_ElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)()>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::ValueMatchFilter::*)(::StringW)>(&NUnit::Framework::Internal::Filters::ValueMatchFilter::Match)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::ValueMatchFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

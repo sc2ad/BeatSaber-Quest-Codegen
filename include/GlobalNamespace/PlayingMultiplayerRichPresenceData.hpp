@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,9 +45,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kPlayingMultiplayerLobbyRichPresenceLocalizationKey = "PLAYING_MULTIPLAYER_PRESENCE";
     // Get static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
-    static ::Il2CppString* _get_kPlayingMultiplayerLobbyRichPresenceLocalizationKey();
+    static ::StringW _get_kPlayingMultiplayerLobbyRichPresenceLocalizationKey();
     // Set static field: static private System.String kPlayingMultiplayerLobbyRichPresenceLocalizationKey
-    static void _set_kPlayingMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
+    static void _set_kPlayingMultiplayerLobbyRichPresenceLocalizationKey(::StringW value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap, System.Boolean atMaxPartySize)
     // Offset: 0x11AD6F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

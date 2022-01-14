@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -47,27 +48,27 @@ namespace System::Runtime::Remoting {
     // System.String Ref
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Ref;
+    ::StringW Ref;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String Type
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Type;
+    ::StringW Type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String Id
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Id;
+    ::StringW Id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String DelayLoadAsClientChannel
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* DelayLoadAsClientChannel;
+    ::StringW DelayLoadAsClientChannel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.ArrayList _serverProviders
     // Size: 0x8
     // Offset: 0x30
@@ -88,13 +89,13 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.String Ref
-    ::Il2CppString*& dyn_Ref();
+    ::StringW& dyn_Ref();
     // Get instance field reference: System.String Type
-    ::Il2CppString*& dyn_Type();
+    ::StringW& dyn_Type();
     // Get instance field reference: System.String Id
-    ::Il2CppString*& dyn_Id();
+    ::StringW& dyn_Id();
     // Get instance field reference: System.String DelayLoadAsClientChannel
-    ::Il2CppString*& dyn_DelayLoadAsClientChannel();
+    ::StringW& dyn_DelayLoadAsClientChannel();
     // Get instance field reference: private System.Collections.ArrayList _serverProviders
     System::Collections::ArrayList*& dyn__serverProviders();
     // Get instance field reference: private System.Collections.ArrayList _clientProviders

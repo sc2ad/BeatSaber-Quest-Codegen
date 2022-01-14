@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -53,16 +54,16 @@ namespace Zenject {
     // public System.String resourcePath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* resourcePath;
+    ::StringW resourcePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return resourcePath;
     }
     // Get instance field reference: public System.String resourcePath
-    ::Il2CppString*& dyn_resourcePath();
+    ::StringW& dyn_resourcePath();
     // Zenject.IProvider <FromResources>b__0(Zenject.DiContainer _, System.Type type)
     // Offset: 0x1AAAF58
     Zenject::IProvider* $FromResources$b__0(Zenject::DiContainer* _, System::Type* type);
@@ -83,7 +84,7 @@ namespace Zenject {
     }
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass58_0
   #pragma pack(pop)
-  static check_size<sizeof(FromBinder::$$c__DisplayClass58_0), 16 + sizeof(::Il2CppString*)> __Zenject_FromBinder_$$c__DisplayClass58_0SizeCheck;
+  static check_size<sizeof(FromBinder::$$c__DisplayClass58_0), 16 + sizeof(::StringW)> __Zenject_FromBinder_$$c__DisplayClass58_0SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass58_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

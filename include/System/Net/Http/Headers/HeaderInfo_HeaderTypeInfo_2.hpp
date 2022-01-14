@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -71,7 +72,7 @@ namespace System::Net::Http::Headers {
     // public System.Void .ctor(System.String name, System.Net.Http.Headers.TryParseDelegate`1<T> parser, System.Net.Http.Headers.HttpHeaderKind headerKind)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HeaderInfo::HeaderTypeInfo_2<T, U>* New_ctor(::Il2CppString* name, System::Net::Http::Headers::TryParseDelegate_1<T>* parser, System::Net::Http::Headers::HttpHeaderKind headerKind) {
+    static HeaderInfo::HeaderTypeInfo_2<T, U>* New_ctor(::StringW name, System::Net::Http::Headers::TryParseDelegate_1<T>* parser, System::Net::Http::Headers::HttpHeaderKind headerKind) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo::HeaderTypeInfo_2<T, U>*, creationType>(name, parser, headerKind)));
     }
@@ -97,16 +98,16 @@ namespace System::Net::Http::Headers {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Collections.Generic.List`1<System.String> HeaderInfo::ToStringCollection(System.Object collection)
-    System::Collections::Generic::List_1<::Il2CppString*>* ToStringCollection(::Il2CppObject* collection) {
+    System::Collections::Generic::List_1<::StringW>* ToStringCollection(::Il2CppObject* collection) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::ToStringCollection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToStringCollection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection)})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<::Il2CppString*>*, false>(this, ___internal__method, collection);
+      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal__method, collection);
     }
     // public override System.Boolean TryParse(System.String value, out System.Object result)
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Net.Http.Headers.HeaderInfo
     // Base method: System.Boolean HeaderInfo::TryParse(System.String value, out System.Object result)
-    bool TryParse(::Il2CppString* value, ByRef<::Il2CppObject*> result) {
+    bool TryParse(::StringW value, ByRef<::Il2CppObject*> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2::TryParse");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryParse", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, value, byref(result));

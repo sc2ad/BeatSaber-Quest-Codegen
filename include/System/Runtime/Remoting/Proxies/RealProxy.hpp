@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -108,9 +109,9 @@ namespace System::Runtime::Remoting::Proxies {
     // System.String _targetUri
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* targetUri;
+    ::StringW targetUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Runtime.Remoting.Identity _objectIdentity
     // Size: 0x8
     // Offset: 0x38
@@ -139,7 +140,7 @@ namespace System::Runtime::Remoting::Proxies {
     // Get instance field reference: private System.Int32 _targetDomainId
     int& dyn__targetDomainId();
     // Get instance field reference: System.String _targetUri
-    ::Il2CppString*& dyn__targetUri();
+    ::StringW& dyn__targetUri();
     // Get instance field reference: System.Runtime.Remoting.Identity _objectIdentity
     System::Runtime::Remoting::Identity*& dyn__objectIdentity();
     // Get instance field reference: private System.Object _objTP
@@ -190,7 +191,7 @@ namespace System::Runtime::Remoting::Proxies {
     static ::Il2CppObject* PrivateInvoke(System::Runtime::Remoting::Proxies::RealProxy* rp, System::Runtime::Remoting::Messaging::IMessage* msg, ByRef<System::Exception*> exc, ByRef<::ArrayW<::Il2CppObject*>> out_args);
     // System.Object InternalGetTransparentProxy(System.String className)
     // Offset: 0x1C5F188
-    ::Il2CppObject* InternalGetTransparentProxy(::Il2CppString* className);
+    ::Il2CppObject* InternalGetTransparentProxy(::StringW className);
     // public System.Object GetTransparentProxy()
     // Offset: 0x1C5F18C
     ::Il2CppObject* GetTransparentProxy();
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::InternalGetTransparentProxy
 // Il2CppName: InternalGetTransparentProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::RealProxy::*)(::Il2CppString*)>(&System::Runtime::Remoting::Proxies::RealProxy::InternalGetTransparentProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::RealProxy::*)(::StringW)>(&System::Runtime::Remoting::Proxies::RealProxy::InternalGetTransparentProxy)> {
   static const MethodInfo* get() {
     static auto* className = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RealProxy*), "InternalGetTransparentProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{className});

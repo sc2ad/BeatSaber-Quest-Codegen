@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -49,16 +50,16 @@ namespace GlobalNamespace {
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* modifierNameLocalizationKey;
+    ::StringW modifierNameLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [LocalizationKeyAttribute] Offset: 0xF36618
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* descriptionLocalizationKey;
+    ::StringW descriptionLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _multiplier
     // Size: 0x4
     // Offset: 0x28
@@ -107,9 +108,9 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _modifierNameLocalizationKey
-    ::Il2CppString*& dyn__modifierNameLocalizationKey();
+    ::StringW& dyn__modifierNameLocalizationKey();
     // Get instance field reference: private System.String _descriptionLocalizationKey
-    ::Il2CppString*& dyn__descriptionLocalizationKey();
+    ::StringW& dyn__descriptionLocalizationKey();
     // Get instance field reference: private System.Single _multiplier
     float& dyn__multiplier();
     // Get instance field reference: private System.Boolean _multiplierConditionallyValid
@@ -126,10 +127,10 @@ namespace GlobalNamespace {
     bool& dyn__isInBeta();
     // public System.String get_modifierNameLocalizationKey()
     // Offset: 0x11FBA7C
-    ::Il2CppString* get_modifierNameLocalizationKey();
+    ::StringW get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
     // Offset: 0x11FBA84
-    ::Il2CppString* get_descriptionLocalizationKey();
+    ::StringW get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
     // Offset: 0x11FBA8C
     float get_multiplier();
@@ -172,7 +173,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey
 // Il2CppName: get_modifierNameLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierParamsSO*), "get_modifierNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierParamsSO::get_descriptionLocalizationKey
 // Il2CppName: get_descriptionLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_descriptionLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameplayModifierParamsSO::*)()>(&GlobalNamespace::GameplayModifierParamsSO::get_descriptionLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierParamsSO*), "get_descriptionLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

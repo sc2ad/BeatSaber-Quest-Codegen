@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -104,37 +105,37 @@ namespace NUnit::Framework::Constraints {
     static_assert(sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*) == 0x8);
     public:
     // Get static field: static private readonly System.String StringsDiffer_1
-    static ::Il2CppString* _get_StringsDiffer_1();
+    static ::StringW _get_StringsDiffer_1();
     // Set static field: static private readonly System.String StringsDiffer_1
-    static void _set_StringsDiffer_1(::Il2CppString* value);
+    static void _set_StringsDiffer_1(::StringW value);
     // Get static field: static private readonly System.String StringsDiffer_2
-    static ::Il2CppString* _get_StringsDiffer_2();
+    static ::StringW _get_StringsDiffer_2();
     // Set static field: static private readonly System.String StringsDiffer_2
-    static void _set_StringsDiffer_2(::Il2CppString* value);
+    static void _set_StringsDiffer_2(::StringW value);
     // Get static field: static private readonly System.String StreamsDiffer_1
-    static ::Il2CppString* _get_StreamsDiffer_1();
+    static ::StringW _get_StreamsDiffer_1();
     // Set static field: static private readonly System.String StreamsDiffer_1
-    static void _set_StreamsDiffer_1(::Il2CppString* value);
+    static void _set_StreamsDiffer_1(::StringW value);
     // Get static field: static private readonly System.String StreamsDiffer_2
-    static ::Il2CppString* _get_StreamsDiffer_2();
+    static ::StringW _get_StreamsDiffer_2();
     // Set static field: static private readonly System.String StreamsDiffer_2
-    static void _set_StreamsDiffer_2(::Il2CppString* value);
+    static void _set_StreamsDiffer_2(::StringW value);
     // Get static field: static private readonly System.String CollectionType_1
-    static ::Il2CppString* _get_CollectionType_1();
+    static ::StringW _get_CollectionType_1();
     // Set static field: static private readonly System.String CollectionType_1
-    static void _set_CollectionType_1(::Il2CppString* value);
+    static void _set_CollectionType_1(::StringW value);
     // Get static field: static private readonly System.String CollectionType_2
-    static ::Il2CppString* _get_CollectionType_2();
+    static ::StringW _get_CollectionType_2();
     // Set static field: static private readonly System.String CollectionType_2
-    static void _set_CollectionType_2(::Il2CppString* value);
+    static void _set_CollectionType_2(::StringW value);
     // Get static field: static private readonly System.String ValuesDiffer_1
-    static ::Il2CppString* _get_ValuesDiffer_1();
+    static ::StringW _get_ValuesDiffer_1();
     // Set static field: static private readonly System.String ValuesDiffer_1
-    static void _set_ValuesDiffer_1(::Il2CppString* value);
+    static void _set_ValuesDiffer_1(::StringW value);
     // Get static field: static private readonly System.String ValuesDiffer_2
-    static ::Il2CppString* _get_ValuesDiffer_2();
+    static ::StringW _get_ValuesDiffer_2();
     // Set static field: static private readonly System.String ValuesDiffer_2
-    static void _set_ValuesDiffer_2(::Il2CppString* value);
+    static void _set_ValuesDiffer_2(::StringW value);
     // Get instance field reference: private System.Object expectedValue
     ::Il2CppObject*& dyn_expectedValue();
     // Get instance field reference: private NUnit.Framework.Constraints.Tolerance tolerance
@@ -160,7 +161,7 @@ namespace NUnit::Framework::Constraints {
     void DisplayDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppObject* expected, ::Il2CppObject* actual, int depth);
     // private System.Void DisplayStringDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.String expected, System.String actual)
     // Offset: 0x1937B4C
-    void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::Il2CppString* expected, ::Il2CppString* actual);
+    void DisplayStringDifferences(NUnit::Framework::Constraints::MessageWriter* writer, ::StringW expected, ::StringW actual);
     // private System.Void DisplayStreamDifferences(NUnit.Framework.Constraints.MessageWriter writer, System.IO.Stream expected, System.IO.Stream actual, System.Int32 depth)
     // Offset: 0x1938254
     void DisplayStreamDifferences(NUnit::Framework::Constraints::MessageWriter* writer, System::IO::Stream* expected, System::IO::Stream* actual, int depth);
@@ -214,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences
 // Il2CppName: DisplayStringDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::StringW, ::StringW)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Security::SecurityElement::SecurityAttribute);
@@ -35,43 +36,43 @@ namespace System::Security {
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _value
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* value;
+    ::StringW value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: private System.String _value
-    ::Il2CppString*& dyn__value();
+    ::StringW& dyn__value();
     // public System.String get_Name()
     // Offset: 0x1D274FC
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_Value()
     // Offset: 0x1D27504
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String value)
     // Offset: 0x1D26674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecurityElement::SecurityAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* value) {
+    static SecurityElement::SecurityAttribute* New_ctor(::StringW name, ::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement::SecurityAttribute*, creationType>(name, value)));
     }
   }; // System.Security.SecurityElement/System.Security.SecurityAttribute
   #pragma pack(pop)
-  static check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(::Il2CppString*)> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
+  static check_size<sizeof(SecurityElement::SecurityAttribute), 24 + sizeof(::StringW)> __System_Security_SecurityElement_SecurityAttributeSizeCheck;
   static_assert(sizeof(SecurityElement::SecurityAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityElement::SecurityAttribute::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::SecurityElement::SecurityAttribute::*)()>(&System::Security::SecurityElement::SecurityAttribute::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::SecurityElement::SecurityAttribute::*)()>(&System::Security::SecurityElement::SecurityAttribute::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement::SecurityAttribute*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::SecurityElement::SecurityAttribute::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::SecurityElement::SecurityAttribute::*)()>(&System::Security::SecurityElement::SecurityAttribute::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::SecurityElement::SecurityAttribute::*)()>(&System::Security::SecurityElement::SecurityAttribute::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement::SecurityAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

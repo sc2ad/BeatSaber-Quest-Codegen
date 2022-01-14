@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -76,21 +77,21 @@ namespace Polyglot {
     // public System.Action`1<System.String> done
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<::Il2CppString*>* done;
+    System::Action_1<::StringW>* done;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // public System.String docsId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* docsId;
+    ::StringW docsId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String sheetId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* sheetId;
+    ::StringW sheetId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public Polyglot.GoogleDriveDownloadFormat format
     // Size: 0x4
     // Offset: 0x40
@@ -102,9 +103,9 @@ namespace Polyglot {
     // private System.String <url>5__2
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* $url$5__2;
+    ::StringW $url$5__2;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Networking.UnityWebRequest <www>5__3
     // Size: 0x8
     // Offset: 0x50
@@ -123,15 +124,15 @@ namespace Polyglot {
     // Get instance field reference: public System.Func`2<System.Single,System.Boolean> progressbar
     System::Func_2<float, bool>*& dyn_progressbar();
     // Get instance field reference: public System.Action`1<System.String> done
-    System::Action_1<::Il2CppString*>*& dyn_done();
+    System::Action_1<::StringW>*& dyn_done();
     // Get instance field reference: public System.String docsId
-    ::Il2CppString*& dyn_docsId();
+    ::StringW& dyn_docsId();
     // Get instance field reference: public System.String sheetId
-    ::Il2CppString*& dyn_sheetId();
+    ::StringW& dyn_sheetId();
     // Get instance field reference: public Polyglot.GoogleDriveDownloadFormat format
     Polyglot::GoogleDriveDownloadFormat& dyn_format();
     // Get instance field reference: private System.String <url>5__2
-    ::Il2CppString*& dyn_$url$5__2();
+    ::StringW& dyn_$url$5__2();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__3
     UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()

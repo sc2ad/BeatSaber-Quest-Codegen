@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -36,20 +37,20 @@ namespace HoudiniEngineUnity {
   class HEU_Platform : public ::Il2CppObject {
     public:
     // Get static field: static private System.String _lastErrorMsg
-    static ::Il2CppString* _get__lastErrorMsg();
+    static ::StringW _get__lastErrorMsg();
     // Set static field: static private System.String _lastErrorMsg
-    static void _set__lastErrorMsg(::Il2CppString* value);
+    static void _set__lastErrorMsg(::StringW value);
     // Get static field: static private System.String _libPath
-    static ::Il2CppString* _get__libPath();
+    static ::StringW _get__libPath();
     // Set static field: static private System.String _libPath
-    static void _set__libPath(::Il2CppString* value);
+    static void _set__libPath(::StringW value);
     // Get static field: static private System.Boolean _pathSet
     static bool _get__pathSet();
     // Set static field: static private System.Boolean _pathSet
     static void _set__pathSet(bool value);
     // static public System.String get_LibPath()
     // Offset: 0x18264E0
-    static ::Il2CppString* get_LibPath();
+    static ::StringW get_LibPath();
     // static public System.Boolean get_IsPathSet()
     // Offset: 0x1826548
     static bool get_IsPathSet();
@@ -58,19 +59,19 @@ namespace HoudiniEngineUnity {
     static ::Il2CppChar get_DirectorySeparator();
     // static public System.String get_DirectorySeparatorStr()
     // Offset: 0x1824658
-    static ::Il2CppString* get_DirectorySeparatorStr();
+    static ::StringW get_DirectorySeparatorStr();
     // static private System.Void .cctor()
     // Offset: 0x18265B0
     static void _cctor();
     // static public System.String GetHoudiniEnginePath()
     // Offset: 0x1826610
-    static ::Il2CppString* GetHoudiniEnginePath();
+    static ::StringW GetHoudiniEnginePath();
     // static public System.String GetHoudiniEngineDefaultPath()
     // Offset: 0x1826674
-    static ::Il2CppString* GetHoudiniEngineDefaultPath();
+    static ::StringW GetHoudiniEngineDefaultPath();
     // static public System.String GetSavedHoudiniPath()
     // Offset: 0x18266EC
-    static ::Il2CppString* GetSavedHoudiniPath();
+    static ::StringW GetSavedHoudiniPath();
     // static public System.Void SetHapiClientName()
     // Offset: 0x18265B4
     static void SetHapiClientName();
@@ -79,67 +80,67 @@ namespace HoudiniEngineUnity {
     static void SetHoudiniEnginePath();
     // static public System.String GetAllFoldersInPath(System.String path)
     // Offset: 0x1826884
-    static ::Il2CppString* GetAllFoldersInPath(::Il2CppString* path);
+    static ::StringW GetAllFoldersInPath(::StringW path);
     // static private System.Void GetAllFoldersInPathHelper(System.String inPath, System.Text.StringBuilder pathBuilder)
     // Offset: 0x1826948
-    static void GetAllFoldersInPathHelper(::Il2CppString* inPath, System::Text::StringBuilder* pathBuilder);
+    static void GetAllFoldersInPathHelper(::StringW inPath, System::Text::StringBuilder* pathBuilder);
     // static public System.String[] GetFilesInFolder(System.String folderPath, System.String searchPattern, System.Boolean bRecursive)
     // Offset: 0x1826AA4
-    static ::ArrayW<::Il2CppString*> GetFilesInFolder(::Il2CppString* folderPath, ::Il2CppString* searchPattern, bool bRecursive);
+    static ::ArrayW<::StringW> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive);
     // static public System.String GetFileName(System.String path)
     // Offset: 0x1826C1C
-    static ::Il2CppString* GetFileName(::Il2CppString* path);
+    static ::StringW GetFileName(::StringW path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
     // Offset: 0x1826C84
-    static ::Il2CppString* GetFileNameWithoutExtension(::Il2CppString* path);
+    static ::StringW GetFileNameWithoutExtension(::StringW path);
     // static public System.String GetFolderPath(System.String path, System.Boolean bRemoveDirectorySeparatorAtEnd)
     // Offset: 0x1825BA0
-    static ::Il2CppString* GetFolderPath(::Il2CppString* path, bool bRemoveDirectorySeparatorAtEnd);
+    static ::StringW GetFolderPath(::StringW path, bool bRemoveDirectorySeparatorAtEnd);
     // static public System.String BuildPath(System.String folder1, System.String folder2, params System.Object[] args)
     // Offset: 0x1813EF0
-    static ::Il2CppString* BuildPath(::Il2CppString* folder1, ::Il2CppString* folder2, ::ArrayW<::Il2CppObject*> args);
+    static ::StringW BuildPath(::StringW folder1, ::StringW folder2, ::ArrayW<::Il2CppObject*> args);
     // static public System.String TrimLastDirectorySeparator(System.String inPath)
     // Offset: 0x1826CF4
-    static ::Il2CppString* TrimLastDirectorySeparator(::Il2CppString* inPath);
+    static ::StringW TrimLastDirectorySeparator(::StringW inPath);
     // static public System.Boolean DoesPathExist(System.String inPath)
     // Offset: 0x1826DA4
-    static bool DoesPathExist(::Il2CppString* inPath);
+    static bool DoesPathExist(::StringW inPath);
     // static public System.Boolean DoesFileExist(System.String inPath)
     // Offset: 0x1826DE4
-    static bool DoesFileExist(::Il2CppString* inPath);
+    static bool DoesFileExist(::StringW inPath);
     // static public System.Boolean DoesDirectoryExist(System.String inPath)
     // Offset: 0x1826DEC
-    static bool DoesDirectoryExist(::Il2CppString* inPath);
+    static bool DoesDirectoryExist(::StringW inPath);
     // static public System.Boolean CreateDirectory(System.String inPath)
     // Offset: 0x1826DF4
-    static bool CreateDirectory(::Il2CppString* inPath);
+    static bool CreateDirectory(::StringW inPath);
     // static public System.String GetParentDirectory(System.String inPath)
     // Offset: 0x1826E20
-    static ::Il2CppString* GetParentDirectory(::Il2CppString* inPath);
+    static ::StringW GetParentDirectory(::StringW inPath);
     // static public System.String GetFullPath(System.String inPath)
     // Offset: 0x1826E48
-    static ::Il2CppString* GetFullPath(::Il2CppString* inPath);
+    static ::StringW GetFullPath(::StringW inPath);
     // static public System.Boolean IsPathRooted(System.String inPath)
     // Offset: 0x1826EB0
-    static bool IsPathRooted(::Il2CppString* inPath);
+    static bool IsPathRooted(::StringW inPath);
     // static public System.Void WriteBytes(System.String path, System.Byte[] bytes)
     // Offset: 0x1826F18
-    static void WriteBytes(::Il2CppString* path, ::ArrayW<uint8_t> bytes);
+    static void WriteBytes(::StringW path, ::ArrayW<uint8_t> bytes);
     // static public System.Boolean WriteAllText(System.String path, System.String text)
     // Offset: 0x1826F20
-    static bool WriteAllText(::Il2CppString* path, ::Il2CppString* text);
+    static bool WriteAllText(::StringW path, ::StringW text);
     // static public System.String ReadAllText(System.String path)
     // Offset: 0x18270A8
-    static ::Il2CppString* ReadAllText(::Il2CppString* path);
+    static ::StringW ReadAllText(::StringW path);
     // static public System.String GetEnvironmentValue(System.String key)
     // Offset: 0x1827240
-    static ::Il2CppString* GetEnvironmentValue(::Il2CppString* key);
+    static ::StringW GetEnvironmentValue(::StringW key);
     // static public System.String GetHoudiniEngineEnvironmentFilePathFull()
     // Offset: 0x18272B8
-    static ::Il2CppString* GetHoudiniEngineEnvironmentFilePathFull();
+    static ::StringW GetHoudiniEngineEnvironmentFilePathFull();
     // static public System.Boolean LoadFileIntoMemory(System.String path, out System.Byte[] buffer)
     // Offset: 0x1827378
-    static bool LoadFileIntoMemory(::Il2CppString* path, ByRef<::ArrayW<uint8_t>> buffer);
+    static bool LoadFileIntoMemory(::StringW path, ByRef<::ArrayW<uint8_t>> buffer);
     // public System.Void .ctor()
     // Offset: 0x182759C
     // Implemented from: System.Object
@@ -156,7 +157,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::get_LibPath
 // Il2CppName: get_LibPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::get_LibPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::get_LibPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "get_LibPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::get_DirectorySeparatorStr
 // Il2CppName: get_DirectorySeparatorStr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::get_DirectorySeparatorStr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::get_DirectorySeparatorStr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "get_DirectorySeparatorStr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetHoudiniEnginePath
 // Il2CppName: GetHoudiniEnginePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEnginePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEnginePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetHoudiniEnginePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineDefaultPath
 // Il2CppName: GetHoudiniEngineDefaultPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineDefaultPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineDefaultPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetHoudiniEngineDefaultPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetSavedHoudiniPath
 // Il2CppName: GetSavedHoudiniPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::GetSavedHoudiniPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::GetSavedHoudiniPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetSavedHoudiniPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -236,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPath
 // Il2CppName: GetAllFoldersInPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetAllFoldersInPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -245,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper
 // Il2CppName: GetAllFoldersInPathHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Text::StringBuilder*)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Text::StringBuilder*)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pathBuilder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetFilesInFolder
 // Il2CppName: GetFilesInFolder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_Platform::GetFilesInFolder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::StringW, bool)>(&HoudiniEngineUnity::HEU_Platform::GetFilesInFolder)> {
   static const MethodInfo* get() {
     static auto* folderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -266,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetFileName
 // Il2CppName: GetFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetFileName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetFileNameWithoutExtension
 // Il2CppName: GetFileNameWithoutExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetFileNameWithoutExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetFileNameWithoutExtension)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetFileNameWithoutExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetFolderPath
 // Il2CppName: GetFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_Platform::GetFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&HoudiniEngineUnity::HEU_Platform::GetFolderPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bRemoveDirectorySeparatorAtEnd = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::BuildPath
 // Il2CppName: BuildPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Platform::BuildPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Platform::BuildPath)> {
   static const MethodInfo* get() {
     static auto* folder1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* folder2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -305,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::TrimLastDirectorySeparator
 // Il2CppName: TrimLastDirectorySeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::TrimLastDirectorySeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::TrimLastDirectorySeparator)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "TrimLastDirectorySeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -314,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::DoesPathExist
 // Il2CppName: DoesPathExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::DoesPathExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::DoesPathExist)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "DoesPathExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -323,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::DoesFileExist
 // Il2CppName: DoesFileExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::DoesFileExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::DoesFileExist)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "DoesFileExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::DoesDirectoryExist
 // Il2CppName: DoesDirectoryExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::DoesDirectoryExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::DoesDirectoryExist)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "DoesDirectoryExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::CreateDirectory
 // Il2CppName: CreateDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::CreateDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::CreateDirectory)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetParentDirectory
 // Il2CppName: GetParentDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetParentDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetParentDirectory)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetParentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetFullPath
 // Il2CppName: GetFullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetFullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetFullPath)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -368,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::IsPathRooted
 // Il2CppName: IsPathRooted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::IsPathRooted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::IsPathRooted)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "IsPathRooted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -377,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::WriteBytes
 // Il2CppName: WriteBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Platform::WriteBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Platform::WriteBytes)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::WriteAllText
 // Il2CppName: WriteAllText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::WriteAllText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_Platform::WriteAllText)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::ReadAllText
 // Il2CppName: ReadAllText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::ReadAllText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::ReadAllText)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "ReadAllText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -406,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetEnvironmentValue
 // Il2CppName: GetEnvironmentValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Platform::GetEnvironmentValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_Platform::GetEnvironmentValue)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetEnvironmentValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -415,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineEnvironmentFilePathFull
 // Il2CppName: GetHoudiniEngineEnvironmentFilePathFull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineEnvironmentFilePathFull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_Platform::GetHoudiniEngineEnvironmentFilePathFull)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Platform*), "GetHoudiniEngineEnvironmentFilePathFull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -423,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::LoadFileIntoMemory
 // Il2CppName: LoadFileIntoMemory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::ArrayW<uint8_t>>)>(&HoudiniEngineUnity::HEU_Platform::LoadFileIntoMemory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::ArrayW<uint8_t>>)>(&HoudiniEngineUnity::HEU_Platform::LoadFileIntoMemory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;

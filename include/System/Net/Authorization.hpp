@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -38,9 +39,9 @@ namespace System::Net {
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Message;
+    ::StringW m_Message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_Complete
     // Size: 0x1
     // Offset: 0x18
@@ -52,46 +53,46 @@ namespace System::Net {
     // System.String ModuleAuthenticationType
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* ModuleAuthenticationType;
+    ::StringW ModuleAuthenticationType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String m_Message
-    ::Il2CppString*& dyn_m_Message();
+    ::StringW& dyn_m_Message();
     // Get instance field reference: private System.Boolean m_Complete
     bool& dyn_m_Complete();
     // Get instance field reference: System.String ModuleAuthenticationType
-    ::Il2CppString*& dyn_ModuleAuthenticationType();
+    ::StringW& dyn_ModuleAuthenticationType();
     // public System.String get_Message()
     // Offset: 0x15E1D6C
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Boolean get_Complete()
     // Offset: 0x15E1D74
     bool get_Complete();
     // public System.Void .ctor(System.String token)
     // Offset: 0x15E1C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Authorization* New_ctor(::Il2CppString* token) {
+    static Authorization* New_ctor(::StringW token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
     // Offset: 0x15E1CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Authorization* New_ctor(::Il2CppString* token, bool finished) {
+    static Authorization* New_ctor(::StringW token, bool finished) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token, finished)));
     }
   }; // System.Net.Authorization
   #pragma pack(pop)
-  static check_size<sizeof(Authorization), 32 + sizeof(::Il2CppString*)> __System_Net_AuthorizationSizeCheck;
+  static check_size<sizeof(Authorization), 32 + sizeof(::StringW)> __System_Net_AuthorizationSizeCheck;
   static_assert(sizeof(Authorization) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Authorization::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Authorization::*)()>(&System::Net::Authorization::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Authorization::*)()>(&System::Net::Authorization::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Authorization*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

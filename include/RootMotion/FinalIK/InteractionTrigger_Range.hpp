@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -50,9 +51,9 @@ namespace RootMotion::FinalIK {
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean show
     // Size: 0x1
     // Offset: 0x18
@@ -84,7 +85,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>) == 0x8);
     public:
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.Boolean show
     bool& dyn_show();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition characterPosition

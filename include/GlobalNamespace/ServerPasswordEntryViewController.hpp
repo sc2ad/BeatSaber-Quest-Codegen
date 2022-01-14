@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -73,9 +74,9 @@ namespace GlobalNamespace {
     // private System.Action`2<INetworkPlayer,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
-    System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* didFinishEvent;
+    System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
     // Field size check
-    static_assert(sizeof(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>*) == 0x8);
     // private INetworkPlayer _selectedNetworkPlayer
     // Size: 0x8
     // Offset: 0x88
@@ -88,15 +89,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
     HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private System.Action`2<INetworkPlayer,System.String> didFinishEvent
-    System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*& dyn_didFinishEvent();
+    System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>*& dyn_didFinishEvent();
     // Get instance field reference: private INetworkPlayer _selectedNetworkPlayer
     GlobalNamespace::INetworkPlayer*& dyn__selectedNetworkPlayer();
     // public System.Void add_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
     // Offset: 0x12350B8
-    void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
+    void add_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<INetworkPlayer,System.String> value)
     // Offset: 0x123515C
-    void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>* value);
+    void remove_didFinishEvent(System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>* value);
     // public System.Void Setup(INetworkPlayer selectedPlayer)
     // Offset: 0x1235200
     void Setup(GlobalNamespace::INetworkPlayer* selectedPlayer);
@@ -139,7 +140,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>*)>(&GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::StringW>*)>(&GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

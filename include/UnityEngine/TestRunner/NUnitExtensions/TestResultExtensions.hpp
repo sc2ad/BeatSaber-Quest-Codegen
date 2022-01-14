@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -42,10 +43,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     public:
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
     // Offset: 0x16C9804
-    static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);
+    static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);
     // static public System.Void RecordPrefixedError(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.String error, NUnit.Framework.Interfaces.ResultState resultState)
     // Offset: 0x16C9C74
-    static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::Il2CppString* prefix, ::Il2CppString* error, NUnit::Framework::Interfaces::ResultState* resultState);
+    static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::StringW error, NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
   #pragma pack(pop)
 }
@@ -53,7 +54,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException
 // Il2CppName: RecordPrefixedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::StringW, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException)> {
   static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError
 // Il2CppName: RecordPrefixedError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, ::Il2CppString*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::StringW, ::StringW, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError)> {
   static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

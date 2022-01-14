@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
   // Forward declaring type: FaceInfo
@@ -41,16 +39,16 @@ namespace UnityEngine::TextCore {
     // private System.String m_FamilyName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* m_FamilyName;
+    ::StringW m_FamilyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xEE7DCC
     // private System.String m_StyleName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_StyleName;
+    ::StringW m_StyleName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xEE7E18
     // private System.Int32 m_PointSize
     // Size: 0x4
@@ -172,7 +170,7 @@ namespace UnityEngine::TextCore {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: FaceInfo
-    constexpr FaceInfo(int m_FaceIndex_ = {}, ::Il2CppString* m_FamilyName_ = {}, ::Il2CppString* m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) noexcept : m_FaceIndex{m_FaceIndex_}, m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
+    constexpr FaceInfo(int m_FaceIndex_ = {}, ::StringW m_FamilyName_ = {}, ::StringW m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) noexcept : m_FaceIndex{m_FaceIndex_}, m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -180,9 +178,9 @@ namespace UnityEngine::TextCore {
     // Get instance field reference: private System.Int32 m_FaceIndex
     int& dyn_m_FaceIndex();
     // Get instance field reference: private System.String m_FamilyName
-    ::Il2CppString*& dyn_m_FamilyName();
+    ::StringW& dyn_m_FamilyName();
     // Get instance field reference: private System.String m_StyleName
-    ::Il2CppString*& dyn_m_StyleName();
+    ::StringW& dyn_m_StyleName();
     // Get instance field reference: private System.Int32 m_PointSize
     int& dyn_m_PointSize();
     // Get instance field reference: private System.Single m_Scale
@@ -219,10 +217,10 @@ namespace UnityEngine::TextCore {
     float& dyn_m_TabWidth();
     // public System.Void set_familyName(System.String value)
     // Offset: 0x26A8D94
-    void set_familyName(::Il2CppString* value);
+    void set_familyName(::StringW value);
     // public System.Void set_styleName(System.String value)
     // Offset: 0x26A8D9C
-    void set_styleName(::Il2CppString* value);
+    void set_styleName(::StringW value);
     // public System.Int32 get_pointSize()
     // Offset: 0x26A8DA4
     int get_pointSize();
@@ -328,7 +326,7 @@ namespace UnityEngine::TextCore {
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_familyName
 // Il2CppName: set_familyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::Il2CppString*)>(&UnityEngine::TextCore::FaceInfo::set_familyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::StringW)>(&UnityEngine::TextCore::FaceInfo::set_familyName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_familyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -337,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextCore::FaceInfo::set_styleName
 // Il2CppName: set_styleName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::Il2CppString*)>(&UnityEngine::TextCore::FaceInfo::set_styleName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::FaceInfo::*)(::StringW)>(&UnityEngine::TextCore::FaceInfo::set_styleName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::FaceInfo), "set_styleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

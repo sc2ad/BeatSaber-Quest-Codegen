@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
 #include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationHandle.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,7 +54,6 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
@@ -80,7 +80,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     int get_Version();
     // public System.String get_DebugName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DebugName();
+    ::StringW get_DebugName();
     // public System.Int32 get_ReferenceCount()
     // Offset: 0xFFFFFFFF
     int get_ReferenceCount();
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_DebugName
 // Il2CppName: get_DebugName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_DebugName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

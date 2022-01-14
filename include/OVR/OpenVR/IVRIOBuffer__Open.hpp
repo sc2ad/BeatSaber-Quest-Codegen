@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -51,10 +52,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EIOBufferError Invoke(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer)
     // Offset: 0x217BE20
-    OVR::OpenVR::EIOBufferError Invoke(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer);
+    OVR::OpenVR::EIOBufferError Invoke(::StringW pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer);
     // public System.IAsyncResult BeginInvoke(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer, System.AsyncCallback callback, System.Object object)
     // Offset: 0x217C2B0
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EIOBufferError EndInvoke(ref System.UInt64 pulBuffer, System.IAsyncResult result)
     // Offset: 0x217C3A0
     OVR::OpenVR::EIOBufferError EndInvoke(ByRef<uint64_t> pulBuffer, System::IAsyncResult* result);
@@ -69,7 +70,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRIOBuffer::_Open::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Open::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>)>(&OVR::OpenVR::IVRIOBuffer::_Open::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Open::*)(::StringW, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>)>(&OVR::OpenVR::IVRIOBuffer::_Open::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRIOBuffer::_Open::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRIOBuffer::_Open::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRIOBuffer::_Open::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRIOBuffer::_Open::*)(::StringW, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRIOBuffer::_Open::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;

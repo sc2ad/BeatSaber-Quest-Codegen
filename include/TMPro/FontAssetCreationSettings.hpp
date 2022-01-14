@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Forward declaring type: FontAssetCreationSettings
@@ -30,15 +28,15 @@ namespace TMPro {
     // public System.String sourceFontFileName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* sourceFontFileName;
+    ::StringW sourceFontFileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String sourceFontFileGUID
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* sourceFontFileGUID;
+    ::StringW sourceFontFileGUID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 pointSizeSamplingMode
     // Size: 0x4
     // Offset: 0x10
@@ -86,21 +84,21 @@ namespace TMPro {
     // public System.String characterSequence
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* characterSequence;
+    ::StringW characterSequence;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String referencedFontAssetGUID
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* referencedFontAssetGUID;
+    ::StringW referencedFontAssetGUID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String referencedTextAssetGUID
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* referencedTextAssetGUID;
+    ::StringW referencedTextAssetGUID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 fontStyle
     // Size: 0x4
     // Offset: 0x48
@@ -127,15 +125,15 @@ namespace TMPro {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: FontAssetCreationSettings
-    constexpr FontAssetCreationSettings(::Il2CppString* sourceFontFileName_ = {}, ::Il2CppString* sourceFontFileGUID_ = {}, int pointSizeSamplingMode_ = {}, int pointSize_ = {}, int padding_ = {}, int packingMode_ = {}, int atlasWidth_ = {}, int atlasHeight_ = {}, int characterSetSelectionMode_ = {}, ::Il2CppString* characterSequence_ = {}, ::Il2CppString* referencedFontAssetGUID_ = {}, ::Il2CppString* referencedTextAssetGUID_ = {}, int fontStyle_ = {}, float fontStyleModifier_ = {}, int renderMode_ = {}, bool includeFontFeatures_ = {}) noexcept : sourceFontFileName{sourceFontFileName_}, sourceFontFileGUID{sourceFontFileGUID_}, pointSizeSamplingMode{pointSizeSamplingMode_}, pointSize{pointSize_}, padding{padding_}, packingMode{packingMode_}, atlasWidth{atlasWidth_}, atlasHeight{atlasHeight_}, characterSetSelectionMode{characterSetSelectionMode_}, characterSequence{characterSequence_}, referencedFontAssetGUID{referencedFontAssetGUID_}, referencedTextAssetGUID{referencedTextAssetGUID_}, fontStyle{fontStyle_}, fontStyleModifier{fontStyleModifier_}, renderMode{renderMode_}, includeFontFeatures{includeFontFeatures_} {}
+    constexpr FontAssetCreationSettings(::StringW sourceFontFileName_ = {}, ::StringW sourceFontFileGUID_ = {}, int pointSizeSamplingMode_ = {}, int pointSize_ = {}, int padding_ = {}, int packingMode_ = {}, int atlasWidth_ = {}, int atlasHeight_ = {}, int characterSetSelectionMode_ = {}, ::StringW characterSequence_ = {}, ::StringW referencedFontAssetGUID_ = {}, ::StringW referencedTextAssetGUID_ = {}, int fontStyle_ = {}, float fontStyleModifier_ = {}, int renderMode_ = {}, bool includeFontFeatures_ = {}) noexcept : sourceFontFileName{sourceFontFileName_}, sourceFontFileGUID{sourceFontFileGUID_}, pointSizeSamplingMode{pointSizeSamplingMode_}, pointSize{pointSize_}, padding{padding_}, packingMode{packingMode_}, atlasWidth{atlasWidth_}, atlasHeight{atlasHeight_}, characterSetSelectionMode{characterSetSelectionMode_}, characterSequence{characterSequence_}, referencedFontAssetGUID{referencedFontAssetGUID_}, referencedTextAssetGUID{referencedTextAssetGUID_}, fontStyle{fontStyle_}, fontStyleModifier{fontStyleModifier_}, renderMode{renderMode_}, includeFontFeatures{includeFontFeatures_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String sourceFontFileName
-    ::Il2CppString*& dyn_sourceFontFileName();
+    ::StringW& dyn_sourceFontFileName();
     // Get instance field reference: public System.String sourceFontFileGUID
-    ::Il2CppString*& dyn_sourceFontFileGUID();
+    ::StringW& dyn_sourceFontFileGUID();
     // Get instance field reference: public System.Int32 pointSizeSamplingMode
     int& dyn_pointSizeSamplingMode();
     // Get instance field reference: public System.Int32 pointSize
@@ -151,11 +149,11 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 characterSetSelectionMode
     int& dyn_characterSetSelectionMode();
     // Get instance field reference: public System.String characterSequence
-    ::Il2CppString*& dyn_characterSequence();
+    ::StringW& dyn_characterSequence();
     // Get instance field reference: public System.String referencedFontAssetGUID
-    ::Il2CppString*& dyn_referencedFontAssetGUID();
+    ::StringW& dyn_referencedFontAssetGUID();
     // Get instance field reference: public System.String referencedTextAssetGUID
-    ::Il2CppString*& dyn_referencedTextAssetGUID();
+    ::StringW& dyn_referencedTextAssetGUID();
     // Get instance field reference: public System.Int32 fontStyle
     int& dyn_fontStyle();
     // Get instance field reference: public System.Single fontStyleModifier
@@ -166,7 +164,7 @@ namespace TMPro {
     bool& dyn_includeFontFeatures();
     // System.Void .ctor(System.String sourceFontFileGUID, System.Int32 pointSize, System.Int32 pointSizeSamplingMode, System.Int32 padding, System.Int32 packingMode, System.Int32 atlasWidth, System.Int32 atlasHeight, System.Int32 characterSelectionMode, System.String characterSet, System.Int32 renderMode)
     // Offset: 0x123E14C
-    FontAssetCreationSettings(::Il2CppString* sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::Il2CppString* characterSet, int renderMode);
+    FontAssetCreationSettings(::StringW sourceFontFileGUID, int pointSize, int pointSizeSamplingMode, int padding, int packingMode, int atlasWidth, int atlasHeight, int characterSelectionMode, ::StringW characterSet, int renderMode);
   }; // TMPro.FontAssetCreationSettings
   #pragma pack(pop)
   static check_size<sizeof(FontAssetCreationSettings), 84 + sizeof(bool)> __TMPro_FontAssetCreationSettingsSizeCheck;

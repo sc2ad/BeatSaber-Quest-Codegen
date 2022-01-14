@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -188,33 +189,33 @@ namespace GlobalNamespace {
     // private System.String _levelID
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* levelID;
+    ::StringW levelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _songName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* songName;
+    ::StringW songName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _songSubName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* songSubName;
+    ::StringW songSubName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _songAuthorName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* songAuthorName;
+    ::StringW songAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _levelAuthorName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* levelAuthorName;
+    ::StringW levelAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x40
@@ -335,15 +336,15 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _levelID
-    ::Il2CppString*& dyn__levelID();
+    ::StringW& dyn__levelID();
     // Get instance field reference: private System.String _songName
-    ::Il2CppString*& dyn__songName();
+    ::StringW& dyn__songName();
     // Get instance field reference: private System.String _songSubName
-    ::Il2CppString*& dyn__songSubName();
+    ::StringW& dyn__songSubName();
     // Get instance field reference: private System.String _songAuthorName
-    ::Il2CppString*& dyn__songAuthorName();
+    ::StringW& dyn__songAuthorName();
     // Get instance field reference: private System.String _levelAuthorName
-    ::Il2CppString*& dyn__levelAuthorName();
+    ::StringW& dyn__levelAuthorName();
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
     UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private System.Single _beatsPerMinute
@@ -380,19 +381,19 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult& dyn__getBeatmapLevelDataResult();
     // public System.String get_levelID()
     // Offset: 0x1324C54
-    ::Il2CppString* get_levelID();
+    ::StringW get_levelID();
     // public System.String get_songName()
     // Offset: 0x1324C5C
-    ::Il2CppString* get_songName();
+    ::StringW get_songName();
     // public System.String get_songSubName()
     // Offset: 0x1324C64
-    ::Il2CppString* get_songSubName();
+    ::StringW get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0x1324C6C
-    ::Il2CppString* get_songAuthorName();
+    ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0x1324C74
-    ::Il2CppString* get_levelAuthorName();
+    ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0x1324C7C
     float get_beatsPerMinute();
@@ -440,7 +441,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void InitFull(System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, UnityEngine.AudioClip audioClip, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, UnityEngine.Sprite coverImage, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, BeatmapLevelSO/DifficultyBeatmapSet[] difficultyBeatmapSets)
     // Offset: 0x1324E74
-    void InitFull(::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Sprite* coverImage, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets);
+    void InitFull(::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Sprite* coverImage, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets);
     // private System.Void InitData()
     // Offset: 0x1324D50
     void InitData();
@@ -486,7 +487,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResul
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelID
 // Il2CppName: get_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_levelID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -494,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_songName
 // Il2CppName: get_songName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -502,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_songSubName
 // Il2CppName: get_songSubName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songSubName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songSubName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -510,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_songAuthorName
 // Il2CppName: get_songAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_songAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -518,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelAuthorName
 // Il2CppName: get_levelAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_levelAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_levelAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::InitFull
 // Il2CppName: InitFull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::AudioClip*, float, float, float, float, float, float, UnityEngine::Sprite*, GlobalNamespace::EnvironmentInfoSO*, GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>)>(&GlobalNamespace::BeatmapLevelSO::InitFull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, UnityEngine::AudioClip*, float, float, float, float, float, float, UnityEngine::Sprite*, GlobalNamespace::EnvironmentInfoSO*, GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>)>(&GlobalNamespace::BeatmapLevelSO::InitFull)> {
   static const MethodInfo* get() {
     static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* songName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

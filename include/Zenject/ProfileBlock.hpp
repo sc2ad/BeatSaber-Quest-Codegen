@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -53,14 +54,14 @@ namespace Zenject {
     // private System.Void .ctor(System.String sampleName, System.Boolean rootBlock)
     // Offset: 0x18E1768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ProfileBlock* New_ctor(::Il2CppString* sampleName, bool rootBlock) {
+    static ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName, rootBlock)));
     }
     // private System.Void .ctor(System.String sampleName)
     // Offset: 0x18E1770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ProfileBlock* New_ctor(::Il2CppString* sampleName) {
+    static ProfileBlock* New_ctor(::StringW sampleName) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProfileBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfileBlock*, creationType>(sampleName)));
     }
@@ -69,13 +70,13 @@ namespace Zenject {
     static Zenject::ProfileBlock* Start();
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj1, System.Object obj2)
     // Offset: 0x18E1824
-    static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
+    static Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj1, ::Il2CppObject* obj2);
     // static public Zenject.ProfileBlock Start(System.String sampleNameFormat, System.Object obj)
     // Offset: 0x18E182C
-    static Zenject::ProfileBlock* Start(::Il2CppString* sampleNameFormat, ::Il2CppObject* obj);
+    static Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::Il2CppObject* obj);
     // static public Zenject.ProfileBlock Start(System.String sampleName)
     // Offset: 0x18E1834
-    static Zenject::ProfileBlock* Start(::Il2CppString* sampleName);
+    static Zenject::ProfileBlock* Start(::StringW sampleName);
     // public System.Void Dispose()
     // Offset: 0x18E183C
     void Dispose();
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
   static const MethodInfo* get() {
     static auto* sampleNameFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -130,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::StringW, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
   static const MethodInfo* get() {
     static auto* sampleNameFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*)>(&Zenject::ProfileBlock::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::StringW)>(&Zenject::ProfileBlock::Start)> {
   static const MethodInfo* get() {
     static auto* sampleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleName});

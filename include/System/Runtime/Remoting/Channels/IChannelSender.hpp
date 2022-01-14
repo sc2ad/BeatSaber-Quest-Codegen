@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Channels.IChannel
 #include "System/Runtime/Remoting/Channels/IChannel.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -15,7 +16,6 @@ namespace System::Runtime::Remoting::Messaging {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Channels
@@ -41,7 +41,7 @@ namespace System::Runtime::Remoting::Channels {
     }
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object remoteChannelData, out System.String objectURI)
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ByRef<::Il2CppString*> objectURI);
+    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::Il2CppObject* remoteChannelData, ByRef<::StringW> objectURI);
   }; // System.Runtime.Remoting.Channels.IChannelSender
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace System::Runtime::Remoting::Channels {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink
 // Il2CppName: CreateMessageSink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::IChannelSender::*)(::Il2CppString*, ::Il2CppObject*, ByRef<::Il2CppString*>)>(&System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::IChannelSender::*)(::StringW, ::Il2CppObject*, ByRef<::StringW>)>(&System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* remoteChannelData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

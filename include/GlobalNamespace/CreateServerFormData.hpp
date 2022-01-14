@@ -19,6 +19,7 @@
 #include "GlobalNamespace/SongSelectionMode.hpp"
 // Including type: GameplayServerControlSettings
 #include "GlobalNamespace/GameplayServerControlSettings.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // public System.String password
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* password;
+    ::StringW password;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 maxPlayers
     // Size: 0x4
     // Offset: 0x10
@@ -111,7 +112,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::GameplayServerControlSettings) == 0x4);
     public:
     // Creating value type constructor for type: CreateServerFormData
-    constexpr CreateServerFormData(bool usePassword_ = {}, ::Il2CppString* password_ = {}, int maxPlayers_ = {}, bool allowInviteOthers_ = {}, bool netDiscoverable_ = {}, GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : usePassword{usePassword_}, password{password_}, maxPlayers{maxPlayers_}, allowInviteOthers{allowInviteOthers_}, netDiscoverable{netDiscoverable_}, difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
+    constexpr CreateServerFormData(bool usePassword_ = {}, ::StringW password_ = {}, int maxPlayers_ = {}, bool allowInviteOthers_ = {}, bool netDiscoverable_ = {}, GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : usePassword{usePassword_}, password{password_}, maxPlayers{maxPlayers_}, allowInviteOthers{allowInviteOthers_}, netDiscoverable{netDiscoverable_}, difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean usePassword
     bool& dyn_usePassword();
     // Get instance field reference: public System.String password
-    ::Il2CppString*& dyn_password();
+    ::StringW& dyn_password();
     // Get instance field reference: public System.Int32 maxPlayers
     int& dyn_maxPlayers();
     // Get instance field reference: public System.Boolean allowInviteOthers

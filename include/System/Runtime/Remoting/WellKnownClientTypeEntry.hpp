@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,35 +55,35 @@ namespace System::Runtime::Remoting {
     // private System.String obj_url
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* obj_url;
+    ::StringW obj_url;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String app_url
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* app_url;
+    ::StringW app_url;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // Get instance field reference: private System.String obj_url
-    ::Il2CppString*& dyn_obj_url();
+    ::StringW& dyn_obj_url();
     // Get instance field reference: private System.String app_url
-    ::Il2CppString*& dyn_app_url();
+    ::StringW& dyn_app_url();
     // public System.String get_ApplicationUrl()
     // Offset: 0x1857900
-    ::Il2CppString* get_ApplicationUrl();
+    ::StringW get_ApplicationUrl();
     // public System.Type get_ObjectType()
     // Offset: 0x1857908
     System::Type* get_ObjectType();
     // public System.String get_ObjectUrl()
     // Offset: 0x1857910
-    ::Il2CppString* get_ObjectUrl();
+    ::StringW get_ObjectUrl();
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String objectUrl)
     // Offset: 0x18577C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WellKnownClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* objectUrl) {
+    static WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::WellKnownClientTypeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WellKnownClientTypeEntry*, creationType>(typeName, assemblyName, objectUrl)));
     }
@@ -90,17 +91,17 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1857918
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Runtime.Remoting.WellKnownClientTypeEntry
   #pragma pack(pop)
-  static check_size<sizeof(WellKnownClientTypeEntry), 48 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_WellKnownClientTypeEntrySizeCheck;
+  static check_size<sizeof(WellKnownClientTypeEntry), 48 + sizeof(::StringW)> __System_Runtime_Remoting_WellKnownClientTypeEntrySizeCheck;
   static_assert(sizeof(WellKnownClientTypeEntry) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl
 // Il2CppName: get_ApplicationUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ApplicationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl
 // Il2CppName: get_ObjectUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ObjectUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -128,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

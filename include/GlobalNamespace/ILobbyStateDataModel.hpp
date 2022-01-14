@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,9 +32,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ILobbyStateDataModel
@@ -91,7 +89,7 @@ namespace GlobalNamespace {
     void Deactivate();
     // public IConnectedPlayer GetPlayerById(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
+    GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
   }; // ILobbyStateDataModel
   #pragma pack(pop)
 }
@@ -207,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::GetPlayerById
 // Il2CppName: GetPlayerById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ILobbyStateDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyStateDataModel::GetPlayerById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::ILobbyStateDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyStateDataModel::GetPlayerById)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "GetPlayerById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

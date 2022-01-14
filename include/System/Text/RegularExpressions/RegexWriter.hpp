@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -97,15 +98,15 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* stringhash;
+    System::Collections::Generic::Dictionary_2<::StringW, int>* stringhash;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // System.Collections.Generic.List`1<System.String> _stringtable
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<::Il2CppString*>* stringtable;
+    System::Collections::Generic::List_1<::StringW>* stringtable;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // System.Boolean _counting
     // Size: 0x1
     // Offset: 0x40
@@ -144,9 +145,9 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _curpos
     int& dyn__curpos();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn__stringhash();
+    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__stringhash();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _stringtable
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__stringtable();
+    System::Collections::Generic::List_1<::StringW>*& dyn__stringtable();
     // Get instance field reference: System.Boolean _counting
     bool& dyn__counting();
     // Get instance field reference: System.Int32 _count
@@ -184,10 +185,10 @@ namespace System::Text::RegularExpressions {
     void Emit(int op, int opd1, int opd2);
     // System.Int32 StringCode(System.String str)
     // Offset: 0x1A45E60
-    int StringCode(::Il2CppString* str);
+    int StringCode(::StringW str);
     // System.ArgumentException MakeException(System.String message)
     // Offset: 0x1A45F6C
-    System::ArgumentException* MakeException(::Il2CppString* message);
+    System::ArgumentException* MakeException(::StringW message);
     // System.Int32 MapCapnum(System.Int32 capnum)
     // Offset: 0x1A45FD0
     int MapCapnum(int capnum);
@@ -297,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::StringCode
 // Il2CppName: StringCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexWriter::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexWriter::StringCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(&System::Text::RegularExpressions::RegexWriter::StringCode)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "StringCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -306,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::MakeException
 // Il2CppName: MakeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (System::Text::RegularExpressions::RegexWriter::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexWriter::MakeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(&System::Text::RegularExpressions::RegexWriter::MakeException)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "MakeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

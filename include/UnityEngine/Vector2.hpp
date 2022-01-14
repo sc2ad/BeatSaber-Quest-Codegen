@@ -11,6 +11,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -157,7 +158,7 @@ namespace UnityEngine {
     void Normalize();
     // public System.String ToString(System.String format)
     // Offset: 0x243B920
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::StringW ToString(::StringW format);
     // public System.Boolean Equals(UnityEngine.Vector2 other)
     // Offset: 0x243BB64
     bool Equals(UnityEngine::Vector2 other);
@@ -180,7 +181,7 @@ namespace UnityEngine {
     // Offset: 0x243B7FC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x243BA94
     // Implemented from: System.ValueType
@@ -355,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Vector2::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Vector2::*)(::Il2CppString*)>(&UnityEngine::Vector2::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Vector2::*)(::StringW)>(&UnityEngine::Vector2::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Vector2::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Vector2::*)()>(&UnityEngine::Vector2::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Vector2::*)()>(&UnityEngine::Vector2::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

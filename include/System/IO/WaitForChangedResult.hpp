@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.IO.WatcherChangeTypes
 #include "System/IO/WatcherChangeTypes.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -38,15 +39,15 @@ namespace System::IO {
     // private System.String name
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String oldName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* oldName;
+    ::StringW oldName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean timedOut
     // Size: 0x1
     // Offset: 0x18
@@ -55,7 +56,7 @@ namespace System::IO {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: WaitForChangedResult
-    constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
+    constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::StringW name_ = {}, ::StringW oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -63,9 +64,9 @@ namespace System::IO {
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
     System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.String oldName
-    ::Il2CppString*& dyn_oldName();
+    ::StringW& dyn_oldName();
     // Get instance field reference: private System.Boolean timedOut
     bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
@@ -73,10 +74,10 @@ namespace System::IO {
     void set_ChangeType(System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
     // Offset: 0x1A38244
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Void set_OldName(System.String value)
     // Offset: 0x1A3824C
-    void set_OldName(::Il2CppString* value);
+    void set_OldName(::StringW value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)
   static check_size<sizeof(WaitForChangedResult), 24 + sizeof(bool)> __System_IO_WaitForChangedResultSizeCheck;
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::StringW)>(&System::IO::WaitForChangedResult::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_OldName
 // Il2CppName: set_OldName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_OldName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::StringW)>(&System::IO::WaitForChangedResult::set_OldName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_OldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

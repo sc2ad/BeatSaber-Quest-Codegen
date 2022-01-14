@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -59,9 +60,9 @@ namespace GlobalNamespace {
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x28
@@ -80,14 +81,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public LevelCompletionResults levelCompletionResults
     GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // Get instance field reference: public System.String leaderboardId
-    ::Il2CppString*& dyn_leaderboardId();
+    ::StringW& dyn_leaderboardId();
     // Get instance field reference: public IDifficultyBeatmap difficultyBeatmap
     GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public System.Boolean practice
     bool& dyn_practice();
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
     // Offset: 0x1149F1C
-    void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::Il2CppString* playerName);
+    void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
     // public System.Void .ctor()
     // Offset: 0x1149978
     // Implemented from: System.Object
@@ -106,7 +107,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::Il2CppString*)>(&GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass17_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("", "EnterPlayerGuestNameViewController")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

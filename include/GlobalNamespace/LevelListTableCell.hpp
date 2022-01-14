@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -171,15 +172,15 @@ namespace GlobalNamespace {
     // private System.String _refreshingAvailabilityLevelID
     // Size: 0x8
     // Offset: 0xE0
-    ::Il2CppString* refreshingAvailabilityLevelID;
+    ::StringW refreshingAvailabilityLevelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _settingDataFromLevelId
     // Size: 0x8
     // Offset: 0xE8
-    ::Il2CppString* settingDataFromLevelId;
+    ::StringW settingDataFromLevelId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
     UnityEngine::UI::Image*& dyn__backgroundImage();
@@ -212,9 +213,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _notOwned
     bool& dyn__notOwned();
     // Get instance field reference: private System.String _refreshingAvailabilityLevelID
-    ::Il2CppString*& dyn__refreshingAvailabilityLevelID();
+    ::StringW& dyn__refreshingAvailabilityLevelID();
     // Get instance field reference: private System.String _settingDataFromLevelId
-    ::Il2CppString*& dyn__settingDataFromLevelId();
+    ::StringW& dyn__settingDataFromLevelId();
     // public System.Void SetDataFromLevelAsync(IPreviewBeatmapLevel level, System.Boolean isFavorite)
     // Offset: 0x12F9828
     void SetDataFromLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* level, bool isFavorite);
@@ -223,7 +224,7 @@ namespace GlobalNamespace {
     void RefreshVisuals();
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel, System.String levelID)
     // Offset: 0x12F9A1C
-    void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::Il2CppString* levelID);
+    void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel, ::StringW levelID);
     // public System.Void CancelAsyncOperations()
     // Offset: 0x12F99D8
     void CancelAsyncOperations();
@@ -260,7 +261,7 @@ namespace GlobalNamespace {
     void WasPreparedForReuse();
   }; // LevelListTableCell
   #pragma pack(pop)
-  static check_size<sizeof(LevelListTableCell), 232 + sizeof(::Il2CppString*)> __GlobalNamespace_LevelListTableCellSizeCheck;
+  static check_size<sizeof(LevelListTableCell), 232 + sizeof(::StringW)> __GlobalNamespace_LevelListTableCellSizeCheck;
   static_assert(sizeof(LevelListTableCell) == 0xF0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -285,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync
 // Il2CppName: RefreshAvailabilityAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(GlobalNamespace::AdditionalContentModel*, ::Il2CppString*)>(&GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(GlobalNamespace::AdditionalContentModel*, ::StringW)>(&GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync)> {
   static const MethodInfo* get() {
     static auto* contentModel = &::il2cpp_utils::GetClassFromName("", "AdditionalContentModel")->byval_arg;
     static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -79,9 +80,9 @@ namespace GlobalNamespace {
     // private System.String _settingTextureForLevelId
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* settingTextureForLevelId;
+    ::StringW settingTextureForLevelId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0x30
@@ -102,7 +103,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
     GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // Get instance field reference: private System.String _settingTextureForLevelId
-    ::Il2CppString*& dyn__settingTextureForLevelId();
+    ::StringW& dyn__settingTextureForLevelId();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private UnityEngine.Texture2D _blurredCoverTexture

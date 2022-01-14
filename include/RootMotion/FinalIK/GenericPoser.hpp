@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -66,7 +67,7 @@ namespace RootMotion::FinalIK {
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
     // Offset: 0x1E7250C
-    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::ArrayW<UnityEngine::Transform*> array);
+    UnityEngine::Transform* GetTargetNamed(::StringW tName, ::ArrayW<UnityEngine::Transform*> array);
     // public System.Void .ctor()
     // Offset: 0x1E72A00
     // Implemented from: RootMotion.FinalIK.Poser
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::GetTargetNamed
 // Il2CppName: GetTargetNamed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::StringW, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   static const MethodInfo* get() {
     static auto* tName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;

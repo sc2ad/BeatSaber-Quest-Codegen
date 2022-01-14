@@ -487,14 +487,14 @@ namespace System::Collections::Generic {
       Enumerator(System::Collections::Generic::SortedSet_1<T>* set) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::SortedSet_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(set)})));
-        ::il2cpp_utils::RunMethodRethrow<typename SortedSet_1<T>::Enumerator, false>(this, ___internal__method, set);
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, set);
       }
       // System.Void .ctor(System.Collections.Generic.SortedSet`1<T> set, System.Boolean reverse)
       // Offset: 0xFFFFFFFF
       Enumerator(System::Collections::Generic::SortedSet_1<T>* set, bool reverse) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::SortedSet_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(set), ::il2cpp_utils::ExtractType(reverse)})));
-        ::il2cpp_utils::RunMethodRethrow<typename SortedSet_1<T>::Enumerator, false>(this, ___internal__method, set, reverse);
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, set, reverse);
       }
       // static private System.Void .cctor()
       // Offset: 0xFFFFFFFF

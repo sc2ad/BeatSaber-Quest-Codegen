@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CreditsData::Text);
@@ -37,9 +38,9 @@ namespace GlobalNamespace {
     // public System.String text
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean localized
     // Size: 0x1
     // Offset: 0x18
@@ -56,7 +57,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::CreditsData::TextStyle) == 0x4);
     public:
     // Get instance field reference: public System.String text
-    ::Il2CppString*& dyn_text();
+    ::StringW& dyn_text();
     // Get instance field reference: public System.Boolean localized
     bool& dyn_localized();
     // Get instance field reference: public CreditsData/TextStyle style
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
     // Offset: 0x118FEB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // CreditsData/Text
   #pragma pack(pop)
   static check_size<sizeof(CreditsData::Text), 28 + sizeof(GlobalNamespace::CreditsData::TextStyle)> __GlobalNamespace_CreditsData_TextSizeCheck;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

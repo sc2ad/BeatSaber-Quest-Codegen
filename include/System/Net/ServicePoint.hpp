@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -146,9 +147,9 @@ namespace System::Net {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>* groups;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>* groups;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>*) == 0x8);
     // private System.Boolean sendContinue
     // Size: 0x1
     // Offset: 0x58
@@ -243,7 +244,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean usesProxy
     bool& dyn_usesProxy();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::WebConnectionGroup*>*& dyn_groups();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>*& dyn_groups();
     // Get instance field reference: private System.Boolean sendContinue
     bool& dyn_sendContinue();
     // Get instance field reference: private System.Boolean useConnect
@@ -326,7 +327,7 @@ namespace System::Net {
     static void PutBytes(::ArrayW<uint8_t> bytes, uint v, int offset);
     // private System.Net.WebConnectionGroup GetConnectionGroup(System.String name)
     // Offset: 0x16AF12C
-    System::Net::WebConnectionGroup* GetConnectionGroup(::Il2CppString* name);
+    System::Net::WebConnectionGroup* GetConnectionGroup(::StringW name);
     // private System.Void RemoveConnectionGroup(System.Net.WebConnectionGroup group)
     // Offset: 0x16AF27C
     void RemoveConnectionGroup(System::Net::WebConnectionGroup* group);
@@ -341,10 +342,10 @@ namespace System::Net {
     void SetVersion(System::Version* version);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request, System.String groupName)
     // Offset: 0x16AFDC4
-    System::EventHandler* SendRequest(System::Net::HttpWebRequest* request, ::Il2CppString* groupName);
+    System::EventHandler* SendRequest(System::Net::HttpWebRequest* request, ::StringW groupName);
     // public System.Boolean CloseConnectionGroup(System.String connectionGroupName)
     // Offset: 0x16AFF5C
-    bool CloseConnectionGroup(::Il2CppString* connectionGroupName);
+    bool CloseConnectionGroup(::StringW connectionGroupName);
     // System.Void UpdateServerCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
     // Offset: 0x16B0020
     void UpdateServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
@@ -518,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::ServicePoint::GetConnectionGroup
 // Il2CppName: GetConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::ServicePoint::*)(::Il2CppString*)>(&System::Net::ServicePoint::GetConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::ServicePoint::*)(::StringW)>(&System::Net::ServicePoint::GetConnectionGroup)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "GetConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -563,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::SendRequest
 // Il2CppName: SendRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (System::Net::ServicePoint::*)(System::Net::HttpWebRequest*, ::Il2CppString*)>(&System::Net::ServicePoint::SendRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (System::Net::ServicePoint::*)(System::Net::HttpWebRequest*, ::StringW)>(&System::Net::ServicePoint::SendRequest)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -573,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Eve
 // Writing MetadataGetter for method: System::Net::ServicePoint::CloseConnectionGroup
 // Il2CppName: CloseConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(::Il2CppString*)>(&System::Net::ServicePoint::CloseConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(::StringW)>(&System::Net::ServicePoint::CloseConnectionGroup)> {
   static const MethodInfo* get() {
     static auto* connectionGroupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionGroupName});

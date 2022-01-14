@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -86,10 +87,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image*& dyn__editIcon();
     // public System.String get_text()
     // Offset: 0x118B304
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x118AECC
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void set_showEditIcon(System.Boolean value)
     // Offset: 0x118AEAC
     void set_showEditIcon(bool value);
@@ -121,7 +122,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorSchemeTableCell::*)()>(&GlobalNamespace::ColorSchemeTableCell::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ColorSchemeTableCell::*)()>(&GlobalNamespace::ColorSchemeTableCell::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeTableCell::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeTableCell::*)(::Il2CppString*)>(&GlobalNamespace::ColorSchemeTableCell::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeTableCell::*)(::StringW)>(&GlobalNamespace::ColorSchemeTableCell::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

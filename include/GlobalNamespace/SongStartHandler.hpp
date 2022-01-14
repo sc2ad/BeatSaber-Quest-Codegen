@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -83,9 +84,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* readyPlayers;
+    System::Collections::Generic::HashSet_1<::StringW>* readyPlayers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private System.Boolean _started
     // Size: 0x1
     // Offset: 0x30
@@ -124,7 +125,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__readyPlayers();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__readyPlayers();
     // Get instance field reference: private System.Boolean _started
     bool& dyn__started();
     // Get instance field reference: private System.Single _startTime
@@ -155,22 +156,22 @@ namespace GlobalNamespace {
     void Dispose();
     // public System.Void ForceStart(System.String sessionGameId)
     // Offset: 0x268BEF4
-    void ForceStart(::Il2CppString* sessionGameId);
+    void ForceStart(::StringW sessionGameId);
     // private System.Void StartSong()
     // Offset: 0x268C510
     void StartSong();
     // private System.Void HandleSetGameplaySongReady(System.String user)
     // Offset: 0x268C7D0
-    void HandleSetGameplaySongReady(::Il2CppString* user);
+    void HandleSetGameplaySongReady(::StringW user);
     // private System.Void HandleGetGameplaySongReady(System.String user)
     // Offset: 0x268CA90
-    void HandleGetGameplaySongReady(::Il2CppString* user);
+    void HandleGetGameplaySongReady(::StringW user);
     // private System.Void HandleSetSongStartTime(System.String user, System.Single time)
     // Offset: 0x268CB44
-    void HandleSetSongStartTime(::Il2CppString* user, float time);
+    void HandleSetSongStartTime(::StringW user, float time);
     // private System.Void Log(System.String message)
     // Offset: 0x268CBC4
-    void Log(::Il2CppString* message);
+    void Log(::StringW message);
   }; // SongStartHandler
   #pragma pack(pop)
   static check_size<sizeof(SongStartHandler), 56 + sizeof(System::Action_1<float>*)> __GlobalNamespace_SongStartHandlerSizeCheck;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::ForceStart
 // Il2CppName: ForceStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::ForceStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::StringW)>(&GlobalNamespace::SongStartHandler::ForceStart)> {
   static const MethodInfo* get() {
     static auto* sessionGameId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "ForceStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionGameId});
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady
 // Il2CppName: HandleSetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::StringW)>(&GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady)> {
   static const MethodInfo* get() {
     static auto* user = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "HandleSetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{user});
@@ -252,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady
 // Il2CppName: HandleGetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::StringW)>(&GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady)> {
   static const MethodInfo* get() {
     static auto* user = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "HandleGetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{user});
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleSetSongStartTime
 // Il2CppName: HandleSetSongStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*, float)>(&GlobalNamespace::SongStartHandler::HandleSetSongStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::StringW, float)>(&GlobalNamespace::SongStartHandler::HandleSetSongStartTime)> {
   static const MethodInfo* get() {
     static auto* user = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -271,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::StringW)>(&GlobalNamespace::SongStartHandler::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

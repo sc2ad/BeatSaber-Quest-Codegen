@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -52,9 +53,9 @@ namespace GlobalNamespace {
     // public System.String localizedTitle
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedTitle;
+    ::StringW localizedTitle;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Sprite icon
     // Size: 0x8
     // Offset: 0x20
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OnlineServices.ScoresScope scoreScope
     OnlineServices::ScoresScope& dyn_scoreScope();
     // Get instance field reference: public System.String localizedTitle
-    ::Il2CppString*& dyn_localizedTitle();
+    ::StringW& dyn_localizedTitle();
     // Get instance field reference: public UnityEngine.Sprite icon
     UnityEngine::Sprite*& dyn_icon();
     // Get instance field reference: public System.Int32 playerScorePos
@@ -79,7 +80,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
     // Offset: 0x1186D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::Il2CppString* localizedTitle) {
+    static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::StringW localizedTitle) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::ScoreScopeInfo*, creationType>(scoreScope, icon, localizedTitle)));
     }

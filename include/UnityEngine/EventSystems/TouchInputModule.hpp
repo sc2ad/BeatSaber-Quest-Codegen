@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems
@@ -148,7 +149,7 @@ namespace UnityEngine::EventSystems {
     // Offset: 0x166BCDC
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
     // Base method: System.String PointerInputModule::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.EventSystems.TouchInputModule
   #pragma pack(pop)
   static check_size<sizeof(TouchInputModule), 112 + sizeof(bool)> __UnityEngine_EventSystems_TouchInputModuleSizeCheck;
@@ -271,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::TouchInputModule::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::TouchInputModule::*)()>(&UnityEngine::EventSystems::TouchInputModule::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::TouchInputModule::*)()>(&UnityEngine::EventSystems::TouchInputModule::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::TouchInputModule*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

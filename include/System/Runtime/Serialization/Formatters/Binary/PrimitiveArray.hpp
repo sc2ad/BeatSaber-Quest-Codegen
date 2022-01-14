@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -156,7 +157,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
     // Offset: 0x1865168
-    void SetValue(::Il2CppString* value, int index);
+    void SetValue(::StringW value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
   #pragma pack(pop)
   static check_size<sizeof(PrimitiveArray), 104 + sizeof(::ArrayW<uint64_t>)> __System_Runtime_Serialization_Formatters_Binary_PrimitiveArraySizeCheck;
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::Il2CppString*, int)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::StringW, int)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -52,9 +53,9 @@ namespace System::Runtime::Remoting::Channels {
     // private System.String sinkName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* sinkName;
+    ::StringW sinkName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.ArrayList children
     // Size: 0x8
     // Offset: 0x18
@@ -69,7 +70,7 @@ namespace System::Runtime::Remoting::Channels {
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: private System.String sinkName
-    ::Il2CppString*& dyn_sinkName();
+    ::StringW& dyn_sinkName();
     // Get instance field reference: private System.Collections.ArrayList children
     System::Collections::ArrayList*& dyn_children();
     // Get instance field reference: private System.Collections.Hashtable properties
@@ -83,7 +84,7 @@ namespace System::Runtime::Remoting::Channels {
     // public System.Void .ctor(System.String name)
     // Offset: 0x162BED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SinkProviderData* New_ctor(::Il2CppString* name) {
+    static SinkProviderData* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::SinkProviderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinkProviderData*, creationType>(name)));
     }

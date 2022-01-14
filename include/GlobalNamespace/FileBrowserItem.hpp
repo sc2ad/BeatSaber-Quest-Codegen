@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -38,15 +39,15 @@ namespace GlobalNamespace {
     // private System.String <displayName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* displayName;
+    ::StringW displayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <fullPath>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* fullPath;
+    ::StringW fullPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <isDirectory>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -55,23 +56,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <displayName>k__BackingField
-    ::Il2CppString*& dyn_$displayName$k__BackingField();
+    ::StringW& dyn_$displayName$k__BackingField();
     // Get instance field reference: private System.String <fullPath>k__BackingField
-    ::Il2CppString*& dyn_$fullPath$k__BackingField();
+    ::StringW& dyn_$fullPath$k__BackingField();
     // Get instance field reference: private System.Boolean <isDirectory>k__BackingField
     bool& dyn_$isDirectory$k__BackingField();
     // public System.String get_displayName()
     // Offset: 0x11E2548
-    ::Il2CppString* get_displayName();
+    ::StringW get_displayName();
     // private System.Void set_displayName(System.String value)
     // Offset: 0x11E2550
-    void set_displayName(::Il2CppString* value);
+    void set_displayName(::StringW value);
     // public System.String get_fullPath()
     // Offset: 0x11E2558
-    ::Il2CppString* get_fullPath();
+    ::StringW get_fullPath();
     // private System.Void set_fullPath(System.String value)
     // Offset: 0x11E2560
-    void set_fullPath(::Il2CppString* value);
+    void set_fullPath(::StringW value);
     // public System.Boolean get_isDirectory()
     // Offset: 0x11E2568
     bool get_isDirectory();
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String displayName, System.String fullPath, System.Boolean isDirectory)
     // Offset: 0x11E257C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileBrowserItem* New_ctor(::Il2CppString* displayName, ::Il2CppString* fullPath, bool isDirectory) {
+    static FileBrowserItem* New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileBrowserItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserItem*, creationType>(displayName, fullPath, isDirectory)));
     }
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserItem::get_displayName
 // Il2CppName: get_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::FileBrowserItem::*)()>(&GlobalNamespace::FileBrowserItem::get_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::FileBrowserItem::*)()>(&GlobalNamespace::FileBrowserItem::get_displayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserItem*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -102,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserItem::set_displayName
 // Il2CppName: set_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserItem::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserItem::set_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserItem::*)(::StringW)>(&GlobalNamespace::FileBrowserItem::set_displayName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserItem*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserItem::get_fullPath
 // Il2CppName: get_fullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::FileBrowserItem::*)()>(&GlobalNamespace::FileBrowserItem::get_fullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::FileBrowserItem::*)()>(&GlobalNamespace::FileBrowserItem::get_fullPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserItem*), "get_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserItem::set_fullPath
 // Il2CppName: set_fullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserItem::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserItem::set_fullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserItem::*)(::StringW)>(&GlobalNamespace::FileBrowserItem::set_fullPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserItem*), "set_fullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

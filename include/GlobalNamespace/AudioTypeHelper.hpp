@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.AudioType GetAudioTypeFromPath(System.String path)
     // Offset: 0x13162E8
-    static UnityEngine::AudioType GetAudioTypeFromPath(::Il2CppString* path);
+    static UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
   }; // AudioTypeHelper
   #pragma pack(pop)
 }
@@ -39,7 +40,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath
 // Il2CppName: GetAudioTypeFromPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioType (*)(::Il2CppString*)>(&GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioType (*)(::StringW)>(&GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTypeHelper*), "GetAudioTypeFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

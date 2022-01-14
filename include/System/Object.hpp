@@ -8,6 +8,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -18,7 +19,6 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -65,16 +65,16 @@ namespace System {
     ::Il2CppObject* MemberwiseClone();
     // public System.String ToString()
     // Offset: 0x1E89634
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // static System.Int32 InternalGetHashCode(System.Object o)
     // Offset: 0x1E89628
     static int InternalGetHashCode(::Il2CppObject* o);
     // private System.Void FieldGetter(System.String typeName, System.String fieldName, ref System.Object val)
     // Offset: 0x1E89658
-    void FieldGetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ByRef<::Il2CppObject*> val);
+    void FieldGetter(::StringW typeName, ::StringW fieldName, ByRef<::Il2CppObject*> val);
     // private System.Void FieldSetter(System.String typeName, System.String fieldName, System.Object val)
     // Offset: 0x1E8965C
-    void FieldSetter(::Il2CppString* typeName, ::Il2CppString* fieldName, ::Il2CppObject* val);
+    void FieldSetter(::StringW typeName, ::StringW fieldName, ::Il2CppObject* val);
   }; // System.Object
   #pragma pack(pop)
 }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Object::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Object::*)()>(&System::Object::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Object::*)()>(&System::Object::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Object::FieldGetter
 // Il2CppName: FieldGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Object::*)(::Il2CppString*, ::Il2CppString*, ByRef<::Il2CppObject*>)>(&System::Object::FieldGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Object::*)(::StringW, ::StringW, ByRef<::Il2CppObject*>)>(&System::Object::FieldGetter)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fieldName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Object::FieldSetter
 // Il2CppName: FieldSetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Object::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppObject*)>(&System::Object::FieldSetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Object::*)(::StringW, ::StringW, ::Il2CppObject*)>(&System::Object::FieldSetter)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fieldName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -67,69 +68,69 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kTriggerLeftHand
     static constexpr const char* kTriggerLeftHand = "TriggerLeftHand";
     // Get static field: static private System.String kTriggerLeftHand
-    static ::Il2CppString* _get_kTriggerLeftHand();
+    static ::StringW _get_kTriggerLeftHand();
     // Set static field: static private System.String kTriggerLeftHand
-    static void _set_kTriggerLeftHand(::Il2CppString* value);
+    static void _set_kTriggerLeftHand(::StringW value);
     // static field const value: static private System.String kTriggerRightHand
     static constexpr const char* kTriggerRightHand = "TriggerRightHand";
     // Get static field: static private System.String kTriggerRightHand
-    static ::Il2CppString* _get_kTriggerRightHand();
+    static ::StringW _get_kTriggerRightHand();
     // Set static field: static private System.String kTriggerRightHand
-    static void _set_kTriggerRightHand(::Il2CppString* value);
+    static void _set_kTriggerRightHand(::StringW value);
     // static field const value: static private System.String kVerticalLeftHand
     static constexpr const char* kVerticalLeftHand = "VerticalLeftHand";
     // Get static field: static private System.String kVerticalLeftHand
-    static ::Il2CppString* _get_kVerticalLeftHand();
+    static ::StringW _get_kVerticalLeftHand();
     // Set static field: static private System.String kVerticalLeftHand
-    static void _set_kVerticalLeftHand(::Il2CppString* value);
+    static void _set_kVerticalLeftHand(::StringW value);
     // static field const value: static private System.String kVerticalRightHand
     static constexpr const char* kVerticalRightHand = "VerticalRightHand";
     // Get static field: static private System.String kVerticalRightHand
-    static ::Il2CppString* _get_kVerticalRightHand();
+    static ::StringW _get_kVerticalRightHand();
     // Set static field: static private System.String kVerticalRightHand
-    static void _set_kVerticalRightHand(::Il2CppString* value);
+    static void _set_kVerticalRightHand(::StringW value);
     // static field const value: static private System.String kHorizontalLeftHand
     static constexpr const char* kHorizontalLeftHand = "HorizontalLeftHand";
     // Get static field: static private System.String kHorizontalLeftHand
-    static ::Il2CppString* _get_kHorizontalLeftHand();
+    static ::StringW _get_kHorizontalLeftHand();
     // Set static field: static private System.String kHorizontalLeftHand
-    static void _set_kHorizontalLeftHand(::Il2CppString* value);
+    static void _set_kHorizontalLeftHand(::StringW value);
     // static field const value: static private System.String kHorizontalRightHand
     static constexpr const char* kHorizontalRightHand = "HorizontalRightHand";
     // Get static field: static private System.String kHorizontalRightHand
-    static ::Il2CppString* _get_kHorizontalRightHand();
+    static ::StringW _get_kHorizontalRightHand();
     // Set static field: static private System.String kHorizontalRightHand
-    static void _set_kHorizontalRightHand(::Il2CppString* value);
+    static void _set_kHorizontalRightHand(::StringW value);
     // static field const value: static private System.String kMenuButtonLeftHandOculusTouch
     static constexpr const char* kMenuButtonLeftHandOculusTouch = "MenuButtonLeftHandOculusTouch";
     // Get static field: static private System.String kMenuButtonLeftHandOculusTouch
-    static ::Il2CppString* _get_kMenuButtonLeftHandOculusTouch();
+    static ::StringW _get_kMenuButtonLeftHandOculusTouch();
     // Set static field: static private System.String kMenuButtonLeftHandOculusTouch
-    static void _set_kMenuButtonLeftHandOculusTouch(::Il2CppString* value);
+    static void _set_kMenuButtonLeftHandOculusTouch(::StringW value);
     // static field const value: static private System.String kMenuButtonLeftHand
     static constexpr const char* kMenuButtonLeftHand = "MenuButtonLeftHand";
     // Get static field: static private System.String kMenuButtonLeftHand
-    static ::Il2CppString* _get_kMenuButtonLeftHand();
+    static ::StringW _get_kMenuButtonLeftHand();
     // Set static field: static private System.String kMenuButtonLeftHand
-    static void _set_kMenuButtonLeftHand(::Il2CppString* value);
+    static void _set_kMenuButtonLeftHand(::StringW value);
     // static field const value: static private System.String kMenuButtonRightHandOculusTouch
     static constexpr const char* kMenuButtonRightHandOculusTouch = "MenuButtonRightHandOculusTouch";
     // Get static field: static private System.String kMenuButtonRightHandOculusTouch
-    static ::Il2CppString* _get_kMenuButtonRightHandOculusTouch();
+    static ::StringW _get_kMenuButtonRightHandOculusTouch();
     // Set static field: static private System.String kMenuButtonRightHandOculusTouch
-    static void _set_kMenuButtonRightHandOculusTouch(::Il2CppString* value);
+    static void _set_kMenuButtonRightHandOculusTouch(::StringW value);
     // static field const value: static private System.String kMenuButtonRightHand
     static constexpr const char* kMenuButtonRightHand = "MenuButtonRightHand";
     // Get static field: static private System.String kMenuButtonRightHand
-    static ::Il2CppString* _get_kMenuButtonRightHand();
+    static ::StringW _get_kMenuButtonRightHand();
     // Set static field: static private System.String kMenuButtonRightHand
-    static void _set_kMenuButtonRightHand(::Il2CppString* value);
+    static void _set_kMenuButtonRightHand(::StringW value);
     // static field const value: static private System.String kMenuButtonOculusTouch
     static constexpr const char* kMenuButtonOculusTouch = "MenuButtonOculusTouch";
     // Get static field: static private System.String kMenuButtonOculusTouch
-    static ::Il2CppString* _get_kMenuButtonOculusTouch();
+    static ::StringW _get_kMenuButtonOculusTouch();
     // Set static field: static private System.String kMenuButtonOculusTouch
-    static void _set_kMenuButtonOculusTouch(::Il2CppString* value);
+    static void _set_kMenuButtonOculusTouch(::StringW value);
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)

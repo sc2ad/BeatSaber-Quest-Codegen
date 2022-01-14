@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -59,15 +60,15 @@ namespace MasterServer {
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly ByteArrayNetSerializable random
     // Size: 0x8
     // Offset: 0x28
@@ -88,25 +89,25 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.String <userId>k__BackingField
-    ::Il2CppString*& dyn_$userId$k__BackingField();
+    ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField
-    ::Il2CppString*& dyn_$userName$k__BackingField();
+    ::StringW& dyn_$userName$k__BackingField();
     // Get instance field reference: public readonly ByteArrayNetSerializable random
     GlobalNamespace::ByteArrayNetSerializable*& dyn_random();
     // Get instance field reference: public readonly ByteArrayNetSerializable publicKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicKey();
     // public System.String get_userId()
     // Offset: 0x14B1420
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // protected System.Void set_userId(System.String value)
     // Offset: 0x14B1428
-    void set_userId(::Il2CppString* value);
+    void set_userId(::StringW value);
     // public System.String get_userName()
     // Offset: 0x14B1430
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // protected System.Void set_userName(System.String value)
     // Offset: 0x14B1438
-    void set_userName(::Il2CppString* value);
+    void set_userName(::StringW value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
     // Offset: 0x14B1440
     MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey);
@@ -144,7 +145,7 @@ namespace MasterServer {
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::BaseConnectToServerRequest::*)()>(&MasterServer::BaseConnectToServerRequest::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::BaseConnectToServerRequest::*)()>(&MasterServer::BaseConnectToServerRequest::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::set_userId
 // Il2CppName: set_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseConnectToServerRequest::*)(::Il2CppString*)>(&MasterServer::BaseConnectToServerRequest::set_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseConnectToServerRequest::*)(::StringW)>(&MasterServer::BaseConnectToServerRequest::set_userId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::BaseConnectToServerRequest::*)()>(&MasterServer::BaseConnectToServerRequest::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::BaseConnectToServerRequest::*)()>(&MasterServer::BaseConnectToServerRequest::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::set_userName
 // Il2CppName: set_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseConnectToServerRequest::*)(::Il2CppString*)>(&MasterServer::BaseConnectToServerRequest::set_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseConnectToServerRequest::*)(::StringW)>(&MasterServer::BaseConnectToServerRequest::set_userName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseConnectToServerRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

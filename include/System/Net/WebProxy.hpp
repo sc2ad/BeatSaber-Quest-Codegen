@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -177,7 +178,7 @@ namespace System::Net {
     // public System.Void .ctor(System.Uri Address, System.Boolean BypassOnLocal, System.String[] BypassList, System.Net.ICredentials Credentials)
     // Offset: 0x17F5A70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::ArrayW<::Il2CppString*> BypassList, System::Net::ICredentials* Credentials) {
+    static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::ArrayW<::StringW> BypassList, System::Net::ICredentials* Credentials) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }
@@ -236,10 +237,10 @@ namespace System::Net {
     bool IsBypassedAuto(System::Uri* destination, ByRef<bool> isBypassed);
     // static private System.Boolean AreAllBypassed(System.Collections.Generic.IEnumerable`1<System.String> proxies, System.Boolean checkFirstOnly)
     // Offset: 0x17F6D2C
-    static bool AreAllBypassed(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* proxies, bool checkFirstOnly);
+    static bool AreAllBypassed(System::Collections::Generic::IEnumerable_1<::StringW>* proxies, bool checkFirstOnly);
     // static private System.Uri ProxyUri(System.String proxyName)
     // Offset: 0x17F6F98
-    static System::Uri* ProxyUri(::Il2CppString* proxyName);
+    static System::Uri* ProxyUri(::StringW proxyName);
     // public System.Void .ctor()
     // Offset: 0x17F5A5C
     // Implemented from: System.Object
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebProxy::AreAllBypassed
 // Il2CppName: AreAllBypassed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, bool)>(&System::Net::WebProxy::AreAllBypassed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(&System::Net::WebProxy::AreAllBypassed)> {
   static const MethodInfo* get() {
     static auto* proxies = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* checkFirstOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -432,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Net::WebProxy::ProxyUri
 // Il2CppName: ProxyUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*)>(&System::Net::WebProxy::ProxyUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::StringW)>(&System::Net::WebProxy::ProxyUri)> {
   static const MethodInfo* get() {
     static auto* proxyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebProxy*), "ProxyUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxyName});

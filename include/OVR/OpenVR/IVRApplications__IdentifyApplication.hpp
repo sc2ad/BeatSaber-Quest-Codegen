@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -49,10 +50,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRApplicationError Invoke(System.UInt32 unProcessId, System.String pchAppKey)
     // Offset: 0x17D254C
-    OVR::OpenVR::EVRApplicationError Invoke(uint unProcessId, ::Il2CppString* pchAppKey);
+    OVR::OpenVR::EVRApplicationError Invoke(uint unProcessId, ::StringW pchAppKey);
     // public System.IAsyncResult BeginInvoke(System.UInt32 unProcessId, System.String pchAppKey, System.AsyncCallback callback, System.Object object)
     // Offset: 0x17E1460
-    System::IAsyncResult* BeginInvoke(uint unProcessId, ::Il2CppString* pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(uint unProcessId, ::StringW pchAppKey, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0x17E14F8
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IdentifyApplication::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_IdentifyApplication::*)(uint, ::Il2CppString*)>(&OVR::OpenVR::IVRApplications::_IdentifyApplication::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_IdentifyApplication::*)(uint, ::StringW)>(&OVR::OpenVR::IVRApplications::_IdentifyApplication::Invoke)> {
   static const MethodInfo* get() {
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IdentifyApplication::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_IdentifyApplication::*)(uint, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_IdentifyApplication::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_IdentifyApplication::*)(uint, ::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_IdentifyApplication::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

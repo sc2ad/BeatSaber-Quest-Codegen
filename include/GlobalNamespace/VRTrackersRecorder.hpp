@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -121,9 +122,9 @@ namespace GlobalNamespace {
     // private System.String _saveFilename
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* saveFilename;
+    ::StringW saveFilename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private VRTrackersRecorder/RecordMode _mode
     // Size: 0x4
     // Offset: 0x28
@@ -182,7 +183,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private FloatSO _songTime
     GlobalNamespace::FloatSO*& dyn__songTime();
     // Get instance field reference: private System.String _saveFilename
-    ::Il2CppString*& dyn__saveFilename();
+    ::StringW& dyn__saveFilename();
     // Get instance field reference: private VRTrackersRecorder/RecordMode _mode
     GlobalNamespace::VRTrackersRecorder::RecordMode& dyn__mode();
     // Get instance field reference: private UnityEngine.Transform _originTransform

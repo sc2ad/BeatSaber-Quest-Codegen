@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -74,7 +75,7 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRNotificationError CreateNotification(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
     // Offset: 0x18CB27C
-    Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
+    Valve::VR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::StringW pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public Valve.VR.EVRNotificationError RemoveNotification(System.UInt32 notificationId)
     // Offset: 0x18CB2A0
     Valve::VR::EVRNotificationError RemoveNotification(uint notificationId);
@@ -91,7 +92,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRNotifications::CreateNotification
 // Il2CppName: CreateNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::CVRNotifications::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>)>(&Valve::VR::CVRNotifications::CreateNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::CVRNotifications::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::StringW, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>)>(&Valve::VR::CVRNotifications::CreateNotification)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;

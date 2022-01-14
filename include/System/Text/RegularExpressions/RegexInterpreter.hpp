@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -79,9 +80,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] runstrings
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayW<::Il2CppString*> runstrings;
+    ::ArrayW<::StringW> runstrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Text.RegularExpressions.RegexCode runcode
     // Size: 0x8
     // Offset: 0xA0
@@ -134,7 +135,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 runcodepos
     int& dyn_runcodepos();
     // Get instance field reference: System.String[] runstrings
-    ::ArrayW<::Il2CppString*>& dyn_runstrings();
+    ::ArrayW<::StringW>& dyn_runstrings();
     // Get instance field reference: System.Text.RegularExpressions.RegexCode runcode
     System::Text::RegularExpressions::RegexCode*& dyn_runcode();
     // Get instance field reference: System.Text.RegularExpressions.RegexPrefix runfcPrefix
@@ -257,7 +258,7 @@ namespace System::Text::RegularExpressions {
     ::Il2CppChar Forwardcharnext();
     // private System.Boolean Stringmatch(System.String str)
     // Offset: 0x1A3B0A8
-    bool Stringmatch(::Il2CppString* str);
+    bool Stringmatch(::StringW str);
     // private System.Boolean Refmatch(System.Int32 index, System.Int32 len)
     // Offset: 0x1A3B24C
     bool Refmatch(int index, int len);
@@ -581,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Stringmatch
 // Il2CppName: Stringmatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexInterpreter::Stringmatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(::StringW)>(&System::Text::RegularExpressions::RegexInterpreter::Stringmatch)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Stringmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

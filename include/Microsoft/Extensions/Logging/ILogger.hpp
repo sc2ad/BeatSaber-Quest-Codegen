@@ -4,10 +4,8 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: Microsoft.Extensions.Logging
 namespace Microsoft::Extensions::Logging {
   // Forward declaring type: ILogger
@@ -26,13 +24,13 @@ namespace Microsoft::Extensions::Logging {
     public:
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogError(::Il2CppString* message);
+    void LogError(::StringW message);
     // public System.Void LogInformation(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogInformation(::Il2CppString* message);
+    void LogInformation(::StringW message);
     // public System.Void LogWarning(System.String message)
     // Offset: 0xFFFFFFFF
-    void LogWarning(::Il2CppString* message);
+    void LogWarning(::StringW message);
   }; // Microsoft.Extensions.Logging.ILogger
   #pragma pack(pop)
 }
@@ -40,7 +38,7 @@ namespace Microsoft::Extensions::Logging {
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::Il2CppString*)>(&Microsoft::Extensions::Logging::ILogger::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogError)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Extensions::Logging::ILogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -49,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogInformation
 // Il2CppName: LogInformation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::Il2CppString*)>(&Microsoft::Extensions::Logging::ILogger::LogInformation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogInformation)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Extensions::Logging::ILogger*), "LogInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -58,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::Il2CppString*)>(&Microsoft::Extensions::Logging::ILogger::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogWarning)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Extensions::Logging::ILogger*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -73,10 +74,10 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask GetAllSongsMask();
     // public System.String GetSongPackMaskText(in SongPackMask songPackMask)
     // Offset: 0x12173D8
-    ::Il2CppString* GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask);
+    ::StringW GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // public System.String GetSongPackMaskText(in SongPackMask songPackMask, out System.Boolean plural)
     // Offset: 0x12173FC
-    ::Il2CppString* GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask, ByRef<bool> plural);
+    ::StringW GetSongPackMaskText(ByRef<GlobalNamespace::SongPackMask> songPackMask, ByRef<bool> plural);
   }; // SongPackMasksModel
   #pragma pack(pop)
   static check_size<sizeof(SongPackMasksModel), 24 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_SongPackMasksModelSizeCheck;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMasksModel::GetSongPackMaskText
 // Il2CppName: GetSongPackMaskText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMasksModel::*)(ByRef<GlobalNamespace::SongPackMask>)>(&GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SongPackMasksModel::*)(ByRef<GlobalNamespace::SongPackMask>)>(&GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMasksModel*), "GetSongPackMaskText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackMask});
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMasksModel::GetSongPackMaskText
 // Il2CppName: GetSongPackMaskText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMasksModel::*)(ByRef<GlobalNamespace::SongPackMask>, ByRef<bool>)>(&GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SongPackMasksModel::*)(ByRef<GlobalNamespace::SongPackMask>, ByRef<bool>)>(&GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->this_arg;
     static auto* plural = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

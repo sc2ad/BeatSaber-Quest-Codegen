@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -331,9 +332,9 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.String QUADRATIC_FALLOFF
-    static ::Il2CppString* _get_QUADRATIC_FALLOFF();
+    static ::StringW _get_QUADRATIC_FALLOFF();
     // Set static field: static private readonly System.String QUADRATIC_FALLOFF
-    static void _set_QUADRATIC_FALLOFF(::Il2CppString* value);
+    static void _set_QUADRATIC_FALLOFF(::StringW value);
     // Get instance field reference: private UnityEngine.Shader VignetteShader
     UnityEngine::Shader*& dyn_VignetteShader();
     // Get instance field reference: private OVRVignette/MeshComplexityLevel MeshComplexity

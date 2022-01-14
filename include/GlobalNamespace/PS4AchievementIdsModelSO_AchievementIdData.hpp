@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     int get_ps4TrophyId();
     // public System.String get_achievementId()
     // Offset: 0x11468D0
-    ::Il2CppString* get_achievementId();
+    ::StringW get_achievementId();
     // public System.Void .ctor()
     // Offset: 0x1146AA8
     // Implemented from: System.Object
@@ -90,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::get_achievementId
 // Il2CppName: get_achievementId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::*)()>(&GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::get_achievementId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::*)()>(&GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::get_achievementId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*), "get_achievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

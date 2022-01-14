@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -31,9 +32,6 @@ namespace UnityEngine {
   class IExposedPropertyTable;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: PlayableGraph
@@ -86,8 +84,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U, class V>
     bool Connect(U source, int sourceOutputPort, V destination, int destinationInputPort) {
-      static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<U>> && is_value_type_v<U>);
-      static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayable, std::remove_pointer_t<V>> && is_value_type_v<V>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<V>, UnityEngine::Playables::IPlayable> && is_value_type_v<V>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableGraph::Connect");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "Connect", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(sourceOutputPort), ::il2cpp_utils::ExtractType(destination), ::il2cpp_utils::ExtractType(destinationInputPort)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
@@ -113,7 +111,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableHandle CreatePlayableHandle();
     // System.Boolean CreateScriptOutputInternal(System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DAB11C
-    bool CreateScriptOutputInternal(::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
+    bool CreateScriptOutputInternal(::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
     // UnityEngine.Playables.PlayableHandle GetRootPlayableInternal(System.Int32 index)
     // Offset: 0x1DAADE4
     UnityEngine::Playables::PlayableHandle GetRootPlayableInternal(int index);
@@ -140,7 +138,7 @@ namespace UnityEngine::Playables {
     static void CreatePlayableHandle_Injected(ByRef<UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<UnityEngine::Playables::PlayableHandle> ret);
     // static private System.Boolean CreateScriptOutputInternal_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x1DAB174
-    static bool CreateScriptOutputInternal_Injected(ByRef<UnityEngine::Playables::PlayableGraph> _unity_self, ::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
+    static bool CreateScriptOutputInternal_Injected(ByRef<UnityEngine::Playables::PlayableGraph> _unity_self, ::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
     // static private System.Void GetRootPlayableInternal_Injected(ref UnityEngine.Playables.PlayableGraph _unity_self, System.Int32 index, out UnityEngine.Playables.PlayableHandle ret)
     // Offset: 0x1DAB1CC
     static void GetRootPlayableInternal_Injected(ByRef<UnityEngine::Playables::PlayableGraph> _unity_self, int index, ByRef<UnityEngine::Playables::PlayableHandle> ret);
@@ -216,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal
 // Il2CppName: CreateScriptOutputInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(::Il2CppString*, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(::StringW, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;
@@ -302,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected
 // Il2CppName: CreateScriptOutputInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::Il2CppString*, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::StringW, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

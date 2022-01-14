@@ -11,6 +11,7 @@
 #include "System/Runtime/InteropServices/UnmanagedType.hpp"
 // Including type: System.Runtime.InteropServices.VarEnum
 #include "System/Runtime/InteropServices/VarEnum.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -50,16 +51,16 @@ namespace System::Runtime::InteropServices {
     // public System.String MarshalCookie
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* MarshalCookie;
+    ::StringW MarshalCookie;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [ComVisibleAttribute] Offset: 0xEA5234
     // public System.String MarshalType
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* MarshalType;
+    ::StringW MarshalType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [ComVisibleAttribute] Offset: 0xEA5248
     // public System.Type MarshalTypeRef
     // Size: 0x8
@@ -111,9 +112,9 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(int16_t) == 0x2);
     public:
     // Get instance field reference: public System.String MarshalCookie
-    ::Il2CppString*& dyn_MarshalCookie();
+    ::StringW& dyn_MarshalCookie();
     // Get instance field reference: public System.String MarshalType
-    ::Il2CppString*& dyn_MarshalType();
+    ::StringW& dyn_MarshalType();
     // Get instance field reference: public System.Type MarshalTypeRef
     System::Type*& dyn_MarshalTypeRef();
     // Get instance field reference: public System.Type SafeArrayUserDefinedSubType

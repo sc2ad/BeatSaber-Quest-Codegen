@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -159,7 +160,7 @@ namespace GlobalNamespace {
     void HideSpectateSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
     // Offset: 0x117A59C
-    void SetLobbyCode(::Il2CppString* code);
+    void SetLobbyCode(::StringW code);
     // protected System.Void Awake()
     // Offset: 0x117A5B8
     void Awake();
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyCode
 // Il2CppName: SetLobbyCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSettingsPanelController::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSettingsPanelController::*)(::StringW)>(&GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyCode)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSettingsPanelController*), "SetLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});

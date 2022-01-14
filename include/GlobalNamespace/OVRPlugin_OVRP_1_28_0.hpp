@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: OVRPlugin
 #include "GlobalNamespace/OVRPlugin.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,7 +41,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result ovrp_GetDominantHand(ByRef<GlobalNamespace::OVRPlugin::Handedness> dominantHand);
     // static public OVRPlugin/Result ovrp_SendEvent(System.String name, System.String param)
     // Offset: 0x18765A0
-    static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent(::Il2CppString* name, ::Il2CppString* param);
+    static GlobalNamespace::OVRPlugin::Result ovrp_SendEvent(::StringW name, ::StringW param);
     // static public OVRPlugin/Result ovrp_EnqueueSetupLayer2(ref OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerId)
     // Offset: 0x1876660
     static GlobalNamespace::OVRPlugin::Result ovrp_EnqueueSetupLayer2(ByRef<GlobalNamespace::OVRPlugin::LayerDesc> desc, int compositionDepth, System::IntPtr layerId);
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_SendEvent
 // Il2CppName: ovrp_SendEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_SendEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::StringW, ::StringW)>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_SendEvent)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

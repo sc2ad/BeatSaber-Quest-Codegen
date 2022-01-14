@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -111,9 +112,9 @@ namespace GlobalNamespace {
     // private System.String _backButtonText
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* backButtonText;
+    ::StringW backButtonText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [SpaceAttribute] Offset: 0xF4A464
     // private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
@@ -139,7 +140,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings
     GlobalNamespace::PlayerSpecificSettings*& dyn__playerSpecificSettings();
     // Get instance field reference: private System.String _backButtonText
-    ::Il2CppString*& dyn__backButtonText();
+    ::StringW& dyn__backButtonText();
     // Get instance field reference: private MissionLevelScenesTransitionSetupDataSO _scenesTransitionSetupData
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()

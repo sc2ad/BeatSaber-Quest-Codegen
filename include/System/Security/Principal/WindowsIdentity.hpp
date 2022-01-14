@@ -21,6 +21,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -69,9 +70,9 @@ namespace System::Security::Principal {
     // private System.String _type
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* type;
+    ::StringW type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Security.Principal.WindowsAccountType _account
     // Size: 0x4
     // Offset: 0x88
@@ -89,9 +90,9 @@ namespace System::Security::Principal {
     // private System.String _name
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.Serialization.SerializationInfo _info
     // Size: 0x8
     // Offset: 0x98
@@ -118,19 +119,19 @@ namespace System::Security::Principal {
     // Get instance field reference: private System.IntPtr _token
     System::IntPtr& dyn__token();
     // Get instance field reference: private System.String _type
-    ::Il2CppString*& dyn__type();
+    ::StringW& dyn__type();
     // Get instance field reference: private System.Security.Principal.WindowsAccountType _account
     System::Security::Principal::WindowsAccountType& dyn__account();
     // Get instance field reference: private System.Boolean _authenticated
     bool& dyn__authenticated();
     // Get instance field reference: private System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo _info
     System::Runtime::Serialization::SerializationInfo*& dyn__info();
     // public System.Void .ctor(System.IntPtr userToken, System.String type, System.Security.Principal.WindowsAccountType acctType, System.Boolean isAuthenticated)
     // Offset: 0x1D24148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WindowsIdentity* New_ctor(System::IntPtr userToken, ::Il2CppString* type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) {
+    static WindowsIdentity* New_ctor(System::IntPtr userToken, ::StringW type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::WindowsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsIdentity*, creationType>(userToken, type, acctType, isAuthenticated)));
     }
@@ -173,17 +174,17 @@ namespace System::Security::Principal {
     static System::IntPtr GetCurrentToken();
     // static private System.String GetTokenName(System.IntPtr token)
     // Offset: 0x1D24620
-    static ::Il2CppString* GetTokenName(System::IntPtr token);
+    static ::StringW GetTokenName(System::IntPtr token);
     // public override System.String get_AuthenticationType()
     // Offset: 0x1D245A0
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
-    ::Il2CppString* get_AuthenticationType();
+    ::StringW get_AuthenticationType();
     // public override System.String get_Name()
     // Offset: 0x1D245A8
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1D242DC
     // Implemented from: System.Security.Claims.ClaimsIdentity
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::GetTokenName
 // Il2CppName: GetTokenName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Security::Principal::WindowsIdentity::GetTokenName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&System::Security::Principal::WindowsIdentity::GetTokenName)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "GetTokenName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -303,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_AuthenticationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

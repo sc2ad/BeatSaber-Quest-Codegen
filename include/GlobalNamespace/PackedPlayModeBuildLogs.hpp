@@ -59,12 +59,12 @@ namespace GlobalNamespace {
       // public System.String Message
       // Size: 0x8
       // Offset: 0x8
-      ::Il2CppString* Message;
+      ::StringW Message;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       public:
       // Creating value type constructor for type: RuntimeBuildLog
-      constexpr RuntimeBuildLog(UnityEngine::LogType Type_ = {}, ::Il2CppString* Message_ = {}) noexcept : Type{Type_}, Message{Message_} {}
+      constexpr RuntimeBuildLog(UnityEngine::LogType Type_ = {}, ::StringW Message_ = {}) noexcept : Type{Type_}, Message{Message_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -72,13 +72,13 @@ namespace GlobalNamespace {
       // Get instance field reference: public UnityEngine.LogType Type
       UnityEngine::LogType& dyn_Type();
       // Get instance field reference: public System.String Message
-      ::Il2CppString*& dyn_Message();
+      ::StringW& dyn_Message();
       // public System.Void .ctor(UnityEngine.LogType type, System.String message)
       // Offset: 0x15FCCEC
-      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::Il2CppString* message);
+      // ABORTED: conflicts with another method.  RuntimeBuildLog(UnityEngine::LogType type, ::StringW message);
     }; // PackedPlayModeBuildLogs/RuntimeBuildLog
     #pragma pack(pop)
-    static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;
+    static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::StringW)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;
     static_assert(sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog) == 0x10);
     #ifdef USE_CODEGEN_FIELDS
     public:

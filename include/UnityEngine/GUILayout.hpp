@@ -9,6 +9,7 @@
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,10 +44,10 @@ namespace UnityEngine {
     public:
     // static public System.Void Label(System.String text, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CE9F14
-    static void Label(::Il2CppString* text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static void Label(::StringW text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public System.Void Label(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA0A8
-    static void Label(::Il2CppString* text, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static void Label(::StringW text, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private System.Void DoLabel(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CE9FD0
     static void DoLabel(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
@@ -58,22 +59,22 @@ namespace UnityEngine {
     static void DoBox(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public System.Boolean Button(System.String text, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA338
-    static bool Button(::Il2CppString* text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static bool Button(::StringW text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private System.Boolean DoButton(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA3F4
     static bool DoButton(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public System.String TextField(System.String text, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA4CC
-    static ::Il2CppString* TextField(::Il2CppString* text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static ::StringW TextField(::StringW text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public System.String TextArea(System.String text, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA7B4
-    static ::Il2CppString* TextArea(::Il2CppString* text, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static ::StringW TextArea(::StringW text, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private System.String DoTextField(System.String text, System.Int32 maxLength, System.Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA560
-    static ::Il2CppString* DoTextField(::Il2CppString* text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static ::StringW DoTextField(::StringW text, int maxLength, bool multiline, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public System.Boolean Toggle(System.Boolean value, System.String text, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA7D4
-    static bool Toggle(bool value, ::Il2CppString* text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
+    static bool Toggle(bool value, ::StringW text, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private System.Boolean DoToggle(System.Boolean value, UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1CEA898
     static bool DoToggle(bool value, UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
@@ -147,7 +148,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Label)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Button
 // Il2CppName: Button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Button)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GUILayout::TextField
 // Il2CppName: TextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextField)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUILayout::TextArea
 // Il2CppName: TextArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::TextArea)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUILayout::DoTextField
 // Il2CppName: DoTextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoTextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, bool, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::DoTextField)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUILayout::Toggle
 // Il2CppName: Toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::Il2CppString*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::StringW, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayout::Toggle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

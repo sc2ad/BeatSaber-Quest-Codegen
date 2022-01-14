@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -380,7 +381,7 @@ namespace GlobalNamespace {
     int GetCurrentNumSkinnableBones();
     // static public System.String BoneLabelFromBoneId(OVRSkeleton/SkeletonType skeletonType, OVRSkeleton/BoneId boneId)
     // Offset: 0x2168228
-    static ::Il2CppString* BoneLabelFromBoneId(GlobalNamespace::OVRSkeleton::SkeletonType skeletonType, GlobalNamespace::OVRSkeleton::BoneId boneId);
+    static ::StringW BoneLabelFromBoneId(GlobalNamespace::OVRSkeleton::SkeletonType skeletonType, GlobalNamespace::OVRSkeleton::BoneId boneId);
     // public System.Void .ctor()
     // Offset: 0x21689F8
     // Implemented from: UnityEngine.MonoBehaviour
@@ -644,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeleton::BoneLabelFromBoneId
 // Il2CppName: BoneLabelFromBoneId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::OVRSkeleton::SkeletonType, GlobalNamespace::OVRSkeleton::BoneId)>(&GlobalNamespace::OVRSkeleton::BoneLabelFromBoneId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::OVRSkeleton::SkeletonType, GlobalNamespace::OVRSkeleton::BoneId)>(&GlobalNamespace::OVRSkeleton::BoneLabelFromBoneId)> {
   static const MethodInfo* get() {
     static auto* skeletonType = &::il2cpp_utils::GetClassFromName("", "OVRSkeleton/SkeletonType")->byval_arg;
     static auto* boneId = &::il2cpp_utils::GetClassFromName("", "OVRSkeleton/BoneId")->byval_arg;

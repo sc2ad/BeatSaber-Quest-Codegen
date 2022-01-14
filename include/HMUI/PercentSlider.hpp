@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -48,7 +49,7 @@ namespace HMUI {
     // Offset: 0x14C6384
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::Il2CppString* TextForValue(float value);
+    ::StringW TextForValue(float value);
   }; // HMUI.PercentSlider
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -59,7 +60,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::PercentSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::PercentSlider::*)(float)>(&HMUI::PercentSlider::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::PercentSlider::*)(float)>(&HMUI::PercentSlider::TextForValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::PercentSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

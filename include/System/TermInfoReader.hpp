@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -91,14 +92,14 @@ namespace System {
     // public System.Void .ctor(System.String term, System.String filename)
     // Offset: 0x1DE2068
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TermInfoReader* New_ctor(::Il2CppString* term, ::Il2CppString* filename) {
+    static TermInfoReader* New_ctor(::StringW term, ::StringW filename) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
     // Offset: 0x1DE22A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TermInfoReader* New_ctor(::Il2CppString* term, ::ArrayW<uint8_t> buffer) {
+    static TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t> buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
@@ -113,7 +114,7 @@ namespace System {
     int Get(System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
     // Offset: 0x1DE29FC
-    ::Il2CppString* Get(System::TermInfoStrings tstr);
+    ::StringW Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
     // Offset: 0x1DE62A8
     ::ArrayW<uint8_t> GetStringBytes(System::TermInfoStrings tstr);
@@ -122,7 +123,7 @@ namespace System {
     int16_t GetInt16(::ArrayW<uint8_t> buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x1DE66C4
-    ::Il2CppString* GetString(::ArrayW<uint8_t> buffer, int offset);
+    ::StringW GetString(::ArrayW<uint8_t> buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x1DE6754
     ::ArrayW<uint8_t> GetStringBytes(::ArrayW<uint8_t> buffer, int offset);
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::TermInfoReader::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::Get)> {
   static const MethodInfo* get() {
     static auto* tstr = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tstr});
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Writing MetadataGetter for method: System::TermInfoReader::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(::ArrayW<uint8_t>, int)>(&System::TermInfoReader::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoReader::*)(::ArrayW<uint8_t>, int)>(&System::TermInfoReader::GetString)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

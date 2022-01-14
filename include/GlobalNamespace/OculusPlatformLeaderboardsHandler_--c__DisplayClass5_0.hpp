@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -63,16 +64,16 @@ namespace GlobalNamespace {
     // public System.String referencePlayerId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* referencePlayerId;
+    ::StringW referencePlayerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
     GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler
     GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*& dyn_completionHandler();
     // Get instance field reference: public System.String referencePlayerId
-    ::Il2CppString*& dyn_referencePlayerId();
+    ::StringW& dyn_referencePlayerId();
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
     // Offset: 0x136F694
     void $GetScores$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
@@ -87,7 +88,7 @@ namespace GlobalNamespace {
     }
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass5_0
   #pragma pack(pop)
-  static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass5_0SizeCheck;
+  static check_size<sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0), 32 + sizeof(::StringW)> __GlobalNamespace_OculusPlatformLeaderboardsHandler_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

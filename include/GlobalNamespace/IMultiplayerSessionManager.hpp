@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -170,13 +171,13 @@ namespace GlobalNamespace {
     void EndSession();
     // public IConnectedPlayer GetPlayerByUserId(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::Il2CppString* userId);
+    GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::StringW userId);
     // public IConnectedPlayer GetConnectedPlayer(System.Int32 index)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int index);
     // public System.Void KickPlayer(System.String userId)
     // Offset: 0xFFFFFFFF
-    void KickPlayer(::Il2CppString* userId);
+    void KickPlayer(::StringW userId);
     // public System.Void Disconnect()
     // Offset: 0xFFFFFFFF
     void Disconnect();
@@ -184,7 +185,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void Send(T message) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::Send");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -194,7 +195,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SendToPlayer(T message, GlobalNamespace::IConnectedPlayer* player) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::SendToPlayer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendToPlayer", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(player)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -204,7 +205,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SendUnreliable(T message) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::SendUnreliable");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendUnreliable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -214,7 +215,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SendUnreliableEncryptedToPlayer(T message, GlobalNamespace::IConnectedPlayer* player) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::SendUnreliableEncryptedToPlayer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendUnreliableEncryptedToPlayer", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(player)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -224,7 +225,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void RegisterCallback(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, System::Action_2<T, GlobalNamespace::IConnectedPlayer*>* callback, System::Func_1<T>* constructor) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::RegisterCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(serializerType), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(constructor)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -234,7 +235,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     void UnregisterCallback(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType) {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IMultiplayerSessionManager::UnregisterCallback");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnregisterCallback", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(serializerType)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -242,10 +243,10 @@ namespace GlobalNamespace {
     }
     // public System.Void SetLocalPlayerState(System.String state, System.Boolean hasState)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerState(::Il2CppString* state, bool hasState);
+    void SetLocalPlayerState(::StringW state, bool hasState);
     // public System.Boolean LocalPlayerHasState(System.String state)
     // Offset: 0xFFFFFFFF
-    bool LocalPlayerHasState(::Il2CppString* state);
+    bool LocalPlayerHasState(::StringW state);
     // public System.Void RegisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
     // Offset: 0xFFFFFFFF
     void RegisterSerializer(GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, GlobalNamespace::INetworkPacketSubSerializer_1<GlobalNamespace::IConnectedPlayer*>* subSerializer);
@@ -544,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::GetPlayerByUserId
 // Il2CppName: GetPlayerByUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::IMultiplayerSessionManager::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerSessionManager::GetPlayerByUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::IMultiplayerSessionManager::*)(::StringW)>(&GlobalNamespace::IMultiplayerSessionManager::GetPlayerByUserId)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "GetPlayerByUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -562,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::KickPlayer
 // Il2CppName: KickPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerSessionManager::KickPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::StringW)>(&GlobalNamespace::IMultiplayerSessionManager::KickPlayer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "KickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -597,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::SetLocalPlayerState
 // Il2CppName: SetLocalPlayerState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::IMultiplayerSessionManager::SetLocalPlayerState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::StringW, bool)>(&GlobalNamespace::IMultiplayerSessionManager::SetLocalPlayerState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hasState = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -607,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::LocalPlayerHasState
 // Il2CppName: LocalPlayerHasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerSessionManager::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerSessionManager::LocalPlayerHasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerSessionManager::*)(::StringW)>(&GlobalNamespace::IMultiplayerSessionManager::LocalPlayerHasState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "LocalPlayerHasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});

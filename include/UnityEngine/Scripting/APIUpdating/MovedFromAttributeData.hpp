@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {
   // Forward declaring type: MovedFromAttributeData
@@ -30,21 +28,21 @@ namespace UnityEngine::Scripting::APIUpdating {
     // public System.String className
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* className;
+    ::StringW className;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String nameSpace
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* nameSpace;
+    ::StringW nameSpace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String assembly
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* assembly;
+    ::StringW assembly;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean classHasChanged
     // Size: 0x1
     // Offset: 0x18
@@ -71,17 +69,17 @@ namespace UnityEngine::Scripting::APIUpdating {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: MovedFromAttributeData
-    constexpr MovedFromAttributeData(::Il2CppString* className_ = {}, ::Il2CppString* nameSpace_ = {}, ::Il2CppString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) noexcept : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
+    constexpr MovedFromAttributeData(::StringW className_ = {}, ::StringW nameSpace_ = {}, ::StringW assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) noexcept : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String className
-    ::Il2CppString*& dyn_className();
+    ::StringW& dyn_className();
     // Get instance field reference: public System.String nameSpace
-    ::Il2CppString*& dyn_nameSpace();
+    ::StringW& dyn_nameSpace();
     // Get instance field reference: public System.String assembly
-    ::Il2CppString*& dyn_assembly();
+    ::StringW& dyn_assembly();
     // Get instance field reference: public System.Boolean classHasChanged
     bool& dyn_classHasChanged();
     // Get instance field reference: public System.Boolean nameSpaceHasChanged
@@ -92,7 +90,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     bool& dyn_autoUdpateAPI();
     // public System.Void Set(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x1DFE8F8
-    void Set(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName);
+    void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
   }; // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
   #pragma pack(pop)
   static check_size<sizeof(MovedFromAttributeData), 27 + sizeof(bool)> __UnityEngine_Scripting_APIUpdating_MovedFromAttributeDataSizeCheck;
@@ -102,7 +100,7 @@ namespace UnityEngine::Scripting::APIUpdating {
 // Writing MetadataGetter for method: UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::*)(bool, ::StringW, ::StringW, ::StringW)>(&UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set)> {
   static const MethodInfo* get() {
     static auto* autoUpdateAPI = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* sourceNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

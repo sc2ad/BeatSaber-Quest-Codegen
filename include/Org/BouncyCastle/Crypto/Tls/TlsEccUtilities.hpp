@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -57,15 +58,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class TlsEccUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.String[] CurveNames
-    static ::ArrayW<::Il2CppString*> _get_CurveNames();
+    static ::ArrayW<::StringW> _get_CurveNames();
     // Set static field: static private readonly System.String[] CurveNames
-    static void _set_CurveNames(::ArrayW<::Il2CppString*> value);
+    static void _set_CurveNames(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
     // Offset: 0x13C9A04
     static void _cctor();
     // static public System.String GetNameOfNamedCurve(System.Int32 namedCurve)
     // Offset: 0x13C8FFC
-    static ::Il2CppString* GetNameOfNamedCurve(int namedCurve);
+    static ::StringW GetNameOfNamedCurve(int namedCurve);
     // static public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters GetParametersForNamedCurve(System.Int32 namedCurve)
     // Offset: 0x13C9150
     static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetParametersForNamedCurve(int namedCurve);
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GetNameOfNamedCurve
 // Il2CppName: GetNameOfNamedCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GetNameOfNamedCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GetNameOfNamedCurve)> {
   static const MethodInfo* get() {
     static auto* namedCurve = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsEccUtilities*), "GetNameOfNamedCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namedCurve});

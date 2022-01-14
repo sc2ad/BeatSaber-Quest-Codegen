@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -58,7 +59,7 @@ namespace System::Xml {
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)
     // Offset: 0x1B5AFEC
-    uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
+    uint8_t FindCaseInsensitiveString(::StringW stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)
   static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayW<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
@@ -72,7 +73,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString
 // Il2CppName: FindCaseInsensitiveString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Xml::TernaryTreeReadOnly::*)(::Il2CppString*)>(&System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Xml::TernaryTreeReadOnly::*)(::StringW)>(&System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
   static const MethodInfo* get() {
     static auto* stringToFind = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::TernaryTreeReadOnly*), "FindCaseInsensitiveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringToFind});

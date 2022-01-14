@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -44,7 +45,7 @@ namespace UnityEngine::TestTools::TestRunner {
     }
     // static private System.String BuildMessage(System.Int32 timeout)
     // Offset: 0x26B40C0
-    static ::Il2CppString* BuildMessage(int timeout);
+    static ::StringW BuildMessage(int timeout);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0x26B413C
     // Implemented from: NUnit.Framework.ResultStateException
@@ -54,7 +55,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x26B41A4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnityTestTimeoutException
   #pragma pack(pop)
 }
@@ -66,7 +67,7 @@ namespace UnityEngine::TestTools::TestRunner {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage
 // Il2CppName: BuildMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage)> {
   static const MethodInfo* get() {
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout});
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)()>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)()>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

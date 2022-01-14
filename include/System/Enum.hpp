@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -86,9 +87,9 @@ namespace System {
     // static field const value: static private System.String enumSeperator
     static constexpr const char* enumSeperator = ", ";
     // Get static field: static private System.String enumSeperator
-    static ::Il2CppString* _get_enumSeperator();
+    static ::StringW _get_enumSeperator();
     // Set static field: static private System.String enumSeperator
-    static void _set_enumSeperator(::Il2CppString* value);
+    static void _set_enumSeperator(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x19A8C14
     static void _cctor();
@@ -97,13 +98,13 @@ namespace System {
     static System::Enum::ValuesAndNames* GetCachedValuesAndNames(System::RuntimeType* enumType, bool getNames);
     // static private System.String InternalFormattedHexString(System.Object value)
     // Offset: 0x19A47EC
-    static ::Il2CppString* InternalFormattedHexString(::Il2CppObject* value);
+    static ::StringW InternalFormattedHexString(::Il2CppObject* value);
     // static private System.String InternalFormat(System.RuntimeType eT, System.Object value)
     // Offset: 0x19A4BF8
-    static ::Il2CppString* InternalFormat(System::RuntimeType* eT, ::Il2CppObject* value);
+    static ::StringW InternalFormat(System::RuntimeType* eT, ::Il2CppObject* value);
     // static private System.String InternalFlagsFormat(System.RuntimeType eT, System.Object value)
     // Offset: 0x19A4DF8
-    static ::Il2CppString* InternalFlagsFormat(System::RuntimeType* eT, ::Il2CppObject* value);
+    static ::StringW InternalFlagsFormat(System::RuntimeType* eT, ::Il2CppObject* value);
     // static System.UInt64 ToUInt64(System.Object value)
     // Offset: 0x19A4FF0
     static uint64_t ToUInt64(::Il2CppObject* value);
@@ -115,19 +116,19 @@ namespace System {
     static System::RuntimeType* InternalGetUnderlyingType(System::RuntimeType* enumType);
     // static private System.Boolean GetEnumValuesAndNames(System.RuntimeType enumType, out System.UInt64[] values, out System.String[] names)
     // Offset: 0x19A47B0
-    static bool GetEnumValuesAndNames(System::RuntimeType* enumType, ByRef<::ArrayW<uint64_t>> values, ByRef<::ArrayW<::Il2CppString*>> names);
+    static bool GetEnumValuesAndNames(System::RuntimeType* enumType, ByRef<::ArrayW<uint64_t>> values, ByRef<::ArrayW<::StringW>> names);
     // static private System.Object InternalBoxEnum(System.RuntimeType enumType, System.Int64 value)
     // Offset: 0x19A51E8
     static ::Il2CppObject* InternalBoxEnum(System::RuntimeType* enumType, int64_t value);
     // static public System.Object Parse(System.Type enumType, System.String value)
     // Offset: 0x19A51EC
-    static ::Il2CppObject* Parse(System::Type* enumType, ::Il2CppString* value);
+    static ::Il2CppObject* Parse(System::Type* enumType, ::StringW value);
     // static public System.Object Parse(System.Type enumType, System.String value, System.Boolean ignoreCase)
     // Offset: 0x19A5264
-    static ::Il2CppObject* Parse(System::Type* enumType, ::Il2CppString* value, bool ignoreCase);
+    static ::Il2CppObject* Parse(System::Type* enumType, ::StringW value, bool ignoreCase);
     // static private System.Boolean TryParseEnum(System.Type enumType, System.String value, System.Boolean ignoreCase, ref System.Enum/System.EnumResult parseResult)
     // Offset: 0x19A5398
-    static bool TryParseEnum(System::Type* enumType, ::Il2CppString* value, bool ignoreCase, ByRef<System::Enum::EnumResult> parseResult);
+    static bool TryParseEnum(System::Type* enumType, ::StringW value, bool ignoreCase, ByRef<System::Enum::EnumResult> parseResult);
     // static public System.Type GetUnderlyingType(System.Type enumType)
     // Offset: 0x19A5C80
     static System::Type* GetUnderlyingType(System::Type* enumType);
@@ -139,13 +140,13 @@ namespace System {
     static ::ArrayW<uint64_t> InternalGetValues(System::RuntimeType* enumType);
     // static public System.String GetName(System.Type enumType, System.Object value)
     // Offset: 0x19A4D20
-    static ::Il2CppString* GetName(System::Type* enumType, ::Il2CppObject* value);
+    static ::StringW GetName(System::Type* enumType, ::Il2CppObject* value);
     // static public System.String[] GetNames(System.Type enumType)
     // Offset: 0x19A6554
-    static ::ArrayW<::Il2CppString*> GetNames(System::Type* enumType);
+    static ::ArrayW<::StringW> GetNames(System::Type* enumType);
     // static System.String[] InternalGetNames(System.RuntimeType enumType)
     // Offset: 0x19A661C
-    static ::ArrayW<::Il2CppString*> InternalGetNames(System::RuntimeType* enumType);
+    static ::ArrayW<::StringW> InternalGetNames(System::RuntimeType* enumType);
     // static public System.Object ToObject(System.Type enumType, System.Object value)
     // Offset: 0x19A5D48
     static ::Il2CppObject* ToObject(System::Type* enumType, ::Il2CppObject* value);
@@ -166,16 +167,16 @@ namespace System {
     int get_hashcode();
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0x19A781C
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::StringW ToString(::StringW format, System::IFormatProvider* provider);
     // public System.Int32 CompareTo(System.Object target)
     // Offset: 0x19A7A48
     int CompareTo(::Il2CppObject* target);
     // public System.String ToString(System.String format)
     // Offset: 0x19A7820
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::StringW ToString(::StringW format);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x19A7C74
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // public System.Boolean HasFlag(System.Enum flag)
     // Offset: 0x19A7C80
     bool HasFlag(System::Enum* flag);
@@ -281,7 +282,7 @@ namespace System {
     // Offset: 0x19A774C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Enum
   #pragma pack(pop)
 }
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enu
 // Writing MetadataGetter for method: System::Enum::InternalFormattedHexString
 // Il2CppName: InternalFormattedHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&System::Enum::InternalFormattedHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*)>(&System::Enum::InternalFormattedHexString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalFormattedHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -316,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Enum::InternalFormat
 // Il2CppName: InternalFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFormat)> {
   static const MethodInfo* get() {
     static auto* eT = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -326,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Enum::InternalFlagsFormat
 // Il2CppName: InternalFlagsFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFlagsFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFlagsFormat)> {
   static const MethodInfo* get() {
     static auto* eT = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Enum::GetEnumValuesAndNames
 // Il2CppName: GetEnumValuesAndNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ByRef<::ArrayW<uint64_t>>, ByRef<::ArrayW<::Il2CppString*>>)>(&System::Enum::GetEnumValuesAndNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ByRef<::ArrayW<uint64_t>>, ByRef<::ArrayW<::StringW>>)>(&System::Enum::GetEnumValuesAndNames)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->this_arg;
@@ -385,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Enum::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*)>(&System::Enum::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::StringW)>(&System::Enum::Parse)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -395,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Enum::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, bool)>(&System::Enum::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::StringW, bool)>(&System::Enum::Parse)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -406,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Enum::TryParseEnum
 // Il2CppName: TryParseEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*, bool, ByRef<System::Enum::EnumResult>)>(&System::Enum::TryParseEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::StringW, bool, ByRef<System::Enum::EnumResult>)>(&System::Enum::TryParseEnum)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -445,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Enum::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppObject*)>(&System::Enum::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*, ::Il2CppObject*)>(&System::Enum::GetName)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -455,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Enum::GetNames
 // Il2CppName: GetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(System::Type*)>(&System::Enum::GetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(System::Type*)>(&System::Enum::GetNames)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
@@ -464,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Enum::InternalGetNames
 // Il2CppName: InternalGetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(System::RuntimeType*)>(&System::Enum::InternalGetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(System::RuntimeType*)>(&System::Enum::InternalGetNames)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalGetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
@@ -526,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Enum::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Enum::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Enum::*)(::StringW, System::IFormatProvider*)>(&System::Enum::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -545,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Enum::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(::Il2CppString*)>(&System::Enum::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Enum::*)(::StringW)>(&System::Enum::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -554,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Enum::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -837,7 +838,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Enum::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)()>(&System::Enum::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Enum::*)()>(&System::Enum::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

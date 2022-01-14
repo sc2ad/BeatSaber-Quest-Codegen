@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::X509
@@ -73,9 +74,9 @@ namespace Org::BouncyCastle::X509 {
     // private readonly System.String sigAlgName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* sigAlgName;
+    ::StringW sigAlgName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Byte[] sigAlgParams
     // Size: 0x8
     // Offset: 0x20
@@ -106,7 +107,7 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.CertificateList c
     Org::BouncyCastle::Asn1::X509::CertificateList*& dyn_c();
     // Get instance field reference: private readonly System.String sigAlgName
-    ::Il2CppString*& dyn_sigAlgName();
+    ::StringW& dyn_sigAlgName();
     // Get instance field reference: private readonly System.Byte[] sigAlgParams
     ::ArrayW<uint8_t>& dyn_sigAlgParams();
     // Get instance field reference: private readonly System.Boolean isIndirect
@@ -129,7 +130,7 @@ namespace Org::BouncyCastle::X509 {
     Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
     // public System.String get_SigAlgName()
     // Offset: 0x222F4C4
-    ::Il2CppString* get_SigAlgName();
+    ::StringW get_SigAlgName();
     // protected System.Boolean get_IsIndirectCrl()
     // Offset: 0x22304A8
     bool get_IsIndirectCrl();
@@ -168,7 +169,7 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x222F65C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Org.BouncyCastle.X509.X509Crl
   #pragma pack(pop)
   static check_size<sizeof(X509Crl), 44 + sizeof(int)> __Org_BouncyCastle_X509_X509CrlSizeCheck;
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Crl::get_SigAlgName
 // Il2CppName: get_SigAlgName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::X509::X509Crl::*)()>(&Org::BouncyCastle::X509::X509Crl::get_SigAlgName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::X509::X509Crl::*)()>(&Org::BouncyCastle::X509::X509Crl::get_SigAlgName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509Crl*), "get_SigAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Crl::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::X509::X509Crl::*)()>(&Org::BouncyCastle::X509::X509Crl::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::X509::X509Crl::*)()>(&Org::BouncyCastle::X509::X509Crl::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509Crl*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

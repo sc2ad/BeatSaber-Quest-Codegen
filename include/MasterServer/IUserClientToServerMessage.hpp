@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IUserMessage
 #include "MasterServer/IUserMessage.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
   // Forward declaring type: IUserClientToServerMessage
@@ -32,10 +30,10 @@ namespace MasterServer {
     }
     // public System.String get_userId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
   }; // MasterServer.IUserClientToServerMessage
   #pragma pack(pop)
 }
@@ -43,7 +41,7 @@ namespace MasterServer {
 // Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -51,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

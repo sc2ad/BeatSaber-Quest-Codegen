@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -39,48 +40,48 @@ namespace System::Security::Cryptography {
     // private System.String _strKey
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* strKey;
+    ::StringW strKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _strDigest
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* strDigest;
+    ::StringW strDigest;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _strFormatter
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* strFormatter;
+    ::StringW strFormatter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _strDeformatter
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* strDeformatter;
+    ::StringW strDeformatter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _strKey
-    ::Il2CppString*& dyn__strKey();
+    ::StringW& dyn__strKey();
     // Get instance field reference: private System.String _strDigest
-    ::Il2CppString*& dyn__strDigest();
+    ::StringW& dyn__strDigest();
     // Get instance field reference: private System.String _strFormatter
-    ::Il2CppString*& dyn__strFormatter();
+    ::StringW& dyn__strFormatter();
     // Get instance field reference: private System.String _strDeformatter
-    ::Il2CppString*& dyn__strDeformatter();
+    ::StringW& dyn__strDeformatter();
     // public System.Void set_KeyAlgorithm(System.String value)
     // Offset: 0x1D1EE78
-    void set_KeyAlgorithm(::Il2CppString* value);
+    void set_KeyAlgorithm(::StringW value);
     // public System.Void set_DigestAlgorithm(System.String value)
     // Offset: 0x1D1EE80
-    void set_DigestAlgorithm(::Il2CppString* value);
+    void set_DigestAlgorithm(::StringW value);
     // public System.Void set_FormatterAlgorithm(System.String value)
     // Offset: 0x1D1EE88
-    void set_FormatterAlgorithm(::Il2CppString* value);
+    void set_FormatterAlgorithm(::StringW value);
     // public System.Void set_DeformatterAlgorithm(System.String value)
     // Offset: 0x1D1EE90
-    void set_DeformatterAlgorithm(::Il2CppString* value);
+    void set_DeformatterAlgorithm(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1D16530
     // Implemented from: System.Object
@@ -92,14 +93,14 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.SignatureDescription
   #pragma pack(pop)
-  static check_size<sizeof(SignatureDescription), 40 + sizeof(::Il2CppString*)> __System_Security_Cryptography_SignatureDescriptionSizeCheck;
+  static check_size<sizeof(SignatureDescription), 40 + sizeof(::StringW)> __System_Security_Cryptography_SignatureDescriptionSizeCheck;
   static_assert(sizeof(SignatureDescription) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm
 // Il2CppName: set_KeyAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::StringW)>(&System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_KeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm
 // Il2CppName: set_DigestAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::StringW)>(&System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_DigestAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm
 // Il2CppName: set_FormatterAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::StringW)>(&System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_FormatterAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm
 // Il2CppName: set_DeformatterAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::Il2CppString*)>(&System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SignatureDescription::*)(::StringW)>(&System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SignatureDescription*), "set_DeformatterAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

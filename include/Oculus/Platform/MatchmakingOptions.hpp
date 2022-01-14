@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -59,7 +60,7 @@ namespace Oculus::Platform {
     System::IntPtr& dyn_Handle();
     // public System.Void SetCreateRoomDataStore(System.String key, System.String value)
     // Offset: 0x17521C0
-    void SetCreateRoomDataStore(::Il2CppString* key, ::Il2CppString* value);
+    void SetCreateRoomDataStore(::StringW key, ::StringW value);
     // public System.Void ClearCreateRoomDataStore()
     // Offset: 0x1752244
     void ClearCreateRoomDataStore();
@@ -77,13 +78,13 @@ namespace Oculus::Platform {
     void ClearEnqueueAdditionalUsers();
     // public System.Void SetEnqueueDataSettings(System.String key, System.Int32 value)
     // Offset: 0x1752490
-    void SetEnqueueDataSettings(::Il2CppString* key, int value);
+    void SetEnqueueDataSettings(::StringW key, int value);
     // public System.Void SetEnqueueDataSettings(System.String key, System.Double value)
     // Offset: 0x1752514
-    void SetEnqueueDataSettings(::Il2CppString* key, double value);
+    void SetEnqueueDataSettings(::StringW key, double value);
     // public System.Void SetEnqueueDataSettings(System.String key, System.String value)
     // Offset: 0x17525A0
-    void SetEnqueueDataSettings(::Il2CppString* key, ::Il2CppString* value);
+    void SetEnqueueDataSettings(::StringW key, ::StringW value);
     // public System.Void ClearEnqueueDataSettings()
     // Offset: 0x1752624
     void ClearEnqueueDataSettings();
@@ -92,7 +93,7 @@ namespace Oculus::Platform {
     void SetEnqueueIsDebug(bool value);
     // public System.Void SetEnqueueQueryKey(System.String value)
     // Offset: 0x175270C
-    void SetEnqueueQueryKey(::Il2CppString* value);
+    void SetEnqueueQueryKey(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.MatchmakingOptions options)
     // Offset: 0x17510DC
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
@@ -119,7 +120,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore
 // Il2CppName: SetCreateRoomDataStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::StringW, ::StringW)>(&Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings
 // Il2CppName: SetEnqueueDataSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, int)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::StringW, int)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings
 // Il2CppName: SetEnqueueDataSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, double)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::StringW, double)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -192,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings
 // Il2CppName: SetEnqueueDataSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::StringW, ::StringW)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -219,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::MatchmakingOptions::SetEnqueueQueryKey
 // Il2CppName: SetEnqueueQueryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueQueryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::StringW)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueQueryKey)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

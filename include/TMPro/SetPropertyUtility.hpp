@@ -48,7 +48,7 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetEquatableStruct(ByRef<T> currentValue, T newValue) {
-      static_assert(std::is_base_of_v<System::IEquatable_1<T>, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::IEquatable_1<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetEquatableStruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetEquatableStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

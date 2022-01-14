@@ -12,6 +12,7 @@
 // Including type: UnityEngine.RaycastHit2D
 #include "UnityEngine/RaycastHit2D.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -118,7 +119,7 @@ namespace UnityEngine {
     // Offset: 0x26C94AC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x26C9588
     // Implemented from: System.ValueType
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::PhysicsScene2D::*)()>(&UnityEngine::PhysicsScene2D::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::PhysicsScene2D::*)()>(&UnityEngine::PhysicsScene2D::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

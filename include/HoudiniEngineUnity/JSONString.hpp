@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -54,20 +55,20 @@ namespace HoudiniEngineUnity {
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Data;
+    ::StringW m_Data;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_Data;
     }
     // Get instance field reference: private System.String m_Data
-    ::Il2CppString*& dyn_m_Data();
+    ::StringW& dyn_m_Data();
     // public System.Void .ctor(System.String aData)
     // Offset: 0x1788738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JSONString* New_ctor(::Il2CppString* aData) {
+    static JSONString* New_ctor(::StringW aData) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONString*, creationType>(aData)));
     }
@@ -85,12 +86,12 @@ namespace HoudiniEngineUnity {
     // Offset: 0x178EB28
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.String JSONNode::get_Value()
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
     // Offset: 0x178EB30
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_Value(System.String value)
-    void set_Value(::Il2CppString* value);
+    void set_Value(::StringW value);
     // public override HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator GetEnumerator()
     // Offset: 0x178EB08
     // Implemented from: HoudiniEngineUnity.JSONNode
@@ -113,7 +114,7 @@ namespace HoudiniEngineUnity {
     int GetHashCode();
   }; // HoudiniEngineUnity.JSONString
   #pragma pack(pop)
-  static check_size<sizeof(JSONString), 16 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_JSONStringSizeCheck;
+  static check_size<sizeof(JSONString), 16 + sizeof(::StringW)> __HoudiniEngineUnity_JSONStringSizeCheck;
   static_assert(sizeof(JSONString) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONString::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::JSONString::*)()>(&HoudiniEngineUnity::JSONString::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::JSONString::*)()>(&HoudiniEngineUnity::JSONString::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONString*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONString::set_Value
 // Il2CppName: set_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONString::*)(::Il2CppString*)>(&HoudiniEngineUnity::JSONString::set_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONString::*)(::StringW)>(&HoudiniEngineUnity::JSONString::set_Value)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONString*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

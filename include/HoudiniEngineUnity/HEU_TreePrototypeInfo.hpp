@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -40,9 +41,9 @@ namespace HoudiniEngineUnity {
     // public System.String _prefabPath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* prefabPath;
+    ::StringW prefabPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single _bendfactor
     // Size: 0x4
     // Offset: 0x18
@@ -55,7 +56,7 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(this);
     }
     // Get instance field reference: public System.String _prefabPath
-    ::Il2CppString*& dyn__prefabPath();
+    ::StringW& dyn__prefabPath();
     // Get instance field reference: public System.Single _bendfactor
     float& dyn__bendfactor();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_TreePrototypeInfo other)

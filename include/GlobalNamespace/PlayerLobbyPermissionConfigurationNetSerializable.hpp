@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -49,9 +50,9 @@ namespace GlobalNamespace {
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isServerOwner
     // Size: 0x1
     // Offset: 0x18
@@ -88,7 +89,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private System.Boolean _isServerOwner
     bool& dyn__isServerOwner();
     // Get instance field reference: private System.Boolean _hasRecommendBeatmapsPermission
@@ -101,7 +102,7 @@ namespace GlobalNamespace {
     bool& dyn__hasInvitePermission();
     // public System.String get_userId()
     // Offset: 0x2623A44
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.Boolean get_isServerOwner()
     // Offset: 0x2623A4C
     bool get_isServerOwner();
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String userId, System.Boolean isServerOwner, System.Boolean hasRecommendBeatmapsPermission, System.Boolean hasRecommendGameplayModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
     // Offset: 0x2623A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor(::Il2CppString* userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) {
+    static PlayerLobbyPermissionConfigurationNetSerializable* New_ctor(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission, bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLobbyPermissionConfigurationNetSerializable*, creationType>(userId, isServerOwner, hasRecommendBeatmapsPermission, hasRecommendGameplayModifiersPermission, hasKickVotePermission, hasInvitePermission)));
     }
@@ -148,7 +149,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(&GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(&GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

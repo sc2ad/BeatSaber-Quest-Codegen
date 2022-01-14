@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -145,25 +146,25 @@ namespace GlobalNamespace {
     GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> owned);
     // public System.Void MainMenuDlcPromoBannerWasShown(IBeatmapLevelPack promoPack, System.String customText)
     // Offset: 0x11D63FC
-    void MainMenuDlcPromoBannerWasShown(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
+    void MainMenuDlcPromoBannerWasShown(GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void MainMenuDlcPromoBannerWasPressed(IBeatmapLevelPack promoPack, System.String customText)
     // Offset: 0x11D6658
-    void MainMenuDlcPromoBannerWasPressed(GlobalNamespace::IBeatmapLevelPack* promoPack, ::Il2CppString* customText);
+    void MainMenuDlcPromoBannerWasPressed(GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void BuyLevelButtonWasPressed(IPreviewBeatmapLevel level, System.String page, System.String customText)
     // Offset: 0x11D67B8
-    void BuyLevelButtonWasPressed(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
+    void BuyLevelButtonWasPressed(GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyLevelButtonWasShown(IPreviewBeatmapLevel level, System.String page, System.String customText)
     // Offset: 0x11D691C
-    void BuyLevelButtonWasShown(GlobalNamespace::IPreviewBeatmapLevel* level, ::Il2CppString* page, ::Il2CppString* customText);
+    void BuyLevelButtonWasShown(GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasPressed(IBeatmapLevelPack pack, System.String page, System.String customText)
     // Offset: 0x11D6A80
-    void BuyPackButtonWasPressed(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
+    void BuyPackButtonWasPressed(GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasShown(IBeatmapLevelPack pack, System.String page, System.String customText)
     // Offset: 0x11D6BE4
-    void BuyPackButtonWasShown(GlobalNamespace::IBeatmapLevelPack* pack, ::Il2CppString* page, ::Il2CppString* customText);
+    void BuyPackButtonWasShown(GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> GetExperimentEventData(System.String itemId, System.String page, System.String customText)
     // Offset: 0x11D6574
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetExperimentEventData(::Il2CppString* itemId, ::Il2CppString* page, ::Il2CppString* customText);
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
     // private System.Void UpdateNotOwnedPacksAsync()
     // Offset: 0x11D60DC
     void UpdateNotOwnedPacksAsync();
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown
 // Il2CppName: MainMenuDlcPromoBannerWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
   static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed
 // Il2CppName: MainMenuDlcPromoBannerWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
   static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed
 // Il2CppName: BuyLevelButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -237,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown
 // Il2CppName: BuyLevelButtonWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed
 // Il2CppName: BuyPackButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
   static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -259,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown
 // Il2CppName: BuyPackButtonWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
   static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData
 // Il2CppName: GetExperimentEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (GlobalNamespace::DlcPromoPanelModel::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (GlobalNamespace::DlcPromoPanelModel::*)(::StringW, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
   static const MethodInfo* get() {
     static auto* itemId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

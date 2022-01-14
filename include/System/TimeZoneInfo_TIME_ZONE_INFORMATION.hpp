@@ -11,6 +11,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo/System.SYSTEMTIME
 #include "System/TimeZoneInfo_SYSTEMTIME.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/TIME_ZONE_INFORMATION");
@@ -35,9 +36,9 @@ namespace System {
     // System.String StandardName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* StandardName;
+    ::StringW StandardName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.TimeZoneInfo/System.SYSTEMTIME StandardDate
     // Size: 0x10
     // Offset: 0x10
@@ -55,9 +56,9 @@ namespace System {
     // System.String DaylightName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* DaylightName;
+    ::StringW DaylightName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
     // Size: 0x10
     // Offset: 0x30
@@ -72,7 +73,7 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: TIME_ZONE_INFORMATION
-    constexpr TIME_ZONE_INFORMATION(int Bias_ = {}, ::Il2CppString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::Il2CppString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) noexcept : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
+    constexpr TIME_ZONE_INFORMATION(int Bias_ = {}, ::StringW StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::StringW DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) noexcept : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -80,13 +81,13 @@ namespace System {
     // Get instance field reference: System.Int32 Bias
     int& dyn_Bias();
     // Get instance field reference: System.String StandardName
-    ::Il2CppString*& dyn_StandardName();
+    ::StringW& dyn_StandardName();
     // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME StandardDate
     System::TimeZoneInfo::SYSTEMTIME& dyn_StandardDate();
     // Get instance field reference: System.Int32 StandardBias
     int& dyn_StandardBias();
     // Get instance field reference: System.String DaylightName
-    ::Il2CppString*& dyn_DaylightName();
+    ::StringW& dyn_DaylightName();
     // Get instance field reference: System.TimeZoneInfo/System.SYSTEMTIME DaylightDate
     System::TimeZoneInfo::SYSTEMTIME& dyn_DaylightDate();
     // Get instance field reference: System.Int32 DaylightBias

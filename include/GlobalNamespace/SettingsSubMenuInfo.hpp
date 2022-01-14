@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -52,20 +53,20 @@ namespace GlobalNamespace {
     // private System.String _menuName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* menuName;
+    ::StringW menuName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private HMUI.ViewController _viewController
     HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private System.String _menuName
-    ::Il2CppString*& dyn__menuName();
+    ::StringW& dyn__menuName();
     // public HMUI.ViewController get_viewController()
     // Offset: 0x12376D4
     HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
     // Offset: 0x12376DC
-    ::Il2CppString* get_localizedMenuName();
+    ::StringW get_localizedMenuName();
     // public System.Void .ctor()
     // Offset: 0x12376E8
     // Implemented from: System.Object
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
     }
   }; // SettingsSubMenuInfo
   #pragma pack(pop)
-  static check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
+  static check_size<sizeof(SettingsSubMenuInfo), 24 + sizeof(::StringW)> __GlobalNamespace_SettingsSubMenuInfoSizeCheck;
   static_assert(sizeof(SettingsSubMenuInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
 // Writing MetadataGetter for method: GlobalNamespace::SettingsSubMenuInfo::get_localizedMenuName
 // Il2CppName: get_localizedMenuName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_localizedMenuName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_localizedMenuName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsSubMenuInfo*), "get_localizedMenuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

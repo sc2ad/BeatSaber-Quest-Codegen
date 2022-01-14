@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -62,9 +63,9 @@ namespace HMUI {
     // private System.String _text
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
@@ -79,13 +80,13 @@ namespace HMUI {
     // Get instance field reference: private HMUI.HoverTextController _hoverTextController
     HMUI::HoverTextController*& dyn__hoverTextController();
     // Get instance field reference: private System.String _text
-    ::Il2CppString*& dyn__text();
+    ::StringW& dyn__text();
     // public System.String get_text()
     // Offset: 0x14A5CBC
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x14A5CC4
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void OnPointerEnter(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x14A5CCC
     void OnPointerEnter(UnityEngine::EventSystems::PointerEventData* eventData);
@@ -110,14 +111,14 @@ namespace HMUI {
     }
   }; // HMUI.HoverTextSetter
   #pragma pack(pop)
-  static check_size<sizeof(HoverTextSetter), 32 + sizeof(::Il2CppString*)> __HMUI_HoverTextSetterSizeCheck;
+  static check_size<sizeof(HoverTextSetter), 32 + sizeof(::StringW)> __HMUI_HoverTextSetterSizeCheck;
   static_assert(sizeof(HoverTextSetter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextSetter::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::HoverTextSetter::*)()>(&HMUI::HoverTextSetter::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::HoverTextSetter::*)()>(&HMUI::HoverTextSetter::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverTextSetter*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HMUI::HoverTextSetter::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverTextSetter::*)(::Il2CppString*)>(&HMUI::HoverTextSetter::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverTextSetter::*)(::StringW)>(&HMUI::HoverTextSetter::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverTextSetter*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

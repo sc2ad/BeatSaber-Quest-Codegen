@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -39,9 +40,9 @@ namespace TMPro {
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_HashCode
     // Size: 0x4
     // Offset: 0x18
@@ -53,15 +54,15 @@ namespace TMPro {
     // private System.String m_OpeningDefinition
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_OpeningDefinition;
+    ::StringW m_OpeningDefinition;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_ClosingDefinition
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_ClosingDefinition;
+    ::StringW m_ClosingDefinition;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32[] m_OpeningTagArray
     // Size: 0x8
     // Offset: 0x30
@@ -76,23 +77,23 @@ namespace TMPro {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: private System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode
     int& dyn_m_HashCode();
     // Get instance field reference: private System.String m_OpeningDefinition
-    ::Il2CppString*& dyn_m_OpeningDefinition();
+    ::StringW& dyn_m_OpeningDefinition();
     // Get instance field reference: private System.String m_ClosingDefinition
-    ::Il2CppString*& dyn_m_ClosingDefinition();
+    ::StringW& dyn_m_ClosingDefinition();
     // Get instance field reference: private System.Int32[] m_OpeningTagArray
     ::ArrayW<int>& dyn_m_OpeningTagArray();
     // Get instance field reference: private System.Int32[] m_ClosingTagArray
     ::ArrayW<int>& dyn_m_ClosingTagArray();
     // public System.String get_name()
     // Offset: 0x1262F0C
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void set_name(System.String value)
     // Offset: 0x1262F14
-    void set_name(::Il2CppString* value);
+    void set_name(::StringW value);
     // public System.Int32 get_hashCode()
     // Offset: 0x1262F50
     int get_hashCode();
@@ -101,10 +102,10 @@ namespace TMPro {
     void set_hashCode(int value);
     // public System.String get_styleOpeningDefinition()
     // Offset: 0x1262F6C
-    ::Il2CppString* get_styleOpeningDefinition();
+    ::StringW get_styleOpeningDefinition();
     // public System.String get_styleClosingDefinition()
     // Offset: 0x1262F74
-    ::Il2CppString* get_styleClosingDefinition();
+    ::StringW get_styleClosingDefinition();
     // public System.Int32[] get_styleOpeningTagArray()
     // Offset: 0x1262F7C
     ::ArrayW<int> get_styleOpeningTagArray();
@@ -132,7 +133,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_Style::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)(::Il2CppString*)>(&TMPro::TMP_Style::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)(::StringW)>(&TMPro::TMP_Style::set_name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleOpeningDefinition
 // Il2CppName: get_styleOpeningDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningDefinition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleOpeningDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_Style::get_styleClosingDefinition
 // Il2CppName: get_styleClosingDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingDefinition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

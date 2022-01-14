@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Logging
@@ -71,7 +72,7 @@ namespace UnityEngine::TestTools::TestRunner {
     }
     // static private System.String BuildMessage(UnityEngine.TestTools.Logging.LogMatch log)
     // Offset: 0x26B3BF8
-    static ::Il2CppString* BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
+    static ::StringW BuildMessage(UnityEngine::TestTools::Logging::LogMatch* log);
     // public override NUnit.Framework.Interfaces.ResultState get_ResultState()
     // Offset: 0x26B3C4C
     // Implemented from: NUnit.Framework.ResultStateException
@@ -81,7 +82,7 @@ namespace UnityEngine::TestTools::TestRunner {
     // Offset: 0x26B3CB4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
   }; // UnityEngine.TestTools.TestRunner.UnexpectedLogMessageException
   #pragma pack(pop)
   static check_size<sizeof(UnexpectedLogMessageException), 136 + sizeof(UnityEngine::TestTools::Logging::LogMatch*)> __UnityEngine_TestTools_TestRunner_UnexpectedLogMessageExceptionSizeCheck;
@@ -95,7 +96,7 @@ namespace UnityEngine::TestTools::TestRunner {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage
 // Il2CppName: BuildMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogMatch*)>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::TestTools::Logging::LogMatch*)>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage)> {
   static const MethodInfo* get() {
     static auto* log = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogMatch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{log});
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

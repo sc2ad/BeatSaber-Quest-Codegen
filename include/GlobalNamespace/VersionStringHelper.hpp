@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
     public:
     // static public System.Int32 GetMajorVersionNumber(System.String versionString)
     // Offset: 0x2644978
-    static int GetMajorVersionNumber(::Il2CppString* versionString);
+    static int GetMajorVersionNumber(::StringW versionString);
   }; // VersionStringHelper
   #pragma pack(pop)
 }
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::VersionStringHelper::GetMajorVersionNumber
 // Il2CppName: GetMajorVersionNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&GlobalNamespace::VersionStringHelper::GetMajorVersionNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&GlobalNamespace::VersionStringHelper::GetMajorVersionNumber)> {
   static const MethodInfo* get() {
     static auto* versionString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VersionStringHelper*), "GetMajorVersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{versionString});

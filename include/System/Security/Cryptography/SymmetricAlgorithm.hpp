@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -185,7 +186,7 @@ namespace System::Security::Cryptography {
     bool ValidKeySize(int bitLength);
     // static public System.Security.Cryptography.SymmetricAlgorithm Create(System.String algName)
     // Offset: 0x1D1F84C
-    static System::Security::Cryptography::SymmetricAlgorithm* Create(::Il2CppString* algName);
+    static System::Security::Cryptography::SymmetricAlgorithm* Create(::StringW algName);
     // public System.Security.Cryptography.ICryptoTransform CreateEncryptor()
     // Offset: 0x1D1F8D4
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
@@ -374,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (*)(::Il2CppString*)>(&System::Security::Cryptography::SymmetricAlgorithm::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (*)(::StringW)>(&System::Security::Cryptography::SymmetricAlgorithm::Create)> {
   static const MethodInfo* get() {
     static auto* algName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algName});

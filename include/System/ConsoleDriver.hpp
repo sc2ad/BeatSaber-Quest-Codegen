@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -60,7 +61,7 @@ namespace System {
     static System::IConsoleDriver* CreateWindowsConsoleDriver();
     // static private System.IConsoleDriver CreateTermInfoDriver(System.String term)
     // Offset: 0x1B932B8
-    static System::IConsoleDriver* CreateTermInfoDriver(::Il2CppString* term);
+    static System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0x1B92208
     static System::ConsoleKeyInfo ReadKey(bool intercept);
@@ -72,7 +73,7 @@ namespace System {
     static int InternalKeyAvailable(int ms_timeout);
     // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, out System.Byte[] control_characters, out System.Int32* address)
     // Offset: 0x1B93324
-    static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ByRef<::ArrayW<uint8_t>> control_characters, ByRef<int*> address);
+    static bool TtySetup(::StringW keypadXmit, ::StringW teardown, ByRef<::ArrayW<uint8_t>> control_characters, ByRef<int*> address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)
     // Offset: 0x1B93328
     static bool SetEcho(bool wantEcho);
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 // Writing MetadataGetter for method: System::ConsoleDriver::CreateTermInfoDriver
 // Il2CppName: CreateTermInfoDriver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)(::Il2CppString*)>(&System::ConsoleDriver::CreateTermInfoDriver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)(::StringW)>(&System::ConsoleDriver::CreateTermInfoDriver)> {
   static const MethodInfo* get() {
     static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateTermInfoDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{term});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::ConsoleDriver::TtySetup
 // Il2CppName: TtySetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<uint8_t>>, ByRef<int*>)>(&System::ConsoleDriver::TtySetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ByRef<::ArrayW<uint8_t>>, ByRef<int*>)>(&System::ConsoleDriver::TtySetup)> {
   static const MethodInfo* get() {
     static auto* keypadXmit = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* teardown = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -9,6 +9,7 @@
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -62,16 +63,16 @@ namespace System {
     // Set static field: static private System.Int32 mono_corlib_version
     static void _set_mono_corlib_version(int value);
     // Get static field: static private System.String nl
-    static ::Il2CppString* _get_nl();
+    static ::StringW _get_nl();
     // Set static field: static private System.String nl
-    static void _set_nl(::Il2CppString* value);
+    static void _set_nl(::StringW value);
     // Get static field: static private System.OperatingSystem os
     static System::OperatingSystem* _get_os();
     // Set static field: static private System.OperatingSystem os
     static void _set_os(System::OperatingSystem* value);
     // static public System.String get_CurrentDirectory()
     // Offset: 0x19A8DD8
-    static ::Il2CppString* get_CurrentDirectory();
+    static ::StringW get_CurrentDirectory();
     // static public System.Int32 get_CurrentManagedThreadId()
     // Offset: 0x19A8DE0
     static int get_CurrentManagedThreadId();
@@ -80,10 +81,10 @@ namespace System {
     static bool get_HasShutdownStarted();
     // static public System.String get_MachineName()
     // Offset: 0x19A8E08
-    static ::Il2CppString* get_MachineName();
+    static ::StringW get_MachineName();
     // static public System.String get_NewLine()
     // Offset: 0x19A8E10
-    static ::Il2CppString* get_NewLine();
+    static ::StringW get_NewLine();
     // static System.PlatformID get_Platform()
     // Offset: 0x19A8E80
     static System::PlatformID get_Platform();
@@ -92,16 +93,16 @@ namespace System {
     static System::OperatingSystem* get_OSVersion();
     // static public System.String get_StackTrace()
     // Offset: 0x19A9150
-    static ::Il2CppString* get_StackTrace();
+    static ::StringW get_StackTrace();
     // static public System.Int32 get_TickCount()
     // Offset: 0x19A91C4
     static int get_TickCount();
     // static public System.String get_UserDomainName()
     // Offset: 0x19A91C8
-    static ::Il2CppString* get_UserDomainName();
+    static ::StringW get_UserDomainName();
     // static public System.String get_UserName()
     // Offset: 0x19A91CC
-    static ::Il2CppString* get_UserName();
+    static ::StringW get_UserName();
     // static public System.Boolean get_Is64BitProcess()
     // Offset: 0x19AA1F4
     static bool get_Is64BitProcess();
@@ -116,40 +117,40 @@ namespace System {
     static bool get_IsUnix();
     // static System.String GetResourceString(System.String key)
     // Offset: 0x19A32D0
-    static ::Il2CppString* GetResourceString(::Il2CppString* key);
+    static ::StringW GetResourceString(::StringW key);
     // static System.String GetResourceString(System.String key, params System.Object[] values)
     // Offset: 0x19A3D50
-    static ::Il2CppString* GetResourceString(::Il2CppString* key, ::ArrayW<::Il2CppObject*> values);
+    static ::StringW GetResourceString(::StringW key, ::ArrayW<::Il2CppObject*> values);
     // static System.String GetResourceStringEncodingName(System.Int32 codePage)
     // Offset: 0x19A8C9C
-    static ::Il2CppString* GetResourceStringEncodingName(int codePage);
+    static ::StringW GetResourceStringEncodingName(int codePage);
     // static private System.String GetNewLine()
     // Offset: 0x19A8E0C
-    static ::Il2CppString* GetNewLine();
+    static ::StringW GetNewLine();
     // static System.String GetOSVersionString()
     // Offset: 0x19A8E84
-    static ::Il2CppString* GetOSVersionString();
+    static ::StringW GetOSVersionString();
     // static System.Version CreateVersionFromString(System.String info)
     // Offset: 0x19A8F3C
-    static System::Version* CreateVersionFromString(::Il2CppString* info);
+    static System::Version* CreateVersionFromString(::StringW info);
     // static public System.Void Exit(System.Int32 exitCode)
     // Offset: 0x19A91D0
     static void Exit(int exitCode);
     // static public System.String ExpandEnvironmentVariables(System.String name)
     // Offset: 0x19A91D4
-    static ::Il2CppString* ExpandEnvironmentVariables(::Il2CppString* name);
+    static ::StringW ExpandEnvironmentVariables(::StringW name);
     // static public System.String[] GetCommandLineArgs()
     // Offset: 0x19A95B0
-    static ::ArrayW<::Il2CppString*> GetCommandLineArgs();
+    static ::ArrayW<::StringW> GetCommandLineArgs();
     // static System.String internalGetEnvironmentVariable_native(System.IntPtr variable)
     // Offset: 0x19A95B4
-    static ::Il2CppString* internalGetEnvironmentVariable_native(System::IntPtr variable);
+    static ::StringW internalGetEnvironmentVariable_native(System::IntPtr variable);
     // static System.String internalGetEnvironmentVariable(System.String variable)
     // Offset: 0x19A95B8
-    static ::Il2CppString* internalGetEnvironmentVariable(::Il2CppString* variable);
+    static ::StringW internalGetEnvironmentVariable(::StringW variable);
     // static public System.String GetEnvironmentVariable(System.String variable)
     // Offset: 0x19A9488
-    static ::Il2CppString* GetEnvironmentVariable(::Il2CppString* variable);
+    static ::StringW GetEnvironmentVariable(::StringW variable);
     // static private System.Collections.Hashtable GetEnvironmentVariablesNoCase()
     // Offset: 0x19A94A8
     static System::Collections::Hashtable* GetEnvironmentVariablesNoCase();
@@ -158,52 +159,52 @@ namespace System {
     static System::Collections::IDictionary* GetEnvironmentVariables();
     // static public System.String GetFolderPath(System.Environment/System.SpecialFolder folder)
     // Offset: 0x19A973C
-    static ::Il2CppString* GetFolderPath(System::Environment::SpecialFolder folder);
+    static ::StringW GetFolderPath(System::Environment::SpecialFolder folder);
     // static private System.String GetWindowsFolderPath(System.Int32 folder)
     // Offset: 0x19A9788
-    static ::Il2CppString* GetWindowsFolderPath(int folder);
+    static ::StringW GetWindowsFolderPath(int folder);
     // static public System.String GetFolderPath(System.Environment/System.SpecialFolder folder, System.Environment/System.SpecialFolderOption option)
     // Offset: 0x19A9744
-    static ::Il2CppString* GetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
+    static ::StringW GetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
     // static private System.String ReadXdgUserDir(System.String config_dir, System.String home_dir, System.String key, System.String fallback)
     // Offset: 0x19A9B98
-    static ::Il2CppString* ReadXdgUserDir(::Il2CppString* config_dir, ::Il2CppString* home_dir, ::Il2CppString* key, ::Il2CppString* fallback);
+    static ::StringW ReadXdgUserDir(::StringW config_dir, ::StringW home_dir, ::StringW key, ::StringW fallback);
     // static System.String UnixGetFolderPath(System.Environment/System.SpecialFolder folder, System.Environment/System.SpecialFolderOption option)
     // Offset: 0x19A978C
-    static ::Il2CppString* UnixGetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
+    static ::StringW UnixGetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
     // static public System.String[] GetLogicalDrives()
     // Offset: 0x19A9FE0
-    static ::ArrayW<::Il2CppString*> GetLogicalDrives();
+    static ::ArrayW<::StringW> GetLogicalDrives();
     // static public System.String GetEnvironmentVariable(System.String variable, System.EnvironmentVariableTarget target)
     // Offset: 0x19A9FE8
-    static ::Il2CppString* GetEnvironmentVariable(::Il2CppString* variable, System::EnvironmentVariableTarget target);
+    static ::StringW GetEnvironmentVariable(::StringW variable, System::EnvironmentVariableTarget target);
     // static public System.Void SetEnvironmentVariable(System.String variable, System.String value)
     // Offset: 0x19A9FF8
-    static void SetEnvironmentVariable(::Il2CppString* variable, ::Il2CppString* value);
+    static void SetEnvironmentVariable(::StringW variable, ::StringW value);
     // static System.Void InternalSetEnvironmentVariable(System.String variable, System.String value)
     // Offset: 0x19AA150
-    static void InternalSetEnvironmentVariable(::Il2CppString* variable, ::Il2CppString* value);
+    static void InternalSetEnvironmentVariable(::StringW variable, ::StringW value);
     // static public System.Void FailFast(System.String message, System.Exception exception)
     // Offset: 0x19AA154
-    static void FailFast(::Il2CppString* message, System::Exception* exception);
+    static void FailFast(::StringW message, System::Exception* exception);
     // static private System.String[] GetLogicalDrivesInternal()
     // Offset: 0x19A9FE4
-    static ::ArrayW<::Il2CppString*> GetLogicalDrivesInternal();
+    static ::ArrayW<::StringW> GetLogicalDrivesInternal();
     // static private System.String[] GetEnvironmentVariableNames()
     // Offset: 0x19A9654
-    static ::ArrayW<::Il2CppString*> GetEnvironmentVariableNames();
+    static ::ArrayW<::StringW> GetEnvironmentVariableNames();
     // static System.String GetMachineConfigPath()
     // Offset: 0x19AA218
-    static ::Il2CppString* GetMachineConfigPath();
+    static ::StringW GetMachineConfigPath();
     // static System.String internalGetHome()
     // Offset: 0x19A9FDC
-    static ::Il2CppString* internalGetHome();
+    static ::StringW internalGetHome();
     // static System.Int32 GetPageSize()
     // Offset: 0x19AA21C
     static int GetPageSize();
     // static System.String GetStackTrace(System.Exception e, System.Boolean needFileInfo)
     // Offset: 0x19AA25C
-    static ::Il2CppString* GetStackTrace(System::Exception* e, bool needFileInfo);
+    static ::StringW GetStackTrace(System::Exception* e, bool needFileInfo);
   }; // System.Environment
   #pragma pack(pop)
 }
@@ -211,7 +212,7 @@ namespace System {
 // Writing MetadataGetter for method: System::Environment::get_CurrentDirectory
 // Il2CppName: get_CurrentDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_CurrentDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_CurrentDirectory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_CurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Environment::get_MachineName
 // Il2CppName: get_MachineName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_MachineName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_MachineName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_MachineName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::get_NewLine
 // Il2CppName: get_NewLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_NewLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_NewLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_NewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ope
 // Writing MetadataGetter for method: System::Environment::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -283,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: System::Environment::get_UserDomainName
 // Il2CppName: get_UserDomainName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_UserDomainName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_UserDomainName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_UserDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::get_UserName
 // Il2CppName: get_UserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::get_UserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::get_UserName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -331,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::GetResourceString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Environment::GetResourceString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -340,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Environment::GetResourceString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Environment::GetResourceString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetResourceStringEncodingName
 // Il2CppName: GetResourceStringEncodingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Environment::GetResourceStringEncodingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Environment::GetResourceStringEncodingName)> {
   static const MethodInfo* get() {
     static auto* codePage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetResourceStringEncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codePage});
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetNewLine
 // Il2CppName: GetNewLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetNewLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::GetNewLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetNewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -367,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetOSVersionString
 // Il2CppName: GetOSVersionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetOSVersionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::GetOSVersionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetOSVersionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -375,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::CreateVersionFromString
 // Il2CppName: CreateVersionFromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::Il2CppString*)>(&System::Environment::CreateVersionFromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::StringW)>(&System::Environment::CreateVersionFromString)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "CreateVersionFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info});
@@ -393,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::Environment::ExpandEnvironmentVariables
 // Il2CppName: ExpandEnvironmentVariables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::ExpandEnvironmentVariables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Environment::ExpandEnvironmentVariables)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "ExpandEnvironmentVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -402,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetCommandLineArgs
 // Il2CppName: GetCommandLineArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetCommandLineArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&System::Environment::GetCommandLineArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetCommandLineArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -410,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Environment::internalGetEnvironmentVariable_native
 // Il2CppName: internalGetEnvironmentVariable_native
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Environment::internalGetEnvironmentVariable_native)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&System::Environment::internalGetEnvironmentVariable_native)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetEnvironmentVariable_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -419,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::internalGetEnvironmentVariable
 // Il2CppName: internalGetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::internalGetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Environment::internalGetEnvironmentVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -428,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariable
 // Il2CppName: GetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Environment::GetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Environment::GetEnvironmentVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -453,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Environment::GetFolderPath
 // Il2CppName: GetFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder)>(&System::Environment::GetFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Environment::SpecialFolder)>(&System::Environment::GetFolderPath)> {
   static const MethodInfo* get() {
     static auto* folder = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folder});
@@ -462,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetWindowsFolderPath
 // Il2CppName: GetWindowsFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Environment::GetWindowsFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Environment::GetWindowsFolderPath)> {
   static const MethodInfo* get() {
     static auto* folder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetWindowsFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folder});
@@ -471,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetFolderPath
 // Il2CppName: GetFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::GetFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::GetFolderPath)> {
   static const MethodInfo* get() {
     static auto* folder = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolder")->byval_arg;
     static auto* option = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolderOption")->byval_arg;
@@ -481,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::ReadXdgUserDir
 // Il2CppName: ReadXdgUserDir
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Environment::ReadXdgUserDir)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&System::Environment::ReadXdgUserDir)> {
   static const MethodInfo* get() {
     static auto* config_dir = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* home_dir = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -493,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::UnixGetFolderPath
 // Il2CppName: UnixGetFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::UnixGetFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Environment::SpecialFolder, System::Environment::SpecialFolderOption)>(&System::Environment::UnixGetFolderPath)> {
   static const MethodInfo* get() {
     static auto* folder = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolder")->byval_arg;
     static auto* option = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolderOption")->byval_arg;
@@ -503,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrives
 // Il2CppName: GetLogicalDrives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&System::Environment::GetLogicalDrives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -511,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariable
 // Il2CppName: GetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::EnvironmentVariableTarget)>(&System::Environment::GetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::EnvironmentVariableTarget)>(&System::Environment::GetEnvironmentVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "EnvironmentVariableTarget")->byval_arg;
@@ -521,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::SetEnvironmentVariable
 // Il2CppName: SetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Environment::SetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&System::Environment::SetEnvironmentVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -531,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Environment::InternalSetEnvironmentVariable
 // Il2CppName: InternalSetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Environment::InternalSetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&System::Environment::InternalSetEnvironmentVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -541,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Environment::FailFast
 // Il2CppName: FailFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Exception*)>(&System::Environment::FailFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Exception*)>(&System::Environment::FailFast)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -551,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrivesInternal
 // Il2CppName: GetLogicalDrivesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrivesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&System::Environment::GetLogicalDrivesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrivesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -559,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariableNames
 // Il2CppName: GetEnvironmentVariableNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetEnvironmentVariableNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&System::Environment::GetEnvironmentVariableNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariableNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -567,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Environment::GetMachineConfigPath
 // Il2CppName: GetMachineConfigPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::GetMachineConfigPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::GetMachineConfigPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetMachineConfigPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -575,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::internalGetHome
 // Il2CppName: internalGetHome
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Environment::internalGetHome)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Environment::internalGetHome)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "internalGetHome", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: System::Environment::GetStackTrace
 // Il2CppName: GetStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*, bool)>(&System::Environment::GetStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception*, bool)>(&System::Environment::GetStackTrace)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

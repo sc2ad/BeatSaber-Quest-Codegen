@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -101,9 +102,9 @@ namespace RootMotion {
     // private System.String relativePath
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* relativePath;
+    ::StringW relativePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean recordPosition
     // Size: 0x1
     // Offset: 0x58
@@ -150,7 +151,7 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.AnimationCurve rotW
     UnityEngine::AnimationCurve*& dyn_rotW();
     // Get instance field reference: private System.String relativePath
-    ::Il2CppString*& dyn_relativePath();
+    ::StringW& dyn_relativePath();
     // Get instance field reference: private System.Boolean recordPosition
     bool& dyn_recordPosition();
     // Get instance field reference: private UnityEngine.Vector3 relativePosition

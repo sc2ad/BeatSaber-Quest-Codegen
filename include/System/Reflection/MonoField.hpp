@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -88,9 +89,9 @@ namespace System::Reflection {
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type type
     // Size: 0x8
     // Offset: 0x28
@@ -109,7 +110,7 @@ namespace System::Reflection {
     // Get instance field reference: System.RuntimeFieldHandle fhandle
     System::RuntimeFieldHandle& dyn_fhandle();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: private System.Reflection.FieldAttributes attrs
@@ -158,7 +159,7 @@ namespace System::Reflection {
     // Offset: 0x1E996EC
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void .ctor()
     // Offset: 0x1E99DEC
     // Implemented from: System.Reflection.RtFieldInfo
@@ -201,7 +202,7 @@ namespace System::Reflection {
     // Offset: 0x1E99ACC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Void SetValue(System.Object obj, System.Object val, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     // Offset: 0x1E99B40
     // Implemented from: System.Reflection.FieldInfo
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::MonoField::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MonoField::*)()>(&System::Reflection::MonoField::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::MonoField::*)()>(&System::Reflection::MonoField::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoField*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -369,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::MonoField::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MonoField::*)()>(&System::Reflection::MonoField::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::MonoField::*)()>(&System::Reflection::MonoField::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoField*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -75,15 +76,15 @@ namespace GlobalNamespace {
     // private System.Action`1<System.String> syncStartDidSuccessEvent
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<::Il2CppString*>* syncStartDidSuccessEvent;
+    System::Action_1<::StringW>* syncStartDidSuccessEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private System.Action`1<System.String> syncStartDidReceiveTooLateEvent
     // Size: 0x8
     // Offset: 0x30
-    System::Action_1<::Il2CppString*>* syncStartDidReceiveTooLateEvent;
+    System::Action_1<::StringW>* syncStartDidReceiveTooLateEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private System.Action syncStartDidFailEvent
     // Size: 0x8
     // Offset: 0x38
@@ -134,9 +135,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
     GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private System.Action`1<System.String> syncStartDidSuccessEvent
-    System::Action_1<::Il2CppString*>*& dyn_syncStartDidSuccessEvent();
+    System::Action_1<::StringW>*& dyn_syncStartDidSuccessEvent();
     // Get instance field reference: private System.Action`1<System.String> syncStartDidReceiveTooLateEvent
-    System::Action_1<::Il2CppString*>*& dyn_syncStartDidReceiveTooLateEvent();
+    System::Action_1<::StringW>*& dyn_syncStartDidReceiveTooLateEvent();
     // Get instance field reference: private System.Action syncStartDidFailEvent
     System::Action*& dyn_syncStartDidFailEvent();
     // Get instance field reference: private SceneStartHandler _sceneStartHandler
@@ -149,16 +150,16 @@ namespace GlobalNamespace {
     bool& dyn__sceneSyncStarted();
     // public System.Void add_syncStartDidSuccessEvent(System.Action`1<System.String> value)
     // Offset: 0x122F4E8
-    void add_syncStartDidSuccessEvent(System::Action_1<::Il2CppString*>* value);
+    void add_syncStartDidSuccessEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action`1<System.String> value)
     // Offset: 0x122F58C
-    void remove_syncStartDidSuccessEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_syncStartDidSuccessEvent(System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
     // Offset: 0x122F630
-    void add_syncStartDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
+    void add_syncStartDidReceiveTooLateEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
     // Offset: 0x122F6D4
-    void remove_syncStartDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_syncStartDidReceiveTooLateEvent(System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
     // Offset: 0x122F778
     void add_syncStartDidFailEvent(System::Action* value);
@@ -179,10 +180,10 @@ namespace GlobalNamespace {
     void StartSceneLoadSync(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
     // private System.Void HandleSceneSetupDidFinish(System.String sessionGameId)
     // Offset: 0x122FB78
-    void HandleSceneSetupDidFinish(::Il2CppString* sessionGameId);
+    void HandleSceneSetupDidFinish(::StringW sessionGameId);
     // private System.Void HandleSceneSetupDidReceiveTooLate(System.String sessionGameId)
     // Offset: 0x122FBFC
-    void HandleSceneSetupDidReceiveTooLate(::Il2CppString* sessionGameId);
+    void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
     // public System.Void .ctor()
     // Offset: 0x122FC80
     // Implemented from: UnityEngine.MonoBehaviour
@@ -205,7 +206,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent
 // Il2CppName: add_syncStartDidSuccessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "add_syncStartDidSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -214,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::remove_syncStartDidSuccessEvent
 // Il2CppName: remove_syncStartDidSuccessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartSyncController::remove_syncStartDidSuccessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartSyncController::remove_syncStartDidSuccessEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "remove_syncStartDidSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -223,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::add_syncStartDidReceiveTooLateEvent
 // Il2CppName: add_syncStartDidReceiveTooLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartSyncController::add_syncStartDidReceiveTooLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartSyncController::add_syncStartDidReceiveTooLateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "add_syncStartDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::remove_syncStartDidReceiveTooLateEvent
 // Il2CppName: remove_syncStartDidReceiveTooLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartSyncController::remove_syncStartDidReceiveTooLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartSyncController::remove_syncStartDidReceiveTooLateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "remove_syncStartDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidFinish
 // Il2CppName: HandleSceneSetupDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(::Il2CppString*)>(&GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(::StringW)>(&GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidFinish)> {
   static const MethodInfo* get() {
     static auto* sessionGameId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "HandleSceneSetupDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionGameId});
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidReceiveTooLate
 // Il2CppName: HandleSceneSetupDidReceiveTooLate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(::Il2CppString*)>(&GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidReceiveTooLate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartSyncController::*)(::StringW)>(&GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidReceiveTooLate)> {
   static const MethodInfo* get() {
     static auto* sessionGameId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartSyncController*), "HandleSceneSetupDidReceiveTooLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionGameId});

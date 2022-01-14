@@ -19,6 +19,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendWebRequestWithOathAsync>d__5");
@@ -40,7 +41,7 @@ namespace OnlineServices::API {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder;
     // public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     // Size: 0x8
     // Offset: 0x20
@@ -56,9 +57,9 @@ namespace OnlineServices::API {
     // public System.String path
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* path;
+    ::StringW path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Object objectToSendAsJson
     // Size: 0x8
     // Offset: 0x38
@@ -68,21 +69,21 @@ namespace OnlineServices::API {
     // public System.String method
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <uri>5__2
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* $uri$5__2;
+    ::StringW $uri$5__2;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <bodyData>5__3
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* $bodyData$5__3;
+    ::StringW $bodyData$5__3;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     // Size: 0x8
     // Offset: 0x58
@@ -92,10 +93,10 @@ namespace OnlineServices::API {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x60
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2;
     public:
     // Creating value type constructor for type: $SendWebRequestWithOathAsync$d__5
-    constexpr $SendWebRequestWithOathAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* path_ = {}, ::Il2CppObject* objectToSendAsJson_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* $uri$5__2_ = {}, ::Il2CppString* $bodyData$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, path{path_}, objectToSendAsJson{objectToSendAsJson_}, method{method_}, $uri$5__2{$uri$5__2_}, $bodyData$5__3{$bodyData$5__3_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $SendWebRequestWithOathAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::StringW path_ = {}, ::Il2CppObject* objectToSendAsJson_ = {}, ::StringW method_ = {}, ::StringW $uri$5__2_ = {}, ::StringW $bodyData$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, path{path_}, objectToSendAsJson{objectToSendAsJson_}, method{method_}, $uri$5__2{$uri$5__2_}, $bodyData$5__3{$bodyData$5__3_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -107,25 +108,25 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this
     OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.String path
-    ::Il2CppString*& dyn_path();
+    ::StringW& dyn_path();
     // Get instance field reference: public System.Object objectToSendAsJson
     ::Il2CppObject*& dyn_objectToSendAsJson();
     // Get instance field reference: public System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.String <uri>5__2
-    ::Il2CppString*& dyn_$uri$5__2();
+    ::StringW& dyn_$uri$5__2();
     // Get instance field reference: private System.String <bodyData>5__3
-    ::Il2CppString*& dyn_$bodyData$5__3();
+    ::StringW& dyn_$bodyData$5__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__2();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2();
     // private System.Void MoveNext()
     // Offset: 0x1375A74
     void MoveNext();

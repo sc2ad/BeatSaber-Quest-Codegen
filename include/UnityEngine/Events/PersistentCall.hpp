@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -71,9 +72,9 @@ namespace UnityEngine::Events {
     // private System.String m_MethodName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_MethodName;
+    ::StringW m_MethodName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEB8F64
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
@@ -102,7 +103,7 @@ namespace UnityEngine::Events {
     // Get instance field reference: private UnityEngine.Object m_Target
     UnityEngine::Object*& dyn_m_Target();
     // Get instance field reference: private System.String m_MethodName
-    ::Il2CppString*& dyn_m_MethodName();
+    ::StringW& dyn_m_MethodName();
     // Get instance field reference: private UnityEngine.Events.PersistentListenerMode m_Mode
     UnityEngine::Events::PersistentListenerMode& dyn_m_Mode();
     // Get instance field reference: private UnityEngine.Events.ArgumentCache m_Arguments
@@ -114,7 +115,7 @@ namespace UnityEngine::Events {
     UnityEngine::Object* get_target();
     // public System.String get_methodName()
     // Offset: 0x1D0BE58
-    ::Il2CppString* get_methodName();
+    ::StringW get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
     // Offset: 0x1D0BE60
     UnityEngine::Events::PersistentListenerMode get_mode();
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_methodName
 // Il2CppName: get_methodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_methodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_methodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCall*), "get_methodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

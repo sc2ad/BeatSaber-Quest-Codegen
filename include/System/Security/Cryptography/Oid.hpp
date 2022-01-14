@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -40,15 +41,15 @@ namespace System::Security::Cryptography {
     // private System.String m_value
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_value;
+    ::StringW m_value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_friendlyName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_friendlyName;
+    ::StringW m_friendlyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Security.Cryptography.OidGroup m_group
     // Size: 0x4
     // Offset: 0x20
@@ -57,38 +58,38 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(System::Security::Cryptography::OidGroup) == 0x4);
     public:
     // Get instance field reference: private System.String m_value
-    ::Il2CppString*& dyn_m_value();
+    ::StringW& dyn_m_value();
     // Get instance field reference: private System.String m_friendlyName
-    ::Il2CppString*& dyn_m_friendlyName();
+    ::StringW& dyn_m_friendlyName();
     // Get instance field reference: private System.Security.Cryptography.OidGroup m_group
     System::Security::Cryptography::OidGroup& dyn_m_group();
     // public System.String get_Value()
     // Offset: 0x19D3C30
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public System.Void set_Value(System.String value)
     // Offset: 0x19D3C38
-    void set_Value(::Il2CppString* value);
+    void set_Value(::StringW value);
     // public System.String get_FriendlyName()
     // Offset: 0x19D3C40
-    ::Il2CppString* get_FriendlyName();
+    ::StringW get_FriendlyName();
     // public System.Void .ctor(System.String oid)
     // Offset: 0x19D3A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Oid* New_ctor(::Il2CppString* oid) {
+    static Oid* New_ctor(::StringW oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
     // Offset: 0x19D3A90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Oid* New_ctor(::Il2CppString* oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
+    static Oid* New_ctor(::StringW oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid, group, lookupFriendlyName)));
     }
     // public System.Void .ctor(System.String value, System.String friendlyName)
     // Offset: 0x19D3B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Oid* New_ctor(::Il2CppString* value, ::Il2CppString* friendlyName) {
+    static Oid* New_ctor(::StringW value, ::StringW friendlyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(value, friendlyName)));
     }
@@ -117,7 +118,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::Oid::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::Oid::*)()>(&System::Security::Cryptography::Oid::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::Oid::*)()>(&System::Security::Cryptography::Oid::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Oid*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::Oid::set_Value
 // Il2CppName: set_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::Oid::*)(::Il2CppString*)>(&System::Security::Cryptography::Oid::set_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::Oid::*)(::StringW)>(&System::Security::Cryptography::Oid::set_Value)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Oid*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::Oid::get_FriendlyName
 // Il2CppName: get_FriendlyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::Oid::*)()>(&System::Security::Cryptography::Oid::get_FriendlyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::Oid::*)()>(&System::Security::Cryptography::Oid::get_FriendlyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Oid*), "get_FriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

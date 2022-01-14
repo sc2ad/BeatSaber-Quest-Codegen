@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack);
@@ -43,14 +44,14 @@ namespace GlobalNamespace {
     // public System.String packId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* packId;
+    ::StringW packId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public System.String packId
-    ::Il2CppString*& dyn_packId();
+    ::StringW& dyn_packId();
     // public System.Void .ctor()
     // Offset: 0x1158CA8
     // Implemented from: System.Object
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     }
   }; // MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack
   #pragma pack(pop)
-  static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_PredefinedPackSizeCheck;
+  static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack), 24 + sizeof(::StringW)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_PredefinedPackSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

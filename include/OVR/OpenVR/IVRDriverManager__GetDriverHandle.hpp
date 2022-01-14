@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,10 +45,10 @@ namespace OVR::OpenVR {
     }
     // public System.UInt64 Invoke(System.String pchDriverName)
     // Offset: 0x217A824
-    uint64_t Invoke(::Il2CppString* pchDriverName);
+    uint64_t Invoke(::StringW pchDriverName);
     // public System.IAsyncResult BeginInvoke(System.String pchDriverName, System.AsyncCallback callback, System.Object object)
     // Offset: 0x217ABC0
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchDriverName, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchDriverName, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt64 EndInvoke(System.IAsyncResult result)
     // Offset: 0x217ABE4
     uint64_t EndInvoke(System::IAsyncResult* result);
@@ -62,7 +63,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRDriverManager::_GetDriverHandle::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::IVRDriverManager::_GetDriverHandle::*)(::Il2CppString*)>(&OVR::OpenVR::IVRDriverManager::_GetDriverHandle::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::IVRDriverManager::_GetDriverHandle::*)(::StringW)>(&OVR::OpenVR::IVRDriverManager::_GetDriverHandle::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchDriverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchDriverName});
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
 // Writing MetadataGetter for method: OVR::OpenVR::IVRDriverManager::_GetDriverHandle::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRDriverManager::_GetDriverHandle::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRDriverManager::_GetDriverHandle::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRDriverManager::_GetDriverHandle::*)(::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRDriverManager::_GetDriverHandle::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchDriverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

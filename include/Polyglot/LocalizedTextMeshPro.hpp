@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -44,7 +45,7 @@ namespace Polyglot {
     public:
     // protected System.Void SetText(TMPro.TextMeshPro text, System.String value)
     // Offset: 0x262B208
-    void SetText(TMPro::TextMeshPro* text, ::Il2CppString* value);
+    void SetText(TMPro::TextMeshPro* text, ::StringW value);
     // protected System.Void UpdateAlignment(TMPro.TextMeshPro text, Polyglot.LanguageDirection direction)
     // Offset: 0x262B228
     void UpdateAlignment(TMPro::TextMeshPro* text, Polyglot::LanguageDirection direction);
@@ -77,7 +78,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextMeshPro*, ::Il2CppString*)>(&Polyglot::LocalizedTextMeshPro::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextMeshPro*, ::StringW)>(&Polyglot::LocalizedTextMeshPro::SetText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshPro")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

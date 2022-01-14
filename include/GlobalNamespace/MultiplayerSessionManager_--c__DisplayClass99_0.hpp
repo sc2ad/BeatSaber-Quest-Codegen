@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,16 +44,16 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return userId;
     }
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
     // Offset: 0x1808FF8
     bool $GetPlayerByUserId$b__0(GlobalNamespace::IConnectedPlayer* player);
@@ -67,7 +68,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerSessionManager/<>c__DisplayClass99_0
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerSessionManager::$$c__DisplayClass99_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerSessionManager_$$c__DisplayClass99_0SizeCheck;
+  static check_size<sizeof(MultiplayerSessionManager::$$c__DisplayClass99_0), 16 + sizeof(::StringW)> __GlobalNamespace_MultiplayerSessionManager_$$c__DisplayClass99_0SizeCheck;
   static_assert(sizeof(MultiplayerSessionManager::$$c__DisplayClass99_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

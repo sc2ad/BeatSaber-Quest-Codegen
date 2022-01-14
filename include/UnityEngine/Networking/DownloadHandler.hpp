@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -73,7 +74,7 @@ namespace UnityEngine::Networking {
     System::IntPtr& dyn_m_Ptr();
     // public System.String get_text()
     // Offset: 0x26A42A0
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // private System.Void Release()
     // Offset: 0x26A4170
     void Release();
@@ -85,13 +86,13 @@ namespace UnityEngine::Networking {
     ::ArrayW<uint8_t> GetData();
     // protected System.String GetText()
     // Offset: 0x26A42B4
-    ::Il2CppString* GetText();
+    ::StringW GetText();
     // private System.Text.Encoding GetTextEncoder()
     // Offset: 0x26A4354
     System::Text::Encoding* GetTextEncoder();
     // private System.String GetContentType()
     // Offset: 0x26A45E8
-    ::Il2CppString* GetContentType();
+    ::StringW GetContentType();
     // static protected T GetCheckedDownloader(UnityEngine.Networking.UnityWebRequest www)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -128,7 +129,7 @@ namespace UnityEngine::Networking {
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetContentType
 // Il2CppName: GetContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetContentType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

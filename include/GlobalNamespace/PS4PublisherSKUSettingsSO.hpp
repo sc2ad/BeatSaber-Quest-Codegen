@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,15 +41,15 @@ namespace GlobalNamespace {
     // private System.String _skuName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* skuName;
+    ::StringW skuName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _contentId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* contentId;
+    ::StringW contentId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _parentalLockLevel
     // Size: 0x4
     // Offset: 0x28
@@ -60,9 +61,9 @@ namespace GlobalNamespace {
     // private System.String _npTitleFilenamePath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* npTitleFilenamePath;
+    ::StringW npTitleFilenamePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _defaultAgeRestriction
     // Size: 0x4
     // Offset: 0x38
@@ -73,27 +74,27 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _skuName
-    ::Il2CppString*& dyn__skuName();
+    ::StringW& dyn__skuName();
     // Get instance field reference: private System.String _contentId
-    ::Il2CppString*& dyn__contentId();
+    ::StringW& dyn__contentId();
     // Get instance field reference: private System.Int32 _parentalLockLevel
     int& dyn__parentalLockLevel();
     // Get instance field reference: private System.String _npTitleFilenamePath
-    ::Il2CppString*& dyn__npTitleFilenamePath();
+    ::StringW& dyn__npTitleFilenamePath();
     // Get instance field reference: private System.Int32 _defaultAgeRestriction
     int& dyn__defaultAgeRestriction();
     // public System.String get_skuName()
     // Offset: 0x11482AC
-    ::Il2CppString* get_skuName();
+    ::StringW get_skuName();
     // public System.String get_contentId()
     // Offset: 0x11482B4
-    ::Il2CppString* get_contentId();
+    ::StringW get_contentId();
     // public System.Int32 get_parentalLockLevel()
     // Offset: 0x11482BC
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
     // Offset: 0x11482C4
-    ::Il2CppString* get_npTitleFilenamePath();
+    ::StringW get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
     // Offset: 0x11482CC
     int get_defaultAgeRestriction();
@@ -118,7 +119,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName
 // Il2CppName: get_skuName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_skuName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_skuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_contentId
 // Il2CppName: get_contentId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_contentId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_contentId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_contentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath
 // Il2CppName: get_npTitleFilenamePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4PublisherSKUSettingsSO*), "get_npTitleFilenamePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

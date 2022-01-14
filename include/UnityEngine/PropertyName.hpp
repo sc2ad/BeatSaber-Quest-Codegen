@@ -8,9 +8,9 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
@@ -56,7 +56,7 @@ namespace UnityEngine {
     int& dyn_id();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1DEF8E0
-    PropertyName(::Il2CppString* name);
+    PropertyName(::StringW name);
     // public System.Void .ctor(UnityEngine.PropertyName other)
     // Offset: 0x1DEF998
     // ABORTED: is copy constructor.  PropertyName(UnityEngine::PropertyName other);
@@ -77,7 +77,7 @@ namespace UnityEngine {
     // Offset: 0x1DEFA4C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.PropertyName
   #pragma pack(pop)
   static check_size<sizeof(PropertyName), 0 + sizeof(int)> __UnityEngine_PropertyNameSizeCheck;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::PropertyName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::PropertyName::*)()>(&UnityEngine::PropertyName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::PropertyName::*)()>(&UnityEngine::PropertyName::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

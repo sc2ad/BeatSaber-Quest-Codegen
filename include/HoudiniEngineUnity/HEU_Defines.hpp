@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,49 +43,49 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HEU_PRODUCT_NAME
     static constexpr const char* HEU_PRODUCT_NAME = "HoudiniEngine";
     // Get static field: static public System.String HEU_PRODUCT_NAME
-    static ::Il2CppString* _get_HEU_PRODUCT_NAME();
+    static ::StringW _get_HEU_PRODUCT_NAME();
     // Set static field: static public System.String HEU_PRODUCT_NAME
-    static void _set_HEU_PRODUCT_NAME(::Il2CppString* value);
+    static void _set_HEU_PRODUCT_NAME(::StringW value);
     // static field const value: static public System.String HEU_NAME
     static constexpr const char* HEU_NAME = "Houdini Engine";
     // Get static field: static public System.String HEU_NAME
-    static ::Il2CppString* _get_HEU_NAME();
+    static ::StringW _get_HEU_NAME();
     // Set static field: static public System.String HEU_NAME
-    static void _set_HEU_NAME(::Il2CppString* value);
+    static void _set_HEU_NAME(::StringW value);
     // Get static field: static public System.String HEU_PLUGIN_PATH
-    static ::Il2CppString* _get_HEU_PLUGIN_PATH();
+    static ::StringW _get_HEU_PLUGIN_PATH();
     // Set static field: static public System.String HEU_PLUGIN_PATH
-    static void _set_HEU_PLUGIN_PATH(::Il2CppString* value);
+    static void _set_HEU_PLUGIN_PATH(::StringW value);
     // Get static field: static public System.String HEU_TEXTURES_PATH
-    static ::Il2CppString* _get_HEU_TEXTURES_PATH();
+    static ::StringW _get_HEU_TEXTURES_PATH();
     // Set static field: static public System.String HEU_TEXTURES_PATH
-    static void _set_HEU_TEXTURES_PATH(::Il2CppString* value);
+    static void _set_HEU_TEXTURES_PATH(::StringW value);
     // Get static field: static public System.String HEU_BAKED_ASSETS_PATH
-    static ::Il2CppString* _get_HEU_BAKED_ASSETS_PATH();
+    static ::StringW _get_HEU_BAKED_ASSETS_PATH();
     // Set static field: static public System.String HEU_BAKED_ASSETS_PATH
-    static void _set_HEU_BAKED_ASSETS_PATH(::Il2CppString* value);
+    static void _set_HEU_BAKED_ASSETS_PATH(::StringW value);
     // Get static field: static public System.String HEU_ENGINE_ASSETS
-    static ::Il2CppString* _get_HEU_ENGINE_ASSETS();
+    static ::StringW _get_HEU_ENGINE_ASSETS();
     // Set static field: static public System.String HEU_ENGINE_ASSETS
-    static void _set_HEU_ENGINE_ASSETS(::Il2CppString* value);
+    static void _set_HEU_ENGINE_ASSETS(::StringW value);
     // static field const value: static public System.String HAPI_PATH
     static constexpr const char* HAPI_PATH = "HAPI_PATH";
     // Get static field: static public System.String HAPI_PATH
-    static ::Il2CppString* _get_HAPI_PATH();
+    static ::StringW _get_HAPI_PATH();
     // Set static field: static public System.String HAPI_PATH
-    static void _set_HAPI_PATH(::Il2CppString* value);
+    static void _set_HAPI_PATH(::StringW value);
     // static field const value: static public System.String HEU_ENVPATH_PREFIX
     static constexpr const char* HEU_ENVPATH_PREFIX = "HEU_ENVPATH_";
     // Get static field: static public System.String HEU_ENVPATH_PREFIX
-    static ::Il2CppString* _get_HEU_ENVPATH_PREFIX();
+    static ::StringW _get_HEU_ENVPATH_PREFIX();
     // Set static field: static public System.String HEU_ENVPATH_PREFIX
-    static void _set_HEU_ENVPATH_PREFIX(::Il2CppString* value);
+    static void _set_HEU_ENVPATH_PREFIX(::StringW value);
     // static field const value: static public System.String HEU_ENVPATH_KEY
     static constexpr const char* HEU_ENVPATH_KEY = "$";
     // Get static field: static public System.String HEU_ENVPATH_KEY
-    static ::Il2CppString* _get_HEU_ENVPATH_KEY();
+    static ::StringW _get_HEU_ENVPATH_KEY();
     // Set static field: static public System.String HEU_ENVPATH_KEY
-    static void _set_HEU_ENVPATH_KEY(::Il2CppString* value);
+    static void _set_HEU_ENVPATH_KEY(::StringW value);
     // static field const value: static public System.Int32 HEU_INVALID_NODE_ID
     static constexpr const int HEU_INVALID_NODE_ID = -1;
     // Get static field: static public System.Int32 HEU_INVALID_NODE_ID
@@ -94,21 +95,21 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HEU_DEFAULT_ASSET_NAME
     static constexpr const char* HEU_DEFAULT_ASSET_NAME = "HoudiniAssetRoot";
     // Get static field: static public System.String HEU_DEFAULT_ASSET_NAME
-    static ::Il2CppString* _get_HEU_DEFAULT_ASSET_NAME();
+    static ::StringW _get_HEU_DEFAULT_ASSET_NAME();
     // Set static field: static public System.String HEU_DEFAULT_ASSET_NAME
-    static void _set_HEU_DEFAULT_ASSET_NAME(::Il2CppString* value);
+    static void _set_HEU_DEFAULT_ASSET_NAME(::StringW value);
     // static field const value: static public System.String HEU_SESSION_PIPENAME
     static constexpr const char* HEU_SESSION_PIPENAME = "hapi";
     // Get static field: static public System.String HEU_SESSION_PIPENAME
-    static ::Il2CppString* _get_HEU_SESSION_PIPENAME();
+    static ::StringW _get_HEU_SESSION_PIPENAME();
     // Set static field: static public System.String HEU_SESSION_PIPENAME
-    static void _set_HEU_SESSION_PIPENAME(::Il2CppString* value);
+    static void _set_HEU_SESSION_PIPENAME(::StringW value);
     // static field const value: static public System.String HEU_SESSION_LOCALHOST
     static constexpr const char* HEU_SESSION_LOCALHOST = "localhost";
     // Get static field: static public System.String HEU_SESSION_LOCALHOST
-    static ::Il2CppString* _get_HEU_SESSION_LOCALHOST();
+    static ::StringW _get_HEU_SESSION_LOCALHOST();
     // Set static field: static public System.String HEU_SESSION_LOCALHOST
-    static void _set_HEU_SESSION_LOCALHOST(::Il2CppString* value);
+    static void _set_HEU_SESSION_LOCALHOST(::StringW value);
     // static field const value: static public System.Int32 HEU_SESSION_PORT
     static constexpr const int HEU_SESSION_PORT = 9090;
     // Get static field: static public System.Int32 HEU_SESSION_PORT
@@ -184,33 +185,33 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HAPI_ATTRIB_ORIENT
     static constexpr const char* HAPI_ATTRIB_ORIENT = "orient";
     // Get static field: static public System.String HAPI_ATTRIB_ORIENT
-    static ::Il2CppString* _get_HAPI_ATTRIB_ORIENT();
+    static ::StringW _get_HAPI_ATTRIB_ORIENT();
     // Set static field: static public System.String HAPI_ATTRIB_ORIENT
-    static void _set_HAPI_ATTRIB_ORIENT(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_ORIENT(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_ROTATION
     static constexpr const char* HAPI_ATTRIB_ROTATION = "rot";
     // Get static field: static public System.String HAPI_ATTRIB_ROTATION
-    static ::Il2CppString* _get_HAPI_ATTRIB_ROTATION();
+    static ::StringW _get_HAPI_ATTRIB_ROTATION();
     // Set static field: static public System.String HAPI_ATTRIB_ROTATION
-    static void _set_HAPI_ATTRIB_ROTATION(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_ROTATION(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_SCALE
     static constexpr const char* HAPI_ATTRIB_SCALE = "scale";
     // Get static field: static public System.String HAPI_ATTRIB_SCALE
-    static ::Il2CppString* _get_HAPI_ATTRIB_SCALE();
+    static ::StringW _get_HAPI_ATTRIB_SCALE();
     // Set static field: static public System.String HAPI_ATTRIB_SCALE
-    static void _set_HAPI_ATTRIB_SCALE(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_SCALE(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_ALPHA
     static constexpr const char* HAPI_ATTRIB_ALPHA = "Alpha";
     // Get static field: static public System.String HAPI_ATTRIB_ALPHA
-    static ::Il2CppString* _get_HAPI_ATTRIB_ALPHA();
+    static ::StringW _get_HAPI_ATTRIB_ALPHA();
     // Set static field: static public System.String HAPI_ATTRIB_ALPHA
-    static void _set_HAPI_ATTRIB_ALPHA(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_ALPHA(::StringW value);
     // static field const value: static public System.String HAPI_HANDLE_TRANSFORM
     static constexpr const char* HAPI_HANDLE_TRANSFORM = "xform";
     // Get static field: static public System.String HAPI_HANDLE_TRANSFORM
-    static ::Il2CppString* _get_HAPI_HANDLE_TRANSFORM();
+    static ::StringW _get_HAPI_HANDLE_TRANSFORM();
     // Set static field: static public System.String HAPI_HANDLE_TRANSFORM
-    static void _set_HAPI_HANDLE_TRANSFORM(::Il2CppString* value);
+    static void _set_HAPI_HANDLE_TRANSFORM(::StringW value);
     // static field const value: static public System.Int32 HAPI_MAX_UVS
     static constexpr const int HAPI_MAX_UVS = 8;
     // Get static field: static public System.Int32 HAPI_MAX_UVS
@@ -220,1029 +221,1029 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HAPI_OBJMERGE_TRANSFORM_PARAM
     static constexpr const char* HAPI_OBJMERGE_TRANSFORM_PARAM = "xformtype";
     // Get static field: static public System.String HAPI_OBJMERGE_TRANSFORM_PARAM
-    static ::Il2CppString* _get_HAPI_OBJMERGE_TRANSFORM_PARAM();
+    static ::StringW _get_HAPI_OBJMERGE_TRANSFORM_PARAM();
     // Set static field: static public System.String HAPI_OBJMERGE_TRANSFORM_PARAM
-    static void _set_HAPI_OBJMERGE_TRANSFORM_PARAM(::Il2CppString* value);
+    static void _set_HAPI_OBJMERGE_TRANSFORM_PARAM(::StringW value);
     // static field const value: static public System.String HAPI_OBJMERGE_PACK_GEOMETRY
     static constexpr const char* HAPI_OBJMERGE_PACK_GEOMETRY = "pack";
     // Get static field: static public System.String HAPI_OBJMERGE_PACK_GEOMETRY
-    static ::Il2CppString* _get_HAPI_OBJMERGE_PACK_GEOMETRY();
+    static ::StringW _get_HAPI_OBJMERGE_PACK_GEOMETRY();
     // Set static field: static public System.String HAPI_OBJMERGE_PACK_GEOMETRY
-    static void _set_HAPI_OBJMERGE_PACK_GEOMETRY(::Il2CppString* value);
+    static void _set_HAPI_OBJMERGE_PACK_GEOMETRY(::StringW value);
     // static field const value: static public System.String NO_EXISTING_SESSION
     static constexpr const char* NO_EXISTING_SESSION = "No existing session.";
     // Get static field: static public System.String NO_EXISTING_SESSION
-    static ::Il2CppString* _get_NO_EXISTING_SESSION();
+    static ::StringW _get_NO_EXISTING_SESSION();
     // Set static field: static public System.String NO_EXISTING_SESSION
-    static void _set_NO_EXISTING_SESSION(::Il2CppString* value);
+    static void _set_NO_EXISTING_SESSION(::StringW value);
     // static field const value: static public System.String HEU_ERROR_TITLE
     static constexpr const char* HEU_ERROR_TITLE = "Houdini Engine Error";
     // Get static field: static public System.String HEU_ERROR_TITLE
-    static ::Il2CppString* _get_HEU_ERROR_TITLE();
+    static ::StringW _get_HEU_ERROR_TITLE();
     // Set static field: static public System.String HEU_ERROR_TITLE
-    static void _set_HEU_ERROR_TITLE(::Il2CppString* value);
+    static void _set_HEU_ERROR_TITLE(::StringW value);
     // static field const value: static public System.String HEU_INSTALL_INFO
     static constexpr const char* HEU_INSTALL_INFO = "Houdini Engine Installation Info";
     // Get static field: static public System.String HEU_INSTALL_INFO
-    static ::Il2CppString* _get_HEU_INSTALL_INFO();
+    static ::StringW _get_HEU_INSTALL_INFO();
     // Set static field: static public System.String HEU_INSTALL_INFO
-    static void _set_HEU_INSTALL_INFO(::Il2CppString* value);
+    static void _set_HEU_INSTALL_INFO(::StringW value);
     // static field const value: static public System.String PLUGIN_STORE_KEYS
     static constexpr const char* PLUGIN_STORE_KEYS = "HoudiniEnginePluginKeys";
     // Get static field: static public System.String PLUGIN_STORE_KEYS
-    static ::Il2CppString* _get_PLUGIN_STORE_KEYS();
+    static ::StringW _get_PLUGIN_STORE_KEYS();
     // Set static field: static public System.String PLUGIN_STORE_KEYS
-    static void _set_PLUGIN_STORE_KEYS(::Il2CppString* value);
+    static void _set_PLUGIN_STORE_KEYS(::StringW value);
     // static field const value: static public System.String PLUGIN_STORE_DATA
     static constexpr const char* PLUGIN_STORE_DATA = "HoudiniEnginePluginData";
     // Get static field: static public System.String PLUGIN_STORE_DATA
-    static ::Il2CppString* _get_PLUGIN_STORE_DATA();
+    static ::StringW _get_PLUGIN_STORE_DATA();
     // Set static field: static public System.String PLUGIN_STORE_DATA
-    static void _set_PLUGIN_STORE_DATA(::Il2CppString* value);
+    static void _set_PLUGIN_STORE_DATA(::StringW value);
     // static field const value: static public System.String PLUGIN_SESSION_DATA
     static constexpr const char* PLUGIN_SESSION_DATA = "HoudiniEngineSession";
     // Get static field: static public System.String PLUGIN_SESSION_DATA
-    static ::Il2CppString* _get_PLUGIN_SESSION_DATA();
+    static ::StringW _get_PLUGIN_SESSION_DATA();
     // Set static field: static public System.String PLUGIN_SESSION_DATA
-    static void _set_PLUGIN_SESSION_DATA(::Il2CppString* value);
+    static void _set_PLUGIN_SESSION_DATA(::StringW value);
     // static field const value: static public System.String PLUGIN_SETTINGS_FILE
     static constexpr const char* PLUGIN_SETTINGS_FILE = "heu_settings.ini";
     // Get static field: static public System.String PLUGIN_SETTINGS_FILE
-    static ::Il2CppString* _get_PLUGIN_SETTINGS_FILE();
+    static ::StringW _get_PLUGIN_SETTINGS_FILE();
     // Set static field: static public System.String PLUGIN_SETTINGS_FILE
-    static void _set_PLUGIN_SETTINGS_FILE(::Il2CppString* value);
+    static void _set_PLUGIN_SETTINGS_FILE(::StringW value);
     // static field const value: static public System.String PLUGIN_SESSION_FILE
     static constexpr const char* PLUGIN_SESSION_FILE = "heu_session.txt";
     // Get static field: static public System.String PLUGIN_SESSION_FILE
-    static ::Il2CppString* _get_PLUGIN_SESSION_FILE();
+    static ::StringW _get_PLUGIN_SESSION_FILE();
     // Set static field: static public System.String PLUGIN_SESSION_FILE
-    static void _set_PLUGIN_SESSION_FILE(::Il2CppString* value);
+    static void _set_PLUGIN_SESSION_FILE(::StringW value);
     // static field const value: static public System.String COOK_LOGS_FILE
     static constexpr const char* COOK_LOGS_FILE = "cook_logs_file.txt";
     // Get static field: static public System.String COOK_LOGS_FILE
-    static ::Il2CppString* _get_COOK_LOGS_FILE();
+    static ::StringW _get_COOK_LOGS_FILE();
     // Set static field: static public System.String COOK_LOGS_FILE
-    static void _set_COOK_LOGS_FILE(::Il2CppString* value);
+    static void _set_COOK_LOGS_FILE(::StringW value);
     // static field const value: static public System.String DEFAULT_COLLISION_GEO
     static constexpr const char* DEFAULT_COLLISION_GEO = "collision_geo";
     // Get static field: static public System.String DEFAULT_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_COLLISION_GEO
-    static void _set_DEFAULT_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_RENDERED_COLLISION_GEO
     static constexpr const char* DEFAULT_RENDERED_COLLISION_GEO = "rendered_collision_geo";
     // Get static field: static public System.String DEFAULT_RENDERED_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_RENDERED_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_RENDERED_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_RENDERED_COLLISION_GEO
-    static void _set_DEFAULT_RENDERED_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_RENDERED_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_RENDERED_CONVEX_COLLISION_GEO
     static constexpr const char* DEFAULT_RENDERED_CONVEX_COLLISION_GEO = "rendered_convex_collision_geo";
     // Get static field: static public System.String DEFAULT_RENDERED_CONVEX_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_RENDERED_CONVEX_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_RENDERED_CONVEX_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_RENDERED_CONVEX_COLLISION_GEO
-    static void _set_DEFAULT_RENDERED_CONVEX_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_RENDERED_CONVEX_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_CONVEX_COLLISION_GEO
     static constexpr const char* DEFAULT_CONVEX_COLLISION_GEO = "convex";
     // Get static field: static public System.String DEFAULT_CONVEX_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_CONVEX_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_CONVEX_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_CONVEX_COLLISION_GEO
-    static void _set_DEFAULT_CONVEX_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_CONVEX_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_SIMPLE_COLLISION_GEO
     static constexpr const char* DEFAULT_SIMPLE_COLLISION_GEO = "collision_geo_simple";
     // Get static field: static public System.String DEFAULT_SIMPLE_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_SIMPLE_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_SIMPLE_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_SIMPLE_COLLISION_GEO
-    static void _set_DEFAULT_SIMPLE_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_SIMPLE_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_SIMPLE_RENDERED_COLLISION_GEO
     static constexpr const char* DEFAULT_SIMPLE_RENDERED_COLLISION_GEO = "rendered_collision_geo_simple";
     // Get static field: static public System.String DEFAULT_SIMPLE_RENDERED_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_SIMPLE_RENDERED_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_SIMPLE_RENDERED_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_SIMPLE_RENDERED_COLLISION_GEO
-    static void _set_DEFAULT_SIMPLE_RENDERED_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_SIMPLE_RENDERED_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO
     static constexpr const char* DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO = "rendered_convex_collision_geo_simple";
     // Get static field: static public System.String DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO
-    static ::Il2CppString* _get_DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO();
+    static ::StringW _get_DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO();
     // Set static field: static public System.String DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO
-    static void _set_DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO(::Il2CppString* value);
+    static void _set_DEFAULT_SIMPLE_RENDERED_CONVEX_COLLISION_GEO(::StringW value);
     // static field const value: static public System.String DEFAULT_COLLISION_TRIGGER
     static constexpr const char* DEFAULT_COLLISION_TRIGGER = "trigger";
     // Get static field: static public System.String DEFAULT_COLLISION_TRIGGER
-    static ::Il2CppString* _get_DEFAULT_COLLISION_TRIGGER();
+    static ::StringW _get_DEFAULT_COLLISION_TRIGGER();
     // Set static field: static public System.String DEFAULT_COLLISION_TRIGGER
-    static void _set_DEFAULT_COLLISION_TRIGGER(::Il2CppString* value);
+    static void _set_DEFAULT_COLLISION_TRIGGER(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_MATERIAL_ATTR
     static constexpr const char* DEFAULT_UNITY_MATERIAL_ATTR = "unity_material";
     // Get static field: static public System.String DEFAULT_UNITY_MATERIAL_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_MATERIAL_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_MATERIAL_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_MATERIAL_ATTR
-    static void _set_DEFAULT_UNITY_MATERIAL_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_MATERIAL_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR
     static constexpr const char* DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR = "unity_sub_material_name";
     // Get static field: static public System.String DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR
-    static void _set_DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_SUBMATERIAL_NAME_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR
     static constexpr const char* DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR = "unity_sub_material_index";
     // Get static field: static public System.String DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR
-    static void _set_DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_SUBMATERIAL_INDEX_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR = "unity_hf_texture_diffuse";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_DIFFUSE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR = "unity_hf_texture_mask";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_MASK_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR = "unity_hf_texture_normal";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TEXTURE_NORMAL_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR = "unity_hf_normal_scale";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_NORMAL_SCALE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR = "unity_hf_metallic";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_METALLIC_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR = "unity_hf_smoothness";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_SMOOTHNESS_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR = "unity_hf_specular";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_SPECULAR_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR = "unity_hf_tile_offset";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TILE_OFFSET_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR = "unity_hf_tile_size";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TILE_SIZE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR = "unity_hf_terraindata_file";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_FILE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR = "unity_hf_terraindata_export_file";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_FILE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR = "unity_hf_terrainlayer_file";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINLAYER_FILE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH = "unity_hf_terraindata_export_path";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_TERRAINDATA_EXPORT_PATH(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE = "unity_hf_height_range";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_HEIGHT_RANGE(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_HEIGHTFIELD_YPOS
     static constexpr const char* DEFAULT_UNITY_HEIGHTFIELD_YPOS = "unity_hf_ypos";
     // Get static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_YPOS
-    static ::Il2CppString* _get_DEFAULT_UNITY_HEIGHTFIELD_YPOS();
+    static ::StringW _get_DEFAULT_UNITY_HEIGHTFIELD_YPOS();
     // Set static field: static public System.String DEFAULT_UNITY_HEIGHTFIELD_YPOS
-    static void _set_DEFAULT_UNITY_HEIGHTFIELD_YPOS(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_HEIGHTFIELD_YPOS(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_TREEPROTOTYPE
     static constexpr const char* HEIGHTFIELD_TREEPROTOTYPE = "unity_hf_tree_prototype";
     // Get static field: static public System.String HEIGHTFIELD_TREEPROTOTYPE
-    static ::Il2CppString* _get_HEIGHTFIELD_TREEPROTOTYPE();
+    static ::StringW _get_HEIGHTFIELD_TREEPROTOTYPE();
     // Set static field: static public System.String HEIGHTFIELD_TREEPROTOTYPE
-    static void _set_HEIGHTFIELD_TREEPROTOTYPE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_TREEPROTOTYPE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX
     static constexpr const char* HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX = "unity_hf_treeinstance_prototypeindex";
     // Get static field: static public System.String HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX
-    static ::Il2CppString* _get_HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX();
+    static ::StringW _get_HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX();
     // Set static field: static public System.String HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX
-    static void _set_HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_TREEINSTANCE_PROTOTYPEINDEX(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE
     static constexpr const char* HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE = "unity_hf_treeinstance_heightscale";
     // Get static field: static public System.String HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE
-    static ::Il2CppString* _get_HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE();
+    static ::StringW _get_HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE();
     // Set static field: static public System.String HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE
-    static void _set_HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_TREEINSTANCE_HEIGHTSCALE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE
     static constexpr const char* HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE = "unity_hf_treeinstance_widthscale";
     // Get static field: static public System.String HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE
-    static ::Il2CppString* _get_HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE();
+    static ::StringW _get_HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE();
     // Set static field: static public System.String HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE
-    static void _set_HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_TREEINSTANCE_WIDTHSCALE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR
     static constexpr const char* HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR = "unity_hf_treeinstance_lightmapcolor";
     // Get static field: static public System.String HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR
-    static ::Il2CppString* _get_HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR();
+    static ::StringW _get_HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR();
     // Set static field: static public System.String HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR
-    static void _set_HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_TREEINSTANCE_LIGHTMAPCOLOR(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH
     static constexpr const char* HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH = "unity_hf_detail_resolution_patch";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH
-    static void _set_HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_RESOLUTION_PER_PATCH(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_UNITY_TILE
     static constexpr const char* HEIGHTFIELD_UNITY_TILE = "unity_hf_tile";
     // Get static field: static public System.String HEIGHTFIELD_UNITY_TILE
-    static ::Il2CppString* _get_HEIGHTFIELD_UNITY_TILE();
+    static ::StringW _get_HEIGHTFIELD_UNITY_TILE();
     // Set static field: static public System.String HEIGHTFIELD_UNITY_TILE
-    static void _set_HEIGHTFIELD_UNITY_TILE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_UNITY_TILE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_DISTANCE
     static constexpr const char* HEIGHTFIELD_DETAIL_DISTANCE = "unity_hf_detail_distance";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_DISTANCE
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_DISTANCE();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_DISTANCE();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_DISTANCE
-    static void _set_HEIGHTFIELD_DETAIL_DISTANCE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_DISTANCE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_DENSITY
     static constexpr const char* HEIGHTFIELD_DETAIL_DENSITY = "unity_hf_detail_density";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_DENSITY
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_DENSITY();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_DENSITY();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_DENSITY
-    static void _set_HEIGHTFIELD_DETAIL_DENSITY(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_DENSITY(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB = "unity_hf_detail_prototype_prefab";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_PREFAB(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE = "unity_hf_detail_prototype_texture";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_TEXTURE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR = "unity_hf_detail_prototype_bendfactor";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_BENDFACTOR(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR = "unity_hf_detail_prototype_drycolor";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_DRYCOLOR(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR = "unity_hf_detail_prototype_healthycolor";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_HEALTHYCOLOR(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT = "unity_hf_detail_prototype_maxheight";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXHEIGHT(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH = "unity_hf_detail_prototype_maxwidth";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MAXWIDTH(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT = "unity_hf_detail_prototype_minheight";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MINHEIGHT(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH = "unity_hf_detail_prototype_minwidth";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_MINWIDTH(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD = "unity_hf_detail_prototype_noisespread";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_NOISESPREAD(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE
     static constexpr const char* HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE = "unity_hf_detail_prototype_rendermode";
     // Get static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE
-    static ::Il2CppString* _get_HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE();
+    static ::StringW _get_HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE();
     // Set static field: static public System.String HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE
-    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_DETAIL_PROTOTYPE_RENDERMODE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_LAYER_ATTR_TYPE
     static constexpr const char* HEIGHTFIELD_LAYER_ATTR_TYPE = "unity_hf_layer_type";
     // Get static field: static public System.String HEIGHTFIELD_LAYER_ATTR_TYPE
-    static ::Il2CppString* _get_HEIGHTFIELD_LAYER_ATTR_TYPE();
+    static ::StringW _get_HEIGHTFIELD_LAYER_ATTR_TYPE();
     // Set static field: static public System.String HEIGHTFIELD_LAYER_ATTR_TYPE
-    static void _set_HEIGHTFIELD_LAYER_ATTR_TYPE(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_LAYER_ATTR_TYPE(::StringW value);
     // static field const value: static public System.String HEIGHTFIELD_LAYER_TYPE_DETAIL
     static constexpr const char* HEIGHTFIELD_LAYER_TYPE_DETAIL = "detail";
     // Get static field: static public System.String HEIGHTFIELD_LAYER_TYPE_DETAIL
-    static ::Il2CppString* _get_HEIGHTFIELD_LAYER_TYPE_DETAIL();
+    static ::StringW _get_HEIGHTFIELD_LAYER_TYPE_DETAIL();
     // Set static field: static public System.String HEIGHTFIELD_LAYER_TYPE_DETAIL
-    static void _set_HEIGHTFIELD_LAYER_TYPE_DETAIL(::Il2CppString* value);
+    static void _set_HEIGHTFIELD_LAYER_TYPE_DETAIL(::StringW value);
     // static field const value: static public System.String HAPI_HEIGHTFIELD_TILE_ATTR
     static constexpr const char* HAPI_HEIGHTFIELD_TILE_ATTR = "tile";
     // Get static field: static public System.String HAPI_HEIGHTFIELD_TILE_ATTR
-    static ::Il2CppString* _get_HAPI_HEIGHTFIELD_TILE_ATTR();
+    static ::StringW _get_HAPI_HEIGHTFIELD_TILE_ATTR();
     // Set static field: static public System.String HAPI_HEIGHTFIELD_TILE_ATTR
-    static void _set_HAPI_HEIGHTFIELD_TILE_ATTR(::Il2CppString* value);
+    static void _set_HAPI_HEIGHTFIELD_TILE_ATTR(::StringW value);
     // static field const value: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT
     static constexpr const char* HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT = "height";
     // Get static field: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT
-    static ::Il2CppString* _get_HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT();
+    static ::StringW _get_HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT();
     // Set static field: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT
-    static void _set_HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT(::Il2CppString* value);
+    static void _set_HAPI_HEIGHTFIELD_LAYERNAME_HEIGHT(::StringW value);
     // static field const value: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_MASK
     static constexpr const char* HAPI_HEIGHTFIELD_LAYERNAME_MASK = "mask";
     // Get static field: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_MASK
-    static ::Il2CppString* _get_HAPI_HEIGHTFIELD_LAYERNAME_MASK();
+    static ::StringW _get_HAPI_HEIGHTFIELD_LAYERNAME_MASK();
     // Set static field: static public System.String HAPI_HEIGHTFIELD_LAYERNAME_MASK
-    static void _set_HAPI_HEIGHTFIELD_LAYERNAME_MASK(::Il2CppString* value);
+    static void _set_HAPI_HEIGHTFIELD_LAYERNAME_MASK(::StringW value);
     // static field const value: static public System.String MAT_OGL_DIFF_ATTR
     static constexpr const char* MAT_OGL_DIFF_ATTR = "ogl_diff";
     // Get static field: static public System.String MAT_OGL_DIFF_ATTR
-    static ::Il2CppString* _get_MAT_OGL_DIFF_ATTR();
+    static ::StringW _get_MAT_OGL_DIFF_ATTR();
     // Set static field: static public System.String MAT_OGL_DIFF_ATTR
-    static void _set_MAT_OGL_DIFF_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_DIFF_ATTR(::StringW value);
     // static field const value: static public System.String MAT_DIFF_ATTR
     static constexpr const char* MAT_DIFF_ATTR = "basecolor";
     // Get static field: static public System.String MAT_DIFF_ATTR
-    static ::Il2CppString* _get_MAT_DIFF_ATTR();
+    static ::StringW _get_MAT_DIFF_ATTR();
     // Set static field: static public System.String MAT_DIFF_ATTR
-    static void _set_MAT_DIFF_ATTR(::Il2CppString* value);
+    static void _set_MAT_DIFF_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_TEX1_ATTR
     static constexpr const char* MAT_OGL_TEX1_ATTR = "ogl_tex1";
     // Get static field: static public System.String MAT_OGL_TEX1_ATTR
-    static ::Il2CppString* _get_MAT_OGL_TEX1_ATTR();
+    static ::StringW _get_MAT_OGL_TEX1_ATTR();
     // Set static field: static public System.String MAT_OGL_TEX1_ATTR
-    static void _set_MAT_OGL_TEX1_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_TEX1_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_TEX1_ATTR_ENABLED
     static constexpr const char* MAT_OGL_TEX1_ATTR_ENABLED = "ogl_use_tex1";
     // Get static field: static public System.String MAT_OGL_TEX1_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_TEX1_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_TEX1_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_TEX1_ATTR_ENABLED
-    static void _set_MAT_OGL_TEX1_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_TEX1_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_BASECOLOR_ATTR
     static constexpr const char* MAT_BASECOLOR_ATTR = "basecolor_texture";
     // Get static field: static public System.String MAT_BASECOLOR_ATTR
-    static ::Il2CppString* _get_MAT_BASECOLOR_ATTR();
+    static ::StringW _get_MAT_BASECOLOR_ATTR();
     // Set static field: static public System.String MAT_BASECOLOR_ATTR
-    static void _set_MAT_BASECOLOR_ATTR(::Il2CppString* value);
+    static void _set_MAT_BASECOLOR_ATTR(::StringW value);
     // static field const value: static public System.String MAT_BASECOLOR_ATTR_ENABLED
     static constexpr const char* MAT_BASECOLOR_ATTR_ENABLED = "basecolor_useTexture";
     // Get static field: static public System.String MAT_BASECOLOR_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_BASECOLOR_ATTR_ENABLED();
+    static ::StringW _get_MAT_BASECOLOR_ATTR_ENABLED();
     // Set static field: static public System.String MAT_BASECOLOR_ATTR_ENABLED
-    static void _set_MAT_BASECOLOR_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_BASECOLOR_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_MAP_ATTR
     static constexpr const char* MAT_MAP_ATTR = "map";
     // Get static field: static public System.String MAT_MAP_ATTR
-    static ::Il2CppString* _get_MAT_MAP_ATTR();
+    static ::StringW _get_MAT_MAP_ATTR();
     // Set static field: static public System.String MAT_MAP_ATTR
-    static void _set_MAT_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_NORMAL_ATTR
     static constexpr const char* MAT_OGL_NORMAL_ATTR = "ogl_normalmap";
     // Get static field: static public System.String MAT_OGL_NORMAL_ATTR
-    static ::Il2CppString* _get_MAT_OGL_NORMAL_ATTR();
+    static ::StringW _get_MAT_OGL_NORMAL_ATTR();
     // Set static field: static public System.String MAT_OGL_NORMAL_ATTR
-    static void _set_MAT_OGL_NORMAL_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_NORMAL_ATTR(::StringW value);
     // static field const value: static public System.String MAT_NORMAL_ATTR
     static constexpr const char* MAT_NORMAL_ATTR = "baseNormal_texture";
     // Get static field: static public System.String MAT_NORMAL_ATTR
-    static ::Il2CppString* _get_MAT_NORMAL_ATTR();
+    static ::StringW _get_MAT_NORMAL_ATTR();
     // Set static field: static public System.String MAT_NORMAL_ATTR
-    static void _set_MAT_NORMAL_ATTR(::Il2CppString* value);
+    static void _set_MAT_NORMAL_ATTR(::StringW value);
     // static field const value: static public System.String MAT_NORMAL_ATTR_ENABLED
     static constexpr const char* MAT_NORMAL_ATTR_ENABLED = "baseBumpAndNormal_enable";
     // Get static field: static public System.String MAT_NORMAL_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_NORMAL_ATTR_ENABLED();
+    static ::StringW _get_MAT_NORMAL_ATTR_ENABLED();
     // Set static field: static public System.String MAT_NORMAL_ATTR_ENABLED
-    static void _set_MAT_NORMAL_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_NORMAL_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_SPEC_ATTR
     static constexpr const char* MAT_OGL_SPEC_ATTR = "ogl_spec";
     // Get static field: static public System.String MAT_OGL_SPEC_ATTR
-    static ::Il2CppString* _get_MAT_OGL_SPEC_ATTR();
+    static ::StringW _get_MAT_OGL_SPEC_ATTR();
     // Set static field: static public System.String MAT_OGL_SPEC_ATTR
-    static void _set_MAT_OGL_SPEC_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_SPEC_ATTR(::StringW value);
     // static field const value: static public System.String MAT_SPEC_ATTR
     static constexpr const char* MAT_SPEC_ATTR = "reflect";
     // Get static field: static public System.String MAT_SPEC_ATTR
-    static ::Il2CppString* _get_MAT_SPEC_ATTR();
+    static ::StringW _get_MAT_SPEC_ATTR();
     // Set static field: static public System.String MAT_SPEC_ATTR
-    static void _set_MAT_SPEC_ATTR(::Il2CppString* value);
+    static void _set_MAT_SPEC_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_SPEC_MAP_ATTR
     static constexpr const char* MAT_OGL_SPEC_MAP_ATTR = "ogl_specmap";
     // Get static field: static public System.String MAT_OGL_SPEC_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_SPEC_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_SPEC_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_SPEC_MAP_ATTR
-    static void _set_MAT_OGL_SPEC_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_SPEC_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_SPEC_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_SPEC_MAP_ATTR_ENABLED = "ogl_use_specmap";
     // Get static field: static public System.String MAT_OGL_SPEC_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_SPEC_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_SPEC_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_SPEC_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_SPEC_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_SPEC_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_SPEC_MAP_ATTR
     static constexpr const char* MAT_SPEC_MAP_ATTR = "reflect_texture";
     // Get static field: static public System.String MAT_SPEC_MAP_ATTR
-    static ::Il2CppString* _get_MAT_SPEC_MAP_ATTR();
+    static ::StringW _get_MAT_SPEC_MAP_ATTR();
     // Set static field: static public System.String MAT_SPEC_MAP_ATTR
-    static void _set_MAT_SPEC_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_SPEC_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_SPEC_MAP_ATTR_ENABLED
     static constexpr const char* MAT_SPEC_MAP_ATTR_ENABLED = "reflect_useTexture";
     // Get static field: static public System.String MAT_SPEC_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_SPEC_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_SPEC_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_SPEC_MAP_ATTR_ENABLED
-    static void _set_MAT_SPEC_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_SPEC_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_ROUGH_ATTR
     static constexpr const char* MAT_OGL_ROUGH_ATTR = "ogl_rough";
     // Get static field: static public System.String MAT_OGL_ROUGH_ATTR
-    static ::Il2CppString* _get_MAT_OGL_ROUGH_ATTR();
+    static ::StringW _get_MAT_OGL_ROUGH_ATTR();
     // Set static field: static public System.String MAT_OGL_ROUGH_ATTR
-    static void _set_MAT_OGL_ROUGH_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_ROUGH_ATTR(::StringW value);
     // static field const value: static public System.String MAT_ROUGH_ATTR
     static constexpr const char* MAT_ROUGH_ATTR = "rough";
     // Get static field: static public System.String MAT_ROUGH_ATTR
-    static ::Il2CppString* _get_MAT_ROUGH_ATTR();
+    static ::StringW _get_MAT_ROUGH_ATTR();
     // Set static field: static public System.String MAT_ROUGH_ATTR
-    static void _set_MAT_ROUGH_ATTR(::Il2CppString* value);
+    static void _set_MAT_ROUGH_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_ROUGH_MAP_ATTR
     static constexpr const char* MAT_OGL_ROUGH_MAP_ATTR = "ogl_roughmap";
     // Get static field: static public System.String MAT_OGL_ROUGH_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_ROUGH_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_ROUGH_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_ROUGH_MAP_ATTR
-    static void _set_MAT_OGL_ROUGH_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_ROUGH_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_ROUGH_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_ROUGH_MAP_ATTR_ENABLED = "ogl_use_roughmap";
     // Get static field: static public System.String MAT_OGL_ROUGH_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_ROUGH_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_ROUGH_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_ROUGH_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_ROUGH_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_ROUGH_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_ROUGH_MAP_ATTR
     static constexpr const char* MAT_ROUGH_MAP_ATTR = "rough_texture";
     // Get static field: static public System.String MAT_ROUGH_MAP_ATTR
-    static ::Il2CppString* _get_MAT_ROUGH_MAP_ATTR();
+    static ::StringW _get_MAT_ROUGH_MAP_ATTR();
     // Set static field: static public System.String MAT_ROUGH_MAP_ATTR
-    static void _set_MAT_ROUGH_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_ROUGH_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_ROUGH_MAP_ATTR_ENABLED
     static constexpr const char* MAT_ROUGH_MAP_ATTR_ENABLED = "rough_useTexture";
     // Get static field: static public System.String MAT_ROUGH_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_ROUGH_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_ROUGH_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_ROUGH_MAP_ATTR_ENABLED
-    static void _set_MAT_ROUGH_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_ROUGH_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_METALLIC_ATTR
     static constexpr const char* MAT_OGL_METALLIC_ATTR = "ogl_metallic";
     // Get static field: static public System.String MAT_OGL_METALLIC_ATTR
-    static ::Il2CppString* _get_MAT_OGL_METALLIC_ATTR();
+    static ::StringW _get_MAT_OGL_METALLIC_ATTR();
     // Set static field: static public System.String MAT_OGL_METALLIC_ATTR
-    static void _set_MAT_OGL_METALLIC_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_METALLIC_ATTR(::StringW value);
     // static field const value: static public System.String MAT_METALLIC_ATTR
     static constexpr const char* MAT_METALLIC_ATTR = "metallic";
     // Get static field: static public System.String MAT_METALLIC_ATTR
-    static ::Il2CppString* _get_MAT_METALLIC_ATTR();
+    static ::StringW _get_MAT_METALLIC_ATTR();
     // Set static field: static public System.String MAT_METALLIC_ATTR
-    static void _set_MAT_METALLIC_ATTR(::Il2CppString* value);
+    static void _set_MAT_METALLIC_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_METALLIC_MAP_ATTR
     static constexpr const char* MAT_OGL_METALLIC_MAP_ATTR = "ogl_metallicmap";
     // Get static field: static public System.String MAT_OGL_METALLIC_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_METALLIC_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_METALLIC_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_METALLIC_MAP_ATTR
-    static void _set_MAT_OGL_METALLIC_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_METALLIC_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_METALLIC_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_METALLIC_MAP_ATTR_ENABLED = "ogl_use_metallicmap";
     // Get static field: static public System.String MAT_OGL_METALLIC_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_METALLIC_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_METALLIC_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_METALLIC_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_METALLIC_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_METALLIC_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_METALLIC_MAP_ATTR
     static constexpr const char* MAT_METALLIC_MAP_ATTR = "metallic_texture";
     // Get static field: static public System.String MAT_METALLIC_MAP_ATTR
-    static ::Il2CppString* _get_MAT_METALLIC_MAP_ATTR();
+    static ::StringW _get_MAT_METALLIC_MAP_ATTR();
     // Set static field: static public System.String MAT_METALLIC_MAP_ATTR
-    static void _set_MAT_METALLIC_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_METALLIC_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_METALLIC_MAP_ATTR_ENABLED
     static constexpr const char* MAT_METALLIC_MAP_ATTR_ENABLED = "metallic_useTexture";
     // Get static field: static public System.String MAT_METALLIC_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_METALLIC_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_METALLIC_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_METALLIC_MAP_ATTR_ENABLED
-    static void _set_MAT_METALLIC_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_METALLIC_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_EMISSIVE_ATTR
     static constexpr const char* MAT_OGL_EMISSIVE_ATTR = "ogl_emit";
     // Get static field: static public System.String MAT_OGL_EMISSIVE_ATTR
-    static ::Il2CppString* _get_MAT_OGL_EMISSIVE_ATTR();
+    static ::StringW _get_MAT_OGL_EMISSIVE_ATTR();
     // Set static field: static public System.String MAT_OGL_EMISSIVE_ATTR
-    static void _set_MAT_OGL_EMISSIVE_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_EMISSIVE_ATTR(::StringW value);
     // static field const value: static public System.String MAT_EMISSIVE_ATTR
     static constexpr const char* MAT_EMISSIVE_ATTR = "emitcolor";
     // Get static field: static public System.String MAT_EMISSIVE_ATTR
-    static ::Il2CppString* _get_MAT_EMISSIVE_ATTR();
+    static ::StringW _get_MAT_EMISSIVE_ATTR();
     // Set static field: static public System.String MAT_EMISSIVE_ATTR
-    static void _set_MAT_EMISSIVE_ATTR(::Il2CppString* value);
+    static void _set_MAT_EMISSIVE_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR
     static constexpr const char* MAT_OGL_EMISSIVE_MAP_ATTR = "ogl_emissionmap";
     // Get static field: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_EMISSIVE_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_EMISSIVE_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR
-    static void _set_MAT_OGL_EMISSIVE_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_EMISSIVE_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED = "ogl_use_emissionmap";
     // Get static field: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_EMISSIVE_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_EMISSIVE_MAP_ATTR
     static constexpr const char* MAT_EMISSIVE_MAP_ATTR = "emitcolor_texture";
     // Get static field: static public System.String MAT_EMISSIVE_MAP_ATTR
-    static ::Il2CppString* _get_MAT_EMISSIVE_MAP_ATTR();
+    static ::StringW _get_MAT_EMISSIVE_MAP_ATTR();
     // Set static field: static public System.String MAT_EMISSIVE_MAP_ATTR
-    static void _set_MAT_EMISSIVE_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_EMISSIVE_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_EMISSIVE_MAP_ATTR_ENABLED
     static constexpr const char* MAT_EMISSIVE_MAP_ATTR_ENABLED = "emitcolor_useTexture";
     // Get static field: static public System.String MAT_EMISSIVE_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_EMISSIVE_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_EMISSIVE_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_EMISSIVE_MAP_ATTR_ENABLED
-    static void _set_MAT_EMISSIVE_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_EMISSIVE_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_ALPHA_ATTR
     static constexpr const char* MAT_OGL_ALPHA_ATTR = "ogl_alpha";
     // Get static field: static public System.String MAT_OGL_ALPHA_ATTR
-    static ::Il2CppString* _get_MAT_OGL_ALPHA_ATTR();
+    static ::StringW _get_MAT_OGL_ALPHA_ATTR();
     // Set static field: static public System.String MAT_OGL_ALPHA_ATTR
-    static void _set_MAT_OGL_ALPHA_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_ALPHA_ATTR(::StringW value);
     // static field const value: static public System.String MAT_ALPHA_ATTR
     static constexpr const char* MAT_ALPHA_ATTR = "opac";
     // Get static field: static public System.String MAT_ALPHA_ATTR
-    static ::Il2CppString* _get_MAT_ALPHA_ATTR();
+    static ::StringW _get_MAT_ALPHA_ATTR();
     // Set static field: static public System.String MAT_ALPHA_ATTR
-    static void _set_MAT_ALPHA_ATTR(::Il2CppString* value);
+    static void _set_MAT_ALPHA_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_OPACITY_MAP_ATTR
     static constexpr const char* MAT_OGL_OPACITY_MAP_ATTR = "ogl_opacitymap";
     // Get static field: static public System.String MAT_OGL_OPACITY_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_OPACITY_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_OPACITY_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_OPACITY_MAP_ATTR
-    static void _set_MAT_OGL_OPACITY_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_OPACITY_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_OPACITY_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_OPACITY_MAP_ATTR_ENABLED = "ogl_use_opacitymap";
     // Get static field: static public System.String MAT_OGL_OPACITY_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_OPACITY_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_OPACITY_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_OPACITY_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_OPACITY_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_OPACITY_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OPACITY_MAP_ATTR
     static constexpr const char* MAT_OPACITY_MAP_ATTR = "opaccolor_texture";
     // Get static field: static public System.String MAT_OPACITY_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OPACITY_MAP_ATTR();
+    static ::StringW _get_MAT_OPACITY_MAP_ATTR();
     // Set static field: static public System.String MAT_OPACITY_MAP_ATTR
-    static void _set_MAT_OPACITY_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OPACITY_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OPACITY_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OPACITY_MAP_ATTR_ENABLED = "opaccolor_useTexture";
     // Get static field: static public System.String MAT_OPACITY_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OPACITY_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OPACITY_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OPACITY_MAP_ATTR_ENABLED
-    static void _set_MAT_OPACITY_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OPACITY_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_TRANSPARENCY_ATTR
     static constexpr const char* MAT_OGL_TRANSPARENCY_ATTR = "ogl_transparency";
     // Get static field: static public System.String MAT_OGL_TRANSPARENCY_ATTR
-    static ::Il2CppString* _get_MAT_OGL_TRANSPARENCY_ATTR();
+    static ::StringW _get_MAT_OGL_TRANSPARENCY_ATTR();
     // Set static field: static public System.String MAT_OGL_TRANSPARENCY_ATTR
-    static void _set_MAT_OGL_TRANSPARENCY_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_TRANSPARENCY_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_TRANSPARENCY_ATTR_ENABLED
     static constexpr const char* MAT_OGL_TRANSPARENCY_ATTR_ENABLED = "ogl_use_alpha_transparency";
     // Get static field: static public System.String MAT_OGL_TRANSPARENCY_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_TRANSPARENCY_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_TRANSPARENCY_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_TRANSPARENCY_ATTR_ENABLED
-    static void _set_MAT_OGL_TRANSPARENCY_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_TRANSPARENCY_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR
     static constexpr const char* MAT_OGL_OCCLUSION_MAP_ATTR = "ogl_occlusionmap";
     // Get static field: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR
-    static ::Il2CppString* _get_MAT_OGL_OCCLUSION_MAP_ATTR();
+    static ::StringW _get_MAT_OGL_OCCLUSION_MAP_ATTR();
     // Set static field: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR
-    static void _set_MAT_OGL_OCCLUSION_MAP_ATTR(::Il2CppString* value);
+    static void _set_MAT_OGL_OCCLUSION_MAP_ATTR(::StringW value);
     // static field const value: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED
     static constexpr const char* MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED = "ogl_use_occlusionmap";
     // Get static field: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED
-    static ::Il2CppString* _get_MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED();
+    static ::StringW _get_MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED();
     // Set static field: static public System.String MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED
-    static void _set_MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED(::Il2CppString* value);
+    static void _set_MAT_OGL_OCCLUSION_MAP_ATTR_ENABLED(::StringW value);
     // static field const value: static public System.String CURVE_COORDS_PARAM
     static constexpr const char* CURVE_COORDS_PARAM = "coords";
     // Get static field: static public System.String CURVE_COORDS_PARAM
-    static ::Il2CppString* _get_CURVE_COORDS_PARAM();
+    static ::StringW _get_CURVE_COORDS_PARAM();
     // Set static field: static public System.String CURVE_COORDS_PARAM
-    static void _set_CURVE_COORDS_PARAM(::Il2CppString* value);
+    static void _set_CURVE_COORDS_PARAM(::StringW value);
     // static field const value: static public System.String CURVE_TYPE_PARAM
     static constexpr const char* CURVE_TYPE_PARAM = "type";
     // Get static field: static public System.String CURVE_TYPE_PARAM
-    static ::Il2CppString* _get_CURVE_TYPE_PARAM();
+    static ::StringW _get_CURVE_TYPE_PARAM();
     // Set static field: static public System.String CURVE_TYPE_PARAM
-    static void _set_CURVE_TYPE_PARAM(::Il2CppString* value);
+    static void _set_CURVE_TYPE_PARAM(::StringW value);
     // static field const value: static public System.String CURVE_METHOD_PARAM
     static constexpr const char* CURVE_METHOD_PARAM = "method";
     // Get static field: static public System.String CURVE_METHOD_PARAM
-    static ::Il2CppString* _get_CURVE_METHOD_PARAM();
+    static ::StringW _get_CURVE_METHOD_PARAM();
     // Set static field: static public System.String CURVE_METHOD_PARAM
-    static void _set_CURVE_METHOD_PARAM(::Il2CppString* value);
+    static void _set_CURVE_METHOD_PARAM(::StringW value);
     // static field const value: static public System.String CURVE_CLOSE_PARAM
     static constexpr const char* CURVE_CLOSE_PARAM = "close";
     // Get static field: static public System.String CURVE_CLOSE_PARAM
-    static ::Il2CppString* _get_CURVE_CLOSE_PARAM();
+    static ::StringW _get_CURVE_CLOSE_PARAM();
     // Set static field: static public System.String CURVE_CLOSE_PARAM
-    static void _set_CURVE_CLOSE_PARAM(::Il2CppString* value);
+    static void _set_CURVE_CLOSE_PARAM(::StringW value);
     // static field const value: static public System.String CURVE_REVERSE_PARAM
     static constexpr const char* CURVE_REVERSE_PARAM = "reverse";
     // Get static field: static public System.String CURVE_REVERSE_PARAM
-    static ::Il2CppString* _get_CURVE_REVERSE_PARAM();
+    static ::StringW _get_CURVE_REVERSE_PARAM();
     // Set static field: static public System.String CURVE_REVERSE_PARAM
-    static void _set_CURVE_REVERSE_PARAM(::Il2CppString* value);
+    static void _set_CURVE_REVERSE_PARAM(::StringW value);
     // static field const value: static public System.String HENGINE_STORE_ATTR
     static constexpr const char* HENGINE_STORE_ATTR = "hengine_attr_store";
     // Get static field: static public System.String HENGINE_STORE_ATTR
-    static ::Il2CppString* _get_HENGINE_STORE_ATTR();
+    static ::StringW _get_HENGINE_STORE_ATTR();
     // Set static field: static public System.String HENGINE_STORE_ATTR
-    static void _set_HENGINE_STORE_ATTR(::Il2CppString* value);
+    static void _set_HENGINE_STORE_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_TAG_ATTR
     static constexpr const char* DEFAULT_UNITY_TAG_ATTR = "unity_tag";
     // Get static field: static public System.String DEFAULT_UNITY_TAG_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_TAG_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_TAG_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_TAG_ATTR
-    static void _set_DEFAULT_UNITY_TAG_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_TAG_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_SCRIPT_ATTR
     static constexpr const char* DEFAULT_UNITY_SCRIPT_ATTR = "unity_script";
     // Get static field: static public System.String DEFAULT_UNITY_SCRIPT_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_SCRIPT_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_SCRIPT_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_SCRIPT_ATTR
-    static void _set_DEFAULT_UNITY_SCRIPT_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_SCRIPT_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_INSTANCE_ATTR
     static constexpr const char* DEFAULT_UNITY_INSTANCE_ATTR = "unity_instance";
     // Get static field: static public System.String DEFAULT_UNITY_INSTANCE_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_INSTANCE_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_INSTANCE_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_INSTANCE_ATTR
-    static void _set_DEFAULT_UNITY_INSTANCE_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_INSTANCE_ATTR(::StringW value);
     // static field const value: static public System.String UNITY_USE_INSTANCE_FLAGS_ATTR
     static constexpr const char* UNITY_USE_INSTANCE_FLAGS_ATTR = "unity_use_instance_flags";
     // Get static field: static public System.String UNITY_USE_INSTANCE_FLAGS_ATTR
-    static ::Il2CppString* _get_UNITY_USE_INSTANCE_FLAGS_ATTR();
+    static ::StringW _get_UNITY_USE_INSTANCE_FLAGS_ATTR();
     // Set static field: static public System.String UNITY_USE_INSTANCE_FLAGS_ATTR
-    static void _set_UNITY_USE_INSTANCE_FLAGS_ATTR(::Il2CppString* value);
+    static void _set_UNITY_USE_INSTANCE_FLAGS_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_INPUT_MESH_ATTR
     static constexpr const char* DEFAULT_UNITY_INPUT_MESH_ATTR = "unity_input_mesh_name";
     // Get static field: static public System.String DEFAULT_UNITY_INPUT_MESH_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_INPUT_MESH_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_INPUT_MESH_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_INPUT_MESH_ATTR
-    static void _set_DEFAULT_UNITY_INPUT_MESH_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_INPUT_MESH_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_STATIC_ATTR
     static constexpr const char* DEFAULT_UNITY_STATIC_ATTR = "unity_static";
     // Get static field: static public System.String DEFAULT_UNITY_STATIC_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_STATIC_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_STATIC_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_STATIC_ATTR
-    static void _set_DEFAULT_UNITY_STATIC_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_STATIC_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_LAYER_ATTR
     static constexpr const char* DEFAULT_UNITY_LAYER_ATTR = "unity_layer";
     // Get static field: static public System.String DEFAULT_UNITY_LAYER_ATTR
-    static ::Il2CppString* _get_DEFAULT_UNITY_LAYER_ATTR();
+    static ::StringW _get_DEFAULT_UNITY_LAYER_ATTR();
     // Set static field: static public System.String DEFAULT_UNITY_LAYER_ATTR
-    static void _set_DEFAULT_UNITY_LAYER_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_LAYER_ATTR(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_MESH_READABLE
     static constexpr const char* DEFAULT_UNITY_MESH_READABLE = "unity_mesh_readable";
     // Get static field: static public System.String DEFAULT_UNITY_MESH_READABLE
-    static ::Il2CppString* _get_DEFAULT_UNITY_MESH_READABLE();
+    static ::StringW _get_DEFAULT_UNITY_MESH_READABLE();
     // Set static field: static public System.String DEFAULT_UNITY_MESH_READABLE
-    static void _set_DEFAULT_UNITY_MESH_READABLE(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_MESH_READABLE(::StringW value);
     // static field const value: static public System.String DEFAULT_INSTANCE_PREFIX_ATTR
     static constexpr const char* DEFAULT_INSTANCE_PREFIX_ATTR = "instance_prefix";
     // Get static field: static public System.String DEFAULT_INSTANCE_PREFIX_ATTR
-    static ::Il2CppString* _get_DEFAULT_INSTANCE_PREFIX_ATTR();
+    static ::StringW _get_DEFAULT_INSTANCE_PREFIX_ATTR();
     // Set static field: static public System.String DEFAULT_INSTANCE_PREFIX_ATTR
-    static void _set_DEFAULT_INSTANCE_PREFIX_ATTR(::Il2CppString* value);
+    static void _set_DEFAULT_INSTANCE_PREFIX_ATTR(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_COLOR
     static constexpr const char* UNITY_SHADER_COLOR = "_Color";
     // Get static field: static public System.String UNITY_SHADER_COLOR
-    static ::Il2CppString* _get_UNITY_SHADER_COLOR();
+    static ::StringW _get_UNITY_SHADER_COLOR();
     // Set static field: static public System.String UNITY_SHADER_COLOR
-    static void _set_UNITY_SHADER_COLOR(::Il2CppString* value);
+    static void _set_UNITY_SHADER_COLOR(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_SPEC_COLOR
     static constexpr const char* UNITY_SHADER_SPEC_COLOR = "_SpecColor";
     // Get static field: static public System.String UNITY_SHADER_SPEC_COLOR
-    static ::Il2CppString* _get_UNITY_SHADER_SPEC_COLOR();
+    static ::StringW _get_UNITY_SHADER_SPEC_COLOR();
     // Set static field: static public System.String UNITY_SHADER_SPEC_COLOR
-    static void _set_UNITY_SHADER_SPEC_COLOR(::Il2CppString* value);
+    static void _set_UNITY_SHADER_SPEC_COLOR(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_SPEC_MAP
     static constexpr const char* UNITY_SHADER_SPEC_MAP = "_SpecMap";
     // Get static field: static public System.String UNITY_SHADER_SPEC_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_SPEC_MAP();
+    static ::StringW _get_UNITY_SHADER_SPEC_MAP();
     // Set static field: static public System.String UNITY_SHADER_SPEC_MAP
-    static void _set_UNITY_SHADER_SPEC_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_SPEC_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_METALLIC
     static constexpr const char* UNITY_SHADER_METALLIC = "_Metallic";
     // Get static field: static public System.String UNITY_SHADER_METALLIC
-    static ::Il2CppString* _get_UNITY_SHADER_METALLIC();
+    static ::StringW _get_UNITY_SHADER_METALLIC();
     // Set static field: static public System.String UNITY_SHADER_METALLIC
-    static void _set_UNITY_SHADER_METALLIC(::Il2CppString* value);
+    static void _set_UNITY_SHADER_METALLIC(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_METALLIC_MAP
     static constexpr const char* UNITY_SHADER_METALLIC_MAP = "_MetallicMap";
     // Get static field: static public System.String UNITY_SHADER_METALLIC_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_METALLIC_MAP();
+    static ::StringW _get_UNITY_SHADER_METALLIC_MAP();
     // Set static field: static public System.String UNITY_SHADER_METALLIC_MAP
-    static void _set_UNITY_SHADER_METALLIC_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_METALLIC_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_BUMP_MAP
     static constexpr const char* UNITY_SHADER_BUMP_MAP = "_BumpMap";
     // Get static field: static public System.String UNITY_SHADER_BUMP_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_BUMP_MAP();
+    static ::StringW _get_UNITY_SHADER_BUMP_MAP();
     // Set static field: static public System.String UNITY_SHADER_BUMP_MAP
-    static void _set_UNITY_SHADER_BUMP_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_BUMP_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_EMISSION_COLOR
     static constexpr const char* UNITY_SHADER_EMISSION_COLOR = "_EmissionColor";
     // Get static field: static public System.String UNITY_SHADER_EMISSION_COLOR
-    static ::Il2CppString* _get_UNITY_SHADER_EMISSION_COLOR();
+    static ::StringW _get_UNITY_SHADER_EMISSION_COLOR();
     // Set static field: static public System.String UNITY_SHADER_EMISSION_COLOR
-    static void _set_UNITY_SHADER_EMISSION_COLOR(::Il2CppString* value);
+    static void _set_UNITY_SHADER_EMISSION_COLOR(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_EMISSION_MAP
     static constexpr const char* UNITY_SHADER_EMISSION_MAP = "_EmissionMap";
     // Get static field: static public System.String UNITY_SHADER_EMISSION_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_EMISSION_MAP();
+    static ::StringW _get_UNITY_SHADER_EMISSION_MAP();
     // Set static field: static public System.String UNITY_SHADER_EMISSION_MAP
-    static void _set_UNITY_SHADER_EMISSION_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_EMISSION_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_SMOOTHNESS
     static constexpr const char* UNITY_SHADER_SMOOTHNESS = "_Smoothness";
     // Get static field: static public System.String UNITY_SHADER_SMOOTHNESS
-    static ::Il2CppString* _get_UNITY_SHADER_SMOOTHNESS();
+    static ::StringW _get_UNITY_SHADER_SMOOTHNESS();
     // Set static field: static public System.String UNITY_SHADER_SMOOTHNESS
-    static void _set_UNITY_SHADER_SMOOTHNESS(::Il2CppString* value);
+    static void _set_UNITY_SHADER_SMOOTHNESS(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_SMOOTHNESS_MAP
     static constexpr const char* UNITY_SHADER_SMOOTHNESS_MAP = "_SmoothnessMap";
     // Get static field: static public System.String UNITY_SHADER_SMOOTHNESS_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_SMOOTHNESS_MAP();
+    static ::StringW _get_UNITY_SHADER_SMOOTHNESS_MAP();
     // Set static field: static public System.String UNITY_SHADER_SMOOTHNESS_MAP
-    static void _set_UNITY_SHADER_SMOOTHNESS_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_SMOOTHNESS_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_SHININESS
     static constexpr const char* UNITY_SHADER_SHININESS = "_Shininess";
     // Get static field: static public System.String UNITY_SHADER_SHININESS
-    static ::Il2CppString* _get_UNITY_SHADER_SHININESS();
+    static ::StringW _get_UNITY_SHADER_SHININESS();
     // Set static field: static public System.String UNITY_SHADER_SHININESS
-    static void _set_UNITY_SHADER_SHININESS(::Il2CppString* value);
+    static void _set_UNITY_SHADER_SHININESS(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_OCCLUSION
     static constexpr const char* UNITY_SHADER_OCCLUSION = "_Occlusion";
     // Get static field: static public System.String UNITY_SHADER_OCCLUSION
-    static ::Il2CppString* _get_UNITY_SHADER_OCCLUSION();
+    static ::StringW _get_UNITY_SHADER_OCCLUSION();
     // Set static field: static public System.String UNITY_SHADER_OCCLUSION
-    static void _set_UNITY_SHADER_OCCLUSION(::Il2CppString* value);
+    static void _set_UNITY_SHADER_OCCLUSION(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_OCCLUSION_MAP
     static constexpr const char* UNITY_SHADER_OCCLUSION_MAP = "_OcclusionMap";
     // Get static field: static public System.String UNITY_SHADER_OCCLUSION_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_OCCLUSION_MAP();
+    static ::StringW _get_UNITY_SHADER_OCCLUSION_MAP();
     // Set static field: static public System.String UNITY_SHADER_OCCLUSION_MAP
-    static void _set_UNITY_SHADER_OCCLUSION_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_OCCLUSION_MAP(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_OPACITY
     static constexpr const char* UNITY_SHADER_OPACITY = "_Opacity";
     // Get static field: static public System.String UNITY_SHADER_OPACITY
-    static ::Il2CppString* _get_UNITY_SHADER_OPACITY();
+    static ::StringW _get_UNITY_SHADER_OPACITY();
     // Set static field: static public System.String UNITY_SHADER_OPACITY
-    static void _set_UNITY_SHADER_OPACITY(::Il2CppString* value);
+    static void _set_UNITY_SHADER_OPACITY(::StringW value);
     // static field const value: static public System.String UNITY_SHADER_OPACITY_MAP
     static constexpr const char* UNITY_SHADER_OPACITY_MAP = "_OpacityMap";
     // Get static field: static public System.String UNITY_SHADER_OPACITY_MAP
-    static ::Il2CppString* _get_UNITY_SHADER_OPACITY_MAP();
+    static ::StringW _get_UNITY_SHADER_OPACITY_MAP();
     // Set static field: static public System.String UNITY_SHADER_OPACITY_MAP
-    static void _set_UNITY_SHADER_OPACITY_MAP(::Il2CppString* value);
+    static void _set_UNITY_SHADER_OPACITY_MAP(::StringW value);
     // static field const value: static public System.String UNITY_EDITORONLY_TAG
     static constexpr const char* UNITY_EDITORONLY_TAG = "EditorOnly";
     // Get static field: static public System.String UNITY_EDITORONLY_TAG
-    static ::Il2CppString* _get_UNITY_EDITORONLY_TAG();
+    static ::StringW _get_UNITY_EDITORONLY_TAG();
     // Set static field: static public System.String UNITY_EDITORONLY_TAG
-    static void _set_UNITY_EDITORONLY_TAG(::Il2CppString* value);
+    static void _set_UNITY_EDITORONLY_TAG(::StringW value);
     // static field const value: static public System.String UNITY_HDADATA_NAME
     static constexpr const char* UNITY_HDADATA_NAME = "HDA_Data";
     // Get static field: static public System.String UNITY_HDADATA_NAME
-    static ::Il2CppString* _get_UNITY_HDADATA_NAME();
+    static ::StringW _get_UNITY_HDADATA_NAME();
     // Set static field: static public System.String UNITY_HDADATA_NAME
-    static void _set_UNITY_HDADATA_NAME(::Il2CppString* value);
+    static void _set_UNITY_HDADATA_NAME(::StringW value);
     // static field const value: static public System.String HOUDINI_SHADER_PREFIX
     static constexpr const char* HOUDINI_SHADER_PREFIX = "Houdini/";
     // Get static field: static public System.String HOUDINI_SHADER_PREFIX
-    static ::Il2CppString* _get_HOUDINI_SHADER_PREFIX();
+    static ::StringW _get_HOUDINI_SHADER_PREFIX();
     // Set static field: static public System.String HOUDINI_SHADER_PREFIX
-    static void _set_HOUDINI_SHADER_PREFIX(::Il2CppString* value);
+    static void _set_HOUDINI_SHADER_PREFIX(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER
     static constexpr const char* DEFAULT_STANDARD_SHADER = "HoudiniStandard";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER
-    static void _set_DEFAULT_STANDARD_SHADER(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER = "HoudiniStandard";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER = "HoudiniStandardAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER
-    static void _set_DEFAULT_TRANSPARENT_SHADER(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR
     static constexpr const char* DEFAULT_STANDARD_SHADER_SPECULAR = "HoudiniSpecular";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_SPECULAR();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_SPECULAR();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR
-    static void _set_DEFAULT_STANDARD_SHADER_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY
     static constexpr const char* DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY = "Legacy/SpecularVertexColor";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY
-    static void _set_DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_SPECULAR_LEGACY(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_SPECULAR = "HoudiniSpecular";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY = "Legacy/SpecularVertexColor";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_SPECULAR_LEGACY(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_SPECULAR = "HoudiniSpecularAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_SPECULAR();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_SPECULAR();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR
-    static void _set_DEFAULT_TRANSPARENT_SHADER_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY = "Legacy/AlphaSpecularVertexColor";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY
-    static void _set_DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_SPECULAR_LEGACY(::StringW value);
     // static field const value: static public System.String DEFAULT_CURVE_SHADER
     static constexpr const char* DEFAULT_CURVE_SHADER = "LineShader";
     // Get static field: static public System.String DEFAULT_CURVE_SHADER
-    static ::Il2CppString* _get_DEFAULT_CURVE_SHADER();
+    static ::StringW _get_DEFAULT_CURVE_SHADER();
     // Set static field: static public System.String DEFAULT_CURVE_SHADER
-    static void _set_DEFAULT_CURVE_SHADER(::Il2CppString* value);
+    static void _set_DEFAULT_CURVE_SHADER(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_SHADER
     static constexpr const char* DEFAULT_TERRAIN_SHADER = "Nature/Terrain/Standard";
     // Get static field: static public System.String DEFAULT_TERRAIN_SHADER
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_SHADER();
+    static ::StringW _get_DEFAULT_TERRAIN_SHADER();
     // Set static field: static public System.String DEFAULT_TERRAIN_SHADER
-    static void _set_DEFAULT_TERRAIN_SHADER(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_SHADER(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_HDRP
     static constexpr const char* DEFAULT_STANDARD_SHADER_HDRP = "HDRP/StandardLit";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_HDRP
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_HDRP();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_HDRP();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_HDRP
-    static void _set_DEFAULT_STANDARD_SHADER_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_HDRP = "HDRP/StandardLit";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_HDRP();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_HDRP();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_HDRP = "HDRP/StandardLitAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_HDRP();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_HDRP();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP
-    static void _set_DEFAULT_TRANSPARENT_SHADER_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_HDRP_SPECULAR
     static constexpr const char* DEFAULT_STANDARD_SHADER_HDRP_SPECULAR = "HDRP/SpecularLit";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_HDRP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_HDRP_SPECULAR();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_HDRP_SPECULAR();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_HDRP_SPECULAR
-    static void _set_DEFAULT_STANDARD_SHADER_HDRP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_HDRP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR = "HDRP/SpecularLit";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_HDRP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR = "HDRP/SpecularLitAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR
-    static void _set_DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_HDRP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_CURVE_SHADER_HDRP
     static constexpr const char* DEFAULT_CURVE_SHADER_HDRP = "HDRP/Color";
     // Get static field: static public System.String DEFAULT_CURVE_SHADER_HDRP
-    static ::Il2CppString* _get_DEFAULT_CURVE_SHADER_HDRP();
+    static ::StringW _get_DEFAULT_CURVE_SHADER_HDRP();
     // Set static field: static public System.String DEFAULT_CURVE_SHADER_HDRP
-    static void _set_DEFAULT_CURVE_SHADER_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_CURVE_SHADER_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_SHADER_HDRP
     static constexpr const char* DEFAULT_TERRAIN_SHADER_HDRP = "HDRP/TerrainLit";
     // Get static field: static public System.String DEFAULT_TERRAIN_SHADER_HDRP
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_SHADER_HDRP();
+    static ::StringW _get_DEFAULT_TERRAIN_SHADER_HDRP();
     // Set static field: static public System.String DEFAULT_TERRAIN_SHADER_HDRP
-    static void _set_DEFAULT_TERRAIN_SHADER_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_SHADER_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_URP
     static constexpr const char* DEFAULT_STANDARD_SHADER_URP = "URP/StandardLit";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_URP
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_URP();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_URP();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_URP
-    static void _set_DEFAULT_STANDARD_SHADER_URP(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_URP = "URP/StandardLit";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_URP();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_URP();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_URP(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_URP
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_URP = "URP/StandardLitAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_URP
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_URP();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_URP();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_URP
-    static void _set_DEFAULT_TRANSPARENT_SHADER_URP(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_STANDARD_SHADER_URP_SPECULAR
     static constexpr const char* DEFAULT_STANDARD_SHADER_URP_SPECULAR = "URP/SpecularLit";
     // Get static field: static public System.String DEFAULT_STANDARD_SHADER_URP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_STANDARD_SHADER_URP_SPECULAR();
+    static ::StringW _get_DEFAULT_STANDARD_SHADER_URP_SPECULAR();
     // Set static field: static public System.String DEFAULT_STANDARD_SHADER_URP_SPECULAR
-    static void _set_DEFAULT_STANDARD_SHADER_URP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_STANDARD_SHADER_URP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR
     static constexpr const char* DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR = "URP/SpecularLit";
     // Get static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR();
+    static ::StringW _get_DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR();
     // Set static field: static public System.String DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR
-    static void _set_DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_VERTEXCOLOR_SHADER_URP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR
     static constexpr const char* DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR = "URP/SpecularLitAlpha";
     // Get static field: static public System.String DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR
-    static ::Il2CppString* _get_DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR();
+    static ::StringW _get_DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR();
     // Set static field: static public System.String DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR
-    static void _set_DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR(::Il2CppString* value);
+    static void _set_DEFAULT_TRANSPARENT_SHADER_URP_SPECULAR(::StringW value);
     // static field const value: static public System.String DEFAULT_CURVE_SHADER_URP
     static constexpr const char* DEFAULT_CURVE_SHADER_URP = "URP/Color";
     // Get static field: static public System.String DEFAULT_CURVE_SHADER_URP
-    static ::Il2CppString* _get_DEFAULT_CURVE_SHADER_URP();
+    static ::StringW _get_DEFAULT_CURVE_SHADER_URP();
     // Set static field: static public System.String DEFAULT_CURVE_SHADER_URP
-    static void _set_DEFAULT_CURVE_SHADER_URP(::Il2CppString* value);
+    static void _set_DEFAULT_CURVE_SHADER_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_SHADER_URP
     static constexpr const char* DEFAULT_TERRAIN_SHADER_URP = "Universal Render Pipeline/Terrain/Lit";
     // Get static field: static public System.String DEFAULT_TERRAIN_SHADER_URP
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_SHADER_URP();
+    static ::StringW _get_DEFAULT_TERRAIN_SHADER_URP();
     // Set static field: static public System.String DEFAULT_TERRAIN_SHADER_URP
-    static void _set_DEFAULT_TERRAIN_SHADER_URP(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_SHADER_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_UNITY_BUILTIN_RESOURCES
     static constexpr const char* DEFAULT_UNITY_BUILTIN_RESOURCES = "Resources/unity_builtin_extra";
     // Get static field: static public System.String DEFAULT_UNITY_BUILTIN_RESOURCES
-    static ::Il2CppString* _get_DEFAULT_UNITY_BUILTIN_RESOURCES();
+    static ::StringW _get_DEFAULT_UNITY_BUILTIN_RESOURCES();
     // Set static field: static public System.String DEFAULT_UNITY_BUILTIN_RESOURCES
-    static void _set_DEFAULT_UNITY_BUILTIN_RESOURCES(::Il2CppString* value);
+    static void _set_DEFAULT_UNITY_BUILTIN_RESOURCES(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH
     static constexpr const char* DEFAULT_TERRAIN_MATERIAL_PATH = "Resources/unity_builtin_extra::name::Default-Terrain-Standard";
     // Get static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_MATERIAL_PATH();
+    static ::StringW _get_DEFAULT_TERRAIN_MATERIAL_PATH();
     // Set static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH
-    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_HDRP
     static constexpr const char* DEFAULT_TERRAIN_MATERIAL_PATH_HDRP = "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDTerrainMaterial.mat";
     // Get static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_HDRP
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_MATERIAL_PATH_HDRP();
+    static ::StringW _get_DEFAULT_TERRAIN_MATERIAL_PATH_HDRP();
     // Set static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_HDRP
-    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH_HDRP(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH_HDRP(::StringW value);
     // static field const value: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_URP
     static constexpr const char* DEFAULT_TERRAIN_MATERIAL_PATH_URP = "Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat";
     // Get static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_URP
-    static ::Il2CppString* _get_DEFAULT_TERRAIN_MATERIAL_PATH_URP();
+    static ::StringW _get_DEFAULT_TERRAIN_MATERIAL_PATH_URP();
     // Set static field: static public System.String DEFAULT_TERRAIN_MATERIAL_PATH_URP
-    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH_URP(::Il2CppString* value);
+    static void _set_DEFAULT_TERRAIN_MATERIAL_PATH_URP(::StringW value);
     // static field const value: static public System.String DEFAULT_MATERIAL
     static constexpr const char* DEFAULT_MATERIAL = "HEU_DEFAULT_MATERIAL";
     // Get static field: static public System.String DEFAULT_MATERIAL
-    static ::Il2CppString* _get_DEFAULT_MATERIAL();
+    static ::StringW _get_DEFAULT_MATERIAL();
     // Set static field: static public System.String DEFAULT_MATERIAL
-    static void _set_DEFAULT_MATERIAL(::Il2CppString* value);
+    static void _set_DEFAULT_MATERIAL(::StringW value);
     // Get static field: static public System.Int32 DEFAULT_MATERIAL_KEY
     static int _get_DEFAULT_MATERIAL_KEY();
     // Set static field: static public System.Int32 DEFAULT_MATERIAL_KEY
@@ -1250,9 +1251,9 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String EDITABLE_MATERIAL
     static constexpr const char* EDITABLE_MATERIAL = "HEU_EDITABLE_MATERIAL";
     // Get static field: static public System.String EDITABLE_MATERIAL
-    static ::Il2CppString* _get_EDITABLE_MATERIAL();
+    static ::StringW _get_EDITABLE_MATERIAL();
     // Set static field: static public System.String EDITABLE_MATERIAL
-    static void _set_EDITABLE_MATERIAL(::Il2CppString* value);
+    static void _set_EDITABLE_MATERIAL(::StringW value);
     // Get static field: static public System.Int32 EDITABLE_MATERIAL_KEY
     static int _get_EDITABLE_MATERIAL_KEY();
     // Set static field: static public System.Int32 EDITABLE_MATERIAL_KEY
@@ -1266,177 +1267,177 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HEU_ASSET_CACHE_PATH
     static constexpr const char* HEU_ASSET_CACHE_PATH = "HoudiniEngineAssetCache";
     // Get static field: static public System.String HEU_ASSET_CACHE_PATH
-    static ::Il2CppString* _get_HEU_ASSET_CACHE_PATH();
+    static ::StringW _get_HEU_ASSET_CACHE_PATH();
     // Set static field: static public System.String HEU_ASSET_CACHE_PATH
-    static void _set_HEU_ASSET_CACHE_PATH(::Il2CppString* value);
+    static void _set_HEU_ASSET_CACHE_PATH(::StringW value);
     // static field const value: static public System.String HEU_WORKING_PATH
     static constexpr const char* HEU_WORKING_PATH = "Working";
     // Get static field: static public System.String HEU_WORKING_PATH
-    static ::Il2CppString* _get_HEU_WORKING_PATH();
+    static ::StringW _get_HEU_WORKING_PATH();
     // Set static field: static public System.String HEU_WORKING_PATH
-    static void _set_HEU_WORKING_PATH(::Il2CppString* value);
+    static void _set_HEU_WORKING_PATH(::StringW value);
     // static field const value: static public System.String HEU_BAKED_PATH
     static constexpr const char* HEU_BAKED_PATH = "Baked";
     // Get static field: static public System.String HEU_BAKED_PATH
-    static ::Il2CppString* _get_HEU_BAKED_PATH();
+    static ::StringW _get_HEU_BAKED_PATH();
     // Set static field: static public System.String HEU_BAKED_PATH
-    static void _set_HEU_BAKED_PATH(::Il2CppString* value);
+    static void _set_HEU_BAKED_PATH(::StringW value);
     // static field const value: static public System.String HEU_BAKED_HDA
     static constexpr const char* HEU_BAKED_HDA = "_bakedHDA";
     // Get static field: static public System.String HEU_BAKED_HDA
-    static ::Il2CppString* _get_HEU_BAKED_HDA();
+    static ::StringW _get_HEU_BAKED_HDA();
     // Set static field: static public System.String HEU_BAKED_HDA
-    static void _set_HEU_BAKED_HDA(::Il2CppString* value);
+    static void _set_HEU_BAKED_HDA(::StringW value);
     // static field const value: static public System.String HEU_BAKED_CLONE
     static constexpr const char* HEU_BAKED_CLONE = "_bakedClone";
     // Get static field: static public System.String HEU_BAKED_CLONE
-    static ::Il2CppString* _get_HEU_BAKED_CLONE();
+    static ::StringW _get_HEU_BAKED_CLONE();
     // Set static field: static public System.String HEU_BAKED_CLONE
-    static void _set_HEU_BAKED_CLONE(::Il2CppString* value);
+    static void _set_HEU_BAKED_CLONE(::StringW value);
     // static field const value: static public System.String HEU_INSTANCE
     static constexpr const char* HEU_INSTANCE = "_Instance";
     // Get static field: static public System.String HEU_INSTANCE
-    static ::Il2CppString* _get_HEU_INSTANCE();
+    static ::StringW _get_HEU_INSTANCE();
     // Set static field: static public System.String HEU_INSTANCE
-    static void _set_HEU_INSTANCE(::Il2CppString* value);
+    static void _set_HEU_INSTANCE(::StringW value);
     // static field const value: static public System.String HEU_INSTANCE_PATTERN
     static constexpr const char* HEU_INSTANCE_PATTERN = "_Instance\\d*\\z";
     // Get static field: static public System.String HEU_INSTANCE_PATTERN
-    static ::Il2CppString* _get_HEU_INSTANCE_PATTERN();
+    static ::StringW _get_HEU_INSTANCE_PATTERN();
     // Set static field: static public System.String HEU_INSTANCE_PATTERN
-    static void _set_HEU_INSTANCE_PATTERN(::Il2CppString* value);
+    static void _set_HEU_INSTANCE_PATTERN(::StringW value);
     // static field const value: static public System.String HEU_DEFAULT_GEO_GROUP_NAME
     static constexpr const char* HEU_DEFAULT_GEO_GROUP_NAME = "main_geo";
     // Get static field: static public System.String HEU_DEFAULT_GEO_GROUP_NAME
-    static ::Il2CppString* _get_HEU_DEFAULT_GEO_GROUP_NAME();
+    static ::StringW _get_HEU_DEFAULT_GEO_GROUP_NAME();
     // Set static field: static public System.String HEU_DEFAULT_GEO_GROUP_NAME
-    static void _set_HEU_DEFAULT_GEO_GROUP_NAME(::Il2CppString* value);
+    static void _set_HEU_DEFAULT_GEO_GROUP_NAME(::StringW value);
     // static field const value: static public System.String HEU_DEFAULT_LOD_NAME
     static constexpr const char* HEU_DEFAULT_LOD_NAME = "lod";
     // Get static field: static public System.String HEU_DEFAULT_LOD_NAME
-    static ::Il2CppString* _get_HEU_DEFAULT_LOD_NAME();
+    static ::StringW _get_HEU_DEFAULT_LOD_NAME();
     // Set static field: static public System.String HEU_DEFAULT_LOD_NAME
-    static void _set_HEU_DEFAULT_LOD_NAME(::Il2CppString* value);
+    static void _set_HEU_DEFAULT_LOD_NAME(::StringW value);
     // static field const value: static public System.String HEU_UNITY_LOD_TRANSITION_ATTR
     static constexpr const char* HEU_UNITY_LOD_TRANSITION_ATTR = "lod_screensizes";
     // Get static field: static public System.String HEU_UNITY_LOD_TRANSITION_ATTR
-    static ::Il2CppString* _get_HEU_UNITY_LOD_TRANSITION_ATTR();
+    static ::StringW _get_HEU_UNITY_LOD_TRANSITION_ATTR();
     // Set static field: static public System.String HEU_UNITY_LOD_TRANSITION_ATTR
-    static void _set_HEU_UNITY_LOD_TRANSITION_ATTR(::Il2CppString* value);
+    static void _set_HEU_UNITY_LOD_TRANSITION_ATTR(::StringW value);
     // static field const value: static public System.String HEU_SUBASSET
     static constexpr const char* HEU_SUBASSET = "SUBASSET::";
     // Get static field: static public System.String HEU_SUBASSET
-    static ::Il2CppString* _get_HEU_SUBASSET();
+    static ::StringW _get_HEU_SUBASSET();
     // Set static field: static public System.String HEU_SUBASSET
-    static void _set_HEU_SUBASSET(::Il2CppString* value);
+    static void _set_HEU_SUBASSET(::StringW value);
     // static field const value: static public System.String HEU_HENGINE_TOOLS_SHIPPED_FOLDER
     static constexpr const char* HEU_HENGINE_TOOLS_SHIPPED_FOLDER = "<HFS>/engine/tools";
     // Get static field: static public System.String HEU_HENGINE_TOOLS_SHIPPED_FOLDER
-    static ::Il2CppString* _get_HEU_HENGINE_TOOLS_SHIPPED_FOLDER();
+    static ::StringW _get_HEU_HENGINE_TOOLS_SHIPPED_FOLDER();
     // Set static field: static public System.String HEU_HENGINE_TOOLS_SHIPPED_FOLDER
-    static void _set_HEU_HENGINE_TOOLS_SHIPPED_FOLDER(::Il2CppString* value);
+    static void _set_HEU_HENGINE_TOOLS_SHIPPED_FOLDER(::StringW value);
     // static field const value: static public System.String HEU_HENGINE_SHIPPED_SHELF
     static constexpr const char* HEU_HENGINE_SHIPPED_SHELF = "Default";
     // Get static field: static public System.String HEU_HENGINE_SHIPPED_SHELF
-    static ::Il2CppString* _get_HEU_HENGINE_SHIPPED_SHELF();
+    static ::StringW _get_HEU_HENGINE_SHIPPED_SHELF();
     // Set static field: static public System.String HEU_HENGINE_SHIPPED_SHELF
-    static void _set_HEU_HENGINE_SHIPPED_SHELF(::Il2CppString* value);
+    static void _set_HEU_HENGINE_SHIPPED_SHELF(::StringW value);
     // static field const value: static public System.String HEU_PATH_KEY_PROJECT
     static constexpr const char* HEU_PATH_KEY_PROJECT = "<PROJECT_PATH>";
     // Get static field: static public System.String HEU_PATH_KEY_PROJECT
-    static ::Il2CppString* _get_HEU_PATH_KEY_PROJECT();
+    static ::StringW _get_HEU_PATH_KEY_PROJECT();
     // Set static field: static public System.String HEU_PATH_KEY_PROJECT
-    static void _set_HEU_PATH_KEY_PROJECT(::Il2CppString* value);
+    static void _set_HEU_PATH_KEY_PROJECT(::StringW value);
     // static field const value: static public System.String HEU_PATH_KEY_PLUGIN
     static constexpr const char* HEU_PATH_KEY_PLUGIN = "<PLUGIN_PATH>";
     // Get static field: static public System.String HEU_PATH_KEY_PLUGIN
-    static ::Il2CppString* _get_HEU_PATH_KEY_PLUGIN();
+    static ::StringW _get_HEU_PATH_KEY_PLUGIN();
     // Set static field: static public System.String HEU_PATH_KEY_PLUGIN
-    static void _set_HEU_PATH_KEY_PLUGIN(::Il2CppString* value);
+    static void _set_HEU_PATH_KEY_PLUGIN(::StringW value);
     // static field const value: static public System.String HEU_PATH_KEY_HFS
     static constexpr const char* HEU_PATH_KEY_HFS = "<HFS>";
     // Get static field: static public System.String HEU_PATH_KEY_HFS
-    static ::Il2CppString* _get_HEU_PATH_KEY_HFS();
+    static ::StringW _get_HEU_PATH_KEY_HFS();
     // Set static field: static public System.String HEU_PATH_KEY_HFS
-    static void _set_HEU_PATH_KEY_HFS(::Il2CppString* value);
+    static void _set_HEU_PATH_KEY_HFS(::StringW value);
     // static field const value: static public System.String HEU_PATH_KEY_TOOL
     static constexpr const char* HEU_PATH_KEY_TOOL = "HOUDINI_TOOL_PATH";
     // Get static field: static public System.String HEU_PATH_KEY_TOOL
-    static ::Il2CppString* _get_HEU_PATH_KEY_TOOL();
+    static ::StringW _get_HEU_PATH_KEY_TOOL();
     // Set static field: static public System.String HEU_PATH_KEY_TOOL
-    static void _set_HEU_PATH_KEY_TOOL(::Il2CppString* value);
+    static void _set_HEU_PATH_KEY_TOOL(::StringW value);
     // static field const value: static public System.String HEU_USERMSG_NONEDITOR_NOT_SUPPORTED
     static constexpr const char* HEU_USERMSG_NONEDITOR_NOT_SUPPORTED = "Houdini Engine does not support non-Editor asset creation at this time!";
     // Get static field: static public System.String HEU_USERMSG_NONEDITOR_NOT_SUPPORTED
-    static ::Il2CppString* _get_HEU_USERMSG_NONEDITOR_NOT_SUPPORTED();
+    static ::StringW _get_HEU_USERMSG_NONEDITOR_NOT_SUPPORTED();
     // Set static field: static public System.String HEU_USERMSG_NONEDITOR_NOT_SUPPORTED
-    static void _set_HEU_USERMSG_NONEDITOR_NOT_SUPPORTED(::Il2CppString* value);
+    static void _set_HEU_USERMSG_NONEDITOR_NOT_SUPPORTED(::StringW value);
     // static field const value: static public System.String HEU_TERRAIN_SPLAT_DEFAULT
     static constexpr const char* HEU_TERRAIN_SPLAT_DEFAULT = "Textures/heu_terrain_default_splat";
     // Get static field: static public System.String HEU_TERRAIN_SPLAT_DEFAULT
-    static ::Il2CppString* _get_HEU_TERRAIN_SPLAT_DEFAULT();
+    static ::StringW _get_HEU_TERRAIN_SPLAT_DEFAULT();
     // Set static field: static public System.String HEU_TERRAIN_SPLAT_DEFAULT
-    static void _set_HEU_TERRAIN_SPLAT_DEFAULT(::Il2CppString* value);
+    static void _set_HEU_TERRAIN_SPLAT_DEFAULT(::StringW value);
     // static field const value: static public System.String HEU_FOLDER_MESHES
     static constexpr const char* HEU_FOLDER_MESHES = "Meshes";
     // Get static field: static public System.String HEU_FOLDER_MESHES
-    static ::Il2CppString* _get_HEU_FOLDER_MESHES();
+    static ::StringW _get_HEU_FOLDER_MESHES();
     // Set static field: static public System.String HEU_FOLDER_MESHES
-    static void _set_HEU_FOLDER_MESHES(::Il2CppString* value);
+    static void _set_HEU_FOLDER_MESHES(::StringW value);
     // static field const value: static public System.String HEU_FOLDER_MATERIALS
     static constexpr const char* HEU_FOLDER_MATERIALS = "Materials";
     // Get static field: static public System.String HEU_FOLDER_MATERIALS
-    static ::Il2CppString* _get_HEU_FOLDER_MATERIALS();
+    static ::StringW _get_HEU_FOLDER_MATERIALS();
     // Set static field: static public System.String HEU_FOLDER_MATERIALS
-    static void _set_HEU_FOLDER_MATERIALS(::Il2CppString* value);
+    static void _set_HEU_FOLDER_MATERIALS(::StringW value);
     // static field const value: static public System.String HEU_FOLDER_TERRAIN
     static constexpr const char* HEU_FOLDER_TERRAIN = "Terrain";
     // Get static field: static public System.String HEU_FOLDER_TERRAIN
-    static ::Il2CppString* _get_HEU_FOLDER_TERRAIN();
+    static ::StringW _get_HEU_FOLDER_TERRAIN();
     // Set static field: static public System.String HEU_FOLDER_TERRAIN
-    static void _set_HEU_FOLDER_TERRAIN(::Il2CppString* value);
+    static void _set_HEU_FOLDER_TERRAIN(::StringW value);
     // static field const value: static public System.String HEU_FOLDER_TILE
     static constexpr const char* HEU_FOLDER_TILE = "Tile";
     // Get static field: static public System.String HEU_FOLDER_TILE
-    static ::Il2CppString* _get_HEU_FOLDER_TILE();
+    static ::StringW _get_HEU_FOLDER_TILE();
     // Set static field: static public System.String HEU_FOLDER_TILE
-    static void _set_HEU_FOLDER_TILE(::Il2CppString* value);
+    static void _set_HEU_FOLDER_TILE(::StringW value);
     // static field const value: static public System.String HEU_FOLDER_TEXTURES
     static constexpr const char* HEU_FOLDER_TEXTURES = "Textures";
     // Get static field: static public System.String HEU_FOLDER_TEXTURES
-    static ::Il2CppString* _get_HEU_FOLDER_TEXTURES();
+    static ::StringW _get_HEU_FOLDER_TEXTURES();
     // Set static field: static public System.String HEU_FOLDER_TEXTURES
-    static void _set_HEU_FOLDER_TEXTURES(::Il2CppString* value);
+    static void _set_HEU_FOLDER_TEXTURES(::StringW value);
     // static field const value: static public System.String HEU_EXT_ASSET
     static constexpr const char* HEU_EXT_ASSET = ".asset";
     // Get static field: static public System.String HEU_EXT_ASSET
-    static ::Il2CppString* _get_HEU_EXT_ASSET();
+    static ::StringW _get_HEU_EXT_ASSET();
     // Set static field: static public System.String HEU_EXT_ASSET
-    static void _set_HEU_EXT_ASSET(::Il2CppString* value);
+    static void _set_HEU_EXT_ASSET(::StringW value);
     // static field const value: static public System.String HEU_EXT_MAT
     static constexpr const char* HEU_EXT_MAT = ".mat";
     // Get static field: static public System.String HEU_EXT_MAT
-    static ::Il2CppString* _get_HEU_EXT_MAT();
+    static ::StringW _get_HEU_EXT_MAT();
     // Set static field: static public System.String HEU_EXT_MAT
-    static void _set_HEU_EXT_MAT(::Il2CppString* value);
+    static void _set_HEU_EXT_MAT(::StringW value);
     // static field const value: static public System.String HEU_EXT_TERRAINDATA
     static constexpr const char* HEU_EXT_TERRAINDATA = ".terraindata";
     // Get static field: static public System.String HEU_EXT_TERRAINDATA
-    static ::Il2CppString* _get_HEU_EXT_TERRAINDATA();
+    static ::StringW _get_HEU_EXT_TERRAINDATA();
     // Set static field: static public System.String HEU_EXT_TERRAINDATA
-    static void _set_HEU_EXT_TERRAINDATA(::Il2CppString* value);
+    static void _set_HEU_EXT_TERRAINDATA(::StringW value);
     // static field const value: static public System.String HEU_EXT_TERRAINLAYER
     static constexpr const char* HEU_EXT_TERRAINLAYER = ".terrainlayer";
     // Get static field: static public System.String HEU_EXT_TERRAINLAYER
-    static ::Il2CppString* _get_HEU_EXT_TERRAINLAYER();
+    static ::StringW _get_HEU_EXT_TERRAINLAYER();
     // Set static field: static public System.String HEU_EXT_TERRAINLAYER
-    static void _set_HEU_EXT_TERRAINLAYER(::Il2CppString* value);
+    static void _set_HEU_EXT_TERRAINLAYER(::StringW value);
     // static field const value: static public System.String HEU_KEY_CTRL
     static constexpr const char* HEU_KEY_CTRL = "Ctrl";
     // Get static field: static public System.String HEU_KEY_CTRL
-    static ::Il2CppString* _get_HEU_KEY_CTRL();
+    static ::StringW _get_HEU_KEY_CTRL();
     // Set static field: static public System.String HEU_KEY_CTRL
-    static void _set_HEU_KEY_CTRL(::Il2CppString* value);
+    static void _set_HEU_KEY_CTRL(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x14D5654
     static void _cctor();

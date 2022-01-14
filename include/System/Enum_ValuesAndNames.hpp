@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Enum::ValuesAndNames);
@@ -42,24 +43,24 @@ namespace System {
     // public System.String[] Names
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> Names;
+    ::ArrayW<::StringW> Names;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.UInt64[] Values
     ::ArrayW<uint64_t>& dyn_Values();
     // Get instance field reference: public System.String[] Names
-    ::ArrayW<::Il2CppString*>& dyn_Names();
+    ::ArrayW<::StringW>& dyn_Names();
     // public System.Void .ctor(System.UInt64[] values, System.String[] names)
     // Offset: 0x19A47B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Enum::ValuesAndNames* New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::Il2CppString*> names) {
+    static Enum::ValuesAndNames* New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::ValuesAndNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enum::ValuesAndNames*, creationType>(values, names)));
     }
   }; // System.Enum/System.ValuesAndNames
   #pragma pack(pop)
-  static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::ArrayW<::Il2CppString*>)> __System_Enum_ValuesAndNamesSizeCheck;
+  static check_size<sizeof(Enum::ValuesAndNames), 24 + sizeof(::ArrayW<::StringW>)> __System_Enum_ValuesAndNamesSizeCheck;
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -56,9 +57,9 @@ namespace GlobalNamespace {
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Transform _placeTransform
     // Size: 0x8
     // Offset: 0x18
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     public:
     // Get instance field reference: private System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: private UnityEngine.Transform _placeTransform
     UnityEngine::Transform*& dyn__placeTransform();
     // Get instance field reference: private BTSCharacterResultAnimationController _animationController
@@ -104,7 +105,7 @@ namespace GlobalNamespace {
     UnityEngine::AddressableAssets::AssetReference*& dyn__btsCharacterAssetReference();
     // public System.String get_name()
     // Offset: 0x1183DFC
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void Clean()
     // Offset: 0x1183B4C
     void Clean();
@@ -129,7 +130,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

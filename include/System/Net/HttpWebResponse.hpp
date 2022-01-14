@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -90,9 +91,9 @@ namespace System::Net {
     // private System.String method
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Version version
     // Size: 0x8
     // Offset: 0x38
@@ -110,9 +111,9 @@ namespace System::Net {
     // private System.String statusDescription
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* statusDescription;
+    ::StringW statusDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 contentLength
     // Size: 0x8
     // Offset: 0x50
@@ -122,9 +123,9 @@ namespace System::Net {
     // private System.String contentType
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* contentType;
+    ::StringW contentType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.CookieContainer cookie_container
     // Size: 0x8
     // Offset: 0x60
@@ -155,17 +156,17 @@ namespace System::Net {
     // Get instance field reference: private System.Net.CookieCollection cookieCollection
     System::Net::CookieCollection*& dyn_cookieCollection();
     // Get instance field reference: private System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.Version version
     System::Version*& dyn_version();
     // Get instance field reference: private System.Net.HttpStatusCode statusCode
     System::Net::HttpStatusCode& dyn_statusCode();
     // Get instance field reference: private System.String statusDescription
-    ::Il2CppString*& dyn_statusDescription();
+    ::StringW& dyn_statusDescription();
     // Get instance field reference: private System.Int64 contentLength
     int64_t& dyn_contentLength();
     // Get instance field reference: private System.String contentType
-    ::Il2CppString*& dyn_contentType();
+    ::StringW& dyn_contentType();
     // Get instance field reference: private System.Net.CookieContainer cookie_container
     System::Net::CookieContainer*& dyn_cookie_container();
     // Get instance field reference: private System.Boolean disposed
@@ -177,11 +178,11 @@ namespace System::Net {
     System::Net::HttpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
     // Offset: 0x18B6088
-    ::Il2CppString* get_StatusDescription();
+    ::StringW get_StatusDescription();
     // System.Void .ctor(System.Uri uri, System.String method, System.Net.WebConnectionData data, System.Net.CookieContainer container)
     // Offset: 0x18B4964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpWebResponse* New_ctor(System::Uri* uri, ::Il2CppString* method, System::Net::WebConnectionData* data, System::Net::CookieContainer* container) {
+    static HttpWebResponse* New_ctor(System::Uri* uri, ::StringW method, System::Net::WebConnectionData* data, System::Net::CookieContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpWebResponse*, creationType>(uri, method, data, container)));
     }
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpWebResponse::get_StatusDescription
 // Il2CppName: get_StatusDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebResponse::*)()>(&System::Net::HttpWebResponse::get_StatusDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpWebResponse::*)()>(&System::Net::HttpWebResponse::get_StatusDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebResponse*), "get_StatusDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

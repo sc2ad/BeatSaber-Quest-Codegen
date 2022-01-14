@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -69,9 +70,9 @@ namespace HoudiniEngineUnity {
     // public System.String _inputAssetName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* inputAssetName;
+    ::StringW inputAssetName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _inputIndex
     // Size: 0x4
     // Offset: 0x28
@@ -83,9 +84,9 @@ namespace HoudiniEngineUnity {
     // public System.String _inputName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* inputName;
+    ::StringW inputName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _keepWorldTransform
     // Size: 0x1
     // Offset: 0x38
@@ -113,11 +114,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset*>*& dyn__inputObjectPresets();
     // Get instance field reference: public System.String _inputAssetName
-    ::Il2CppString*& dyn__inputAssetName();
+    ::StringW& dyn__inputAssetName();
     // Get instance field reference: public System.Int32 _inputIndex
     int& dyn__inputIndex();
     // Get instance field reference: public System.String _inputName
-    ::Il2CppString*& dyn__inputName();
+    ::StringW& dyn__inputName();
     // Get instance field reference: public System.Boolean _keepWorldTransform
     bool& dyn__keepWorldTransform();
     // Get instance field reference: public System.Boolean _packGeometryBeforeMerging

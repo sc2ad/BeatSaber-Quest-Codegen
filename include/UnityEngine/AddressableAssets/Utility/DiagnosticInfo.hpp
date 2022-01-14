@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::Diagnostics
@@ -48,9 +49,9 @@ namespace UnityEngine::AddressableAssets::Utility {
     // public System.String DisplayName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DisplayName;
+    ::StringW DisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 ObjectId
     // Size: 0x4
     // Offset: 0x18
@@ -67,14 +68,14 @@ namespace UnityEngine::AddressableAssets::Utility {
     static_assert(sizeof(::ArrayW<int>) == 0x8);
     public:
     // Get instance field reference: public System.String DisplayName
-    ::Il2CppString*& dyn_DisplayName();
+    ::StringW& dyn_DisplayName();
     // Get instance field reference: public System.Int32 ObjectId
     int& dyn_ObjectId();
     // Get instance field reference: public System.Int32[] Dependencies
     ::ArrayW<int>& dyn_Dependencies();
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
     // Offset: 0x269BB7C
-    UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::Il2CppString* category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
+    UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
     // public System.Void .ctor()
     // Offset: 0x269BBC4
     // Implemented from: System.Object
@@ -93,7 +94,7 @@ namespace UnityEngine::AddressableAssets::Utility {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::Il2CppString*, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::StringW, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
   static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType")->byval_arg;

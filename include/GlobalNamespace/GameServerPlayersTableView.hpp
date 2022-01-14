@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -146,9 +147,9 @@ namespace GlobalNamespace {
     // private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
     // Size: 0x8
     // Offset: 0x58
-    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedLevelEvent;
+    System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* selectSuggestedLevelEvent;
     // Field size check
-    static_assert(sizeof(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*) == 0x8);
+    static_assert(sizeof(System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*) == 0x8);
     // private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     // Size: 0x8
     // Offset: 0x60
@@ -158,9 +159,9 @@ namespace GlobalNamespace {
     // private System.Action`1<System.String> kickPlayerEvent
     // Size: 0x8
     // Offset: 0x68
-    System::Action_1<::Il2CppString*>* kickPlayerEvent;
+    System::Action_1<::StringW>* kickPlayerEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x70
@@ -221,21 +222,21 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellId
     static constexpr const char* kCellId = "Cell";
     // Get static field: static private System.String kCellId
-    static ::Il2CppString* _get_kCellId();
+    static ::StringW _get_kCellId();
     // Set static field: static private System.String kCellId
-    static void _set_kCellId(::Il2CppString* value);
+    static void _set_kCellId(::StringW value);
     // static field const value: static private System.String kNoSongsCellId
     static constexpr const char* kNoSongsCellId = "NoSongCell";
     // Get static field: static private System.String kNoSongsCellId
-    static ::Il2CppString* _get_kNoSongsCellId();
+    static ::StringW _get_kNoSongsCellId();
     // Set static field: static private System.String kNoSongsCellId
-    static void _set_kNoSongsCellId(::Il2CppString* value);
+    static void _set_kNoSongsCellId(::StringW value);
     // static field const value: static private System.String kNoModifiersCellId
     static constexpr const char* kNoModifiersCellId = "NoModifierCell";
     // Get static field: static private System.String kNoModifiersCellId
-    static ::Il2CppString* _get_kNoModifiersCellId();
+    static ::StringW _get_kNoModifiersCellId();
     // Set static field: static private System.String kNoModifiersCellId
-    static void _set_kNoModifiersCellId(::Il2CppString* value);
+    static void _set_kNoModifiersCellId(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
     HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private GameServerPlayerTableCell _gameServerPlayerCellPrefab
@@ -253,11 +254,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> selectSuggestedLevelEvent
-    System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedLevelEvent();
+    System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*& dyn_selectSuggestedLevelEvent();
     // Get instance field reference: private System.Action`1<GameplayModifiers> selectSuggestedGameplayModifiersEvent
     System::Action_1<GlobalNamespace::GameplayModifiers*>*& dyn_selectSuggestedGameplayModifiersEvent();
     // Get instance field reference: private System.Action`1<System.String> kickPlayerEvent
-    System::Action_1<::Il2CppString*>*& dyn_kickPlayerEvent();
+    System::Action_1<::StringW>*& dyn_kickPlayerEvent();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.Boolean _hasKickPermissions
@@ -276,13 +277,13 @@ namespace GlobalNamespace {
     GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // private System.String get_currentCellId()
     // Offset: 0x11F721C
-    ::Il2CppString* get_currentCellId();
+    ::StringW get_currentCellId();
     // public System.Void add_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
     // Offset: 0x11F6DE8
-    void add_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
+    void add_selectSuggestedLevelEvent(System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void remove_selectSuggestedLevelEvent(System.Action`3<System.String,BeatmapCharacteristicSO,BeatmapDifficulty> value)
     // Offset: 0x11F6E8C
-    void remove_selectSuggestedLevelEvent(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
+    void remove_selectSuggestedLevelEvent(System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>* value);
     // public System.Void add_selectSuggestedGameplayModifiersEvent(System.Action`1<GameplayModifiers> value)
     // Offset: 0x11F6F30
     void add_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
@@ -291,10 +292,10 @@ namespace GlobalNamespace {
     void remove_selectSuggestedGameplayModifiersEvent(System::Action_1<GlobalNamespace::GameplayModifiers*>* value);
     // public System.Void add_kickPlayerEvent(System.Action`1<System.String> value)
     // Offset: 0x11F7078
-    void add_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
+    void add_kickPlayerEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_kickPlayerEvent(System.Action`1<System.String> value)
     // Offset: 0x11F711C
-    void remove_kickPlayerEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_kickPlayerEvent(System::Action_1<::StringW>* value);
     // public System.Single CellSize()
     // Offset: 0x11F71C0
     float CellSize();
@@ -347,7 +348,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::get_currentCellId
 // Il2CppName: get_currentCellId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::GameServerPlayersTableView::*)()>(&GlobalNamespace::GameServerPlayersTableView::get_currentCellId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameServerPlayersTableView::*)()>(&GlobalNamespace::GameServerPlayersTableView::get_currentCellId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "get_currentCellId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent
 // Il2CppName: add_selectSuggestedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "add_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent
 // Il2CppName: remove_selectSuggestedLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_3<::StringW, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_selectSuggestedLevelEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "remove_selectSuggestedLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -391,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::add_kickPlayerEvent
 // Il2CppName: add_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::GameServerPlayersTableView::add_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::GameServerPlayersTableView::add_kickPlayerEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -400,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::remove_kickPlayerEvent
 // Il2CppName: remove_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayersTableView::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::GameServerPlayersTableView::remove_kickPlayerEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayersTableView*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

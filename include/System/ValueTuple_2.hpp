@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -32,7 +33,6 @@ namespace System::Collections {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
@@ -176,10 +176,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString() {
+    ::StringW ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ValueTuple_2::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
   }; // System.ValueTuple`2
   // Could not write size check! Type: System.ValueTuple`2 is generic, or has no fields that are valid for size checks!

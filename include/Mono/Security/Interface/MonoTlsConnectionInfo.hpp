@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
@@ -56,16 +57,16 @@ namespace Mono::Security::Interface {
     // private System.String <PeerDomainName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* PeerDomainName;
+    ::StringW PeerDomainName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
     Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
     // Get instance field reference: private System.String <PeerDomainName>k__BackingField
-    ::Il2CppString*& dyn_$PeerDomainName$k__BackingField();
+    ::StringW& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
     // Offset: 0x1F94F58
     Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
@@ -80,7 +81,7 @@ namespace Mono::Security::Interface {
     void set_ProtocolVersion(Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
     // Offset: 0x1F94F78
-    void set_PeerDomainName(::Il2CppString* value);
+    void set_PeerDomainName(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1F95024
     // Implemented from: System.Object
@@ -94,10 +95,10 @@ namespace Mono::Security::Interface {
     // Offset: 0x1F94F80
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Mono.Security.Interface.MonoTlsConnectionInfo
   #pragma pack(pop)
-  static check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(::Il2CppString*)> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
+  static check_size<sizeof(MonoTlsConnectionInfo), 24 + sizeof(::StringW)> __Mono_Security_Interface_MonoTlsConnectionInfoSizeCheck;
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName
 // Il2CppName: set_PeerDomainName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Il2CppString*)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::StringW)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_PeerDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

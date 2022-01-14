@@ -18,6 +18,7 @@
 // Including type: System.Int32
 #include "System/Int32.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -163,13 +164,13 @@ namespace System {
     int CompareTo(::Il2CppChar value);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x1997AA0
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // static public System.String ToString(System.Char c)
     // Offset: 0x1997A8C
-    static ::Il2CppString* ToString(::Il2CppChar c);
+    static ::StringW ToString(::Il2CppChar c);
     // static public System.Char Parse(System.String s)
     // Offset: 0x1997B14
-    static ::Il2CppChar Parse(::Il2CppString* s);
+    static ::Il2CppChar Parse(::StringW s);
     // static public System.Boolean IsDigit(System.Char c)
     // Offset: 0x1997BF8
     static bool IsDigit(::Il2CppChar c);
@@ -274,7 +275,7 @@ namespace System {
     static bool IsControl(::Il2CppChar c);
     // static public System.Boolean IsLetterOrDigit(System.String s, System.Int32 index)
     // Offset: 0x1998F78
-    static bool IsLetterOrDigit(::Il2CppString* s, int index);
+    static bool IsLetterOrDigit(::StringW s, int index);
     // static System.Boolean CheckNumber(System.Globalization.UnicodeCategory uc)
     // Offset: 0x199910C
     static bool CheckNumber(System::Globalization::UnicodeCategory uc);
@@ -283,7 +284,7 @@ namespace System {
     static bool IsNumber(::Il2CppChar c);
     // static public System.Boolean IsNumber(System.String s, System.Int32 index)
     // Offset: 0x199923C
-    static bool IsNumber(::Il2CppString* s, int index);
+    static bool IsNumber(::StringW s, int index);
     // static System.Boolean CheckSeparator(System.Globalization.UnicodeCategory uc)
     // Offset: 0x19993F4
     static bool CheckSeparator(System::Globalization::UnicodeCategory uc);
@@ -298,22 +299,22 @@ namespace System {
     static bool IsSurrogate(::Il2CppChar c);
     // static public System.Boolean IsSurrogate(System.String s, System.Int32 index)
     // Offset: 0x1999518
-    static bool IsSurrogate(::Il2CppString* s, int index);
+    static bool IsSurrogate(::StringW s, int index);
     // static public System.Boolean IsWhiteSpace(System.String s, System.Int32 index)
     // Offset: 0x1999618
-    static bool IsWhiteSpace(::Il2CppString* s, int index);
+    static bool IsWhiteSpace(::StringW s, int index);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char c)
     // Offset: 0x1999788
     static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
     // Offset: 0x1999844
-    static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppString* s, int index);
+    static System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int index);
     // static public System.Boolean IsHighSurrogate(System.Char c)
     // Offset: 0x19999B4
     static bool IsHighSurrogate(::Il2CppChar c);
     // static public System.Boolean IsHighSurrogate(System.String s, System.Int32 index)
     // Offset: 0x19999C4
-    static bool IsHighSurrogate(::Il2CppString* s, int index);
+    static bool IsHighSurrogate(::StringW s, int index);
     // static public System.Boolean IsLowSurrogate(System.Char c)
     // Offset: 0x1999AC8
     static bool IsLowSurrogate(::Il2CppChar c);
@@ -322,7 +323,7 @@ namespace System {
     static bool IsSurrogatePair(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
     // static public System.String ConvertFromUtf32(System.Int32 utf32)
     // Offset: 0x1999AFC
-    static ::Il2CppString* ConvertFromUtf32(int utf32);
+    static ::StringW ConvertFromUtf32(int utf32);
     // static public System.Int32 ConvertToUtf32(System.Char highSurrogate, System.Char lowSurrogate)
     // Offset: 0x1999C50
     static int ConvertToUtf32(::Il2CppChar highSurrogate, ::Il2CppChar lowSurrogate);
@@ -340,7 +341,7 @@ namespace System {
     // Offset: 0x1997A18
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Char
   #pragma pack(pop)
   static check_size<sizeof(Char), 0 + sizeof(::Il2CppChar)> __System_CharSizeCheck;
@@ -412,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Char::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Char::*)(System::IFormatProvider*)>(&System::Char::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Char::*)(System::IFormatProvider*)>(&System::Char::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Char), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -421,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Char::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar)>(&System::Char::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar)>(&System::Char::ToString)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Char), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -430,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Char::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppString*)>(&System::Char::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::StringW)>(&System::Char::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Char), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -747,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::IsLetterOrDigit
 // Il2CppName: IsLetterOrDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Char::IsLetterOrDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Char::IsLetterOrDigit)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -775,7 +776,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::IsNumber
 // Il2CppName: IsNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Char::IsNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Char::IsNumber)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -821,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::IsSurrogate
 // Il2CppName: IsSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Char::IsSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Char::IsSurrogate)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -831,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::IsWhiteSpace
 // Il2CppName: IsWhiteSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Char::IsWhiteSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Char::IsWhiteSpace)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -850,7 +851,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Char::GetUnicodeCategory
 // Il2CppName: GetUnicodeCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::Il2CppString*, int)>(&System::Char::GetUnicodeCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::StringW, int)>(&System::Char::GetUnicodeCategory)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -869,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::IsHighSurrogate
 // Il2CppName: IsHighSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Char::IsHighSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Char::IsHighSurrogate)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -898,7 +899,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Char::ConvertFromUtf32
 // Il2CppName: ConvertFromUtf32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Char::ConvertFromUtf32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Char::ConvertFromUtf32)> {
   static const MethodInfo* get() {
     static auto* utf32 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Char), "ConvertFromUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{utf32});
@@ -934,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Char::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Char::*)()>(&System::Char::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Char::*)()>(&System::Char::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Char), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

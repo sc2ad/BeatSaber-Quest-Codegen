@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -59,10 +60,10 @@ namespace GlobalNamespace {
     int& dyn__shortestWord();
     // public System.Void AddWord(System.String word, System.Int32 index)
     // Offset: 0x180FE28
-    void AddWord(::Il2CppString* word, int index);
+    void AddWord(::StringW word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
     // Offset: 0x1810284
-    bool IsMatch(::Il2CppString* word, int index);
+    bool IsMatch(::StringW word, int index);
     // public System.Void .ctor()
     // Offset: 0x180FE18
     // Implemented from: System.Object
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::AddWord
 // Il2CppName: AddWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::AddWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ProfanityFilter::TrieNode::*)(::StringW, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::AddWord)> {
   static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::IsMatch
 // Il2CppName: IsMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::IsMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::TrieNode::*)(::StringW, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::IsMatch)> {
   static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

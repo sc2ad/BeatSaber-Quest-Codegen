@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -106,12 +107,12 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x255659C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
-    ::Il2CppString* get_XmlElementName();
+    ::StringW get_XmlElementName();
     // public override System.String get_MethodName()
     // Offset: 0x25565E4
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_MethodName()
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0x2556414
     // Implemented from: NUnit.Framework.Internal.Test
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestMethod::get_XmlElementName
 // Il2CppName: get_XmlElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_XmlElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_XmlElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestMethod*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestMethod::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestMethod*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

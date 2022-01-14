@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -42,9 +43,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String DisplayName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DisplayName;
+    ::StringW DisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x18
@@ -54,51 +55,51 @@ namespace Oculus::Platform::Models {
     // public readonly System.String ImageURL
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* ImageURL;
+    ::StringW ImageURL;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String InviteToken
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* InviteToken;
+    ::StringW InviteToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String OculusID
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* OculusID;
+    ::StringW OculusID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Presence
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* Presence;
+    ::StringW Presence;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String PresenceDeeplinkMessage
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* PresenceDeeplinkMessage;
+    ::StringW PresenceDeeplinkMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String PresenceDestinationApiName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* PresenceDestinationApiName;
+    ::StringW PresenceDestinationApiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String PresenceLobbySessionId
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* PresenceLobbySessionId;
+    ::StringW PresenceLobbySessionId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String PresenceMatchSessionId
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* PresenceMatchSessionId;
+    ::StringW PresenceMatchSessionId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
     // Size: 0x4
     // Offset: 0x60
@@ -110,34 +111,34 @@ namespace Oculus::Platform::Models {
     // public readonly System.String SmallImageUrl
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* SmallImageUrl;
+    ::StringW SmallImageUrl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DisplayName
-    ::Il2CppString*& dyn_DisplayName();
+    ::StringW& dyn_DisplayName();
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.String ImageURL
-    ::Il2CppString*& dyn_ImageURL();
+    ::StringW& dyn_ImageURL();
     // Get instance field reference: public readonly System.String InviteToken
-    ::Il2CppString*& dyn_InviteToken();
+    ::StringW& dyn_InviteToken();
     // Get instance field reference: public readonly System.String OculusID
-    ::Il2CppString*& dyn_OculusID();
+    ::StringW& dyn_OculusID();
     // Get instance field reference: public readonly System.String Presence
-    ::Il2CppString*& dyn_Presence();
+    ::StringW& dyn_Presence();
     // Get instance field reference: public readonly System.String PresenceDeeplinkMessage
-    ::Il2CppString*& dyn_PresenceDeeplinkMessage();
+    ::StringW& dyn_PresenceDeeplinkMessage();
     // Get instance field reference: public readonly System.String PresenceDestinationApiName
-    ::Il2CppString*& dyn_PresenceDestinationApiName();
+    ::StringW& dyn_PresenceDestinationApiName();
     // Get instance field reference: public readonly System.String PresenceLobbySessionId
-    ::Il2CppString*& dyn_PresenceLobbySessionId();
+    ::StringW& dyn_PresenceLobbySessionId();
     // Get instance field reference: public readonly System.String PresenceMatchSessionId
-    ::Il2CppString*& dyn_PresenceMatchSessionId();
+    ::StringW& dyn_PresenceMatchSessionId();
     // Get instance field reference: public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
     Oculus::Platform::UserPresenceStatus& dyn_PresenceStatus();
     // Get instance field reference: public readonly System.String SmallImageUrl
-    ::Il2CppString*& dyn_SmallImageUrl();
+    ::StringW& dyn_SmallImageUrl();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1760070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -147,7 +148,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.User
   #pragma pack(pop)
-  static check_size<sizeof(User), 104 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_UserSizeCheck;
+  static check_size<sizeof(User), 104 + sizeof(::StringW)> __Oculus_Platform_Models_UserSizeCheck;
   static_assert(sizeof(User) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

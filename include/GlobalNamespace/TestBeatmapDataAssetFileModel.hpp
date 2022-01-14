@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -85,9 +86,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kAssetsDir
     static constexpr const char* kAssetsDir = "BeatmapDataAssets";
     // Get static field: static private System.String kAssetsDir
-    static ::Il2CppString* _get_kAssetsDir();
+    static ::StringW _get_kAssetsDir();
     // Set static field: static private System.String kAssetsDir
-    static void _set_kAssetsDir(::Il2CppString* value);
+    static void _set_kAssetsDir(::StringW value);
     // Get instance field reference: private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*& dyn_levelDataAssetDownloadUpdateEvent();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)

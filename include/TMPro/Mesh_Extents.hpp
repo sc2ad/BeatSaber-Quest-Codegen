@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -57,7 +58,7 @@ namespace TMPro {
     // Offset: 0x123FBC4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // TMPro.Mesh_Extents
   #pragma pack(pop)
   static check_size<sizeof(Mesh_Extents), 8 + sizeof(UnityEngine::Vector2)> __TMPro_Mesh_ExtentsSizeCheck;
@@ -71,7 +72,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::Mesh_Extents::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::Mesh_Extents::*)()>(&TMPro::Mesh_Extents::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::Mesh_Extents::*)()>(&TMPro::Mesh_Extents::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::Mesh_Extents), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

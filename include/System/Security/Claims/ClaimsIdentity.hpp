@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Claims
@@ -91,22 +92,22 @@ namespace System::Security::Claims {
     // private System.String m_nameType
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_nameType;
+    ::StringW m_nameType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_roleType
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_roleType;
+    ::StringW m_roleType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4F84
     // private System.String m_version
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_version;
+    ::StringW m_version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4FBC
     // private System.Security.Claims.ClaimsIdentity m_actor
     // Size: 0x8
@@ -118,9 +119,9 @@ namespace System::Security::Claims {
     // private System.String m_authenticationType
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* m_authenticationType;
+    ::StringW m_authenticationType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA502C
     // private System.Object m_bootstrapContext
     // Size: 0x8
@@ -132,30 +133,30 @@ namespace System::Security::Claims {
     // private System.String m_label
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* m_label;
+    ::StringW m_label;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA509C
     // private System.String m_serializedNameType
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* m_serializedNameType;
+    ::StringW m_serializedNameType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA50D4
     // private System.String m_serializedRoleType
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* m_serializedRoleType;
+    ::StringW m_serializedRoleType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA510C
     // private System.String m_serializedClaims
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* m_serializedClaims;
+    ::StringW m_serializedClaims;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::Security::Principal::IIdentity
     operator System::Security::Principal::IIdentity() noexcept {
@@ -168,28 +169,28 @@ namespace System::Security::Claims {
     // Get instance field reference: private System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim>> m_externalClaims
     System::Collections::ObjectModel::Collection_1<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>*& dyn_m_externalClaims();
     // Get instance field reference: private System.String m_nameType
-    ::Il2CppString*& dyn_m_nameType();
+    ::StringW& dyn_m_nameType();
     // Get instance field reference: private System.String m_roleType
-    ::Il2CppString*& dyn_m_roleType();
+    ::StringW& dyn_m_roleType();
     // Get instance field reference: private System.String m_version
-    ::Il2CppString*& dyn_m_version();
+    ::StringW& dyn_m_version();
     // Get instance field reference: private System.Security.Claims.ClaimsIdentity m_actor
     System::Security::Claims::ClaimsIdentity*& dyn_m_actor();
     // Get instance field reference: private System.String m_authenticationType
-    ::Il2CppString*& dyn_m_authenticationType();
+    ::StringW& dyn_m_authenticationType();
     // Get instance field reference: private System.Object m_bootstrapContext
     ::Il2CppObject*& dyn_m_bootstrapContext();
     // Get instance field reference: private System.String m_label
-    ::Il2CppString*& dyn_m_label();
+    ::StringW& dyn_m_label();
     // Get instance field reference: private System.String m_serializedNameType
-    ::Il2CppString*& dyn_m_serializedNameType();
+    ::StringW& dyn_m_serializedNameType();
     // Get instance field reference: private System.String m_serializedRoleType
-    ::Il2CppString*& dyn_m_serializedRoleType();
+    ::StringW& dyn_m_serializedRoleType();
     // Get instance field reference: private System.String m_serializedClaims
-    ::Il2CppString*& dyn_m_serializedClaims();
+    ::StringW& dyn_m_serializedClaims();
     // public System.String get_AuthenticationType()
     // Offset: 0x1A8C154
-    ::Il2CppString* get_AuthenticationType();
+    ::StringW get_AuthenticationType();
     // public System.Security.Claims.ClaimsIdentity get_Actor()
     // Offset: 0x1A8C15C
     System::Security::Claims::ClaimsIdentity* get_Actor();
@@ -201,10 +202,10 @@ namespace System::Security::Claims {
     System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* get_Claims();
     // public System.String get_Name()
     // Offset: 0x1A8C2DC
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_NameClaimType()
     // Offset: 0x1A8C304
-    ::Il2CppString* get_NameClaimType();
+    ::StringW get_NameClaimType();
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims)
     // Offset: 0x1A8AE44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -215,14 +216,14 @@ namespace System::Security::Claims {
     // public System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType)
     // Offset: 0x1A8AE60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType) {
+    static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(identity, claims, authenticationType, nameType, roleType)));
     }
     // System.Void .ctor(System.Security.Principal.IIdentity identity, System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim> claims, System.String authenticationType, System.String nameType, System.String roleType, System.Boolean checkAuthType)
     // Offset: 0x1A8AE68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::Il2CppString* authenticationType, ::Il2CppString* nameType, ::Il2CppString* roleType, bool checkAuthType) {
+    static ClaimsIdentity* New_ctor(System::Security::Principal::IIdentity* identity, System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* claims, ::StringW authenticationType, ::StringW nameType, ::StringW roleType, bool checkAuthType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::ClaimsIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClaimsIdentity*, creationType>(identity, claims, authenticationType, nameType, roleType, checkAuthType)));
     }
@@ -254,7 +255,7 @@ namespace System::Security::Claims {
     void SafeAddClaim(System::Security::Claims::Claim* claim);
     // public System.Security.Claims.Claim FindFirst(System.String type)
     // Offset: 0x1A8C54C
-    System::Security::Claims::Claim* FindFirst(::Il2CppString* type);
+    System::Security::Claims::Claim* FindFirst(::StringW type);
     // private System.Void OnSerializingMethod(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1A8C860
     void OnSerializingMethod(System::Runtime::Serialization::StreamingContext context);
@@ -269,10 +270,10 @@ namespace System::Security::Claims {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeClaims(System.String serializedClaims)
     // Offset: 0x1A8CB58
-    void DeserializeClaims(::Il2CppString* serializedClaims);
+    void DeserializeClaims(::StringW serializedClaims);
     // private System.String SerializeClaims()
     // Offset: 0x1A8C8CC
-    ::Il2CppString* SerializeClaims();
+    ::StringW SerializeClaims();
     // private System.Boolean IsCircular(System.Security.Claims.ClaimsIdentity subject)
     // Offset: 0x1A8B440
     bool IsCircular(System::Security::Claims::ClaimsIdentity* subject);
@@ -290,14 +291,14 @@ namespace System::Security::Claims {
     }
   }; // System.Security.Claims.ClaimsIdentity
   #pragma pack(pop)
-  static check_size<sizeof(ClaimsIdentity), 112 + sizeof(::Il2CppString*)> __System_Security_Claims_ClaimsIdentitySizeCheck;
+  static check_size<sizeof(ClaimsIdentity), 112 + sizeof(::StringW)> __System_Security_Claims_ClaimsIdentitySizeCheck;
   static_assert(sizeof(ClaimsIdentity) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_AuthenticationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -330,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -338,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::get_NameClaimType
 // Il2CppName: get_NameClaimType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_NameClaimType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::get_NameClaimType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "get_NameClaimType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -401,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::FindFirst
 // Il2CppName: FindFirst
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (System::Security::Claims::ClaimsIdentity::*)(::Il2CppString*)>(&System::Security::Claims::ClaimsIdentity::FindFirst)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (System::Security::Claims::ClaimsIdentity::*)(::StringW)>(&System::Security::Claims::ClaimsIdentity::FindFirst)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "FindFirst", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::DeserializeClaims
 // Il2CppName: DeserializeClaims
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::*)(::Il2CppString*)>(&System::Security::Claims::ClaimsIdentity::DeserializeClaims)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::*)(::StringW)>(&System::Security::Claims::ClaimsIdentity::DeserializeClaims)> {
   static const MethodInfo* get() {
     static auto* serializedClaims = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "DeserializeClaims", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedClaims});
@@ -456,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::SerializeClaims
 // Il2CppName: SerializeClaims
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::SerializeClaims)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::ClaimsIdentity::*)()>(&System::Security::Claims::ClaimsIdentity::SerializeClaims)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity*), "SerializeClaims", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

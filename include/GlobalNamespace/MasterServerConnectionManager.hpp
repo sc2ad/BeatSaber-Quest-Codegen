@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -183,9 +184,9 @@ namespace GlobalNamespace {
     // private System.String _code
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* code;
+    ::StringW code;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private MasterServer.UserMessageHandler _messageHandler
     // Size: 0x8
     // Offset: 0x28
@@ -207,9 +208,9 @@ namespace GlobalNamespace {
     // private System.String _managerId
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* managerId;
+    ::StringW managerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private MasterServerConnectionManager/ConnectionState _connectionState
     // Size: 0x4
     // Offset: 0x68
@@ -276,7 +277,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LiteNetLibConnectionManager _liteNetLibConnectionManager
     GlobalNamespace::LiteNetLibConnectionManager*& dyn__liteNetLibConnectionManager();
     // Get instance field reference: private System.String _code
-    ::Il2CppString*& dyn__code();
+    ::StringW& dyn__code();
     // Get instance field reference: private MasterServer.UserMessageHandler _messageHandler
     MasterServer::UserMessageHandler*& dyn__messageHandler();
     // Get instance field reference: private BeatmapLevelSelectionMask _selectionMask
@@ -284,7 +285,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayServerConfiguration _configuration
     GlobalNamespace::GameplayServerConfiguration& dyn__configuration();
     // Get instance field reference: private System.String _managerId
-    ::Il2CppString*& dyn__managerId();
+    ::StringW& dyn__managerId();
     // Get instance field reference: private MasterServerConnectionManager/ConnectionState _connectionState
     GlobalNamespace::MasterServerConnectionManager::ConnectionState& dyn__connectionState();
     // Get instance field reference: private System.Threading.CancellationTokenSource _connectionCancellationTokenSource
@@ -305,10 +306,10 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*& dyn_onReceivedDataEvent();
     // public System.String get_userId()
     // Offset: 0x14BEE9C
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x14BEEB8
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Boolean get_isConnected()
     // Offset: 0x14BEED4
     bool get_isConnected();
@@ -332,7 +333,7 @@ namespace GlobalNamespace {
     int get_port();
     // public System.String get_secret()
     // Offset: 0x14BEF74
-    ::Il2CppString* get_secret();
+    ::StringW get_secret();
     // public BeatmapLevelSelectionMask get_selectionMask()
     // Offset: 0x14BEF90
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
@@ -341,10 +342,10 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.String get_managerId()
     // Offset: 0x14BEFB8
-    ::Il2CppString* get_managerId();
+    ::StringW get_managerId();
     // public System.String get_code()
     // Offset: 0x14BEFC0
-    ::Il2CppString* get_code();
+    ::StringW get_code();
     // public System.Void add_onConnectedEvent(System.Action value)
     // Offset: 0x14BE5A4
     void add_onConnectedEvent(System::Action* value);
@@ -413,7 +414,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool Init(GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IConnectionManager, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IConnectionManager>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerConnectionManager::Init");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initParams)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -454,16 +455,16 @@ namespace GlobalNamespace {
     void HandleReceivedData(GlobalNamespace::IConnection* connection, LiteNetLib::Utils::NetDataReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void HandleConnectToClient(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer)
     // Offset: 0x14BFA2C
-    void HandleConnectToClient(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer);
+    void HandleConnectToClient(::StringW userId, ::StringW userName, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer);
     // private System.Void MasterServerConnectToServer(System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
     // Offset: 0x14BFDC4
-    void MasterServerConnectToServer(::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, ::Il2CppString* code);
+    void MasterServerConnectToServer(::StringW userId, ::StringW userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
     // private System.Void HandleConnectToServerSuccess(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.String managerId)
     // Offset: 0x14BFF20
-    void HandleConnectToServerSuccess(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::Il2CppString* managerId);
+    void HandleConnectToServerSuccess(::StringW userId, ::StringW userName, System::Net::IPEndPoint* remoteEndPoint, ::StringW secret, ::StringW code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::StringW managerId);
     // private System.Void ConnectToEndPoint(System.Net.IPEndPoint remoteEndPoint, System.String userId, System.String userName, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean remoteUserIsConnectionOwner, System.Boolean isDedicatedServer)
     // Offset: 0x14BFCB4
-    void ConnectToEndPoint(System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool remoteUserIsConnectionOwner, bool isDedicatedServer);
+    void ConnectToEndPoint(System::Net::IPEndPoint* remoteEndPoint, ::StringW userId, ::StringW userName, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool remoteUserIsConnectionOwner, bool isDedicatedServer);
     // public System.Void GetPublicServers(System.Action`1<System.Collections.Generic.IReadOnlyList`1<PublicServerInfo>> onSuccess, System.Action`1<ConnectionFailedReason> onFailure, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Int32 offset, System.Int32 count)
     // Offset: 0x14C01C4
     void GetPublicServers(System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>* onSuccess, System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, int offset, int count);
@@ -487,7 +488,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::Connectio
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -495,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -559,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_secret
 // Il2CppName: get_secret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_secret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_secret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -583,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_managerId
 // Il2CppName: get_managerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_managerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_managerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_managerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::get_code
 // Il2CppName: get_code
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_code)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_code)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -881,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient
 // Il2CppName: HandleConnectToClient
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::StringW, ::StringW, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -897,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer
 // Il2CppName: MasterServerConnectToServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::StringW, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -911,7 +912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess
 // Il2CppName: HandleConnectToServerSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::StringW, ::StringW, System::Net::IPEndPoint*, ::StringW, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool, ::StringW)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -932,7 +933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint
 // Il2CppName: ConnectToEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::StringW, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

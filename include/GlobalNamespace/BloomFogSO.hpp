@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -81,9 +82,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kBloomFogEnabledKeyword
     static constexpr const char* kBloomFogEnabledKeyword = "ENABLE_BLOOM_FOG";
     // Get static field: static private System.String kBloomFogEnabledKeyword
-    static ::Il2CppString* _get_kBloomFogEnabledKeyword();
+    static ::StringW _get_kBloomFogEnabledKeyword();
     // Set static field: static private System.String kBloomFogEnabledKeyword
-    static void _set_kBloomFogEnabledKeyword(::Il2CppString* value);
+    static void _set_kBloomFogEnabledKeyword(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF21DE8
     // Get static field: static private readonly System.Int32 _customFogAttenuationID
     static int _get__customFogAttenuationID();

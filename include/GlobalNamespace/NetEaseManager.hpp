@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -70,9 +71,9 @@ namespace GlobalNamespace {
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
     // Size: 0x8
     // Offset: 0x20
@@ -101,7 +102,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.ReceivedHighscoreData> _requestHighscoreDataTaskCompletionSource
     System::Threading::Tasks::TaskCompletionSource_1<NetEase::Docker::ReceivedHighscoreData>*& dyn__requestHighscoreDataTaskCompletionSource();
     // Get instance field reference: private System.Threading.Tasks.TaskCompletionSource`1<NetEase.Docker.InitializeData> _initTaskCompletionSource
@@ -115,7 +116,7 @@ namespace GlobalNamespace {
     bool get_supportsLeaderboards();
     // public System.String get_userName()
     // Offset: 0x1335CAC
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // protected System.Void Awake()
     // Offset: 0x1335CB4
     void Awake();
@@ -142,16 +143,16 @@ namespace GlobalNamespace {
     void HandleDidLogout(NetEase::Docker::LogoutData logoutData);
     // public System.Threading.Tasks.Task`1<NetEase.Docker.ReceivedHighscoreData> RequestHighscoreDataAsync(System.String leaderboardId)
     // Offset: 0x1336068
-    System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* RequestHighscoreDataAsync(::Il2CppString* leaderboardId);
+    System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* RequestHighscoreDataAsync(::StringW leaderboardId);
     // private System.Void HandleDidReceiveHighscore(NetEase.Docker.ReceivedHighscoreData highscoreData)
     // Offset: 0x133618C
     void HandleDidReceiveHighscore(NetEase::Docker::ReceivedHighscoreData highscoreData);
     // public System.Void UploadHighscore(System.String leaderboardId, System.Int32 score)
     // Offset: 0x1336218
-    void UploadHighscore(::Il2CppString* leaderboardId, int score);
+    void UploadHighscore(::StringW leaderboardId, int score);
     // static public System.Void Log(System.String message)
     // Offset: 0x133624C
-    static void Log(::Il2CppString* message);
+    static void Log(::StringW message);
     // public System.Void .ctor()
     // Offset: 0x13362B4
     // Implemented from: UnityEngine.MonoBehaviour
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -257,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::RequestHighscoreDataAsync
 // Il2CppName: RequestHighscoreDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* (GlobalNamespace::NetEaseManager::*)(::Il2CppString*)>(&GlobalNamespace::NetEaseManager::RequestHighscoreDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* (GlobalNamespace::NetEaseManager::*)(::StringW)>(&GlobalNamespace::NetEaseManager::RequestHighscoreDataAsync)> {
   static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "RequestHighscoreDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId});
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::UploadHighscore
 // Il2CppName: UploadHighscore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(::Il2CppString*, int)>(&GlobalNamespace::NetEaseManager::UploadHighscore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(::StringW, int)>(&GlobalNamespace::NetEaseManager::UploadHighscore)> {
   static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -285,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::NetEaseManager::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&GlobalNamespace::NetEaseManager::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

@@ -24,6 +24,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -429,21 +430,21 @@ namespace HoudiniEngineUnity {
     // private System.String _assetName
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* assetName;
+    ::StringW assetName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _assetOpName
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* assetOpName;
+    ::StringW assetOpName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _assetHelp
     // Size: 0x8
     // Offset: 0xB0
-    ::Il2CppString* assetHelp;
+    ::StringW assetHelp;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _assetID
     // Size: 0x4
     // Offset: 0xB8
@@ -455,9 +456,9 @@ namespace HoudiniEngineUnity {
     // private System.String _assetPath
     // Size: 0x8
     // Offset: 0xC0
-    ::Il2CppString* assetPath;
+    ::StringW assetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _loadAssetFromMemory
     // Size: 0x1
     // Offset: 0xC8
@@ -511,15 +512,15 @@ namespace HoudiniEngineUnity {
     // private System.String _assetCacheFolderPath
     // Size: 0x8
     // Offset: 0x138
-    ::Il2CppString* assetCacheFolderPath;
+    ::StringW assetCacheFolderPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] _subassetNames
     // Size: 0x8
     // Offset: 0x140
-    ::ArrayW<::Il2CppString*> subassetNames;
+    ::ArrayW<::StringW> subassetNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Int32 _selectedSubassetIndex
     // Size: 0x4
     // Offset: 0x148
@@ -968,15 +969,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HAPI_NodeInfo _nodeInfo
     HoudiniEngineUnity::HAPI_NodeInfo& dyn__nodeInfo();
     // Get instance field reference: private System.String _assetName
-    ::Il2CppString*& dyn__assetName();
+    ::StringW& dyn__assetName();
     // Get instance field reference: private System.String _assetOpName
-    ::Il2CppString*& dyn__assetOpName();
+    ::StringW& dyn__assetOpName();
     // Get instance field reference: private System.String _assetHelp
-    ::Il2CppString*& dyn__assetHelp();
+    ::StringW& dyn__assetHelp();
     // Get instance field reference: private System.Int32 _assetID
     int& dyn__assetID();
     // Get instance field reference: private System.String _assetPath
-    ::Il2CppString*& dyn__assetPath();
+    ::StringW& dyn__assetPath();
     // Get instance field reference: private System.Boolean _loadAssetFromMemory
     bool& dyn__loadAssetFromMemory();
     // Get instance field reference: private System.Boolean _alwaysOverwriteOnLoad
@@ -994,9 +995,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private UnityEngine.Matrix4x4 _lastSyncedTransformMatrix
     UnityEngine::Matrix4x4& dyn__lastSyncedTransformMatrix();
     // Get instance field reference: private System.String _assetCacheFolderPath
-    ::Il2CppString*& dyn__assetCacheFolderPath();
+    ::StringW& dyn__assetCacheFolderPath();
     // Get instance field reference: private System.String[] _subassetNames
-    ::ArrayW<::Il2CppString*>& dyn__subassetNames();
+    ::ArrayW<::StringW>& dyn__subassetNames();
     // Get instance field reference: private System.Int32 _selectedSubassetIndex
     int& dyn__selectedSubassetIndex();
     // Get instance field reference: private HoudiniEngineUnity.HEU_AssetPreset _savedAssetPreset
@@ -1146,13 +1147,13 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_NodeInfo get_NodeInfo();
     // public System.String get_AssetName()
     // Offset: 0x1650838
-    ::Il2CppString* get_AssetName();
+    ::StringW get_AssetName();
     // public System.String get_AssetOpName()
     // Offset: 0x1650840
-    ::Il2CppString* get_AssetOpName();
+    ::StringW get_AssetOpName();
     // public System.String get_AssetHelp()
     // Offset: 0x1650848
-    ::Il2CppString* get_AssetHelp();
+    ::StringW get_AssetHelp();
     // public System.Int32 get_TransformInputCount()
     // Offset: 0x1650850
     int get_TransformInputCount();
@@ -1164,7 +1165,7 @@ namespace HoudiniEngineUnity {
     int get_AssetID();
     // public System.String get_AssetPath()
     // Offset: 0x1650868
-    ::Il2CppString* get_AssetPath();
+    ::StringW get_AssetPath();
     // public System.Boolean get_LoadAssetFromMemory()
     // Offset: 0x1650870
     bool get_LoadAssetFromMemory();
@@ -1191,7 +1192,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Parameters* get_Parameters();
     // public System.String[] get_SubassetNames()
     // Offset: 0x16508B8
-    ::ArrayW<::Il2CppString*> get_SubassetNames();
+    ::ArrayW<::StringW> get_SubassetNames();
     // public System.Int64 get_SessionID()
     // Offset: 0x16508C0
     int64_t get_SessionID();
@@ -1362,7 +1363,7 @@ namespace HoudiniEngineUnity {
     void SetCurveDrawLayerMask(UnityEngine::LayerMask mask);
     // public System.Void SetupAsset(HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.HEU_AssetType assetType, System.String filePath, UnityEngine.GameObject rootGameObject, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x164B610
-    void SetupAsset(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType assetType, ::Il2CppString* filePath, UnityEngine::GameObject* rootGameObject, HoudiniEngineUnity::HEU_SessionBase* session);
+    void SetupAsset(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType assetType, ::StringW filePath, UnityEngine::GameObject* rootGameObject, HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void CleanUpAndDisable()
     // Offset: 0x1650AD8
     void CleanUpAndDisable();
@@ -1428,7 +1429,7 @@ namespace HoudiniEngineUnity {
     void DoPostCookWork(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean IsValidForInteraction(ref System.String errorMessage)
     // Offset: 0x1654E98
-    bool IsValidForInteraction(ByRef<::Il2CppString*> errorMessage);
+    bool IsValidForInteraction(ByRef<::StringW> errorMessage);
     // private System.Void OnValidate()
     // Offset: 0x1654F18
     void OnValidate();
@@ -1539,7 +1540,7 @@ namespace HoudiniEngineUnity {
     void CleanUpHandles();
     // public HoudiniEngineUnity.HEU_Handle GetHandleByName(System.String handleName)
     // Offset: 0x1657B28
-    HoudiniEngineUnity::HEU_Handle* GetHandleByName(::Il2CppString* handleName);
+    HoudiniEngineUnity::HEU_Handle* GetHandleByName(::StringW handleName);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Handle> GetHandles()
     // Offset: 0x1657C54
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* GetHandles();
@@ -1557,10 +1558,10 @@ namespace HoudiniEngineUnity {
     void InvokeBakedEvent(bool bSuccess, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputObjects, bool isNewBake);
     // private UnityEngine.GameObject CloneAssetWithoutHDA(ref System.String bakedAssetPath, System.Boolean bWriteMeshesToAssetDatabase, System.Boolean bReconnectPrefabInstances)
     // Offset: 0x1658114
-    UnityEngine::GameObject* CloneAssetWithoutHDA(ByRef<::Il2CppString*> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances);
+    UnityEngine::GameObject* CloneAssetWithoutHDA(ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances);
     // public UnityEngine.GameObject BakeToNewPrefab(System.String destinationPrefabPath)
     // Offset: 0x1658778
-    UnityEngine::GameObject* BakeToNewPrefab(::Il2CppString* destinationPrefabPath);
+    UnityEngine::GameObject* BakeToNewPrefab(::StringW destinationPrefabPath);
     // public UnityEngine.GameObject BakeToNewStandalone()
     // Offset: 0x1658AB0
     UnityEngine::GameObject* BakeToNewStandalone();
@@ -1647,7 +1648,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve*>* GetCurves();
     // public HoudiniEngineUnity.HEU_Curve GetCurve(System.String curveName)
     // Offset: 0x165AB04
-    HoudiniEngineUnity::HEU_Curve* GetCurve(::Il2CppString* curveName);
+    HoudiniEngineUnity::HEU_Curve* GetCurve(::StringW curveName);
     // public System.Void ClearInvalidCurves()
     // Offset: 0x1657598
     void ClearInvalidCurves();
@@ -1674,10 +1675,10 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNode*>* GetInputNodes();
     // public HoudiniEngineUnity.HEU_InputNode GetInputNode(System.String inputName)
     // Offset: 0x165AFE4
-    HoudiniEngineUnity::HEU_InputNode* GetInputNode(::Il2CppString* inputName);
+    HoudiniEngineUnity::HEU_InputNode* GetInputNode(::StringW inputName);
     // public HoudiniEngineUnity.HEU_InputNode GetAssetInputNode(System.String inputName)
     // Offset: 0x1657698
-    HoudiniEngineUnity::HEU_InputNode* GetAssetInputNode(::Il2CppString* inputName);
+    HoudiniEngineUnity::HEU_InputNode* GetAssetInputNode(::StringW inputName);
     // public HoudiniEngineUnity.HEU_InputNode GetInputNodeByIndex(System.Int32 index)
     // Offset: 0x165B110
     HoudiniEngineUnity::HEU_InputNode* GetInputNodeByIndex(int index);
@@ -1713,7 +1714,7 @@ namespace HoudiniEngineUnity {
     int NumAttributeStores();
     // public HoudiniEngineUnity.HEU_AttributesStore GetAttributeStore(System.String geoName, System.Int32 partID)
     // Offset: 0x165B4E4
-    HoudiniEngineUnity::HEU_AttributesStore* GetAttributeStore(::Il2CppString* geoName, int partID);
+    HoudiniEngineUnity::HEU_AttributesStore* GetAttributeStore(::StringW geoName, int partID);
     // public System.Void AddAttributeStore(HoudiniEngineUnity.HEU_AttributesStore attributeStore)
     // Offset: 0x165B620
     void AddAttributeStore(HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
@@ -1740,7 +1741,7 @@ namespace HoudiniEngineUnity {
     void PopulateObjectInstanceInfos(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
     // public System.Void AddToAssetDBCache(System.String assetObjectFileName, UnityEngine.Object objectToAdd, System.String relativeFolderPath, ref UnityEngine.Object targetAssetDBObject)
     // Offset: 0x165BE60
-    void AddToAssetDBCache(::Il2CppString* assetObjectFileName, UnityEngine::Object* objectToAdd, ::Il2CppString* relativeFolderPath, ByRef<UnityEngine::Object*> targetAssetDBObject);
+    void AddToAssetDBCache(::StringW assetObjectFileName, UnityEngine::Object* objectToAdd, ::StringW relativeFolderPath, ByRef<UnityEngine::Object*> targetAssetDBObject);
     // static public System.Void SetCurvesVisibilityInScene(System.Boolean bShow)
     // Offset: 0x165BEC4
     static void SetCurvesVisibilityInScene(bool bShow);
@@ -1749,7 +1750,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_SessionBase* GetAssetSession(bool bCreateIfInvalid);
     // public System.String GetValidAssetCacheFolderPath()
     // Offset: 0x165A48C
-    ::Il2CppString* GetValidAssetCacheFolderPath();
+    ::StringW GetValidAssetCacheFolderPath();
     // public System.Void HideAllGeometry()
     // Offset: 0x165C088
     void HideAllGeometry();
@@ -1767,7 +1768,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::GameObject* DuplicateAsset(UnityEngine::GameObject* newRootGameObject);
     // public HoudiniEngineUnity.HEU_ObjectNode GetObjectNodeByName(System.String objName)
     // Offset: 0x165D6A0
-    HoudiniEngineUnity::HEU_ObjectNode* GetObjectNodeByName(::Il2CppString* objName);
+    HoudiniEngineUnity::HEU_ObjectNode* GetObjectNodeByName(::StringW objName);
     // public System.Void ResetMaterialOverrides()
     // Offset: 0x165D890
     void ResetMaterialOverrides();
@@ -1788,7 +1789,7 @@ namespace HoudiniEngineUnity {
     bool ApplyInputPresets(HoudiniEngineUnity::HEU_SessionBase* session, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets, bool bAddMissingInputsToRecookPreset);
     // public HoudiniEngineUnity.HEU_VolumeCachePreset GetVolumeCachePreset(System.String objName, System.String geoName, System.Int32 tile)
     // Offset: 0x165E3D0
-    HoudiniEngineUnity::HEU_VolumeCachePreset* GetVolumeCachePreset(::Il2CppString* objName, ::Il2CppString* geoName, int tile);
+    HoudiniEngineUnity::HEU_VolumeCachePreset* GetVolumeCachePreset(::StringW objName, ::StringW geoName, int tile);
     // public System.Void RemoveVolumeCachePreset(HoudiniEngineUnity.HEU_VolumeCachePreset preset)
     // Offset: 0x165E540
     void RemoveVolumeCachePreset(HoudiniEngineUnity::HEU_VolumeCachePreset* preset);
@@ -1879,7 +1880,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetName
 // Il2CppName: get_AssetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_AssetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1887,7 +1888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetOpName
 // Il2CppName: get_AssetOpName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetOpName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetOpName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_AssetOpName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1895,7 +1896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetHelp
 // Il2CppName: get_AssetHelp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetHelp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetHelp)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_AssetHelp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1927,7 +1928,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetPath
 // Il2CppName: get_AssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_AssetPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_AssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2001,7 +2002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames
 // Il2CppName: get_SubassetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_SubassetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2483,7 +2484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::SetupAsset
 // Il2CppName: SetupAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_HoudiniAsset::*)(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType, ::Il2CppString*, UnityEngine::GameObject*, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::SetupAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_HoudiniAsset::*)(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType, ::StringW, UnityEngine::GameObject*, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::SetupAsset)> {
   static const MethodInfo* get() {
     static auto* assetType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2688,7 +2689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::IsValidForInteraction
 // Il2CppName: IsValidForInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::*)(ByRef<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_HoudiniAsset::IsValidForInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::*)(ByRef<::StringW>)>(&HoudiniEngineUnity::HEU_HoudiniAsset::IsValidForInteraction)> {
   static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "IsValidForInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});
@@ -3030,7 +3031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetHandleByName
 // Il2CppName: GetHandleByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Handle* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetHandleByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Handle* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetHandleByName)> {
   static const MethodInfo* get() {
     static auto* handleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetHandleByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handleName});
@@ -3085,7 +3086,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::CloneAssetWithoutHDA
 // Il2CppName: CloneAssetWithoutHDA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(ByRef<::Il2CppString*>, bool, bool)>(&HoudiniEngineUnity::HEU_HoudiniAsset::CloneAssetWithoutHDA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(ByRef<::StringW>, bool, bool)>(&HoudiniEngineUnity::HEU_HoudiniAsset::CloneAssetWithoutHDA)> {
   static const MethodInfo* get() {
     static auto* bakedAssetPath = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* bWriteMeshesToAssetDatabase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3096,7 +3097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::BakeToNewPrefab
 // Il2CppName: BakeToNewPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::BakeToNewPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::BakeToNewPrefab)> {
   static const MethodInfo* get() {
     static auto* destinationPrefabPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "BakeToNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destinationPrefabPath});
@@ -3351,7 +3352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetCurve
 // Il2CppName: GetCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Curve* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Curve* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetCurve)> {
   static const MethodInfo* get() {
     static auto* curveName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curveName});
@@ -3428,7 +3429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetInputNode
 // Il2CppName: GetInputNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetInputNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetInputNode)> {
   static const MethodInfo* get() {
     static auto* inputName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetInputNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputName});
@@ -3437,7 +3438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetAssetInputNode
 // Il2CppName: GetAssetInputNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetAssetInputNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetAssetInputNode)> {
   static const MethodInfo* get() {
     static auto* inputName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetAssetInputNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputName});
@@ -3540,7 +3541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetAttributeStore
 // Il2CppName: GetAttributeStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributesStore* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetAttributeStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributesStore* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW, int)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetAttributeStore)> {
   static const MethodInfo* get() {
     static auto* geoName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3623,7 +3624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::AddToAssetDBCache
 // Il2CppName: AddToAssetDBCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*, UnityEngine::Object*, ::Il2CppString*, ByRef<UnityEngine::Object*>)>(&HoudiniEngineUnity::HEU_HoudiniAsset::AddToAssetDBCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW, UnityEngine::Object*, ::StringW, ByRef<UnityEngine::Object*>)>(&HoudiniEngineUnity::HEU_HoudiniAsset::AddToAssetDBCache)> {
   static const MethodInfo* get() {
     static auto* assetObjectFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* objectToAdd = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -3653,7 +3654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetValidAssetCacheFolderPath
 // Il2CppName: GetValidAssetCacheFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetValidAssetCacheFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetValidAssetCacheFolderPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetValidAssetCacheFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3702,7 +3703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetObjectNodeByName
 // Il2CppName: GetObjectNodeByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetObjectNodeByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectNode* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetObjectNodeByName)> {
   static const MethodInfo* get() {
     static auto* objName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "GetObjectNodeByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objName});
@@ -3763,7 +3764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::GetVolumeCachePreset
 // Il2CppName: GetVolumeCachePreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_VolumeCachePreset* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::Il2CppString*, ::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetVolumeCachePreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_VolumeCachePreset* (HoudiniEngineUnity::HEU_HoudiniAsset::*)(::StringW, ::StringW, int)>(&HoudiniEngineUnity::HEU_HoudiniAsset::GetVolumeCachePreset)> {
   static const MethodInfo* get() {
     static auto* objName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* geoName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

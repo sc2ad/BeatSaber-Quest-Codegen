@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -83,7 +84,7 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRRenderModelError LoadRenderModel_Async(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
     // Offset: 0x18CC3E8
-    Valve::VR::EVRRenderModelError LoadRenderModel_Async(::Il2CppString* pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
+    Valve::VR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
     // public System.Void FreeRenderModel(System.IntPtr pRenderModel)
     // Offset: 0x18CC404
     void FreeRenderModel(System::IntPtr pRenderModel);
@@ -110,31 +111,31 @@ namespace Valve::VR {
     uint GetRenderModelCount();
     // public System.UInt32 GetComponentCount(System.String pchRenderModelName)
     // Offset: 0x18CC4E4
-    uint GetComponentCount(::Il2CppString* pchRenderModelName);
+    uint GetComponentCount(::StringW pchRenderModelName);
     // public System.UInt32 GetComponentName(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
     // Offset: 0x18CC500
-    uint GetComponentName(::Il2CppString* pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
+    uint GetComponentName(::StringW pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.UInt64 GetComponentButtonMask(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x18CC51C
-    uint64_t GetComponentButtonMask(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
+    uint64_t GetComponentButtonMask(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetComponentRenderModelName(System.String pchRenderModelName, System.String pchComponentName, System.Text.StringBuilder pchComponentRenderModelName, System.UInt32 unComponentRenderModelNameLen)
     // Offset: 0x18CC538
-    uint GetComponentRenderModelName(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
+    uint GetComponentRenderModelName(::StringW pchRenderModelName, ::StringW pchComponentName, System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
     // public System.Boolean GetComponentState(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState)
     // Offset: 0x18CC554
-    bool GetComponentState(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState);
+    bool GetComponentState(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState);
     // public System.Boolean RenderModelHasComponent(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x18CCAE0
-    bool RenderModelHasComponent(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName);
+    bool RenderModelHasComponent(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetRenderModelThumbnailURL(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError)
     // Offset: 0x18CCAFC
-    uint GetRenderModelThumbnailURL(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<Valve::VR::EVRRenderModelError> peError);
+    uint GetRenderModelThumbnailURL(::StringW pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<Valve::VR::EVRRenderModelError> peError);
     // public System.UInt32 GetRenderModelOriginalPath(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref Valve.VR.EVRRenderModelError peError)
     // Offset: 0x18CCB18
-    uint GetRenderModelOriginalPath(::Il2CppString* pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<Valve::VR::EVRRenderModelError> peError);
+    uint GetRenderModelOriginalPath(::StringW pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<Valve::VR::EVRRenderModelError> peError);
     // public System.String GetRenderModelErrorNameFromEnum(Valve.VR.EVRRenderModelError error)
     // Offset: 0x18CCB34
-    ::Il2CppString* GetRenderModelErrorNameFromEnum(Valve::VR::EVRRenderModelError error);
+    ::StringW GetRenderModelErrorNameFromEnum(Valve::VR::EVRRenderModelError error);
   }; // Valve.VR.CVRRenderModels
   #pragma pack(pop)
   static check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels)> __Valve_VR_CVRRenderModelsSizeCheck;
@@ -148,7 +149,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::LoadRenderModel_Async
 // Il2CppName: LoadRenderModel_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(::Il2CppString*, ByRef<System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadRenderModel_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(::StringW, ByRef<System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadRenderModel_Async)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ppRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentCount
 // Il2CppName: GetComponentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::Il2CppString*)>(&Valve::VR::CVRRenderModels::GetComponentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW)>(&Valve::VR::CVRRenderModels::GetComponentCount)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "GetComponentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchRenderModelName});
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentName
 // Il2CppName: GetComponentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::Il2CppString*, uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentName)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* unComponentIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -256,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentButtonMask
 // Il2CppName: GetComponentButtonMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Valve::VR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&Valve::VR::CVRRenderModels::GetComponentButtonMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW)>(&Valve::VR::CVRRenderModels::GetComponentButtonMask)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -266,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (V
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentRenderModelName
 // Il2CppName: GetComponentRenderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentRenderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentRenderModelName)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -278,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentState
 // Il2CppName: GetComponentState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::CVRRenderModels::GetComponentState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::CVRRenderModels::GetComponentState)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::RenderModelHasComponent
 // Il2CppName: RenderModelHasComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&Valve::VR::CVRRenderModels::RenderModelHasComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW)>(&Valve::VR::CVRRenderModels::RenderModelHasComponent)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL
 // Il2CppName: GetRenderModelThumbnailURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchThumbnailURL = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -313,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelOriginalPath
 // Il2CppName: GetRenderModelOriginalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelOriginalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelOriginalPath)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOriginalPath = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -325,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum
 // Il2CppName: GetRenderModelErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRRenderModels::*)(Valve::VR::EVRRenderModelError)>(&Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRRenderModels::*)(Valve::VR::EVRRenderModelError)>(&Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRRenderModelError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "GetRenderModelErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});

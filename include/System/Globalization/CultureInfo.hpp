@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -145,51 +146,51 @@ namespace System::Globalization {
     // System.String m_name
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* m_name;
+    ::StringW m_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String englishname
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* englishname;
+    ::StringW englishname;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String nativename
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* nativename;
+    ::StringW nativename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String iso3lang
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* iso3lang;
+    ::StringW iso3lang;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String iso2lang
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* iso2lang;
+    ::StringW iso2lang;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String win3lang
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* win3lang;
+    ::StringW win3lang;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String territory
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* territory;
+    ::StringW territory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] native_calendar_names
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<::Il2CppString*> native_calendar_names;
+    ::ArrayW<::StringW> native_calendar_names;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Globalization.CompareInfo compareInfo
     // Size: 0x8
     // Offset: 0x88
@@ -284,9 +285,9 @@ namespace System::Globalization {
     // static field const value: static private System.String MSG_READONLY
     static constexpr const char* MSG_READONLY = "This instance is read only";
     // Get static field: static private System.String MSG_READONLY
-    static ::Il2CppString* _get_MSG_READONLY();
+    static ::StringW _get_MSG_READONLY();
     // Set static field: static private System.String MSG_READONLY
-    static void _set_MSG_READONLY(::Il2CppString* value);
+    static void _set_MSG_READONLY(::StringW value);
     // Get static field: static private System.Globalization.CultureInfo s_DefaultThreadCurrentUICulture
     static System::Globalization::CultureInfo* _get_s_DefaultThreadCurrentUICulture();
     // Set static field: static private System.Globalization.CultureInfo s_DefaultThreadCurrentUICulture
@@ -300,9 +301,9 @@ namespace System::Globalization {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> shared_by_number
     static void _set_shared_by_number(System::Collections::Generic::Dictionary_2<int, System::Globalization::CultureInfo*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> shared_by_name
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Globalization::CultureInfo*>* _get_shared_by_name();
+    static System::Collections::Generic::Dictionary_2<::StringW, System::Globalization::CultureInfo*>* _get_shared_by_name();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> shared_by_name
-    static void _set_shared_by_name(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Globalization::CultureInfo*>* value);
+    static void _set_shared_by_name(System::Collections::Generic::Dictionary_2<::StringW, System::Globalization::CultureInfo*>* value);
     // Get static field: static readonly System.Boolean IsTaiwanSku
     static bool _get_IsTaiwanSku();
     // Set static field: static readonly System.Boolean IsTaiwanSku
@@ -328,21 +329,21 @@ namespace System::Globalization {
     // Get instance field reference: private System.Globalization.TextInfo textInfo
     System::Globalization::TextInfo*& dyn_textInfo();
     // Get instance field reference: System.String m_name
-    ::Il2CppString*& dyn_m_name();
+    ::StringW& dyn_m_name();
     // Get instance field reference: private System.String englishname
-    ::Il2CppString*& dyn_englishname();
+    ::StringW& dyn_englishname();
     // Get instance field reference: private System.String nativename
-    ::Il2CppString*& dyn_nativename();
+    ::StringW& dyn_nativename();
     // Get instance field reference: private System.String iso3lang
-    ::Il2CppString*& dyn_iso3lang();
+    ::StringW& dyn_iso3lang();
     // Get instance field reference: private System.String iso2lang
-    ::Il2CppString*& dyn_iso2lang();
+    ::StringW& dyn_iso2lang();
     // Get instance field reference: private System.String win3lang
-    ::Il2CppString*& dyn_win3lang();
+    ::StringW& dyn_win3lang();
     // Get instance field reference: private System.String territory
-    ::Il2CppString*& dyn_territory();
+    ::StringW& dyn_territory();
     // Get instance field reference: private System.String[] native_calendar_names
-    ::ArrayW<::Il2CppString*>& dyn_native_calendar_names();
+    ::ArrayW<::StringW>& dyn_native_calendar_names();
     // Get instance field reference: private System.Globalization.CompareInfo compareInfo
     System::Globalization::CompareInfo*& dyn_compareInfo();
     // Get instance field reference: private readonly System.Void* textinfo_data
@@ -372,13 +373,13 @@ namespace System::Globalization {
     static System::Globalization::CultureInfo* get_CurrentUICulture();
     // System.String get_Territory()
     // Offset: 0x19B2180
-    ::Il2CppString* get_Territory();
+    ::StringW get_Territory();
     // public System.Int32 get_LCID()
     // Offset: 0x19B2188
     int get_LCID();
     // public System.String get_Name()
     // Offset: 0x19B2190
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Globalization.Calendar get_Calendar()
     // Offset: 0x19B2198
     System::Globalization::Calendar* get_Calendar();
@@ -408,7 +409,7 @@ namespace System::Globalization {
     void set_DateTimeFormat(System::Globalization::DateTimeFormatInfo* value);
     // public System.String get_EnglishName()
     // Offset: 0x19B3078
-    ::Il2CppString* get_EnglishName();
+    ::StringW get_EnglishName();
     // public System.Boolean get_IsReadOnly()
     // Offset: 0x19B30B4
     bool get_IsReadOnly();
@@ -426,7 +427,7 @@ namespace System::Globalization {
     static System::Globalization::CultureInfo* get_DefaultThreadCurrentUICulture();
     // System.String get_SortName()
     // Offset: 0x19B5CDC
-    ::Il2CppString* get_SortName();
+    ::StringW get_SortName();
     // static System.Globalization.CultureInfo get_UserDefaultUICulture()
     // Offset: 0x19B5CE4
     static System::Globalization::CultureInfo* get_UserDefaultUICulture();
@@ -457,21 +458,21 @@ namespace System::Globalization {
     // public System.Void .ctor(System.String name)
     // Offset: 0x19B2688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CultureInfo* New_ctor(::Il2CppString* name) {
+    static CultureInfo* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Boolean useUserOverride)
     // Offset: 0x19B12D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride) {
+    static CultureInfo* New_ctor(::StringW name, bool useUserOverride) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name, useUserOverride)));
     }
     // private System.Void .ctor(System.String name, System.Boolean useUserOverride, System.Boolean read_only)
     // Offset: 0x19B360C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CultureInfo* New_ctor(::Il2CppString* name, bool useUserOverride, bool read_only) {
+    static CultureInfo* New_ctor(::StringW name, bool useUserOverride, bool read_only) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureInfo*, creationType>(name, useUserOverride, read_only)));
     }
@@ -504,10 +505,10 @@ namespace System::Globalization {
     bool construct_internal_locale_from_lcid(int lcid);
     // private System.Boolean construct_internal_locale_from_name(System.String name)
     // Offset: 0x19B31C8
-    bool construct_internal_locale_from_name(::Il2CppString* name);
+    bool construct_internal_locale_from_name(::StringW name);
     // static private System.String get_current_locale_name()
     // Offset: 0x19B1E88
-    static ::Il2CppString* get_current_locale_name();
+    static ::StringW get_current_locale_name();
     // private System.Void ConstructInvariant(System.Boolean read_only)
     // Offset: 0x19B31CC
     void ConstructInvariant(bool read_only);
@@ -522,22 +523,22 @@ namespace System::Globalization {
     static System::Globalization::CultureInfo* GetCultureInfo(int culture);
     // static public System.Globalization.CultureInfo GetCultureInfo(System.String name)
     // Offset: 0x19AE454
-    static System::Globalization::CultureInfo* GetCultureInfo(::Il2CppString* name);
+    static System::Globalization::CultureInfo* GetCultureInfo(::StringW name);
     // static System.Globalization.CultureInfo CreateCulture(System.String name, System.Boolean reference)
     // Offset: 0x19B3A6C
-    static System::Globalization::CultureInfo* CreateCulture(::Il2CppString* name, bool reference);
+    static System::Globalization::CultureInfo* CreateCulture(::StringW name, bool reference);
     // static public System.Globalization.CultureInfo CreateSpecificCulture(System.String name)
     // Offset: 0x19B1E8C
-    static System::Globalization::CultureInfo* CreateSpecificCulture(::Il2CppString* name);
+    static System::Globalization::CultureInfo* CreateSpecificCulture(::StringW name);
     // static private System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String name)
     // Offset: 0x19B3AF0
-    static System::Globalization::CultureInfo* CreateSpecificCultureFromNeutral(::Il2CppString* name);
+    static System::Globalization::CultureInfo* CreateSpecificCultureFromNeutral(::StringW name);
     // static private System.Globalization.Calendar CreateCalendar(System.Int32 calendarType)
     // Offset: 0x19B2258
     static System::Globalization::Calendar* CreateCalendar(int calendarType);
     // static private System.Exception CreateNotFoundException(System.String name)
     // Offset: 0x19B384C
-    static System::Exception* CreateNotFoundException(::Il2CppString* name);
+    static System::Exception* CreateNotFoundException(::StringW name);
     // static System.Void CheckDomainSafetyObject(System.Object obj, System.Object container)
     // Offset: 0x19B5D9C
     static void CheckDomainSafetyObject(::Il2CppObject* obj, ::Il2CppObject* container);
@@ -564,7 +565,7 @@ namespace System::Globalization {
     // Offset: 0x19B2B50
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Globalization.CultureInfo
   #pragma pack(pop)
   static check_size<sizeof(CultureInfo), 200 + sizeof(bool)> __System_Globalization_CultureInfoSizeCheck;
@@ -598,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_Territory
 // Il2CppName: get_Territory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_Territory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_Territory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "get_Territory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -614,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -696,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_EnglishName
 // Il2CppName: get_EnglishName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_EnglishName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_EnglishName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "get_EnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -745,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_SortName
 // Il2CppName: get_SortName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_SortName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::get_SortName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "get_SortName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -867,7 +868,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::construct_internal_locale_from_name
 // Il2CppName: construct_internal_locale_from_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::CultureInfo::*)(::Il2CppString*)>(&System::Globalization::CultureInfo::construct_internal_locale_from_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::CultureInfo::*)(::StringW)>(&System::Globalization::CultureInfo::construct_internal_locale_from_name)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "construct_internal_locale_from_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -876,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_current_locale_name
 // Il2CppName: get_current_locale_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Globalization::CultureInfo::get_current_locale_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Globalization::CultureInfo::get_current_locale_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "get_current_locale_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -920,7 +921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::GetCultureInfo
 // Il2CppName: GetCultureInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::Il2CppString*)>(&System::Globalization::CultureInfo::GetCultureInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::StringW)>(&System::Globalization::CultureInfo::GetCultureInfo)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "GetCultureInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -929,7 +930,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::CreateCulture
 // Il2CppName: CreateCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::Il2CppString*, bool)>(&System::Globalization::CultureInfo::CreateCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::StringW, bool)>(&System::Globalization::CultureInfo::CreateCulture)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reference = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -939,7 +940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::CreateSpecificCulture
 // Il2CppName: CreateSpecificCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::Il2CppString*)>(&System::Globalization::CultureInfo::CreateSpecificCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::StringW)>(&System::Globalization::CultureInfo::CreateSpecificCulture)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "CreateSpecificCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -948,7 +949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::CreateSpecificCultureFromNeutral
 // Il2CppName: CreateSpecificCultureFromNeutral
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::Il2CppString*)>(&System::Globalization::CultureInfo::CreateSpecificCultureFromNeutral)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(::StringW)>(&System::Globalization::CultureInfo::CreateSpecificCultureFromNeutral)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "CreateSpecificCultureFromNeutral", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -966,7 +967,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::CreateNotFoundException
 // Il2CppName: CreateNotFoundException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Globalization::CultureInfo::CreateNotFoundException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Globalization::CultureInfo::CreateNotFoundException)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "CreateNotFoundException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1006,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureInfo::*)()>(&System::Globalization::CultureInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

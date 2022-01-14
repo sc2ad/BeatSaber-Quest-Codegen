@@ -19,6 +19,7 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter
 #include "System/Runtime/CompilerServices/YieldAwaitable_YieldAwaiter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::$GetPackEntitlementStatusInternalAsync$d__6, "", "TestPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__6");
@@ -56,9 +57,9 @@ namespace GlobalNamespace {
     // public System.String levelPackId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* levelPackId;
+    ::StringW levelPackId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
     // Size: 0x1
     // Offset: 0x38
@@ -67,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter) == 0x1);
     public:
     // Creating value type constructor for type: $GetPackEntitlementStatusInternalAsync$d__6
-    constexpr $GetPackEntitlementStatusInternalAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, ::Il2CppString* levelPackId_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, $$u__1{$$u__1_} {}
+    constexpr $GetPackEntitlementStatusInternalAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, ::StringW levelPackId_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, $$4__this{$$4__this_}, levelPackId{levelPackId_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public TestPlatformAdditionalContentModel <>4__this
     GlobalNamespace::TestPlatformAdditionalContentModel*& dyn_$$4__this();
     // Get instance field reference: public System.String levelPackId
-    ::Il2CppString*& dyn_levelPackId();
+    ::StringW& dyn_levelPackId();
     // Get instance field reference: private System.Runtime.CompilerServices.YieldAwaitable/System.Runtime.CompilerServices.YieldAwaiter <>u__1
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()

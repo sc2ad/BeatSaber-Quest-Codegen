@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::TextReader::NullTextReader);
@@ -44,7 +45,7 @@ namespace System::IO {
     // Offset: 0x1A0A384
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::StringW ReadLine();
   }; // System.IO.TextReader/System.IO.NullTextReader
   #pragma pack(pop)
 }
@@ -67,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::TextReader::NullTextReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::NullTextReader::*)()>(&System::IO::TextReader::NullTextReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::TextReader::NullTextReader::*)()>(&System::IO::TextReader::NullTextReader::ReadLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::NullTextReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

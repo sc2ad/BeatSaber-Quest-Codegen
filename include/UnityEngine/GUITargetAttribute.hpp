@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Attribute
 #include "System/Attribute.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -56,7 +57,7 @@ namespace UnityEngine {
     int& dyn_displayMask();
     // static private System.Int32 GetGUITargetAttrValue(System.Type klass, System.String methodName)
     // Offset: 0x1CF5220
-    static int GetGUITargetAttrValue(System::Type* klass, ::Il2CppString* methodName);
+    static int GetGUITargetAttrValue(System::Type* klass, ::StringW methodName);
   }; // UnityEngine.GUITargetAttribute
   #pragma pack(pop)
   static check_size<sizeof(GUITargetAttribute), 16 + sizeof(int)> __UnityEngine_GUITargetAttributeSizeCheck;
@@ -66,7 +67,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::GUITargetAttribute::GetGUITargetAttrValue
 // Il2CppName: GetGUITargetAttrValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, ::Il2CppString*)>(&UnityEngine::GUITargetAttribute::GetGUITargetAttrValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, ::StringW)>(&UnityEngine::GUITargetAttribute::GetGUITargetAttrValue)> {
   static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

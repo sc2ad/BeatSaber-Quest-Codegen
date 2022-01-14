@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Resources
 namespace System::Resources {
@@ -44,9 +45,9 @@ namespace System::Resources {
     // private System.String _culture
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* culture;
+    ::StringW culture;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
     // Size: 0x4
     // Offset: 0x18
@@ -55,19 +56,19 @@ namespace System::Resources {
     static_assert(sizeof(System::Resources::UltimateResourceFallbackLocation) == 0x4);
     public:
     // Get instance field reference: private System.String _culture
-    ::Il2CppString*& dyn__culture();
+    ::StringW& dyn__culture();
     // Get instance field reference: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
     System::Resources::UltimateResourceFallbackLocation& dyn__fallbackLoc();
     // public System.String get_CultureName()
     // Offset: 0x1619CE4
-    ::Il2CppString* get_CultureName();
+    ::StringW get_CultureName();
     // public System.Resources.UltimateResourceFallbackLocation get_Location()
     // Offset: 0x1619CEC
     System::Resources::UltimateResourceFallbackLocation get_Location();
     // public System.Void .ctor(System.String cultureName)
     // Offset: 0x1619C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NeutralResourcesLanguageAttribute* New_ctor(::Il2CppString* cultureName) {
+    static NeutralResourcesLanguageAttribute* New_ctor(::StringW cultureName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::NeutralResourcesLanguageAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NeutralResourcesLanguageAttribute*, creationType>(cultureName)));
     }
@@ -80,7 +81,7 @@ namespace System::Resources {
 // Writing MetadataGetter for method: System::Resources::NeutralResourcesLanguageAttribute::get_CultureName
 // Il2CppName: get_CultureName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::NeutralResourcesLanguageAttribute::*)()>(&System::Resources::NeutralResourcesLanguageAttribute::get_CultureName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::NeutralResourcesLanguageAttribute::*)()>(&System::Resources::NeutralResourcesLanguageAttribute::get_CultureName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Resources::NeutralResourcesLanguageAttribute*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

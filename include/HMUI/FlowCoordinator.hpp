@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -154,9 +155,9 @@ namespace HMUI {
     // private System.String _title
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private HMUI.ViewController _providedMainViewController
     // Size: 0x8
     // Offset: 0x70
@@ -249,7 +250,7 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _wasActivatedBefore
     bool& dyn__wasActivatedBefore();
     // Get instance field reference: private System.String _title
-    ::Il2CppString*& dyn__title();
+    ::StringW& dyn__title();
     // Get instance field reference: private HMUI.ViewController _providedMainViewController
     HMUI::ViewController*& dyn__providedMainViewController();
     // Get instance field reference: private HMUI.ViewController _providedLeftScreenViewController
@@ -283,7 +284,7 @@ namespace HMUI {
     bool get_isActivated();
     // protected System.String get_title()
     // Offset: 0x149D2EC
-    ::Il2CppString* get_title();
+    ::StringW get_title();
     // protected System.Boolean get_showBackButton()
     // Offset: 0x149D4A0
     bool get_showBackButton();
@@ -292,7 +293,7 @@ namespace HMUI {
     void set_showBackButton(bool value);
     // protected System.Void SetTitle(System.String value, HMUI.ViewController/HMUI.AnimationType animationType)
     // Offset: 0x149D2F4
-    void SetTitle(::Il2CppString* value, HMUI::ViewController::AnimationType animationType);
+    void SetTitle(::StringW value, HMUI::ViewController::AnimationType animationType);
     // public System.Void __StartOnScreenSystem(HMUI.ScreenSystem screenSystem)
     // Offset: 0x149D4A8
     void __StartOnScreenSystem(HMUI::ScreenSystem* screenSystem);
@@ -346,7 +347,7 @@ namespace HMUI {
     void SetTopScreenViewController(HMUI::ViewController* viewController, HMUI::ViewController::AnimationType animationType);
     // private System.Void PresentTitle(System.String title, HMUI.ViewController/HMUI.AnimationType animationType)
     // Offset: 0x149D418
-    void PresentTitle(::Il2CppString* title, HMUI::ViewController::AnimationType animationType);
+    void PresentTitle(::StringW title, HMUI::ViewController::AnimationType animationType);
     // public System.Boolean IsFlowCoordinatorInHierarchy(HMUI.FlowCoordinator flowCoordinator)
     // Offset: 0x149D354
     bool IsFlowCoordinatorInHierarchy(HMUI::FlowCoordinator* flowCoordinator);
@@ -397,7 +398,7 @@ namespace HMUI {
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
     // static private System.Void Log(System.String message)
     // Offset: 0x149F5A0
-    static void Log(::Il2CppString* message);
+    static void Log(::StringW message);
     // protected System.Void .ctor()
     // Offset: 0x149F608
     // Implemented from: UnityEngine.MonoBehaviour
@@ -444,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::get_title
 // Il2CppName: get_title
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_title)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_title)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -469,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::SetTitle
 // Il2CppName: SetTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::StringW, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetTitle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
@@ -670,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::PresentTitle
 // Il2CppName: PresentTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::PresentTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::StringW, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::PresentTitle)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
@@ -829,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HMUI::FlowCoordinator::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HMUI::FlowCoordinator::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

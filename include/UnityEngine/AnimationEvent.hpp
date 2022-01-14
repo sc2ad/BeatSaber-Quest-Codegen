@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -63,15 +64,15 @@ namespace UnityEngine {
     // System.String m_FunctionName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_FunctionName;
+    ::StringW m_FunctionName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String m_StringParameter
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_StringParameter;
+    ::StringW m_StringParameter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // UnityEngine.Object m_ObjectReferenceParameter
     // Size: 0x8
     // Offset: 0x28
@@ -124,9 +125,9 @@ namespace UnityEngine {
     // Get instance field reference: System.Single m_Time
     float& dyn_m_Time();
     // Get instance field reference: System.String m_FunctionName
-    ::Il2CppString*& dyn_m_FunctionName();
+    ::StringW& dyn_m_FunctionName();
     // Get instance field reference: System.String m_StringParameter
-    ::Il2CppString*& dyn_m_StringParameter();
+    ::StringW& dyn_m_StringParameter();
     // Get instance field reference: UnityEngine.Object m_ObjectReferenceParameter
     UnityEngine::Object*& dyn_m_ObjectReferenceParameter();
     // Get instance field reference: System.Single m_FloatParameter

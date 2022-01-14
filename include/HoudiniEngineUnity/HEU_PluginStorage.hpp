@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -69,15 +70,15 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData> _dataMap
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>* dataMap;
+    System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>* dataMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> _envPathMap
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* envPathMap;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* envPathMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // private System.Boolean _requiresSave
     // Size: 0x1
     // Offset: 0x20
@@ -92,25 +93,25 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String PluginSettingsLine1
     static constexpr const char* PluginSettingsLine1 = "Houdini Engine for Unity Plugin Settings";
     // Get static field: static public System.String PluginSettingsLine1
-    static ::Il2CppString* _get_PluginSettingsLine1();
+    static ::StringW _get_PluginSettingsLine1();
     // Set static field: static public System.String PluginSettingsLine1
-    static void _set_PluginSettingsLine1(::Il2CppString* value);
+    static void _set_PluginSettingsLine1(::StringW value);
     // static field const value: static public System.String PluginSettingsLine2
     static constexpr const char* PluginSettingsLine2 = "Version=";
     // Get static field: static public System.String PluginSettingsLine2
-    static ::Il2CppString* _get_PluginSettingsLine2();
+    static ::StringW _get_PluginSettingsLine2();
     // Set static field: static public System.String PluginSettingsLine2
-    static void _set_PluginSettingsLine2(::Il2CppString* value);
+    static void _set_PluginSettingsLine2(::StringW value);
     // static field const value: static public System.String PluginSettingsVersion
     static constexpr const char* PluginSettingsVersion = "1.0";
     // Get static field: static public System.String PluginSettingsVersion
-    static ::Il2CppString* _get_PluginSettingsVersion();
+    static ::StringW _get_PluginSettingsVersion();
     // Set static field: static public System.String PluginSettingsVersion
-    static void _set_PluginSettingsVersion(::Il2CppString* value);
+    static void _set_PluginSettingsVersion(::StringW value);
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData> _dataMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*& dyn__dataMap();
+    System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_PluginStorage::StoreData*>*& dyn__dataMap();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _envPathMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__envPathMap();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__envPathMap();
     // Get instance field reference: private System.Boolean _requiresSave
     bool& dyn__requiresSave();
     // public System.Boolean get_RequiresSave()
@@ -121,7 +122,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::HEU_PluginStorage* get_Instance();
     // public System.Collections.Generic.Dictionary`2<System.String,System.String> GetEnvironmentPathMap()
     // Offset: 0x18436C0
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* GetEnvironmentPathMap();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetEnvironmentPathMap();
     // static public System.Void InstantiateAndLoad()
     // Offset: 0x18436D0
     static void InstantiateAndLoad();
@@ -131,7 +132,7 @@ namespace HoudiniEngineUnity {
     // private T[] GetJSONArray(System.String jsonArray)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayW<T> GetJSONArray(::Il2CppString* jsonArray) {
+    ::ArrayW<T> GetJSONArray(::StringW jsonArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PluginStorage::GetJSONArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetJSONArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(jsonArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -139,40 +140,40 @@ namespace HoudiniEngineUnity {
     }
     // public System.Void Set(System.String key, System.Boolean value)
     // Offset: 0x183F880
-    void Set(::Il2CppString* key, bool value);
+    void Set(::StringW key, bool value);
     // public System.Void Set(System.String key, System.Int32 value)
     // Offset: 0x184113C
-    void Set(::Il2CppString* key, int value);
+    void Set(::StringW key, int value);
     // public System.Void Set(System.String key, System.Int64 value)
     // Offset: 0x1844540
-    void Set(::Il2CppString* key, int64_t value);
+    void Set(::StringW key, int64_t value);
     // public System.Void Set(System.String key, System.Single value)
     // Offset: 0x1840684
-    void Set(::Il2CppString* key, float value);
+    void Set(::StringW key, float value);
     // public System.Void Set(System.String key, System.String value)
     // Offset: 0x183F304
-    void Set(::Il2CppString* key, ::Il2CppString* value);
+    void Set(::StringW key, ::StringW value);
     // public System.Void Set(System.String key, System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
     // Offset: 0x1841AC4
-    void Set(::Il2CppString* key, System::Collections::Generic::List_1<::Il2CppString*>* values, ::Il2CppChar delimiter);
+    void Set(::StringW key, System::Collections::Generic::List_1<::StringW>* values, ::Il2CppChar delimiter);
     // public System.Boolean Get(System.String key, out System.Boolean value, System.Boolean defaultValue)
     // Offset: 0x183F730
-    bool Get(::Il2CppString* key, ByRef<bool> value, bool defaultValue);
+    bool Get(::StringW key, ByRef<bool> value, bool defaultValue);
     // public System.Boolean Get(System.String key, out System.Int32 value, System.Int32 defaultValue)
     // Offset: 0x1840FEC
-    bool Get(::Il2CppString* key, ByRef<int> value, int defaultValue);
+    bool Get(::StringW key, ByRef<int> value, int defaultValue);
     // public System.Boolean Get(System.String key, out System.Int64 value, System.Int64 defaultValue)
     // Offset: 0x1844608
-    bool Get(::Il2CppString* key, ByRef<int64_t> value, int64_t defaultValue);
+    bool Get(::StringW key, ByRef<int64_t> value, int64_t defaultValue);
     // public System.Boolean Get(System.String key, out System.Single value, System.Single defaultValue)
     // Offset: 0x18404F8
-    bool Get(::Il2CppString* key, ByRef<float> value, float defaultValue);
+    bool Get(::StringW key, ByRef<float> value, float defaultValue);
     // public System.Boolean Get(System.String key, out System.String value, System.String defaultValue)
     // Offset: 0x183F1DC
-    bool Get(::Il2CppString* key, ByRef<::Il2CppString*> value, ::Il2CppString* defaultValue);
+    bool Get(::StringW key, ByRef<::StringW> value, ::StringW defaultValue);
     // public System.Boolean Get(System.String key, out System.Collections.Generic.List`1<System.String> values, System.Char delimiter)
     // Offset: 0x18418D4
-    bool Get(::Il2CppString* key, ByRef<System::Collections::Generic::List_1<::Il2CppString*>*> values, ::Il2CppChar delimiter);
+    bool Get(::StringW key, ByRef<System::Collections::Generic::List_1<::StringW>*> values, ::Il2CppChar delimiter);
     // private System.Void MarkDirtyForSave()
     // Offset: 0x184453C
     void MarkDirtyForSave();
@@ -181,7 +182,7 @@ namespace HoudiniEngineUnity {
     static void SaveIfRequired();
     // static public System.String SettingsFilePath()
     // Offset: 0x1844B64
-    static ::Il2CppString* SettingsFilePath();
+    static ::StringW SettingsFilePath();
     // public System.Boolean SavePluginData()
     // Offset: 0x1844764
     bool SavePluginData();
@@ -199,7 +200,7 @@ namespace HoudiniEngineUnity {
     static void LoadFromSavedFile();
     // static public System.String SessionFilePath()
     // Offset: 0x1844D40
-    static ::Il2CppString* SessionFilePath();
+    static ::StringW SessionFilePath();
     // static public System.Void SaveAllSessionData(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_SessionBase> allSessions)
     // Offset: 0x1844E0C
     static void SaveAllSessionData(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_SessionBase*>* allSessions);
@@ -214,10 +215,10 @@ namespace HoudiniEngineUnity {
     void LoadAssetEnvironmentPaths();
     // public System.String ConvertRealPathToEnvKeyedPath(System.String inPath)
     // Offset: 0x1844E78
-    ::Il2CppString* ConvertRealPathToEnvKeyedPath(::Il2CppString* inPath);
+    ::StringW ConvertRealPathToEnvKeyedPath(::StringW inPath);
     // public System.String ConvertEnvKeyedPathToReal(System.String inPath)
     // Offset: 0x1844FFC
-    ::Il2CppString* ConvertEnvKeyedPathToReal(::Il2CppString* inPath);
+    ::StringW ConvertEnvKeyedPathToReal(::StringW inPath);
     // public System.Void .ctor()
     // Offset: 0x18437A0
     // Implemented from: System.Object
@@ -252,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::GetEnvironmentPathMap
 // Il2CppName: GetEnvironmentPathMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (HoudiniEngineUnity::HEU_PluginStorage::*)()>(&HoudiniEngineUnity::HEU_PluginStorage::GetEnvironmentPathMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (HoudiniEngineUnity::HEU_PluginStorage::*)()>(&HoudiniEngineUnity::HEU_PluginStorage::GetEnvironmentPathMap)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "GetEnvironmentPathMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -280,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, bool)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -290,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, int)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, int64_t)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, int64_t)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -310,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, float)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, float)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -330,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*, ::Il2CppChar)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, System::Collections::Generic::List_1<::StringW>*, ::Il2CppChar)>(&HoudiniEngineUnity::HEU_PluginStorage::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<bool>, bool)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<bool>, bool)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -352,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<int>, int)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<int>, int)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -363,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<int64_t>, int64_t)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<int64_t>, int64_t)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
@@ -374,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<float>, float)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<float>, float)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -385,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<::Il2CppString*>, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<::StringW>, ::StringW)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*, ByRef<System::Collections::Generic::List_1<::Il2CppString*>*>, ::Il2CppChar)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW, ByRef<System::Collections::Generic::List_1<::StringW>*>, ::Il2CppChar)>(&HoudiniEngineUnity::HEU_PluginStorage::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->this_arg;
@@ -423,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::SettingsFilePath
 // Il2CppName: SettingsFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginStorage::SettingsFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginStorage::SettingsFilePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "SettingsFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -471,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::SessionFilePath
 // Il2CppName: SessionFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginStorage::SessionFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginStorage::SessionFilePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "SessionFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -512,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::ConvertRealPathToEnvKeyedPath
 // Il2CppName: ConvertRealPathToEnvKeyedPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginStorage::ConvertRealPathToEnvKeyedPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginStorage::ConvertRealPathToEnvKeyedPath)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "ConvertRealPathToEnvKeyedPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -521,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginStorage::ConvertEnvKeyedPathToReal
 // Il2CppName: ConvertEnvKeyedPathToReal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PluginStorage::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginStorage::ConvertEnvKeyedPathToReal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PluginStorage::*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginStorage::ConvertEnvKeyedPathToReal)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginStorage*), "ConvertEnvKeyedPathToReal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});

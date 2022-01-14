@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -86,15 +87,15 @@ namespace System {
     // private System.String title
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String titleFormat
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* titleFormat;
+    ::StringW titleFormat;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean cursorVisible
     // Size: 0x1
     // Offset: 0x30
@@ -106,33 +107,33 @@ namespace System {
     // private System.String csrVisible
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* csrVisible;
+    ::StringW csrVisible;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String csrInvisible
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* csrInvisible;
+    ::StringW csrInvisible;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String clear
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* clear;
+    ::StringW clear;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String bell
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* bell;
+    ::StringW bell;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String term
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* term;
+    ::StringW term;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.IO.StreamReader stdin
     // Size: 0x8
     // Offset: 0x60
@@ -190,15 +191,15 @@ namespace System {
     // private System.String keypadXmit
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* keypadXmit;
+    ::StringW keypadXmit;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String keypadLocal
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* keypadLocal;
+    ::StringW keypadLocal;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean inited
     // Size: 0x1
     // Offset: 0xA0
@@ -224,21 +225,21 @@ namespace System {
     // private System.String origPair
     // Size: 0x8
     // Offset: 0xB8
-    ::Il2CppString* origPair;
+    ::StringW origPair;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String origColors
     // Size: 0x8
     // Offset: 0xC0
-    ::Il2CppString* origColors;
+    ::StringW origColors;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String cursorAddress
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* cursorAddress;
+    ::StringW cursorAddress;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.ConsoleColor fgcolor
     // Size: 0x4
     // Offset: 0xD0
@@ -250,15 +251,15 @@ namespace System {
     // private System.String setfgcolor
     // Size: 0x8
     // Offset: 0xD8
-    ::Il2CppString* setfgcolor;
+    ::StringW setfgcolor;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String setbgcolor
     // Size: 0x8
     // Offset: 0xE0
-    ::Il2CppString* setbgcolor;
+    ::StringW setbgcolor;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 maxColors
     // Size: 0x4
     // Offset: 0xE8
@@ -329,9 +330,9 @@ namespace System {
     // Set static field: static private System.Int32 terminal_size
     static void _set_terminal_size(int value);
     // Get static field: static private readonly System.String[] locations
-    static ::ArrayW<::Il2CppString*> _get_locations();
+    static ::ArrayW<::StringW> _get_locations();
     // Set static field: static private readonly System.String[] locations
-    static void _set_locations(::ArrayW<::Il2CppString*> value);
+    static void _set_locations(::ArrayW<::StringW> value);
     // Get static field: static private readonly System.Int32[] _consoleColorToAnsiCode
     static ::ArrayW<int> _get__consoleColorToAnsiCode();
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
@@ -343,21 +344,21 @@ namespace System {
     // Get instance field reference: private System.Int32 cursorTop
     int& dyn_cursorTop();
     // Get instance field reference: private System.String title
-    ::Il2CppString*& dyn_title();
+    ::StringW& dyn_title();
     // Get instance field reference: private System.String titleFormat
-    ::Il2CppString*& dyn_titleFormat();
+    ::StringW& dyn_titleFormat();
     // Get instance field reference: private System.Boolean cursorVisible
     bool& dyn_cursorVisible();
     // Get instance field reference: private System.String csrVisible
-    ::Il2CppString*& dyn_csrVisible();
+    ::StringW& dyn_csrVisible();
     // Get instance field reference: private System.String csrInvisible
-    ::Il2CppString*& dyn_csrInvisible();
+    ::StringW& dyn_csrInvisible();
     // Get instance field reference: private System.String clear
-    ::Il2CppString*& dyn_clear();
+    ::StringW& dyn_clear();
     // Get instance field reference: private System.String bell
-    ::Il2CppString*& dyn_bell();
+    ::StringW& dyn_bell();
     // Get instance field reference: private System.String term
-    ::Il2CppString*& dyn_term();
+    ::StringW& dyn_term();
     // Get instance field reference: private System.IO.StreamReader stdin
     System::IO::StreamReader*& dyn_stdin();
     // Get instance field reference: private System.IO.CStreamWriter stdout
@@ -377,9 +378,9 @@ namespace System {
     // Get instance field reference: private System.Int32 writepos
     int& dyn_writepos();
     // Get instance field reference: private System.String keypadXmit
-    ::Il2CppString*& dyn_keypadXmit();
+    ::StringW& dyn_keypadXmit();
     // Get instance field reference: private System.String keypadLocal
-    ::Il2CppString*& dyn_keypadLocal();
+    ::StringW& dyn_keypadLocal();
     // Get instance field reference: private System.Boolean inited
     bool& dyn_inited();
     // Get instance field reference: private System.Object initLock
@@ -387,17 +388,17 @@ namespace System {
     // Get instance field reference: private System.Boolean initKeys
     bool& dyn_initKeys();
     // Get instance field reference: private System.String origPair
-    ::Il2CppString*& dyn_origPair();
+    ::StringW& dyn_origPair();
     // Get instance field reference: private System.String origColors
-    ::Il2CppString*& dyn_origColors();
+    ::StringW& dyn_origColors();
     // Get instance field reference: private System.String cursorAddress
-    ::Il2CppString*& dyn_cursorAddress();
+    ::StringW& dyn_cursorAddress();
     // Get instance field reference: private System.ConsoleColor fgcolor
     System::ConsoleColor& dyn_fgcolor();
     // Get instance field reference: private System.String setfgcolor
-    ::Il2CppString*& dyn_setfgcolor();
+    ::StringW& dyn_setfgcolor();
     // Get instance field reference: private System.String setbgcolor
-    ::Il2CppString*& dyn_setbgcolor();
+    ::StringW& dyn_setbgcolor();
     // Get instance field reference: private System.Int32 maxColors
     int& dyn_maxColors();
     // Get instance field reference: private System.Boolean noGetPosition
@@ -428,7 +429,7 @@ namespace System {
     // public System.Void .ctor(System.String term)
     // Offset: 0x1DE1D1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TermInfoDriver* New_ctor(::Il2CppString* term) {
+    static TermInfoDriver* New_ctor(::StringW term) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoDriver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoDriver*, creationType>(term)));
     }
@@ -437,13 +438,13 @@ namespace System {
     static void _cctor();
     // static private System.String TryTermInfoDir(System.String dir, System.String term)
     // Offset: 0x1DE1A38
-    static ::Il2CppString* TryTermInfoDir(::Il2CppString* dir, ::Il2CppString* term);
+    static ::StringW TryTermInfoDir(::StringW dir, ::StringW term);
     // static private System.String SearchTerminfo(System.String term)
     // Offset: 0x1DE1B7C
-    static ::Il2CppString* SearchTerminfo(::Il2CppString* term);
+    static ::StringW SearchTerminfo(::StringW term);
     // private System.Void WriteConsole(System.String str)
     // Offset: 0x1DE1CF8
-    void WriteConsole(::Il2CppString* str);
+    void WriteConsole(::StringW str);
     // public System.Void Init()
     // Offset: 0x1DE2368
     void Init();
@@ -503,13 +504,13 @@ namespace System {
     System::ConsoleKeyInfo ReadKey(bool intercept);
     // public System.String ReadLine()
     // Offset: 0x1DE41D4
-    ::Il2CppString* ReadLine();
+    ::StringW ReadLine();
     // public System.String ReadToEnd()
     // Offset: 0x1DE43C4
-    ::Il2CppString* ReadToEnd();
+    ::StringW ReadToEnd();
     // private System.String ReadUntilConditionInternal(System.Boolean haltOnNewLine)
     // Offset: 0x1DE41DC
-    ::Il2CppString* ReadUntilConditionInternal(bool haltOnNewLine);
+    ::StringW ReadUntilConditionInternal(bool haltOnNewLine);
     // public System.Void SetCursorPosition(System.Int32 left, System.Int32 top)
     // Offset: 0x1DE2FB0
     void SetCursorPosition(int left, int top);
@@ -567,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::TermInfoDriver::TryTermInfoDir
 // Il2CppName: TryTermInfoDir
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::TermInfoDriver::TryTermInfoDir)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::TermInfoDriver::TryTermInfoDir)> {
   static const MethodInfo* get() {
     static auto* dir = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -577,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoDriver::SearchTerminfo
 // Il2CppName: SearchTerminfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TermInfoDriver::SearchTerminfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::TermInfoDriver::SearchTerminfo)> {
   static const MethodInfo* get() {
     static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SearchTerminfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{term});
@@ -586,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteConsole
 // Il2CppName: WriteConsole
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppString*)>(&System::TermInfoDriver::WriteConsole)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::StringW)>(&System::TermInfoDriver::WriteConsole)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -762,7 +763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -770,7 +771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoDriver::*)()>(&System::TermInfoDriver::ReadToEnd)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -778,7 +779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadUntilConditionInternal
 // Il2CppName: ReadUntilConditionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadUntilConditionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadUntilConditionInternal)> {
   static const MethodInfo* get() {
     static auto* haltOnNewLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadUntilConditionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{haltOnNewLine});

@@ -11,10 +11,8 @@
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::ProcInfo, "System.Diagnostics", "Process/ProcInfo");
 // Type namespace: System.Diagnostics
@@ -44,21 +42,21 @@ namespace System::Diagnostics {
     // public System.String[] envVariables
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> envVariables;
+    ::ArrayW<::StringW> envVariables;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String UserName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* UserName;
+    ::StringW UserName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Domain
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Domain;
+    ::StringW Domain;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.IntPtr Password
     // Size: 0x8
     // Offset: 0x28
@@ -73,7 +71,7 @@ namespace System::Diagnostics {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: ProcInfo
-    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::ArrayW<::Il2CppString*> envVariables_ = ::ArrayW<::Il2CppString*>(static_cast<void*>(nullptr)), ::Il2CppString* UserName_ = {}, ::Il2CppString* Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
+    constexpr ProcInfo(System::IntPtr process_handle_ = {}, int pid_ = {}, ::ArrayW<::StringW> envVariables_ = ::ArrayW<::StringW>(static_cast<void*>(nullptr)), ::StringW UserName_ = {}, ::StringW Domain_ = {}, System::IntPtr Password_ = {}, bool LoadUserProfile_ = {}) noexcept : process_handle{process_handle_}, pid{pid_}, envVariables{envVariables_}, UserName{UserName_}, Domain{Domain_}, Password{Password_}, LoadUserProfile{LoadUserProfile_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -83,11 +81,11 @@ namespace System::Diagnostics {
     // Get instance field reference: public System.Int32 pid
     int& dyn_pid();
     // Get instance field reference: public System.String[] envVariables
-    ::ArrayW<::Il2CppString*>& dyn_envVariables();
+    ::ArrayW<::StringW>& dyn_envVariables();
     // Get instance field reference: public System.String UserName
-    ::Il2CppString*& dyn_UserName();
+    ::StringW& dyn_UserName();
     // Get instance field reference: public System.String Domain
-    ::Il2CppString*& dyn_Domain();
+    ::StringW& dyn_Domain();
     // Get instance field reference: public System.IntPtr Password
     System::IntPtr& dyn_Password();
     // Get instance field reference: public System.Boolean LoadUserProfile

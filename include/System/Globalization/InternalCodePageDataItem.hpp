@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Forward declaring type: InternalCodePageDataItem
@@ -49,12 +47,12 @@ namespace System::Globalization {
     // System.String Names
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* Names;
+    ::StringW Names;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: InternalCodePageDataItem
-    constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) noexcept : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
+    constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::StringW Names_ = {}) noexcept : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -66,10 +64,10 @@ namespace System::Globalization {
     // Get instance field reference: System.UInt32 flags
     uint& dyn_flags();
     // Get instance field reference: System.String Names
-    ::Il2CppString*& dyn_Names();
+    ::StringW& dyn_Names();
   }; // System.Globalization.InternalCodePageDataItem
   #pragma pack(pop)
-  static check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(::Il2CppString*)> __System_Globalization_InternalCodePageDataItemSizeCheck;
+  static check_size<sizeof(InternalCodePageDataItem), 8 + sizeof(::StringW)> __System_Globalization_InternalCodePageDataItemSizeCheck;
   static_assert(sizeof(InternalCodePageDataItem) == 0x10);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

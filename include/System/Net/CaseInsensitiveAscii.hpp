@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -58,7 +59,7 @@ namespace System::Net {
     int Compare(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
     // private System.Int32 FastGetHashCode(System.String myString)
     // Offset: 0x15E2A30
-    int FastGetHashCode(::Il2CppString* myString);
+    int FastGetHashCode(::StringW myString);
     // public System.Boolean Equals(System.Object firstObject, System.Object secondObject)
     // Offset: 0x15E2B38
     bool Equals(::Il2CppObject* firstObject, ::Il2CppObject* secondObject);
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::FastGetHashCode
 // Il2CppName: FastGetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppString*)>(&System::Net::CaseInsensitiveAscii::FastGetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::StringW)>(&System::Net::CaseInsensitiveAscii::FastGetHashCode)> {
   static const MethodInfo* get() {
     static auto* myString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "FastGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{myString});

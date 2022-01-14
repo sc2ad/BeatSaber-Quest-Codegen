@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::NUnitExtensions
@@ -105,9 +106,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.Collections.Generic.IDictionary`2<System.String,System.Object> <Settings>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* Settings;
+    System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* Settings;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*) == 0x8);
     // private NUnit.Framework.Interfaces.ITest <LoadedTest>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -128,7 +129,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.IDictionary`2<System.String,System.Object> <Settings>k__BackingField
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_$Settings$k__BackingField();
+    System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*& dyn_$Settings$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITest <LoadedTest>k__BackingField
     NUnit::Framework::Interfaces::ITest*& dyn_$LoadedTest$k__BackingField();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem <TopLevelWorkItem>k__BackingField
@@ -141,7 +142,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     void set_Context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // protected System.Void set_Settings(System.Collections.Generic.IDictionary`2<System.String,System.Object> value)
     // Offset: 0x16C6E64
-    void set_Settings(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    void set_Settings(System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* value);
     // public NUnit.Framework.Interfaces.ITest get_LoadedTest()
     // Offset: 0x16C6E6C
     NUnit::Framework::Interfaces::ITest* get_LoadedTest();
@@ -172,7 +173,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     }
     // public NUnit.Framework.Interfaces.ITest Load(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform testPlatform, System.Collections.Generic.IDictionary`2<System.String,System.Object> settings)
     // Offset: 0x16C6FFC
-    NUnit::Framework::Interfaces::ITest* Load(::ArrayW<System::Reflection::Assembly*> assemblies, UnityEngine::TestTools::TestPlatform testPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* settings);
+    NUnit::Framework::Interfaces::ITest* Load(::ArrayW<System::Reflection::Assembly*> assemblies, UnityEngine::TestTools::TestPlatform testPlatform, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* settings);
     // public System.Collections.IEnumerable Run(NUnit.Framework.Interfaces.ITestListener listener, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0x16C7350
     System::Collections::IEnumerable* Run(NUnit::Framework::Interfaces::ITestListener* listener, NUnit::Framework::Interfaces::ITestFilter* filter);
@@ -205,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Settings
 // Il2CppName: set_Settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Settings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "set_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(::ArrayW<System::Reflection::Assembly*>, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(::ArrayW<System::Reflection::Assembly*>, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load)> {
   static const MethodInfo* get() {
     static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
     static auto* testPlatform = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform")->byval_arg;

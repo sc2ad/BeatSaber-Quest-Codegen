@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -15,7 +16,6 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -52,7 +52,7 @@ namespace System::Runtime::Serialization {
     float ToSingle(::Il2CppObject* value);
     // public System.String ToString(System.Object value)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString(::Il2CppObject* value);
+    ::StringW ToString(::Il2CppObject* value);
   }; // System.Runtime.Serialization.IFormatterConverter
   #pragma pack(pop)
 }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Writing MetadataGetter for method: System::Runtime::Serialization::IFormatterConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::IFormatterConverter::*)(::Il2CppObject*)>(&System::Runtime::Serialization::IFormatterConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::IFormatterConverter::*)(::Il2CppObject*)>(&System::Runtime::Serialization::IFormatterConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::IFormatterConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

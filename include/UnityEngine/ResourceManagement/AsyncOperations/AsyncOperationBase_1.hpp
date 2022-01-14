@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -571,10 +572,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // protected System.String get_DebugName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DebugName() {
+    ::StringW get_DebugName() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::get_DebugName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_DebugName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // public TObject get_Result()
     // Offset: 0xFFFFFFFF
@@ -767,10 +768,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // private System.String UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() {
+    ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // private System.Type UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType()
     // Offset: 0xFFFFFFFF
@@ -872,10 +873,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // static System.String ShortenPath(System.String p, System.Boolean keepExtension)
     // Offset: 0xFFFFFFFF
-    static ::Il2CppString* ShortenPath(::Il2CppString* p, bool keepExtension) {
+    static ::StringW ShortenPath(::StringW p, bool keepExtension) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::ShortenPath");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<AsyncOperationBase_1<TObject>*>::get(), "ShortenPath", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p), ::il2cpp_utils::ExtractType(keepExtension)})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, p, keepExtension);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, p, keepExtension);
     }
     // System.Void IncrementReferenceCount()
     // Offset: 0xFFFFFFFF
@@ -942,14 +943,14 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     }
     // public System.Void Complete(TObject result, System.Boolean success, System.String errorMsg)
     // Offset: 0xFFFFFFFF
-    void Complete(TObject result, bool success, ::Il2CppString* errorMsg) {
+    void Complete(TObject result, bool success, ::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::Complete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result, success, errorMsg);
     }
     // public System.Void Complete(TObject result, System.Boolean success, System.String errorMsg, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
-    void Complete(TObject result, bool success, ::Il2CppString* errorMsg, bool releaseDependenciesOnFailure) {
+    void Complete(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::Complete");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Complete", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, result, success, errorMsg, releaseDependenciesOnFailure);
@@ -1051,10 +1052,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString() {
+    ::StringW ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
   }; // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
   // Could not write size check! Type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1 is generic, or has no fields that are valid for size checks!

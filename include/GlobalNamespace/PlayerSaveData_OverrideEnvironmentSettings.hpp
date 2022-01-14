@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveData::OverrideEnvironmentSettings);
@@ -43,22 +44,22 @@ namespace GlobalNamespace {
     // public System.String overrideNormalEnvironmentName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* overrideNormalEnvironmentName;
+    ::StringW overrideNormalEnvironmentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String override360EnvironmentName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* override360EnvironmentName;
+    ::StringW override360EnvironmentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
     // Get instance field reference: public System.String overrideNormalEnvironmentName
-    ::Il2CppString*& dyn_overrideNormalEnvironmentName();
+    ::StringW& dyn_overrideNormalEnvironmentName();
     // Get instance field reference: public System.String override360EnvironmentName
-    ::Il2CppString*& dyn_override360EnvironmentName();
+    ::StringW& dyn_override360EnvironmentName();
     // public System.Void .ctor()
     // Offset: 0x11AAA00
     // Implemented from: System.Object
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     }
   }; // PlayerSaveData/OverrideEnvironmentSettings
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveData::OverrideEnvironmentSettings), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayerSaveData_OverrideEnvironmentSettingsSizeCheck;
+  static check_size<sizeof(PlayerSaveData::OverrideEnvironmentSettings), 32 + sizeof(::StringW)> __GlobalNamespace_PlayerSaveData_OverrideEnvironmentSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::OverrideEnvironmentSettings) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

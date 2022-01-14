@@ -17,6 +17,7 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::$ServerStatus$d__7, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/<ServerStatus>d__7");
@@ -38,7 +39,7 @@ namespace OnlineServices::API {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder;
     // public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
     // Size: 0x8
     // Offset: 0x20
@@ -54,10 +55,10 @@ namespace OnlineServices::API {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x30
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1;
     public:
     // Creating value type constructor for type: $ServerStatus$d__7
-    constexpr $ServerStatus$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
+    constexpr $ServerStatus$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -69,13 +70,13 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
     OnlineServices::API::HTTPAdminLeaderboardsHelper*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1373294
     void MoveNext();

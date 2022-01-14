@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage);
@@ -35,20 +36,20 @@ namespace GlobalNamespace {
     // public System.String language
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* language;
+    ::StringW language;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String message
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String language
-    ::Il2CppString*& dyn_language();
+    ::StringW& dyn_language();
     // Get instance field reference: public System.String message
-    ::Il2CppString*& dyn_message();
+    ::StringW& dyn_message();
     // public System.Void .ctor()
     // Offset: 0x1158484
     // Implemented from: System.Object
@@ -60,7 +61,7 @@ namespace GlobalNamespace {
     }
   }; // MasterServerAvailabilityData/UserMessage/LocalizedMessage
   #pragma pack(pop)
-  static check_size<sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MasterServerAvailabilityData_UserMessage_LocalizedMessageSizeCheck;
+  static check_size<sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage), 24 + sizeof(::StringW)> __GlobalNamespace_MasterServerAvailabilityData_UserMessage_LocalizedMessageSizeCheck;
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -61,33 +62,33 @@ namespace Zenject {
     // static field const value: static public System.String ReflectionBakingGetInjectInfoMethodName
     static constexpr const char* ReflectionBakingGetInjectInfoMethodName = "__zenCreateInjectTypeInfo";
     // Get static field: static public System.String ReflectionBakingGetInjectInfoMethodName
-    static ::Il2CppString* _get_ReflectionBakingGetInjectInfoMethodName();
+    static ::StringW _get_ReflectionBakingGetInjectInfoMethodName();
     // Set static field: static public System.String ReflectionBakingGetInjectInfoMethodName
-    static void _set_ReflectionBakingGetInjectInfoMethodName(::Il2CppString* value);
+    static void _set_ReflectionBakingGetInjectInfoMethodName(::StringW value);
     // static field const value: static public System.String ReflectionBakingFactoryMethodName
     static constexpr const char* ReflectionBakingFactoryMethodName = "__zenCreate";
     // Get static field: static public System.String ReflectionBakingFactoryMethodName
-    static ::Il2CppString* _get_ReflectionBakingFactoryMethodName();
+    static ::StringW _get_ReflectionBakingFactoryMethodName();
     // Set static field: static public System.String ReflectionBakingFactoryMethodName
-    static void _set_ReflectionBakingFactoryMethodName(::Il2CppString* value);
+    static void _set_ReflectionBakingFactoryMethodName(::StringW value);
     // static field const value: static public System.String ReflectionBakingInjectMethodPrefix
     static constexpr const char* ReflectionBakingInjectMethodPrefix = "__zenInjectMethod";
     // Get static field: static public System.String ReflectionBakingInjectMethodPrefix
-    static ::Il2CppString* _get_ReflectionBakingInjectMethodPrefix();
+    static ::StringW _get_ReflectionBakingInjectMethodPrefix();
     // Set static field: static public System.String ReflectionBakingInjectMethodPrefix
-    static void _set_ReflectionBakingInjectMethodPrefix(::Il2CppString* value);
+    static void _set_ReflectionBakingInjectMethodPrefix(::StringW value);
     // static field const value: static public System.String ReflectionBakingFieldSetterPrefix
     static constexpr const char* ReflectionBakingFieldSetterPrefix = "__zenFieldSetter";
     // Get static field: static public System.String ReflectionBakingFieldSetterPrefix
-    static ::Il2CppString* _get_ReflectionBakingFieldSetterPrefix();
+    static ::StringW _get_ReflectionBakingFieldSetterPrefix();
     // Set static field: static public System.String ReflectionBakingFieldSetterPrefix
-    static void _set_ReflectionBakingFieldSetterPrefix(::Il2CppString* value);
+    static void _set_ReflectionBakingFieldSetterPrefix(::StringW value);
     // static field const value: static public System.String ReflectionBakingPropertySetterPrefix
     static constexpr const char* ReflectionBakingPropertySetterPrefix = "__zenPropertySetter";
     // Get static field: static public System.String ReflectionBakingPropertySetterPrefix
-    static ::Il2CppString* _get_ReflectionBakingPropertySetterPrefix();
+    static ::StringW _get_ReflectionBakingPropertySetterPrefix();
     // Set static field: static public System.String ReflectionBakingPropertySetterPrefix
-    static void _set_ReflectionBakingPropertySetterPrefix(::Il2CppString* value);
+    static void _set_ReflectionBakingPropertySetterPrefix(::StringW value);
     // Get static field: static private Zenject.ReflectionBakingCoverageModes <ReflectionBakingCoverageMode>k__BackingField
     static Zenject::ReflectionBakingCoverageModes _get_$ReflectionBakingCoverageMode$k__BackingField();
     // Set static field: static private Zenject.ReflectionBakingCoverageModes <ReflectionBakingCoverageMode>k__BackingField

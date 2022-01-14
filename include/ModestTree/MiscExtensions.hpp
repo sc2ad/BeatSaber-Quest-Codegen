@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -51,7 +52,7 @@ namespace ModestTree {
     public:
     // static public System.String Fmt(System.String s, params System.Object[] args)
     // Offset: 0x14EDF68
-    static ::Il2CppString* Fmt(::Il2CppString* s, ::ArrayW<::Il2CppObject*> args);
+    static ::StringW Fmt(::StringW s, ::ArrayW<::Il2CppObject*> args);
     // static public System.Int32 IndexOf(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -63,7 +64,7 @@ namespace ModestTree {
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
     // Offset: 0x14EF004
-    static ::Il2CppString* Join(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* values, ::Il2CppString* separator);
+    static ::StringW Join(System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -125,7 +126,7 @@ namespace ModestTree {
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt
 // Il2CppName: Fmt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::MiscExtensions::Fmt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&ModestTree::MiscExtensions::Fmt)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&ModestTree::MiscExtensions::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW)>(&ModestTree::MiscExtensions::Join)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -62,9 +63,9 @@ namespace Mono::Security::Cryptography {
     // private System.String _algorithm
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* algorithm;
+    ::StringW algorithm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] _key
     // Size: 0x8
     // Offset: 0x20
@@ -81,7 +82,7 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Int32 _version
     int& dyn__version();
     // Get instance field reference: private System.String _algorithm
-    ::Il2CppString*& dyn__algorithm();
+    ::StringW& dyn__algorithm();
     // Get instance field reference: private System.Byte[] _key
     ::ArrayW<uint8_t>& dyn__key();
     // Get instance field reference: private System.Collections.ArrayList _list

@@ -8,6 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -18,7 +19,6 @@ namespace System {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: Zenject
 namespace Zenject {
@@ -87,7 +87,7 @@ namespace Zenject {
     // Offset: 0x14F6C60
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x14F6D84
     // Implemented from: System.ValueType
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::BindingId::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::BindingId::*)()>(&Zenject::BindingId::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::BindingId::*)()>(&Zenject::BindingId::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingId), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

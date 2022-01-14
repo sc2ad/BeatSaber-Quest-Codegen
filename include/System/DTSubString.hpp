@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.DTSubStringType
 #include "System/DTSubStringType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -31,9 +32,9 @@ namespace System {
     // System.String s
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* s;
+    ::StringW s;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Int32 index
     // Size: 0x4
     // Offset: 0x8
@@ -60,13 +61,13 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: DTSubString
-    constexpr DTSubString(::Il2CppString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) noexcept : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
+    constexpr DTSubString(::StringW s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) noexcept : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: System.String s
-    ::Il2CppString*& dyn_s();
+    ::StringW& dyn_s();
     // Get instance field reference: System.Int32 index
     int& dyn_index();
     // Get instance field reference: System.Int32 length

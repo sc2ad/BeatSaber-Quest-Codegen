@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -54,24 +55,24 @@ namespace Oculus::Platform::Models {
     // public readonly System.String ID
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* _ID;
+    ::StringW _ID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Sku
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* Sku;
+    ::StringW Sku;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.DateTime ExpirationTime
     System::DateTime& dyn_ExpirationTime();
     // Get instance field reference: public readonly System.DateTime GrantTime
     System::DateTime& dyn_GrantTime();
     // Get instance field reference: public readonly System.String ID
-    ::Il2CppString*& dyn_ID();
+    ::StringW& dyn_ID();
     // Get instance field reference: public readonly System.String Sku
-    ::Il2CppString*& dyn_Sku();
+    ::StringW& dyn_Sku();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x175E9E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,7 +82,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.Purchase
   #pragma pack(pop)
-  static check_size<sizeof(Purchase), 40 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_PurchaseSizeCheck;
+  static check_size<sizeof(Purchase), 40 + sizeof(::StringW)> __Oculus_Platform_Models_PurchaseSizeCheck;
   static_assert(sizeof(Purchase) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

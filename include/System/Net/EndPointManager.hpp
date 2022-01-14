@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -50,13 +51,13 @@ namespace System::Net {
     static void AddListener(System::Net::HttpListener* listener);
     // static public System.Void AddPrefix(System.String prefix, System.Net.HttpListener listener)
     // Offset: 0x15F0F98
-    static void AddPrefix(::Il2CppString* prefix, System::Net::HttpListener* listener);
+    static void AddPrefix(::StringW prefix, System::Net::HttpListener* listener);
     // static private System.Void AddPrefixInternal(System.String p, System.Net.HttpListener listener)
     // Offset: 0x15F0D44
-    static void AddPrefixInternal(::Il2CppString* p, System::Net::HttpListener* listener);
+    static void AddPrefixInternal(::StringW p, System::Net::HttpListener* listener);
     // static private System.Net.EndPointListener GetEPListener(System.String host, System.Int32 port, System.Net.HttpListener listener, System.Boolean secure)
     // Offset: 0x15F109C
-    static System::Net::EndPointListener* GetEPListener(::Il2CppString* host, int port, System::Net::HttpListener* listener, bool secure);
+    static System::Net::EndPointListener* GetEPListener(::StringW host, int port, System::Net::HttpListener* listener, bool secure);
     // static public System.Void RemoveEndPoint(System.Net.EndPointListener epl, System.Net.IPEndPoint ep)
     // Offset: 0x15EFCC8
     static void RemoveEndPoint(System::Net::EndPointListener* epl, System::Net::IPEndPoint* ep);
@@ -65,10 +66,10 @@ namespace System::Net {
     static void RemoveListener(System::Net::HttpListener* listener);
     // static public System.Void RemovePrefix(System.String prefix, System.Net.HttpListener listener)
     // Offset: 0x15F0E94
-    static void RemovePrefix(::Il2CppString* prefix, System::Net::HttpListener* listener);
+    static void RemovePrefix(::StringW prefix, System::Net::HttpListener* listener);
     // static private System.Void RemovePrefixInternal(System.String prefix, System.Net.HttpListener listener)
     // Offset: 0x15F1748
-    static void RemovePrefixInternal(::Il2CppString* prefix, System::Net::HttpListener* listener);
+    static void RemovePrefixInternal(::StringW prefix, System::Net::HttpListener* listener);
   }; // System.Net.EndPointManager
   #pragma pack(pop)
 }
@@ -93,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::EndPointManager::AddPrefix
 // Il2CppName: AddPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&System::Net::EndPointManager::AddPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Net::HttpListener*)>(&System::Net::EndPointManager::AddPrefix)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::EndPointManager::AddPrefixInternal
 // Il2CppName: AddPrefixInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&System::Net::EndPointManager::AddPrefixInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Net::HttpListener*)>(&System::Net::EndPointManager::AddPrefixInternal)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::EndPointManager::GetEPListener
 // Il2CppName: GetEPListener
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPointListener* (*)(::Il2CppString*, int, System::Net::HttpListener*, bool)>(&System::Net::EndPointManager::GetEPListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPointListener* (*)(::StringW, int, System::Net::HttpListener*, bool)>(&System::Net::EndPointManager::GetEPListener)> {
   static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::EndPointManager::RemovePrefix
 // Il2CppName: RemovePrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&System::Net::EndPointManager::RemovePrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Net::HttpListener*)>(&System::Net::EndPointManager::RemovePrefix)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::EndPointManager::RemovePrefixInternal
 // Il2CppName: RemovePrefixInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Net::HttpListener*)>(&System::Net::EndPointManager::RemovePrefixInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Net::HttpListener*)>(&System::Net::EndPointManager::RemovePrefixInternal)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;

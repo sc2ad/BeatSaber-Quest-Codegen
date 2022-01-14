@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -136,9 +137,9 @@ namespace HoudiniEngineUnity {
     // public System.String _assetPath
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* assetPath;
+    ::StringW assetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x48
@@ -165,7 +166,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset _asset
     HoudiniEngineUnity::HEU_HoudiniAsset*& dyn__asset();
     // Get instance field reference: public System.String _assetPath
-    ::Il2CppString*& dyn__assetPath();
+    ::StringW& dyn__assetPath();
     // Get instance field reference: public UnityEngine.Vector3 _position
     UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public System.Boolean _buildResult

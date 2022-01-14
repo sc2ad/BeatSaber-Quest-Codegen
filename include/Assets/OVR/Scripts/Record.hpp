@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Assets.OVR.Scripts
 namespace Assets::OVR::Scripts {
@@ -38,30 +39,30 @@ namespace Assets::OVR::Scripts {
     // public System.String category
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* category;
+    ::StringW category;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String message
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String category
-    ::Il2CppString*& dyn_category();
+    ::StringW& dyn_category();
     // Get instance field reference: public System.String message
-    ::Il2CppString*& dyn_message();
+    ::StringW& dyn_message();
     // public System.Void .ctor(System.String cat, System.String msg)
     // Offset: 0x17CFCB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Record* New_ctor(::Il2CppString* cat, ::Il2CppString* msg) {
+    static Record* New_ctor(::StringW cat, ::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Record*, creationType>(cat, msg)));
     }
   }; // Assets.OVR.Scripts.Record
   #pragma pack(pop)
-  static check_size<sizeof(Record), 24 + sizeof(::Il2CppString*)> __Assets_OVR_Scripts_RecordSizeCheck;
+  static check_size<sizeof(Record), 24 + sizeof(::StringW)> __Assets_OVR_Scripts_RecordSizeCheck;
   static_assert(sizeof(Record) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

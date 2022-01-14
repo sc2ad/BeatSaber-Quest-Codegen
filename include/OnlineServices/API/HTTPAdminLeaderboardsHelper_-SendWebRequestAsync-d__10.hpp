@@ -17,6 +17,7 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -45,25 +46,25 @@ namespace OnlineServices::API {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder;
     // public System.String uri
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* uri;
+    ::StringW uri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String method
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String bodyData
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* bodyData;
+    ::StringW bodyData;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
     // Size: 0x8
     // Offset: 0x38
@@ -90,7 +91,7 @@ namespace OnlineServices::API {
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     public:
     // Creating value type constructor for type: $SendWebRequestAsync$d__10
-    constexpr $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $webRequest$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, uri{uri_}, method{method_}, bodyData{bodyData_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $webRequest$5__2{$webRequest$5__2_}, $$u__1{$$u__1_} {}
+    constexpr $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder_ = {}, ::StringW uri_ = {}, ::StringW method_ = {}, ::StringW bodyData_ = {}, OnlineServices::API::HTTPAdminLeaderboardsHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Networking::UnityWebRequest* $webRequest$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, uri{uri_}, method{method_}, bodyData{bodyData_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $webRequest$5__2{$webRequest$5__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -102,13 +103,13 @@ namespace OnlineServices::API {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public System.String uri
-    ::Il2CppString*& dyn_uri();
+    ::StringW& dyn_uri();
     // Get instance field reference: public System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: public System.String bodyData
-    ::Il2CppString*& dyn_bodyData();
+    ::StringW& dyn_bodyData();
     // Get instance field reference: public OnlineServices.API.HTTPAdminLeaderboardsHelper <>4__this
     OnlineServices::API::HTTPAdminLeaderboardsHelper*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken

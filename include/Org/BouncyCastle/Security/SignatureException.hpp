@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,7 +52,7 @@ namespace Org::BouncyCastle::Security {
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SignatureException* New_ctor(::Il2CppString* message, System::Exception* exception) {
+    static SignatureException* New_ctor(::StringW message, System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SignatureException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignatureException*, creationType>(message, exception)));
     }

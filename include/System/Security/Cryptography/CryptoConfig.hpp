@@ -7,6 +7,7 @@
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -30,22 +31,22 @@ namespace System::Security::Cryptography {
     static bool get_AllowOnlyFipsAlgorithms();
     // static public System.Byte[] EncodeOID(System.String str)
     // Offset: 0x1A8F2A4
-    static ::ArrayW<uint8_t> EncodeOID(::Il2CppString* str);
+    static ::ArrayW<uint8_t> EncodeOID(::StringW str);
     // static private System.Byte[] EncodeLongNumber(System.Int64 x)
     // Offset: 0x1A8F6EC
     static ::ArrayW<uint8_t> EncodeLongNumber(int64_t x);
     // static public System.Object CreateFromName(System.String name)
     // Offset: 0x1A8F89C
-    static ::Il2CppObject* CreateFromName(::Il2CppString* name);
+    static ::Il2CppObject* CreateFromName(::StringW name);
     // static public System.Object CreateFromName(System.String name, params System.Object[] args)
     // Offset: 0x1A8F8A0
-    static ::Il2CppObject* CreateFromName(::Il2CppString* name, ::ArrayW<::Il2CppObject*> args);
+    static ::Il2CppObject* CreateFromName(::StringW name, ::ArrayW<::Il2CppObject*> args);
     // static System.String MapNameToOID(System.String name, System.Object arg)
     // Offset: 0x1A913EC
-    static ::Il2CppString* MapNameToOID(::Il2CppString* name, ::Il2CppObject* arg);
+    static ::StringW MapNameToOID(::StringW name, ::Il2CppObject* arg);
     // static public System.String MapNameToOID(System.String name)
     // Offset: 0x1A913F0
-    static ::Il2CppString* MapNameToOID(::Il2CppString* name);
+    static ::StringW MapNameToOID(::StringW name);
   }; // System.Security.Cryptography.CryptoConfig
   #pragma pack(pop)
 }
@@ -61,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::EncodeOID
 // Il2CppName: EncodeOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::Security::Cryptography::CryptoConfig::EncodeOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&System::Security::Cryptography::CryptoConfig::EncodeOID)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoConfig*), "EncodeOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::CreateFromName
 // Il2CppName: CreateFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoConfig*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::CreateFromName
 // Il2CppName: CreateFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::MapNameToOID
 // Il2CppName: MapNameToOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppObject*)>(&System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::MapNameToOID
 // Il2CppName: MapNameToOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoConfig*), "MapNameToOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

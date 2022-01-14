@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -53,12 +54,12 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* relativeSfxVolumePerLevelId;
+    System::Collections::Generic::Dictionary_2<::StringW, float>* relativeSfxVolumePerLevelId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, float>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
       return relativeSfxVolumePerLevelId;
     }
     // static field const value: static private System.Single kDefaultSfxVolume
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDefaultSfxVolume
     static void _set_kDefaultSfxVolume(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*& dyn__relativeSfxVolumePerLevelId();
+    System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
     // public System.Void .ctor(RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)
     // Offset: 0x11B47A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,10 +79,10 @@ namespace GlobalNamespace {
     }
     // public System.Single GetRelativeSfxVolume(System.String levelId)
     // Offset: 0x11B48B4
-    float GetRelativeSfxVolume(::Il2CppString* levelId);
+    float GetRelativeSfxVolume(::StringW levelId);
   }; // RelativeSfxVolumePerLevelModel
   #pragma pack(pop)
-  static check_size<sizeof(RelativeSfxVolumePerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*)> __GlobalNamespace_RelativeSfxVolumePerLevelModelSizeCheck;
+  static check_size<sizeof(RelativeSfxVolumePerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_RelativeSfxVolumePerLevelModelSizeCheck;
   static_assert(sizeof(RelativeSfxVolumePerLevelModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,7 +93,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RelativeSfxVolumePerLevelModel::GetRelativeSfxVolume
 // Il2CppName: GetRelativeSfxVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::RelativeSfxVolumePerLevelModel::*)(::Il2CppString*)>(&GlobalNamespace::RelativeSfxVolumePerLevelModel::GetRelativeSfxVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::RelativeSfxVolumePerLevelModel::*)(::StringW)>(&GlobalNamespace::RelativeSfxVolumePerLevelModel::GetRelativeSfxVolume)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeSfxVolumePerLevelModel*), "GetRelativeSfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});

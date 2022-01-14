@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -53,13 +54,13 @@ namespace Oculus::Platform {
     public:
     // static public System.String GetLoggedInUserLocale()
     // Offset: 0x266592C
-    static ::Il2CppString* GetLoggedInUserLocale();
+    static ::StringW GetLoggedInUserLocale();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.User> Get(System.UInt64 userID)
     // Offset: 0x2665A10
     static Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* Get(uint64_t userID);
     // static public Oculus.Platform.Request`1<System.String> GetAccessToken()
     // Offset: 0x2665B2C
-    static Oculus::Platform::Request_1<::Il2CppString*>* GetAccessToken();
+    static Oculus::Platform::Request_1<::StringW>* GetAccessToken();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.User> GetLoggedInUser()
     // Offset: 0x2665C38
     static Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* GetLoggedInUser();
@@ -100,7 +101,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserLocale
 // Il2CppName: GetLoggedInUserLocale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::Users::GetLoggedInUserLocale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::Users::GetLoggedInUserLocale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetAccessToken
 // Il2CppName: GetAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)()>(&Oculus::Platform::Users::GetAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::StringW>* (*)()>(&Oculus::Platform::Users::GetAccessToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -133,9 +134,9 @@ namespace TMPro {
     // private System.String m_defaultFontAssetPath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_defaultFontAssetPath;
+    ::StringW m_defaultFontAssetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single m_defaultFontSize
     // Size: 0x4
     // Offset: 0x38
@@ -197,15 +198,15 @@ namespace TMPro {
     // private System.String m_defaultSpriteAssetPath
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* m_defaultSpriteAssetPath;
+    ::StringW m_defaultSpriteAssetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_defaultColorGradientPresetsPath
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* m_defaultColorGradientPresetsPath;
+    ::StringW m_defaultColorGradientPresetsPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_enableEmojiSupport
     // Size: 0x1
     // Offset: 0x80
@@ -266,7 +267,7 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_FontAsset m_defaultFontAsset
     TMPro::TMP_FontAsset*& dyn_m_defaultFontAsset();
     // Get instance field reference: private System.String m_defaultFontAssetPath
-    ::Il2CppString*& dyn_m_defaultFontAssetPath();
+    ::StringW& dyn_m_defaultFontAssetPath();
     // Get instance field reference: private System.Single m_defaultFontSize
     float& dyn_m_defaultFontSize();
     // Get instance field reference: private System.Single m_defaultAutoSizeMinRatio
@@ -286,9 +287,9 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_defaultSpriteAsset
     TMPro::TMP_SpriteAsset*& dyn_m_defaultSpriteAsset();
     // Get instance field reference: private System.String m_defaultSpriteAssetPath
-    ::Il2CppString*& dyn_m_defaultSpriteAssetPath();
+    ::StringW& dyn_m_defaultSpriteAssetPath();
     // Get instance field reference: private System.String m_defaultColorGradientPresetsPath
-    ::Il2CppString*& dyn_m_defaultColorGradientPresetsPath();
+    ::StringW& dyn_m_defaultColorGradientPresetsPath();
     // Get instance field reference: private System.Boolean m_enableEmojiSupport
     bool& dyn_m_enableEmojiSupport();
     // Get instance field reference: private TMPro.TMP_StyleSheet m_defaultStyleSheet
@@ -301,7 +302,7 @@ namespace TMPro {
     TMPro::TMP_Settings::LineBreakingTable*& dyn_m_linebreakingRules();
     // static public System.String get_version()
     // Offset: 0x125FDC0
-    static ::Il2CppString* get_version();
+    static ::StringW get_version();
     // static public System.Boolean get_enableWordWrapping()
     // Offset: 0x125FE08
     static bool get_enableWordWrapping();
@@ -337,7 +338,7 @@ namespace TMPro {
     static TMPro::TMP_FontAsset* get_defaultFontAsset();
     // static public System.String get_defaultFontAssetPath()
     // Offset: 0x126002C
-    static ::Il2CppString* get_defaultFontAssetPath();
+    static ::StringW get_defaultFontAssetPath();
     // static public System.Single get_defaultFontSize()
     // Offset: 0x126004C
     static float get_defaultFontSize();
@@ -367,10 +368,10 @@ namespace TMPro {
     static TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
     // static public System.String get_defaultSpriteAssetPath()
     // Offset: 0x126016C
-    static ::Il2CppString* get_defaultSpriteAssetPath();
+    static ::StringW get_defaultSpriteAssetPath();
     // static public System.String get_defaultColorGradientPresetsPath()
     // Offset: 0x126018C
-    static ::Il2CppString* get_defaultColorGradientPresetsPath();
+    static ::StringW get_defaultColorGradientPresetsPath();
     // static public System.Boolean get_enableEmojiSupport()
     // Offset: 0x12601AC
     static bool get_enableEmojiSupport();
@@ -433,7 +434,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&TMPro::TMP_Settings::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -530,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultFontAssetPath
 // Il2CppName: get_defaultFontAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultFontAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&TMPro::TMP_Settings::get_defaultFontAssetPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultFontAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultSpriteAssetPath
 // Il2CppName: get_defaultSpriteAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultSpriteAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&TMPro::TMP_Settings::get_defaultSpriteAssetPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultSpriteAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -618,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultColorGradientPresetsPath
 // Il2CppName: get_defaultColorGradientPresetsPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultColorGradientPresetsPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&TMPro::TMP_Settings::get_defaultColorGradientPresetsPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultColorGradientPresetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

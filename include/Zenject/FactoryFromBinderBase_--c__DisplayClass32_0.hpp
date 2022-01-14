@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -48,9 +49,9 @@ namespace Zenject {
     // public System.String resourcePath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* resourcePath;
+    ::StringW resourcePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public Zenject.FactoryFromBinderBase <>4__this
     // Size: 0x8
     // Offset: 0x18
@@ -59,7 +60,7 @@ namespace Zenject {
     static_assert(sizeof(Zenject::FactoryFromBinderBase*) == 0x8);
     public:
     // Get instance field reference: public System.String resourcePath
-    ::Il2CppString*& dyn_resourcePath();
+    ::StringW& dyn_resourcePath();
     // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
     Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Zenject.IProvider <FromNewScriptableObjectResource>b__0(Zenject.DiContainer container)

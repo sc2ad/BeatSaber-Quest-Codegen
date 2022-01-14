@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -49,18 +50,18 @@ namespace System::Globalization {
     // private System.String m_invalidCultureName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* m_invalidCultureName;
+    ::StringW m_invalidCultureName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Nullable`1<System.Int32> m_invalidCultureId
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private System.String m_invalidCultureName
-    ::Il2CppString*& dyn_m_invalidCultureName();
+    ::StringW& dyn_m_invalidCultureName();
     // Get instance field reference: private System.Nullable`1<System.Int32> m_invalidCultureId
     System::Nullable_1<int>& dyn_m_invalidCultureId();
     // public System.Nullable`1<System.Int32> get_InvalidCultureId()
@@ -68,17 +69,17 @@ namespace System::Globalization {
     System::Nullable_1<int> get_InvalidCultureId();
     // public System.String get_InvalidCultureName()
     // Offset: 0x19B6368
-    ::Il2CppString* get_InvalidCultureName();
+    ::StringW get_InvalidCultureName();
     // static private System.String get_DefaultMessage()
     // Offset: 0x19B6018
-    static ::Il2CppString* get_DefaultMessage();
+    static ::StringW get_DefaultMessage();
     // private System.String get_FormatedInvalidCultureId()
     // Offset: 0x19B6370
-    ::Il2CppString* get_FormatedInvalidCultureId();
+    ::StringW get_FormatedInvalidCultureId();
     // public System.Void .ctor(System.String paramName, System.String invalidCultureName, System.String message)
     // Offset: 0x19B6060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* invalidCultureName, ::Il2CppString* message) {
+    static CultureNotFoundException* New_ctor(::StringW paramName, ::StringW invalidCultureName, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureNotFoundException*, creationType>(paramName, invalidCultureName, message)));
     }
@@ -86,7 +87,7 @@ namespace System::Globalization {
     // Offset: 0x19B6478
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x19B5FC4
     // Implemented from: System.ArgumentException
@@ -104,7 +105,7 @@ namespace System::Globalization {
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CultureNotFoundException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message) {
+    static CultureNotFoundException* New_ctor(::StringW paramName, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureNotFoundException*, creationType>(paramName, message)));
     }
@@ -139,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_InvalidCultureName
 // Il2CppName: get_InvalidCultureName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_InvalidCultureName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_InvalidCultureName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_InvalidCultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_DefaultMessage
 // Il2CppName: get_DefaultMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Globalization::CultureNotFoundException::get_DefaultMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Globalization::CultureNotFoundException::get_DefaultMessage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_DefaultMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId
 // Il2CppName: get_FormatedInvalidCultureId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_FormatedInvalidCultureId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -167,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::CultureNotFoundException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CultureNotFoundException::*)()>(&System::Globalization::CultureNotFoundException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureNotFoundException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

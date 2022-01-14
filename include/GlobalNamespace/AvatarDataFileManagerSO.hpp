@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -45,21 +46,21 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kAvatarDataFileName
     static constexpr const char* kAvatarDataFileName = "AvatarData.dat";
     // Get static field: static private System.String kAvatarDataFileName
-    static ::Il2CppString* _get_kAvatarDataFileName();
+    static ::StringW _get_kAvatarDataFileName();
     // Set static field: static private System.String kAvatarDataFileName
-    static void _set_kAvatarDataFileName(::Il2CppString* value);
+    static void _set_kAvatarDataFileName(::StringW value);
     // static field const value: static private System.String kTempFileName
     static constexpr const char* kTempFileName = "AvatarData.dat.tmp";
     // Get static field: static private System.String kTempFileName
-    static ::Il2CppString* _get_kTempFileName();
+    static ::StringW _get_kTempFileName();
     // Set static field: static private System.String kTempFileName
-    static void _set_kTempFileName(::Il2CppString* value);
+    static void _set_kTempFileName(::StringW value);
     // static field const value: static private System.String kBackupFileName
     static constexpr const char* kBackupFileName = "AvatarData.dat.bak";
     // Get static field: static private System.String kBackupFileName
-    static ::Il2CppString* _get_kBackupFileName();
+    static ::StringW _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
-    static void _set_kBackupFileName(::Il2CppString* value);
+    static void _set_kBackupFileName(::StringW value);
     // public System.Void Save(AvatarData avatarData)
     // Offset: 0x13176F0
     void Save(GlobalNamespace::AvatarData* avatarData);

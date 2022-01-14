@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
@@ -41,9 +42,9 @@ namespace JetBrains::Annotations {
     // private System.String <Expression>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Expression;
+    ::StringW Expression;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 <Editable>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -55,22 +56,22 @@ namespace JetBrains::Annotations {
     // private System.String <Target>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Target;
+    ::StringW Target;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <Expression>k__BackingField
-    ::Il2CppString*& dyn_$Expression$k__BackingField();
+    ::StringW& dyn_$Expression$k__BackingField();
     // Get instance field reference: private System.Int32 <Editable>k__BackingField
     int& dyn_$Editable$k__BackingField();
     // Get instance field reference: private System.String <Target>k__BackingField
-    ::Il2CppString*& dyn_$Target$k__BackingField();
+    ::StringW& dyn_$Target$k__BackingField();
     // public System.String get_Expression()
     // Offset: 0x26BA0B0
-    ::Il2CppString* get_Expression();
+    ::StringW get_Expression();
     // public System.Void set_Expression(System.String value)
     // Offset: 0x26BA0B8
-    void set_Expression(::Il2CppString* value);
+    void set_Expression(::StringW value);
     // public System.Int32 get_Editable()
     // Offset: 0x26BA0C0
     int get_Editable();
@@ -79,10 +80,10 @@ namespace JetBrains::Annotations {
     void set_Editable(int value);
     // public System.String get_Target()
     // Offset: 0x26BA0D0
-    ::Il2CppString* get_Target();
+    ::StringW get_Target();
     // public System.Void set_Target(System.String value)
     // Offset: 0x26BA0D8
-    void set_Target(::Il2CppString* value);
+    void set_Target(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x26BA0E0
     // Implemented from: System.Attribute
@@ -95,14 +96,14 @@ namespace JetBrains::Annotations {
     }
   }; // JetBrains.Annotations.MacroAttribute
   #pragma pack(pop)
-  static check_size<sizeof(MacroAttribute), 32 + sizeof(::Il2CppString*)> __JetBrains_Annotations_MacroAttributeSizeCheck;
+  static check_size<sizeof(MacroAttribute), 32 + sizeof(::StringW)> __JetBrains_Annotations_MacroAttributeSizeCheck;
   static_assert(sizeof(MacroAttribute) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Expression
 // Il2CppName: get_Expression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Expression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Expression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "get_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -110,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::set_Expression
 // Il2CppName: set_Expression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MacroAttribute::set_Expression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::StringW)>(&JetBrains::Annotations::MacroAttribute::set_Expression)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "set_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
 // Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Target
 // Il2CppName: get_Target
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Target)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Target)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "get_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::set_Target
 // Il2CppName: set_Target
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MacroAttribute::set_Target)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::StringW)>(&JetBrains::Annotations::MacroAttribute::set_Target)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "set_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

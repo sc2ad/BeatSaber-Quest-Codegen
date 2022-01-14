@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -56,86 +57,86 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kReceivedMessagesMetricName
     static constexpr const char* kReceivedMessagesMetricName = "ReceivedMessages";
     // Get static field: static private System.String kReceivedMessagesMetricName
-    static ::Il2CppString* _get_kReceivedMessagesMetricName();
+    static ::StringW _get_kReceivedMessagesMetricName();
     // Set static field: static private System.String kReceivedMessagesMetricName
-    static void _set_kReceivedMessagesMetricName(::Il2CppString* value);
+    static void _set_kReceivedMessagesMetricName(::StringW value);
     // static field const value: static private System.String kSentMessagesMetricName
     static constexpr const char* kSentMessagesMetricName = "SentMessages";
     // Get static field: static private System.String kSentMessagesMetricName
-    static ::Il2CppString* _get_kSentMessagesMetricName();
+    static ::StringW _get_kSentMessagesMetricName();
     // Set static field: static private System.String kSentMessagesMetricName
-    static void _set_kSentMessagesMetricName(::Il2CppString* value);
+    static void _set_kSentMessagesMetricName(::StringW value);
     // static field const value: static private System.String kDeliveryTypeKey
     static constexpr const char* kDeliveryTypeKey = "DeliveryType";
     // Get static field: static private System.String kDeliveryTypeKey
-    static ::Il2CppString* _get_kDeliveryTypeKey();
+    static ::StringW _get_kDeliveryTypeKey();
     // Set static field: static private System.String kDeliveryTypeKey
-    static void _set_kDeliveryTypeKey(::Il2CppString* value);
+    static void _set_kDeliveryTypeKey(::StringW value);
     // static field const value: static private System.String kMessageCategoryKey
     static constexpr const char* kMessageCategoryKey = "MessageCategory";
     // Get static field: static private System.String kMessageCategoryKey
-    static ::Il2CppString* _get_kMessageCategoryKey();
+    static ::StringW _get_kMessageCategoryKey();
     // Set static field: static private System.String kMessageCategoryKey
-    static void _set_kMessageCategoryKey(::Il2CppString* value);
+    static void _set_kMessageCategoryKey(::StringW value);
     // static field const value: static private System.String kMessageTypeKey
     static constexpr const char* kMessageTypeKey = "MessageType";
     // Get static field: static private System.String kMessageTypeKey
-    static ::Il2CppString* _get_kMessageTypeKey();
+    static ::StringW _get_kMessageTypeKey();
     // Set static field: static private System.String kMessageTypeKey
-    static void _set_kMessageTypeKey(::Il2CppString* value);
+    static void _set_kMessageTypeKey(::StringW value);
     // static field const value: static private System.String kResultKey
     static constexpr const char* kResultKey = "Result";
     // Get static field: static private System.String kResultKey
-    static ::Il2CppString* _get_kResultKey();
+    static ::StringW _get_kResultKey();
     // Set static field: static private System.String kResultKey
-    static void _set_kResultKey(::Il2CppString* value);
+    static void _set_kResultKey(::StringW value);
     // static field const value: static private System.String kDeliveryTypeReliable
     static constexpr const char* kDeliveryTypeReliable = "Reliable";
     // Get static field: static private System.String kDeliveryTypeReliable
-    static ::Il2CppString* _get_kDeliveryTypeReliable();
+    static ::StringW _get_kDeliveryTypeReliable();
     // Set static field: static private System.String kDeliveryTypeReliable
-    static void _set_kDeliveryTypeReliable(::Il2CppString* value);
+    static void _set_kDeliveryTypeReliable(::StringW value);
     // static field const value: static private System.String kDeliveryTypeUnreliable
     static constexpr const char* kDeliveryTypeUnreliable = "Unreliable";
     // Get static field: static private System.String kDeliveryTypeUnreliable
-    static ::Il2CppString* _get_kDeliveryTypeUnreliable();
+    static ::StringW _get_kDeliveryTypeUnreliable();
     // Set static field: static private System.String kDeliveryTypeUnreliable
-    static void _set_kDeliveryTypeUnreliable(::Il2CppString* value);
+    static void _set_kDeliveryTypeUnreliable(::StringW value);
     // static field const value: static private System.String kMessageCategoryRequest
     static constexpr const char* kMessageCategoryRequest = "Request";
     // Get static field: static private System.String kMessageCategoryRequest
-    static ::Il2CppString* _get_kMessageCategoryRequest();
+    static ::StringW _get_kMessageCategoryRequest();
     // Set static field: static private System.String kMessageCategoryRequest
-    static void _set_kMessageCategoryRequest(::Il2CppString* value);
+    static void _set_kMessageCategoryRequest(::StringW value);
     // static field const value: static private System.String kMessageCategoryResponse
     static constexpr const char* kMessageCategoryResponse = "Response";
     // Get static field: static private System.String kMessageCategoryResponse
-    static ::Il2CppString* _get_kMessageCategoryResponse();
+    static ::StringW _get_kMessageCategoryResponse();
     // Set static field: static private System.String kMessageCategoryResponse
-    static void _set_kMessageCategoryResponse(::Il2CppString* value);
+    static void _set_kMessageCategoryResponse(::StringW value);
     // static field const value: static private System.String kMessageCategoryMessage
     static constexpr const char* kMessageCategoryMessage = "Message";
     // Get static field: static private System.String kMessageCategoryMessage
-    static ::Il2CppString* _get_kMessageCategoryMessage();
+    static ::StringW _get_kMessageCategoryMessage();
     // Set static field: static private System.String kMessageCategoryMessage
-    static void _set_kMessageCategoryMessage(::Il2CppString* value);
+    static void _set_kMessageCategoryMessage(::StringW value);
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _typeNameLookup
-    static System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* _get__typeNameLookup();
+    static System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* _get__typeNameLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _typeNameLookup
-    static void _set__typeNameLookup(System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppString*>* value);
+    static void _set__typeNameLookup(System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* value);
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
-    static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::Il2CppString*>*>* _get__responseCodeLookup();
+    static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* _get__responseCodeLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
-    static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::Il2CppString*>*>* value);
+    static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x180560C
     static void _cctor();
     // static private System.String GetMessageName(MasterServer.IMasterServerMessage message)
     // Offset: 0x1804208
-    static ::Il2CppString* GetMessageName(MasterServer::IMasterServerMessage* message);
+    static ::StringW GetMessageName(MasterServer::IMasterServerMessage* message);
     // static private System.String GetResponseCodeName(MasterServer.IMasterServerResponse response)
     // Offset: 0x1804350
-    static ::Il2CppString* GetResponseCodeName(MasterServer::IMasterServerResponse* response);
+    static ::StringW GetResponseCodeName(MasterServer::IMasterServerResponse* response);
     // static public System.Void ReceivedReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
     // Offset: 0x1804610
     static void ReceivedReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName
 // Il2CppName: GetMessageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(MasterServer::IMasterServerMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(MasterServer::IMasterServerMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetMessageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName
 // Il2CppName: GetResponseCodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(MasterServer::IMasterServerResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(MasterServer::IMasterServerResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
   static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetResponseCodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});

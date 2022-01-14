@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -138,7 +139,7 @@ namespace GlobalNamespace {
     // Offset: 0x1215740
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
     // Base method: System.String SinglePlayerLevelSelectionFlowCoordinator::get_gameMode()
-    ::Il2CppString* get_gameMode();
+    ::StringW get_gameMode();
     // protected override LeaderboardViewController get_leaderboardViewController()
     // Offset: 0x1215788
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
@@ -153,7 +154,7 @@ namespace GlobalNamespace {
     // Offset: 0x1215798
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: System.String LevelSelectionFlowCoordinator::get_mainTitle()
-    ::Il2CppString* get_mainTitle();
+    ::StringW get_mainTitle();
     // public System.Void .ctor()
     // Offset: 0x1215D80
     // Implemented from: SinglePlayerLevelSelectionFlowCoordinator
@@ -227,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode
 // Il2CppName: get_gameMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SoloFreePlayFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::get_mainTitle
 // Il2CppName: get_mainTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&GlobalNamespace::SoloFreePlayFlowCoordinator::get_mainTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&GlobalNamespace::SoloFreePlayFlowCoordinator::get_mainTitle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SoloFreePlayFlowCoordinator*), "get_mainTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

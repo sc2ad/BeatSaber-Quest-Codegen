@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -46,9 +47,9 @@ namespace System {
     // public System.String full_name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* full_name;
+    ::StringW full_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Reflection.MonoCMethod default_ctor
     // Size: 0x8
     // Offset: 0x18
@@ -57,7 +58,7 @@ namespace System {
     static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
     public:
     // Get instance field reference: public System.String full_name
-    ::Il2CppString*& dyn_full_name();
+    ::StringW& dyn_full_name();
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
     System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()

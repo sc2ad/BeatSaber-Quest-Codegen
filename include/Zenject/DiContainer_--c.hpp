@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -70,13 +71,13 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__86_1
     static void _set_$$9__86_1(System::Func_2<System::Type*, bool>* value);
     // Get static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__97_0
-    static System::Func_2<Zenject::TypeValuePair, ::Il2CppString*>* _get_$$9__97_0();
+    static System::Func_2<Zenject::TypeValuePair, ::StringW>* _get_$$9__97_0();
     // Set static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__97_0
-    static void _set_$$9__97_0(System::Func_2<Zenject::TypeValuePair, ::Il2CppString*>* value);
+    static void _set_$$9__97_0(System::Func_2<Zenject::TypeValuePair, ::StringW>* value);
     // Get static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__102_0
-    static System::Func_2<Zenject::TypeValuePair, ::Il2CppString*>* _get_$$9__102_0();
+    static System::Func_2<Zenject::TypeValuePair, ::StringW>* _get_$$9__102_0();
     // Set static field: static public System.Func`2<Zenject.TypeValuePair,System.String> <>9__102_0
-    static void _set_$$9__102_0(System::Func_2<Zenject::TypeValuePair, ::Il2CppString*>* value);
+    static void _set_$$9__102_0(System::Func_2<Zenject::TypeValuePair, ::StringW>* value);
     // Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__197_0
     static System::Func_2<System::Type*, bool>* _get_$$9__197_0();
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__197_0
@@ -99,10 +100,10 @@ namespace Zenject {
     bool $ResolveTypeAll$b__86_1(System::Type* x);
     // System.String <InstantiateInternal>b__97_0(Zenject.TypeValuePair x)
     // Offset: 0x1A9E7A0
-    ::Il2CppString* $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
+    ::StringW $InstantiateInternal$b__97_0(Zenject::TypeValuePair x);
     // System.String <InjectExplicitInternal>b__102_0(Zenject.TypeValuePair x)
     // Offset: 0x1A9E808
-    ::Il2CppString* $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
+    ::StringW $InjectExplicitInternal$b__102_0(Zenject::TypeValuePair x);
     // System.Boolean <BindInternal>b__197_0(System.Type x)
     // Offset: 0x1A9E870
     bool $BindInternal$b__197_0(System::Type* x);
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0
 // Il2CppName: <InstantiateInternal>b__97_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InstantiateInternal$b__97_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<InstantiateInternal>b__97_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0
 // Il2CppName: <InjectExplicitInternal>b__102_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::DiContainer::$$c::*)(Zenject::TypeValuePair)>(&Zenject::DiContainer::$$c::$InjectExplicitInternal$b__102_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c*), "<InjectExplicitInternal>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

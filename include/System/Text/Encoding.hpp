@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -186,10 +187,10 @@ namespace System::Text {
     static ::Il2CppObject* get_InternalSyncObject();
     // public System.String get_EncodingName()
     // Offset: 0x1EFDD84
-    ::Il2CppString* get_EncodingName();
+    ::StringW get_EncodingName();
     // public System.String get_WebName()
     // Offset: 0x1EFDD90
-    ::Il2CppString* get_WebName();
+    ::StringW get_WebName();
     // public System.Text.EncoderFallback get_EncoderFallback()
     // Offset: 0x1EFDDCC
     System::Text::EncoderFallback* get_EncoderFallback();
@@ -271,7 +272,7 @@ namespace System::Text {
     static System::Text::Encoding* GetEncoding(int codepage, System::Text::EncoderFallback* encoderFallback, System::Text::DecoderFallback* decoderFallback);
     // static public System.Text.Encoding GetEncoding(System.String name)
     // Offset: 0x1EFDA3C
-    static System::Text::Encoding* GetEncoding(::Il2CppString* name);
+    static System::Text::Encoding* GetEncoding(::StringW name);
     // public System.Byte[] GetPreamble()
     // Offset: 0x1EFDBE4
     ::ArrayW<uint8_t> GetPreamble();
@@ -283,7 +284,7 @@ namespace System::Text {
     ::Il2CppObject* Clone();
     // public System.Int32 GetByteCount(System.String s)
     // Offset: 0x1EFDE7C
-    int GetByteCount(::Il2CppString* s);
+    int GetByteCount(::StringW s);
     // public System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
     int GetByteCount(::ArrayW<::Il2CppChar> chars, int index, int count);
@@ -301,10 +302,10 @@ namespace System::Text {
     int GetBytes(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex);
     // public System.Byte[] GetBytes(System.String s)
     // Offset: 0x1EFE170
-    ::ArrayW<uint8_t> GetBytes(::Il2CppString* s);
+    ::ArrayW<uint8_t> GetBytes(::StringW s);
     // public System.Int32 GetBytes(System.String s, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex)
     // Offset: 0x1EFE278
-    int GetBytes(::Il2CppString* s, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex);
+    int GetBytes(::StringW s, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex);
     // System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Text.EncoderNLS encoder)
     // Offset: 0x1EFE354
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, System::Text::EncoderNLS* encoder);
@@ -352,10 +353,10 @@ namespace System::Text {
     int GetMaxCharCount(int byteCount);
     // public System.String GetString(System.Byte[] bytes)
     // Offset: 0x1EFED5C
-    ::Il2CppString* GetString(::ArrayW<uint8_t> bytes);
+    ::StringW GetString(::ArrayW<uint8_t> bytes);
     // public System.String GetString(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     // Offset: 0x1EFEE24
-    ::Il2CppString* GetString(::ArrayW<uint8_t> bytes, int index, int count);
+    ::StringW GetString(::ArrayW<uint8_t> bytes, int index, int count);
     // System.Char[] GetBestFitUnicodeToBytesData()
     // Offset: 0x1EFEFF0
     ::ArrayW<::Il2CppChar> GetBestFitUnicodeToBytesData();
@@ -410,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Text::Encoding::get_EncodingName
 // Il2CppName: get_EncodingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::Encoding::*)()>(&System::Text::Encoding::get_EncodingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::Encoding::*)()>(&System::Text::Encoding::get_EncodingName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "get_EncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -418,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Text::Encoding::get_WebName
 // Il2CppName: get_WebName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::Encoding::*)()>(&System::Text::Encoding::get_WebName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::Encoding::*)()>(&System::Text::Encoding::get_WebName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "get_WebName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -635,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::Encoding::GetEncoding
 // Il2CppName: GetEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Il2CppString*)>(&System::Text::Encoding::GetEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::StringW)>(&System::Text::Encoding::GetEncoding)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -668,7 +669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Text::Encoding::GetByteCount
 // Il2CppName: GetByteCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::*)(::Il2CppString*)>(&System::Text::Encoding::GetByteCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::*)(::StringW)>(&System::Text::Encoding::GetByteCount)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "GetByteCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -733,7 +734,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::Encoding::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Text::Encoding::*)(::Il2CppString*)>(&System::Text::Encoding::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Text::Encoding::*)(::StringW)>(&System::Text::Encoding::GetBytes)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -742,7 +743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Text::Encoding::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::*)(::Il2CppString*, int, int, ::ArrayW<uint8_t>, int)>(&System::Text::Encoding::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::*)(::StringW, int, int, ::ArrayW<uint8_t>, int)>(&System::Text::Encoding::GetBytes)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -912,7 +913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::Encoding::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::Encoding::*)(::ArrayW<uint8_t>)>(&System::Text::Encoding::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::Encoding::*)(::ArrayW<uint8_t>)>(&System::Text::Encoding::GetString)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
@@ -921,7 +922,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Text::Encoding::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::Encoding::*)(::ArrayW<uint8_t>, int, int)>(&System::Text::Encoding::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::Encoding::*)(::ArrayW<uint8_t>, int, int)>(&System::Text::Encoding::GetString)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

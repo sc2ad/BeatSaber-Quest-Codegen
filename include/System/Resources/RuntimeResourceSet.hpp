@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -69,9 +70,9 @@ namespace System::Resources {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>* resCache;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*) == 0x8);
     // private System.Resources.ResourceReader _defaultReader
     // Size: 0x8
     // Offset: 0x30
@@ -81,9 +82,9 @@ namespace System::Resources {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* caseInsensitiveTable;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>* caseInsensitiveTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*) == 0x8);
     // private System.Boolean _haveReadFromReader
     // Size: 0x1
     // Offset: 0x40
@@ -98,17 +99,17 @@ namespace System::Resources {
     // Set static field: static System.Int32 Version
     static void _set_Version(int value);
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__resCache();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*& dyn__resCache();
     // Get instance field reference: private System.Resources.ResourceReader _defaultReader
     System::Resources::ResourceReader*& dyn__defaultReader();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _caseInsensitiveTable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__caseInsensitiveTable();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*& dyn__caseInsensitiveTable();
     // Get instance field reference: private System.Boolean _haveReadFromReader
     bool& dyn__haveReadFromReader();
     // System.Void .ctor(System.String fileName)
     // Offset: 0x161EC64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RuntimeResourceSet* New_ctor(::Il2CppString* fileName) {
+    static RuntimeResourceSet* New_ctor(::StringW fileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::RuntimeResourceSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeResourceSet*, creationType>(fileName)));
     }
@@ -124,10 +125,10 @@ namespace System::Resources {
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Object GetObject(System.String key, System.Boolean ignoreCase, System.Boolean isString)
     // Offset: 0x161F0F0
-    ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase, bool isString);
+    ::Il2CppObject* GetObject(::StringW key, bool ignoreCase, bool isString);
     // private System.Object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, System.String key, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> copyOfCache, System.Boolean keyInWrongCase)
     // Offset: 0x161FA5C
-    ::Il2CppObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::Il2CppString* key, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
+    ::Il2CppObject* ResolveResourceLocator(System::Resources::ResourceLocator resLocation, ::StringW key, System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x161EE44
     // Implemented from: System.Resources.ResourceSet
@@ -147,22 +148,22 @@ namespace System::Resources {
     // Offset: 0x161F070
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key)
-    ::Il2CppString* GetString(::Il2CppString* key);
+    ::StringW GetString(::StringW key);
     // public override System.String GetString(System.String key, System.Boolean ignoreCase)
     // Offset: 0x161F9C0
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.String ResourceSet::GetString(System.String key, System.Boolean ignoreCase)
-    ::Il2CppString* GetString(::Il2CppString* key, bool ignoreCase);
+    ::StringW GetString(::StringW key, bool ignoreCase);
     // public override System.Object GetObject(System.String key)
     // Offset: 0x161FA44
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key)
-    ::Il2CppObject* GetObject(::Il2CppString* key);
+    ::Il2CppObject* GetObject(::StringW key);
     // public override System.Object GetObject(System.String key, System.Boolean ignoreCase)
     // Offset: 0x161FA50
     // Implemented from: System.Resources.ResourceSet
     // Base method: System.Object ResourceSet::GetObject(System.String key, System.Boolean ignoreCase)
-    ::Il2CppObject* GetObject(::Il2CppString* key, bool ignoreCase);
+    ::Il2CppObject* GetObject(::StringW key, bool ignoreCase);
   }; // System.Resources.RuntimeResourceSet
   #pragma pack(pop)
   static check_size<sizeof(RuntimeResourceSet), 64 + sizeof(bool)> __System_Resources_RuntimeResourceSetSizeCheck;
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetObject
 // Il2CppName: GetObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::StringW, bool, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::ResolveResourceLocator
 // Il2CppName: ResolveResourceLocator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(System::Resources::ResourceLocator, ::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*, bool)>(&System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(System::Resources::ResourceLocator, ::StringW, System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*, bool)>(&System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
   static const MethodInfo* get() {
     static auto* resLocation = &::il2cpp_utils::GetClassFromName("System.Resources", "ResourceLocator")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -236,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*)>(&System::Resources::RuntimeResourceSet::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::RuntimeResourceSet::*)(::StringW)>(&System::Resources::RuntimeResourceSet::GetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -245,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::RuntimeResourceSet::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&System::Resources::RuntimeResourceSet::GetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetObject
 // Il2CppName: GetObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*)>(&System::Resources::RuntimeResourceSet::GetObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::StringW)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetObject
 // Il2CppName: GetObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

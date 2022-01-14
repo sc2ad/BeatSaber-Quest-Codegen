@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -59,9 +60,9 @@ namespace System::Reflection {
     // private System.String _keyPairContainer
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* keyPairContainer;
+    ::StringW keyPairContainer;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _keyPairExported
     // Size: 0x1
     // Offset: 0x20
@@ -88,7 +89,7 @@ namespace System::Reflection {
     // Get instance field reference: private System.Byte[] _publicKey
     ::ArrayW<uint8_t>& dyn__publicKey();
     // Get instance field reference: private System.String _keyPairContainer
-    ::Il2CppString*& dyn__keyPairContainer();
+    ::StringW& dyn__keyPairContainer();
     // Get instance field reference: private System.Boolean _keyPairExported
     bool& dyn__keyPairExported();
     // Get instance field reference: private System.Byte[] _keyPairArray

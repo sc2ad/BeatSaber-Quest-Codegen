@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Protocol::Ntlm
@@ -45,22 +46,22 @@ namespace Mono::Security::Protocol::Ntlm {
     static void _cctor();
     // static private System.Byte[] Compute_LM(System.String password, System.Byte[] challenge)
     // Offset: 0x1F96C04
-    static ::ArrayW<uint8_t> Compute_LM(::Il2CppString* password, ::ArrayW<uint8_t> challenge);
+    static ::ArrayW<uint8_t> Compute_LM(::StringW password, ::ArrayW<uint8_t> challenge);
     // static private System.Byte[] Compute_NTLM_Password(System.String password)
     // Offset: 0x1F973E0
-    static ::ArrayW<uint8_t> Compute_NTLM_Password(::Il2CppString* password);
+    static ::ArrayW<uint8_t> Compute_NTLM_Password(::StringW password);
     // static private System.Byte[] Compute_NTLM(System.String password, System.Byte[] challenge)
     // Offset: 0x1F974E8
-    static ::ArrayW<uint8_t> Compute_NTLM(::Il2CppString* password, ::ArrayW<uint8_t> challenge);
+    static ::ArrayW<uint8_t> Compute_NTLM(::StringW password, ::ArrayW<uint8_t> challenge);
     // static private System.Void Compute_NTLMv2_Session(System.String password, System.Byte[] challenge, out System.Byte[] lm, out System.Byte[] ntlm)
     // Offset: 0x1F97564
-    static void Compute_NTLMv2_Session(::Il2CppString* password, ::ArrayW<uint8_t> challenge, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
+    static void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t> challenge, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message type2, System.String username, System.String password, System.String domain)
     // Offset: 0x1F97734
-    static ::ArrayW<uint8_t> Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Il2CppString* username, ::Il2CppString* password, ::Il2CppString* domain);
+    static ::ArrayW<uint8_t> Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
     // static public System.Void Compute(Mono.Security.Protocol.Ntlm.Type2Message type2, Mono.Security.Protocol.Ntlm.NtlmAuthLevel level, System.String username, System.String password, System.String domain, out System.Byte[] lm, out System.Byte[] ntlm)
     // Offset: 0x1F97C6C
-    static void Compute(Mono::Security::Protocol::Ntlm::Type2Message* type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::Il2CppString* username, ::Il2CppString* password, ::Il2CppString* domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
+    static void Compute(Mono::Security::Protocol::Ntlm::Type2Message* type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] GetResponse(System.Byte[] challenge, System.Byte[] pwd)
     // Offset: 0x1F970E0
     static ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> challenge, ::ArrayW<uint8_t> pwd);
@@ -69,7 +70,7 @@ namespace Mono::Security::Protocol::Ntlm {
     static ::ArrayW<uint8_t> PrepareDESKey(::ArrayW<uint8_t> key56bits, int position);
     // static private System.Byte[] PasswordToKey(System.String password, System.Int32 position)
     // Offset: 0x1F96F74
-    static ::ArrayW<uint8_t> PasswordToKey(::Il2CppString* password, int position);
+    static ::ArrayW<uint8_t> PasswordToKey(::StringW password, int position);
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse2
   #pragma pack(pop)
 }
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM
 // Il2CppName: Compute_LM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password
 // Il2CppName: Compute_NTLM_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLM_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM
 // Il2CppName: Compute_NTLM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session
 // Il2CppName: Compute_NTLMv2_Session
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2
 // Il2CppName: Compute_NTLMv2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::StringW, ::StringW, ::StringW)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
   static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute
 // Il2CppName: Compute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::StringW, ::StringW, ::StringW, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
   static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "NtlmAuthLevel")->byval_arg;
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey
 // Il2CppName: PasswordToKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

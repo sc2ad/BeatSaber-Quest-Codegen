@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -44,7 +45,7 @@ namespace NUnit::Framework {
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class TActual>
-    static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args) {
+    static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::StringW message, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::_Assert::That");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework", "Assert", "That", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(actual), ::il2cpp_utils::ExtractType(expression), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}));
@@ -52,13 +53,13 @@ namespace NUnit::Framework {
     }
     // static public System.Void GreaterOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x193405C
-    static void GreaterOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    static void GreaterOrEqual(float arg1, float arg2, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LessOrEqual(System.Single arg1, System.Single arg2, System.String message, params System.Object[] args)
     // Offset: 0x19340F4
-    static void LessOrEqual(float arg1, float arg2, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    static void LessOrEqual(float arg1, float arg2, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void IsTrue(System.Boolean condition, System.String message, params System.Object[] args)
     // Offset: 0x193418C
-    static void IsTrue(bool condition, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    static void IsTrue(bool condition, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void IsTrue(System.Boolean condition)
     // Offset: 0x1934204
     static void IsTrue(bool condition);
@@ -90,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::GreaterOrEqual
 // Il2CppName: GreaterOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::GreaterOrEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::GreaterOrEqual)> {
   static const MethodInfo* get() {
     static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* arg2 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -102,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::LessOrEqual
 // Il2CppName: LessOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::LessOrEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::LessOrEqual)> {
   static const MethodInfo* get() {
     static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* arg2 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: NUnit::Framework::_Assert::IsTrue
 // Il2CppName: IsTrue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::IsTrue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::_Assert::IsTrue)> {
   static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

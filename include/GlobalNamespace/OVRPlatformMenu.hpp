@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -124,9 +125,9 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
-    static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_sceneStack();
+    static System::Collections::Generic::Stack_1<::StringW>* _get_sceneStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> sceneStack
-    static void _set_sceneStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
+    static void _set_sceneStack(System::Collections::Generic::Stack_1<::StringW>* value);
     // Get instance field reference: private OVRInput/RawButton inputCode
     GlobalNamespace::OVRInput::RawButton& dyn_inputCode();
     // Get instance field reference: public OVRPlatformMenu/eHandler shortPressHandler

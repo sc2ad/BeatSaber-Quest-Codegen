@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -367,7 +368,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int8_t ReadSByte();
     // System.String ReadString()
     // Offset: 0x185B540
-    ::Il2CppString* ReadString();
+    ::StringW ReadString();
     // System.TimeSpan ReadTimeSpan()
     // Offset: 0x186D4D4
     System::TimeSpan ReadTimeSpan();
@@ -626,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Sys
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadString
 // Il2CppName: ReadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)()>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)()>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*), "ReadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

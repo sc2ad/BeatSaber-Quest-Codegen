@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -163,7 +164,7 @@ namespace GlobalNamespace {
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // private System.Void HandleNewLeaderWasSelected(System.String userId)
     // Offset: 0x1292A88
-    void HandleNewLeaderWasSelected(::Il2CppString* userId);
+    void HandleNewLeaderWasSelected(::StringW userId);
     // protected System.Void .ctor()
     // Offset: 0x1291DD0
     // Implemented from: UnityEngine.MonoBehaviour
@@ -220,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected
 // Il2CppName: HandleNewLeaderWasSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)(::StringW)>(&GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "HandleNewLeaderWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

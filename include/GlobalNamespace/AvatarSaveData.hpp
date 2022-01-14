@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,51 +41,51 @@ namespace GlobalNamespace {
     // public System.String headTopId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* headTopId;
+    ::StringW headTopId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String glassesId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* glassesId;
+    ::StringW glassesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String facialHairId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* facialHairId;
+    ::StringW facialHairId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String handsId
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* handsId;
+    ::StringW handsId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String clothesId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* clothesId;
+    ::StringW clothesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String skinColorId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* skinColorId;
+    ::StringW skinColorId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String mouthId
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* mouthId;
+    ::StringW mouthId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String eyesId
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* eyesId;
+    ::StringW eyesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Color headTopPrimaryColor
     // Size: 0x10
     // Offset: 0x50
@@ -135,21 +136,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.String headTopId
-    ::Il2CppString*& dyn_headTopId();
+    ::StringW& dyn_headTopId();
     // Get instance field reference: public System.String glassesId
-    ::Il2CppString*& dyn_glassesId();
+    ::StringW& dyn_glassesId();
     // Get instance field reference: public System.String facialHairId
-    ::Il2CppString*& dyn_facialHairId();
+    ::StringW& dyn_facialHairId();
     // Get instance field reference: public System.String handsId
-    ::Il2CppString*& dyn_handsId();
+    ::StringW& dyn_handsId();
     // Get instance field reference: public System.String clothesId
-    ::Il2CppString*& dyn_clothesId();
+    ::StringW& dyn_clothesId();
     // Get instance field reference: public System.String skinColorId
-    ::Il2CppString*& dyn_skinColorId();
+    ::StringW& dyn_skinColorId();
     // Get instance field reference: public System.String mouthId
-    ::Il2CppString*& dyn_mouthId();
+    ::StringW& dyn_mouthId();
     // Get instance field reference: public System.String eyesId
-    ::Il2CppString*& dyn_eyesId();
+    ::StringW& dyn_eyesId();
     // Get instance field reference: public UnityEngine.Color headTopPrimaryColor
     UnityEngine::Color& dyn_headTopPrimaryColor();
     // Get instance field reference: public UnityEngine.Color headTopSecondaryColor

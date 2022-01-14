@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -77,21 +78,21 @@ namespace HoudiniEngineUnity {
     // public System.String _name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _labelName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* labelName;
+    ::StringW labelName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _help
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* help;
+    ::StringW help;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<System.Int32> _childParameterIDs
     // Size: 0x8
     // Offset: 0x30
@@ -121,9 +122,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _stringValues
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<::Il2CppString*> stringValues;
+    ::ArrayW<::StringW> stringValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Boolean _toggle
     // Size: 0x1
     // Offset: 0x58
@@ -161,9 +162,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _choiceStringValues
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayW<::Il2CppString*> choiceStringValues;
+    ::ArrayW<::StringW> choiceStringValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Int32[] _choiceIntValues
     // Size: 0x8
     // Offset: 0x90
@@ -187,9 +188,9 @@ namespace HoudiniEngineUnity {
     // public System.String _fileTypeInfo
     // Size: 0x8
     // Offset: 0x130
-    ::Il2CppString* fileTypeInfo;
+    ::StringW fileTypeInfo;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _folderListChildrenProcessed
     // Size: 0x4
     // Offset: 0x138
@@ -222,11 +223,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _unityIndex
     int& dyn__unityIndex();
     // Get instance field reference: public System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: public System.String _labelName
-    ::Il2CppString*& dyn__labelName();
+    ::StringW& dyn__labelName();
     // Get instance field reference: public System.String _help
-    ::Il2CppString*& dyn__help();
+    ::StringW& dyn__help();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _childParameterIDs
     System::Collections::Generic::List_1<int>*& dyn__childParameterIDs();
     // Get instance field reference: public System.Int32 _choiceValue
@@ -236,7 +237,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] _floatValues
     ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::Il2CppString*>& dyn__stringValues();
+    ::ArrayW<::StringW>& dyn__stringValues();
     // Get instance field reference: public System.Boolean _toggle
     bool& dyn__toggle();
     // Get instance field reference: public UnityEngine.Color _color
@@ -248,7 +249,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.GUIContent[] _choiceLabels
     ::ArrayW<UnityEngine::GUIContent*>& dyn__choiceLabels();
     // Get instance field reference: public System.String[] _choiceStringValues
-    ::ArrayW<::Il2CppString*>& dyn__choiceStringValues();
+    ::ArrayW<::StringW>& dyn__choiceStringValues();
     // Get instance field reference: public System.Int32[] _choiceIntValues
     ::ArrayW<int>& dyn__choiceIntValues();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmInfo _parmInfo
@@ -256,7 +257,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _showChildren
     bool& dyn__showChildren();
     // Get instance field reference: public System.String _fileTypeInfo
-    ::Il2CppString*& dyn__fileTypeInfo();
+    ::StringW& dyn__fileTypeInfo();
     // Get instance field reference: public System.Int32 _folderListChildrenProcessed
     int& dyn__folderListChildrenProcessed();
     // Get instance field reference: public System.Int32 _tabSelectedIndex

@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -84,21 +85,21 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _uri
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* uri;
+    ::StringW uri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _typeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _methodName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* methodName;
+    ::StringW methodName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Object[] _args
     // Size: 0x8
     // Offset: 0x28
@@ -161,11 +162,11 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
     // Get instance field reference: private System.String _uri
-    ::Il2CppString*& dyn__uri();
+    ::StringW& dyn__uri();
     // Get instance field reference: private System.String _typeName
-    ::Il2CppString*& dyn__typeName();
+    ::StringW& dyn__typeName();
     // Get instance field reference: private System.String _methodName
-    ::Il2CppString*& dyn__methodName();
+    ::StringW& dyn__methodName();
     // Get instance field reference: private System.Object[] _args
     ::ArrayW<::Il2CppObject*>& dyn__args();
     // Get instance field reference: private System.Type[] _methodSignature
@@ -196,7 +197,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0x1C57368
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public System.Object get_MethodSignature()
     // Offset: 0x1C573A8
     ::Il2CppObject* get_MethodSignature();
@@ -205,19 +206,19 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* get_Properties();
     // public System.String get_TypeName()
     // Offset: 0x1C57578
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.String get_Uri()
     // Offset: 0x1C575CC
-    ::Il2CppString* get_Uri();
+    ::StringW get_Uri();
     // public System.Void set_Uri(System.String value)
     // Offset: 0x1C575D4
-    void set_Uri(::Il2CppString* value);
+    void set_Uri(::StringW value);
     // private System.String System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri()
     // Offset: 0x1C575DC
-    ::Il2CppString* System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
+    ::StringW System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
     // private System.Void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(System.String value)
     // Offset: 0x1C575E4
-    void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::Il2CppString* value);
+    void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::StringW value);
     // private System.Runtime.Remoting.Identity System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity()
     // Offset: 0x1C57E48
     System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
@@ -246,7 +247,7 @@ namespace System::Runtime::Remoting::Messaging {
     void CopyFrom(System::Runtime::Remoting::Messaging::IMethodMessage* call);
     // System.Void InitMethodProperty(System.String key, System.Object value)
     // Offset: 0x1C51968
-    void InitMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
+    void InitMethodProperty(::StringW key, ::Il2CppObject* value);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1C51E3C
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -264,10 +265,10 @@ namespace System::Runtime::Remoting::Messaging {
     void ResolveMethod();
     // private System.Type CastTo(System.String clientType, System.Type serverType)
     // Offset: 0x1C576EC
-    System::Type* CastTo(::Il2CppString* clientType, System::Type* serverType);
+    System::Type* CastTo(::StringW clientType, System::Type* serverType);
     // static private System.String GetTypeNameFromAssemblyQualifiedName(System.String aqname)
     // Offset: 0x1C57D98
-    static ::Il2CppString* GetTypeNameFromAssemblyQualifiedName(::Il2CppString* aqname);
+    static ::StringW GetTypeNameFromAssemblyQualifiedName(::StringW aqname);
     // System.Void .ctor()
     // Offset: 0x1C513FC
     // Implemented from: System.Object
@@ -318,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -342,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::set_Uri
 // Il2CppName: set_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MethodCall::set_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::StringW)>(&System::Runtime::Remoting::Messaging::MethodCall::set_Uri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "set_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -367,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri
 // Il2CppName: System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MethodCall::*)()>(&System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -375,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri
 // Il2CppName: System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::StringW)>(&System::Runtime::Remoting::Messaging::MethodCall::System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -426,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::InitMethodProperty
 // Il2CppName: InitMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MethodCall::InitMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodCall::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MethodCall::InitMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -479,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::CastTo
 // Il2CppName: CastTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::Messaging::MethodCall::*)(::Il2CppString*, System::Type*)>(&System::Runtime::Remoting::Messaging::MethodCall::CastTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::Messaging::MethodCall::*)(::StringW, System::Type*)>(&System::Runtime::Remoting::Messaging::MethodCall::CastTo)> {
   static const MethodInfo* get() {
     static auto* clientType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -489,7 +490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodCall::GetTypeNameFromAssemblyQualifiedName
 // Il2CppName: GetTypeNameFromAssemblyQualifiedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MethodCall::GetTypeNameFromAssemblyQualifiedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Runtime::Remoting::Messaging::MethodCall::GetTypeNameFromAssemblyQualifiedName)> {
   static const MethodInfo* get() {
     static auto* aqname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodCall*), "GetTypeNameFromAssemblyQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aqname});

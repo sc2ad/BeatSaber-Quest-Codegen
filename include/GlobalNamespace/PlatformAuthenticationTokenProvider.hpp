@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -65,21 +66,21 @@ namespace GlobalNamespace {
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String _userName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String _hashedUserId
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* hashedUserId;
+    ::StringW hashedUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly AuthenticationToken/Platform _platform
     // Size: 0x1
     // Offset: 0x30
@@ -94,19 +95,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
     GlobalNamespace::IPlatformUserModel*& dyn__platformUserModel();
     // Get instance field reference: private readonly System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.String _hashedUserId
-    ::Il2CppString*& dyn__hashedUserId();
+    ::StringW& dyn__hashedUserId();
     // Get instance field reference: private readonly AuthenticationToken/Platform _platform
     GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
     // public System.String get_hashedUserId()
     // Offset: 0x114EB10
-    ::Il2CppString* get_hashedUserId();
+    ::StringW get_hashedUserId();
     // public System.String get_userName()
     // Offset: 0x114EB18
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
     // Offset: 0x114EB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,7 +127,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId
 // Il2CppName: get_hashedUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAuthenticationTokenProvider*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

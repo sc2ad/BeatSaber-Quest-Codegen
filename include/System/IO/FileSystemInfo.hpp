@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -77,21 +78,21 @@ namespace System::IO {
     // protected System.String FullPath
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* FullPath;
+    ::StringW FullPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.String OriginalPath
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* OriginalPath;
+    ::StringW OriginalPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _displayPath
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* displayPath;
+    ::StringW displayPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
@@ -104,17 +105,17 @@ namespace System::IO {
     // Get instance field reference: System.Int32 _dataInitialised
     int& dyn__dataInitialised();
     // Get instance field reference: protected System.String FullPath
-    ::Il2CppString*& dyn_FullPath();
+    ::StringW& dyn_FullPath();
     // Get instance field reference: protected System.String OriginalPath
-    ::Il2CppString*& dyn_OriginalPath();
+    ::StringW& dyn_OriginalPath();
     // Get instance field reference: private System.String _displayPath
-    ::Il2CppString*& dyn__displayPath();
+    ::StringW& dyn__displayPath();
     // public System.String get_FullName()
     // Offset: 0x1B01E4C
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Boolean get_Exists()
     // Offset: 0xFFFFFFFF
     bool get_Exists();
@@ -135,10 +136,10 @@ namespace System::IO {
     System::IO::FileAttributes get_Attributes();
     // System.String get_DisplayPath()
     // Offset: 0x1B0213C
-    ::Il2CppString* get_DisplayPath();
+    ::StringW get_DisplayPath();
     // System.Void set_DisplayPath(System.String value)
     // Offset: 0x1B02144
-    void set_DisplayPath(::Il2CppString* value);
+    void set_DisplayPath(::StringW value);
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1AF90A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -167,14 +168,14 @@ namespace System::IO {
     }
   }; // System.IO.FileSystemInfo
   #pragma pack(pop)
-  static check_size<sizeof(FileSystemInfo), 88 + sizeof(::Il2CppString*)> __System_IO_FileSystemInfoSizeCheck;
+  static check_size<sizeof(FileSystemInfo), 88 + sizeof(::StringW)> __System_IO_FileSystemInfoSizeCheck;
   static_assert(sizeof(FileSystemInfo) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -238,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::get_DisplayPath
 // Il2CppName: get_DisplayPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_DisplayPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileSystemInfo::*)()>(&System::IO::FileSystemInfo::get_DisplayPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "get_DisplayPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -246,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileSystemInfo::set_DisplayPath
 // Il2CppName: set_DisplayPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(::Il2CppString*)>(&System::IO::FileSystemInfo::set_DisplayPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemInfo::*)(::StringW)>(&System::IO::FileSystemInfo::set_DisplayPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemInfo*), "set_DisplayPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

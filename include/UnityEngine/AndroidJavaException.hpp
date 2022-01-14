@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -40,20 +41,20 @@ namespace UnityEngine {
     // private System.String mJavaStackTrace
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* mJavaStackTrace;
+    ::StringW mJavaStackTrace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return mJavaStackTrace;
     }
     // Get instance field reference: private System.String mJavaStackTrace
-    ::Il2CppString*& dyn_mJavaStackTrace();
+    ::StringW& dyn_mJavaStackTrace();
     // System.Void .ctor(System.String message, System.String javaStackTrace)
     // Offset: 0x2655B48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaException* New_ctor(::Il2CppString* message, ::Il2CppString* javaStackTrace) {
+    static AndroidJavaException* New_ctor(::StringW message, ::StringW javaStackTrace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaException*, creationType>(message, javaStackTrace)));
     }
@@ -61,10 +62,10 @@ namespace UnityEngine {
     // Offset: 0x26594B4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_StackTrace()
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
   }; // UnityEngine.AndroidJavaException
   #pragma pack(pop)
-  static check_size<sizeof(AndroidJavaException), 136 + sizeof(::Il2CppString*)> __UnityEngine_AndroidJavaExceptionSizeCheck;
+  static check_size<sizeof(AndroidJavaException), 136 + sizeof(::StringW)> __UnityEngine_AndroidJavaExceptionSizeCheck;
   static_assert(sizeof(AndroidJavaException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,7 +76,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaException::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AndroidJavaException::*)()>(&UnityEngine::AndroidJavaException::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AndroidJavaException::*)()>(&UnityEngine::AndroidJavaException::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

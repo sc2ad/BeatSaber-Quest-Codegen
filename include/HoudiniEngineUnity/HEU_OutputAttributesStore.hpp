@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -62,7 +63,7 @@ namespace HoudiniEngineUnity {
     void SetAttribute(HoudiniEngineUnity::HEU_OutputAttribute* attribute);
     // public HoudiniEngineUnity.HEU_OutputAttribute GetAttribute(System.String name)
     // Offset: 0x1813BD4
-    HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::Il2CppString* name);
+    HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
     // public System.Void Clear()
     // Offset: 0x1813C4C
     void Clear();
@@ -97,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_OutputAttributesStore::GetAttribute
 // Il2CppName: GetAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_OutputAttribute* (HoudiniEngineUnity::HEU_OutputAttributesStore::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_OutputAttributesStore::GetAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_OutputAttribute* (HoudiniEngineUnity::HEU_OutputAttributesStore::*)(::StringW)>(&HoudiniEngineUnity::HEU_OutputAttributesStore::GetAttribute)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_OutputAttributesStore*), "GetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

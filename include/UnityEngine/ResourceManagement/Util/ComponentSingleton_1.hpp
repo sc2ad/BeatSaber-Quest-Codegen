@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
@@ -64,10 +65,10 @@ namespace UnityEngine::ResourceManagement::Util {
     }
     // protected System.String GetGameObjectName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetGameObjectName() {
+    ::StringW GetGameObjectName() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ComponentSingleton_1::GetGameObjectName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetGameObjectName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // static private T CreateNewSingleton()
     // Offset: 0xFFFFFFFF

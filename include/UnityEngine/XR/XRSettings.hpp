@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -62,7 +63,7 @@ namespace UnityEngine::XR {
     static void set_renderViewportScaleInternal(float value);
     // static public System.String get_loadedDeviceName()
     // Offset: 0x26D0274
-    static ::Il2CppString* get_loadedDeviceName();
+    static ::StringW get_loadedDeviceName();
   }; // UnityEngine.XR.XRSettings
   #pragma pack(pop)
 }
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::XR::XRSettings::get_loadedDeviceName
 // Il2CppName: get_loadedDeviceName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::XR::XRSettings::get_loadedDeviceName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::XR::XRSettings::get_loadedDeviceName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRSettings*), "get_loadedDeviceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

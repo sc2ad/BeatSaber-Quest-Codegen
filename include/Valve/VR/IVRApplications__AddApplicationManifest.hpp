@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -49,10 +50,10 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRApplicationError Invoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary)
     // Offset: 0x18C14C8
-    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary);
+    Valve::VR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath, bool bTemporary);
     // public System.IAsyncResult BeginInvoke(System.String pchApplicationManifestFullPath, System.Boolean bTemporary, System.AsyncCallback callback, System.Object object)
     // Offset: 0x18CED30
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchApplicationManifestFullPath, bool bTemporary, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, bool bTemporary, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0x18CEDD0
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_AddApplicationManifest::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::Il2CppString*, bool)>(&Valve::VR::IVRApplications::_AddApplicationManifest::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::StringW, bool)>(&Valve::VR::IVRApplications::_AddApplicationManifest::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bTemporary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_AddApplicationManifest::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::Il2CppString*, bool, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_AddApplicationManifest::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::StringW, bool, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_AddApplicationManifest::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bTemporary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -94,17 +95,17 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier VerisignIssStrongCrypto
     static void _set_VerisignIssStrongCrypto(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly System.String Novell
-    static ::Il2CppString* _get_Novell();
+    static ::StringW _get_Novell();
     // Set static field: static public readonly System.String Novell
-    static void _set_Novell(::Il2CppString* value);
+    static void _set_Novell(::StringW value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier NovellSecurityAttribs
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_NovellSecurityAttribs();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier NovellSecurityAttribs
     static void _set_NovellSecurityAttribs(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly System.String Entrust
-    static ::Il2CppString* _get_Entrust();
+    static ::StringW _get_Entrust();
     // Set static field: static public readonly System.String Entrust
-    static void _set_Entrust(::Il2CppString* value);
+    static void _set_Entrust(::StringW value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier EntrustVersionExtension
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_EntrustVersionExtension();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier EntrustVersionExtension

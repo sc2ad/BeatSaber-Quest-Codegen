@@ -35,6 +35,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -544,9 +545,9 @@ namespace TMPro {
     // private System.String m_RegexValue
     // Size: 0x8
     // Offset: 0x158
-    ::Il2CppString* m_RegexValue;
+    ::StringW m_RegexValue;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single m_GlobalPointSize
     // Size: 0x4
     // Offset: 0x160
@@ -639,9 +640,9 @@ namespace TMPro {
     // protected System.String m_Text
     // Size: 0x8
     // Offset: 0x1D8
-    ::Il2CppString* m_Text;
+    ::StringW m_Text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [RangeAttribute] Offset: 0xEFA81C
     // private System.Single m_CaretBlinkRate
     // Size: 0x4
@@ -781,9 +782,9 @@ namespace TMPro {
     // private System.String m_OriginalText
     // Size: 0x8
     // Offset: 0x248
-    ::Il2CppString* m_OriginalText;
+    ::StringW m_OriginalText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_WasCanceled
     // Size: 0x1
     // Offset: 0x250
@@ -1020,9 +1021,9 @@ namespace TMPro {
     // static field const value: static private System.String kEmailSpecialCharacters
     static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
     // Get static field: static private System.String kEmailSpecialCharacters
-    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    static ::StringW _get_kEmailSpecialCharacters();
     // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
+    static void _set_kEmailSpecialCharacters(::StringW value);
     // Get instance field reference: protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
     UnityEngine::TouchScreenKeyboard*& dyn_m_SoftKeyboard();
     // Get instance field reference: protected UnityEngine.RectTransform m_TextViewport
@@ -1060,7 +1061,7 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_InputField/TMPro.CharacterValidation m_CharacterValidation
     TMPro::TMP_InputField::CharacterValidation& dyn_m_CharacterValidation();
     // Get instance field reference: private System.String m_RegexValue
-    ::Il2CppString*& dyn_m_RegexValue();
+    ::StringW& dyn_m_RegexValue();
     // Get instance field reference: private System.Single m_GlobalPointSize
     float& dyn_m_GlobalPointSize();
     // Get instance field reference: private System.Int32 m_CharacterLimit
@@ -1090,7 +1091,7 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.Color m_SelectionColor
     UnityEngine::Color& dyn_m_SelectionColor();
     // Get instance field reference: protected System.String m_Text
-    ::Il2CppString*& dyn_m_Text();
+    ::StringW& dyn_m_Text();
     // Get instance field reference: private System.Single m_CaretBlinkRate
     float& dyn_m_CaretBlinkRate();
     // Get instance field reference: private System.Int32 m_CaretWidth
@@ -1134,7 +1135,7 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.Coroutine m_DragCoroutine
     UnityEngine::Coroutine*& dyn_m_DragCoroutine();
     // Get instance field reference: private System.String m_OriginalText
-    ::Il2CppString*& dyn_m_OriginalText();
+    ::StringW& dyn_m_OriginalText();
     // Get instance field reference: private System.Boolean m_WasCanceled
     bool& dyn_m_WasCanceled();
     // Get instance field reference: private System.Boolean m_HasDoneFocusTransition
@@ -1196,7 +1197,7 @@ namespace TMPro {
     UnityEngine::EventSystems::BaseInput* get_inputSystem();
     // private System.String get_compositionString()
     // Offset: 0x124E4B0
-    ::Il2CppString* get_compositionString();
+    ::StringW get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0x124E878
     UnityEngine::Mesh* get_mesh();
@@ -1214,10 +1215,10 @@ namespace TMPro {
     void set_shouldHideSoftKeyboard(bool value);
     // public System.String get_text()
     // Offset: 0x124EBBC
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x124EBC4
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Boolean get_isFocused()
     // Offset: 0x124F1F0
     bool get_isFocused();
@@ -1505,10 +1506,10 @@ namespace TMPro {
     void set_selectionStringFocusPosition(int value);
     // static private System.String get_clipboard()
     // Offset: 0x125225C
-    static ::Il2CppString* get_clipboard();
+    static ::StringW get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0x1252264
-    static void set_clipboard(::Il2CppString* value);
+    static void set_clipboard(::StringW value);
     // public System.Single get_minWidth()
     // Offset: 0x12595A0
     float get_minWidth();
@@ -1538,10 +1539,10 @@ namespace TMPro {
     bool isKeyboardUsingEvents();
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0x124ECFC
-    void SetTextWithoutNotify(::Il2CppString* input);
+    void SetTextWithoutNotify(::StringW input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0x124EBCC
-    void SetText(::Il2CppString* value, bool sendCallback);
+    void SetText(::StringW value, bool sendCallback);
     // protected System.Void ClampStringPos(ref System.Int32 pos)
     // Offset: 0x1250550
     void ClampStringPos(ByRef<int> pos);
@@ -1619,7 +1620,7 @@ namespace TMPro {
     void OnScroll(UnityEngine::EventSystems::PointerEventData* eventData);
     // private System.String GetSelectedString()
     // Offset: 0x1254C84
-    ::Il2CppString* GetSelectedString();
+    ::StringW GetSelectedString();
     // private System.Int32 FindNextWordBegin()
     // Offset: 0x1255CF4
     int FindNextWordBegin();
@@ -1679,7 +1680,7 @@ namespace TMPro {
     void Backspace();
     // protected System.Void Append(System.String input)
     // Offset: 0x12572CC
-    void Append(::Il2CppString* input);
+    void Append(::StringW input);
     // protected System.Void Append(System.Char input)
     // Offset: 0x1257380
     void Append(::Il2CppChar input);
@@ -1778,7 +1779,7 @@ namespace TMPro {
     void AdjustRectTransformRelativeToViewport(UnityEngine::Vector2 startPosition, float height, bool isCharVisible);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0x1253004
-    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::StringW text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0x125933C
     void ActivateInputField();
@@ -1911,7 +1912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::get_compositionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1961,7 +1962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1969,7 +1970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_InputField::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::Il2CppString*)>(&TMPro::TMP_InputField::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::StringW)>(&TMPro::TMP_InputField::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2784,7 +2785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_clipboard
 // Il2CppName: get_clipboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_InputField::get_clipboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&TMPro::TMP_InputField::get_clipboard)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "get_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2792,7 +2793,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_InputField::set_clipboard
 // Il2CppName: set_clipboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&TMPro::TMP_InputField::set_clipboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&TMPro::TMP_InputField::set_clipboard)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "set_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2873,7 +2874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::SetTextWithoutNotify
 // Il2CppName: SetTextWithoutNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::Il2CppString*)>(&TMPro::TMP_InputField::SetTextWithoutNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::StringW)>(&TMPro::TMP_InputField::SetTextWithoutNotify)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "SetTextWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -2882,7 +2883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::Il2CppString*, bool)>(&TMPro::TMP_InputField::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::StringW, bool)>(&TMPro::TMP_InputField::SetText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sendCallback = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3111,7 +3112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::GetSelectedString
 // Il2CppName: GetSelectedString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::GetSelectedString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_InputField::*)()>(&TMPro::TMP_InputField::GetSelectedString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "GetSelectedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3295,7 +3296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::Il2CppString*)>(&TMPro::TMP_InputField::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::StringW)>(&TMPro::TMP_InputField::Append)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -3577,7 +3578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputField::*)(::Il2CppString*, int, ::Il2CppChar)>(&TMPro::TMP_InputField::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputField::*)(::StringW, int, ::Il2CppChar)>(&TMPro::TMP_InputField::Validate)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

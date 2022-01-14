@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -53,17 +54,17 @@ namespace System::Runtime::Remoting {
   class RemotingConfiguration : public ::Il2CppObject {
     public:
     // Get static field: static private System.String applicationID
-    static ::Il2CppString* _get_applicationID();
+    static ::StringW _get_applicationID();
     // Set static field: static private System.String applicationID
-    static void _set_applicationID(::Il2CppString* value);
+    static void _set_applicationID(::StringW value);
     // Get static field: static private System.String applicationName
-    static ::Il2CppString* _get_applicationName();
+    static ::StringW _get_applicationName();
     // Set static field: static private System.String applicationName
-    static void _set_applicationName(::Il2CppString* value);
+    static void _set_applicationName(::StringW value);
     // Get static field: static private System.String processGuid
-    static ::Il2CppString* _get_processGuid();
+    static ::StringW _get_processGuid();
     // Set static field: static private System.String processGuid
-    static void _set_processGuid(::Il2CppString* value);
+    static void _set_processGuid(::StringW value);
     // Get static field: static private System.Boolean defaultConfigRead
     static bool _get_defaultConfigRead();
     // Set static field: static private System.Boolean defaultConfigRead
@@ -73,9 +74,9 @@ namespace System::Runtime::Remoting {
     // Set static field: static private System.Boolean defaultDelayedConfigRead
     static void _set_defaultDelayedConfigRead(bool value);
     // Get static field: static private System.String _errorMode
-    static ::Il2CppString* _get__errorMode();
+    static ::StringW _get__errorMode();
     // Set static field: static private System.String _errorMode
-    static void _set__errorMode(::Il2CppString* value);
+    static void _set__errorMode(::StringW value);
     // Get static field: static private System.Collections.Hashtable wellKnownClientEntries
     static System::Collections::Hashtable* _get_wellKnownClientEntries();
     // Set static field: static private System.Collections.Hashtable wellKnownClientEntries
@@ -106,13 +107,13 @@ namespace System::Runtime::Remoting {
     static void _set_serverProviderTemplates(System::Collections::Hashtable* value);
     // static public System.String get_ApplicationName()
     // Offset: 0x1C60DA8
-    static ::Il2CppString* get_ApplicationName();
+    static ::StringW get_ApplicationName();
     // static public System.Void set_ApplicationName(System.String value)
     // Offset: 0x1C60E10
-    static void set_ApplicationName(::Il2CppString* value);
+    static void set_ApplicationName(::StringW value);
     // static public System.String get_ProcessId()
     // Offset: 0x1C60E7C
-    static ::Il2CppString* get_ProcessId();
+    static ::StringW get_ProcessId();
     // static private System.Void .cctor()
     // Offset: 0x1C631CC
     static void _cctor();
@@ -157,7 +158,7 @@ namespace System::Runtime::Remoting {
     static bool CustomErrorsEnabled(bool isLocalRequest);
     // static System.Void SetCustomErrorsMode(System.String mode)
     // Offset: 0x1C63074
-    static void SetCustomErrorsMode(::Il2CppString* mode);
+    static void SetCustomErrorsMode(::StringW mode);
   }; // System.Runtime.Remoting.RemotingConfiguration
   #pragma pack(pop)
 }
@@ -165,7 +166,7 @@ namespace System::Runtime::Remoting {
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName
 // Il2CppName: get_ApplicationName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "get_ApplicationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName
 // Il2CppName: set_ApplicationName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "set_ApplicationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::get_ProcessId
 // Il2CppName: get_ProcessId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ProcessId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ProcessId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "get_ProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode
 // Il2CppName: SetCustomErrorsMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode)> {
   static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "SetCustomErrorsMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});

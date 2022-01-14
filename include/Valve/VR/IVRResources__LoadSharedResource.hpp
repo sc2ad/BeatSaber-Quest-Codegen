@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,10 +45,10 @@ namespace Valve::VR {
     }
     // public System.UInt32 Invoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
     // Offset: 0x1EC0844
-    uint Invoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen);
+    uint Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint unBufferLen);
     // public System.IAsyncResult BeginInvoke(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1EC0C5C
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchResourceName, ::Il2CppString* pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint unBufferLen, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x1EC0CFC
     uint EndInvoke(System::IAsyncResult* result);
@@ -62,7 +63,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRResources::_LoadSharedResource::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRResources::_LoadSharedResource::*)(::Il2CppString*, ::Il2CppString*, uint)>(&Valve::VR::IVRResources::_LoadSharedResource::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRResources::_LoadSharedResource::*)(::StringW, ::StringW, uint)>(&Valve::VR::IVRResources::_LoadSharedResource::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -73,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRResources::_LoadSharedResource::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRResources::_LoadSharedResource::*)(::Il2CppString*, ::Il2CppString*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRResources::_LoadSharedResource::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRResources::_LoadSharedResource::*)(::StringW, ::StringW, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRResources::_LoadSharedResource::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

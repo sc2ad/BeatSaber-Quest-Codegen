@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
@@ -39,9 +40,9 @@ namespace System::Security::Util {
     // System.String[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> m_block;
+    ::ArrayW<::StringW> m_block;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Security.Util.TokenizerStringBlock m_next
     // Size: 0x8
     // Offset: 0x18
@@ -50,7 +51,7 @@ namespace System::Security::Util {
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
     public:
     // Get instance field reference: System.String[] m_block
-    ::ArrayW<::Il2CppString*>& dyn_m_block();
+    ::ArrayW<::StringW>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
     System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()

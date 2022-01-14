@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -38,13 +39,13 @@ namespace NUnit::Framework::Constraints {
     static void _cctor();
     // protected System.String Canonicalize(System.String path)
     // Offset: 0x1940918
-    ::Il2CppString* Canonicalize(::Il2CppString* path);
+    ::StringW Canonicalize(::StringW path);
     // protected System.Void .ctor(System.String expected)
     // Offset: 0x1940730
     // Implemented from: NUnit.Framework.Constraints.StringConstraint
     // Base method: System.Void StringConstraint::.ctor(System.String expected)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PathConstraint* New_ctor(::Il2CppString* expected) {
+    static PathConstraint* New_ctor(::StringW expected) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::PathConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathConstraint*, creationType>(expected)));
     }
@@ -52,7 +53,7 @@ namespace NUnit::Framework::Constraints {
     // Offset: 0x194087C
     // Implemented from: NUnit.Framework.Constraints.Constraint
     // Base method: System.String Constraint::GetStringRepresentation()
-    ::Il2CppString* GetStringRepresentation();
+    ::StringW GetStringRepresentation();
   }; // NUnit.Framework.Constraints.PathConstraint
   #pragma pack(pop)
 }
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::PathConstraint::Canonicalize
 // Il2CppName: Canonicalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::PathConstraint::*)(::Il2CppString*)>(&NUnit::Framework::Constraints::PathConstraint::Canonicalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Constraints::PathConstraint::*)(::StringW)>(&NUnit::Framework::Constraints::PathConstraint::Canonicalize)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::PathConstraint*), "Canonicalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::PathConstraint::GetStringRepresentation
 // Il2CppName: GetStringRepresentation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::PathConstraint::*)()>(&NUnit::Framework::Constraints::PathConstraint::GetStringRepresentation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Constraints::PathConstraint::*)()>(&NUnit::Framework::Constraints::PathConstraint::GetStringRepresentation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::PathConstraint*), "GetStringRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics
@@ -186,9 +187,9 @@ namespace System::Diagnostics {
     // private System.String machineName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* machineName;
+    ::StringW machineName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_processAccess
     // Size: 0x4
     // Offset: 0x50
@@ -360,9 +361,9 @@ namespace System::Diagnostics {
     // private System.String process_name
     // Size: 0x8
     // Offset: 0xE8
-    ::Il2CppString* process_name;
+    ::StringW process_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean haveProcessId
     bool& dyn_haveProcessId();
@@ -375,7 +376,7 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean isRemoteMachine
     bool& dyn_isRemoteMachine();
     // Get instance field reference: private System.String machineName
-    ::Il2CppString*& dyn_machineName();
+    ::StringW& dyn_machineName();
     // Get instance field reference: private System.Int32 m_processAccess
     int& dyn_m_processAccess();
     // Get instance field reference: private System.Diagnostics.ProcessThreadCollection threads
@@ -429,7 +430,7 @@ namespace System::Diagnostics {
     // Get instance field reference: System.Diagnostics.AsyncStreamReader error
     System::Diagnostics::AsyncStreamReader*& dyn_error();
     // Get instance field reference: private System.String process_name
-    ::Il2CppString*& dyn_process_name();
+    ::StringW& dyn_process_name();
     // private System.Boolean get_Associated()
     // Offset: 0x1A29BBC
     bool get_Associated();
@@ -453,14 +454,14 @@ namespace System::Diagnostics {
     System::TimeSpan get_TotalProcessorTime();
     // public System.String get_ProcessName()
     // Offset: 0x1A2CDD8
-    ::Il2CppString* get_ProcessName();
+    ::StringW get_ProcessName();
     // static private System.Boolean get_IsWindows()
     // Offset: 0x1A2D4F8
     static bool get_IsWindows();
     // private System.Void .ctor(System.String machineName, System.Boolean isRemoteMachine, System.Int32 processId, System.Diagnostics.ProcessInfo processInfo)
     // Offset: 0x1A29B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Process* New_ctor(::Il2CppString* machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo) {
+    static Process* New_ctor(::StringW machineName, bool isRemoteMachine, int processId, System::Diagnostics::ProcessInfo* processInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Process::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Process*, creationType>(machineName, isRemoteMachine, processId, processInfo)));
     }
@@ -527,19 +528,19 @@ namespace System::Diagnostics {
     void StopWatchingForExit();
     // static private System.String ProcessName_internal(System.IntPtr handle)
     // Offset: 0x1A2D038
-    static ::Il2CppString* ProcessName_internal(System::IntPtr handle);
+    static ::StringW ProcessName_internal(System::IntPtr handle);
     // static private System.String ProcessName_internal(Microsoft.Win32.SafeHandles.SafeProcessHandle handle)
     // Offset: 0x1A2D03C
-    static ::Il2CppString* ProcessName_internal(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
+    static ::StringW ProcessName_internal(Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
     // static private System.IntPtr GetProcess_internal(System.Int32 pid)
     // Offset: 0x1A2D0E0
     static System::IntPtr GetProcess_internal(int pid);
     // static public System.Diagnostics.Process GetProcessById(System.Int32 processId, System.String machineName)
     // Offset: 0x1A2B204
-    static System::Diagnostics::Process* GetProcessById(int processId, ::Il2CppString* machineName);
+    static System::Diagnostics::Process* GetProcessById(int processId, ::StringW machineName);
     // static private System.Boolean IsLocalMachine(System.String machineName)
     // Offset: 0x1A2D0E4
-    static bool IsLocalMachine(::Il2CppString* machineName);
+    static bool IsLocalMachine(::StringW machineName);
     // static private System.Boolean ShellExecuteEx_internal(System.Diagnostics.ProcessStartInfo startInfo, ref System.Diagnostics.Process/System.Diagnostics.ProcInfo procInfo)
     // Offset: 0x1A2D17C
     static bool ShellExecuteEx_internal(System::Diagnostics::ProcessStartInfo* startInfo, ByRef<System::Diagnostics::Process::ProcInfo> procInfo);
@@ -581,10 +582,10 @@ namespace System::Diagnostics {
     // Offset: 0x1A2CC7C
     // Implemented from: System.ComponentModel.Component
     // Base method: System.String Component::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Diagnostics.Process
   #pragma pack(pop)
-  static check_size<sizeof(Process), 232 + sizeof(::Il2CppString*)> __System_Diagnostics_ProcessSizeCheck;
+  static check_size<sizeof(Process), 232 + sizeof(::StringW)> __System_Diagnostics_ProcessSizeCheck;
   static_assert(sizeof(Process) == 0xF0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -649,7 +650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_ProcessName
 // Il2CppName: get_ProcessName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_ProcessName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::get_ProcessName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "get_ProcessName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -828,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::Process::ProcessName_internal
 // Il2CppName: ProcessName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Diagnostics::Process::ProcessName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&System::Diagnostics::Process::ProcessName_internal)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
@@ -837,7 +838,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::Process::ProcessName_internal
 // Il2CppName: ProcessName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ProcessName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ProcessName_internal)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
@@ -855,7 +856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetProcessById
 // Il2CppName: GetProcessById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::Process* (*)(int, ::Il2CppString*)>(&System::Diagnostics::Process::GetProcessById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::Process* (*)(int, ::StringW)>(&System::Diagnostics::Process::GetProcessById)> {
   static const MethodInfo* get() {
     static auto* processId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* machineName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -865,7 +866,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dia
 // Writing MetadataGetter for method: System::Diagnostics::Process::IsLocalMachine
 // Il2CppName: IsLocalMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Diagnostics::Process::IsLocalMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Diagnostics::Process::IsLocalMachine)> {
   static const MethodInfo* get() {
     static auto* machineName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "IsLocalMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{machineName});
@@ -957,7 +958,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::Process::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::Process::*)()>(&System::Diagnostics::Process::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

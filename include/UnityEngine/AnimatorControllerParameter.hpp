@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -46,9 +47,9 @@ namespace UnityEngine {
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // UnityEngine.AnimatorControllerParameterType m_Type
     // Size: 0x4
     // Offset: 0x18
@@ -75,7 +76,7 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type
     UnityEngine::AnimatorControllerParameterType& dyn_m_Type();
     // Get instance field reference: System.Single m_DefaultFloat
@@ -86,7 +87,7 @@ namespace UnityEngine {
     bool& dyn_m_DefaultBool();
     // public System.String get_name()
     // Offset: 0x263CD50
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void .ctor()
     // Offset: 0x263CE70
     // Implemented from: System.Object
@@ -115,7 +116,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AnimatorControllerParameter::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AnimatorControllerParameter::*)()>(&UnityEngine::AnimatorControllerParameter::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AnimatorControllerParameter::*)()>(&UnityEngine::AnimatorControllerParameter::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorControllerParameter*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

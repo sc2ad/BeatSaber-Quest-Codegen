@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,33 +63,33 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* achievementIdToTrophyId;
+    System::Collections::Generic::Dictionary_2<::StringW, int>* achievementIdToTrophyId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
+    System::Collections::Generic::Dictionary_2<int, ::StringW>* trophyIdToAchievementId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>*& dyn__achievementsIds();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> _achievementIdToTrophyId
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn__achievementIdToTrophyId();
+    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__achievementIdToTrophyId();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*& dyn__trophyIdToAchievementId();
+    System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__trophyIdToAchievementId();
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
     // Offset: 0x1146724
     System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
     // Offset: 0x11468EC
-    bool GetTrophyId(::Il2CppString* achievementId, ByRef<int> trophyId);
+    bool GetTrophyId(::StringW achievementId, ByRef<int> trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
     // Offset: 0x1146960
-    bool GetAchievementId(int trophyId, ByRef<::Il2CppString*> achievementId);
+    bool GetAchievementId(int trophyId, ByRef<::StringW> achievementId);
     // public System.Void .ctor()
     // Offset: 0x11469E0
     // Implemented from: PersistentScriptableObject
@@ -108,7 +109,7 @@ namespace GlobalNamespace {
     void OnEnable();
   }; // PS4AchievementIdsModelSO
   #pragma pack(pop)
-  static check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
+  static check_size<sizeof(PS4AchievementIdsModelSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*)> __GlobalNamespace_PS4AchievementIdsModelSOSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId
 // Il2CppName: GetTrophyId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(::Il2CppString*, ByRef<int>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(::StringW, ByRef<int>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId)> {
   static const MethodInfo* get() {
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId
 // Il2CppName: GetAchievementId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(int, ByRef<::Il2CppString*>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(int, ByRef<::StringW>)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId)> {
   static const MethodInfo* get() {
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

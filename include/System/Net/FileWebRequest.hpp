@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -83,9 +84,9 @@ namespace System::Net {
     // private System.String m_connectionGroupName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_connectionGroupName;
+    ::StringW m_connectionGroupName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 m_contentLength
     // Size: 0x8
     // Offset: 0x28
@@ -115,9 +116,9 @@ namespace System::Net {
     // private System.String m_method
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* m_method;
+    ::StringW m_method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_preauthenticate
     // Size: 0x1
     // Offset: 0x50
@@ -220,7 +221,7 @@ namespace System::Net {
     // Set static field: static private System.Threading.WaitCallback s_GetResponseCallback
     static void _set_s_GetResponseCallback(System::Threading::WaitCallback* value);
     // Get instance field reference: private System.String m_connectionGroupName
-    ::Il2CppString*& dyn_m_connectionGroupName();
+    ::StringW& dyn_m_connectionGroupName();
     // Get instance field reference: private System.Int64 m_contentLength
     int64_t& dyn_m_contentLength();
     // Get instance field reference: private System.Net.ICredentials m_credentials
@@ -230,7 +231,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.WebHeaderCollection m_headers
     System::Net::WebHeaderCollection*& dyn_m_headers();
     // Get instance field reference: private System.String m_method
-    ::Il2CppString*& dyn_m_method();
+    ::StringW& dyn_m_method();
     // Get instance field reference: private System.Boolean m_preauthenticate
     bool& dyn_m_preauthenticate();
     // Get instance field reference: private System.Net.IWebProxy m_proxy
@@ -288,7 +289,7 @@ namespace System::Net {
     // Offset: 0x15F1FF8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ConnectionGroupName(System.String value)
-    void set_ConnectionGroupName(::Il2CppString* value);
+    void set_ConnectionGroupName(::StringW value);
     // public override System.Int64 get_ContentLength()
     // Offset: 0x15F2000
     // Implemented from: System.Net.WebRequest
@@ -318,12 +319,12 @@ namespace System::Net {
     // Offset: 0x15F20D0
     // Implemented from: System.Net.WebRequest
     // Base method: System.String WebRequest::get_Method()
-    ::Il2CppString* get_Method();
+    ::StringW get_Method();
     // public override System.Void set_Method(System.String value)
     // Offset: 0x15F20D8
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Method(System.String value)
-    void set_Method(::Il2CppString* value);
+    void set_Method(::StringW value);
     // public override System.Void set_PreAuthenticate(System.Boolean value)
     // Offset: 0x15F21B4
     // Implemented from: System.Net.WebRequest
@@ -473,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FileWebRequest::set_ConnectionGroupName
 // Il2CppName: set_ConnectionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebRequest::*)(::Il2CppString*)>(&System::Net::FileWebRequest::set_ConnectionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebRequest::*)(::StringW)>(&System::Net::FileWebRequest::set_ConnectionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -524,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FileWebRequest::get_Method
 // Il2CppName: get_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FileWebRequest::*)()>(&System::Net::FileWebRequest::get_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FileWebRequest::*)()>(&System::Net::FileWebRequest::get_Method)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -532,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::FileWebRequest::set_Method
 // Il2CppName: set_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebRequest::*)(::Il2CppString*)>(&System::Net::FileWebRequest::set_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebRequest::*)(::StringW)>(&System::Net::FileWebRequest::set_Method)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

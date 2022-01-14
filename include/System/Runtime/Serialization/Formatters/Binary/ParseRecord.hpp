@@ -24,6 +24,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -108,15 +109,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String PRname
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* PRname;
+    ::StringW PRname;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String PRvalue
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* PRvalue;
+    ::StringW PRvalue;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Object PRvarValue
     // Size: 0x8
     // Offset: 0x38
@@ -126,9 +127,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String PRkeyDt
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* PRkeyDt;
+    ::StringW PRkeyDt;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Type PRdtType
     // Size: 0x8
     // Offset: 0x48
@@ -164,9 +165,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String PRarrayElementTypeString
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* PRarrayElementTypeString;
+    ::StringW PRarrayElementTypeString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Type PRarrayElementType
     // Size: 0x8
     // Offset: 0x70
@@ -339,13 +340,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
     System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
     // Get instance field reference: System.String PRname
-    ::Il2CppString*& dyn_PRname();
+    ::StringW& dyn_PRname();
     // Get instance field reference: System.String PRvalue
-    ::Il2CppString*& dyn_PRvalue();
+    ::StringW& dyn_PRvalue();
     // Get instance field reference: System.Object PRvarValue
     ::Il2CppObject*& dyn_PRvarValue();
     // Get instance field reference: System.String PRkeyDt
-    ::Il2CppString*& dyn_PRkeyDt();
+    ::StringW& dyn_PRkeyDt();
     // Get instance field reference: System.Type PRdtType
     System::Type*& dyn_PRdtType();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
@@ -357,7 +358,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int64 PRidRef
     int64_t& dyn_PRidRef();
     // Get instance field reference: System.String PRarrayElementTypeString
-    ::Il2CppString*& dyn_PRarrayElementTypeString();
+    ::StringW& dyn_PRarrayElementTypeString();
     // Get instance field reference: System.Type PRarrayElementType
     System::Type*& dyn_PRarrayElementType();
     // Get instance field reference: System.Boolean PRisArrayVariant

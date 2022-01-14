@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -140,7 +141,7 @@ namespace HMUI {
     float NormalizeValue(float rangeValue);
     // protected System.String TextForValue(System.Single value)
     // Offset: 0x14C6C88
-    ::Il2CppString* TextForValue(float value);
+    ::StringW TextForValue(float value);
     // private System.Void <Awake>b__17_0()
     // Offset: 0x14C6D88
     void $Awake$b__17_0();
@@ -177,7 +178,7 @@ namespace HMUI {
     // Offset: 0x14C6C64
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
-    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
+    ::StringW TextForNormalizedValue(float normalizedValue);
   }; // HMUI.RangeValuesTextSlider
   // WARNING Not writing size check since size may be invalid!
 }
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -327,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::TextForNormalizedValue
 // Il2CppName: TextForNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForNormalizedValue)> {
   static const MethodInfo* get() {
     static auto* normalizedValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizedValue});

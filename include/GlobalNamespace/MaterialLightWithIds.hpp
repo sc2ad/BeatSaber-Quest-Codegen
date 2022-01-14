@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -81,9 +82,9 @@ namespace GlobalNamespace {
     // private System.String _colorProperty
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* colorProperty;
+    ::StringW colorProperty;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x58
@@ -117,7 +118,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _setColorOnly
     bool& dyn__setColorOnly();
     // Get instance field reference: private System.String _colorProperty
-    ::Il2CppString*& dyn__colorProperty();
+    ::StringW& dyn__colorProperty();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _alpha

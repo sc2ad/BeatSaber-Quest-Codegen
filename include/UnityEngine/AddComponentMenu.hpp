@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -40,9 +41,9 @@ namespace UnityEngine {
     // private System.String m_AddComponentMenu
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_AddComponentMenu;
+    ::StringW m_AddComponentMenu;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_Ordering
     // Size: 0x4
     // Offset: 0x18
@@ -51,20 +52,20 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String m_AddComponentMenu
-    ::Il2CppString*& dyn_m_AddComponentMenu();
+    ::StringW& dyn_m_AddComponentMenu();
     // Get instance field reference: private System.Int32 m_Ordering
     int& dyn_m_Ordering();
     // public System.Void .ctor(System.String menuName)
     // Offset: 0x1CFC57C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AddComponentMenu* New_ctor(::Il2CppString* menuName) {
+    static AddComponentMenu* New_ctor(::StringW menuName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName)));
     }
     // public System.Void .ctor(System.String menuName, System.Int32 order)
     // Offset: 0x1CFC5AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AddComponentMenu* New_ctor(::Il2CppString* menuName, int order) {
+    static AddComponentMenu* New_ctor(::StringW menuName, int order) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddComponentMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddComponentMenu*, creationType>(menuName, order)));
     }

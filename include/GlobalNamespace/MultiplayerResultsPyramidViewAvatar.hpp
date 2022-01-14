@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -103,15 +104,15 @@ namespace GlobalNamespace {
     // private System.String _ghostFirstTrackName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* ghostFirstTrackName;
+    ::StringW ghostFirstTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _ghostSecondTrackName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* ghostSecondTrackName;
+    ::StringW ghostSecondTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [HeaderAttribute] Offset: 0xF3F038
     // private UnityEngine.Transform _standWithAvatarTransform
     // Size: 0x8
@@ -327,9 +328,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _badgeDirector
     UnityEngine::Playables::PlayableDirector*& dyn__badgeDirector();
     // Get instance field reference: private System.String _ghostFirstTrackName
-    ::Il2CppString*& dyn__ghostFirstTrackName();
+    ::StringW& dyn__ghostFirstTrackName();
     // Get instance field reference: private System.String _ghostSecondTrackName
-    ::Il2CppString*& dyn__ghostSecondTrackName();
+    ::StringW& dyn__ghostSecondTrackName();
     // Get instance field reference: private UnityEngine.Transform _standWithAvatarTransform
     UnityEngine::Transform*& dyn__standWithAvatarTransform();
     // Get instance field reference: private System.Single _perPositionRotation

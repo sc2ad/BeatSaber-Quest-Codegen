@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -53,9 +54,9 @@ namespace System::Xml {
     // private System.String charEntity
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* charEntity;
+    ::StringW charEntity;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 charEntityIndex
     // Size: 0x4
     // Offset: 0x40
@@ -66,7 +67,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.CharEntityEncoderFallback parent
     System::Xml::CharEntityEncoderFallback*& dyn_parent();
     // Get instance field reference: private System.String charEntity
-    ::Il2CppString*& dyn_charEntity();
+    ::StringW& dyn_charEntity();
     // Get instance field reference: private System.Int32 charEntityIndex
     int& dyn_charEntityIndex();
     // System.Void .ctor(System.Xml.CharEntityEncoderFallback parent)

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -41,12 +42,12 @@ namespace System::ComponentModel {
     // private System.String _displayName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* displayName;
+    ::StringW displayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return displayName;
     }
     // Get static field: static public readonly System.ComponentModel.DisplayNameAttribute Default
@@ -54,17 +55,17 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DisplayNameAttribute Default
     static void _set_Default(System::ComponentModel::DisplayNameAttribute* value);
     // Get instance field reference: private System.String _displayName
-    ::Il2CppString*& dyn__displayName();
+    ::StringW& dyn__displayName();
     // public System.String get_DisplayName()
     // Offset: 0x1A26E58
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
     // protected System.String get_DisplayNameValue()
     // Offset: 0x1A26E60
-    ::Il2CppString* get_DisplayNameValue();
+    ::StringW get_DisplayNameValue();
     // public System.Void .ctor(System.String displayName)
     // Offset: 0x1A26E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DisplayNameAttribute* New_ctor(::Il2CppString* displayName) {
+    static DisplayNameAttribute* New_ctor(::StringW displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DisplayNameAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisplayNameAttribute*, creationType>(displayName)));
     }
@@ -93,14 +94,14 @@ namespace System::ComponentModel {
     int GetHashCode();
   }; // System.ComponentModel.DisplayNameAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DisplayNameAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DisplayNameAttributeSizeCheck;
+  static check_size<sizeof(DisplayNameAttribute), 16 + sizeof(::StringW)> __System_ComponentModel_DisplayNameAttributeSizeCheck;
   static_assert(sizeof(DisplayNameAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DisplayNameAttribute::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::DisplayNameAttribute::*)()>(&System::ComponentModel::DisplayNameAttribute::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::DisplayNameAttribute::*)()>(&System::ComponentModel::DisplayNameAttribute::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DisplayNameAttribute*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue
 // Il2CppName: get_DisplayNameValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::DisplayNameAttribute::*)()>(&System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::DisplayNameAttribute::*)()>(&System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DisplayNameAttribute*), "get_DisplayNameValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {
@@ -42,27 +43,27 @@ namespace System::Runtime::Remoting::Metadata {
     // private System.String _responseElement
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* responseElement;
+    ::StringW responseElement;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _responseNamespace
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* responseNamespace;
+    ::StringW responseNamespace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _returnElement
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* returnElement;
+    ::StringW returnElement;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _soapAction
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* soapAction;
+    ::StringW soapAction;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _useAttribute
     // Size: 0x1
     // Offset: 0x48
@@ -74,22 +75,22 @@ namespace System::Runtime::Remoting::Metadata {
     // private System.String _namespace
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* _namespace;
+    ::StringW _namespace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _responseElement
-    ::Il2CppString*& dyn__responseElement();
+    ::StringW& dyn__responseElement();
     // Get instance field reference: private System.String _responseNamespace
-    ::Il2CppString*& dyn__responseNamespace();
+    ::StringW& dyn__responseNamespace();
     // Get instance field reference: private System.String _returnElement
-    ::Il2CppString*& dyn__returnElement();
+    ::StringW& dyn__returnElement();
     // Get instance field reference: private System.String _soapAction
-    ::Il2CppString*& dyn__soapAction();
+    ::StringW& dyn__soapAction();
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: private System.String _namespace
-    ::Il2CppString*& dyn__namespace();
+    ::StringW& dyn__namespace();
     // public override System.Boolean get_UseAttribute()
     // Offset: 0x1C5C6D8
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
@@ -99,7 +100,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x1C5C6E0
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
-    ::Il2CppString* get_XmlNamespace();
+    ::StringW get_XmlNamespace();
     // public System.Void .ctor()
     // Offset: 0x1C4B374
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
@@ -118,7 +119,7 @@ namespace System::Runtime::Remoting::Metadata {
     void SetReflectionObject(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.Metadata.SoapMethodAttribute
   #pragma pack(pop)
-  static check_size<sizeof(SoapMethodAttribute), 80 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Metadata_SoapMethodAttributeSizeCheck;
+  static check_size<sizeof(SoapMethodAttribute), 80 + sizeof(::StringW)> __System_Runtime_Remoting_Metadata_SoapMethodAttributeSizeCheck;
   static_assert(sizeof(SoapMethodAttribute) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace
 // Il2CppName: get_XmlNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapMethodAttribute*), "get_XmlNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

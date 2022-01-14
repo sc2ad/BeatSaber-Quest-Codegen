@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
@@ -40,20 +41,20 @@ namespace UnityEngine::Assertions {
     // private System.String m_UserMessage
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* m_UserMessage;
+    ::StringW m_UserMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_UserMessage;
     }
     // Get instance field reference: private System.String m_UserMessage
-    ::Il2CppString*& dyn_m_UserMessage();
+    ::StringW& dyn_m_UserMessage();
     // public System.Void .ctor(System.String message, System.String userMessage)
     // Offset: 0x1CFEF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssertionException* New_ctor(::Il2CppString* message, ::Il2CppString* userMessage) {
+    static AssertionException* New_ctor(::StringW message, ::StringW userMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::AssertionException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssertionException*, creationType>(message, userMessage)));
     }
@@ -61,10 +62,10 @@ namespace UnityEngine::Assertions {
     // Offset: 0x1CFF35C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
   }; // UnityEngine.Assertions.AssertionException
   #pragma pack(pop)
-  static check_size<sizeof(AssertionException), 136 + sizeof(::Il2CppString*)> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
+  static check_size<sizeof(AssertionException), 136 + sizeof(::StringW)> __UnityEngine_Assertions_AssertionExceptionSizeCheck;
   static_assert(sizeof(AssertionException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,7 +76,7 @@ namespace UnityEngine::Assertions {
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Assertions::AssertionException::*)()>(&UnityEngine::Assertions::AssertionException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Assertions::AssertionException::*)()>(&UnityEngine::Assertions::AssertionException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

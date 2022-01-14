@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -41,7 +42,7 @@ namespace UnityEngine::TestTools::Utils {
     }
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
     // Offset: 0x26B42A0
-    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
+    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
     // public System.Void .ctor()
     // Offset: 0x26B4360
     // Implemented from: System.Object
@@ -58,7 +59,7 @@ namespace UnityEngine::TestTools::Utils {
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)(::StringW)>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load)> {
   static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});

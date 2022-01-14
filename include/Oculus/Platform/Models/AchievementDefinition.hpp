@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -50,9 +51,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.UInt32 BitfieldLength
     // Size: 0x4
     // Offset: 0x20
@@ -71,7 +72,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.AchievementType Type
     Oculus::Platform::AchievementType& dyn_Type();
     // Get instance field reference: public readonly System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // Get instance field reference: public readonly System.UInt32 BitfieldLength
     uint& dyn_BitfieldLength();
     // Get instance field reference: public readonly System.UInt64 Target

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -95,7 +96,7 @@ namespace System::Security::Cryptography {
     bool get_CanTransformMultipleBlocks();
     // static public System.Security.Cryptography.HashAlgorithm Create(System.String hashName)
     // Offset: 0x1A994D0
-    static System::Security::Cryptography::HashAlgorithm* Create(::Il2CppString* hashName);
+    static System::Security::Cryptography::HashAlgorithm* Create(::StringW hashName);
     // public System.Byte[] ComputeHash(System.Byte[] buffer)
     // Offset: 0x1A983D4
     ::ArrayW<uint8_t> ComputeHash(::ArrayW<uint8_t> buffer);
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithm::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::Il2CppString*)>(&System::Security::Cryptography::HashAlgorithm::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&System::Security::Cryptography::HashAlgorithm::Create)> {
   static const MethodInfo* get() {
     static auto* hashName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithm*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashName});

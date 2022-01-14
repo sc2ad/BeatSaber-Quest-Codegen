@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Polyglot
@@ -135,9 +136,9 @@ namespace Polyglot {
     // static field const value: static private System.String KeyNotFound
     static constexpr const char* KeyNotFound = "[{0}]";
     // Get static field: static private System.String KeyNotFound
-    static ::Il2CppString* _get_KeyNotFound();
+    static ::StringW _get_KeyNotFound();
     // Set static field: static private System.String KeyNotFound
-    static void _set_KeyNotFound(::Il2CppString* value);
+    static void _set_KeyNotFound(::StringW value);
     // Get static field: static private Polyglot.Localization instance
     static Polyglot::Localization* _get_instance();
     // Set static field: static private Polyglot.Localization instance
@@ -191,16 +192,16 @@ namespace Polyglot {
     void set_SelectedLanguage(Polyglot::Language value);
     // public System.Collections.Generic.List`1<System.String> get_EnglishLanguageNames()
     // Offset: 0x2627DC8
-    System::Collections::Generic::List_1<::Il2CppString*>* get_EnglishLanguageNames();
+    System::Collections::Generic::List_1<::StringW>* get_EnglishLanguageNames();
     // public System.Collections.Generic.List`1<System.String> get_LocalizedLanguageNames()
     // Offset: 0x2628D54
-    System::Collections::Generic::List_1<::Il2CppString*>* get_LocalizedLanguageNames();
+    System::Collections::Generic::List_1<::StringW>* get_LocalizedLanguageNames();
     // public System.String get_EnglishLanguageName()
     // Offset: 0x2628DC8
-    ::Il2CppString* get_EnglishLanguageName();
+    ::StringW get_EnglishLanguageName();
     // public System.String get_LocalizedLanguageName()
     // Offset: 0x2628E40
-    ::Il2CppString* get_LocalizedLanguageName();
+    ::StringW get_LocalizedLanguageName();
     // private Polyglot.LanguageDirection GetLanguageDirection(Polyglot.Language language)
     // Offset: 0x26288DC
     Polyglot::LanguageDirection GetLanguageDirection(Polyglot::Language language);
@@ -227,19 +228,19 @@ namespace Polyglot {
     void RemoveOnLocalizeEvent(Polyglot::ILocalize* localize);
     // static public System.String Get(System.String key)
     // Offset: 0x2628E10
-    static ::Il2CppString* Get(::Il2CppString* key);
+    static ::StringW Get(::StringW key);
     // static public System.String Get(System.String key, Polyglot.Language language)
     // Offset: 0x262903C
-    static ::Il2CppString* Get(::Il2CppString* key, Polyglot::Language language);
+    static ::StringW Get(::StringW key, Polyglot::Language language);
     // static public System.Boolean KeyExist(System.String key)
     // Offset: 0x2629450
-    static bool KeyExist(::Il2CppString* key);
+    static bool KeyExist(::StringW key);
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
     // Offset: 0x2629504
-    static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
+    static System::Collections::Generic::List_1<::StringW>* GetKeys();
     // static public System.String GetFormat(System.String key, params System.Object[] arguments)
     // Offset: 0x26295EC
-    static ::Il2CppString* GetFormat(::Il2CppString* key, ::ArrayW<::Il2CppObject*> arguments);
+    static ::StringW GetFormat(::StringW key, ::ArrayW<::Il2CppObject*> arguments);
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
     // Offset: 0x2629668
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);
@@ -353,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::Localization::get_EnglishLanguageNames
 // Il2CppName: get_EnglishLanguageNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_EnglishLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::Localization::get_LocalizedLanguageNames
 // Il2CppName: get_LocalizedLanguageNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_LocalizedLanguageNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -369,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::Localization::get_EnglishLanguageName
 // Il2CppName: get_EnglishLanguageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Polyglot::Localization::*)()>(&Polyglot::Localization::get_EnglishLanguageName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_EnglishLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -377,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Polyglot::Localization::get_LocalizedLanguageName
 // Il2CppName: get_LocalizedLanguageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Polyglot::Localization::*)()>(&Polyglot::Localization::get_LocalizedLanguageName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "get_LocalizedLanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -456,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::Localization::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Polyglot::Localization::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&Polyglot::Localization::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -465,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Polyglot::Localization::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, Polyglot::Language)>(&Polyglot::Localization::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, Polyglot::Language)>(&Polyglot::Localization::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* language = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;
@@ -475,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Polyglot::Localization::KeyExist
 // Il2CppName: KeyExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Polyglot::Localization::KeyExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Polyglot::Localization::KeyExist)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "KeyExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -484,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Polyglot::Localization::GetKeys
 // Il2CppName: GetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&Polyglot::Localization::GetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)()>(&Polyglot::Localization::GetKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::Localization*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -492,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::Localization::GetFormat
 // Il2CppName: GetFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&Polyglot::Localization::GetFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&Polyglot::Localization::GetFormat)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

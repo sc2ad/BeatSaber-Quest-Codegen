@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,9 +48,9 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack,QuickPlaySongPacksDropdown/SongPackMaskItem> <>9__15_2
     static void _set_$$9__15_2(System::Func_2<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>* value);
     // Get static field: static public System.Func`2<QuickPlaySongPacksDropdown/SongPackMaskItem,System.String> <>9__15_3
-    static System::Func_2<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::Il2CppString*>* _get_$$9__15_3();
+    static System::Func_2<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::StringW>* _get_$$9__15_3();
     // Set static field: static public System.Func`2<QuickPlaySongPacksDropdown/SongPackMaskItem,System.String> <>9__15_3
-    static void _set_$$9__15_3(System::Func_2<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::Il2CppString*>* value);
+    static void _set_$$9__15_3(System::Func_2<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x11B3108
     static void _cctor();
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
     bool $LazyInit$b__15_4(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName* packName);
     // System.String <LazyInit>b__15_3(QuickPlaySongPacksDropdown/SongPackMaskItem item)
     // Offset: 0x11B3340
-    ::Il2CppString* $LazyInit$b__15_3(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
+    ::StringW $LazyInit$b__15_3(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* item);
     // public System.Void .ctor()
     // Offset: 0x11B316C
     // Implemented from: System.Object
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3
 // Il2CppName: <LazyInit>b__15_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::QuickPlaySongPacksDropdown::$$c::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$$c::$LazyInit$b__15_3)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("", "QuickPlaySongPacksDropdown/SongPackMaskItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown::$$c*), "<LazyInit>b__15_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});

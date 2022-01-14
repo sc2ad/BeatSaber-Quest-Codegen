@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -86,9 +87,9 @@ namespace GlobalNamespace {
     // private System.Action`2<System.Boolean,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x90
-    System::Action_2<bool, ::Il2CppString*>* didFinishEvent;
+    System::Action_2<bool, ::StringW>* didFinishEvent;
     // Field size check
-    static_assert(sizeof(System::Action_2<bool, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_2<bool, ::StringW>*) == 0x8);
     // private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
     // Size: 0x8
     // Offset: 0x98
@@ -105,15 +106,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _cancelButton
     UnityEngine::UI::Button*& dyn__cancelButton();
     // Get instance field reference: private System.Action`2<System.Boolean,System.String> didFinishEvent
-    System::Action_2<bool, ::Il2CppString*>*& dyn_didFinishEvent();
+    System::Action_2<bool, ::StringW>*& dyn_didFinishEvent();
     // Get instance field reference: private readonly HMUI.InputFieldViewChangeBinder _inputFieldViewChangeBinder
     HMUI::InputFieldViewChangeBinder*& dyn__inputFieldViewChangeBinder();
     // public System.Void add_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
     // Offset: 0x1234A3C
-    void add_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
+    void add_didFinishEvent(System::Action_2<bool, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<System.Boolean,System.String> value)
     // Offset: 0x1234AE0
-    void remove_didFinishEvent(System::Action_2<bool, ::Il2CppString*>* value);
+    void remove_didFinishEvent(System::Action_2<bool, ::StringW>* value);
     // private System.Void HandleInputFieldChanged(HMUI.InputFieldView obj)
     // Offset: 0x1234D40
     void HandleInputFieldChanged(HMUI::InputFieldView* obj);
@@ -161,7 +162,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::StringW>*)>(&GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::StringW>*)>(&GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

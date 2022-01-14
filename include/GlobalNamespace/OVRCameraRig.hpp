@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -144,57 +145,57 @@ namespace GlobalNamespace {
     // protected readonly System.String trackingSpaceName
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* trackingSpaceName;
+    ::StringW trackingSpaceName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String trackerAnchorName
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* trackerAnchorName;
+    ::StringW trackerAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String leftEyeAnchorName
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* leftEyeAnchorName;
+    ::StringW leftEyeAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String centerEyeAnchorName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* centerEyeAnchorName;
+    ::StringW centerEyeAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String rightEyeAnchorName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* rightEyeAnchorName;
+    ::StringW rightEyeAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String leftHandAnchorName
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* leftHandAnchorName;
+    ::StringW leftHandAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String rightHandAnchorName
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* rightHandAnchorName;
+    ::StringW rightHandAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String leftControllerAnchorName
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* leftControllerAnchorName;
+    ::StringW leftControllerAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected readonly System.String rightControllerAnchorName
     // Size: 0x8
     // Offset: 0xB0
-    ::Il2CppString* rightControllerAnchorName;
+    ::StringW rightControllerAnchorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected UnityEngine.Camera _centerEyeCamera
     // Size: 0x8
     // Offset: 0xB8
@@ -245,23 +246,23 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean _skipUpdate
     bool& dyn__skipUpdate();
     // Get instance field reference: protected readonly System.String trackingSpaceName
-    ::Il2CppString*& dyn_trackingSpaceName();
+    ::StringW& dyn_trackingSpaceName();
     // Get instance field reference: protected readonly System.String trackerAnchorName
-    ::Il2CppString*& dyn_trackerAnchorName();
+    ::StringW& dyn_trackerAnchorName();
     // Get instance field reference: protected readonly System.String leftEyeAnchorName
-    ::Il2CppString*& dyn_leftEyeAnchorName();
+    ::StringW& dyn_leftEyeAnchorName();
     // Get instance field reference: protected readonly System.String centerEyeAnchorName
-    ::Il2CppString*& dyn_centerEyeAnchorName();
+    ::StringW& dyn_centerEyeAnchorName();
     // Get instance field reference: protected readonly System.String rightEyeAnchorName
-    ::Il2CppString*& dyn_rightEyeAnchorName();
+    ::StringW& dyn_rightEyeAnchorName();
     // Get instance field reference: protected readonly System.String leftHandAnchorName
-    ::Il2CppString*& dyn_leftHandAnchorName();
+    ::StringW& dyn_leftHandAnchorName();
     // Get instance field reference: protected readonly System.String rightHandAnchorName
-    ::Il2CppString*& dyn_rightHandAnchorName();
+    ::StringW& dyn_rightHandAnchorName();
     // Get instance field reference: protected readonly System.String leftControllerAnchorName
-    ::Il2CppString*& dyn_leftControllerAnchorName();
+    ::StringW& dyn_leftControllerAnchorName();
     // Get instance field reference: protected readonly System.String rightControllerAnchorName
-    ::Il2CppString*& dyn_rightControllerAnchorName();
+    ::StringW& dyn_rightControllerAnchorName();
     // Get instance field reference: protected UnityEngine.Camera _centerEyeCamera
     UnityEngine::Camera*& dyn__centerEyeCamera();
     // Get instance field reference: protected UnityEngine.Camera _leftEyeCamera
@@ -363,7 +364,7 @@ namespace GlobalNamespace {
     void EnsureGameObjectIntegrity();
     // protected UnityEngine.Transform ConfigureAnchor(UnityEngine.Transform root, System.String name)
     // Offset: 0x13DC070
-    UnityEngine::Transform* ConfigureAnchor(UnityEngine::Transform* root, ::Il2CppString* name);
+    UnityEngine::Transform* ConfigureAnchor(UnityEngine::Transform* root, ::StringW name);
     // public UnityEngine.Matrix4x4 ComputeTrackReferenceMatrix()
     // Offset: 0x13DC2A8
     UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
@@ -650,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::ConfigureAnchor
 // Il2CppName: ConfigureAnchor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::OVRCameraRig::ConfigureAnchor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRCameraRig::*)(UnityEngine::Transform*, ::StringW)>(&GlobalNamespace::OVRCameraRig::ConfigureAnchor)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

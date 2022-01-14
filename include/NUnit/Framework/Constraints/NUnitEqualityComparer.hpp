@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -175,7 +176,7 @@ namespace NUnit::Framework::Constraints {
     bool DictionaryEntriesEqual(System::Collections::DictionaryEntry x, System::Collections::DictionaryEntry y, ByRef<NUnit::Framework::Constraints::Tolerance*> tolerance);
     // private System.Boolean StringsEqual(System.String x, System.String y)
     // Offset: 0x193DA10
-    bool StringsEqual(::Il2CppString* x, ::Il2CppString* y);
+    bool StringsEqual(::StringW x, ::StringW y);
     // private System.Boolean CharsEqual(System.Char x, System.Char y)
     // Offset: 0x193E0B4
     bool CharsEqual(::Il2CppChar x, ::Il2CppChar y);
@@ -331,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual
 // Il2CppName: StringsEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::StringW, ::StringW)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

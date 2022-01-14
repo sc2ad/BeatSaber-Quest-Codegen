@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,9 +41,9 @@ namespace System::Net::Http {
     // Set static field: static public readonly System.Net.Http.HttpClientHandler/System.Net.Http.<>c <>9
     static void _set_$$9(System::Net::Http::HttpClientHandler::$$c* value);
     // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__61_0
-    static System::Func_2<::Il2CppString*, bool>* _get_$$9__61_0();
+    static System::Func_2<::StringW, bool>* _get_$$9__61_0();
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__61_0
-    static void _set_$$9__61_0(System::Func_2<::Il2CppString*, bool>* value);
+    static void _set_$$9__61_0(System::Func_2<::StringW, bool>* value);
     // Get static field: static public System.Action`1<System.Object> <>9__64_0
     static System::Action_1<::Il2CppObject*>* _get_$$9__64_0();
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
@@ -52,7 +53,7 @@ namespace System::Net::Http {
     static void _cctor();
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
     // Offset: 0x17CB87C
-    bool $CreateWebRequest$b__61_0(::Il2CppString* l);
+    bool $CreateWebRequest$b__61_0(::StringW l);
     // System.Void <SendAsync>b__64_0(System.Object l)
     // Offset: 0x17CB8D0
     void $SendAsync$b__64_0(::Il2CppObject* l);
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::$$c::$CreateWebRequest$b__61_0
 // Il2CppName: <CreateWebRequest>b__61_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpClientHandler::$$c::*)(::Il2CppString*)>(&System::Net::Http::HttpClientHandler::$$c::$CreateWebRequest$b__61_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpClientHandler::$$c::*)(::StringW)>(&System::Net::Http::HttpClientHandler::$$c::$CreateWebRequest$b__61_0)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClientHandler::$$c*), "<CreateWebRequest>b__61_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});

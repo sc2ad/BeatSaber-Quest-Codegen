@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,9 +44,9 @@ namespace GlobalNamespace {
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
@@ -54,12 +55,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     public:
     // Get instance field reference: private System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
     ::ArrayW<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // public System.String get_name()
     // Offset: 0x26436AC
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
     // Offset: 0x26436B4
     ::ArrayW<UnityEngine::ParticleSystem*> get_particleSystems();
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::*)()>(&GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

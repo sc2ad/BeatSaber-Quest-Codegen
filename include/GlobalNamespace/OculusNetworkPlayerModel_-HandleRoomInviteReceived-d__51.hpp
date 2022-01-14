@@ -14,6 +14,7 @@
 #include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -28,9 +29,6 @@ namespace Oculus::Platform::Models {
   class RoomInviteNotification;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$HandleRoomInviteReceived$d__51, "", "OculusNetworkPlayerModel/<HandleRoomInviteReceived>d__51");
 // Type namespace: 
@@ -75,10 +73,10 @@ namespace GlobalNamespace {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x40
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1;
     public:
     // Creating value type constructor for type: $HandleRoomInviteReceived$d__51
-    constexpr $HandleRoomInviteReceived$d__51(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* message_ = {}, GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, message{message_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
+    constexpr $HandleRoomInviteReceived$d__51(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::OculusNetworkPlayerModel* $$4__this_ = {}, Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* message_ = {}, GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, message{message_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -98,7 +96,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private OculusNetworkPlayerModel/<>c__DisplayClass51_0 <>8__1
     GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass51_0*& dyn_$$8__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x136AC4C
     void MoveNext();

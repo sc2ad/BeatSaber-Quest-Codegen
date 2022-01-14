@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -81,9 +82,9 @@ namespace GlobalNamespace {
       // public System.Collections.Generic.List`1<System.String> scenes
       // Size: 0x8
       // Offset: 0x0
-      System::Collections::Generic::List_1<::Il2CppString*>* scenes;
+      System::Collections::Generic::List_1<::StringW>* scenes;
       // Field size check
-      static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+      static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
       // public System.Int64 version
       // Size: 0x8
       // Offset: 0x8
@@ -92,18 +93,18 @@ namespace GlobalNamespace {
       static_assert(sizeof(int64_t) == 0x8);
       public:
       // Creating value type constructor for type: SceneInfo
-      constexpr SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) noexcept : scenes{scenes_}, version{version_} {}
+      constexpr SceneInfo(System::Collections::Generic::List_1<::StringW>* scenes_ = {}, int64_t version_ = {}) noexcept : scenes{scenes_}, version{version_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenes
-      System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenes();
+      System::Collections::Generic::List_1<::StringW>*& dyn_scenes();
       // Get instance field reference: public System.Int64 version
       int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
       // Offset: 0x187FA8C
-      // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* sceneList, int64_t currentSceneEpochVersion);
+      // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
     static check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t)> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;
@@ -150,9 +151,9 @@ namespace GlobalNamespace {
     // private System.String formattedLogText
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* formattedLogText;
+    ::StringW formattedLogText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single closeLogTimer
     // Size: 0x4
     // Offset: 0x40
@@ -176,15 +177,15 @@ namespace GlobalNamespace {
     // private System.String scenePath
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* scenePath;
+    ::StringW scenePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String sceneLoadDataPath
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* sceneLoadDataPath;
+    ::StringW sceneLoadDataPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
     // Size: 0x8
     // Offset: 0x58
@@ -203,21 +204,21 @@ namespace GlobalNamespace {
     // static field const value: static public System.String externalStoragePath
     static constexpr const char* externalStoragePath = "/sdcard/Android/data";
     // Get static field: static public System.String externalStoragePath
-    static ::Il2CppString* _get_externalStoragePath();
+    static ::StringW _get_externalStoragePath();
     // Set static field: static public System.String externalStoragePath
-    static void _set_externalStoragePath(::Il2CppString* value);
+    static void _set_externalStoragePath(::StringW value);
     // static field const value: static public System.String sceneLoadDataName
     static constexpr const char* sceneLoadDataName = "SceneLoadData.txt";
     // Get static field: static public System.String sceneLoadDataName
-    static ::Il2CppString* _get_sceneLoadDataName();
+    static ::StringW _get_sceneLoadDataName();
     // Set static field: static public System.String sceneLoadDataName
-    static void _set_sceneLoadDataName(::Il2CppString* value);
+    static void _set_sceneLoadDataName(::StringW value);
     // static field const value: static public System.String resourceBundleName
     static constexpr const char* resourceBundleName = "asset_resources";
     // Get static field: static public System.String resourceBundleName
-    static ::Il2CppString* _get_resourceBundleName();
+    static ::StringW _get_resourceBundleName();
     // Set static field: static public System.String resourceBundleName
-    static void _set_resourceBundleName(::Il2CppString* value);
+    static void _set_resourceBundleName(::StringW value);
     // Get instance field reference: public System.Single sceneCheckIntervalSeconds
     float& dyn_sceneCheckIntervalSeconds();
     // Get instance field reference: public System.Single logCloseTime
@@ -229,7 +230,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AsyncOperation loadSceneOperation
     UnityEngine::AsyncOperation*& dyn_loadSceneOperation();
     // Get instance field reference: private System.String formattedLogText
-    ::Il2CppString*& dyn_formattedLogText();
+    ::StringW& dyn_formattedLogText();
     // Get instance field reference: private System.Single closeLogTimer
     float& dyn_closeLogTimer();
     // Get instance field reference: private System.Boolean closeLogDialogue
@@ -237,9 +238,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean canvasPosUpdated
     bool& dyn_canvasPosUpdated();
     // Get instance field reference: private System.String scenePath
-    ::Il2CppString*& dyn_scenePath();
+    ::StringW& dyn_scenePath();
     // Get instance field reference: private System.String sceneLoadDataPath
-    ::Il2CppString*& dyn_sceneLoadDataPath();
+    ::StringW& dyn_sceneLoadDataPath();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AssetBundle> loadedAssetBundles
     System::Collections::Generic::List_1<UnityEngine::AssetBundle*>*& dyn_loadedAssetBundles();
     // Get instance field reference: private OVRSceneLoader/SceneInfo currentSceneInfo

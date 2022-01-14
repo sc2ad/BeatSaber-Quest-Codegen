@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
@@ -52,22 +53,22 @@ namespace System::Runtime::Remoting::Channels {
     // private System.String _processGuid
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* processGuid;
+    ::StringW processGuid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Object _ContextID
     ::Il2CppObject*& dyn__ContextID();
     // Get instance field reference: private System.Int32 _DomainID
     int& dyn__DomainID();
     // Get instance field reference: private System.String _processGuid
-    ::Il2CppString*& dyn__processGuid();
+    ::StringW& dyn__processGuid();
     // System.Int32 get_DomainID()
     // Offset: 0x162B5E8
     int get_DomainID();
     // System.String get_ProcessID()
     // Offset: 0x162B5F0
-    ::Il2CppString* get_ProcessID();
+    ::StringW get_ProcessID();
     // System.Void .ctor(System.Int32 domainId)
     // Offset: 0x162B0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,7 +78,7 @@ namespace System::Runtime::Remoting::Channels {
     }
   }; // System.Runtime.Remoting.Channels.CrossAppDomainData
   #pragma pack(pop)
-  static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
+  static check_size<sizeof(CrossAppDomainData), 32 + sizeof(::StringW)> __System_Runtime_Remoting_Channels_CrossAppDomainDataSizeCheck;
   static_assert(sizeof(CrossAppDomainData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID
 // Il2CppName: get_ProcessID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainData*), "get_ProcessID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

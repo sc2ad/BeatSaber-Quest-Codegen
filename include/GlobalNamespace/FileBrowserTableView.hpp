@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -105,9 +106,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::StringW _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
     HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private FileBrowserTableCell _cellPrefab
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
     void SetItems(::ArrayW<GlobalNamespace::FileBrowserItem*> items);
     // public System.Boolean SelectAndScrollRowToItemWithPath(System.String folderPath)
     // Offset: 0x11E2F94
-    bool SelectAndScrollRowToItemWithPath(::Il2CppString* folderPath);
+    bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
     // public System.Single CellSize()
     // Offset: 0x11E3084
     float CellSize();
@@ -209,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath
 // Il2CppName: SelectAndScrollRowToItemWithPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FileBrowserTableView::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FileBrowserTableView::*)(::StringW)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
   static const MethodInfo* get() {
     static auto* folderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SelectAndScrollRowToItemWithPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folderPath});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -86,7 +87,7 @@ namespace System {
     System::DateTime ToDateTime(System::IFormatProvider* provider);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // public System.Object ToType(System.Type conversionType, System.IFormatProvider provider)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* ToType(System::Type* conversionType, System::IFormatProvider* provider);
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::IConvertible::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IConvertible::*)(System::IFormatProvider*)>(&System::IConvertible::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IConvertible*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});

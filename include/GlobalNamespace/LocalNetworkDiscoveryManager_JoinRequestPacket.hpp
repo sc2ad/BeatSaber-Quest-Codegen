@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -46,24 +47,24 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x1359944
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // LocalNetworkDiscoveryManager/JoinRequestPacket
   #pragma pack(pop)
-  static check_size<sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinRequestPacketSizeCheck;
+  static check_size<sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket), 24 + sizeof(::StringW)> __GlobalNamespace_LocalNetworkDiscoveryManager_JoinRequestPacketSizeCheck;
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinRequestPacket) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

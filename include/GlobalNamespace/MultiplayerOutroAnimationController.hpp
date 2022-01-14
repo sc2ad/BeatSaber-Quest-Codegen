@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -88,21 +89,21 @@ namespace GlobalNamespace {
     // private System.String[] _playerTimelineTrackNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> playerTimelineTrackNames;
+    ::ArrayW<::StringW> playerTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String[] _ringTimelineTrackNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> ringTimelineTrackNames;
+    ::ArrayW<::StringW> ringTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String[] _resultsTimelineTrackNames
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::Il2CppString*> resultsTimelineTrackNames;
+    ::ArrayW<::StringW> resultsTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x38
@@ -119,9 +120,9 @@ namespace GlobalNamespace {
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* localPlayerTrackName;
+    ::StringW localPlayerTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     // Size: 0x4
     // Offset: 0x50
@@ -134,9 +135,9 @@ namespace GlobalNamespace {
     // private System.String[] _badgeTimelineTrackNames
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> badgeTimelineTrackNames;
+    ::ArrayW<::StringW> badgeTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x60
@@ -159,15 +160,15 @@ namespace GlobalNamespace {
     // private System.String _songPreviewTrackName
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* songPreviewTrackName;
+    ::StringW songPreviewTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _resultsMocksActivationTrack
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* resultsMocksActivationTrack;
+    ::StringW resultsMocksActivationTrack;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [SpaceAttribute] Offset: 0xF3ED54
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
@@ -221,21 +222,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__outroPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__playerTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__ringTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private System.String[] _resultsTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__resultsTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__resultsTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     ::ArrayW<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
     ::ArrayW<UnityEngine::PropertyName>& dyn__resultsTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
-    ::Il2CppString*& dyn__localPlayerTrackName();
+    ::StringW& dyn__localPlayerTrackName();
     // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
     // Get instance field reference: private System.String[] _badgeTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__badgeTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__badgeTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
     ::ArrayW<UnityEngine::PropertyName>& dyn__badgeTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.Transform _badgeStartTransform
@@ -243,9 +244,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _badgeMidTransform
     UnityEngine::Transform*& dyn__badgeMidTransform();
     // Get instance field reference: private System.String _songPreviewTrackName
-    ::Il2CppString*& dyn__songPreviewTrackName();
+    ::StringW& dyn__songPreviewTrackName();
     // Get instance field reference: private System.String _resultsMocksActivationTrack
-    ::Il2CppString*& dyn__resultsMocksActivationTrack();
+    ::StringW& dyn__resultsMocksActivationTrack();
     // Get instance field reference: private MultiplayerScoreRingManager _multiplayerScoreRingManager
     GlobalNamespace::MultiplayerScoreRingManager*& dyn__multiplayerScoreRingManager();
     // Get instance field reference: private MultiplayerResultsPyramidView _multiplayerResultsPyramidView

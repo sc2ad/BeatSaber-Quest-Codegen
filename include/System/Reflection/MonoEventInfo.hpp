@@ -10,6 +10,7 @@
 // Including type: System.Reflection.EventAttributes
 #include "System/Reflection/EventAttributes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -57,9 +58,9 @@ namespace System::Reflection {
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Reflection.MethodInfo add_method
     // Size: 0x8
     // Offset: 0x18
@@ -94,7 +95,7 @@ namespace System::Reflection {
     static_assert(sizeof(::ArrayW<System::Reflection::MethodInfo*>) == 0x8);
     public:
     // Creating value type constructor for type: MonoEventInfo
-    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::ArrayW<System::Reflection::MethodInfo*> other_methods_ = ::ArrayW<System::Reflection::MethodInfo*>(static_cast<void*>(nullptr))) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
+    constexpr MonoEventInfo(System::Type* declaring_type_ = {}, System::Type* reflected_type_ = {}, ::StringW name_ = {}, System::Reflection::MethodInfo* add_method_ = {}, System::Reflection::MethodInfo* remove_method_ = {}, System::Reflection::MethodInfo* raise_method_ = {}, System::Reflection::EventAttributes attrs_ = {}, ::ArrayW<System::Reflection::MethodInfo*> other_methods_ = ::ArrayW<System::Reflection::MethodInfo*>(static_cast<void*>(nullptr))) noexcept : declaring_type{declaring_type_}, reflected_type{reflected_type_}, name{name_}, add_method{add_method_}, remove_method{remove_method_}, raise_method{raise_method_}, attrs{attrs_}, other_methods{other_methods_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -104,7 +105,7 @@ namespace System::Reflection {
     // Get instance field reference: public System.Type reflected_type
     System::Type*& dyn_reflected_type();
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.Reflection.MethodInfo add_method
     System::Reflection::MethodInfo*& dyn_add_method();
     // Get instance field reference: public System.Reflection.MethodInfo remove_method

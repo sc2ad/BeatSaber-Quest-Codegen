@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -41,7 +42,7 @@ namespace System::Threading {
     // public System.Void .ctor(System.Boolean initialState, System.Threading.EventResetMode mode, System.String name)
     // Offset: 0x1A5C8C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::Il2CppString* name) {
+    static EventWaitHandle* New_ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::EventWaitHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventWaitHandle*, creationType>(initialState, mode, name)));
     }

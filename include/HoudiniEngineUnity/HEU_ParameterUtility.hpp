@@ -8,6 +8,7 @@
 // Including type: HoudiniEngineUnity.HAPI_ParmInfo
 #include "HoudiniEngineUnity/HAPI_ParmInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -43,67 +44,67 @@ namespace HoudiniEngineUnity {
     public:
     // static public System.Boolean GetToggle(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Boolean outValue)
     // Offset: 0x1818378
-    static bool GetToggle(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<bool> outValue);
+    static bool GetToggle(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<bool> outValue);
     // static public System.Boolean SetToggle(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Boolean setValue)
     // Offset: 0x18185D0
-    static bool SetToggle(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, bool setValue);
+    static bool SetToggle(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, bool setValue);
     // static public System.Boolean GetInt(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Int32 outValue)
     // Offset: 0x18186F8
-    static bool GetInt(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<int> outValue);
+    static bool GetInt(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int> outValue);
     // static public System.Boolean SetInt(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 setValue)
     // Offset: 0x1818830
-    static bool SetInt(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, int setValue);
+    static bool SetInt(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int setValue);
     // static public System.Boolean GetFloat(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Single outValue)
     // Offset: 0x1818960
-    static bool GetFloat(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<float> outValue);
+    static bool GetFloat(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<float> outValue);
     // static public System.Boolean GetFloats(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Single[] outValues)
     // Offset: 0x1818A9C
-    static bool GetFloats(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<::ArrayW<float>> outValues);
+    static bool GetFloats(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::ArrayW<float>> outValues);
     // static public System.Boolean SetFloat(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Single setValue)
     // Offset: 0x1818BDC
-    static bool SetFloat(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, float setValue);
+    static bool SetFloat(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, float setValue);
     // static public System.Boolean SetFloats(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Single[] setValues)
     // Offset: 0x1818D18
-    static bool SetFloats(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ::ArrayW<float> setValues);
+    static bool SetFloats(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::ArrayW<float> setValues);
     // static public System.Boolean GetString(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.String outValue)
     // Offset: 0x1818E3C
-    static bool GetString(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<::Il2CppString*> outValue);
+    static bool GetString(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::StringW> outValue);
     // static public System.Boolean SetString(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.String setValue)
     // Offset: 0x1818F7C
-    static bool SetString(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ::Il2CppString* setValue);
+    static bool SetString(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::StringW setValue);
     // static public System.Boolean SetChoice(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 setValue)
     // Offset: 0x18190CC
-    static bool SetChoice(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, int setValue);
+    static bool SetChoice(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int setValue);
     // static public System.Boolean GetChoice(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Int32 outValue)
     // Offset: 0x1819248
-    static bool GetChoice(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<int> outValue);
+    static bool GetChoice(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int> outValue);
     // static public System.Boolean SetInputNode(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, UnityEngine.GameObject obj, System.Int32 index)
     // Offset: 0x18193A8
-    static bool SetInputNode(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, UnityEngine::GameObject* obj, int index);
+    static bool SetInputNode(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, UnityEngine::GameObject* obj, int index);
     // static public System.Boolean GetInputNode(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 index, out UnityEngine.GameObject obj)
     // Offset: 0x1819558
-    static bool GetInputNode(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, int index, ByRef<UnityEngine::GameObject*> obj);
+    static bool GetInputNode(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int index, ByRef<UnityEngine::GameObject*> obj);
     // static public System.Boolean GetColor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out UnityEngine.Color getValue)
     // Offset: 0x1819710
-    static bool GetColor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, ByRef<UnityEngine::Color> getValue);
+    static bool GetColor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<UnityEngine::Color> getValue);
     // static public System.Boolean SetColor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, UnityEngine.Color setValue)
     // Offset: 0x1819848
-    static bool SetColor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::Il2CppString* paramName, UnityEngine::Color setValue);
+    static bool SetColor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, UnityEngine::Color setValue);
     // static public System.Int32 GetParameterIndexFromName(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName)
     // Offset: 0x181998C
-    static int GetParameterIndexFromName(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::Il2CppString* parameterName);
+    static int GetParameterIndexFromName(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName);
     // static public System.Int32 GetParameterIndexFromNameOrTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName)
     // Offset: 0x1819A90
-    static int GetParameterIndexFromNameOrTag(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::Il2CppString* parameterName);
+    static int GetParameterIndexFromNameOrTag(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName);
     // static public System.Int32 FindTextureParamByNameOrTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, System.String useTextureParmName)
     // Offset: 0x1819B04
-    static int FindTextureParamByNameOrTag(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::Il2CppString* parameterName, ::Il2CppString* useTextureParmName);
+    static int FindTextureParamByNameOrTag(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, ::StringW useTextureParmName);
     // static public System.Boolean GetParameterFloatValue(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, System.Single defaultValue, out System.Single returnValue)
     // Offset: 0x1819CD8
-    static bool GetParameterFloatValue(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::Il2CppString* parameterName, float defaultValue, ByRef<float> returnValue);
+    static bool GetParameterFloatValue(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, float defaultValue, ByRef<float> returnValue);
     // static public System.Boolean GetParameterColor3Value(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, UnityEngine.Color defaultValue, out UnityEngine.Color outputColor)
     // Offset: 0x1819DF4
-    static bool GetParameterColor3Value(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::Il2CppString* parameterName, UnityEngine::Color defaultValue, ByRef<UnityEngine::Color> outputColor);
+    static bool GetParameterColor3Value(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, UnityEngine::Color defaultValue, ByRef<UnityEngine::Color> outputColor);
   }; // HoudiniEngineUnity.HEU_ParameterUtility
   #pragma pack(pop)
 }
@@ -111,7 +112,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetToggle
 // Il2CppName: GetToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<bool>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<bool>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetToggle)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetToggle
 // Il2CppName: SetToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetToggle)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetInt
 // Il2CppName: GetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<int>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<int>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetInt)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetInt
 // Il2CppName: SetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetInt)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetFloat)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetFloats
 // Il2CppName: GetFloats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<::ArrayW<float>>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetFloats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<::ArrayW<float>>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetFloats)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -177,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, float)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, float)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetFloat)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetFloats
 // Il2CppName: SetFloats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ::ArrayW<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetFloats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ::ArrayW<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetFloats)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<::StringW>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetString)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetString
 // Il2CppName: SetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetString)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetChoice
 // Il2CppName: SetChoice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetChoice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetChoice)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetChoice
 // Il2CppName: GetChoice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<int>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetChoice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<int>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetChoice)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetInputNode
 // Il2CppName: SetInputNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, UnityEngine::GameObject*, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetInputNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, UnityEngine::GameObject*, int)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetInputNode)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetInputNode
 // Il2CppName: GetInputNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, int, ByRef<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetInputNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, int, ByRef<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetInputNode)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetColor
 // Il2CppName: GetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetColor)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -278,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::Il2CppString*, UnityEngine::Color)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, UnityEngine::Color)>(&HoudiniEngineUnity::HEU_ParameterUtility::SetColor)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromName
 // Il2CppName: GetParameterIndexFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::StringW)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromName)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->byval_arg;
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Hou
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromNameOrTag
 // Il2CppName: GetParameterIndexFromNameOrTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromNameOrTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::StringW)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterIndexFromNameOrTag)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -312,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Hou
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::FindTextureParamByNameOrTag
 // Il2CppName: FindTextureParamByNameOrTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ParameterUtility::FindTextureParamByNameOrTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ParameterUtility::FindTextureParamByNameOrTag)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -325,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Hou
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetParameterFloatValue
 // Il2CppName: GetParameterFloatValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::Il2CppString*, float, ByRef<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterFloatValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::StringW, float, ByRef<float>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterFloatValue)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -339,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ParameterUtility::GetParameterColor3Value
 // Il2CppName: GetParameterColor3Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::Il2CppString*, UnityEngine::Color, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterColor3Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, ::StringW, UnityEngine::Color, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ParameterUtility::GetParameterColor3Value)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

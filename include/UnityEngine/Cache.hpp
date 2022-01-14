@@ -9,9 +9,9 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
@@ -64,7 +64,7 @@ namespace UnityEngine {
     bool get_valid();
     // public System.String get_path()
     // Offset: 0x1D02664
-    ::Il2CppString* get_path();
+    ::StringW get_path();
     // public System.Void set_maximumAvailableStorageSpace(System.Int64 value)
     // Offset: 0x1D026E4
     void set_maximumAvailableStorageSpace(int64_t value);
@@ -79,7 +79,7 @@ namespace UnityEngine {
     static bool Cache_IsValid(int handle);
     // static System.String Cache_GetPath(System.Int32 handle)
     // Offset: 0x1D026A4
-    static ::Il2CppString* Cache_GetPath(int handle);
+    static ::StringW Cache_GetPath(int handle);
     // static System.Void Cache_SetMaximumDiskSpaceAvailable(System.Int32 handle, System.Int64 value)
     // Offset: 0x1D02734
     static void Cache_SetMaximumDiskSpaceAvailable(int handle, int64_t value);
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Cache::get_path
 // Il2CppName: get_path
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Cache::*)()>(&UnityEngine::Cache::get_path)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Cache::*)()>(&UnityEngine::Cache::get_path)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "get_path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: UnityEngine::Cache::Cache_GetPath
 // Il2CppName: Cache_GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::Cache::Cache_GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&UnityEngine::Cache::Cache_GetPath)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Cache_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});

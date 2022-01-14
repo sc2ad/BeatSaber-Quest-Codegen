@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -59,7 +60,7 @@ namespace System::Net::NetworkInformation {
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
     // Offset: 0x16A6004
-    System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::Il2CppString* iface);
+    System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
     // Offset: 0x16A648C
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
@@ -76,7 +77,7 @@ namespace System::Net::NetworkInformation {
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo
 // Il2CppName: ParseRouteInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPAddressCollection* (System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)(::Il2CppString*)>(&System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPAddressCollection* (System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)(::StringW)>(&System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo)> {
   static const MethodInfo* get() {
     static auto* iface = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxIPInterfaceProperties*), "ParseRouteInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iface});

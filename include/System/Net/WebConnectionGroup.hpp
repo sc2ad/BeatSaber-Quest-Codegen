@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -77,9 +78,9 @@ namespace System::Net {
     // private System.String name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.LinkedList`1<System.Net.WebConnectionGroup/System.Net.ConnectionState> connections
     // Size: 0x8
     // Offset: 0x20
@@ -110,7 +111,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ServicePoint sPoint
     System::Net::ServicePoint*& dyn_sPoint();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<System.Net.WebConnectionGroup/System.Net.ConnectionState> connections
     System::Collections::Generic::LinkedList_1<System::Net::WebConnectionGroup::ConnectionState*>*& dyn_connections();
     // Get instance field reference: private System.Collections.Queue queue
@@ -121,7 +122,7 @@ namespace System::Net {
     System::EventHandler*& dyn_ConnectionClosed();
     // public System.String get_Name()
     // Offset: 0x17EFC28
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // System.Collections.Queue get_Queue()
     // Offset: 0x17EFC30
     System::Collections::Queue* get_Queue();
@@ -134,7 +135,7 @@ namespace System::Net {
     // public System.Void .ctor(System.Net.ServicePoint sPoint, System.String name)
     // Offset: 0x17EF04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebConnectionGroup* New_ctor(System::Net::ServicePoint* sPoint, ::Il2CppString* name) {
+    static WebConnectionGroup* New_ctor(System::Net::ServicePoint* sPoint, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionGroup*, creationType>(sPoint, name)));
     }
@@ -168,7 +169,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::WebConnectionGroup::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

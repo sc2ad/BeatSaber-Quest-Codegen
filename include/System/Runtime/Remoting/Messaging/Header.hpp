@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -35,9 +36,9 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.String HeaderNamespace
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* HeaderNamespace;
+    ::StringW HeaderNamespace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean MustUnderstand
     // Size: 0x1
     // Offset: 0x18
@@ -49,9 +50,9 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.String Name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Object Value
     // Size: 0x8
     // Offset: 0x28
@@ -60,11 +61,11 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: public System.String HeaderNamespace
-    ::Il2CppString*& dyn_HeaderNamespace();
+    ::StringW& dyn_HeaderNamespace();
     // Get instance field reference: public System.Boolean MustUnderstand
     bool& dyn_MustUnderstand();
     // Get instance field reference: public System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // Get instance field reference: public System.Object Value
     ::Il2CppObject*& dyn_Value();
   }; // System.Runtime.Remoting.Messaging.Header

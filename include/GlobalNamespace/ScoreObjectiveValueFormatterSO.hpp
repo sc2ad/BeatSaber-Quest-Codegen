@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0x12323D4
     // Implemented from: ObjectiveValueFormatterSO
     // Base method: System.String ObjectiveValueFormatterSO::FormatValue(System.Int32 value)
-    ::Il2CppString* FormatValue(int value);
+    ::StringW FormatValue(int value);
   }; // ScoreObjectiveValueFormatterSO
   #pragma pack(pop)
 }
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue
 // Il2CppName: FormatValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int)>(&GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int)>(&GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreObjectiveValueFormatterSO*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

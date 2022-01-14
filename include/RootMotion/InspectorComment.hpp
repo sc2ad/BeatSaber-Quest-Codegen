@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
@@ -40,37 +41,37 @@ namespace RootMotion {
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String color
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* color;
+    ::StringW color;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.String color
-    ::Il2CppString*& dyn_color();
+    ::StringW& dyn_color();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1CA8E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InspectorComment* New_ctor(::Il2CppString* name) {
+    static InspectorComment* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
     // Offset: 0x1CA8EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InspectorComment* New_ctor(::Il2CppString* name, ::Il2CppString* color) {
+    static InspectorComment* New_ctor(::StringW name, ::StringW color) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name, color)));
     }
   }; // RootMotion.InspectorComment
   #pragma pack(pop)
-  static check_size<sizeof(InspectorComment), 24 + sizeof(::Il2CppString*)> __RootMotion_InspectorCommentSizeCheck;
+  static check_size<sizeof(InspectorComment), 24 + sizeof(::StringW)> __RootMotion_InspectorCommentSizeCheck;
   static_assert(sizeof(InspectorComment) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

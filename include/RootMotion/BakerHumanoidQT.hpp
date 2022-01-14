@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -63,45 +64,45 @@ namespace RootMotion {
     // private System.String Qx
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Qx;
+    ::StringW Qx;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Qy
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Qy;
+    ::StringW Qy;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Qz
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* Qz;
+    ::StringW Qz;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Qw
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* Qw;
+    ::StringW Qw;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Tx
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* Tx;
+    ::StringW Tx;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Ty
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* Ty;
+    ::StringW Ty;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String Tz
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* Tz;
+    ::StringW Tz;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.AnimationCurve rotX
     // Size: 0x8
     // Offset: 0x50
@@ -166,19 +167,19 @@ namespace RootMotion {
     // Get instance field reference: private UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.String Qx
-    ::Il2CppString*& dyn_Qx();
+    ::StringW& dyn_Qx();
     // Get instance field reference: private System.String Qy
-    ::Il2CppString*& dyn_Qy();
+    ::StringW& dyn_Qy();
     // Get instance field reference: private System.String Qz
-    ::Il2CppString*& dyn_Qz();
+    ::StringW& dyn_Qz();
     // Get instance field reference: private System.String Qw
-    ::Il2CppString*& dyn_Qw();
+    ::StringW& dyn_Qw();
     // Get instance field reference: private System.String Tx
-    ::Il2CppString*& dyn_Tx();
+    ::StringW& dyn_Tx();
     // Get instance field reference: private System.String Ty
-    ::Il2CppString*& dyn_Ty();
+    ::StringW& dyn_Ty();
     // Get instance field reference: private System.String Tz
-    ::Il2CppString*& dyn_Tz();
+    ::StringW& dyn_Tz();
     // Get instance field reference: public UnityEngine.AnimationCurve rotX
     UnityEngine::AnimationCurve*& dyn_rotX();
     // Get instance field reference: public UnityEngine.AnimationCurve rotY
@@ -202,14 +203,14 @@ namespace RootMotion {
     // public System.Void .ctor(System.String name)
     // Offset: 0x1EA0394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BakerHumanoidQT* New_ctor(::Il2CppString* name) {
+    static BakerHumanoidQT* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
     // Offset: 0x1EA05E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::Il2CppString* name) {
+    static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }

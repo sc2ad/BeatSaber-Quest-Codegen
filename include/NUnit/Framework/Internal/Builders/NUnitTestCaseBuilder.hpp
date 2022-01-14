@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -80,7 +81,7 @@ namespace NUnit::Framework::Internal::Builders {
     static bool CheckTestMethodSignature(NUnit::Framework::Internal::TestMethod* testMethod, NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
     // Offset: 0x1945CBC
-    static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::Il2CppString* reason);
+    static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
     // public System.Void .ctor()
     // Offset: 0x19343FC
     // Implemented from: System.Object
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NU
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable
 // Il2CppName: MarkAsNotRunnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::StringW)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

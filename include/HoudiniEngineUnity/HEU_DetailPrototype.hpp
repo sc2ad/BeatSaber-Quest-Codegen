@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -42,15 +43,15 @@ namespace HoudiniEngineUnity {
     // public System.String _prototypePrefab
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* prototypePrefab;
+    ::StringW prototypePrefab;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _prototypeTexture
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* prototypeTexture;
+    ::StringW prototypeTexture;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single _bendFactor
     // Size: 0x4
     // Offset: 0x20
@@ -111,9 +112,9 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);
     }
     // Get instance field reference: public System.String _prototypePrefab
-    ::Il2CppString*& dyn__prototypePrefab();
+    ::StringW& dyn__prototypePrefab();
     // Get instance field reference: public System.String _prototypeTexture
-    ::Il2CppString*& dyn__prototypeTexture();
+    ::StringW& dyn__prototypeTexture();
     // Get instance field reference: public System.Single _bendFactor
     float& dyn__bendFactor();
     // Get instance field reference: public UnityEngine.Color _dryColor

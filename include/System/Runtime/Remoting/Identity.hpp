@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -62,9 +63,9 @@ namespace System::Runtime::Remoting {
     // protected System.String _objectUri
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* objectUri;
+    ::StringW objectUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink
     // Size: 0x8
     // Offset: 0x18
@@ -103,7 +104,7 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: protected System.String _objectUri
-    ::Il2CppString*& dyn__objectUri();
+    ::StringW& dyn__objectUri();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _channelSink
     System::Runtime::Remoting::Messaging::IMessageSink*& dyn__channelSink();
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMessageSink _envoySink
@@ -127,10 +128,10 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
     // public System.String get_ObjectUri()
     // Offset: 0x1C4ACBC
-    ::Il2CppString* get_ObjectUri();
+    ::StringW get_ObjectUri();
     // public System.Void set_ObjectUri(System.String value)
     // Offset: 0x1C4ACC4
-    void set_ObjectUri(::Il2CppString* value);
+    void set_ObjectUri(::StringW value);
     // public System.Boolean get_IsConnected()
     // Offset: 0x1C4ACCC
     bool get_IsConnected();
@@ -149,7 +150,7 @@ namespace System::Runtime::Remoting {
     // public System.Void .ctor(System.String objectUri)
     // Offset: 0x1C4AC78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Identity* New_ctor(::Il2CppString* objectUri) {
+    static Identity* New_ctor(::StringW objectUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Identity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Identity*, creationType>(objectUri)));
     }
@@ -196,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Identity::get_ObjectUri
 // Il2CppName: get_ObjectUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Identity::*)()>(&System::Runtime::Remoting::Identity::get_ObjectUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Identity::*)()>(&System::Runtime::Remoting::Identity::get_ObjectUri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Identity*), "get_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Identity::set_ObjectUri
 // Il2CppName: set_ObjectUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Identity::*)(::Il2CppString*)>(&System::Runtime::Remoting::Identity::set_ObjectUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Identity::*)(::StringW)>(&System::Runtime::Remoting::Identity::set_ObjectUri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Identity*), "set_ObjectUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

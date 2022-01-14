@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -60,33 +61,33 @@ namespace System::Security::Claims {
     // private System.String m_issuer
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_issuer;
+    ::StringW m_issuer;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_originalIssuer
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_originalIssuer;
+    ::StringW m_originalIssuer;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_type
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_type;
+    ::StringW m_type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_value
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_value;
+    ::StringW m_value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_valueType
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_valueType;
+    ::StringW m_valueType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] m_userSerializationData
     // Size: 0x8
     // Offset: 0x38
@@ -96,9 +97,9 @@ namespace System::Security::Claims {
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* m_properties;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* m_properties;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // private System.Object m_propertyLock
     // Size: 0x8
     // Offset: 0x48
@@ -113,26 +114,26 @@ namespace System::Security::Claims {
     static_assert(sizeof(System::Security::Claims::ClaimsIdentity*) == 0x8);
     public:
     // Get instance field reference: private System.String m_issuer
-    ::Il2CppString*& dyn_m_issuer();
+    ::StringW& dyn_m_issuer();
     // Get instance field reference: private System.String m_originalIssuer
-    ::Il2CppString*& dyn_m_originalIssuer();
+    ::StringW& dyn_m_originalIssuer();
     // Get instance field reference: private System.String m_type
-    ::Il2CppString*& dyn_m_type();
+    ::StringW& dyn_m_type();
     // Get instance field reference: private System.String m_value
-    ::Il2CppString*& dyn_m_value();
+    ::StringW& dyn_m_value();
     // Get instance field reference: private System.String m_valueType
-    ::Il2CppString*& dyn_m_valueType();
+    ::StringW& dyn_m_valueType();
     // Get instance field reference: private System.Byte[] m_userSerializationData
     ::ArrayW<uint8_t>& dyn_m_userSerializationData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_m_properties();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_m_properties();
     // Get instance field reference: private System.Object m_propertyLock
     ::Il2CppObject*& dyn_m_propertyLock();
     // Get instance field reference: private System.Security.Claims.ClaimsIdentity m_subject
     System::Security::Claims::ClaimsIdentity*& dyn_m_subject();
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> get_Properties()
     // Offset: 0x1A8A970
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* get_Properties();
+    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
     // public System.Security.Claims.ClaimsIdentity get_Subject()
     // Offset: 0x1A8AD1C
     System::Security::Claims::ClaimsIdentity* get_Subject();
@@ -141,21 +142,21 @@ namespace System::Security::Claims {
     void set_Subject(System::Security::Claims::ClaimsIdentity* value);
     // public System.String get_Type()
     // Offset: 0x1A8AD2C
-    ::Il2CppString* get_Type();
+    ::StringW get_Type();
     // public System.String get_Value()
     // Offset: 0x1A8AD34
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject)
     // Offset: 0x1A8A724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject) {
+    static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity* subject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject)));
     }
     // System.Void .ctor(System.String type, System.String value, System.String valueType, System.String issuer, System.String originalIssuer, System.Security.Claims.ClaimsIdentity subject, System.String propertyKey, System.String propertyValue)
     // Offset: 0x1A8A748
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Claim* New_ctor(::Il2CppString* type, ::Il2CppString* value, ::Il2CppString* valueType, ::Il2CppString* issuer, ::Il2CppString* originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::Il2CppString* propertyKey, ::Il2CppString* propertyValue) {
+    static Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Claims::Claim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Claim*, creationType>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue)));
     }
@@ -176,7 +177,7 @@ namespace System::Security::Claims {
     // Offset: 0x1A8ADAC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Security.Claims.Claim
   #pragma pack(pop)
   static check_size<sizeof(Claim), 80 + sizeof(System::Security::Claims::ClaimsIdentity*)> __System_Security_Claims_ClaimSizeCheck;
@@ -186,7 +187,7 @@ namespace System::Security::Claims {
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -211,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -257,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Claims::Claim::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

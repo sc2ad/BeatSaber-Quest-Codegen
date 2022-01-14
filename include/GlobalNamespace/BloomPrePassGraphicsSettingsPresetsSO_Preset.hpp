@@ -48,8 +48,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectSO*) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public BloomPrePassEffectSO bloomPrePassEffect
     GlobalNamespace::BloomPrePassEffectSO*& dyn_bloomPrePassEffect();
     // public System.Void .ctor()

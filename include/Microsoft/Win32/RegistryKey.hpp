@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32::SafeHandles
@@ -83,9 +84,9 @@ namespace Microsoft::Win32 {
     // private readonly System.String qname
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* qname;
+    ::StringW qname;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Boolean isRemoteRoot
     // Size: 0x1
     // Offset: 0x38
@@ -116,14 +117,14 @@ namespace Microsoft::Win32 {
     // Get instance field reference: private System.Object hive
     ::Il2CppObject*& dyn_hive();
     // Get instance field reference: private readonly System.String qname
-    ::Il2CppString*& dyn_qname();
+    ::StringW& dyn_qname();
     // Get instance field reference: private readonly System.Boolean isRemoteRoot
     bool& dyn_isRemoteRoot();
     // Get instance field reference: private readonly System.Boolean isWritable
     bool& dyn_isWritable();
     // public System.String get_Name()
     // Offset: 0x1C6B030
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public Microsoft.Win32.SafeHandles.SafeRegistryHandle get_Handle()
     // Offset: 0x1C6B118
     Microsoft::Win32::SafeHandles::SafeRegistryHandle* get_Handle();
@@ -156,7 +157,7 @@ namespace Microsoft::Win32 {
     // System.Void .ctor(System.Object data, System.String keyName, System.Boolean writable)
     // Offset: 0x1C67B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegistryKey* New_ctor(::Il2CppObject* data, ::Il2CppString* keyName, bool writable) {
+    static RegistryKey* New_ctor(::Il2CppObject* data, ::StringW keyName, bool writable) {
       static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::RegistryKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegistryKey*, creationType>(data, keyName, writable)));
     }
@@ -174,39 +175,39 @@ namespace Microsoft::Win32 {
     void Close();
     // public Microsoft.Win32.RegistryKey OpenSubKey(System.String name)
     // Offset: 0x1C6B2F4
-    Microsoft::Win32::RegistryKey* OpenSubKey(::Il2CppString* name);
+    Microsoft::Win32::RegistryKey* OpenSubKey(::StringW name);
     // public Microsoft.Win32.RegistryKey OpenSubKey(System.String name, System.Boolean writable)
     // Offset: 0x1C6B2FC
-    Microsoft::Win32::RegistryKey* OpenSubKey(::Il2CppString* name, bool writable);
+    Microsoft::Win32::RegistryKey* OpenSubKey(::StringW name, bool writable);
     // public System.Object GetValue(System.String name)
     // Offset: 0x1C6B4D0
-    ::Il2CppObject* GetValue(::Il2CppString* name);
+    ::Il2CppObject* GetValue(::StringW name);
     // public System.Object GetValue(System.String name, System.Object defaultValue)
     // Offset: 0x1C6B4D8
-    ::Il2CppObject* GetValue(::Il2CppString* name, ::Il2CppObject* defaultValue);
+    ::Il2CppObject* GetValue(::StringW name, ::Il2CppObject* defaultValue);
     // public System.String[] GetSubKeyNames()
     // Offset: 0x1C6B5DC
-    ::ArrayW<::Il2CppString*> GetSubKeyNames();
+    ::ArrayW<::StringW> GetSubKeyNames();
     // private System.Void AssertKeyStillValid()
     // Offset: 0x1C6B244
     void AssertKeyStillValid();
     // private System.Void AssertKeyNameLength(System.String name)
     // Offset: 0x1C6B440
-    void AssertKeyNameLength(::Il2CppString* name);
+    void AssertKeyNameLength(::StringW name);
     // static System.String DecodeString(System.Byte[] data)
     // Offset: 0x1C6B7B4
-    static ::Il2CppString* DecodeString(::ArrayW<uint8_t> data);
+    static ::StringW DecodeString(::ArrayW<uint8_t> data);
     // static System.IO.IOException CreateMarkedForDeletionException()
     // Offset: 0x1C6B864
     static System::IO::IOException* CreateMarkedForDeletionException();
     // static private System.String GetHiveName(Microsoft.Win32.RegistryHive hive)
     // Offset: 0x1C6AD18
-    static ::Il2CppString* GetHiveName(Microsoft::Win32::RegistryHive hive);
+    static ::StringW GetHiveName(Microsoft::Win32::RegistryHive hive);
     // public override System.String ToString()
     // Offset: 0x1C6B6C4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Microsoft.Win32.RegistryKey
   #pragma pack(pop)
   static check_size<sizeof(RegistryKey), 57 + sizeof(bool)> __Microsoft_Win32_RegistryKeySizeCheck;
@@ -216,7 +217,7 @@ namespace Microsoft::Win32 {
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -310,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::OpenSubKey
 // Il2CppName: OpenSubKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::RegistryKey::*)(::Il2CppString*)>(&Microsoft::Win32::RegistryKey::OpenSubKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::RegistryKey::*)(::StringW)>(&Microsoft::Win32::RegistryKey::OpenSubKey)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "OpenSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::OpenSubKey
 // Il2CppName: OpenSubKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::RegistryKey::*)(::Il2CppString*, bool)>(&Microsoft::Win32::RegistryKey::OpenSubKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::RegistryKey::*)(::StringW, bool)>(&Microsoft::Win32::RegistryKey::OpenSubKey)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* writable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -329,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::RegistryKey::*)(::Il2CppString*)>(&Microsoft::Win32::RegistryKey::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::RegistryKey::*)(::StringW)>(&Microsoft::Win32::RegistryKey::GetValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -338,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::RegistryKey::*)(::Il2CppString*, ::Il2CppObject*)>(&Microsoft::Win32::RegistryKey::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::RegistryKey::*)(::StringW, ::Il2CppObject*)>(&Microsoft::Win32::RegistryKey::GetValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::GetSubKeyNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::AssertKeyNameLength
 // Il2CppName: AssertKeyNameLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::RegistryKey::*)(::Il2CppString*)>(&Microsoft::Win32::RegistryKey::AssertKeyNameLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::RegistryKey::*)(::StringW)>(&Microsoft::Win32::RegistryKey::AssertKeyNameLength)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "AssertKeyNameLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -373,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&Microsoft::Win32::RegistryKey::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&Microsoft::Win32::RegistryKey::DecodeString)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "DecodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -390,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::GetHiveName
 // Il2CppName: GetHiveName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::RegistryHive)>(&Microsoft::Win32::RegistryKey::GetHiveName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Microsoft::Win32::RegistryHive)>(&Microsoft::Win32::RegistryKey::GetHiveName)> {
   static const MethodInfo* get() {
     static auto* hive = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryHive")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "GetHiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hive});
@@ -399,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

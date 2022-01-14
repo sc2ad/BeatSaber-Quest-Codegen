@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -134,7 +135,7 @@ namespace GlobalNamespace {
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
     // Offset: 0x1145040
-    void AppendLine(::Il2CppString* line);
+    void AppendLine(::StringW line);
     // public System.Void .ctor()
     // Offset: 0x1145098
     // Implemented from: HMUI.ViewController
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OnlineServicesInfoViewController::AppendLine
 // Il2CppName: AppendLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesInfoViewController::*)(::Il2CppString*)>(&GlobalNamespace::OnlineServicesInfoViewController::AppendLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesInfoViewController::*)(::StringW)>(&GlobalNamespace::OnlineServicesInfoViewController::AppendLine)> {
   static const MethodInfo* get() {
     static auto* line = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesInfoViewController*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{line});

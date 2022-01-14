@@ -9,6 +9,7 @@
 // Including type: UnityEngine.LogType
 #include "UnityEngine/LogType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -40,7 +41,7 @@ namespace UnityEngine {
     public:
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0xFFFFFFFF
     void LogException(System::Exception* exception, UnityEngine::Object* context);
@@ -51,7 +52,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ILogHandler::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ILogHandler::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ILogHandler::LogFormat)> {
   static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

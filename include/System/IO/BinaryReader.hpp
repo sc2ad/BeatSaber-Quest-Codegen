@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -220,7 +221,7 @@ namespace System::IO {
     System::Decimal ReadDecimal();
     // public System.String ReadString()
     // Offset: 0x1C47040
-    ::Il2CppString* ReadString();
+    ::StringW ReadString();
     // private System.Int32 InternalReadChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1C47398
     int InternalReadChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
@@ -408,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::IO::BinaryReader::ReadString
 // Il2CppName: ReadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

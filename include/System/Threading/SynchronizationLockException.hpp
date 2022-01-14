@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -53,7 +54,7 @@ namespace System::Threading {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SynchronizationLockException* New_ctor(::Il2CppString* message) {
+    static SynchronizationLockException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SynchronizationLockException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationLockException*, creationType>(message)));
     }

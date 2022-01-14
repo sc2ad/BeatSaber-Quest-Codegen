@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -62,9 +63,9 @@ namespace GlobalNamespace {
     // public System.String levelDataAssetName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* levelDataAssetName;
+    ::StringW levelDataAssetName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
     // Size: 0x8
     // Offset: 0x20
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
     UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName
-    ::Il2CppString*& dyn_levelDataAssetName();
+    ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
     // System.Void <LoadBeatmalLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)

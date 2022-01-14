@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -70,9 +71,9 @@ namespace Zenject {
     // public readonly System.String MemberName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* MemberName;
+    ::StringW MemberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Type MemberType
     // Size: 0x8
     // Offset: 0x30
@@ -93,7 +94,7 @@ namespace Zenject {
     // Get instance field reference: public readonly Zenject.InjectSources SourceType
     Zenject::InjectSources& dyn_SourceType();
     // Get instance field reference: public readonly System.String MemberName
-    ::Il2CppString*& dyn_MemberName();
+    ::StringW& dyn_MemberName();
     // Get instance field reference: public readonly System.Type MemberType
     System::Type*& dyn_MemberType();
     // Get instance field reference: public readonly System.Object DefaultValue
@@ -101,7 +102,7 @@ namespace Zenject {
     // public System.Void .ctor(System.Boolean optional, System.Object identifier, System.String memberName, System.Type memberType, System.Object defaultValue, Zenject.InjectSources sourceType)
     // Offset: 0x26BA970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectableInfo* New_ctor(bool optional, ::Il2CppObject* identifier, ::Il2CppString* memberName, System::Type* memberType, ::Il2CppObject* defaultValue, Zenject::InjectSources sourceType) {
+    static InjectableInfo* New_ctor(bool optional, ::Il2CppObject* identifier, ::StringW memberName, System::Type* memberType, ::Il2CppObject* defaultValue, Zenject::InjectSources sourceType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectableInfo*, creationType>(optional, identifier, memberName, memberType, defaultValue, sourceType)));
     }

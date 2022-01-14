@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -60,9 +61,9 @@ namespace GlobalNamespace {
     // private System.String _characterName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* characterName;
+    ::StringW characterName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [SpaceAttribute] Offset: 0xF334B0
     // private UnityEngine.Animator _animator
     // Size: 0x8
@@ -92,7 +93,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _characterName
-    ::Il2CppString*& dyn__characterName();
+    ::StringW& dyn__characterName();
     // Get instance field reference: private UnityEngine.Animator _animator
     UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private BTSCharacterMaterialSwitcher _btsCharacterMaterialSwitcher
@@ -103,7 +104,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform*& dyn__headTransform();
     // public System.String get_characterName()
     // Offset: 0x131D7C0
-    ::Il2CppString* get_characterName();
+    ::StringW get_characterName();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
     // Offset: 0x131D7C8
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
@@ -138,7 +139,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_characterName
 // Il2CppName: get_characterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_characterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_characterName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_characterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

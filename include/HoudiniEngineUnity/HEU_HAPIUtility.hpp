@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -79,73 +80,73 @@ namespace HoudiniEngineUnity {
     public:
     // static public System.String GetHoudiniEngineInstallationInfo()
     // Offset: 0x164AD40
-    static ::Il2CppString* GetHoudiniEngineInstallationInfo();
+    static ::StringW GetHoudiniEngineInstallationInfo();
     // static public System.String GetEnvironmentPath()
     // Offset: 0x164AD88
-    static ::Il2CppString* GetEnvironmentPath();
+    static ::StringW GetEnvironmentPath();
     // static public System.String GetRealPathFromHFSPath(System.String inPath)
     // Offset: 0x164ADD8
-    static ::Il2CppString* GetRealPathFromHFSPath(::Il2CppString* inPath);
+    static ::StringW GetRealPathFromHFSPath(::StringW inPath);
     // static public System.Boolean DoesMappedPathExist(System.String inPath)
     // Offset: 0x164AF3C
-    static bool DoesMappedPathExist(::Il2CppString* inPath);
+    static bool DoesMappedPathExist(::StringW inPath);
     // static public System.Boolean IsHoudiniAssetFile(System.String filePath)
     // Offset: 0x164AFD0
-    static bool IsHoudiniAssetFile(::Il2CppString* filePath);
+    static bool IsHoudiniAssetFile(::StringW filePath);
     // static public System.String FindHoudiniAssetFileInPathWithExt(System.String filePath)
     // Offset: 0x164B0E0
-    static ::Il2CppString* FindHoudiniAssetFileInPathWithExt(::Il2CppString* filePath);
+    static ::StringW FindHoudiniAssetFileInPathWithExt(::StringW filePath);
     // static public System.Void Log(System.String message)
     // Offset: 0x164B328
-    static void Log(::Il2CppString* message);
+    static void Log(::StringW message);
     // static public System.Void LogWarning(System.String message)
     // Offset: 0x164B330
-    static void LogWarning(::Il2CppString* message);
+    static void LogWarning(::StringW message);
     // static public System.Void LogError(System.String message)
     // Offset: 0x164B338
-    static void LogError(::Il2CppString* message);
+    static void LogError(::StringW message);
     // static public System.String LocateValidFilePath(UnityEngine.Object inObject)
     // Offset: 0x164B340
-    static ::Il2CppString* LocateValidFilePath(UnityEngine::Object* inObject);
+    static ::StringW LocateValidFilePath(UnityEngine::Object* inObject);
     // static public System.String LocateValidFilePath(System.String assetName, System.String inFilePath)
     // Offset: 0x164B3CC
-    static ::Il2CppString* LocateValidFilePath(::Il2CppString* assetName, ::Il2CppString* inFilePath);
+    static ::StringW LocateValidFilePath(::StringW assetName, ::StringW inFilePath);
     // static public UnityEngine.GameObject InstantiateHDA(System.String filePath, UnityEngine.Vector3 initialPosition, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, System.Boolean bLoadFromMemory, System.Boolean bAlwaysOverwriteOnLoad, UnityEngine.GameObject rootGO)
     // Offset: 0x164B3D4
-    static UnityEngine::GameObject* InstantiateHDA(::Il2CppString* filePath, UnityEngine::Vector3 initialPosition, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, UnityEngine::GameObject* rootGO);
+    static UnityEngine::GameObject* InstantiateHDA(::StringW filePath, UnityEngine::Vector3 initialPosition, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, UnityEngine::GameObject* rootGO);
     // static public System.Boolean LoadHDAFile(HoudiniEngineUnity.HEU_SessionBase session, System.String assetPath, out System.Int32 assetLibraryID, out System.String[] assetNames)
     // Offset: 0x164B8B8
-    static bool LoadHDAFile(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ByRef<int> assetLibraryID, ByRef<::ArrayW<::Il2CppString*>> assetNames);
+    static bool LoadHDAFile(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ByRef<int> assetLibraryID, ByRef<::ArrayW<::StringW>> assetNames);
     // static public System.Boolean CreateAndCookAssetNode(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
     // Offset: 0x164BAE0
-    static bool CreateAndCookAssetNode(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
+    static bool CreateAndCookAssetNode(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CreateAndCookCurveAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
     // Offset: 0x164BEB4
-    static bool CreateAndCookCurveAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
+    static bool CreateAndCookCurveAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CreateAndCookInputAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
     // Offset: 0x164BFB0
-    static bool CreateAndCookInputAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
+    static bool CreateAndCookInputAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
     // static public System.Boolean CookNodeInHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Boolean bCookTemplatedGeos, System.String assetName)
     // Offset: 0x164BE58
-    static bool CookNodeInHoudini(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, bool bCookTemplatedGeos, ::Il2CppString* assetName);
+    static bool CookNodeInHoudini(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, bool bCookTemplatedGeos, ::StringW assetName);
     // static public System.Boolean CookNodeInHoudiniWithOptions(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_CookOptions options, System.String assetName)
     // Offset: 0x164C1E0
-    static bool CookNodeInHoudiniWithOptions(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, HoudiniEngineUnity::HAPI_CookOptions options, ::Il2CppString* assetName);
+    static bool CookNodeInHoudiniWithOptions(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, HoudiniEngineUnity::HAPI_CookOptions options, ::StringW assetName);
     // static public HoudiniEngineUnity.HAPI_CookOptions GetDefaultCookOptions(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x164C260
     static HoudiniEngineUnity::HAPI_CookOptions GetDefaultCookOptions(HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean ProcessHoudiniCookStatus(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName)
     // Offset: 0x164BC7C
-    static bool ProcessHoudiniCookStatus(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName);
+    static bool ProcessHoudiniCookStatus(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName);
     // static public UnityEngine.GameObject CreateNewAsset(HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.HEU_AssetType assetType, System.String rootName, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
     // Offset: 0x164C2AC
-    static UnityEngine::GameObject* CreateNewAsset(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType assetType, ::Il2CppString* rootName, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
+    static UnityEngine::GameObject* CreateNewAsset(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType assetType, ::StringW rootName, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject CreateNewCurveAsset(System.String name, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
     // Offset: 0x164C5FC
-    static UnityEngine::GameObject* CreateNewCurveAsset(::Il2CppString* name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
+    static UnityEngine::GameObject* CreateNewCurveAsset(::StringW name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject CreateNewInputAsset(System.String name, UnityEngine.Transform parentTransform, HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bBuildAsync, UnityEngine.GameObject rootGO)
     // Offset: 0x164C620
-    static UnityEngine::GameObject* CreateNewInputAsset(::Il2CppString* name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
+    static UnityEngine::GameObject* CreateNewInputAsset(::StringW name, UnityEngine::Transform* parentTransform, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, UnityEngine::GameObject* rootGO);
     // static public UnityEngine.GameObject LoadGeoWithNewGeoSync(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x164C644
     static UnityEngine::GameObject* LoadGeoWithNewGeoSync(HoudiniEngineUnity::HEU_SessionBase* session);
@@ -227,7 +228,7 @@ namespace HoudiniEngineUnity {
     static bool IsSessionSyncEqual(ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncA, ByRef<HoudiniEngineUnity::HAPI_SessionSyncInfo> syncB);
     // static public System.Boolean DoesGeoPartHaveAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner owner, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
     // Offset: 0x164E718
-    static bool DoesGeoPartHaveAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
+    static bool DoesGeoPartHaveAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // static public System.Void SetAnimationCurveTangentModes(UnityEngine.AnimationCurve animCurve, System.Collections.Generic.List`1<System.Int32> tangentValues)
     // Offset: 0x164E764
     static void SetAnimationCurveTangentModes(UnityEngine::AnimationCurve* animCurve, System::Collections::Generic::List_1<int>* tangentValues);
@@ -247,7 +248,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::GetHoudiniEngineInstallationInfo
 // Il2CppName: GetHoudiniEngineInstallationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_HAPIUtility::GetHoudiniEngineInstallationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_HAPIUtility::GetHoudiniEngineInstallationInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "GetHoudiniEngineInstallationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::GetEnvironmentPath
 // Il2CppName: GetEnvironmentPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_HAPIUtility::GetEnvironmentPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_HAPIUtility::GetEnvironmentPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "GetEnvironmentPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -263,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::GetRealPathFromHFSPath
 // Il2CppName: GetRealPathFromHFSPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::GetRealPathFromHFSPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::GetRealPathFromHFSPath)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "GetRealPathFromHFSPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::DoesMappedPathExist
 // Il2CppName: DoesMappedPathExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::DoesMappedPathExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::DoesMappedPathExist)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "DoesMappedPathExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inPath});
@@ -281,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::IsHoudiniAssetFile
 // Il2CppName: IsHoudiniAssetFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::IsHoudiniAssetFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::IsHoudiniAssetFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "IsHoudiniAssetFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -290,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::FindHoudiniAssetFileInPathWithExt
 // Il2CppName: FindHoudiniAssetFileInPathWithExt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::FindHoudiniAssetFileInPathWithExt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::FindHoudiniAssetFileInPathWithExt)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "FindHoudiniAssetFileInPathWithExt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -308,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::LogWarning)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -317,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::LogError)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -326,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath
 // Il2CppName: LocateValidFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath)> {
   static const MethodInfo* get() {
     static auto* inObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HAPIUtility*), "LocateValidFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inObject});
@@ -335,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath
 // Il2CppName: LocateValidFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::LocateValidFilePath)> {
   static const MethodInfo* get() {
     static auto* assetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* inFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -345,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::InstantiateHDA
 // Il2CppName: InstantiateHDA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector3, HoudiniEngineUnity::HEU_SessionBase*, bool, bool, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::InstantiateHDA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::Vector3, HoudiniEngineUnity::HEU_SessionBase*, bool, bool, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::InstantiateHDA)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* initialPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile
 // Il2CppName: LoadHDAFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, ByRef<int>, ByRef<::ArrayW<::Il2CppString*>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW, ByRef<int>, ByRef<::ArrayW<::StringW>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -372,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookAssetNode
 // Il2CppName: CreateAndCookAssetNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookAssetNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookAssetNode)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookCurveAsset
 // Il2CppName: CreateAndCookCurveAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookCurveAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookCurveAsset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookInputAsset
 // Il2CppName: CreateAndCookInputAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookInputAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateAndCookInputAsset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -408,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudini
 // Il2CppName: CookNodeInHoudini
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, bool, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudini)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, bool, ::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudini)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -420,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudiniWithOptions
 // Il2CppName: CookNodeInHoudiniWithOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, HoudiniEngineUnity::HAPI_CookOptions, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudiniWithOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, HoudiniEngineUnity::HAPI_CookOptions, ::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::CookNodeInHoudiniWithOptions)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -441,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::ProcessHoudiniCookStatus
 // Il2CppName: ProcessHoudiniCookStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_HAPIUtility::ProcessHoudiniCookStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW)>(&HoudiniEngineUnity::HEU_HAPIUtility::ProcessHoudiniCookStatus)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -451,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateNewAsset
 // Il2CppName: CreateNewAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType, ::Il2CppString*, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(HoudiniEngineUnity::HEU_HoudiniAsset::HEU_AssetType, ::StringW, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewAsset)> {
   static const MethodInfo* get() {
     static auto* assetType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType")->byval_arg;
     static auto* rootName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -465,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateNewCurveAsset
 // Il2CppName: CreateNewCurveAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewCurveAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewCurveAsset)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -478,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::CreateNewInputAsset
 // Il2CppName: CreateNewInputAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewInputAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::Transform*, HoudiniEngineUnity::HEU_SessionBase*, bool, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_HAPIUtility::CreateNewInputAsset)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -721,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::DoesGeoPartHaveAttribute
 // Il2CppName: DoesGeoPartHaveAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_HAPIUtility::DoesGeoPartHaveAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_HAPIUtility::DoesGeoPartHaveAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

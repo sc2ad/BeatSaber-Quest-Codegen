@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -128,9 +129,9 @@ namespace GlobalNamespace {
     // private System.String[] _promoPackIDStrings
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<::Il2CppString*> promoPackIDStrings;
+    ::ArrayW<::StringW> promoPackIDStrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // [InjectAttribute] Offset: 0xF47890
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
@@ -180,9 +181,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
     // Size: 0x8
     // Offset: 0x78
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* promoPackIDs;
+    System::Collections::Generic::HashSet_1<::StringW>* promoPackIDs;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
     // Size: 0x8
     // Offset: 0x80
@@ -223,7 +224,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cellHeight
     float& dyn__cellHeight();
     // Get instance field reference: private System.String[] _promoPackIDStrings
-    ::ArrayW<::Il2CppString*>& dyn__promoPackIDStrings();
+    ::ArrayW<::StringW>& dyn__promoPackIDStrings();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
@@ -239,7 +240,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isHovering
     bool& dyn__isHovering();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _promoPackIDs
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__promoPackIDs();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__promoPackIDs();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& dyn__annotatedBeatmapLevelCollections();
     // Get instance field reference: private System.Int32 _selectedCellIndex

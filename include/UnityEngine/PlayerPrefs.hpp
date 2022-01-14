@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -25,28 +26,28 @@ namespace UnityEngine {
     public:
     // static private System.Boolean TrySetInt(System.String key, System.Int32 value)
     // Offset: 0x1DEE750
-    static bool TrySetInt(::Il2CppString* key, int value);
+    static bool TrySetInt(::StringW key, int value);
     // static private System.Boolean TrySetSetString(System.String key, System.String value)
     // Offset: 0x1DEE7A0
-    static bool TrySetSetString(::Il2CppString* key, ::Il2CppString* value);
+    static bool TrySetSetString(::StringW key, ::StringW value);
     // static public System.Void SetInt(System.String key, System.Int32 value)
     // Offset: 0x1DEE7F0
-    static void SetInt(::Il2CppString* key, int value);
+    static void SetInt(::StringW key, int value);
     // static public System.Int32 GetInt(System.String key, System.Int32 defaultValue)
     // Offset: 0x1DEE91C
-    static int GetInt(::Il2CppString* key, int defaultValue);
+    static int GetInt(::StringW key, int defaultValue);
     // static public System.Int32 GetInt(System.String key)
     // Offset: 0x1DEE96C
-    static int GetInt(::Il2CppString* key);
+    static int GetInt(::StringW key);
     // static public System.Void SetString(System.String key, System.String value)
     // Offset: 0x1DEE9B0
-    static void SetString(::Il2CppString* key, ::Il2CppString* value);
+    static void SetString(::StringW key, ::StringW value);
     // static public System.String GetString(System.String key, System.String defaultValue)
     // Offset: 0x1DEEA64
-    static ::Il2CppString* GetString(::Il2CppString* key, ::Il2CppString* defaultValue);
+    static ::StringW GetString(::StringW key, ::StringW defaultValue);
     // static public System.String GetString(System.String key)
     // Offset: 0x1DEEAB4
-    static ::Il2CppString* GetString(::Il2CppString* key);
+    static ::StringW GetString(::StringW key);
     // static public System.Void DeleteAll()
     // Offset: 0x1DEEB30
     static void DeleteAll();
@@ -57,7 +58,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::TrySetInt
 // Il2CppName: TrySetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&UnityEngine::PlayerPrefs::TrySetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&UnityEngine::PlayerPrefs::TrySetInt)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -67,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::TrySetSetString
 // Il2CppName: TrySetSetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::PlayerPrefs::TrySetSetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&UnityEngine::PlayerPrefs::TrySetSetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::SetInt
 // Il2CppName: SetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int)>(&UnityEngine::PlayerPrefs::SetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, int)>(&UnityEngine::PlayerPrefs::SetInt)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::GetInt
 // Il2CppName: GetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&UnityEngine::PlayerPrefs::GetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int)>(&UnityEngine::PlayerPrefs::GetInt)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -97,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::GetInt
 // Il2CppName: GetInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::PlayerPrefs::GetInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&UnityEngine::PlayerPrefs::GetInt)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerPrefs*), "GetInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::SetString
 // Il2CppName: SetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::PlayerPrefs::SetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&UnityEngine::PlayerPrefs::SetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::PlayerPrefs::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&UnityEngine::PlayerPrefs::GetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::PlayerPrefs::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::PlayerPrefs::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::PlayerPrefs::GetString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerPrefs*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Uri::MoreInfo);
@@ -35,27 +36,27 @@ namespace System {
     // public System.String Path
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Path;
+    ::StringW Path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Query
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Query;
+    ::StringW Query;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Fragment
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Fragment;
+    ::StringW Fragment;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String AbsoluteUri
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* AbsoluteUri;
+    ::StringW AbsoluteUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 Hash
     // Size: 0x4
     // Offset: 0x30
@@ -67,22 +68,22 @@ namespace System {
     // public System.String RemoteUrl
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* RemoteUrl;
+    ::StringW RemoteUrl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String Path
-    ::Il2CppString*& dyn_Path();
+    ::StringW& dyn_Path();
     // Get instance field reference: public System.String Query
-    ::Il2CppString*& dyn_Query();
+    ::StringW& dyn_Query();
     // Get instance field reference: public System.String Fragment
-    ::Il2CppString*& dyn_Fragment();
+    ::StringW& dyn_Fragment();
     // Get instance field reference: public System.String AbsoluteUri
-    ::Il2CppString*& dyn_AbsoluteUri();
+    ::StringW& dyn_AbsoluteUri();
     // Get instance field reference: public System.Int32 Hash
     int& dyn_Hash();
     // Get instance field reference: public System.String RemoteUrl
-    ::Il2CppString*& dyn_RemoteUrl();
+    ::StringW& dyn_RemoteUrl();
     // public System.Void .ctor()
     // Offset: 0x269DEA8
     // Implemented from: System.Object
@@ -94,7 +95,7 @@ namespace System {
     }
   }; // System.Uri/System.MoreInfo
   #pragma pack(pop)
-  static check_size<sizeof(Uri::MoreInfo), 56 + sizeof(::Il2CppString*)> __System_Uri_MoreInfoSizeCheck;
+  static check_size<sizeof(Uri::MoreInfo), 56 + sizeof(::StringW)> __System_Uri_MoreInfoSizeCheck;
   static_assert(sizeof(Uri::MoreInfo) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

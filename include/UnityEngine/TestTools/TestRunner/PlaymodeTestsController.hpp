@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner
@@ -91,9 +92,9 @@ namespace UnityEngine::TestTools::TestRunner {
     // private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesWithTests;
+    System::Collections::Generic::List_1<::StringW>* m_AssembliesWithTests;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
     // Size: 0x8
     // Offset: 0x28
@@ -136,13 +137,13 @@ namespace UnityEngine::TestTools::TestRunner {
     // static field const value: static System.String kPlaymodeTestControllerName
     static constexpr const char* kPlaymodeTestControllerName = "Code-based tests runner";
     // Get static field: static System.String kPlaymodeTestControllerName
-    static ::Il2CppString* _get_kPlaymodeTestControllerName();
+    static ::StringW _get_kPlaymodeTestControllerName();
     // Set static field: static System.String kPlaymodeTestControllerName
-    static void _set_kPlaymodeTestControllerName(::Il2CppString* value);
+    static void _set_kPlaymodeTestControllerName(::StringW value);
     // Get instance field reference: private System.Collections.IEnumerator m_TestSteps
     System::Collections::IEnumerator*& dyn_m_TestSteps();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> m_AssembliesWithTests
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_m_AssembliesWithTests();
+    System::Collections::Generic::List_1<::StringW>*& dyn_m_AssembliesWithTests();
     // Get instance field reference: UnityEngine.TestTools.TestRunner.TestStartedEvent testStartedEvent
     UnityEngine::TestTools::TestRunner::TestStartedEvent*& dyn_testStartedEvent();
     // Get instance field reference: UnityEngine.TestTools.TestRunner.TestFinishedEvent testFinishedEvent
@@ -157,10 +158,10 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*& dyn_m_Runner();
     // public System.Collections.Generic.List`1<System.String> get_AssembliesWithTests()
     // Offset: 0x16D6184
-    System::Collections::Generic::List_1<::Il2CppString*>* get_AssembliesWithTests();
+    System::Collections::Generic::List_1<::StringW>* get_AssembliesWithTests();
     // public System.Void set_AssembliesWithTests(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0x16D618C
-    void set_AssembliesWithTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    void set_AssembliesWithTests(System::Collections::Generic::List_1<::StringW>* value);
     // public System.Collections.IEnumerator Start()
     // Offset: 0x16D6194
     System::Collections::IEnumerator* Start();
@@ -204,7 +205,7 @@ namespace UnityEngine::TestTools::TestRunner {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::get_AssembliesWithTests
 // Il2CppName: get_AssembliesWithTests
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::get_AssembliesWithTests)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::get_AssembliesWithTests)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*), "get_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::set_AssembliesWithTests
 // Il2CppName: set_AssembliesWithTests
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::set_AssembliesWithTests)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::*)(System::Collections::Generic::List_1<::StringW>*)>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::set_AssembliesWithTests)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*), "set_AssembliesWithTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

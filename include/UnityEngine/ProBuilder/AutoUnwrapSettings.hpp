@@ -11,6 +11,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -342,7 +343,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x21DDA14
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.ProBuilder.AutoUnwrapSettings
   #pragma pack(pop)
   static check_size<sizeof(AutoUnwrapSettings), 28 + sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)> __UnityEngine_ProBuilder_AutoUnwrapSettingsSizeCheck;
@@ -553,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ProBuilder::AutoUnwrapSettings::*)()>(&UnityEngine::ProBuilder::AutoUnwrapSettings::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::AutoUnwrapSettings), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -39,7 +40,7 @@ namespace UnityEngine::Animations {
     public:
     // static System.Boolean InternalCreateAnimationOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x26363E8
-    static bool InternalCreateAnimationOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
+    static bool InternalCreateAnimationOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
   }; // UnityEngine.Animations.AnimationPlayableGraphExtensions
   #pragma pack(pop)
 }
@@ -47,7 +48,7 @@ namespace UnityEngine::Animations {
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
 // Il2CppName: InternalCreateAnimationOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::Il2CppString*, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::StringW, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

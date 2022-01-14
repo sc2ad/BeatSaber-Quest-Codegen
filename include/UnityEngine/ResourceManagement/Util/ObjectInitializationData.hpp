@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -25,9 +26,6 @@ namespace UnityEngine::ResourceManagement {
   class ResourceManager;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: ObjectInitializationData
@@ -49,9 +47,9 @@ namespace UnityEngine::ResourceManagement::Util {
     // private System.String m_Id
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_Id;
+    ::StringW m_Id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF280F8
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     // Size: 0x19
@@ -65,35 +63,35 @@ namespace UnityEngine::ResourceManagement::Util {
     // private System.String m_Data
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_Data;
+    ::StringW m_Data;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: ObjectInitializationData
-    constexpr ObjectInitializationData(::Il2CppString* m_Id_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType_ = {}, ::Il2CppString* m_Data_ = {}) noexcept : m_Id{m_Id_}, m_ObjectType{m_ObjectType_}, m_Data{m_Data_} {}
+    constexpr ObjectInitializationData(::StringW m_Id_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType_ = {}, ::StringW m_Data_ = {}) noexcept : m_Id{m_Id_}, m_ObjectType{m_ObjectType_}, m_Data{m_Data_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_Id
-    ::Il2CppString*& dyn_m_Id();
+    ::StringW& dyn_m_Id();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_ObjectType
     UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ObjectType();
     // Get instance field reference: private System.String m_Data
-    ::Il2CppString*& dyn_m_Data();
+    ::StringW& dyn_m_Data();
     // public System.String get_Id()
     // Offset: 0x1BF23F0
-    ::Il2CppString* get_Id();
+    ::StringW get_Id();
     // public UnityEngine.ResourceManagement.Util.SerializedType get_ObjectType()
     // Offset: 0x1BF23F8
     UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
     // public System.String get_Data()
     // Offset: 0x1BF2408
-    ::Il2CppString* get_Data();
+    ::StringW get_Data();
     // public TObject CreateInstance(System.String idOverride)
     // Offset: 0xFFFFFFFF
     template<class TObject>
-    TObject CreateInstance(::Il2CppString* idOverride) {
+    TObject CreateInstance(::StringW idOverride) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::ObjectInitializationData::CreateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "CreateInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(idOverride)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
@@ -101,22 +99,22 @@ namespace UnityEngine::ResourceManagement::Util {
     }
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle GetAsyncInitHandle(UnityEngine.ResourceManagement.ResourceManager rm, System.String idOverride)
     // Offset: 0x1BF249C
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(UnityEngine::ResourceManagement::ResourceManager* rm, ::Il2CppString* idOverride);
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
     // public override System.String ToString()
     // Offset: 0x1BF2410
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.ResourceManagement.Util.ObjectInitializationData
   #pragma pack(pop)
-  static check_size<sizeof(ObjectInitializationData), 40 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_Util_ObjectInitializationDataSizeCheck;
+  static check_size<sizeof(ObjectInitializationData), 40 + sizeof(::StringW)> __UnityEngine_ResourceManagement_Util_ObjectInitializationDataSizeCheck;
   static_assert(sizeof(ObjectInitializationData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ObjectInitializationData), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Data
 // Il2CppName: get_Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ObjectInitializationData), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle
 // Il2CppName: GetAsyncInitHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)(UnityEngine::ResourceManagement::ResourceManager*, ::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)(UnityEngine::ResourceManagement::ResourceManager*, ::StringW)>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle)> {
   static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* idOverride = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -153,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ObjectInitializationData), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

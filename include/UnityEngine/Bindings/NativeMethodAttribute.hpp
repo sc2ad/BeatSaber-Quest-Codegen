@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -43,9 +44,9 @@ namespace UnityEngine::Bindings {
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB0780
     // private System.Boolean <IsThreadSafe>k__BackingField
     // Size: 0x1
@@ -76,7 +77,7 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Boolean <IsThreadSafe>k__BackingField
     bool& dyn_$IsThreadSafe$k__BackingField();
     // Get instance field reference: private System.Boolean <IsFreeFunction>k__BackingField
@@ -87,7 +88,7 @@ namespace UnityEngine::Bindings {
     bool& dyn_$HasExplicitThis$k__BackingField();
     // public System.Void set_Name(System.String value)
     // Offset: 0x26C9FF0
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Void set_IsThreadSafe(System.Boolean value)
     // Offset: 0x26C9FF8
     void set_IsThreadSafe(bool value);
@@ -103,21 +104,21 @@ namespace UnityEngine::Bindings {
     // public System.Void .ctor(System.String name)
     // Offset: 0x26CA028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeMethodAttribute* New_ctor(::Il2CppString* name) {
+    static NativeMethodAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction)
     // Offset: 0x26C9DF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction) {
+    static NativeMethodAttribute* New_ctor(::StringW name, bool isFreeFunction) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name, isFreeFunction)));
     }
     // public System.Void .ctor(System.String name, System.Boolean isFreeFunction, System.Boolean isThreadSafe)
     // Offset: 0x26C9E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeMethodAttribute* New_ctor(::Il2CppString* name, bool isFreeFunction, bool isThreadSafe) {
+    static NativeMethodAttribute* New_ctor(::StringW name, bool isFreeFunction, bool isThreadSafe) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeMethodAttribute*, creationType>(name, isFreeFunction, isThreadSafe)));
     }
@@ -140,7 +141,7 @@ namespace UnityEngine::Bindings {
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW)>(&UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

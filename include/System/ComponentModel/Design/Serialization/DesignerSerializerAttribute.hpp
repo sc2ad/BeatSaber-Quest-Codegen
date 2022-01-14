@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel.Design.Serialization
 namespace System::ComponentModel::Design::Serialization {
@@ -41,30 +42,30 @@ namespace System::ComponentModel::Design::Serialization {
     // private System.String serializerTypeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* serializerTypeName;
+    ::StringW serializerTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String serializerBaseTypeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* serializerBaseTypeName;
+    ::StringW serializerBaseTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String serializerTypeName
-    ::Il2CppString*& dyn_serializerTypeName();
+    ::StringW& dyn_serializerTypeName();
     // Get instance field reference: private System.String serializerBaseTypeName
-    ::Il2CppString*& dyn_serializerBaseTypeName();
+    ::StringW& dyn_serializerBaseTypeName();
     // public System.Void .ctor(System.String serializerTypeName, System.String baseSerializerTypeName)
     // Offset: 0x1A266BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesignerSerializerAttribute* New_ctor(::Il2CppString* serializerTypeName, ::Il2CppString* baseSerializerTypeName) {
+    static DesignerSerializerAttribute* New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Design::Serialization::DesignerSerializerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerSerializerAttribute*, creationType>(serializerTypeName, baseSerializerTypeName)));
     }
   }; // System.ComponentModel.Design.Serialization.DesignerSerializerAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DesignerSerializerAttribute), 24 + sizeof(::Il2CppString*)> __System_ComponentModel_Design_Serialization_DesignerSerializerAttributeSizeCheck;
+  static check_size<sizeof(DesignerSerializerAttribute), 24 + sizeof(::StringW)> __System_ComponentModel_Design_Serialization_DesignerSerializerAttributeSizeCheck;
   static_assert(sizeof(DesignerSerializerAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

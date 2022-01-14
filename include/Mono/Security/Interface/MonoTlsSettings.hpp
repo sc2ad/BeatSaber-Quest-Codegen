@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -90,9 +91,9 @@ namespace Mono::Security::Interface {
     // private System.String[] <CertificateSearchPaths>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<::Il2CppString*> CertificateSearchPaths;
+    ::ArrayW<::StringW> CertificateSearchPaths;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Boolean <SendCloseNotify>k__BackingField
     // Size: 0x1
     // Offset: 0x48
@@ -165,7 +166,7 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.Object <UserSettings>k__BackingField
     ::Il2CppObject*& dyn_$UserSettings$k__BackingField();
     // Get instance field reference: private System.String[] <CertificateSearchPaths>k__BackingField
-    ::ArrayW<::Il2CppString*>& dyn_$CertificateSearchPaths$k__BackingField();
+    ::ArrayW<::StringW>& dyn_$CertificateSearchPaths$k__BackingField();
     // Get instance field reference: private System.Boolean <SendCloseNotify>k__BackingField
     bool& dyn_$SendCloseNotify$k__BackingField();
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.TlsProtocols> <EnabledProtocols>k__BackingField
@@ -227,10 +228,10 @@ namespace Mono::Security::Interface {
     void set_UserSettings(::Il2CppObject* value);
     // System.String[] get_CertificateSearchPaths()
     // Offset: 0x1F95120
-    ::ArrayW<::Il2CppString*> get_CertificateSearchPaths();
+    ::ArrayW<::StringW> get_CertificateSearchPaths();
     // System.Void set_CertificateSearchPaths(System.String[] value)
     // Offset: 0x1F95128
-    void set_CertificateSearchPaths(::ArrayW<::Il2CppString*> value);
+    void set_CertificateSearchPaths(::ArrayW<::StringW> value);
     // System.Boolean get_SendCloseNotify()
     // Offset: 0x1F95130
     bool get_SendCloseNotify();
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths
 // Il2CppName: get_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -405,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths
 // Il2CppName: set_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::Il2CppString*>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::StringW>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

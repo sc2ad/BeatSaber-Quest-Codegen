@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
@@ -41,26 +42,26 @@ namespace JetBrains::Annotations {
     // private System.String <AnonymousProperty>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* AnonymousProperty;
+    ::StringW AnonymousProperty;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return AnonymousProperty;
     }
     // Get instance field reference: private System.String <AnonymousProperty>k__BackingField
-    ::Il2CppString*& dyn_$AnonymousProperty$k__BackingField();
+    ::StringW& dyn_$AnonymousProperty$k__BackingField();
     // public System.String get_AnonymousProperty()
     // Offset: 0x26B9CA4
-    ::Il2CppString* get_AnonymousProperty();
+    ::StringW get_AnonymousProperty();
     // private System.Void set_AnonymousProperty(System.String value)
     // Offset: 0x26B9CAC
-    void set_AnonymousProperty(::Il2CppString* value);
+    void set_AnonymousProperty(::StringW value);
     // public System.Void .ctor(System.String anonymousProperty)
     // Offset: 0x26B9C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AspMvcControllerAttribute* New_ctor(::Il2CppString* anonymousProperty) {
+    static AspMvcControllerAttribute* New_ctor(::StringW anonymousProperty) {
       static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcControllerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcControllerAttribute*, creationType>(anonymousProperty)));
     }
@@ -76,14 +77,14 @@ namespace JetBrains::Annotations {
     }
   }; // JetBrains.Annotations.AspMvcControllerAttribute
   #pragma pack(pop)
-  static check_size<sizeof(AspMvcControllerAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcControllerAttributeSizeCheck;
+  static check_size<sizeof(AspMvcControllerAttribute), 16 + sizeof(::StringW)> __JetBrains_Annotations_AspMvcControllerAttributeSizeCheck;
   static_assert(sizeof(AspMvcControllerAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcControllerAttribute::get_AnonymousProperty
 // Il2CppName: get_AnonymousProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspMvcControllerAttribute::*)()>(&JetBrains::Annotations::AspMvcControllerAttribute::get_AnonymousProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::AspMvcControllerAttribute::*)()>(&JetBrains::Annotations::AspMvcControllerAttribute::get_AnonymousProperty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcControllerAttribute*), "get_AnonymousProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProperty
 // Il2CppName: set_AnonymousProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcControllerAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcControllerAttribute::*)(::StringW)>(&JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProperty)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcControllerAttribute*), "set_AnonymousProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

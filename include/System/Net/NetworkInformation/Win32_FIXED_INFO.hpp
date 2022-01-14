@@ -13,6 +13,7 @@
 #include "System/Net/NetworkInformation/Win32_IP_ADDR_STRING.hpp"
 // Including type: System.Net.NetworkInformation.NetBiosNodeType
 #include "System/Net/NetworkInformation/NetBiosNodeType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
@@ -34,15 +35,15 @@ namespace System::Net::NetworkInformation {
     // public System.String HostName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* HostName;
+    ::StringW HostName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String DomainName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* DomainName;
+    ::StringW DomainName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.IntPtr CurrentDnsServer
     // Size: 0x8
     // Offset: 0x10
@@ -68,9 +69,9 @@ namespace System::Net::NetworkInformation {
     // public System.String ScopeId
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* ScopeId;
+    ::StringW ScopeId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.UInt32 EnableRouting
     // Size: 0x4
     // Offset: 0x48
@@ -91,15 +92,15 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Creating value type constructor for type: Win32_FIXED_INFO
-    constexpr Win32_FIXED_INFO(::Il2CppString* HostName_ = {}, ::Il2CppString* DomainName_ = {}, System::IntPtr CurrentDnsServer_ = {}, System::Net::NetworkInformation::Win32_IP_ADDR_STRING DnsServerList_ = {}, System::Net::NetworkInformation::NetBiosNodeType NodeType_ = {}, ::Il2CppString* ScopeId_ = {}, uint EnableRouting_ = {}, uint EnableProxy_ = {}, uint EnableDns_ = {}) noexcept : HostName{HostName_}, DomainName{DomainName_}, CurrentDnsServer{CurrentDnsServer_}, DnsServerList{DnsServerList_}, NodeType{NodeType_}, ScopeId{ScopeId_}, EnableRouting{EnableRouting_}, EnableProxy{EnableProxy_}, EnableDns{EnableDns_} {}
+    constexpr Win32_FIXED_INFO(::StringW HostName_ = {}, ::StringW DomainName_ = {}, System::IntPtr CurrentDnsServer_ = {}, System::Net::NetworkInformation::Win32_IP_ADDR_STRING DnsServerList_ = {}, System::Net::NetworkInformation::NetBiosNodeType NodeType_ = {}, ::StringW ScopeId_ = {}, uint EnableRouting_ = {}, uint EnableProxy_ = {}, uint EnableDns_ = {}) noexcept : HostName{HostName_}, DomainName{DomainName_}, CurrentDnsServer{CurrentDnsServer_}, DnsServerList{DnsServerList_}, NodeType{NodeType_}, ScopeId{ScopeId_}, EnableRouting{EnableRouting_}, EnableProxy{EnableProxy_}, EnableDns{EnableDns_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String HostName
-    ::Il2CppString*& dyn_HostName();
+    ::StringW& dyn_HostName();
     // Get instance field reference: public System.String DomainName
-    ::Il2CppString*& dyn_DomainName();
+    ::StringW& dyn_DomainName();
     // Get instance field reference: public System.IntPtr CurrentDnsServer
     System::IntPtr& dyn_CurrentDnsServer();
     // Get instance field reference: public System.Net.NetworkInformation.Win32_IP_ADDR_STRING DnsServerList
@@ -107,7 +108,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.Net.NetworkInformation.NetBiosNodeType NodeType
     System::Net::NetworkInformation::NetBiosNodeType& dyn_NodeType();
     // Get instance field reference: public System.String ScopeId
-    ::Il2CppString*& dyn_ScopeId();
+    ::StringW& dyn_ScopeId();
     // Get instance field reference: public System.UInt32 EnableRouting
     uint& dyn_EnableRouting();
     // Get instance field reference: public System.UInt32 EnableProxy

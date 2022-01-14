@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -102,9 +103,9 @@ namespace GlobalNamespace {
     // public System.String headerString
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* headerString;
+    ::StringW headerString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public INetworkPlayer player
     // Size: 0x8
     // Offset: 0x20
@@ -121,7 +122,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public NetworkPlayersTableView/CellInfo/CellType type
     GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType& dyn_type();
     // Get instance field reference: public System.String headerString
-    ::Il2CppString*& dyn_headerString();
+    ::StringW& dyn_headerString();
     // Get instance field reference: public INetworkPlayer player
     GlobalNamespace::INetworkPlayer*& dyn_player();
     // Get instance field reference: public System.Boolean lastCellInParty

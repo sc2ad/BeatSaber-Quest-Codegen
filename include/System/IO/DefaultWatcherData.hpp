@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -58,15 +59,15 @@ namespace System::IO {
     // public System.String Directory
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Directory;
+    ::StringW Directory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String FileMask
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* FileMask;
+    ::StringW FileMask;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean IncludeSubdirs
     // Size: 0x1
     // Offset: 0x28
@@ -109,9 +110,9 @@ namespace System::IO {
     // Get instance field reference: public System.IO.FileSystemWatcher FSW
     System::IO::FileSystemWatcher*& dyn_FSW();
     // Get instance field reference: public System.String Directory
-    ::Il2CppString*& dyn_Directory();
+    ::StringW& dyn_Directory();
     // Get instance field reference: public System.String FileMask
-    ::Il2CppString*& dyn_FileMask();
+    ::StringW& dyn_FileMask();
     // Get instance field reference: public System.Boolean IncludeSubdirs
     bool& dyn_IncludeSubdirs();
     // Get instance field reference: public System.Boolean Enabled

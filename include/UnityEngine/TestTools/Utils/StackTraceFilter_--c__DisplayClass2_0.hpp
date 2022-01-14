@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0);
@@ -36,19 +37,19 @@ namespace UnityEngine::TestTools::Utils {
     // public System.String line
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* line;
+    ::StringW line;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return line;
     }
     // Get instance field reference: public System.String line
-    ::Il2CppString*& dyn_line();
+    ::StringW& dyn_line();
     // System.Boolean <Filter>b__0(System.String s)
     // Offset: 0x26B5010
-    bool $Filter$b__0(::Il2CppString* s);
+    bool $Filter$b__0(::StringW s);
     // public System.Void .ctor()
     // Offset: 0x26B4E28
     // Implemented from: System.Object
@@ -60,14 +61,14 @@ namespace UnityEngine::TestTools::Utils {
     }
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/UnityEngine.TestTools.Utils.<>c__DisplayClass2_0
   #pragma pack(pop)
-  static check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
+  static check_size<sizeof(StackTraceFilter::$$c__DisplayClass2_0), 16 + sizeof(::StringW)> __UnityEngine_TestTools_Utils_StackTraceFilter_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(StackTraceFilter::$$c__DisplayClass2_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0
 // Il2CppName: <Filter>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::*)(::StringW)>(&UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::$Filter$b__0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*), "<Filter>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -65,15 +66,15 @@ namespace System::Net::Http::Headers {
     // private System.Collections.Generic.List`1<System.String> no_cache_headers
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::Il2CppString*>* no_cache_headers;
+    System::Collections::Generic::List_1<::StringW>* no_cache_headers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private System.Collections.Generic.List`1<System.String> private_headers
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppString*>* private_headers;
+    System::Collections::Generic::List_1<::StringW>* private_headers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x28
@@ -152,9 +153,9 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> extensions
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_extensions();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> no_cache_headers
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_no_cache_headers();
+    System::Collections::Generic::List_1<::StringW>*& dyn_no_cache_headers();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> private_headers
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_private_headers();
+    System::Collections::Generic::List_1<::StringW>*& dyn_private_headers();
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <MaxAge>k__BackingField
     System::Nullable_1<System::TimeSpan>& dyn_$MaxAge$k__BackingField();
     // Get instance field reference: private System.Boolean <MaxStale>k__BackingField
@@ -222,7 +223,7 @@ namespace System::Net::Http::Headers {
     void set_NoCache(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_NoCacheHeaders()
     // Offset: 0x17BAF1C
-    System::Collections::Generic::ICollection_1<::Il2CppString*>* get_NoCacheHeaders();
+    System::Collections::Generic::ICollection_1<::StringW>* get_NoCacheHeaders();
     // public System.Boolean get_NoStore()
     // Offset: 0x17BAF90
     bool get_NoStore();
@@ -249,7 +250,7 @@ namespace System::Net::Http::Headers {
     void set_Private(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_PrivateHeaders()
     // Offset: 0x17BAFE0
-    System::Collections::Generic::ICollection_1<::Il2CppString*>* get_PrivateHeaders();
+    System::Collections::Generic::ICollection_1<::StringW>* get_PrivateHeaders();
     // public System.Boolean get_ProxyRevalidate()
     // Offset: 0x17BB054
     bool get_ProxyRevalidate();
@@ -273,7 +274,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.CacheControlHeaderValue parsedValue)
     // Offset: 0x17BB994
-    static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
+    static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
     // public System.Void .ctor()
     // Offset: 0x17BC280
     // Implemented from: System.Object
@@ -297,7 +298,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x17BC3F8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.Headers.CacheControlHeaderValue
   // WARNING Not writing size check since size may be invalid!
 }
@@ -415,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders
 // Il2CppName: get_NoCacheHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::StringW>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_NoCacheHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -491,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders
 // Il2CppName: get_PrivateHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::StringW>* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "get_PrivateHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -558,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::Http::Headers::CacheControlHeaderValue*>)>(&System::Net::Http::Headers::CacheControlHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Net::Http::Headers::CacheControlHeaderValue*>)>(&System::Net::Http::Headers::CacheControlHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "CacheControlHeaderValue")->this_arg;
@@ -589,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&System::Net::Http::Headers::CacheControlHeaderValue::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CacheControlHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

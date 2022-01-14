@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -304,9 +305,9 @@ namespace HoudiniEngineUnity {
     // private System.String _filePath
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* filePath;
+    ::StringW filePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData _loadData
     // Size: 0x8
     // Offset: 0x60
@@ -329,23 +330,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.LoadType _loadType
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType& dyn__loadType();
     // Get instance field reference: private System.String _filePath
-    ::Il2CppString*& dyn__filePath();
+    ::StringW& dyn__filePath();
     // Get instance field reference: private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData _loadData
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData*& dyn__loadData();
     // Get instance field reference: private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback _loadCallback
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*& dyn__loadCallback();
     // public System.Void SetupLoad(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.LoadType loadType, System.Int32 cookNodeID, System.String name, System.String filePath)
     // Offset: 0x177CE90
-    void SetupLoad(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType loadType, int cookNodeID, ::Il2CppString* name, ::Il2CppString* filePath);
+    void SetupLoad(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType loadType, int cookNodeID, ::StringW name, ::StringW filePath);
     // public System.Void SetupLoadNode(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.Int32 cookNodeID, System.String name)
     // Offset: 0x177CF8C
-    void SetupLoadNode(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::Il2CppString* name);
+    void SetupLoadNode(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::StringW name);
     // public System.Void SetupLoadFile(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.Int32 cookNodeID, System.String filePath)
     // Offset: 0x177CFA0
-    void SetupLoadFile(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::Il2CppString* filePath);
+    void SetupLoadFile(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, int cookNodeID, ::StringW filePath);
     // public System.Void SetupLoadAsset(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_BaseSync ownerSync, System.String assetPath, System.String name)
     // Offset: 0x177CFB4
-    void SetupLoadAsset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::Il2CppString* assetPath, ::Il2CppString* name);
+    void SetupLoadAsset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::StringW assetPath, ::StringW name);
     // public System.Void SetLoadCallback(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadCallback loadCallback)
     // Offset: 0x177CFC8
     void SetLoadCallback(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* loadCallback);
@@ -372,13 +373,13 @@ namespace HoudiniEngineUnity {
     bool QueryParts(int nodeID, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>*> meshParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>*> volumeParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>*> instancerParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>*> curveParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>*> scatterInstancerParts);
     // private System.String CreateLogString(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
     // Offset: 0x1780938
-    ::Il2CppString* CreateLogString(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::Il2CppString* logStr);
+    ::StringW CreateLogString(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Void AppendLog(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
     // Offset: 0x177D2E4
-    void AppendLog(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::Il2CppString* logStr);
+    void AppendLog(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Void SetLog(HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus status, System.String logStr)
     // Offset: 0x17809E8
-    void SetLog(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::Il2CppString* logStr);
+    void SetLog(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus status, ::StringW logStr);
     // private System.Boolean CreateFileNode(out System.Int32 fileNodeID)
     // Offset: 0x17802E4
     bool CreateFileNode(ByRef<int> fileNodeID);
@@ -390,7 +391,7 @@ namespace HoudiniEngineUnity {
     int GetDisplayNodeID(int objNodeID);
     // private System.Boolean SetFileParm(System.Int32 fileNodeID, System.String filePath)
     // Offset: 0x17803CC
-    bool SetFileParm(int fileNodeID, ::Il2CppString* filePath);
+    bool SetFileParm(int fileNodeID, ::StringW filePath);
     // private System.Void Sleep()
     // Offset: 0x177D9B0
     void Sleep();
@@ -399,16 +400,16 @@ namespace HoudiniEngineUnity {
     bool GenerateTerrainBuffers(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>* volumeParts, System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>* scatterInstancerParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolume*>*> volumeBuffers);
     // private System.Void LoadStringFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.String strValue)
     // Offset: 0x1780B24
-    void LoadStringFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<::Il2CppString*> strValue);
+    void LoadStringFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::StringW> strValue);
     // private System.Void LoadFloatFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.Single floatValue)
     // Offset: 0x1780BB8
-    void LoadFloatFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<float> floatValue);
+    void LoadFloatFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> floatValue);
     // private System.Void LoadLayerColorFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color colorValue)
     // Offset: 0x1780CD8
-    void LoadLayerColorFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Color> colorValue);
+    void LoadLayerColorFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Color> colorValue);
     // private System.Void LoadLayerVector2FromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Vector2 vectorValue)
     // Offset: 0x1780E9C
-    void LoadLayerVector2FromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Vector2> vectorValue);
+    void LoadLayerVector2FromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Vector2> vectorValue);
     // public System.Boolean GenerateMeshBuffers(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Collections.Generic.List`1<HoudiniEngineUnity.HAPI_PartInfo> meshParts, System.Boolean bSplitPoints, System.Boolean bUseLODGroups, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferMesh> meshBuffers)
     // Offset: 0x177E1A0
     bool GenerateMeshBuffers(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>* meshParts, bool bSplitPoints, bool bUseLODGroups, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferMesh*>*> meshBuffers);
@@ -417,10 +418,10 @@ namespace HoudiniEngineUnity {
     bool GenerateInstancerBuffers(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, System::Collections::Generic::List_1<HoudiniEngineUnity::HAPI_PartInfo>* instancerParts, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> instancerBuffers);
     // private HoudiniEngineUnity.HEU_LoadBufferInstancer GeneratePartsInstancerBuffer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String partName, HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x1781118
-    HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* partName, HoudiniEngineUnity::HAPI_PartInfo partInfo);
+    HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW partName, HoudiniEngineUnity::HAPI_PartInfo partInfo);
     // private HoudiniEngineUnity.HEU_LoadBufferInstancer GeneratePointAttributeInstancerBuffer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String partName, HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x1781390
-    HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* partName, HoudiniEngineUnity::HAPI_PartInfo partInfo);
+    HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW partName, HoudiniEngineUnity::HAPI_PartInfo partInfo);
     // static public HoudiniEngineUnity.HEU_LoadBufferVolume GetLoadBufferVolumeFromTileIndex(System.Int32 tileIndex, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolume> buffers)
     // Offset: 0x1781004
     static HoudiniEngineUnity::HEU_LoadBufferVolume* GetLoadBufferVolumeFromTileIndex(int tileIndex, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferVolume*>* buffers);
@@ -470,7 +471,7 @@ DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, "H
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoad
 // Il2CppName: SetupLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, int, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadType, int, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoad)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* ownerSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
@@ -484,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadNode
 // Il2CppName: SetupLoadNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, int, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, int, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadNode)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* ownerSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadFile
 // Il2CppName: SetupLoadFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, int, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, int, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadFile)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* ownerSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
@@ -508,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadAsset
 // Il2CppName: SetupLoadAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_BaseSync*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetupLoadAsset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* ownerSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
@@ -599,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::CreateLogString
 // Il2CppName: CreateLogString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::CreateLogString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::CreateLogString)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData/LoadStatus")->byval_arg;
     static auto* logStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -609,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::AppendLog
 // Il2CppName: AppendLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::AppendLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::AppendLog)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData/LoadStatus")->byval_arg;
     static auto* logStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -619,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetLog
 // Il2CppName: SetLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetLog)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ThreadedTaskLoadGeo/HEU_LoadData/LoadStatus")->byval_arg;
     static auto* logStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -655,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetFileParm
 // Il2CppName: SetFileParm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(int, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetFileParm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(int, ::StringW)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::SetFileParm)> {
   static const MethodInfo* get() {
     static auto* fileNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -686,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadStringFromAttribute
 // Il2CppName: LoadStringFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadStringFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::StringW>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadStringFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -699,7 +700,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadFloatFromAttribute
 // Il2CppName: LoadFloatFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<float>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadFloatFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<float>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadFloatFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -712,7 +713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerColorFromAttribute
 // Il2CppName: LoadLayerColorFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerColorFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerColorFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -725,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerVector2FromAttribute
 // Il2CppName: LoadLayerVector2FromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<UnityEngine::Vector2>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerVector2FromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Vector2>)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::LoadLayerVector2FromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -767,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePartsInstancerBuffer
 // Il2CppName: GeneratePartsInstancerBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_LoadBufferInstancer* (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, HoudiniEngineUnity::HAPI_PartInfo)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePartsInstancerBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_LoadBufferInstancer* (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_PartInfo)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePartsInstancerBuffer)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -780,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePointAttributeInstancerBuffer
 // Il2CppName: GeneratePointAttributeInstancerBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_LoadBufferInstancer* (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, HoudiniEngineUnity::HAPI_PartInfo)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePointAttributeInstancerBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_LoadBufferInstancer* (HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_PartInfo)>(&HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::GeneratePointAttributeInstancerBuffer)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

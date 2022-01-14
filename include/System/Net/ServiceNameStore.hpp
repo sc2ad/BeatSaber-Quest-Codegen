@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -51,9 +52,9 @@ namespace System::Net {
     // private System.Collections.Generic.List`1<System.String> serviceNames
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::Il2CppString*>* serviceNames;
+    System::Collections::Generic::List_1<::StringW>* serviceNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +63,7 @@ namespace System::Net {
     static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> serviceNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_serviceNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn_serviceNames();
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
     System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& dyn_serviceNameCollection();
     // public System.Void .ctor()

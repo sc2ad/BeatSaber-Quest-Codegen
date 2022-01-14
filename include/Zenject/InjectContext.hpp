@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -93,9 +94,9 @@ namespace Zenject {
     // private System.String _memberName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* memberName;
+    ::StringW memberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _optional
     // Size: 0x1
     // Offset: 0x40
@@ -142,7 +143,7 @@ namespace Zenject {
     // Get instance field reference: private System.Object _objectInstance
     ::Il2CppObject*& dyn__objectInstance();
     // Get instance field reference: private System.String _memberName
-    ::Il2CppString*& dyn__memberName();
+    ::StringW& dyn__memberName();
     // Get instance field reference: private System.Boolean _optional
     bool& dyn__optional();
     // Get instance field reference: private Zenject.InjectSources _sourceType
@@ -182,10 +183,10 @@ namespace Zenject {
     void set_Identifier(::Il2CppObject* value);
     // public System.String get_MemberName()
     // Offset: 0x1AB44AC
-    ::Il2CppString* get_MemberName();
+    ::StringW get_MemberName();
     // public System.Void set_MemberName(System.String value)
     // Offset: 0x1AB44B4
-    void set_MemberName(::Il2CppString* value);
+    void set_MemberName(::StringW value);
     // public System.Type get_MemberType()
     // Offset: 0x1AB2E5C
     System::Type* get_MemberType();
@@ -269,7 +270,7 @@ namespace Zenject {
     Zenject::InjectContext* Clone();
     // public System.String GetObjectGraphString()
     // Offset: 0x1AB47FC
-    ::Il2CppString* GetObjectGraphString();
+    ::StringW GetObjectGraphString();
     // public System.Void .ctor()
     // Offset: 0x1AB42B0
     // Implemented from: System.Object
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::InjectContext::get_MemberName
 // Il2CppName: get_MemberName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::InjectContext::*)()>(&Zenject::InjectContext::get_MemberName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::InjectContext::*)()>(&Zenject::InjectContext::get_MemberName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext*), "get_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -372,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Zenject::InjectContext::set_MemberName
 // Il2CppName: set_MemberName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::*)(::Il2CppString*)>(&Zenject::InjectContext::set_MemberName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::*)(::StringW)>(&Zenject::InjectContext::set_MemberName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext*), "set_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -562,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::InjectContext::GetObjectGraphString
 // Il2CppName: GetObjectGraphString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::InjectContext::*)()>(&Zenject::InjectContext::GetObjectGraphString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::InjectContext::*)()>(&Zenject::InjectContext::GetObjectGraphString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext*), "GetObjectGraphString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

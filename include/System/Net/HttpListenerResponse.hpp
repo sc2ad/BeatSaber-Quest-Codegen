@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -101,9 +102,9 @@ namespace System::Net {
     // private System.String content_type
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* content_type;
+    ::StringW content_type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.CookieCollection cookies
     // Size: 0x8
     // Offset: 0x38
@@ -139,9 +140,9 @@ namespace System::Net {
     // private System.String location
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* location;
+    ::StringW location;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 status_code
     // Size: 0x4
     // Offset: 0x68
@@ -153,9 +154,9 @@ namespace System::Net {
     // private System.String status_description
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* status_description;
+    ::StringW status_description;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean chunked
     // Size: 0x1
     // Offset: 0x78
@@ -196,9 +197,9 @@ namespace System::Net {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // Get static field: static private System.String tspecials
-    static ::Il2CppString* _get_tspecials();
+    static ::StringW _get_tspecials();
     // Set static field: static private System.String tspecials
-    static void _set_tspecials(::Il2CppString* value);
+    static void _set_tspecials(::StringW value);
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Text.Encoding content_encoding
@@ -208,7 +209,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean cl_set
     bool& dyn_cl_set();
     // Get instance field reference: private System.String content_type
-    ::Il2CppString*& dyn_content_type();
+    ::StringW& dyn_content_type();
     // Get instance field reference: private System.Net.CookieCollection cookies
     System::Net::CookieCollection*& dyn_cookies();
     // Get instance field reference: private System.Net.WebHeaderCollection headers
@@ -220,11 +221,11 @@ namespace System::Net {
     // Get instance field reference: private System.Version version
     System::Version*& dyn_version();
     // Get instance field reference: private System.String location
-    ::Il2CppString*& dyn_location();
+    ::StringW& dyn_location();
     // Get instance field reference: private System.Int32 status_code
     int& dyn_status_code();
     // Get instance field reference: private System.String status_description
-    ::Il2CppString*& dyn_status_description();
+    ::StringW& dyn_status_description();
     // Get instance field reference: private System.Boolean chunked
     bool& dyn_chunked();
     // Get instance field reference: private System.Net.HttpListenerContext context
@@ -246,7 +247,7 @@ namespace System::Net {
     void set_ContentLength64(int64_t value);
     // public System.Void set_ContentType(System.String value)
     // Offset: 0x18A84EC
-    void set_ContentType(::Il2CppString* value);
+    void set_ContentType(::StringW value);
     // public System.Net.WebHeaderCollection get_Headers()
     // Offset: 0x18AEC10
     System::Net::WebHeaderCollection* get_Headers();
@@ -289,16 +290,16 @@ namespace System::Net {
     void SendHeaders(bool closing, System::IO::MemoryStream* ms);
     // static private System.String FormatHeaders(System.Net.WebHeaderCollection headers)
     // Offset: 0x18AF7AC
-    static ::Il2CppString* FormatHeaders(System::Net::WebHeaderCollection* headers);
+    static ::StringW FormatHeaders(System::Net::WebHeaderCollection* headers);
     // static private System.String CookieToClientString(System.Net.Cookie cookie)
     // Offset: 0x18AF54C
-    static ::Il2CppString* CookieToClientString(System::Net::Cookie* cookie);
+    static ::StringW CookieToClientString(System::Net::Cookie* cookie);
     // static private System.String QuotedString(System.Net.Cookie cookie, System.String value)
     // Offset: 0x18AF9FC
-    static ::Il2CppString* QuotedString(System::Net::Cookie* cookie, ::Il2CppString* value);
+    static ::StringW QuotedString(System::Net::Cookie* cookie, ::StringW value);
     // static private System.Boolean IsToken(System.String value)
     // Offset: 0x18AFAD0
-    static bool IsToken(::Il2CppString* value);
+    static bool IsToken(::StringW value);
   }; // System.Net.HttpListenerResponse
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerResponse), 152 + sizeof(bool)> __System_Net_HttpListenerResponseSizeCheck;
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::set_ContentType
 // Il2CppName: set_ContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::Il2CppString*)>(&System::Net::HttpListenerResponse::set_ContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::StringW)>(&System::Net::HttpListenerResponse::set_ContentType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerResponse*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -441,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::FormatHeaders
 // Il2CppName: FormatHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebHeaderCollection*)>(&System::Net::HttpListenerResponse::FormatHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::WebHeaderCollection*)>(&System::Net::HttpListenerResponse::FormatHeaders)> {
   static const MethodInfo* get() {
     static auto* headers = &::il2cpp_utils::GetClassFromName("System.Net", "WebHeaderCollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerResponse*), "FormatHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers});
@@ -450,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::CookieToClientString
 // Il2CppName: CookieToClientString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*)>(&System::Net::HttpListenerResponse::CookieToClientString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::Cookie*)>(&System::Net::HttpListenerResponse::CookieToClientString)> {
   static const MethodInfo* get() {
     static auto* cookie = &::il2cpp_utils::GetClassFromName("System.Net", "Cookie")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerResponse*), "CookieToClientString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cookie});
@@ -459,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::QuotedString
 // Il2CppName: QuotedString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::Cookie*, ::Il2CppString*)>(&System::Net::HttpListenerResponse::QuotedString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::Cookie*, ::StringW)>(&System::Net::HttpListenerResponse::QuotedString)> {
   static const MethodInfo* get() {
     static auto* cookie = &::il2cpp_utils::GetClassFromName("System.Net", "Cookie")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -469,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::IsToken
 // Il2CppName: IsToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::HttpListenerResponse::IsToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::HttpListenerResponse::IsToken)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerResponse*), "IsToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

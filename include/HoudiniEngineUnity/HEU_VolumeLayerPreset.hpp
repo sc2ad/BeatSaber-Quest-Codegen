@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -38,9 +39,9 @@ namespace HoudiniEngineUnity {
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* layerName;
+    ::StringW layerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single _strength
     // Size: 0x4
     // Offset: 0x18
@@ -64,7 +65,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _layerName
-    ::Il2CppString*& dyn__layerName();
+    ::StringW& dyn__layerName();
     // Get instance field reference: public System.Single _strength
     float& dyn__strength();
     // Get instance field reference: public System.Boolean _uiExpanded

@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -54,9 +55,9 @@ namespace System::IO {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // Get static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate
-    static System::Func_2<::Il2CppObject*, ::Il2CppString*>* _get__ReadLineDelegate();
+    static System::Func_2<::Il2CppObject*, ::StringW>* _get__ReadLineDelegate();
     // Set static field: static private System.Func`2<System.Object,System.String> _ReadLineDelegate
-    static void _set__ReadLineDelegate(System::Func_2<::Il2CppObject*, ::Il2CppString*>* value);
+    static void _set__ReadLineDelegate(System::Func_2<::Il2CppObject*, ::StringW>* value);
     // Get static field: static private System.Func`2<System.Object,System.Int32> _ReadDelegate
     static System::Func_2<::Il2CppObject*, int>* _get__ReadDelegate();
     // Set static field: static private System.Func`2<System.Object,System.Int32> _ReadDelegate
@@ -88,10 +89,10 @@ namespace System::IO {
     int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public System.String ReadToEnd()
     // Offset: 0x1A09D04
-    ::Il2CppString* ReadToEnd();
+    ::StringW ReadToEnd();
     // public System.String ReadLine()
     // Offset: 0x1A09DFC
-    ::Il2CppString* ReadLine();
+    ::StringW ReadLine();
     // static public System.IO.TextReader Synchronized(System.IO.TextReader reader)
     // Offset: 0x1A09F00
     static System::IO::TextReader* Synchronized(System::IO::TextReader* reader);
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::TextReader::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::*)()>(&System::IO::TextReader::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::TextReader::*)()>(&System::IO::TextReader::ReadToEnd)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::TextReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::*)()>(&System::IO::TextReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::TextReader::*)()>(&System::IO::TextReader::ReadLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -53,31 +54,31 @@ namespace UnityEngine {
     // private readonly System.String <preferredExtension>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* preferredExtension;
+    ::StringW preferredExtension;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB0564
     // private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* otherExtensions;
+    System::Collections::Generic::IEnumerable_1<::StringW>* otherExtensions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String <preferredExtension>k__BackingField
-    ::Il2CppString*& dyn_$preferredExtension$k__BackingField();
+    ::StringW& dyn_$preferredExtension$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.IEnumerable`1<System.String> <otherExtensions>k__BackingField
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>*& dyn_$otherExtensions$k__BackingField();
+    System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_$otherExtensions$k__BackingField();
     // public System.Void .ctor(System.String preferredExtension, params System.String[] otherExtensions)
     // Offset: 0x26C9D60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetFileNameExtensionAttribute* New_ctor(::Il2CppString* preferredExtension, ::ArrayW<::Il2CppString*> otherExtensions) {
+    static AssetFileNameExtensionAttribute* New_ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetFileNameExtensionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileNameExtensionAttribute*, creationType>(preferredExtension, otherExtensions)));
     }
   }; // UnityEngine.AssetFileNameExtensionAttribute
   #pragma pack(pop)
-  static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
+  static check_size<sizeof(AssetFileNameExtensionAttribute), 24 + sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*)> __UnityEngine_AssetFileNameExtensionAttributeSizeCheck;
   static_assert(sizeof(AssetFileNameExtensionAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

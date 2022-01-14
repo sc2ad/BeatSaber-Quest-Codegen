@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -40,30 +41,30 @@ namespace System::IO {
     // private System.String oldName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* oldName;
+    ::StringW oldName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String oldFullPath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* oldFullPath;
+    ::StringW oldFullPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String oldName
-    ::Il2CppString*& dyn_oldName();
+    ::StringW& dyn_oldName();
     // Get instance field reference: private System.String oldFullPath
-    ::Il2CppString*& dyn_oldFullPath();
+    ::StringW& dyn_oldFullPath();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name, System.String oldName)
     // Offset: 0x1A376CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name, ::Il2CppString* oldName) {
+    static RenamedEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name, ::StringW oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::RenamedEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RenamedEventArgs*, creationType>(changeType, directory, name, oldName)));
     }
   }; // System.IO.RenamedEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(RenamedEventArgs), 48 + sizeof(::Il2CppString*)> __System_IO_RenamedEventArgsSizeCheck;
+  static check_size<sizeof(RenamedEventArgs), 48 + sizeof(::StringW)> __System_IO_RenamedEventArgsSizeCheck;
   static_assert(sizeof(RenamedEventArgs) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

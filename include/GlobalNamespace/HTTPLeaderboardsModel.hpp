@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -99,27 +100,27 @@ namespace GlobalNamespace {
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x20
-    System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
+    System::Action_1<::StringW>* scoreForLeaderboardDidUploadEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private readonly System.String _guid
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* guid;
+    ::StringW guid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::Il2CppString*> friendsUserIds;
+    ::ArrayW<::StringW> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String _platformUserId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
@@ -130,25 +131,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly OnlineServices.API.IApiLeaderboardsModel _apiLeaderboardsModel
     OnlineServices::API::IApiLeaderboardsModel*& dyn__apiLeaderboardsModel();
     // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    System::Action_1<::Il2CppString*>*& dyn_scoreForLeaderboardDidUploadEvent();
+    System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
     // Get instance field reference: private readonly System.String _guid
-    ::Il2CppString*& dyn__guid();
+    ::StringW& dyn__guid();
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::ArrayW<::Il2CppString*>& dyn__friendsUserIds();
+    ::ArrayW<::StringW>& dyn__friendsUserIds();
     // Get instance field reference: private System.String _platformUserId
-    ::Il2CppString*& dyn__platformUserId();
+    ::StringW& dyn__platformUserId();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x119ABE0
-    void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
+    void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x119AC84
-    void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::StringW>* value);
     // public System.Void LogoutAsync()
     // Offset: 0x119AD28
     void LogoutAsync();
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x119ADDC
-    ::Il2CppString* GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    ::StringW GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x119B0BC
     System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
@@ -166,14 +167,14 @@ namespace GlobalNamespace {
     }
   }; // HTTPLeaderboardsModel
   #pragma pack(pop)
-  static check_size<sizeof(HTTPLeaderboardsModel), 56 + sizeof(::Il2CppString*)> __GlobalNamespace_HTTPLeaderboardsModelSizeCheck;
+  static check_size<sizeof(HTTPLeaderboardsModel), 56 + sizeof(::StringW)> __GlobalNamespace_HTTPLeaderboardsModelSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsModel) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HTTPLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HTTPLeaderboardsModel::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent
 // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HTTPLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::HTTPLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HTTPLeaderboardsModel::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::HTTPLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::GetLeaderboardId
 // Il2CppName: GetLeaderboardId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::HTTPLeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::HTTPLeaderboardsModel::GetLeaderboardId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::HTTPLeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::HTTPLeaderboardsModel::GetLeaderboardId)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});

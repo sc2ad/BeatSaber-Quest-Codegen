@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -190,7 +191,7 @@ namespace GlobalNamespace {
     void RefreshVisuals();
     // private System.String GetInfoText(System.String name, System.Int32 songs, System.Int32 purchased)
     // Offset: 0x130D3C4
-    ::Il2CppString* GetInfoText(::Il2CppString* name, int songs, int purchased);
+    ::StringW GetInfoText(::StringW name, int songs, int purchased);
     // public System.Void RefreshAvailabilityAsync(AdditionalContentModel contentModel)
     // Offset: 0x130D61C
     void RefreshAvailabilityAsync(GlobalNamespace::AdditionalContentModel* contentModel);
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText
 // Il2CppName: GetInfoText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::Il2CppString*, int, int)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::StringW, int, int)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* songs = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

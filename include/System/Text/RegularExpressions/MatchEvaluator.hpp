@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -51,13 +52,13 @@ namespace System::Text::RegularExpressions {
     }
     // public System.String Invoke(System.Text.RegularExpressions.Match match)
     // Offset: 0x19E5D68
-    ::Il2CppString* Invoke(System::Text::RegularExpressions::Match* match);
+    ::StringW Invoke(System::Text::RegularExpressions::Match* match);
     // public System.IAsyncResult BeginInvoke(System.Text.RegularExpressions.Match match, System.AsyncCallback callback, System.Object object)
     // Offset: 0x19E6104
     System::IAsyncResult* BeginInvoke(System::Text::RegularExpressions::Match* match, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String EndInvoke(System.IAsyncResult result)
     // Offset: 0x19E6128
-    ::Il2CppString* EndInvoke(System::IAsyncResult* result);
+    ::StringW EndInvoke(System::IAsyncResult* result);
   }; // System.Text.RegularExpressions.MatchEvaluator
   #pragma pack(pop)
 }
@@ -69,7 +70,7 @@ namespace System::Text::RegularExpressions {
 // Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::MatchEvaluator::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::MatchEvaluator::Invoke)> {
   static const MethodInfo* get() {
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match});
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::IAsyncResult*)>(&System::Text::RegularExpressions::MatchEvaluator::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::MatchEvaluator::*)(System::IAsyncResult*)>(&System::Text::RegularExpressions::MatchEvaluator::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

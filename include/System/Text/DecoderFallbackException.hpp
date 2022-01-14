@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -58,8 +59,8 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private System.Byte[] bytesUnknown
     ::ArrayW<uint8_t>& dyn_bytesUnknown();
     // Get instance field reference: private System.Int32 index
@@ -67,7 +68,7 @@ namespace System::Text {
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x1DE95DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::ArrayW<uint8_t> bytesUnknown, int index) {
+    static DecoderFallbackException* New_ctor(::StringW message, ::ArrayW<uint8_t> bytesUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(message, bytesUnknown, index)));
     }

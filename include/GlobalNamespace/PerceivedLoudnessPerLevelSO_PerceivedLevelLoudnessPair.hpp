@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair);
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // private System.String _levelId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* levelId;
+    ::StringW levelId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _perceivedLoudness
     // Size: 0x4
     // Offset: 0x18
@@ -46,19 +47,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private System.String _levelId
-    ::Il2CppString*& dyn__levelId();
+    ::StringW& dyn__levelId();
     // Get instance field reference: private System.Single _perceivedLoudness
     float& dyn__perceivedLoudness();
     // public System.String get_levelId()
     // Offset: 0x114DA5C
-    ::Il2CppString* get_levelId();
+    ::StringW get_levelId();
     // public System.Single get_perceivedLoudness()
     // Offset: 0x114DA64
     float get_perceivedLoudness();
     // public System.Void .ctor(System.String levelId, System.Single perceivedLoudness)
     // Offset: 0x114DA6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::Il2CppString* levelId, float perceivedLoudness) {
+    static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::StringW levelId, float perceivedLoudness) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, creationType>(levelId, perceivedLoudness)));
     }
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId
 // Il2CppName: get_levelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::*)()>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::*)()>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

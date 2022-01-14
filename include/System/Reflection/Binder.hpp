@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -56,7 +57,7 @@ namespace System::Reflection {
     public:
     // public System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags bindingAttr, System.Reflection.MethodBase[] match, ref System.Object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, System.String[] names, out System.Object state)
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodBase* BindToMethod(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::MethodBase*> match, ByRef<::ArrayW<::Il2CppObject*>> args, ::ArrayW<System::Reflection::ParameterModifier> modifiers, System::Globalization::CultureInfo* culture, ::ArrayW<::Il2CppString*> names, ByRef<::Il2CppObject*> state);
+    System::Reflection::MethodBase* BindToMethod(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::MethodBase*> match, ByRef<::ArrayW<::Il2CppObject*>> args, ::ArrayW<System::Reflection::ParameterModifier> modifiers, System::Globalization::CultureInfo* culture, ::ArrayW<::StringW> names, ByRef<::Il2CppObject*> state);
     // public System.Reflection.FieldInfo BindToField(System.Reflection.BindingFlags bindingAttr, System.Reflection.FieldInfo[] match, System.Object value, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
     System::Reflection::FieldInfo* BindToField(System::Reflection::BindingFlags bindingAttr, ::ArrayW<System::Reflection::FieldInfo*> match, ::Il2CppObject* value, System::Globalization::CultureInfo* culture);
@@ -88,7 +89,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToMethod
 // Il2CppName: BindToMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::ArrayW<System::Reflection::MethodBase*>, ByRef<::ArrayW<::Il2CppObject*>>, ::ArrayW<System::Reflection::ParameterModifier>, System::Globalization::CultureInfo*, ::ArrayW<::Il2CppString*>, ByRef<::Il2CppObject*>)>(&System::Reflection::Binder::BindToMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::ArrayW<System::Reflection::MethodBase*>, ByRef<::ArrayW<::Il2CppObject*>>, ::ArrayW<System::Reflection::ParameterModifier>, System::Globalization::CultureInfo*, ::ArrayW<::StringW>, ByRef<::Il2CppObject*>)>(&System::Reflection::Binder::BindToMethod)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* match = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase"), 1)->byval_arg;

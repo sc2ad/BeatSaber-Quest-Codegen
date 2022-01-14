@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -110,7 +111,7 @@ namespace GlobalNamespace {
     void HandleGameScenesManagerInstallEarlyBindings(GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, Zenject::DiContainer* container);
     // private System.Void HandlePlayerNameWasEntered(System.String playerName)
     // Offset: 0x1BDDE24
-    void HandlePlayerNameWasEntered(::Il2CppString* playerName);
+    void HandlePlayerNameWasEntered(::StringW playerName);
     // public System.Void .ctor()
     // Offset: 0x1BDDEAC
     // Implemented from: UnityEngine.MonoBehaviour
@@ -159,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::HandlePlayerNameWasEntered
 // Il2CppName: HandlePlayerNameWasEntered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRsenalLogger::*)(::Il2CppString*)>(&GlobalNamespace::VRsenalLogger::HandlePlayerNameWasEntered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRsenalLogger::*)(::StringW)>(&GlobalNamespace::VRsenalLogger::HandlePlayerNameWasEntered)> {
   static const MethodInfo* get() {
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRsenalLogger*), "HandlePlayerNameWasEntered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerName});

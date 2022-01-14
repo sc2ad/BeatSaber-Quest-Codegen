@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVRSimpleJSON
@@ -76,7 +77,7 @@ namespace OVRSimpleJSON {
     // private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> <>7__wrap1
     // Size: 0xFFFFFFFF
     // Offset: 0x30
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator $$7__wrap1;
+    typename System::Collections::Generic::Dictionary_2<::StringW, OVRSimpleJSON::JSONNode*>::Enumerator $$7__wrap1;
     public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>() noexcept {
@@ -95,7 +96,7 @@ namespace OVRSimpleJSON {
     // Get instance field reference: public OVRSimpleJSON.JSONObject <>4__this
     OVRSimpleJSON::JSONObject*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> <>7__wrap1
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator& dyn_$$7__wrap1();
+    typename System::Collections::Generic::Dictionary_2<::StringW, OVRSimpleJSON::JSONNode*>::Enumerator& dyn_$$7__wrap1();
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
     // Offset: 0x21669D4
     OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current();

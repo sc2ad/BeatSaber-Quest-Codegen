@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -53,9 +54,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* CustomData;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CustomData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // public readonly Oculus.Platform.Models.User UserOptional
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +72,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_CustomData();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_CustomData();
     // Get instance field reference: public readonly Oculus.Platform.Models.User UserOptional
     Oculus::Platform::Models::User*& dyn_UserOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User

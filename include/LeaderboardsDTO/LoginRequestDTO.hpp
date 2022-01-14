@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
@@ -38,52 +39,52 @@ namespace LeaderboardsDTO {
     // public System.String platform
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* platform;
+    ::StringW platform;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platformUserId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platformAuthToken
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* platformAuthToken;
+    ::StringW platformAuthToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platformEnviroment
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* platformEnviroment;
+    ::StringW platformEnviroment;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String publicUserDisplayName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* publicUserDisplayName;
+    ::StringW publicUserDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String buildVersion
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* buildVersion;
+    ::StringW buildVersion;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String platform
-    ::Il2CppString*& dyn_platform();
+    ::StringW& dyn_platform();
     // Get instance field reference: public System.String platformUserId
-    ::Il2CppString*& dyn_platformUserId();
+    ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String platformAuthToken
-    ::Il2CppString*& dyn_platformAuthToken();
+    ::StringW& dyn_platformAuthToken();
     // Get instance field reference: public System.String platformEnviroment
-    ::Il2CppString*& dyn_platformEnviroment();
+    ::StringW& dyn_platformEnviroment();
     // Get instance field reference: public System.String publicUserDisplayName
-    ::Il2CppString*& dyn_publicUserDisplayName();
+    ::StringW& dyn_publicUserDisplayName();
     // Get instance field reference: public System.String buildVersion
-    ::Il2CppString*& dyn_buildVersion();
+    ::StringW& dyn_buildVersion();
     // public System.Void .ctor()
     // Offset: 0x11A3AC0
     // Implemented from: System.Object
@@ -95,7 +96,7 @@ namespace LeaderboardsDTO {
     }
   }; // LeaderboardsDTO.LoginRequestDTO
   #pragma pack(pop)
-  static check_size<sizeof(LoginRequestDTO), 56 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
+  static check_size<sizeof(LoginRequestDTO), 56 + sizeof(::StringW)> __LeaderboardsDTO_LoginRequestDTOSizeCheck;
   static_assert(sizeof(LoginRequestDTO) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

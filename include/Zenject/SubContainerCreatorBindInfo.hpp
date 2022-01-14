@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,9 +47,9 @@ namespace Zenject {
     // private System.String <DefaultParentName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DefaultParentName;
+    ::StringW DefaultParentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <CreateKernel>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -65,17 +66,17 @@ namespace Zenject {
     static_assert(sizeof(System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.String <DefaultParentName>k__BackingField
-    ::Il2CppString*& dyn_$DefaultParentName$k__BackingField();
+    ::StringW& dyn_$DefaultParentName$k__BackingField();
     // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField
     bool& dyn_$CreateKernel$k__BackingField();
     // Get instance field reference: private System.Type <KernelType>k__BackingField
     System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
     // Offset: 0x2194300
-    ::Il2CppString* get_DefaultParentName();
+    ::StringW get_DefaultParentName();
     // public System.Void set_DefaultParentName(System.String value)
     // Offset: 0x2194308
-    void set_DefaultParentName(::Il2CppString* value);
+    void set_DefaultParentName(::StringW value);
     // public System.Boolean get_CreateKernel()
     // Offset: 0x2194310
     bool get_CreateKernel();
@@ -106,7 +107,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_DefaultParentName
 // Il2CppName: get_DefaultParentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_DefaultParentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_DefaultParentName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "get_DefaultParentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::set_DefaultParentName
 // Il2CppName: set_DefaultParentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(::Il2CppString*)>(&Zenject::SubContainerCreatorBindInfo::set_DefaultParentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(::StringW)>(&Zenject::SubContainerCreatorBindInfo::set_DefaultParentName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "set_DefaultParentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

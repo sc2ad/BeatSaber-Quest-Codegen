@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -38,9 +39,9 @@ namespace UnityEngine::Timeline {
   class TimelineClipExtensions : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.String k_UndoSetParentTrackText
-    static ::Il2CppString* _get_k_UndoSetParentTrackText();
+    static ::StringW _get_k_UndoSetParentTrackText();
     // Set static field: static private readonly System.String k_UndoSetParentTrackText
-    static void _set_k_UndoSetParentTrackText(::Il2CppString* value);
+    static void _set_k_UndoSetParentTrackText(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x2614134
     static void _cctor();

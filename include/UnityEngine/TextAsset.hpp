@@ -8,6 +8,7 @@
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -28,7 +29,7 @@ namespace UnityEngine {
     public:
     // public System.String get_text()
     // Offset: 0x2431FBC
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Byte[] get_bytes()
     // Offset: 0x2431FFC
     ::ArrayW<uint8_t> get_bytes();
@@ -36,7 +37,7 @@ namespace UnityEngine {
     // Offset: 0x243203C
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.TextAsset
   #pragma pack(pop)
 }
@@ -44,7 +45,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::TextAsset::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -60,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: UnityEngine::TextAsset::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

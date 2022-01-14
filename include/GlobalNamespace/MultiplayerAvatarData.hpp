@@ -12,6 +12,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Color32
 #include "UnityEngine/Color32.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -23,7 +24,6 @@ namespace LiteNetLib::Utils {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // public readonly System.String headTopId
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* headTopId;
+    ::StringW headTopId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly UnityEngine.Color32 headTopPrimaryColor
     // Size: 0x4
     // Offset: 0x8
@@ -65,9 +65,9 @@ namespace GlobalNamespace {
     // public readonly System.String glassesId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* glassesId;
+    ::StringW glassesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly UnityEngine.Color32 glassesColor
     // Size: 0x4
     // Offset: 0x18
@@ -79,9 +79,9 @@ namespace GlobalNamespace {
     // public readonly System.String facialHairId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* facialHairId;
+    ::StringW facialHairId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly UnityEngine.Color32 facialHairColor
     // Size: 0x4
     // Offset: 0x28
@@ -93,9 +93,9 @@ namespace GlobalNamespace {
     // public readonly System.String handsId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* handsId;
+    ::StringW handsId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly UnityEngine.Color32 handsColor
     // Size: 0x4
     // Offset: 0x38
@@ -107,9 +107,9 @@ namespace GlobalNamespace {
     // public readonly System.String clothesId
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* clothesId;
+    ::StringW clothesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly UnityEngine.Color32 clothesPrimaryColor
     // Size: 0x4
     // Offset: 0x48
@@ -133,24 +133,24 @@ namespace GlobalNamespace {
     // public readonly System.String skinColorId
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* skinColorId;
+    ::StringW skinColorId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String eyesId
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* eyesId;
+    ::StringW eyesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String mouthId
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* mouthId;
+    ::StringW mouthId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: MultiplayerAvatarData
-    constexpr MultiplayerAvatarData(::Il2CppString* headTopId_ = {}, UnityEngine::Color32 headTopPrimaryColor_ = {}, UnityEngine::Color32 headTopSecondaryColor_ = {}, ::Il2CppString* glassesId_ = {}, UnityEngine::Color32 glassesColor_ = {}, ::Il2CppString* facialHairId_ = {}, UnityEngine::Color32 facialHairColor_ = {}, ::Il2CppString* handsId_ = {}, UnityEngine::Color32 handsColor_ = {}, ::Il2CppString* clothesId_ = {}, UnityEngine::Color32 clothesPrimaryColor_ = {}, UnityEngine::Color32 clothesSecondaryColor_ = {}, UnityEngine::Color32 clothesDetailColor_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* eyesId_ = {}, ::Il2CppString* mouthId_ = {}) noexcept : headTopId{headTopId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesId{glassesId_}, glassesColor{glassesColor_}, facialHairId{facialHairId_}, facialHairColor{facialHairColor_}, handsId{handsId_}, handsColor{handsColor_}, clothesId{clothesId_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_}, eyesId{eyesId_}, mouthId{mouthId_} {}
+    constexpr MultiplayerAvatarData(::StringW headTopId_ = {}, UnityEngine::Color32 headTopPrimaryColor_ = {}, UnityEngine::Color32 headTopSecondaryColor_ = {}, ::StringW glassesId_ = {}, UnityEngine::Color32 glassesColor_ = {}, ::StringW facialHairId_ = {}, UnityEngine::Color32 facialHairColor_ = {}, ::StringW handsId_ = {}, UnityEngine::Color32 handsColor_ = {}, ::StringW clothesId_ = {}, UnityEngine::Color32 clothesPrimaryColor_ = {}, UnityEngine::Color32 clothesSecondaryColor_ = {}, UnityEngine::Color32 clothesDetailColor_ = {}, ::StringW skinColorId_ = {}, ::StringW eyesId_ = {}, ::StringW mouthId_ = {}) noexcept : headTopId{headTopId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesId{glassesId_}, glassesColor{glassesColor_}, facialHairId{facialHairId_}, facialHairColor{facialHairColor_}, handsId{handsId_}, handsColor{handsColor_}, clothesId{clothesId_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_}, eyesId{eyesId_}, mouthId{mouthId_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -164,25 +164,25 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>*>(this);
     }
     // Get instance field reference: public readonly System.String headTopId
-    ::Il2CppString*& dyn_headTopId();
+    ::StringW& dyn_headTopId();
     // Get instance field reference: public readonly UnityEngine.Color32 headTopPrimaryColor
     UnityEngine::Color32& dyn_headTopPrimaryColor();
     // Get instance field reference: public readonly UnityEngine.Color32 headTopSecondaryColor
     UnityEngine::Color32& dyn_headTopSecondaryColor();
     // Get instance field reference: public readonly System.String glassesId
-    ::Il2CppString*& dyn_glassesId();
+    ::StringW& dyn_glassesId();
     // Get instance field reference: public readonly UnityEngine.Color32 glassesColor
     UnityEngine::Color32& dyn_glassesColor();
     // Get instance field reference: public readonly System.String facialHairId
-    ::Il2CppString*& dyn_facialHairId();
+    ::StringW& dyn_facialHairId();
     // Get instance field reference: public readonly UnityEngine.Color32 facialHairColor
     UnityEngine::Color32& dyn_facialHairColor();
     // Get instance field reference: public readonly System.String handsId
-    ::Il2CppString*& dyn_handsId();
+    ::StringW& dyn_handsId();
     // Get instance field reference: public readonly UnityEngine.Color32 handsColor
     UnityEngine::Color32& dyn_handsColor();
     // Get instance field reference: public readonly System.String clothesId
-    ::Il2CppString*& dyn_clothesId();
+    ::StringW& dyn_clothesId();
     // Get instance field reference: public readonly UnityEngine.Color32 clothesPrimaryColor
     UnityEngine::Color32& dyn_clothesPrimaryColor();
     // Get instance field reference: public readonly UnityEngine.Color32 clothesSecondaryColor
@@ -190,14 +190,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Color32 clothesDetailColor
     UnityEngine::Color32& dyn_clothesDetailColor();
     // Get instance field reference: public readonly System.String skinColorId
-    ::Il2CppString*& dyn_skinColorId();
+    ::StringW& dyn_skinColorId();
     // Get instance field reference: public readonly System.String eyesId
-    ::Il2CppString*& dyn_eyesId();
+    ::StringW& dyn_eyesId();
     // Get instance field reference: public readonly System.String mouthId
-    ::Il2CppString*& dyn_mouthId();
+    ::StringW& dyn_mouthId();
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
     // Offset: 0x2622114
-    // ABORTED: conflicts with another method.  MultiplayerAvatarData(::Il2CppString* headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color32 glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color32 facialHairColor, ::Il2CppString* handsId, UnityEngine::Color32 handsColor, ::Il2CppString* clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId);
+    // ABORTED: conflicts with another method.  MultiplayerAvatarData(::StringW headTopId, UnityEngine::Color32 headTopPrimaryColor, UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color32 glassesColor, ::StringW facialHairId, UnityEngine::Color32 facialHairColor, ::StringW handsId, UnityEngine::Color32 handsColor, ::StringW clothesId, UnityEngine::Color32 clothesPrimaryColor, UnityEngine::Color32 clothesSecondaryColor, UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x2622160
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -222,7 +222,7 @@ namespace GlobalNamespace {
     int GetHashCode();
   }; // MultiplayerAvatarData
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerAvatarData), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_MultiplayerAvatarDataSizeCheck;
+  static check_size<sizeof(MultiplayerAvatarData), 104 + sizeof(::StringW)> __GlobalNamespace_MultiplayerAvatarDataSizeCheck;
   static_assert(sizeof(MultiplayerAvatarData) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

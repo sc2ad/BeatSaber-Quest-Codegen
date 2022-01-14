@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -65,21 +66,21 @@ namespace GlobalNamespace {
     // public System.String levelName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* levelName;
+    ::StringW levelName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String internalProcessPath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* internalProcessPath;
+    ::StringW internalProcessPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String internalProcessArgs
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* internalProcessArgs;
+    ::StringW internalProcessArgs;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean loadAdditive
     // Size: 0x1
     // Offset: 0x30
@@ -274,11 +275,11 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_LoadLevel _active
     static void _set__active(GlobalNamespace::SteamVR_LoadLevel* value);
     // Get instance field reference: public System.String levelName
-    ::Il2CppString*& dyn_levelName();
+    ::StringW& dyn_levelName();
     // Get instance field reference: public System.String internalProcessPath
-    ::Il2CppString*& dyn_internalProcessPath();
+    ::StringW& dyn_internalProcessPath();
     // Get instance field reference: public System.String internalProcessArgs
-    ::Il2CppString*& dyn_internalProcessArgs();
+    ::StringW& dyn_internalProcessArgs();
     // Get instance field reference: public System.Boolean loadAdditive
     bool& dyn_loadAdditive();
     // Get instance field reference: public System.Boolean loadAsync
@@ -356,7 +357,7 @@ namespace GlobalNamespace {
     void Trigger();
     // static public System.Void Begin(System.String levelName, System.Boolean showGrid, System.Single fadeOutTime, System.Single r, System.Single g, System.Single b, System.Single a)
     // Offset: 0x15BED30
-    static void Begin(::Il2CppString* levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
+    static void Begin(::StringW levelName, bool showGrid, float fadeOutTime, float r, float g, float b, float a);
     // private System.Void OnGUI()
     // Offset: 0x15BEE3C
     void OnGUI();
@@ -368,7 +369,7 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* LoadLevel();
     // private System.UInt64 GetOverlayHandle(System.String overlayName, UnityEngine.Transform transform, System.Single widthInMeters)
     // Offset: 0x15BF280
-    uint64_t GetOverlayHandle(::Il2CppString* overlayName, UnityEngine::Transform* transform, float widthInMeters);
+    uint64_t GetOverlayHandle(::StringW overlayName, UnityEngine::Transform* transform, float widthInMeters);
     // public System.Void .ctor()
     // Offset: 0x15BF898
     // Implemented from: UnityEngine.MonoBehaviour
@@ -436,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::Begin
 // Il2CppName: Begin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, float, float, float, float, float)>(&GlobalNamespace::SteamVR_LoadLevel::Begin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, float, float, float, float, float)>(&GlobalNamespace::SteamVR_LoadLevel::Begin)> {
   static const MethodInfo* get() {
     static auto* levelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* showGrid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -475,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::GetOverlayHandle
 // Il2CppName: GetOverlayHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_LoadLevel::*)(::Il2CppString*, UnityEngine::Transform*, float)>(&GlobalNamespace::SteamVR_LoadLevel::GetOverlayHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_LoadLevel::*)(::StringW, UnityEngine::Transform*, float)>(&GlobalNamespace::SteamVR_LoadLevel::GetOverlayHandle)> {
   static const MethodInfo* get() {
     static auto* overlayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

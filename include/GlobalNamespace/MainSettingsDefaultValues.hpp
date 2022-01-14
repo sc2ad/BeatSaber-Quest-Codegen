@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -197,9 +198,9 @@ namespace GlobalNamespace {
     // static field const value: static public System.String kSystemLanguageSerializedName
     static constexpr const char* kSystemLanguageSerializedName = "SystemLanguage";
     // Get static field: static public System.String kSystemLanguageSerializedName
-    static ::Il2CppString* _get_kSystemLanguageSerializedName();
+    static ::StringW _get_kSystemLanguageSerializedName();
     // Set static field: static public System.String kSystemLanguageSerializedName
-    static void _set_kSystemLanguageSerializedName(::Il2CppString* value);
+    static void _set_kSystemLanguageSerializedName(::StringW value);
     // static field const value: static public System.Int32 kDefaultPauseButtonPressDurationLevel
     static constexpr const int kDefaultPauseButtonPressDurationLevel = 0;
     // Get static field: static public System.Int32 kDefaultPauseButtonPressDurationLevel

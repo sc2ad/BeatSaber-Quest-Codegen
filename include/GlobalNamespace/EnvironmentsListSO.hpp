@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::EnvironmentInfoSO*> get_environmentInfos();
     // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentSerializedName)
     // Offset: 0x11DF7F0
-    GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::Il2CppString* environmentSerializedName);
+    GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
     // public System.Collections.Generic.List`1<EnvironmentInfoSO> GetAllEnvironmentInfosWithType(EnvironmentTypeSO environmentType)
     // Offset: 0x11DE04C
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* GetAllEnvironmentInfosWithType(GlobalNamespace::EnvironmentTypeSO* environmentType);
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Gl
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::GetEnvironmentInfoBySerializedName
 // Il2CppName: GetEnvironmentInfoBySerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::EnvironmentsListSO::*)(::Il2CppString*)>(&GlobalNamespace::EnvironmentsListSO::GetEnvironmentInfoBySerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::EnvironmentsListSO::*)(::StringW)>(&GlobalNamespace::EnvironmentsListSO::GetEnvironmentInfoBySerializedName)> {
   static const MethodInfo* get() {
     static auto* environmentSerializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetEnvironmentInfoBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentSerializedName});

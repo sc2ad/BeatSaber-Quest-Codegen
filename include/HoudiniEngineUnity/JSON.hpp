@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -31,7 +32,7 @@ namespace HoudiniEngineUnity {
     public:
     // static public HoudiniEngineUnity.JSONNode Parse(System.String aJSON)
     // Offset: 0x178664C
-    static HoudiniEngineUnity::JSONNode* Parse(::Il2CppString* aJSON);
+    static HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
   }; // HoudiniEngineUnity.JSON
   #pragma pack(pop)
 }
@@ -39,7 +40,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSON::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(::Il2CppString*)>(&HoudiniEngineUnity::JSON::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&HoudiniEngineUnity::JSON::Parse)> {
   static const MethodInfo* get() {
     static auto* aJSON = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSON*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aJSON});

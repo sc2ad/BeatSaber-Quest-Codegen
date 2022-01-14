@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HMUI
 namespace HMUI {
@@ -39,12 +40,12 @@ namespace HMUI {
     // private System.String _formatString
     // Size: 0x8
     // Offset: 0x168
-    ::Il2CppString* formatString;
+    ::StringW formatString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _formatString
-    ::Il2CppString*& dyn__formatString();
+    ::StringW& dyn__formatString();
     // public System.Void .ctor()
     // Offset: 0x149BF18
     // Implemented from: HMUI.RangeValuesTextSlider
@@ -66,7 +67,7 @@ namespace HMUI {
     // Offset: 0x149BEA0
     // Implemented from: HMUI.RangeValuesTextSlider
     // Base method: System.String RangeValuesTextSlider::TextForValue(System.Single value)
-    ::Il2CppString* TextForValue(float value);
+    ::StringW TextForValue(float value);
   }; // HMUI.CustomFormatRangeValuesSlider
   // WARNING Not writing size check since size may be invalid!
 }
@@ -78,7 +79,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::CustomFormatRangeValuesSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::CustomFormatRangeValuesSlider::*)(float)>(&HMUI::CustomFormatRangeValuesSlider::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::CustomFormatRangeValuesSlider::*)(float)>(&HMUI::CustomFormatRangeValuesSlider::TextForValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CustomFormatRangeValuesSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
     public:
     // static public System.Boolean Contains(System.String argument)
     // Offset: 0x138F0F8
-    static bool Contains(::Il2CppString* argument);
+    static bool Contains(::StringW argument);
   }; // CommandLineArguments
   #pragma pack(pop)
 }
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::CommandLineArguments::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&GlobalNamespace::CommandLineArguments::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&GlobalNamespace::CommandLineArguments::Contains)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandLineArguments*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});

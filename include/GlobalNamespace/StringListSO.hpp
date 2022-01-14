@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -42,17 +43,17 @@ namespace GlobalNamespace {
     // private System.String[] _strings
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> strings;
+    ::ArrayW<::StringW> strings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] _strings
-    ::ArrayW<::Il2CppString*>& dyn__strings();
+    ::ArrayW<::StringW>& dyn__strings();
     // public System.String[] get_strings()
     // Offset: 0x2641304
-    ::ArrayW<::Il2CppString*> get_strings();
+    ::ArrayW<::StringW> get_strings();
     // public System.Void .ctor()
     // Offset: 0x264130C
     // Implemented from: PersistentScriptableObject
@@ -67,14 +68,14 @@ namespace GlobalNamespace {
     }
   }; // StringListSO
   #pragma pack(pop)
-  static check_size<sizeof(StringListSO), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_StringListSOSizeCheck;
+  static check_size<sizeof(StringListSO), 24 + sizeof(::ArrayW<::StringW>)> __GlobalNamespace_StringListSOSizeCheck;
   static_assert(sizeof(StringListSO) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StringListSO::get_strings
 // Il2CppName: get_strings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (GlobalNamespace::StringListSO::*)()>(&GlobalNamespace::StringListSO::get_strings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StringListSO*), "get_strings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

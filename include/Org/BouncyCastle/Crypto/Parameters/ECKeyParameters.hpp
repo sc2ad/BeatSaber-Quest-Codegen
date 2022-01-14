@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -55,9 +56,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.String algorithm
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* algorithm;
+    ::StringW algorithm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
     // Size: 0x8
     // Offset: 0x20
@@ -74,18 +75,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static private readonly System.String[] algorithms
-    static ::ArrayW<::Il2CppString*> _get_algorithms();
+    static ::ArrayW<::StringW> _get_algorithms();
     // Set static field: static private readonly System.String[] algorithms
-    static void _set_algorithms(::ArrayW<::Il2CppString*> value);
+    static void _set_algorithms(::ArrayW<::StringW> value);
     // Get instance field reference: private readonly System.String algorithm
-    ::Il2CppString*& dyn_algorithm();
+    ::StringW& dyn_algorithm();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_parameters();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_publicKeyParamSet();
     // public System.String get_AlgorithmName()
     // Offset: 0x13B94F8
-    ::Il2CppString* get_AlgorithmName();
+    ::StringW get_AlgorithmName();
     // public Org.BouncyCastle.Crypto.Parameters.ECDomainParameters get_Parameters()
     // Offset: 0x13B9500
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_Parameters();
@@ -95,14 +96,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters)
     // Offset: 0x13B90E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
+    static ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyParameters*, creationType>(algorithm, isPrivate, parameters)));
     }
     // protected System.Void .ctor(System.String algorithm, System.Boolean isPrivate, Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
     // Offset: 0x13B9308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECKeyParameters* New_ctor(::Il2CppString* algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
+    static ECKeyParameters* New_ctor(::StringW algorithm, bool isPrivate, Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyParameters*, creationType>(algorithm, isPrivate, publicKeyParamSet)));
     }
@@ -114,7 +115,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* other);
     // static System.String VerifyAlgorithmName(System.String algorithm)
     // Offset: 0x13B91DC
-    static ::Il2CppString* VerifyAlgorithmName(::Il2CppString* algorithm);
+    static ::StringW VerifyAlgorithmName(::StringW algorithm);
     // static Org.BouncyCastle.Crypto.Parameters.ECDomainParameters LookupParameters(Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet)
     // Offset: 0x13B940C
     static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* LookupParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
@@ -137,7 +138,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::get_AlgorithmName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::VerifyAlgorithmName
 // Il2CppName: VerifyAlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::VerifyAlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&Org::BouncyCastle::Crypto::Parameters::ECKeyParameters::VerifyAlgorithmName)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*), "VerifyAlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
@@ -35,7 +36,7 @@ namespace Org::BouncyCastle::Utilities {
     // Base method: System.Void SystemException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoableResetException* New_ctor(::Il2CppString* msg) {
+    static MemoableResetException* New_ctor(::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::MemoableResetException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoableResetException*, creationType>(msg)));
     }

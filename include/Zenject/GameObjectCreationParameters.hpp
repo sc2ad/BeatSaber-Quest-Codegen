@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -62,15 +63,15 @@ namespace Zenject {
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <GroupName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* GroupName;
+    ::StringW GroupName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Transform <ParentTransform>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -97,9 +98,9 @@ namespace Zenject {
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default
     static void _set_Default(Zenject::GameObjectCreationParameters* value);
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.String <GroupName>k__BackingField
-    ::Il2CppString*& dyn_$GroupName$k__BackingField();
+    ::StringW& dyn_$GroupName$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <ParentTransform>k__BackingField
     UnityEngine::Transform*& dyn_$ParentTransform$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
@@ -110,16 +111,16 @@ namespace Zenject {
     System::Nullable_1<UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x1AB067C
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void set_Name(System.String value)
     // Offset: 0x1AB0684
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.String get_GroupName()
     // Offset: 0x1AB068C
-    ::Il2CppString* get_GroupName();
+    ::StringW get_GroupName();
     // public System.Void set_GroupName(System.String value)
     // Offset: 0x1AB0694
-    void set_GroupName(::Il2CppString* value);
+    void set_GroupName(::StringW value);
     // public UnityEngine.Transform get_ParentTransform()
     // Offset: 0x1AB069C
     UnityEngine::Transform* get_ParentTransform();
@@ -182,7 +183,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::Il2CppString*)>(&Zenject::GameObjectCreationParameters::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::StringW)>(&Zenject::GameObjectCreationParameters::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_GroupName
 // Il2CppName: get_GroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_GroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_GroupName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -207,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_GroupName
 // Il2CppName: set_GroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::Il2CppString*)>(&Zenject::GameObjectCreationParameters::set_GroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::StringW)>(&Zenject::GameObjectCreationParameters::set_GroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_GroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

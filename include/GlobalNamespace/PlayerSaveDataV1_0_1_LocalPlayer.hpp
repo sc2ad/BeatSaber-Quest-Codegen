@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -43,15 +44,15 @@ namespace GlobalNamespace {
     // public System.String playerId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* playerId;
+    ::StringW playerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean shouldShowTutorialPrompt
     // Size: 0x1
     // Offset: 0x20
@@ -93,9 +94,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<::Il2CppString*>* showedMissionHelpIds;
+    System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     // Size: 0x8
     // Offset: 0x58
@@ -104,9 +105,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*) == 0x8);
     public:
     // Get instance field reference: public System.String playerId
-    ::Il2CppString*& dyn_playerId();
+    ::StringW& dyn_playerId();
     // Get instance field reference: public System.String playerName
-    ::Il2CppString*& dyn_playerName();
+    ::StringW& dyn_playerName();
     // Get instance field reference: public System.Boolean shouldShowTutorialPrompt
     bool& dyn_shouldShowTutorialPrompt();
     // Get instance field reference: public PlayerSaveDataV1_0_1/GameplayModifiers gameplayModifiers
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveDataV1_0_1/PlayerMissionStatsData> missionsStatsData
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData*>*& dyn_missionsStatsData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> showedMissionHelpIds
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_showedMissionHelpIds();
+    System::Collections::Generic::List_1<::StringW>*& dyn_showedMissionHelpIds();
     // Get instance field reference: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
     // public System.Void .ctor()

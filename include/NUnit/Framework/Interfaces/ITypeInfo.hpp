@@ -7,6 +7,7 @@
 // Including type: NUnit.Framework.Interfaces.IReflectionInfo
 #include "NUnit/Framework/Interfaces/IReflectionInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,7 +31,6 @@ namespace NUnit::Framework::Interfaces {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
@@ -61,13 +61,13 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ITypeInfo* get_BaseType();
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0xFFFFFFFF
     System::Reflection::Assembly* get_Assembly();
     // public System.String get_Namespace()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Namespace();
+    ::StringW get_Namespace();
     // public System.Boolean get_IsAbstract()
     // Offset: 0xFFFFFFFF
     bool get_IsAbstract();
@@ -91,10 +91,10 @@ namespace NUnit::Framework::Interfaces {
     bool IsType(System::Type* type);
     // public System.String GetDisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetDisplayName();
+    ::StringW GetDisplayName();
     // public System.String GetDisplayName(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetDisplayName(::ArrayW<::Il2CppObject*> args);
+    ::StringW GetDisplayName(::ArrayW<::Il2CppObject*> args);
     // public System.Type GetGenericTypeDefinition()
     // Offset: 0xFFFFFFFF
     System::Type* GetGenericTypeDefinition();
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::get_Namespace
 // Il2CppName: get_Namespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_Namespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::get_Namespace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITypeInfo::*)()>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITypeInfo::*)(::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITypeInfo::*)(::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Interfaces::ITypeInfo::GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITypeInfo*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

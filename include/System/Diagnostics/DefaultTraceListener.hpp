@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -40,51 +41,51 @@ namespace System::Diagnostics {
     // private System.String logFileName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* logFileName;
+    ::StringW logFileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private readonly System.Boolean OnWin32
     static bool _get_OnWin32();
     // Set static field: static private readonly System.Boolean OnWin32
     static void _set_OnWin32(bool value);
     // Get static field: static private readonly System.String MonoTracePrefix
-    static ::Il2CppString* _get_MonoTracePrefix();
+    static ::StringW _get_MonoTracePrefix();
     // Set static field: static private readonly System.String MonoTracePrefix
-    static void _set_MonoTracePrefix(::Il2CppString* value);
+    static void _set_MonoTracePrefix(::StringW value);
     // Get static field: static private readonly System.String MonoTraceFile
-    static ::Il2CppString* _get_MonoTraceFile();
+    static ::StringW _get_MonoTraceFile();
     // Set static field: static private readonly System.String MonoTraceFile
-    static void _set_MonoTraceFile(::Il2CppString* value);
+    static void _set_MonoTraceFile(::StringW value);
     // Get instance field reference: private System.String logFileName
-    ::Il2CppString*& dyn_logFileName();
+    ::StringW& dyn_logFileName();
     // public System.String get_LogFileName()
     // Offset: 0x1A2914C
-    ::Il2CppString* get_LogFileName();
+    ::StringW get_LogFileName();
     // static private System.Void .cctor()
     // Offset: 0x1A28EE8
     static void _cctor();
     // static private System.String GetPrefix(System.String var, System.String target)
     // Offset: 0x1A29014
-    static ::Il2CppString* GetPrefix(::Il2CppString* var, ::Il2CppString* target);
+    static ::StringW GetPrefix(::StringW var, ::StringW target);
     // static private System.Void WriteWindowsDebugString(System.String message)
     // Offset: 0x1A29320
-    static void WriteWindowsDebugString(::Il2CppString* message);
+    static void WriteWindowsDebugString(::StringW message);
     // private System.Void WriteDebugString(System.String message)
     // Offset: 0x1A29324
-    void WriteDebugString(::Il2CppString* message);
+    void WriteDebugString(::StringW message);
     // private System.Void WriteMonoTrace(System.String message)
     // Offset: 0x1A293D0
-    void WriteMonoTrace(::Il2CppString* message);
+    void WriteMonoTrace(::StringW message);
     // private System.Void WritePrefix()
     // Offset: 0x1A297AC
     void WritePrefix();
     // private System.Void WriteImpl(System.String message)
     // Offset: 0x1A2984C
-    void WriteImpl(::Il2CppString* message);
+    void WriteImpl(::StringW message);
     // private System.Void WriteLogFile(System.String message, System.String logFile)
     // Offset: 0x1A295A0
-    void WriteLogFile(::Il2CppString* message, ::Il2CppString* logFile);
+    void WriteLogFile(::StringW message, ::StringW logFile);
     // public System.Void .ctor()
     // Offset: 0x1A290A4
     // Implemented from: System.MarshalByRefObject
@@ -99,32 +100,32 @@ namespace System::Diagnostics {
     // Offset: 0x1A29154
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message)
-    void Fail(::Il2CppString* message);
+    void Fail(::StringW message);
     // public override System.Void Fail(System.String message, System.String detailMessage)
     // Offset: 0x1A29174
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Fail(System.String message, System.String detailMessage)
-    void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
+    void Fail(::StringW message, ::StringW detailMessage);
     // public override System.Void Write(System.String message)
     // Offset: 0x1A2992C
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::Write(System.String message)
-    void Write(::Il2CppString* message);
+    void Write(::StringW message);
     // public override System.Void WriteLine(System.String message)
     // Offset: 0x1A29930
     // Implemented from: System.Diagnostics.TraceListener
     // Base method: System.Void TraceListener::WriteLine(System.String message)
-    void WriteLine(::Il2CppString* message);
+    void WriteLine(::StringW message);
   }; // System.Diagnostics.DefaultTraceListener
   #pragma pack(pop)
-  static check_size<sizeof(DefaultTraceListener), 48 + sizeof(::Il2CppString*)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
+  static check_size<sizeof(DefaultTraceListener), 48 + sizeof(::StringW)> __System_Diagnostics_DefaultTraceListenerSizeCheck;
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::get_LogFileName
 // Il2CppName: get_LogFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "get_LogFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::GetPrefix
 // Il2CppName: GetPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::GetPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::Diagnostics::DefaultTraceListener::GetPrefix)> {
   static const MethodInfo* get() {
     static auto* var = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString
 // Il2CppName: WriteWindowsDebugString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteWindowsDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -159,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteDebugString
 // Il2CppName: WriteDebugString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteMonoTrace
 // Il2CppName: WriteMonoTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteMonoTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteImpl
 // Il2CppName: WriteImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteImpl)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLogFile
 // Il2CppName: WriteLogFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW, ::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logFile = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -208,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW, ::StringW)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* detailMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -227,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::Write)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -236,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::StringW)>(&System::Diagnostics::DefaultTraceListener::WriteLine)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

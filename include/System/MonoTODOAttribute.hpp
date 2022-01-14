@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -41,20 +42,20 @@ namespace System {
     // private System.String comment
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* comment;
+    ::StringW comment;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return comment;
     }
     // Get instance field reference: private System.String comment
-    ::Il2CppString*& dyn_comment();
+    ::StringW& dyn_comment();
     // public System.Void .ctor(System.String comment)
     // Offset: 0x1A16418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoTODOAttribute* New_ctor(::Il2CppString* comment) {
+    static MonoTODOAttribute* New_ctor(::StringW comment) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoTODOAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTODOAttribute*, creationType>(comment)));
     }
@@ -70,7 +71,7 @@ namespace System {
     }
   }; // System.MonoTODOAttribute
   #pragma pack(pop)
-  static check_size<sizeof(MonoTODOAttribute), 16 + sizeof(::Il2CppString*)> __System_MonoTODOAttributeSizeCheck;
+  static check_size<sizeof(MonoTODOAttribute), 16 + sizeof(::StringW)> __System_MonoTODOAttributeSizeCheck;
   static_assert(sizeof(MonoTODOAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

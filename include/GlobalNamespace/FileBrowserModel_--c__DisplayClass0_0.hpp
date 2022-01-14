@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,15 +57,15 @@ namespace GlobalNamespace {
     // public System.String direcotryPath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* direcotryPath;
+    ::StringW direcotryPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String[] extensions
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> extensions;
+    ::ArrayW<::StringW> extensions;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Action`1<FileBrowserItem[]> callback
     // Size: 0x8
     // Offset: 0x28
@@ -75,9 +76,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public FileBrowserItem[] items
     ::ArrayW<GlobalNamespace::FileBrowserItem*>& dyn_items();
     // Get instance field reference: public System.String direcotryPath
-    ::Il2CppString*& dyn_direcotryPath();
+    ::StringW& dyn_direcotryPath();
     // Get instance field reference: public System.String[] extensions
-    ::ArrayW<::Il2CppString*>& dyn_extensions();
+    ::ArrayW<::StringW>& dyn_extensions();
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
     System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()

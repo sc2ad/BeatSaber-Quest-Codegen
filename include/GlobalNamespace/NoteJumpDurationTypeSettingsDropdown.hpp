@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -45,7 +46,7 @@ namespace GlobalNamespace {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<NoteJumpDurationTypeSettings,System.String>> GetNamedValues()
     // Offset: 0x13431D0
-    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings, ::Il2CppString*>*>* GetNamedValues();
+    System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
     // Offset: 0x134328C
     // Implemented from: ValueDropdownController`1
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues
 // Il2CppName: GetNamedValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings, ::Il2CppString*>*>* (GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* (GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*), "GetNamedValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

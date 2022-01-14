@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -49,12 +50,12 @@ namespace HoudiniEngineUnity {
     // public System.String _filePath
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* filePath;
+    ::StringW filePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String _filePath
-    ::Il2CppString*& dyn__filePath();
+    ::StringW& dyn__filePath();
     // public System.Void .ctor()
     // Offset: 0x1649A88
     // Implemented from: HoudiniEngineUnity.HEU_BaseSync
@@ -76,7 +77,7 @@ namespace HoudiniEngineUnity {
     void SetupLoadTask(HoudiniEngineUnity::HEU_SessionBase* session);
   }; // HoudiniEngineUnity.HEU_GeoSync
   #pragma pack(pop)
-  static check_size<sizeof(HEU_GeoSync), 128 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_GeoSyncSizeCheck;
+  static check_size<sizeof(HEU_GeoSync), 128 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_GeoSyncSizeCheck;
   static_assert(sizeof(HEU_GeoSync) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

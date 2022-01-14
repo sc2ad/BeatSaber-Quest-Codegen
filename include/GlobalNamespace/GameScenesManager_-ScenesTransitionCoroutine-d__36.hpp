@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -84,9 +85,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> scenesToDismiss
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppString*>* scenesToDismiss;
+    System::Collections::Generic::List_1<::StringW>* scenesToDismiss;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public GameScenesManager <>4__this
     // Size: 0x8
     // Offset: 0x28
@@ -96,9 +97,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> scenesToPresent
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<::Il2CppString*>* scenesToPresent;
+    System::Collections::Generic::List_1<::StringW>* scenesToPresent;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public GameScenesManager/ScenePresentType presentType
     // Size: 0x4
     // Offset: 0x38
@@ -150,9 +151,9 @@ namespace GlobalNamespace {
     // private System.String <sceneName>5__4
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* $sceneName$5__4;
+    ::StringW $sceneName$5__4;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.AsyncOperation <loadSceneOperation>5__5
     // Size: 0x8
     // Offset: 0x78
@@ -168,7 +169,7 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
     // Size: 0xFFFFFFFF
     // Offset: 0x88
-    typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator $$7__wrap6;
+    typename System::Collections::Generic::List_1<::StringW>::Enumerator $$7__wrap6;
     public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
@@ -179,11 +180,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Object <>2__current
     ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToDismiss
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenesToDismiss();
+    System::Collections::Generic::List_1<::StringW>*& dyn_scenesToDismiss();
     // Get instance field reference: public GameScenesManager <>4__this
     GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> scenesToPresent
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_scenesToPresent();
+    System::Collections::Generic::List_1<::StringW>*& dyn_scenesToPresent();
     // Get instance field reference: public GameScenesManager/ScenePresentType presentType
     GlobalNamespace::GameScenesManager::ScenePresentType& dyn_presentType();
     // Get instance field reference: public System.Single minDuration
@@ -201,13 +202,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <startTime>5__3
     float& dyn_$startTime$5__3();
     // Get instance field reference: private System.String <sceneName>5__4
-    ::Il2CppString*& dyn_$sceneName$5__4();
+    ::StringW& dyn_$sceneName$5__4();
     // Get instance field reference: private UnityEngine.AsyncOperation <loadSceneOperation>5__5
     UnityEngine::AsyncOperation*& dyn_$loadSceneOperation$5__5();
     // Get instance field reference: private System.Int32 <sceneNum>5__6
     int& dyn_$sceneNum$5__6();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<System.String> <>7__wrap6
-    typename System::Collections::Generic::List_1<::Il2CppString*>::Enumerator& dyn_$$7__wrap6();
+    typename System::Collections::Generic::List_1<::StringW>::Enumerator& dyn_$$7__wrap6();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1399EC0
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();

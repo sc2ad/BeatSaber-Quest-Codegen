@@ -8,6 +8,7 @@
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -59,15 +60,15 @@ namespace TMPro {
     // static field const value: static private System.String k_lookupStringL
     static constexpr const char* k_lookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
     // Get static field: static private System.String k_lookupStringL
-    static ::Il2CppString* _get_k_lookupStringL();
+    static ::StringW _get_k_lookupStringL();
     // Set static field: static private System.String k_lookupStringL
-    static void _set_k_lookupStringL(::Il2CppString* value);
+    static void _set_k_lookupStringL(::StringW value);
     // static field const value: static private System.String k_lookupStringU
     static constexpr const char* k_lookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
     // Get static field: static private System.String k_lookupStringU
-    static ::Il2CppString* _get_k_lookupStringU();
+    static ::StringW _get_k_lookupStringU();
     // Set static field: static private System.String k_lookupStringU
-    static void _set_k_lookupStringU(::Il2CppString* value);
+    static void _set_k_lookupStringU(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1636A74
     static void _cctor();
@@ -127,16 +128,16 @@ namespace TMPro {
     static ::Il2CppChar ToUpperFast(::Il2CppChar c);
     // static public System.Int32 GetSimpleHashCode(System.String s)
     // Offset: 0x16367BC
-    static int GetSimpleHashCode(::Il2CppString* s);
+    static int GetSimpleHashCode(::StringW s);
     // static public System.UInt32 GetSimpleHashCodeLowercase(System.String s)
     // Offset: 0x1636834
-    static uint GetSimpleHashCodeLowercase(::Il2CppString* s);
+    static uint GetSimpleHashCodeLowercase(::StringW s);
     // static public System.Int32 HexToInt(System.Char hex)
     // Offset: 0x1636908
     static int HexToInt(::Il2CppChar hex);
     // static public System.Int32 StringHexToInt(System.String s)
     // Offset: 0x1636934
-    static int StringHexToInt(::Il2CppString* s);
+    static int StringHexToInt(::StringW s);
   }; // TMPro.TMP_TextUtilities
   #pragma pack(pop)
 }
@@ -355,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetSimpleHashCode
 // Il2CppName: GetSimpleHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::GetSimpleHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&TMPro::TMP_TextUtilities::GetSimpleHashCode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetSimpleHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase
 // Il2CppName: GetSimpleHashCodeLowercase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW)>(&TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetSimpleHashCodeLowercase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -382,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: TMPro::TMP_TextUtilities::StringHexToInt
 // Il2CppName: StringHexToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::StringHexToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&TMPro::TMP_TextUtilities::StringHexToInt)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "StringHexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

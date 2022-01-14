@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -76,15 +77,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kDisconnectLabel
     static constexpr const char* kDisconnectLabel = "BUTTON_DISCONNECT";
     // Get static field: static private System.String kDisconnectLabel
-    static ::Il2CppString* _get_kDisconnectLabel();
+    static ::StringW _get_kDisconnectLabel();
     // Set static field: static private System.String kDisconnectLabel
-    static void _set_kDisconnectLabel(::Il2CppString* value);
+    static void _set_kDisconnectLabel(::StringW value);
     // static field const value: static private System.String kEndGameLabel
     static constexpr const char* kEndGameLabel = "BUTTON_END_GAME";
     // Get static field: static private System.String kEndGameLabel
-    static ::Il2CppString* _get_kEndGameLabel();
+    static ::StringW _get_kEndGameLabel();
     // Set static field: static private System.String kEndGameLabel
-    static void _set_kEndGameLabel(::Il2CppString* value);
+    static void _set_kEndGameLabel(::StringW value);
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
     GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
@@ -96,7 +97,7 @@ namespace GlobalNamespace {
     void Disconnect();
     // public System.String ResolveDisconnectButtonString()
     // Offset: 0x12A3444
-    ::Il2CppString* ResolveDisconnectButtonString();
+    ::StringW ResolveDisconnectButtonString();
     // public System.Void .ctor()
     // Offset: 0x12A5B28
     // Implemented from: System.Object
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString
 // Il2CppName: ResolveDisconnectButtonString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*), "ResolveDisconnectButtonString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -61,9 +62,9 @@ namespace MasterServer {
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* dedicatedServerId;
+    ::StringW dedicatedServerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -73,9 +74,9 @@ namespace MasterServer {
     // public System.String id
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* id;
+    ::StringW id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 currentPlayerCount
     // Size: 0x4
     // Offset: 0x30
@@ -96,11 +97,11 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // Get instance field reference: public System.String id
-    ::Il2CppString*& dyn_id();
+    ::StringW& dyn_id();
     // Get instance field reference: public System.Int32 currentPlayerCount
     int& dyn_currentPlayerCount();
     // Get instance field reference: public GameStateType gameState
@@ -110,10 +111,10 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerInstanceStatusUpdateRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
     // Offset: 0x14B3444
-    ::Il2CppString* get_dedicatedServerId();
+    ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
     // Offset: 0x14B344C
-    void set_dedicatedServerId(::Il2CppString* value);
+    void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
     // Offset: 0x14B3454
     int64_t get_dedicatedServerCreationTime();
@@ -122,7 +123,7 @@ namespace MasterServer {
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerInstanceStatusUpdateRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
     // Offset: 0x14B35BC
-    MasterServer::DedicatedServerInstanceStatusUpdateRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, GlobalNamespace::GameStateType gameState, int currentPlayerCount);
+    MasterServer::DedicatedServerInstanceStatusUpdateRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::StringW id, GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void .ctor()
     // Offset: 0x14B35CC
     // Implemented from: BaseMasterServerReliableRequest
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceStatusUpdateRequest::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)()>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::get_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)()>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::get_dedicatedServerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerInstanceStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceStatusUpdateRequest::set_dedicatedServerId
 // Il2CppName: set_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)(::Il2CppString*)>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::set_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)(::StringW)>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::set_dedicatedServerId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerInstanceStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::DedicatedServerInstanceStatusUpdateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerInstanceStatusUpdateRequest* (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, GlobalNamespace::GameStateType, int)>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerInstanceStatusUpdateRequest* (MasterServer::DedicatedServerInstanceStatusUpdateRequest::*)(::StringW, int64_t, ::StringW, GlobalNamespace::GameStateType, int)>(&MasterServer::DedicatedServerInstanceStatusUpdateRequest::Init)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

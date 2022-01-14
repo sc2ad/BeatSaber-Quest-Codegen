@@ -7,6 +7,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -27,9 +28,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: PlayableBinding
@@ -52,9 +50,9 @@ namespace UnityEngine::Playables {
     // private System.String m_StreamName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_StreamName;
+    ::StringW m_StreamName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Object m_SourceObject
     // Size: 0x8
     // Offset: 0x8
@@ -75,7 +73,7 @@ namespace UnityEngine::Playables {
     static_assert(sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*) == 0x8);
     public:
     // Creating value type constructor for type: PlayableBinding
-    constexpr PlayableBinding(::Il2CppString* m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) noexcept : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
+    constexpr PlayableBinding(::StringW m_StreamName_ = {}, UnityEngine::Object* m_SourceObject_ = {}, System::Type* m_SourceBindingType_ = {}, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* m_CreateOutputMethod_ = {}) noexcept : m_StreamName{m_StreamName_}, m_SourceObject{m_SourceObject_}, m_SourceBindingType{m_SourceBindingType_}, m_CreateOutputMethod{m_CreateOutputMethod_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -89,7 +87,7 @@ namespace UnityEngine::Playables {
     // Set static field: static public readonly System.Double DefaultDuration
     static void _set_DefaultDuration(double value);
     // Get instance field reference: private System.String m_StreamName
-    ::Il2CppString*& dyn_m_StreamName();
+    ::StringW& dyn_m_StreamName();
     // Get instance field reference: private UnityEngine.Object m_SourceObject
     UnityEngine::Object*& dyn_m_SourceObject();
     // Get instance field reference: private System.Type m_SourceBindingType
@@ -98,7 +96,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableBinding::CreateOutputMethod*& dyn_m_CreateOutputMethod();
     // public System.String get_streamName()
     // Offset: 0x1DAA938
-    ::Il2CppString* get_streamName();
+    ::StringW get_streamName();
     // public UnityEngine.Object get_sourceObject()
     // Offset: 0x1DAA940
     UnityEngine::Object* get_sourceObject();
@@ -110,7 +108,7 @@ namespace UnityEngine::Playables {
     UnityEngine::Playables::PlayableOutput CreateOutput(UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod createFunction)
     // Offset: 0x1DAAC88
-    static UnityEngine::Playables::PlayableBinding CreateInternal(::Il2CppString* name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
+    static UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, UnityEngine::Object* sourceObject, System::Type* sourceType, UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)
   static check_size<sizeof(PlayableBinding), 24 + sizeof(UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)> __UnityEngine_Playables_PlayableBindingSizeCheck;
@@ -120,7 +118,7 @@ namespace UnityEngine::Playables {
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::get_streamName
 // Il2CppName: get_streamName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Playables::PlayableBinding::*)()>(&UnityEngine::Playables::PlayableBinding::get_streamName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Playables::PlayableBinding::*)()>(&UnityEngine::Playables::PlayableBinding::get_streamName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBinding), "get_streamName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -153,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableBinding::CreateInternal
 // Il2CppName: CreateInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::Il2CppString*, UnityEngine::Object*, System::Type*, UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)>(&UnityEngine::Playables::PlayableBinding::CreateInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::StringW, UnityEngine::Object*, System::Type*, UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)>(&UnityEngine::Playables::PlayableBinding::CreateInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

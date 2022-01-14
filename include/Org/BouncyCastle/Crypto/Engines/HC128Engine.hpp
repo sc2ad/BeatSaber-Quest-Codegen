@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -120,7 +121,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int& dyn_idx();
     // public System.String get_AlgorithmName()
     // Offset: 0x1FC4AA0
-    ::Il2CppString* get_AlgorithmName();
+    ::StringW get_AlgorithmName();
     // static private System.UInt32 F1(System.UInt32 x)
     // Offset: 0x1FC44A0
     static uint F1(uint x);
@@ -190,7 +191,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC128Engine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Engines::HC128Engine::*)()>(&Org::BouncyCastle::Crypto::Engines::HC128Engine::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Crypto::Engines::HC128Engine::*)()>(&Org::BouncyCastle::Crypto::Engines::HC128Engine::get_AlgorithmName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::HC128Engine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

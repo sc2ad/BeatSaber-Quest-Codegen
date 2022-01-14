@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -58,25 +59,25 @@ namespace GlobalNamespace {
     // private System.String _currentShownKeyword
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* currentShownKeyword;
+    ::StringW currentShownKeyword;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
     ::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
     // Get instance field reference: private System.String _currentShownKeyword
-    ::Il2CppString*& dyn__currentShownKeyword();
+    ::StringW& dyn__currentShownKeyword();
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
     // Offset: 0x11B5010
-    GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::Il2CppString* keyword);
+    GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
     // Offset: 0x11B50E4
-    void ShowResultForKeyword(::Il2CppString* keyword, bool immediately);
+    void ShowResultForKeyword(::StringW keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
     // Offset: 0x11B5194
-    void HideResultForKeyword(::Il2CppString* keyword, bool immediately);
+    void HideResultForKeyword(::StringW keyword, bool immediately);
     // public System.Void .ctor()
     // Offset: 0x11B523C
     // Implemented from: UnityEngine.MonoBehaviour
@@ -92,14 +93,14 @@ namespace GlobalNamespace {
     }
   }; // ResultsEnvironmentManager
   #pragma pack(pop)
-  static check_size<sizeof(ResultsEnvironmentManager), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_ResultsEnvironmentManagerSizeCheck;
+  static check_size<sizeof(ResultsEnvironmentManager), 32 + sizeof(::StringW)> __GlobalNamespace_ResultsEnvironmentManagerSizeCheck;
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
 // Il2CppName: GetResultEnvironmentControllerForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*)>(&GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::*)(::StringW)>(&GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
   static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "GetResultEnvironmentControllerForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword});
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword
 // Il2CppName: ShowResultForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::StringW, bool)>(&GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
   static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword
 // Il2CppName: HideResultForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::StringW, bool)>(&GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
   static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

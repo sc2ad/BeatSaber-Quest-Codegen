@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -48,31 +49,31 @@ namespace System::ComponentModel {
     // private readonly System.String designerTypeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* designerTypeName;
+    ::StringW designerTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String designerBaseTypeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* designerBaseTypeName;
+    ::StringW designerBaseTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private readonly System.String designerTypeName
-    ::Il2CppString*& dyn_designerTypeName();
+    ::StringW& dyn_designerTypeName();
     // Get instance field reference: private readonly System.String designerBaseTypeName
-    ::Il2CppString*& dyn_designerBaseTypeName();
+    ::StringW& dyn_designerBaseTypeName();
     // public System.Void .ctor(System.String designerTypeName)
     // Offset: 0x1A26738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName) {
+    static DesignerAttribute* New_ctor(::StringW designerTypeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerAttribute*, creationType>(designerTypeName)));
     }
     // public System.Void .ctor(System.String designerTypeName, System.Type designerBaseType)
     // Offset: 0x1A26824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesignerAttribute* New_ctor(::Il2CppString* designerTypeName, System::Type* designerBaseType) {
+    static DesignerAttribute* New_ctor(::StringW designerTypeName, System::Type* designerBaseType) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerAttribute*, creationType>(designerTypeName, designerBaseType)));
     }
@@ -88,7 +89,7 @@ namespace System::ComponentModel {
     int GetHashCode();
   }; // System.ComponentModel.DesignerAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DesignerAttribute), 24 + sizeof(::Il2CppString*)> __System_ComponentModel_DesignerAttributeSizeCheck;
+  static check_size<sizeof(DesignerAttribute), 24 + sizeof(::StringW)> __System_ComponentModel_DesignerAttributeSizeCheck;
   static_assert(sizeof(DesignerAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

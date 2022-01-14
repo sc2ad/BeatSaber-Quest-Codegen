@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,7 +54,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1ParsingException* New_ctor(::Il2CppString* message) {
+    static Asn1ParsingException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1ParsingException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>(message)));
     }
@@ -64,7 +65,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1ParsingException* New_ctor(::Il2CppString* message, System::Exception* exception) {
+    static Asn1ParsingException* New_ctor(::StringW message, System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1ParsingException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1ParsingException*, creationType>(message, exception)));
     }

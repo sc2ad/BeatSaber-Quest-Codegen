@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -94,9 +95,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kMainEffectEnabledKeyword
     static constexpr const char* kMainEffectEnabledKeyword = "MAIN_EFFECT_ENABLED";
     // Get static field: static private System.String kMainEffectEnabledKeyword
-    static ::Il2CppString* _get_kMainEffectEnabledKeyword();
+    static ::StringW _get_kMainEffectEnabledKeyword();
     // Set static field: static private System.String kMainEffectEnabledKeyword
-    static void _set_kMainEffectEnabledKeyword(::Il2CppString* value);
+    static void _set_kMainEffectEnabledKeyword(::StringW value);
     // Get instance field reference: private MainEffectContainerSO _mainEffectContainer
     GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
     // Get instance field reference: private FloatSO _fadeValue

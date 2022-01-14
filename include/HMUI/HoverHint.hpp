@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -62,9 +63,9 @@ namespace HMUI {
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [InjectAttribute] Offset: 0xF24B78
     // private readonly HMUI.HoverHintController _hoverHintController
     // Size: 0x8
@@ -90,17 +91,17 @@ namespace HMUI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _text
-    ::Il2CppString*& dyn__text();
+    ::StringW& dyn__text();
     // Get instance field reference: private readonly HMUI.HoverHintController _hoverHintController
     HMUI::HoverHintController*& dyn__hoverHintController();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
     ::ArrayW<UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
     // Offset: 0x14A4418
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x14A4420
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public UnityEngine.Vector2 get_size()
     // Offset: 0x14A4428
     UnityEngine::Vector2 get_size();
@@ -138,7 +139,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::HoverHint::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::HoverHint::*)()>(&HMUI::HoverHint::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::HoverHint::*)()>(&HMUI::HoverHint::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -146,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HMUI::HoverHint::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)(::Il2CppString*)>(&HMUI::HoverHint::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)(::StringW)>(&HMUI::HoverHint::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

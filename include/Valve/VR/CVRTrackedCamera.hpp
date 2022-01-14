@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -78,7 +79,7 @@ namespace Valve::VR {
     }
     // public System.String GetCameraErrorNameFromEnum(Valve.VR.EVRTrackedCameraError eCameraError)
     // Offset: 0x18CEC10
-    ::Il2CppString* GetCameraErrorNameFromEnum(Valve::VR::EVRTrackedCameraError eCameraError);
+    ::StringW GetCameraErrorNameFromEnum(Valve::VR::EVRTrackedCameraError eCameraError);
     // public Valve.VR.EVRTrackedCameraError HasCamera(System.UInt32 nDeviceIndex, ref System.Boolean pHasCamera)
     // Offset: 0x18BCCE8
     Valve::VR::EVRTrackedCameraError HasCamera(uint nDeviceIndex, ByRef<bool> pHasCamera);
@@ -125,7 +126,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::GetCameraErrorNameFromEnum
 // Il2CppName: GetCameraErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRTrackedCamera::*)(Valve::VR::EVRTrackedCameraError)>(&Valve::VR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRTrackedCamera::*)(Valve::VR::EVRTrackedCameraError)>(&Valve::VR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* eCameraError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRTrackedCamera*), "GetCameraErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eCameraError});

@@ -9,6 +9,7 @@
 #include "UnityEngine/Behaviour.hpp"
 // Including type: System.Collections.IEnumerable
 #include "System/Collections/IEnumerable.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -54,16 +55,16 @@ namespace UnityEngine {
     UnityEngine::AnimationClip* get_clip();
     // public UnityEngine.AnimationState get_Item(System.String name)
     // Offset: 0x2633364
-    UnityEngine::AnimationState* get_Item(::Il2CppString* name);
+    UnityEngine::AnimationState* get_Item(::StringW name);
     // public System.Boolean get_animatePhysics()
     // Offset: 0x26336E4
     bool get_animatePhysics();
     // public System.Void Rewind(System.String name)
     // Offset: 0x26331C4
-    void Rewind(::Il2CppString* name);
+    void Rewind(::StringW name);
     // private System.Void Internal_RewindByName(System.String name)
     // Offset: 0x2633214
-    void Internal_RewindByName(::Il2CppString* name);
+    void Internal_RewindByName(::StringW name);
     // public System.Void Rewind()
     // Offset: 0x2633264
     void Rewind();
@@ -84,10 +85,10 @@ namespace UnityEngine {
     bool Play(UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength, UnityEngine.PlayMode mode)
     // Offset: 0x26334E8
-    void CrossFade(::Il2CppString* animation, float fadeLength, UnityEngine::PlayMode mode);
+    void CrossFade(::StringW animation, float fadeLength, UnityEngine::PlayMode mode);
     // public System.Void CrossFade(System.String animation, System.Single fadeLength)
     // Offset: 0x2633550
-    void CrossFade(::Il2CppString* animation, float fadeLength);
+    void CrossFade(::StringW animation, float fadeLength);
     // private System.Boolean PlayDefaultAnimation(UnityEngine.PlayMode mode)
     // Offset: 0x2633498
     bool PlayDefaultAnimation(UnityEngine::PlayMode mode);
@@ -96,7 +97,7 @@ namespace UnityEngine {
     System::Collections::IEnumerator* GetEnumerator();
     // UnityEngine.AnimationState GetState(System.String name)
     // Offset: 0x26333B4
-    UnityEngine::AnimationState* GetState(::Il2CppString* name);
+    UnityEngine::AnimationState* GetState(::StringW name);
     // UnityEngine.AnimationState GetStateAtIndex(System.Int32 index)
     // Offset: 0x2633654
     UnityEngine::AnimationState* GetStateAtIndex(int index);
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animation::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::StringW)>(&UnityEngine::Animation::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animation::Rewind
 // Il2CppName: Rewind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::Rewind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::StringW)>(&UnityEngine::Animation::Rewind)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animation::Internal_RewindByName
 // Il2CppName: Internal_RewindByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::Internal_RewindByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::StringW)>(&UnityEngine::Animation::Internal_RewindByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Internal_RewindByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animation::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*, float, UnityEngine::PlayMode)>(&UnityEngine::Animation::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::StringW, float, UnityEngine::PlayMode)>(&UnityEngine::Animation::CrossFade)> {
   static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fadeLength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animation::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*, float)>(&UnityEngine::Animation::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::StringW, float)>(&UnityEngine::Animation::CrossFade)> {
   static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fadeLength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::Animation::GetState
 // Il2CppName: GetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::GetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::StringW)>(&UnityEngine::Animation::GetState)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

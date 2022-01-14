@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -159,7 +160,7 @@ namespace MasterServer {
     // Offset: 0x14B4090
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
-    ::Il2CppString* get_resultCodeString();
+    ::StringW get_resultCodeString();
     // public System.Void .ctor()
     // Offset: 0x14B4550
     // Implemented from: BaseMasterServerReliableResponse
@@ -238,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ma
 // Writing MetadataGetter for method: MasterServer::GetPublicServersResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::GetPublicServersResponse::*)()>(&MasterServer::GetPublicServersResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::GetPublicServersResponse::*)()>(&MasterServer::GetPublicServersResponse::get_resultCodeString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicServersResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

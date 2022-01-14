@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -49,18 +50,18 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SimpleTextureLoader::$LoadTextureCoroutine$d__2
     class $LoadTextureCoroutine$d__2;
     // Get static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
-    static GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* _get__cache();
+    static GlobalNamespace::HMCache_2<::StringW, UnityEngine::Texture2D*>* _get__cache();
     // Set static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
-    static void _set__cache(GlobalNamespace::HMCache_2<::Il2CppString*, UnityEngine::Texture2D*>* value);
+    static void _set__cache(GlobalNamespace::HMCache_2<::StringW, UnityEngine::Texture2D*>* value);
     // static private System.Void .cctor()
     // Offset: 0x123A8C0
     static void _cctor();
     // static public System.Void LoadTexture(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
     // Offset: 0x123A740
-    static void LoadTexture(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
+    static void LoadTexture(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
     // static public System.Collections.IEnumerator LoadTextureCoroutine(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
     // Offset: 0x123A80C
-    static System::Collections::IEnumerator* LoadTextureCoroutine(::Il2CppString* filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
+    static System::Collections::IEnumerator* LoadTextureCoroutine(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
   }; // SimpleTextureLoader
   #pragma pack(pop)
 }
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::LoadTexture
 // Il2CppName: LoadTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTexture)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* useCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::LoadTextureCoroutine
 // Il2CppName: LoadTextureCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTextureCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::StringW, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTextureCoroutine)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* useCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

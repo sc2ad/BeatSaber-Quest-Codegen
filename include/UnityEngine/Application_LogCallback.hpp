@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,10 +49,10 @@ namespace UnityEngine {
     }
     // public System.Void Invoke(System.String condition, System.String stackTrace, UnityEngine.LogType type)
     // Offset: 0x1CFDACC
-    void Invoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type);
+    void Invoke(::StringW condition, ::StringW stackTrace, UnityEngine::LogType type);
     // public System.IAsyncResult BeginInvoke(System.String condition, System.String stackTrace, UnityEngine.LogType type, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1CFEC28
-    System::IAsyncResult* BeginInvoke(::Il2CppString* condition, ::Il2CppString* stackTrace, UnityEngine::LogType type, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW condition, ::StringW stackTrace, UnityEngine::LogType type, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1CFECC8
     void EndInvoke(System::IAsyncResult* result);
@@ -66,7 +67,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Application::LogCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Application::LogCallback::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::Application::LogCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Application::LogCallback::*)(::StringW, ::StringW, UnityEngine::LogType)>(&UnityEngine::Application::LogCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Application::LogCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Application::LogCallback::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Application::LogCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Application::LogCallback::*)(::StringW, ::StringW, UnityEngine::LogType, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Application::LogCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

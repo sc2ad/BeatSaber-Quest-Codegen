@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -51,34 +52,34 @@ namespace System::Net::NetworkInformation {
     // private System.String iface_path
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* iface_path;
+    ::StringW iface_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String iface_operstate_path
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* iface_operstate_path;
+    ::StringW iface_operstate_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String iface_flags_path
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* iface_flags_path;
+    ::StringW iface_flags_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String iface_path
-    ::Il2CppString*& dyn_iface_path();
+    ::StringW& dyn_iface_path();
     // Get instance field reference: private System.String iface_operstate_path
-    ::Il2CppString*& dyn_iface_operstate_path();
+    ::StringW& dyn_iface_operstate_path();
     // Get instance field reference: private System.String iface_flags_path
-    ::Il2CppString*& dyn_iface_flags_path();
+    ::StringW& dyn_iface_flags_path();
     // System.String get_IfacePath()
     // Offset: 0x16A6728
-    ::Il2CppString* get_IfacePath();
+    ::StringW get_IfacePath();
     // static System.String ReadLine(System.String path)
     // Offset: 0x16A6B60
-    static ::Il2CppString* ReadLine(::Il2CppString* path);
+    static ::StringW ReadLine(::StringW path);
     // public override System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
     // Offset: 0x16A68E4
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
@@ -89,7 +90,7 @@ namespace System::Net::NetworkInformation {
     // Implemented from: System.Net.NetworkInformation.UnixNetworkInterface
     // Base method: System.Void UnixNetworkInterface::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LinuxNetworkInterface* New_ctor(::Il2CppString* name) {
+    static LinuxNetworkInterface* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxNetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxNetworkInterface*, creationType>(name)));
     }
@@ -100,14 +101,14 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
   }; // System.Net.NetworkInformation.LinuxNetworkInterface
   #pragma pack(pop)
-  static check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
+  static check_size<sizeof(LinuxNetworkInterface), 72 + sizeof(::StringW)> __System_Net_NetworkInformation_LinuxNetworkInterfaceSizeCheck;
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath
 // Il2CppName: get_IfacePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "get_IfacePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

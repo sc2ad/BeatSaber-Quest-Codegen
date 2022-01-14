@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -187,9 +188,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 rawScore
     // Size: 0x4
     // Offset: 0x18
@@ -245,18 +246,18 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String deviceModel
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* deviceModel;
+    ::StringW deviceModel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String extraDataBase64
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* extraDataBase64;
+    ::StringW extraDataBase64;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String leaderboardId
-    ::Il2CppString*& dyn_leaderboardId();
+    ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 rawScore
     int& dyn_rawScore();
     // Get instance field reference: public System.Int32 modifiedScore
@@ -274,9 +275,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String deviceModel
-    ::Il2CppString*& dyn_deviceModel();
+    ::StringW& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
-    ::Il2CppString*& dyn_extraDataBase64();
+    ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
     // Offset: 0x12C79A8
     // Implemented from: System.Object
@@ -288,7 +289,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.LevelScoreResult
   #pragma pack(pop)
-  static check_size<sizeof(LevelScoreResult), 72 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
+  static check_size<sizeof(LevelScoreResult), 72 + sizeof(::StringW)> __BeatSaberAPI_DataTransferObjects_LevelScoreResultSizeCheck;
   static_assert(sizeof(LevelScoreResult) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

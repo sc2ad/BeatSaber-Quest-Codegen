@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,24 +41,24 @@ namespace GlobalNamespace {
     // public readonly System.String lobbySecret
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* lobbySecret;
+    ::StringW lobbySecret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String lobbyCode
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* lobbyCode;
+    ::StringW lobbyCode;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String lobbySecret
-    ::Il2CppString*& dyn_lobbySecret();
+    ::StringW& dyn_lobbySecret();
     // Get instance field reference: public readonly System.String lobbyCode
-    ::Il2CppString*& dyn_lobbyCode();
+    ::StringW& dyn_lobbyCode();
     // public System.Void .ctor(System.String lobbySecret, System.String lobbyCode)
     // Offset: 0x12344AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbySecret, ::Il2CppString* lobbyCode) {
+    static SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(lobbySecret, lobbyCode)));
     }
@@ -71,13 +72,13 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String lobbyCode)
     // Offset: 0x12345A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SelectMultiplayerLobbyDestination* New_ctor(::Il2CppString* lobbyCode) {
+    static SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbyCode) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectMultiplayerLobbyDestination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectMultiplayerLobbyDestination*, creationType>(lobbyCode)));
     }
   }; // SelectMultiplayerLobbyDestination
   #pragma pack(pop)
-  static check_size<sizeof(SelectMultiplayerLobbyDestination), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_SelectMultiplayerLobbyDestinationSizeCheck;
+  static check_size<sizeof(SelectMultiplayerLobbyDestination), 24 + sizeof(::StringW)> __GlobalNamespace_SelectMultiplayerLobbyDestinationSizeCheck;
   static_assert(sizeof(SelectMultiplayerLobbyDestination) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

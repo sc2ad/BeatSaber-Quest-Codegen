@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* get_buyPackButton();
     // public System.Void RefreshView(System.String infoText, System.Boolean canBuyPack)
     // Offset: 0x121C944
-    void RefreshView(::Il2CppString* infoText, bool canBuyPack);
+    void RefreshView(::StringW infoText, bool canBuyPack);
     // public System.Void .ctor()
     // Offset: 0x121C9B8
     // Implemented from: UnityEngine.MonoBehaviour
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::RefreshView
 // Il2CppName: RefreshView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyInfoView::*)(::Il2CppString*, bool)>(&GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyInfoView::*)(::StringW, bool)>(&GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
   static const MethodInfo* get() {
     static auto* infoText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* canBuyPack = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

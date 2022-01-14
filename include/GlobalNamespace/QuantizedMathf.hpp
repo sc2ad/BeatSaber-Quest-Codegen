@@ -9,6 +9,7 @@
 #include "System/Int32.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -84,7 +85,7 @@ namespace GlobalNamespace {
     static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b);
     // static public System.String QuantizedVectorComponentToString(System.Int32 v)
     // Offset: 0x2624BE4
-    static ::Il2CppString* QuantizedVectorComponentToString(int v);
+    static ::StringW QuantizedVectorComponentToString(int v);
   }; // QuantizedMathf
   #pragma pack(pop)
 }
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString
 // Il2CppName: QuantizedVectorComponentToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuantizedMathf*), "QuantizedVectorComponentToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});

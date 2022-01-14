@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -13,7 +14,6 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System
@@ -35,7 +35,7 @@ namespace System {
     public:
     // public System.String Format(System.String format, System.Object arg, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* Format(::Il2CppString* format, ::Il2CppObject* arg, System::IFormatProvider* formatProvider);
+    ::StringW Format(::StringW format, ::Il2CppObject* arg, System::IFormatProvider* formatProvider);
   }; // System.ICustomFormatter
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ICustomFormatter::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ICustomFormatter::*)(::Il2CppString*, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ICustomFormatter::*)(::StringW, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

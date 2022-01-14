@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,10 +44,10 @@ namespace RootMotion {
     }
     // public System.Void Invoke(System.String message)
     // Offset: 0x1CACB80
-    void Invoke(::Il2CppString* message);
+    void Invoke(::StringW message);
     // public System.IAsyncResult BeginInvoke(System.String message, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1CACF24
-    System::IAsyncResult* BeginInvoke(::Il2CppString* message, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW message, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1CACF48
     void EndInvoke(System::IAsyncResult* result);
@@ -61,7 +62,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::Warning::Logger::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Warning::Logger::*)(::Il2CppString*)>(&RootMotion::Warning::Logger::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Warning::Logger::*)(::StringW)>(&RootMotion::Warning::Logger::Invoke)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Warning::Logger*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::Warning::Logger::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RootMotion::Warning::Logger::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&RootMotion::Warning::Logger::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RootMotion::Warning::Logger::*)(::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&RootMotion::Warning::Logger::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

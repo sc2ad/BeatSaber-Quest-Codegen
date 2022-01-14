@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -49,15 +50,15 @@ namespace NUnit::Framework::Internal {
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String fullname
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* fullname;
+    ::StringW fullname;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private NUnit.Framework.Internal.InternalTraceLevel maxLevel
     // Size: 0x4
     // Offset: 0x20
@@ -74,17 +75,17 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
     public:
     // Get static field: static private readonly System.String TIME_FMT
-    static ::Il2CppString* _get_TIME_FMT();
+    static ::StringW _get_TIME_FMT();
     // Set static field: static private readonly System.String TIME_FMT
-    static void _set_TIME_FMT(::Il2CppString* value);
+    static void _set_TIME_FMT(::StringW value);
     // Get static field: static private readonly System.String TRACE_FMT
-    static ::Il2CppString* _get_TRACE_FMT();
+    static ::StringW _get_TRACE_FMT();
     // Set static field: static private readonly System.String TRACE_FMT
-    static void _set_TRACE_FMT(::Il2CppString* value);
+    static void _set_TRACE_FMT(::StringW value);
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.String fullname
-    ::Il2CppString*& dyn_fullname();
+    ::StringW& dyn_fullname();
     // Get instance field reference: private NUnit.Framework.Internal.InternalTraceLevel maxLevel
     NUnit::Framework::Internal::InternalTraceLevel& dyn_maxLevel();
     // Get instance field reference: private System.IO.TextWriter writer
@@ -92,7 +93,7 @@ namespace NUnit::Framework::Internal {
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
     // Offset: 0x2550800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Logger* New_ctor(::Il2CppString* name, NUnit::Framework::Internal::InternalTraceLevel level, System::IO::TextWriter* writer) {
+    static Logger* New_ctor(::StringW name, NUnit::Framework::Internal::InternalTraceLevel level, System::IO::TextWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(name, level, writer)));
     }
@@ -101,22 +102,22 @@ namespace NUnit::Framework::Internal {
     static void _cctor();
     // public System.Void Error(System.String message)
     // Offset: 0x2550B2C
-    void Error(::Il2CppString* message);
+    void Error(::StringW message);
     // public System.Void Debug(System.String message)
     // Offset: 0x2550B6C
-    void Debug(::Il2CppString* message);
+    void Debug(::StringW message);
     // public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x2550B90
-    void Debug(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    void Debug(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x2550B50
-    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
+    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     // Offset: 0x2550BA0
-    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
+    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x2550BEC
-    void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
+    void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
   }; // NUnit.Framework.Internal.Logger
   #pragma pack(pop)
   static check_size<sizeof(Logger), 40 + sizeof(System::IO::TextWriter*)> __NUnit_Framework_Internal_LoggerSizeCheck;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::StringW)>(&NUnit::Framework::Internal::Logger::Error)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::StringW)>(&NUnit::Framework::Internal::Logger::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Logger*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&NUnit::Framework::Internal::Logger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::StringW)>(&NUnit::Framework::Internal::Logger::Log)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Log)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::WriteLog
 // Il2CppName: WriteLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*)>(&NUnit::Framework::Internal::Logger::WriteLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::StringW)>(&NUnit::Framework::Internal::Logger::WriteLog)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

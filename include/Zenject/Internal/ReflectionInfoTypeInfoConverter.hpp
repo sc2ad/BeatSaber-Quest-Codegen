@@ -9,6 +9,7 @@
 #include "Zenject/InjectTypeInfo.hpp"
 // Including type: Zenject.Internal.ReflectionTypeInfo
 #include "Zenject/Internal/ReflectionTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject::Internal
@@ -102,7 +103,7 @@ namespace Zenject::Internal {
     static System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* GetAllFields(System::Type* t, System::Reflection::BindingFlags flags);
     // static private Zenject.ZenMemberSetterMethod GetOnlyPropertySetter(System.Type parentType, System.String propertyName)
     // Offset: 0x18D382C
-    static Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(System::Type* parentType, ::Il2CppString* propertyName);
+    static Zenject::ZenMemberSetterMethod* GetOnlyPropertySetter(System::Type* parentType, ::StringW propertyName);
     // static private Zenject.ZenMemberSetterMethod GetSetter(System.Type parentType, System.Reflection.MemberInfo memInfo)
     // Offset: 0x18D3454
     static Zenject::ZenMemberSetterMethod* GetSetter(System::Type* parentType, System::Reflection::MemberInfo* memInfo);
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter
 // Il2CppName: GetOnlyPropertySetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenMemberSetterMethod* (*)(System::Type*, ::Il2CppString*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenMemberSetterMethod* (*)(System::Type*, ::StringW)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter)> {
   static const MethodInfo* get() {
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

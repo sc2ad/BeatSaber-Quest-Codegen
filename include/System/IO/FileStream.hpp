@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -99,9 +100,9 @@ namespace System::IO {
     // private System.String name
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
     // Size: 0x8
     // Offset: 0x38
@@ -202,7 +203,7 @@ namespace System::IO {
     // Get instance field reference: private System.Byte[] buf
     ::ArrayW<uint8_t>& dyn_buf();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
     Microsoft::Win32::SafeHandles::SafeFileHandle*& dyn_safeHandle();
     // Get instance field reference: private System.Boolean isExposed
@@ -249,63 +250,63 @@ namespace System::IO {
     // public System.Void .ctor(System.String path, System.IO.FileMode mode)
     // Offset: 0x1AFCF70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access)
     // Offset: 0x1AFD688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share)
     // Offset: 0x1AF9EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize)
     // Offset: 0x1AF9804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync)
     // Offset: 0x1AFD6E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool useAsync) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool useAsync) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, useAsync)));
     }
     // public System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options)
     // Offset: 0x1AFD71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, options)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options, System.String msgPath, System.Boolean bFromProxy, System.Boolean useLongPath, System.Boolean checkHost)
     // Offset: 0x1AFD740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options, ::Il2CppString* msgPath, bool bFromProxy, bool useLongPath, bool checkHost) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, System::IO::FileOptions options, ::StringW msgPath, bool bFromProxy, bool useLongPath, bool checkHost) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, options, msgPath, bFromProxy, useLongPath, checkHost)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous)
     // Offset: 0x1AFD6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool isAsync, bool anonymous) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool isAsync, bool anonymous) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, isAsync, anonymous)));
     }
     // System.Void .ctor(System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options)
     // Offset: 0x1AFCFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileStream* New_ctor(::Il2CppString* path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool anonymous, System::IO::FileOptions options) {
+    static FileStream* New_ctor(::StringW path, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, int bufferSize, bool anonymous, System::IO::FileOptions options) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream*, creationType>(path, mode, access, share, bufferSize, anonymous, options)));
     }
@@ -344,10 +345,10 @@ namespace System::IO {
     void InitBuffer(int size, bool isZeroSize);
     // private System.String GetSecureFileName(System.String filename)
     // Offset: 0x1AFDFF8
-    ::Il2CppString* GetSecureFileName(::Il2CppString* filename);
+    ::StringW GetSecureFileName(::StringW filename);
     // private System.String GetSecureFileName(System.String filename, System.Boolean full)
     // Offset: 0x1AFDE7C
-    ::Il2CppString* GetSecureFileName(::Il2CppString* filename, bool full);
+    ::StringW GetSecureFileName(::StringW filename, bool full);
     // public override System.Boolean get_CanRead()
     // Offset: 0x1AFE520
     // Implemented from: System.IO.Stream
@@ -631,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::GetSecureFileName
 // Il2CppName: GetSecureFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileStream::*)(::Il2CppString*)>(&System::IO::FileStream::GetSecureFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileStream::*)(::StringW)>(&System::IO::FileStream::GetSecureFileName)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileStream*), "GetSecureFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
@@ -640,7 +641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileStream::GetSecureFileName
 // Il2CppName: GetSecureFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileStream::*)(::Il2CppString*, bool)>(&System::IO::FileStream::GetSecureFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileStream::*)(::StringW, bool)>(&System::IO::FileStream::GetSecureFileName)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* full = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

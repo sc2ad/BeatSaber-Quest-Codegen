@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Net
@@ -119,10 +120,10 @@ namespace Mono::Net {
     System::IntPtr get_AutoConfigurationUrl();
     // public System.String get_HostName()
     // Offset: 0x182BC54
-    ::Il2CppString* get_HostName();
+    ::StringW get_HostName();
     // public System.String get_Password()
     // Offset: 0x182BB90
-    ::Il2CppString* get_Password();
+    ::StringW get_Password();
     // public System.Int32 get_Port()
     // Offset: 0x182BD18
     int get_Port();
@@ -131,7 +132,7 @@ namespace Mono::Net {
     Mono::Net::CFProxyType get_ProxyType();
     // public System.String get_Username()
     // Offset: 0x182BACC
-    ::Il2CppString* get_Username();
+    ::StringW get_Username();
     // static private System.Void .cctor()
     // Offset: 0x182C9F4
     static void _cctor();
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Mono::Net::CFProxy::get_HostName
 // Il2CppName: get_HostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_HostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_HostName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Net::CFProxy::get_Password
 // Il2CppName: get_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Password)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Writing MetadataGetter for method: Mono::Net::CFProxy::get_Username
 // Il2CppName: get_Username
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Username)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Username)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

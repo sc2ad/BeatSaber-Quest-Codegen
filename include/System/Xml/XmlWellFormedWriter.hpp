@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -333,21 +334,21 @@ namespace System::Xml {
       // System.String prefix
       // Size: 0x8
       // Offset: 0x8
-      ::Il2CppString* prefix;
+      ::StringW prefix;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.String localName
       // Size: 0x8
       // Offset: 0x10
-      ::Il2CppString* localName;
+      ::StringW localName;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.String namespaceUri
       // Size: 0x8
       // Offset: 0x18
-      ::Il2CppString* namespaceUri;
+      ::StringW namespaceUri;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.Xml.XmlSpace xmlSpace
       // Size: 0x4
       // Offset: 0x20
@@ -359,12 +360,12 @@ namespace System::Xml {
       // System.String xmlLang
       // Size: 0x8
       // Offset: 0x28
-      ::Il2CppString* xmlLang;
+      ::StringW xmlLang;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       public:
       // Creating value type constructor for type: ElementScope
-      constexpr ElementScope(int prevNSTop_ = {}, ::Il2CppString* prefix_ = {}, ::Il2CppString* localName_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::Il2CppString* xmlLang_ = {}) noexcept : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
+      constexpr ElementScope(int prevNSTop_ = {}, ::StringW prefix_ = {}, ::StringW localName_ = {}, ::StringW namespaceUri_ = {}, System::Xml::XmlSpace xmlSpace_ = {}, ::StringW xmlLang_ = {}) noexcept : prevNSTop{prevNSTop_}, prefix{prefix_}, localName{localName_}, namespaceUri{namespaceUri_}, xmlSpace{xmlSpace_}, xmlLang{xmlLang_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -372,18 +373,18 @@ namespace System::Xml {
       // Get instance field reference: System.Int32 prevNSTop
       int& dyn_prevNSTop();
       // Get instance field reference: System.String prefix
-      ::Il2CppString*& dyn_prefix();
+      ::StringW& dyn_prefix();
       // Get instance field reference: System.String localName
-      ::Il2CppString*& dyn_localName();
+      ::StringW& dyn_localName();
       // Get instance field reference: System.String namespaceUri
-      ::Il2CppString*& dyn_namespaceUri();
+      ::StringW& dyn_namespaceUri();
       // Get instance field reference: System.Xml.XmlSpace xmlSpace
       System::Xml::XmlSpace& dyn_xmlSpace();
       // Get instance field reference: System.String xmlLang
-      ::Il2CppString*& dyn_xmlLang();
+      ::StringW& dyn_xmlLang();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri, System.Int32 prevNSTop)
       // Offset: 0x26A2E34
-      void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri, int prevNSTop);
+      void Set(::StringW prefix, ::StringW localName, ::StringW namespaceUri, int prevNSTop);
       // System.Void WriteEndElement(System.Xml.XmlRawWriter rawWriter)
       // Offset: 0x26A2E50
       void WriteEndElement(System::Xml::XmlRawWriter* rawWriter);
@@ -392,7 +393,7 @@ namespace System::Xml {
       void WriteFullEndElement(System::Xml::XmlRawWriter* rawWriter);
     }; // System.Xml.XmlWellFormedWriter/System.Xml.ElementScope
     #pragma pack(pop)
-    static check_size<sizeof(XmlWellFormedWriter::ElementScope), 40 + sizeof(::Il2CppString*)> __System_Xml_XmlWellFormedWriter_ElementScopeSizeCheck;
+    static check_size<sizeof(XmlWellFormedWriter::ElementScope), 40 + sizeof(::StringW)> __System_Xml_XmlWellFormedWriter_ElementScopeSizeCheck;
     static_assert(sizeof(XmlWellFormedWriter::ElementScope) == 0x30);
     // Size: 0x4
     #pragma pack(push, 1)
@@ -459,15 +460,15 @@ namespace System::Xml {
       // System.String prefix
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* prefix;
+      ::StringW prefix;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.String namespaceUri
       // Size: 0x8
       // Offset: 0x8
-      ::Il2CppString* namespaceUri;
+      ::StringW namespaceUri;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind
       // Size: 0x4
       // Offset: 0x10
@@ -482,22 +483,22 @@ namespace System::Xml {
       static_assert(sizeof(int) == 0x4);
       public:
       // Creating value type constructor for type: Namespace
-      constexpr Namespace(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) noexcept : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
+      constexpr Namespace(::StringW prefix_ = {}, ::StringW namespaceUri_ = {}, System::Xml::XmlWellFormedWriter::NamespaceKind kind_ = {}, int prevNsIndex_ = {}) noexcept : prefix{prefix_}, namespaceUri{namespaceUri_}, kind{kind_}, prevNsIndex{prevNsIndex_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: System.String prefix
-      ::Il2CppString*& dyn_prefix();
+      ::StringW& dyn_prefix();
       // Get instance field reference: System.String namespaceUri
-      ::Il2CppString*& dyn_namespaceUri();
+      ::StringW& dyn_namespaceUri();
       // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind
       System::Xml::XmlWellFormedWriter::NamespaceKind& dyn_kind();
       // Get instance field reference: System.Int32 prevNsIndex
       int& dyn_prevNsIndex();
       // System.Void Set(System.String prefix, System.String namespaceUri, System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind)
       // Offset: 0x26A2EB0
-      void Set(::Il2CppString* prefix, ::Il2CppString* namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
+      void Set(::StringW prefix, ::StringW namespaceUri, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
       // System.Void WriteDecl(System.Xml.XmlWriter writer, System.Xml.XmlRawWriter rawWriter)
       // Offset: 0x26A2EC0
       void WriteDecl(System::Xml::XmlWriter* writer, System::Xml::XmlRawWriter* rawWriter);
@@ -516,21 +517,21 @@ namespace System::Xml {
       // System.String prefix
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* prefix;
+      ::StringW prefix;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.String namespaceUri
       // Size: 0x8
       // Offset: 0x8
-      ::Il2CppString* namespaceUri;
+      ::StringW namespaceUri;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.String localName
       // Size: 0x8
       // Offset: 0x10
-      ::Il2CppString* localName;
+      ::StringW localName;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // System.Int32 prev
       // Size: 0x4
       // Offset: 0x18
@@ -539,25 +540,25 @@ namespace System::Xml {
       static_assert(sizeof(int) == 0x4);
       public:
       // Creating value type constructor for type: AttrName
-      constexpr AttrName(::Il2CppString* prefix_ = {}, ::Il2CppString* namespaceUri_ = {}, ::Il2CppString* localName_ = {}, int prev_ = {}) noexcept : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
+      constexpr AttrName(::StringW prefix_ = {}, ::StringW namespaceUri_ = {}, ::StringW localName_ = {}, int prev_ = {}) noexcept : prefix{prefix_}, namespaceUri{namespaceUri_}, localName{localName_}, prev{prev_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: System.String prefix
-      ::Il2CppString*& dyn_prefix();
+      ::StringW& dyn_prefix();
       // Get instance field reference: System.String namespaceUri
-      ::Il2CppString*& dyn_namespaceUri();
+      ::StringW& dyn_namespaceUri();
       // Get instance field reference: System.String localName
-      ::Il2CppString*& dyn_localName();
+      ::StringW& dyn_localName();
       // Get instance field reference: System.Int32 prev
       int& dyn_prev();
       // System.Void Set(System.String prefix, System.String localName, System.String namespaceUri)
       // Offset: 0x26A1D70
-      void Set(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
+      void Set(::StringW prefix, ::StringW localName, ::StringW namespaceUri);
       // System.Boolean IsDuplicate(System.String prefix, System.String localName, System.String namespaceUri)
       // Offset: 0x26A1D80
-      bool IsDuplicate(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceUri);
+      bool IsDuplicate(::StringW prefix, ::StringW localName, ::StringW namespaceUri);
     }; // System.Xml.XmlWellFormedWriter/System.Xml.AttrName
     #pragma pack(pop)
     static check_size<sizeof(XmlWellFormedWriter::AttrName), 24 + sizeof(int)> __System_Xml_XmlWellFormedWriter_AttrNameSizeCheck;
@@ -666,9 +667,9 @@ namespace System::Xml {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* nsHashtable;
+    System::Collections::Generic::Dictionary_2<::StringW, int>* nsHashtable;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // private System.Boolean useNsHashtable
     // Size: 0x1
     // Offset: 0x40
@@ -708,9 +709,9 @@ namespace System::Xml {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
     // Size: 0x8
     // Offset: 0x68
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* attrHashTable;
+    System::Collections::Generic::Dictionary_2<::StringW, int>* attrHashTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // private System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute specAttr
     // Size: 0x4
     // Offset: 0x70
@@ -728,9 +729,9 @@ namespace System::Xml {
     // private System.String curDeclPrefix
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* curDeclPrefix;
+    ::StringW curDeclPrefix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
     // Size: 0x8
     // Offset: 0x88
@@ -797,13 +798,13 @@ namespace System::Xml {
     static_assert(sizeof(System::Xml::SecureStringHasher*) == 0x8);
     public:
     // Get static field: static readonly System.String[] stateName
-    static ::ArrayW<::Il2CppString*> _get_stateName();
+    static ::ArrayW<::StringW> _get_stateName();
     // Set static field: static readonly System.String[] stateName
-    static void _set_stateName(::ArrayW<::Il2CppString*> value);
+    static void _set_stateName(::ArrayW<::StringW> value);
     // Get static field: static readonly System.String[] tokenName
-    static ::ArrayW<::Il2CppString*> _get_tokenName();
+    static ::ArrayW<::StringW> _get_tokenName();
     // Set static field: static readonly System.String[] tokenName
-    static void _set_tokenName(::ArrayW<::Il2CppString*> value);
+    static void _set_tokenName(::ArrayW<::StringW> value);
     // Get static field: static private System.Xml.WriteState[] state2WriteState
     static ::ArrayW<System::Xml::WriteState> _get_state2WriteState();
     // Set static field: static private System.Xml.WriteState[] state2WriteState
@@ -827,7 +828,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 nsTop
     int& dyn_nsTop();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> nsHashtable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_nsHashtable();
+    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn_nsHashtable();
     // Get instance field reference: private System.Boolean useNsHashtable
     bool& dyn_useNsHashtable();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.ElementScope[] elemScopeStack
@@ -839,13 +840,13 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 attrCount
     int& dyn_attrCount();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> attrHashTable
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_attrHashTable();
+    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn_attrHashTable();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.SpecialAttribute specAttr
     System::Xml::XmlWellFormedWriter::SpecialAttribute& dyn_specAttr();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache attrValueCache
     System::Xml::XmlWellFormedWriter::AttributeValueCache*& dyn_attrValueCache();
     // Get instance field reference: private System.String curDeclPrefix
-    ::Il2CppString*& dyn_curDeclPrefix();
+    ::StringW& dyn_curDeclPrefix();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State[] stateTable
     ::ArrayW<System::Xml::XmlWellFormedWriter::State>& dyn_stateTable();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.State currentState
@@ -899,25 +900,25 @@ namespace System::Xml {
     void StartFragment();
     // private System.Void PushNamespaceImplicit(System.String prefix, System.String ns)
     // Offset: 0x1B6DF1C
-    void PushNamespaceImplicit(::Il2CppString* prefix, ::Il2CppString* ns);
+    void PushNamespaceImplicit(::StringW prefix, ::StringW ns);
     // private System.Boolean PushNamespaceExplicit(System.String prefix, System.String ns)
     // Offset: 0x1B6FBC0
-    bool PushNamespaceExplicit(::Il2CppString* prefix, ::Il2CppString* ns);
+    bool PushNamespaceExplicit(::StringW prefix, ::StringW ns);
     // private System.Void AddNamespace(System.String prefix, System.String ns, System.Xml.XmlWellFormedWriter/System.Xml.NamespaceKind kind)
     // Offset: 0x1B71F0C
-    void AddNamespace(::Il2CppString* prefix, ::Il2CppString* ns, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
+    void AddNamespace(::StringW prefix, ::StringW ns, System::Xml::XmlWellFormedWriter::NamespaceKind kind);
     // private System.Void AddToNamespaceHashtable(System.Int32 namespaceIndex)
     // Offset: 0x1B72184
     void AddToNamespaceHashtable(int namespaceIndex);
     // private System.Int32 LookupNamespaceIndex(System.String prefix)
     // Offset: 0x1B71E0C
-    int LookupNamespaceIndex(::Il2CppString* prefix);
+    int LookupNamespaceIndex(::StringW prefix);
     // private System.Void PopNamespaces(System.Int32 indexFrom, System.Int32 indexTo)
     // Offset: 0x1B6E544
     void PopNamespaces(int indexFrom, int indexTo);
     // static private System.Xml.XmlException DupAttrException(System.String prefix, System.String localName)
     // Offset: 0x1B72088
-    static System::Xml::XmlException* DupAttrException(::Il2CppString* prefix, ::Il2CppString* localName);
+    static System::Xml::XmlException* DupAttrException(::StringW prefix, ::StringW localName);
     // private System.Void AdvanceState(System.Xml.XmlWellFormedWriter/System.Xml.Token token)
     // Offset: 0x1B6D5B8
     void AdvanceState(System::Xml::XmlWellFormedWriter::Token token);
@@ -926,28 +927,28 @@ namespace System::Xml {
     void StartElementContent();
     // static private System.String GetStateName(System.Xml.XmlWellFormedWriter/System.Xml.State state)
     // Offset: 0x1B72278
-    static ::Il2CppString* GetStateName(System::Xml::XmlWellFormedWriter::State state);
+    static ::StringW GetStateName(System::Xml::XmlWellFormedWriter::State state);
     // System.String LookupNamespace(System.String prefix)
     // Offset: 0x1B6DDB8
-    ::Il2CppString* LookupNamespace(::Il2CppString* prefix);
+    ::StringW LookupNamespace(::StringW prefix);
     // private System.String LookupLocalNamespace(System.String prefix)
     // Offset: 0x1B6F084
-    ::Il2CppString* LookupLocalNamespace(::Il2CppString* prefix);
+    ::StringW LookupLocalNamespace(::StringW prefix);
     // private System.String GeneratePrefix()
     // Offset: 0x1B6EF44
-    ::Il2CppString* GeneratePrefix();
+    ::StringW GeneratePrefix();
     // private System.Void CheckNCName(System.String ncname)
     // Offset: 0x1B6DC64
-    void CheckNCName(::Il2CppString* ncname);
+    void CheckNCName(::StringW ncname);
     // static private System.Exception InvalidCharsException(System.String name, System.Int32 badCharIndex)
     // Offset: 0x1B725DC
-    static System::Exception* InvalidCharsException(::Il2CppString* name, int badCharIndex);
+    static System::Exception* InvalidCharsException(::StringW name, int badCharIndex);
     // private System.Void ThrowInvalidStateTransition(System.Xml.XmlWellFormedWriter/System.Xml.Token token, System.Xml.XmlWellFormedWriter/System.Xml.State currentState)
     // Offset: 0x1B72324
     void ThrowInvalidStateTransition(System::Xml::XmlWellFormedWriter::Token token, System::Xml::XmlWellFormedWriter::State currentState);
     // private System.Void AddAttribute(System.String prefix, System.String localName, System.String namespaceName)
     // Offset: 0x1B6F160
-    void AddAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceName);
+    void AddAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceName);
     // private System.Void AddToAttrHashTable(System.Int32 attributeIndex)
     // Offset: 0x1B72748
     void AddToAttrHashTable(int attributeIndex);
@@ -965,12 +966,12 @@ namespace System::Xml {
     // Offset: 0x1B6D178
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
-    void WriteDocType(::Il2CppString* name, ::Il2CppString* pubid, ::Il2CppString* sysid, ::Il2CppString* subset);
+    void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
     // public override System.Void WriteStartElement(System.String prefix, System.String localName, System.String ns)
     // Offset: 0x1B6D8E4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartElement(System.String prefix, System.String localName, System.String ns)
-    void WriteStartElement(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* ns);
+    void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
     // public override System.Void WriteEndElement()
     // Offset: 0x1B6E31C
     // Implemented from: System.Xml.XmlWriter
@@ -985,7 +986,7 @@ namespace System::Xml {
     // Offset: 0x1B6E844
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteStartAttribute(System.String prefix, System.String localName, System.String namespaceName)
-    void WriteStartAttribute(::Il2CppString* prefix, ::Il2CppString* localName, ::Il2CppString* namespaceName);
+    void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW namespaceName);
     // public override System.Void WriteEndAttribute()
     // Offset: 0x1B6F3D8
     // Implemented from: System.Xml.XmlWriter
@@ -995,22 +996,22 @@ namespace System::Xml {
     // Offset: 0x1B7007C
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteCData(System.String text)
-    void WriteCData(::Il2CppString* text);
+    void WriteCData(::StringW text);
     // public override System.Void WriteComment(System.String text)
     // Offset: 0x1B70194
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteComment(System.String text)
-    void WriteComment(::Il2CppString* text);
+    void WriteComment(::StringW text);
     // public override System.Void WriteProcessingInstruction(System.String name, System.String text)
     // Offset: 0x1B702B0
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteProcessingInstruction(System.String name, System.String text)
-    void WriteProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
+    void WriteProcessingInstruction(::StringW name, ::StringW text);
     // public override System.Void WriteEntityRef(System.String name)
     // Offset: 0x1B70530
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteEntityRef(System.String name)
-    void WriteEntityRef(::Il2CppString* name);
+    void WriteEntityRef(::StringW name);
     // public override System.Void WriteCharEntity(System.Char ch)
     // Offset: 0x1B706C8
     // Implemented from: System.Xml.XmlWriter
@@ -1025,12 +1026,12 @@ namespace System::Xml {
     // Offset: 0x1B70A28
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteWhitespace(System.String ws)
-    void WriteWhitespace(::Il2CppString* ws);
+    void WriteWhitespace(::StringW ws);
     // public override System.Void WriteString(System.String text)
     // Offset: 0x1B70BD8
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteString(System.String text)
-    void WriteString(::Il2CppString* text);
+    void WriteString(::StringW text);
     // public override System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B70D08
     // Implemented from: System.Xml.XmlWriter
@@ -1045,7 +1046,7 @@ namespace System::Xml {
     // Offset: 0x1B711D8
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteRaw(System.String data)
-    void WriteRaw(::Il2CppString* data);
+    void WriteRaw(::StringW data);
     // public override System.Void WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B71308
     // Implemented from: System.Xml.XmlWriter
@@ -1065,12 +1066,12 @@ namespace System::Xml {
     // Offset: 0x1B718B4
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.String XmlWriter::LookupPrefix(System.String ns)
-    ::Il2CppString* LookupPrefix(::Il2CppString* ns);
+    ::StringW LookupPrefix(::StringW ns);
     // public override System.Void WriteValue(System.String value)
     // Offset: 0x1B71B64
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteValue(System.String value)
-    void WriteValue(::Il2CppString* value);
+    void WriteValue(::StringW value);
     // public override System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B71CA0
     // Implemented from: System.Xml.XmlWriter
@@ -1167,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::PushNamespaceImplicit
 // Il2CppName: PushNamespaceImplicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::PushNamespaceImplicit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::PushNamespaceImplicit)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1177,7 +1178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::PushNamespaceExplicit
 // Il2CppName: PushNamespaceExplicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::PushNamespaceExplicit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::PushNamespaceExplicit)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1187,7 +1188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddNamespace
 // Il2CppName: AddNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, System::Xml::XmlWellFormedWriter::NamespaceKind)>(&System::Xml::XmlWellFormedWriter::AddNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW, System::Xml::XmlWellFormedWriter::NamespaceKind)>(&System::Xml::XmlWellFormedWriter::AddNamespace)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1207,7 +1208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupNamespaceIndex
 // Il2CppName: LookupNamespaceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupNamespaceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::LookupNamespaceIndex)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupNamespaceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix});
@@ -1226,7 +1227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::DupAttrException
 // Il2CppName: DupAttrException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlException* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::DupAttrException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlException* (*)(::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::DupAttrException)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1253,7 +1254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::GetStateName
 // Il2CppName: GetStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Xml::XmlWellFormedWriter::State)>(&System::Xml::XmlWellFormedWriter::GetStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Xml::XmlWellFormedWriter::State)>(&System::Xml::XmlWellFormedWriter::GetStateName)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWellFormedWriter/State")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "GetStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -1262,7 +1263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupNamespace
 // Il2CppName: LookupNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::LookupNamespace)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix});
@@ -1271,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupLocalNamespace
 // Il2CppName: LookupLocalNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupLocalNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::LookupLocalNamespace)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupLocalNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix});
@@ -1280,7 +1281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::GeneratePrefix
 // Il2CppName: GeneratePrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::GeneratePrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::GeneratePrefix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "GeneratePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1288,7 +1289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::CheckNCName
 // Il2CppName: CheckNCName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::CheckNCName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::CheckNCName)> {
   static const MethodInfo* get() {
     static auto* ncname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "CheckNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ncname});
@@ -1297,7 +1298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::InvalidCharsException
 // Il2CppName: InvalidCharsException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, int)>(&System::Xml::XmlWellFormedWriter::InvalidCharsException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int)>(&System::Xml::XmlWellFormedWriter::InvalidCharsException)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* badCharIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1317,7 +1318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddAttribute
 // Il2CppName: AddAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::AddAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::AddAttribute)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1353,7 +1354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteDocType
 // Il2CppName: WriteDocType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteDocType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::WriteDocType)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pubid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1365,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartElement
 // Il2CppName: WriteStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::WriteStartElement)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1392,7 +1393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartAttribute
 // Il2CppName: WriteStartAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteStartAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::WriteStartAttribute)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1411,7 +1412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteCData
 // Il2CppName: WriteCData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteCData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteCData)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -1420,7 +1421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteComment
 // Il2CppName: WriteComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteComment)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -1429,7 +1430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteProcessingInstruction
 // Il2CppName: WriteProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW, ::StringW)>(&System::Xml::XmlWellFormedWriter::WriteProcessingInstruction)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1439,7 +1440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteEntityRef
 // Il2CppName: WriteEntityRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteEntityRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteEntityRef)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1467,7 +1468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteWhitespace
 // Il2CppName: WriteWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteWhitespace)> {
   static const MethodInfo* get() {
     static auto* ws = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ws});
@@ -1476,7 +1477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteString
 // Il2CppName: WriteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteString)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -1507,7 +1508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -1543,7 +1544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupPrefix
 // Il2CppName: LookupPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::LookupPrefix)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -1552,7 +1553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::StringW)>(&System::Xml::XmlWellFormedWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

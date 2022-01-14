@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _sampleRate
     // Size: 0x4
     // Offset: 0x20
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _fileName
-    ::Il2CppString*& dyn__fileName();
+    ::StringW& dyn__fileName();
     // Get instance field reference: private System.Int32 _sampleRate
     int& dyn__sampleRate();
     // Get instance field reference: private System.Int32 _headerSize
@@ -98,7 +99,7 @@ namespace GlobalNamespace {
     void Update();
     // private System.Void StartWriting(System.String name)
     // Offset: 0x138E6CC
-    void StartWriting(::Il2CppString* name);
+    void StartWriting(::StringW name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
     // Offset: 0x138EB6C
     void OnAudioFilterRead(::ArrayW<float> data, int channels);
@@ -146,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::StartWriting
 // Il2CppName: StartWriting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::Il2CppString*)>(&GlobalNamespace::CaptureAudioToWav::StartWriting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::StringW)>(&GlobalNamespace::CaptureAudioToWav::StartWriting)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CaptureAudioToWav*), "StartWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

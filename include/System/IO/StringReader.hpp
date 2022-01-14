@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -42,9 +43,9 @@ namespace System::IO {
     // private System.String _s
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* s;
+    ::StringW s;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _pos
     // Size: 0x4
     // Offset: 0x20
@@ -61,7 +62,7 @@ namespace System::IO {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.String _s
-    ::Il2CppString*& dyn__s();
+    ::StringW& dyn__s();
     // Get instance field reference: private System.Int32 _pos
     int& dyn__pos();
     // Get instance field reference: private System.Int32 _length
@@ -69,7 +70,7 @@ namespace System::IO {
     // public System.Void .ctor(System.String s)
     // Offset: 0x1A08D30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StringReader* New_ctor(::Il2CppString* s) {
+    static StringReader* New_ctor(::StringW s) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StringReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringReader*, creationType>(s)));
     }
@@ -102,12 +103,12 @@ namespace System::IO {
     // Offset: 0x1A0910C
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadToEnd()
-    ::Il2CppString* ReadToEnd();
+    ::StringW ReadToEnd();
     // public override System.String ReadLine()
     // Offset: 0x1A09154
     // Implemented from: System.IO.TextReader
     // Base method: System.String TextReader::ReadLine()
-    ::Il2CppString* ReadLine();
+    ::StringW ReadLine();
   }; // System.IO.StringReader
   #pragma pack(pop)
   static check_size<sizeof(StringReader), 36 + sizeof(int)> __System_IO_StringReaderSizeCheck;
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StringReader::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StringReader::*)()>(&System::IO::StringReader::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::StringReader::*)()>(&System::IO::StringReader::ReadToEnd)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::StringReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::StringReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StringReader::*)()>(&System::IO::StringReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::StringReader::*)()>(&System::IO::StringReader::ReadLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::StringReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

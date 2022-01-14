@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -53,9 +54,9 @@ namespace GlobalNamespace {
     // public readonly System.String hostName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* hostName;
+    ::StringW hostName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Int32 port
     // Size: 0x4
     // Offset: 0x18
@@ -76,7 +77,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);
     }
     // Get instance field reference: public readonly System.String hostName
-    ::Il2CppString*& dyn_hostName();
+    ::StringW& dyn_hostName();
     // Get instance field reference: public readonly System.Int32 port
     int& dyn_port();
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
@@ -87,7 +88,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String hostName, System.Int32 port)
     // Offset: 0x14C0738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MasterServerEndPoint* New_ctor(::Il2CppString* hostName, int port) {
+    static MasterServerEndPoint* New_ctor(::StringW hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MasterServerEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MasterServerEndPoint*, creationType>(hostName, port)));
     }
@@ -114,7 +115,7 @@ namespace GlobalNamespace {
     // Offset: 0x14C0988
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x14C0A10
     // Implemented from: System.Object
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

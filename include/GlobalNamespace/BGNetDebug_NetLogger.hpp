@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BGNetDebug::NetLogger);
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
     }
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0x155BF44
-    void WriteNet(LiteNetLib::NetLogLevel level, ::Il2CppString* str, ::ArrayW<::Il2CppObject*> args);
+    void WriteNet(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
     // Offset: 0x155BC74
     // Implemented from: System.Object
@@ -50,7 +51,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::NetLogger::WriteNet
 // Il2CppName: WriteNet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::NetLogger::*)(LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&GlobalNamespace::BGNetDebug::NetLogger::WriteNet)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

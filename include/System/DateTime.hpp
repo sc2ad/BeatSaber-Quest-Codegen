@@ -28,6 +28,7 @@
 // Including type: System.UInt64
 #include "System/UInt64.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -366,15 +367,15 @@ namespace System {
     // static field const value: static private System.String TicksField
     static constexpr const char* TicksField = "ticks";
     // Get static field: static private System.String TicksField
-    static ::Il2CppString* _get_TicksField();
+    static ::StringW _get_TicksField();
     // Set static field: static private System.String TicksField
-    static void _set_TicksField(::Il2CppString* value);
+    static void _set_TicksField(::StringW value);
     // static field const value: static private System.String DateDataField
     static constexpr const char* DateDataField = "dateData";
     // Get static field: static private System.String DateDataField
-    static ::Il2CppString* _get_DateDataField();
+    static ::StringW _get_DateDataField();
     // Set static field: static private System.String DateDataField
-    static void _set_DateDataField(::Il2CppString* value);
+    static void _set_DateDataField(::StringW value);
     // Get instance field reference: private System.UInt64 dateData
     uint64_t& dyn_dateData();
     // System.Int64 get_InternalTicks()
@@ -532,13 +533,13 @@ namespace System {
     static bool IsLeapYear(int year);
     // static public System.DateTime Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x1B9B000
-    static System::DateTime Parse(::Il2CppString* s, System::IFormatProvider* provider);
+    static System::DateTime Parse(::StringW s, System::IFormatProvider* provider);
     // static public System.DateTime ParseExact(System.String s, System.String format, System.IFormatProvider provider)
     // Offset: 0x1BA0404
-    static System::DateTime ParseExact(::Il2CppString* s, ::Il2CppString* format, System::IFormatProvider* provider);
+    static System::DateTime ParseExact(::StringW s, ::StringW format, System::IFormatProvider* provider);
     // static public System.DateTime ParseExact(System.String s, System.String format, System.IFormatProvider provider, System.Globalization.DateTimeStyles style)
     // Offset: 0x1BA04BC
-    static System::DateTime ParseExact(::Il2CppString* s, ::Il2CppString* format, System::IFormatProvider* provider, System::Globalization::DateTimeStyles style);
+    static System::DateTime ParseExact(::StringW s, ::StringW format, System::IFormatProvider* provider, System::Globalization::DateTimeStyles style);
     // public System.TimeSpan Subtract(System.DateTime value)
     // Offset: 0x1BA0598
     System::TimeSpan Subtract(System::DateTime value);
@@ -550,19 +551,19 @@ namespace System {
     System::DateTime ToLocalTime(bool throwOnOverflow);
     // public System.String ToString(System.String format)
     // Offset: 0x1BA0874
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::StringW ToString(::StringW format);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x1BA0920
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0x1BA09D0
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::StringW ToString(::StringW format, System::IFormatProvider* provider);
     // public System.DateTime ToUniversalTime()
     // Offset: 0x1BA0A84
     System::DateTime ToUniversalTime();
     // static public System.Boolean TryParse(System.String s, System.IFormatProvider provider, System.Globalization.DateTimeStyles styles, out System.DateTime result)
     // Offset: 0x1BA0A94
-    static bool TryParse(::Il2CppString* s, System::IFormatProvider* provider, System::Globalization::DateTimeStyles styles, ByRef<System::DateTime> result);
+    static bool TryParse(::StringW s, System::IFormatProvider* provider, System::Globalization::DateTimeStyles styles, ByRef<System::DateTime> result);
     // public System.TypeCode GetTypeCode()
     // Offset: 0x1BA0DA8
     System::TypeCode GetTypeCode();
@@ -628,7 +629,7 @@ namespace System {
     // Offset: 0x1BA074C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.DateTime
   #pragma pack(pop)
   static check_size<sizeof(DateTime), 0 + sizeof(uint64_t)> __System_DateTimeSizeCheck;
@@ -1067,7 +1068,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: System::DateTime::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*, System::IFormatProvider*)>(&System::DateTime::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, System::IFormatProvider*)>(&System::DateTime::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1077,7 +1078,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTime::ParseExact
 // Il2CppName: ParseExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*, ::Il2CppString*, System::IFormatProvider*)>(&System::DateTime::ParseExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, ::StringW, System::IFormatProvider*)>(&System::DateTime::ParseExact)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1088,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTime::ParseExact
 // Il2CppName: ParseExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppString*, ::Il2CppString*, System::IFormatProvider*, System::Globalization::DateTimeStyles)>(&System::DateTime::ParseExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, ::StringW, System::IFormatProvider*, System::Globalization::DateTimeStyles)>(&System::DateTime::ParseExact)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1126,7 +1127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTime::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::DateTime::*)(::Il2CppString*)>(&System::DateTime::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::DateTime::*)(::StringW)>(&System::DateTime::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTime), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -1135,7 +1136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::DateTime::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::DateTime::*)(System::IFormatProvider*)>(&System::DateTime::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::DateTime::*)(System::IFormatProvider*)>(&System::DateTime::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTime), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -1144,7 +1145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::DateTime::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::DateTime::*)(::Il2CppString*, System::IFormatProvider*)>(&System::DateTime::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::DateTime::*)(::StringW, System::IFormatProvider*)>(&System::DateTime::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1162,7 +1163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::DateTime::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IFormatProvider*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>)>(&System::DateTime::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::IFormatProvider*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>)>(&System::DateTime::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1351,7 +1352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::DateTime::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::DateTime::*)()>(&System::DateTime::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::DateTime::*)()>(&System::DateTime::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::DateTime), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

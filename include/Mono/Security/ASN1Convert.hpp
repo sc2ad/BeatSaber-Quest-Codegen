@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -40,7 +41,7 @@ namespace Mono::Security {
     static Mono::Security::ASN1* FromInt32(int value);
     // static public Mono.Security.ASN1 FromOid(System.String oid)
     // Offset: 0x1F8D4DC
-    static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
+    static Mono::Security::ASN1* FromOid(::StringW oid);
     // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
     // Offset: 0x1F8D590
     static Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayW<uint8_t> big);
@@ -49,7 +50,7 @@ namespace Mono::Security {
     static int ToInt32(Mono::Security::ASN1* asn1);
     // static public System.String ToOid(Mono.Security.ASN1 asn1)
     // Offset: 0x1F8D7C4
-    static ::Il2CppString* ToOid(Mono::Security::ASN1* asn1);
+    static ::StringW ToOid(Mono::Security::ASN1* asn1);
     // static public System.DateTime ToDateTime(Mono.Security.ASN1 time)
     // Offset: 0x1F8DA4C
     static System::DateTime ToDateTime(Mono::Security::ASN1* time);
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::ASN1Convert::FromOid
 // Il2CppName: FromOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Il2CppString*)>(&Mono::Security::ASN1Convert::FromOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::StringW)>(&Mono::Security::ASN1Convert::FromOid)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mon
 // Writing MetadataGetter for method: Mono::Security::ASN1Convert::ToOid
 // Il2CppName: ToOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1Convert::ToOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1Convert::ToOid)> {
   static const MethodInfo* get() {
     static auto* asn1 = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "ToOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1});

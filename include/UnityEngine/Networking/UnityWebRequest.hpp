@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -160,16 +161,16 @@ namespace UnityEngine::Networking {
     void set_disposeUploadHandlerOnDispose(bool value);
     // public System.Void set_method(System.String value)
     // Offset: 0x26A4AF8
-    void set_method(::Il2CppString* value);
+    void set_method(::StringW value);
     // public System.String get_error()
     // Offset: 0x26A5528
-    ::Il2CppString* get_error();
+    ::StringW get_error();
     // public System.String get_url()
     // Offset: 0x26A57E0
-    ::Il2CppString* get_url();
+    ::StringW get_url();
     // public System.Void set_url(System.String value)
     // Offset: 0x26A4A6C
-    void set_url(::Il2CppString* value);
+    void set_url(::StringW value);
     // public System.Int64 get_responseCode()
     // Offset: 0x26A57A0
     int64_t get_responseCode();
@@ -218,23 +219,23 @@ namespace UnityEngine::Networking {
     // public System.Void .ctor(System.String url, System.String method)
     // Offset: 0x26A49EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method) {
+    static UnityWebRequest* New_ctor(::StringW url, ::StringW method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UnityWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequest*, creationType>(url, method)));
     }
     // public System.Void .ctor(System.String url, System.String method, UnityEngine.Networking.DownloadHandler downloadHandler, UnityEngine.Networking.UploadHandler uploadHandler)
     // Offset: 0x26A4C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityWebRequest* New_ctor(::Il2CppString* url, ::Il2CppString* method, UnityEngine::Networking::DownloadHandler* downloadHandler, UnityEngine::Networking::UploadHandler* uploadHandler) {
+    static UnityWebRequest* New_ctor(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler* downloadHandler, UnityEngine::Networking::UploadHandler* uploadHandler) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UnityWebRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequest*, creationType>(url, method, downloadHandler, uploadHandler)));
     }
     // static private System.String GetWebErrorString(UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError err)
     // Offset: 0x26A47C0
-    static ::Il2CppString* GetWebErrorString(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError err);
+    static ::StringW GetWebErrorString(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError err);
     // static System.String GetHTTPStatusString(System.Int64 responseCode)
     // Offset: 0x26A4800
-    static ::Il2CppString* GetHTTPStatusString(int64_t responseCode);
+    static ::StringW GetHTTPStatusString(int64_t responseCode);
     // static System.IntPtr Create()
     // Offset: 0x26A487C
     static System::IntPtr Create();
@@ -270,22 +271,22 @@ namespace UnityEngine::Networking {
     void InternalSetMethod(UnityEngine::Networking::UnityWebRequest::UnityWebRequestMethod methodType);
     // private UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError SetCustomMethod(System.String customMethodName)
     // Offset: 0x26A5374
-    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetCustomMethod(::Il2CppString* customMethodName);
+    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetCustomMethod(::StringW customMethodName);
     // System.Void InternalSetCustomMethod(System.String customMethodName)
     // Offset: 0x26A53C4
-    void InternalSetCustomMethod(::Il2CppString* customMethodName);
+    void InternalSetCustomMethod(::StringW customMethodName);
     // private UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError GetError()
     // Offset: 0x26A54E8
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError GetError();
     // private System.String GetUrl()
     // Offset: 0x26A5820
-    ::Il2CppString* GetUrl();
+    ::StringW GetUrl();
     // private UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError SetUrl(System.String url)
     // Offset: 0x26A5D0C
-    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetUrl(::Il2CppString* url);
+    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetUrl(::StringW url);
     // private System.Void InternalSetUrl(System.String url)
     // Offset: 0x26A5BE8
-    void InternalSetUrl(::Il2CppString* url);
+    void InternalSetUrl(::StringW url);
     // private System.Boolean IsExecuting()
     // Offset: 0x26A5D5C
     bool IsExecuting();
@@ -297,10 +298,10 @@ namespace UnityEngine::Networking {
     void SetRedirectLimitFromScripting(int limit);
     // UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError InternalSetRequestHeader(System.String name, System.String value)
     // Offset: 0x26A5FA4
-    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError InternalSetRequestHeader(::Il2CppString* name, ::Il2CppString* value);
+    UnityEngine::Networking::UnityWebRequest::UnityWebRequestError InternalSetRequestHeader(::StringW name, ::StringW value);
     // public System.Void SetRequestHeader(System.String name, System.String value)
     // Offset: 0x26A5FFC
-    void SetRequestHeader(::Il2CppString* name, ::Il2CppString* value);
+    void SetRequestHeader(::StringW name, ::StringW value);
     // private UnityEngine.Networking.UnityWebRequest/UnityEngine.Networking.UnityWebRequestError SetUploadHandler(UnityEngine.Networking.UploadHandler uh)
     // Offset: 0x26A6184
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetUploadHandler(UnityEngine::Networking::UploadHandler* uh);
@@ -315,13 +316,13 @@ namespace UnityEngine::Networking {
     UnityEngine::Networking::UnityWebRequest::UnityWebRequestError SetTimeoutMsec(int timeout);
     // static public UnityEngine.Networking.UnityWebRequest Get(System.String uri)
     // Offset: 0x26A6548
-    static UnityEngine::Networking::UnityWebRequest* Get(::Il2CppString* uri);
+    static UnityEngine::Networking::UnityWebRequest* Get(::StringW uri);
     // static public System.String EscapeURL(System.String s)
     // Offset: 0x26A65DC
-    static ::Il2CppString* EscapeURL(::Il2CppString* s);
+    static ::StringW EscapeURL(::StringW s);
     // static public System.String EscapeURL(System.String s, System.Text.Encoding e)
     // Offset: 0x26A6608
-    static ::Il2CppString* EscapeURL(::Il2CppString* s, System::Text::Encoding* e);
+    static ::StringW EscapeURL(::StringW s, System::Text::Encoding* e);
     // protected override System.Void Finalize()
     // Offset: 0x26A4F54
     // Implemented from: System.Object
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_method
 // Il2CppName: set_method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::set_method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::set_method)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_error
 // Il2CppName: get_error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_error)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -404,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::get_url
 // Il2CppName: get_url
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_url)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::get_url)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "get_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -412,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::set_url
 // Il2CppName: set_url
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::set_url)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::set_url)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "set_url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -554,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetWebErrorString
 // Il2CppName: GetWebErrorString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError)>(&UnityEngine::Networking::UnityWebRequest::GetWebErrorString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError)>(&UnityEngine::Networking::UnityWebRequest::GetWebErrorString)> {
   static const MethodInfo* get() {
     static auto* err = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetWebErrorString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{err});
@@ -563,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString
 // Il2CppName: GetHTTPStatusString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t)>(&UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t)>(&UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString)> {
   static const MethodInfo* get() {
     static auto* responseCode = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetHTTPStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseCode});
@@ -662,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetCustomMethod
 // Il2CppName: SetCustomMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetCustomMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::SetCustomMethod)> {
   static const MethodInfo* get() {
     static auto* customMethodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{customMethodName});
@@ -671,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod
 // Il2CppName: InternalSetCustomMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod)> {
   static const MethodInfo* get() {
     static auto* customMethodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetCustomMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{customMethodName});
@@ -688,7 +689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetUrl
 // Il2CppName: GetUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::GetUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::UnityWebRequest::*)()>(&UnityEngine::Networking::UnityWebRequest::GetUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "GetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -696,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetUrl
 // Il2CppName: SetUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::SetUrl)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "SetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -705,7 +706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetUrl
 // Il2CppName: InternalSetUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::InternalSetUrl)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "InternalSetUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -739,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::InternalSetRequestHeader
 // Il2CppName: InternalSetRequestHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::InternalSetRequestHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest::UnityWebRequestError (UnityEngine::Networking::UnityWebRequest::*)(::StringW, ::StringW)>(&UnityEngine::Networking::UnityWebRequest::InternalSetRequestHeader)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -749,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::SetRequestHeader
 // Il2CppName: SetRequestHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::SetRequestHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequest::*)(::StringW, ::StringW)>(&UnityEngine::Networking::UnityWebRequest::SetRequestHeader)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -795,7 +796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::Get)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
@@ -804,7 +805,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::EscapeURL
 // Il2CppName: EscapeURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequest*), "EscapeURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -813,7 +814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::EscapeURL
 // Il2CppName: EscapeURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Text::Encoding*)>(&UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;

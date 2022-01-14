@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -43,9 +44,9 @@ namespace HoudiniEngineUnity {
     // public System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HAPI_AttributeOwner _class
     // Size: 0x4
     // Offset: 0x18
@@ -85,12 +86,12 @@ namespace HoudiniEngineUnity {
     // public System.String[] _stringValues
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<::Il2CppString*> stringValues;
+    ::ArrayW<::StringW> stringValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeOwner _class
     HoudiniEngineUnity::HAPI_AttributeOwner& dyn__class();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_StorageType _type
@@ -104,7 +105,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] _floatValues
     ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::Il2CppString*>& dyn__stringValues();
+    ::ArrayW<::StringW>& dyn__stringValues();
     // public System.Void .ctor()
     // Offset: 0x1813A7C
     // Implemented from: System.Object
@@ -116,7 +117,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_OutputAttribute
   #pragma pack(pop)
-  static check_size<sizeof(HEU_OutputAttribute), 56 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_OutputAttributeSizeCheck;
+  static check_size<sizeof(HEU_OutputAttribute), 56 + sizeof(::ArrayW<::StringW>)> __HoudiniEngineUnity_HEU_OutputAttributeSizeCheck;
   static_assert(sizeof(HEU_OutputAttribute) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Xml.SmallXmlParser
 #include "Mono/Xml/SmallXmlParser.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Xml::SmallXmlParser::IContentHandler);
@@ -27,19 +28,19 @@ namespace Mono::Xml {
     void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList attrs)
     // Offset: 0xFFFFFFFF
-    void OnStartElement(::Il2CppString* name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    void OnStartElement(::StringW name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
     // Offset: 0xFFFFFFFF
-    void OnEndElement(::Il2CppString* name);
+    void OnEndElement(::StringW name);
     // public System.Void OnProcessingInstruction(System.String name, System.String text)
     // Offset: 0xFFFFFFFF
-    void OnProcessingInstruction(::Il2CppString* name, ::Il2CppString* text);
+    void OnProcessingInstruction(::StringW name, ::StringW text);
     // public System.Void OnChars(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnChars(::Il2CppString* text);
+    void OnChars(::StringW text);
     // public System.Void OnIgnorableWhitespace(System.String text)
     // Offset: 0xFFFFFFFF
-    void OnIgnorableWhitespace(::Il2CppString* text);
+    void OnIgnorableWhitespace(::StringW text);
   }; // Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement
 // Il2CppName: OnStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW, Mono::Xml::SmallXmlParser::IAttrList*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnEndElement
 // Il2CppName: OnEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -84,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnProcessingInstruction
 // Il2CppName: OnProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*, ::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW, ::StringW)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnProcessingInstruction)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnChars
 // Il2CppName: OnChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnChars)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnIgnorableWhitespace
 // Il2CppName: OnIgnorableWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnIgnorableWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnIgnorableWhitespace)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

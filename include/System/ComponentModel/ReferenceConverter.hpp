@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ComponentModel.TypeConverter
 #include "System/ComponentModel/TypeConverter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -25,9 +26,9 @@ namespace System::ComponentModel {
   class ReferenceConverter : public System::ComponentModel::TypeConverter {
     public:
     // Get static field: static private readonly System.String none
-    static ::Il2CppString* _get_none();
+    static ::StringW _get_none();
     // Set static field: static private readonly System.String none
-    static void _set_none(::Il2CppString* value);
+    static void _set_none(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1A2738C
     static void _cctor();

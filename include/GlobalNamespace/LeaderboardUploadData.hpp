@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -46,102 +47,102 @@ namespace GlobalNamespace {
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String playerId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* playerId;
+    ::StringW playerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String score
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* score;
+    ::StringW score;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String songName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* songName;
+    ::StringW songName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String songSubName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* songSubName;
+    ::StringW songSubName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String authorName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* authorName;
+    ::StringW authorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String bpm
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* bpm;
+    ::StringW bpm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String difficulty
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* difficulty;
+    ::StringW difficulty;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String infoHash
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* infoHash;
+    ::StringW infoHash;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<System.String> modifiers
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::List_1<::Il2CppString*>* modifiers;
+    System::Collections::Generic::List_1<::StringW>* modifiers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.String playerName
-    ::Il2CppString*& dyn_playerName();
+    ::StringW& dyn_playerName();
     // Get instance field reference: public System.String playerId
-    ::Il2CppString*& dyn_playerId();
+    ::StringW& dyn_playerId();
     // Get instance field reference: public System.String score
-    ::Il2CppString*& dyn_score();
+    ::StringW& dyn_score();
     // Get instance field reference: public System.String leaderboardId
-    ::Il2CppString*& dyn_leaderboardId();
+    ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.String songName
-    ::Il2CppString*& dyn_songName();
+    ::StringW& dyn_songName();
     // Get instance field reference: public System.String songSubName
-    ::Il2CppString*& dyn_songSubName();
+    ::StringW& dyn_songSubName();
     // Get instance field reference: public System.String authorName
-    ::Il2CppString*& dyn_authorName();
+    ::StringW& dyn_authorName();
     // Get instance field reference: public System.String bpm
-    ::Il2CppString*& dyn_bpm();
+    ::StringW& dyn_bpm();
     // Get instance field reference: public System.String difficulty
-    ::Il2CppString*& dyn_difficulty();
+    ::StringW& dyn_difficulty();
     // Get instance field reference: public System.String infoHash
-    ::Il2CppString*& dyn_infoHash();
+    ::StringW& dyn_infoHash();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> modifiers
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_modifiers();
+    System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
     // Offset: 0x11A3A0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardUploadData* New_ctor(::Il2CppString* playerName, ::Il2CppString* playerId, ::Il2CppString* score, ::Il2CppString* leaderboardId, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* authorName, ::Il2CppString* bpm, ::Il2CppString* difficulty, ::Il2CppString* infoHash, System::Collections::Generic::List_1<::Il2CppString*>* modifiers) {
+    static LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, System::Collections::Generic::List_1<::StringW>* modifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardUploadData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardUploadData*, creationType>(playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash, modifiers)));
     }
   }; // LeaderboardUploadData
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
+  static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardUploadData) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

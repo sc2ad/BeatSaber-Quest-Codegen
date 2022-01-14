@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,15 +41,15 @@ namespace UnityEngine::XR {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0xEEE2F8
     // Get static field: static private System.Action`1<System.String> deviceLoaded
-    static System::Action_1<::Il2CppString*>* _get_deviceLoaded();
+    static System::Action_1<::StringW>* _get_deviceLoaded();
     // Set static field: static private System.Action`1<System.String> deviceLoaded
-    static void _set_deviceLoaded(System::Action_1<::Il2CppString*>* value);
+    static void _set_deviceLoaded(System::Action_1<::StringW>* value);
     // static public System.Boolean get_isPresent()
     // Offset: 0x26CFD98
     static bool get_isPresent();
     // static public System.String get_model()
     // Offset: 0x26CFDCC
-    static ::Il2CppString* get_model();
+    static ::StringW get_model();
     // static private System.Void .cctor()
     // Offset: 0x26CFF2C
     static void _cctor();
@@ -60,7 +61,7 @@ namespace UnityEngine::XR {
     static bool SetTrackingSpaceType(UnityEngine::XR::TrackingSpaceType trackingSpaceType);
     // static private System.Void InvokeDeviceLoaded(System.String loadedDeviceName)
     // Offset: 0x26CFE74
-    static void InvokeDeviceLoaded(::Il2CppString* loadedDeviceName);
+    static void InvokeDeviceLoaded(::StringW loadedDeviceName);
   }; // UnityEngine.XR.XRDevice
   #pragma pack(pop)
 }
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::XR::XRDevice::get_model
 // Il2CppName: get_model
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::XR::XRDevice::get_model)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::XR::XRDevice::get_model)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "get_model", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::XR::XRDevice::InvokeDeviceLoaded
 // Il2CppName: InvokeDeviceLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
   static const MethodInfo* get() {
     static auto* loadedDeviceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "InvokeDeviceLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loadedDeviceName});

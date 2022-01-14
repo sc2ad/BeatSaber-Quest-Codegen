@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,9 +43,9 @@ namespace GlobalNamespace {
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Action action
     // Size: 0x8
     // Offset: 0x18
@@ -53,13 +54,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Action*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String title
-    ::Il2CppString*& dyn_title();
+    ::StringW& dyn_title();
     // Get instance field reference: public readonly System.Action action
     System::Action*& dyn_action();
     // public System.Void .ctor(System.String title, System.Action action)
     // Offset: 0x11FF640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TabBarViewController::TabBarItem* New_ctor(::Il2CppString* title, System::Action* action) {
+    static TabBarViewController::TabBarItem* New_ctor(::StringW title, System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::TabBarItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController::TabBarItem*, creationType>(title, action)));
     }

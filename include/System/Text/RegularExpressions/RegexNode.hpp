@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -62,9 +63,9 @@ namespace System::Text::RegularExpressions {
     // System.String _str
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* str;
+    ::StringW str;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Char _ch
     // Size: 0x2
     // Offset: 0x28
@@ -103,7 +104,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
     System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>*& dyn__children();
     // Get instance field reference: System.String _str
-    ::Il2CppString*& dyn__str();
+    ::StringW& dyn__str();
     // Get instance field reference: System.Char _ch
     ::Il2CppChar& dyn__ch();
     // Get instance field reference: System.Int32 _m
@@ -131,7 +132,7 @@ namespace System::Text::RegularExpressions {
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
     // Offset: 0x1A3D24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppString* str) {
+    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, str)));
     }

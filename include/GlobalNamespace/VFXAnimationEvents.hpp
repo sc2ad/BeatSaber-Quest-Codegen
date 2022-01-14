@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
     void remove_despawnCharacterEvent(System::Action* value);
     // private System.Void PlayEvent(System.String eventName)
     // Offset: 0x2643134
-    void PlayEvent(::Il2CppString* eventName);
+    void PlayEvent(::StringW eventName);
     // private System.Void PauseAnimation()
     // Offset: 0x264320C
     void PauseAnimation();
@@ -208,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::PlayEvent
 // Il2CppName: PlayEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXAnimationEvents::*)(::Il2CppString*)>(&GlobalNamespace::VFXAnimationEvents::PlayEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXAnimationEvents::*)(::StringW)>(&GlobalNamespace::VFXAnimationEvents::PlayEvent)> {
   static const MethodInfo* get() {
     static auto* eventName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXAnimationEvents*), "PlayEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventName});

@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,9 +55,9 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 sortIndex
     // Size: 0x4
     // Offset: 0x18
@@ -73,7 +74,7 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPoolablePacket*>(this);
     }
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.Int32 sortIndex
     int& dyn_sortIndex();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerSortOrderPacket> get_pool()
@@ -90,7 +91,7 @@ namespace GlobalNamespace {
     void Release();
     // public ConnectedPlayerManager/PlayerSortOrderPacket Init(System.String userId, System.Int32 sortIndex)
     // Offset: 0x1564060
-    GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::Il2CppString* userId, int sortIndex);
+    GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* Init(::StringW userId, int sortIndex);
     // public System.Void .ctor()
     // Offset: 0x1564740
     // Implemented from: System.Object
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* (GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::*)(::Il2CppString*, int)>(&GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* (GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::*)(::StringW, int)>(&GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket::Init)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sortIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

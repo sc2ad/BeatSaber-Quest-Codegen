@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -73,16 +74,16 @@ namespace UnityEngine {
     static void Initialize();
     // static private System.Void RegisterInternal(System.String messageId)
     // Offset: 0x1DEE504
-    static void RegisterInternal(::Il2CppString* messageId);
+    static void RegisterInternal(::StringW messageId);
     // static private System.Void UnregisterInternal(System.String messageId)
     // Offset: 0x1DEE5D0
-    static void UnregisterInternal(::Il2CppString* messageId);
+    static void UnregisterInternal(::StringW messageId);
     // static private System.Void SendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DEE22C
-    static void SendMessage(::Il2CppString* messageId, ::ArrayW<uint8_t> data, int playerId);
+    static void SendMessage(::StringW messageId, ::ArrayW<uint8_t> data, int playerId);
     // static private System.Boolean TrySendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DEE3B8
-    static bool TrySendMessage(::Il2CppString* messageId, ::ArrayW<uint8_t> data, int playerId);
+    static bool TrySendMessage(::StringW messageId, ::ArrayW<uint8_t> data, int playerId);
     // static private System.Void PollInternal()
     // Offset: 0x1DEE444
     static void PollInternal();
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::RegisterInternal
 // Il2CppName: RegisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::PlayerConnectionInternal::RegisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::PlayerConnectionInternal::RegisterInternal)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnregisterInternal
 // Il2CppName: UnregisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::PlayerConnectionInternal::UnregisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::PlayerConnectionInternal::UnregisterInternal)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});
@@ -211,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::SendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::TrySendMessage
 // Il2CppName: TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::TrySendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_GenerateGeoCache::HEU_ColliderInfo);
@@ -146,9 +147,9 @@ namespace HoudiniEngineUnity {
     // public System.String _collisionGroupName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* collisionGroupName;
+    ::StringW collisionGroupName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Vector3[] _collisionVertices
     // Size: 0x8
     // Offset: 0x40
@@ -185,7 +186,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _convexCollider
     bool& dyn__convexCollider();
     // Get instance field reference: public System.String _collisionGroupName
-    ::Il2CppString*& dyn__collisionGroupName();
+    ::StringW& dyn__collisionGroupName();
     // Get instance field reference: public UnityEngine.Vector3[] _collisionVertices
     ::ArrayW<UnityEngine::Vector3>& dyn__collisionVertices();
     // Get instance field reference: public System.Int32[] _collisionIndices

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -53,12 +54,12 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* loudnessLevelPerLevelId;
+    System::Collections::Generic::Dictionary_2<::StringW, float>* loudnessLevelPerLevelId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, float>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
       return loudnessLevelPerLevelId;
     }
     // static field const value: static private System.Single kDefaultLoudness
@@ -80,7 +81,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPerceivedLoudnessToMaxSfxLevelDifference
     static void _set_kPerceivedLoudnessToMaxSfxLevelDifference(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*& dyn__loudnessLevelPerLevelId();
+    System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
     // Offset: 0x114D7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -90,19 +91,19 @@ namespace GlobalNamespace {
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
     // Offset: 0x114D8B8
-    bool ContainsLevelId(::Il2CppString* levelId);
+    bool ContainsLevelId(::StringW levelId);
     // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
     // Offset: 0x114D920
-    float GetLoudnessCorrectionByLevelId(::Il2CppString* levelId);
+    float GetLoudnessCorrectionByLevelId(::StringW levelId);
     // public System.Single GetMaxSfxVolumeByLevelId(System.String levelId)
     // Offset: 0x114DA38
-    float GetMaxSfxVolumeByLevelId(::Il2CppString* levelId);
+    float GetMaxSfxVolumeByLevelId(::StringW levelId);
     // private System.Single GetLoudnessByLevelId(System.String levelId)
     // Offset: 0x114D9B4
-    float GetLoudnessByLevelId(::Il2CppString* levelId);
+    float GetLoudnessByLevelId(::StringW levelId);
   }; // PerceivedLoudnessPerLevelModel
   #pragma pack(pop)
-  static check_size<sizeof(PerceivedLoudnessPerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*)> __GlobalNamespace_PerceivedLoudnessPerLevelModelSizeCheck;
+  static check_size<sizeof(PerceivedLoudnessPerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_PerceivedLoudnessPerLevelModelSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,7 +114,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelModel::ContainsLevelId
 // Il2CppName: ContainsLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelModel*), "ContainsLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId
 // Il2CppName: GetLoudnessCorrectionByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelModel*), "GetLoudnessCorrectionByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId
 // Il2CppName: GetMaxSfxVolumeByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelModel*), "GetMaxSfxVolumeByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId
 // Il2CppName: GetLoudnessByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(&GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelModel*), "GetLoudnessByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Experimental::TerrainAPI
@@ -53,7 +54,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     static void InvokeHeightmapChangedCallback(UnityEngine::TerrainData* terrainData, UnityEngine::RectInt heightRegion, bool synched);
     // static System.Void InvokeTextureChangedCallback(UnityEngine.TerrainData terrainData, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched)
     // Offset: 0x269593C
-    static void InvokeTextureChangedCallback(UnityEngine::TerrainData* terrainData, ::Il2CppString* textureName, UnityEngine::RectInt texelRegion, bool synched);
+    static void InvokeTextureChangedCallback(UnityEngine::TerrainData* terrainData, ::StringW textureName, UnityEngine::RectInt texelRegion, bool synched);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks
   #pragma pack(pop)
 }
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback
 // Il2CppName: InvokeTextureChangedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainData*, ::Il2CppString*, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainData*, ::StringW, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback)> {
   static const MethodInfo* get() {
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* textureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

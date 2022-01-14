@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,20 +41,20 @@ namespace GlobalNamespace {
     // public System.String enumName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* enumName;
+    ::StringW enumName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return enumName;
     }
     // Get instance field reference: public System.String enumName
-    ::Il2CppString*& dyn_enumName();
+    ::StringW& dyn_enumName();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1394308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EnumFlagAttribute* New_ctor(::Il2CppString* name) {
+    static EnumFlagAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnumFlagAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumFlagAttribute*, creationType>(name)));
     }
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     }
   }; // EnumFlagAttribute
   #pragma pack(pop)
-  static check_size<sizeof(EnumFlagAttribute), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
+  static check_size<sizeof(EnumFlagAttribute), 16 + sizeof(::StringW)> __GlobalNamespace_EnumFlagAttributeSizeCheck;
   static_assert(sizeof(EnumFlagAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

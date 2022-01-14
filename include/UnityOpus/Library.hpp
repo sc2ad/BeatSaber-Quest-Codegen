@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -60,9 +61,9 @@ namespace UnityOpus {
     // static field const value: static private System.String dllName
     static constexpr const char* dllName = "unityopus";
     // Get static field: static private System.String dllName
-    static ::Il2CppString* _get_dllName();
+    static ::StringW _get_dllName();
     // Set static field: static private System.String dllName
-    static void _set_dllName(::Il2CppString* value);
+    static void _set_dllName(::StringW value);
     // static public System.IntPtr OpusEncoderCreate(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, UnityOpus.OpusApplication application, out UnityOpus.ErrorCode error)
     // Offset: 0x1BD6EB8
     static System::IntPtr OpusEncoderCreate(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application, ByRef<UnityOpus::ErrorCode> error);

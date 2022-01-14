@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -40,15 +41,15 @@ namespace System::IO {
     // private System.String fullPath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* fullPath;
+    ::StringW fullPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String userPath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userPath;
+    ::StringW userPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
     // Size: 0x8
     // Offset: 0x20
@@ -57,21 +58,21 @@ namespace System::IO {
     static_assert(sizeof(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*) == 0x8);
     public:
     // Get instance field reference: private System.String fullPath
-    ::Il2CppString*& dyn_fullPath();
+    ::StringW& dyn_fullPath();
     // Get instance field reference: private System.String userPath
-    ::Il2CppString*& dyn_userPath();
+    ::StringW& dyn_userPath();
     // Get instance field reference: private Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA*& dyn_findData();
     // System.String get_UserPath()
     // Offset: 0x1B07E94
-    ::Il2CppString* get_UserPath();
+    ::StringW get_UserPath();
     // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA get_FindData()
     // Offset: 0x1B07E9C
     Microsoft::Win32::Win32Native::WIN32_FIND_DATA* get_FindData();
     // System.Void .ctor(System.String fullPath, System.String userPath, Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA findData)
     // Offset: 0x1B07E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SearchResult* New_ctor(::Il2CppString* fullPath, ::Il2CppString* userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
+    static SearchResult* New_ctor(::StringW fullPath, ::StringW userPath, Microsoft::Win32::Win32Native::WIN32_FIND_DATA* findData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchResult*, creationType>(fullPath, userPath, findData)));
     }
@@ -84,7 +85,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::SearchResult::get_UserPath
 // Il2CppName: get_UserPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::SearchResult::*)()>(&System::IO::SearchResult::get_UserPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::SearchResult::*)()>(&System::IO::SearchResult::get_UserPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::SearchResult*), "get_UserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

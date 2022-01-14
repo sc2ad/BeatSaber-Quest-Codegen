@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Specialized
@@ -210,25 +211,25 @@ namespace System::Collections::Specialized {
     void Reset(int capacity);
     // private System.Collections.Specialized.NameObjectCollectionBase/System.Collections.Specialized.NameObjectEntry FindEntry(System.String key)
     // Offset: 0x1A23A4C
-    System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* FindEntry(::Il2CppString* key);
+    System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* FindEntry(::StringW key);
     // protected System.Void BaseAdd(System.String name, System.Object value)
     // Offset: 0x1A238FC
-    void BaseAdd(::Il2CppString* name, ::Il2CppObject* value);
+    void BaseAdd(::StringW name, ::Il2CppObject* value);
     // protected System.Void BaseRemove(System.String name)
     // Offset: 0x1A23B54
-    void BaseRemove(::Il2CppString* name);
+    void BaseRemove(::StringW name);
     // protected System.Object BaseGet(System.String name)
     // Offset: 0x1A23E04
-    ::Il2CppObject* BaseGet(::Il2CppString* name);
+    ::Il2CppObject* BaseGet(::StringW name);
     // protected System.Void BaseSet(System.String name, System.Object value)
     // Offset: 0x1A23E20
-    void BaseSet(::Il2CppString* name, ::Il2CppObject* value);
+    void BaseSet(::StringW name, ::Il2CppObject* value);
     // protected System.Object BaseGet(System.Int32 index)
     // Offset: 0x1A23EF4
     ::Il2CppObject* BaseGet(int index);
     // protected System.String BaseGetKey(System.Int32 index)
     // Offset: 0x1A23D58
-    ::Il2CppString* BaseGetKey(int index);
+    ::StringW BaseGetKey(int index);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1A23FA0
     System::Collections::IEnumerator* GetEnumerator();
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::FindEntry
 // Il2CppName: FindEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::FindEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry* (System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(&System::Collections::Specialized::NameObjectCollectionBase::FindEntry)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "FindEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -342,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseAdd
 // Il2CppName: BaseAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseAdd)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -352,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseRemove
 // Il2CppName: BaseRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseRemove)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -361,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseGet
 // Il2CppName: BaseGet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseSet
 // Il2CppName: BaseSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW, ::Il2CppObject*)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseSet)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -389,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey
 // Il2CppName: BaseGetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Collections::Specialized::NameObjectCollectionBase::*)(int)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Collections::Specialized::NameObjectCollectionBase::*)(int)>(&System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase*), "BaseGetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

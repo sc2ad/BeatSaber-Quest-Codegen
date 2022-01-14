@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner::Callbacks
@@ -85,7 +86,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void TestStarted(NUnit::Framework::Interfaces::ITest* test);
     // private System.Void LogRecieved(System.String message, System.String stacktrace, UnityEngine.LogType type)
     // Offset: 0x16D30B0
-    void LogRecieved(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
+    void LogRecieved(::StringW message, ::StringW stacktrace, UnityEngine::LogType type);
     // public System.Void .ctor()
     // Offset: 0x16D3160
     // Implemented from: UnityEngine.MonoBehaviour
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::LogRecieved
 // Il2CppName: LogRecieved
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::LogRecieved)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(::StringW, ::StringW, UnityEngine::LogType)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::LogRecieved)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stacktrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

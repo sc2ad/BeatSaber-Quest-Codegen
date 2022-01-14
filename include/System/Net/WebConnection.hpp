@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -393,13 +394,13 @@ namespace System::Net {
     bool CreateStream(System::Net::HttpWebRequest* request);
     // private System.Void HandleError(System.Net.WebExceptionStatus st, System.Exception e, System.String where)
     // Offset: 0x17EA048
-    void HandleError(System::Net::WebExceptionStatus st, System::Exception* e, ::Il2CppString* where);
+    void HandleError(System::Net::WebExceptionStatus st, System::Exception* e, ::StringW where);
     // private System.Void ReadDone(System.IAsyncResult result)
     // Offset: 0x17EAE54
     void ReadDone(System::IAsyncResult* result);
     // static private System.Boolean ExpectContent(System.Int32 statusCode, System.String method)
     // Offset: 0x17EC1AC
-    static bool ExpectContent(int statusCode, ::Il2CppString* method);
+    static bool ExpectContent(int statusCode, ::StringW method);
     // System.Void InitRead()
     // Offset: 0x17EBD58
     void InitRead();
@@ -420,7 +421,7 @@ namespace System::Net {
     void NextRead();
     // static private System.Boolean ReadLine(System.Byte[] buffer, ref System.Int32 start, System.Int32 max, ref System.String output)
     // Offset: 0x17EA654
-    static bool ReadLine(::ArrayW<uint8_t> buffer, ByRef<int> start, int max, ByRef<::Il2CppString*> output);
+    static bool ReadLine(::ArrayW<uint8_t> buffer, ByRef<int> start, int max, ByRef<::StringW> output);
     // System.IAsyncResult BeginRead(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     // Offset: 0x17ED144
     System::IAsyncResult* BeginRead(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
@@ -444,7 +445,7 @@ namespace System::Net {
     int Read(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size);
     // System.Boolean Write(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.String err_msg)
     // Offset: 0x17EE778
-    bool Write(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ByRef<::Il2CppString*> err_msg);
+    bool Write(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ByRef<::StringW> err_msg);
     // System.Void Close(System.Boolean sendNext)
     // Offset: 0x17EAAA8
     void Close(bool sendNext);
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::HandleError
 // Il2CppName: HandleError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::WebExceptionStatus, System::Exception*, ::Il2CppString*)>(&System::Net::WebConnection::HandleError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::WebExceptionStatus, System::Exception*, ::StringW)>(&System::Net::WebConnection::HandleError)> {
   static const MethodInfo* get() {
     static auto* st = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -611,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::ExpectContent
 // Il2CppName: ExpectContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::Il2CppString*)>(&System::Net::WebConnection::ExpectContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::StringW)>(&System::Net::WebConnection::ExpectContent)> {
   static const MethodInfo* get() {
     static auto* statusCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -675,7 +676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ByRef<int>, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ByRef<int>, int, ByRef<::StringW>)>(&System::Net::WebConnection::ReadLine)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -767,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnection::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int, ByRef<::StringW>)>(&System::Net::WebConnection::Write)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

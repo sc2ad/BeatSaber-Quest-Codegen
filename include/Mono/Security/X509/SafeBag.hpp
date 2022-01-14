@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -45,9 +46,9 @@ namespace Mono::Security::X509 {
     // private System.String _bagOID
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* bagOID;
+    ::StringW bagOID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Mono.Security.ASN1 _asn1
     // Size: 0x8
     // Offset: 0x18
@@ -56,19 +57,19 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     public:
     // Get instance field reference: private System.String _bagOID
-    ::Il2CppString*& dyn__bagOID();
+    ::StringW& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1
     Mono::Security::ASN1*& dyn__asn1();
     // public System.String get_BagOID()
     // Offset: 0x2685080
-    ::Il2CppString* get_BagOID();
+    ::StringW get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
     // Offset: 0x2685088
     Mono::Security::ASN1* get_ASN1();
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
     // Offset: 0x2685048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SafeBag* New_ctor(::Il2CppString* bagOID, Mono::Security::ASN1* asn1) {
+    static SafeBag* New_ctor(::StringW bagOID, Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeBag*, creationType>(bagOID, asn1)));
     }
@@ -81,7 +82,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::SafeBag::get_BagOID
 // Il2CppName: get_BagOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_BagOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_BagOID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), "get_BagOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceLocations
@@ -146,7 +147,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceProviders::SceneInstance InternalLoadScene(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, bool loadingFromBundle, UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int priority);
     // private UnityEngine.AsyncOperation InternalLoad(System.String path, System.Boolean loadingFromBundle, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x1BEFFD8
-    UnityEngine::AsyncOperation* InternalLoad(::Il2CppString* path, bool loadingFromBundle, UnityEngine::SceneManagement::LoadSceneMode mode);
+    UnityEngine::AsyncOperation* InternalLoad(::StringW path, bool loadingFromBundle, UnityEngine::SceneManagement::LoadSceneMode mode);
     // private System.Void UnityEngine.ResourceManagement.IUpdateReceiver.Update(System.Single unscaledDeltaTime)
     // Offset: 0x1BF01A8
     void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float unscaledDeltaTime);
@@ -154,7 +155,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Offset: 0x1BEFA20
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
-    ::Il2CppString* get_DebugName();
+    ::StringW get_DebugName();
     // protected override System.Single get_Progress()
     // Offset: 0x1BF00EC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::InternalLoad
 // Il2CppName: InternalLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::*)(::Il2CppString*, bool, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::InternalLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::*)(::StringW, bool, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::InternalLoad)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadingFromBundle = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::get_DebugName
 // Il2CppName: get_DebugName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp::get_DebugName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneOp*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -242,7 +243,7 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* PlayDelayed(UnityEngine::AudioClip* audioClip, float delay);
     // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
     // Offset: 0x1294F8C
-    System::Collections::IEnumerator* PhaseRoutine(::Il2CppString* text, float appearDuration, float disappearDuration);
+    System::Collections::IEnumerator* PhaseRoutine(::StringW text, float appearDuration, float disappearDuration);
     // public System.Void .ctor()
     // Offset: 0x1295048
     // Implemented from: UnityEngine.MonoBehaviour
@@ -321,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine
 // Il2CppName: PhaseRoutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerIntroCountdown::*)(::Il2CppString*, float, float)>(&GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerIntroCountdown::*)(::StringW, float, float)>(&GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* appearDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

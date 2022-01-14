@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -96,9 +97,9 @@ namespace Mono::Globalization::Unicode {
     // private System.String source
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* source;
+    ::StringW source;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 l1
     // Size: 0x4
     // Offset: 0x58
@@ -195,7 +196,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private System.Byte[] l5b
     ::ArrayW<uint8_t>& dyn_l5b();
     // Get instance field reference: private System.String source
-    ::Il2CppString*& dyn_source();
+    ::StringW& dyn_source();
     // Get instance field reference: private System.Int32 l1
     int& dyn_l1();
     // Get instance field reference: private System.Int32 l2
@@ -234,7 +235,7 @@ namespace Mono::Globalization::Unicode {
     void Reset();
     // System.Void Initialize(System.Globalization.CompareOptions options, System.Int32 lcid, System.String s, System.Boolean frenchSort)
     // Offset: 0x1C71174
-    void Initialize(System::Globalization::CompareOptions options, int lcid, ::Il2CppString* s, bool frenchSort);
+    void Initialize(System::Globalization::CompareOptions options, int lcid, ::StringW s, bool frenchSort);
     // System.Void AppendCJKExtension(System.Byte lv1msb, System.Byte lv1lsb)
     // Offset: 0x1C71C40
     void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
@@ -280,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::Il2CppString*, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::StringW, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     static auto* lcid = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

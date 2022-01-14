@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,9 +54,9 @@ namespace UnityEngine::ProBuilder {
     // static field const value: static public System.String k_ProBuilderLogFileName
     static constexpr const char* k_ProBuilderLogFileName = "ProBuilderLog.txt";
     // Get static field: static public System.String k_ProBuilderLogFileName
-    static ::Il2CppString* _get_k_ProBuilderLogFileName();
+    static ::StringW _get_k_ProBuilderLogFileName();
     // Set static field: static public System.String k_ProBuilderLogFileName
-    static void _set_k_ProBuilderLogFileName(::Il2CppString* value);
+    static void _set_k_ProBuilderLogFileName(::StringW value);
     // Get static field: static private System.Collections.Generic.Stack`1<UnityEngine.ProBuilder.LogLevel> s_logStack
     static System::Collections::Generic::Stack_1<UnityEngine::ProBuilder::LogLevel>* _get_s_logStack();
     // Set static field: static private System.Collections.Generic.Stack`1<UnityEngine.ProBuilder.LogLevel> s_logStack
@@ -69,9 +70,9 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private UnityEngine.ProBuilder.LogOutput s_Output
     static void _set_s_Output(UnityEngine::ProBuilder::LogOutput value);
     // Get static field: static private System.String s_LogFilePath
-    static ::Il2CppString* _get_s_LogFilePath();
+    static ::StringW _get_s_LogFilePath();
     // Set static field: static private System.String s_LogFilePath
-    static void _set_s_LogFilePath(::Il2CppString* value);
+    static void _set_s_LogFilePath(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1CCE304
     static void _cctor();
@@ -89,7 +90,7 @@ namespace UnityEngine::ProBuilder {
     static void SetOutput(UnityEngine::ProBuilder::LogOutput output);
     // static public System.Void SetLogFile(System.String path)
     // Offset: 0x1CCD8F0
-    static void SetLogFile(::Il2CppString* path);
+    static void SetLogFile(::StringW path);
     // static public System.Void Debug(T value)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -101,28 +102,28 @@ namespace UnityEngine::ProBuilder {
     }
     // static public System.Void Debug(System.String message)
     // Offset: 0x1CCD95C
-    static void Debug(::Il2CppString* message);
+    static void Debug(::StringW message);
     // static public System.Void Debug(System.String format, params System.Object[] values)
     // Offset: 0x1CCDABC
-    static void Debug(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
+    static void Debug(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String format, params System.Object[] values)
     // Offset: 0x1CCDAC0
-    static void Info(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
+    static void Info(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String message)
     // Offset: 0x1CCDB48
-    static void Info(::Il2CppString* message);
+    static void Info(::StringW message);
     // static public System.Void Warning(System.String format, params System.Object[] values)
     // Offset: 0x1CCDBE0
-    static void Warning(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
+    static void Warning(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Warning(System.String message)
     // Offset: 0x1CCDC68
-    static void Warning(::Il2CppString* message);
+    static void Warning(::StringW message);
     // static public System.Void Error(System.String format, params System.Object[] values)
     // Offset: 0x1CCDD00
-    static void Error(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
+    static void Error(::StringW format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Error(System.String message)
     // Offset: 0x1CCDD88
-    static void Error(::Il2CppString* message);
+    static void Error(::StringW message);
     // static System.Void Watch(T key, K value)
     // Offset: 0xFFFFFFFF
     template<class T, class K>
@@ -134,20 +135,20 @@ namespace UnityEngine::ProBuilder {
     }
     // static private System.Void DoPrint(System.String message, UnityEngine.LogType type)
     // Offset: 0x1CCD9C4
-    static void DoPrint(::Il2CppString* message, UnityEngine::LogType type);
+    static void DoPrint(::StringW message, UnityEngine::LogType type);
     // static private System.Void PrintToFile(System.String message, System.String path)
     // Offset: 0x1CCDF34
-    static void PrintToFile(::Il2CppString* message, ::Il2CppString* path);
+    static void PrintToFile(::StringW message, ::StringW path);
     // static public System.Void ClearLogFile()
     // Offset: 0x1CCE25C
     static void ClearLogFile();
     // static private System.Void PrintToConsole(System.String message, UnityEngine.LogType type)
     // Offset: 0x1CCDE20
-    static void PrintToConsole(::Il2CppString* message, UnityEngine::LogType type);
+    static void PrintToConsole(::StringW message, UnityEngine::LogType type);
     // static System.Void NotNull(T obj, System.String message)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void NotNull(T obj, ::Il2CppString* message) {
+    static void NotNull(T obj, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Log::NotNull");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "Log", "NotNull", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(message)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::SetLogFile
 // Il2CppName: SetLogFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Log::SetLogFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::ProBuilder::Log::SetLogFile)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Log*), "SetLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Log::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::ProBuilder::Log::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Debug)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -234,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Info
 // Il2CppName: Info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Info)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Info
 // Il2CppName: Info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Log::Info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::ProBuilder::Log::Info)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -253,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Warning
 // Il2CppName: Warning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Warning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Warning)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -263,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Warning
 // Il2CppName: Warning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Log::Warning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::ProBuilder::Log::Warning)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Log*), "Warning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Error)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Log::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::ProBuilder::Log::Error)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::DoPrint
 // Il2CppName: DoPrint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::ProBuilder::Log::DoPrint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::LogType)>(&UnityEngine::ProBuilder::Log::DoPrint)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
@@ -304,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::PrintToFile
 // Il2CppName: PrintToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::Log::PrintToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&UnityEngine::ProBuilder::Log::PrintToFile)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -322,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::PrintToConsole
 // Il2CppName: PrintToConsole
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::ProBuilder::Log::PrintToConsole)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::LogType)>(&UnityEngine::ProBuilder::Log::PrintToConsole)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;

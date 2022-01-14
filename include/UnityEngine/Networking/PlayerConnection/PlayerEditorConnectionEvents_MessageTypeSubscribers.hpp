@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,9 +43,9 @@ namespace UnityEngine::Networking::PlayerConnection {
     // private System.String m_messageTypeId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_messageTypeId;
+    ::StringW m_messageTypeId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 subscriberCount
     // Size: 0x4
     // Offset: 0x18
@@ -61,7 +62,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*) == 0x8);
     public:
     // Get instance field reference: private System.String m_messageTypeId
-    ::Il2CppString*& dyn_m_messageTypeId();
+    ::StringW& dyn_m_messageTypeId();
     // Get instance field reference: public System.Int32 subscriberCount
     int& dyn_subscriberCount();
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageEvent messageCallback

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -67,19 +68,19 @@ namespace GlobalNamespace {
     }
     // static public System.Threading.Tasks.Task`1<System.String> LoadWebpage(System.String uri, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1159460
-    static System::Threading::Tasks::Task_1<::Il2CppString*>* LoadWebpage(::Il2CppString* uri, System::Threading::CancellationToken cancellationToken);
+    static System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipFromFilePathAsync(System.String filePath)
     // Offset: 0x1159570
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::Il2CppString* filePath);
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Texture2D> LoadTextureAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1159670
-    static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadTextureAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    static System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* LoadTextureAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
     // static public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1159780
-    static System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    static System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
     // Offset: 0x1159890
-    static void Log(::Il2CppString* message);
+    static void Log(::StringW message);
     // public System.Void .ctor()
     // Offset: 0x11598F8
     // Implemented from: System.Object
@@ -96,7 +97,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::LoadWebpage
 // Il2CppName: LoadWebpage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadWebpage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadWebpage)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::LoadAudioClipFromFilePathAsync
 // Il2CppName: LoadAudioClipFromFilePathAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::MediaAsyncLoader::*)(::Il2CppString*)>(&GlobalNamespace::MediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::MediaAsyncLoader::*)(::StringW)>(&GlobalNamespace::MediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MediaAsyncLoader*), "LoadAudioClipFromFilePathAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::LoadTextureAsync
 // Il2CppName: LoadTextureAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadTextureAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Texture2D*>* (*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadTextureAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::LoadSpriteAsync
 // Il2CppName: LoadSpriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadSpriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::MediaAsyncLoader::LoadSpriteAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::MediaAsyncLoader::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&GlobalNamespace::MediaAsyncLoader::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MediaAsyncLoader*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -74,16 +75,16 @@ namespace System::Security::Claims {
     // private System.String m_version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_version;
+    ::StringW m_version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA517C
     // private System.String m_serializedClaimsIdentities
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_serializedClaimsIdentities;
+    ::StringW m_serializedClaimsIdentities;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<System.Security.Claims.ClaimsIdentity> m_identities
     // Size: 0x8
     // Offset: 0x20
@@ -104,9 +105,9 @@ namespace System::Security::Claims {
     // Set static field: static private System.Func`1<System.Security.Claims.ClaimsPrincipal> s_principalSelector
     static void _set_s_principalSelector(System::Func_1<System::Security::Claims::ClaimsPrincipal*>* value);
     // Get instance field reference: private System.String m_version
-    ::Il2CppString*& dyn_m_version();
+    ::StringW& dyn_m_version();
     // Get instance field reference: private System.String m_serializedClaimsIdentities
-    ::Il2CppString*& dyn_m_serializedClaimsIdentities();
+    ::StringW& dyn_m_serializedClaimsIdentities();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Security.Claims.ClaimsIdentity> m_identities
     System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>*& dyn_m_identities();
     // static public System.Func`1<System.Security.Claims.ClaimsPrincipal> get_ClaimsPrincipalSelector()
@@ -136,10 +137,10 @@ namespace System::Security::Claims {
     void Deserialize(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeIdentities(System.String identities)
     // Offset: 0x1A8E76C
-    void DeserializeIdentities(::Il2CppString* identities);
+    void DeserializeIdentities(::StringW identities);
     // private System.String SerializeIdentities()
     // Offset: 0x1A8DF04
-    ::Il2CppString* SerializeIdentities();
+    ::StringW SerializeIdentities();
     // public System.Void .ctor()
     // Offset: 0x1A8DC08
     // Implemented from: System.Object
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::DeserializeIdentities
 // Il2CppName: DeserializeIdentities
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(::Il2CppString*)>(&System::Security::Claims::ClaimsPrincipal::DeserializeIdentities)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(::StringW)>(&System::Security::Claims::ClaimsPrincipal::DeserializeIdentities)> {
   static const MethodInfo* get() {
     static auto* identities = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "DeserializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identities});
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SerializeIdentities
 // Il2CppName: SerializeIdentities
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::ClaimsPrincipal::*)()>(&System::Security::Claims::ClaimsPrincipal::SerializeIdentities)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Claims::ClaimsPrincipal::*)()>(&System::Security::Claims::ClaimsPrincipal::SerializeIdentities)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "SerializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -53,7 +54,7 @@ namespace System::Net {
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpListenerException* New_ctor(int errorCode, ::Il2CppString* message) {
+    static HttpListenerException* New_ctor(int errorCode, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerException*, creationType>(errorCode, message)));
     }

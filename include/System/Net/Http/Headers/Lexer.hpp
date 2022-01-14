@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -56,9 +57,9 @@ namespace System::Net::Http::Headers {
     // private readonly System.String s
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* s;
+    ::StringW s;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 pos
     // Size: 0x4
     // Offset: 0x18
@@ -75,11 +76,11 @@ namespace System::Net::Http::Headers {
     // Set static field: static private readonly System.Int32 last_token_char
     static void _set_last_token_char(int value);
     // Get static field: static private readonly System.String[] dt_formats
-    static ::ArrayW<::Il2CppString*> _get_dt_formats();
+    static ::ArrayW<::StringW> _get_dt_formats();
     // Set static field: static private readonly System.String[] dt_formats
-    static void _set_dt_formats(::ArrayW<::Il2CppString*> value);
+    static void _set_dt_formats(::ArrayW<::StringW> value);
     // Get instance field reference: private readonly System.String s
-    ::Il2CppString*& dyn_s();
+    ::StringW& dyn_s();
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // public System.Int32 get_Position()
@@ -91,7 +92,7 @@ namespace System::Net::Http::Headers {
     // public System.Void .ctor(System.String stream)
     // Offset: 0x17BA83C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Lexer* New_ctor(::Il2CppString* stream) {
+    static Lexer* New_ctor(::StringW stream) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::Lexer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lexer*, creationType>(stream)));
     }
@@ -100,16 +101,16 @@ namespace System::Net::Http::Headers {
     static void _cctor();
     // public System.String GetStringValue(System.Net.Http.Headers.Token token)
     // Offset: 0x17BAD6C
-    ::Il2CppString* GetStringValue(System::Net::Http::Headers::Token token);
+    ::StringW GetStringValue(System::Net::Http::Headers::Token token);
     // public System.String GetStringValue(System.Net.Http.Headers.Token start, System.Net.Http.Headers.Token end)
     // Offset: 0x17C2470
-    ::Il2CppString* GetStringValue(System::Net::Http::Headers::Token start, System::Net::Http::Headers::Token end);
+    ::StringW GetStringValue(System::Net::Http::Headers::Token start, System::Net::Http::Headers::Token end);
     // public System.String GetQuotedStringValue(System.Net.Http.Headers.Token start)
     // Offset: 0x17BC354
-    ::Il2CppString* GetQuotedStringValue(System::Net::Http::Headers::Token start);
+    ::StringW GetQuotedStringValue(System::Net::Http::Headers::Token start);
     // public System.String GetRemainingStringValue(System.Int32 position)
     // Offset: 0x17BAD90
-    ::Il2CppString* GetRemainingStringValue(int position);
+    ::StringW GetRemainingStringValue(int position);
     // public System.Boolean IsStarStringValue(System.Net.Http.Headers.Token token)
     // Offset: 0x17BDBE8
     bool IsStarStringValue(System::Net::Http::Headers::Token token);
@@ -127,13 +128,13 @@ namespace System::Net::Http::Headers {
     bool TryGetDateValue(System::Net::Http::Headers::Token token, ByRef<System::DateTimeOffset> value);
     // static public System.Boolean TryGetDateValue(System.String text, out System.DateTimeOffset value)
     // Offset: 0x17C262C
-    static bool TryGetDateValue(::Il2CppString* text, ByRef<System::DateTimeOffset> value);
+    static bool TryGetDateValue(::StringW text, ByRef<System::DateTimeOffset> value);
     // public System.Boolean TryGetDoubleValue(System.Net.Http.Headers.Token token, out System.Double value)
     // Offset: 0x17C2710
     bool TryGetDoubleValue(System::Net::Http::Headers::Token token, ByRef<double> value);
     // static public System.Boolean IsValidToken(System.String input)
     // Offset: 0x17C27E8
-    static bool IsValidToken(::Il2CppString* input);
+    static bool IsValidToken(::StringW input);
     // static public System.Boolean IsValidCharacter(System.Char input)
     // Offset: 0x17C28AC
     static bool IsValidCharacter(::Il2CppChar input);
@@ -145,7 +146,7 @@ namespace System::Net::Http::Headers {
     int PeekChar();
     // public System.Boolean ScanCommentOptional(out System.String value, out System.Net.Http.Headers.Token readToken)
     // Offset: 0x17C297C
-    bool ScanCommentOptional(ByRef<::Il2CppString*> value, ByRef<System::Net::Http::Headers::Token> readToken);
+    bool ScanCommentOptional(ByRef<::StringW> value, ByRef<System::Net::Http::Headers::Token> readToken);
     // public System.Net.Http.Headers.Token Scan(System.Boolean recognizeDash)
     // Offset: 0x17BAA50
     System::Net::Http::Headers::Token Scan(bool recognizeDash);
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -196,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->byval_arg;
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetQuotedStringValue
 // Il2CppName: GetQuotedStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetRemainingStringValue
 // Il2CppName: GetRemainingStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetRemainingStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDateValue
 // Il2CppName: TryGetDateValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::DateTimeOffset>)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::DateTimeOffset>)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsValidToken
 // Il2CppName: IsValidToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::Http::Headers::Lexer::IsValidToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::Http::Headers::Lexer::IsValidToken)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsValidToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -326,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::ScanCommentOptional
 // Il2CppName: ScanCommentOptional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(ByRef<::Il2CppString*>, ByRef<System::Net::Http::Headers::Token>)>(&System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(ByRef<::StringW>, ByRef<System::Net::Http::Headers::Token>)>(&System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* readToken = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->this_arg;

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -135,15 +136,15 @@ namespace Zenject {
     // static field const value: static public System.String ProjectContextResourcePath
     static constexpr const char* ProjectContextResourcePath = "ProjectContext";
     // Get static field: static public System.String ProjectContextResourcePath
-    static ::Il2CppString* _get_ProjectContextResourcePath();
+    static ::StringW _get_ProjectContextResourcePath();
     // Set static field: static public System.String ProjectContextResourcePath
-    static void _set_ProjectContextResourcePath(::Il2CppString* value);
+    static void _set_ProjectContextResourcePath(::StringW value);
     // static field const value: static public System.String ProjectContextResourcePathOld
     static constexpr const char* ProjectContextResourcePathOld = "ProjectCompositionRoot";
     // Get static field: static public System.String ProjectContextResourcePathOld
-    static ::Il2CppString* _get_ProjectContextResourcePathOld();
+    static ::StringW _get_ProjectContextResourcePathOld();
     // Set static field: static public System.String ProjectContextResourcePathOld
-    static void _set_ProjectContextResourcePathOld(::Il2CppString* value);
+    static void _set_ProjectContextResourcePathOld(::StringW value);
     // Get static field: static private Zenject.ProjectContext _instance
     static Zenject::ProjectContext* _get__instance();
     // Set static field: static private Zenject.ProjectContext _instance

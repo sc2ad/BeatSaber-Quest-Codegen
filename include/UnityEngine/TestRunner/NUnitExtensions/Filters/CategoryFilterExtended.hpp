@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -36,16 +37,16 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   class CategoryFilterExtended : public NUnit::Framework::Internal::Filters::CategoryFilter {
     public:
     // Get static field: static public System.String k_DefaultCategory
-    static ::Il2CppString* _get_k_DefaultCategory();
+    static ::StringW _get_k_DefaultCategory();
     // Set static field: static public System.String k_DefaultCategory
-    static void _set_k_DefaultCategory(::Il2CppString* value);
+    static void _set_k_DefaultCategory(::StringW value);
     // public System.Void .ctor(System.String name)
     // Offset: 0x16BE374
     // Implemented from: NUnit.Framework.Internal.Filters.CategoryFilter
     // Base method: System.Void CategoryFilter::.ctor(System.String name)
     // Base method: System.Void ValueMatchFilter::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CategoryFilterExtended* New_ctor(::Il2CppString* name) {
+    static CategoryFilterExtended* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CategoryFilterExtended*, creationType>(name)));
     }

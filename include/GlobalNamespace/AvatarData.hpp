@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,45 +41,45 @@ namespace GlobalNamespace {
     // private System.String <headTopId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* headTopId;
+    ::StringW headTopId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <glassesId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* glassesId;
+    ::StringW glassesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <facialHairId>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* facialHairId;
+    ::StringW facialHairId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <handsId>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* handsId;
+    ::StringW handsId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <clothesId>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* clothesId;
+    ::StringW clothesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <eyesId>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* eyesId;
+    ::StringW eyesId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <mouthId>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* mouthId;
+    ::StringW mouthId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Color <headTopPrimaryColor>k__BackingField
     // Size: 0x10
     // Offset: 0x48
@@ -130,24 +131,24 @@ namespace GlobalNamespace {
     // private System.String <skinColorId>k__BackingField
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* skinColorId;
+    ::StringW skinColorId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <headTopId>k__BackingField
-    ::Il2CppString*& dyn_$headTopId$k__BackingField();
+    ::StringW& dyn_$headTopId$k__BackingField();
     // Get instance field reference: private System.String <glassesId>k__BackingField
-    ::Il2CppString*& dyn_$glassesId$k__BackingField();
+    ::StringW& dyn_$glassesId$k__BackingField();
     // Get instance field reference: private System.String <facialHairId>k__BackingField
-    ::Il2CppString*& dyn_$facialHairId$k__BackingField();
+    ::StringW& dyn_$facialHairId$k__BackingField();
     // Get instance field reference: private System.String <handsId>k__BackingField
-    ::Il2CppString*& dyn_$handsId$k__BackingField();
+    ::StringW& dyn_$handsId$k__BackingField();
     // Get instance field reference: private System.String <clothesId>k__BackingField
-    ::Il2CppString*& dyn_$clothesId$k__BackingField();
+    ::StringW& dyn_$clothesId$k__BackingField();
     // Get instance field reference: private System.String <eyesId>k__BackingField
-    ::Il2CppString*& dyn_$eyesId$k__BackingField();
+    ::StringW& dyn_$eyesId$k__BackingField();
     // Get instance field reference: private System.String <mouthId>k__BackingField
-    ::Il2CppString*& dyn_$mouthId$k__BackingField();
+    ::StringW& dyn_$mouthId$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
     UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
@@ -165,49 +166,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color <clothesDetailColor>k__BackingField
     UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
     // Get instance field reference: private System.String <skinColorId>k__BackingField
-    ::Il2CppString*& dyn_$skinColorId$k__BackingField();
+    ::StringW& dyn_$skinColorId$k__BackingField();
     // public System.String get_headTopId()
     // Offset: 0x13172B0
-    ::Il2CppString* get_headTopId();
+    ::StringW get_headTopId();
     // public System.Void set_headTopId(System.String value)
     // Offset: 0x13172B8
-    void set_headTopId(::Il2CppString* value);
+    void set_headTopId(::StringW value);
     // public System.String get_glassesId()
     // Offset: 0x13172C0
-    ::Il2CppString* get_glassesId();
+    ::StringW get_glassesId();
     // public System.Void set_glassesId(System.String value)
     // Offset: 0x13172C8
-    void set_glassesId(::Il2CppString* value);
+    void set_glassesId(::StringW value);
     // public System.String get_facialHairId()
     // Offset: 0x13172D0
-    ::Il2CppString* get_facialHairId();
+    ::StringW get_facialHairId();
     // public System.Void set_facialHairId(System.String value)
     // Offset: 0x13172D8
-    void set_facialHairId(::Il2CppString* value);
+    void set_facialHairId(::StringW value);
     // public System.String get_handsId()
     // Offset: 0x13172E0
-    ::Il2CppString* get_handsId();
+    ::StringW get_handsId();
     // public System.Void set_handsId(System.String value)
     // Offset: 0x13172E8
-    void set_handsId(::Il2CppString* value);
+    void set_handsId(::StringW value);
     // public System.String get_clothesId()
     // Offset: 0x13172F0
-    ::Il2CppString* get_clothesId();
+    ::StringW get_clothesId();
     // public System.Void set_clothesId(System.String value)
     // Offset: 0x13172F8
-    void set_clothesId(::Il2CppString* value);
+    void set_clothesId(::StringW value);
     // public System.String get_eyesId()
     // Offset: 0x1317300
-    ::Il2CppString* get_eyesId();
+    ::StringW get_eyesId();
     // public System.Void set_eyesId(System.String value)
     // Offset: 0x1317308
-    void set_eyesId(::Il2CppString* value);
+    void set_eyesId(::StringW value);
     // public System.String get_mouthId()
     // Offset: 0x1317310
-    ::Il2CppString* get_mouthId();
+    ::StringW get_mouthId();
     // public System.Void set_mouthId(System.String value)
     // Offset: 0x1317318
-    void set_mouthId(::Il2CppString* value);
+    void set_mouthId(::StringW value);
     // public UnityEngine.Color get_headTopPrimaryColor()
     // Offset: 0x1317320
     UnityEngine::Color get_headTopPrimaryColor();
@@ -258,14 +259,14 @@ namespace GlobalNamespace {
     void set_clothesDetailColor(UnityEngine::Color value);
     // public System.String get_skinColorId()
     // Offset: 0x13173E0
-    ::Il2CppString* get_skinColorId();
+    ::StringW get_skinColorId();
     // public System.Void set_skinColorId(System.String value)
     // Offset: 0x13173E8
-    void set_skinColorId(::Il2CppString* value);
+    void set_skinColorId(::StringW value);
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color headTopPrimaryColor, UnityEngine.Color headTopSecondaryColor, System.String glassesId, UnityEngine.Color glassesColor, System.String facialHairId, UnityEngine.Color facialHairColor, System.String handsId, UnityEngine.Color handsColor, System.String clothesId, UnityEngine.Color clothesPrimaryColor, UnityEngine.Color clothesSecondaryColor, UnityEngine.Color clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
     // Offset: 0x13173F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AvatarData* New_ctor(::Il2CppString* headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::Il2CppString* glassesId, UnityEngine::Color glassesColor, ::Il2CppString* facialHairId, UnityEngine::Color facialHairColor, ::Il2CppString* handsId, UnityEngine::Color handsColor, ::Il2CppString* clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::Il2CppString* skinColorId, ::Il2CppString* eyesId, ::Il2CppString* mouthId) {
+    static AvatarData* New_ctor(::StringW headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color glassesColor, ::StringW facialHairId, UnityEngine::Color facialHairColor, ::StringW handsId, UnityEngine::Color handsColor, ::StringW clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId)));
     }
@@ -283,14 +284,14 @@ namespace GlobalNamespace {
     }
   }; // AvatarData
   #pragma pack(pop)
-  static check_size<sizeof(AvatarData), 200 + sizeof(::Il2CppString*)> __GlobalNamespace_AvatarDataSizeCheck;
+  static check_size<sizeof(AvatarData), 200 + sizeof(::StringW)> __GlobalNamespace_AvatarDataSizeCheck;
   static_assert(sizeof(AvatarData) == 0xD0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopId
 // Il2CppName: get_headTopId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -298,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopId
 // Il2CppName: set_headTopId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_headTopId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_headTopId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_glassesId
 // Il2CppName: get_glassesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_glassesId
 // Il2CppName: set_glassesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_glassesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_glassesId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -324,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_facialHairId
 // Il2CppName: get_facialHairId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_facialHairId
 // Il2CppName: set_facialHairId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_facialHairId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_facialHairId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_handsId
 // Il2CppName: get_handsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -349,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_handsId
 // Il2CppName: set_handsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_handsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_handsId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesId
 // Il2CppName: get_clothesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesId
 // Il2CppName: set_clothesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_clothesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_clothesId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -375,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_eyesId
 // Il2CppName: get_eyesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_eyesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_eyesId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_eyesId
 // Il2CppName: set_eyesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_eyesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_eyesId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -392,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_mouthId
 // Il2CppName: get_mouthId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_mouthId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_mouthId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -400,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_mouthId
 // Il2CppName: set_mouthId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_mouthId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_mouthId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -545,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_skinColorId
 // Il2CppName: get_skinColorId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_skinColorId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_skinColorId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -553,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_skinColorId
 // Il2CppName: set_skinColorId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_skinColorId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::StringW)>(&GlobalNamespace::AvatarData::set_skinColorId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

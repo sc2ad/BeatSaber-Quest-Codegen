@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -52,14 +53,14 @@ namespace System::Net::Http::Headers {
     }
     // public System.Boolean Invoke(System.String value, System.Int32 minimalCount, out System.Collections.Generic.List`1<T> result)
     // Offset: 0xFFFFFFFF
-    bool Invoke(::Il2CppString* value, int minimalCount, ByRef<System::Collections::Generic::List_1<T>*> result) {
+    bool Invoke(::StringW value, int minimalCount, ByRef<System::Collections::Generic::List_1<T>*> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::TryParseListDelegate_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(minimalCount), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<T>*&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, value, minimalCount, byref(result));
     }
     // public System.IAsyncResult BeginInvoke(System.String value, System.Int32 minimalCount, out System.Collections.Generic.List`1<T> result, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(::Il2CppString* value, int minimalCount, ByRef<System::Collections::Generic::List_1<T>*> result, System::AsyncCallback* callback, ::Il2CppObject* object) {
+    System::IAsyncResult* BeginInvoke(::StringW value, int minimalCount, ByRef<System::Collections::Generic::List_1<T>*> result, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::TryParseListDelegate_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(minimalCount), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<T>*&>(), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, value, minimalCount, byref(result), callback, object);

@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -226,9 +227,9 @@ namespace HoudiniEngineUnity {
     // private System.String _curveName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* curveName;
+    ::StringW curveName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.GameObject _targetGameObject
     // Size: 0x8
     // Offset: 0x50
@@ -279,7 +280,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _bUploadParameterPreset
     bool& dyn__bUploadParameterPreset();
     // Get instance field reference: private System.String _curveName
-    ::Il2CppString*& dyn__curveName();
+    ::StringW& dyn__curveName();
     // Get instance field reference: public UnityEngine.GameObject _targetGameObject
     UnityEngine::GameObject*& dyn__targetGameObject();
     // Get instance field reference: private System.Boolean _isGeoCurve
@@ -299,7 +300,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Parameters* get_Parameters();
     // public System.String get_CurveName()
     // Offset: 0x1470558
-    ::Il2CppString* get_CurveName();
+    ::StringW get_CurveName();
     // public HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveEditState get_EditState()
     // Offset: 0x1470568
     HoudiniEngineUnity::HEU_Curve::CurveEditState get_EditState();
@@ -317,13 +318,13 @@ namespace HoudiniEngineUnity {
     bool IsGeoCurve();
     // static public HoudiniEngineUnity.HEU_Curve CreateSetupCurve(HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Boolean isEditable, System.String curveName, System.Int32 geoID, System.Boolean bGeoCurve)
     // Offset: 0x1470578
-    static HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::Il2CppString* curveName, int geoID, bool bGeoCurve);
+    static HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int geoID, bool bGeoCurve);
     // public System.Void DestroyAllData(System.Boolean bIsRebuild)
     // Offset: 0x14706E0
     void DestroyAllData(bool bIsRebuild);
     // public System.Void SetCurveName(System.String name)
     // Offset: 0x1470840
-    void SetCurveName(::Il2CppString* name);
+    void SetCurveName(::StringW name);
     // public System.Void UploadParameterPreset(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
     // Offset: 0x14708EC
     void UploadParameterPreset(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
@@ -353,10 +354,10 @@ namespace HoudiniEngineUnity {
     void ProjectToColliders(HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, UnityEngine::Vector3 rayDirection, float rayDistance);
     // static public System.String GetPointsString(System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> points)
     // Offset: 0x1473540
-    static ::Il2CppString* GetPointsString(System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>* points);
+    static ::StringW GetPointsString(System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>* points);
     // static public System.String GetPointsString(System.Collections.Generic.List`1<UnityEngine.Vector3> points)
     // Offset: 0x14725C8
-    static ::Il2CppString* GetPointsString(System::Collections::Generic::List_1<UnityEngine::Vector3>* points);
+    static ::StringW GetPointsString(System::Collections::Generic::List_1<UnityEngine::Vector3>* points);
     // public System.Void SetEditState(HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.CurveEditState editState)
     // Offset: 0x147378C
     void SetEditState(HoudiniEngineUnity::HEU_Curve::CurveEditState editState);
@@ -464,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::get_CurveName
 // Il2CppName: get_CurveName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_Curve::*)()>(&HoudiniEngineUnity::HEU_Curve::get_CurveName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_Curve::*)()>(&HoudiniEngineUnity::HEU_Curve::get_CurveName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve*), "get_CurveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -513,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::CreateSetupCurve
 // Il2CppName: CreateSetupCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Curve* (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::Il2CppString*, int, bool)>(&HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Curve* (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::StringW, int, bool)>(&HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
   static const MethodInfo* get() {
     static auto* parentAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* isEditable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -535,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::SetCurveName
 // Il2CppName: SetCurveName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Curve::SetCurveName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::*)(::StringW)>(&HoudiniEngineUnity::HEU_Curve::SetCurveName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve*), "SetCurveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -636,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::GetPointsString
 // Il2CppName: GetPointsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*)>(&HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*)>(&HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
   static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "CurveNodeData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve*), "GetPointsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
@@ -645,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::GetPointsString
 // Il2CppName: GetPointsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&HoudiniEngineUnity::HEU_Curve::GetPointsString)> {
   static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve*), "GetPointsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});

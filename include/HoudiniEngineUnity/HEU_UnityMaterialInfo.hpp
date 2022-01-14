@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -38,15 +39,15 @@ namespace HoudiniEngineUnity {
     // public System.String _unityMaterialPath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* unityMaterialPath;
+    ::StringW unityMaterialPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _substancePath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* substancePath;
+    ::StringW substancePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _substanceIndex
     // Size: 0x4
     // Offset: 0x20
@@ -55,15 +56,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _unityMaterialPath
-    ::Il2CppString*& dyn__unityMaterialPath();
+    ::StringW& dyn__unityMaterialPath();
     // Get instance field reference: public System.String _substancePath
-    ::Il2CppString*& dyn__substancePath();
+    ::StringW& dyn__substancePath();
     // Get instance field reference: public System.Int32 _substanceIndex
     int& dyn__substanceIndex();
     // public System.Void .ctor(System.String unityMaterialPath, System.String substancePath, System.Int32 substanceIndex)
     // Offset: 0x1781EFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_UnityMaterialInfo* New_ctor(::Il2CppString* unityMaterialPath, ::Il2CppString* substancePath, int substanceIndex) {
+    static HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int substanceIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_UnityMaterialInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_UnityMaterialInfo*, creationType>(unityMaterialPath, substancePath, substanceIndex)));
     }

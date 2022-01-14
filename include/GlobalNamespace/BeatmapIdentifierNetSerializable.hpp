@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -54,15 +55,15 @@ namespace GlobalNamespace {
     // private System.String <levelID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* levelID;
+    ::StringW levelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <beatmapCharacteristicSerializedName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* beatmapCharacteristicSerializedName;
+    ::StringW beatmapCharacteristicSerializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private BeatmapDifficulty <difficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -79,23 +80,23 @@ namespace GlobalNamespace {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.String <levelID>k__BackingField
-    ::Il2CppString*& dyn_$levelID$k__BackingField();
+    ::StringW& dyn_$levelID$k__BackingField();
     // Get instance field reference: private System.String <beatmapCharacteristicSerializedName>k__BackingField
-    ::Il2CppString*& dyn_$beatmapCharacteristicSerializedName$k__BackingField();
+    ::StringW& dyn_$beatmapCharacteristicSerializedName$k__BackingField();
     // Get instance field reference: private BeatmapDifficulty <difficulty>k__BackingField
     GlobalNamespace::BeatmapDifficulty& dyn_$difficulty$k__BackingField();
     // public System.String get_levelID()
     // Offset: 0x261E294
-    ::Il2CppString* get_levelID();
+    ::StringW get_levelID();
     // private System.Void set_levelID(System.String value)
     // Offset: 0x261E29C
-    void set_levelID(::Il2CppString* value);
+    void set_levelID(::StringW value);
     // public System.String get_beatmapCharacteristicSerializedName()
     // Offset: 0x261E2A4
-    ::Il2CppString* get_beatmapCharacteristicSerializedName();
+    ::StringW get_beatmapCharacteristicSerializedName();
     // private System.Void set_beatmapCharacteristicSerializedName(System.String value)
     // Offset: 0x261E2AC
-    void set_beatmapCharacteristicSerializedName(::Il2CppString* value);
+    void set_beatmapCharacteristicSerializedName(::StringW value);
     // public BeatmapDifficulty get_difficulty()
     // Offset: 0x261E2B4
     GlobalNamespace::BeatmapDifficulty get_difficulty();
@@ -105,7 +106,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String levelID, System.String beatmapCharacteristicSerializedName, BeatmapDifficulty difficulty)
     // Offset: 0x261E2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapIdentifierNetSerializable* New_ctor(::Il2CppString* levelID, ::Il2CppString* beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) {
+    static BeatmapIdentifierNetSerializable* New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapIdentifierNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapIdentifierNetSerializable*, creationType>(levelID, beatmapCharacteristicSerializedName, difficulty)));
     }
@@ -141,7 +142,7 @@ namespace GlobalNamespace {
     // Offset: 0x261E5B8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // BeatmapIdentifierNetSerializable
   #pragma pack(pop)
   static check_size<sizeof(BeatmapIdentifierNetSerializable), 32 + sizeof(GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_BeatmapIdentifierNetSerializableSizeCheck;
@@ -151,7 +152,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID
 // Il2CppName: get_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -159,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::set_levelID
 // Il2CppName: set_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::StringW)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_levelID)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "set_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName
 // Il2CppName: get_beatmapCharacteristicSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "get_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName
 // Il2CppName: set_beatmapCharacteristicSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::StringW)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "set_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -254,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(LiteNetLib::NatPunchModule::NatPunchPacket);
@@ -35,9 +36,9 @@ namespace LiteNetLib {
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Token;
+    ::StringW Token;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <IsExternal>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -46,15 +47,15 @@ namespace LiteNetLib {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Token>k__BackingField
-    ::Il2CppString*& dyn_$Token$k__BackingField();
+    ::StringW& dyn_$Token$k__BackingField();
     // Get instance field reference: private System.Boolean <IsExternal>k__BackingField
     bool& dyn_$IsExternal$k__BackingField();
     // public System.String get_Token()
     // Offset: 0x1DC66A4
-    ::Il2CppString* get_Token();
+    ::StringW get_Token();
     // public System.Void set_Token(System.String value)
     // Offset: 0x1DC66AC
-    void set_Token(::Il2CppString* value);
+    void set_Token(::StringW value);
     // public System.Boolean get_IsExternal()
     // Offset: 0x1DC66B4
     bool get_IsExternal();
@@ -79,7 +80,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::get_Token
 // Il2CppName: get_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::NatPunchModule::NatPunchPacket::*)()>(&LiteNetLib::NatPunchModule::NatPunchPacket::get_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::NatPunchModule::NatPunchPacket::*)()>(&LiteNetLib::NatPunchModule::NatPunchPacket::get_Token)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::set_Token
 // Il2CppName: set_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatPunchPacket::*)(::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatPunchPacket::set_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatPunchPacket::*)(::StringW)>(&LiteNetLib::NatPunchModule::NatPunchPacket::set_Token)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatPunchPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

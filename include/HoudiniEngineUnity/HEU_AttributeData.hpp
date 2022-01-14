@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -169,9 +170,9 @@ namespace HoudiniEngineUnity {
     // public System.String _name
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType _attributeType
     // Size: 0x4
     // Offset: 0x40
@@ -195,9 +196,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _stringValues
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> stringValues;
+    ::ArrayW<::StringW> stringValues;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     // Size: 0x4
     // Offset: 0x60
@@ -212,7 +213,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _attributeInfo
     HoudiniEngineUnity::HAPI_AttributeInfo& dyn__attributeInfo();
     // Get instance field reference: public System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType _attributeType
     HoudiniEngineUnity::HEU_AttributeData::AttributeType& dyn__attributeType();
     // Get instance field reference: public System.Int32[] _intValues
@@ -220,7 +221,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] _floatValues
     ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayW<::Il2CppString*>& dyn__stringValues();
+    ::ArrayW<::StringW>& dyn__stringValues();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeState _attributeState
     HoudiniEngineUnity::HEU_AttributeData::AttributeState& dyn__attributeState();
     // public System.Boolean IsColorAttribute()

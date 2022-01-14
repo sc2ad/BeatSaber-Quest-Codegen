@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,22 +40,22 @@ namespace GlobalNamespace {
     // Set static field: static public readonly X509CertificateUtility/<>c <>9
     static void _set_$$9(GlobalNamespace::X509CertificateUtility::$$c* value);
     // Get static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__6_0
-    static System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Il2CppString*>* _get_$$9__6_0();
+    static System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* _get_$$9__6_0();
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__6_0
-    static void _set_$$9__6_0(System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Il2CppString*>* value);
+    static void _set_$$9__6_0(System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
     // Get static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__7_0
-    static System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Il2CppString*>* _get_$$9__7_0();
+    static System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<System.Security.Cryptography.X509Certificates.X509ChainStatus,System.String> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Il2CppString*>* value);
+    static void _set_$$9__7_0(System::Func_2<System::Security::Cryptography::X509Certificates::X509ChainStatus, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x268F54C
     static void _cctor();
     // System.String <ValidateCertificateChainUnity>b__6_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
     // Offset: 0x268F5B8
-    ::Il2CppString* $ValidateCertificateChainUnity$b__6_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
+    ::StringW $ValidateCertificateChainUnity$b__6_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // System.String <ValidateCertificateChainDotNet>b__7_0(System.Security.Cryptography.X509Certificates.X509ChainStatus s)
     // Offset: 0x268F640
-    ::Il2CppString* $ValidateCertificateChainDotNet$b__7_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
+    ::StringW $ValidateCertificateChainDotNet$b__7_0(System::Security::Cryptography::X509Certificates::X509ChainStatus s);
     // public System.Void .ctor()
     // Offset: 0x268F5B0
     // Implemented from: System.Object
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainUnity$b__6_0
 // Il2CppName: <ValidateCertificateChainUnity>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainUnity$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainUnity$b__6_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::$$c*), "<ValidateCertificateChainUnity>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainDotNet$b__7_0
 // Il2CppName: <ValidateCertificateChainDotNet>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainDotNet$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainDotNet$b__7_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::$$c*), "<ValidateCertificateChainDotNet>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

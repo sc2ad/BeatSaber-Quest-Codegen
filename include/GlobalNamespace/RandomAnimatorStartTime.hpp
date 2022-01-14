@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -53,16 +54,16 @@ namespace GlobalNamespace {
     // private System.String _stateName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* stateName;
+    ::StringW stateName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animator _animator
     UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private System.String _stateName
-    ::Il2CppString*& dyn__stateName();
+    ::StringW& dyn__stateName();
     // protected System.Void Start()
     // Offset: 0x13A1DB8
     void Start();
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     }
   }; // RandomAnimatorStartTime
   #pragma pack(pop)
-  static check_size<sizeof(RandomAnimatorStartTime), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_RandomAnimatorStartTimeSizeCheck;
+  static check_size<sizeof(RandomAnimatorStartTime), 32 + sizeof(::StringW)> __GlobalNamespace_RandomAnimatorStartTimeSizeCheck;
   static_assert(sizeof(RandomAnimatorStartTime) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

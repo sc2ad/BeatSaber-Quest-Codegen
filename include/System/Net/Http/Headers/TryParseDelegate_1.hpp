@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,14 +47,14 @@ namespace System::Net::Http::Headers {
     }
     // public System.Boolean Invoke(System.String value, out T result)
     // Offset: 0xFFFFFFFF
-    bool Invoke(::Il2CppString* value, ByRef<T> result) {
+    bool Invoke(::StringW value, ByRef<T> result) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::TryParseDelegate_1::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, value, byref(result));
     }
     // public System.IAsyncResult BeginInvoke(System.String value, out T result, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(::Il2CppString* value, ByRef<T> result, System::AsyncCallback* callback, ::Il2CppObject* object) {
+    System::IAsyncResult* BeginInvoke(::StringW value, ByRef<T> result, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::TryParseDelegate_1::BeginInvoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<T&>(), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       return ::il2cpp_utils::RunMethodRethrow<System::IAsyncResult*, false>(this, ___internal__method, value, byref(result), callback, object);

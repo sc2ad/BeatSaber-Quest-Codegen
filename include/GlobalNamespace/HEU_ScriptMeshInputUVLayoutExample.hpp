@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,7 +42,7 @@ namespace GlobalNamespace {
     struct OutputMode;
     // static public System.Void ApplyUVLayoutTo(UnityEngine.GameObject[] gameObjects, HEU_ScriptMeshInputUVLayoutExample/OutputMode outputMode, System.String output_name_suffix)
     // Offset: 0x1461AD0
-    static void ApplyUVLayoutTo(::ArrayW<UnityEngine::GameObject*> gameObjects, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::Il2CppString* output_name_suffix);
+    static void ApplyUVLayoutTo(::ArrayW<UnityEngine::GameObject*> gameObjects, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode outputMode, ::StringW output_name_suffix);
     // public System.Void .ctor()
     // Offset: 0x146229C
     // Implemented from: System.Object
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo
 // Il2CppName: ApplyUVLayoutTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::GameObject*>, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode, ::Il2CppString*)>(&GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::GameObject*>, GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::OutputMode, ::StringW)>(&GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo)> {
   static const MethodInfo* get() {
     static auto* gameObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     static auto* outputMode = &::il2cpp_utils::GetClassFromName("", "HEU_ScriptMeshInputUVLayoutExample/OutputMode")->byval_arg;

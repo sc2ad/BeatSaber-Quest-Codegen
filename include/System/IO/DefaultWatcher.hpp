@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -69,9 +70,9 @@ namespace System::IO {
     // Set static field: static private System.Collections.Hashtable watches
     static void _set_watches(System::Collections::Hashtable* value);
     // Get static field: static private System.String[] NoStringsArray
-    static ::ArrayW<::Il2CppString*> _get_NoStringsArray();
+    static ::ArrayW<::StringW> _get_NoStringsArray();
     // Set static field: static private System.String[] NoStringsArray
-    static void _set_NoStringsArray(::ArrayW<::Il2CppString*> value);
+    static void _set_NoStringsArray(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
     // Offset: 0x1A362C0
     static void _cctor();
@@ -92,16 +93,16 @@ namespace System::IO {
     bool UpdateDataAndDispatch(System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
     // Offset: 0x1A34ED0
-    static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::Il2CppString* filename);
+    static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::StringW filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
     // Offset: 0x1A34C84
-    void DoFiles(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch);
+    void DoFiles(System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
     // Offset: 0x1A351BC
-    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::ArrayW<::Il2CppString*> files);
+    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch, ::ArrayW<::StringW> files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
     // Offset: 0x1A361E0
-    static System::IO::FileData* CreateFileData(::Il2CppString* directory, ::Il2CppString* filename);
+    static System::IO::FileData* CreateFileData(::StringW directory, ::StringW filename);
     // private System.Void .ctor()
     // Offset: 0x1A339E8
     // Implemented from: System.Object
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::DispatchEvents
 // Il2CppName: DispatchEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::FileSystemWatcher*, System::IO::FileAction, ::Il2CppString*)>(&System::IO::DefaultWatcher::DispatchEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::FileSystemWatcher*, System::IO::FileAction, ::StringW)>(&System::IO::DefaultWatcher::DispatchEvents)> {
   static const MethodInfo* get() {
     static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("System.IO", "FileAction")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::DoFiles
 // Il2CppName: DoFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool)>(&System::IO::DefaultWatcher::DoFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::StringW, bool)>(&System::IO::DefaultWatcher::DoFiles)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.IO", "DefaultWatcherData")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::IterateAndModifyFilesData
 // Il2CppName: IterateAndModifyFilesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::ArrayW<::Il2CppString*>)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::StringW, bool, ::ArrayW<::StringW>)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.IO", "DefaultWatcherData")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -205,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::CreateFileData
 // Il2CppName: CreateFileData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileData* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::DefaultWatcher::CreateFileData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileData* (*)(::StringW, ::StringW)>(&System::IO::DefaultWatcher::CreateFileData)> {
   static const MethodInfo* get() {
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

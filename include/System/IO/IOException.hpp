@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,27 +53,27 @@ namespace System::IO {
     // private System.String _maybeFullPath
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* maybeFullPath;
+    ::StringW maybeFullPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return maybeFullPath;
     }
     // Get instance field reference: private System.String _maybeFullPath
-    ::Il2CppString*& dyn__maybeFullPath();
+    ::StringW& dyn__maybeFullPath();
     // public System.Void .ctor(System.String message, System.Int32 hresult)
     // Offset: 0x1B0214C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IOException* New_ctor(::Il2CppString* message, int hresult) {
+    static IOException* New_ctor(::StringW message, int hresult) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, hresult)));
     }
     // System.Void .ctor(System.String message, System.Int32 hresult, System.String maybeFullPath)
     // Offset: 0x1B02180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IOException* New_ctor(::Il2CppString* message, int hresult, ::Il2CppString* maybeFullPath) {
+    static IOException* New_ctor(::StringW message, int hresult, ::StringW maybeFullPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, hresult, maybeFullPath)));
     }
@@ -93,7 +94,7 @@ namespace System::IO {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IOException* New_ctor(::Il2CppString* message) {
+    static IOException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message)));
     }
@@ -103,7 +104,7 @@ namespace System::IO {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IOException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
+    static IOException* New_ctor(::StringW message, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::IOException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IOException*, creationType>(message, innerException)));
     }
@@ -119,7 +120,7 @@ namespace System::IO {
     }
   }; // System.IO.IOException
   #pragma pack(pop)
-  static check_size<sizeof(IOException), 136 + sizeof(::Il2CppString*)> __System_IO_IOExceptionSizeCheck;
+  static check_size<sizeof(IOException), 136 + sizeof(::StringW)> __System_IO_IOExceptionSizeCheck;
   static_assert(sizeof(IOException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

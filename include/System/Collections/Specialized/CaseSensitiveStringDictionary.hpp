@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Collections.Specialized
 namespace System::Collections::Specialized {
@@ -43,7 +44,7 @@ namespace System::Collections::Specialized {
     // Offset: 0x1A20658
     // Implemented from: System.Collections.Specialized.StringDictionary
     // Base method: System.Void StringDictionary::Add(System.String key, System.String value)
-    void Add(::Il2CppString* key, ::Il2CppString* value);
+    void Add(::StringW key, ::StringW value);
   }; // System.Collections.Specialized.CaseSensitiveStringDictionary
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ namespace System::Collections::Specialized {
 // Writing MetadataGetter for method: System::Collections::Specialized::CaseSensitiveStringDictionary::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CaseSensitiveStringDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&System::Collections::Specialized::CaseSensitiveStringDictionary::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::CaseSensitiveStringDictionary::*)(::StringW, ::StringW)>(&System::Collections::Specialized::CaseSensitiveStringDictionary::Add)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

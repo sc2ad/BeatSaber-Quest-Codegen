@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -156,9 +157,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCharacterActivationStreamName
     static constexpr const char* kCharacterActivationStreamName = "CharacterActivationTrack";
     // Get static field: static private System.String kCharacterActivationStreamName
-    static ::Il2CppString* _get_kCharacterActivationStreamName();
+    static ::StringW _get_kCharacterActivationStreamName();
     // Set static field: static private System.String kCharacterActivationStreamName
-    static void _set_kCharacterActivationStreamName(::Il2CppString* value);
+    static void _set_kCharacterActivationStreamName(::StringW value);
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnCharacterPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__spawnCharacterPlayableDirector();
     // Get instance field reference: private JumpReceiver _jumpReceiver

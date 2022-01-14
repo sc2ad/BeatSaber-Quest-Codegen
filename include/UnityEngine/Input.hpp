@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -55,7 +56,7 @@ namespace UnityEngine {
     static void set_imeCompositionMode(UnityEngine::IMECompositionMode value);
     // static public System.String get_compositionString()
     // Offset: 0x26CBD78
-    static ::Il2CppString* get_compositionString();
+    static ::StringW get_compositionString();
     // static public UnityEngine.Vector2 get_compositionCursorPos()
     // Offset: 0x26CBDAC
     static UnityEngine::Vector2 get_compositionCursorPos();
@@ -82,19 +83,19 @@ namespace UnityEngine {
     static bool GetKeyDownInt(UnityEngine::KeyCode key);
     // static private System.Boolean GetKeyDownString(System.String name)
     // Offset: 0x26CB7E4
-    static bool GetKeyDownString(::Il2CppString* name);
+    static bool GetKeyDownString(::StringW name);
     // static public System.Single GetAxis(System.String axisName)
     // Offset: 0x26CB824
-    static float GetAxis(::Il2CppString* axisName);
+    static float GetAxis(::StringW axisName);
     // static public System.Single GetAxisRaw(System.String axisName)
     // Offset: 0x26CB864
-    static float GetAxisRaw(::Il2CppString* axisName);
+    static float GetAxisRaw(::StringW axisName);
     // static public System.Boolean GetButton(System.String buttonName)
     // Offset: 0x26CB8A4
-    static bool GetButton(::Il2CppString* buttonName);
+    static bool GetButton(::StringW buttonName);
     // static public System.Boolean GetButtonDown(System.String buttonName)
     // Offset: 0x26CB8E4
-    static bool GetButtonDown(::Il2CppString* buttonName);
+    static bool GetButtonDown(::StringW buttonName);
     // static public System.Boolean GetMouseButton(System.Int32 button)
     // Offset: 0x26CB924
     static bool GetMouseButton(int button);
@@ -118,7 +119,7 @@ namespace UnityEngine {
     static bool GetKeyDown(UnityEngine::KeyCode key);
     // static public System.Boolean GetKeyDown(System.String name)
     // Offset: 0x26CBB70
-    static bool GetKeyDown(::Il2CppString* name);
+    static bool GetKeyDown(::StringW name);
     // static private System.Void GetTouch_Injected(System.Int32 index, out UnityEngine.Touch ret)
     // Offset: 0x26CBA60
     static void GetTouch_Injected(int index, ByRef<UnityEngine::Touch> ret);
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Input::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Input::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Input::get_compositionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Input::GetKeyDownString
 // Il2CppName: GetKeyDownString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetKeyDownString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::Input::GetKeyDownString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDownString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::Input::GetAxis
 // Il2CppName: GetAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&UnityEngine::Input::GetAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW)>(&UnityEngine::Input::GetAxis)> {
   static const MethodInfo* get() {
     static auto* axisName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axisName});
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 // Writing MetadataGetter for method: UnityEngine::Input::GetAxisRaw
 // Il2CppName: GetAxisRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&UnityEngine::Input::GetAxisRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW)>(&UnityEngine::Input::GetAxisRaw)> {
   static const MethodInfo* get() {
     static auto* axisName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetAxisRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axisName});
@@ -285,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 // Writing MetadataGetter for method: UnityEngine::Input::GetButton
 // Il2CppName: GetButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::Input::GetButton)> {
   static const MethodInfo* get() {
     static auto* buttonName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonName});
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::Input::GetButtonDown
 // Il2CppName: GetButtonDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetButtonDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::Input::GetButtonDown)> {
   static const MethodInfo* get() {
     static auto* buttonName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonName});
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Input::GetKeyDown
 // Il2CppName: GetKeyDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetKeyDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::Input::GetKeyDown)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

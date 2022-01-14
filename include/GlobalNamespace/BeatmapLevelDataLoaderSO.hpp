@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -88,15 +89,15 @@ namespace GlobalNamespace {
       // public readonly System.String assetBundlePath
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* assetBundlePath;
+      ::StringW assetBundlePath;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public readonly System.String levelDataAssetName
       // Size: 0x8
       // Offset: 0x8
-      ::Il2CppString* levelDataAssetName;
+      ::StringW levelDataAssetName;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public readonly IPreviewBeatmapLevel previewBeatmapLevel
       // Size: 0x8
       // Offset: 0x10
@@ -105,20 +106,20 @@ namespace GlobalNamespace {
       static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
       public:
       // Creating value type constructor for type: AssetBundleLevelInfo
-      constexpr AssetBundleLevelInfo(::Il2CppString* assetBundlePath_ = {}, ::Il2CppString* levelDataAssetName_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}) noexcept : assetBundlePath{assetBundlePath_}, levelDataAssetName{levelDataAssetName_}, previewBeatmapLevel{previewBeatmapLevel_} {}
+      constexpr AssetBundleLevelInfo(::StringW assetBundlePath_ = {}, ::StringW levelDataAssetName_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}) noexcept : assetBundlePath{assetBundlePath_}, levelDataAssetName{levelDataAssetName_}, previewBeatmapLevel{previewBeatmapLevel_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public readonly System.String assetBundlePath
-      ::Il2CppString*& dyn_assetBundlePath();
+      ::StringW& dyn_assetBundlePath();
       // Get instance field reference: public readonly System.String levelDataAssetName
-      ::Il2CppString*& dyn_levelDataAssetName();
+      ::StringW& dyn_levelDataAssetName();
       // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
       GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
       // public System.Void .ctor(System.String assetBundlePath, System.String levelDataAssetName, IPreviewBeatmapLevel previewBeatmapLevel)
       // Offset: 0x1321648
-      // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
+      // ABORTED: conflicts with another method.  AssetBundleLevelInfo(::StringW assetBundlePath, ::StringW levelDataAssetName, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
     }; // BeatmapLevelDataLoaderSO/AssetBundleLevelInfo
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;
@@ -141,33 +142,33 @@ namespace GlobalNamespace {
     // private AsyncCache`2<System.String,IBeatmapLevel> _beatmapLevelsAsyncCache
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>* beatmapLevelsAsyncCache;
+    GlobalNamespace::AsyncCache_2<::StringW, GlobalNamespace::IBeatmapLevel*>* beatmapLevelsAsyncCache;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::AsyncCache_2<::StringW, GlobalNamespace::IBeatmapLevel*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
     GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__allBeatmapCharacteristicCollection();
     // Get instance field reference: private AsyncCache`2<System.String,IBeatmapLevel> _beatmapLevelsAsyncCache
-    GlobalNamespace::AsyncCache_2<::Il2CppString*, GlobalNamespace::IBeatmapLevel*>*& dyn__beatmapLevelsAsyncCache();
+    GlobalNamespace::AsyncCache_2<::StringW, GlobalNamespace::IBeatmapLevel*>*& dyn__beatmapLevelsAsyncCache();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,BeatmapLevelDataLoaderSO/AssetBundleLevelInfo> _bundleLevelInfos
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*& dyn__bundleLevelInfos();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*& dyn__bundleLevelInfos();
     // public System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelFormAssetBundleAsync(IPreviewBeatmapLevel previewBeatmapLevel, System.String assetBundlePath, System.String levelDataAssetName, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x132048C
-    System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelFormAssetBundleAsync(GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::StringW assetBundlePath, ::StringW levelDataAssetName, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<IBeatmapLevel> LoadBeatmapLevelAsync(System.String levelID)
     // Offset: 0x13205C0
-    System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::Il2CppString* levelID);
+    System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* LoadBeatmapLevelAsync(::StringW levelID);
     // private System.Threading.Tasks.Task`1<BeatmapLevelDataSO> LoadBeatmalLevelDataAsync(System.String assetBundlePath, System.String levelDataAssetName)
     // Offset: 0x13206E4
-    System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmalLevelDataAsync(::Il2CppString* assetBundlePath, ::Il2CppString* levelDataAssetName);
+    System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* LoadBeatmalLevelDataAsync(::StringW assetBundlePath, ::StringW levelDataAssetName);
     // public System.Void .ctor()
     // Offset: 0x1320808
     // Implemented from: PersistentScriptableObject
@@ -182,7 +183,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapLevelDataLoaderSO
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*)> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
+  static check_size<sizeof(BeatmapLevelDataLoaderSO), 40 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*)> __GlobalNamespace_BeatmapLevelDataLoaderSOSizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -191,7 +192,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLev
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync
 // Il2CppName: LoadBeatmapLevelFormAssetBundleAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync)> {
   static const MethodInfo* get() {
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* assetBundlePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync
 // Il2CppName: LoadBeatmapLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::StringW)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync)> {
   static const MethodInfo* get() {
     static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelID});
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync
 // Il2CppName: LoadBeatmalLevelDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::StringW, ::StringW)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync)> {
   static const MethodInfo* get() {
     static auto* assetBundlePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* levelDataAssetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

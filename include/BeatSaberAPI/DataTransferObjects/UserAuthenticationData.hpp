@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -56,48 +57,48 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String platformUserId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platformAuthToken
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* platformAuthToken;
+    ::StringW platformAuthToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String bsAuthToken
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* bsAuthToken;
+    ::StringW bsAuthToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String gameBuildVersion
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* gameBuildVersion;
+    ::StringW gameBuildVersion;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String publicUserDisplayName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* publicUserDisplayName;
+    ::StringW publicUserDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
     BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
     // Get instance field reference: public System.String platformUserId
-    ::Il2CppString*& dyn_platformUserId();
+    ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String platformAuthToken
-    ::Il2CppString*& dyn_platformAuthToken();
+    ::StringW& dyn_platformAuthToken();
     // Get instance field reference: public System.String bsAuthToken
-    ::Il2CppString*& dyn_bsAuthToken();
+    ::StringW& dyn_bsAuthToken();
     // Get instance field reference: public System.String gameBuildVersion
-    ::Il2CppString*& dyn_gameBuildVersion();
+    ::StringW& dyn_gameBuildVersion();
     // Get instance field reference: public System.String publicUserDisplayName
-    ::Il2CppString*& dyn_publicUserDisplayName();
+    ::StringW& dyn_publicUserDisplayName();
     // public System.Void .ctor()
     // Offset: 0x12C79C8
     // Implemented from: System.Object
@@ -109,7 +110,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.UserAuthenticationData
   #pragma pack(pop)
-  static check_size<sizeof(UserAuthenticationData), 56 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationDataSizeCheck;
+  static check_size<sizeof(UserAuthenticationData), 56 + sizeof(::StringW)> __BeatSaberAPI_DataTransferObjects_UserAuthenticationDataSizeCheck;
   static_assert(sizeof(UserAuthenticationData) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

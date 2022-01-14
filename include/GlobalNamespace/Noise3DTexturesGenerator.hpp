@@ -60,9 +60,9 @@ namespace GlobalNamespace {
       // public System.String globalPropertyName
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* globalPropertyName;
+      ::StringW globalPropertyName;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
       // Size: 0x8
       // Offset: 0x8
@@ -71,13 +71,13 @@ namespace GlobalNamespace {
       static_assert(sizeof(::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>) == 0x8);
       public:
       // Creating value type constructor for type: MaterialTextureParamsCouple
-      constexpr MaterialTextureParamsCouple(::Il2CppString* globalPropertyName_ = {}, ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>(static_cast<void*>(nullptr))) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
+      constexpr MaterialTextureParamsCouple(::StringW globalPropertyName_ = {}, ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple> materialPropertyNameCouples_ = ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>(static_cast<void*>(nullptr))) noexcept : globalPropertyName{globalPropertyName_}, materialPropertyNameCouples{materialPropertyNameCouples_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public System.String globalPropertyName
-      ::Il2CppString*& dyn_globalPropertyName();
+      ::StringW& dyn_globalPropertyName();
       // Get instance field reference: public Noise3DTexturesGenerator/MaterialPropertyNameCouple[] materialPropertyNameCouples
       ::ArrayW<GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple>& dyn_materialPropertyNameCouples();
     }; // Noise3DTexturesGenerator/MaterialTextureParamsCouple
@@ -95,9 +95,9 @@ namespace GlobalNamespace {
       // public System.String texturePropertyName
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* texturePropertyName;
+      ::StringW texturePropertyName;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public UnityEngine.Material material
       // Size: 0x8
       // Offset: 0x8
@@ -106,13 +106,13 @@ namespace GlobalNamespace {
       static_assert(sizeof(UnityEngine::Material*) == 0x8);
       public:
       // Creating value type constructor for type: MaterialPropertyNameCouple
-      constexpr MaterialPropertyNameCouple(::Il2CppString* texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) noexcept : texturePropertyName{texturePropertyName_}, material{material_} {}
+      constexpr MaterialPropertyNameCouple(::StringW texturePropertyName_ = {}, UnityEngine::Material* material_ = {}) noexcept : texturePropertyName{texturePropertyName_}, material{material_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public System.String texturePropertyName
-      ::Il2CppString*& dyn_texturePropertyName();
+      ::StringW& dyn_texturePropertyName();
       // Get instance field reference: public UnityEngine.Material material
       UnityEngine::Material*& dyn_material();
     }; // Noise3DTexturesGenerator/MaterialPropertyNameCouple

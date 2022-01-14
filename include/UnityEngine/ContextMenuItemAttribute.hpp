@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -41,30 +42,30 @@ namespace UnityEngine {
     // public readonly System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String function
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* function;
+    ::StringW function;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public readonly System.String function
-    ::Il2CppString*& dyn_function();
+    ::StringW& dyn_function();
     // public System.Void .ctor(System.String name, System.String function)
     // Offset: 0x1D07988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContextMenuItemAttribute* New_ctor(::Il2CppString* name, ::Il2CppString* function) {
+    static ContextMenuItemAttribute* New_ctor(::StringW name, ::StringW function) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenuItemAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenuItemAttribute*, creationType>(name, function)));
     }
   }; // UnityEngine.ContextMenuItemAttribute
   #pragma pack(pop)
-  static check_size<sizeof(ContextMenuItemAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_ContextMenuItemAttributeSizeCheck;
+  static check_size<sizeof(ContextMenuItemAttribute), 24 + sizeof(::StringW)> __UnityEngine_ContextMenuItemAttributeSizeCheck;
   static_assert(sizeof(ContextMenuItemAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -124,15 +125,15 @@ namespace HoudiniEngineUnity {
     // public System.String _terrainDataPath
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* terrainDataPath;
+    ::StringW terrainDataPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _terrainDataExportPath
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* terrainDataExportPath;
+    ::StringW terrainDataExportPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HEU_VolumeScatterTrees _scatterTrees
     // Size: 0x8
     // Offset: 0x80
@@ -160,9 +161,9 @@ namespace HoudiniEngineUnity {
     // public System.String _specifiedTerrainMaterialName
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* specifiedTerrainMaterialName;
+    ::StringW specifiedTerrainMaterialName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _tileIndex
     int& dyn__tileIndex();
@@ -185,9 +186,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _position
     UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public System.String _terrainDataPath
-    ::Il2CppString*& dyn__terrainDataPath();
+    ::StringW& dyn__terrainDataPath();
     // Get instance field reference: public System.String _terrainDataExportPath
-    ::Il2CppString*& dyn__terrainDataExportPath();
+    ::StringW& dyn__terrainDataExportPath();
     // Get instance field reference: public HoudiniEngineUnity.HEU_VolumeScatterTrees _scatterTrees
     HoudiniEngineUnity::HEU_VolumeScatterTrees*& dyn__scatterTrees();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_DetailPrototype> _detailPrototypes
@@ -197,7 +198,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailProperties _detailProperties
     HoudiniEngineUnity::HEU_DetailProperties*& dyn__detailProperties();
     // Get instance field reference: public System.String _specifiedTerrainMaterialName
-    ::Il2CppString*& dyn__specifiedTerrainMaterialName();
+    ::StringW& dyn__specifiedTerrainMaterialName();
     // public System.Void .ctor()
     // Offset: 0x15986AC
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
@@ -210,7 +211,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferVolume
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferVolume), 160 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_LoadBufferVolumeSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferVolume), 160 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_LoadBufferVolumeSizeCheck;
   static_assert(sizeof(HEU_LoadBufferVolume) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

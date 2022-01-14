@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -144,9 +145,9 @@ namespace System::Net {
     // private System.String[] m_CommonHeaders
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> m_CommonHeaders;
+    ::ArrayW<::StringW> m_CommonHeaders;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Int32 m_NumCommonHeaders
     // Size: 0x4
     // Offset: 0x60
@@ -173,9 +174,9 @@ namespace System::Net {
     // Set static field: static private readonly System.Net.HeaderInfoTable HInfo
     static void _set_HInfo(System::Net::HeaderInfoTable* value);
     // Get static field: static private readonly System.String[] s_CommonHeaderNames
-    static ::ArrayW<::Il2CppString*> _get_s_CommonHeaderNames();
+    static ::ArrayW<::StringW> _get_s_CommonHeaderNames();
     // Set static field: static private readonly System.String[] s_CommonHeaderNames
-    static void _set_s_CommonHeaderNames(::ArrayW<::Il2CppString*> value);
+    static void _set_s_CommonHeaderNames(::ArrayW<::StringW> value);
     // Get static field: static private readonly System.SByte[] s_CommonHeaderHints
     static ::ArrayW<int8_t> _get_s_CommonHeaderHints();
     // Set static field: static private readonly System.SByte[] s_CommonHeaderHints
@@ -189,7 +190,7 @@ namespace System::Net {
     // Set static field: static private System.Net.WebHeaderCollection/System.Net.RfcChar[] RfcCharMap
     static void _set_RfcCharMap(::ArrayW<System::Net::WebHeaderCollection::RfcChar> value);
     // Get instance field reference: private System.String[] m_CommonHeaders
-    ::ArrayW<::Il2CppString*>& dyn_m_CommonHeaders();
+    ::ArrayW<::StringW>& dyn_m_CommonHeaders();
     // Get instance field reference: private System.Int32 m_NumCommonHeaders
     int& dyn_m_NumCommonHeaders();
     // Get instance field reference: private System.Collections.Specialized.NameValueCollection m_InnerCollection
@@ -214,37 +215,37 @@ namespace System::Net {
     void NormalizeCommonHeaders();
     // static System.Boolean AllowMultiValues(System.String name)
     // Offset: 0x17EC2D0
-    static bool AllowMultiValues(::Il2CppString* name);
+    static bool AllowMultiValues(::StringW name);
     // public System.Void Remove(System.Net.HttpRequestHeader header)
     // Offset: 0x17F3AB0
     void Remove(System::Net::HttpRequestHeader header);
     // System.Void AddInternal(System.String name, System.String value)
     // Offset: 0x17EC380
-    void AddInternal(::Il2CppString* name, ::Il2CppString* value);
+    void AddInternal(::StringW name, ::StringW value);
     // System.Void ChangeInternal(System.String name, System.String value)
     // Offset: 0x17F3BB0
-    void ChangeInternal(::Il2CppString* name, ::Il2CppString* value);
+    void ChangeInternal(::StringW name, ::StringW value);
     // System.Void RemoveInternal(System.String name)
     // Offset: 0x17F3C10
-    void RemoveInternal(::Il2CppString* name);
+    void RemoveInternal(::StringW name);
     // static System.String CheckBadChars(System.String name, System.Boolean isHeaderValue)
     // Offset: 0x17F3C70
-    static ::Il2CppString* CheckBadChars(::Il2CppString* name, bool isHeaderValue);
+    static ::StringW CheckBadChars(::StringW name, bool isHeaderValue);
     // static System.Boolean ContainsNonAsciiChars(System.String token)
     // Offset: 0x17F3FEC
-    static bool ContainsNonAsciiChars(::Il2CppString* token);
+    static bool ContainsNonAsciiChars(::StringW token);
     // System.Void ThrowOnRestrictedHeader(System.String headerName)
     // Offset: 0x17F4074
-    void ThrowOnRestrictedHeader(::Il2CppString* headerName);
+    void ThrowOnRestrictedHeader(::StringW headerName);
     // public System.Void Add(System.String header)
     // Offset: 0x17EA394
-    void Add(::Il2CppString* header);
+    void Add(::StringW header);
     // System.Void SetInternal(System.String name, System.String value)
     // Offset: 0x17EC3E0
-    void SetInternal(::Il2CppString* name, ::Il2CppString* value);
+    void SetInternal(::StringW name, ::StringW value);
     // static System.String GetAsString(System.Collections.Specialized.NameValueCollection cc, System.Boolean winInetCompat, System.Boolean forTrace)
     // Offset: 0x17F4980
-    static ::Il2CppString* GetAsString(System::Collections::Specialized::NameValueCollection* cc, bool winInetCompat, bool forTrace);
+    static ::StringW GetAsString(System::Collections::Specialized::NameValueCollection* cc, bool winInetCompat, bool forTrace);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     // Offset: 0x17F5034
     void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);
@@ -283,27 +284,27 @@ namespace System::Net {
     // Offset: 0x17F4200
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Add(System.String name, System.String value)
-    void Add(::Il2CppString* name, ::Il2CppString* value);
+    void Add(::StringW name, ::StringW value);
     // public override System.Void Set(System.String name, System.String value)
     // Offset: 0x17F43B8
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Set(System.String name, System.String value)
-    void Set(::Il2CppString* name, ::Il2CppString* value);
+    void Set(::StringW name, ::StringW value);
     // public override System.Void Remove(System.String name)
     // Offset: 0x17F45D8
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.Void NameValueCollection::Remove(System.String name)
-    void Remove(::Il2CppString* name);
+    void Remove(::StringW name);
     // public override System.String[] GetValues(System.String header)
     // Offset: 0x17F4710
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.String header)
-    ::ArrayW<::Il2CppString*> GetValues(::Il2CppString* header);
+    ::ArrayW<::StringW> GetValues(::StringW header);
     // public override System.String ToString()
     // Offset: 0x17F4914
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Void OnDeserialization(System.Object sender)
     // Offset: 0x17F4EB8
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
@@ -318,7 +319,7 @@ namespace System::Net {
     // Offset: 0x17F5040
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::Get(System.String name)
-    ::Il2CppString* Get(::Il2CppString* name);
+    ::StringW Get(::StringW name);
     // public override System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x17F53A4
     // Implemented from: System.Collections.Specialized.NameObjectCollectionBase
@@ -328,17 +329,17 @@ namespace System::Net {
     // Offset: 0x17F5458
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::Get(System.Int32 index)
-    ::Il2CppString* Get(int index);
+    ::StringW Get(int index);
     // public override System.String[] GetValues(System.Int32 index)
     // Offset: 0x17F549C
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.Int32 index)
-    ::ArrayW<::Il2CppString*> GetValues(int index);
+    ::ArrayW<::StringW> GetValues(int index);
     // public override System.String GetKey(System.Int32 index)
     // Offset: 0x17F54E0
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String NameValueCollection::GetKey(System.Int32 index)
-    ::Il2CppString* GetKey(int index);
+    ::StringW GetKey(int index);
   }; // System.Net.WebHeaderCollection
   #pragma pack(pop)
   static check_size<sizeof(WebHeaderCollection), 112 + sizeof(System::Net::WebHeaderCollectionType)> __System_Net_WebHeaderCollectionSizeCheck;
@@ -378,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::AllowMultiValues
 // Il2CppName: AllowMultiValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::AllowMultiValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::WebHeaderCollection::AllowMultiValues)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "AllowMultiValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::AddInternal
 // Il2CppName: AddInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::WebHeaderCollection::AddInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW, ::StringW)>(&System::Net::WebHeaderCollection::AddInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -406,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::ChangeInternal
 // Il2CppName: ChangeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::WebHeaderCollection::ChangeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW, ::StringW)>(&System::Net::WebHeaderCollection::ChangeInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -416,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::RemoveInternal
 // Il2CppName: RemoveInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::RemoveInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::RemoveInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "RemoveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -425,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::CheckBadChars
 // Il2CppName: CheckBadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::Net::WebHeaderCollection::CheckBadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&System::Net::WebHeaderCollection::CheckBadChars)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isHeaderValue = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -435,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::ContainsNonAsciiChars
 // Il2CppName: ContainsNonAsciiChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::ContainsNonAsciiChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::WebHeaderCollection::ContainsNonAsciiChars)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "ContainsNonAsciiChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -444,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::ThrowOnRestrictedHeader
 // Il2CppName: ThrowOnRestrictedHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::ThrowOnRestrictedHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::ThrowOnRestrictedHeader)> {
   static const MethodInfo* get() {
     static auto* headerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "ThrowOnRestrictedHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headerName});
@@ -453,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::Add)> {
   static const MethodInfo* get() {
     static auto* header = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{header});
@@ -462,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::SetInternal
 // Il2CppName: SetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::WebHeaderCollection::SetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW, ::StringW)>(&System::Net::WebHeaderCollection::SetInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -472,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetAsString
 // Il2CppName: GetAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Specialized::NameValueCollection*, bool, bool)>(&System::Net::WebHeaderCollection::GetAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Specialized::NameValueCollection*, bool, bool)>(&System::Net::WebHeaderCollection::GetAsString)> {
   static const MethodInfo* get() {
     static auto* cc = &::il2cpp_utils::GetClassFromName("System.Collections.Specialized", "NameValueCollection")->byval_arg;
     static auto* winInetCompat = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -517,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::WebHeaderCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW, ::StringW)>(&System::Net::WebHeaderCollection::Add)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -527,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::WebHeaderCollection::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW, ::StringW)>(&System::Net::WebHeaderCollection::Set)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -537,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::Remove)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -546,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* header = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{header});
@@ -555,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebHeaderCollection::*)()>(&System::Net::WebHeaderCollection::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::WebHeaderCollection::*)()>(&System::Net::WebHeaderCollection::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -582,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::WebHeaderCollection::*)(::StringW)>(&System::Net::WebHeaderCollection::Get)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -599,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::Get)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -608,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -617,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetKey
 // Il2CppName: GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetKey)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

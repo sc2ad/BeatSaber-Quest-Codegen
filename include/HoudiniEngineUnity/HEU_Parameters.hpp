@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -88,9 +89,9 @@ namespace HoudiniEngineUnity {
     // public System.String _uiLabel
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* uiLabel;
+    ::StringW uiLabel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32[] _paramInts
     // Size: 0x8
     // Offset: 0x28
@@ -106,9 +107,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _paramStrings
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<::Il2CppString*> paramStrings;
+    ::ArrayW<::StringW> paramStrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public HoudiniEngineUnity.HAPI_ParmChoiceInfo[] _paramChoices
     // Size: 0x8
     // Offset: 0x40
@@ -181,13 +182,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _uiLabel
-    ::Il2CppString*& dyn__uiLabel();
+    ::StringW& dyn__uiLabel();
     // Get instance field reference: public System.Int32[] _paramInts
     ::ArrayW<int>& dyn__paramInts();
     // Get instance field reference: public System.Single[] _paramFloats
     ::ArrayW<float>& dyn__paramFloats();
     // Get instance field reference: public System.String[] _paramStrings
-    ::ArrayW<::Il2CppString*>& dyn__paramStrings();
+    ::ArrayW<::StringW>& dyn__paramStrings();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmChoiceInfo[] _paramChoices
     ::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>& dyn__paramChoices();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _rootParameters
@@ -255,7 +256,7 @@ namespace HoudiniEngineUnity {
     void CleanUp();
     // public System.Boolean Initialize(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_ParameterData> previousParamFolders, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_InputNode> previousParamInputNodes, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
     // Offset: 0x181A1E0
-    bool Initialize(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+    bool Initialize(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetupRampParameter(HoudiniEngineUnity.HEU_ParameterData rampParameter)
     // Offset: 0x181BBE4
     void SetupRampParameter(HoudiniEngineUnity::HEU_ParameterData* rampParameter);
@@ -267,7 +268,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_ParameterData* GetParameter(int listIndex);
     // public HoudiniEngineUnity.HEU_ParameterData GetParameter(System.String name)
     // Offset: 0x18184A4
-    HoudiniEngineUnity::HEU_ParameterData* GetParameter(::Il2CppString* name);
+    HoudiniEngineUnity::HEU_ParameterData* GetParameter(::StringW name);
     // public HoudiniEngineUnity.HEU_ParameterData GetParameterWithParmID(System.Int32 parmID)
     // Offset: 0x181BFAC
     HoudiniEngineUnity::HEU_ParameterData* GetParameterWithParmID(int parmID);
@@ -279,10 +280,10 @@ namespace HoudiniEngineUnity {
     int GetChosenIndexFromChoiceList(HoudiniEngineUnity::HEU_ParameterData* inChoiceParameter);
     // public System.String GetStringFromParameter(System.String paramName)
     // Offset: 0x181C1FC
-    ::Il2CppString* GetStringFromParameter(::Il2CppString* paramName);
+    ::StringW GetStringFromParameter(::StringW paramName);
     // public System.Void SetStringToParameter(System.String paramName, System.String value)
     // Offset: 0x181C250
-    void SetStringToParameter(::Il2CppString* paramName, ::Il2CppString* value);
+    void SetStringToParameter(::StringW paramName, ::StringW value);
     // public System.Boolean HaveParametersChanged()
     // Offset: 0x181C2CC
     bool HaveParametersChanged();
@@ -306,7 +307,7 @@ namespace HoudiniEngineUnity {
     void ProcessModifiers(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GetParameterDataForUIRestore(System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_ParameterData> folderParams, System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_InputNode> inputNodeParams)
     // Offset: 0x181D744
-    void GetParameterDataForUIRestore(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_ParameterData*>* folderParams, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams);
+    void GetParameterDataForUIRestore(System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_ParameterData*>* folderParams, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams);
     // public System.Void GetInputNodeConnectionObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> inputNodeObjects)
     // Offset: 0x181D8C0
     void GetInputNodeConnectionObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* inputNodeObjects);
@@ -327,7 +328,7 @@ namespace HoudiniEngineUnity {
     void UpdateTransformParameters(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_TransformEuler> HAPITransform);
     // public System.Void SyncParameterFromHoudini(HoudiniEngineUnity.HEU_SessionBase session, System.String parameterName)
     // Offset: 0x181DBE0
-    void SyncParameterFromHoudini(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* parameterName);
+    void SyncParameterFromHoudini(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW parameterName);
     // public System.Void SyncInternalParametersForUndoCompare(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x181DC70
     void SyncInternalParametersForUndoCompare(HoudiniEngineUnity::HEU_SessionBase* session);
@@ -483,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_Parameters::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<HoudiniEngineUnity::HAPI_NodeInfo>, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_ParameterData*>*, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_InputNode*>*, HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_Parameters::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_Parameters::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<HoudiniEngineUnity::HAPI_NodeInfo>, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_ParameterData*>*, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_InputNode*>*, HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_Parameters::Initialize)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -523,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::GetParameter
 // Il2CppName: GetParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ParameterData* (HoudiniEngineUnity::HEU_Parameters::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Parameters::GetParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ParameterData* (HoudiniEngineUnity::HEU_Parameters::*)(::StringW)>(&HoudiniEngineUnity::HEU_Parameters::GetParameter)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters*), "GetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -559,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::GetStringFromParameter
 // Il2CppName: GetStringFromParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_Parameters::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Parameters::GetStringFromParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_Parameters::*)(::StringW)>(&HoudiniEngineUnity::HEU_Parameters::GetStringFromParameter)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters*), "GetStringFromParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paramName});
@@ -568,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::SetStringToParameter
 // Il2CppName: SetStringToParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_Parameters::SetStringToParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_Parameters::SetStringToParameter)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore
 // Il2CppName: GetParameterDataForUIRestore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_ParameterData*>*, System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::HEU_InputNode*>*)>(&HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_ParameterData*>*, System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::HEU_InputNode*>*)>(&HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore)> {
   static const MethodInfo* get() {
     static auto* folderParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ParameterData")})->byval_arg;
     static auto* inputNodeParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_InputNode")})->byval_arg;
@@ -713,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::SyncParameterFromHoudini
 // Il2CppName: SyncParameterFromHoudini
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_Parameters::SyncParameterFromHoudini)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW)>(&HoudiniEngineUnity::HEU_Parameters::SyncParameterFromHoudini)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

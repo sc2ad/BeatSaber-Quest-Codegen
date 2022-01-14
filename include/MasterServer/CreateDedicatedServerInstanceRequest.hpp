@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -71,9 +72,9 @@ namespace MasterServer {
     // public System.String secret
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x20
@@ -83,15 +84,15 @@ namespace MasterServer {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Net.IPEndPoint userEndPoint
     // Size: 0x8
     // Offset: 0x48
@@ -124,13 +125,13 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: public System.String secret
-    ::Il2CppString*& dyn_secret();
+    ::StringW& dyn_secret();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.Net.IPEndPoint userEndPoint
     System::Net::IPEndPoint*& dyn_userEndPoint();
     // Get instance field reference: public readonly ByteArrayNetSerializable userRandom
@@ -147,7 +148,7 @@ namespace MasterServer {
     uint get_version();
     // public MasterServer.CreateDedicatedServerInstanceRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
     // Offset: 0x14B2A78
-    MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::ArrayW<uint8_t> userRandom, ::ArrayW<uint8_t> userPublicKey);
+    MasterServer::CreateDedicatedServerInstanceRequest* Init(::StringW secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW userId, ::StringW userName, System::Net::IPEndPoint* userEndPoint, ::ArrayW<uint8_t> userRandom, ::ArrayW<uint8_t> userPublicKey);
     // public System.Void .ctor()
     // Offset: 0x14B2AF0
     // Implemented from: BaseMasterServerReliableRequest
@@ -198,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;

@@ -14,6 +14,7 @@
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -386,17 +387,17 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single HAPTIC_VIBRATION_DURATION_SECONDS
     static void _set_HAPTIC_VIBRATION_DURATION_SECONDS(float value);
     // Get static field: static private System.String OPENVR_TOUCH_NAME
-    static ::Il2CppString* _get_OPENVR_TOUCH_NAME();
+    static ::StringW _get_OPENVR_TOUCH_NAME();
     // Set static field: static private System.String OPENVR_TOUCH_NAME
-    static void _set_OPENVR_TOUCH_NAME(::Il2CppString* value);
+    static void _set_OPENVR_TOUCH_NAME(::StringW value);
     // Get static field: static private System.String OPENVR_VIVE_CONTROLLER_NAME
-    static ::Il2CppString* _get_OPENVR_VIVE_CONTROLLER_NAME();
+    static ::StringW _get_OPENVR_VIVE_CONTROLLER_NAME();
     // Set static field: static private System.String OPENVR_VIVE_CONTROLLER_NAME
-    static void _set_OPENVR_VIVE_CONTROLLER_NAME(::Il2CppString* value);
+    static void _set_OPENVR_VIVE_CONTROLLER_NAME(::StringW value);
     // Get static field: static private System.String OPENVR_WINDOWSMR_CONTROLLER_NAME
-    static ::Il2CppString* _get_OPENVR_WINDOWSMR_CONTROLLER_NAME();
+    static ::StringW _get_OPENVR_WINDOWSMR_CONTROLLER_NAME();
     // Set static field: static private System.String OPENVR_WINDOWSMR_CONTROLLER_NAME
-    static void _set_OPENVR_WINDOWSMR_CONTROLLER_NAME(::Il2CppString* value);
+    static void _set_OPENVR_WINDOWSMR_CONTROLLER_NAME(::StringW value);
     // Get static field: static public OVRInput/OpenVRControllerDetails[] openVRControllerDetails
     static ::ArrayW<GlobalNamespace::OVRInput::OpenVRControllerDetails> _get_openVRControllerDetails();
     // Set static field: static public OVRInput/OpenVRControllerDetails[] openVRControllerDetails
@@ -562,7 +563,7 @@ namespace GlobalNamespace {
     static void SetOpenVRLocalPose(UnityEngine::Vector3 leftPos, UnityEngine::Vector3 rightPos, UnityEngine::Quaternion leftRot, UnityEngine::Quaternion rightRot);
     // static public System.String GetOpenVRStringProperty(OVR.OpenVR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
     // Offset: 0x176EBC4
-    static ::Il2CppString* GetOpenVRStringProperty(OVR::OpenVR::ETrackedDeviceProperty prop, uint deviceId);
+    static ::StringW GetOpenVRStringProperty(OVR::OpenVR::ETrackedDeviceProperty prop, uint deviceId);
     // static private System.Void UpdateXRControllerNodeIds()
     // Offset: 0x176B7C4
     static void UpdateXRControllerNodeIds();
@@ -1131,7 +1132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetOpenVRStringProperty
 // Il2CppName: GetOpenVRStringProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(OVR::OpenVR::ETrackedDeviceProperty, uint)>(&GlobalNamespace::OVRInput::GetOpenVRStringProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(OVR::OpenVR::ETrackedDeviceProperty, uint)>(&GlobalNamespace::OVRInput::GetOpenVRStringProperty)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
     static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

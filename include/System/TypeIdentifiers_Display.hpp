@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::TypeIdentifiers::Display);
@@ -39,52 +40,52 @@ namespace System {
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* displayName;
+    ::StringW displayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String internal_name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* internal_name;
+    ::StringW internal_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::TypeIdentifier
     operator System::TypeIdentifier() noexcept {
       return *reinterpret_cast<System::TypeIdentifier*>(this);
     }
     // Get instance field reference: private System.String displayName
-    ::Il2CppString*& dyn_displayName();
+    ::StringW& dyn_displayName();
     // Get instance field reference: private System.String internal_name
-    ::Il2CppString*& dyn_internal_name();
+    ::StringW& dyn_internal_name();
     // public System.String get_InternalName()
     // Offset: 0x25CE358
-    ::Il2CppString* get_InternalName();
+    ::StringW get_InternalName();
     // System.Void .ctor(System.String displayName)
     // Offset: 0x25CE31C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeIdentifiers::Display* New_ctor(::Il2CppString* displayName) {
+    static TypeIdentifiers::Display* New_ctor(::StringW displayName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeIdentifiers::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeIdentifiers::Display*, creationType>(displayName)));
     }
     // private System.String GetInternalName()
     // Offset: 0x25CE388
-    ::Il2CppString* GetInternalName();
+    ::StringW GetInternalName();
     // public override System.String get_DisplayName()
     // Offset: 0x25CE350
     // Implemented from: System.TypeNames/System.ATypeName
     // Base method: System.String ATypeName::get_DisplayName()
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
   }; // System.TypeIdentifiers/System.Display
   #pragma pack(pop)
-  static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::Il2CppString*)> __System_TypeIdentifiers_DisplaySizeCheck;
+  static check_size<sizeof(TypeIdentifiers::Display), 24 + sizeof(::StringW)> __System_TypeIdentifiers_DisplaySizeCheck;
   static_assert(sizeof(TypeIdentifiers::Display) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeIdentifiers::Display::get_InternalName
 // Il2CppName: get_InternalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::get_InternalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::get_InternalName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifiers::Display*), "get_InternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TypeIdentifiers::Display::GetInternalName
 // Il2CppName: GetInternalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::GetInternalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::GetInternalName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifiers::Display*), "GetInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TypeIdentifiers::Display::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeIdentifiers::Display::*)()>(&System::TypeIdentifiers::Display::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifiers::Display*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

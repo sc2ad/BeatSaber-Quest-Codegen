@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,13 +41,13 @@ namespace GlobalNamespace {
     class $$c__DisplayClass0_0;
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
     // Offset: 0x11E25C0
-    static void GetContentOfDirectory(::Il2CppString* direcotryPath, ::ArrayW<::Il2CppString*> extensions, System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>* callback);
+    static void GetContentOfDirectory(::StringW direcotryPath, ::ArrayW<::StringW> extensions, System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
     // Offset: 0x11E26C4
-    static ::ArrayW<GlobalNamespace::FileBrowserItem*> GetContentOfDirectory(::Il2CppString* directoryPath, ::ArrayW<::Il2CppString*> extensions);
+    static ::ArrayW<GlobalNamespace::FileBrowserItem*> GetContentOfDirectory(::StringW directoryPath, ::ArrayW<::StringW> extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
     // Offset: 0x11E2A90
-    static bool CanOpenDirectory(::Il2CppString* path);
+    static bool CanOpenDirectory(::StringW path);
   }; // FileBrowserModel
   #pragma pack(pop)
 }
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::GetContentOfDirectory
 // Il2CppName: GetContentOfDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::StringW>, System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
   static const MethodInfo* get() {
     static auto* direcotryPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extensions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::GetContentOfDirectory
 // Il2CppName: GetContentOfDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::FileBrowserItem*> (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::FileBrowserItem*> (*)(::StringW, ::ArrayW<::StringW>)>(&GlobalNamespace::FileBrowserModel::GetContentOfDirectory)> {
   static const MethodInfo* get() {
     static auto* directoryPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extensions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Gl
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserModel::CanOpenDirectory
 // Il2CppName: CanOpenDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserModel::CanOpenDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&GlobalNamespace::FileBrowserModel::CanOpenDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel*), "CanOpenDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

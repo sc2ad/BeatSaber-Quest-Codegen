@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerMissionStatsData);
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // public System.String missionId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* missionId;
+    ::StringW missionId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean cleared
     // Size: 0x1
     // Offset: 0x18
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String missionId
-    ::Il2CppString*& dyn_missionId();
+    ::StringW& dyn_missionId();
     // Get instance field reference: public System.Boolean cleared
     bool& dyn_cleared();
     // public System.Void .ctor()

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -74,21 +75,21 @@ namespace System::Runtime::Serialization {
     // private System.String m_serializationName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_serializationName;
+    ::StringW m_serializationName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Reflection.RuntimeFieldInfo m_field
     System::Reflection::RuntimeFieldInfo*& dyn_m_field();
     // Get instance field reference: private System.String m_serializationName
-    ::Il2CppString*& dyn_m_serializationName();
+    ::StringW& dyn_m_serializationName();
     // System.Reflection.RuntimeFieldInfo get_FieldInfo()
     // Offset: 0x19226AC
     System::Reflection::RuntimeFieldInfo* get_FieldInfo();
     // System.Void .ctor(System.Reflection.RuntimeFieldInfo field, System.String namePrefix)
     // Offset: 0x19222CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationFieldInfo* New_ctor(System::Reflection::RuntimeFieldInfo* field, ::Il2CppString* namePrefix) {
+    static SerializationFieldInfo* New_ctor(System::Reflection::RuntimeFieldInfo* field, ::StringW namePrefix) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationFieldInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationFieldInfo*, creationType>(field, namePrefix)));
     }
@@ -112,7 +113,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1922364
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.Type get_DeclaringType()
     // Offset: 0x192236C
     // Implemented from: System.Reflection.MemberInfo
@@ -165,7 +166,7 @@ namespace System::Runtime::Serialization {
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
   }; // System.Runtime.Serialization.SerializationFieldInfo
   #pragma pack(pop)
-  static check_size<sizeof(SerializationFieldInfo), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
+  static check_size<sizeof(SerializationFieldInfo), 24 + sizeof(::StringW)> __System_Runtime_Serialization_SerializationFieldInfoSizeCheck;
   static_assert(sizeof(SerializationFieldInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::SerializationFieldInfo::*)()>(&System::Runtime::Serialization::SerializationFieldInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -8,9 +8,9 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Security.Cryptography
@@ -33,12 +33,12 @@ namespace System::Security::Cryptography {
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: HashAlgorithmName
-    constexpr HashAlgorithmName(::Il2CppString* name_ = {}) noexcept : name{name_} {}
+    constexpr HashAlgorithmName(::StringW name_ = {}) noexcept : name{name_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -47,21 +47,21 @@ namespace System::Security::Cryptography {
     operator System::IEquatable_1<System::Security::Cryptography::HashAlgorithmName>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Security::Cryptography::HashAlgorithmName>*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return name;
     }
     // Get instance field reference: private readonly System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // static public System.Security.Cryptography.HashAlgorithmName get_SHA256()
     // Offset: 0x1A998F0
     static System::Security::Cryptography::HashAlgorithmName get_SHA256();
     // public System.String get_Name()
     // Offset: 0x1A99940
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1A99938
-    // ABORTED: conflicts with another method.  HashAlgorithmName(::Il2CppString* name);
+    // ABORTED: conflicts with another method.  HashAlgorithmName(::StringW name);
     // public System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName other)
     // Offset: 0x1A99A34
     bool Equals(System::Security::Cryptography::HashAlgorithmName other);
@@ -69,7 +69,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A99948
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1A999A4
     // Implemented from: System.ValueType
@@ -82,7 +82,7 @@ namespace System::Security::Cryptography {
     int GetHashCode();
   }; // System.Security.Cryptography.HashAlgorithmName
   #pragma pack(pop)
-  static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::Il2CppString*)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
+  static check_size<sizeof(HashAlgorithmName), 0 + sizeof(::StringW)> __System_Security_Cryptography_HashAlgorithmNameSizeCheck;
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::HashAlgorithmName::*)()>(&System::Security::Cryptography::HashAlgorithmName::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::HashAlgorithmName::*)()>(&System::Security::Cryptography::HashAlgorithmName::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithmName), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::HashAlgorithmName::*)()>(&System::Security::Cryptography::HashAlgorithmName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::HashAlgorithmName::*)()>(&System::Security::Cryptography::HashAlgorithmName::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HashAlgorithmName), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

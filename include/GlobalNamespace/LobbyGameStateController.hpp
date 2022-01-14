@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -570,25 +571,25 @@ namespace GlobalNamespace {
     void StopListeningToGameStart();
     // private System.Void HandleMenuRpcManagerStartedLevel(System.String userId, BeatmapIdentifierNetSerializable beatmapId, GameplayModifiers gameplayModifiers, System.Single startTime)
     // Offset: 0x13083F8
-    void HandleMenuRpcManagerStartedLevel(::Il2CppString* userId, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
+    void HandleMenuRpcManagerStartedLevel(::StringW userId, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::GameplayModifiers* gameplayModifiers, float startTime);
     // private System.Void HandleMenuRpcManagerCancelledLevelStart(System.String userId)
     // Offset: 0x13085F4
-    void HandleMenuRpcManagerCancelledLevelStart(::Il2CppString* userId);
+    void HandleMenuRpcManagerCancelledLevelStart(::StringW userId);
     // private System.Void HandleMenuRpcManagerSetCountdownEndTime(System.String userId, System.Single countdownTime)
     // Offset: 0x1308744
-    void HandleMenuRpcManagerSetCountdownEndTime(::Il2CppString* userId, float countdownTime);
+    void HandleMenuRpcManagerSetCountdownEndTime(::StringW userId, float countdownTime);
     // private System.Void HandleMenuRpcManagerCancelCountdown(System.String userId)
     // Offset: 0x1308940
-    void HandleMenuRpcManagerCancelCountdown(::Il2CppString* userId);
+    void HandleMenuRpcManagerCancelCountdown(::StringW userId);
     // private System.Void HandleMenuRpcManagerSetStartGameTime(System.String userId, System.Single startTime)
     // Offset: 0x1308B2C
-    void HandleMenuRpcManagerSetStartGameTime(::Il2CppString* userId, float startTime);
+    void HandleMenuRpcManagerSetStartGameTime(::StringW userId, float startTime);
     // private System.Void HandleSetIsStartButtonEnabled(System.String userId, CannotStartGameReason cannotStartGameReason)
     // Offset: 0x1308B78
-    void HandleSetIsStartButtonEnabled(::Il2CppString* userId, GlobalNamespace::CannotStartGameReason cannotStartGameReason);
+    void HandleSetIsStartButtonEnabled(::StringW userId, GlobalNamespace::CannotStartGameReason cannotStartGameReason);
     // private System.Void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(System.String userId, PlayersMissingEntitlementsNetSerializable playersMissingEntitlements)
     // Offset: 0x1308BF0
-    void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::Il2CppString* userId, GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
+    void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::StringW userId, GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
     // private System.Void HandleStartTimeChanged()
     // Offset: 0x1308C64
     void HandleStartTimeChanged();
@@ -1113,7 +1114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerStartedLevel
 // Il2CppName: HandleMenuRpcManagerStartedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerStartedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerStartedLevel)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
@@ -1125,7 +1126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelledLevelStart
 // Il2CppName: HandleMenuRpcManagerCancelledLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelledLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelledLevelStart)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController*), "HandleMenuRpcManagerCancelledLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -1134,7 +1135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetCountdownEndTime
 // Il2CppName: HandleMenuRpcManagerSetCountdownEndTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetCountdownEndTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetCountdownEndTime)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* countdownTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1144,7 +1145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelCountdown
 // Il2CppName: HandleMenuRpcManagerCancelCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerCancelCountdown)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameStateController*), "HandleMenuRpcManagerCancelCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -1153,7 +1154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetStartGameTime
 // Il2CppName: HandleMenuRpcManagerSetStartGameTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetStartGameTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW, float)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetStartGameTime)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1163,7 +1164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleSetIsStartButtonEnabled
 // Il2CppName: HandleSetIsStartButtonEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*, GlobalNamespace::CannotStartGameReason)>(&GlobalNamespace::LobbyGameStateController::HandleSetIsStartButtonEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW, GlobalNamespace::CannotStartGameReason)>(&GlobalNamespace::LobbyGameStateController::HandleSetIsStartButtonEnabled)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cannotStartGameReason = &::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")->byval_arg;
@@ -1173,7 +1174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel
 // Il2CppName: HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::Il2CppString*, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::*)(::StringW, GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(&GlobalNamespace::LobbyGameStateController::HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersMissingEntitlements = &::il2cpp_utils::GetClassFromName("", "PlayersMissingEntitlementsNetSerializable")->byval_arg;

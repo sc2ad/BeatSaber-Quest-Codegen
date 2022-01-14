@@ -9,6 +9,7 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: OVRTracker
 #include "GlobalNamespace/OVRTracker.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
     static OVR::OpenVR::HmdMatrix34_t ConvertToHMDMatrix34(UnityEngine::Matrix4x4 m);
     // static public UnityEngine.Transform FindChildRecursive(UnityEngine.Transform parent, System.String name)
     // Offset: 0x13E5AD0
-    static UnityEngine::Transform* FindChildRecursive(UnityEngine::Transform* parent, ::Il2CppString* name);
+    static UnityEngine::Transform* FindChildRecursive(UnityEngine::Transform* parent, ::StringW name);
     // static public System.Boolean Equals(UnityEngine.Gradient gradient, UnityEngine.Gradient otherGradient)
     // Offset: 0x13E5DF0
     static bool Equals(UnityEngine::Gradient* gradient, UnityEngine::Gradient* otherGradient);
@@ -367,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: GlobalNamespace::OVRExtensions::FindChildRecursive
 // Il2CppName: FindChildRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::OVRExtensions::FindChildRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::StringW)>(&GlobalNamespace::OVRExtensions::FindChildRecursive)> {
   static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

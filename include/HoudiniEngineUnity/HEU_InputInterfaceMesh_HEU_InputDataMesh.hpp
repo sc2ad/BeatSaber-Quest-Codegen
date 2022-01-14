@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -59,15 +60,15 @@ namespace HoudiniEngineUnity {
     // public System.String _meshPath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* meshPath;
+    ::StringW meshPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _meshName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* meshName;
+    ::StringW meshName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _numVertices
     // Size: 0x4
     // Offset: 0x30
@@ -112,9 +113,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Material[] _materials
     ::ArrayW<UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: public System.String _meshPath
-    ::Il2CppString*& dyn__meshPath();
+    ::StringW& dyn__meshPath();
     // Get instance field reference: public System.String _meshName
-    ::Il2CppString*& dyn__meshName();
+    ::StringW& dyn__meshName();
     // Get instance field reference: public System.Int32 _numVertices
     int& dyn__numVertices();
     // Get instance field reference: public System.Int32 _numSubMeshes

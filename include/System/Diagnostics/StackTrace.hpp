@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics
@@ -94,9 +95,9 @@ namespace System::Diagnostics {
     // Set static field: static private System.Boolean isAotidSet
     static void _set_isAotidSet(bool value);
     // Get static field: static private System.String aotid
-    static ::Il2CppString* _get_aotid();
+    static ::StringW _get_aotid();
     // Set static field: static private System.String aotid
-    static void _set_aotid(::Il2CppString* value);
+    static void _set_aotid(::StringW value);
     // Get instance field reference: private System.Diagnostics.StackFrame[] frames
     ::ArrayW<System::Diagnostics::StackFrame*>& dyn_frames();
     // Get instance field reference: private readonly System.Diagnostics.StackTrace[] captured_traces
@@ -145,7 +146,7 @@ namespace System::Diagnostics {
     System::Diagnostics::StackFrame* GetFrame(int index);
     // static private System.String GetAotId()
     // Offset: 0x1D543CC
-    static ::Il2CppString* GetAotId();
+    static ::StringW GetAotId();
     // private System.Boolean AddFrames(System.Text.StringBuilder sb)
     // Offset: 0x1D544A0
     bool AddFrames(System::Text::StringBuilder* sb);
@@ -154,7 +155,7 @@ namespace System::Diagnostics {
     void GetFullNameForStackTrace(System::Text::StringBuilder* sb, System::Reflection::MethodBase* mi);
     // System.String ToString(System.Diagnostics.StackTrace/System.Diagnostics.TraceFormat traceFormat)
     // Offset: 0x1D54E70
-    ::Il2CppString* ToString(System::Diagnostics::StackTrace::TraceFormat traceFormat);
+    ::StringW ToString(System::Diagnostics::StackTrace::TraceFormat traceFormat);
     // public System.Void .ctor()
     // Offset: 0x1D53FFC
     // Implemented from: System.Object
@@ -168,7 +169,7 @@ namespace System::Diagnostics {
     // Offset: 0x1D54D44
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Diagnostics.StackTrace
   #pragma pack(pop)
   static check_size<sizeof(StackTrace), 32 + sizeof(bool)> __System_Diagnostics_StackTraceSizeCheck;
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dia
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetAotId
 // Il2CppName: GetAotId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Diagnostics::StackTrace::GetAotId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Diagnostics::StackTrace::GetAotId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetAotId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)(System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackTrace::*)(System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
   static const MethodInfo* get() {
     static auto* traceFormat = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "StackTrace/TraceFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{traceFormat});
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

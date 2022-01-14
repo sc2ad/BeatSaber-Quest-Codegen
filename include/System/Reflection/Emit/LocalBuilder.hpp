@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.LocalVariableInfo
 #include "System/Reflection/LocalVariableInfo.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection::Emit
@@ -48,9 +49,9 @@ namespace System::Reflection::Emit {
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Reflection.Emit.ILGenerator ilgen
     // Size: 0x8
     // Offset: 0x28
@@ -71,7 +72,7 @@ namespace System::Reflection::Emit {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: System.Reflection.Emit.ILGenerator ilgen
     System::Reflection::Emit::ILGenerator*& dyn_ilgen();
     // Get instance field reference: private System.Int32 startOffset

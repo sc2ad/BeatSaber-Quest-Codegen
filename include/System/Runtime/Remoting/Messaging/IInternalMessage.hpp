@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting
@@ -12,9 +13,6 @@ namespace System::Runtime::Remoting {
   class Identity;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Forward declaring type: IInternalMessage
@@ -39,10 +37,10 @@ namespace System::Runtime::Remoting::Messaging {
     void set_TargetIdentity(System::Runtime::Remoting::Identity* value);
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Uri();
+    ::StringW get_Uri();
     // public System.Void set_Uri(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_Uri(::Il2CppString* value);
+    void set_Uri(::StringW value);
   }; // System.Runtime.Remoting.Messaging.IInternalMessage
   #pragma pack(pop)
 }
@@ -67,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IInternalMessage::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::IInternalMessage::*)()>(&System::Runtime::Remoting::Messaging::IInternalMessage::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::IInternalMessage::*)()>(&System::Runtime::Remoting::Messaging::IInternalMessage::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IInternalMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -75,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IInternalMessage::set_Uri
 // Il2CppName: set_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::IInternalMessage::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::IInternalMessage::set_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::IInternalMessage::*)(::StringW)>(&System::Runtime::Remoting::Messaging::IInternalMessage::set_Uri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IInternalMessage*), "set_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

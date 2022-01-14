@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -121,9 +122,9 @@ namespace GlobalNamespace {
     // private System.String _folder
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* folder;
+    ::StringW folder;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NullAllowed] Offset: 0xF090D0
     // private UnityEngine.Camera _camera
     // Size: 0x8
@@ -237,7 +238,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _folder
-    ::Il2CppString*& dyn__folder();
+    ::StringW& dyn__folder();
     // Get instance field reference: private UnityEngine.Camera _camera
     UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private System.Int32 _frameRate

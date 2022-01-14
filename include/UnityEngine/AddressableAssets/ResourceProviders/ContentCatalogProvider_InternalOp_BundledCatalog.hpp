@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -59,9 +60,9 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // private readonly System.String m_BundlePath
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_BundlePath;
+    ::StringW m_BundlePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_OpInProgress
     // Size: 0x1
     // Offset: 0x18
@@ -102,7 +103,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     static_assert(sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String m_BundlePath
-    ::Il2CppString*& dyn_m_BundlePath();
+    ::StringW& dyn_m_BundlePath();
     // Get instance field reference: private System.Boolean m_OpInProgress
     bool& dyn_m_OpInProgress();
     // Get instance field reference: private UnityEngine.AssetBundleCreateRequest m_LoadBundleRequest
@@ -130,7 +131,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // public System.Void .ctor(System.String bundlePath)
     // Offset: 0x1615488
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContentCatalogProvider::InternalOp::BundledCatalog* New_ctor(::Il2CppString* bundlePath) {
+    static ContentCatalogProvider::InternalOp::BundledCatalog* New_ctor(::StringW bundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp::BundledCatalog*, creationType>(bundlePath)));
     }

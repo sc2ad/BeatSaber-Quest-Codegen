@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,15 +53,15 @@ namespace System::Xml {
     // private System.String res
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* res;
+    ::StringW res;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] args
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayW<::Il2CppString*> args;
+    ::ArrayW<::StringW> args;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Int32 lineNumber
     // Size: 0x4
     // Offset: 0x98
@@ -77,94 +78,94 @@ namespace System::Xml {
     // private System.String sourceUri
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* sourceUri;
+    ::StringW sourceUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String message
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String res
-    ::Il2CppString*& dyn_res();
+    ::StringW& dyn_res();
     // Get instance field reference: private System.String[] args
-    ::ArrayW<::Il2CppString*>& dyn_args();
+    ::ArrayW<::StringW>& dyn_args();
     // Get instance field reference: private System.Int32 lineNumber
     int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 linePosition
     int& dyn_linePosition();
     // Get instance field reference: private System.String sourceUri
-    ::Il2CppString*& dyn_sourceUri();
+    ::StringW& dyn_sourceUri();
     // Get instance field reference: private System.String message
-    ::Il2CppString*& dyn_message();
+    ::StringW& dyn_message();
     // public System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B69170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition) {
+    static XmlException* New_ctor(::StringW message, System::Exception* innerException, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message, innerException, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String message, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
     // Offset: 0x1B69178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* message, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
+    static XmlException* New_ctor(::StringW message, System::Exception* innerException, int lineNumber, int linePosition, ::StringW sourceUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message, innerException, lineNumber, linePosition, sourceUri)));
     }
     // System.Void .ctor(System.String res, System.String[] args)
     // Offset: 0x1B69390
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args) {
+    static XmlException* New_ctor(::StringW res, ::ArrayW<::StringW> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args)));
     }
     // System.Void .ctor(System.String res, System.String arg)
     // Offset: 0x1B60FA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg) {
+    static XmlException* New_ctor(::StringW res, ::StringW arg) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, arg)));
     }
     // System.Void .ctor(System.String res, System.String arg, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B64C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::Il2CppString* arg, int lineNumber, int linePosition) {
+    static XmlException* New_ctor(::StringW res, ::StringW arg, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, arg, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B64D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, int lineNumber, int linePosition) {
+    static XmlException* New_ctor(::StringW res, ::ArrayW<::StringW> args, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
     // Offset: 0x1B693F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
+    static XmlException* New_ctor(::StringW res, ::ArrayW<::StringW> args, System::Exception* innerException, int lineNumber, int linePosition, ::StringW sourceUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, innerException, lineNumber, linePosition, sourceUri)));
     }
     // static private System.String FormatUserMessage(System.String message, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B692A0
-    static ::Il2CppString* FormatUserMessage(::Il2CppString* message, int lineNumber, int linePosition);
+    static ::StringW FormatUserMessage(::StringW message, int lineNumber, int linePosition);
     // static private System.String CreateMessage(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B68D80
-    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, int lineNumber, int linePosition);
+    static ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW> args, int lineNumber, int linePosition);
     // static System.String[] BuildCharExceptionArgs(System.String data, System.Int32 invCharIndex)
     // Offset: 0x1B64840
-    static ::ArrayW<::Il2CppString*> BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
+    static ::ArrayW<::StringW> BuildCharExceptionArgs(::StringW data, int invCharIndex);
     // static System.String[] BuildCharExceptionArgs(System.Char invChar, System.Char nextChar)
     // Offset: 0x1B6530C
-    static ::ArrayW<::Il2CppString*> BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
+    static ::ArrayW<::StringW> BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // public override System.String get_Message()
     // Offset: 0x1B69484
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1B68A68
     // Implemented from: System.SystemException
@@ -192,7 +193,7 @@ namespace System::Xml {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* message) {
+    static XmlException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(message)));
     }
@@ -203,7 +204,7 @@ namespace System::Xml {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Xml.XmlException
   #pragma pack(pop)
-  static check_size<sizeof(XmlException), 168 + sizeof(::Il2CppString*)> __System_Xml_XmlExceptionSizeCheck;
+  static check_size<sizeof(XmlException), 168 + sizeof(::StringW)> __System_Xml_XmlExceptionSizeCheck;
   static_assert(sizeof(XmlException) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -238,7 +239,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::XmlException::FormatUserMessage
 // Il2CppName: FormatUserMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&System::Xml::XmlException::FormatUserMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, int)>(&System::Xml::XmlException::FormatUserMessage)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* lineNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -249,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::CreateMessage
 // Il2CppName: CreateMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, int, int)>(&System::Xml::XmlException::CreateMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::StringW>, int, int)>(&System::Xml::XmlException::CreateMessage)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::StringW, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* invCharIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -271,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -281,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Xml::XmlException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlException::*)()>(&System::Xml::XmlException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::XmlException::*)()>(&System::Xml::XmlException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

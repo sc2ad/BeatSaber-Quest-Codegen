@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Forward declaring type: ScoreData
@@ -32,9 +30,9 @@ namespace NetEase::Docker {
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2E9CC
     // private System.Int32 <Score>k__BackingField
     // Size: 0x4
@@ -53,23 +51,23 @@ namespace NetEase::Docker {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Creating value type constructor for type: ScoreData
-    constexpr ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) noexcept : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
+    constexpr ScoreData(::StringW Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) noexcept : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Int32 <Score>k__BackingField
     int& dyn_$Score$k__BackingField();
     // Get instance field reference: private System.Int64 <TimeStamp>k__BackingField
     int64_t& dyn_$TimeStamp$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x26CAB1C
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void set_Name(System.String value)
     // Offset: 0x26CAB24
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Int32 get_Score()
     // Offset: 0x26CAB2C
     int get_Score();
@@ -88,7 +86,7 @@ namespace NetEase::Docker {
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEase::Docker::ScoreData::*)()>(&NetEase::Docker::ScoreData::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NetEase::Docker::ScoreData::*)()>(&NetEase::Docker::ScoreData::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -96,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ScoreData::*)(::Il2CppString*)>(&NetEase::Docker::ScoreData::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ScoreData::*)(::StringW)>(&NetEase::Docker::ScoreData::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

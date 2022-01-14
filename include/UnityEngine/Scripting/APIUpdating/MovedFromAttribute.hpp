@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Scripting.APIUpdating
 namespace UnityEngine::Scripting::APIUpdating {
@@ -56,14 +57,14 @@ namespace UnityEngine::Scripting::APIUpdating {
     // public System.Void .ctor(System.Boolean autoUpdateAPI, System.String sourceNamespace, System.String sourceAssembly, System.String sourceClassName)
     // Offset: 0x1DFE880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::Il2CppString* sourceNamespace, ::Il2CppString* sourceAssembly, ::Il2CppString* sourceClassName) {
+    static MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::APIUpdating::MovedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovedFromAttribute*, creationType>(autoUpdateAPI, sourceNamespace, sourceAssembly, sourceClassName)));
     }
     // public System.Void .ctor(System.String sourceNamespace)
     // Offset: 0x1DFE930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MovedFromAttribute* New_ctor(::Il2CppString* sourceNamespace) {
+    static MovedFromAttribute* New_ctor(::StringW sourceNamespace) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::APIUpdating::MovedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovedFromAttribute*, creationType>(sourceNamespace)));
     }

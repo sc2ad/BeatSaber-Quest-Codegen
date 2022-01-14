@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -48,9 +49,9 @@ namespace System::Text {
     // private System.String strDefault
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* strDefault;
+    ::StringW strDefault;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 fallbackCount
     // Size: 0x4
     // Offset: 0x28
@@ -65,7 +66,7 @@ namespace System::Text {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String strDefault
-    ::Il2CppString*& dyn_strDefault();
+    ::StringW& dyn_strDefault();
     // Get instance field reference: private System.Int32 fallbackCount
     int& dyn_fallbackCount();
     // Get instance field reference: private System.Int32 fallbackIndex

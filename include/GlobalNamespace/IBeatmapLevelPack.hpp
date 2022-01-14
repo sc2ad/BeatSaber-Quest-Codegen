@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IAnnotatedBeatmapLevelCollection
 #include "GlobalNamespace/IAnnotatedBeatmapLevelCollection.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IBeatmapLevelPack
@@ -32,13 +30,13 @@ namespace GlobalNamespace {
     }
     // public System.String get_packID()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packID();
+    ::StringW get_packID();
     // public System.String get_packName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_packName();
+    ::StringW get_packName();
     // public System.String get_shortPackName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_shortPackName();
+    ::StringW get_shortPackName();
   }; // IBeatmapLevelPack
   #pragma pack(pop)
 }
@@ -46,7 +44,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevelPack::get_packID
 // Il2CppName: get_packID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_packID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_packID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapLevelPack*), "get_packID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -54,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevelPack::get_packName
 // Il2CppName: get_packName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_packName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_packName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapLevelPack*), "get_packName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -62,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevelPack::get_shortPackName
 // Il2CppName: get_shortPackName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_shortPackName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IBeatmapLevelPack::*)()>(&GlobalNamespace::IBeatmapLevelPack::get_shortPackName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapLevelPack*), "get_shortPackName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

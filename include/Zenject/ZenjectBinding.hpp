@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -121,9 +122,9 @@ namespace Zenject {
     // private System.String _identifier
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* identifier;
+    ::StringW identifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TooltipAttribute] Offset: 0xF03810
     // private System.Boolean _useSceneContext
     // Size: 0x1
@@ -161,7 +162,7 @@ namespace Zenject {
     // Get instance field reference: private UnityEngine.Component[] _components
     ::ArrayW<UnityEngine::Component*>& dyn__components();
     // Get instance field reference: private System.String _identifier
-    ::Il2CppString*& dyn__identifier();
+    ::StringW& dyn__identifier();
     // Get instance field reference: private System.Boolean _useSceneContext
     bool& dyn__useSceneContext();
     // Get instance field reference: private System.Boolean _ifNotBound
@@ -187,7 +188,7 @@ namespace Zenject {
     ::ArrayW<UnityEngine::Component*> get_Components();
     // public System.String get_Identifier()
     // Offset: 0x219C674
-    ::Il2CppString* get_Identifier();
+    ::StringW get_Identifier();
     // public Zenject.ZenjectBinding/Zenject.BindTypes get_BindType()
     // Offset: 0x219C67C
     Zenject::ZenjectBinding::BindTypes get_BindType();
@@ -262,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: Zenject::ZenjectBinding::get_Identifier
 // Il2CppName: get_Identifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::ZenjectBinding::*)()>(&Zenject::ZenjectBinding::get_Identifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::ZenjectBinding::*)()>(&Zenject::ZenjectBinding::get_Identifier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectBinding*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

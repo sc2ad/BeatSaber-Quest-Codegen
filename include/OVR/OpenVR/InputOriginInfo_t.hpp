@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Forward declaring type: InputOriginInfo_t
@@ -1077,7 +1075,7 @@ namespace OVR::OpenVR {
     uint8_t& dyn_rchRenderModelComponentName127();
     // public System.String get_rchRenderModelComponentName()
     // Offset: 0x13D6FC4
-    ::Il2CppString* get_rchRenderModelComponentName();
+    ::StringW get_rchRenderModelComponentName();
   }; // OVR.OpenVR.InputOriginInfo_t
   #pragma pack(pop)
   static check_size<sizeof(InputOriginInfo_t), 139 + sizeof(uint8_t)> __OVR_OpenVR_InputOriginInfo_tSizeCheck;
@@ -1087,7 +1085,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName
 // Il2CppName: get_rchRenderModelComponentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::InputOriginInfo_t::*)()>(&OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::InputOriginInfo_t::*)()>(&OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::InputOriginInfo_t), "get_rchRenderModelComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

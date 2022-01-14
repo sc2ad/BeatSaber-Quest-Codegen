@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner
@@ -70,24 +71,24 @@ namespace UnityEngine::TestTools::TestRunner {
     // public System.String originalScene
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* originalScene;
+    ::StringW originalScene;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String bootstrapScene
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* bootstrapScene;
+    ::StringW bootstrapScene;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     ::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
     // Get instance field reference: public System.Boolean sceneBased
     bool& dyn_sceneBased();
     // Get instance field reference: public System.String originalScene
-    ::Il2CppString*& dyn_originalScene();
+    ::StringW& dyn_originalScene();
     // Get instance field reference: public System.String bootstrapScene
-    ::Il2CppString*& dyn_bootstrapScene();
+    ::StringW& dyn_bootstrapScene();
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
     // Offset: 0x16D6C48
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
@@ -102,7 +103,7 @@ namespace UnityEngine::TestTools::TestRunner {
     }
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings
   #pragma pack(pop)
-  static check_size<sizeof(PlaymodeTestsControllerSettings), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSettingsSizeCheck;
+  static check_size<sizeof(PlaymodeTestsControllerSettings), 40 + sizeof(::StringW)> __UnityEngine_TestTools_TestRunner_PlaymodeTestsControllerSettingsSizeCheck;
   static_assert(sizeof(PlaymodeTestsControllerSettings) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

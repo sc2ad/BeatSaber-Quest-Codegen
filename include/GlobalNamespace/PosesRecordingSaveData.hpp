@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // public System.String[] objectIds
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> objectIds;
+    ::ArrayW<::StringW> objectIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes
     // Size: 0x8
     // Offset: 0x18
@@ -59,13 +60,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>) == 0x8);
     public:
     // Get instance field reference: public System.String[] objectIds
-    ::ArrayW<::Il2CppString*>& dyn_objectIds();
+    ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes
     ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>& dyn_keyframes();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes)
     // Offset: 0x11AE49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingSaveData* New_ctor(::ArrayW<::Il2CppString*> objectIds, ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes) {
+    static PosesRecordingSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData*, creationType>(objectIds, keyframes)));
     }

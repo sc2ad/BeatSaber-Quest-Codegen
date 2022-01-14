@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -235,51 +236,51 @@ namespace System::Collections {
     // static field const value: static private System.String LoadFactorName
     static constexpr const char* LoadFactorName = "LoadFactor";
     // Get static field: static private System.String LoadFactorName
-    static ::Il2CppString* _get_LoadFactorName();
+    static ::StringW _get_LoadFactorName();
     // Set static field: static private System.String LoadFactorName
-    static void _set_LoadFactorName(::Il2CppString* value);
+    static void _set_LoadFactorName(::StringW value);
     // static field const value: static private System.String VersionName
     static constexpr const char* VersionName = "Version";
     // Get static field: static private System.String VersionName
-    static ::Il2CppString* _get_VersionName();
+    static ::StringW _get_VersionName();
     // Set static field: static private System.String VersionName
-    static void _set_VersionName(::Il2CppString* value);
+    static void _set_VersionName(::StringW value);
     // static field const value: static private System.String ComparerName
     static constexpr const char* ComparerName = "Comparer";
     // Get static field: static private System.String ComparerName
-    static ::Il2CppString* _get_ComparerName();
+    static ::StringW _get_ComparerName();
     // Set static field: static private System.String ComparerName
-    static void _set_ComparerName(::Il2CppString* value);
+    static void _set_ComparerName(::StringW value);
     // static field const value: static private System.String HashCodeProviderName
     static constexpr const char* HashCodeProviderName = "HashCodeProvider";
     // Get static field: static private System.String HashCodeProviderName
-    static ::Il2CppString* _get_HashCodeProviderName();
+    static ::StringW _get_HashCodeProviderName();
     // Set static field: static private System.String HashCodeProviderName
-    static void _set_HashCodeProviderName(::Il2CppString* value);
+    static void _set_HashCodeProviderName(::StringW value);
     // static field const value: static private System.String HashSizeName
     static constexpr const char* HashSizeName = "HashSize";
     // Get static field: static private System.String HashSizeName
-    static ::Il2CppString* _get_HashSizeName();
+    static ::StringW _get_HashSizeName();
     // Set static field: static private System.String HashSizeName
-    static void _set_HashSizeName(::Il2CppString* value);
+    static void _set_HashSizeName(::StringW value);
     // static field const value: static private System.String KeysName
     static constexpr const char* KeysName = "Keys";
     // Get static field: static private System.String KeysName
-    static ::Il2CppString* _get_KeysName();
+    static ::StringW _get_KeysName();
     // Set static field: static private System.String KeysName
-    static void _set_KeysName(::Il2CppString* value);
+    static void _set_KeysName(::StringW value);
     // static field const value: static private System.String ValuesName
     static constexpr const char* ValuesName = "Values";
     // Get static field: static private System.String ValuesName
-    static ::Il2CppString* _get_ValuesName();
+    static ::StringW _get_ValuesName();
     // Set static field: static private System.String ValuesName
-    static void _set_ValuesName(::Il2CppString* value);
+    static void _set_ValuesName(::StringW value);
     // static field const value: static private System.String KeyComparerName
     static constexpr const char* KeyComparerName = "KeyComparer";
     // Get static field: static private System.String KeyComparerName
-    static ::Il2CppString* _get_KeyComparerName();
+    static ::StringW _get_KeyComparerName();
     // Set static field: static private System.String KeyComparerName
-    static void _set_KeyComparerName(::Il2CppString* value);
+    static void _set_KeyComparerName(::StringW value);
     // Get instance field reference: private System.Collections.Hashtable/System.Collections.bucket[] buckets
     ::ArrayW<System::Collections::Hashtable::bucket>& dyn_buckets();
     // Get instance field reference: private System.Int32 count

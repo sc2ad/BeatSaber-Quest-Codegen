@@ -50,8 +50,8 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private readonly System.Byte alertDescription
     uint8_t& dyn_alertDescription();
     // public System.Void .ctor(System.Byte alertDescription)

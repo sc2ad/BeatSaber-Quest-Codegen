@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -61,7 +62,7 @@ namespace System::Net::Http::Headers {
     System::Nullable_1<bool>& dyn_expectContinue();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
     // Offset: 0x17C19F8
-    System::Net::Http::Headers::HttpHeaderValueCollection_1<::Il2CppString*>* get_Connection();
+    System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
     // Offset: 0x17C1A54
     System::Nullable_1<bool> get_ConnectionClose();
@@ -73,7 +74,7 @@ namespace System::Net::Http::Headers {
     System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
     // Offset: 0x17C1E68
-    ::Il2CppString* get_Host();
+    ::StringW get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
     // Offset: 0x17C1E0C
     System::Net::Http::Headers::HttpHeaderValueCollection_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
@@ -100,7 +101,7 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::get_Connection
 // Il2CppName: get_Connection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpHeaderValueCollection_1<::Il2CppString*>* (System::Net::Http::Headers::HttpRequestHeaders::*)()>(&System::Net::Http::Headers::HttpRequestHeaders::get_Connection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* (System::Net::Http::Headers::HttpRequestHeaders::*)()>(&System::Net::Http::Headers::HttpRequestHeaders::get_Connection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders*), "get_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::get_Host
 // Il2CppName: get_Host
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::HttpRequestHeaders::*)()>(&System::Net::Http::Headers::HttpRequestHeaders::get_Host)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::HttpRequestHeaders::*)()>(&System::Net::Http::Headers::HttpRequestHeaders::get_Host)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

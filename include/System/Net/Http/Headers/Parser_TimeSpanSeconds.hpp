@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,7 +29,7 @@ namespace System::Net::Http::Headers {
     public:
     // static public System.Boolean TryParse(System.String input, out System.TimeSpan result)
     // Offset: 0x17C4B60
-    static bool TryParse(::Il2CppString* input, ByRef<System::TimeSpan> result);
+    static bool TryParse(::StringW input, ByRef<System::TimeSpan> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.TimeSpanSeconds
   #pragma pack(pop)
 }
@@ -36,7 +37,7 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::TimeSpan>)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::TimeSpan>)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->this_arg;

@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -319,16 +320,16 @@ namespace UnityEngine {
     void set_keepAnimatorControllerStateOnDisable(bool value);
     // public System.Single GetFloat(System.String name)
     // Offset: 0x263741C
-    float GetFloat(::Il2CppString* name);
+    float GetFloat(::StringW name);
     // public System.Single GetFloat(System.Int32 id)
     // Offset: 0x26374BC
     float GetFloat(int id);
     // public System.Void SetFloat(System.String name, System.Single value)
     // Offset: 0x263755C
-    void SetFloat(::Il2CppString* name, float value);
+    void SetFloat(::StringW name, float value);
     // public System.Void SetFloat(System.String name, System.Single value, System.Single dampTime, System.Single deltaTime)
     // Offset: 0x263761C
-    void SetFloat(::Il2CppString* name, float value, float dampTime, float deltaTime);
+    void SetFloat(::StringW name, float value, float dampTime, float deltaTime);
     // public System.Void SetFloat(System.Int32 id, System.Single value)
     // Offset: 0x263770C
     void SetFloat(int id, float value);
@@ -337,43 +338,43 @@ namespace UnityEngine {
     void SetFloat(int id, float value, float dampTime, float deltaTime);
     // public System.Boolean GetBool(System.String name)
     // Offset: 0x26378BC
-    bool GetBool(::Il2CppString* name);
+    bool GetBool(::StringW name);
     // public System.Boolean GetBool(System.Int32 id)
     // Offset: 0x263795C
     bool GetBool(int id);
     // public System.Void SetBool(System.String name, System.Boolean value)
     // Offset: 0x26379FC
-    void SetBool(::Il2CppString* name, bool value);
+    void SetBool(::StringW name, bool value);
     // public System.Void SetBool(System.Int32 id, System.Boolean value)
     // Offset: 0x2637AAC
     void SetBool(int id, bool value);
     // public System.Int32 GetInteger(System.String name)
     // Offset: 0x2637B5C
-    int GetInteger(::Il2CppString* name);
+    int GetInteger(::StringW name);
     // public System.Int32 GetInteger(System.Int32 id)
     // Offset: 0x2637BFC
     int GetInteger(int id);
     // public System.Void SetInteger(System.String name, System.Int32 value)
     // Offset: 0x2637C9C
-    void SetInteger(::Il2CppString* name, int value);
+    void SetInteger(::StringW name, int value);
     // public System.Void SetInteger(System.Int32 id, System.Int32 value)
     // Offset: 0x2637D4C
     void SetInteger(int id, int value);
     // public System.Void SetTrigger(System.String name)
     // Offset: 0x2637DFC
-    void SetTrigger(::Il2CppString* name);
+    void SetTrigger(::StringW name);
     // public System.Void SetTrigger(System.Int32 id)
     // Offset: 0x2637E9C
     void SetTrigger(int id);
     // public System.Void ResetTrigger(System.String name)
     // Offset: 0x2637F3C
-    void ResetTrigger(::Il2CppString* name);
+    void ResetTrigger(::StringW name);
     // public System.Void ResetTrigger(System.Int32 id)
     // Offset: 0x2637FDC
     void ResetTrigger(int id);
     // public System.Boolean IsParameterControlledByCurve(System.String name)
     // Offset: 0x263807C
-    bool IsParameterControlledByCurve(::Il2CppString* name);
+    bool IsParameterControlledByCurve(::StringW name);
     // public System.Boolean IsParameterControlledByCurve(System.Int32 id)
     // Offset: 0x263811C
     bool IsParameterControlledByCurve(int id);
@@ -523,10 +524,10 @@ namespace UnityEngine {
     ::ArrayW<UnityEngine::ScriptableObject*> InternalGetBehavioursByKey(int fullPathHash, int layerIndex, System::Type* type);
     // public System.String GetLayerName(System.Int32 layerIndex)
     // Offset: 0x263A12C
-    ::Il2CppString* GetLayerName(int layerIndex);
+    ::StringW GetLayerName(int layerIndex);
     // public System.Int32 GetLayerIndex(System.String layerName)
     // Offset: 0x263A17C
-    int GetLayerIndex(::Il2CppString* layerName);
+    int GetLayerIndex(::StringW layerName);
     // public System.Single GetLayerWeight(System.Int32 layerIndex)
     // Offset: 0x263A1CC
     float GetLayerWeight(int layerIndex);
@@ -601,16 +602,16 @@ namespace UnityEngine {
     void ForceStateNormalizedTime(float normalizedTime);
     // public System.Void CrossFadeInFixedTime(System.String stateName, System.Single fixedTransitionDuration)
     // Offset: 0x263AFD8
-    void CrossFadeInFixedTime(::Il2CppString* stateName, float fixedTransitionDuration);
+    void CrossFadeInFixedTime(::StringW stateName, float fixedTransitionDuration);
     // public System.Void CrossFadeInFixedTime(System.String stateName, System.Single fixedTransitionDuration, System.Int32 layer)
     // Offset: 0x263B130
-    void CrossFadeInFixedTime(::Il2CppString* stateName, float fixedTransitionDuration, int layer);
+    void CrossFadeInFixedTime(::StringW stateName, float fixedTransitionDuration, int layer);
     // public System.Void CrossFadeInFixedTime(System.String stateName, System.Single fixedTransitionDuration, System.Int32 layer, System.Single fixedTimeOffset)
     // Offset: 0x263B1CC
-    void CrossFadeInFixedTime(::Il2CppString* stateName, float fixedTransitionDuration, int layer, float fixedTimeOffset);
+    void CrossFadeInFixedTime(::StringW stateName, float fixedTransitionDuration, int layer, float fixedTimeOffset);
     // public System.Void CrossFadeInFixedTime(System.String stateName, System.Single fixedTransitionDuration, System.Int32 layer, System.Single fixedTimeOffset, System.Single normalizedTransitionTime)
     // Offset: 0x263B26C
-    void CrossFadeInFixedTime(::Il2CppString* stateName, float fixedTransitionDuration, int layer, float fixedTimeOffset, float normalizedTransitionTime);
+    void CrossFadeInFixedTime(::StringW stateName, float fixedTransitionDuration, int layer, float fixedTimeOffset, float normalizedTransitionTime);
     // public System.Void CrossFadeInFixedTime(System.Int32 stateHashName, System.Single fixedTransitionDuration, System.Int32 layer, System.Single fixedTimeOffset)
     // Offset: 0x263B318
     void CrossFadeInFixedTime(int stateHashName, float fixedTransitionDuration, int layer, float fixedTimeOffset);
@@ -628,16 +629,16 @@ namespace UnityEngine {
     void WriteDefaultValues();
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset)
     // Offset: 0x263B4A8
-    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
+    void CrossFade(::StringW stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer)
     // Offset: 0x263B55C
-    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer);
+    void CrossFade(::StringW stateName, float normalizedTransitionDuration, int layer);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration)
     // Offset: 0x263B56C
-    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration);
+    void CrossFade(::StringW stateName, float normalizedTransitionDuration);
     // public System.Void CrossFade(System.String stateName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
     // Offset: 0x263B4B0
-    void CrossFade(::Il2CppString* stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
+    void CrossFade(::StringW stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
     // public System.Void CrossFade(System.Int32 stateHashName, System.Single normalizedTransitionDuration, System.Int32 layer, System.Single normalizedTimeOffset, System.Single normalizedTransitionTime)
     // Offset: 0x263B580
     void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime);
@@ -652,13 +653,13 @@ namespace UnityEngine {
     void CrossFade(int stateHashName, float normalizedTransitionDuration);
     // public System.Void PlayInFixedTime(System.String stateName, System.Int32 layer)
     // Offset: 0x263B758
-    void PlayInFixedTime(::Il2CppString* stateName, int layer);
+    void PlayInFixedTime(::StringW stateName, int layer);
     // public System.Void PlayInFixedTime(System.String stateName)
     // Offset: 0x263B7F8
-    void PlayInFixedTime(::Il2CppString* stateName);
+    void PlayInFixedTime(::StringW stateName);
     // public System.Void PlayInFixedTime(System.String stateName, System.Int32 layer, System.Single fixedTime)
     // Offset: 0x263B764
-    void PlayInFixedTime(::Il2CppString* stateName, int layer, float fixedTime);
+    void PlayInFixedTime(::StringW stateName, int layer, float fixedTime);
     // public System.Void PlayInFixedTime(System.Int32 stateNameHash, System.Int32 layer, System.Single fixedTime)
     // Offset: 0x263B808
     void PlayInFixedTime(int stateNameHash, int layer, float fixedTime);
@@ -670,13 +671,13 @@ namespace UnityEngine {
     void PlayInFixedTime(int stateNameHash);
     // public System.Void Play(System.String stateName, System.Int32 layer)
     // Offset: 0x263B92C
-    void Play(::Il2CppString* stateName, int layer);
+    void Play(::StringW stateName, int layer);
     // public System.Void Play(System.String stateName)
     // Offset: 0x263B9CC
-    void Play(::Il2CppString* stateName);
+    void Play(::StringW stateName);
     // public System.Void Play(System.String stateName, System.Int32 layer, System.Single normalizedTime)
     // Offset: 0x263B938
-    void Play(::Il2CppString* stateName, int layer, float normalizedTime);
+    void Play(::StringW stateName, int layer, float normalizedTime);
     // public System.Void Play(System.Int32 stateNameHash, System.Int32 layer, System.Single normalizedTime)
     // Offset: 0x263AF70
     void Play(int stateNameHash, int layer, float normalizedTime);
@@ -727,10 +728,10 @@ namespace UnityEngine {
     bool HasState(int layerIndex, int stateID);
     // static public System.Int32 StringToHash(System.String name)
     // Offset: 0x263B070
-    static int StringToHash(::Il2CppString* name);
+    static int StringToHash(::StringW name);
     // System.String GetStats()
     // Offset: 0x263C3C8
-    ::Il2CppString* GetStats();
+    ::StringW GetStats();
     // private System.Void GetCurrentGraph(ref UnityEngine.Playables.PlayableGraph graph)
     // Offset: 0x263C460
     void GetCurrentGraph(ByRef<UnityEngine::Playables::PlayableGraph> graph);
@@ -742,61 +743,61 @@ namespace UnityEngine {
     bool IsInIKPass();
     // private System.Void SetFloatString(System.String name, System.Single value)
     // Offset: 0x26375BC
-    void SetFloatString(::Il2CppString* name, float value);
+    void SetFloatString(::StringW name, float value);
     // private System.Void SetFloatID(System.Int32 id, System.Single value)
     // Offset: 0x263776C
     void SetFloatID(int id, float value);
     // private System.Single GetFloatString(System.String name)
     // Offset: 0x263746C
-    float GetFloatString(::Il2CppString* name);
+    float GetFloatString(::StringW name);
     // private System.Single GetFloatID(System.Int32 id)
     // Offset: 0x263750C
     float GetFloatID(int id);
     // private System.Void SetBoolString(System.String name, System.Boolean value)
     // Offset: 0x2637A54
-    void SetBoolString(::Il2CppString* name, bool value);
+    void SetBoolString(::StringW name, bool value);
     // private System.Void SetBoolID(System.Int32 id, System.Boolean value)
     // Offset: 0x2637B04
     void SetBoolID(int id, bool value);
     // private System.Boolean GetBoolString(System.String name)
     // Offset: 0x263790C
-    bool GetBoolString(::Il2CppString* name);
+    bool GetBoolString(::StringW name);
     // private System.Boolean GetBoolID(System.Int32 id)
     // Offset: 0x26379AC
     bool GetBoolID(int id);
     // private System.Void SetIntegerString(System.String name, System.Int32 value)
     // Offset: 0x2637CF4
-    void SetIntegerString(::Il2CppString* name, int value);
+    void SetIntegerString(::StringW name, int value);
     // private System.Void SetIntegerID(System.Int32 id, System.Int32 value)
     // Offset: 0x2637DA4
     void SetIntegerID(int id, int value);
     // private System.Int32 GetIntegerString(System.String name)
     // Offset: 0x2637BAC
-    int GetIntegerString(::Il2CppString* name);
+    int GetIntegerString(::StringW name);
     // private System.Int32 GetIntegerID(System.Int32 id)
     // Offset: 0x2637C4C
     int GetIntegerID(int id);
     // private System.Void SetTriggerString(System.String name)
     // Offset: 0x2637E4C
-    void SetTriggerString(::Il2CppString* name);
+    void SetTriggerString(::StringW name);
     // private System.Void SetTriggerID(System.Int32 id)
     // Offset: 0x2637EEC
     void SetTriggerID(int id);
     // private System.Void ResetTriggerString(System.String name)
     // Offset: 0x2637F8C
-    void ResetTriggerString(::Il2CppString* name);
+    void ResetTriggerString(::StringW name);
     // private System.Void ResetTriggerID(System.Int32 id)
     // Offset: 0x263802C
     void ResetTriggerID(int id);
     // private System.Boolean IsParameterControlledByCurveString(System.String name)
     // Offset: 0x26380CC
-    bool IsParameterControlledByCurveString(::Il2CppString* name);
+    bool IsParameterControlledByCurveString(::StringW name);
     // private System.Boolean IsParameterControlledByCurveID(System.Int32 id)
     // Offset: 0x263816C
     bool IsParameterControlledByCurveID(int id);
     // private System.Void SetFloatStringDamp(System.String name, System.Single value, System.Single dampTime, System.Single deltaTime)
     // Offset: 0x2637694
-    void SetFloatStringDamp(::Il2CppString* name, float value, float dampTime, float deltaTime);
+    void SetFloatStringDamp(::StringW name, float value, float dampTime, float deltaTime);
     // private System.Void SetFloatIDDamp(System.Int32 id, System.Single value, System.Single dampTime, System.Single deltaTime)
     // Offset: 0x2637844
     void SetFloatIDDamp(int id, float value, float dampTime, float deltaTime);
@@ -829,37 +830,37 @@ namespace UnityEngine {
     void EvaluateController(float deltaTime);
     // System.String GetCurrentStateName(System.Int32 layerIndex)
     // Offset: 0x263C8F8
-    ::Il2CppString* GetCurrentStateName(int layerIndex);
+    ::StringW GetCurrentStateName(int layerIndex);
     // System.String GetNextStateName(System.Int32 layerIndex)
     // Offset: 0x263C9A4
-    ::Il2CppString* GetNextStateName(int layerIndex);
+    ::StringW GetNextStateName(int layerIndex);
     // private System.String GetAnimatorStateName(System.Int32 layerIndex, System.Boolean current)
     // Offset: 0x263C94C
-    ::Il2CppString* GetAnimatorStateName(int layerIndex, bool current);
+    ::StringW GetAnimatorStateName(int layerIndex, bool current);
     // System.String ResolveHash(System.Int32 hash)
     // Offset: 0x263C9F8
-    ::Il2CppString* ResolveHash(int hash);
+    ::StringW ResolveHash(int hash);
     // public UnityEngine.Vector3 GetVector(System.String name)
     // Offset: 0x263CBB8
-    UnityEngine::Vector3 GetVector(::Il2CppString* name);
+    UnityEngine::Vector3 GetVector(::StringW name);
     // public UnityEngine.Vector3 GetVector(System.Int32 id)
     // Offset: 0x263CC18
     UnityEngine::Vector3 GetVector(int id);
     // public System.Void SetVector(System.String name, UnityEngine.Vector3 value)
     // Offset: 0x263CC78
-    void SetVector(::Il2CppString* name, UnityEngine::Vector3 value);
+    void SetVector(::StringW name, UnityEngine::Vector3 value);
     // public System.Void SetVector(System.Int32 id, UnityEngine.Vector3 value)
     // Offset: 0x263CC7C
     void SetVector(int id, UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion GetQuaternion(System.String name)
     // Offset: 0x263CC80
-    UnityEngine::Quaternion GetQuaternion(::Il2CppString* name);
+    UnityEngine::Quaternion GetQuaternion(::StringW name);
     // public UnityEngine.Quaternion GetQuaternion(System.Int32 id)
     // Offset: 0x263CCE0
     UnityEngine::Quaternion GetQuaternion(int id);
     // public System.Void SetQuaternion(System.String name, UnityEngine.Quaternion value)
     // Offset: 0x263CD40
-    void SetQuaternion(::Il2CppString* name, UnityEngine::Quaternion value);
+    void SetQuaternion(::StringW name, UnityEngine::Quaternion value);
     // public System.Void SetQuaternion(System.Int32 id, UnityEngine.Quaternion value)
     // Offset: 0x263CD44
     void SetQuaternion(int id, UnityEngine::Quaternion value);
@@ -1578,7 +1579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetFloat)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1596,7 +1597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float)>(&UnityEngine::Animator::SetFloat)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1606,7 +1607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, float, float)>(&UnityEngine::Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, float, float)>(&UnityEngine::Animator::SetFloat)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1640,7 +1641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetBool)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1658,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, bool)>(&UnityEngine::Animator::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, bool)>(&UnityEngine::Animator::SetBool)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1678,7 +1679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetInteger
 // Il2CppName: GetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetInteger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1696,7 +1697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::SetInteger
 // Il2CppName: SetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::SetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int)>(&UnityEngine::Animator::SetInteger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1716,7 +1717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetTrigger
 // Il2CppName: SetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::SetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::SetTrigger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1734,7 +1735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::ResetTrigger
 // Il2CppName: ResetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::ResetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::ResetTrigger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1752,7 +1753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurve
 // Il2CppName: IsParameterControlledByCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::IsParameterControlledByCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::IsParameterControlledByCurve)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2152,7 +2153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Animator::GetLayerName
 // Il2CppName: GetLayerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetLayerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetLayerName)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetLayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2161,7 +2162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Animator::GetLayerIndex
 // Il2CppName: GetLayerIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetLayerIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetLayerIndex)> {
   static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetLayerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName});
@@ -2415,7 +2416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fixedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2425,7 +2426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fixedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2436,7 +2437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fixedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2448,7 +2449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int, float, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fixedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2515,7 +2516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float)>(&UnityEngine::Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int, float)>(&UnityEngine::Animator::CrossFade)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* normalizedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2527,7 +2528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int)>(&UnityEngine::Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int)>(&UnityEngine::Animator::CrossFade)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* normalizedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2538,7 +2539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float)>(&UnityEngine::Animator::CrossFade)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* normalizedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2548,7 +2549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float, float)>(&UnityEngine::Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, int, float, float)>(&UnityEngine::Animator::CrossFade)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* normalizedTransitionDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2607,7 +2608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int)>(&UnityEngine::Animator::PlayInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2617,7 +2618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::PlayInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateName});
@@ -2626,7 +2627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int, float)>(&UnityEngine::Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int, float)>(&UnityEngine::Animator::PlayInFixedTime)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2667,7 +2668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int)>(&UnityEngine::Animator::Play)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2677,7 +2678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::Play)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateName});
@@ -2686,7 +2687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int, float)>(&UnityEngine::Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int, float)>(&UnityEngine::Animator::Play)> {
   static const MethodInfo* get() {
     static auto* stateName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2840,7 +2841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::StringToHash
 // Il2CppName: StringToHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::Animator::StringToHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&UnityEngine::Animator::StringToHash)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StringToHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2849,7 +2850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: UnityEngine::Animator::GetStats
 // Il2CppName: GetStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::GetStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)()>(&UnityEngine::Animator::GetStats)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2882,7 +2883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetFloatString
 // Il2CppName: SetFloatString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::SetFloatString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float)>(&UnityEngine::Animator::SetFloatString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2902,7 +2903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetFloatString
 // Il2CppName: GetFloatString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetFloatString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetFloatString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2920,7 +2921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::SetBoolString
 // Il2CppName: SetBoolString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, bool)>(&UnityEngine::Animator::SetBoolString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, bool)>(&UnityEngine::Animator::SetBoolString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2940,7 +2941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBoolString
 // Il2CppName: GetBoolString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetBoolString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetBoolString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoolString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2958,7 +2959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIntegerString
 // Il2CppName: SetIntegerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::SetIntegerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, int)>(&UnityEngine::Animator::SetIntegerString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2978,7 +2979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIntegerString
 // Il2CppName: GetIntegerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetIntegerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetIntegerString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2996,7 +2997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::SetTriggerString
 // Il2CppName: SetTriggerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::SetTriggerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::SetTriggerString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3014,7 +3015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::ResetTriggerString
 // Il2CppName: ResetTriggerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::ResetTriggerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::ResetTriggerString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3032,7 +3033,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurveString
 // Il2CppName: IsParameterControlledByCurveString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::IsParameterControlledByCurveString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::IsParameterControlledByCurveString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3050,7 +3051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetFloatStringDamp
 // Il2CppName: SetFloatStringDamp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, float, float)>(&UnityEngine::Animator::SetFloatStringDamp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, float, float, float)>(&UnityEngine::Animator::SetFloatStringDamp)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -3149,7 +3150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentStateName
 // Il2CppName: GetCurrentStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentStateName)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -3158,7 +3159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Animator::GetNextStateName
 // Il2CppName: GetNextStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextStateName)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -3167,7 +3168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorStateName
 // Il2CppName: GetAnimatorStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::GetAnimatorStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::GetAnimatorStateName)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* current = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3177,7 +3178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Animator::ResolveHash
 // Il2CppName: ResolveHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::ResolveHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::ResolveHash)> {
   static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResolveHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash});
@@ -3186,7 +3187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Animator::GetVector
 // Il2CppName: GetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetVector)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3204,7 +3205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -3224,7 +3225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetQuaternion
 // Il2CppName: GetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetQuaternion)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3242,7 +3243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetQuaternion
 // Il2CppName: SetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

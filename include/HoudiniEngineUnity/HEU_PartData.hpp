@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -181,9 +182,9 @@ namespace HoudiniEngineUnity {
     // private System.String _partName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* partName;
+    ::StringW partName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _objectNodeID
     // Size: 0x4
     // Offset: 0x28
@@ -313,9 +314,9 @@ namespace HoudiniEngineUnity {
     // private System.String _volumeLayerName
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* volumeLayerName;
+    ::StringW volumeLayerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_PartData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_PartData*>() noexcept {
@@ -326,7 +327,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Int32 _partID
     int& dyn__partID();
     // Get instance field reference: private System.String _partName
-    ::Il2CppString*& dyn__partName();
+    ::StringW& dyn__partName();
     // Get instance field reference: private System.Int32 _objectNodeID
     int& dyn__objectNodeID();
     // Get instance field reference: private System.Int32 _geoID
@@ -366,13 +367,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HEU_GeneratedOutput _generatedOutput
     HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
     // Get instance field reference: private System.String _volumeLayerName
-    ::Il2CppString*& dyn__volumeLayerName();
+    ::StringW& dyn__volumeLayerName();
     // public System.Int32 get_PartID()
     // Offset: 0x181E4A4
     int get_PartID();
     // public System.String get_PartName()
     // Offset: 0x181E4AC
-    ::Il2CppString* get_PartName();
+    ::StringW get_PartName();
     // public HoudiniEngineUnity.HEU_GeoNode get_ParentGeoNode()
     // Offset: 0x181E4B4
     HoudiniEngineUnity::HEU_GeoNode* get_ParentGeoNode();
@@ -432,16 +433,16 @@ namespace HoudiniEngineUnity {
     void Initialize(HoudiniEngineUnity::HEU_SessionBase* session, int partID, int geoID, int objectNodeID, HoudiniEngineUnity::HEU_GeoNode* geoNode, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, HoudiniEngineUnity::HEU_PartData::PartOutputType partOutputType, bool isEditable, bool isObjectInstancer, bool isAttribInstancer);
     // public System.Void SetGameObjectName(System.String partName)
     // Offset: 0x181E8A0
-    void SetGameObjectName(::Il2CppString* partName);
+    void SetGameObjectName(::StringW partName);
     // public System.Void SetGameObject(UnityEngine.GameObject gameObject)
     // Offset: 0x181E9F8
     void SetGameObject(UnityEngine::GameObject* gameObject);
     // public System.Void SetVolumeLayerName(System.String name)
     // Offset: 0x181EA20
-    void SetVolumeLayerName(::Il2CppString* name);
+    void SetVolumeLayerName(::StringW name);
     // public System.String GetVolumeLayerName()
     // Offset: 0x181EA28
-    ::Il2CppString* GetVolumeLayerName();
+    ::StringW GetVolumeLayerName();
     // public System.Void DestroyAllData()
     // Offset: 0x181EA30
     void DestroyAllData();
@@ -495,19 +496,19 @@ namespace HoudiniEngineUnity {
     void GeneratePartInstances(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GenerateInstancesFromObjectID(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 objectNodeID, System.String[] instancePrefixes)
     // Offset: 0x181FFB4
-    void GenerateInstancesFromObjectID(HoudiniEngineUnity::HEU_SessionBase* session, int objectNodeID, ::ArrayW<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObjectID(HoudiniEngineUnity::HEU_SessionBase* session, int objectNodeID, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromObject(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_ObjectNode sourceObject, System.String[] instancePrefixes)
     // Offset: 0x1820814
-    void GenerateInstancesFromObject(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_ObjectNode* sourceObject, ::ArrayW<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObject(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_ObjectNode* sourceObject, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromObjectIds(HoudiniEngineUnity.HEU_SessionBase session, System.String[] instancePrefixes)
     // Offset: 0x1820AE0
-    void GenerateInstancesFromObjectIds(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObjectIds(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::StringW> instancePrefixes);
     // public System.Void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.String unityInstanceAttr)
     // Offset: 0x1821060
-    void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* unityInstanceAttr);
+    void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW unityInstanceAttr);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject sourceObject, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.Int32 instancedObjectNodeID, System.String instancedObjectPath, UnityEngine.Vector3 rotationOffset, UnityEngine.Vector3 scaleOffset, System.String[] instancePrefixes, UnityEngine.GameObject collisionSrcGO, System.Boolean copyParentFlags)
     // Offset: 0x1820464
-    void CreateNewInstanceFromObject(UnityEngine::GameObject* sourceObject, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, int instancedObjectNodeID, ::Il2CppString* instancedObjectPath, UnityEngine::Vector3 rotationOffset, UnityEngine::Vector3 scaleOffset, ::ArrayW<::Il2CppString*> instancePrefixes, UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
+    void CreateNewInstanceFromObject(UnityEngine::GameObject* sourceObject, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, int instancedObjectNodeID, ::StringW instancedObjectPath, UnityEngine::Vector3 rotationOffset, UnityEngine::Vector3 scaleOffset, ::ArrayW<::StringW> instancePrefixes, UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
     // public System.Void GenerateAttributesStore(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1821E4C
     void GenerateAttributesStore(HoudiniEngineUnity::HEU_SessionBase* session);
@@ -528,19 +529,19 @@ namespace HoudiniEngineUnity {
     void CalculateColliderState();
     // static private System.Void CopyGameObjectComponents(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> lodTransformValues)
     // Offset: 0x1822424
-    static void CopyGameObjectComponents(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::Il2CppString* assetName, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::Il2CppString*> bakedAssetPath, ByRef<UnityEngine::Object*> assetDBObject, ::Il2CppString* assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* lodTransformValues);
+    static void CopyGameObjectComponents(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::StringW assetName, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ByRef<UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* lodTransformValues);
     // static private System.Void CopyChildGameObjects(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bKeepPreviousTransformValues)
     // Offset: 0x182429C
-    static void CopyChildGameObjects(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::Il2CppString* assetName, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::Il2CppString*> bakedAssetPath, ByRef<UnityEngine::Object*> assetDBObject, ::Il2CppString* assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
+    static void CopyChildGameObjects(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::StringW assetName, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ByRef<UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
     // public UnityEngine.GameObject BakePartToNewGameObject(UnityEngine.Transform parentTransform, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances)
     // Offset: 0x18246A8
-    UnityEngine::GameObject* BakePartToNewGameObject(UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ByRef<::Il2CppString*> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::Il2CppString* assetObjectFileName, bool bReconnectPrefabInstances);
+    UnityEngine::GameObject* BakePartToNewGameObject(UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances);
     // static public System.Void BakePartToGameObject(HoudiniEngineUnity.HEU_PartData partData, UnityEngine.GameObject srcGO, UnityEngine.GameObject targetGO, System.String assetName, System.Boolean bIsInstancer, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances, System.Boolean bKeepPreviousTransformValues)
     // Offset: 0x1824934
-    static void BakePartToGameObject(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* srcGO, UnityEngine::GameObject* targetGO, ::Il2CppString* assetName, bool bIsInstancer, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::Il2CppString*> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::Il2CppString* assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
+    static void BakePartToGameObject(HoudiniEngineUnity::HEU_PartData* partData, UnityEngine::GameObject* srcGO, UnityEngine::GameObject* targetGO, ::StringW assetName, bool bIsInstancer, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
     // public System.Void BakePartToGameObject(UnityEngine.GameObject targetGO, System.Boolean bDeleteExistingComponents, System.Boolean bDontDeletePersistantResources, System.Boolean bWriteMeshesToAssetDatabase, ref System.String bakedAssetPath, System.Collections.Generic.Dictionary`2<UnityEngine.Mesh,UnityEngine.Mesh> sourceToTargetMeshMap, System.Collections.Generic.Dictionary`2<UnityEngine.Material,UnityEngine.Material> sourceToCopiedMaterials, ref UnityEngine.Object assetDBObject, System.String assetObjectFileName, System.Boolean bReconnectPrefabInstances, System.Boolean bKeepPreviousTransformValues)
     // Offset: 0x182484C
-    void BakePartToGameObject(UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::Il2CppString*> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::Il2CppString* assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
+    void BakePartToGameObject(UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>* sourceToTargetMeshMap, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>* sourceToCopiedMaterials, ByRef<UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
     // public System.Boolean GenerateMesh(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bGenerateUVs, System.Boolean bGenerateTangents, System.Boolean bGenerateNormals, System.Boolean bUseLODGroups)
     // Offset: 0x18250CC
     bool GenerateMesh(HoudiniEngineUnity::HEU_SessionBase* session, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups);
@@ -567,10 +568,10 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* GetObjectInstanceInfos();
     // private HoudiniEngineUnity.HEU_ObjectInstanceInfo CreateObjectInstanceInfo(UnityEngine.GameObject instancedObject, System.Int32 instancedObjectNodeID, System.String instancedObjectPath)
     // Offset: 0x1821D68
-    HoudiniEngineUnity::HEU_ObjectInstanceInfo* CreateObjectInstanceInfo(UnityEngine::GameObject* instancedObject, int instancedObjectNodeID, ::Il2CppString* instancedObjectPath);
+    HoudiniEngineUnity::HEU_ObjectInstanceInfo* CreateObjectInstanceInfo(UnityEngine::GameObject* instancedObject, int instancedObjectNodeID, ::StringW instancedObjectPath);
     // public HoudiniEngineUnity.HEU_ObjectInstanceInfo GetObjectInstanceInfoWithObjectPath(System.String path)
     // Offset: 0x1821C70
-    HoudiniEngineUnity::HEU_ObjectInstanceInfo* GetObjectInstanceInfoWithObjectPath(::Il2CppString* path);
+    HoudiniEngineUnity::HEU_ObjectInstanceInfo* GetObjectInstanceInfoWithObjectPath(::StringW path);
     // public HoudiniEngineUnity.HEU_ObjectInstanceInfo GetObjectInstanceInfoWithObjectID(System.Int32 objNodeID)
     // Offset: 0x1820378
     HoudiniEngineUnity::HEU_ObjectInstanceInfo* GetObjectInstanceInfoWithObjectID(int objNodeID);
@@ -579,10 +580,10 @@ namespace HoudiniEngineUnity {
     void SetTerrainOffsetPosition(UnityEngine::Vector3 offsetPosition);
     // public System.Void SetTerrainData(UnityEngine.TerrainData terrainData, System.String exportPathRelative, System.String exportPathUser)
     // Offset: 0x18259EC
-    void SetTerrainData(UnityEngine::TerrainData* terrainData, ::Il2CppString* exportPathRelative, ::Il2CppString* exportPathUser);
+    void SetTerrainData(UnityEngine::TerrainData* terrainData, ::StringW exportPathRelative, ::StringW exportPathUser);
     // static public System.String AppendBakedCloneName(System.String name)
     // Offset: 0x18247F8
-    static ::Il2CppString* AppendBakedCloneName(::Il2CppString* name);
+    static ::StringW AppendBakedCloneName(::StringW name);
     // static public System.Void DestroyParts(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> parts)
     // Offset: 0x1825D34
     static void DestroyParts(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PartData*>* parts);
@@ -607,10 +608,10 @@ namespace HoudiniEngineUnity {
     // Offset: 0x1825CBC
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // HoudiniEngineUnity.HEU_PartData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_PartData), 152 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PartDataSizeCheck;
+  static check_size<sizeof(HEU_PartData), 152 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_PartDataSizeCheck;
   static_assert(sizeof(HEU_PartData) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -627,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::get_PartName
 // Il2CppName: get_PartName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::get_PartName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::get_PartName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "get_PartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -798,7 +799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::SetGameObjectName
 // Il2CppName: SetGameObjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::SetGameObjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(::StringW)>(&HoudiniEngineUnity::HEU_PartData::SetGameObjectName)> {
   static const MethodInfo* get() {
     static auto* partName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "SetGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{partName});
@@ -816,7 +817,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::SetVolumeLayerName
 // Il2CppName: SetVolumeLayerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::SetVolumeLayerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(::StringW)>(&HoudiniEngineUnity::HEU_PartData::SetVolumeLayerName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "SetVolumeLayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -825,7 +826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GetVolumeLayerName
 // Il2CppName: GetVolumeLayerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::GetVolumeLayerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::GetVolumeLayerName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "GetVolumeLayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -979,7 +980,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID
 // Il2CppName: GenerateInstancesFromObjectID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<::StringW>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* objectNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -990,7 +991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject
 // Il2CppName: GenerateInstancesFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_ObjectNode*, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_ObjectNode*, ::ArrayW<::StringW>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ObjectNode")->byval_arg;
@@ -1001,7 +1002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds
 // Il2CppName: GenerateInstancesFromObjectIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayW<::StringW>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -1011,7 +1012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromUnityAssetPathAttribute
 // Il2CppName: GenerateInstancesFromUnityAssetPathAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromUnityAssetPathAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromUnityAssetPathAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* unityInstanceAttr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1021,7 +1022,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject
 // Il2CppName: CreateNewInstanceFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, int, ::Il2CppString*, UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<::Il2CppString*>, UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, int, ::StringW, UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<::StringW>, UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject)> {
   static const MethodInfo* get() {
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* instanceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1094,7 +1095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents
 // Il2CppName: CopyGameObjectComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::Il2CppString*, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, bool, ByRef<::Il2CppString*>, ByRef<UnityEngine::Object*>, ::Il2CppString*, bool, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*)>(&HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::StringW, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, bool, ByRef<::StringW>, ByRef<UnityEngine::Object*>, ::StringW, bool, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*)>(&HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents)> {
   static const MethodInfo* get() {
     static auto* partData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PartData")->byval_arg;
     static auto* sourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1115,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects
 // Il2CppName: CopyChildGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::Il2CppString*, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, bool, ByRef<::Il2CppString*>, ByRef<UnityEngine::Object*>, ::Il2CppString*, bool, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::StringW, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, bool, ByRef<::StringW>, ByRef<UnityEngine::Object*>, ::StringW, bool, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects)> {
   static const MethodInfo* get() {
     static auto* partData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PartData")->byval_arg;
     static auto* sourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1136,7 +1137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::BakePartToNewGameObject
 // Il2CppName: BakePartToNewGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::Transform*, bool, ByRef<::Il2CppString*>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToNewGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::Transform*, bool, ByRef<::StringW>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::StringW, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToNewGameObject)> {
   static const MethodInfo* get() {
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* bWriteMeshesToAssetDatabase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1152,7 +1153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::BakePartToGameObject
 // Il2CppName: BakePartToGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::Il2CppString*, bool, bool, bool, bool, ByRef<::Il2CppString*>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::Il2CppString*, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_PartData*, UnityEngine::GameObject*, UnityEngine::GameObject*, ::StringW, bool, bool, bool, bool, ByRef<::StringW>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::StringW, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
   static const MethodInfo* get() {
     static auto* partData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PartData")->byval_arg;
     static auto* srcGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1175,7 +1176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::BakePartToGameObject
 // Il2CppName: BakePartToGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, bool, bool, bool, ByRef<::Il2CppString*>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::Il2CppString*, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, bool, bool, bool, ByRef<::StringW>, System::Collections::Generic::Dictionary_2<UnityEngine::Mesh*, UnityEngine::Mesh*>*, System::Collections::Generic::Dictionary_2<UnityEngine::Material*, UnityEngine::Material*>*, ByRef<UnityEngine::Object*>, ::StringW, bool, bool)>(&HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bDeleteExistingComponents = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1270,7 +1271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::CreateObjectInstanceInfo
 // Il2CppName: CreateObjectInstanceInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectInstanceInfo* (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::CreateObjectInstanceInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectInstanceInfo* (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, ::StringW)>(&HoudiniEngineUnity::HEU_PartData::CreateObjectInstanceInfo)> {
   static const MethodInfo* get() {
     static auto* instancedObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* instancedObjectNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1281,7 +1282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GetObjectInstanceInfoWithObjectPath
 // Il2CppName: GetObjectInstanceInfoWithObjectPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectInstanceInfo* (HoudiniEngineUnity::HEU_PartData::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::GetObjectInstanceInfoWithObjectPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ObjectInstanceInfo* (HoudiniEngineUnity::HEU_PartData::*)(::StringW)>(&HoudiniEngineUnity::HEU_PartData::GetObjectInstanceInfoWithObjectPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "GetObjectInstanceInfoWithObjectPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -1308,7 +1309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::SetTerrainData
 // Il2CppName: SetTerrainData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::TerrainData*, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::SetTerrainData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::TerrainData*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_PartData::SetTerrainData)> {
   static const MethodInfo* get() {
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* exportPathRelative = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1319,7 +1320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::AppendBakedCloneName
 // Il2CppName: AppendBakedCloneName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PartData::AppendBakedCloneName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&HoudiniEngineUnity::HEU_PartData::AppendBakedCloneName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "AppendBakedCloneName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1359,7 +1360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PartData::*)()>(&HoudiniEngineUnity::HEU_PartData::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PartData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

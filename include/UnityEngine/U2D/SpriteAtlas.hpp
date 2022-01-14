@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -38,7 +39,7 @@ namespace UnityEngine::U2D {
     bool CanBindTo(UnityEngine::Sprite* sprite);
     // public UnityEngine.Sprite GetSprite(System.String name)
     // Offset: 0x243A020
-    UnityEngine::Sprite* GetSprite(::Il2CppString* name);
+    UnityEngine::Sprite* GetSprite(::StringW name);
   }; // UnityEngine.U2D.SpriteAtlas
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::U2D::SpriteAtlas::GetSprite
 // Il2CppName: GetSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (UnityEngine::U2D::SpriteAtlas::*)(::Il2CppString*)>(&UnityEngine::U2D::SpriteAtlas::GetSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (UnityEngine::U2D::SpriteAtlas::*)(::StringW)>(&UnityEngine::U2D::SpriteAtlas::GetSprite)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlas*), "GetSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

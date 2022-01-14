@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -31,10 +32,10 @@ namespace UnityEngine::Networking {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri)
     // Offset: 0x26D49E0
-    static UnityEngine::Networking::UnityWebRequest* GetTexture(::Il2CppString* uri);
+    static UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
     // static public UnityEngine.Networking.UnityWebRequest GetTexture(System.String uri, System.Boolean nonReadable)
     // Offset: 0x26D49E8
-    static UnityEngine::Networking::UnityWebRequest* GetTexture(::Il2CppString* uri, bool nonReadable);
+    static UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
   }; // UnityEngine.Networking.UnityWebRequestTexture
   #pragma pack(pop)
 }
@@ -42,7 +43,7 @@ namespace UnityEngine::Networking {
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
@@ -51,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, bool)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW, bool)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nonReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

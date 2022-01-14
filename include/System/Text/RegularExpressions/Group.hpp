@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
@@ -56,9 +57,9 @@ namespace System::Text::RegularExpressions {
     // System.String _name
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static System.Text.RegularExpressions.Group _emptygroup
     static System::Text::RegularExpressions::Group* _get__emptygroup();
@@ -69,14 +70,14 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _capcount
     int& dyn__capcount();
     // Get instance field reference: System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // public System.Boolean get_Success()
     // Offset: 0x19E4628
     bool get_Success();
     // System.Void .ctor(System.String text, System.Int32[] caps, System.Int32 capcount, System.String name)
     // Offset: 0x19E4578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Group* New_ctor(::Il2CppString* text, ::ArrayW<int> caps, int capcount, ::Il2CppString* name) {
+    static Group* New_ctor(::StringW text, ::ArrayW<int> caps, int capcount, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Group::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Group*, creationType>(text, caps, capcount, name)));
     }
@@ -95,7 +96,7 @@ namespace System::Text::RegularExpressions {
     }
   }; // System.Text.RegularExpressions.Group
   #pragma pack(pop)
-  static check_size<sizeof(Group), 48 + sizeof(::Il2CppString*)> __System_Text_RegularExpressions_GroupSizeCheck;
+  static check_size<sizeof(Group), 48 + sizeof(::StringW)> __System_Text_RegularExpressions_GroupSizeCheck;
   static_assert(sizeof(Group) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

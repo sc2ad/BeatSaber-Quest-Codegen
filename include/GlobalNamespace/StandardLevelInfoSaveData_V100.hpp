@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -55,34 +56,34 @@ namespace GlobalNamespace {
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _songName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* songName;
+    ::StringW songName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _songSubName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* songSubName;
+    ::StringW songSubName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF3747C
     // private System.String _songAuthorName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* songAuthorName;
+    ::StringW songAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _levelAuthorName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* levelAuthorName;
+    ::StringW levelAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _beatsPerMinute
     // Size: 0x4
     // Offset: 0x38
@@ -123,22 +124,22 @@ namespace GlobalNamespace {
     // private System.String _songFilename
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* songFilename;
+    ::StringW songFilename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF37584
     // private System.String _coverImageFilename
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* coverImageFilename;
+    ::StringW coverImageFilename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _environmentName
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* environmentName;
+    ::StringW environmentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
     // Size: 0x8
     // Offset: 0x68
@@ -149,19 +150,19 @@ namespace GlobalNamespace {
     // static field const value: static public System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "1.0.0";
     // Get static field: static public System.String kCurrentVersion
-    static ::Il2CppString* _get_kCurrentVersion();
+    static ::StringW _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
-    static void _set_kCurrentVersion(::Il2CppString* value);
+    static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: private System.String _version
-    ::Il2CppString*& dyn__version();
+    ::StringW& dyn__version();
     // Get instance field reference: private System.String _songName
-    ::Il2CppString*& dyn__songName();
+    ::StringW& dyn__songName();
     // Get instance field reference: private System.String _songSubName
-    ::Il2CppString*& dyn__songSubName();
+    ::StringW& dyn__songSubName();
     // Get instance field reference: private System.String _songAuthorName
-    ::Il2CppString*& dyn__songAuthorName();
+    ::StringW& dyn__songAuthorName();
     // Get instance field reference: private System.String _levelAuthorName
-    ::Il2CppString*& dyn__levelAuthorName();
+    ::StringW& dyn__levelAuthorName();
     // Get instance field reference: private System.Single _beatsPerMinute
     float& dyn__beatsPerMinute();
     // Get instance field reference: private System.Single _songTimeOffset
@@ -175,28 +176,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _previewDuration
     float& dyn__previewDuration();
     // Get instance field reference: private System.String _songFilename
-    ::Il2CppString*& dyn__songFilename();
+    ::StringW& dyn__songFilename();
     // Get instance field reference: private System.String _coverImageFilename
-    ::Il2CppString*& dyn__coverImageFilename();
+    ::StringW& dyn__coverImageFilename();
     // Get instance field reference: private System.String _environmentName
-    ::Il2CppString*& dyn__environmentName();
+    ::StringW& dyn__environmentName();
     // Get instance field reference: private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
     ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.String get_version()
     // Offset: 0x1222CBC
-    ::Il2CppString* get_version();
+    ::StringW get_version();
     // public System.String get_songName()
     // Offset: 0x1222CC4
-    ::Il2CppString* get_songName();
+    ::StringW get_songName();
     // public System.String get_songSubName()
     // Offset: 0x1222CCC
-    ::Il2CppString* get_songSubName();
+    ::StringW get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0x1222CD4
-    ::Il2CppString* get_songAuthorName();
+    ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0x1222CDC
-    ::Il2CppString* get_levelAuthorName();
+    ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0x1222CE4
     float get_beatsPerMinute();
@@ -217,13 +218,13 @@ namespace GlobalNamespace {
     float get_previewDuration();
     // public System.String get_songFilename()
     // Offset: 0x1222D14
-    ::Il2CppString* get_songFilename();
+    ::StringW get_songFilename();
     // public System.String get_coverImageFilename()
     // Offset: 0x1222D1C
-    ::Il2CppString* get_coverImageFilename();
+    ::StringW get_coverImageFilename();
     // public System.String get_environmentName()
     // Offset: 0x1222D24
-    ::Il2CppString* get_environmentName();
+    ::StringW get_environmentName();
     // public StandardLevelInfoSaveData_V100/DifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0x1222D2C
     ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> get_difficultyBeatmaps();
@@ -233,19 +234,19 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, StandardLevelInfoSaveData_V100/DifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x1222D34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StandardLevelInfoSaveData_V100* New_ctor(::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::Il2CppString* songFilename, ::Il2CppString* coverImageFilename, ::Il2CppString* environmentName, ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps) {
+    static StandardLevelInfoSaveData_V100* New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData_V100::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData_V100*, creationType>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, difficultyBeatmaps)));
     }
     // public System.Void SetSongFilename(System.String songFilename)
     // Offset: 0x1222E80
-    void SetSongFilename(::Il2CppString* songFilename);
+    void SetSongFilename(::StringW songFilename);
     // public System.String SerializeToJSONString()
     // Offset: 0x1222E88
-    ::Il2CppString* SerializeToJSONString();
+    ::StringW SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
     // Offset: 0x1222E90
-    static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
+    static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::StringW stringData);
   }; // StandardLevelInfoSaveData_V100
   #pragma pack(pop)
   static check_size<sizeof(StandardLevelInfoSaveData_V100), 104 + sizeof(::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>)> __GlobalNamespace_StandardLevelInfoSaveData_V100SizeCheck;
@@ -255,7 +256,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -263,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName
 // Il2CppName: get_songName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -271,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName
 // Il2CppName: get_songSubName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName
 // Il2CppName: get_songAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -287,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName
 // Il2CppName: get_levelAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -343,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename
 // Il2CppName: get_songFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -351,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename
 // Il2CppName: get_coverImageFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_coverImageFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName
 // Il2CppName: get_environmentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename
 // Il2CppName: SetSongFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::StringW)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename)> {
   static const MethodInfo* get() {
     static auto* songFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "SetSongFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songFilename});
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString
 // Il2CppName: SerializeToJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "SerializeToJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -404,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString
 // Il2CppName: DeserializeFromJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
   static const MethodInfo* get() {
     static auto* stringData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringData});

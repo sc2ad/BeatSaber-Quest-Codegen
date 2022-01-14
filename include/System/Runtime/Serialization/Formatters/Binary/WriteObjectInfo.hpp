@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -171,15 +172,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String binderTypeName
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* binderTypeName;
+    ::StringW binderTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String binderAssemblyString
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* binderAssemblyString;
+    ::StringW binderAssemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Int32 objectInfoId
     int& dyn_objectInfoId();
@@ -212,9 +213,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int64 assemId
     int64_t& dyn_assemId();
     // Get instance field reference: private System.String binderTypeName
-    ::Il2CppString*& dyn_binderTypeName();
+    ::StringW& dyn_binderTypeName();
     // Get instance field reference: private System.String binderAssemblyString
-    ::Il2CppString*& dyn_binderAssemblyString();
+    ::StringW& dyn_binderAssemblyString();
     // System.Void ObjectEnd()
     // Offset: 0x1866C84
     void ObjectEnd();
@@ -238,7 +239,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void InitSiWrite();
     // static private System.Void CheckTypeForwardedFrom(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache cache, System.Type objectType, System.String binderAssemblyString)
     // Offset: 0x186A85C
-    static void CheckTypeForwardedFrom(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache, System::Type* objectType, ::Il2CppString* binderAssemblyString);
+    static void CheckTypeForwardedFrom(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache, System::Type* objectType, ::StringW binderAssemblyString);
     // private System.Void InitNoMembers()
     // Offset: 0x186A464
     void InitNoMembers();
@@ -247,10 +248,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void InitMemberInfo();
     // System.String GetTypeFullName()
     // Offset: 0x185BE1C
-    ::Il2CppString* GetTypeFullName();
+    ::StringW GetTypeFullName();
     // System.String GetAssemblyString()
     // Offset: 0x185BDF0
-    ::Il2CppString* GetAssemblyString();
+    ::StringW GetAssemblyString();
     // private System.Void InvokeSerializationBinder(System.Runtime.Serialization.SerializationBinder binder)
     // Offset: 0x186A54C
     void InvokeSerializationBinder(System::Runtime::Serialization::SerializationBinder* binder);
@@ -259,7 +260,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Type* GetMemberType(System::Reflection::MemberInfo* objMember);
     // System.Void GetMemberInfo(out System.String[] outMemberNames, out System.Type[] outMemberTypes, out System.Object[] outMemberData)
     // Offset: 0x18675A4
-    void GetMemberInfo(ByRef<::ArrayW<::Il2CppString*>> outMemberNames, ByRef<::ArrayW<System::Type*>> outMemberTypes, ByRef<::ArrayW<::Il2CppObject*>> outMemberData);
+    void GetMemberInfo(ByRef<::ArrayW<::StringW>> outMemberNames, ByRef<::ArrayW<System::Type*>> outMemberTypes, ByRef<::ArrayW<::Il2CppObject*>> outMemberData);
     // static private System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo GetObjectInfo(System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit)
     // Offset: 0x1869EB8
     static System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* GetObjectInfo(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
@@ -277,7 +278,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo
   #pragma pack(pop)
-  static check_size<sizeof(WriteObjectInfo), 128 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_WriteObjectInfoSizeCheck;
+  static check_size<sizeof(WriteObjectInfo), 128 + sizeof(::StringW)> __System_Runtime_Serialization_Formatters_Binary_WriteObjectInfoSizeCheck;
   static_assert(sizeof(WriteObjectInfo) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::CheckTypeForwardedFrom
 // Il2CppName: CheckTypeForwardedFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, System::Type*, ::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::CheckTypeForwardedFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, System::Type*, ::StringW)>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::CheckTypeForwardedFrom)> {
   static const MethodInfo* get() {
     static auto* cache = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -393,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetTypeFullName
 // Il2CppName: GetTypeFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetTypeFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetTypeFullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*), "GetTypeFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -401,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetAssemblyString
 // Il2CppName: GetAssemblyString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetAssemblyString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetAssemblyString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*), "GetAssemblyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -427,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetMemberInfo
 // Il2CppName: GetMemberInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)(ByRef<::ArrayW<::Il2CppString*>>, ByRef<::ArrayW<System::Type*>>, ByRef<::ArrayW<::Il2CppObject*>>)>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetMemberInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)(ByRef<::ArrayW<::StringW>>, ByRef<::ArrayW<System::Type*>>, ByRef<::ArrayW<::Il2CppObject*>>)>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetMemberInfo)> {
   static const MethodInfo* get() {
     static auto* outMemberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     static auto* outMemberTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->this_arg;

@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -111,9 +112,9 @@ namespace HoudiniEngineUnity {
     // public System.String _errorMsg
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* errorMsg;
+    ::StringW errorMsg;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HAPI_PDG_State _pdgState
     // Size: 0x4
     // Offset: 0x48
@@ -131,9 +132,9 @@ namespace HoudiniEngineUnity {
     // private System.String[] _eventMessageColorCode
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> eventMessageColorCode;
+    ::ArrayW<::StringW> eventMessageColorCode;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
     static HoudiniEngineUnity::HEU_PDGSession* _get__pdgSession();
@@ -152,13 +153,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _errored
     bool& dyn__errored();
     // Get instance field reference: public System.String _errorMsg
-    ::Il2CppString*& dyn__errorMsg();
+    ::StringW& dyn__errorMsg();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PDG_State _pdgState
     HoudiniEngineUnity::HAPI_PDG_State& dyn__pdgState();
     // Get instance field reference: private System.Text.StringBuilder _pdgEventMessages
     System::Text::StringBuilder*& dyn__pdgEventMessages();
     // Get instance field reference: private System.String[] _eventMessageColorCode
-    ::ArrayW<::Il2CppString*>& dyn__eventMessageColorCode();
+    ::ArrayW<::StringW>& dyn__eventMessageColorCode();
     // static public HoudiniEngineUnity.HEU_PDGSession GetPDGSession()
     // Offset: 0x1813D1C
     static HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
@@ -215,7 +216,7 @@ namespace HoudiniEngineUnity {
     static void ResetPDGEventInfo(ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
     // private System.Void SetErrorState(System.String msg, System.Boolean bLogIt)
     // Offset: 0x181757C
-    void SetErrorState(::Il2CppString* msg, bool bLogIt);
+    void SetErrorState(::StringW msg, bool bLogIt);
     // private System.Void ClearErrorState()
     // Offset: 0x18175C0
     void ClearErrorState();
@@ -245,10 +246,10 @@ namespace HoudiniEngineUnity {
     bool DirtyAll(int nodeID);
     // public System.Void AddEventMessage(System.String msg)
     // Offset: 0x18176A4
-    void AddEventMessage(::Il2CppString* msg);
+    void AddEventMessage(::StringW msg);
     // public System.String GetEventMessages()
     // Offset: 0x18176C0
-    ::Il2CppString* GetEventMessages();
+    ::StringW GetEventMessages();
     // public System.Void ClearEventMessages()
     // Offset: 0x18176E0
     void ClearEventMessages();
@@ -263,7 +264,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_PDGSession
   #pragma pack(pop)
-  static check_size<sizeof(HEU_PDGSession), 88 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_PDGSessionSizeCheck;
+  static check_size<sizeof(HEU_PDGSession), 88 + sizeof(::ArrayW<::StringW>)> __HoudiniEngineUnity_HEU_PDGSessionSizeCheck;
   static_assert(sizeof(HEU_PDGSession) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -444,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::SetErrorState
 // Il2CppName: SetErrorState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_PDGSession::SetErrorState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::StringW, bool)>(&HoudiniEngineUnity::HEU_PDGSession::SetErrorState)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bLogIt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -537,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::AddEventMessage
 // Il2CppName: AddEventMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PDGSession::AddEventMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::StringW)>(&HoudiniEngineUnity::HEU_PDGSession::AddEventMessage)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "AddEventMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -546,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::GetEventMessages
 // Il2CppName: GetEventMessages
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_PDGSession::*)()>(&HoudiniEngineUnity::HEU_PDGSession::GetEventMessages)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_PDGSession::*)()>(&HoudiniEngineUnity::HEU_PDGSession::GetEventMessages)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "GetEventMessages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

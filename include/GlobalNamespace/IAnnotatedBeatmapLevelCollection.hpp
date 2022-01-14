@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -17,9 +18,6 @@ namespace GlobalNamespace {
   class IBeatmapLevelCollection;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IAnnotatedBeatmapLevelCollection
@@ -38,7 +36,7 @@ namespace GlobalNamespace {
     public:
     // public System.String get_collectionName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_collectionName();
+    ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0xFFFFFFFF
     UnityEngine::Sprite* get_coverImage();
@@ -55,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName
 // Il2CppName: get_collectionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IAnnotatedBeatmapLevelCollection::*)()>(&GlobalNamespace::IAnnotatedBeatmapLevelCollection::get_collectionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

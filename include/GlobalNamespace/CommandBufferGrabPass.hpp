@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -66,9 +67,9 @@ namespace GlobalNamespace {
     // private System.String _textureName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* textureName;
+    ::StringW textureName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Rendering.CameraEvent _cameraEvent
     // Size: 0x4
     // Offset: 0x30
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static void _set__cameras(System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* value);
     // Get instance field reference: private System.String _textureName
-    ::Il2CppString*& dyn__textureName();
+    ::StringW& dyn__textureName();
     // Get instance field reference: private UnityEngine.Rendering.CameraEvent _cameraEvent
     UnityEngine::Rendering::CameraEvent& dyn__cameraEvent();
     // public System.Void .ctor()

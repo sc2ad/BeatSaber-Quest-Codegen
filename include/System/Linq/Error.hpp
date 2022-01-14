@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,10 +32,10 @@ namespace System::Linq {
     public:
     // static System.Exception ArgumentNull(System.String s)
     // Offset: 0x266A558
-    static System::Exception* ArgumentNull(::Il2CppString* s);
+    static System::Exception* ArgumentNull(::StringW s);
     // static System.Exception ArgumentOutOfRange(System.String s)
     // Offset: 0x266A19C
-    static System::Exception* ArgumentOutOfRange(::Il2CppString* s);
+    static System::Exception* ArgumentOutOfRange(::StringW s);
     // static System.Exception MoreThanOneElement()
     // Offset: 0x266B06C
     static System::Exception* MoreThanOneElement();
@@ -57,7 +58,7 @@ namespace System::Linq {
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentNull
 // Il2CppName: ArgumentNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentNull)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -66,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

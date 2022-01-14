@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -64,7 +65,7 @@ namespace System::Reflection {
     // Base method: System.Void ApplicationException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TargetInvocationException* New_ctor(::Il2CppString* message, System::Exception* inner) {
+    static TargetInvocationException* New_ctor(::StringW message, System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::TargetInvocationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TargetInvocationException*, creationType>(message, inner)));
     }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics
@@ -30,9 +31,9 @@ namespace System::Diagnostics {
   class TraceInternal : public ::Il2CppObject {
     public:
     // Get static field: static private System.String appName
-    static ::Il2CppString* _get_appName();
+    static ::StringW _get_appName();
     // Set static field: static private System.String appName
-    static void _set_appName(::Il2CppString* value);
+    static void _set_appName(::StringW value);
     // Get static field: static private System.Diagnostics.TraceListenerCollection listeners
     static System::Diagnostics::TraceListenerCollection* _get_listeners();
     // Set static field: static private System.Diagnostics.TraceListenerCollection listeners
@@ -80,7 +81,7 @@ namespace System::Diagnostics {
     static void Assert_(bool condition);
     // static public System.Void Fail(System.String message)
     // Offset: 0x1A2E6B8
-    static void Fail(::Il2CppString* message);
+    static void Fail(::StringW message);
     // static private System.Void InitializeSettings()
     // Offset: 0x1A2E29C
     static void InitializeSettings();
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::TraceInternal::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::Diagnostics::TraceInternal::Fail)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

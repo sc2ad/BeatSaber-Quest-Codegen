@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -91,9 +92,9 @@ namespace System::IO {
     // private System.String filter
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* filter;
+    ::StringW filter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean includeSubdirectories
     // Size: 0x1
     // Offset: 0x38
@@ -119,15 +120,15 @@ namespace System::IO {
     // private System.String path
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* path;
+    ::StringW path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String fullpath
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* fullpath;
+    ::StringW fullpath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.ComponentModel.ISynchronizeInvoke synchronizingObject
     // Size: 0x8
     // Offset: 0x58
@@ -167,9 +168,9 @@ namespace System::IO {
     // private System.String mangledFilter
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* mangledFilter;
+    ::StringW mangledFilter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.IO.FileSystemEventHandler Changed
     // Size: 0x8
     // Offset: 0xA0
@@ -212,7 +213,7 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean enableRaisingEvents
     bool& dyn_enableRaisingEvents();
     // Get instance field reference: private System.String filter
-    ::Il2CppString*& dyn_filter();
+    ::StringW& dyn_filter();
     // Get instance field reference: private System.Boolean includeSubdirectories
     bool& dyn_includeSubdirectories();
     // Get instance field reference: private System.Int32 internalBufferSize
@@ -220,9 +221,9 @@ namespace System::IO {
     // Get instance field reference: private System.IO.NotifyFilters notifyFilter
     System::IO::NotifyFilters& dyn_notifyFilter();
     // Get instance field reference: private System.String path
-    ::Il2CppString*& dyn_path();
+    ::StringW& dyn_path();
     // Get instance field reference: private System.String fullpath
-    ::Il2CppString*& dyn_fullpath();
+    ::StringW& dyn_fullpath();
     // Get instance field reference: private System.ComponentModel.ISynchronizeInvoke synchronizingObject
     System::ComponentModel::ISynchronizeInvoke*& dyn_synchronizingObject();
     // Get instance field reference: private System.IO.WaitForChangedResult lastData
@@ -234,7 +235,7 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.String mangledFilter
-    ::Il2CppString*& dyn_mangledFilter();
+    ::StringW& dyn_mangledFilter();
     // Get instance field reference: private System.IO.FileSystemEventHandler Changed
     System::IO::FileSystemEventHandler*& dyn_Changed();
     // Get instance field reference: private System.IO.FileSystemEventHandler Created
@@ -253,13 +254,13 @@ namespace System::IO {
     void set_Waiting(bool value);
     // System.String get_MangledFilter()
     // Offset: 0x1A34148
-    ::Il2CppString* get_MangledFilter();
+    ::StringW get_MangledFilter();
     // System.IO.SearchPattern2 get_Pattern()
     // Offset: 0x1A340B0
     System::IO::SearchPattern2* get_Pattern();
     // System.String get_FullPath()
     // Offset: 0x1A34008
-    ::Il2CppString* get_FullPath();
+    ::StringW get_FullPath();
     // public System.Void set_EnableRaisingEvents(System.Boolean value)
     // Offset: 0x1A37094
     void set_EnableRaisingEvents(bool value);
@@ -278,7 +279,7 @@ namespace System::IO {
     // public System.Void .ctor(System.String path, System.String filter)
     // Offset: 0x1A36C1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileSystemWatcher* New_ctor(::Il2CppString* path, ::Il2CppString* filter) {
+    static FileSystemWatcher* New_ctor(::StringW path, ::StringW filter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemWatcher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemWatcher*, creationType>(path, filter)));
     }
@@ -302,7 +303,7 @@ namespace System::IO {
     void OnRenamed(System::IO::RenamedEventArgs* e);
     // System.Void DispatchEvents(System.IO.FileAction act, System.String filename, ref System.IO.RenamedEventArgs renamed)
     // Offset: 0x1A34F9C
-    void DispatchEvents(System::IO::FileAction act, ::Il2CppString* filename, ByRef<System::IO::RenamedEventArgs*> renamed);
+    void DispatchEvents(System::IO::FileAction act, ::StringW filename, ByRef<System::IO::RenamedEventArgs*> renamed);
     // private System.Void Start()
     // Offset: 0x1A370C0
     void Start();
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileSystemWatcher::get_MangledFilter
 // Il2CppName: get_MangledFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemWatcher::*)()>(&System::IO::FileSystemWatcher::get_MangledFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileSystemWatcher::*)()>(&System::IO::FileSystemWatcher::get_MangledFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemWatcher*), "get_MangledFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -374,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::FileSystemWatcher::get_FullPath
 // Il2CppName: get_FullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileSystemWatcher::*)()>(&System::IO::FileSystemWatcher::get_FullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileSystemWatcher::*)()>(&System::IO::FileSystemWatcher::get_FullPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemWatcher*), "get_FullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -485,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileSystemWatcher::DispatchEvents
 // Il2CppName: DispatchEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemWatcher::*)(System::IO::FileAction, ::Il2CppString*, ByRef<System::IO::RenamedEventArgs*>)>(&System::IO::FileSystemWatcher::DispatchEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileSystemWatcher::*)(System::IO::FileAction, ::StringW, ByRef<System::IO::RenamedEventArgs*>)>(&System::IO::FileSystemWatcher::DispatchEvents)> {
   static const MethodInfo* get() {
     static auto* act = &::il2cpp_utils::GetClassFromName("System.IO", "FileAction")->byval_arg;
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

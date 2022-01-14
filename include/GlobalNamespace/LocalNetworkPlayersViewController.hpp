@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -130,12 +131,12 @@ namespace GlobalNamespace {
     // Offset: 0x135D62C
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_myPartyTitle()
-    ::Il2CppString* get_myPartyTitle();
+    ::StringW get_myPartyTitle();
     // public override System.String get_otherPlayersTitle()
     // Offset: 0x135D674
     // Implemented from: NetworkPlayersViewController
     // Base method: System.String NetworkPlayersViewController::get_otherPlayersTitle()
-    ::Il2CppString* get_otherPlayersTitle();
+    ::StringW get_otherPlayersTitle();
     // public override INetworkPlayerModel get_networkPlayerModel()
     // Offset: 0x135D6BC
     // Implemented from: NetworkPlayersViewController
@@ -207,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayersViewController::get_myPartyTitle
 // Il2CppName: get_myPartyTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkPlayersViewController::*)()>(&GlobalNamespace::LocalNetworkPlayersViewController::get_myPartyTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LocalNetworkPlayersViewController::*)()>(&GlobalNamespace::LocalNetworkPlayersViewController::get_myPartyTitle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayersViewController*), "get_myPartyTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayersViewController::get_otherPlayersTitle
 // Il2CppName: get_otherPlayersTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkPlayersViewController::*)()>(&GlobalNamespace::LocalNetworkPlayersViewController::get_otherPlayersTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LocalNetworkPlayersViewController::*)()>(&GlobalNamespace::LocalNetworkPlayersViewController::get_otherPlayersTitle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayersViewController*), "get_otherPlayersTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

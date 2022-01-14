@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,16 +48,16 @@ namespace GlobalNamespace {
     // private System.String _colorSchemeId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* colorSchemeId;
+    ::StringW colorSchemeId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [LocalizationKeyAttribute] Offset: 0xF0F7B8
     // private System.String _colorSchemeNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* colorSchemeNameLocalizationKey;
+    ::StringW colorSchemeNameLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _useNonLocalizedName
     // Size: 0x1
     // Offset: 0x20
@@ -68,9 +69,9 @@ namespace GlobalNamespace {
     // private System.String _nonLocalizedName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* nonLocalizedName;
+    ::StringW nonLocalizedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isEditable
     // Size: 0x1
     // Offset: 0x30
@@ -134,13 +135,13 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private System.String _colorSchemeId
-    ::Il2CppString*& dyn__colorSchemeId();
+    ::StringW& dyn__colorSchemeId();
     // Get instance field reference: private System.String _colorSchemeNameLocalizationKey
-    ::Il2CppString*& dyn__colorSchemeNameLocalizationKey();
+    ::StringW& dyn__colorSchemeNameLocalizationKey();
     // Get instance field reference: private System.Boolean _useNonLocalizedName
     bool& dyn__useNonLocalizedName();
     // Get instance field reference: private System.String _nonLocalizedName
-    ::Il2CppString*& dyn__nonLocalizedName();
+    ::StringW& dyn__nonLocalizedName();
     // Get instance field reference: private System.Boolean _isEditable
     bool& dyn__isEditable();
     // Get instance field reference: private UnityEngine.Color _saberAColor
@@ -161,13 +162,13 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__environmentColor1Boost();
     // public System.String get_colorSchemeId()
     // Offset: 0x26D1018
-    ::Il2CppString* get_colorSchemeId();
+    ::StringW get_colorSchemeId();
     // public System.String get_colorSchemeNameLocalizationKey()
     // Offset: 0x26D1020
-    ::Il2CppString* get_colorSchemeNameLocalizationKey();
+    ::StringW get_colorSchemeNameLocalizationKey();
     // public System.String get_nonLocalizedName()
     // Offset: 0x26D1028
-    ::Il2CppString* get_nonLocalizedName();
+    ::StringW get_nonLocalizedName();
     // public System.Boolean get_useNonLocalizedName()
     // Offset: 0x26D1030
     bool get_useNonLocalizedName();
@@ -201,7 +202,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String colorSchemeId, System.String colorSchemeNameLocalizationKey, System.Boolean useNonLocalizedName, System.String nonLocalizedName, System.Boolean isEditable, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
     // Offset: 0x26D109C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorScheme* New_ctor(::Il2CppString* colorSchemeId, ::Il2CppString* colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::Il2CppString* nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
+    static ColorScheme* New_ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorSchemeId, colorSchemeNameLocalizationKey, useNonLocalizedName, nonLocalizedName, isEditable, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
@@ -235,7 +236,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_colorSchemeId
 // Il2CppName: get_colorSchemeId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_colorSchemeId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_colorSchemeId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_colorSchemeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_colorSchemeNameLocalizationKey
 // Il2CppName: get_colorSchemeNameLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_colorSchemeNameLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_colorSchemeNameLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_colorSchemeNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_nonLocalizedName
 // Il2CppName: get_nonLocalizedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_nonLocalizedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_nonLocalizedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_nonLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

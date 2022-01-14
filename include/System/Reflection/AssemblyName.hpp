@@ -30,6 +30,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -94,15 +95,15 @@ namespace System::Reflection {
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String codebase
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* codebase;
+    ::StringW codebase;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 major
     // Size: 0x4
     // Offset: 0x20
@@ -207,9 +208,9 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::InteropServices::_AssemblyName*>(this);
     }
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.String codebase
-    ::Il2CppString*& dyn_codebase();
+    ::StringW& dyn_codebase();
     // Get instance field reference: private System.Int32 major
     int& dyn_major();
     // Get instance field reference: private System.Int32 minor
@@ -240,7 +241,7 @@ namespace System::Reflection {
     System::Reflection::AssemblyContentType& dyn_contentType();
     // public System.String get_Name()
     // Offset: 0x1E8ECA8
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Globalization.CultureInfo get_CultureInfo()
     // Offset: 0x1E8ECB0
     System::Globalization::CultureInfo* get_CultureInfo();
@@ -249,7 +250,7 @@ namespace System::Reflection {
     System::Reflection::AssemblyNameFlags get_Flags();
     // public System.String get_FullName()
     // Offset: 0x1E8ECC0
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.Version get_Version()
     // Offset: 0x1E8F0D8
     System::Version* get_Version();
@@ -262,7 +263,7 @@ namespace System::Reflection {
     // public System.Void .ctor(System.String assemblyName)
     // Offset: 0x1E8E720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssemblyName* New_ctor(::Il2CppString* assemblyName) {
+    static AssemblyName* New_ctor(::StringW assemblyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyName*, creationType>(assemblyName)));
     }
@@ -302,7 +303,7 @@ namespace System::Reflection {
     static Mono::MonoAssemblyName* GetNativeName(System::IntPtr assembly_ptr);
     // System.Void FillName(Mono.MonoAssemblyName* native, System.String codeBase, System.Boolean addVersion, System.Boolean addPublickey, System.Boolean defaultToken, System.Boolean assemblyRef)
     // Offset: 0x1E8DFA4
-    void FillName(Mono::MonoAssemblyName* native, ::Il2CppString* codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
+    void FillName(Mono::MonoAssemblyName* native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
     // static System.Reflection.AssemblyName Create(System.Reflection.Assembly assembly, System.Boolean fillCodebase)
     // Offset: 0x1E8F724
     static System::Reflection::AssemblyName* Create(System::Reflection::Assembly* assembly, bool fillCodebase);
@@ -319,7 +320,7 @@ namespace System::Reflection {
     // Offset: 0x1E8F194
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Reflection.AssemblyName
   #pragma pack(pop)
   static check_size<sizeof(AssemblyName), 108 + sizeof(System::Reflection::AssemblyContentType)> __System_Reflection_AssemblyNameSizeCheck;
@@ -329,7 +330,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -353,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -477,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::MonoA
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::FillName
 // Il2CppName: FillName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(Mono::MonoAssemblyName*, ::Il2CppString*, bool, bool, bool, bool)>(&System::Reflection::AssemblyName::FillName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(Mono::MonoAssemblyName*, ::StringW, bool, bool, bool, bool)>(&System::Reflection::AssemblyName::FillName)> {
   static const MethodInfo* get() {
     static auto* native = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono", "MonoAssemblyName"))->byval_arg;
     static auto* codeBase = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -505,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::AssemblyName::*)()>(&System::Reflection::AssemblyName::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

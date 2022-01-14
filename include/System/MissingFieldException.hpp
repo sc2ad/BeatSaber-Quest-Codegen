@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -39,7 +40,7 @@ namespace System {
     // public System.Void .ctor(System.String className, System.String fieldName)
     // Offset: 0x1A13E4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissingFieldException* New_ctor(::Il2CppString* className, ::Il2CppString* fieldName) {
+    static MissingFieldException* New_ctor(::StringW className, ::StringW fieldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MissingFieldException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingFieldException*, creationType>(className, fieldName)));
     }
@@ -47,7 +48,7 @@ namespace System {
     // Offset: 0x1A13BD0
     // Implemented from: System.MissingMemberException
     // Base method: System.String MissingMemberException::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x1A139A8
     // Implemented from: System.MissingMemberException
@@ -69,7 +70,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissingFieldException* New_ctor(::Il2CppString* message) {
+    static MissingFieldException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MissingFieldException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingFieldException*, creationType>(message)));
     }
@@ -96,7 +97,7 @@ namespace System {
 // Writing MetadataGetter for method: System::MissingFieldException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::MissingFieldException::*)()>(&System::MissingFieldException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::MissingFieldException::*)()>(&System::MissingFieldException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MissingFieldException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

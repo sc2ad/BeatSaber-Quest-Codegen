@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__color();
     // public System.Void InitAndPresent(System.String text, System.Single duration, UnityEngine.Vector3 targetPos, UnityEngine.Quaternion rotation, UnityEngine.Color color, System.Single fontSize, System.Boolean shake)
     // Offset: 0x11E8694
-    void InitAndPresent(::Il2CppString* text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
+    void InitAndPresent(::StringW text, float duration, UnityEngine::Vector3 targetPos, UnityEngine::Quaternion rotation, UnityEngine::Color color, float fontSize, bool shake);
     // public System.Void .ctor()
     // Offset: 0x11E8784
     // Implemented from: FlyingObjectEffect
@@ -114,7 +115,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextEffect::*)(::Il2CppString*, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color, float, bool)>(&GlobalNamespace::FlyingTextEffect::InitAndPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextEffect::*)(::StringW, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color, float, bool)>(&GlobalNamespace::FlyingTextEffect::InitAndPresent)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

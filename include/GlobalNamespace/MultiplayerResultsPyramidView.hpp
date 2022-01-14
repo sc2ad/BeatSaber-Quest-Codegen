@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -103,9 +104,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>* avatarsDictionary;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*) == 0x8);
     // private UnityEngine.GameObject[] _resultAvatarDirectors
     // Size: 0x8
     // Offset: 0x48
@@ -138,7 +139,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerResultsPyramidViewAvatar/Factory _avatarsFactory
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*& dyn__avatarsFactory();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatarDirectors
     ::ArrayW<UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines

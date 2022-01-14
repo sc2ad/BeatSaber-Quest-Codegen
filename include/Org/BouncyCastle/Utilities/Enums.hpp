@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -35,7 +36,7 @@ namespace Org::BouncyCastle::Utilities {
     public:
     // static System.Enum GetEnumValue(System.Type enumType, System.String s)
     // Offset: 0x222A570
-    static System::Enum* GetEnumValue(System::Type* enumType, ::Il2CppString* s);
+    static System::Enum* GetEnumValue(System::Type* enumType, ::StringW s);
     // static System.Array GetEnumValues(System.Type enumType)
     // Offset: 0x222A768
     static System::Array* GetEnumValues(System::Type* enumType);
@@ -52,7 +53,7 @@ namespace Org::BouncyCastle::Utilities {
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Enums::GetEnumValue
 // Il2CppName: GetEnumValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enum* (*)(System::Type*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Enums::GetEnumValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enum* (*)(System::Type*, ::StringW)>(&Org::BouncyCastle::Utilities::Enums::GetEnumValue)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -110,15 +111,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kUseToneMappingKeyword
     static constexpr const char* kUseToneMappingKeyword = "USE_TONE_MAPPING";
     // Get static field: static private System.String kUseToneMappingKeyword
-    static ::Il2CppString* _get_kUseToneMappingKeyword();
+    static ::StringW _get_kUseToneMappingKeyword();
     // Set static field: static private System.String kUseToneMappingKeyword
-    static void _set_kUseToneMappingKeyword(::Il2CppString* value);
+    static void _set_kUseToneMappingKeyword(::StringW value);
     // static field const value: static private System.String kSkyGradientShaderName
     static constexpr const char* kSkyGradientShaderName = "Hidden/SkyGradient";
     // Get static field: static private System.String kSkyGradientShaderName
-    static ::Il2CppString* _get_kSkyGradientShaderName();
+    static ::StringW _get_kSkyGradientShaderName();
     // Set static field: static private System.String kSkyGradientShaderName
-    static void _set_kSkyGradientShaderName(::Il2CppString* value);
+    static void _set_kSkyGradientShaderName(::StringW value);
     // static field const value: static private System.Int32 kTextureWidth
     static constexpr const int kTextureWidth = 128;
     // Get static field: static private System.Int32 kTextureWidth

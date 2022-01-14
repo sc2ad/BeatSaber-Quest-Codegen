@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0);
@@ -36,16 +37,16 @@ namespace UnityEngine::ProBuilder {
     // public System.String valid
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* valid;
+    ::StringW valid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return valid;
     }
     // Get instance field reference: public System.String valid
-    ::Il2CppString*& dyn_valid();
+    ::StringW& dyn_valid();
     // System.Boolean <TryParseColor>b__0(System.Char c)
     // Offset: 0x1CCD698
     bool $TryParseColor$b__0(::Il2CppChar c);
@@ -60,7 +61,7 @@ namespace UnityEngine::ProBuilder {
     }
   }; // UnityEngine.ProBuilder.InternalUtility/UnityEngine.ProBuilder.<>c__DisplayClass6_0
   #pragma pack(pop)
-  static check_size<sizeof(InternalUtility::$$c__DisplayClass6_0), 16 + sizeof(::Il2CppString*)> __UnityEngine_ProBuilder_InternalUtility_$$c__DisplayClass6_0SizeCheck;
+  static check_size<sizeof(InternalUtility::$$c__DisplayClass6_0), 16 + sizeof(::StringW)> __UnityEngine_ProBuilder_InternalUtility_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(InternalUtility::$$c__DisplayClass6_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

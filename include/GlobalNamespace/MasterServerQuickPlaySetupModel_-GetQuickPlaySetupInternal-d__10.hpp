@@ -15,6 +15,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -53,10 +54,10 @@ namespace GlobalNamespace {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1;
     public:
     // Creating value type constructor for type: $GetQuickPlaySetupInternal$d__10
-    constexpr $GetQuickPlaySetupInternal$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::MasterServerQuickPlaySetupData*> $$t__builder_ = {}, GlobalNamespace::MasterServerQuickPlaySetupModel* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $GetQuickPlaySetupInternal$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::MasterServerQuickPlaySetupData*> $$t__builder_ = {}, GlobalNamespace::MasterServerQuickPlaySetupModel* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -72,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MasterServerQuickPlaySetupModel <>4__this
     GlobalNamespace::MasterServerQuickPlaySetupModel*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
     // Offset: 0x1159080
     void MoveNext();

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -76,9 +77,9 @@ namespace GlobalNamespace {
     // private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* spriteAsyncCachedLoader;
+    GlobalNamespace::AsyncCachedLoader_2<::StringW, UnityEngine::Sprite*>* spriteAsyncCachedLoader;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::AsyncCachedLoader_2<::StringW, UnityEngine::Sprite*>*) == 0x8);
     public:
     // Creating interface conversion operator: operator GlobalNamespace::ISpriteAsyncLoader
     operator GlobalNamespace::ISpriteAsyncLoader() noexcept {
@@ -89,13 +90,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _maxNumberOfSpriteCachedElements
     int& dyn__maxNumberOfSpriteCachedElements();
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
-    GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
+    GlobalNamespace::AsyncCachedLoader_2<::StringW, UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void ClearCache()
     // Offset: 0x1183E0C
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1183E6C
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::Il2CppString* path, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
     // Offset: 0x1183F80
     // Implemented from: UnityEngine.MonoBehaviour
@@ -111,7 +112,7 @@ namespace GlobalNamespace {
     }
   }; // CachedMediaAsyncLoader
   #pragma pack(pop)
-  static check_size<sizeof(CachedMediaAsyncLoader), 32 + sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
+  static check_size<sizeof(CachedMediaAsyncLoader), 32 + sizeof(GlobalNamespace::AsyncCachedLoader_2<::StringW, UnityEngine::Sprite*>*)> __GlobalNamespace_CachedMediaAsyncLoaderSizeCheck;
   static_assert(sizeof(CachedMediaAsyncLoader) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync
 // Il2CppName: LoadSpriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::CachedMediaAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::CachedMediaAsyncLoader::*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::CachedMediaAsyncLoader::LoadSpriteAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

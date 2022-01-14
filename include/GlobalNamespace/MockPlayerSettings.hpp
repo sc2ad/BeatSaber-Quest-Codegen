@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -42,15 +43,15 @@ namespace GlobalNamespace {
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _sortIndex
     // Size: 0x4
     // Offset: 0x20
@@ -86,9 +87,9 @@ namespace GlobalNamespace {
     // private System.String _recodingFile
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* recodingFile;
+    ::StringW recodingFile;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _aiCubeHitChance
     // Size: 0x4
     // Offset: 0x38
@@ -124,9 +125,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private System.Int32 _sortIndex
     int& dyn__sortIndex();
     // Get instance field reference: private System.Single _latency
@@ -138,7 +139,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MockPlayerMovementType _movementType
     GlobalNamespace::MockPlayerMovementType& dyn__movementType();
     // Get instance field reference: private System.String _recodingFile
-    ::Il2CppString*& dyn__recodingFile();
+    ::StringW& dyn__recodingFile();
     // Get instance field reference: private System.Single _aiCubeHitChance
     float& dyn__aiCubeHitChance();
     // Get instance field reference: private System.Boolean _leftHanded
@@ -151,16 +152,16 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__obstaclesColor();
     // public System.String get_userName()
     // Offset: 0x11C2EC8
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Void set_userName(System.String value)
     // Offset: 0x11C2ED0
-    void set_userName(::Il2CppString* value);
+    void set_userName(::StringW value);
     // public System.String get_userId()
     // Offset: 0x11C2ED8
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.Void set_userId(System.String value)
     // Offset: 0x11C2EE0
-    void set_userId(::Il2CppString* value);
+    void set_userId(::StringW value);
     // public System.Int32 get_sortIndex()
     // Offset: 0x11C2EE8
     int get_sortIndex();
@@ -193,10 +194,10 @@ namespace GlobalNamespace {
     void set_movementType(GlobalNamespace::MockPlayerMovementType value);
     // public System.String get_recodingFile()
     // Offset: 0x11C2F40
-    ::Il2CppString* get_recodingFile();
+    ::StringW get_recodingFile();
     // public System.Void set_recodingFile(System.String value)
     // Offset: 0x11C2F48
-    void set_recodingFile(::Il2CppString* value);
+    void set_recodingFile(::StringW value);
     // public System.Single get_aiCubeHitChance()
     // Offset: 0x11C2F50
     float get_aiCubeHitChance();
@@ -245,7 +246,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -253,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_userName
 // Il2CppName: set_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayerSettings::set_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&GlobalNamespace::MockPlayerSettings::set_userName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -262,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_userId
 // Il2CppName: set_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayerSettings::set_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&GlobalNamespace::MockPlayerSettings::set_userId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -364,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_recodingFile
 // Il2CppName: get_recodingFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_recodingFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_recodingFile)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_recodingFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -372,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_recodingFile
 // Il2CppName: set_recodingFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayerSettings::set_recodingFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&GlobalNamespace::MockPlayerSettings::set_recodingFile)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_recodingFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

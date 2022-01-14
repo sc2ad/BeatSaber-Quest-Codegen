@@ -16,6 +16,7 @@
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -193,55 +194,55 @@ namespace System {
     // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
     // public System.Void .ctor(System.String g)
     // Offset: 0x1C43460
-    Guid(::Il2CppString* g);
+    Guid(::StringW g);
     // static private System.Void .cctor()
     // Offset: 0x1C462EC
     static void _cctor();
     // static public System.Guid Parse(System.String input)
     // Offset: 0x1C43A20
-    static System::Guid Parse(::Il2CppString* input);
+    static System::Guid Parse(::StringW input);
     // static public System.Boolean TryParse(System.String input, out System.Guid result)
     // Offset: 0x1C43B28
-    static bool TryParse(::Il2CppString* input, ByRef<System::Guid> result);
+    static bool TryParse(::StringW input, ByRef<System::Guid> result);
     // static private System.Boolean TryParseGuid(System.String g, System.Guid/System.GuidStyles flags, ref System.Guid/System.GuidResult result)
     // Offset: 0x1C43604
-    static bool TryParseGuid(::Il2CppString* g, System::Guid::GuidStyles flags, ByRef<System::Guid::GuidResult> result);
+    static bool TryParseGuid(::StringW g, System::Guid::GuidStyles flags, ByRef<System::Guid::GuidResult> result);
     // static private System.Boolean TryParseGuidWithHexPrefix(System.String guidString, ref System.Guid/System.GuidResult result)
     // Offset: 0x1C43F9C
-    static bool TryParseGuidWithHexPrefix(::Il2CppString* guidString, ByRef<System::Guid::GuidResult> result);
+    static bool TryParseGuidWithHexPrefix(::StringW guidString, ByRef<System::Guid::GuidResult> result);
     // static private System.Boolean TryParseGuidWithNoStyle(System.String guidString, ref System.Guid/System.GuidResult result)
     // Offset: 0x1C44520
-    static bool TryParseGuidWithNoStyle(::Il2CppString* guidString, ByRef<System::Guid::GuidResult> result);
+    static bool TryParseGuidWithNoStyle(::StringW guidString, ByRef<System::Guid::GuidResult> result);
     // static private System.Boolean TryParseGuidWithDashes(System.String guidString, ref System.Guid/System.GuidResult result)
     // Offset: 0x1C43C28
-    static bool TryParseGuidWithDashes(::Il2CppString* guidString, ByRef<System::Guid::GuidResult> result);
+    static bool TryParseGuidWithDashes(::StringW guidString, ByRef<System::Guid::GuidResult> result);
     // static private System.Boolean StringToShort(System.String str, System.Int32 requiredLength, System.Int32 flags, out System.Int16 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44BBC
-    static bool StringToShort(::Il2CppString* str, int requiredLength, int flags, ByRef<int16_t> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToShort(::StringW str, int requiredLength, int flags, ByRef<int16_t> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToShort(System.String str, System.Int32* parsePos, System.Int32 requiredLength, System.Int32 flags, out System.Int16 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44D8C
-    static bool StringToShort(::Il2CppString* str, int* parsePos, int requiredLength, int flags, ByRef<int16_t> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToShort(::StringW str, int* parsePos, int requiredLength, int flags, ByRef<int16_t> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToInt(System.String str, System.Int32 requiredLength, System.Int32 flags, out System.Int32 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44B24
-    static bool StringToInt(::Il2CppString* str, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToInt(::StringW str, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToInt(System.String str, ref System.Int32 parsePos, System.Int32 requiredLength, System.Int32 flags, out System.Int32 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44CE8
-    static bool StringToInt(::Il2CppString* str, ByRef<int> parsePos, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToInt(::StringW str, ByRef<int> parsePos, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToInt(System.String str, System.Int32* parsePos, System.Int32 requiredLength, System.Int32 flags, out System.Int32 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44E48
-    static bool StringToInt(::Il2CppString* str, int* parsePos, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToInt(::StringW str, int* parsePos, int requiredLength, int flags, ByRef<int> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToLong(System.String str, ref System.Int32 parsePos, System.Int32 flags, out System.Int64 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C44C54
-    static bool StringToLong(::Il2CppString* str, ByRef<int> parsePos, int flags, ByRef<int64_t> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToLong(::StringW str, ByRef<int> parsePos, int flags, ByRef<int64_t> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.Boolean StringToLong(System.String str, System.Int32* parsePos, System.Int32 flags, out System.Int64 result, ref System.Guid/System.GuidResult parseResult)
     // Offset: 0x1C45068
-    static bool StringToLong(::Il2CppString* str, int* parsePos, int flags, ByRef<int64_t> result, ByRef<System::Guid::GuidResult> parseResult);
+    static bool StringToLong(::StringW str, int* parsePos, int flags, ByRef<int64_t> result, ByRef<System::Guid::GuidResult> parseResult);
     // static private System.String EatAllWhitespace(System.String str)
     // Offset: 0x1C448F0
-    static ::Il2CppString* EatAllWhitespace(::Il2CppString* str);
+    static ::StringW EatAllWhitespace(::StringW str);
     // static private System.Boolean IsHexPrefix(System.String str, System.Int32 i)
     // Offset: 0x1C44A08
-    static bool IsHexPrefix(::Il2CppString* str, int i);
+    static bool IsHexPrefix(::StringW str, int i);
     // public System.Byte[] ToByteArray()
     // Offset: 0x1C45210
     ::ArrayW<uint8_t> ToByteArray();
@@ -259,7 +260,7 @@ namespace System {
     int CompareTo(System::Guid value);
     // public System.String ToString(System.String format)
     // Offset: 0x1C45F18
-    ::Il2CppString* ToString(::Il2CppString* format);
+    ::StringW ToString(::StringW format);
     // static private System.Char HexToChar(System.Int32 a)
     // Offset: 0x1C45F1C
     static ::Il2CppChar HexToChar(int a);
@@ -271,7 +272,7 @@ namespace System {
     static int HexsToChars(::Il2CppChar* guidChars, int offset, int a, int b, bool hex);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0x1C453CC
-    ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* provider);
+    ::StringW ToString(::StringW format, System::IFormatProvider* provider);
     // static public System.Guid NewGuid()
     // Offset: 0x1C4612C
     static System::Guid NewGuid();
@@ -279,7 +280,7 @@ namespace System {
     // Offset: 0x1C4537C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x1C4592C
     // Implemented from: System.ValueType
@@ -329,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Guid::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)(::Il2CppString*)>(&System::Guid::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)(::StringW)>(&System::Guid::Parse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -338,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Gui
 // Writing MetadataGetter for method: System::Guid::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Guid>)>(&System::Guid::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Guid>)>(&System::Guid::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid")->this_arg;
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::TryParseGuid
 // Il2CppName: TryParseGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid::GuidStyles, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Guid::GuidStyles, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuid)> {
   static const MethodInfo* get() {
     static auto* g = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidStyles")->byval_arg;
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithHexPrefix
 // Il2CppName: TryParseGuidWithHexPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithHexPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithHexPrefix)> {
   static const MethodInfo* get() {
     static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
@@ -369,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithNoStyle
 // Il2CppName: TryParseGuidWithNoStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithNoStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithNoStyle)> {
   static const MethodInfo* get() {
     static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
@@ -379,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithDashes
 // Il2CppName: TryParseGuidWithDashes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithDashes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Guid::GuidResult>)>(&System::Guid::TryParseGuidWithDashes)> {
   static const MethodInfo* get() {
     static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
@@ -389,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToShort
 // Il2CppName: StringToShort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, int, ByRef<int16_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToShort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int, int, ByRef<int16_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToShort)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -402,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToShort
 // Il2CppName: StringToShort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, int, ByRef<int16_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToShort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int*, int, int, ByRef<int16_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToShort)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
@@ -416,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToInt
 // Il2CppName: StringToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -429,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToInt
 // Il2CppName: StringToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<int>, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<int>, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -443,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToInt
 // Il2CppName: StringToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int*, int, int, ByRef<int>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToInt)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
@@ -457,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToLong
 // Il2CppName: StringToLong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<int>, int, ByRef<int64_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToLong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<int>, int, ByRef<int64_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToLong)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -470,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::StringToLong
 // Il2CppName: StringToLong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, ByRef<int64_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToLong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int*, int, ByRef<int64_t>, ByRef<System::Guid::GuidResult>)>(&System::Guid::StringToLong)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
@@ -483,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::EatAllWhitespace
 // Il2CppName: EatAllWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Guid::EatAllWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Guid::EatAllWhitespace)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "EatAllWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -492,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Guid::IsHexPrefix
 // Il2CppName: IsHexPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Guid::IsHexPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Guid::IsHexPrefix)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -547,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Guid::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Guid::*)(::Il2CppString*)>(&System::Guid::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Guid::*)(::StringW)>(&System::Guid::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -590,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Guid::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Guid::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Guid::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Guid::*)(::StringW, System::IFormatProvider*)>(&System::Guid::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -608,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Gui
 // Writing MetadataGetter for method: System::Guid::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Guid::*)()>(&System::Guid::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Guid::*)()>(&System::Guid::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

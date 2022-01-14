@@ -11,6 +11,7 @@
 #include "UnityEngine/Bounds.hpp"
 // Including type: UnityEngine.MeshTopology
 #include "UnityEngine/MeshTopology.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
@@ -124,7 +125,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x1DFB518
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.Rendering.SubMeshDescriptor
   #pragma pack(pop)
   static check_size<sizeof(SubMeshDescriptor), 44 + sizeof(int)> __UnityEngine_Rendering_SubMeshDescriptorSizeCheck;
@@ -190,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

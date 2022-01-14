@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -197,35 +198,35 @@ namespace System::IO {
     // public System.Void .ctor(System.String path)
     // Offset: 0x1AFAFAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamWriter* New_ctor(::Il2CppString* path) {
+    static StreamWriter* New_ctor(::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append)
     // Offset: 0x1AF96E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append) {
+    static StreamWriter* New_ctor(::StringW path, bool append) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding)
     // Offset: 0x1AFB274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding) {
+    static StreamWriter* New_ctor(::StringW path, bool append, System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding)));
     }
     // public System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize)
     // Offset: 0x1B0C190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize) {
+    static StreamWriter* New_ctor(::StringW path, bool append, System::Text::Encoding* encoding, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding, bufferSize)));
     }
     // System.Void .ctor(System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize, System.Boolean checkHost)
     // Offset: 0x1B0C19C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StreamWriter* New_ctor(::Il2CppString* path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost) {
+    static StreamWriter* New_ctor(::StringW path, bool append, System::Text::Encoding* encoding, int bufferSize, bool checkHost) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::StreamWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamWriter*, creationType>(path, append, encoding, bufferSize, checkHost)));
     }
@@ -237,7 +238,7 @@ namespace System::IO {
     void Init(System::IO::Stream* streamArg, System::Text::Encoding* encodingArg, int bufferSize, bool shouldLeaveOpen);
     // static private System.IO.Stream CreateFile(System.String path, System.Boolean append, System.Boolean checkHost)
     // Offset: 0x1B0C388
-    static System::IO::Stream* CreateFile(::Il2CppString* path, bool append, bool checkHost);
+    static System::IO::Stream* CreateFile(::StringW path, bool append, bool checkHost);
     // private System.Void Flush(System.Boolean flushStream, System.Boolean flushEncoder)
     // Offset: 0x1B0C5BC
     void Flush(bool flushStream, bool flushEncoder);
@@ -296,7 +297,7 @@ namespace System::IO {
     // Offset: 0x1AF5EF4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.String value)
-    void Write(::Il2CppString* value);
+    void Write(::StringW value);
   }; // System.IO.StreamWriter
   #pragma pack(pop)
   static check_size<sizeof(StreamWriter), 96 + sizeof(System::Threading::Tasks::Task*)> __System_IO_StreamWriterSizeCheck;
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::StreamWriter::CreateFile
 // Il2CppName: CreateFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(::Il2CppString*, bool, bool)>(&System::IO::StreamWriter::CreateFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(::StringW, bool, bool)>(&System::IO::StreamWriter::CreateFile)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* append = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -482,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::Il2CppString*)>(&System::IO::StreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::StringW)>(&System::IO::StreamWriter::Write)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

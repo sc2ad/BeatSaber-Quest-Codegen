@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -46,17 +47,17 @@ namespace UnityEngine::AddressableAssets::Initialization {
   class AddressablesRuntimeProperties : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.Stack`1<System.String> s_TokenStack
-    static System::Collections::Generic::Stack_1<::Il2CppString*>* _get_s_TokenStack();
+    static System::Collections::Generic::Stack_1<::StringW>* _get_s_TokenStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.String> s_TokenStack
-    static void _set_s_TokenStack(System::Collections::Generic::Stack_1<::Il2CppString*>* value);
+    static void _set_s_TokenStack(System::Collections::Generic::Stack_1<::StringW>* value);
     // Get static field: static private System.Collections.Generic.Stack`1<System.Int32> s_TokenStartStack
     static System::Collections::Generic::Stack_1<int>* _get_s_TokenStartStack();
     // Set static field: static private System.Collections.Generic.Stack`1<System.Int32> s_TokenStartStack
     static void _set_s_TokenStartStack(System::Collections::Generic::Stack_1<int>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_s_CachedValues();
+    static System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _get_s_CachedValues();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_CachedValues
-    static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    static void _set_s_CachedValues(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x160F528
     static void _cctor();
@@ -68,19 +69,19 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static int GetCachedValueCount();
     // static public System.Void SetPropertyValue(System.String name, System.String val)
     // Offset: 0x160EAE8
-    static void SetPropertyValue(::Il2CppString* name, ::Il2CppString* val);
+    static void SetPropertyValue(::StringW name, ::StringW val);
     // static public System.Void ClearCachedPropertyValues()
     // Offset: 0x160EB7C
     static void ClearCachedPropertyValues();
     // static public System.String EvaluateProperty(System.String name)
     // Offset: 0x160EBF8
-    static ::Il2CppString* EvaluateProperty(::Il2CppString* name);
+    static ::StringW EvaluateProperty(::StringW name);
     // static public System.String EvaluateString(System.String input)
     // Offset: 0x16059D4
-    static ::Il2CppString* EvaluateString(::Il2CppString* input);
+    static ::StringW EvaluateString(::StringW input);
     // static public System.String EvaluateString(System.String inputString, System.Char startDelimiter, System.Char endDelimiter, System.Func`2<System.String,System.String> varFunc)
     // Offset: 0x160F034
-    static ::Il2CppString* EvaluateString(::Il2CppString* inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::Il2CppString*, ::Il2CppString*>* varFunc);
+    static ::StringW EvaluateString(::StringW inputString, ::Il2CppChar startDelimiter, ::Il2CppChar endDelimiter, System::Func_2<::StringW, ::StringW>* varFunc);
   }; // UnityEngine.AddressableAssets.Initialization.AddressablesRuntimeProperties
   #pragma pack(pop)
 }
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue
 // Il2CppName: SetPropertyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -130,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty
 // Il2CppName: EvaluateProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*), "EvaluateProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -139,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString
 // Il2CppName: EvaluateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*), "EvaluateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString
 // Il2CppName: EvaluateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppChar, ::Il2CppChar, System::Func_2<::Il2CppString*, ::Il2CppString*>*)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppChar, ::Il2CppChar, System::Func_2<::StringW, ::StringW>*)>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   static const MethodInfo* get() {
     static auto* inputString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startDelimiter = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;

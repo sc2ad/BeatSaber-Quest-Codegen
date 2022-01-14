@@ -12,6 +12,7 @@
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,7 +51,7 @@ namespace HoudiniEngineUnity {
     static UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::Color> pointsColor, float size);
     // static public System.String GetInstanceOutputName(System.String partName, System.String[] userPrefix, System.Int32 index)
     // Offset: 0x164AC68
-    static ::Il2CppString* GetInstanceOutputName(::Il2CppString* partName, ::ArrayW<::Il2CppString*> userPrefix, int index);
+    static ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW> userPrefix, int index);
   }; // HoudiniEngineUnity.HEU_GeometryUtility
   #pragma pack(pop)
 }
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName
 // Il2CppName: GetInstanceOutputName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, int)>(&HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::StringW>, int)>(&HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName)> {
   static const MethodInfo* get() {
     static auto* partName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userPrefix = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

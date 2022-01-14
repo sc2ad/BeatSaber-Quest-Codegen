@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::LeaderboardTableView::ScoreData);
@@ -43,9 +44,9 @@ namespace GlobalNamespace {
     // private System.String <playerName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 <rank>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <score>k__BackingField
     int& dyn_$score$k__BackingField();
     // Get instance field reference: private System.String <playerName>k__BackingField
-    ::Il2CppString*& dyn_$playerName$k__BackingField();
+    ::StringW& dyn_$playerName$k__BackingField();
     // Get instance field reference: private System.Int32 <rank>k__BackingField
     int& dyn_$rank$k__BackingField();
     // Get instance field reference: private System.Boolean <fullCombo>k__BackingField
@@ -75,10 +76,10 @@ namespace GlobalNamespace {
     void set_score(int value);
     // public System.String get_playerName()
     // Offset: 0x11A3980
-    ::Il2CppString* get_playerName();
+    ::StringW get_playerName();
     // private System.Void set_playerName(System.String value)
     // Offset: 0x11A3988
-    void set_playerName(::Il2CppString* value);
+    void set_playerName(::StringW value);
     // public System.Int32 get_rank()
     // Offset: 0x11A3990
     int get_rank();
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean fullCombo)
     // Offset: 0x11A39B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardTableView::ScoreData* New_ctor(int score, ::Il2CppString* playerName, int rank, bool fullCombo) {
+    static LeaderboardTableView::ScoreData* New_ctor(int score, ::StringW playerName, int rank, bool fullCombo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardTableView::ScoreData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView::ScoreData*, creationType>(score, playerName, rank, fullCombo)));
     }
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::ScoreData::get_playerName
 // Il2CppName: get_playerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardTableView::ScoreData::*)()>(&GlobalNamespace::LeaderboardTableView::ScoreData::get_playerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LeaderboardTableView::ScoreData::*)()>(&GlobalNamespace::LeaderboardTableView::ScoreData::get_playerName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView::ScoreData*), "get_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::ScoreData::set_playerName
 // Il2CppName: set_playerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableView::ScoreData::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardTableView::ScoreData::set_playerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableView::ScoreData::*)(::StringW)>(&GlobalNamespace::LeaderboardTableView::ScoreData::set_playerName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView::ScoreData*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

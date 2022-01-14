@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -97,9 +98,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String[] names
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> names;
+    ::ArrayW<::StringW> names;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Byte[] arg_types
     // Size: 0x8
     // Offset: 0x28
@@ -141,9 +142,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String uri
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* uri;
+    ::StringW uri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.Remoting.Messaging.MCMDictionary properties
     // Size: 0x8
     // Offset: 0x60
@@ -176,19 +177,19 @@ namespace System::Runtime::Remoting::Messaging {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
     // Get static field: static System.String CallContextKey
-    static ::Il2CppString* _get_CallContextKey();
+    static ::StringW _get_CallContextKey();
     // Set static field: static System.String CallContextKey
-    static void _set_CallContextKey(::Il2CppString* value);
+    static void _set_CallContextKey(::StringW value);
     // Get static field: static System.String UriKey
-    static ::Il2CppString* _get_UriKey();
+    static ::StringW _get_UriKey();
     // Set static field: static System.String UriKey
-    static void _set_UriKey(::Il2CppString* value);
+    static void _set_UriKey(::StringW value);
     // Get instance field reference: private System.Reflection.MonoMethod method
     System::Reflection::MonoMethod*& dyn_method();
     // Get instance field reference: private System.Object[] args
     ::ArrayW<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.String[] names
-    ::ArrayW<::Il2CppString*>& dyn_names();
+    ::ArrayW<::StringW>& dyn_names();
     // Get instance field reference: private System.Byte[] arg_types
     ::ArrayW<uint8_t>& dyn_arg_types();
     // Get instance field reference: public System.Runtime.Remoting.Messaging.LogicalCallContext ctx
@@ -202,7 +203,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Messaging.CallType call_type
     System::Runtime::Remoting::Messaging::CallType& dyn_call_type();
     // Get instance field reference: private System.String uri
-    ::Il2CppString*& dyn_uri();
+    ::StringW& dyn_uri();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.MCMDictionary properties
     System::Runtime::Remoting::Messaging::MCMDictionary*& dyn_properties();
     // Get instance field reference: private System.Type[] methodSignature
@@ -229,19 +230,19 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0x1C59908
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public System.Object get_MethodSignature()
     // Offset: 0x1C59990
     ::Il2CppObject* get_MethodSignature();
     // public System.String get_TypeName()
     // Offset: 0x1C59ABC
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.String get_Uri()
     // Offset: 0x1C59B58
-    ::Il2CppString* get_Uri();
+    ::StringW get_Uri();
     // public System.Void set_Uri(System.String value)
     // Offset: 0x1C59B60
-    void set_Uri(::Il2CppString* value);
+    void set_Uri(::StringW value);
     // public System.Exception get_Exception()
     // Offset: 0x1C59BA4
     System::Exception* get_Exception();
@@ -283,7 +284,7 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.Void .ctor(System.Type type, System.String methodName, System.Object[] in_args)
     // Offset: 0x1C59718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoMethodMessage* New_ctor(System::Type* type, ::Il2CppString* methodName, ::ArrayW<::Il2CppObject*> in_args) {
+    static MonoMethodMessage* New_ctor(System::Type* type, ::StringW methodName, ::ArrayW<::Il2CppObject*> in_args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MonoMethodMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoMethodMessage*, creationType>(type, methodName, in_args)));
     }
@@ -295,7 +296,7 @@ namespace System::Runtime::Remoting::Messaging {
     void InitMessage(System::Reflection::MonoMethod* method, ::ArrayW<::Il2CppObject*> out_args);
     // static private System.Reflection.MethodInfo GetMethodInfo(System.Type type, System.String methodName)
     // Offset: 0x1C59638
-    static System::Reflection::MethodInfo* GetMethodInfo(System::Type* type, ::Il2CppString* methodName);
+    static System::Reflection::MethodInfo* GetMethodInfo(System::Type* type, ::StringW methodName);
     // public System.Object GetArg(System.Int32 arg_num)
     // Offset: 0x1C59B68
     ::Il2CppObject* GetArg(int arg_num);
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MonoMethodMessage*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -376,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MonoMethodMessage*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MonoMethodMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -392,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::set_Uri
 // Il2CppName: set_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::set_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::StringW)>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::set_Uri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MonoMethodMessage*), "set_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::GetMethodInfo
 // Il2CppName: GetMethodInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, ::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::GetMethodInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, ::StringW)>(&System::Runtime::Remoting::Messaging::MonoMethodMessage::GetMethodInfo)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

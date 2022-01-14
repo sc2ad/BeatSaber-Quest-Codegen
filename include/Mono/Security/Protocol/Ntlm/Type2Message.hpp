@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
@@ -47,9 +48,9 @@ namespace Mono::Security::Protocol::Ntlm {
     // private System.String _targetName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* targetName;
+    ::StringW targetName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] _targetInfo
     // Size: 0x8
     // Offset: 0x28
@@ -60,7 +61,7 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private System.Byte[] _nonce
     ::ArrayW<uint8_t>& dyn__nonce();
     // Get instance field reference: private System.String _targetName
-    ::Il2CppString*& dyn__targetName();
+    ::StringW& dyn__targetName();
     // Get instance field reference: private System.Byte[] _targetInfo
     ::ArrayW<uint8_t>& dyn__targetInfo();
     // public System.Byte[] get_Nonce()
@@ -68,7 +69,7 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayW<uint8_t> get_Nonce();
     // public System.String get_TargetName()
     // Offset: 0x1F98CCC
-    ::Il2CppString* get_TargetName();
+    ::StringW get_TargetName();
     // public System.Byte[] get_TargetInfo()
     // Offset: 0x1F97B6C
     ::ArrayW<uint8_t> get_TargetInfo();
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type2Message::get_TargetName
 // Il2CppName: get_TargetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&Mono::Security::Protocol::Ntlm::Type2Message::get_TargetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&Mono::Security::Protocol::Ntlm::Type2Message::get_TargetName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type2Message*), "get_TargetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

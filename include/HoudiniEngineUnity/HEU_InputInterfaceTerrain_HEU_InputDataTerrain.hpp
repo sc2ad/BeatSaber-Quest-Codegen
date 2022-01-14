@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,9 +49,9 @@ namespace HoudiniEngineUnity {
     // public System.String _heightFieldName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* heightFieldName;
+    ::StringW heightFieldName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _parentNodeID
     // Size: 0x4
     // Offset: 0x20
@@ -129,7 +130,7 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.String _heightFieldName
-    ::Il2CppString*& dyn__heightFieldName();
+    ::StringW& dyn__heightFieldName();
     // Get instance field reference: public System.Int32 _parentNodeID
     int& dyn__parentNodeID();
     // Get instance field reference: public System.Single _voxelSize

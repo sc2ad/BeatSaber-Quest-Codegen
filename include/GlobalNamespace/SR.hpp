@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -24,10 +25,10 @@ namespace GlobalNamespace {
     public:
     // static System.String Format(System.String resourceFormat, System.Object p1)
     // Offset: 0x1C95C3C
-    static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1);
+    static ::StringW Format(::StringW resourceFormat, ::Il2CppObject* p1);
     // static System.String Format(System.String resourceFormat, System.Object p1, System.Object p2)
     // Offset: 0x1C95CBC
-    static ::Il2CppString* Format(::Il2CppString* resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
+    static ::StringW Format(::StringW resourceFormat, ::Il2CppObject* p1, ::Il2CppObject* p2);
   }; // SR
   #pragma pack(pop)
 }
@@ -35,7 +36,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
   static const MethodInfo* get() {
     static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -45,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
   static const MethodInfo* get() {
     static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

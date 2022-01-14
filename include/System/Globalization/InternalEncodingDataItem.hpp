@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Forward declaring type: InternalEncodingDataItem
@@ -31,9 +29,9 @@ namespace System::Globalization {
     // System.String webName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* webName;
+    ::StringW webName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.UInt16 codePage
     // Size: 0x2
     // Offset: 0x8
@@ -42,13 +40,13 @@ namespace System::Globalization {
     static_assert(sizeof(uint16_t) == 0x2);
     public:
     // Creating value type constructor for type: InternalEncodingDataItem
-    constexpr InternalEncodingDataItem(::Il2CppString* webName_ = {}, uint16_t codePage_ = {}) noexcept : webName{webName_}, codePage{codePage_} {}
+    constexpr InternalEncodingDataItem(::StringW webName_ = {}, uint16_t codePage_ = {}) noexcept : webName{webName_}, codePage{codePage_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: System.String webName
-    ::Il2CppString*& dyn_webName();
+    ::StringW& dyn_webName();
     // Get instance field reference: System.UInt16 codePage
     uint16_t& dyn_codePage();
   }; // System.Globalization.InternalEncodingDataItem

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Audio
@@ -103,39 +104,39 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kMsHrtfSpatializerPluginName
     static constexpr const char* kMsHrtfSpatializerPluginName = "MS HRTF Spatializer";
     // Get static field: static private System.String kMsHrtfSpatializerPluginName
-    static ::Il2CppString* _get_kMsHrtfSpatializerPluginName();
+    static ::StringW _get_kMsHrtfSpatializerPluginName();
     // Set static field: static private System.String kMsHrtfSpatializerPluginName
-    static void _set_kMsHrtfSpatializerPluginName(::Il2CppString* value);
+    static void _set_kMsHrtfSpatializerPluginName(::StringW value);
     // static field const value: static private System.String kSfxVolume
     static constexpr const char* kSfxVolume = "SFXVolume";
     // Get static field: static private System.String kSfxVolume
-    static ::Il2CppString* _get_kSfxVolume();
+    static ::StringW _get_kSfxVolume();
     // Set static field: static private System.String kSfxVolume
-    static void _set_kSfxVolume(::Il2CppString* value);
+    static void _set_kSfxVolume(::StringW value);
     // static field const value: static private System.String kMainVolume
     static constexpr const char* kMainVolume = "MainVolume";
     // Get static field: static private System.String kMainVolume
-    static ::Il2CppString* _get_kMainVolume();
+    static ::StringW _get_kMainVolume();
     // Set static field: static private System.String kMainVolume
-    static void _set_kMainVolume(::Il2CppString* value);
+    static void _set_kMainVolume(::StringW value);
     // static field const value: static private System.String kMusicVolume
     static constexpr const char* kMusicVolume = "MusicVolume";
     // Get static field: static private System.String kMusicVolume
-    static ::Il2CppString* _get_kMusicVolume();
+    static ::StringW _get_kMusicVolume();
     // Set static field: static private System.String kMusicVolume
-    static void _set_kMusicVolume(::Il2CppString* value);
+    static void _set_kMusicVolume(::StringW value);
     // static field const value: static private System.String kMusicPitch
     static constexpr const char* kMusicPitch = "MusicPitch";
     // Get static field: static private System.String kMusicPitch
-    static ::Il2CppString* _get_kMusicPitch();
+    static ::StringW _get_kMusicPitch();
     // Set static field: static private System.String kMusicPitch
-    static void _set_kMusicPitch(::Il2CppString* value);
+    static void _set_kMusicPitch(::StringW value);
     // static field const value: static private System.String kMusicPitchShifterWet
     static constexpr const char* kMusicPitchShifterWet = "MusicPitchShifterWet";
     // Get static field: static private System.String kMusicPitchShifterWet
-    static ::Il2CppString* _get_kMusicPitchShifterWet();
+    static ::StringW _get_kMusicPitchShifterWet();
     // Set static field: static private System.String kMusicPitchShifterWet
-    static void _set_kMusicPitchShifterWet(::Il2CppString* value);
+    static void _set_kMusicPitchShifterWet(::StringW value);
     // Get instance field reference: private UnityEngine.Audio.AudioMixer _audioMixer
     UnityEngine::Audio::AudioMixer*& dyn__audioMixer();
     // Get instance field reference: private System.Single _spatializerPluginLatency

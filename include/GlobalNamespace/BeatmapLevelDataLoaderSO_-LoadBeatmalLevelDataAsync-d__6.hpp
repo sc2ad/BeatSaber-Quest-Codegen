@@ -14,6 +14,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -22,9 +23,6 @@ namespace GlobalNamespace {
   class BeatmapLevelDataSO;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$LoadBeatmalLevelDataAsync$d__6, "", "BeatmapLevelDataLoaderSO/<LoadBeatmalLevelDataAsync>d__6");
 // Type namespace: 
@@ -49,22 +47,22 @@ namespace GlobalNamespace {
     // public System.String levelDataAssetName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* levelDataAssetName;
+    ::StringW levelDataAssetName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String assetBundlePath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* assetBundlePath;
+    ::StringW assetBundlePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelDataSO> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1;
     public:
     // Creating value type constructor for type: $LoadBeatmalLevelDataAsync$d__6
-    constexpr $LoadBeatmalLevelDataAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelDataSO*> $$t__builder_ = {}, ::Il2CppString* levelDataAssetName_ = {}, ::Il2CppString* assetBundlePath_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelDataAssetName{levelDataAssetName_}, assetBundlePath{assetBundlePath_}, $$u__1{$$u__1_} {}
+    constexpr $LoadBeatmalLevelDataAsync$d__6(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelDataSO*> $$t__builder_ = {}, ::StringW levelDataAssetName_ = {}, ::StringW assetBundlePath_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelDataAssetName{levelDataAssetName_}, assetBundlePath{assetBundlePath_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -78,9 +76,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<BeatmapLevelDataSO> <>t__builder
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$t__builder();
     // Get instance field reference: public System.String levelDataAssetName
-    ::Il2CppString*& dyn_levelDataAssetName();
+    ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.String assetBundlePath
-    ::Il2CppString*& dyn_assetBundlePath();
+    ::StringW& dyn_assetBundlePath();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<BeatmapLevelDataSO> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelDataSO*>& dyn_$$u__1();
     // private System.Void MoveNext()

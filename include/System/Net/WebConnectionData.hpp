@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -74,9 +75,9 @@ namespace System::Net {
     // public System.String StatusDescription
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* StatusDescription;
+    ::StringW StatusDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Net.WebHeaderCollection Headers
     // Size: 0x8
     // Offset: 0x28
@@ -104,9 +105,9 @@ namespace System::Net {
     // public System.String[] Challenge
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<::Il2CppString*> Challenge;
+    ::ArrayW<::StringW> Challenge;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Net.ReadState _readState
     // Size: 0x4
     // Offset: 0x50
@@ -119,7 +120,7 @@ namespace System::Net {
     // Get instance field reference: public System.Int32 StatusCode
     int& dyn_StatusCode();
     // Get instance field reference: public System.String StatusDescription
-    ::Il2CppString*& dyn_StatusDescription();
+    ::StringW& dyn_StatusDescription();
     // Get instance field reference: public System.Net.WebHeaderCollection Headers
     System::Net::WebHeaderCollection*& dyn_Headers();
     // Get instance field reference: public System.Version Version
@@ -129,7 +130,7 @@ namespace System::Net {
     // Get instance field reference: public System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: public System.String[] Challenge
-    ::ArrayW<::Il2CppString*>& dyn_Challenge();
+    ::ArrayW<::StringW>& dyn_Challenge();
     // Get instance field reference: private System.Net.ReadState _readState
     System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()

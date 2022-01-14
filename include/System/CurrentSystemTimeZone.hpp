@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -64,7 +65,7 @@ namespace System {
     System::TimeZoneInfo*& dyn_LocalTimeZone();
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
     // Offset: 0x1B9D818
-    static bool GetTimeZoneData(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::Il2CppString*>> names, ByRef<bool> daylight_inverted);
+    static bool GetTimeZoneData(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::StringW>> names, ByRef<bool> daylight_inverted);
     // System.Void .ctor()
     // Offset: 0x1B9D6D0
     // Implemented from: System.TimeZone
@@ -89,7 +90,7 @@ namespace System {
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::GetTimeZoneData
 // Il2CppName: GetTimeZoneData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::ArrayW<int64_t>>, ByRef<::ArrayW<::Il2CppString*>>, ByRef<bool>)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::ArrayW<int64_t>>, ByRef<::ArrayW<::StringW>>, ByRef<bool>)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;

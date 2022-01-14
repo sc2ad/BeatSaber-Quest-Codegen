@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -289,7 +290,7 @@ namespace UnityEngine {
     void Render();
     // public System.Void RenderWithShader(UnityEngine.Shader shader, System.String replacementTag)
     // Offset: 0x1D04CF4
-    void RenderWithShader(UnityEngine::Shader* shader, ::Il2CppString* replacementTag);
+    void RenderWithShader(UnityEngine::Shader* shader, ::StringW replacementTag);
     // public System.Void CopyFrom(UnityEngine.Camera other)
     // Offset: 0x1D04D4C
     void CopyFrom(UnityEngine::Camera* other);
@@ -936,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::RenderWithShader
 // Il2CppName: RenderWithShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Shader*, ::Il2CppString*)>(&UnityEngine::Camera::RenderWithShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Shader*, ::StringW)>(&UnityEngine::Camera::RenderWithShader)> {
   static const MethodInfo* get() {
     static auto* shader = &::il2cpp_utils::GetClassFromName("UnityEngine", "Shader")->byval_arg;
     static auto* replacementTag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

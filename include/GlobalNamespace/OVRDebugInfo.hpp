@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -113,51 +114,51 @@ namespace GlobalNamespace {
     // private System.String strRiftPresent
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* strRiftPresent;
+    ::StringW strRiftPresent;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strFPS
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* strFPS;
+    ::StringW strFPS;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strIPD
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* strIPD;
+    ::StringW strIPD;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strFOV
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* strFOV;
+    ::StringW strFOV;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strHeight
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* strHeight;
+    ::StringW strHeight;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strDepth
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* strDepth;
+    ::StringW strDepth;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strResolutionEyeTexture
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* strResolutionEyeTexture;
+    ::StringW strResolutionEyeTexture;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String strLatencies
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* strLatencies;
+    ::StringW strLatencies;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single updateInterval
     // Size: 0x4
     // Offset: 0xB0
@@ -240,21 +241,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject texts
     UnityEngine::GameObject*& dyn_texts();
     // Get instance field reference: private System.String strRiftPresent
-    ::Il2CppString*& dyn_strRiftPresent();
+    ::StringW& dyn_strRiftPresent();
     // Get instance field reference: private System.String strFPS
-    ::Il2CppString*& dyn_strFPS();
+    ::StringW& dyn_strFPS();
     // Get instance field reference: private System.String strIPD
-    ::Il2CppString*& dyn_strIPD();
+    ::StringW& dyn_strIPD();
     // Get instance field reference: private System.String strFOV
-    ::Il2CppString*& dyn_strFOV();
+    ::StringW& dyn_strFOV();
     // Get instance field reference: private System.String strHeight
-    ::Il2CppString*& dyn_strHeight();
+    ::StringW& dyn_strHeight();
     // Get instance field reference: private System.String strDepth
-    ::Il2CppString*& dyn_strDepth();
+    ::StringW& dyn_strDepth();
     // Get instance field reference: private System.String strResolutionEyeTexture
-    ::Il2CppString*& dyn_strResolutionEyeTexture();
+    ::StringW& dyn_strResolutionEyeTexture();
     // Get instance field reference: private System.String strLatencies
-    ::Il2CppString*& dyn_strLatencies();
+    ::StringW& dyn_strLatencies();
     // Get instance field reference: private System.Single updateInterval
     float& dyn_updateInterval();
     // Get instance field reference: private System.Single accum
@@ -299,7 +300,7 @@ namespace GlobalNamespace {
     void UpdateDeviceDetection();
     // private UnityEngine.GameObject VariableObjectManager(UnityEngine.GameObject gameObject, System.String name, System.Single posY, System.String str, System.Int32 fontSize)
     // Offset: 0x13E3844
-    UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::Il2CppString* name, float posY, ::Il2CppString* str, int fontSize);
+    UnityEngine::GameObject* VariableObjectManager(UnityEngine::GameObject* gameObject, ::StringW name, float posY, ::StringW str, int fontSize);
     // private UnityEngine.GameObject ComponentComposition(UnityEngine.GameObject GO)
     // Offset: 0x13E420C
     UnityEngine::GameObject* ComponentComposition(UnityEngine::GameObject* GO);
@@ -411,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRDebugInfo::VariableObjectManager
 // Il2CppName: VariableObjectManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRDebugInfo::*)(UnityEngine::GameObject*, ::Il2CppString*, float, ::Il2CppString*, int)>(&GlobalNamespace::OVRDebugInfo::VariableObjectManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRDebugInfo::*)(UnityEngine::GameObject*, ::StringW, float, ::StringW, int)>(&GlobalNamespace::OVRDebugInfo::VariableObjectManager)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

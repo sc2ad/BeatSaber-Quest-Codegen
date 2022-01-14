@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -49,10 +50,10 @@ namespace Valve::VR {
     }
     // public System.Void Invoke(System.String pchSection, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1EC4330
-    void Invoke(::Il2CppString* pchSection, ByRef<Valve::VR::EVRSettingsError> peError);
+    void Invoke(::StringW pchSection, ByRef<Valve::VR::EVRSettingsError> peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, ref Valve.VR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1EC4718
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ByRef<Valve::VR::EVRSettingsError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchSection, ByRef<Valve::VR::EVRSettingsError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref Valve.VR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x1EC47B4
     void EndInvoke(ByRef<Valve::VR::EVRSettingsError> peError, System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_RemoveSection::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSettings::_RemoveSection::*)(::Il2CppString*, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::IVRSettings::_RemoveSection::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSettings::_RemoveSection::*)(::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::IVRSettings::_RemoveSection::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_RemoveSection::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSettings::_RemoveSection::*)(::Il2CppString*, ByRef<Valve::VR::EVRSettingsError>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSettings::_RemoveSection::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSettings::_RemoveSection::*)(::StringW, ByRef<Valve::VR::EVRSettingsError>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSettings::_RemoveSection::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->this_arg;

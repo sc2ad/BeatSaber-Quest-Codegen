@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -52,21 +53,21 @@ namespace System {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get static field: static private System.String _rangeMessage
-    static ::Il2CppString* _get__rangeMessage();
+    static ::StringW _get__rangeMessage();
     // Set static field: static private System.String _rangeMessage
-    static void _set__rangeMessage(::Il2CppString* value);
+    static void _set__rangeMessage(::StringW value);
     // Get instance field reference: private System.Object m_actualValue
     ::Il2CppObject*& dyn_m_actualValue();
     // static private System.String get_RangeMessage()
     // Offset: 0x198B078
-    static ::Il2CppString* get_RangeMessage();
+    static ::StringW get_RangeMessage();
     // public System.Void .ctor(System.String paramName, System.Object actualValue, System.String message)
     // Offset: 0x198B210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppObject* actualValue, ::Il2CppString* message) {
+    static ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::Il2CppObject* actualValue, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName, actualValue, message)));
     }
@@ -74,7 +75,7 @@ namespace System {
     // Offset: 0x198B274
     // Implemented from: System.ArgumentException
     // Base method: System.String ArgumentException::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x198B10C
     // Implemented from: System.ArgumentException
@@ -94,7 +95,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName) {
+    static ArgumentOutOfRangeException* New_ctor(::StringW paramName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName)));
     }
@@ -103,7 +104,7 @@ namespace System {
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentOutOfRangeException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message) {
+    static ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentOutOfRangeException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentOutOfRangeException*, creationType>(paramName, message)));
     }
@@ -132,7 +133,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ArgumentOutOfRangeException::get_RangeMessage
 // Il2CppName: get_RangeMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::ArgumentOutOfRangeException::get_RangeMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::ArgumentOutOfRangeException::get_RangeMessage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ArgumentOutOfRangeException*), "get_RangeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ArgumentOutOfRangeException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ArgumentOutOfRangeException::*)()>(&System::ArgumentOutOfRangeException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ArgumentOutOfRangeException::*)()>(&System::ArgumentOutOfRangeException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ArgumentOutOfRangeException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

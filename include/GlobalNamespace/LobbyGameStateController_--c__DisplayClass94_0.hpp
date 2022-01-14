@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -77,10 +78,10 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& dyn_getPlayerPermissionAsyncTcs();
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0(System.String userId, MultiplayerGameState newMultiplayerGameState)
     // Offset: 0x134BD88
-    void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::Il2CppString* userId, GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
+    void $GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0(::StringW userId, GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
     // System.Void <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
     // Offset: 0x134BFE8
-    void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::Il2CppString* userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
+    void $GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1(::StringW userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // System.Boolean <GetGameStateAndConfigurationAsync>b__2(PlayerLobbyPermissionConfigurationNetSerializable p)
     // Offset: 0x134C1DC
     bool $GetGameStateAndConfigurationAsync$b__2(GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
@@ -102,7 +103,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0
 // Il2CppName: <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::*)(::Il2CppString*, GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::*)(::StringW, GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetMultiplayerGameState_0)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newMultiplayerGameState = &::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")->byval_arg;
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1
 // Il2CppName: <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::*)(::Il2CppString*, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::*)(::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&GlobalNamespace::LobbyGameStateController::$$c__DisplayClass94_0::$GetGameStateAndConfigurationAsync$g__HandleSetPlayerPermissionConfiguration_1)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersLobbyPermissionConfiguration = &::il2cpp_utils::GetClassFromName("", "PlayersLobbyPermissionConfigurationNetSerializable")->byval_arg;

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -67,13 +68,13 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH
     static void _set_DEFAULT_LINE_LENGTH(int value);
     // Get static field: static public readonly System.String Pfx_Expected
-    static ::Il2CppString* _get_Pfx_Expected();
+    static ::StringW _get_Pfx_Expected();
     // Set static field: static public readonly System.String Pfx_Expected
-    static void _set_Pfx_Expected(::Il2CppString* value);
+    static void _set_Pfx_Expected(::StringW value);
     // Get static field: static public readonly System.String Pfx_Actual
-    static ::Il2CppString* _get_Pfx_Actual();
+    static ::StringW _get_Pfx_Actual();
     // Set static field: static public readonly System.String Pfx_Actual
-    static void _set_Pfx_Actual(::Il2CppString* value);
+    static void _set_Pfx_Actual(::StringW value);
     // Get static field: static public readonly System.Int32 PrefixLength
     static int _get_PrefixLength();
     // Set static field: static public readonly System.Int32 PrefixLength
@@ -83,7 +84,7 @@ namespace NUnit::Framework::Internal {
     // public System.Void .ctor(System.String userMessage, params System.Object[] args)
     // Offset: 0x255B1A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::ArrayW<::Il2CppObject*> args) {
+    static TextMessageWriter* New_ctor(::StringW userMessage, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TextMessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMessageWriter*, creationType>(userMessage, args)));
     }
@@ -119,7 +120,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x255B280
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    void WriteMessageLine(int level, ::StringW message, ::ArrayW<::Il2CppObject*> args);
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x255B388
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
@@ -139,7 +140,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x255B810
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::DisplayStringDifferences(System.String expected, System.String actual, System.Int32 mismatch, System.Boolean ignoreCase, System.Boolean clipping)
-    void DisplayStringDifferences(::Il2CppString* expected, ::Il2CppString* actual, int mismatch, bool ignoreCase, bool clipping);
+    void DisplayStringDifferences(::StringW expected, ::StringW actual, int mismatch, bool ignoreCase, bool clipping);
     // public override System.Void WriteActualValue(System.Object actual)
     // Offset: 0x255BAE4
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::StringW, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -280,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences
 // Il2CppName: DisplayStringDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::StringW, ::StringW, int, bool, bool)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

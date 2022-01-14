@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -48,14 +49,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.String assemblyName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* assemblyName;
+    ::StringW assemblyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public System.String assemblyName
-    ::Il2CppString*& dyn_assemblyName();
+    ::StringW& dyn_assemblyName();
     // public System.Void .ctor()
     // Offset: 0x1866430
     // Implemented from: System.Object
@@ -67,7 +68,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/System.Runtime.Serialization.Formatters.Binary.TypeNAssembly
   #pragma pack(pop)
-  static check_size<sizeof(ObjectReader::TypeNAssembly), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TypeNAssemblySizeCheck;
+  static check_size<sizeof(ObjectReader::TypeNAssembly), 24 + sizeof(::StringW)> __System_Runtime_Serialization_Formatters_Binary_ObjectReader_TypeNAssemblySizeCheck;
   static_assert(sizeof(ObjectReader::TypeNAssembly) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

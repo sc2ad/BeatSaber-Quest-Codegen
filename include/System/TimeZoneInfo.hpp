@@ -24,6 +24,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -113,21 +114,21 @@ namespace System {
     // private System.String daylightDisplayName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* daylightDisplayName;
+    ::StringW daylightDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* displayName;
+    ::StringW displayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String id
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* id;
+    ::StringW id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> transitions
     // Size: 0x8
     // Offset: 0x30
@@ -137,9 +138,9 @@ namespace System {
     // private System.String standardDisplayName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* standardDisplayName;
+    ::StringW standardDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean supportsDaylightSavingTime
     // Size: 0x1
     // Offset: 0x40
@@ -180,9 +181,9 @@ namespace System {
     // Set static field: static private System.TimeZoneInfo utc
     static void _set_utc(System::TimeZoneInfo* value);
     // Get static field: static private System.String timeZoneDirectory
-    static ::Il2CppString* _get_timeZoneDirectory();
+    static ::StringW _get_timeZoneDirectory();
     // Set static field: static private System.String timeZoneDirectory
-    static void _set_timeZoneDirectory(::Il2CppString* value);
+    static void _set_timeZoneDirectory(::StringW value);
     // Get static field: static private Microsoft.Win32.RegistryKey timeZoneKey
     static Microsoft::Win32::RegistryKey* _get_timeZoneKey();
     // Set static field: static private Microsoft.Win32.RegistryKey timeZoneKey
@@ -198,15 +199,15 @@ namespace System {
     // Get instance field reference: private System.TimeSpan baseUtcOffset
     System::TimeSpan& dyn_baseUtcOffset();
     // Get instance field reference: private System.String daylightDisplayName
-    ::Il2CppString*& dyn_daylightDisplayName();
+    ::StringW& dyn_daylightDisplayName();
     // Get instance field reference: private System.String displayName
-    ::Il2CppString*& dyn_displayName();
+    ::StringW& dyn_displayName();
     // Get instance field reference: private System.String id
-    ::Il2CppString*& dyn_id();
+    ::StringW& dyn_id();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> transitions
     System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>*& dyn_transitions();
     // Get instance field reference: private System.String standardDisplayName
-    ::Il2CppString*& dyn_standardDisplayName();
+    ::StringW& dyn_standardDisplayName();
     // Get instance field reference: private System.Boolean supportsDaylightSavingTime
     bool& dyn_supportsDaylightSavingTime();
     // Get instance field reference: private System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules
@@ -216,10 +217,10 @@ namespace System {
     System::TimeSpan get_BaseUtcOffset();
     // public System.String get_DisplayName()
     // Offset: 0x19CB6A0
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
     // public System.String get_Id()
     // Offset: 0x19CB6A8
-    ::Il2CppString* get_Id();
+    ::StringW get_Id();
     // static public System.TimeZoneInfo get_Local()
     // Offset: 0x19CB6B0
     static System::TimeZoneInfo* get_Local();
@@ -231,7 +232,7 @@ namespace System {
     static System::TimeZoneInfo* get_Utc();
     // static private System.String get_TimeZoneDirectory()
     // Offset: 0x19CC0BC
-    static ::Il2CppString* get_TimeZoneDirectory();
+    static ::StringW get_TimeZoneDirectory();
     // static private System.Boolean get_IsWindows()
     // Offset: 0x19CC128
     static bool get_IsWindows();
@@ -251,7 +252,7 @@ namespace System {
     // private System.Void .ctor(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules, System.Boolean disableDaylightSavingTime)
     // Offset: 0x19CAA20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TimeZoneInfo* New_ctor(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::Il2CppString* displayName, ::Il2CppString* standardDisplayName, ::Il2CppString* daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime) {
+    static TimeZoneInfo* New_ctor(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo*, creationType>(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime)));
     }
@@ -260,7 +261,7 @@ namespace System {
     static bool UtcOffsetOutOfRange(System::TimeSpan offset);
     // static private System.Collections.Generic.List`1<System.TimeZoneInfo/System.AdjustmentRule> CreateAdjustmentRule(System.Int32 year, out System.Int64[] data, out System.String[] names, System.String standardNameCurrentYear, System.String daylightNameCurrentYear)
     // Offset: 0x19C8CF4
-    static System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* CreateAdjustmentRule(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::Il2CppString*>> names, ::Il2CppString* standardNameCurrentYear, ::Il2CppString* daylightNameCurrentYear);
+    static System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* CreateAdjustmentRule(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::StringW>> names, ::StringW standardNameCurrentYear, ::StringW daylightNameCurrentYear);
     // static private System.TimeZoneInfo CreateLocalUnity()
     // Offset: 0x19C95A8
     static System::TimeZoneInfo* CreateLocalUnity();
@@ -293,34 +294,34 @@ namespace System {
     static System::TimeZoneInfo* GetLocalTimeZoneInfoWinRTFallback();
     // static System.String GetLocalTimeZoneKeyNameWin32Fallback()
     // Offset: 0x19CB06C
-    static ::Il2CppString* GetLocalTimeZoneKeyNameWin32Fallback();
+    static ::StringW GetLocalTimeZoneKeyNameWin32Fallback();
     // static System.TimeZoneInfo FindSystemTimeZoneByIdWinRTFallback(System.String id)
     // Offset: 0x19CB17C
-    static System::TimeZoneInfo* FindSystemTimeZoneByIdWinRTFallback(::Il2CppString* id);
+    static System::TimeZoneInfo* FindSystemTimeZoneByIdWinRTFallback(::StringW id);
     // static System.Collections.Generic.List`1<System.TimeZoneInfo> GetSystemTimeZonesWinRTFallback()
     // Offset: 0x19CB4EC
     static System::Collections::Generic::List_1<System::TimeZoneInfo*>* GetSystemTimeZonesWinRTFallback();
     // static private System.Int32 readlink(System.String path, System.Byte[] buffer, System.Int32 buflen)
     // Offset: 0x19CBC1C
-    static int readlink(::Il2CppString* path, ::ArrayW<uint8_t> buffer, int buflen);
+    static int readlink(::StringW path, ::ArrayW<uint8_t> buffer, int buflen);
     // static private System.String readlink(System.String path)
     // Offset: 0x19CBCD4
-    static ::Il2CppString* readlink(::Il2CppString* path);
+    static ::StringW readlink(::StringW path);
     // static private System.Boolean TryGetNameFromPath(System.String path, out System.String name)
     // Offset: 0x19CBE84
-    static bool TryGetNameFromPath(::Il2CppString* path, ByRef<::Il2CppString*> name);
+    static bool TryGetNameFromPath(::StringW path, ByRef<::StringW> name);
     // static private System.TimeZoneInfo CreateLocal()
     // Offset: 0x19CB768
     static System::TimeZoneInfo* CreateLocal();
     // static private System.TimeZoneInfo FindSystemTimeZoneByIdCore(System.String id)
     // Offset: 0x19CC6E4
-    static System::TimeZoneInfo* FindSystemTimeZoneByIdCore(::Il2CppString* id);
+    static System::TimeZoneInfo* FindSystemTimeZoneByIdCore(::StringW id);
     // static private System.Void GetSystemTimeZonesCore(System.Collections.Generic.List`1<System.TimeZoneInfo> systemTimeZones)
     // Offset: 0x19CC768
     static void GetSystemTimeZonesCore(System::Collections::Generic::List_1<System::TimeZoneInfo*>* systemTimeZones);
     // static private System.String TrimSpecial(System.String str)
     // Offset: 0x19CC2A4
-    static ::Il2CppString* TrimSpecial(::Il2CppString* str);
+    static ::StringW TrimSpecial(::StringW str);
     // static private System.Boolean TryAddTicks(System.DateTime date, System.Int64 ticks, out System.DateTime result, System.DateTimeKind kind)
     // Offset: 0x19CD1B0
     static bool TryAddTicks(System::DateTime date, int64_t ticks, ByRef<System::DateTime> result, System::DateTimeKind kind);
@@ -347,25 +348,25 @@ namespace System {
     static System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(System::DateTime time, ByRef<bool> isAmbiguousLocalDst);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName)
     // Offset: 0x19CD1A0
-    static System::TimeZoneInfo* CreateCustomTimeZone(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::Il2CppString* displayName, ::Il2CppString* standardDisplayName);
+    static System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules)
     // Offset: 0x19CDC18
-    static System::TimeZoneInfo* CreateCustomTimeZone(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::Il2CppString* displayName, ::Il2CppString* standardDisplayName, ::Il2CppString* daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules);
+    static System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules);
     // static public System.TimeZoneInfo CreateCustomTimeZone(System.String id, System.TimeSpan baseUtcOffset, System.String displayName, System.String standardDisplayName, System.String daylightDisplayName, System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules, System.Boolean disableDaylightSavingTime)
     // Offset: 0x19C998C
-    static System::TimeZoneInfo* CreateCustomTimeZone(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::Il2CppString* displayName, ::Il2CppString* standardDisplayName, ::Il2CppString* daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime);
+    static System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules, bool disableDaylightSavingTime);
     // public System.Boolean Equals(System.TimeZoneInfo other)
     // Offset: 0x19CDC94
     bool Equals(System::TimeZoneInfo* other);
     // static public System.TimeZoneInfo FindSystemTimeZoneById(System.String id)
     // Offset: 0x19CC418
-    static System::TimeZoneInfo* FindSystemTimeZoneById(::Il2CppString* id);
+    static System::TimeZoneInfo* FindSystemTimeZoneById(::StringW id);
     // static private System.TimeZoneInfo FindSystemTimeZoneByFileName(System.String id, System.String filepath)
     // Offset: 0x19CC564
-    static System::TimeZoneInfo* FindSystemTimeZoneByFileName(::Il2CppString* id, ::Il2CppString* filepath);
+    static System::TimeZoneInfo* FindSystemTimeZoneByFileName(::StringW id, ::StringW filepath);
     // static private System.TimeZoneInfo FromRegistryKey(System.String id, Microsoft.Win32.RegistryKey key)
     // Offset: 0x19CDE68
-    static System::TimeZoneInfo* FromRegistryKey(::Il2CppString* id, Microsoft::Win32::RegistryKey* key);
+    static System::TimeZoneInfo* FromRegistryKey(::StringW id, Microsoft::Win32::RegistryKey* key);
     // static private System.Void ParseRegTzi(System.Collections.Generic.List`1<System.TimeZoneInfo/System.AdjustmentRule> adjustmentRules, System.Int32 start_year, System.Int32 end_year, System.Byte[] buffer)
     // Offset: 0x19CE390
     static void ParseRegTzi(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules, int start_year, int end_year, ::ArrayW<uint8_t> buffer);
@@ -410,7 +411,7 @@ namespace System {
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // static private System.Void Validate(System.String id, System.TimeSpan baseUtcOffset, System.TimeZoneInfo/System.AdjustmentRule[] adjustmentRules)
     // Offset: 0x19CFE90
-    static void Validate(::Il2CppString* id, System::TimeSpan baseUtcOffset, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules);
+    static void Validate(::StringW id, System::TimeSpan baseUtcOffset, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> adjustmentRules);
     // private System.TimeZoneInfo/System.AdjustmentRule GetApplicableRule(System.DateTime dateTime)
     // Offset: 0x19CF268
     System::TimeZoneInfo::AdjustmentRule* GetApplicableRule(System::DateTime dateTime);
@@ -425,7 +426,7 @@ namespace System {
     static ::ArrayW<System::TimeZoneInfo::AdjustmentRule*> ValidateRules(System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* adjustmentRules);
     // static private System.TimeZoneInfo BuildFromStream(System.String id, System.IO.Stream stream)
     // Offset: 0x19CE1DC
-    static System::TimeZoneInfo* BuildFromStream(::Il2CppString* id, System::IO::Stream* stream);
+    static System::TimeZoneInfo* BuildFromStream(::StringW id, System::IO::Stream* stream);
     // static private System.Boolean ValidTZFile(System.Byte[] buffer, System.Int32 length)
     // Offset: 0x19D05BC
     static bool ValidTZFile(::ArrayW<uint8_t> buffer, int length);
@@ -437,13 +438,13 @@ namespace System {
     static int ReadBigEndianInt32(::ArrayW<uint8_t> buffer, int start);
     // static private System.TimeZoneInfo ParseTZBuffer(System.String id, System.Byte[] buffer, System.Int32 length)
     // Offset: 0x19D06AC
-    static System::TimeZoneInfo* ParseTZBuffer(::Il2CppString* id, ::ArrayW<uint8_t> buffer, int length);
+    static System::TimeZoneInfo* ParseTZBuffer(::StringW id, ::ArrayW<uint8_t> buffer, int length);
     // static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> ParseAbbreviations(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x19D110C
-    static System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* ParseAbbreviations(::ArrayW<uint8_t> buffer, int index, int count);
+    static System::Collections::Generic::Dictionary_2<int, ::StringW>* ParseAbbreviations(::ArrayW<uint8_t> buffer, int index, int count);
     // static private System.Collections.Generic.Dictionary`2<System.Int32,System.TimeType> ParseTimesTypes(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Collections.Generic.Dictionary`2<System.Int32,System.String> abbreviations)
     // Offset: 0x19D12DC
-    static System::Collections::Generic::Dictionary_2<int, System::TimeType*>* ParseTimesTypes(::ArrayW<uint8_t> buffer, int index, int count, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* abbreviations);
+    static System::Collections::Generic::Dictionary_2<int, System::TimeType*>* ParseTimesTypes(::ArrayW<uint8_t> buffer, int index, int count, System::Collections::Generic::Dictionary_2<int, ::StringW>* abbreviations);
     // static private System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeType>> ParseTransitions(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Collections.Generic.Dictionary`2<System.Int32,System.TimeType> time_types)
     // Offset: 0x19D1474
     static System::Collections::Generic::List_1<System::Collections::Generic::KeyValuePair_2<System::DateTime, System::TimeType*>>* ParseTransitions(::ArrayW<uint8_t> buffer, int index, int count, System::Collections::Generic::Dictionary_2<int, System::TimeType*>* time_types);
@@ -482,7 +483,7 @@ namespace System {
     // Offset: 0x19D02C0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.TimeZoneInfo
   #pragma pack(pop)
   static check_size<sizeof(TimeZoneInfo), 72 + sizeof(::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)> __System_TimeZoneInfoSizeCheck;
@@ -500,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -508,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TimeZoneInfo::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::get_Id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -540,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::get_TimeZoneDirectory
 // Il2CppName: get_TimeZoneDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::TimeZoneInfo::get_TimeZoneDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::TimeZoneInfo::get_TimeZoneDirectory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "get_TimeZoneDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -589,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::TimeZoneInfo::CreateAdjustmentRule
 // Il2CppName: CreateAdjustmentRule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* (*)(int, ByRef<::ArrayW<int64_t>>, ByRef<::ArrayW<::Il2CppString*>>, ::Il2CppString*, ::Il2CppString*)>(&System::TimeZoneInfo::CreateAdjustmentRule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::TimeZoneInfo::AdjustmentRule*>* (*)(int, ByRef<::ArrayW<int64_t>>, ByRef<::ArrayW<::StringW>>, ::StringW, ::StringW)>(&System::TimeZoneInfo::CreateAdjustmentRule)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->this_arg;
@@ -700,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback
 // Il2CppName: GetLocalTimeZoneKeyNameWin32Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::TimeZoneInfo::GetLocalTimeZoneKeyNameWin32Fallback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "GetLocalTimeZoneKeyNameWin32Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -708,7 +709,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback
 // Il2CppName: FindSystemTimeZoneByIdWinRTFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&System::TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW)>(&System::TimeZoneInfo::FindSystemTimeZoneByIdWinRTFallback)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "FindSystemTimeZoneByIdWinRTFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -725,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::TimeZoneInfo::readlink
 // Il2CppName: readlink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&System::TimeZoneInfo::readlink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::ArrayW<uint8_t>, int)>(&System::TimeZoneInfo::readlink)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -736,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::TimeZoneInfo::readlink
 // Il2CppName: readlink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TimeZoneInfo::readlink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::TimeZoneInfo::readlink)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "readlink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -745,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TimeZoneInfo::TryGetNameFromPath
 // Il2CppName: TryGetNameFromPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::Il2CppString*>)>(&System::TimeZoneInfo::TryGetNameFromPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>)>(&System::TimeZoneInfo::TryGetNameFromPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -763,7 +764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::FindSystemTimeZoneByIdCore
 // Il2CppName: FindSystemTimeZoneByIdCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&System::TimeZoneInfo::FindSystemTimeZoneByIdCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW)>(&System::TimeZoneInfo::FindSystemTimeZoneByIdCore)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "FindSystemTimeZoneByIdCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -781,7 +782,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::TimeZoneInfo::TrimSpecial
 // Il2CppName: TrimSpecial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TimeZoneInfo::TrimSpecial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::TimeZoneInfo::TrimSpecial)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "TrimSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -873,7 +874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::CreateCustomTimeZone
 // Il2CppName: CreateCustomTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, System::TimeSpan, ::StringW, ::StringW)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseUtcOffset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -885,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::CreateCustomTimeZone
 // Il2CppName: CreateCustomTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, System::TimeSpan, ::StringW, ::StringW, ::StringW, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseUtcOffset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -899,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::CreateCustomTimeZone
 // Il2CppName: CreateCustomTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::TimeSpan, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>, bool)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, System::TimeSpan, ::StringW, ::StringW, ::StringW, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>, bool)>(&System::TimeZoneInfo::CreateCustomTimeZone)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseUtcOffset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -923,7 +924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::TimeZoneInfo::FindSystemTimeZoneById
 // Il2CppName: FindSystemTimeZoneById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*)>(&System::TimeZoneInfo::FindSystemTimeZoneById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW)>(&System::TimeZoneInfo::FindSystemTimeZoneById)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "FindSystemTimeZoneById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -932,7 +933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::FindSystemTimeZoneByFileName
 // Il2CppName: FindSystemTimeZoneByFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::Il2CppString*)>(&System::TimeZoneInfo::FindSystemTimeZoneByFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, ::StringW)>(&System::TimeZoneInfo::FindSystemTimeZoneByFileName)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filepath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -942,7 +943,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::FromRegistryKey
 // Il2CppName: FromRegistryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, Microsoft::Win32::RegistryKey*)>(&System::TimeZoneInfo::FromRegistryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, Microsoft::Win32::RegistryKey*)>(&System::TimeZoneInfo::FromRegistryKey)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
@@ -1088,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TimeZoneInfo::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::TimeSpan, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)>(&System::TimeZoneInfo::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::TimeSpan, ::ArrayW<System::TimeZoneInfo::AdjustmentRule*>)>(&System::TimeZoneInfo::Validate)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseUtcOffset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -1139,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::TimeZoneInfo::BuildFromStream
 // Il2CppName: BuildFromStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, System::IO::Stream*)>(&System::TimeZoneInfo::BuildFromStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, System::IO::Stream*)>(&System::TimeZoneInfo::BuildFromStream)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
@@ -1178,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::TimeZoneInfo::ParseTZBuffer
 // Il2CppName: ParseTZBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&System::TimeZoneInfo::ParseTZBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo* (*)(::StringW, ::ArrayW<uint8_t>, int)>(&System::TimeZoneInfo::ParseTZBuffer)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -1189,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: System::TimeZoneInfo::ParseAbbreviations
 // Il2CppName: ParseAbbreviations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* (*)(::ArrayW<uint8_t>, int, int)>(&System::TimeZoneInfo::ParseAbbreviations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::StringW>* (*)(::ArrayW<uint8_t>, int, int)>(&System::TimeZoneInfo::ParseAbbreviations)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1200,7 +1201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::TimeZoneInfo::ParseTimesTypes
 // Il2CppName: ParseTimesTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::TimeType*>* (*)(::ArrayW<uint8_t>, int, int, System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)>(&System::TimeZoneInfo::ParseTimesTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, System::TimeType*>* (*)(::ArrayW<uint8_t>, int, int, System::Collections::Generic::Dictionary_2<int, ::StringW>*)>(&System::TimeZoneInfo::ParseTimesTypes)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1286,7 +1287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::TimeZoneInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TimeZoneInfo::*)()>(&System::TimeZoneInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

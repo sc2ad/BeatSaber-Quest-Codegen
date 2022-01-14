@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -87,7 +88,7 @@ namespace RootMotion::FinalIK {
     void set_initiated(bool value);
     // public System.Boolean IsValid(ref System.String errorMessage)
     // Offset: 0x1E71108
-    bool IsValid(ByRef<::Il2CppString*> errorMessage);
+    bool IsValid(ByRef<::StringW> errorMessage);
     // public System.Void AutoDetect()
     // Offset: 0x1E71194
     void AutoDetect();
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FingerRig::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)(ByRef<::StringW>)>(&RootMotion::FinalIK::FingerRig::IsValid)> {
   static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});

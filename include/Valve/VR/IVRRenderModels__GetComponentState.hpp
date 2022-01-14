@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -53,10 +54,10 @@ namespace Valve::VR {
     }
     // public System.Boolean Invoke(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState)
     // Offset: 0x1EBD5AC
-    bool Invoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState);
+    bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1EBDA24
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ::Il2CppString* pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState, System.IAsyncResult result)
     // Offset: 0x1EBDB14
     bool EndInvoke(ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState, System::IAsyncResult* result);
@@ -71,7 +72,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_GetComponentState::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRRenderModels::_GetComponentState::*)(::Il2CppString*, ::Il2CppString*, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::IVRRenderModels::_GetComponentState::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRRenderModels::_GetComponentState::*)(::StringW, ::StringW, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::IVRRenderModels::_GetComponentState::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -84,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_GetComponentState::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRRenderModels::_GetComponentState::*)(::Il2CppString*, ::Il2CppString*, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRRenderModels::_GetComponentState::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRRenderModels::_GetComponentState::*)(::StringW, ::StringW, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRRenderModels::_GetComponentState::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

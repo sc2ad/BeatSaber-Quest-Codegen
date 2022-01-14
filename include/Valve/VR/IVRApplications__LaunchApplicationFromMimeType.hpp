@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -49,10 +50,10 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRApplicationError Invoke(System.String pchMimeType, System.String pchArgs)
     // Offset: 0x18C3030
-    Valve::VR::EVRApplicationError Invoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
+    Valve::VR::EVRApplicationError Invoke(::StringW pchMimeType, ::StringW pchArgs);
     // public System.IAsyncResult BeginInvoke(System.String pchMimeType, System.String pchArgs, System.AsyncCallback callback, System.Object object)
     // Offset: 0x18CFD58
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::StringW pchArgs, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0x18CFD88
     Valve::VR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::*)(::Il2CppString*, ::Il2CppString*)>(&Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::*)(::StringW, ::StringW)>(&Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchArgs = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::*)(::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::*)(::StringW, ::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_LaunchApplicationFromMimeType::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchArgs = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

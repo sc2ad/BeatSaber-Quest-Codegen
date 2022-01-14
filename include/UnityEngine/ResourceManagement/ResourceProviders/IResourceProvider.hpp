@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceProviders
@@ -25,7 +26,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
@@ -46,7 +46,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     public:
     // public System.String get_ProviderId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ProviderId();
+    ::StringW get_ProviderId();
     // public UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags get_BehaviourFlags()
     // Offset: 0xFFFFFFFF
     UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags get_BehaviourFlags();
@@ -69,7 +69,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_ProviderId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_ProviderId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

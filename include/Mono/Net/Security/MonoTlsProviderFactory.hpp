@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Guid
 #include "System/Guid.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -56,9 +57,9 @@ namespace Mono::Net::Security {
     // Set static field: static private Mono.Security.Interface.MonoTlsProvider defaultProvider
     static void _set_defaultProvider(Mono::Security::Interface::MonoTlsProvider* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Tuple`2<System.Guid,System.String>> providerRegistration
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Tuple_2<System::Guid, ::Il2CppString*>*>* _get_providerRegistration();
+    static System::Collections::Generic::Dictionary_2<::StringW, System::Tuple_2<System::Guid, ::StringW>*>* _get_providerRegistration();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Tuple`2<System.Guid,System.String>> providerRegistration
-    static void _set_providerRegistration(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Tuple_2<System::Guid, ::Il2CppString*>*>* value);
+    static void _set_providerRegistration(System::Collections::Generic::Dictionary_2<::StringW, System::Tuple_2<System::Guid, ::StringW>*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Guid,Mono.Security.Interface.MonoTlsProvider> providerCache
     static System::Collections::Generic::Dictionary_2<System::Guid, Mono::Security::Interface::MonoTlsProvider*>* _get_providerCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Guid,Mono.Security.Interface.MonoTlsProvider> providerCache
@@ -90,7 +91,7 @@ namespace Mono::Net::Security {
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
     // Offset: 0x1834308
-    static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::Il2CppString* name, bool throwOnError);
+    static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::StringW name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
     // Offset: 0x1833EA8
     static void InitializeProviderRegistration();
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::LookupProvider
 // Il2CppName: LookupProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)(::Il2CppString*, bool)>(&Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)(::StringW, bool)>(&Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

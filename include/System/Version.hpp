@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -156,7 +157,7 @@ namespace System {
     // public System.Void .ctor(System.String version)
     // Offset: 0x25D55C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Version* New_ctor(::Il2CppString* version) {
+    static Version* New_ctor(::StringW version) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Version::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Version*, creationType>(version)));
     }
@@ -177,19 +178,19 @@ namespace System {
     bool Equals(System::Version* obj);
     // public System.String ToString(System.Int32 fieldCount)
     // Offset: 0x25D5C78
-    ::Il2CppString* ToString(int fieldCount);
+    ::StringW ToString(int fieldCount);
     // static private System.Void AppendPositiveNumber(System.Int32 num, System.Text.StringBuilder sb)
     // Offset: 0x25D6034
     static void AppendPositiveNumber(int num, System::Text::StringBuilder* sb);
     // static public System.Version Parse(System.String input)
     // Offset: 0x25D5674
-    static System::Version* Parse(::Il2CppString* input);
+    static System::Version* Parse(::StringW input);
     // static private System.Boolean TryParseVersion(System.String version, ref System.Version/System.VersionResult result)
     // Offset: 0x25D60CC
-    static bool TryParseVersion(::Il2CppString* version, ByRef<System::Version::VersionResult> result);
+    static bool TryParseVersion(::StringW version, ByRef<System::Version::VersionResult> result);
     // static private System.Boolean TryParseComponent(System.String component, System.String componentName, ref System.Version/System.VersionResult result, out System.Int32 parsedComponent)
     // Offset: 0x25D65E8
-    static bool TryParseComponent(::Il2CppString* component, ::Il2CppString* componentName, ByRef<System::Version::VersionResult> result, ByRef<int> parsedComponent);
+    static bool TryParseComponent(::StringW component, ::StringW componentName, ByRef<System::Version::VersionResult> result, ByRef<int> parsedComponent);
     // public System.Void .ctor()
     // Offset: 0x25D577C
     // Implemented from: System.Object
@@ -213,7 +214,7 @@ namespace System {
     // Offset: 0x25D5C50
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Version
   #pragma pack(pop)
   static check_size<sizeof(Version), 28 + sizeof(int)> __System_VersionSizeCheck;
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Version::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Version::*)(int)>(&System::Version::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Version::*)(int)>(&System::Version::ToString)> {
   static const MethodInfo* get() {
     static auto* fieldCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Version*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fieldCount});
@@ -351,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::Version::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::Il2CppString*)>(&System::Version::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::StringW)>(&System::Version::Parse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Version*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 // Writing MetadataGetter for method: System::Version::TryParseVersion
 // Il2CppName: TryParseVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Version::VersionResult>)>(&System::Version::TryParseVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Version::VersionResult>)>(&System::Version::TryParseVersion)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Version/VersionResult")->this_arg;
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Version::TryParseComponent
 // Il2CppName: TryParseComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ByRef<System::Version::VersionResult>, ByRef<int>)>(&System::Version::TryParseComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ByRef<System::Version::VersionResult>, ByRef<int>)>(&System::Version::TryParseComponent)> {
   static const MethodInfo* get() {
     static auto* component = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* componentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -403,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Version::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Version::*)()>(&System::Version::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Version::*)()>(&System::Version::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Version*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

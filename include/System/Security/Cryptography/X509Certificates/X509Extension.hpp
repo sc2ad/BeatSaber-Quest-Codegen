@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
@@ -60,13 +61,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
     // Offset: 0x19E2070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Extension* New_ctor(::Il2CppString* oid, ::ArrayW<uint8_t> rawData, bool critical) {
+    static X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
     // Offset: 0x19D637C
-    ::Il2CppString* FormatUnkownData(::ArrayW<uint8_t> data);
+    ::StringW FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
     // Offset: 0x19D58E4
     // Implemented from: System.Security.Cryptography.AsnEncodedData
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData
 // Il2CppName: FormatUnkownData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509Extension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::X509Certificates::X509Extension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Extension*), "FormatUnkownData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,44 +63,44 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>* levelIdToProductData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>* levelPackIdToProductData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* assetFileToSku;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* assetFileToSku;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusLevelProductsModelSO/LevelPackProductData[] _levelPackProductsData
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>& dyn__levelPackProductsData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelProductData> _levelIdToProductData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*>*& dyn__levelIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OculusLevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__assetFileToSku();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
     // Offset: 0x1368224
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
     // Offset: 0x13641C4
-    GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::Il2CppString* levelId);
+    GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
     // Offset: 0x13683C4
-    GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::Il2CppString* levelPackId);
+    GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
     // Offset: 0x1368444
-    ::Il2CppString* GetLevelSku(::Il2CppString* assetFile);
+    ::StringW GetLevelSku(::StringW assetFile);
     // public System.Void .ctor()
     // Offset: 0x13684C4
     // Implemented from: PersistentScriptableObject
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
     void OnEnable();
   }; // OculusLevelProductsModelSO
   #pragma pack(pop)
-  static check_size<sizeof(OculusLevelProductsModelSO), 48 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)> __GlobalNamespace_OculusLevelProductsModelSOSizeCheck;
+  static check_size<sizeof(OculusLevelProductsModelSO), 48 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)> __GlobalNamespace_OculusLevelProductsModelSOSizeCheck;
   static_assert(sizeof(OculusLevelProductsModelSO) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Gl
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::GetLevelProductData
 // Il2CppName: GetLevelProductData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* (GlobalNamespace::OculusLevelProductsModelSO::*)(::Il2CppString*)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelProductData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* (GlobalNamespace::OculusLevelProductsModelSO::*)(::StringW)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelProductData)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "GetLevelProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::GetLevelPackProductData
 // Il2CppName: GetLevelPackProductData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* (GlobalNamespace::OculusLevelProductsModelSO::*)(::Il2CppString*)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelPackProductData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* (GlobalNamespace::OculusLevelProductsModelSO::*)(::StringW)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelPackProductData)> {
   static const MethodInfo* get() {
     static auto* levelPackId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "GetLevelPackProductData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelPackId});
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::GetLevelSku
 // Il2CppName: GetLevelSku
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusLevelProductsModelSO::*)(::Il2CppString*)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelSku)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OculusLevelProductsModelSO::*)(::StringW)>(&GlobalNamespace::OculusLevelProductsModelSO::GetLevelSku)> {
   static const MethodInfo* get() {
     static auto* assetFile = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO*), "GetLevelSku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFile});

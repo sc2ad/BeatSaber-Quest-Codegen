@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,9 +55,9 @@ namespace GlobalNamespace {
     // public readonly System.String[] objectIds
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> objectIds;
+    ::ArrayW<::StringW> objectIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public readonly System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes
     // Size: 0x8
     // Offset: 0x18
@@ -65,20 +66,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String[] objectIds
-    ::ArrayW<::Il2CppString*>& dyn_objectIds();
+    ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes
     System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*& dyn_keyframes();
     // public System.Void .ctor(System.String[] objectIds)
     // Offset: 0x11AE11C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingData* New_ctor(::ArrayW<::Il2CppString*> objectIds) {
+    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds)));
     }
     // public System.Void .ctor(System.String[] objectIds, System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes)
     // Offset: 0x11AE464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingData* New_ctor(::ArrayW<::Il2CppString*> objectIds, System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes) {
+    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, keyframes)));
     }

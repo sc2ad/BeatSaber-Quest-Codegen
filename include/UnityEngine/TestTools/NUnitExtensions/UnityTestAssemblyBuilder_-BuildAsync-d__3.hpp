@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -96,9 +97,9 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options;
+    System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*) == 0x8);
     // private NUnit.Framework.Internal.TestSuite <suite>5__2
     // Size: 0x8
     // Offset: 0x40
@@ -127,7 +128,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: public UnityEngine.TestTools.TestPlatform[] testPlatforms
     ::ArrayW<UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
     // Get instance field reference: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_options();
+    System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*& dyn_options();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite <suite>5__2
     NUnit::Framework::Internal::TestSuite*& dyn_$suite$5__2();
     // Get instance field reference: private System.Int32 <index>5__3

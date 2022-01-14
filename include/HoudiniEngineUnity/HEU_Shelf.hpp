@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -51,15 +52,15 @@ namespace HoudiniEngineUnity {
     // public System.String _shelfName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* shelfName;
+    ::StringW shelfName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _shelfPath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* shelfPath;
+    ::StringW shelfPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _defaultShelf
     // Size: 0x1
     // Offset: 0x20
@@ -76,9 +77,9 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
     public:
     // Get instance field reference: public System.String _shelfName
-    ::Il2CppString*& dyn__shelfName();
+    ::StringW& dyn__shelfName();
     // Get instance field reference: public System.String _shelfPath
-    ::Il2CppString*& dyn__shelfPath();
+    ::StringW& dyn__shelfPath();
     // Get instance field reference: public System.Boolean _defaultShelf
     bool& dyn__defaultShelf();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools

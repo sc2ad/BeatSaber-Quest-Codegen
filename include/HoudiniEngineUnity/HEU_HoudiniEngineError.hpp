@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -40,16 +41,16 @@ namespace HoudiniEngineUnity {
     // protected System.String _errorMsg
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* errorMsg;
+    ::StringW errorMsg;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return errorMsg;
     }
     // Get instance field reference: protected System.String _errorMsg
-    ::Il2CppString*& dyn__errorMsg();
+    ::StringW& dyn__errorMsg();
     // public System.Void .ctor()
     // Offset: 0x158AAD0
     // Implemented from: System.Exception
@@ -65,7 +66,7 @@ namespace HoudiniEngineUnity {
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String errorMsg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_HoudiniEngineError* New_ctor(::Il2CppString* errorMsg) {
+    static HEU_HoudiniEngineError* New_ctor(::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_HoudiniEngineError::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniEngineError*, creationType>(errorMsg)));
     }
@@ -73,10 +74,10 @@ namespace HoudiniEngineUnity {
     // Offset: 0x158ABD4
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // HoudiniEngineUnity.HEU_HoudiniEngineError
   #pragma pack(pop)
-  static check_size<sizeof(HEU_HoudiniEngineError), 136 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_HoudiniEngineErrorSizeCheck;
+  static check_size<sizeof(HEU_HoudiniEngineError), 136 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_HoudiniEngineErrorSizeCheck;
   static_assert(sizeof(HEU_HoudiniEngineError) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -91,7 +92,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniEngineError::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_HoudiniEngineError::*)()>(&HoudiniEngineUnity::HEU_HoudiniEngineError::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_HoudiniEngineError::*)()>(&HoudiniEngineUnity::HEU_HoudiniEngineError::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniEngineError*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

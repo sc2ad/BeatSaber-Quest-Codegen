@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -275,13 +276,13 @@ namespace GlobalNamespace {
     void set_eyes(::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform> value);
     // public System.String get_hmd_TrackingSystemName()
     // Offset: 0x15B4D30
-    ::Il2CppString* get_hmd_TrackingSystemName();
+    ::StringW get_hmd_TrackingSystemName();
     // public System.String get_hmd_ModelNumber()
     // Offset: 0x15B4E84
-    ::Il2CppString* get_hmd_ModelNumber();
+    ::StringW get_hmd_ModelNumber();
     // public System.String get_hmd_SerialNumber()
     // Offset: 0x15B4E90
-    ::Il2CppString* get_hmd_SerialNumber();
+    ::StringW get_hmd_SerialNumber();
     // public System.Single get_hmd_SecondsFromVsyncToPhotons()
     // Offset: 0x15B4E9C
     float get_hmd_SecondsFromVsyncToPhotons();
@@ -299,10 +300,10 @@ namespace GlobalNamespace {
     static void ReportError(Valve::VR::EVRInitError error);
     // public System.String GetTrackedDeviceString(System.UInt32 deviceId)
     // Offset: 0x15B4EF4
-    ::Il2CppString* GetTrackedDeviceString(uint deviceId);
+    ::StringW GetTrackedDeviceString(uint deviceId);
     // public System.String GetStringProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
     // Offset: 0x15B4D3C
-    ::Il2CppString* GetStringProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
+    ::StringW GetStringProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
     // public System.Single GetFloatProperty(Valve.VR.ETrackedDeviceProperty prop, System.UInt32 deviceId)
     // Offset: 0x15B4EA8
     float GetFloatProperty(Valve::VR::ETrackedDeviceProperty prop, uint deviceId);
@@ -615,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_hmd_TrackingSystemName
 // Il2CppName: get_hmd_TrackingSystemName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_TrackingSystemName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_TrackingSystemName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_hmd_TrackingSystemName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -623,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_hmd_ModelNumber
 // Il2CppName: get_hmd_ModelNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_ModelNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_ModelNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_hmd_ModelNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -631,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_hmd_SerialNumber
 // Il2CppName: get_hmd_SerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_SerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_hmd_SerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_hmd_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -680,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Va
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::GetTrackedDeviceString
 // Il2CppName: GetTrackedDeviceString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR::*)(uint)>(&GlobalNamespace::SteamVR::GetTrackedDeviceString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR::*)(uint)>(&GlobalNamespace::SteamVR::GetTrackedDeviceString)> {
   static const MethodInfo* get() {
     static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "GetTrackedDeviceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceId});
@@ -689,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::GetStringProperty
 // Il2CppName: GetStringProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR::*)(Valve::VR::ETrackedDeviceProperty, uint)>(&GlobalNamespace::SteamVR::GetStringProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR::*)(Valve::VR::ETrackedDeviceProperty, uint)>(&GlobalNamespace::SteamVR::GetStringProperty)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
     static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

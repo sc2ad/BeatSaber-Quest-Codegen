@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
@@ -53,9 +54,9 @@ namespace Mono::Globalization::Unicode {
     // public readonly System.String Replacement
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Replacement;
+    ::StringW Replacement;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Byte[] SortKey
     // Size: 0x8
     // Offset: 0x28
@@ -68,13 +69,13 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: public readonly System.Char[] Source
     ::ArrayW<::Il2CppChar>& dyn_Source();
     // Get instance field reference: public readonly System.String Replacement
-    ::Il2CppString*& dyn_Replacement();
+    ::StringW& dyn_Replacement();
     // Get instance field reference: public readonly System.Byte[] SortKey
     ::ArrayW<uint8_t>& dyn_SortKey();
     // public System.Void .ctor(System.Int32 index, System.Char[] source, System.String replacement, System.Byte[] sortkey)
     // Offset: 0x1C6D774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Contraction* New_ctor(int index, ::ArrayW<::Il2CppChar> source, ::Il2CppString* replacement, ::ArrayW<uint8_t> sortkey) {
+    static Contraction* New_ctor(int index, ::ArrayW<::Il2CppChar> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Contraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Contraction*, creationType>(index, source, replacement, sortkey)));
     }

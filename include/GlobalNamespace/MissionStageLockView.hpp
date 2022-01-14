@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -100,7 +101,7 @@ namespace GlobalNamespace {
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
     // Offset: 0x11BD384
-    void UpdateStageLockText(::Il2CppString* text);
+    void UpdateStageLockText(::StringW text);
     // public System.Void .ctor()
     // Offset: 0x11BD3A0
     // Implemented from: UnityEngine.MonoBehaviour
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MissionStageLockView::UpdateStageLockText
 // Il2CppName: UpdateStageLockText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStageLockView::*)(::Il2CppString*)>(&GlobalNamespace::MissionStageLockView::UpdateStageLockText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStageLockView::*)(::StringW)>(&GlobalNamespace::MissionStageLockView::UpdateStageLockText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStageLockView*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

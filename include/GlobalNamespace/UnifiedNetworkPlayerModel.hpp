@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -337,19 +338,19 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerConnectionManager* get_masterServerConnectionManager();
     // public System.String get_userId()
     // Offset: 0x120F464
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x120F524
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.String get_secret()
     // Offset: 0x120F5E4
-    ::Il2CppString* get_secret();
+    ::StringW get_secret();
     // public System.String get_code()
     // Offset: 0x120F608
-    ::Il2CppString* get_code();
+    ::StringW get_code();
     // public System.String get_managerId()
     // Offset: 0x120F624
-    ::Il2CppString* get_managerId();
+    ::StringW get_managerId();
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_publicServers()
     // Offset: 0x120F6D0
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_publicServers();
@@ -406,10 +407,10 @@ namespace GlobalNamespace {
     void HandleFriendConnected(GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleLocalPlayerConnectToMasterServer(System.String secret)
     // Offset: 0x1210814
-    void HandleLocalPlayerConnectToMasterServer(::Il2CppString* secret);
+    void HandleLocalPlayerConnectToMasterServer(::StringW secret);
     // private System.Void HandleFriendConnectToMasterServer(System.String secret)
     // Offset: 0x1210A40
-    void HandleFriendConnectToMasterServer(::Il2CppString* secret);
+    void HandleFriendConnectToMasterServer(::StringW secret);
     // private System.Void HandleConnectedPlayerManagerCreated(INetworkPlayerModel networkPlayerModel)
     // Offset: 0x1210AD4
     void HandleConnectedPlayerManagerCreated(GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
@@ -421,19 +422,19 @@ namespace GlobalNamespace {
     void ResetMasterServerReachability();
     // private UnifiedNetworkPlayerModel/UnifiedNetworkPlayer GetPlayer(System.String userId)
     // Offset: 0x12112B0
-    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* GetPlayer(::Il2CppString* userId);
+    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* GetPlayer(::StringW userId);
     // private UnifiedNetworkPlayerModel/UnifiedNetworkServer GetServer(System.String code)
     // Offset: 0x1211394
-    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* GetServer(::Il2CppString* code);
+    GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* GetServer(::StringW code);
     // private MasterServerConnectionManager/StartClientParams GetStartClientParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
     // Offset: 0x121037C
     GlobalNamespace::MasterServerConnectionManager::StartClientParams* GetStartClientParams(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // private MasterServerConnectionManager/ConnectToServerParams GetConnectToServerParams(System.String secret, System.String code)
     // Offset: 0x12108A8
-    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* GetConnectToServerParams(::Il2CppString* secret, ::Il2CppString* code);
+    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* GetConnectToServerParams(::StringW secret, ::StringW code);
     // private MasterServerConnectionManager/ConnectToServerParams GetConnectToServerParams(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
     // Offset: 0x1211474
-    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* GetConnectToServerParams(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, ::Il2CppString* code);
+    GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* GetConnectToServerParams(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
     // public override System.Boolean get_localPlayerIsPartyOwner()
     // Offset: 0x120F3E0
     // Implemented from: BaseNetworkPlayerModel
@@ -550,7 +551,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean BaseNetworkPlayerModel::CreatePartyConnection(INetworkPlayerModelPartyConfig`1<T> config)
     template<class T>
     bool CreatePartyConnection(GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* config) {
-      static_assert(std::is_base_of_v<GlobalNamespace::INetworkPlayerModel, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::INetworkPlayerModel>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConnection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreatePartyConnection", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(config)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -614,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -622,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -630,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_secret
 // Il2CppName: get_secret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_secret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_secret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -638,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_code
 // Il2CppName: get_code
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_code)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_code)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::get_managerId
 // Il2CppName: get_managerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_managerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::UnifiedNetworkPlayerModel::get_managerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "get_managerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -809,7 +810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer
 // Il2CppName: HandleLocalPlayerConnectToMasterServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::HandleLocalPlayerConnectToMasterServer)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "HandleLocalPlayerConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret});
@@ -818,7 +819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer
 // Il2CppName: HandleFriendConnectToMasterServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "HandleFriendConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret});
@@ -853,7 +854,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::GetPlayer
 // Il2CppName: GetPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkPlayer* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetPlayer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -862,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::GetServer
 // Il2CppName: GetServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::UnifiedNetworkServer* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetServer)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel*), "GetServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});
@@ -881,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams
 // Il2CppName: GetConnectToServerParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW, ::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -891,7 +892,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams
 // Il2CppName: GetConnectToServerParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* (GlobalNamespace::UnifiedNetworkPlayerModel::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(&GlobalNamespace::UnifiedNetworkPlayerModel::GetConnectToServerParams)> {
   static const MethodInfo* get() {
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;

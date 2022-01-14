@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,17 +41,17 @@ namespace GlobalNamespace {
     // private System.String _missionHelpId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* missionHelpId;
+    ::StringW missionHelpId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _missionHelpId
-    ::Il2CppString*& dyn__missionHelpId();
+    ::StringW& dyn__missionHelpId();
     // public System.String get_missionHelpId()
     // Offset: 0x11603BC
-    ::Il2CppString* get_missionHelpId();
+    ::StringW get_missionHelpId();
     // public System.Void .ctor()
     // Offset: 0x11603C4
     // Implemented from: PersistentScriptableObject
@@ -65,14 +66,14 @@ namespace GlobalNamespace {
     }
   }; // MissionHelpSO
   #pragma pack(pop)
-  static check_size<sizeof(MissionHelpSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_MissionHelpSOSizeCheck;
+  static check_size<sizeof(MissionHelpSO), 24 + sizeof(::StringW)> __GlobalNamespace_MissionHelpSOSizeCheck;
   static_assert(sizeof(MissionHelpSO) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpSO::get_missionHelpId
 // Il2CppName: get_missionHelpId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionHelpSO::*)()>(&GlobalNamespace::MissionHelpSO::get_missionHelpId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionHelpSO::*)()>(&GlobalNamespace::MissionHelpSO::get_missionHelpId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionHelpSO*), "get_missionHelpId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

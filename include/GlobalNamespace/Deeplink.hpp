@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -38,45 +39,45 @@ namespace GlobalNamespace {
     // public System.String Destination
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Destination;
+    ::StringW Destination;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String LevelID
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* LevelID;
+    ::StringW LevelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String PackID
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* PackID;
+    ::StringW PackID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Difficulty
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* Difficulty;
+    ::StringW Difficulty;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Characteristic
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* Characteristic;
+    ::StringW Characteristic;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String MultiplayerLobbyCode
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* MultiplayerLobbyCode;
+    ::StringW MultiplayerLobbyCode;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String MultiplayerSecret
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* MultiplayerSecret;
+    ::StringW MultiplayerSecret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.UInt64 MultiplayerRoomId
     // Size: 0x8
     // Offset: 0x48
@@ -85,19 +86,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public System.String Destination
-    ::Il2CppString*& dyn_Destination();
+    ::StringW& dyn_Destination();
     // Get instance field reference: public System.String LevelID
-    ::Il2CppString*& dyn_LevelID();
+    ::StringW& dyn_LevelID();
     // Get instance field reference: public System.String PackID
-    ::Il2CppString*& dyn_PackID();
+    ::StringW& dyn_PackID();
     // Get instance field reference: public System.String Difficulty
-    ::Il2CppString*& dyn_Difficulty();
+    ::StringW& dyn_Difficulty();
     // Get instance field reference: public System.String Characteristic
-    ::Il2CppString*& dyn_Characteristic();
+    ::StringW& dyn_Characteristic();
     // Get instance field reference: public System.String MultiplayerLobbyCode
-    ::Il2CppString*& dyn_MultiplayerLobbyCode();
+    ::StringW& dyn_MultiplayerLobbyCode();
     // Get instance field reference: public System.String MultiplayerSecret
-    ::Il2CppString*& dyn_MultiplayerSecret();
+    ::StringW& dyn_MultiplayerSecret();
     // Get instance field reference: public System.UInt64 MultiplayerRoomId
     uint64_t& dyn_MultiplayerRoomId();
     // public System.Void .ctor()

@@ -10,6 +10,7 @@
 // Including type: System.Reflection.PropertyAttributes
 #include "System/Reflection/PropertyAttributes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -59,9 +60,9 @@ namespace System::Reflection {
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Reflection.MethodInfo get_method
     // Size: 0x8
     // Offset: 0x18
@@ -82,7 +83,7 @@ namespace System::Reflection {
     static_assert(sizeof(System::Reflection::PropertyAttributes) == 0x4);
     public:
     // Creating value type constructor for type: MonoPropertyInfo
-    constexpr MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) noexcept : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
+    constexpr MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::StringW name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) noexcept : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -92,7 +93,7 @@ namespace System::Reflection {
     // Get instance field reference: public System.Type declaring_type
     System::Type*& dyn_declaring_type();
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.Reflection.MethodInfo get_method
     System::Reflection::MethodInfo*& dyn_get_method();
     // Get instance field reference: public System.Reflection.MethodInfo set_method

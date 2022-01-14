@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,10 +44,10 @@ namespace UnityEngine::Analytics {
     }
     // public System.Void Invoke(System.String token)
     // Offset: 0x26D067C
-    void Invoke(::Il2CppString* token);
+    void Invoke(::StringW token);
     // public System.IAsyncResult BeginInvoke(System.String token, System.AsyncCallback callback, System.Object object)
     // Offset: 0x26D0A20
-    System::IAsyncResult* BeginInvoke(::Il2CppString* token, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW token, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x26D0A44
     void EndInvoke(System::IAsyncResult* result);
@@ -61,7 +62,7 @@ namespace UnityEngine::Analytics {
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppString*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::*)(::StringW)>(&UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::Invoke)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::*)(::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

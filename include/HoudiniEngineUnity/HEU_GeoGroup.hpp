@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -59,9 +60,9 @@ namespace HoudiniEngineUnity {
     // public System.String _groupName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* groupName;
+    ::StringW groupName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> _subMeshesMap
     // Size: 0x8
     // Offset: 0x18
@@ -80,7 +81,7 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>*>(this);
     }
     // Get instance field reference: public System.String _groupName
-    ::Il2CppString*& dyn__groupName();
+    ::StringW& dyn__groupName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> _subMeshesMap
     System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_MeshData*>*& dyn__subMeshesMap();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices

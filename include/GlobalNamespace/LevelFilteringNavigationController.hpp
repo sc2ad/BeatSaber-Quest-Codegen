@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -193,9 +194,9 @@ namespace GlobalNamespace {
     // private System.String _levelPackIdToBeSelectedAfterPresent
     // Size: 0x8
     // Offset: 0x108
-    ::Il2CppString* levelPackIdToBeSelectedAfterPresent;
+    ::StringW levelPackIdToBeSelectedAfterPresent;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _hidePacksIfOneOrNone
     // Size: 0x1
     // Offset: 0x110
@@ -282,7 +283,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _currentNoDataInfoPrefab
     UnityEngine::GameObject*& dyn__currentNoDataInfoPrefab();
     // Get instance field reference: private System.String _levelPackIdToBeSelectedAfterPresent
-    ::Il2CppString*& dyn__levelPackIdToBeSelectedAfterPresent();
+    ::StringW& dyn__levelPackIdToBeSelectedAfterPresent();
     // Get instance field reference: private System.Boolean _hidePacksIfOneOrNone
     bool& dyn__hidePacksIfOneOrNone();
     // Get instance field reference: private System.Boolean _enableCustomLevels

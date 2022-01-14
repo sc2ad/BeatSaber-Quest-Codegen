@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -48,12 +49,12 @@ namespace System::ComponentModel {
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return typeName;
     }
     // Get static field: static public readonly System.ComponentModel.TypeConverterAttribute Default
@@ -61,10 +62,10 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.TypeConverterAttribute Default
     static void _set_Default(System::ComponentModel::TypeConverterAttribute* value);
     // Get instance field reference: private System.String typeName
-    ::Il2CppString*& dyn_typeName();
+    ::StringW& dyn_typeName();
     // public System.String get_ConverterTypeName()
     // Offset: 0x1A276B8
-    ::Il2CppString* get_ConverterTypeName();
+    ::StringW get_ConverterTypeName();
     // public System.Void .ctor(System.Type type)
     // Offset: 0x1A275D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +76,7 @@ namespace System::ComponentModel {
     // public System.Void .ctor(System.String typeName)
     // Offset: 0x1A2761C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeConverterAttribute* New_ctor(::Il2CppString* typeName) {
+    static TypeConverterAttribute* New_ctor(::StringW typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::TypeConverterAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverterAttribute*, creationType>(typeName)));
     }
@@ -104,14 +105,14 @@ namespace System::ComponentModel {
     int GetHashCode();
   }; // System.ComponentModel.TypeConverterAttribute
   #pragma pack(pop)
-  static check_size<sizeof(TypeConverterAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_TypeConverterAttributeSizeCheck;
+  static check_size<sizeof(TypeConverterAttribute), 16 + sizeof(::StringW)> __System_ComponentModel_TypeConverterAttributeSizeCheck;
   static_assert(sizeof(TypeConverterAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName
 // Il2CppName: get_ConverterTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::TypeConverterAttribute::*)()>(&System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::TypeConverterAttribute::*)()>(&System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverterAttribute*), "get_ConverterTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -62,38 +63,38 @@ namespace NUnit::Framework::Internal {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>* inner;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>*) == 0x8);
     public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IPropertyBag
     operator NUnit::Framework::Interfaces::IPropertyBag() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IPropertyBag*>(this);
     }
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>*() const noexcept {
       return inner;
     }
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*& dyn_inner();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>*& dyn_inner();
     // public System.Collections.Generic.ICollection`1<System.String> get_Keys()
     // Offset: 0x2552340
-    System::Collections::Generic::ICollection_1<::Il2CppString*>* get_Keys();
+    System::Collections::Generic::ICollection_1<::StringW>* get_Keys();
     // public System.Collections.IList get_Item(System.String key)
     // Offset: 0x2552398
-    System::Collections::IList* get_Item(::Il2CppString* key);
+    System::Collections::IList* get_Item(::StringW key);
     // public System.Void Add(System.String key, System.Object value)
     // Offset: 0x2551EEC
-    void Add(::Il2CppString* key, ::Il2CppObject* value);
+    void Add(::StringW key, ::Il2CppObject* value);
     // public System.Void Set(System.String key, System.Object value)
     // Offset: 0x2552030
-    void Set(::Il2CppString* key, ::Il2CppObject* value);
+    void Set(::StringW key, ::Il2CppObject* value);
     // public System.Object Get(System.String key)
     // Offset: 0x2552168
-    ::Il2CppObject* Get(::Il2CppString* key);
+    ::Il2CppObject* Get(::StringW key);
     // public System.Boolean ContainsKey(System.String key)
     // Offset: 0x25522D8
-    bool ContainsKey(::Il2CppString* key);
+    bool ContainsKey(::StringW key);
     // public NUnit.Framework.Interfaces.TNode ToXml(System.Boolean recursive)
     // Offset: 0x255245C
     NUnit::Framework::Interfaces::TNode* ToXml(bool recursive);
@@ -111,14 +112,14 @@ namespace NUnit::Framework::Internal {
     }
   }; // NUnit.Framework.Internal.PropertyBag
   #pragma pack(pop)
-  static check_size<sizeof(PropertyBag), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*)> __NUnit_Framework_Internal_PropertyBagSizeCheck;
+  static check_size<sizeof(PropertyBag), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::IList*>*)> __NUnit_Framework_Internal_PropertyBagSizeCheck;
   static_assert(sizeof(PropertyBag) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (NUnit::Framework::Internal::PropertyBag::*)()>(&NUnit::Framework::Internal::PropertyBag::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::StringW>* (NUnit::Framework::Internal::PropertyBag::*)()>(&NUnit::Framework::Internal::PropertyBag::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::PropertyBag*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (NUnit::Framework::Internal::PropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Internal::PropertyBag::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (NUnit::Framework::Internal::PropertyBag::*)(::StringW)>(&NUnit::Framework::Internal::PropertyBag::get_Item)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::PropertyBag*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::PropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&NUnit::Framework::Internal::PropertyBag::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::PropertyBag::*)(::StringW, ::Il2CppObject*)>(&NUnit::Framework::Internal::PropertyBag::Add)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::PropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&NUnit::Framework::Internal::PropertyBag::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::PropertyBag::*)(::StringW, ::Il2CppObject*)>(&NUnit::Framework::Internal::PropertyBag::Set)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::PropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Internal::PropertyBag::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::PropertyBag::*)(::StringW)>(&NUnit::Framework::Internal::PropertyBag::Get)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::PropertyBag*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: NUnit::Framework::Internal::PropertyBag::ContainsKey
 // Il2CppName: ContainsKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::PropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Internal::PropertyBag::ContainsKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::PropertyBag::*)(::StringW)>(&NUnit::Framework::Internal::PropertyBag::ContainsKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::PropertyBag*), "ContainsKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

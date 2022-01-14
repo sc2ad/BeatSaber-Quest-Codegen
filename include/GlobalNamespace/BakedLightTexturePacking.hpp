@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kBakedLightTexturePackingShaderName
     static constexpr const char* kBakedLightTexturePackingShaderName = "Hidden/BakedLightTexturePacking";
     // Get static field: static private System.String kBakedLightTexturePackingShaderName
-    static ::Il2CppString* _get_kBakedLightTexturePackingShaderName();
+    static ::StringW _get_kBakedLightTexturePackingShaderName();
     // Set static field: static private System.String kBakedLightTexturePackingShaderName
-    static void _set_kBakedLightTexturePackingShaderName(::Il2CppString* value);
+    static void _set_kBakedLightTexturePackingShaderName(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF48FB0
     // Get static field: static private readonly System.Int32[] _texPropertyIds
     static ::ArrayW<int> _get__texPropertyIds();

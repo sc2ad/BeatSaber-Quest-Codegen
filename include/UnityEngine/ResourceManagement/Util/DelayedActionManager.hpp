@@ -126,7 +126,7 @@ namespace UnityEngine::ResourceManagement::Util {
       // Offset: 0x1BF1CDC
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo
     #pragma pack(pop)
     static check_size<sizeof(DelayedActionManager::DelegateInfo), 24 + sizeof(float)> __UnityEngine_ResourceManagement_Util_DelayedActionManager_DelegateInfoSizeCheck;

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,9 +65,9 @@ namespace GlobalNamespace {
     // private System.String _letterPartName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* letterPartName;
+    ::StringW letterPartName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _numberPartName
     // Size: 0x4
     // Offset: 0x28
@@ -100,7 +101,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionDataSO _missionDataSO
     GlobalNamespace::MissionDataSO*& dyn__missionDataSO();
     // Get instance field reference: private System.String _letterPartName
-    ::Il2CppString*& dyn__letterPartName();
+    ::StringW& dyn__letterPartName();
     // Get instance field reference: private System.Int32 _numberPartName
     int& dyn__numberPartName();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
@@ -120,16 +121,16 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
     // Offset: 0x1163EF4
-    ::Il2CppString* get_letterPartName();
+    ::StringW get_letterPartName();
     // public System.Int32 get_numberPartName()
     // Offset: 0x1163EFC
     int get_numberPartName();
     // public System.String get_missionId()
     // Offset: 0x115FE30
-    ::Il2CppString* get_missionId();
+    ::StringW get_missionId();
     // public System.String get_formattedMissionNodeName()
     // Offset: 0x1163F04
-    ::Il2CppString* get_formattedMissionNodeName();
+    ::StringW get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
     // Offset: 0x1163284
     UnityEngine::Vector2 get_position();
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_letterPartName
 // Il2CppName: get_letterPartName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_letterPartName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_letterPartName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_letterPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_missionId
 // Il2CppName: get_missionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_missionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_missionId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_missionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_formattedMissionNodeName
 // Il2CppName: get_formattedMissionNodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_formattedMissionNodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_formattedMissionNodeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_formattedMissionNodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

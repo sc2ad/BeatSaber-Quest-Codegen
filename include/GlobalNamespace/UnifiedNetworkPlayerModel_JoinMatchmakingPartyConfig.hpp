@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig);
@@ -39,24 +40,24 @@ namespace GlobalNamespace {
     // public System.String secret
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String code
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* code;
+    ::StringW code;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>
     operator GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModelPartyConfig_1<GlobalNamespace::UnifiedNetworkPlayerModel*>*>(this);
     }
     // Get instance field reference: public System.String secret
-    ::Il2CppString*& dyn_secret();
+    ::StringW& dyn_secret();
     // Get instance field reference: public System.String code
-    ::Il2CppString*& dyn_code();
+    ::StringW& dyn_code();
     // public System.Void .ctor()
     // Offset: 0x1BD5CC8
     // Implemented from: BaseNetworkPlayerModel/PartyConfig
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // UnifiedNetworkPlayerModel/JoinMatchmakingPartyConfig
   #pragma pack(pop)
-  static check_size<sizeof(UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig), 80 + sizeof(::Il2CppString*)> __GlobalNamespace_UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfigSizeCheck;
+  static check_size<sizeof(UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig), 80 + sizeof(::StringW)> __GlobalNamespace_UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfigSizeCheck;
   static_assert(sizeof(UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

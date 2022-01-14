@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -217,37 +218,37 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kStartTextKey
     static constexpr const char* kStartTextKey = "LOBBY_START_GAME";
     // Get static field: static private System.String kStartTextKey
-    static ::Il2CppString* _get_kStartTextKey();
+    static ::StringW _get_kStartTextKey();
     // Set static field: static private System.String kStartTextKey
-    static void _set_kStartTextKey(::Il2CppString* value);
+    static void _set_kStartTextKey(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF469EC
     // static field const value: static private System.String kCancelTextKey
     static constexpr const char* kCancelTextKey = "BUTTON_CANCEL";
     // Get static field: static private System.String kCancelTextKey
-    static ::Il2CppString* _get_kCancelTextKey();
+    static ::StringW _get_kCancelTextKey();
     // Set static field: static private System.String kCancelTextKey
-    static void _set_kCancelTextKey(::Il2CppString* value);
+    static void _set_kCancelTextKey(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF469FC
     // static field const value: static private System.String kReadyTextKey
     static constexpr const char* kReadyTextKey = "LOBBY_READY";
     // Get static field: static private System.String kReadyTextKey
-    static ::Il2CppString* _get_kReadyTextKey();
+    static ::StringW _get_kReadyTextKey();
     // Set static field: static private System.String kReadyTextKey
-    static void _set_kReadyTextKey(::Il2CppString* value);
+    static void _set_kReadyTextKey(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF46A0C
     // static field const value: static private System.String kUnreadyTextKey
     static constexpr const char* kUnreadyTextKey = "BUTTON_UNREADY";
     // Get static field: static private System.String kUnreadyTextKey
-    static ::Il2CppString* _get_kUnreadyTextKey();
+    static ::StringW _get_kUnreadyTextKey();
     // Set static field: static private System.String kUnreadyTextKey
-    static void _set_kUnreadyTextKey(::Il2CppString* value);
+    static void _set_kUnreadyTextKey(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF46A1C
     // static field const value: static private System.String kRetryTextKey
     static constexpr const char* kRetryTextKey = "BUTTON_RETRY";
     // Get static field: static private System.String kRetryTextKey
-    static ::Il2CppString* _get_kRetryTextKey();
+    static ::StringW _get_kRetryTextKey();
     // Set static field: static private System.String kRetryTextKey
-    static void _set_kRetryTextKey(::Il2CppString* value);
+    static void _set_kRetryTextKey(::StringW value);
     // Get instance field reference: private UnityEngine.UI.Button _startGameReadyButton
     UnityEngine::UI::Button*& dyn__startGameReadyButton();
     // Get instance field reference: private UnityEngine.UI.Button _cancelGameUnreadyButton
@@ -334,7 +335,7 @@ namespace GlobalNamespace {
     void SetLobbyPlayerData(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void SetPlayersMissingLevelText(System.String playersMissingLevelText)
     // Offset: 0x1352C60
-    void SetPlayersMissingLevelText(::Il2CppString* playersMissingLevelText);
+    void SetPlayersMissingLevelText(::StringW playersMissingLevelText);
     // public System.Void SetPlayerActiveState(System.Boolean isActive)
     // Offset: 0x1352C3C
     void SetPlayerActiveState(bool isActive);
@@ -526,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText
 // Il2CppName: SetPlayersMissingLevelText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbySetupViewController::*)(::Il2CppString*)>(&GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbySetupViewController::*)(::StringW)>(&GlobalNamespace::LobbySetupViewController::SetPlayersMissingLevelText)> {
   static const MethodInfo* get() {
     static auto* playersMissingLevelText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbySetupViewController*), "SetPlayersMissingLevelText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playersMissingLevelText});

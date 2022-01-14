@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Activation
@@ -37,9 +38,9 @@ namespace System::Runtime::Remoting::Messaging {
   class ConstructionCallDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
     // Get static field: static public System.String[] InternalKeys
-    static ::ArrayW<::Il2CppString*> _get_InternalKeys();
+    static ::ArrayW<::StringW> _get_InternalKeys();
     // Set static field: static public System.String[] InternalKeys
-    static void _set_InternalKeys(::ArrayW<::Il2CppString*> value);
+    static void _set_InternalKeys(::ArrayW<::StringW> value);
     // public System.Void .ctor(System.Runtime.Remoting.Activation.IConstructionCallMessage message)
     // Offset: 0x1C51530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,12 +55,12 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1C5228C
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Object MessageDictionary::GetMethodProperty(System.String key)
-    ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
+    ::Il2CppObject* GetMethodProperty(::StringW key);
     // protected override System.Void SetMethodProperty(System.String key, System.Object value)
     // Offset: 0x1C52C34
     // Implemented from: System.Runtime.Remoting.Messaging.MessageDictionary
     // Base method: System.Void MessageDictionary::SetMethodProperty(System.String key, System.Object value)
-    void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
+    void SetMethodProperty(::StringW key, ::Il2CppObject* value);
   }; // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
   #pragma pack(pop)
 }
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCallDictionary::GetMethodProperty
 // Il2CppName: GetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::ConstructionCallDictionary::GetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW)>(&System::Runtime::Remoting::Messaging::ConstructionCallDictionary::GetMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCallDictionary*), "GetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCallDictionary::SetMethodProperty
 // Il2CppName: SetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::ConstructionCallDictionary::SetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::ConstructionCallDictionary::SetMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

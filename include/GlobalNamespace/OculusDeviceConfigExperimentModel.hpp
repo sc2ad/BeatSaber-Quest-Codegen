@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -87,9 +88,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kIsEmployeeKey
     static constexpr const char* kIsEmployeeKey = "deviceconfig_main_shared:is_employee";
     // Get static field: static private System.String kIsEmployeeKey
-    static ::Il2CppString* _get_kIsEmployeeKey();
+    static ::StringW _get_kIsEmployeeKey();
     // Set static field: static private System.String kIsEmployeeKey
-    static void _set_kIsEmployeeKey(::Il2CppString* value);
+    static void _set_kIsEmployeeKey(::StringW value);
     // Get instance field reference: private readonly System.Threading.Tasks.Task _initializationTask
     System::Threading::Tasks::Task*& dyn__initializationTask();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
@@ -103,7 +104,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task* Initialize();
     // private System.Threading.Tasks.Task`1<System.Boolean> GetBooleanAsync(System.String key)
     // Offset: 0x1367530
-    System::Threading::Tasks::Task_1<bool>* GetBooleanAsync(::Il2CppString* key);
+    System::Threading::Tasks::Task_1<bool>* GetBooleanAsync(::StringW key);
     // public System.Void .ctor()
     // Offset: 0x13673CC
     // Implemented from: System.Object
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeviceConfigExperimentModel::GetBooleanAsync
 // Il2CppName: GetBooleanAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::OculusDeviceConfigExperimentModel::*)(::Il2CppString*)>(&GlobalNamespace::OculusDeviceConfigExperimentModel::GetBooleanAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::OculusDeviceConfigExperimentModel::*)(::StringW)>(&GlobalNamespace::OculusDeviceConfigExperimentModel::GetBooleanAsync)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeviceConfigExperimentModel*), "GetBooleanAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

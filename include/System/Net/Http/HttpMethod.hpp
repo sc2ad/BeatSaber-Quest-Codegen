@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net.Http
 namespace System::Net::Http {
@@ -40,16 +41,16 @@ namespace System::Net::Http {
     // private readonly System.String method
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::IEquatable_1<System::Net::Http::HttpMethod*>
     operator System::IEquatable_1<System::Net::Http::HttpMethod*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Net::Http::HttpMethod*>*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return method;
     }
     // Get static field: static private readonly System.Net.Http.HttpMethod delete_method
@@ -81,17 +82,17 @@ namespace System::Net::Http {
     // Set static field: static private readonly System.Net.Http.HttpMethod trace_method
     static void _set_trace_method(System::Net::Http::HttpMethod* value);
     // Get instance field reference: private readonly System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // static public System.Net.Http.HttpMethod get_Get()
     // Offset: 0x17CD8B8
     static System::Net::Http::HttpMethod* get_Get();
     // public System.String get_Method()
     // Offset: 0x17CD920
-    ::Il2CppString* get_Method();
+    ::StringW get_Method();
     // public System.Void .ctor(System.String method)
     // Offset: 0x17CD808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpMethod* New_ctor(::Il2CppString* method) {
+    static HttpMethod* New_ctor(::StringW method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpMethod*, creationType>(method)));
     }
@@ -115,10 +116,10 @@ namespace System::Net::Http {
     // Offset: 0x17CDA24
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.HttpMethod
   #pragma pack(pop)
-  static check_size<sizeof(HttpMethod), 16 + sizeof(::Il2CppString*)> __System_Net_Http_HttpMethodSizeCheck;
+  static check_size<sizeof(HttpMethod), 16 + sizeof(::StringW)> __System_Net_Http_HttpMethodSizeCheck;
   static_assert(sizeof(HttpMethod) == 0x18);
   // static public System.Boolean op_Equality(System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right)
   // Offset: 0x17CD928
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::Http::HttpMethod::get_Method
 // Il2CppName: get_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpMethod::*)()>(&System::Net::Http::HttpMethod::get_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::HttpMethod::*)()>(&System::Net::Http::HttpMethod::get_Method)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpMethod*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::HttpMethod::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpMethod::*)()>(&System::Net::Http::HttpMethod::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::HttpMethod::*)()>(&System::Net::Http::HttpMethod::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpMethod*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

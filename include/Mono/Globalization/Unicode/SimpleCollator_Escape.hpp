@@ -9,6 +9,7 @@
 #include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
@@ -25,9 +26,9 @@ namespace Mono::Globalization::Unicode {
     // public System.String Source
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* Source;
+    ::StringW Source;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 Index
     // Size: 0x4
     // Offset: 0x8
@@ -54,13 +55,13 @@ namespace Mono::Globalization::Unicode {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: Escape
-    constexpr Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) noexcept : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
+    constexpr Escape(::StringW Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) noexcept : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String Source
-    ::Il2CppString*& dyn_Source();
+    ::StringW& dyn_Source();
     // Get instance field reference: public System.Int32 Index
     int& dyn_Index();
     // Get instance field reference: public System.Int32 Start

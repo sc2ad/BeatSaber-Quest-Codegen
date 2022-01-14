@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
@@ -41,9 +42,9 @@ namespace System::Net::Http::Headers {
     // private System.String unit
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* unit;
+    ::StringW unit;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Nullable`1<System.Int64> <From>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -62,7 +63,7 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String unit
-    ::Il2CppString*& dyn_unit();
+    ::StringW& dyn_unit();
     // Get instance field reference: private System.Nullable`1<System.Int64> <From>k__BackingField
     System::Nullable_1<int64_t>& dyn_$From$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.Int64> <Length>k__BackingField
@@ -89,13 +90,13 @@ namespace System::Net::Http::Headers {
     void set_To(System::Nullable_1<int64_t> value);
     // public System.String get_Unit()
     // Offset: 0x17BD56C
-    ::Il2CppString* get_Unit();
+    ::StringW get_Unit();
     // private System.Object System.ICloneable.Clone()
     // Offset: 0x17BD574
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.ContentRangeHeaderValue parsedValue)
     // Offset: 0x17BD7BC
-    static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
+    static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
     // private System.Void .ctor()
     // Offset: 0x17BD4D8
     // Implemented from: System.Object
@@ -119,7 +120,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x17BDCE0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.Headers.ContentRangeHeaderValue
   // WARNING Not writing size check since size may be invalid!
 }
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_Unit
 // Il2CppName: get_Unit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ContentRangeHeaderValue::*)()>(&System::Net::Http::Headers::ContentRangeHeaderValue::get_Unit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::ContentRangeHeaderValue::*)()>(&System::Net::Http::Headers::ContentRangeHeaderValue::get_Unit)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "get_Unit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Net::Http::Headers::ContentRangeHeaderValue*>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "ContentRangeHeaderValue")->this_arg;
@@ -225,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ContentRangeHeaderValue::*)()>(&System::Net::Http::Headers::ContentRangeHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::ContentRangeHeaderValue::*)()>(&System::Net::Http::Headers::ContentRangeHeaderValue::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

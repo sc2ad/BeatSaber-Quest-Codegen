@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -16,9 +17,6 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: PublicServerInfo
@@ -40,9 +38,9 @@ namespace GlobalNamespace {
     // public readonly System.String code
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* code;
+    ::StringW code;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Int32 currentPlayerCount
     // Size: 0x4
     // Offset: 0x8
@@ -51,18 +49,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: PublicServerInfo
-    constexpr PublicServerInfo(::Il2CppString* code_ = {}, int currentPlayerCount_ = {}) noexcept : code{code_}, currentPlayerCount{currentPlayerCount_} {}
+    constexpr PublicServerInfo(::StringW code_ = {}, int currentPlayerCount_ = {}) noexcept : code{code_}, currentPlayerCount{currentPlayerCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public readonly System.String code
-    ::Il2CppString*& dyn_code();
+    ::StringW& dyn_code();
     // Get instance field reference: public readonly System.Int32 currentPlayerCount
     int& dyn_currentPlayerCount();
     // public System.Void .ctor(System.String code, System.Int32 currentPlayerCount)
     // Offset: 0x1810744
-    // ABORTED: conflicts with another method.  PublicServerInfo(::Il2CppString* code, int currentPlayerCount);
+    // ABORTED: conflicts with another method.  PublicServerInfo(::StringW code, int currentPlayerCount);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x1810750
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

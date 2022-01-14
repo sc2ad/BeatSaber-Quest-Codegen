@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo);
@@ -36,9 +37,9 @@ namespace Mono::Security::Cryptography {
     // private System.String _algorithm
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* algorithm;
+    ::StringW algorithm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] _salt
     // Size: 0x8
     // Offset: 0x18
@@ -61,7 +62,7 @@ namespace Mono::Security::Cryptography {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String _algorithm
-    ::Il2CppString*& dyn__algorithm();
+    ::StringW& dyn__algorithm();
     // Get instance field reference: private System.Byte[] _salt
     ::ArrayW<uint8_t>& dyn__salt();
     // Get instance field reference: private System.Int32 _iterations
@@ -70,7 +71,7 @@ namespace Mono::Security::Cryptography {
     ::ArrayW<uint8_t>& dyn__data();
     // public System.String get_Algorithm()
     // Offset: 0x1F923BC
-    ::Il2CppString* get_Algorithm();
+    ::StringW get_Algorithm();
     // public System.Byte[] get_EncryptedData()
     // Offset: 0x1F923C4
     ::ArrayW<uint8_t> get_EncryptedData();
@@ -108,7 +109,7 @@ namespace Mono::Security::Cryptography {
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm
 // Il2CppName: get_Algorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::get_Algorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

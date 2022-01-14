@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.UInt32
 #include "System/UInt32.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,57 +41,57 @@ namespace GlobalNamespace {
     // static field const value: static public System.String dedicatedServerState
     static constexpr const char* dedicatedServerState = "dedicated_server";
     // Get static field: static public System.String dedicatedServerState
-    static ::Il2CppString* _get_dedicatedServerState();
+    static ::StringW _get_dedicatedServerState();
     // Set static field: static public System.String dedicatedServerState
-    static void _set_dedicatedServerState(::Il2CppString* value);
+    static void _set_dedicatedServerState(::StringW value);
     // static field const value: static public System.String playerState
     static constexpr const char* playerState = "player";
     // Get static field: static public System.String playerState
-    static ::Il2CppString* _get_playerState();
+    static ::StringW _get_playerState();
     // Set static field: static public System.String playerState
-    static void _set_playerState(::Il2CppString* value);
+    static void _set_playerState(::StringW value);
     // static field const value: static public System.String spectatingState
     static constexpr const char* spectatingState = "spectating";
     // Get static field: static public System.String spectatingState
-    static ::Il2CppString* _get_spectatingState();
+    static ::StringW _get_spectatingState();
     // Set static field: static public System.String spectatingState
-    static void _set_spectatingState(::Il2CppString* value);
+    static void _set_spectatingState(::StringW value);
     // static field const value: static public System.String backgroundedState
     static constexpr const char* backgroundedState = "backgrounded";
     // Get static field: static public System.String backgroundedState
-    static ::Il2CppString* _get_backgroundedState();
+    static ::StringW _get_backgroundedState();
     // Set static field: static public System.String backgroundedState
-    static void _set_backgroundedState(::Il2CppString* value);
+    static void _set_backgroundedState(::StringW value);
     // static field const value: static public System.String terminatingState
     static constexpr const char* terminatingState = "terminating";
     // Get static field: static public System.String terminatingState
-    static ::Il2CppString* _get_terminatingState();
+    static ::StringW _get_terminatingState();
     // Set static field: static public System.String terminatingState
-    static void _set_terminatingState(::Il2CppString* value);
+    static void _set_terminatingState(::StringW value);
     // static field const value: static public System.String wantsToPlayNextLevel
     static constexpr const char* wantsToPlayNextLevel = "wants_to_play_next_level";
     // Get static field: static public System.String wantsToPlayNextLevel
-    static ::Il2CppString* _get_wantsToPlayNextLevel();
+    static ::StringW _get_wantsToPlayNextLevel();
     // Set static field: static public System.String wantsToPlayNextLevel
-    static void _set_wantsToPlayNextLevel(::Il2CppString* value);
+    static void _set_wantsToPlayNextLevel(::StringW value);
     // static field const value: static public System.String wasActiveAtLevelStart
     static constexpr const char* wasActiveAtLevelStart = "was_active_at_level_start";
     // Get static field: static public System.String wasActiveAtLevelStart
-    static ::Il2CppString* _get_wasActiveAtLevelStart();
+    static ::StringW _get_wasActiveAtLevelStart();
     // Set static field: static public System.String wasActiveAtLevelStart
-    static void _set_wasActiveAtLevelStart(::Il2CppString* value);
+    static void _set_wasActiveAtLevelStart(::StringW value);
     // static field const value: static public System.String isActive
     static constexpr const char* isActive = "is_active";
     // Get static field: static public System.String isActive
-    static ::Il2CppString* _get_isActive();
+    static ::StringW _get_isActive();
     // Set static field: static public System.String isActive
-    static void _set_isActive(::Il2CppString* value);
+    static void _set_isActive(::StringW value);
     // static field const value: static public System.String finishedLevel
     static constexpr const char* finishedLevel = "finished_level";
     // Get static field: static public System.String finishedLevel
-    static ::Il2CppString* _get_finishedLevel();
+    static ::StringW _get_finishedLevel();
     // Set static field: static public System.String finishedLevel
-    static void _set_finishedLevel(::Il2CppString* value);
+    static void _set_finishedLevel(::StringW value);
   }; // NetworkConstants
   #pragma pack(pop)
 }

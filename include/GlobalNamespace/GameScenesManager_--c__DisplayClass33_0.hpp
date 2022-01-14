@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -66,15 +67,15 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> newSceneNames
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::Il2CppString*>* newSceneNames;
+    System::Collections::Generic::List_1<::StringW>* newSceneNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppString*>* emptyTransitionSceneNameList;
+    System::Collections::Generic::List_1<::StringW>* emptyTransitionSceneNameList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public GameScenesManager/ScenesStackData scenesStackData
     // Size: 0x8
     // Offset: 0x28
@@ -109,9 +110,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameScenesManager <>4__this
     GlobalNamespace::GameScenesManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> newSceneNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_newSceneNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn_newSceneNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> emptyTransitionSceneNameList
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_emptyTransitionSceneNameList();
+    System::Collections::Generic::List_1<::StringW>*& dyn_emptyTransitionSceneNameList();
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
     GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
     // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData

@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,15 +63,15 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean isConnectionOwner
     // Size: 0x1
     // Offset: 0x28
@@ -89,9 +90,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte remoteConnectionId
     uint8_t& dyn_remoteConnectionId();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.Boolean isConnectionOwner
     bool& dyn_isConnectionOwner();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
@@ -108,7 +109,7 @@ namespace GlobalNamespace {
     void Release();
     // public ConnectedPlayerManager/PlayerConnectedPacket Init(System.Byte connectionId, System.String userId, System.String userName, System.Boolean isConnectionOwner)
     // Offset: 0x1563FB0
-    GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::Il2CppString* userId, ::Il2CppString* userName, bool isConnectionOwner);
+    GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Void .ctor()
     // Offset: 0x15643EC
     // Implemented from: System.Object
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* (GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::*)(uint8_t, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* (GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::*)(uint8_t, ::StringW, ::StringW, bool)>(&GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::Init)> {
   static const MethodInfo* get() {
     static auto* connectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

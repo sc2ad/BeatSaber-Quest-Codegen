@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -94,9 +95,9 @@ namespace System::Reflection {
     // private System.String name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type reftype
     // Size: 0x8
     // Offset: 0x20
@@ -107,12 +108,12 @@ namespace System::Reflection {
     // Get instance field reference: System.IntPtr mhandle
     System::IntPtr& dyn_mhandle();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.Type reftype
     System::Type*& dyn_reftype();
     // static System.String get_name(System.Reflection.MethodBase method)
     // Offset: 0x1E98DE8
-    static ::Il2CppString* get_name(System::Reflection::MethodBase* method);
+    static ::StringW get_name(System::Reflection::MethodBase* method);
     // static System.Reflection.MonoMethod get_base_method(System.Reflection.MonoMethod method, System.Boolean definition)
     // Offset: 0x1E99E04
     static System::Reflection::MonoMethod* get_base_method(System::Reflection::MonoMethod* method, bool definition);
@@ -124,7 +125,7 @@ namespace System::Reflection {
     static void ConvertValues(System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> args, ::ArrayW<System::Reflection::ParameterInfo*> pinfo, System::Globalization::CultureInfo* culture, System::Reflection::BindingFlags invokeAttr);
     // System.Void GetPInvoke(out System.Reflection.PInvokeAttributes flags, out System.String entryPoint, out System.String dllName)
     // Offset: 0x1E9A3C0
-    void GetPInvoke(ByRef<System::Reflection::PInvokeAttributes> flags, ByRef<::Il2CppString*> entryPoint, ByRef<::Il2CppString*> dllName);
+    void GetPInvoke(ByRef<System::Reflection::PInvokeAttributes> flags, ByRef<::StringW> entryPoint, ByRef<::StringW> dllName);
     // System.Object[] GetPseudoCustomAttributes()
     // Offset: 0x1E9A3C4
     ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes();
@@ -171,7 +172,7 @@ namespace System::Reflection {
     // Offset: 0x1E9A220
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.Boolean get_IsGenericMethodDefinition()
     // Offset: 0x1E9A970
     // Implemented from: System.Reflection.MethodBase
@@ -284,7 +285,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::MonoMethod::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodBase*)>(&System::Reflection::MonoMethod::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Reflection::MethodBase*)>(&System::Reflection::MonoMethod::get_name)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoMethod*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
@@ -327,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::MonoMethod::GetPInvoke
 // Il2CppName: GetPInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::MonoMethod::*)(ByRef<System::Reflection::PInvokeAttributes>, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&System::Reflection::MonoMethod::GetPInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::MonoMethod::*)(ByRef<System::Reflection::PInvokeAttributes>, ByRef<::StringW>, ByRef<::StringW>)>(&System::Reflection::MonoMethod::GetPInvoke)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System.Reflection", "PInvokeAttributes")->this_arg;
     static auto* entryPoint = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -419,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::MonoMethod::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MonoMethod::*)()>(&System::Reflection::MonoMethod::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::MonoMethod::*)()>(&System::Reflection::MonoMethod::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoMethod*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

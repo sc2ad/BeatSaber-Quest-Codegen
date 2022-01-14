@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,108 +47,108 @@ namespace UnityEngine::UI {
     // private System.String m_NormalTrigger
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_NormalTrigger;
+    ::StringW m_NormalTrigger;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEEB2A0
     // private System.String m_HighlightedTrigger
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_HighlightedTrigger;
+    ::StringW m_HighlightedTrigger;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEEB2EC
     // private System.String m_PressedTrigger
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_PressedTrigger;
+    ::StringW m_PressedTrigger;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEEB338
     // private System.String m_SelectedTrigger
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_SelectedTrigger;
+    ::StringW m_SelectedTrigger;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEEB384
     // private System.String m_DisabledTrigger
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_DisabledTrigger;
+    ::StringW m_DisabledTrigger;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // static field const value: static private System.String kDefaultNormalAnimName
     static constexpr const char* kDefaultNormalAnimName = "Normal";
     // Get static field: static private System.String kDefaultNormalAnimName
-    static ::Il2CppString* _get_kDefaultNormalAnimName();
+    static ::StringW _get_kDefaultNormalAnimName();
     // Set static field: static private System.String kDefaultNormalAnimName
-    static void _set_kDefaultNormalAnimName(::Il2CppString* value);
+    static void _set_kDefaultNormalAnimName(::StringW value);
     // static field const value: static private System.String kDefaultHighlightedAnimName
     static constexpr const char* kDefaultHighlightedAnimName = "Highlighted";
     // Get static field: static private System.String kDefaultHighlightedAnimName
-    static ::Il2CppString* _get_kDefaultHighlightedAnimName();
+    static ::StringW _get_kDefaultHighlightedAnimName();
     // Set static field: static private System.String kDefaultHighlightedAnimName
-    static void _set_kDefaultHighlightedAnimName(::Il2CppString* value);
+    static void _set_kDefaultHighlightedAnimName(::StringW value);
     // static field const value: static private System.String kDefaultPressedAnimName
     static constexpr const char* kDefaultPressedAnimName = "Pressed";
     // Get static field: static private System.String kDefaultPressedAnimName
-    static ::Il2CppString* _get_kDefaultPressedAnimName();
+    static ::StringW _get_kDefaultPressedAnimName();
     // Set static field: static private System.String kDefaultPressedAnimName
-    static void _set_kDefaultPressedAnimName(::Il2CppString* value);
+    static void _set_kDefaultPressedAnimName(::StringW value);
     // static field const value: static private System.String kDefaultSelectedAnimName
     static constexpr const char* kDefaultSelectedAnimName = "Selected";
     // Get static field: static private System.String kDefaultSelectedAnimName
-    static ::Il2CppString* _get_kDefaultSelectedAnimName();
+    static ::StringW _get_kDefaultSelectedAnimName();
     // Set static field: static private System.String kDefaultSelectedAnimName
-    static void _set_kDefaultSelectedAnimName(::Il2CppString* value);
+    static void _set_kDefaultSelectedAnimName(::StringW value);
     // static field const value: static private System.String kDefaultDisabledAnimName
     static constexpr const char* kDefaultDisabledAnimName = "Disabled";
     // Get static field: static private System.String kDefaultDisabledAnimName
-    static ::Il2CppString* _get_kDefaultDisabledAnimName();
+    static ::StringW _get_kDefaultDisabledAnimName();
     // Set static field: static private System.String kDefaultDisabledAnimName
-    static void _set_kDefaultDisabledAnimName(::Il2CppString* value);
+    static void _set_kDefaultDisabledAnimName(::StringW value);
     // Get instance field reference: private System.String m_NormalTrigger
-    ::Il2CppString*& dyn_m_NormalTrigger();
+    ::StringW& dyn_m_NormalTrigger();
     // Get instance field reference: private System.String m_HighlightedTrigger
-    ::Il2CppString*& dyn_m_HighlightedTrigger();
+    ::StringW& dyn_m_HighlightedTrigger();
     // Get instance field reference: private System.String m_PressedTrigger
-    ::Il2CppString*& dyn_m_PressedTrigger();
+    ::StringW& dyn_m_PressedTrigger();
     // Get instance field reference: private System.String m_SelectedTrigger
-    ::Il2CppString*& dyn_m_SelectedTrigger();
+    ::StringW& dyn_m_SelectedTrigger();
     // Get instance field reference: private System.String m_DisabledTrigger
-    ::Il2CppString*& dyn_m_DisabledTrigger();
+    ::StringW& dyn_m_DisabledTrigger();
     // public System.String get_normalTrigger()
     // Offset: 0x166BF38
-    ::Il2CppString* get_normalTrigger();
+    ::StringW get_normalTrigger();
     // public System.Void set_normalTrigger(System.String value)
     // Offset: 0x166BF40
-    void set_normalTrigger(::Il2CppString* value);
+    void set_normalTrigger(::StringW value);
     // public System.String get_highlightedTrigger()
     // Offset: 0x166BF48
-    ::Il2CppString* get_highlightedTrigger();
+    ::StringW get_highlightedTrigger();
     // public System.Void set_highlightedTrigger(System.String value)
     // Offset: 0x166BF50
-    void set_highlightedTrigger(::Il2CppString* value);
+    void set_highlightedTrigger(::StringW value);
     // public System.String get_pressedTrigger()
     // Offset: 0x166BF58
-    ::Il2CppString* get_pressedTrigger();
+    ::StringW get_pressedTrigger();
     // public System.Void set_pressedTrigger(System.String value)
     // Offset: 0x166BF60
-    void set_pressedTrigger(::Il2CppString* value);
+    void set_pressedTrigger(::StringW value);
     // public System.String get_selectedTrigger()
     // Offset: 0x166BF68
-    ::Il2CppString* get_selectedTrigger();
+    ::StringW get_selectedTrigger();
     // public System.Void set_selectedTrigger(System.String value)
     // Offset: 0x166BF70
-    void set_selectedTrigger(::Il2CppString* value);
+    void set_selectedTrigger(::StringW value);
     // public System.String get_disabledTrigger()
     // Offset: 0x166BF78
-    ::Il2CppString* get_disabledTrigger();
+    ::StringW get_disabledTrigger();
     // public System.Void set_disabledTrigger(System.String value)
     // Offset: 0x166BF80
-    void set_disabledTrigger(::Il2CppString* value);
+    void set_disabledTrigger(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x166BF88
     // Implemented from: System.Object
@@ -159,14 +160,14 @@ namespace UnityEngine::UI {
     }
   }; // UnityEngine.UI.AnimationTriggers
   #pragma pack(pop)
-  static check_size<sizeof(AnimationTriggers), 48 + sizeof(::Il2CppString*)> __UnityEngine_UI_AnimationTriggersSizeCheck;
+  static check_size<sizeof(AnimationTriggers), 48 + sizeof(::StringW)> __UnityEngine_UI_AnimationTriggersSizeCheck;
   static_assert(sizeof(AnimationTriggers) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_normalTrigger
 // Il2CppName: get_normalTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_normalTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_normalTrigger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_normalTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_normalTrigger
 // Il2CppName: set_normalTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_normalTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&UnityEngine::UI::AnimationTriggers::set_normalTrigger)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_normalTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_highlightedTrigger
 // Il2CppName: get_highlightedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_highlightedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_highlightedTrigger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_highlightedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -191,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_highlightedTrigger
 // Il2CppName: set_highlightedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_highlightedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&UnityEngine::UI::AnimationTriggers::set_highlightedTrigger)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_highlightedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_pressedTrigger
 // Il2CppName: get_pressedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_pressedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_pressedTrigger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_pressedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -208,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_pressedTrigger
 // Il2CppName: set_pressedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_pressedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&UnityEngine::UI::AnimationTriggers::set_pressedTrigger)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_pressedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_selectedTrigger
 // Il2CppName: get_selectedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_selectedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_selectedTrigger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_selectedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -225,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_selectedTrigger
 // Il2CppName: set_selectedTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_selectedTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&UnityEngine::UI::AnimationTriggers::set_selectedTrigger)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_selectedTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -234,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_disabledTrigger
 // Il2CppName: get_disabledTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_disabledTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::AnimationTriggers::*)()>(&UnityEngine::UI::AnimationTriggers::get_disabledTrigger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "get_disabledTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::set_disabledTrigger
 // Il2CppName: set_disabledTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::Il2CppString*)>(&UnityEngine::UI::AnimationTriggers::set_disabledTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&UnityEngine::UI::AnimationTriggers::set_disabledTrigger)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AnimationTriggers*), "set_disabledTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

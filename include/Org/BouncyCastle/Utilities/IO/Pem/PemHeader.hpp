@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities.IO.Pem
 namespace Org::BouncyCastle::Utilities::IO::Pem {
@@ -38,36 +39,36 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String val
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* val;
+    ::StringW val;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.String val
-    ::Il2CppString*& dyn_val();
+    ::StringW& dyn_val();
     // public System.String get_Name()
     // Offset: 0x222B0A4
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_Value()
     // Offset: 0x222B0AC
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public System.Void .ctor(System.String name, System.String val)
     // Offset: 0x222B06C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PemHeader* New_ctor(::Il2CppString* name, ::Il2CppString* val) {
+    static PemHeader* New_ctor(::StringW name, ::StringW val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)
     // Offset: 0x222B110
-    int GetHashCode(::Il2CppString* s);
+    int GetHashCode(::StringW s);
     // public override System.Int32 GetHashCode()
     // Offset: 0x222B0B4
     // Implemented from: System.Object
@@ -80,14 +81,14 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemHeader
   #pragma pack(pop)
-  static check_size<sizeof(PemHeader), 24 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
+  static check_size<sizeof(PemHeader), 24 + sizeof(::StringW)> __Org_BouncyCastle_Utilities_IO_Pem_PemHeaderSizeCheck;
   static_assert(sizeof(PemHeader) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::StringW)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

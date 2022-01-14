@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -43,9 +44,9 @@ namespace Mono::Security {
     // private System.String contentType
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* contentType;
+    ::StringW contentType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Mono.Security.ASN1 content
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +55,7 @@ namespace Mono::Security {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     public:
     // Get instance field reference: private System.String contentType
-    ::Il2CppString*& dyn_contentType();
+    ::StringW& dyn_contentType();
     // Get instance field reference: private Mono.Security.ASN1 content
     Mono::Security::ASN1*& dyn_content();
     // public Mono.Security.ASN1 get_ASN1()
@@ -68,14 +69,14 @@ namespace Mono::Security {
     void set_Content(Mono::Security::ASN1* value);
     // public System.String get_ContentType()
     // Offset: 0x1F9593C
-    ::Il2CppString* get_ContentType();
+    ::StringW get_ContentType();
     // public System.Void set_ContentType(System.String value)
     // Offset: 0x1F95944
-    void set_ContentType(::Il2CppString* value);
+    void set_ContentType(::StringW value);
     // public System.Void .ctor(System.String oid)
     // Offset: 0x1F95638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS7::ContentInfo* New_ctor(::Il2CppString* oid) {
+    static PKCS7::ContentInfo* New_ctor(::StringW oid) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(oid)));
     }
@@ -139,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::get_ContentType
 // Il2CppName: get_ContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::get_ContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::PKCS7::ContentInfo::*)()>(&Mono::Security::PKCS7::ContentInfo::get_ContentType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::PKCS7::ContentInfo::set_ContentType
 // Il2CppName: set_ContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::PKCS7::ContentInfo::*)(::Il2CppString*)>(&Mono::Security::PKCS7::ContentInfo::set_ContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::PKCS7::ContentInfo::*)(::StringW)>(&Mono::Security::PKCS7::ContentInfo::set_ContentType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::ContentInfo*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

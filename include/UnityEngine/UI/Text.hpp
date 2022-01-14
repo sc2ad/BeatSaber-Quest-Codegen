@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -82,9 +83,9 @@ namespace UnityEngine::UI {
     // protected System.String m_Text
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* m_Text;
+    ::StringW m_Text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.TextGenerator m_TextCache
     // Size: 0x8
     // Offset: 0xD0
@@ -123,7 +124,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.UI.FontData m_FontData
     UnityEngine::UI::FontData*& dyn_m_FontData();
     // Get instance field reference: protected System.String m_Text
-    ::Il2CppString*& dyn_m_Text();
+    ::StringW& dyn_m_Text();
     // Get instance field reference: private UnityEngine.TextGenerator m_TextCache
     UnityEngine::TextGenerator*& dyn_m_TextCache();
     // Get instance field reference: private UnityEngine.TextGenerator m_TextCacheForLayout
@@ -146,10 +147,10 @@ namespace UnityEngine::UI {
     void set_font(UnityEngine::Font* value);
     // public System.String get_text()
     // Offset: 0x267FDEC
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x267FDF4
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Boolean get_supportRichText()
     // Offset: 0x267FED0
     bool get_supportRichText();
@@ -347,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Text::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::Text::*)()>(&UnityEngine::UI::Text::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::Text::*)()>(&UnityEngine::UI::Text::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Text*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::Text::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Text::*)(::Il2CppString*)>(&UnityEngine::UI::Text::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Text::*)(::StringW)>(&UnityEngine::UI::Text::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Text*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

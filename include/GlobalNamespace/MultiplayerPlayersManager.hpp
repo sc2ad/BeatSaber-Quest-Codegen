@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -243,15 +244,15 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerConnectedPlayerFacade> _connectedPlayerControllersMap
     // Size: 0x8
     // Offset: 0xC8
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*>* connectedPlayerControllersMap;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerConnectedPlayerFacade*>* connectedPlayerControllersMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerConnectedPlayerFacade*>*) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _connectedPlayerCenterFacingRotationsMap
     // Size: 0x8
     // Offset: 0xD0
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* connectedPlayerCenterFacingRotationsMap;
+    System::Collections::Generic::Dictionary_2<::StringW, float>* connectedPlayerCenterFacingRotationsMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
     // private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
     // Size: 0x8
     // Offset: 0xD8
@@ -310,9 +311,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerConnectedPlayerFacade/Factory _connectedPlayerFactory
     GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory*& dyn__connectedPlayerFactory();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerConnectedPlayerFacade> _connectedPlayerControllersMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerConnectedPlayerFacade*>*& dyn__connectedPlayerControllersMap();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerConnectedPlayerFacade*>*& dyn__connectedPlayerControllersMap();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _connectedPlayerCenterFacingRotationsMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*& dyn__connectedPlayerCenterFacingRotationsMap();
+    System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__connectedPlayerCenterFacingRotationsMap();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> _allActiveAtGameStartPlayers
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*& dyn__allActiveAtGameStartPlayers();
     // public System.Boolean get_playerSpawningFinished()
@@ -365,10 +366,10 @@ namespace GlobalNamespace {
     void SpawnPlayers(GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
     // public System.Boolean TryGetConnectedPlayerController(System.String userId, out MultiplayerConnectedPlayerFacade connectedPlayerController)
     // Offset: 0x116EB78
-    bool TryGetConnectedPlayerController(::Il2CppString* userId, ByRef<GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
+    bool TryGetConnectedPlayerController(::StringW userId, ByRef<GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
     // public System.Boolean TryGetConnectedCenterFacingRotation(System.String userId, out System.Single centerFacingRotation)
     // Offset: 0x1173A44
-    bool TryGetConnectedCenterFacingRotation(::Il2CppString* userId, ByRef<float> centerFacingRotation);
+    bool TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float> centerFacingRotation);
     // public System.Void SwitchLocalPlayerToInactive()
     // Offset: 0x1173AB4
     void SwitchLocalPlayerToInactive();
@@ -548,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController
 // Il2CppName: TryGetConnectedPlayerController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerPlayersManager::*)(::Il2CppString*, ByRef<GlobalNamespace::MultiplayerConnectedPlayerFacade*>)>(&GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerPlayersManager::*)(::StringW, ByRef<GlobalNamespace::MultiplayerConnectedPlayerFacade*>)>(&GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* connectedPlayerController = &::il2cpp_utils::GetClassFromName("", "MultiplayerConnectedPlayerFacade")->this_arg;
@@ -558,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation
 // Il2CppName: TryGetConnectedCenterFacingRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerPlayersManager::*)(::Il2CppString*, ByRef<float>)>(&GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerPlayersManager::*)(::StringW, ByRef<float>)>(&GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* centerFacingRotation = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;

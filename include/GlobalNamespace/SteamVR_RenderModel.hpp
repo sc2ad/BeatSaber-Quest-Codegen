@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -107,9 +108,9 @@ namespace GlobalNamespace {
     // public System.String modelOverride
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* modelOverride;
+    ::StringW modelOverride;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TooltipAttribute] Offset: 0xEF8338
     // public UnityEngine.Shader shader
     // Size: 0x8
@@ -149,9 +150,9 @@ namespace GlobalNamespace {
     // private System.String <renderModelName>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* renderModelName;
+    ::StringW renderModelName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private SteamVR_Events/Action deviceConnectedAction
     // Size: 0x8
     // Offset: 0x40
@@ -173,24 +174,24 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
     // Size: 0x8
     // Offset: 0x58
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache;
+    System::Collections::Generic::Dictionary_2<int, ::StringW>* nameCache;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.String modelOverrideWarning
     static constexpr const char* modelOverrideWarning = "Model override is really only meant to be used in the scene view for lining things up; using it at runtime is discouraged.  Use tracked device index instead to ensure the correct model is displayed for all users.";
     // Get static field: static public System.String modelOverrideWarning
-    static ::Il2CppString* _get_modelOverrideWarning();
+    static ::StringW _get_modelOverrideWarning();
     // Set static field: static public System.String modelOverrideWarning
-    static void _set_modelOverrideWarning(::Il2CppString* value);
+    static void _set_modelOverrideWarning(::StringW value);
     // static field const value: static public System.String k_localTransformName
     static constexpr const char* k_localTransformName = "attach";
     // Get static field: static public System.String k_localTransformName
-    static ::Il2CppString* _get_k_localTransformName();
+    static ::StringW _get_k_localTransformName();
     // Set static field: static public System.String k_localTransformName
-    static void _set_k_localTransformName(::Il2CppString* value);
+    static void _set_k_localTransformName(::StringW value);
     // Get static field: static public System.Collections.Hashtable models
     static System::Collections::Hashtable* _get_models();
     // Set static field: static public System.Collections.Hashtable models
@@ -202,7 +203,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index
     GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
     // Get instance field reference: public System.String modelOverride
-    ::Il2CppString*& dyn_modelOverride();
+    ::StringW& dyn_modelOverride();
     // Get instance field reference: public UnityEngine.Shader shader
     UnityEngine::Shader*& dyn_shader();
     // Get instance field reference: public System.Boolean verbose
@@ -214,7 +215,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public Valve.VR.RenderModel_ControllerMode_State_t controllerModeState
     Valve::VR::RenderModel_ControllerMode_State_t& dyn_controllerModeState();
     // Get instance field reference: private System.String <renderModelName>k__BackingField
-    ::Il2CppString*& dyn_$renderModelName$k__BackingField();
+    ::StringW& dyn_$renderModelName$k__BackingField();
     // Get instance field reference: private SteamVR_Events/Action deviceConnectedAction
     GlobalNamespace::SteamVR_Events::Action*& dyn_deviceConnectedAction();
     // Get instance field reference: private SteamVR_Events/Action hideRenderModelsAction
@@ -222,13 +223,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private SteamVR_Events/Action modelSkinSettingsHaveChangedAction
     GlobalNamespace::SteamVR_Events::Action*& dyn_modelSkinSettingsHaveChangedAction();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> nameCache
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*& dyn_nameCache();
+    System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn_nameCache();
     // public System.String get_renderModelName()
     // Offset: 0x15C6460
-    ::Il2CppString* get_renderModelName();
+    ::StringW get_renderModelName();
     // private System.Void set_renderModelName(System.String value)
     // Offset: 0x15C6468
-    void set_renderModelName(::Il2CppString* value);
+    void set_renderModelName(::StringW value);
     // private System.Void OnModelSkinSettingsHaveChanged(Valve.VR.VREvent_t vrEvent)
     // Offset: 0x15C6470
     void OnModelSkinSettingsHaveChanged(Valve::VR::VREvent_t vrEvent);
@@ -243,25 +244,25 @@ namespace GlobalNamespace {
     void UpdateModel();
     // private System.Collections.IEnumerator SetModelAsync(System.String renderModelName)
     // Offset: 0x15C67E0
-    System::Collections::IEnumerator* SetModelAsync(::Il2CppString* renderModelName);
+    System::Collections::IEnumerator* SetModelAsync(::StringW renderModelName);
     // private System.Boolean SetModel(System.String renderModelName)
     // Offset: 0x15C6888
-    bool SetModel(::Il2CppString* renderModelName);
+    bool SetModel(::StringW renderModelName);
     // private SteamVR_RenderModel/RenderModel LoadRenderModel(Valve.VR.CVRRenderModels renderModels, System.String renderModelName, System.String baseName)
     // Offset: 0x15C7ADC
-    GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(Valve::VR::CVRRenderModels* renderModels, ::Il2CppString* renderModelName, ::Il2CppString* baseName);
+    GlobalNamespace::SteamVR_RenderModel::RenderModel* LoadRenderModel(Valve::VR::CVRRenderModels* renderModels, ::StringW renderModelName, ::StringW baseName);
     // private System.Collections.IEnumerator FreeRenderModel(System.IntPtr pRenderModel)
     // Offset: 0x15C89D0
     System::Collections::IEnumerator* FreeRenderModel(System::IntPtr pRenderModel);
     // public UnityEngine.Transform FindComponent(System.String componentName)
     // Offset: 0x15C8AA4
-    UnityEngine::Transform* FindComponent(::Il2CppString* componentName);
+    UnityEngine::Transform* FindComponent(::StringW componentName);
     // private System.Void StripMesh(UnityEngine.GameObject go)
     // Offset: 0x15C6D40
     void StripMesh(UnityEngine::GameObject* go);
     // private System.Boolean LoadComponents(SteamVR_RenderModel/RenderModelInterfaceHolder holder, System.String renderModelName)
     // Offset: 0x15C6E84
-    bool LoadComponents(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::Il2CppString* renderModelName);
+    bool LoadComponents(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder* holder, ::StringW renderModelName);
     // private System.Void OnEnable()
     // Offset: 0x15C8C80
     void OnEnable();
@@ -306,14 +307,14 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // SteamVR_RenderModel
   #pragma pack(pop)
-  static check_size<sizeof(SteamVR_RenderModel), 88 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*)> __GlobalNamespace_SteamVR_RenderModelSizeCheck;
+  static check_size<sizeof(SteamVR_RenderModel), 88 + sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*)> __GlobalNamespace_SteamVR_RenderModelSizeCheck;
   static_assert(sizeof(SteamVR_RenderModel) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::get_renderModelName
 // Il2CppName: get_renderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::get_renderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::get_renderModelName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "get_renderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -321,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::set_renderModelName
 // Il2CppName: set_renderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::set_renderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(::StringW)>(&GlobalNamespace::SteamVR_RenderModel::set_renderModelName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "set_renderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::SetModelAsync
 // Il2CppName: SetModelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::SetModelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::SteamVR_RenderModel::*)(::StringW)>(&GlobalNamespace::SteamVR_RenderModel::SetModelAsync)> {
   static const MethodInfo* get() {
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "SetModelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderModelName});
@@ -375,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::SetModel
 // Il2CppName: SetModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::SetModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(::StringW)>(&GlobalNamespace::SteamVR_RenderModel::SetModel)> {
   static const MethodInfo* get() {
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "SetModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderModelName});
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::LoadRenderModel
 // Il2CppName: LoadRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_RenderModel::RenderModel* (GlobalNamespace::SteamVR_RenderModel::*)(Valve::VR::CVRRenderModels*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::LoadRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_RenderModel::RenderModel* (GlobalNamespace::SteamVR_RenderModel::*)(Valve::VR::CVRRenderModels*, ::StringW, ::StringW)>(&GlobalNamespace::SteamVR_RenderModel::LoadRenderModel)> {
   static const MethodInfo* get() {
     static auto* renderModels = &::il2cpp_utils::GetClassFromName("Valve.VR", "CVRRenderModels")->byval_arg;
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -404,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::FindComponent
 // Il2CppName: FindComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::FindComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::SteamVR_RenderModel::*)(::StringW)>(&GlobalNamespace::SteamVR_RenderModel::FindComponent)> {
   static const MethodInfo* get() {
     static auto* componentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "FindComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{componentName});
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::LoadComponents
 // Il2CppName: LoadComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::LoadComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, ::StringW)>(&GlobalNamespace::SteamVR_RenderModel::LoadComponents)> {
   static const MethodInfo* get() {
     static auto* holder = &::il2cpp_utils::GetClassFromName("", "SteamVR_RenderModel/RenderModelInterfaceHolder")->byval_arg;
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

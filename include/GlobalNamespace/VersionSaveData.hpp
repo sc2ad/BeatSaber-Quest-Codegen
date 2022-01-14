@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -38,16 +39,16 @@ namespace GlobalNamespace {
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return version;
     }
     // Get instance field reference: public System.String version
-    ::Il2CppString*& dyn_version();
+    ::StringW& dyn_version();
     // public System.Void .ctor()
     // Offset: 0x1BDE91C
     // Implemented from: System.Object
@@ -59,7 +60,7 @@ namespace GlobalNamespace {
     }
   }; // VersionSaveData
   #pragma pack(pop)
-  static check_size<sizeof(VersionSaveData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_VersionSaveDataSizeCheck;
+  static check_size<sizeof(VersionSaveData), 16 + sizeof(::StringW)> __GlobalNamespace_VersionSaveDataSizeCheck;
   static_assert(sizeof(VersionSaveData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

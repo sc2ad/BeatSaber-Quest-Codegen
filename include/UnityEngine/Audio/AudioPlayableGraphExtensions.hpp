@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -36,7 +37,7 @@ namespace UnityEngine::Audio {
     public:
     // static System.Boolean InternalCreateAudioOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x26B08D4
-    static bool InternalCreateAudioOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::Il2CppString* name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
+    static bool InternalCreateAudioOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
   }; // UnityEngine.Audio.AudioPlayableGraphExtensions
   #pragma pack(pop)
 }
@@ -44,7 +45,7 @@ namespace UnityEngine::Audio {
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput
 // Il2CppName: InternalCreateAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::Il2CppString*, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::StringW, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

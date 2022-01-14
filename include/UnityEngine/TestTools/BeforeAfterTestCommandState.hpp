@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -89,9 +90,9 @@ namespace UnityEngine::TestTools {
     // public System.String CurrentTestResultLabel
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* CurrentTestResultLabel;
+    ::StringW CurrentTestResultLabel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
     // Size: 0x4
     // Offset: 0x38
@@ -103,15 +104,15 @@ namespace UnityEngine::TestTools {
     // public System.String CurrentTestMessage
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* CurrentTestMessage;
+    ::StringW CurrentTestMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String CurrentTestStrackTrace
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* CurrentTestStrackTrace;
+    ::StringW CurrentTestStrackTrace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean TestAfterStarted
     // Size: 0x1
     // Offset: 0x50
@@ -142,13 +143,13 @@ namespace UnityEngine::TestTools {
     // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus CurrentTestResultStatus
     NUnit::Framework::Interfaces::TestStatus& dyn_CurrentTestResultStatus();
     // Get instance field reference: public System.String CurrentTestResultLabel
-    ::Il2CppString*& dyn_CurrentTestResultLabel();
+    ::StringW& dyn_CurrentTestResultLabel();
     // Get instance field reference: public NUnit.Framework.Interfaces.FailureSite CurrentTestResultSite
     NUnit::Framework::Interfaces::FailureSite& dyn_CurrentTestResultSite();
     // Get instance field reference: public System.String CurrentTestMessage
-    ::Il2CppString*& dyn_CurrentTestMessage();
+    ::StringW& dyn_CurrentTestMessage();
     // Get instance field reference: public System.String CurrentTestStrackTrace
-    ::Il2CppString*& dyn_CurrentTestStrackTrace();
+    ::StringW& dyn_CurrentTestStrackTrace();
     // Get instance field reference: public System.Boolean TestAfterStarted
     bool& dyn_TestAfterStarted();
     // Get instance field reference: public System.Int64 Timestamp

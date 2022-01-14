@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -56,21 +57,21 @@ namespace GlobalNamespace {
     // private System.String _packID
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* packID;
+    ::StringW packID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _packName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* packName;
+    ::StringW packName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _shortPackName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* shortPackName;
+    ::StringW shortPackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Sprite _coverImage
     // Size: 0x8
     // Offset: 0x30
@@ -98,11 +99,11 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _packID
-    ::Il2CppString*& dyn__packID();
+    ::StringW& dyn__packID();
     // Get instance field reference: private System.String _packName
-    ::Il2CppString*& dyn__packName();
+    ::StringW& dyn__packName();
     // Get instance field reference: private System.String _shortPackName
-    ::Il2CppString*& dyn__shortPackName();
+    ::StringW& dyn__shortPackName();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
     UnityEngine::Sprite*& dyn__coverImage();
     // Get instance field reference: private UnityEngine.Sprite _smallCoverImage
@@ -111,16 +112,16 @@ namespace GlobalNamespace {
     GlobalNamespace::PreviewBeatmapLevelCollectionSO*& dyn__previewBeatmapLevelCollection();
     // public System.String get_packID()
     // Offset: 0x11B0850
-    ::Il2CppString* get_packID();
+    ::StringW get_packID();
     // public System.String get_packName()
     // Offset: 0x11B0858
-    ::Il2CppString* get_packName();
+    ::StringW get_packName();
     // public System.String get_shortPackName()
     // Offset: 0x11B0860
-    ::Il2CppString* get_shortPackName();
+    ::StringW get_shortPackName();
     // public System.String get_collectionName()
     // Offset: 0x11B0868
-    ::Il2CppString* get_collectionName();
+    ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0x11B0870
     UnityEngine::Sprite* get_coverImage();
@@ -151,7 +152,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelPackSO::get_packID
 // Il2CppName: get_packID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_packID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_packID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelPackSO*), "get_packID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -159,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelPackSO::get_packName
 // Il2CppName: get_packName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_packName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_packName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelPackSO*), "get_packName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -167,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelPackSO::get_shortPackName
 // Il2CppName: get_shortPackName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_shortPackName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_shortPackName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelPackSO*), "get_shortPackName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelPackSO::get_collectionName
 // Il2CppName: get_collectionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_collectionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PreviewBeatmapLevelPackSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelPackSO::get_collectionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelPackSO*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

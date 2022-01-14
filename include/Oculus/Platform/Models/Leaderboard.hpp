@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -47,9 +48,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String ApiName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* ApiName;
+    ::StringW ApiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.Models.Destination DestinationOptional
     // Size: 0x8
     // Offset: 0x18
@@ -71,7 +72,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public readonly System.String ApiName
-    ::Il2CppString*& dyn_ApiName();
+    ::StringW& dyn_ApiName();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination DestinationOptional
     Oculus::Platform::Models::Destination*& dyn_DestinationOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination Destination

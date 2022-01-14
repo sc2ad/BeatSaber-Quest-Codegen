@@ -8,6 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.Collections.IEnumerator
 #include "System/Collections/IEnumerator.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -44,7 +45,6 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
@@ -81,12 +81,12 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // private System.String m_LocationName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_LocationName;
+    ::StringW m_LocationName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: AsyncOperationHandle
-    constexpr AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp_ = {}, int m_Version_ = {}, ::Il2CppString* m_LocationName_ = {}) noexcept : m_InternalOp{m_InternalOp_}, m_Version{m_Version_}, m_LocationName{m_LocationName_} {}
+    constexpr AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp_ = {}, int m_Version_ = {}, ::StringW m_LocationName_ = {}) noexcept : m_InternalOp{m_InternalOp_}, m_Version{m_Version_}, m_LocationName{m_LocationName_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -100,16 +100,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Get instance field reference: private System.Int32 m_Version
     int& dyn_m_Version();
     // Get instance field reference: private System.String m_LocationName
-    ::Il2CppString*& dyn_m_LocationName();
+    ::StringW& dyn_m_LocationName();
     // System.String get_LocationName()
     // Offset: 0x1BE2058
-    ::Il2CppString* get_LocationName();
+    ::StringW get_LocationName();
     // System.Void set_LocationName(System.String value)
     // Offset: 0x1BE2060
-    void set_LocationName(::Il2CppString* value);
+    void set_LocationName(::StringW value);
     // public System.String get_DebugName()
     // Offset: 0x1BE25E4
-    ::Il2CppString* get_DebugName();
+    ::StringW get_DebugName();
     // private UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation get_InternalOp()
     // Offset: 0x1BE2320
     UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* get_InternalOp();
@@ -157,10 +157,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.String locationName)
     // Offset: 0x1BE2154
-    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::Il2CppString* locationName);
+    AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::StringW locationName);
     // System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation op, System.Int32 version, System.String locationName)
     // Offset: 0x1BE2234
-    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::Il2CppString* locationName);
+    // ABORTED: conflicts with another method.  AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int version, ::StringW locationName);
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle Acquire()
     // Offset: 0x1BE2244
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Acquire();
@@ -198,14 +198,14 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     int GetHashCode();
   }; // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
   #pragma pack(pop)
-  static check_size<sizeof(AsyncOperationHandle), 16 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandleSizeCheck;
+  static check_size<sizeof(AsyncOperationHandle), 16 + sizeof(::StringW)> __UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandleSizeCheck;
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName
 // Il2CppName: get_LocationName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle), "get_LocationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::set_LocationName
 // Il2CppName: set_LocationName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::set_LocationName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)(::StringW)>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::set_LocationName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle), "set_LocationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_DebugName
 // Il2CppName: get_DebugName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_DebugName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

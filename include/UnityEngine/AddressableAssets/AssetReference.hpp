@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -72,21 +73,21 @@ namespace UnityEngine::AddressableAssets {
     // private System.String m_AssetGUID
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_AssetGUID;
+    ::StringW m_AssetGUID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_SubObjectName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_SubObjectName;
+    ::StringW m_SubObjectName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_SubObjectType
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_SubObjectType;
+    ::StringW m_SubObjectType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
     // Size: 0x18
     // Offset: 0x28
@@ -99,11 +100,11 @@ namespace UnityEngine::AddressableAssets {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);
     }
     // Get instance field reference: private System.String m_AssetGUID
-    ::Il2CppString*& dyn_m_AssetGUID();
+    ::StringW& dyn_m_AssetGUID();
     // Get instance field reference: private System.String m_SubObjectName
-    ::Il2CppString*& dyn_m_SubObjectName();
+    ::StringW& dyn_m_SubObjectName();
     // Get instance field reference: private System.String m_SubObjectType
-    ::Il2CppString*& dyn_m_SubObjectType();
+    ::StringW& dyn_m_SubObjectType();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle m_Operation
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& dyn_m_Operation();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
@@ -114,13 +115,13 @@ namespace UnityEngine::AddressableAssets {
     ::Il2CppObject* get_RuntimeKey();
     // public System.String get_AssetGUID()
     // Offset: 0x160C7F0
-    ::Il2CppString* get_AssetGUID();
+    ::StringW get_AssetGUID();
     // public System.String get_SubObjectName()
     // Offset: 0x160C7F8
-    ::Il2CppString* get_SubObjectName();
+    ::StringW get_SubObjectName();
     // public System.Void set_SubObjectName(System.String value)
     // Offset: 0x160C800
-    void set_SubObjectName(::Il2CppString* value);
+    void set_SubObjectName(::StringW value);
     // System.Type get_SubOjbectType()
     // Offset: 0x160C808
     System::Type* get_SubOjbectType();
@@ -133,7 +134,7 @@ namespace UnityEngine::AddressableAssets {
     // public System.Void .ctor(System.String guid)
     // Offset: 0x160C92C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetReference* New_ctor(::Il2CppString* guid) {
+    static AssetReference* New_ctor(::StringW guid) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReference*, creationType>(guid)));
     }
@@ -202,7 +203,7 @@ namespace UnityEngine::AddressableAssets {
     bool ValidateAsset(UnityEngine::Object* obj);
     // public System.Boolean ValidateAsset(System.String path)
     // Offset: 0x160D0B8
-    bool ValidateAsset(::Il2CppString* path);
+    bool ValidateAsset(::StringW path);
     // public System.Void .ctor()
     // Offset: 0x160C8D4
     // Implemented from: System.Object
@@ -216,7 +217,7 @@ namespace UnityEngine::AddressableAssets {
     // Offset: 0x160CA40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.AddressableAssets.AssetReference
   #pragma pack(pop)
   static check_size<sizeof(AssetReference), 40 + sizeof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)> __UnityEngine_AddressableAssets_AssetReferenceSizeCheck;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::get_AssetGUID
 // Il2CppName: get_AssetGUID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::get_AssetGUID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::get_AssetGUID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReference*), "get_AssetGUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -250,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::get_SubObjectName
 // Il2CppName: get_SubObjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::get_SubObjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::get_SubObjectName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReference*), "get_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::set_SubObjectName
 // Il2CppName: set_SubObjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetReference::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReference::set_SubObjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetReference::*)(::StringW)>(&UnityEngine::AddressableAssets::AssetReference::set_SubObjectName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReference*), "set_SubObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -415,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::ValidateAsset
 // Il2CppName: ValidateAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReference::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReference::ValidateAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReference::*)(::StringW)>(&UnityEngine::AddressableAssets::AssetReference::ValidateAsset)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReference*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -428,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::AssetReference::*)()>(&UnityEngine::AddressableAssets::AssetReference::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReference*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

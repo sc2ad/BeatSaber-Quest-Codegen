@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -95,9 +96,9 @@ namespace GlobalNamespace {
     // public System.String externalCameraConfigPath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* externalCameraConfigPath;
+    ::StringW externalCameraConfigPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public Valve.VR.ETrackingUniverseOrigin trackingSpace
     // Size: 0x4
     // Offset: 0x30
@@ -168,7 +169,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SteamVR_ExternalCamera externalCamera
     GlobalNamespace::SteamVR_ExternalCamera*& dyn_externalCamera();
     // Get instance field reference: public System.String externalCameraConfigPath
-    ::Il2CppString*& dyn_externalCameraConfigPath();
+    ::StringW& dyn_externalCameraConfigPath();
     // Get instance field reference: public Valve.VR.ETrackingUniverseOrigin trackingSpace
     Valve::VR::ETrackingUniverseOrigin& dyn_trackingSpace();
     // Get instance field reference: private SteamVR_Camera[] cameras
@@ -236,7 +237,7 @@ namespace GlobalNamespace {
     void OnQuit(Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
     // Offset: 0x15C53C4
-    ::Il2CppString* GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
+    ::StringW GetScreenshotFilename(uint screenshotHandle, Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
     // Offset: 0x15C5510
     void OnRequestScreenshot(Valve::VR::VREvent_t vrEvent);
@@ -424,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::GetScreenshotFilename
 // Il2CppName: GetScreenshotFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR_Render::*)(uint, Valve::VR::EVRScreenshotPropertyFilenames)>(&GlobalNamespace::SteamVR_Render::GetScreenshotFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SteamVR_Render::*)(uint, Valve::VR::EVRScreenshotPropertyFilenames)>(&GlobalNamespace::SteamVR_Render::GetScreenshotFilename)> {
   static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* screenshotPropertyFilename = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotPropertyFilenames")->byval_arg;

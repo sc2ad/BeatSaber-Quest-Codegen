@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -70,33 +71,33 @@ namespace System::Net {
     // private readonly System.String rawUri
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* rawUri;
+    ::StringW rawUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String cookedUriScheme
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* cookedUriScheme;
+    ::StringW cookedUriScheme;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String cookedUriHost
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* cookedUriHost;
+    ::StringW cookedUriHost;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String cookedUriPath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* cookedUriPath;
+    ::StringW cookedUriPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String cookedUriQuery
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* cookedUriQuery;
+    ::StringW cookedUriQuery;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Text.StringBuilder requestUriString
     // Size: 0x8
     // Offset: 0x38
@@ -112,9 +113,9 @@ namespace System::Net {
     // private System.String rawPath
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* rawPath;
+    ::StringW rawPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Uri requestUri
     // Size: 0x8
     // Offset: 0x50
@@ -135,21 +136,21 @@ namespace System::Net {
     // Set static field: static private readonly System.Text.Encoding ansiEncoding
     static void _set_ansiEncoding(System::Text::Encoding* value);
     // Get instance field reference: private readonly System.String rawUri
-    ::Il2CppString*& dyn_rawUri();
+    ::StringW& dyn_rawUri();
     // Get instance field reference: private readonly System.String cookedUriScheme
-    ::Il2CppString*& dyn_cookedUriScheme();
+    ::StringW& dyn_cookedUriScheme();
     // Get instance field reference: private readonly System.String cookedUriHost
-    ::Il2CppString*& dyn_cookedUriHost();
+    ::StringW& dyn_cookedUriHost();
     // Get instance field reference: private readonly System.String cookedUriPath
-    ::Il2CppString*& dyn_cookedUriPath();
+    ::StringW& dyn_cookedUriPath();
     // Get instance field reference: private readonly System.String cookedUriQuery
-    ::Il2CppString*& dyn_cookedUriQuery();
+    ::StringW& dyn_cookedUriQuery();
     // Get instance field reference: private System.Text.StringBuilder requestUriString
     System::Text::StringBuilder*& dyn_requestUriString();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Byte> rawOctets
     System::Collections::Generic::List_1<uint8_t>*& dyn_rawOctets();
     // Get instance field reference: private System.String rawPath
-    ::Il2CppString*& dyn_rawPath();
+    ::StringW& dyn_rawPath();
     // Get instance field reference: private System.Uri requestUri
     System::Uri*& dyn_requestUri();
     // static private System.Void .cctor()
@@ -158,13 +159,13 @@ namespace System::Net {
     // private System.Void .ctor(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
     // Offset: 0x18ACF40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpListenerRequestUriBuilder* New_ctor(::Il2CppString* rawUri, ::Il2CppString* cookedUriScheme, ::Il2CppString* cookedUriHost, ::Il2CppString* cookedUriPath, ::Il2CppString* cookedUriQuery) {
+    static HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequestUriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequestUriBuilder*, creationType>(rawUri, cookedUriScheme, cookedUriHost, cookedUriPath, cookedUriQuery)));
     }
     // static public System.Uri GetRequestUri(System.String rawUri, System.String cookedUriScheme, System.String cookedUriHost, System.String cookedUriPath, System.String cookedUriQuery)
     // Offset: 0x18ACB38
-    static System::Uri* GetRequestUri(::Il2CppString* rawUri, ::Il2CppString* cookedUriScheme, ::Il2CppString* cookedUriHost, ::Il2CppString* cookedUriPath, ::Il2CppString* cookedUriQuery);
+    static System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
     // private System.Uri Build()
     // Offset: 0x18AD094
     System::Uri* Build();
@@ -185,10 +186,10 @@ namespace System::Net {
     System::Net::HttpListenerRequestUriBuilder::ParsingResult ParseRawPath(System::Text::Encoding* encoding);
     // private System.Boolean AppendUnicodeCodePointValuePercentEncoded(System.String codePoint)
     // Offset: 0x18AE0DC
-    bool AppendUnicodeCodePointValuePercentEncoded(::Il2CppString* codePoint);
+    bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
     // private System.Boolean AddPercentEncodedOctetToRawOctetsList(System.Text.Encoding encoding, System.String escapedCharacter)
     // Offset: 0x18AE398
-    bool AddPercentEncodedOctetToRawOctetsList(System::Text::Encoding* encoding, ::Il2CppString* escapedCharacter);
+    bool AddPercentEncodedOctetToRawOctetsList(System::Text::Encoding* encoding, ::StringW escapedCharacter);
     // private System.Boolean EmptyDecodeAndAppendRawOctetsList(System.Text.Encoding encoding)
     // Offset: 0x18ADD70
     bool EmptyDecodeAndAppendRawOctetsList(System::Text::Encoding* encoding);
@@ -197,16 +198,16 @@ namespace System::Net {
     static void AppendOctetsPercentEncoded(System::Text::StringBuilder* target, System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetOctetsAsString(System.Collections.Generic.IEnumerable`1<System.Byte> octets)
     // Offset: 0x18AE794
-    static ::Il2CppString* GetOctetsAsString(System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
+    static ::StringW GetOctetsAsString(System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
     // static private System.String GetPath(System.String uriString)
     // Offset: 0x18AD7E8
-    static ::Il2CppString* GetPath(::Il2CppString* uriString);
+    static ::StringW GetPath(::StringW uriString);
     // static private System.String AddSlashToAsteriskOnlyPath(System.String path)
     // Offset: 0x18AD010
-    static ::Il2CppString* AddSlashToAsteriskOnlyPath(::Il2CppString* path);
+    static ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
     // private System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
     // Offset: 0x18AD7AC
-    void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
+    void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::Il2CppObject*> args);
   }; // System.Net.HttpListenerRequestUriBuilder
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(System::Uri*)> __System_Net_HttpListenerRequestUriBuilderSizeCheck;
@@ -228,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::GetRequestUri
 // Il2CppName: GetRequestUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::GetRequestUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&System::Net::HttpListenerRequestUriBuilder::GetRequestUri)> {
   static const MethodInfo* get() {
     static auto* rawUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cookedUriScheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded
 // Il2CppName: AppendUnicodeCodePointValuePercentEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(::StringW)>(&System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded)> {
   static const MethodInfo* get() {
     static auto* codePoint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AppendUnicodeCodePointValuePercentEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codePoint});
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList
 // Il2CppName: AddPercentEncodedOctetToRawOctetsList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*, ::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*, ::StringW)>(&System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList)> {
   static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
     static auto* escapedCharacter = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -330,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString
 // Il2CppName: GetOctetsAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<uint8_t>*)>(&System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::IEnumerable_1<uint8_t>*)>(&System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString)> {
   static const MethodInfo* get() {
     static auto* octets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "GetOctetsAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{octets});
@@ -339,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::GetPath
 // Il2CppName: GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::HttpListenerRequestUriBuilder::GetPath)> {
   static const MethodInfo* get() {
     static auto* uriString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uriString});
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath
 // Il2CppName: AddSlashToAsteriskOnlyPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AddSlashToAsteriskOnlyPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -357,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)(::StringW, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

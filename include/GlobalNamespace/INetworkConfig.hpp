@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -12,9 +13,6 @@ namespace GlobalNamespace {
   class MasterServerEndPoint;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: INetworkConfig
@@ -48,7 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
     // public System.String get_masterServerStatusUrl()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_masterServerStatusUrl();
+    ::StringW get_masterServerStatusUrl();
   }; // INetworkConfig
   #pragma pack(pop)
 }
@@ -96,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_masterServerStatusUrl
 // Il2CppName: get_masterServerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_masterServerStatusUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -41,7 +42,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception cause)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception cause)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TlsException* New_ctor(::Il2CppString* message, System::Exception* cause) {
+    static TlsException* New_ctor(::StringW message, System::Exception* cause) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Tls::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(message, cause)));
     }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -40,7 +41,7 @@ namespace UnityEngine {
     static void InvokeMoveNext(System::Collections::IEnumerator* enumerator, System::IntPtr returnValueAddress);
     // static public System.Object InvokeMember(System.Object behaviour, System.String name, System.Object variable)
     // Offset: 0x1DFEC28
-    static ::Il2CppObject* InvokeMember(::Il2CppObject* behaviour, ::Il2CppString* name, ::Il2CppObject* variable);
+    static ::Il2CppObject* InvokeMember(::Il2CppObject* behaviour, ::StringW name, ::Il2CppObject* variable);
   }; // UnityEngine.SetupCoroutine
   #pragma pack(pop)
 }
@@ -58,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::SetupCoroutine::InvokeMember
 // Il2CppName: InvokeMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::SetupCoroutine::InvokeMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::StringW, ::Il2CppObject*)>(&UnityEngine::SetupCoroutine::InvokeMember)> {
   static const MethodInfo* get() {
     static auto* behaviour = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

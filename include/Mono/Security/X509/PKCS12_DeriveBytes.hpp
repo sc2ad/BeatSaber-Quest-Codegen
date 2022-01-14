@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Mono::Security::X509::PKCS12::DeriveBytes);
@@ -36,9 +37,9 @@ namespace Mono::Security::X509 {
     // private System.String _hashName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* hashName;
+    ::StringW hashName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _iterations
     // Size: 0x4
     // Offset: 0x18
@@ -73,7 +74,7 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.Byte[] macDiversifier
     static void _set_macDiversifier(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.String _hashName
-    ::Il2CppString*& dyn__hashName();
+    ::StringW& dyn__hashName();
     // Get instance field reference: private System.Int32 _iterations
     int& dyn__iterations();
     // Get instance field reference: private System.Byte[] _password
@@ -82,7 +83,7 @@ namespace Mono::Security::X509 {
     ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
     // Offset: 0x268476C
-    void set_HashName(::Il2CppString* value);
+    void set_HashName(::StringW value);
     // public System.Void set_IterationCount(System.Int32 value)
     // Offset: 0x2684774
     void set_IterationCount(int value);
@@ -128,7 +129,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_HashName
 // Il2CppName: set_HashName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Il2CppString*)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_HashName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::StringW)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_HashName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_HashName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

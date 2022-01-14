@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -53,15 +54,15 @@ namespace System::Runtime::InteropServices {
     // System.String _val
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* val;
+    ::StringW val;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String EntryPoint
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* EntryPoint;
+    ::StringW EntryPoint;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Runtime.InteropServices.CharSet CharSet
     // Size: 0x4
     // Offset: 0x20
@@ -108,9 +109,9 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.String _val
-    ::Il2CppString*& dyn__val();
+    ::StringW& dyn__val();
     // Get instance field reference: public System.String EntryPoint
-    ::Il2CppString*& dyn_EntryPoint();
+    ::StringW& dyn_EntryPoint();
     // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet
     System::Runtime::InteropServices::CharSet& dyn_CharSet();
     // Get instance field reference: public System.Boolean SetLastError
@@ -127,18 +128,18 @@ namespace System::Runtime::InteropServices {
     bool& dyn_ThrowOnUnmappableChar();
     // public System.String get_Value()
     // Offset: 0x1622AF4
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // System.Void .ctor(System.String dllName, System.String entryPoint, System.Runtime.InteropServices.CharSet charSet, System.Boolean exactSpelling, System.Boolean setLastError, System.Boolean preserveSig, System.Runtime.InteropServices.CallingConvention callingConvention, System.Boolean bestFitMapping, System.Boolean throwOnUnmappableChar)
     // Offset: 0x1622A00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DllImportAttribute* New_ctor(::Il2CppString* dllName, ::Il2CppString* entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) {
+    static DllImportAttribute* New_ctor(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar)));
     }
     // public System.Void .ctor(System.String dllName)
     // Offset: 0x1622AC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DllImportAttribute* New_ctor(::Il2CppString* dllName) {
+    static DllImportAttribute* New_ctor(::StringW dllName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName)));
     }
@@ -157,7 +158,7 @@ namespace System::Runtime::InteropServices {
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::InteropServices::DllImportAttribute::*)()>(&System::Runtime::InteropServices::DllImportAttribute::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::InteropServices::DllImportAttribute::*)()>(&System::Runtime::InteropServices::DllImportAttribute::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -158,57 +159,57 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(System::Text::RegularExpressions::RegexCharClass*) == 0x8);
     public:
     // Get static field: static private readonly System.String InternalRegexIgnoreCase
-    static ::Il2CppString* _get_InternalRegexIgnoreCase();
+    static ::StringW _get_InternalRegexIgnoreCase();
     // Set static field: static private readonly System.String InternalRegexIgnoreCase
-    static void _set_InternalRegexIgnoreCase(::Il2CppString* value);
+    static void _set_InternalRegexIgnoreCase(::StringW value);
     // Get static field: static private readonly System.String Space
-    static ::Il2CppString* _get_Space();
+    static ::StringW _get_Space();
     // Set static field: static private readonly System.String Space
-    static void _set_Space(::Il2CppString* value);
+    static void _set_Space(::StringW value);
     // Get static field: static private readonly System.String NotSpace
-    static ::Il2CppString* _get_NotSpace();
+    static ::StringW _get_NotSpace();
     // Set static field: static private readonly System.String NotSpace
-    static void _set_NotSpace(::Il2CppString* value);
+    static void _set_NotSpace(::StringW value);
     // Get static field: static private readonly System.String Word
-    static ::Il2CppString* _get_Word();
+    static ::StringW _get_Word();
     // Set static field: static private readonly System.String Word
-    static void _set_Word(::Il2CppString* value);
+    static void _set_Word(::StringW value);
     // Get static field: static private readonly System.String NotWord
-    static ::Il2CppString* _get_NotWord();
+    static ::StringW _get_NotWord();
     // Set static field: static private readonly System.String NotWord
-    static void _set_NotWord(::Il2CppString* value);
+    static void _set_NotWord(::StringW value);
     // Get static field: static readonly System.String SpaceClass
-    static ::Il2CppString* _get_SpaceClass();
+    static ::StringW _get_SpaceClass();
     // Set static field: static readonly System.String SpaceClass
-    static void _set_SpaceClass(::Il2CppString* value);
+    static void _set_SpaceClass(::StringW value);
     // Get static field: static readonly System.String NotSpaceClass
-    static ::Il2CppString* _get_NotSpaceClass();
+    static ::StringW _get_NotSpaceClass();
     // Set static field: static readonly System.String NotSpaceClass
-    static void _set_NotSpaceClass(::Il2CppString* value);
+    static void _set_NotSpaceClass(::StringW value);
     // Get static field: static readonly System.String WordClass
-    static ::Il2CppString* _get_WordClass();
+    static ::StringW _get_WordClass();
     // Set static field: static readonly System.String WordClass
-    static void _set_WordClass(::Il2CppString* value);
+    static void _set_WordClass(::StringW value);
     // Get static field: static readonly System.String NotWordClass
-    static ::Il2CppString* _get_NotWordClass();
+    static ::StringW _get_NotWordClass();
     // Set static field: static readonly System.String NotWordClass
-    static void _set_NotWordClass(::Il2CppString* value);
+    static void _set_NotWordClass(::StringW value);
     // Get static field: static readonly System.String DigitClass
-    static ::Il2CppString* _get_DigitClass();
+    static ::StringW _get_DigitClass();
     // Set static field: static readonly System.String DigitClass
-    static void _set_DigitClass(::Il2CppString* value);
+    static void _set_DigitClass(::StringW value);
     // Get static field: static readonly System.String NotDigitClass
-    static ::Il2CppString* _get_NotDigitClass();
+    static ::StringW _get_NotDigitClass();
     // Set static field: static readonly System.String NotDigitClass
-    static void _set_NotDigitClass(::Il2CppString* value);
+    static void _set_NotDigitClass(::StringW value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> _definedCategories
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get__definedCategories();
+    static System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _get__definedCategories();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> _definedCategories
-    static void _set__definedCategories(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
+    static void _set__definedCategories(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
     // Get static field: static private readonly System.String[,] _propTable
-    static ::ArrayW<::Il2CppString*> _get__propTable();
+    static ::ArrayW<::StringW> _get__propTable();
     // Set static field: static private readonly System.String[,] _propTable
-    static void _set__propTable(::ArrayW<::Il2CppString*> value);
+    static void _set__propTable(::ArrayW<::StringW> value);
     // Get static field: static private readonly System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping[] _lcTable
     static ::ArrayW<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping> _get__lcTable();
     // Set static field: static private readonly System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping[] _lcTable
@@ -247,7 +248,7 @@ namespace System::Text::RegularExpressions {
     void AddCharClass(System::Text::RegularExpressions::RegexCharClass* cc);
     // private System.Void AddSet(System.String set)
     // Offset: 0x19EE188
-    void AddSet(::Il2CppString* set);
+    void AddSet(::StringW set);
     // System.Void AddSubtraction(System.Text.RegularExpressions.RegexCharClass sub)
     // Offset: 0x19EE384
     void AddSubtraction(System::Text::RegularExpressions::RegexCharClass* sub);
@@ -256,10 +257,10 @@ namespace System::Text::RegularExpressions {
     void AddRange(::Il2CppChar first, ::Il2CppChar last);
     // System.Void AddCategoryFromName(System.String categoryName, System.Boolean invert, System.Boolean caseInsensitive, System.String pattern)
     // Offset: 0x19EE38C
-    void AddCategoryFromName(::Il2CppString* categoryName, bool invert, bool caseInsensitive, ::Il2CppString* pattern);
+    void AddCategoryFromName(::StringW categoryName, bool invert, bool caseInsensitive, ::StringW pattern);
     // private System.Void AddCategory(System.String category)
     // Offset: 0x19EE8A0
-    void AddCategory(::Il2CppString* category);
+    void AddCategory(::StringW category);
     // System.Void AddLowercase(System.Globalization.CultureInfo culture)
     // Offset: 0x19EE8BC
     void AddLowercase(System::Globalization::CultureInfo* culture);
@@ -274,28 +275,28 @@ namespace System::Text::RegularExpressions {
     void AddSpace(bool ecma, bool negate);
     // System.Void AddDigit(System.Boolean ecma, System.Boolean negate, System.String pattern)
     // Offset: 0x19EEE20
-    void AddDigit(bool ecma, bool negate, ::Il2CppString* pattern);
+    void AddDigit(bool ecma, bool negate, ::StringW pattern);
     // static System.Char SingletonChar(System.String set)
     // Offset: 0x19EEED0
-    static ::Il2CppChar SingletonChar(::Il2CppString* set);
+    static ::Il2CppChar SingletonChar(::StringW set);
     // static System.Boolean IsMergeable(System.String charClass)
     // Offset: 0x19EEEEC
-    static bool IsMergeable(::Il2CppString* charClass);
+    static bool IsMergeable(::StringW charClass);
     // static System.Boolean IsEmpty(System.String charClass)
     // Offset: 0x19EF030
-    static bool IsEmpty(::Il2CppString* charClass);
+    static bool IsEmpty(::StringW charClass);
     // static System.Boolean IsSingleton(System.String set)
     // Offset: 0x19EF0F8
-    static bool IsSingleton(::Il2CppString* set);
+    static bool IsSingleton(::StringW set);
     // static System.Boolean IsSingletonInverse(System.String set)
     // Offset: 0x19EF214
-    static bool IsSingletonInverse(::Il2CppString* set);
+    static bool IsSingletonInverse(::StringW set);
     // static private System.Boolean IsSubtraction(System.String charClass)
     // Offset: 0x19EEFCC
-    static bool IsSubtraction(::Il2CppString* charClass);
+    static bool IsSubtraction(::StringW charClass);
     // static System.Boolean IsNegated(System.String set)
     // Offset: 0x19EEFA0
-    static bool IsNegated(::Il2CppString* set);
+    static bool IsNegated(::StringW set);
     // static System.Boolean IsECMAWordChar(System.Char ch)
     // Offset: 0x19EF334
     static bool IsECMAWordChar(::Il2CppChar ch);
@@ -304,34 +305,34 @@ namespace System::Text::RegularExpressions {
     static bool IsWordChar(::Il2CppChar ch);
     // static System.Boolean CharInClass(System.Char ch, System.String set)
     // Offset: 0x19EF3A4
-    static bool CharInClass(::Il2CppChar ch, ::Il2CppString* set);
+    static bool CharInClass(::Il2CppChar ch, ::StringW set);
     // static System.Boolean CharInClassRecursive(System.Char ch, System.String set, System.Int32 start)
     // Offset: 0x19EF4B0
-    static bool CharInClassRecursive(::Il2CppChar ch, ::Il2CppString* set, int start);
+    static bool CharInClassRecursive(::Il2CppChar ch, ::StringW set, int start);
     // static private System.Boolean CharInClassInternal(System.Char ch, System.String set, System.Int32 start, System.Int32 mySetLength, System.Int32 myCategoryLength)
     // Offset: 0x19EF5F8
-    static bool CharInClassInternal(::Il2CppChar ch, ::Il2CppString* set, int start, int mySetLength, int myCategoryLength);
+    static bool CharInClassInternal(::Il2CppChar ch, ::StringW set, int start, int mySetLength, int myCategoryLength);
     // static private System.Boolean CharInCategory(System.Char ch, System.String set, System.Int32 start, System.Int32 mySetLength, System.Int32 myCategoryLength)
     // Offset: 0x19EF718
-    static bool CharInCategory(::Il2CppChar ch, ::Il2CppString* set, int start, int mySetLength, int myCategoryLength);
+    static bool CharInCategory(::Il2CppChar ch, ::StringW set, int start, int mySetLength, int myCategoryLength);
     // static private System.Boolean CharInCategoryGroup(System.Char ch, System.Globalization.UnicodeCategory chcategory, System.String category, ref System.Int32 i)
     // Offset: 0x19EF8D0
-    static bool CharInCategoryGroup(::Il2CppChar ch, System::Globalization::UnicodeCategory chcategory, ::Il2CppString* category, ByRef<int> i);
+    static bool CharInCategoryGroup(::Il2CppChar ch, System::Globalization::UnicodeCategory chcategory, ::StringW category, ByRef<int> i);
     // static private System.String NegateCategory(System.String category)
     // Offset: 0x19EDC90
-    static ::Il2CppString* NegateCategory(::Il2CppString* category);
+    static ::StringW NegateCategory(::StringW category);
     // static System.Text.RegularExpressions.RegexCharClass Parse(System.String charClass)
     // Offset: 0x19EF9A4
-    static System::Text::RegularExpressions::RegexCharClass* Parse(::Il2CppString* charClass);
+    static System::Text::RegularExpressions::RegexCharClass* Parse(::StringW charClass);
     // static private System.Text.RegularExpressions.RegexCharClass ParseRecursive(System.String charClass, System.Int32 start)
     // Offset: 0x19EFA0C
-    static System::Text::RegularExpressions::RegexCharClass* ParseRecursive(::Il2CppString* charClass, int start);
+    static System::Text::RegularExpressions::RegexCharClass* ParseRecursive(::StringW charClass, int start);
     // private System.Int32 RangeCount()
     // Offset: 0x19EE0C0
     int RangeCount();
     // System.String ToStringClass()
     // Offset: 0x19EFC44
-    ::Il2CppString* ToStringClass();
+    ::StringW ToStringClass();
     // private System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange GetRangeAt(System.Int32 i)
     // Offset: 0x19EE110
     System::Text::RegularExpressions::RegexCharClass::SingleRange* GetRangeAt(int i);
@@ -340,7 +341,7 @@ namespace System::Text::RegularExpressions {
     void Canonicalize();
     // static private System.String SetFromProperty(System.String capname, System.Boolean invert, System.String pattern)
     // Offset: 0x19EE594
-    static ::Il2CppString* SetFromProperty(::Il2CppString* capname, bool invert, ::Il2CppString* pattern);
+    static ::StringW SetFromProperty(::StringW capname, bool invert, ::StringW pattern);
     // System.Void .ctor()
     // Offset: 0x19EDD70
     // Implemented from: System.Object
@@ -408,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::AddSet
 // Il2CppName: AddSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::AddSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::AddSet)> {
   static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "AddSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
@@ -436,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::AddCategoryFromName
 // Il2CppName: AddCategoryFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::Il2CppString*, bool, bool, ::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::AddCategoryFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::StringW, bool, bool, ::StringW)>(&System::Text::RegularExpressions::RegexCharClass::AddCategoryFromName)> {
   static const MethodInfo* get() {
     static auto* categoryName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -448,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::AddCategory
 // Il2CppName: AddCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::AddCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::AddCategory)> {
   static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "AddCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category});
@@ -497,7 +498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::AddDigit
 // Il2CppName: AddDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(bool, bool, ::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::AddDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::*)(bool, bool, ::StringW)>(&System::Text::RegularExpressions::RegexCharClass::AddDigit)> {
   static const MethodInfo* get() {
     static auto* ecma = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* negate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -508,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingletonChar
 // Il2CppName: SingletonChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::SingletonChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::SingletonChar)> {
   static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "SingletonChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
@@ -517,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsMergeable
 // Il2CppName: IsMergeable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsMergeable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsMergeable)> {
   static const MethodInfo* get() {
     static auto* charClass = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsMergeable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charClass});
@@ -526,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsEmpty
 // Il2CppName: IsEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsEmpty)> {
   static const MethodInfo* get() {
     static auto* charClass = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charClass});
@@ -535,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsSingleton
 // Il2CppName: IsSingleton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsSingleton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsSingleton)> {
   static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
@@ -544,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsSingletonInverse
 // Il2CppName: IsSingletonInverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsSingletonInverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsSingletonInverse)> {
   static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsSingletonInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
@@ -553,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsSubtraction
 // Il2CppName: IsSubtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsSubtraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsSubtraction)> {
   static const MethodInfo* get() {
     static auto* charClass = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsSubtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charClass});
@@ -562,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::IsNegated
 // Il2CppName: IsNegated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::IsNegated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::IsNegated)> {
   static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "IsNegated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
@@ -589,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::CharInClass
 // Il2CppName: CharInClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::CharInClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::StringW)>(&System::Text::RegularExpressions::RegexCharClass::CharInClass)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -599,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::CharInClassRecursive
 // Il2CppName: CharInClassRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppString*, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInClassRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::StringW, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInClassRecursive)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::CharInClassInternal
 // Il2CppName: CharInClassInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInClassInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::StringW, int, int, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInClassInternal)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -623,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::CharInCategory
 // Il2CppName: CharInCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::StringW, int, int, int)>(&System::Text::RegularExpressions::RegexCharClass::CharInCategory)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -636,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::CharInCategoryGroup
 // Il2CppName: CharInCategoryGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::Globalization::UnicodeCategory, ::Il2CppString*, ByRef<int>)>(&System::Text::RegularExpressions::RegexCharClass::CharInCategoryGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::Globalization::UnicodeCategory, ::StringW, ByRef<int>)>(&System::Text::RegularExpressions::RegexCharClass::CharInCategoryGroup)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* chcategory = &::il2cpp_utils::GetClassFromName("System.Globalization", "UnicodeCategory")->byval_arg;
@@ -648,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::NegateCategory
 // Il2CppName: NegateCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::NegateCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::NegateCategory)> {
   static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "NegateCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category});
@@ -657,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (*)(::StringW)>(&System::Text::RegularExpressions::RegexCharClass::Parse)> {
   static const MethodInfo* get() {
     static auto* charClass = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charClass});
@@ -666,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::ParseRecursive
 // Il2CppName: ParseRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (*)(::Il2CppString*, int)>(&System::Text::RegularExpressions::RegexCharClass::ParseRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCharClass* (*)(::StringW, int)>(&System::Text::RegularExpressions::RegexCharClass::ParseRecursive)> {
   static const MethodInfo* get() {
     static auto* charClass = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -684,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::ToStringClass
 // Il2CppName: ToStringClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::RegexCharClass::*)()>(&System::Text::RegularExpressions::RegexCharClass::ToStringClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::RegexCharClass::*)()>(&System::Text::RegularExpressions::RegexCharClass::ToStringClass)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass*), "ToStringClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -709,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SetFromProperty
 // Il2CppName: SetFromProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool, ::Il2CppString*)>(&System::Text::RegularExpressions::RegexCharClass::SetFromProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool, ::StringW)>(&System::Text::RegularExpressions::RegexCharClass::SetFromProperty)> {
   static const MethodInfo* get() {
     static auto* capname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices::API
@@ -94,15 +95,15 @@ namespace OnlineServices::API {
     // static field const value: static private System.String kSendLevelScoreResultPath
     static constexpr const char* kSendLevelScoreResultPath = "/v1/Leaderboard/AddEntry";
     // Get static field: static private System.String kSendLevelScoreResultPath
-    static ::Il2CppString* _get_kSendLevelScoreResultPath();
+    static ::StringW _get_kSendLevelScoreResultPath();
     // Set static field: static private System.String kSendLevelScoreResultPath
-    static void _set_kSendLevelScoreResultPath(::Il2CppString* value);
+    static void _set_kSendLevelScoreResultPath(::StringW value);
     // static field const value: static private System.String kGetLeaderboardEntriesPath
     static constexpr const char* kGetLeaderboardEntriesPath = "/v1/Leaderboard/Filter";
     // Get static field: static private System.String kGetLeaderboardEntriesPath
-    static ::Il2CppString* _get_kGetLeaderboardEntriesPath();
+    static ::StringW _get_kGetLeaderboardEntriesPath();
     // Set static field: static private System.String kGetLeaderboardEntriesPath
-    static void _set_kGetLeaderboardEntriesPath(::Il2CppString* value);
+    static void _set_kGetLeaderboardEntriesPath(::StringW value);
     // Get instance field reference: private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     OnlineServices::API::HTTPLeaderboardsOathHelper*& dyn__httpLeaderboardsOathHelper();
     // public System.Void LogoutAsync()

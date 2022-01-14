@@ -96,7 +96,7 @@ namespace LiteNetLib {
       // Offset: 0x1DD2318
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket
     #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;

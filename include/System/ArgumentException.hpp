@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,20 +53,20 @@ namespace System {
     // private System.String m_paramName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* m_paramName;
+    ::StringW m_paramName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_paramName;
     }
     // Get instance field reference: private System.String m_paramName
-    ::Il2CppString*& dyn_m_paramName();
+    ::StringW& dyn_m_paramName();
     // public System.Void .ctor(System.String message, System.String paramName)
     // Offset: 0x198ACA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentException* New_ctor(::Il2CppString* message, ::Il2CppString* paramName) {
+    static ArgumentException* New_ctor(::StringW message, ::StringW paramName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentException*, creationType>(message, paramName)));
     }
@@ -73,7 +74,7 @@ namespace System {
     // Offset: 0x198AD7C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x198AC00
     // Implemented from: System.SystemException
@@ -91,7 +92,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentException* New_ctor(::Il2CppString* message) {
+    static ArgumentException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentException*, creationType>(message)));
     }
@@ -101,7 +102,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
+    static ArgumentException* New_ctor(::StringW message, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentException*, creationType>(message, innerException)));
     }
@@ -122,7 +123,7 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ArgumentException
   #pragma pack(pop)
-  static check_size<sizeof(ArgumentException), 136 + sizeof(::Il2CppString*)> __System_ArgumentExceptionSizeCheck;
+  static check_size<sizeof(ArgumentException), 136 + sizeof(::StringW)> __System_ArgumentExceptionSizeCheck;
   static_assert(sizeof(ArgumentException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,7 +134,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ArgumentException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ArgumentException::*)()>(&System::ArgumentException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ArgumentException::*)()>(&System::ArgumentException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ArgumentException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

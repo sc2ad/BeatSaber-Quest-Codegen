@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -67,9 +68,9 @@ namespace Polyglot {
     // private System.String key
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* key;
+    ::StringW key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
@@ -80,10 +81,10 @@ namespace Polyglot {
     // Get instance field reference: private UnityEngine.TextMesh text
     UnityEngine::TextMesh*& dyn_text();
     // Get instance field reference: private System.String key
-    ::Il2CppString*& dyn_key();
+    ::StringW& dyn_key();
     // public System.String get_Key()
     // Offset: 0x262B02C
-    ::Il2CppString* get_Key();
+    ::StringW get_Key();
     // public System.Void Reset()
     // Offset: 0x262B034
     void Reset();
@@ -117,14 +118,14 @@ namespace Polyglot {
     }
   }; // Polyglot.LocalizedTextMesh
   #pragma pack(pop)
-  static check_size<sizeof(LocalizedTextMesh), 32 + sizeof(::Il2CppString*)> __Polyglot_LocalizedTextMeshSizeCheck;
+  static check_size<sizeof(LocalizedTextMesh), 32 + sizeof(::StringW)> __Polyglot_LocalizedTextMeshSizeCheck;
   static_assert(sizeof(LocalizedTextMesh) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

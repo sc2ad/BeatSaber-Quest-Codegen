@@ -10,10 +10,8 @@
 #include "System/IDisposable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: Mono
 namespace Mono {
   // Forward declaring type: SafeStringMarshal
@@ -34,9 +32,9 @@ namespace Mono {
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* str;
+    ::StringW str;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.IntPtr marshaled_string
     // Size: 0x8
     // Offset: 0x8
@@ -45,7 +43,7 @@ namespace Mono {
     static_assert(sizeof(System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: SafeStringMarshal
-    constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
+    constexpr SafeStringMarshal(::StringW str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -55,7 +53,7 @@ namespace Mono {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // Get instance field reference: private readonly System.String str
-    ::Il2CppString*& dyn_str();
+    ::StringW& dyn_str();
     // Get instance field reference: private System.IntPtr marshaled_string
     System::IntPtr& dyn_marshaled_string();
     // public System.IntPtr get_Value()
@@ -63,10 +61,10 @@ namespace Mono {
     System::IntPtr get_Value();
     // public System.Void .ctor(System.String str)
     // Offset: 0x1C7B860
-    SafeStringMarshal(::Il2CppString* str);
+    SafeStringMarshal(::StringW str);
     // static public System.IntPtr StringToUtf8(System.String str)
     // Offset: 0x1C7BBE4
-    static System::IntPtr StringToUtf8(::Il2CppString* str);
+    static System::IntPtr StringToUtf8(::StringW str);
     // static public System.Void GFree(System.IntPtr ptr)
     // Offset: 0x1C7BBE8
     static void GFree(System::IntPtr ptr);
@@ -94,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Mono::SafeStringMarshal::StringToUtf8
 // Il2CppName: StringToUtf8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&Mono::SafeStringMarshal::StringToUtf8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&Mono::SafeStringMarshal::StringToUtf8)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::SafeStringMarshal), "StringToUtf8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

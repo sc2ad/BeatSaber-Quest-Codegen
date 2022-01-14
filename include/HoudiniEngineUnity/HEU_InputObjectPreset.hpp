@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -40,9 +41,9 @@ namespace HoudiniEngineUnity {
     // public System.String _gameObjectName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* gameObjectName;
+    ::StringW gameObjectName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _isSceneObject
     // Size: 0x1
     // Offset: 0x18
@@ -77,7 +78,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public System.String _gameObjectName
-    ::Il2CppString*& dyn__gameObjectName();
+    ::StringW& dyn__gameObjectName();
     // Get instance field reference: public System.Boolean _isSceneObject
     bool& dyn__isSceneObject();
     // Get instance field reference: public System.Boolean _useTransformOffset

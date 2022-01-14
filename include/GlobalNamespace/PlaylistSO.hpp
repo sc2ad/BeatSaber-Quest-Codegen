@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -56,9 +57,9 @@ namespace GlobalNamespace {
     // private System.String _playListLocalizedName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* playListLocalizedName;
+    ::StringW playListLocalizedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Sprite _coverImage
     // Size: 0x8
     // Offset: 0x20
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _playListLocalizedName
-    ::Il2CppString*& dyn__playListLocalizedName();
+    ::StringW& dyn__playListLocalizedName();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
     UnityEngine::Sprite*& dyn__coverImage();
     // Get instance field reference: private UnityEngine.Sprite _smallCoverImage
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelCollectionSO*& dyn__beatmapLevelCollection();
     // public System.String get_collectionName()
     // Offset: 0x11AD838
-    ::Il2CppString* get_collectionName();
+    ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0x11AD844
     UnityEngine::Sprite* get_coverImage();
@@ -124,7 +125,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PlaylistSO::get_collectionName
 // Il2CppName: get_collectionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlaylistSO::*)()>(&GlobalNamespace::PlaylistSO::get_collectionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlaylistSO::*)()>(&GlobalNamespace::PlaylistSO::get_collectionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlaylistSO*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

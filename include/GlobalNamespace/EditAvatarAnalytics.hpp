@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
     void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed();
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> CreateEditAvatarEventData()
     // Offset: 0x11D83A0
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* CreateEditAvatarEventData();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
     // public System.Void .ctor()
     // Offset: 0x11D8768
     // Implemented from: UnityEngine.MonoBehaviour
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarAnalytics::CreateEditAvatarEventData
 // Il2CppName: CreateEditAvatarEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (GlobalNamespace::EditAvatarAnalytics::*)()>(&GlobalNamespace::EditAvatarAnalytics::CreateEditAvatarEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (GlobalNamespace::EditAvatarAnalytics::*)()>(&GlobalNamespace::EditAvatarAnalytics::CreateEditAvatarEventData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarAnalytics*), "CreateEditAvatarEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

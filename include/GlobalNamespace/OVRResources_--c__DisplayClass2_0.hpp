@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OVRResources::$$c__DisplayClass2_0);
@@ -36,19 +37,19 @@ namespace GlobalNamespace {
     // public System.String path
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* path;
+    ::StringW path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return path;
     }
     // Get instance field reference: public System.String path
-    ::Il2CppString*& dyn_path();
+    ::StringW& dyn_path();
     // System.Boolean <Load>b__0(System.String s)
     // Offset: 0x187E164
-    bool $Load$b__0(::Il2CppString* s);
+    bool $Load$b__0(::StringW s);
     // public System.Void .ctor()
     // Offset: 0x187E09C
     // Implemented from: System.Object
@@ -60,14 +61,14 @@ namespace GlobalNamespace {
     }
   }; // OVRResources/<>c__DisplayClass2_0
   #pragma pack(pop)
-  static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
+  static check_size<sizeof(OVRResources::$$c__DisplayClass2_0), 16 + sizeof(::StringW)> __GlobalNamespace_OVRResources_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(OVRResources::$$c__DisplayClass2_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0
 // Il2CppName: <Load>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRResources::$$c__DisplayClass2_0::*)(::Il2CppString*)>(&GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRResources::$$c__DisplayClass2_0::*)(::StringW)>(&GlobalNamespace::OVRResources::$$c__DisplayClass2_0::$Load$b__0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources::$$c__DisplayClass2_0*), "<Load>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -49,15 +50,15 @@ namespace GlobalNamespace {
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <userName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Int32 <sortIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -78,9 +79,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);
     }
     // Get instance field reference: private System.String <userId>k__BackingField
-    ::Il2CppString*& dyn_$userId$k__BackingField();
+    ::StringW& dyn_$userId$k__BackingField();
     // Get instance field reference: private System.String <userName>k__BackingField
-    ::Il2CppString*& dyn_$userName$k__BackingField();
+    ::StringW& dyn_$userName$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <sortIndex>k__BackingField
     int& dyn_$sortIndex$k__BackingField();
     // Get instance field reference: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
@@ -96,16 +97,16 @@ namespace GlobalNamespace {
     bool get_isMe();
     // public System.String get_userId()
     // Offset: 0x1565A0C
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // private System.Void set_userId(System.String value)
     // Offset: 0x1565A14
-    void set_userId(::Il2CppString* value);
+    void set_userId(::StringW value);
     // public System.String get_userName()
     // Offset: 0x1565A1C
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // private System.Void set_userName(System.String value)
     // Offset: 0x1565A24
-    void set_userName(::Il2CppString* value);
+    void set_userName(::StringW value);
     // public System.Single get_currentLatency()
     // Offset: 0x1565A2C
     float get_currentLatency();
@@ -130,13 +131,13 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
     // Offset: 0x1565A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DisconnectedPlayer* New_ctor(::Il2CppString* userId, ::Il2CppString* userName, int sortIndex) {
+    static DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int sortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisconnectedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectedPlayer*, creationType>(userId, userName, sortIndex)));
     }
     // public System.Boolean HasState(System.String state)
     // Offset: 0x1565A6C
-    bool HasState(::Il2CppString* state);
+    bool HasState(::StringW state);
   }; // DisconnectedPlayer
   #pragma pack(pop)
   static check_size<sizeof(DisconnectedPlayer), 40 + sizeof(GlobalNamespace::MultiplayerAvatarData)> __GlobalNamespace_DisconnectedPlayerSizeCheck;
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::DisconnectedPlayer::*)()>(&GlobalNamespace::DisconnectedPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::DisconnectedPlayer::*)()>(&GlobalNamespace::DisconnectedPlayer::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::set_userId
 // Il2CppName: set_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectedPlayer::*)(::Il2CppString*)>(&GlobalNamespace::DisconnectedPlayer::set_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&GlobalNamespace::DisconnectedPlayer::set_userId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::DisconnectedPlayer::*)()>(&GlobalNamespace::DisconnectedPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::DisconnectedPlayer::*)()>(&GlobalNamespace::DisconnectedPlayer::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::set_userName
 // Il2CppName: set_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectedPlayer::*)(::Il2CppString*)>(&GlobalNamespace::DisconnectedPlayer::set_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&GlobalNamespace::DisconnectedPlayer::set_userName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::HasState
 // Il2CppName: HasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DisconnectedPlayer::*)(::Il2CppString*)>(&GlobalNamespace::DisconnectedPlayer::HasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&GlobalNamespace::DisconnectedPlayer::HasState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -147,16 +148,16 @@ namespace Zenject {
     // private System.Collections.Generic.List`1<System.String> _contractNames
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::List_1<::Il2CppString*>* contractNames;
+    System::Collections::Generic::List_1<::StringW>* contractNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // [TooltipAttribute] Offset: 0xF03680
     // private System.Collections.Generic.List`1<System.String> _parentContractNames
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::List_1<::Il2CppString*>* parentContractNames;
+    System::Collections::Generic::List_1<::StringW>* parentContractNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0xA0
@@ -221,9 +222,9 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _parentNewObjectsUnderSceneContext
     bool& dyn__parentNewObjectsUnderSceneContext();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _contractNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__contractNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn__contractNames();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _parentContractNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__parentContractNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn__parentContractNames();
     // Get instance field reference: private Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.SceneDecoratorContext> _decoratorContexts
@@ -243,16 +244,16 @@ namespace Zenject {
     bool get_IsValidating();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ContractNames()
     // Offset: 0x18E5314
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ContractNames();
+    System::Collections::Generic::IEnumerable_1<::StringW>* get_ContractNames();
     // public System.Void set_ContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0x18E531C
-    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    void set_ContractNames(System::Collections::Generic::IEnumerable_1<::StringW>* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> get_ParentContractNames()
     // Offset: 0x18E539C
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* get_ParentContractNames();
+    System::Collections::Generic::IEnumerable_1<::StringW>* get_ParentContractNames();
     // public System.Void set_ParentContractNames(System.Collections.Generic.IEnumerable`1<System.String> value)
     // Offset: 0x18E5424
-    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* value);
+    void set_ParentContractNames(System::Collections::Generic::IEnumerable_1<::StringW>* value);
     // public System.Boolean get_ParentNewObjectsUnderSceneContext()
     // Offset: 0x18E5488
     bool get_ParentNewObjectsUnderSceneContext();
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::SceneContext::get_ContractNames
 // Il2CppName: get_ContractNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (Zenject::SceneContext::*)()>(&Zenject::SceneContext::get_ContractNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (Zenject::SceneContext::*)()>(&Zenject::SceneContext::get_ContractNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext*), "get_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -392,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::SceneContext::set_ContractNames
 // Il2CppName: set_ContractNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&Zenject::SceneContext::set_ContractNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContext::*)(System::Collections::Generic::IEnumerable_1<::StringW>*)>(&Zenject::SceneContext::set_ContractNames)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext*), "set_ContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -401,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::SceneContext::get_ParentContractNames
 // Il2CppName: get_ParentContractNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (Zenject::SceneContext::*)()>(&Zenject::SceneContext::get_ParentContractNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (Zenject::SceneContext::*)()>(&Zenject::SceneContext::get_ParentContractNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext*), "get_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -409,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::SceneContext::set_ParentContractNames
 // Il2CppName: set_ParentContractNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContext::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&Zenject::SceneContext::set_ParentContractNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContext::*)(System::Collections::Generic::IEnumerable_1<::StringW>*)>(&Zenject::SceneContext::set_ParentContractNames)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext*), "set_ParentContractNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

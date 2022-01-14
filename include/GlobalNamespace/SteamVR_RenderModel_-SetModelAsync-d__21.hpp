@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -60,9 +61,9 @@ namespace GlobalNamespace {
     // public System.String renderModelName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* renderModelName;
+    ::StringW renderModelName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public SteamVR_RenderModel <>4__this
     // Size: 0x8
     // Offset: 0x28
@@ -84,9 +85,9 @@ namespace GlobalNamespace {
     // private System.String[] <renderModelNames>5__4
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<::Il2CppString*> $renderModelNames$5__4;
+    ::ArrayW<::StringW> $renderModelNames$5__4;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
@@ -97,7 +98,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Object <>2__current
     ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.String renderModelName
-    ::Il2CppString*& dyn_renderModelName();
+    ::StringW& dyn_renderModelName();
     // Get instance field reference: public SteamVR_RenderModel <>4__this
     GlobalNamespace::SteamVR_RenderModel*& dyn_$$4__this();
     // Get instance field reference: private SteamVR_RenderModel/RenderModelInterfaceHolder <holder>5__2
@@ -105,7 +106,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels <renderModels>5__3
     Valve::VR::CVRRenderModels*& dyn_$renderModels$5__3();
     // Get instance field reference: private System.String[] <renderModelNames>5__4
-    ::ArrayW<::Il2CppString*>& dyn_$renderModelNames$5__4();
+    ::ArrayW<::StringW>& dyn_$renderModelNames$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x15C9B14
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
@@ -133,7 +134,7 @@ namespace GlobalNamespace {
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_RenderModel/<SetModelAsync>d__21
   #pragma pack(pop)
-  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
+  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::ArrayW<::StringW>)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$SetModelAsync$d__21) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

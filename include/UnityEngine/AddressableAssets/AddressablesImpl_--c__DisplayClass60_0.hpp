@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::AddressableAssets::ResourceLocators
@@ -54,9 +55,9 @@ namespace UnityEngine::AddressableAssets {
     // public System.String catalogPath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* catalogPath;
+    ::StringW catalogPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean autoReleaseHandle
     // Size: 0x1
     // Offset: 0x20
@@ -66,9 +67,9 @@ namespace UnityEngine::AddressableAssets {
     // public System.String providerSuffix
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* providerSuffix;
+    ::StringW providerSuffix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> handle
     // Size: 0xFFFFFFFF
     // Offset: 0x30
@@ -77,11 +78,11 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.String catalogPath
-    ::Il2CppString*& dyn_catalogPath();
+    ::StringW& dyn_catalogPath();
     // Get instance field reference: public System.Boolean autoReleaseHandle
     bool& dyn_autoReleaseHandle();
     // Get instance field reference: public System.String providerSuffix
-    ::Il2CppString*& dyn_providerSuffix();
+    ::StringW& dyn_providerSuffix();
     // Get instance field reference: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> handle
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>& dyn_handle();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalogAsync>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)

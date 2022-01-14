@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Protocol::Ntlm
@@ -64,27 +65,27 @@ namespace Mono::Security::Protocol::Ntlm {
     // private System.String _host
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* host;
+    ::StringW host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _domain
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* domain;
+    ::StringW domain;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _username
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* username;
+    ::StringW username;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _password
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* password;
+    ::StringW password;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Mono.Security.Protocol.Ntlm.Type2Message _type2
     // Size: 0x8
     // Offset: 0x48
@@ -109,13 +110,13 @@ namespace Mono::Security::Protocol::Ntlm {
     // Get instance field reference: private System.Byte[] _challenge
     ::ArrayW<uint8_t>& dyn__challenge();
     // Get instance field reference: private System.String _host
-    ::Il2CppString*& dyn__host();
+    ::StringW& dyn__host();
     // Get instance field reference: private System.String _domain
-    ::Il2CppString*& dyn__domain();
+    ::StringW& dyn__domain();
     // Get instance field reference: private System.String _username
-    ::Il2CppString*& dyn__username();
+    ::StringW& dyn__username();
     // Get instance field reference: private System.String _password
-    ::Il2CppString*& dyn__password();
+    ::StringW& dyn__password();
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.Type2Message _type2
     Mono::Security::Protocol::Ntlm::Type2Message*& dyn__type2();
     // Get instance field reference: private System.Byte[] _lm
@@ -124,13 +125,13 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayW<uint8_t>& dyn__nt();
     // public System.Void set_Domain(System.String value)
     // Offset: 0x1F991DC
-    void set_Domain(::Il2CppString* value);
+    void set_Domain(::StringW value);
     // public System.Void set_Password(System.String value)
     // Offset: 0x1F99264
-    void set_Password(::Il2CppString* value);
+    void set_Password(::StringW value);
     // public System.Void set_Username(System.String value)
     // Offset: 0x1F9926C
-    void set_Username(::Il2CppString* value);
+    void set_Username(::StringW value);
     // public System.Void .ctor(Mono.Security.Protocol.Ntlm.Type2Message type2)
     // Offset: 0x1F98F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -140,10 +141,10 @@ namespace Mono::Security::Protocol::Ntlm {
     }
     // private System.String DecodeString(System.Byte[] buffer, System.Int32 offset, System.Int32 len)
     // Offset: 0x1F9949C
-    ::Il2CppString* DecodeString(::ArrayW<uint8_t> buffer, int offset, int len);
+    ::StringW DecodeString(::ArrayW<uint8_t> buffer, int offset, int len);
     // private System.Byte[] EncodeString(System.String text)
     // Offset: 0x1F99500
-    ::ArrayW<uint8_t> EncodeString(::Il2CppString* text);
+    ::ArrayW<uint8_t> EncodeString(::StringW text);
     // protected override System.Void Finalize()
     // Offset: 0x1F99128
     // Implemented from: System.Object
@@ -168,7 +169,7 @@ namespace Mono::Security::Protocol::Ntlm {
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::set_Domain
 // Il2CppName: set_Domain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Domain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Domain)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type3Message*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -177,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::set_Password
 // Il2CppName: set_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Password)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type3Message*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::set_Username
 // Il2CppName: set_Username
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Username)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type3Message::set_Username)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type3Message*), "set_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Security::Protocol::Ntlm::Type3Message::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Security::Protocol::Ntlm::Type3Message::DecodeString)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type3Message::EncodeString
 // Il2CppName: EncodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::Type3Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type3Message::EncodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type3Message::EncodeString)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type3Message*), "EncodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

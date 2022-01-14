@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -40,28 +41,28 @@ namespace System::Net {
     // private System.String password
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* password;
+    ::StringW password;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return password;
     }
     // Get instance field reference: private System.String password
-    ::Il2CppString*& dyn_password();
+    ::StringW& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
     // Offset: 0x18AB81C
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpListenerBasicIdentity* New_ctor(::Il2CppString* username, ::Il2CppString* password) {
+    static HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerBasicIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerBasicIdentity*, creationType>(username, password)));
     }
   }; // System.Net.HttpListenerBasicIdentity
   #pragma pack(pop)
-  static check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(::Il2CppString*)> __System_Net_HttpListenerBasicIdentitySizeCheck;
+  static check_size<sizeof(HttpListenerBasicIdentity), 136 + sizeof(::StringW)> __System_Net_HttpListenerBasicIdentitySizeCheck;
   static_assert(sizeof(HttpListenerBasicIdentity) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

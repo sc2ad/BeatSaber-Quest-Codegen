@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -63,9 +64,9 @@ namespace HMUI {
     // private System.String _overrideText
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* overrideText;
+    ::StringW overrideText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _canBeUppercase
     // Size: 0x1
     // Offset: 0x30
@@ -80,7 +81,7 @@ namespace HMUI {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private System.String _overrideText
-    ::Il2CppString*& dyn__overrideText();
+    ::StringW& dyn__overrideText();
     // Get instance field reference: private System.Boolean _canBeUppercase
     bool& dyn__canBeUppercase();
     // public UnityEngine.KeyCode get_keyCode()

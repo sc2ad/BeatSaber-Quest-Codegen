@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1);
@@ -36,9 +37,9 @@ namespace GlobalNamespace {
     // public System.String guestPlayerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* guestPlayerName;
+    ::StringW guestPlayerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*) == 0x8);
     public:
     // Get instance field reference: public System.String guestPlayerName
-    ::Il2CppString*& dyn_guestPlayerName();
+    ::StringW& dyn_guestPlayerName();
     // Get instance field reference: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1
     GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*& dyn_CS$$$8__locals1();
     // System.Void <DidActivate>b__1()

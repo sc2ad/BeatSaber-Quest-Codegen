@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -51,15 +52,15 @@ namespace HoudiniEngineUnity {
     // public System.String _objName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* objName;
+    ::StringW objName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _geoName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* geoName;
+    ::StringW geoName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _uiExpanded
     // Size: 0x1
     // Offset: 0x20
@@ -78,9 +79,9 @@ namespace HoudiniEngineUnity {
     // public System.String _terrainDataPath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* terrainDataPath;
+    ::StringW terrainDataPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xF662C8
     // public System.Int32 _tile
     // Size: 0x4
@@ -90,15 +91,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String _objName
-    ::Il2CppString*& dyn__objName();
+    ::StringW& dyn__objName();
     // Get instance field reference: public System.String _geoName
-    ::Il2CppString*& dyn__geoName();
+    ::StringW& dyn__geoName();
     // Get instance field reference: public System.Boolean _uiExpanded
     bool& dyn__uiExpanded();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeLayerPreset> _volumeLayersPresets
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& dyn__volumeLayersPresets();
     // Get instance field reference: public System.String _terrainDataPath
-    ::Il2CppString*& dyn__terrainDataPath();
+    ::StringW& dyn__terrainDataPath();
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // public System.Void .ctor()

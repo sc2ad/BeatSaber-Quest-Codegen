@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,7 +52,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Offset: 0x1BEE08C
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider
     // Base method: System.Object TextDataProvider::Convert(System.Type type, System.String text)
-    ::Il2CppObject* Convert(System::Type* type, ::Il2CppString* text);
+    ::Il2CppObject* Convert(System::Type* type, ::StringW text);
   }; // UnityEngine.ResourceManagement.ResourceProviders.JsonAssetProvider
   #pragma pack(pop)
 }
@@ -63,7 +64,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)(System::Type*, ::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)(System::Type*, ::StringW)>(&UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

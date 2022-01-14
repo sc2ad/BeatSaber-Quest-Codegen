@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::ComponentModel
@@ -42,9 +43,9 @@ namespace System::ComponentModel {
     // static field const value: static private System.String s_UseCompatibleTypeConverterBehavior
     static constexpr const char* s_UseCompatibleTypeConverterBehavior = "UseCompatibleTypeConverterBehavior";
     // Get static field: static private System.String s_UseCompatibleTypeConverterBehavior
-    static ::Il2CppString* _get_s_UseCompatibleTypeConverterBehavior();
+    static ::StringW _get_s_UseCompatibleTypeConverterBehavior();
     // Set static field: static private System.String s_UseCompatibleTypeConverterBehavior
-    static void _set_s_UseCompatibleTypeConverterBehavior(::Il2CppString* value);
+    static void _set_s_UseCompatibleTypeConverterBehavior(::StringW value);
     // Get static field: static private System.Boolean useCompatibleTypeConversion
     static bool _get_useCompatibleTypeConversion();
     // Set static field: static private System.Boolean useCompatibleTypeConversion

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -40,7 +41,7 @@ namespace NUnit::Framework::Constraints {
     static void _cctor();
     // System.String <.cctor>b__14_0(System.Object val)
     // Offset: 0x193B944
-    ::Il2CppString* $_cctor$b__14_0(::Il2CppObject* val);
+    ::StringW $_cctor$b__14_0(::Il2CppObject* val);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_1(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x193B9B8
     NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_1(NUnit::Framework::Constraints::ValueFormatter* next);
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_0
 // Il2CppName: <.cctor>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_0)> {
   static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});

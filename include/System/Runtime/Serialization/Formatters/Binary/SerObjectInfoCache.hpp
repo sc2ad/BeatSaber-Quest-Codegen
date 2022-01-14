@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -51,15 +52,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* fullTypeName;
+    ::StringW fullTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String assemblyString
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* assemblyString;
+    ::StringW assemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Boolean hasTypeForwardedFrom
     // Size: 0x1
     // Offset: 0x20
@@ -77,9 +78,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::Il2CppString*> memberNames;
+    ::ArrayW<::StringW> memberNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x38
@@ -88,21 +89,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     public:
     // Get instance field reference: System.String fullTypeName
-    ::Il2CppString*& dyn_fullTypeName();
+    ::StringW& dyn_fullTypeName();
     // Get instance field reference: System.String assemblyString
-    ::Il2CppString*& dyn_assemblyString();
+    ::StringW& dyn_assemblyString();
     // Get instance field reference: System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // Get instance field reference: System.Reflection.MemberInfo[] memberInfos
     ::ArrayW<System::Reflection::MemberInfo*>& dyn_memberInfos();
     // Get instance field reference: System.String[] memberNames
-    ::ArrayW<::Il2CppString*>& dyn_memberNames();
+    ::ArrayW<::StringW>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
     ::ArrayW<System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
     // Offset: 0x1869490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerObjectInfoCache* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, bool hasTypeForwardedFrom) {
+    static SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(typeName, assemblyName, hasTypeForwardedFrom)));
     }

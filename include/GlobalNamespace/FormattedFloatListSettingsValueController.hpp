@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -112,9 +113,9 @@ namespace GlobalNamespace {
     // private System.String _formattingString
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* formattingString;
+    ::StringW formattingString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private FormattedFloatListSettingsValueController/ValueType valueType
     // Size: 0x4
     // Offset: 0x40
@@ -139,7 +140,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single[] _values
     ::ArrayW<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString
-    ::Il2CppString*& dyn__formattingString();
+    ::StringW& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsValueController/ValueType valueType
     GlobalNamespace::FormattedFloatListSettingsValueController::ValueType& dyn_valueType();
     // Get instance field reference: private System.Single _min
@@ -175,7 +176,7 @@ namespace GlobalNamespace {
     // Offset: 0x11E924C
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
-    ::Il2CppString* TextForValue(int idx);
+    ::StringW TextForValue(int idx);
   }; // FormattedFloatListSettingsValueController
   #pragma pack(pop)
   static check_size<sizeof(FormattedFloatListSettingsValueController), 72 + sizeof(float)> __GlobalNamespace_FormattedFloatListSettingsValueControllerSizeCheck;
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsValueController::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::FormattedFloatListSettingsValueController::*)(int)>(&GlobalNamespace::FormattedFloatListSettingsValueController::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::FormattedFloatListSettingsValueController::*)(int)>(&GlobalNamespace::FormattedFloatListSettingsValueController::TextForValue)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FormattedFloatListSettingsValueController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});

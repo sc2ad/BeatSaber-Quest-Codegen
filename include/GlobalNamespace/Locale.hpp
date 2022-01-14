@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
     public:
     // static public System.String GetText(System.String msg)
     // Offset: 0x1F87858
-    static ::Il2CppString* GetText(::Il2CppString* msg);
+    static ::StringW GetText(::StringW msg);
   }; // Locale
   #pragma pack(pop)
 }
@@ -32,7 +33,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::Locale::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::Locale::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&GlobalNamespace::Locale::GetText)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Locale*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

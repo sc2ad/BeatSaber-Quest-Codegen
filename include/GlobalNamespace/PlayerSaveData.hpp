@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -94,14 +95,14 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>*) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.0.20";
     // Get static field: static public System.String kCurrentVersion
-    static ::Il2CppString* _get_kCurrentVersion();
+    static ::StringW _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
-    static void _set_kCurrentVersion(::Il2CppString* value);
+    static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::LocalPlayer*>*& dyn_localPlayers();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: RootMotion
 namespace RootMotion {
@@ -42,9 +43,9 @@ namespace RootMotion {
     // public System.String text
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x20
@@ -55,7 +56,7 @@ namespace RootMotion {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String text
-    ::Il2CppString*& dyn_text();
+    ::StringW& dyn_text();
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // private System.Void OnGUI()

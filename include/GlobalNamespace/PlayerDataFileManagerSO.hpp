@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -107,15 +108,15 @@ namespace GlobalNamespace {
     // private System.String _buildInSongPackSerializedName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* buildInSongPackSerializedName;
+    ::StringW buildInSongPackSerializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _allSongPackSerializedName
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* allSongPackSerializedName;
+    ::StringW allSongPackSerializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Version _eulaUpdateVersion
     // Size: 0x8
     // Offset: 0x58
@@ -128,21 +129,21 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPlayerDataFileName
     static constexpr const char* kPlayerDataFileName = "PlayerData.dat";
     // Get static field: static private System.String kPlayerDataFileName
-    static ::Il2CppString* _get_kPlayerDataFileName();
+    static ::StringW _get_kPlayerDataFileName();
     // Set static field: static private System.String kPlayerDataFileName
-    static void _set_kPlayerDataFileName(::Il2CppString* value);
+    static void _set_kPlayerDataFileName(::StringW value);
     // static field const value: static private System.String kTempFileName
     static constexpr const char* kTempFileName = "PlayerData.dat.tmp";
     // Get static field: static private System.String kTempFileName
-    static ::Il2CppString* _get_kTempFileName();
+    static ::StringW _get_kTempFileName();
     // Set static field: static private System.String kTempFileName
-    static void _set_kTempFileName(::Il2CppString* value);
+    static void _set_kTempFileName(::StringW value);
     // static field const value: static private System.String kBackupFileName
     static constexpr const char* kBackupFileName = "PlayerData.dat.bak";
     // Get static field: static private System.String kBackupFileName
-    static ::Il2CppString* _get_kBackupFileName();
+    static ::StringW _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
-    static void _set_kBackupFileName(::Il2CppString* value);
+    static void _set_kBackupFileName(::StringW value);
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     GlobalNamespace::BeatmapCharacteristicCollectionSO*& dyn__beatmapCharacteristicCollection();
     // Get instance field reference: private ColorSchemesListSO _defaultColorSchemes
@@ -156,9 +157,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO _defaultLastSelectedBeatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__defaultLastSelectedBeatmapCharacteristic();
     // Get instance field reference: private System.String _buildInSongPackSerializedName
-    ::Il2CppString*& dyn__buildInSongPackSerializedName();
+    ::StringW& dyn__buildInSongPackSerializedName();
     // Get instance field reference: private System.String _allSongPackSerializedName
-    ::Il2CppString*& dyn__allSongPackSerializedName();
+    ::StringW& dyn__allSongPackSerializedName();
     // Get instance field reference: private readonly System.Version _eulaUpdateVersion
     System::Version*& dyn__eulaUpdateVersion();
     // public System.Void Save(PlayerData playerData)
@@ -169,7 +170,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
     // Offset: 0x115431C
-    GlobalNamespace::PlayerData* LoadFromJSONString(::Il2CppString* jsonString);
+    GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
     // Offset: 0x1154D84
     GlobalNamespace::PlayerData* LoadFromCurrentVersion(GlobalNamespace::PlayerSaveData* playerSaveData);
@@ -181,16 +182,16 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x1155B74
-    static ::Il2CppString* GetLevelIdFromV_1_0_1LevelId(::Il2CppString* oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
     // Offset: 0x1155A40
-    static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::Il2CppString* levelId);
+    static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
     // Offset: 0x1155BE0
     GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
     // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
     // Offset: 0x11559C4
-    ::Il2CppString* LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
+    ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
     // public System.Void .ctor()
     // Offset: 0x1155CA0
     // Implemented from: PersistentScriptableObject
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString
 // Il2CppName: LoadFromJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)(::Il2CppString*)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)(::StringW)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString)> {
   static const MethodInfo* get() {
     static auto* jsonString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jsonString});
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1LevelId
 // Il2CppName: GetLevelIdFromV_1_0_1LevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1LevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1LevelId)> {
   static const MethodInfo* get() {
     static auto* oldLevelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
@@ -274,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId
 // Il2CppName: GetBeatmapCharacteristicFromV_1_0_1LevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (*)(GlobalNamespace::BeatmapCharacteristicCollectionSO*, ::Il2CppString*)>(&GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (*)(GlobalNamespace::BeatmapCharacteristicCollectionSO*, ::StringW)>(&GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
   static const MethodInfo* get() {
     static auto* beatmapCharacteristicCollection = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicCollectionSO")->byval_arg;
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask
 // Il2CppName: LoadCorrectedSongPackMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerDataFileManagerSO::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayerDataFileManagerSO::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
   static const MethodInfo* get() {
     static auto* songMaskPackBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadCorrectedSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songMaskPackBytes});

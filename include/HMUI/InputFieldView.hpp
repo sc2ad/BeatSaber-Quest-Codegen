@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -231,9 +232,9 @@ namespace HMUI {
     // private System.String _text
     // Size: 0x8
     // Offset: 0x150
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _hasKeyboardAssigned
     // Size: 0x1
     // Offset: 0x158
@@ -292,7 +293,7 @@ namespace HMUI {
     // Get instance field reference: private HMUI.InputFieldView/HMUI.SelectionState _selectionState
     HMUI::InputFieldView::SelectionState& dyn__selectionState();
     // Get instance field reference: private System.String _text
-    ::Il2CppString*& dyn__text();
+    ::StringW& dyn__text();
     // Get instance field reference: private System.Boolean _hasKeyboardAssigned
     bool& dyn__hasKeyboardAssigned();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
@@ -318,10 +319,10 @@ namespace HMUI {
     bool get_useGlobalKeyboard();
     // public System.String get_text()
     // Offset: 0x14C1F64
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // private System.Void set_text(System.String value)
     // Offset: 0x14C1F6C
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.InputFieldView/HMUI.SelectionState> value)
     // Offset: 0x14C1DFC
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::InputFieldView::SelectionState>* value);
@@ -336,7 +337,7 @@ namespace HMUI {
     void DeactivateKeyboard(HMUI::UIKeyboard* keyboard);
     // public System.Void SetText(System.String value)
     // Offset: 0x14C28F8
-    void SetText(::Il2CppString* value);
+    void SetText(::StringW value);
     // public System.Void ClearInput()
     // Offset: 0x14C291C
     void ClearInput();
@@ -443,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::InputFieldView::*)()>(&HMUI::InputFieldView::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -451,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HMUI::InputFieldView::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::Il2CppString*)>(&HMUI::InputFieldView::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::StringW)>(&HMUI::InputFieldView::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::InputFieldView::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::Il2CppString*)>(&HMUI::InputFieldView::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::*)(::StringW)>(&HMUI::InputFieldView::SetText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -171,9 +172,9 @@ namespace Oculus::Platform {
       // public System.String key_
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* key;
+      ::StringW key;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // private Oculus.Platform.KeyValuePairType valueType_
       // Size: 0x4
       // Offset: 0x8
@@ -185,9 +186,9 @@ namespace Oculus::Platform {
       // public System.String stringValue_
       // Size: 0x8
       // Offset: 0x10
-      ::Il2CppString* stringValue;
+      ::StringW stringValue;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public System.Int32 intValue_
       // Size: 0x4
       // Offset: 0x18
@@ -204,30 +205,30 @@ namespace Oculus::Platform {
       static_assert(sizeof(double) == 0x8);
       public:
       // Creating value type constructor for type: ovrKeyValuePair
-      constexpr ovrKeyValuePair(::Il2CppString* key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::Il2CppString* stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) noexcept : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
+      constexpr ovrKeyValuePair(::StringW key_ = {}, Oculus::Platform::KeyValuePairType valueType_ = {}, ::StringW stringValue_ = {}, int intValue_ = {}, double doubleValue_ = {}) noexcept : key{key_}, valueType{valueType_}, stringValue{stringValue_}, intValue{intValue_}, doubleValue{doubleValue_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public System.String key_
-      ::Il2CppString*& dyn_key_();
+      ::StringW& dyn_key_();
       // Get instance field reference: private Oculus.Platform.KeyValuePairType valueType_
       Oculus::Platform::KeyValuePairType& dyn_valueType_();
       // Get instance field reference: public System.String stringValue_
-      ::Il2CppString*& dyn_stringValue_();
+      ::StringW& dyn_stringValue_();
       // Get instance field reference: public System.Int32 intValue_
       int& dyn_intValue_();
       // Get instance field reference: public System.Double doubleValue_
       double& dyn_doubleValue_();
       // public System.Void .ctor(System.String key, System.String value)
       // Offset: 0x1749D74
-      ovrKeyValuePair(::Il2CppString* key, ::Il2CppString* value);
+      ovrKeyValuePair(::StringW key, ::StringW value);
       // public System.Void .ctor(System.String key, System.Int32 value)
       // Offset: 0x1749D8C
-      ovrKeyValuePair(::Il2CppString* key, int value);
+      ovrKeyValuePair(::StringW key, int value);
       // public System.Void .ctor(System.String key, System.Double value)
       // Offset: 0x1749DA8
-      ovrKeyValuePair(::Il2CppString* key, double value);
+      ovrKeyValuePair(::StringW key, double value);
     }; // Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair
     #pragma pack(pop)
     static check_size<sizeof(CAPI::ovrKeyValuePair), 32 + sizeof(double)> __Oculus_Platform_CAPI_ovrKeyValuePairSizeCheck;
@@ -235,9 +236,9 @@ namespace Oculus::Platform {
     // static field const value: static public System.String DLL_NAME
     static constexpr const char* DLL_NAME = "ovrplatformloader";
     // Get static field: static public System.String DLL_NAME
-    static ::Il2CppString* _get_DLL_NAME();
+    static ::StringW _get_DLL_NAME();
     // Set static field: static public System.String DLL_NAME
-    static void _set_DLL_NAME(::Il2CppString* value);
+    static void _set_DLL_NAME(::StringW value);
     // Get static field: static private System.Text.UTF8Encoding nativeStringEncoding
     static System::Text::UTF8Encoding* _get_nativeStringEncoding();
     // Set static field: static private System.Text.UTF8Encoding nativeStringEncoding
@@ -256,16 +257,16 @@ namespace Oculus::Platform {
     static System::IntPtr ArrayOfStructsToIntPtr(System::Array* ar);
     // static public Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair[] DictionaryToOVRKeyValuePairs(System.Collections.Generic.Dictionary`2<System.String,System.Object> dict)
     // Offset: 0x1D709DC
-    static ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* dict);
+    static ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* dict);
     // static public System.Byte[] IntPtrToByteArray(System.IntPtr data, System.UInt64 size)
     // Offset: 0x1D70E88
     static ::ArrayW<uint8_t> IntPtrToByteArray(System::IntPtr data, uint64_t size);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.String> DataStoreFromNative(System.IntPtr pointer)
     // Offset: 0x1D70F44
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStoreFromNative(System::IntPtr pointer);
+    static System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* DataStoreFromNative(System::IntPtr pointer);
     // static public System.String StringFromNative(System.IntPtr pointer)
     // Offset: 0x1D7124C
-    static ::Il2CppString* StringFromNative(System::IntPtr pointer);
+    static ::StringW StringFromNative(System::IntPtr pointer);
     // static public System.Int32 GetNativeStringLengthNotIncludingNullTerminator(System.IntPtr pointer)
     // Offset: 0x1D71364
     static int GetNativeStringLengthNotIncludingNullTerminator(System::IntPtr pointer);
@@ -283,37 +284,37 @@ namespace Oculus::Platform {
     static ::ArrayW<uint8_t> FiledataFromNative(uint size, System::IntPtr pointer);
     // static public System.IntPtr StringToNative(System.String s)
     // Offset: 0x1D716E4
-    static System::IntPtr StringToNative(::Il2CppString* s);
+    static System::IntPtr StringToNative(::StringW s);
     // static public System.Boolean ovr_UnityInitWrapper(System.String appId)
     // Offset: 0x1D6E6C8
-    static bool ovr_UnityInitWrapper(::Il2CppString* appId);
+    static bool ovr_UnityInitWrapper(::StringW appId);
     // static public System.Void ovr_UnityInitGlobals(System.IntPtr loggingCB)
     // Offset: 0x1D71854
     static void ovr_UnityInitGlobals(System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperAsynchronous(System.String appId)
     // Offset: 0x1D6E84C
-    static uint64_t ovr_UnityInitWrapperAsynchronous(::Il2CppString* appId);
+    static uint64_t ovr_UnityInitWrapperAsynchronous(::StringW appId);
     // static public System.Boolean ovr_UnityInitWrapperStandalone(System.String accessToken, System.IntPtr loggingCB)
     // Offset: 0x1D718D4
-    static bool ovr_UnityInitWrapperStandalone(::Il2CppString* accessToken, System::IntPtr loggingCB);
+    static bool ovr_UnityInitWrapperStandalone(::StringW accessToken, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_Platform_InitializeStandaloneOculus(ref Oculus.Platform.CAPI/Oculus.Platform.OculusInitParams init)
     // Offset: 0x1D71980
     static uint64_t ovr_Platform_InitializeStandaloneOculus(ByRef<Oculus::Platform::CAPI::OculusInitParams> init);
     // static public System.UInt64 ovr_PlatformInitializeWithAccessToken(System.UInt64 appId, System.String accessToken)
     // Offset: 0x1D71A58
-    static uint64_t ovr_PlatformInitializeWithAccessToken(uint64_t appId, ::Il2CppString* accessToken);
+    static uint64_t ovr_PlatformInitializeWithAccessToken(uint64_t appId, ::StringW accessToken);
     // static public System.Boolean ovr_UnityInitWrapperWindows(System.String appId, System.IntPtr loggingCB)
     // Offset: 0x1D71B04
-    static bool ovr_UnityInitWrapperWindows(::Il2CppString* appId, System::IntPtr loggingCB);
+    static bool ovr_UnityInitWrapperWindows(::StringW appId, System::IntPtr loggingCB);
     // static public System.UInt64 ovr_UnityInitWrapperWindowsAsynchronous(System.String appId, System.IntPtr loggingCB)
     // Offset: 0x1D71BB0
-    static uint64_t ovr_UnityInitWrapperWindowsAsynchronous(::Il2CppString* appId, System::IntPtr loggingCB);
+    static uint64_t ovr_UnityInitWrapperWindowsAsynchronous(::StringW appId, System::IntPtr loggingCB);
     // static public System.Boolean ovr_SetDeveloperAccessToken(System.String accessToken)
     // Offset: 0x1D71C58
-    static bool ovr_SetDeveloperAccessToken(::Il2CppString* accessToken);
+    static bool ovr_SetDeveloperAccessToken(::StringW accessToken);
     // static public System.String ovr_GetLoggedInUserLocale()
     // Offset: 0x1D71CF4
-    static ::Il2CppString* ovr_GetLoggedInUserLocale();
+    static ::StringW ovr_GetLoggedInUserLocale();
     // static private System.IntPtr ovr_GetLoggedInUserLocale_Native()
     // Offset: 0x1D71D54
     static System::IntPtr ovr_GetLoggedInUserLocale_Native();
@@ -355,7 +356,7 @@ namespace Oculus::Platform {
     static void ovr_UnityResetTestPlatform();
     // static public System.UInt64 ovr_HTTP_GetWithMessageType(System.String url, System.Int32 messageType)
     // Offset: 0x1D6DE58
-    static uint64_t ovr_HTTP_GetWithMessageType(::Il2CppString* url, int messageType);
+    static uint64_t ovr_HTTP_GetWithMessageType(::StringW url, int messageType);
     // static public System.Void ovr_CrashApplication()
     // Offset: 0x1D723A8
     static void ovr_CrashApplication();
@@ -367,7 +368,7 @@ namespace Oculus::Platform {
     static void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus::Platform::CAPI::FilterCallback* cb, System::UIntPtr bufferSizeElements);
     // static public System.Void LogNewEvent(System.String eventName, System.Collections.Generic.Dictionary`2<System.String,System.String> values)
     // Offset: 0x1D72530
-    static void LogNewEvent(::Il2CppString* eventName, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* values);
+    static void LogNewEvent(::StringW eventName, System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* values);
     // static public System.Void ovr_Log_NewEvent(System.IntPtr eventName, System.IntPtr[] values, System.UIntPtr length)
     // Offset: 0x1D72834
     static void ovr_Log_NewEvent(System::IntPtr eventName, ::ArrayW<System::IntPtr> values, System::UIntPtr length);
@@ -376,13 +377,13 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_ApplicationLifecycle_GetLaunchDetails();
     // static public System.Void ovr_ApplicationLifecycle_LogDeeplinkResult(System.String trackingID, Oculus.Platform.LaunchResult result)
     // Offset: 0x1D6EE08
-    static void ovr_ApplicationLifecycle_LogDeeplinkResult(::Il2CppString* trackingID, Oculus::Platform::LaunchResult result);
+    static void ovr_ApplicationLifecycle_LogDeeplinkResult(::StringW trackingID, Oculus::Platform::LaunchResult result);
     // static private System.Void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System.IntPtr trackingID, Oculus.Platform.LaunchResult result)
     // Offset: 0x1D728D4
     static void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(System::IntPtr trackingID, Oculus::Platform::LaunchResult result);
     // static public System.UInt64 ovr_HTTP_StartTransfer(System.String url, Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair[] headers)
     // Offset: 0x1D72964
-    static uint64_t ovr_HTTP_StartTransfer(::Il2CppString* url, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> headers);
+    static uint64_t ovr_HTTP_StartTransfer(::StringW url, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> headers);
     // static private System.UInt64 ovr_HTTP_StartTransfer_Native(System.IntPtr url, Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair[] headers, System.UIntPtr numItems)
     // Offset: 0x1D72A58
     static uint64_t ovr_HTTP_StartTransfer_Native(System::IntPtr url, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> headers, System::UIntPtr numItems);
@@ -394,7 +395,7 @@ namespace Oculus::Platform {
     static void ovr_HTTP_WriteEOM(uint64_t transferId);
     // static public System.String ovr_Message_GetStringForJavascript(System.IntPtr message)
     // Offset: 0x1D72CD8
-    static ::Il2CppString* ovr_Message_GetStringForJavascript(System::IntPtr message);
+    static ::StringW ovr_Message_GetStringForJavascript(System::IntPtr message);
     // static private System.IntPtr ovr_Message_GetStringForJavascript_Native(System.IntPtr message)
     // Offset: 0x1D72D40
     static System::IntPtr ovr_Message_GetStringForJavascript_Native(System::IntPtr message);
@@ -532,13 +533,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_AbuseReport_LaunchAdvancedReportFlow(uint64_t content_id, System::IntPtr abuse_report_options);
     // static public System.UInt64 ovr_Achievements_AddCount(System.String name, System.UInt64 count)
     // Offset: 0x1D6D07C
-    static uint64_t ovr_Achievements_AddCount(::Il2CppString* name, uint64_t count);
+    static uint64_t ovr_Achievements_AddCount(::StringW name, uint64_t count);
     // static private System.UInt64 ovr_Achievements_AddCount_Native(System.IntPtr name, System.UInt64 count)
     // Offset: 0x1D745B0
     static uint64_t ovr_Achievements_AddCount_Native(System::IntPtr name, uint64_t count);
     // static public System.UInt64 ovr_Achievements_AddFields(System.String name, System.String fields)
     // Offset: 0x1D6D254
-    static uint64_t ovr_Achievements_AddFields(::Il2CppString* name, ::Il2CppString* fields);
+    static uint64_t ovr_Achievements_AddFields(::StringW name, ::StringW fields);
     // static private System.UInt64 ovr_Achievements_AddFields_Native(System.IntPtr name, System.IntPtr fields)
     // Offset: 0x1D74640
     static uint64_t ovr_Achievements_AddFields_Native(System::IntPtr name, System::IntPtr fields);
@@ -550,13 +551,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_Achievements_GetAllProgress();
     // static public System.UInt64 ovr_Achievements_GetDefinitionsByName(System.String[] names, System.Int32 count)
     // Offset: 0x1D6D74C
-    static uint64_t ovr_Achievements_GetDefinitionsByName(::ArrayW<::Il2CppString*> names, int count);
+    static uint64_t ovr_Achievements_GetDefinitionsByName(::ArrayW<::StringW> names, int count);
     // static public System.UInt64 ovr_Achievements_GetProgressByName(System.String[] names, System.Int32 count)
     // Offset: 0x1D6D9CC
-    static uint64_t ovr_Achievements_GetProgressByName(::ArrayW<::Il2CppString*> names, int count);
+    static uint64_t ovr_Achievements_GetProgressByName(::ArrayW<::StringW> names, int count);
     // static public System.UInt64 ovr_Achievements_Unlock(System.String name)
     // Offset: 0x1D6DC38
-    static uint64_t ovr_Achievements_Unlock(::Il2CppString* name);
+    static uint64_t ovr_Achievements_Unlock(::StringW name);
     // static private System.UInt64 ovr_Achievements_Unlock_Native(System.IntPtr name)
     // Offset: 0x1D746D0
     static uint64_t ovr_Achievements_Unlock_Native(System::IntPtr name);
@@ -580,7 +581,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_ApplicationLifecycle_GetSessionKey();
     // static public System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey(System.String sessionKey)
     // Offset: 0x1D7493C
-    static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey(::Il2CppString* sessionKey);
+    static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey(::StringW sessionKey);
     // static private System.UInt64 ovr_ApplicationLifecycle_RegisterSessionKey_Native(System.IntPtr sessionKey)
     // Offset: 0x1D749E4
     static uint64_t ovr_ApplicationLifecycle_RegisterSessionKey_Native(System::IntPtr sessionKey);
@@ -592,7 +593,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFile_DeleteById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DeleteByName(System.String assetFileName)
     // Offset: 0x1D6F6B0
-    static uint64_t ovr_AssetFile_DeleteByName(::Il2CppString* assetFileName);
+    static uint64_t ovr_AssetFile_DeleteByName(::StringW assetFileName);
     // static private System.UInt64 ovr_AssetFile_DeleteByName_Native(System.IntPtr assetFileName)
     // Offset: 0x1D74A64
     static uint64_t ovr_AssetFile_DeleteByName_Native(System::IntPtr assetFileName);
@@ -604,7 +605,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFile_DownloadById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadByName(System.String assetFileName)
     // Offset: 0x1D6FBA0
-    static uint64_t ovr_AssetFile_DownloadByName(::Il2CppString* assetFileName);
+    static uint64_t ovr_AssetFile_DownloadByName(::StringW assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadByName_Native(System.IntPtr assetFileName)
     // Offset: 0x1D74AE4
     static uint64_t ovr_AssetFile_DownloadByName_Native(System::IntPtr assetFileName);
@@ -616,7 +617,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFile_DownloadCancelById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_DownloadCancelByName(System.String assetFileName)
     // Offset: 0x1D70090
-    static uint64_t ovr_AssetFile_DownloadCancelByName(::Il2CppString* assetFileName);
+    static uint64_t ovr_AssetFile_DownloadCancelByName(::StringW assetFileName);
     // static private System.UInt64 ovr_AssetFile_DownloadCancelByName_Native(System.IntPtr assetFileName)
     // Offset: 0x1D74B64
     static uint64_t ovr_AssetFile_DownloadCancelByName_Native(System::IntPtr assetFileName);
@@ -631,13 +632,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFile_StatusById(uint64_t assetFileID);
     // static public System.UInt64 ovr_AssetFile_StatusByName(System.String assetFileName)
     // Offset: 0x1D706FC
-    static uint64_t ovr_AssetFile_StatusByName(::Il2CppString* assetFileName);
+    static uint64_t ovr_AssetFile_StatusByName(::StringW assetFileName);
     // static private System.UInt64 ovr_AssetFile_StatusByName_Native(System.IntPtr assetFileName)
     // Offset: 0x1D74BE4
     static uint64_t ovr_AssetFile_StatusByName_Native(System::IntPtr assetFileName);
     // static public System.UInt64 ovr_Avatar_UpdateMetaData(System.String avatarMetaData, System.String imageFilePath)
     // Offset: 0x1D74C64
-    static uint64_t ovr_Avatar_UpdateMetaData(::Il2CppString* avatarMetaData, ::Il2CppString* imageFilePath);
+    static uint64_t ovr_Avatar_UpdateMetaData(::StringW avatarMetaData, ::StringW imageFilePath);
     // static private System.UInt64 ovr_Avatar_UpdateMetaData_Native(System.IntPtr avatarMetaData, System.IntPtr imageFilePath)
     // Offset: 0x1D74D38
     static uint64_t ovr_Avatar_UpdateMetaData_Native(System::IntPtr avatarMetaData, System::IntPtr imageFilePath);
@@ -652,7 +653,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Cal_ProposeApplication(uint64_t groupingObject, ::ArrayW<uint64_t> userIDs, int numUserIDs, uint64_t proposed_application_ID);
     // static public System.UInt64 ovr_Challenges_Create(System.String leaderboardName, System.IntPtr challengeOptions)
     // Offset: 0x1D74FC8
-    static uint64_t ovr_Challenges_Create(::Il2CppString* leaderboardName, System::IntPtr challengeOptions);
+    static uint64_t ovr_Challenges_Create(::StringW leaderboardName, System::IntPtr challengeOptions);
     // static private System.UInt64 ovr_Challenges_Create_Native(System.IntPtr leaderboardName, System.IntPtr challengeOptions)
     // Offset: 0x1D75080
     static uint64_t ovr_Challenges_Create_Native(System::IntPtr leaderboardName, System::IntPtr challengeOptions);
@@ -700,55 +701,55 @@ namespace Oculus::Platform {
     static uint64_t ovr_Challenges_UpdateInfo(uint64_t challengeID, System::IntPtr challengeOptions);
     // static public System.UInt64 ovr_CloudStorage_Delete(System.String bucket, System.String key)
     // Offset: 0x1D758A8
-    static uint64_t ovr_CloudStorage_Delete(::Il2CppString* bucket, ::Il2CppString* key);
+    static uint64_t ovr_CloudStorage_Delete(::StringW bucket, ::StringW key);
     // static private System.UInt64 ovr_CloudStorage_Delete_Native(System.IntPtr bucket, System.IntPtr key)
     // Offset: 0x1D7597C
     static uint64_t ovr_CloudStorage_Delete_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_Load(System.String bucket, System.String key)
     // Offset: 0x1D75A0C
-    static uint64_t ovr_CloudStorage_Load(::Il2CppString* bucket, ::Il2CppString* key);
+    static uint64_t ovr_CloudStorage_Load(::StringW bucket, ::StringW key);
     // static private System.UInt64 ovr_CloudStorage_Load_Native(System.IntPtr bucket, System.IntPtr key)
     // Offset: 0x1D75AE0
     static uint64_t ovr_CloudStorage_Load_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadBucketMetadata(System.String bucket)
     // Offset: 0x1D75B70
-    static uint64_t ovr_CloudStorage_LoadBucketMetadata(::Il2CppString* bucket);
+    static uint64_t ovr_CloudStorage_LoadBucketMetadata(::StringW bucket);
     // static private System.UInt64 ovr_CloudStorage_LoadBucketMetadata_Native(System.IntPtr bucket)
     // Offset: 0x1D75C18
     static uint64_t ovr_CloudStorage_LoadBucketMetadata_Native(System::IntPtr bucket);
     // static public System.UInt64 ovr_CloudStorage_LoadConflictMetadata(System.String bucket, System.String key)
     // Offset: 0x1D75C98
-    static uint64_t ovr_CloudStorage_LoadConflictMetadata(::Il2CppString* bucket, ::Il2CppString* key);
+    static uint64_t ovr_CloudStorage_LoadConflictMetadata(::StringW bucket, ::StringW key);
     // static private System.UInt64 ovr_CloudStorage_LoadConflictMetadata_Native(System.IntPtr bucket, System.IntPtr key)
     // Offset: 0x1D75D6C
     static uint64_t ovr_CloudStorage_LoadConflictMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_LoadHandle(System.String handle)
     // Offset: 0x1D75DFC
-    static uint64_t ovr_CloudStorage_LoadHandle(::Il2CppString* handle);
+    static uint64_t ovr_CloudStorage_LoadHandle(::StringW handle);
     // static private System.UInt64 ovr_CloudStorage_LoadHandle_Native(System.IntPtr handle)
     // Offset: 0x1D75EA4
     static uint64_t ovr_CloudStorage_LoadHandle_Native(System::IntPtr handle);
     // static public System.UInt64 ovr_CloudStorage_LoadMetadata(System.String bucket, System.String key)
     // Offset: 0x1D75F24
-    static uint64_t ovr_CloudStorage_LoadMetadata(::Il2CppString* bucket, ::Il2CppString* key);
+    static uint64_t ovr_CloudStorage_LoadMetadata(::StringW bucket, ::StringW key);
     // static private System.UInt64 ovr_CloudStorage_LoadMetadata_Native(System.IntPtr bucket, System.IntPtr key)
     // Offset: 0x1D75FF8
     static uint64_t ovr_CloudStorage_LoadMetadata_Native(System::IntPtr bucket, System::IntPtr key);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepLocal(System.String bucket, System.String key, System.String remoteHandle)
     // Offset: 0x1D76088
-    static uint64_t ovr_CloudStorage_ResolveKeepLocal(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
+    static uint64_t ovr_CloudStorage_ResolveKeepLocal(::StringW bucket, ::StringW key, ::StringW remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepLocal_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
     // Offset: 0x1D7617C
     static uint64_t ovr_CloudStorage_ResolveKeepLocal_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_ResolveKeepRemote(System.String bucket, System.String key, System.String remoteHandle)
     // Offset: 0x1D76214
-    static uint64_t ovr_CloudStorage_ResolveKeepRemote(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
+    static uint64_t ovr_CloudStorage_ResolveKeepRemote(::StringW bucket, ::StringW key, ::StringW remoteHandle);
     // static private System.UInt64 ovr_CloudStorage_ResolveKeepRemote_Native(System.IntPtr bucket, System.IntPtr key, System.IntPtr remoteHandle)
     // Offset: 0x1D76308
     static uint64_t ovr_CloudStorage_ResolveKeepRemote_Native(System::IntPtr bucket, System::IntPtr key, System::IntPtr remoteHandle);
     // static public System.UInt64 ovr_CloudStorage_Save(System.String bucket, System.String key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.String extraData)
     // Offset: 0x1D763A0
-    static uint64_t ovr_CloudStorage_Save(::Il2CppString* bucket, ::Il2CppString* key, ::ArrayW<uint8_t> data, uint dataSize, int64_t counter, ::Il2CppString* extraData);
+    static uint64_t ovr_CloudStorage_Save(::StringW bucket, ::StringW key, ::ArrayW<uint8_t> data, uint dataSize, int64_t counter, ::StringW extraData);
     // static private System.UInt64 ovr_CloudStorage_Save_Native(System.IntPtr bucket, System.IntPtr key, System.Byte[] data, System.UInt32 dataSize, System.Int64 counter, System.IntPtr extraData)
     // Offset: 0x1D764BC
     static uint64_t ovr_CloudStorage_Save_Native(System::IntPtr bucket, System::IntPtr key, ::ArrayW<uint8_t> data, uint dataSize, int64_t counter, System::IntPtr extraData);
@@ -760,13 +761,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_Colocation_GetCurrentMapUuid();
     // static public System.UInt64 ovr_Colocation_RequestMap(System.String uuid)
     // Offset: 0x1D7666C
-    static uint64_t ovr_Colocation_RequestMap(::Il2CppString* uuid);
+    static uint64_t ovr_Colocation_RequestMap(::StringW uuid);
     // static private System.UInt64 ovr_Colocation_RequestMap_Native(System.IntPtr uuid)
     // Offset: 0x1D76714
     static uint64_t ovr_Colocation_RequestMap_Native(System::IntPtr uuid);
     // static public System.UInt64 ovr_Colocation_ShareMap(System.String uuid)
     // Offset: 0x1D76794
-    static uint64_t ovr_Colocation_ShareMap(::Il2CppString* uuid);
+    static uint64_t ovr_Colocation_ShareMap(::StringW uuid);
     // static private System.UInt64 ovr_Colocation_ShareMap_Native(System.IntPtr uuid)
     // Offset: 0x1D7683C
     static uint64_t ovr_Colocation_ShareMap_Native(System::IntPtr uuid);
@@ -775,13 +776,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_Entitlement_GetIsViewerEntitled();
     // static public System.UInt64 ovr_GraphAPI_Get(System.String url)
     // Offset: 0x1D76930
-    static uint64_t ovr_GraphAPI_Get(::Il2CppString* url);
+    static uint64_t ovr_GraphAPI_Get(::StringW url);
     // static private System.UInt64 ovr_GraphAPI_Get_Native(System.IntPtr url)
     // Offset: 0x1D769D8
     static uint64_t ovr_GraphAPI_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_GraphAPI_Post(System.String url)
     // Offset: 0x1D76A58
-    static uint64_t ovr_GraphAPI_Post(::Il2CppString* url);
+    static uint64_t ovr_GraphAPI_Post(::StringW url);
     // static private System.UInt64 ovr_GraphAPI_Post_Native(System.IntPtr url)
     // Offset: 0x1D76B00
     static uint64_t ovr_GraphAPI_Post_Native(System::IntPtr url);
@@ -799,7 +800,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_GroupPresence_Set(System::IntPtr groupPresenceOptions);
     // static public System.UInt64 ovr_GroupPresence_SetDestination(System.String api_name)
     // Offset: 0x1D76D70
-    static uint64_t ovr_GroupPresence_SetDestination(::Il2CppString* api_name);
+    static uint64_t ovr_GroupPresence_SetDestination(::StringW api_name);
     // static private System.UInt64 ovr_GroupPresence_SetDestination_Native(System.IntPtr api_name)
     // Offset: 0x1D76E18
     static uint64_t ovr_GroupPresence_SetDestination_Native(System::IntPtr api_name);
@@ -808,49 +809,49 @@ namespace Oculus::Platform {
     static uint64_t ovr_GroupPresence_SetIsJoinable(bool is_joinable);
     // static public System.UInt64 ovr_GroupPresence_SetLobbySession(System.String id)
     // Offset: 0x1D76F18
-    static uint64_t ovr_GroupPresence_SetLobbySession(::Il2CppString* id);
+    static uint64_t ovr_GroupPresence_SetLobbySession(::StringW id);
     // static private System.UInt64 ovr_GroupPresence_SetLobbySession_Native(System.IntPtr id)
     // Offset: 0x1D76FC0
     static uint64_t ovr_GroupPresence_SetLobbySession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_GroupPresence_SetMatchSession(System.String id)
     // Offset: 0x1D77040
-    static uint64_t ovr_GroupPresence_SetMatchSession(::Il2CppString* id);
+    static uint64_t ovr_GroupPresence_SetMatchSession(::StringW id);
     // static private System.UInt64 ovr_GroupPresence_SetMatchSession_Native(System.IntPtr id)
     // Offset: 0x1D770E8
     static uint64_t ovr_GroupPresence_SetMatchSession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_HTTP_Get(System.String url)
     // Offset: 0x1D77168
-    static uint64_t ovr_HTTP_Get(::Il2CppString* url);
+    static uint64_t ovr_HTTP_Get(::StringW url);
     // static private System.UInt64 ovr_HTTP_Get_Native(System.IntPtr url)
     // Offset: 0x1D77210
     static uint64_t ovr_HTTP_Get_Native(System::IntPtr url);
     // static public System.UInt64 ovr_HTTP_GetToFile(System.String url, System.String diskFile)
     // Offset: 0x1D77290
-    static uint64_t ovr_HTTP_GetToFile(::Il2CppString* url, ::Il2CppString* diskFile);
+    static uint64_t ovr_HTTP_GetToFile(::StringW url, ::StringW diskFile);
     // static private System.UInt64 ovr_HTTP_GetToFile_Native(System.IntPtr url, System.IntPtr diskFile)
     // Offset: 0x1D77364
     static uint64_t ovr_HTTP_GetToFile_Native(System::IntPtr url, System::IntPtr diskFile);
     // static public System.UInt64 ovr_HTTP_MultiPartPost(System.String url, System.String filepath_param_name, System.String filepath, System.String access_token, Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair[] post_params)
     // Offset: 0x1D773F4
-    static uint64_t ovr_HTTP_MultiPartPost(::Il2CppString* url, ::Il2CppString* filepath_param_name, ::Il2CppString* filepath, ::Il2CppString* access_token, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> post_params);
+    static uint64_t ovr_HTTP_MultiPartPost(::StringW url, ::StringW filepath_param_name, ::StringW filepath, ::StringW access_token, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> post_params);
     // static private System.UInt64 ovr_HTTP_MultiPartPost_Native(System.IntPtr url, System.IntPtr filepath_param_name, System.IntPtr filepath, System.IntPtr access_token, Oculus.Platform.CAPI/Oculus.Platform.ovrKeyValuePair[] post_params, System.UIntPtr numItems)
     // Offset: 0x1D77550
     static uint64_t ovr_HTTP_MultiPartPost_Native(System::IntPtr url, System::IntPtr filepath_param_name, System::IntPtr filepath, System::IntPtr access_token, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> post_params, System::UIntPtr numItems);
     // static public System.UInt64 ovr_HTTP_Post(System.String url)
     // Offset: 0x1D776DC
-    static uint64_t ovr_HTTP_Post(::Il2CppString* url);
+    static uint64_t ovr_HTTP_Post(::StringW url);
     // static private System.UInt64 ovr_HTTP_Post_Native(System.IntPtr url)
     // Offset: 0x1D77784
     static uint64_t ovr_HTTP_Post_Native(System::IntPtr url);
     // static public System.UInt64 ovr_IAP_ConsumePurchase(System.String sku)
     // Offset: 0x1D77804
-    static uint64_t ovr_IAP_ConsumePurchase(::Il2CppString* sku);
+    static uint64_t ovr_IAP_ConsumePurchase(::StringW sku);
     // static private System.UInt64 ovr_IAP_ConsumePurchase_Native(System.IntPtr sku)
     // Offset: 0x1D778AC
     static uint64_t ovr_IAP_ConsumePurchase_Native(System::IntPtr sku);
     // static public System.UInt64 ovr_IAP_GetProductsBySKU(System.String[] skus, System.Int32 count)
     // Offset: 0x1D7792C
-    static uint64_t ovr_IAP_GetProductsBySKU(::ArrayW<::Il2CppString*> skus, int count);
+    static uint64_t ovr_IAP_GetProductsBySKU(::ArrayW<::StringW> skus, int count);
     // static public System.UInt64 ovr_IAP_GetViewerPurchases()
     // Offset: 0x1D77A80
     static uint64_t ovr_IAP_GetViewerPurchases();
@@ -859,7 +860,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_IAP_GetViewerPurchasesDurableCache();
     // static public System.UInt64 ovr_IAP_LaunchCheckoutFlow(System.String sku)
     // Offset: 0x1D77B68
-    static uint64_t ovr_IAP_LaunchCheckoutFlow(::Il2CppString* sku);
+    static uint64_t ovr_IAP_LaunchCheckoutFlow(::StringW sku);
     // static private System.UInt64 ovr_IAP_LaunchCheckoutFlow_Native(System.IntPtr sku)
     // Offset: 0x1D77C10
     static uint64_t ovr_IAP_LaunchCheckoutFlow_Native(System::IntPtr sku);
@@ -868,31 +869,31 @@ namespace Oculus::Platform {
     static uint64_t ovr_LanguagePack_GetCurrent();
     // static public System.UInt64 ovr_LanguagePack_SetCurrent(System.String tag)
     // Offset: 0x1D77D04
-    static uint64_t ovr_LanguagePack_SetCurrent(::Il2CppString* tag);
+    static uint64_t ovr_LanguagePack_SetCurrent(::StringW tag);
     // static private System.UInt64 ovr_LanguagePack_SetCurrent_Native(System.IntPtr tag)
     // Offset: 0x1D77DAC
     static uint64_t ovr_LanguagePack_SetCurrent_Native(System::IntPtr tag);
     // static public System.UInt64 ovr_Leaderboard_Get(System.String leaderboardName)
     // Offset: 0x1D77E2C
-    static uint64_t ovr_Leaderboard_Get(::Il2CppString* leaderboardName);
+    static uint64_t ovr_Leaderboard_Get(::StringW leaderboardName);
     // static private System.UInt64 ovr_Leaderboard_Get_Native(System.IntPtr leaderboardName)
     // Offset: 0x1D77ED4
     static uint64_t ovr_Leaderboard_Get_Native(System::IntPtr leaderboardName);
     // static public System.UInt64 ovr_Leaderboard_GetEntries(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
     // Offset: 0x1D77F54
-    static uint64_t ovr_Leaderboard_GetEntries(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
+    static uint64_t ovr_Leaderboard_GetEntries(::StringW leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static private System.UInt64 ovr_Leaderboard_GetEntries_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardFilterType filter, Oculus.Platform.LeaderboardStartAt startAt)
     // Offset: 0x1D78024
     static uint64_t ovr_Leaderboard_GetEntries_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesAfterRank(System.String leaderboardName, System.Int32 limit, System.UInt64 afterRank)
     // Offset: 0x1D780CC
-    static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::Il2CppString* leaderboardName, int limit, uint64_t afterRank);
+    static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::StringW leaderboardName, int limit, uint64_t afterRank);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesAfterRank_Native(System.IntPtr leaderboardName, System.Int32 limit, System.UInt64 afterRank)
     // Offset: 0x1D7818C
     static uint64_t ovr_Leaderboard_GetEntriesAfterRank_Native(System::IntPtr leaderboardName, int limit, uint64_t afterRank);
     // static public System.UInt64 ovr_Leaderboard_GetEntriesByIds(System.String leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
     // Offset: 0x1D78224
-    static uint64_t ovr_Leaderboard_GetEntriesByIds(::Il2CppString* leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint userIDLength);
+    static uint64_t ovr_Leaderboard_GetEntriesByIds(::StringW leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint userIDLength);
     // static private System.UInt64 ovr_Leaderboard_GetEntriesByIds_Native(System.IntPtr leaderboardName, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs, System.UInt32 userIDLength)
     // Offset: 0x1D782FC
     static uint64_t ovr_Leaderboard_GetEntriesByIds_Native(System::IntPtr leaderboardName, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint userIDLength);
@@ -904,13 +905,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_Leaderboard_GetPreviousEntries(System::IntPtr handle);
     // static public System.UInt64 ovr_Leaderboard_WriteEntry(System.String leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
     // Offset: 0x1D784B4
-    static uint64_t ovr_Leaderboard_WriteEntry(::Il2CppString* leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
+    static uint64_t ovr_Leaderboard_WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
     // static private System.UInt64 ovr_Leaderboard_WriteEntry_Native(System.IntPtr leaderboardName, System.Int64 score, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
     // Offset: 0x1D7858C
     static uint64_t ovr_Leaderboard_WriteEntry_Native(System::IntPtr leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
     // static public System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric(System.String leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
     // Offset: 0x1D78644
-    static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric(::Il2CppString* leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
+    static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
     // static private System.UInt64 ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System.IntPtr leaderboardName, System.Int64 score, System.Int64 supplementaryMetric, System.Byte[] extraData, System.UInt32 extraDataLength, System.Boolean forceUpdate)
     // Offset: 0x1D7872C
     static uint64_t ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native(System::IntPtr leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData, uint extraDataLength, bool forceUpdate);
@@ -919,7 +920,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Livestreaming_GetStatus();
     // static public System.UInt64 ovr_Livestreaming_IsAllowedForApplication(System.String packageName)
     // Offset: 0x1D78868
-    static uint64_t ovr_Livestreaming_IsAllowedForApplication(::Il2CppString* packageName);
+    static uint64_t ovr_Livestreaming_IsAllowedForApplication(::StringW packageName);
     // static private System.UInt64 ovr_Livestreaming_IsAllowedForApplication_Native(System.IntPtr packageName)
     // Offset: 0x1D78910
     static uint64_t ovr_Livestreaming_IsAllowedForApplication_Native(System::IntPtr packageName);
@@ -952,19 +953,19 @@ namespace Oculus::Platform {
     static uint64_t ovr_Livestreaming_UpdateMicStatus(Oculus::Platform::LivestreamingMicrophoneStatus micStatus);
     // static public System.UInt64 ovr_Matchmaking_Browse(System.String pool, System.IntPtr customQueryData)
     // Offset: 0x1D78DD8
-    static uint64_t ovr_Matchmaking_Browse(::Il2CppString* pool, System::IntPtr customQueryData);
+    static uint64_t ovr_Matchmaking_Browse(::StringW pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Browse_Native(System.IntPtr pool, System.IntPtr customQueryData)
     // Offset: 0x1D78E90
     static uint64_t ovr_Matchmaking_Browse_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Browse2(System.String pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D78F20
-    static uint64_t ovr_Matchmaking_Browse2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
+    static uint64_t ovr_Matchmaking_Browse2(::StringW pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Browse2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D78FD8
     static uint64_t ovr_Matchmaking_Browse2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Cancel(System.String pool, System.String requestHash)
     // Offset: 0x1D79068
-    static uint64_t ovr_Matchmaking_Cancel(::Il2CppString* pool, ::Il2CppString* requestHash);
+    static uint64_t ovr_Matchmaking_Cancel(::StringW pool, ::StringW requestHash);
     // static private System.UInt64 ovr_Matchmaking_Cancel_Native(System.IntPtr pool, System.IntPtr requestHash)
     // Offset: 0x1D7913C
     static uint64_t ovr_Matchmaking_Cancel_Native(System::IntPtr pool, System::IntPtr requestHash);
@@ -973,37 +974,37 @@ namespace Oculus::Platform {
     static uint64_t ovr_Matchmaking_Cancel2();
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
     // Offset: 0x1D79240
-    static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
+    static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, System.IntPtr customQueryData)
     // Offset: 0x1D79310
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2(System.String pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D793B8
-    static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
+    static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2(::StringW pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D79470
     static uint64_t ovr_Matchmaking_CreateAndEnqueueRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
     // Offset: 0x1D79500
-    static uint64_t ovr_Matchmaking_CreateRoom(::Il2CppString* pool, uint maxUsers, bool subscribeToUpdates);
+    static uint64_t ovr_Matchmaking_CreateRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom_Native(System.IntPtr pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
     // Offset: 0x1D795C0
     static uint64_t ovr_Matchmaking_CreateRoom_Native(System::IntPtr pool, uint maxUsers, bool subscribeToUpdates);
     // static public System.UInt64 ovr_Matchmaking_CreateRoom2(System.String pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D79658
-    static uint64_t ovr_Matchmaking_CreateRoom2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
+    static uint64_t ovr_Matchmaking_CreateRoom2(::StringW pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_CreateRoom2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D79710
     static uint64_t ovr_Matchmaking_CreateRoom2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
     // static public System.UInt64 ovr_Matchmaking_Enqueue(System.String pool, System.IntPtr customQueryData)
     // Offset: 0x1D797A0
-    static uint64_t ovr_Matchmaking_Enqueue(::Il2CppString* pool, System::IntPtr customQueryData);
+    static uint64_t ovr_Matchmaking_Enqueue(::StringW pool, System::IntPtr customQueryData);
     // static private System.UInt64 ovr_Matchmaking_Enqueue_Native(System.IntPtr pool, System.IntPtr customQueryData)
     // Offset: 0x1D79858
     static uint64_t ovr_Matchmaking_Enqueue_Native(System::IntPtr pool, System::IntPtr customQueryData);
     // static public System.UInt64 ovr_Matchmaking_Enqueue2(System.String pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D798E8
-    static uint64_t ovr_Matchmaking_Enqueue2(::Il2CppString* pool, System::IntPtr matchmakingOptions);
+    static uint64_t ovr_Matchmaking_Enqueue2(::StringW pool, System::IntPtr matchmakingOptions);
     // static private System.UInt64 ovr_Matchmaking_Enqueue2_Native(System.IntPtr pool, System.IntPtr matchmakingOptions)
     // Offset: 0x1D799A0
     static uint64_t ovr_Matchmaking_Enqueue2_Native(System::IntPtr pool, System::IntPtr matchmakingOptions);
@@ -1018,7 +1019,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Matchmaking_GetAdminSnapshot();
     // static public System.UInt64 ovr_Matchmaking_GetStats(System.String pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
     // Offset: 0x1D79BC4
-    static uint64_t ovr_Matchmaking_GetStats(::Il2CppString* pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
+    static uint64_t ovr_Matchmaking_GetStats(::StringW pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
     // static private System.UInt64 ovr_Matchmaking_GetStats_Native(System.IntPtr pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
     // Offset: 0x1D79C84
     static uint64_t ovr_Matchmaking_GetStats_Native(System::IntPtr pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
@@ -1036,7 +1037,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Matchmaking_StartMatch(uint64_t roomID);
     // static public System.UInt64 ovr_Media_ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
     // Offset: 0x1D7A03C
-    static uint64_t ovr_Media_ShareToFacebook(::Il2CppString* postTextSuggestion, ::Il2CppString* filePath, Oculus::Platform::MediaContentType contentType);
+    static uint64_t ovr_Media_ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, Oculus::Platform::MediaContentType contentType);
     // static private System.UInt64 ovr_Media_ShareToFacebook_Native(System.IntPtr postTextSuggestion, System.IntPtr filePath, Oculus.Platform.MediaContentType contentType)
     // Offset: 0x1D7A118
     static uint64_t ovr_Media_ShareToFacebook_Native(System::IntPtr postTextSuggestion, System::IntPtr filePath, Oculus::Platform::MediaContentType contentType);
@@ -1060,25 +1061,25 @@ namespace Oculus::Platform {
     static uint64_t ovr_NetSync_SetVoipAttenuation(int64_t connection_id, ::ArrayW<float> distances, ::ArrayW<float> decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipAttenuationModel(System.Int64 connection_id, System.String name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
     // Offset: 0x1D7A4DC
-    static uint64_t ovr_NetSync_SetVoipAttenuationModel(int64_t connection_id, ::Il2CppString* name, ::ArrayW<float> distances, ::ArrayW<float> decibels, System::UIntPtr count);
+    static uint64_t ovr_NetSync_SetVoipAttenuationModel(int64_t connection_id, ::StringW name, ::ArrayW<float> distances, ::ArrayW<float> decibels, System::UIntPtr count);
     // static private System.UInt64 ovr_NetSync_SetVoipAttenuationModel_Native(System.Int64 connection_id, System.IntPtr name, System.Single[] distances, System.Single[] decibels, System.UIntPtr count)
     // Offset: 0x1D7A5B8
     static uint64_t ovr_NetSync_SetVoipAttenuationModel_Native(int64_t connection_id, System::IntPtr name, ::ArrayW<float> distances, ::ArrayW<float> decibels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipChannelCfg(System.Int64 connection_id, System.String channel_name, System.String attnmodel, System.Boolean disable_spatialization)
     // Offset: 0x1D7A678
-    static uint64_t ovr_NetSync_SetVoipChannelCfg(int64_t connection_id, ::Il2CppString* channel_name, ::Il2CppString* attnmodel, bool disable_spatialization);
+    static uint64_t ovr_NetSync_SetVoipChannelCfg(int64_t connection_id, ::StringW channel_name, ::StringW attnmodel, bool disable_spatialization);
     // static private System.UInt64 ovr_NetSync_SetVoipChannelCfg_Native(System.Int64 connection_id, System.IntPtr channel_name, System.IntPtr attnmodel, System.Boolean disable_spatialization)
     // Offset: 0x1D7A764
     static uint64_t ovr_NetSync_SetVoipChannelCfg_Native(int64_t connection_id, System::IntPtr channel_name, System::IntPtr attnmodel, bool disable_spatialization);
     // static public System.UInt64 ovr_NetSync_SetVoipGroup(System.Int64 connection_id, System.String group_id)
     // Offset: 0x1D7A80C
-    static uint64_t ovr_NetSync_SetVoipGroup(int64_t connection_id, ::Il2CppString* group_id);
+    static uint64_t ovr_NetSync_SetVoipGroup(int64_t connection_id, ::StringW group_id);
     // static private System.UInt64 ovr_NetSync_SetVoipGroup_Native(System.Int64 connection_id, System.IntPtr group_id)
     // Offset: 0x1D7A8C8
     static uint64_t ovr_NetSync_SetVoipGroup_Native(int64_t connection_id, System::IntPtr group_id);
     // static public System.UInt64 ovr_NetSync_SetVoipListentoChannels(System.Int64 connection_id, System.String[] listento_channels, System.UIntPtr count)
     // Offset: 0x1D7A958
-    static uint64_t ovr_NetSync_SetVoipListentoChannels(int64_t connection_id, ::ArrayW<::Il2CppString*> listento_channels, System::UIntPtr count);
+    static uint64_t ovr_NetSync_SetVoipListentoChannels(int64_t connection_id, ::ArrayW<::StringW> listento_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipMicSource(System.Int64 connection_id, Oculus.Platform.NetSyncVoipMicSource mic_source)
     // Offset: 0x1D7AABC
     static uint64_t ovr_NetSync_SetVoipMicSource(int64_t connection_id, Oculus::Platform::NetSyncVoipMicSource mic_source);
@@ -1087,7 +1088,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_NetSync_SetVoipSessionMuted(int64_t connection_id, uint64_t session_id, bool muted);
     // static public System.UInt64 ovr_NetSync_SetVoipSpeaktoChannels(System.Int64 connection_id, System.String[] speakto_channels, System.UIntPtr count)
     // Offset: 0x1D7ABE4
-    static uint64_t ovr_NetSync_SetVoipSpeaktoChannels(int64_t connection_id, ::ArrayW<::Il2CppString*> speakto_channels, System::UIntPtr count);
+    static uint64_t ovr_NetSync_SetVoipSpeaktoChannels(int64_t connection_id, ::ArrayW<::StringW> speakto_channels, System::UIntPtr count);
     // static public System.UInt64 ovr_NetSync_SetVoipStreamMode(System.Int64 connection_id, System.UInt64 sessionId, Oculus.Platform.NetSyncVoipStreamMode streamMode)
     // Offset: 0x1D7AD48
     static uint64_t ovr_NetSync_SetVoipStreamMode(int64_t connection_id, uint64_t sessionId, Oculus::Platform::NetSyncVoipStreamMode streamMode);
@@ -1132,7 +1133,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_RichPresence_Set(System::IntPtr richPresenceOptions);
     // static public System.UInt64 ovr_RichPresence_SetDestination(System.String api_name)
     // Offset: 0x1D7B440
-    static uint64_t ovr_RichPresence_SetDestination(::Il2CppString* api_name);
+    static uint64_t ovr_RichPresence_SetDestination(::StringW api_name);
     // static private System.UInt64 ovr_RichPresence_SetDestination_Native(System.IntPtr api_name)
     // Offset: 0x1D7B4E8
     static uint64_t ovr_RichPresence_SetDestination_Native(System::IntPtr api_name);
@@ -1141,13 +1142,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_RichPresence_SetIsJoinable(bool is_joinable);
     // static public System.UInt64 ovr_RichPresence_SetLobbySession(System.String id)
     // Offset: 0x1D7B5E8
-    static uint64_t ovr_RichPresence_SetLobbySession(::Il2CppString* id);
+    static uint64_t ovr_RichPresence_SetLobbySession(::StringW id);
     // static private System.UInt64 ovr_RichPresence_SetLobbySession_Native(System.IntPtr id)
     // Offset: 0x1D7B690
     static uint64_t ovr_RichPresence_SetLobbySession_Native(System::IntPtr id);
     // static public System.UInt64 ovr_RichPresence_SetMatchSession(System.String id)
     // Offset: 0x1D7B710
-    static uint64_t ovr_RichPresence_SetMatchSession(::Il2CppString* id);
+    static uint64_t ovr_RichPresence_SetMatchSession(::StringW id);
     // static private System.UInt64 ovr_RichPresence_SetMatchSession_Native(System.IntPtr id)
     // Offset: 0x1D7B7B8
     static uint64_t ovr_RichPresence_SetMatchSession_Native(System::IntPtr id);
@@ -1180,7 +1181,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Room_GetSocialRooms(uint64_t appID);
     // static public System.UInt64 ovr_Room_InviteUser(System.UInt64 roomID, System.String inviteToken)
     // Offset: 0x1D7BCC4
-    static uint64_t ovr_Room_InviteUser(uint64_t roomID, ::Il2CppString* inviteToken);
+    static uint64_t ovr_Room_InviteUser(uint64_t roomID, ::StringW inviteToken);
     // static private System.UInt64 ovr_Room_InviteUser_Native(System.UInt64 roomID, System.IntPtr inviteToken)
     // Offset: 0x1D7BD80
     static uint64_t ovr_Room_InviteUser_Native(uint64_t roomID, System::IntPtr inviteToken);
@@ -1201,7 +1202,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Room_Leave(uint64_t roomID);
     // static public System.UInt64 ovr_Room_SetDescription(System.UInt64 roomID, System.String description)
     // Offset: 0x1D7C0C4
-    static uint64_t ovr_Room_SetDescription(uint64_t roomID, ::Il2CppString* description);
+    static uint64_t ovr_Room_SetDescription(uint64_t roomID, ::StringW description);
     // static private System.UInt64 ovr_Room_SetDescription_Native(System.UInt64 roomID, System.IntPtr description)
     // Offset: 0x1D7C180
     static uint64_t ovr_Room_SetDescription_Native(uint64_t roomID, System::IntPtr description);
@@ -1228,7 +1229,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_SystemPermissions_LaunchDeeplink(Oculus::Platform::PermissionType permType);
     // static public System.UInt64 ovr_User_CancelRecordingForReportFlow(System.String recordingUUID)
     // Offset: 0x1D7C6CC
-    static uint64_t ovr_User_CancelRecordingForReportFlow(::Il2CppString* recordingUUID);
+    static uint64_t ovr_User_CancelRecordingForReportFlow(::StringW recordingUUID);
     // static private System.UInt64 ovr_User_CancelRecordingForReportFlow_Native(System.IntPtr recordingUUID)
     // Offset: 0x1D7C774
     static uint64_t ovr_User_CancelRecordingForReportFlow_Native(System::IntPtr recordingUUID);
@@ -1294,25 +1295,25 @@ namespace Oculus::Platform {
     static uint64_t ovr_User_StartRecordingForReportFlow();
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow(System.UInt64 optionalUserID, System.String optionalRecordingUUID)
     // Offset: 0x1D7D18C
-    static uint64_t ovr_User_StopRecordingAndLaunchReportFlow(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID);
+    static uint64_t ovr_User_StopRecordingAndLaunchReportFlow(uint64_t optionalUserID, ::StringW optionalRecordingUUID);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID)
     // Offset: 0x1D7D248
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID);
     // static public System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2(System.UInt64 optionalUserID, System.String optionalRecordingUUID, System.IntPtr abuseReportOptions)
     // Offset: 0x1D7D2D8
-    static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2(uint64_t optionalUserID, ::Il2CppString* optionalRecordingUUID, System::IntPtr abuseReportOptions);
+    static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2(uint64_t optionalUserID, ::StringW optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static private System.UInt64 ovr_User_StopRecordingAndLaunchReportFlow2_Native(System.UInt64 optionalUserID, System.IntPtr optionalRecordingUUID, System.IntPtr abuseReportOptions)
     // Offset: 0x1D7D39C
     static uint64_t ovr_User_StopRecordingAndLaunchReportFlow2_Native(uint64_t optionalUserID, System::IntPtr optionalRecordingUUID, System::IntPtr abuseReportOptions);
     // static public System.UInt64 ovr_User_TestUserCreateDeviceManifest(System.String deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
     // Offset: 0x1D7D434
-    static uint64_t ovr_User_TestUserCreateDeviceManifest(::Il2CppString* deviceID, ::ArrayW<uint64_t> appIDs, int numAppIDs);
+    static uint64_t ovr_User_TestUserCreateDeviceManifest(::StringW deviceID, ::ArrayW<uint64_t> appIDs, int numAppIDs);
     // static private System.UInt64 ovr_User_TestUserCreateDeviceManifest_Native(System.IntPtr deviceID, System.UInt64[] appIDs, System.Int32 numAppIDs)
     // Offset: 0x1D7D4F4
     static uint64_t ovr_User_TestUserCreateDeviceManifest_Native(System::IntPtr deviceID, ::ArrayW<uint64_t> appIDs, int numAppIDs);
     // static public System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey(System.UInt64 userID, System.String key)
     // Offset: 0x1D7D594
-    static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
+    static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey(uint64_t userID, ::StringW key);
     // static private System.UInt64 ovr_UserDataStore_PrivateDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
     // Offset: 0x1D7D650
     static uint64_t ovr_UserDataStore_PrivateDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
@@ -1321,19 +1322,19 @@ namespace Oculus::Platform {
     static uint64_t ovr_UserDataStore_PrivateGetEntries(uint64_t userID);
     // static public System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey(System.UInt64 userID, System.String key)
     // Offset: 0x1D7D760
-    static uint64_t ovr_UserDataStore_PrivateGetEntryByKey(uint64_t userID, ::Il2CppString* key);
+    static uint64_t ovr_UserDataStore_PrivateGetEntryByKey(uint64_t userID, ::StringW key);
     // static private System.UInt64 ovr_UserDataStore_PrivateGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
     // Offset: 0x1D7D81C
     static uint64_t ovr_UserDataStore_PrivateGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PrivateWriteEntry(System.UInt64 userID, System.String key, System.String value)
     // Offset: 0x1D7D8AC
-    static uint64_t ovr_UserDataStore_PrivateWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
+    static uint64_t ovr_UserDataStore_PrivateWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
     // static private System.UInt64 ovr_UserDataStore_PrivateWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D7D988
     static uint64_t ovr_UserDataStore_PrivateWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
     // static public System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey(System.UInt64 userID, System.String key)
     // Offset: 0x1D7DA20
-    static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey(uint64_t userID, ::Il2CppString* key);
+    static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey(uint64_t userID, ::StringW key);
     // static private System.UInt64 ovr_UserDataStore_PublicDeleteEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
     // Offset: 0x1D7DADC
     static uint64_t ovr_UserDataStore_PublicDeleteEntryByKey_Native(uint64_t userID, System::IntPtr key);
@@ -1342,13 +1343,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_UserDataStore_PublicGetEntries(uint64_t userID);
     // static public System.UInt64 ovr_UserDataStore_PublicGetEntryByKey(System.UInt64 userID, System.String key)
     // Offset: 0x1D7DBEC
-    static uint64_t ovr_UserDataStore_PublicGetEntryByKey(uint64_t userID, ::Il2CppString* key);
+    static uint64_t ovr_UserDataStore_PublicGetEntryByKey(uint64_t userID, ::StringW key);
     // static private System.UInt64 ovr_UserDataStore_PublicGetEntryByKey_Native(System.UInt64 userID, System.IntPtr key)
     // Offset: 0x1D7DCA8
     static uint64_t ovr_UserDataStore_PublicGetEntryByKey_Native(uint64_t userID, System::IntPtr key);
     // static public System.UInt64 ovr_UserDataStore_PublicWriteEntry(System.UInt64 userID, System.String key, System.String value)
     // Offset: 0x1D7DD38
-    static uint64_t ovr_UserDataStore_PublicWriteEntry(uint64_t userID, ::Il2CppString* key, ::Il2CppString* value);
+    static uint64_t ovr_UserDataStore_PublicWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
     // static private System.UInt64 ovr_UserDataStore_PublicWriteEntry_Native(System.UInt64 userID, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D7DE14
     static uint64_t ovr_UserDataStore_PublicWriteEntry_Native(uint64_t userID, System::IntPtr key, System::IntPtr value);
@@ -1360,7 +1361,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Voip_SetSystemVoipSuppressed(bool suppressed);
     // static public System.String ovr_AbuseReportRecording_GetRecordingUuid(System.IntPtr obj)
     // Offset: 0x1D7DFA0
-    static ::Il2CppString* ovr_AbuseReportRecording_GetRecordingUuid(System::IntPtr obj);
+    static ::StringW ovr_AbuseReportRecording_GetRecordingUuid(System::IntPtr obj);
     // static private System.IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System.IntPtr obj)
     // Offset: 0x1D7E008
     static System::IntPtr ovr_AbuseReportRecording_GetRecordingUuid_Native(System::IntPtr obj);
@@ -1369,7 +1370,7 @@ namespace Oculus::Platform {
     static uint ovr_AchievementDefinition_GetBitfieldLength(System::IntPtr obj);
     // static public System.String ovr_AchievementDefinition_GetName(System.IntPtr obj)
     // Offset: 0x1D7E108
-    static ::Il2CppString* ovr_AchievementDefinition_GetName(System::IntPtr obj);
+    static ::StringW ovr_AchievementDefinition_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinition_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D7E170
     static System::IntPtr ovr_AchievementDefinition_GetName_Native(System::IntPtr obj);
@@ -1384,7 +1385,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_AchievementDefinitionArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementDefinitionArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D7E380
-    static ::Il2CppString* ovr_AchievementDefinitionArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_AchievementDefinitionArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D7E3E8
     static System::IntPtr ovr_AchievementDefinitionArray_GetNextUrl_Native(System::IntPtr obj);
@@ -1396,7 +1397,7 @@ namespace Oculus::Platform {
     static bool ovr_AchievementDefinitionArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetBitfield(System.IntPtr obj)
     // Offset: 0x1D7E570
-    static ::Il2CppString* ovr_AchievementProgress_GetBitfield(System::IntPtr obj);
+    static ::StringW ovr_AchievementProgress_GetBitfield(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetBitfield_Native(System.IntPtr obj)
     // Offset: 0x1D7E5D8
     static System::IntPtr ovr_AchievementProgress_GetBitfield_Native(System::IntPtr obj);
@@ -1408,7 +1409,7 @@ namespace Oculus::Platform {
     static bool ovr_AchievementProgress_GetIsUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementProgress_GetName(System.IntPtr obj)
     // Offset: 0x1D7E760
-    static ::Il2CppString* ovr_AchievementProgress_GetName(System::IntPtr obj);
+    static ::StringW ovr_AchievementProgress_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgress_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D7E7C8
     static System::IntPtr ovr_AchievementProgress_GetName_Native(System::IntPtr obj);
@@ -1423,7 +1424,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_AchievementProgressArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_AchievementProgressArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D7E9C0
-    static ::Il2CppString* ovr_AchievementProgressArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_AchievementProgressArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D7EA28
     static System::IntPtr ovr_AchievementProgressArray_GetNextUrl_Native(System::IntPtr obj);
@@ -1438,7 +1439,7 @@ namespace Oculus::Platform {
     static bool ovr_AchievementUpdate_GetJustUnlocked(System::IntPtr obj);
     // static public System.String ovr_AchievementUpdate_GetName(System.IntPtr obj)
     // Offset: 0x1D7EC38
-    static ::Il2CppString* ovr_AchievementUpdate_GetName(System::IntPtr obj);
+    static ::StringW ovr_AchievementUpdate_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_AchievementUpdate_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D7ECA0
     static System::IntPtr ovr_AchievementUpdate_GetName_Native(System::IntPtr obj);
@@ -1450,7 +1451,7 @@ namespace Oculus::Platform {
     static int ovr_ApplicationVersion_GetCurrentCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetCurrentName(System.IntPtr obj)
     // Offset: 0x1D7EE20
-    static ::Il2CppString* ovr_ApplicationVersion_GetCurrentName(System::IntPtr obj);
+    static ::StringW ovr_ApplicationVersion_GetCurrentName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System.IntPtr obj)
     // Offset: 0x1D7EE88
     static System::IntPtr ovr_ApplicationVersion_GetCurrentName_Native(System::IntPtr obj);
@@ -1459,7 +1460,7 @@ namespace Oculus::Platform {
     static int ovr_ApplicationVersion_GetLatestCode(System::IntPtr obj);
     // static public System.String ovr_ApplicationVersion_GetLatestName(System.IntPtr obj)
     // Offset: 0x1D7EF88
-    static ::Il2CppString* ovr_ApplicationVersion_GetLatestName(System::IntPtr obj);
+    static ::StringW ovr_ApplicationVersion_GetLatestName(System::IntPtr obj);
     // static private System.IntPtr ovr_ApplicationVersion_GetLatestName_Native(System.IntPtr obj)
     // Offset: 0x1D7EFF0
     static System::IntPtr ovr_ApplicationVersion_GetLatestName_Native(System::IntPtr obj);
@@ -1468,25 +1469,25 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetDetails_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetAssetType(System.IntPtr obj)
     // Offset: 0x1D7F0F0
-    static ::Il2CppString* ovr_AssetDetails_GetAssetType(System::IntPtr obj);
+    static ::StringW ovr_AssetDetails_GetAssetType(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetAssetType_Native(System.IntPtr obj)
     // Offset: 0x1D7F158
     static System::IntPtr ovr_AssetDetails_GetAssetType_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetDownloadStatus(System.IntPtr obj)
     // Offset: 0x1D7F1D8
-    static ::Il2CppString* ovr_AssetDetails_GetDownloadStatus(System::IntPtr obj);
+    static ::StringW ovr_AssetDetails_GetDownloadStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System.IntPtr obj)
     // Offset: 0x1D7F240
     static System::IntPtr ovr_AssetDetails_GetDownloadStatus_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetFilepath(System.IntPtr obj)
     // Offset: 0x1D7F2C0
-    static ::Il2CppString* ovr_AssetDetails_GetFilepath(System::IntPtr obj);
+    static ::StringW ovr_AssetDetails_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetFilepath_Native(System.IntPtr obj)
     // Offset: 0x1D7F328
     static System::IntPtr ovr_AssetDetails_GetFilepath_Native(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetIapStatus(System.IntPtr obj)
     // Offset: 0x1D7F3A8
-    static ::Il2CppString* ovr_AssetDetails_GetIapStatus(System::IntPtr obj);
+    static ::StringW ovr_AssetDetails_GetIapStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetIapStatus_Native(System.IntPtr obj)
     // Offset: 0x1D7F410
     static System::IntPtr ovr_AssetDetails_GetIapStatus_Native(System::IntPtr obj);
@@ -1495,7 +1496,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_AssetDetails_GetLanguage(System::IntPtr obj);
     // static public System.String ovr_AssetDetails_GetMetadata(System.IntPtr obj)
     // Offset: 0x1D7F510
-    static ::Il2CppString* ovr_AssetDetails_GetMetadata(System::IntPtr obj);
+    static ::StringW ovr_AssetDetails_GetMetadata(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetDetails_GetMetadata_Native(System.IntPtr obj)
     // Offset: 0x1D7F578
     static System::IntPtr ovr_AssetDetails_GetMetadata_Native(System::IntPtr obj);
@@ -1513,7 +1514,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFileDeleteResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDeleteResult_GetFilepath(System.IntPtr obj)
     // Offset: 0x1D7F808
-    static ::Il2CppString* ovr_AssetFileDeleteResult_GetFilepath(System::IntPtr obj);
+    static ::StringW ovr_AssetFileDeleteResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System.IntPtr obj)
     // Offset: 0x1D7F870
     static System::IntPtr ovr_AssetFileDeleteResult_GetFilepath_Native(System::IntPtr obj);
@@ -1528,7 +1529,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFileDownloadCancelResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadCancelResult_GetFilepath(System.IntPtr obj)
     // Offset: 0x1D7FA78
-    static ::Il2CppString* ovr_AssetFileDownloadCancelResult_GetFilepath(System::IntPtr obj);
+    static ::StringW ovr_AssetFileDownloadCancelResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System.IntPtr obj)
     // Offset: 0x1D7FAE0
     static System::IntPtr ovr_AssetFileDownloadCancelResult_GetFilepath_Native(System::IntPtr obj);
@@ -1540,7 +1541,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_AssetFileDownloadResult_GetAssetId(System::IntPtr obj);
     // static public System.String ovr_AssetFileDownloadResult_GetFilepath(System.IntPtr obj)
     // Offset: 0x1D7FC68
-    static ::Il2CppString* ovr_AssetFileDownloadResult_GetFilepath(System::IntPtr obj);
+    static ::StringW ovr_AssetFileDownloadResult_GetFilepath(System::IntPtr obj);
     // static private System.IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System.IntPtr obj)
     // Offset: 0x1D7FCD0
     static System::IntPtr ovr_AssetFileDownloadResult_GetFilepath_Native(System::IntPtr obj);
@@ -1573,7 +1574,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_CalApplicationFinalized_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationFinalized_GetLaunchDetails(System.IntPtr obj)
     // Offset: 0x1D801D8
-    static ::Il2CppString* ovr_CalApplicationFinalized_GetLaunchDetails(System::IntPtr obj);
+    static ::StringW ovr_CalApplicationFinalized_GetLaunchDetails(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System.IntPtr obj)
     // Offset: 0x1D80240
     static System::IntPtr ovr_CalApplicationFinalized_GetLaunchDetails_Native(System::IntPtr obj);
@@ -1585,7 +1586,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_CalApplicationSuggestion_GetID(System::IntPtr obj);
     // static public System.String ovr_CalApplicationSuggestion_GetSocialContext(System.IntPtr obj)
     // Offset: 0x1D803C0
-    static ::Il2CppString* ovr_CalApplicationSuggestion_GetSocialContext(System::IntPtr obj);
+    static ::StringW ovr_CalApplicationSuggestion_GetSocialContext(System::IntPtr obj);
     // static private System.IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System.IntPtr obj)
     // Offset: 0x1D80428
     static System::IntPtr ovr_CalApplicationSuggestion_GetSocialContext_Native(System::IntPtr obj);
@@ -1600,7 +1601,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::ChallengeCreationType ovr_Challenge_GetCreationType(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetDescription(System.IntPtr obj)
     // Offset: 0x1D80638
-    static ::Il2CppString* ovr_Challenge_GetDescription(System::IntPtr obj);
+    static ::StringW ovr_Challenge_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetDescription_Native(System.IntPtr obj)
     // Offset: 0x1D806A0
     static System::IntPtr ovr_Challenge_GetDescription_Native(System::IntPtr obj);
@@ -1630,7 +1631,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_Challenge_GetStartDate_Native(System::IntPtr obj);
     // static public System.String ovr_Challenge_GetTitle(System.IntPtr obj)
     // Offset: 0x1D80AF0
-    static ::Il2CppString* ovr_Challenge_GetTitle(System::IntPtr obj);
+    static ::StringW ovr_Challenge_GetTitle(System::IntPtr obj);
     // static private System.IntPtr ovr_Challenge_GetTitle_Native(System.IntPtr obj)
     // Offset: 0x1D80B58
     static System::IntPtr ovr_Challenge_GetTitle_Native(System::IntPtr obj);
@@ -1642,13 +1643,13 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_ChallengeArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D80CE8
-    static ::Il2CppString* ovr_ChallengeArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_ChallengeArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D80D50
     static System::IntPtr ovr_ChallengeArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeArray_GetPreviousUrl(System.IntPtr obj)
     // Offset: 0x1D80DD0
-    static ::Il2CppString* ovr_ChallengeArray_GetPreviousUrl(System::IntPtr obj);
+    static ::StringW ovr_ChallengeArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System.IntPtr obj)
     // Offset: 0x1D80E38
     static System::IntPtr ovr_ChallengeArray_GetPreviousUrl_Native(System::IntPtr obj);
@@ -1666,7 +1667,7 @@ namespace Oculus::Platform {
     static bool ovr_ChallengeArray_HasPreviousPage(System::IntPtr obj);
     // static public System.String ovr_ChallengeEntry_GetDisplayScore(System.IntPtr obj)
     // Offset: 0x1D810C8
-    static ::Il2CppString* ovr_ChallengeEntry_GetDisplayScore(System::IntPtr obj);
+    static ::StringW ovr_ChallengeEntry_GetDisplayScore(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System.IntPtr obj)
     // Offset: 0x1D81130
     static System::IntPtr ovr_ChallengeEntry_GetDisplayScore_Native(System::IntPtr obj);
@@ -1699,13 +1700,13 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_ChallengeEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ChallengeEntryArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D816A4
-    static ::Il2CppString* ovr_ChallengeEntryArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_ChallengeEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8170C
     static System::IntPtr ovr_ChallengeEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_ChallengeEntryArray_GetPreviousUrl(System.IntPtr obj)
     // Offset: 0x1D8178C
-    static ::Il2CppString* ovr_ChallengeEntryArray_GetPreviousUrl(System::IntPtr obj);
+    static ::StringW ovr_ChallengeEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
     // Offset: 0x1D817F4
     static System::IntPtr ovr_ChallengeEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
@@ -1723,7 +1724,7 @@ namespace Oculus::Platform {
     static bool ovr_ChallengeEntryArray_HasPreviousPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System.IntPtr obj)
     // Offset: 0x1D81A84
-    static ::Il2CppString* ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System::IntPtr obj);
+    static ::StringW ovr_CloudStorage2UserDirectoryPathResponse_GetPath(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System.IntPtr obj)
     // Offset: 0x1D81AEC
     static System::IntPtr ovr_CloudStorage2UserDirectoryPathResponse_GetPath_Native(System::IntPtr obj);
@@ -1735,7 +1736,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_CloudStorageConflictMetadata_GetRemote(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetBucket(System.IntPtr obj)
     // Offset: 0x1D81C6C
-    static ::Il2CppString* ovr_CloudStorageData_GetBucket(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageData_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetBucket_Native(System.IntPtr obj)
     // Offset: 0x1D81CD4
     static System::IntPtr ovr_CloudStorageData_GetBucket_Native(System::IntPtr obj);
@@ -1750,13 +1751,13 @@ namespace Oculus::Platform {
     static uint ovr_CloudStorageData_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageData_GetKey(System.IntPtr obj)
     // Offset: 0x1D81ED0
-    static ::Il2CppString* ovr_CloudStorageData_GetKey(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageData_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageData_GetKey_Native(System.IntPtr obj)
     // Offset: 0x1D81F38
     static System::IntPtr ovr_CloudStorageData_GetKey_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetBucket(System.IntPtr obj)
     // Offset: 0x1D81FB8
-    static ::Il2CppString* ovr_CloudStorageMetadata_GetBucket(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageMetadata_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System.IntPtr obj)
     // Offset: 0x1D82020
     static System::IntPtr ovr_CloudStorageMetadata_GetBucket_Native(System::IntPtr obj);
@@ -1768,13 +1769,13 @@ namespace Oculus::Platform {
     static uint ovr_CloudStorageMetadata_GetDataSize(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetExtraData(System.IntPtr obj)
     // Offset: 0x1D821A0
-    static ::Il2CppString* ovr_CloudStorageMetadata_GetExtraData(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageMetadata_GetExtraData(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System.IntPtr obj)
     // Offset: 0x1D82208
     static System::IntPtr ovr_CloudStorageMetadata_GetExtraData_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetKey(System.IntPtr obj)
     // Offset: 0x1D82288
-    static ::Il2CppString* ovr_CloudStorageMetadata_GetKey(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageMetadata_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetKey_Native(System.IntPtr obj)
     // Offset: 0x1D822F0
     static System::IntPtr ovr_CloudStorageMetadata_GetKey_Native(System::IntPtr obj);
@@ -1786,7 +1787,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageMetadata_GetVersionHandle(System.IntPtr obj)
     // Offset: 0x1D82470
-    static ::Il2CppString* ovr_CloudStorageMetadata_GetVersionHandle(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageMetadata_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System.IntPtr obj)
     // Offset: 0x1D824D8
     static System::IntPtr ovr_CloudStorageMetadata_GetVersionHandle_Native(System::IntPtr obj);
@@ -1795,7 +1796,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_CloudStorageMetadataArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_CloudStorageMetadataArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D825E8
-    static ::Il2CppString* ovr_CloudStorageMetadataArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageMetadataArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D82650
     static System::IntPtr ovr_CloudStorageMetadataArray_GetNextUrl_Native(System::IntPtr obj);
@@ -1807,13 +1808,13 @@ namespace Oculus::Platform {
     static bool ovr_CloudStorageMetadataArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetBucket(System.IntPtr obj)
     // Offset: 0x1D827D8
-    static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetBucket(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageUpdateResponse_GetBucket(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System.IntPtr obj)
     // Offset: 0x1D82840
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetBucket_Native(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetKey(System.IntPtr obj)
     // Offset: 0x1D828C0
-    static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetKey(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageUpdateResponse_GetKey(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System.IntPtr obj)
     // Offset: 0x1D82928
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetKey_Native(System::IntPtr obj);
@@ -1822,19 +1823,19 @@ namespace Oculus::Platform {
     static Oculus::Platform::CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(System::IntPtr obj);
     // static public System.String ovr_CloudStorageUpdateResponse_GetVersionHandle(System.IntPtr obj)
     // Offset: 0x1D82A28
-    static ::Il2CppString* ovr_CloudStorageUpdateResponse_GetVersionHandle(System::IntPtr obj);
+    static ::StringW ovr_CloudStorageUpdateResponse_GetVersionHandle(System::IntPtr obj);
     // static private System.IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System.IntPtr obj)
     // Offset: 0x1D82A90
     static System::IntPtr ovr_CloudStorageUpdateResponse_GetVersionHandle_Native(System::IntPtr obj);
     // static public System.UInt32 ovr_DataStore_Contains(System.IntPtr obj, System.String key)
     // Offset: 0x1D82B10
-    static uint ovr_DataStore_Contains(System::IntPtr obj, ::Il2CppString* key);
+    static uint ovr_DataStore_Contains(System::IntPtr obj, ::StringW key);
     // static private System.UInt32 ovr_DataStore_Contains_Native(System.IntPtr obj, System.IntPtr key)
     // Offset: 0x1D82BCC
     static uint ovr_DataStore_Contains_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_DataStore_GetKey(System.IntPtr obj, System.Int32 index)
     // Offset: 0x1D71114
-    static ::Il2CppString* ovr_DataStore_GetKey(System::IntPtr obj, int index);
+    static ::StringW ovr_DataStore_GetKey(System::IntPtr obj, int index);
     // static private System.IntPtr ovr_DataStore_GetKey_Native(System.IntPtr obj, System.Int32 index)
     // Offset: 0x1D82C5C
     static System::IntPtr ovr_DataStore_GetKey_Native(System::IntPtr obj, int index);
@@ -1843,25 +1844,25 @@ namespace Oculus::Platform {
     static System::UIntPtr ovr_DataStore_GetNumKeys(System::IntPtr obj);
     // static public System.String ovr_DataStore_GetValue(System.IntPtr obj, System.String key)
     // Offset: 0x1D7118C
-    static ::Il2CppString* ovr_DataStore_GetValue(System::IntPtr obj, ::Il2CppString* key);
+    static ::StringW ovr_DataStore_GetValue(System::IntPtr obj, ::StringW key);
     // static private System.IntPtr ovr_DataStore_GetValue_Native(System.IntPtr obj, System.IntPtr key)
     // Offset: 0x1D82CEC
     static System::IntPtr ovr_DataStore_GetValue_Native(System::IntPtr obj, System::IntPtr key);
     // static public System.String ovr_Destination_GetApiName(System.IntPtr obj)
     // Offset: 0x1D82D7C
-    static ::Il2CppString* ovr_Destination_GetApiName(System::IntPtr obj);
+    static ::StringW ovr_Destination_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetApiName_Native(System.IntPtr obj)
     // Offset: 0x1D82DE4
     static System::IntPtr ovr_Destination_GetApiName_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDeeplinkMessage(System.IntPtr obj)
     // Offset: 0x1D82E64
-    static ::Il2CppString* ovr_Destination_GetDeeplinkMessage(System::IntPtr obj);
+    static ::StringW ovr_Destination_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDeeplinkMessage_Native(System.IntPtr obj)
     // Offset: 0x1D82ECC
     static System::IntPtr ovr_Destination_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_Destination_GetDisplayName(System.IntPtr obj)
     // Offset: 0x1D82F4C
-    static ::Il2CppString* ovr_Destination_GetDisplayName(System::IntPtr obj);
+    static ::StringW ovr_Destination_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_Destination_GetDisplayName_Native(System.IntPtr obj)
     // Offset: 0x1D82FB4
     static System::IntPtr ovr_Destination_GetDisplayName_Native(System::IntPtr obj);
@@ -1870,7 +1871,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_DestinationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_DestinationArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D830C4
-    static ::Il2CppString* ovr_DestinationArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_DestinationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_DestinationArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8312C
     static System::IntPtr ovr_DestinationArray_GetNextUrl_Native(System::IntPtr obj);
@@ -1885,7 +1886,7 @@ namespace Oculus::Platform {
     static int ovr_Error_GetCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetDisplayableMessage(System.IntPtr obj)
     // Offset: 0x1D83330
-    static ::Il2CppString* ovr_Error_GetDisplayableMessage(System::IntPtr obj);
+    static ::StringW ovr_Error_GetDisplayableMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetDisplayableMessage_Native(System.IntPtr obj)
     // Offset: 0x1D83398
     static System::IntPtr ovr_Error_GetDisplayableMessage_Native(System::IntPtr obj);
@@ -1894,49 +1895,49 @@ namespace Oculus::Platform {
     static int ovr_Error_GetHttpCode(System::IntPtr obj);
     // static public System.String ovr_Error_GetMessage(System.IntPtr obj)
     // Offset: 0x1D83498
-    static ::Il2CppString* ovr_Error_GetMessage(System::IntPtr obj);
+    static ::StringW ovr_Error_GetMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_Error_GetMessage_Native(System.IntPtr obj)
     // Offset: 0x1D83500
     static System::IntPtr ovr_Error_GetMessage_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceJoinIntent_GetDeeplinkMessage(System.IntPtr obj)
     // Offset: 0x1D83580
-    static ::Il2CppString* ovr_GroupPresenceJoinIntent_GetDeeplinkMessage(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceJoinIntent_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceJoinIntent_GetDeeplinkMessage_Native(System.IntPtr obj)
     // Offset: 0x1D835E8
     static System::IntPtr ovr_GroupPresenceJoinIntent_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceJoinIntent_GetDestinationApiName(System.IntPtr obj)
     // Offset: 0x1D83668
-    static ::Il2CppString* ovr_GroupPresenceJoinIntent_GetDestinationApiName(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceJoinIntent_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceJoinIntent_GetDestinationApiName_Native(System.IntPtr obj)
     // Offset: 0x1D836D0
     static System::IntPtr ovr_GroupPresenceJoinIntent_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceJoinIntent_GetLobbySessionId(System.IntPtr obj)
     // Offset: 0x1D83750
-    static ::Il2CppString* ovr_GroupPresenceJoinIntent_GetLobbySessionId(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceJoinIntent_GetLobbySessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceJoinIntent_GetLobbySessionId_Native(System.IntPtr obj)
     // Offset: 0x1D837B8
     static System::IntPtr ovr_GroupPresenceJoinIntent_GetLobbySessionId_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceJoinIntent_GetMatchSessionId(System.IntPtr obj)
     // Offset: 0x1D83838
-    static ::Il2CppString* ovr_GroupPresenceJoinIntent_GetMatchSessionId(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceJoinIntent_GetMatchSessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceJoinIntent_GetMatchSessionId_Native(System.IntPtr obj)
     // Offset: 0x1D838A0
     static System::IntPtr ovr_GroupPresenceJoinIntent_GetMatchSessionId_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System.IntPtr obj)
     // Offset: 0x1D83920
-    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceLeaveIntent_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System.IntPtr obj)
     // Offset: 0x1D83988
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System.IntPtr obj)
     // Offset: 0x1D83A08
-    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceLeaveIntent_GetLobbySessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System.IntPtr obj)
     // Offset: 0x1D83A70
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native(System::IntPtr obj);
     // static public System.String ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System.IntPtr obj)
     // Offset: 0x1D83AF0
-    static ::Il2CppString* ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System::IntPtr obj);
+    static ::StringW ovr_GroupPresenceLeaveIntent_GetMatchSessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System.IntPtr obj)
     // Offset: 0x1D83B58
     static System::IntPtr ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native(System::IntPtr obj);
@@ -1954,19 +1955,19 @@ namespace Oculus::Platform {
     static bool ovr_HttpTransferUpdate_IsCompleted(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetApplicationId(System.IntPtr obj)
     // Offset: 0x1D83DE0
-    static ::Il2CppString* ovr_InstalledApplication_GetApplicationId(System::IntPtr obj);
+    static ::StringW ovr_InstalledApplication_GetApplicationId(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetApplicationId_Native(System.IntPtr obj)
     // Offset: 0x1D83E48
     static System::IntPtr ovr_InstalledApplication_GetApplicationId_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetPackageName(System.IntPtr obj)
     // Offset: 0x1D83EC8
-    static ::Il2CppString* ovr_InstalledApplication_GetPackageName(System::IntPtr obj);
+    static ::StringW ovr_InstalledApplication_GetPackageName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetPackageName_Native(System.IntPtr obj)
     // Offset: 0x1D83F30
     static System::IntPtr ovr_InstalledApplication_GetPackageName_Native(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetStatus(System.IntPtr obj)
     // Offset: 0x1D83FB0
-    static ::Il2CppString* ovr_InstalledApplication_GetStatus(System::IntPtr obj);
+    static ::StringW ovr_InstalledApplication_GetStatus(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetStatus_Native(System.IntPtr obj)
     // Offset: 0x1D84018
     static System::IntPtr ovr_InstalledApplication_GetStatus_Native(System::IntPtr obj);
@@ -1975,7 +1976,7 @@ namespace Oculus::Platform {
     static int ovr_InstalledApplication_GetVersionCode(System::IntPtr obj);
     // static public System.String ovr_InstalledApplication_GetVersionName(System.IntPtr obj)
     // Offset: 0x1D84118
-    static ::Il2CppString* ovr_InstalledApplication_GetVersionName(System::IntPtr obj);
+    static ::StringW ovr_InstalledApplication_GetVersionName(System::IntPtr obj);
     // static private System.IntPtr ovr_InstalledApplication_GetVersionName_Native(System.IntPtr obj)
     // Offset: 0x1D84180
     static System::IntPtr ovr_InstalledApplication_GetVersionName_Native(System::IntPtr obj);
@@ -1990,19 +1991,19 @@ namespace Oculus::Platform {
     static bool ovr_InvitePanelResultInfo_GetInvitesSent(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetEnglishName(System.IntPtr obj)
     // Offset: 0x1D84398
-    static ::Il2CppString* ovr_LanguagePackInfo_GetEnglishName(System::IntPtr obj);
+    static ::StringW ovr_LanguagePackInfo_GetEnglishName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System.IntPtr obj)
     // Offset: 0x1D84400
     static System::IntPtr ovr_LanguagePackInfo_GetEnglishName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetNativeName(System.IntPtr obj)
     // Offset: 0x1D84480
-    static ::Il2CppString* ovr_LanguagePackInfo_GetNativeName(System::IntPtr obj);
+    static ::StringW ovr_LanguagePackInfo_GetNativeName(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System.IntPtr obj)
     // Offset: 0x1D844E8
     static System::IntPtr ovr_LanguagePackInfo_GetNativeName_Native(System::IntPtr obj);
     // static public System.String ovr_LanguagePackInfo_GetTag(System.IntPtr obj)
     // Offset: 0x1D84568
-    static ::Il2CppString* ovr_LanguagePackInfo_GetTag(System::IntPtr obj);
+    static ::StringW ovr_LanguagePackInfo_GetTag(System::IntPtr obj);
     // static private System.IntPtr ovr_LanguagePackInfo_GetTag_Native(System.IntPtr obj)
     // Offset: 0x1D845D0
     static System::IntPtr ovr_LanguagePackInfo_GetTag_Native(System::IntPtr obj);
@@ -2014,19 +2015,19 @@ namespace Oculus::Platform {
     static bool ovr_LaunchBlockFlowResult_GetDidCancel(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDeeplinkMessage(System.IntPtr obj)
     // Offset: 0x1D84760
-    static ::Il2CppString* ovr_LaunchDetails_GetDeeplinkMessage(System::IntPtr obj);
+    static ::StringW ovr_LaunchDetails_GetDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System.IntPtr obj)
     // Offset: 0x1D847C8
     static System::IntPtr ovr_LaunchDetails_GetDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetDestinationApiName(System.IntPtr obj)
     // Offset: 0x1D84848
-    static ::Il2CppString* ovr_LaunchDetails_GetDestinationApiName(System::IntPtr obj);
+    static ::StringW ovr_LaunchDetails_GetDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System.IntPtr obj)
     // Offset: 0x1D848B0
     static System::IntPtr ovr_LaunchDetails_GetDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetLaunchSource(System.IntPtr obj)
     // Offset: 0x1D84930
-    static ::Il2CppString* ovr_LaunchDetails_GetLaunchSource(System::IntPtr obj);
+    static ::StringW ovr_LaunchDetails_GetLaunchSource(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System.IntPtr obj)
     // Offset: 0x1D84998
     static System::IntPtr ovr_LaunchDetails_GetLaunchSource_Native(System::IntPtr obj);
@@ -2038,7 +2039,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_LaunchDetails_GetRoomID(System::IntPtr obj);
     // static public System.String ovr_LaunchDetails_GetTrackingID(System.IntPtr obj)
     // Offset: 0x1D84B18
-    static ::Il2CppString* ovr_LaunchDetails_GetTrackingID(System::IntPtr obj);
+    static ::StringW ovr_LaunchDetails_GetTrackingID(System::IntPtr obj);
     // static private System.IntPtr ovr_LaunchDetails_GetTrackingID_Native(System.IntPtr obj)
     // Offset: 0x1D84B80
     static System::IntPtr ovr_LaunchDetails_GetTrackingID_Native(System::IntPtr obj);
@@ -2068,7 +2069,7 @@ namespace Oculus::Platform {
     static bool ovr_LaunchUnblockFlowResult_GetDidUnblock(System::IntPtr obj);
     // static public System.String ovr_Leaderboard_GetApiName(System.IntPtr obj)
     // Offset: 0x1D85028
-    static ::Il2CppString* ovr_Leaderboard_GetApiName(System::IntPtr obj);
+    static ::StringW ovr_Leaderboard_GetApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_Leaderboard_GetApiName_Native(System.IntPtr obj)
     // Offset: 0x1D85090
     static System::IntPtr ovr_Leaderboard_GetApiName_Native(System::IntPtr obj);
@@ -2083,7 +2084,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_LeaderboardArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_LeaderboardArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D852A0
-    static ::Il2CppString* ovr_LeaderboardArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_LeaderboardArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D85308
     static System::IntPtr ovr_LeaderboardArray_GetNextUrl_Native(System::IntPtr obj);
@@ -2095,7 +2096,7 @@ namespace Oculus::Platform {
     static bool ovr_LeaderboardArray_HasNextPage(System::IntPtr obj);
     // static public System.String ovr_LeaderboardEntry_GetDisplayScore(System.IntPtr obj)
     // Offset: 0x1D85490
-    static ::Il2CppString* ovr_LeaderboardEntry_GetDisplayScore(System::IntPtr obj);
+    static ::StringW ovr_LeaderboardEntry_GetDisplayScore(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System.IntPtr obj)
     // Offset: 0x1D854F8
     static System::IntPtr ovr_LeaderboardEntry_GetDisplayScore_Native(System::IntPtr obj);
@@ -2131,13 +2132,13 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_LeaderboardEntryArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_LeaderboardEntryArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D859EC
-    static ::Il2CppString* ovr_LeaderboardEntryArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_LeaderboardEntryArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D85A54
     static System::IntPtr ovr_LeaderboardEntryArray_GetNextUrl_Native(System::IntPtr obj);
     // static public System.String ovr_LeaderboardEntryArray_GetPreviousUrl(System.IntPtr obj)
     // Offset: 0x1D85AD4
-    static ::Il2CppString* ovr_LeaderboardEntryArray_GetPreviousUrl(System::IntPtr obj);
+    static ::StringW ovr_LeaderboardEntryArray_GetPreviousUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System.IntPtr obj)
     // Offset: 0x1D85B3C
     static System::IntPtr ovr_LeaderboardEntryArray_GetPreviousUrl_Native(System::IntPtr obj);
@@ -2164,7 +2165,7 @@ namespace Oculus::Platform {
     static uint ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetAccessToken(System.IntPtr obj)
     // Offset: 0x1D85F64
-    static ::Il2CppString* ovr_LinkedAccount_GetAccessToken(System::IntPtr obj);
+    static ::StringW ovr_LinkedAccount_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetAccessToken_Native(System.IntPtr obj)
     // Offset: 0x1D85FCC
     static System::IntPtr ovr_LinkedAccount_GetAccessToken_Native(System::IntPtr obj);
@@ -2173,7 +2174,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::ServiceProvider ovr_LinkedAccount_GetServiceProvider(System::IntPtr obj);
     // static public System.String ovr_LinkedAccount_GetUserId(System.IntPtr obj)
     // Offset: 0x1D860CC
-    static ::Il2CppString* ovr_LinkedAccount_GetUserId(System::IntPtr obj);
+    static ::StringW ovr_LinkedAccount_GetUserId(System::IntPtr obj);
     // static private System.IntPtr ovr_LinkedAccount_GetUserId_Native(System.IntPtr obj)
     // Offset: 0x1D86134
     static System::IntPtr ovr_LinkedAccount_GetUserId_Native(System::IntPtr obj);
@@ -2212,7 +2213,7 @@ namespace Oculus::Platform {
     static int ovr_LivestreamingVideoStats_GetReactionCount(System::IntPtr obj);
     // static public System.String ovr_LivestreamingVideoStats_GetTotalViews(System.IntPtr obj)
     // Offset: 0x1D8676C
-    static ::Il2CppString* ovr_LivestreamingVideoStats_GetTotalViews(System::IntPtr obj);
+    static ::StringW ovr_LivestreamingVideoStats_GetTotalViews(System::IntPtr obj);
     // static private System.IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System.IntPtr obj)
     // Offset: 0x1D867D4
     static System::IntPtr ovr_LivestreamingVideoStats_GetTotalViews_Native(System::IntPtr obj);
@@ -2236,7 +2237,7 @@ namespace Oculus::Platform {
     static double ovr_MatchmakingAdminSnapshotCandidate_GetTheirTotalScore(System::IntPtr obj);
     // static public System.String ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System.IntPtr obj)
     // Offset: 0x1D86B5C
-    static ::Il2CppString* ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingAdminSnapshotCandidate_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System.IntPtr obj)
     // Offset: 0x1D86BC4
     static System::IntPtr ovr_MatchmakingAdminSnapshotCandidate_GetTraceId_Native(System::IntPtr obj);
@@ -2254,7 +2255,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_MatchmakingBrowseResult_GetRooms(System::IntPtr obj);
     // static public System.String ovr_MatchmakingCandidate_GetEntryHash(System.IntPtr obj)
     // Offset: 0x1D86E54
-    static ::Il2CppString* ovr_MatchmakingCandidate_GetEntryHash(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingCandidate_GetEntryHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System.IntPtr obj)
     // Offset: 0x1D86EBC
     static System::IntPtr ovr_MatchmakingCandidate_GetEntryHash_Native(System::IntPtr obj);
@@ -2266,7 +2267,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_MatchmakingCandidateArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_MatchmakingCandidateArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D8704C
-    static ::Il2CppString* ovr_MatchmakingCandidateArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingCandidateArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D870B4
     static System::IntPtr ovr_MatchmakingCandidateArray_GetNextUrl_Native(System::IntPtr obj);
@@ -2290,7 +2291,7 @@ namespace Oculus::Platform {
     static uint ovr_MatchmakingEnqueueResult_GetMaxExpectedWait(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetPool(System.IntPtr obj)
     // Offset: 0x1D8743C
-    static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetPool(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingEnqueueResult_GetPool(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System.IntPtr obj)
     // Offset: 0x1D874A4
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetPool_Native(System::IntPtr obj);
@@ -2299,7 +2300,7 @@ namespace Oculus::Platform {
     static uint ovr_MatchmakingEnqueueResult_GetRecentMatchPercentage(System::IntPtr obj);
     // static public System.String ovr_MatchmakingEnqueueResult_GetRequestHash(System.IntPtr obj)
     // Offset: 0x1D875A4
-    static ::Il2CppString* ovr_MatchmakingEnqueueResult_GetRequestHash(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingEnqueueResult_GetRequestHash(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System.IntPtr obj)
     // Offset: 0x1D8760C
     static System::IntPtr ovr_MatchmakingEnqueueResult_GetRequestHash_Native(System::IntPtr obj);
@@ -2335,7 +2336,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_MatchmakingNotification_GetRoom(System::IntPtr obj);
     // static public System.String ovr_MatchmakingNotification_GetTraceId(System.IntPtr obj)
     // Offset: 0x1D87BAC
-    static ::Il2CppString* ovr_MatchmakingNotification_GetTraceId(System::IntPtr obj);
+    static ::StringW ovr_MatchmakingNotification_GetTraceId(System::IntPtr obj);
     // static private System.IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System.IntPtr obj)
     // Offset: 0x1D87C14
     static System::IntPtr ovr_MatchmakingNotification_GetTraceId_Native(System::IntPtr obj);
@@ -2596,7 +2597,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_Message_GetShareMediaResult(System::IntPtr obj);
     // static public System.String ovr_Message_GetString(System.IntPtr obj)
     // Offset: 0x1D8A72C
-    static ::Il2CppString* ovr_Message_GetString(System::IntPtr obj);
+    static ::StringW ovr_Message_GetString(System::IntPtr obj);
     // static private System.IntPtr ovr_Message_GetString_Native(System.IntPtr obj)
     // Offset: 0x1D8A794
     static System::IntPtr ovr_Message_GetString_Native(System::IntPtr obj);
@@ -2671,7 +2672,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(System::IntPtr obj);
     // static public System.String ovr_NetSyncConnection_GetZoneId(System.IntPtr obj)
     // Offset: 0x1D8B414
-    static ::Il2CppString* ovr_NetSyncConnection_GetZoneId(System::IntPtr obj);
+    static ::StringW ovr_NetSyncConnection_GetZoneId(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncConnection_GetZoneId_Native(System.IntPtr obj)
     // Offset: 0x1D8B47C
     static System::IntPtr ovr_NetSyncConnection_GetZoneId_Native(System::IntPtr obj);
@@ -2689,7 +2690,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_NetSyncSession_GetUserId(System::IntPtr obj);
     // static public System.String ovr_NetSyncSession_GetVoipGroup(System.IntPtr obj)
     // Offset: 0x1D8B704
-    static ::Il2CppString* ovr_NetSyncSession_GetVoipGroup(System::IntPtr obj);
+    static ::StringW ovr_NetSyncSession_GetVoipGroup(System::IntPtr obj);
     // static private System.IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System.IntPtr obj)
     // Offset: 0x1D8B76C
     static System::IntPtr ovr_NetSyncSession_GetVoipGroup_Native(System::IntPtr obj);
@@ -2773,13 +2774,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_PartyUpdateNotification_GetSenderId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUpdateTimestamp(System.IntPtr obj)
     // Offset: 0x1D8C504
-    static ::Il2CppString* ovr_PartyUpdateNotification_GetUpdateTimestamp(System::IntPtr obj);
+    static ::StringW ovr_PartyUpdateNotification_GetUpdateTimestamp(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System.IntPtr obj)
     // Offset: 0x1D8C56C
     static System::IntPtr ovr_PartyUpdateNotification_GetUpdateTimestamp_Native(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserAlias(System.IntPtr obj)
     // Offset: 0x1D8C5EC
-    static ::Il2CppString* ovr_PartyUpdateNotification_GetUserAlias(System::IntPtr obj);
+    static ::StringW ovr_PartyUpdateNotification_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System.IntPtr obj)
     // Offset: 0x1D8C654
     static System::IntPtr ovr_PartyUpdateNotification_GetUserAlias_Native(System::IntPtr obj);
@@ -2788,13 +2789,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_PartyUpdateNotification_GetUserId(System::IntPtr obj);
     // static public System.String ovr_PartyUpdateNotification_GetUserName(System.IntPtr obj)
     // Offset: 0x1D8C754
-    static ::Il2CppString* ovr_PartyUpdateNotification_GetUserName(System::IntPtr obj);
+    static ::StringW ovr_PartyUpdateNotification_GetUserName(System::IntPtr obj);
     // static private System.IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System.IntPtr obj)
     // Offset: 0x1D8C7BC
     static System::IntPtr ovr_PartyUpdateNotification_GetUserName_Native(System::IntPtr obj);
     // static public System.String ovr_Pid_GetId(System.IntPtr obj)
     // Offset: 0x1D8C83C
-    static ::Il2CppString* ovr_Pid_GetId(System::IntPtr obj);
+    static ::StringW ovr_Pid_GetId(System::IntPtr obj);
     // static private System.IntPtr ovr_Pid_GetId_Native(System.IntPtr obj)
     // Offset: 0x1D8C8A4
     static System::IntPtr ovr_Pid_GetId_Native(System::IntPtr obj);
@@ -2821,37 +2822,37 @@ namespace Oculus::Platform {
     static uint ovr_Price_GetAmountInHundredths(System::IntPtr obj);
     // static public System.String ovr_Price_GetCurrency(System.IntPtr obj)
     // Offset: 0x1D8CCBC
-    static ::Il2CppString* ovr_Price_GetCurrency(System::IntPtr obj);
+    static ::StringW ovr_Price_GetCurrency(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetCurrency_Native(System.IntPtr obj)
     // Offset: 0x1D8CD24
     static System::IntPtr ovr_Price_GetCurrency_Native(System::IntPtr obj);
     // static public System.String ovr_Price_GetFormatted(System.IntPtr obj)
     // Offset: 0x1D8CDA4
-    static ::Il2CppString* ovr_Price_GetFormatted(System::IntPtr obj);
+    static ::StringW ovr_Price_GetFormatted(System::IntPtr obj);
     // static private System.IntPtr ovr_Price_GetFormatted_Native(System.IntPtr obj)
     // Offset: 0x1D8CE0C
     static System::IntPtr ovr_Price_GetFormatted_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetDescription(System.IntPtr obj)
     // Offset: 0x1D8CE8C
-    static ::Il2CppString* ovr_Product_GetDescription(System::IntPtr obj);
+    static ::StringW ovr_Product_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetDescription_Native(System.IntPtr obj)
     // Offset: 0x1D8CEF4
     static System::IntPtr ovr_Product_GetDescription_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetFormattedPrice(System.IntPtr obj)
     // Offset: 0x1D8CF74
-    static ::Il2CppString* ovr_Product_GetFormattedPrice(System::IntPtr obj);
+    static ::StringW ovr_Product_GetFormattedPrice(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetFormattedPrice_Native(System.IntPtr obj)
     // Offset: 0x1D8CFDC
     static System::IntPtr ovr_Product_GetFormattedPrice_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetName(System.IntPtr obj)
     // Offset: 0x1D8D05C
-    static ::Il2CppString* ovr_Product_GetName(System::IntPtr obj);
+    static ::StringW ovr_Product_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D8D0C4
     static System::IntPtr ovr_Product_GetName_Native(System::IntPtr obj);
     // static public System.String ovr_Product_GetSKU(System.IntPtr obj)
     // Offset: 0x1D8D144
-    static ::Il2CppString* ovr_Product_GetSKU(System::IntPtr obj);
+    static ::StringW ovr_Product_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Product_GetSKU_Native(System.IntPtr obj)
     // Offset: 0x1D8D1AC
     static System::IntPtr ovr_Product_GetSKU_Native(System::IntPtr obj);
@@ -2860,7 +2861,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_ProductArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_ProductArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D8D2BC
-    static ::Il2CppString* ovr_ProductArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_ProductArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_ProductArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8D324
     static System::IntPtr ovr_ProductArray_GetNextUrl_Native(System::IntPtr obj);
@@ -2887,13 +2888,13 @@ namespace Oculus::Platform {
     static uint64_t ovr_Purchase_GetPurchaseID(System::IntPtr obj);
     // static public System.String ovr_Purchase_GetPurchaseStrID(System.IntPtr obj)
     // Offset: 0x1D8D6FC
-    static ::Il2CppString* ovr_Purchase_GetPurchaseStrID(System::IntPtr obj);
+    static ::StringW ovr_Purchase_GetPurchaseStrID(System::IntPtr obj);
     // static private System.IntPtr ovr_Purchase_GetPurchaseStrID_Native(System.IntPtr obj)
     // Offset: 0x1D8D764
     static System::IntPtr ovr_Purchase_GetPurchaseStrID_Native(System::IntPtr obj);
     // static public System.String ovr_Purchase_GetSKU(System.IntPtr obj)
     // Offset: 0x1D8D7E4
-    static ::Il2CppString* ovr_Purchase_GetSKU(System::IntPtr obj);
+    static ::StringW ovr_Purchase_GetSKU(System::IntPtr obj);
     // static private System.IntPtr ovr_Purchase_GetSKU_Native(System.IntPtr obj)
     // Offset: 0x1D8D84C
     static System::IntPtr ovr_Purchase_GetSKU_Native(System::IntPtr obj);
@@ -2902,7 +2903,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_PurchaseArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_PurchaseArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D8D95C
-    static ::Il2CppString* ovr_PurchaseArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_PurchaseArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_PurchaseArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8D9C4
     static System::IntPtr ovr_PurchaseArray_GetNextUrl_Native(System::IntPtr obj);
@@ -2920,7 +2921,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_Room_GetDataStore(System::IntPtr obj);
     // static public System.String ovr_Room_GetDescription(System.IntPtr obj)
     // Offset: 0x1D8DC4C
-    static ::Il2CppString* ovr_Room_GetDescription(System::IntPtr obj);
+    static ::StringW ovr_Room_GetDescription(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetDescription_Native(System.IntPtr obj)
     // Offset: 0x1D8DCB4
     static System::IntPtr ovr_Room_GetDescription_Native(System::IntPtr obj);
@@ -2947,7 +2948,7 @@ namespace Oculus::Platform {
     static uint ovr_Room_GetMaxUsers(System::IntPtr obj);
     // static public System.String ovr_Room_GetName(System.IntPtr obj)
     // Offset: 0x1D8E0BC
-    static ::Il2CppString* ovr_Room_GetName(System::IntPtr obj);
+    static ::StringW ovr_Room_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Room_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D8E124
     static System::IntPtr ovr_Room_GetName_Native(System::IntPtr obj);
@@ -2971,7 +2972,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_RoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D8E4A8
-    static ::Il2CppString* ovr_RoomArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_RoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8E510
     static System::IntPtr ovr_RoomArray_GetNextUrl_Native(System::IntPtr obj);
@@ -3001,7 +3002,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_RoomInviteNotificationArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_RoomInviteNotificationArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D8E990
-    static ::Il2CppString* ovr_RoomInviteNotificationArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_RoomInviteNotificationArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8E9F8
     static System::IntPtr ovr_RoomInviteNotificationArray_GetNextUrl_Native(System::IntPtr obj);
@@ -3055,7 +3056,7 @@ namespace Oculus::Platform {
     static int ovr_Team_GetMinUsers(System::IntPtr obj);
     // static public System.String ovr_Team_GetName(System.IntPtr obj)
     // Offset: 0x1D8F298
-    static ::Il2CppString* ovr_Team_GetName(System::IntPtr obj);
+    static ::StringW ovr_Team_GetName(System::IntPtr obj);
     // static private System.IntPtr ovr_Team_GetName_Native(System.IntPtr obj)
     // Offset: 0x1D8F300
     static System::IntPtr ovr_Team_GetName_Native(System::IntPtr obj);
@@ -3067,7 +3068,7 @@ namespace Oculus::Platform {
     static System::UIntPtr ovr_TeamArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetAccessToken(System.IntPtr obj)
     // Offset: 0x1D8F490
-    static ::Il2CppString* ovr_TestUser_GetAccessToken(System::IntPtr obj);
+    static ::StringW ovr_TestUser_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetAccessToken_Native(System.IntPtr obj)
     // Offset: 0x1D8F4F8
     static System::IntPtr ovr_TestUser_GetAccessToken_Native(System::IntPtr obj);
@@ -3079,7 +3080,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_TestUser_GetFbAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetFriendAccessToken(System.IntPtr obj)
     // Offset: 0x1D8F678
-    static ::Il2CppString* ovr_TestUser_GetFriendAccessToken(System::IntPtr obj);
+    static ::StringW ovr_TestUser_GetFriendAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetFriendAccessToken_Native(System.IntPtr obj)
     // Offset: 0x1D8F6E0
     static System::IntPtr ovr_TestUser_GetFriendAccessToken_Native(System::IntPtr obj);
@@ -3088,7 +3089,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_TestUser_GetFriendAppAccessArray(System::IntPtr obj);
     // static public System.String ovr_TestUser_GetUserAlias(System.IntPtr obj)
     // Offset: 0x1D8F7E0
-    static ::Il2CppString* ovr_TestUser_GetUserAlias(System::IntPtr obj);
+    static ::StringW ovr_TestUser_GetUserAlias(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUser_GetUserAlias_Native(System.IntPtr obj)
     // Offset: 0x1D8F848
     static System::IntPtr ovr_TestUser_GetUserAlias_Native(System::IntPtr obj);
@@ -3100,7 +3101,7 @@ namespace Oculus::Platform {
     static uint64_t ovr_TestUser_GetUserId(System::IntPtr obj);
     // static public System.String ovr_TestUserAppAccess_GetAccessToken(System.IntPtr obj)
     // Offset: 0x1D8F9C8
-    static ::Il2CppString* ovr_TestUserAppAccess_GetAccessToken(System::IntPtr obj);
+    static ::StringW ovr_TestUserAppAccess_GetAccessToken(System::IntPtr obj);
     // static private System.IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System.IntPtr obj)
     // Offset: 0x1D8FA30
     static System::IntPtr ovr_TestUserAppAccess_GetAccessToken_Native(System::IntPtr obj);
@@ -3118,7 +3119,7 @@ namespace Oculus::Platform {
     static System::UIntPtr ovr_TestUserAppAccessArray_GetSize(System::IntPtr obj);
     // static public System.String ovr_User_GetDisplayName(System.IntPtr obj)
     // Offset: 0x1D8FCC0
-    static ::Il2CppString* ovr_User_GetDisplayName(System::IntPtr obj);
+    static ::StringW ovr_User_GetDisplayName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetDisplayName_Native(System.IntPtr obj)
     // Offset: 0x1D8FD28
     static System::IntPtr ovr_User_GetDisplayName_Native(System::IntPtr obj);
@@ -3127,49 +3128,49 @@ namespace Oculus::Platform {
     static uint64_t ovr_User_GetID(System::IntPtr obj);
     // static public System.String ovr_User_GetImageUrl(System.IntPtr obj)
     // Offset: 0x1D8FE28
-    static ::Il2CppString* ovr_User_GetImageUrl(System::IntPtr obj);
+    static ::StringW ovr_User_GetImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetImageUrl_Native(System.IntPtr obj)
     // Offset: 0x1D8FE90
     static System::IntPtr ovr_User_GetImageUrl_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetInviteToken(System.IntPtr obj)
     // Offset: 0x1D8FF10
-    static ::Il2CppString* ovr_User_GetInviteToken(System::IntPtr obj);
+    static ::StringW ovr_User_GetInviteToken(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetInviteToken_Native(System.IntPtr obj)
     // Offset: 0x1D8FF78
     static System::IntPtr ovr_User_GetInviteToken_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetOculusID(System.IntPtr obj)
     // Offset: 0x1D8FFF8
-    static ::Il2CppString* ovr_User_GetOculusID(System::IntPtr obj);
+    static ::StringW ovr_User_GetOculusID(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetOculusID_Native(System.IntPtr obj)
     // Offset: 0x1D90060
     static System::IntPtr ovr_User_GetOculusID_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresence(System.IntPtr obj)
     // Offset: 0x1D900E0
-    static ::Il2CppString* ovr_User_GetPresence(System::IntPtr obj);
+    static ::StringW ovr_User_GetPresence(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresence_Native(System.IntPtr obj)
     // Offset: 0x1D90148
     static System::IntPtr ovr_User_GetPresence_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDeeplinkMessage(System.IntPtr obj)
     // Offset: 0x1D901C8
-    static ::Il2CppString* ovr_User_GetPresenceDeeplinkMessage(System::IntPtr obj);
+    static ::StringW ovr_User_GetPresenceDeeplinkMessage(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System.IntPtr obj)
     // Offset: 0x1D90230
     static System::IntPtr ovr_User_GetPresenceDeeplinkMessage_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceDestinationApiName(System.IntPtr obj)
     // Offset: 0x1D902B0
-    static ::Il2CppString* ovr_User_GetPresenceDestinationApiName(System::IntPtr obj);
+    static ::StringW ovr_User_GetPresenceDestinationApiName(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceDestinationApiName_Native(System.IntPtr obj)
     // Offset: 0x1D90318
     static System::IntPtr ovr_User_GetPresenceDestinationApiName_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceLobbySessionId(System.IntPtr obj)
     // Offset: 0x1D90398
-    static ::Il2CppString* ovr_User_GetPresenceLobbySessionId(System::IntPtr obj);
+    static ::StringW ovr_User_GetPresenceLobbySessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceLobbySessionId_Native(System.IntPtr obj)
     // Offset: 0x1D90400
     static System::IntPtr ovr_User_GetPresenceLobbySessionId_Native(System::IntPtr obj);
     // static public System.String ovr_User_GetPresenceMatchSessionId(System.IntPtr obj)
     // Offset: 0x1D90480
-    static ::Il2CppString* ovr_User_GetPresenceMatchSessionId(System::IntPtr obj);
+    static ::StringW ovr_User_GetPresenceMatchSessionId(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetPresenceMatchSessionId_Native(System.IntPtr obj)
     // Offset: 0x1D904E8
     static System::IntPtr ovr_User_GetPresenceMatchSessionId_Native(System::IntPtr obj);
@@ -3178,7 +3179,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::UserPresenceStatus ovr_User_GetPresenceStatus(System::IntPtr obj);
     // static public System.String ovr_User_GetSmallImageUrl(System.IntPtr obj)
     // Offset: 0x1D905E8
-    static ::Il2CppString* ovr_User_GetSmallImageUrl(System::IntPtr obj);
+    static ::StringW ovr_User_GetSmallImageUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_User_GetSmallImageUrl_Native(System.IntPtr obj)
     // Offset: 0x1D90650
     static System::IntPtr ovr_User_GetSmallImageUrl_Native(System::IntPtr obj);
@@ -3193,7 +3194,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_UserAndRoomArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserAndRoomArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D90860
-    static ::Il2CppString* ovr_UserAndRoomArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_UserAndRoomArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D908C8
     static System::IntPtr ovr_UserAndRoomArray_GetNextUrl_Native(System::IntPtr obj);
@@ -3208,7 +3209,7 @@ namespace Oculus::Platform {
     static System::IntPtr ovr_UserArray_GetElement(System::IntPtr obj, System::UIntPtr index);
     // static public System.String ovr_UserArray_GetNextUrl(System.IntPtr obj)
     // Offset: 0x1D90AE0
-    static ::Il2CppString* ovr_UserArray_GetNextUrl(System::IntPtr obj);
+    static ::StringW ovr_UserArray_GetNextUrl(System::IntPtr obj);
     // static private System.IntPtr ovr_UserArray_GetNextUrl_Native(System.IntPtr obj)
     // Offset: 0x1D90B48
     static System::IntPtr ovr_UserArray_GetNextUrl_Native(System::IntPtr obj);
@@ -3223,7 +3224,7 @@ namespace Oculus::Platform {
     static bool ovr_UserDataStoreUpdateResponse_GetSuccess(System::IntPtr obj);
     // static public System.String ovr_UserProof_GetNonce(System.IntPtr obj)
     // Offset: 0x1D90D58
-    static ::Il2CppString* ovr_UserProof_GetNonce(System::IntPtr obj);
+    static ::StringW ovr_UserProof_GetNonce(System::IntPtr obj);
     // static private System.IntPtr ovr_UserProof_GetNonce_Native(System.IntPtr obj)
     // Offset: 0x1D90DC0
     static System::IntPtr ovr_UserProof_GetNonce_Native(System::IntPtr obj);
@@ -3268,7 +3269,7 @@ namespace Oculus::Platform {
     static void ovr_AdvancedAbuseReportOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_AdvancedAbuseReportOptions_SetObjectType(System.IntPtr handle, System.String value)
     // Offset: 0x1D6E1D8
-    static void ovr_AdvancedAbuseReportOptions_SetObjectType(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_AdvancedAbuseReportOptions_SetObjectType(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D91248
     static void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(System::IntPtr handle, System::IntPtr value);
@@ -3286,7 +3287,7 @@ namespace Oculus::Platform {
     static void ovr_ApplicationOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ApplicationOptions_SetDeeplinkMessage(System.IntPtr handle, System.String value)
     // Offset: 0x1D6F088
-    static void ovr_ApplicationOptions_SetDeeplinkMessage(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_ApplicationOptions_SetDeeplinkMessage(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D912D8
     static void ovr_ApplicationOptions_SetDeeplinkMessage_Native(System::IntPtr handle, System::IntPtr value);
@@ -3298,7 +3299,7 @@ namespace Oculus::Platform {
     static void ovr_ChallengeOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_ChallengeOptions_SetDescription(System.IntPtr handle, System.String value)
     // Offset: 0x1D9145C
-    static void ovr_ChallengeOptions_SetDescription(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_ChallengeOptions_SetDescription(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_ChallengeOptions_SetDescription_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D91508
     static void ovr_ChallengeOptions_SetDescription_Native(System::IntPtr handle, System::IntPtr value);
@@ -3319,7 +3320,7 @@ namespace Oculus::Platform {
     static void ovr_ChallengeOptions_SetIncludePastChallenges(System::IntPtr handle, bool value);
     // static public System.Void ovr_ChallengeOptions_SetLeaderboardName(System.IntPtr handle, System.String value)
     // Offset: 0x1D91854
-    static void ovr_ChallengeOptions_SetLeaderboardName(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_ChallengeOptions_SetLeaderboardName(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_ChallengeOptions_SetLeaderboardName_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D91900
     static void ovr_ChallengeOptions_SetLeaderboardName_Native(System::IntPtr handle, System::IntPtr value);
@@ -3331,7 +3332,7 @@ namespace Oculus::Platform {
     static void ovr_ChallengeOptions_SetStartDate_Native(System::IntPtr handle, uint64_t value);
     // static public System.Void ovr_ChallengeOptions_SetTitle(System.IntPtr handle, System.String value)
     // Offset: 0x1D91A9C
-    static void ovr_ChallengeOptions_SetTitle(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_ChallengeOptions_SetTitle(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_ChallengeOptions_SetTitle_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D91B48
     static void ovr_ChallengeOptions_SetTitle_Native(System::IntPtr handle, System::IntPtr value);
@@ -3349,7 +3350,7 @@ namespace Oculus::Platform {
     static void ovr_GroupPresenceOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_GroupPresenceOptions_SetDestinationApiName(System.IntPtr handle, System.String value)
     // Offset: 0x1D91DEC
-    static void ovr_GroupPresenceOptions_SetDestinationApiName(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_GroupPresenceOptions_SetDestinationApiName(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_GroupPresenceOptions_SetDestinationApiName_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D91E98
     static void ovr_GroupPresenceOptions_SetDestinationApiName_Native(System::IntPtr handle, System::IntPtr value);
@@ -3358,13 +3359,13 @@ namespace Oculus::Platform {
     static void ovr_GroupPresenceOptions_SetIsJoinable(System::IntPtr handle, bool value);
     // static public System.Void ovr_GroupPresenceOptions_SetLobbySessionId(System.IntPtr handle, System.String value)
     // Offset: 0x1D91FB8
-    static void ovr_GroupPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_GroupPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_GroupPresenceOptions_SetLobbySessionId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D92064
     static void ovr_GroupPresenceOptions_SetLobbySessionId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_GroupPresenceOptions_SetMatchSessionId(System.IntPtr handle, System.String value)
     // Offset: 0x1D920F4
-    static void ovr_GroupPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_GroupPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_GroupPresenceOptions_SetMatchSessionId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D921A0
     static void ovr_GroupPresenceOptions_SetMatchSessionId_Native(System::IntPtr handle, System::IntPtr value);
@@ -3388,7 +3389,7 @@ namespace Oculus::Platform {
     static void ovr_MatchmakingOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System.IntPtr handle, System.String key, System.String value)
     // Offset: 0x1D92528
-    static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
+    static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString(System::IntPtr handle, ::StringW key, ::StringW value);
     // static private System.Void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D925F4
     static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
@@ -3409,19 +3410,19 @@ namespace Oculus::Platform {
     static void ovr_MatchmakingOptions_ClearEnqueueAdditionalUsers(System::IntPtr handle);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System.IntPtr handle, System.String key, System.Int32 value)
     // Offset: 0x1D9293C
-    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System::IntPtr handle, ::Il2CppString* key, int value);
+    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt(System::IntPtr handle, ::StringW key, int value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System.IntPtr handle, System.IntPtr key, System.Int32 value)
     // Offset: 0x1D929F0
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsInt_Native(System::IntPtr handle, System::IntPtr key, int value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System.IntPtr handle, System.String key, System.Double value)
     // Offset: 0x1D92A88
-    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System::IntPtr handle, ::Il2CppString* key, double value);
+    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble(System::IntPtr handle, ::StringW key, double value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System.IntPtr handle, System.IntPtr key, System.Double value)
     // Offset: 0x1D92B44
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble_Native(System::IntPtr handle, System::IntPtr key, double value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System.IntPtr handle, System.String key, System.String value)
     // Offset: 0x1D92BE4
-    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
+    static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString(System::IntPtr handle, ::StringW key, ::StringW value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D92CB0
     static void ovr_MatchmakingOptions_SetEnqueueDataSettingsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
@@ -3433,7 +3434,7 @@ namespace Oculus::Platform {
     static void ovr_MatchmakingOptions_SetEnqueueIsDebug(System::IntPtr handle, bool value);
     // static public System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey(System.IntPtr handle, System.String value)
     // Offset: 0x1D92E58
-    static void ovr_MatchmakingOptions_SetEnqueueQueryKey(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_MatchmakingOptions_SetEnqueueQueryKey(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D92F04
     static void ovr_MatchmakingOptions_SetEnqueueQueryKey_Native(System::IntPtr handle, System::IntPtr value);
@@ -3445,7 +3446,7 @@ namespace Oculus::Platform {
     static void ovr_NetSyncOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_NetSyncOptions_SetVoipGroup(System.IntPtr handle, System.String value)
     // Offset: 0x1D93088
-    static void ovr_NetSyncOptions_SetVoipGroup(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_NetSyncOptions_SetVoipGroup(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_NetSyncOptions_SetVoipGroup_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93134
     static void ovr_NetSyncOptions_SetVoipGroup_Native(System::IntPtr handle, System::IntPtr value);
@@ -3454,7 +3455,7 @@ namespace Oculus::Platform {
     static void ovr_NetSyncOptions_SetVoipStreamDefault(System::IntPtr handle, Oculus::Platform::NetSyncVoipStreamMode value);
     // static public System.Void ovr_NetSyncOptions_SetZoneId(System.IntPtr handle, System.String value)
     // Offset: 0x1D93254
-    static void ovr_NetSyncOptions_SetZoneId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_NetSyncOptions_SetZoneId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_NetSyncOptions_SetZoneId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93300
     static void ovr_NetSyncOptions_SetZoneId_Native(System::IntPtr handle, System::IntPtr value);
@@ -3466,13 +3467,13 @@ namespace Oculus::Platform {
     static void ovr_RichPresenceOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RichPresenceOptions_SetApiName(System.IntPtr handle, System.String value)
     // Offset: 0x1D93484
-    static void ovr_RichPresenceOptions_SetApiName(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetApiName(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetApiName_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93530
     static void ovr_RichPresenceOptions_SetApiName_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetArgsString(System.IntPtr handle, System.String key, System.String value)
     // Offset: 0x1D935C0
-    static void ovr_RichPresenceOptions_SetArgsString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetArgsString(System::IntPtr handle, ::StringW key, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetArgsString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D9368C
     static void ovr_RichPresenceOptions_SetArgsString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
@@ -3484,7 +3485,7 @@ namespace Oculus::Platform {
     static void ovr_RichPresenceOptions_SetCurrentCapacity(System::IntPtr handle, uint value);
     // static public System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System.IntPtr handle, System.String value)
     // Offset: 0x1D93834
-    static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D938E0
     static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(System::IntPtr handle, System::IntPtr value);
@@ -3499,7 +3500,7 @@ namespace Oculus::Platform {
     static void ovr_RichPresenceOptions_SetExtraContext(System::IntPtr handle, Oculus::Platform::RichPresenceExtraContext value);
     // static public System.Void ovr_RichPresenceOptions_SetInstanceId(System.IntPtr handle, System.String value)
     // Offset: 0x1D93B0C
-    static void ovr_RichPresenceOptions_SetInstanceId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetInstanceId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetInstanceId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93BB8
     static void ovr_RichPresenceOptions_SetInstanceId_Native(System::IntPtr handle, System::IntPtr value);
@@ -3511,19 +3512,19 @@ namespace Oculus::Platform {
     static void ovr_RichPresenceOptions_SetIsJoinable(System::IntPtr handle, bool value);
     // static public System.Void ovr_RichPresenceOptions_SetJoinableId(System.IntPtr handle, System.String value)
     // Offset: 0x1D93D68
-    static void ovr_RichPresenceOptions_SetJoinableId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetJoinableId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetJoinableId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93E14
     static void ovr_RichPresenceOptions_SetJoinableId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetLobbySessionId(System.IntPtr handle, System.String value)
     // Offset: 0x1D93EA4
-    static void ovr_RichPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetLobbySessionId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetLobbySessionId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D93F50
     static void ovr_RichPresenceOptions_SetLobbySessionId_Native(System::IntPtr handle, System::IntPtr value);
     // static public System.Void ovr_RichPresenceOptions_SetMatchSessionId(System.IntPtr handle, System.String value)
     // Offset: 0x1D93FE0
-    static void ovr_RichPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::Il2CppString* value);
+    static void ovr_RichPresenceOptions_SetMatchSessionId(System::IntPtr handle, ::StringW value);
     // static private System.Void ovr_RichPresenceOptions_SetMatchSessionId_Native(System.IntPtr handle, System.IntPtr value)
     // Offset: 0x1D9408C
     static void ovr_RichPresenceOptions_SetMatchSessionId_Native(System::IntPtr handle, System::IntPtr value);
@@ -3544,7 +3545,7 @@ namespace Oculus::Platform {
     static void ovr_RoomOptions_Destroy(System::IntPtr handle);
     // static public System.Void ovr_RoomOptions_SetDataStoreString(System.IntPtr handle, System.String key, System.String value)
     // Offset: 0x1D943AC
-    static void ovr_RoomOptions_SetDataStoreString(System::IntPtr handle, ::Il2CppString* key, ::Il2CppString* value);
+    static void ovr_RoomOptions_SetDataStoreString(System::IntPtr handle, ::StringW key, ::StringW value);
     // static private System.Void ovr_RoomOptions_SetDataStoreString_Native(System.IntPtr handle, System.IntPtr key, System.IntPtr value)
     // Offset: 0x1D94478
     static void ovr_RoomOptions_SetDataStoreString_Native(System::IntPtr handle, System::IntPtr key, System::IntPtr value);
@@ -3646,7 +3647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs
 // Il2CppName: DictionaryToOVRKeyValuePairs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> (*)(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair> (*)(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*)>(&Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs)> {
   static const MethodInfo* get() {
     static auto* dict = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DictionaryToOVRKeyValuePairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dict});
@@ -3665,7 +3666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::DataStoreFromNative
 // Il2CppName: DataStoreFromNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::DataStoreFromNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::DataStoreFromNative)> {
   static const MethodInfo* get() {
     static auto* pointer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "DataStoreFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointer});
@@ -3674,7 +3675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::StringFromNative
 // Il2CppName: StringFromNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::StringFromNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::StringFromNative)> {
   static const MethodInfo* get() {
     static auto* pointer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "StringFromNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointer});
@@ -3730,7 +3731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::StringToNative
 // Il2CppName: StringToNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::StringToNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&Oculus::Platform::CAPI::StringToNative)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "StringToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -3739,7 +3740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapper
 // Il2CppName: ovr_UnityInitWrapper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapper)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
@@ -3757,7 +3758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous
 // Il2CppName: ovr_UnityInitWrapperAsynchronous
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UnityInitWrapperAsynchronous", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
@@ -3766,7 +3767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone
 // Il2CppName: ovr_UnityInitWrapperStandalone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone)> {
   static const MethodInfo* get() {
     static auto* accessToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loggingCB = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -3785,7 +3786,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken
 // Il2CppName: ovr_PlatformInitializeWithAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* accessToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -3795,7 +3796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows
 // Il2CppName: ovr_UnityInitWrapperWindows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loggingCB = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -3805,7 +3806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous
 // Il2CppName: ovr_UnityInitWrapperWindowsAsynchronous
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loggingCB = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -3815,7 +3816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken
 // Il2CppName: ovr_SetDeveloperAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken)> {
   static const MethodInfo* get() {
     static auto* accessToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_SetDeveloperAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{accessToken});
@@ -3824,7 +3825,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale
 // Il2CppName: ovr_GetLoggedInUserLocale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3945,7 +3946,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType
 // Il2CppName: ovr_HTTP_GetWithMessageType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int)>(&Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int)>(&Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* messageType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3982,7 +3983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oc
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::LogNewEvent
 // Il2CppName: LogNewEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&Oculus::Platform::CAPI::LogNewEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&Oculus::Platform::CAPI::LogNewEvent)> {
   static const MethodInfo* get() {
     static auto* eventName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -4011,7 +4012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult
 // Il2CppName: ovr_ApplicationLifecycle_LogDeeplinkResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Oculus::Platform::LaunchResult)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Oculus::Platform::LaunchResult)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult)> {
   static const MethodInfo* get() {
     static auto* trackingID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LaunchResult")->byval_arg;
@@ -4031,7 +4032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_StartTransfer
 // Il2CppName: ovr_HTTP_StartTransfer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_HTTP_StartTransfer)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "CAPI/ovrKeyValuePair"), 1)->byval_arg;
@@ -4072,7 +4073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript
 // Il2CppName: ovr_Message_GetStringForJavascript
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetStringForJavascript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -4511,7 +4512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddCount
 // Il2CppName: ovr_Achievements_AddCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint64_t)>(&Oculus::Platform::CAPI::ovr_Achievements_AddCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, uint64_t)>(&Oculus::Platform::CAPI::ovr_Achievements_AddCount)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -4531,7 +4532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_AddFields
 // Il2CppName: ovr_Achievements_AddFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Achievements_AddFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_Achievements_AddFields)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fields = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -4567,7 +4568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName
 // Il2CppName: ovr_Achievements_GetDefinitionsByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName)> {
   static const MethodInfo* get() {
     static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4577,7 +4578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName
 // Il2CppName: ovr_Achievements_GetProgressByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW>, int)>(&Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName)> {
   static const MethodInfo* get() {
     static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4587,7 +4588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Achievements_Unlock
 // Il2CppName: ovr_Achievements_Unlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Achievements_Unlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_Achievements_Unlock)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Achievements_Unlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -4657,7 +4658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey
 // Il2CppName: ovr_ApplicationLifecycle_RegisterSessionKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey)> {
   static const MethodInfo* get() {
     static auto* sessionKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationLifecycle_RegisterSessionKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionKey});
@@ -4693,7 +4694,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName
 // Il2CppName: ovr_AssetFile_DeleteByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName)> {
   static const MethodInfo* get() {
     static auto* assetFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DeleteByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFileName});
@@ -4729,7 +4730,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName
 // Il2CppName: ovr_AssetFile_DownloadByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName)> {
   static const MethodInfo* get() {
     static auto* assetFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFileName});
@@ -4765,7 +4766,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName
 // Il2CppName: ovr_AssetFile_DownloadCancelByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName)> {
   static const MethodInfo* get() {
     static auto* assetFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_DownloadCancelByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFileName});
@@ -4809,7 +4810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFile_StatusByName
 // Il2CppName: ovr_AssetFile_StatusByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AssetFile_StatusByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_AssetFile_StatusByName)> {
   static const MethodInfo* get() {
     static auto* assetFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFile_StatusByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetFileName});
@@ -4827,7 +4828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData
 // Il2CppName: ovr_Avatar_UpdateMetaData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData)> {
   static const MethodInfo* get() {
     static auto* avatarMetaData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* imageFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -4882,7 +4883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenges_Create
 // Il2CppName: ovr_Challenges_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenges_Create)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challengeOptions = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -5039,7 +5040,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Delete
 // Il2CppName: ovr_CloudStorage_Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Delete)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5059,7 +5060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Load
 // Il2CppName: ovr_CloudStorage_Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Load)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5079,7 +5080,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata
 // Il2CppName: ovr_CloudStorage_LoadBucketMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadBucketMetadata)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket});
@@ -5097,7 +5098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata
 // Il2CppName: ovr_CloudStorage_LoadConflictMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadConflictMetadata)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5117,7 +5118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle
 // Il2CppName: ovr_CloudStorage_LoadHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadHandle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage_LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
@@ -5135,7 +5136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata
 // Il2CppName: ovr_CloudStorage_LoadMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_LoadMetadata)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5155,7 +5156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal
 // Il2CppName: ovr_CloudStorage_ResolveKeepLocal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepLocal)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5177,7 +5178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote
 // Il2CppName: ovr_CloudStorage_ResolveKeepRemote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_ResolveKeepRemote)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5199,7 +5200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage_Save
 // Il2CppName: ovr_CloudStorage_Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<uint8_t>, uint, int64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::ArrayW<uint8_t>, uint, int64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_CloudStorage_Save)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5243,7 +5244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_RequestMap
 // Il2CppName: ovr_Colocation_RequestMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Colocation_RequestMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_Colocation_RequestMap)> {
   static const MethodInfo* get() {
     static auto* uuid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_RequestMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uuid});
@@ -5261,7 +5262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Colocation_ShareMap
 // Il2CppName: ovr_Colocation_ShareMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Colocation_ShareMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_Colocation_ShareMap)> {
   static const MethodInfo* get() {
     static auto* uuid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Colocation_ShareMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uuid});
@@ -5287,7 +5288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Get
 // Il2CppName: ovr_GraphAPI_Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Get)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -5305,7 +5306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GraphAPI_Post
 // Il2CppName: ovr_GraphAPI_Post
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Post)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_GraphAPI_Post)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GraphAPI_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -5358,7 +5359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresence_SetDestination
 // Il2CppName: ovr_GroupPresence_SetDestination
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetDestination)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetDestination)> {
   static const MethodInfo* get() {
     static auto* api_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresence_SetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{api_name});
@@ -5385,7 +5386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresence_SetLobbySession
 // Il2CppName: ovr_GroupPresence_SetLobbySession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetLobbySession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetLobbySession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresence_SetLobbySession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -5403,7 +5404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresence_SetMatchSession
 // Il2CppName: ovr_GroupPresence_SetMatchSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetMatchSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresence_SetMatchSession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresence_SetMatchSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -5421,7 +5422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Get
 // Il2CppName: ovr_HTTP_Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_HTTP_Get)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -5439,7 +5440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_GetToFile
 // Il2CppName: ovr_HTTP_GetToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_GetToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_HTTP_GetToFile)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* diskFile = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5459,7 +5460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost
 // Il2CppName: ovr_HTTP_MultiPartPost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<Oculus::Platform::CAPI::ovrKeyValuePair>)>(&Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filepath_param_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5486,7 +5487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_HTTP_Post
 // Il2CppName: ovr_HTTP_Post
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_HTTP_Post)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_HTTP_Post)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_HTTP_Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -5504,7 +5505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase
 // Il2CppName: ovr_IAP_ConsumePurchase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase)> {
   static const MethodInfo* get() {
     static auto* sku = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_ConsumePurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sku});
@@ -5522,7 +5523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU
 // Il2CppName: ovr_IAP_GetProductsBySKU
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::Il2CppString*>, int)>(&Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW>, int)>(&Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU)> {
   static const MethodInfo* get() {
     static auto* skus = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -5548,7 +5549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow
 // Il2CppName: ovr_IAP_LaunchCheckoutFlow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow)> {
   static const MethodInfo* get() {
     static auto* sku = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_IAP_LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sku});
@@ -5574,7 +5575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent
 // Il2CppName: ovr_LanguagePack_SetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePack_SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -5592,7 +5593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_Get
 // Il2CppName: ovr_Leaderboard_Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Leaderboard_Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_Leaderboard_Get)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName});
@@ -5610,7 +5611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries
 // Il2CppName: ovr_Leaderboard_GetEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -5634,7 +5635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank
 // Il2CppName: ovr_Leaderboard_GetEntriesAfterRank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int, uint64_t)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -5656,7 +5657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds
 // Il2CppName: ovr_Leaderboard_GetEntriesByIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t>, uint)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int, Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t>, uint)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -5700,7 +5701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry
 // Il2CppName: ovr_Leaderboard_WriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, ::ArrayW<uint8_t>, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int64_t, ::ArrayW<uint8_t>, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -5726,7 +5727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric
 // Il2CppName: ovr_Leaderboard_WriteEntryWithSupplementaryMetric
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, int64_t, int64_t, ::ArrayW<uint8_t>, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int64_t, int64_t, ::ArrayW<uint8_t>, uint, bool)>(&Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric)> {
   static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -5762,7 +5763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication
 // Il2CppName: ovr_Livestreaming_IsAllowedForApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication)> {
   static const MethodInfo* get() {
     static auto* packageName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Livestreaming_IsAllowedForApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packageName});
@@ -5856,7 +5857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse
 // Il2CppName: ovr_Matchmaking_Browse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customQueryData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -5876,7 +5877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Browse2
 // Il2CppName: ovr_Matchmaking_Browse2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Browse2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -5896,7 +5897,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Cancel
 // Il2CppName: ovr_Matchmaking_Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Cancel)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requestHash = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -5924,7 +5925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, uint, bool, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -5948,7 +5949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2
 // Il2CppName: ovr_Matchmaking_CreateAndEnqueueRoom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateAndEnqueueRoom2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -5968,7 +5969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom
 // Il2CppName: ovr_Matchmaking_CreateRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, bool)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, uint, bool)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -5990,7 +5991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2
 // Il2CppName: ovr_Matchmaking_CreateRoom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_CreateRoom2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -6010,7 +6011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue
 // Il2CppName: ovr_Matchmaking_Enqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customQueryData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -6030,7 +6031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2
 // Il2CppName: ovr_Matchmaking_Enqueue2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Matchmaking_Enqueue2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -6078,7 +6079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Matchmaking_GetStats
 // Il2CppName: ovr_Matchmaking_GetStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, uint, Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::CAPI::ovr_Matchmaking_GetStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, uint, Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::CAPI::ovr_Matchmaking_GetStats)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxLevel = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -6140,7 +6141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Media_ShareToFacebook
 // Il2CppName: ovr_Media_ShareToFacebook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::Il2CppString*, Oculus::Platform::MediaContentType)>(&Oculus::Platform::CAPI::ovr_Media_ShareToFacebook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, Oculus::Platform::MediaContentType)>(&Oculus::Platform::CAPI::ovr_Media_ShareToFacebook)> {
   static const MethodInfo* get() {
     static auto* postTextSuggestion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6218,7 +6219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel
 // Il2CppName: ovr_NetSync_SetVoipAttenuationModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::ArrayW<float>, ::ArrayW<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW, ::ArrayW<float>, ::ArrayW<float>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6244,7 +6245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg
 // Il2CppName: ovr_NetSync_SetVoipChannelCfg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*, ::Il2CppString*, bool)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW, ::StringW, bool)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* channel_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6268,7 +6269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup
 // Il2CppName: ovr_NetSync_SetVoipGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* group_id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6288,7 +6289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels
 // Il2CppName: ovr_NetSync_SetVoipListentoChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::Il2CppString*>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::StringW>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* listento_channels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -6320,7 +6321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels
 // Il2CppName: ovr_NetSync_SetVoipSpeaktoChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::Il2CppString*>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::StringW>, System::UIntPtr)>(&Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
   static const MethodInfo* get() {
     static auto* connection_id = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* speakto_channels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -6456,7 +6457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetDestination
 // Il2CppName: ovr_RichPresence_SetDestination
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetDestination)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetDestination)> {
   static const MethodInfo* get() {
     static auto* api_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{api_name});
@@ -6483,7 +6484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession
 // Il2CppName: ovr_RichPresence_SetLobbySession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetLobbySession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -6501,7 +6502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession
 // Il2CppName: ovr_RichPresence_SetMatchSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RichPresence_SetMatchSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -6601,7 +6602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_InviteUser
 // Il2CppName: ovr_Room_InviteUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Room_InviteUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_Room_InviteUser)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* inviteToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6670,7 +6671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_SetDescription
 // Il2CppName: ovr_Room_SetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_Room_SetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_Room_SetDescription)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* description = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6759,7 +6760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow
 // Il2CppName: ovr_User_CancelRecordingForReportFlow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow)> {
   static const MethodInfo* get() {
     static auto* recordingUUID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_CancelRecordingForReportFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recordingUUID});
@@ -6948,7 +6949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow)> {
   static const MethodInfo* get() {
     static auto* optionalUserID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* optionalRecordingUUID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6968,7 +6969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2
 // Il2CppName: ovr_User_StopRecordingAndLaunchReportFlow2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2)> {
   static const MethodInfo* get() {
     static auto* optionalUserID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* optionalRecordingUUID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -6990,7 +6991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest
 // Il2CppName: ovr_User_TestUserCreateDeviceManifest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, ::ArrayW<uint64_t>, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::ArrayW<uint64_t>, int)>(&Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest)> {
   static const MethodInfo* get() {
     static auto* deviceID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* appIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
@@ -7012,7 +7013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey
 // Il2CppName: ovr_UserDataStore_PrivateDeleteEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7041,7 +7042,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey
 // Il2CppName: ovr_UserDataStore_PrivateGetEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7061,7 +7062,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry
 // Il2CppName: ovr_UserDataStore_PrivateWriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7083,7 +7084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey
 // Il2CppName: ovr_UserDataStore_PublicDeleteEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7112,7 +7113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey
 // Il2CppName: ovr_UserDataStore_PublicGetEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7132,7 +7133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry
 // Il2CppName: ovr_UserDataStore_PublicWriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -7171,7 +7172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid
 // Il2CppName: ovr_AbuseReportRecording_GetRecordingUuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AbuseReportRecording_GetRecordingUuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7198,7 +7199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName
 // Il2CppName: ovr_AchievementDefinition_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinition_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7244,7 +7245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl
 // Il2CppName: ovr_AchievementDefinitionArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementDefinitionArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7280,7 +7281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield
 // Il2CppName: ovr_AchievementProgress_GetBitfield
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetBitfield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7316,7 +7317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgress_GetName
 // Il2CppName: ovr_AchievementProgress_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgress_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgress_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7362,7 +7363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl
 // Il2CppName: ovr_AchievementProgressArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementProgressArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7407,7 +7408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName
 // Il2CppName: ovr_AchievementUpdate_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AchievementUpdate_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7443,7 +7444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName
 // Il2CppName: ovr_ApplicationVersion_GetCurrentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetCurrentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7470,7 +7471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName
 // Il2CppName: ovr_ApplicationVersion_GetLatestName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ApplicationVersion_GetLatestName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7497,7 +7498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType
 // Il2CppName: ovr_AssetDetails_GetAssetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetAssetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7515,7 +7516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus
 // Il2CppName: ovr_AssetDetails_GetDownloadStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7533,7 +7534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath
 // Il2CppName: ovr_AssetDetails_GetFilepath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7551,7 +7552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus
 // Il2CppName: ovr_AssetDetails_GetIapStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetIapStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7578,7 +7579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata
 // Il2CppName: ovr_AssetDetails_GetMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetDetails_GetMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7633,7 +7634,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath
 // Il2CppName: ovr_AssetFileDeleteResult_GetFilepath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDeleteResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7678,7 +7679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath
 // Il2CppName: ovr_AssetFileDownloadCancelResult_GetFilepath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadCancelResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7714,7 +7715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath
 // Il2CppName: ovr_AssetFileDownloadResult_GetFilepath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_AssetFileDownloadResult_GetFilepath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7813,7 +7814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails
 // Il2CppName: ovr_CalApplicationFinalized_GetLaunchDetails
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationFinalized_GetLaunchDetails)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationFinalized_GetLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7849,7 +7850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext
 // Il2CppName: ovr_CalApplicationSuggestion_GetSocialContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CalApplicationSuggestion_GetSocialContext)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CalApplicationSuggestion_GetSocialContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7895,7 +7896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetDescription
 // Il2CppName: ovr_Challenge_GetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetDescription)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -7985,7 +7986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Challenge_GetTitle
 // Il2CppName: ovr_Challenge_GetTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Challenge_GetTitle)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Challenge_GetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8022,7 +8023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl
 // Il2CppName: ovr_ChallengeArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8040,7 +8041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl
 // Il2CppName: ovr_ChallengeArray_GetPreviousUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8094,7 +8095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore
 // Il2CppName: ovr_ChallengeEntry_GetDisplayScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8194,7 +8195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl
 // Il2CppName: ovr_ChallengeEntryArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8212,7 +8213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl
 // Il2CppName: ovr_ChallengeEntryArray_GetPreviousUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ChallengeEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8266,7 +8267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath
 // Il2CppName: ovr_CloudStorage2UserDirectoryPathResponse_GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorage2UserDirectoryPathResponse_GetPath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorage2UserDirectoryPathResponse_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8302,7 +8303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket
 // Il2CppName: ovr_CloudStorageData_GetBucket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetBucket)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8347,7 +8348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey
 // Il2CppName: ovr_CloudStorageData_GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageData_GetKey)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageData_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8365,7 +8366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket
 // Il2CppName: ovr_CloudStorageMetadata_GetBucket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetBucket)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8401,7 +8402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData
 // Il2CppName: ovr_CloudStorageMetadata_GetExtraData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetExtraData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetExtraData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8419,7 +8420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey
 // Il2CppName: ovr_CloudStorageMetadata_GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetKey)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8455,7 +8456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle
 // Il2CppName: ovr_CloudStorageMetadata_GetVersionHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadata_GetVersionHandle)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadata_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8483,7 +8484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl
 // Il2CppName: ovr_CloudStorageMetadataArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageMetadataArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageMetadataArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8519,7 +8520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetBucket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetBucket)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetBucket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8537,7 +8538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetKey)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8564,7 +8565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle
 // Il2CppName: ovr_CloudStorageUpdateResponse_GetVersionHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_CloudStorageUpdateResponse_GetVersionHandle)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_CloudStorageUpdateResponse_GetVersionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8582,7 +8583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_Contains
 // Il2CppName: ovr_DataStore_Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_DataStore_Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_DataStore_Contains)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -8602,7 +8603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetKey
 // Il2CppName: ovr_DataStore_GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_DataStore_GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, int)>(&Oculus::Platform::CAPI::ovr_DataStore_GetKey)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -8631,7 +8632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIn
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DataStore_GetValue
 // Il2CppName: ovr_DataStore_GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_DataStore_GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_DataStore_GetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -8651,7 +8652,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetApiName
 // Il2CppName: ovr_Destination_GetApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8669,7 +8670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage
 // Il2CppName: ovr_Destination_GetDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8687,7 +8688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Destination_GetDisplayName
 // Il2CppName: ovr_Destination_GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Destination_GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Destination_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8715,7 +8716,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl
 // Il2CppName: ovr_DestinationArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_DestinationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8760,7 +8761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage
 // Il2CppName: ovr_Error_GetDisplayableMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetDisplayableMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8787,7 +8788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Error_GetMessage
 // Il2CppName: ovr_Error_GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Error_GetMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Error_GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8805,7 +8806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDeeplinkMessage
 // Il2CppName: ovr_GroupPresenceJoinIntent_GetDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDeeplinkMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceJoinIntent_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8823,7 +8824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDestinationApiName
 // Il2CppName: ovr_GroupPresenceJoinIntent_GetDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceJoinIntent_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8841,7 +8842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetLobbySessionId
 // Il2CppName: ovr_GroupPresenceJoinIntent_GetLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceJoinIntent_GetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8859,7 +8860,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetMatchSessionId
 // Il2CppName: ovr_GroupPresenceJoinIntent_GetMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceJoinIntent_GetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8877,7 +8878,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8895,7 +8896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8913,7 +8914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId
 // Il2CppName: ovr_GroupPresenceLeaveIntent_GetMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_GroupPresenceLeaveIntent_GetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8967,7 +8968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId
 // Il2CppName: ovr_InstalledApplication_GetApplicationId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetApplicationId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -8985,7 +8986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName
 // Il2CppName: ovr_InstalledApplication_GetPackageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetPackageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9003,7 +9004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus
 // Il2CppName: ovr_InstalledApplication_GetStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9030,7 +9031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName
 // Il2CppName: ovr_InstalledApplication_GetVersionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_InstalledApplication_GetVersionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9076,7 +9077,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName
 // Il2CppName: ovr_LanguagePackInfo_GetEnglishName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetEnglishName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9094,7 +9095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName
 // Il2CppName: ovr_LanguagePackInfo_GetNativeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9112,7 +9113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag
 // Il2CppName: ovr_LanguagePackInfo_GetTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LanguagePackInfo_GetTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9148,7 +9149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage
 // Il2CppName: ovr_LaunchDetails_GetDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9166,7 +9167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName
 // Il2CppName: ovr_LaunchDetails_GetDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9184,7 +9185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource
 // Il2CppName: ovr_LaunchDetails_GetLaunchSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetLaunchSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9220,7 +9221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID
 // Il2CppName: ovr_LaunchDetails_GetTrackingID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LaunchDetails_GetTrackingID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9310,7 +9311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName
 // Il2CppName: ovr_Leaderboard_GetApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Leaderboard_GetApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9356,7 +9357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl
 // Il2CppName: ovr_LeaderboardArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9392,7 +9393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore
 // Il2CppName: ovr_LeaderboardEntry_GetDisplayScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntry_GetDisplayScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9501,7 +9502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl
 // Il2CppName: ovr_LeaderboardEntryArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9519,7 +9520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl
 // Il2CppName: ovr_LeaderboardEntryArray_GetPreviousUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LeaderboardEntryArray_GetPreviousUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9601,7 +9602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken
 // Il2CppName: ovr_LinkedAccount_GetAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9628,7 +9629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId
 // Il2CppName: ovr_LinkedAccount_GetUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LinkedAccount_GetUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9746,7 +9747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews
 // Il2CppName: ovr_LivestreamingVideoStats_GetTotalViews
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_LivestreamingVideoStats_GetTotalViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9818,7 +9819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
 // Il2CppName: ovr_MatchmakingAdminSnapshotCandidate_GetTraceId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingAdminSnapshotCandidate_GetTraceId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingAdminSnapshotCandidate_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9873,7 +9874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash
 // Il2CppName: ovr_MatchmakingCandidate_GetEntryHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidate_GetEntryHash)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidate_GetEntryHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9910,7 +9911,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl
 // Il2CppName: ovr_MatchmakingCandidateArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingCandidateArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingCandidateArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -9982,7 +9983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetPool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetPool)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -10009,7 +10010,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash
 // Il2CppName: ovr_MatchmakingEnqueueResult_GetRequestHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingEnqueueResult_GetRequestHash)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingEnqueueResult_GetRequestHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -10119,7 +10120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId
 // Il2CppName: ovr_MatchmakingNotification_GetTraceId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_MatchmakingNotification_GetTraceId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_MatchmakingNotification_GetTraceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -10903,7 +10904,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Message_GetString
 // Il2CppName: ovr_Message_GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Message_GetString)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Message_GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11135,7 +11136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId
 // Il2CppName: ovr_NetSyncConnection_GetZoneId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncConnection_GetZoneId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11189,7 +11190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup
 // Il2CppName: ovr_NetSyncSession_GetVoipGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_NetSyncSession_GetVoipGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11443,7 +11444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp
 // Il2CppName: ovr_PartyUpdateNotification_GetUpdateTimestamp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUpdateTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11461,7 +11462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias
 // Il2CppName: ovr_PartyUpdateNotification_GetUserAlias
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11488,7 +11489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName
 // Il2CppName: ovr_PartyUpdateNotification_GetUserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PartyUpdateNotification_GetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11506,7 +11507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Pid_GetId
 // Il2CppName: ovr_Pid_GetId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Pid_GetId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Pid_GetId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Pid_GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11588,7 +11589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetCurrency
 // Il2CppName: ovr_Price_GetCurrency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetCurrency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetCurrency)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetCurrency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11606,7 +11607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Price_GetFormatted
 // Il2CppName: ovr_Price_GetFormatted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetFormatted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Price_GetFormatted)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Price_GetFormatted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11624,7 +11625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetDescription
 // Il2CppName: ovr_Product_GetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetDescription)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11642,7 +11643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice
 // Il2CppName: ovr_Product_GetFormattedPrice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetFormattedPrice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11660,7 +11661,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetName
 // Il2CppName: ovr_Product_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11678,7 +11679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Product_GetSKU
 // Il2CppName: ovr_Product_GetSKU
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetSKU)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Product_GetSKU)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Product_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11706,7 +11707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl
 // Il2CppName: ovr_ProductArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_ProductArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11787,7 +11788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID
 // Il2CppName: ovr_Purchase_GetPurchaseStrID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetPurchaseStrID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11805,7 +11806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Purchase_GetSKU
 // Il2CppName: ovr_Purchase_GetSKU
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetSKU)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Purchase_GetSKU)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Purchase_GetSKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11833,7 +11834,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl
 // Il2CppName: ovr_PurchaseArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_PurchaseArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11887,7 +11888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetDescription
 // Il2CppName: ovr_Room_GetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetDescription)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -11968,7 +11969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Room_GetName
 // Il2CppName: ovr_Room_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Room_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Room_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12041,7 +12042,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl
 // Il2CppName: ovr_RoomArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12132,7 +12133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl
 // Il2CppName: ovr_RoomInviteNotificationArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_RoomInviteNotificationArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_RoomInviteNotificationArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12295,7 +12296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_Team_GetName
 // Il2CppName: ovr_Team_GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_Team_GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_Team_GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12332,7 +12333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIn
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken
 // Il2CppName: ovr_TestUser_GetAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12368,7 +12369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken
 // Il2CppName: ovr_TestUser_GetFriendAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetFriendAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12395,7 +12396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias
 // Il2CppName: ovr_TestUser_GetUserAlias
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUser_GetUserAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12431,7 +12432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken
 // Il2CppName: ovr_TestUserAppAccess_GetAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_TestUserAppAccess_GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12486,7 +12487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UIn
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetDisplayName
 // Il2CppName: ovr_User_GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12513,7 +12514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetImageUrl
 // Il2CppName: ovr_User_GetImageUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetImageUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetImageUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12531,7 +12532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetInviteToken
 // Il2CppName: ovr_User_GetInviteToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetInviteToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetInviteToken)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetInviteToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12549,7 +12550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetOculusID
 // Il2CppName: ovr_User_GetOculusID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetOculusID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetOculusID)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetOculusID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12567,7 +12568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresence
 // Il2CppName: ovr_User_GetPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresence)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12585,7 +12586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage
 // Il2CppName: ovr_User_GetPresenceDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12603,7 +12604,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName
 // Il2CppName: ovr_User_GetPresenceDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12621,7 +12622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceLobbySessionId
 // Il2CppName: ovr_User_GetPresenceLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12639,7 +12640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetPresenceMatchSessionId
 // Il2CppName: ovr_User_GetPresenceMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetPresenceMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetPresenceMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12666,7 +12667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl
 // Il2CppName: ovr_User_GetSmallImageUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_User_GetSmallImageUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12712,7 +12713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl
 // Il2CppName: ovr_UserAndRoomArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserAndRoomArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserAndRoomArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12758,7 +12759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl
 // Il2CppName: ovr_UserArray_GetNextUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserArray_GetNextUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12803,7 +12804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_UserProof_GetNonce
 // Il2CppName: ovr_UserProof_GetNonce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserProof_GetNonce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&Oculus::Platform::CAPI::ovr_UserProof_GetNonce)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI*), "ovr_UserProof_GetNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -12946,7 +12947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType
 // Il2CppName: ovr_AdvancedAbuseReportOptions_SetObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13003,7 +13004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage
 // Il2CppName: ovr_ApplicationOptions_SetDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13040,7 +13041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription
 // Il2CppName: ovr_ChallengeOptions_SetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13110,7 +13111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName
 // Il2CppName: ovr_ChallengeOptions_SetLeaderboardName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13150,7 +13151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle
 // Il2CppName: ovr_ChallengeOptions_SetTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13207,7 +13208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDestinationApiName
 // Il2CppName: ovr_GroupPresenceOptions_SetDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13237,7 +13238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetLobbySessionId
 // Il2CppName: ovr_GroupPresenceOptions_SetLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13257,7 +13258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetMatchSessionId
 // Il2CppName: ovr_GroupPresenceOptions_SetMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13330,7 +13331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString
 // Il2CppName: ovr_MatchmakingOptions_SetCreateRoomDataStoreString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetCreateRoomDataStoreString)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13400,7 +13401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, int)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, int)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsInt)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13422,7 +13423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, double)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, double)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsDouble)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13444,7 +13445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueDataSettingsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueDataSettingsString)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13485,7 +13486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey
 // Il2CppName: ovr_MatchmakingOptions_SetEnqueueQueryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_MatchmakingOptions_SetEnqueueQueryKey)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13522,7 +13523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup
 // Il2CppName: ovr_NetSyncOptions_SetVoipGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13552,7 +13553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId
 // Il2CppName: ovr_NetSyncOptions_SetZoneId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13589,7 +13590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName
 // Il2CppName: ovr_RichPresenceOptions_SetApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13609,7 +13610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString
 // Il2CppName: ovr_RichPresenceOptions_SetArgsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetArgsString)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13650,7 +13651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride
 // Il2CppName: ovr_RichPresenceOptions_SetDeeplinkMessageOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13700,7 +13701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId
 // Il2CppName: ovr_RichPresenceOptions_SetInstanceId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetInstanceId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13740,7 +13741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId
 // Il2CppName: ovr_RichPresenceOptions_SetJoinableId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetJoinableId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13760,7 +13761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId
 // Il2CppName: ovr_RichPresenceOptions_SetLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13780,7 +13781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId
 // Il2CppName: ovr_RichPresenceOptions_SetMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW)>(&Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -13847,7 +13848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString
 // Il2CppName: ovr_RoomOptions_SetDataStoreString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::StringW, ::StringW)>(&Oculus::Platform::CAPI::ovr_RoomOptions_SetDataStoreString)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

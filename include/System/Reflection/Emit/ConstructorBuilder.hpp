@@ -8,6 +8,7 @@
 // Including type: System.Reflection.ConstructorInfo
 #include "System/Reflection/ConstructorInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -66,7 +67,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x1E91A40
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.RuntimeMethodHandle get_MethodHandle()
     // Offset: 0x1E91AF8
     // Implemented from: System.Reflection.MethodBase
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::ConstructorBuilder::*)()>(&System::Reflection::Emit::ConstructorBuilder::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::Emit::ConstructorBuilder::*)()>(&System::Reflection::Emit::ConstructorBuilder::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::ConstructorBuilder*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

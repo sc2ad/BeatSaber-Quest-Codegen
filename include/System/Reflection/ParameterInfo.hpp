@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -98,9 +99,9 @@ namespace System::Reflection {
     // protected System.String NameImpl
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* NameImpl;
+    ::StringW NameImpl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.Int32 PositionImpl
     // Size: 0x4
     // Offset: 0x30
@@ -139,7 +140,7 @@ namespace System::Reflection {
     // Get instance field reference: protected System.Reflection.MemberInfo MemberImpl
     System::Reflection::MemberInfo*& dyn_MemberImpl();
     // Get instance field reference: protected System.String NameImpl
-    ::Il2CppString*& dyn_NameImpl();
+    ::StringW& dyn_NameImpl();
     // Get instance field reference: protected System.Int32 PositionImpl
     int& dyn_PositionImpl();
     // Get instance field reference: protected System.Reflection.ParameterAttributes AttrsImpl
@@ -169,7 +170,7 @@ namespace System::Reflection {
     System::Reflection::MemberInfo* get_Member();
     // public System.String get_Name()
     // Offset: 0x1E9CB60
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Int32 get_Position()
     // Offset: 0x1E9CB68
     int get_Position();
@@ -210,7 +211,7 @@ namespace System::Reflection {
     // Offset: 0x1E9C714
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Reflection.ParameterInfo
   #pragma pack(pop)
   static check_size<sizeof(ParameterInfo), 56 + sizeof(System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -371,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

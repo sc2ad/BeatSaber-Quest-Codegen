@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -66,9 +67,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String VoipGroup
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* VoipGroup;
+    ::StringW VoipGroup;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
@@ -79,7 +80,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 UserId
     uint64_t& dyn_UserId();
     // Get instance field reference: public readonly System.String VoipGroup
-    ::Il2CppString*& dyn_VoipGroup();
+    ::StringW& dyn_VoipGroup();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x17615F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,7 +90,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.NetSyncSession
   #pragma pack(pop)
-  static check_size<sizeof(NetSyncSession), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_NetSyncSessionSizeCheck;
+  static check_size<sizeof(NetSyncSession), 48 + sizeof(::StringW)> __Oculus_Platform_Models_NetSyncSessionSizeCheck;
   static_assert(sizeof(NetSyncSession) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

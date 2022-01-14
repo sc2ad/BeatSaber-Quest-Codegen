@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -120,9 +121,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> _downloadedAssetBundleFiles
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* downloadedAssetBundleFiles;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* downloadedAssetBundleFiles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Models.AssetFileDownloadUpdate> _lastAssetFileDownloadUpdateForAssetIds
     // Size: 0x8
     // Offset: 0x28
@@ -146,9 +147,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,Oculus.Platform.Models.AssetDetails> _assetFileToAssetDetails
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, Oculus::Platform::Models::AssetDetails*>* assetFileToAssetDetails;
+    System::Collections::Generic::Dictionary_2<::StringW, Oculus::Platform::Models::AssetDetails*>* assetFileToAssetDetails;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, Oculus::Platform::Models::AssetDetails*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, Oculus::Platform::Models::AssetDetails*>*) == 0x8);
     // private OculusLevelProductsModelSO _oculusLevelProductsModel
     // Size: 0x8
     // Offset: 0x48
@@ -171,7 +172,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.UInt64,OculusBeatmapDataAssetFileModel/LevelDownloadingData> _assetIdToDownloadinData
     System::Collections::Generic::Dictionary_2<uint64_t, GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*>*& dyn__assetIdToDownloadinData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _downloadedAssetBundleFiles
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__downloadedAssetBundleFiles();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__downloadedAssetBundleFiles();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Models.AssetFileDownloadUpdate> _lastAssetFileDownloadUpdateForAssetIds
     System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Models::AssetFileDownloadUpdate*>*& dyn__lastAssetFileDownloadUpdateForAssetIds();
     // Get instance field reference: private System.Single _lastAssetFileDownloadUpdateTime
@@ -179,7 +180,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.SemaphoreSlim _semaphoreSlim
     System::Threading::SemaphoreSlim*& dyn__semaphoreSlim();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,Oculus.Platform.Models.AssetDetails> _assetFileToAssetDetails
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, Oculus::Platform::Models::AssetDetails*>*& dyn__assetFileToAssetDetails();
+    System::Collections::Generic::Dictionary_2<::StringW, Oculus::Platform::Models::AssetDetails*>*& dyn__assetFileToAssetDetails();
     // Get instance field reference: private OculusLevelProductsModelSO _oculusLevelProductsModel
     GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProductsModel();
     // public System.Void add_levelDataAssetDownloadUpdateEvent(System.Action`1<LevelDataAssetDownloadUpdate> value)
@@ -206,10 +207,10 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<GetAssetBundleFileResult> GetDownloadAssetBundleFileAsync(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetails, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1348E20
-    System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetails, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::StringW levelId, Oculus::Platform::Models::AssetDetails* assetDetails, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> GetTaskCompletionSourceForDownload(System.String levelId, Oculus.Platform.Models.AssetDetails assetDetail)
     // Offset: 0x1348F34
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::Il2CppString* levelId, Oculus::Platform::Models::AssetDetails* assetDetail);
+    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::StringW levelId, Oculus::Platform::Models::AssetDetails* assetDetail);
     // private System.Void HandleAssetFileDownloadUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadUpdate> msg)
     // Offset: 0x1349030
     void HandleAssetFileDownloadUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync
 // Il2CppName: GetDownloadAssetBundleFileAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::Il2CppString*, Oculus::Platform::Models::AssetDetails*, System::Threading::CancellationToken)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::StringW, Oculus::Platform::Models::AssetDetails*, System::Threading::CancellationToken)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assetDetails = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "AssetDetails")->byval_arg;
@@ -287,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::GetTaskCompletionSourceForDownload
 // Il2CppName: GetTaskCompletionSourceForDownload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::Il2CppString*, Oculus::Platform::Models::AssetDetails*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::GetTaskCompletionSourceForDownload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::StringW, Oculus::Platform::Models::AssetDetails*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::GetTaskCompletionSourceForDownload)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assetDetail = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "AssetDetails")->byval_arg;

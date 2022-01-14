@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -45,16 +46,16 @@ namespace UnityEngine::Bindings {
     // private System.String <Header>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Header;
+    ::StringW Header;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB08E8
     // private System.String <IntermediateScriptingStructName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* IntermediateScriptingStructName;
+    ::StringW IntermediateScriptingStructName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB0924
     // private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
     // Size: 0x4
@@ -64,17 +65,17 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(UnityEngine::Bindings::CodegenOptions) == 0x4);
     public:
     // Get instance field reference: private System.String <Header>k__BackingField
-    ::Il2CppString*& dyn_$Header$k__BackingField();
+    ::StringW& dyn_$Header$k__BackingField();
     // Get instance field reference: private System.String <IntermediateScriptingStructName>k__BackingField
-    ::Il2CppString*& dyn_$IntermediateScriptingStructName$k__BackingField();
+    ::StringW& dyn_$IntermediateScriptingStructName$k__BackingField();
     // Get instance field reference: private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
     UnityEngine::Bindings::CodegenOptions& dyn_$CodegenOptions$k__BackingField();
     // public System.Void set_Header(System.String value)
     // Offset: 0x26CA298
-    void set_Header(::Il2CppString* value);
+    void set_Header(::StringW value);
     // public System.Void set_IntermediateScriptingStructName(System.String value)
     // Offset: 0x26CA2A0
-    void set_IntermediateScriptingStructName(::Il2CppString* value);
+    void set_IntermediateScriptingStructName(::StringW value);
     // public System.Void set_CodegenOptions(UnityEngine.Bindings.CodegenOptions value)
     // Offset: 0x26CA2A8
     void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value);
@@ -88,14 +89,14 @@ namespace UnityEngine::Bindings {
     // public System.Void .ctor(System.String header)
     // Offset: 0x26CA304
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeTypeAttribute* New_ctor(::Il2CppString* header) {
+    static NativeTypeAttribute* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(header)));
     }
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
     // Offset: 0x26CA3F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::Il2CppString* intermediateStructName) {
+    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(codegenOptions, intermediateStructName)));
     }
@@ -118,7 +119,7 @@ namespace UnityEngine::Bindings {
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeTypeAttribute::set_Header
 // Il2CppName: set_Header
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeTypeAttribute::set_Header)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::StringW)>(&UnityEngine::Bindings::NativeTypeAttribute::set_Header)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_Header", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeTypeAttribute::set_IntermediateScriptingStructName
 // Il2CppName: set_IntermediateScriptingStructName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeTypeAttribute::set_IntermediateScriptingStructName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::StringW)>(&UnityEngine::Bindings::NativeTypeAttribute::set_IntermediateScriptingStructName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_IntermediateScriptingStructName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -56,9 +57,9 @@ namespace HMUI {
     // private System.String _reuseIdentifier
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* reuseIdentifier;
+    ::StringW reuseIdentifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private HMUI.ITableCellOwner _tableCellOwner
     // Size: 0x8
     // Offset: 0x48
@@ -69,15 +70,15 @@ namespace HMUI {
     // Get instance field reference: private System.Int32 <idx>k__BackingField
     int& dyn_$idx$k__BackingField();
     // Get instance field reference: private System.String _reuseIdentifier
-    ::Il2CppString*& dyn__reuseIdentifier();
+    ::StringW& dyn__reuseIdentifier();
     // Get instance field reference: private HMUI.ITableCellOwner _tableCellOwner
     HMUI::ITableCellOwner*& dyn__tableCellOwner();
     // public System.String get_reuseIdentifier()
     // Offset: 0x14D015C
-    ::Il2CppString* get_reuseIdentifier();
+    ::StringW get_reuseIdentifier();
     // public System.Void set_reuseIdentifier(System.String value)
     // Offset: 0x14D0164
-    void set_reuseIdentifier(::Il2CppString* value);
+    void set_reuseIdentifier(::StringW value);
     // public System.Int32 get_idx()
     // Offset: 0x14D016C
     int get_idx();
@@ -128,7 +129,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::TableCell::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TableCell::*)()>(&HMUI::TableCell::get_reuseIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::TableCell::*)()>(&HMUI::TableCell::get_reuseIdentifier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HMUI::TableCell::set_reuseIdentifier
 // Il2CppName: set_reuseIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(::Il2CppString*)>(&HMUI::TableCell::set_reuseIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(::StringW)>(&HMUI::TableCell::set_reuseIdentifier)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

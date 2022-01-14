@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -55,9 +56,9 @@ namespace System::Net::Http::Headers {
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Comment;
+    ::StringW Comment;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -70,15 +71,15 @@ namespace System::Net::Http::Headers {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String <Comment>k__BackingField
-    ::Il2CppString*& dyn_$Comment$k__BackingField();
+    ::StringW& dyn_$Comment$k__BackingField();
     // Get instance field reference: private System.Net.Http.Headers.ProductHeaderValue <Product>k__BackingField
     System::Net::Http::Headers::ProductHeaderValue*& dyn_$Product$k__BackingField();
     // public System.String get_Comment()
     // Offset: 0x17C5238
-    ::Il2CppString* get_Comment();
+    ::StringW get_Comment();
     // private System.Void set_Comment(System.String value)
     // Offset: 0x17C5240
-    void set_Comment(::Il2CppString* value);
+    void set_Comment(::StringW value);
     // public System.Net.Http.Headers.ProductHeaderValue get_Product()
     // Offset: 0x17C5248
     System::Net::Http::Headers::ProductHeaderValue* get_Product();
@@ -97,7 +98,7 @@ namespace System::Net::Http::Headers {
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.ProductInfoHeaderValue> result)
     // Offset: 0x17C5364
-    static bool TryParse(::Il2CppString* input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
+    static bool TryParse(::StringW input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.ProductInfoHeaderValue parsedValue)
     // Offset: 0x17C54A4
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
@@ -124,7 +125,7 @@ namespace System::Net::Http::Headers {
     // Offset: 0x17C56A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.Headers.ProductInfoHeaderValue
   #pragma pack(pop)
   static check_size<sizeof(ProductInfoHeaderValue), 24 + sizeof(System::Net::Http::Headers::ProductHeaderValue*)> __System_Net_Http_Headers_ProductInfoHeaderValueSizeCheck;
@@ -134,7 +135,7 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment
 // Il2CppName: get_Comment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::get_Comment)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "get_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment
 // Il2CppName: set_Comment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ProductInfoHeaderValue::*)(::StringW)>(&System::Net::Http::Headers::ProductInfoHeaderValue::set_Comment)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "set_Comment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*>)>(&System::Net::Http::Headers::ProductInfoHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::ProductInfoHeaderValue*>*>)>(&System::Net::Http::Headers::ProductInfoHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minimalCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::Headers::ProductInfoHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::ProductInfoHeaderValue::*)()>(&System::Net::Http::Headers::ProductInfoHeaderValue::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ProductInfoHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -8,6 +8,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -103,10 +104,10 @@ namespace TMPro {
     void SetLinkID(::ArrayW<::Il2CppChar> text, int startIndex, int length);
     // public System.String GetLinkText()
     // Offset: 0x125A41C
-    ::Il2CppString* GetLinkText();
+    ::StringW GetLinkText();
     // public System.String GetLinkID()
     // Offset: 0x125A510
-    ::Il2CppString* GetLinkID();
+    ::StringW GetLinkID();
   }; // TMPro.TMP_LinkInfo
   #pragma pack(pop)
   static check_size<sizeof(TMP_LinkInfo), 32 + sizeof(::ArrayW<::Il2CppChar>)> __TMPro_TMP_LinkInfoSizeCheck;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_LinkInfo::GetLinkText
 // Il2CppName: GetLinkText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "GetLinkText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_LinkInfo::GetLinkID
 // Il2CppName: GetLinkID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "GetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

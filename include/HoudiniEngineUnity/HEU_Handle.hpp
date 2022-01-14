@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -108,9 +109,9 @@ namespace HoudiniEngineUnity {
     // private System.String _handleName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* handleName;
+    ::StringW handleName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType _handleType
     // Size: 0x4
     // Offset: 0x20
@@ -185,7 +186,7 @@ namespace HoudiniEngineUnity {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _handleName
-    ::Il2CppString*& dyn__handleName();
+    ::StringW& dyn__handleName();
     // Get instance field reference: private HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType _handleType
     HoudiniEngineUnity::HEU_Handle::HEU_HandleType& dyn__handleType();
     // Get instance field reference: private System.Int32 _handleIndex
@@ -210,7 +211,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_TransformEuler& dyn__convertedTransformEuler();
     // public System.String get_HandleName()
     // Offset: 0x164ECDC
-    ::Il2CppString* get_HandleName();
+    ::StringW get_HandleName();
     // public HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType get_HandleType()
     // Offset: 0x164ECE4
     HoudiniEngineUnity::HEU_Handle::HEU_HandleType get_HandleType();
@@ -261,7 +262,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
     // public System.Boolean SetupHandle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 handleIndex, System.String handleName, HoudiniEngineUnity.HEU_Handle/HoudiniEngineUnity.HEU_HandleType handleType, ref HoudiniEngineUnity.HAPI_HandleInfo handleInfo, HoudiniEngineUnity.HEU_Parameters parameters)
     // Offset: 0x164EDDC
-    bool SetupHandle(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int handleIndex, ::Il2CppString* handleName, HoudiniEngineUnity::HEU_Handle::HEU_HandleType handleType, ByRef<HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, HoudiniEngineUnity::HEU_Parameters* parameters);
+    bool SetupHandle(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int handleIndex, ::StringW handleName, HoudiniEngineUnity::HEU_Handle::HEU_HandleType handleType, ByRef<HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, HoudiniEngineUnity::HEU_Parameters* parameters);
     // public System.Void CleanUp()
     // Offset: 0x164FBD4
     void CleanUp();
@@ -302,7 +303,7 @@ DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Handle::HEU_HandleType, "HoudiniE
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::get_HandleName
 // Il2CppName: get_HandleName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_Handle::*)()>(&HoudiniEngineUnity::HEU_Handle::get_HandleName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_Handle::*)()>(&HoudiniEngineUnity::HEU_Handle::get_HandleName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Handle*), "get_HandleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -438,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Handle::SetupHandle
 // Il2CppName: SetupHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_Handle::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, HoudiniEngineUnity::HEU_Handle::HEU_HandleType, ByRef<HoudiniEngineUnity::HAPI_HandleInfo>, HoudiniEngineUnity::HEU_Parameters*)>(&HoudiniEngineUnity::HEU_Handle::SetupHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_Handle::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HEU_Handle::HEU_HandleType, ByRef<HoudiniEngineUnity::HAPI_HandleInfo>, HoudiniEngineUnity::HEU_Parameters*)>(&HoudiniEngineUnity::HEU_Handle::SetupHandle)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

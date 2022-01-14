@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -41,16 +42,16 @@ namespace System::Security::Cryptography {
     // private System.String _oid
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* oid;
+    ::StringW oid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return oid;
     }
     // Get instance field reference: private System.String _oid
-    ::Il2CppString*& dyn__oid();
+    ::StringW& dyn__oid();
     // public System.Void .ctor()
     // Offset: 0x1A90D70
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureFormatter
@@ -63,7 +64,7 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.DSASignatureFormatter
   #pragma pack(pop)
-  static check_size<sizeof(DSASignatureFormatter), 16 + sizeof(::Il2CppString*)> __System_Security_Cryptography_DSASignatureFormatterSizeCheck;
+  static check_size<sizeof(DSASignatureFormatter), 16 + sizeof(::StringW)> __System_Security_Cryptography_DSASignatureFormatterSizeCheck;
   static_assert(sizeof(DSASignatureFormatter) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -8,10 +8,8 @@
 #include "System/ValueType.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: RectInt
@@ -92,7 +90,7 @@ namespace UnityEngine {
     // Offset: 0x1DF2828
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.RectInt
   #pragma pack(pop)
   static check_size<sizeof(RectInt), 12 + sizeof(int)> __UnityEngine_RectIntSizeCheck;
@@ -143,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::RectInt::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::RectInt::*)()>(&UnityEngine::RectInt::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::RectInt::*)()>(&UnityEngine::RectInt::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectInt), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

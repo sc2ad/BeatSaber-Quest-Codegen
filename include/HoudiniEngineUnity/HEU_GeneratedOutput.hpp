@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -134,10 +135,10 @@ namespace HoudiniEngineUnity {
     static void CopyMaterialOverrides(HoudiniEngineUnity::HEU_GeneratedOutputData* sourceOutputData, HoudiniEngineUnity::HEU_GeneratedOutputData* destOutputData);
     // public System.Void WriteOutputToAssetCache(UnityEngine.GameObject parentObject, System.String outputPath, System.Boolean bIsInstancer)
     // Offset: 0x14E7774
-    void WriteOutputToAssetCache(UnityEngine::GameObject* parentObject, ::Il2CppString* outputPath, bool bIsInstancer);
+    void WriteOutputToAssetCache(UnityEngine::GameObject* parentObject, ::StringW outputPath, bool bIsInstancer);
     // static public System.Void BakeGameObjectComponents(UnityEngine.GameObject sourceGO, UnityEngine.GameObject targetGO, System.String assetName, System.String outputPath, System.Boolean bIsInstancer)
     // Offset: 0x14E77D4
-    static void BakeGameObjectComponents(UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::Il2CppString* assetName, ::Il2CppString* outputPath, bool bIsInstancer);
+    static void BakeGameObjectComponents(UnityEngine::GameObject* sourceGO, UnityEngine::GameObject* targetGO, ::StringW assetName, ::StringW outputPath, bool bIsInstancer);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutput other)
     // Offset: 0x14E78D8
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_GeneratedOutput* other);
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutput::WriteOutputToAssetCache
 // Il2CppName: WriteOutputToAssetCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_GeneratedOutput::*)(UnityEngine::GameObject*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_GeneratedOutput::WriteOutputToAssetCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_GeneratedOutput::*)(UnityEngine::GameObject*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneratedOutput::WriteOutputToAssetCache)> {
   static const MethodInfo* get() {
     static auto* parentObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* outputPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -310,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutput::BakeGameObjectComponents
 // Il2CppName: BakeGameObjectComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*, ::Il2CppString*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_GeneratedOutput::BakeGameObjectComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*, ::StringW, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneratedOutput::BakeGameObjectComponents)> {
   static const MethodInfo* get() {
     static auto* sourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;

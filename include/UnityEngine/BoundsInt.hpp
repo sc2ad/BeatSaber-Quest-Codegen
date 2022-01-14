@@ -10,6 +10,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.Vector3Int
 #include "UnityEngine/Vector3Int.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -17,7 +18,6 @@ namespace UnityEngine {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine
@@ -131,7 +131,7 @@ namespace UnityEngine {
     // Offset: 0x1D01F64
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object other)
     // Offset: 0x1D02098
     // Implemented from: System.ValueType
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::BoundsInt::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::BoundsInt::*)()>(&UnityEngine::BoundsInt::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::BoundsInt::*)()>(&UnityEngine::BoundsInt::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoundsInt), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

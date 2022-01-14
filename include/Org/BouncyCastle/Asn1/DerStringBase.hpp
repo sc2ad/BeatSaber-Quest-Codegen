@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
@@ -36,7 +37,7 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetString();
+    ::StringW GetString();
     // protected System.Void .ctor()
     // Offset: 0x18F9150
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -52,7 +53,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18FE2D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // protected override System.Int32 Asn1GetHashCode()
     // Offset: 0x18FE2E4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -65,7 +66,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerStringBase::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerStringBase::*)()>(&Org::BouncyCastle::Asn1::DerStringBase::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerStringBase::*)()>(&Org::BouncyCastle::Asn1::DerStringBase::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerStringBase*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerStringBase::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerStringBase::*)()>(&Org::BouncyCastle::Asn1::DerStringBase::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerStringBase::*)()>(&Org::BouncyCastle::Asn1::DerStringBase::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerStringBase*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

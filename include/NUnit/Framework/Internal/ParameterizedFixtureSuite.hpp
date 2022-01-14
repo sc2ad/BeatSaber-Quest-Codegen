@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -61,7 +62,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x2551B54
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
-    ::Il2CppString* get_TestType();
+    ::StringW get_TestType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0x25518F0
     // Implemented from: NUnit.Framework.Internal.TestSuite
@@ -81,7 +82,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterizedFixtureSuite::get_TestType
 // Il2CppName: get_TestType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::ParameterizedFixtureSuite::*)()>(&NUnit::Framework::Internal::ParameterizedFixtureSuite::get_TestType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::ParameterizedFixtureSuite::*)()>(&NUnit::Framework::Internal::ParameterizedFixtureSuite::get_TestType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterizedFixtureSuite*), "get_TestType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

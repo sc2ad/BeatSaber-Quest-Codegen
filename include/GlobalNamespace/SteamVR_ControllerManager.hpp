@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -127,17 +128,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String hiddenPrefix
-    static ::Il2CppString* _get_hiddenPrefix();
+    static ::StringW _get_hiddenPrefix();
     // Set static field: static private System.String hiddenPrefix
-    static void _set_hiddenPrefix(::Il2CppString* value);
+    static void _set_hiddenPrefix(::StringW value);
     // Get static field: static private System.String hiddenPostfix
-    static ::Il2CppString* _get_hiddenPostfix();
+    static ::StringW _get_hiddenPostfix();
     // Set static field: static private System.String hiddenPostfix
-    static void _set_hiddenPostfix(::Il2CppString* value);
+    static void _set_hiddenPostfix(::StringW value);
     // Get static field: static private System.String[] labels
-    static ::ArrayW<::Il2CppString*> _get_labels();
+    static ::ArrayW<::StringW> _get_labels();
     // Set static field: static private System.String[] labels
-    static void _set_labels(::ArrayW<::Il2CppString*> value);
+    static void _set_labels(::ArrayW<::StringW> value);
     // Get instance field reference: public UnityEngine.GameObject left
     UnityEngine::GameObject*& dyn_left();
     // Get instance field reference: public UnityEngine.GameObject right
@@ -180,10 +181,10 @@ namespace GlobalNamespace {
     void OnInputFocus(bool hasFocus);
     // private System.Void HideObject(UnityEngine.Transform t, System.String name)
     // Offset: 0x15B93C0
-    void HideObject(UnityEngine::Transform* t, ::Il2CppString* name);
+    void HideObject(UnityEngine::Transform* t, ::StringW name);
     // private System.Void ShowObject(UnityEngine.Transform t, System.String name)
     // Offset: 0x15B92CC
-    void ShowObject(UnityEngine::Transform* t, ::Il2CppString* name);
+    void ShowObject(UnityEngine::Transform* t, ::StringW name);
     // private System.Void SetTrackedDeviceIndex(System.Int32 objectIndex, System.UInt32 trackedDeviceIndex)
     // Offset: 0x15B9530
     void SetTrackedDeviceIndex(int objectIndex, uint trackedDeviceIndex);
@@ -274,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::HideObject
 // Il2CppName: HideObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_ControllerManager::HideObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::StringW)>(&GlobalNamespace::SteamVR_ControllerManager::HideObject)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::ShowObject
 // Il2CppName: ShowObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_ControllerManager::ShowObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::StringW)>(&GlobalNamespace::SteamVR_ControllerManager::ShowObject)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

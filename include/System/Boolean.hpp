@@ -17,6 +17,7 @@
 #include "System/IConvertible.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -101,23 +102,23 @@ namespace System {
     // static field const value: static System.String TrueLiteral
     static constexpr const char* TrueLiteral = "True";
     // Get static field: static System.String TrueLiteral
-    static ::Il2CppString* _get_TrueLiteral();
+    static ::StringW _get_TrueLiteral();
     // Set static field: static System.String TrueLiteral
-    static void _set_TrueLiteral(::Il2CppString* value);
+    static void _set_TrueLiteral(::StringW value);
     // static field const value: static System.String FalseLiteral
     static constexpr const char* FalseLiteral = "False";
     // Get static field: static System.String FalseLiteral
-    static ::Il2CppString* _get_FalseLiteral();
+    static ::StringW _get_FalseLiteral();
     // Set static field: static System.String FalseLiteral
-    static void _set_FalseLiteral(::Il2CppString* value);
+    static void _set_FalseLiteral(::StringW value);
     // Get static field: static public readonly System.String TrueString
-    static ::Il2CppString* _get_TrueString();
+    static ::StringW _get_TrueString();
     // Set static field: static public readonly System.String TrueString
-    static void _set_TrueString(::Il2CppString* value);
+    static void _set_TrueString(::StringW value);
     // Get static field: static public readonly System.String FalseString
-    static ::Il2CppString* _get_FalseString();
+    static ::StringW _get_FalseString();
     // Set static field: static public readonly System.String FalseString
-    static void _set_FalseString(::Il2CppString* value);
+    static void _set_FalseString(::StringW value);
     // Get instance field reference: private System.Boolean m_value
     bool& dyn_m_value();
     // static private System.Void .cctor()
@@ -125,7 +126,7 @@ namespace System {
     static void _cctor();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x1994F8C
-    ::Il2CppString* ToString(System::IFormatProvider* provider);
+    ::StringW ToString(System::IFormatProvider* provider);
     // public System.Boolean Equals(System.Boolean obj)
     // Offset: 0x1995074
     bool Equals(bool obj);
@@ -137,13 +138,13 @@ namespace System {
     int CompareTo(bool value);
     // static public System.Boolean Parse(System.String value)
     // Offset: 0x199519C
-    static bool Parse(::Il2CppString* value);
+    static bool Parse(::StringW value);
     // static public System.Boolean TryParse(System.String value, out System.Boolean result)
     // Offset: 0x19952AC
-    static bool TryParse(::Il2CppString* value, ByRef<bool> result);
+    static bool TryParse(::StringW value, ByRef<bool> result);
     // static private System.String TrimWhiteSpaceAndNull(System.String value)
     // Offset: 0x19953D0
-    static ::Il2CppString* TrimWhiteSpaceAndNull(::Il2CppString* value);
+    static ::StringW TrimWhiteSpaceAndNull(::StringW value);
     // public System.TypeCode GetTypeCode()
     // Offset: 0x19955E8
     System::TypeCode GetTypeCode();
@@ -201,7 +202,7 @@ namespace System {
     // Offset: 0x1994F2C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1994FEC
     // Implemented from: System.ValueType
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Boolean::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Boolean), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -260,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Boolean::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Boolean::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Boolean::Parse)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Boolean), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -269,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Boolean::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<bool>)>(&System::Boolean::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<bool>)>(&System::Boolean::TryParse)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Boolean::TrimWhiteSpaceAndNull
 // Il2CppName: TrimWhiteSpaceAndNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Boolean::TrimWhiteSpaceAndNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Boolean::TrimWhiteSpaceAndNull)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Boolean), "TrimWhiteSpaceAndNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -440,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Boolean::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Boolean::*)()>(&System::Boolean::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Boolean::*)()>(&System::Boolean::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Boolean), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

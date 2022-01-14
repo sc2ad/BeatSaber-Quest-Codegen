@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -143,10 +144,10 @@ namespace HoudiniEngineUnity {
     static bool ApproximatelyEquals(float self, float other, float epsilon);
     // static public System.Byte[] AsByteArray(System.String self)
     // Offset: 0x14D6FB0
-    static ::ArrayW<uint8_t> AsByteArray(::Il2CppString* self);
+    static ::ArrayW<uint8_t> AsByteArray(::StringW self);
     // static public System.String AsString(System.Byte[] buffer)
     // Offset: 0x14D7030
-    static ::Il2CppString* AsString(::ArrayW<uint8_t> buffer);
+    static ::StringW AsString(::ArrayW<uint8_t> buffer);
     // static public UnityEngine.Vector3 SwapXAndY(UnityEngine.Vector3 self)
     // Offset: 0x14D70B8
     static UnityEngine::Vector3 SwapXAndY(UnityEngine::Vector3 self);
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Extensions::AsByteArray
 // Il2CppName: AsByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Extensions::AsByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&HoudiniEngineUnity::HEU_Extensions::AsByteArray)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Extensions*), "AsByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Extensions::AsString
 // Il2CppName: AsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Extensions::AsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Extensions::AsString)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Extensions*), "AsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Il2CppInspector.DLL
 namespace Il2CppInspector::DLL {
@@ -38,28 +39,28 @@ namespace Il2CppInspector::DLL {
     // public System.String Name
     // Size: 0x8
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String RVA
     // Size: 0x8
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* RVA;
+    ::StringW RVA;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Offset
     // Size: 0x8
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* Offset;
+    ::StringW Offset;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // Get instance field reference: public System.String RVA
-    ::Il2CppString*& dyn_RVA();
+    ::StringW& dyn_RVA();
     // Get instance field reference: public System.String Offset
-    ::Il2CppString*& dyn_Offset();
+    ::StringW& dyn_Offset();
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -82,9 +83,9 @@ namespace System::Diagnostics {
     // private System.String fileName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 lineNumber
     // Size: 0x4
     // Offset: 0x38
@@ -100,9 +101,9 @@ namespace System::Diagnostics {
     // private System.String internalMethodName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* internalMethodName;
+    ::StringW internalMethodName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // static field const value: static public System.Int32 OFFSET_UNKNOWN
     static constexpr const int OFFSET_UNKNOWN = -1;
@@ -121,13 +122,13 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Reflection.MethodBase methodBase
     System::Reflection::MethodBase*& dyn_methodBase();
     // Get instance field reference: private System.String fileName
-    ::Il2CppString*& dyn_fileName();
+    ::StringW& dyn_fileName();
     // Get instance field reference: private System.Int32 lineNumber
     int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 columnNumber
     int& dyn_columnNumber();
     // Get instance field reference: private System.String internalMethodName
-    ::Il2CppString*& dyn_internalMethodName();
+    ::StringW& dyn_internalMethodName();
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1D53C80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,16 +138,16 @@ namespace System::Diagnostics {
     }
     // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, out System.Reflection.MethodBase method, out System.Int32 iloffset, out System.Int32 native_offset, out System.String file, out System.Int32 line, out System.Int32 column)
     // Offset: 0x1D53C1C
-    static bool get_frame_info(int skip, bool needFileInfo, ByRef<System::Reflection::MethodBase*> method, ByRef<int> iloffset, ByRef<int> native_offset, ByRef<::Il2CppString*> file, ByRef<int> line, ByRef<int> column);
+    static bool get_frame_info(int skip, bool needFileInfo, ByRef<System::Reflection::MethodBase*> method, ByRef<int> iloffset, ByRef<int> native_offset, ByRef<::StringW> file, ByRef<int> line, ByRef<int> column);
     // public System.Int32 GetFileLineNumber()
     // Offset: 0x1D53CEC
     int GetFileLineNumber();
     // public System.String GetFileName()
     // Offset: 0x1D53CF4
-    ::Il2CppString* GetFileName();
+    ::StringW GetFileName();
     // System.String GetSecureFileName()
     // Offset: 0x1D53CFC
-    ::Il2CppString* GetSecureFileName();
+    ::StringW GetSecureFileName();
     // public System.Int32 GetILOffset()
     // Offset: 0x1D53DD8
     int GetILOffset();
@@ -164,7 +165,7 @@ namespace System::Diagnostics {
     uint GetMethodIndex();
     // System.String GetInternalMethodName()
     // Offset: 0x1D53E00
-    ::Il2CppString* GetInternalMethodName();
+    ::StringW GetInternalMethodName();
     // public System.Void .ctor()
     // Offset: 0x1D53C24
     // Implemented from: System.Object
@@ -178,10 +179,10 @@ namespace System::Diagnostics {
     // Offset: 0x1D53E08
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Diagnostics.StackFrame
   #pragma pack(pop)
-  static check_size<sizeof(StackFrame), 64 + sizeof(::Il2CppString*)> __System_Diagnostics_StackFrameSizeCheck;
+  static check_size<sizeof(StackFrame), 64 + sizeof(::StringW)> __System_Diagnostics_StackFrameSizeCheck;
   static_assert(sizeof(StackFrame) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -192,7 +193,7 @@ namespace System::Diagnostics {
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ByRef<System::Reflection::MethodBase*>, ByRef<int>, ByRef<int>, ByRef<::Il2CppString*>, ByRef<int>, ByRef<int>)>(&System::Diagnostics::StackFrame::get_frame_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ByRef<System::Reflection::MethodBase*>, ByRef<int>, ByRef<int>, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::Diagnostics::StackFrame::get_frame_info)> {
   static const MethodInfo* get() {
     static auto* skip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetFileName
 // Il2CppName: GetFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetFileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetSecureFileName
 // Il2CppName: GetSecureFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetSecureFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetSecureFileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetSecureFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetInternalMethodName
 // Il2CppName: GetInternalMethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetInternalMethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetInternalMethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetInternalMethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -45,9 +46,9 @@ namespace UnityEngine::Bindings {
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB099C
     // private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
     // Size: 0x4
@@ -57,26 +58,26 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(UnityEngine::Bindings::StaticAccessorType) == 0x4);
     public:
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField
     UnityEngine::Bindings::StaticAccessorType& dyn_$Type$k__BackingField();
     // public System.Void set_Name(System.String value)
     // Offset: 0x26CA474
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Void set_Type(UnityEngine.Bindings.StaticAccessorType value)
     // Offset: 0x26CA47C
     void set_Type(UnityEngine::Bindings::StaticAccessorType value);
     // System.Void .ctor(System.String name)
     // Offset: 0x26CA484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StaticAccessorAttribute* New_ctor(::Il2CppString* name) {
+    static StaticAccessorAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::StaticAccessorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticAccessorAttribute*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, UnityEngine.Bindings.StaticAccessorType type)
     // Offset: 0x26CA4B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StaticAccessorAttribute* New_ctor(::Il2CppString* name, UnityEngine::Bindings::StaticAccessorType type) {
+    static StaticAccessorAttribute* New_ctor(::StringW name, UnityEngine::Bindings::StaticAccessorType type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::StaticAccessorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticAccessorAttribute*, creationType>(name, type)));
     }
@@ -89,7 +90,7 @@ namespace UnityEngine::Bindings {
 // Writing MetadataGetter for method: UnityEngine::Bindings::StaticAccessorAttribute::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::StaticAccessorAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::StaticAccessorAttribute::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(&UnityEngine::Bindings::StaticAccessorAttribute::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::StaticAccessorAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

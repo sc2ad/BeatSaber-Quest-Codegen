@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
@@ -41,60 +42,60 @@ namespace System::Net::NetworkInformation {
     // public readonly System.String StatisticsFile
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* StatisticsFile;
+    ::StringW StatisticsFile;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String StatisticsFileIPv6
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* StatisticsFileIPv6;
+    ::StringW StatisticsFileIPv6;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String TcpFile
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* TcpFile;
+    ::StringW TcpFile;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Tcp6File
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* Tcp6File;
+    ::StringW Tcp6File;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String UdpFile
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* UdpFile;
+    ::StringW UdpFile;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Udp6File
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* Udp6File;
+    ::StringW Udp6File;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private readonly System.Char[] wsChars
     static ::ArrayW<::Il2CppChar> _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars
     static void _set_wsChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: public readonly System.String StatisticsFile
-    ::Il2CppString*& dyn_StatisticsFile();
+    ::StringW& dyn_StatisticsFile();
     // Get instance field reference: public readonly System.String StatisticsFileIPv6
-    ::Il2CppString*& dyn_StatisticsFileIPv6();
+    ::StringW& dyn_StatisticsFileIPv6();
     // Get instance field reference: public readonly System.String TcpFile
-    ::Il2CppString*& dyn_TcpFile();
+    ::StringW& dyn_TcpFile();
     // Get instance field reference: public readonly System.String Tcp6File
-    ::Il2CppString*& dyn_Tcp6File();
+    ::StringW& dyn_Tcp6File();
     // Get instance field reference: public readonly System.String UdpFile
-    ::Il2CppString*& dyn_UdpFile();
+    ::StringW& dyn_UdpFile();
     // Get instance field reference: public readonly System.String Udp6File
-    ::Il2CppString*& dyn_Udp6File();
+    ::StringW& dyn_Udp6File();
     // public System.Void .ctor(System.String procDir)
     // Offset: 0x16A5E00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MibIPGlobalProperties* New_ctor(::Il2CppString* procDir) {
+    static MibIPGlobalProperties* New_ctor(::StringW procDir) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::MibIPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MibIPGlobalProperties*, creationType>(procDir)));
     }
@@ -103,7 +104,7 @@ namespace System::Net::NetworkInformation {
     static void _cctor();
   }; // System.Net.NetworkInformation.MibIPGlobalProperties
   #pragma pack(pop)
-  static check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(::Il2CppString*)> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
+  static check_size<sizeof(MibIPGlobalProperties), 56 + sizeof(::StringW)> __System_Net_NetworkInformation_MibIPGlobalPropertiesSizeCheck;
   static_assert(sizeof(MibIPGlobalProperties) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

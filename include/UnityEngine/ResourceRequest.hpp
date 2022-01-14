@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace UnityEngine {
     // System.String m_Path
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_Path;
+    ::StringW m_Path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Type m_Type
     // Size: 0x8
     // Offset: 0x28
@@ -65,7 +66,7 @@ namespace UnityEngine {
     static_assert(sizeof(System::Type*) == 0x8);
     public:
     // Get instance field reference: System.String m_Path
-    ::Il2CppString*& dyn_m_Path();
+    ::StringW& dyn_m_Path();
     // Get instance field reference: System.Type m_Type
     System::Type*& dyn_m_Type();
     // public UnityEngine.Object get_asset()

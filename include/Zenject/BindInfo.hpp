@@ -21,6 +21,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -160,9 +161,9 @@ namespace Zenject {
     // public System.String ContextInfo
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* ContextInfo;
+    ::StringW ContextInfo;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Collections.Generic.List`1<System.Type> ToTypes
     // Size: 0x8
     // Offset: 0x60
@@ -221,7 +222,7 @@ namespace Zenject {
     // Get instance field reference: public Zenject.ToChoices ToChoice
     Zenject::ToChoices& dyn_ToChoice();
     // Get instance field reference: public System.String ContextInfo
-    ::Il2CppString*& dyn_ContextInfo();
+    ::StringW& dyn_ContextInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<System.Type> ToTypes
     System::Collections::Generic::List_1<System::Type*>*& dyn_ToTypes();
     // Get instance field reference: public Zenject.ScopeTypes Scope
@@ -235,7 +236,7 @@ namespace Zenject {
     void Dispose();
     // public System.Void SetContextInfo(System.String contextInfo)
     // Offset: 0x14F635C
-    void SetContextInfo(::Il2CppString* contextInfo);
+    void SetContextInfo(::StringW contextInfo);
     // public System.Void Reset()
     // Offset: 0x14F623C
     void Reset();
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::BindInfo::SetContextInfo
 // Il2CppName: SetContextInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::BindInfo::*)(::Il2CppString*)>(&Zenject::BindInfo::SetContextInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::BindInfo::*)(::StringW)>(&Zenject::BindInfo::SetContextInfo)> {
   static const MethodInfo* get() {
     static auto* contextInfo = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindInfo*), "SetContextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contextInfo});

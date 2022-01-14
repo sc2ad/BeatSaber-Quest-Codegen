@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,9 +41,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPseudoHDREncodingShaderName
     static constexpr const char* kPseudoHDREncodingShaderName = "Hidden/PseudoHDREncoding";
     // Get static field: static private System.String kPseudoHDREncodingShaderName
-    static ::Il2CppString* _get_kPseudoHDREncodingShaderName();
+    static ::StringW _get_kPseudoHDREncodingShaderName();
     // Set static field: static private System.String kPseudoHDREncodingShaderName
-    static void _set_kPseudoHDREncodingShaderName(::Il2CppString* value);
+    static void _set_kPseudoHDREncodingShaderName(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF4937C
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();

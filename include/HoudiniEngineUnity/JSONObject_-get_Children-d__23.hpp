@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -76,7 +77,7 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> <>7__wrap1
     // Size: 0xFFFFFFFF
     // Offset: 0x30
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator $$7__wrap1;
+    typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator $$7__wrap1;
     public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>() noexcept {
@@ -95,7 +96,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.JSONObject <>4__this
     HoudiniEngineUnity::JSONObject*& dyn_$$4__this();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> <>7__wrap1
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_$$7__wrap1();
+    typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_$$7__wrap1();
     // private HoudiniEngineUnity.JSONNode System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current()
     // Offset: 0x178E9D8
     HoudiniEngineUnity::JSONNode* System_Collections_Generic_IEnumerator$HoudiniEngineUnity_JSONNode$_get_Current();

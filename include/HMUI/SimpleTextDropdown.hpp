@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -93,9 +94,9 @@ namespace HMUI {
     // private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts;
+    System::Collections::Generic::IReadOnlyList_1<::StringW>* texts;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::StringW>*) == 0x8);
     // private System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x68
@@ -110,9 +111,9 @@ namespace HMUI {
     // static field const value: static private System.String kCellReuseIdentifier
     static constexpr const char* kCellReuseIdentifier = "Cell";
     // Get static field: static private System.String kCellReuseIdentifier
-    static ::Il2CppString* _get_kCellReuseIdentifier();
+    static ::StringW _get_kCellReuseIdentifier();
     // Set static field: static private System.String kCellReuseIdentifier
-    static void _set_kCellReuseIdentifier(::Il2CppString* value);
+    static void _set_kCellReuseIdentifier(::StringW value);
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private SimpleTextTableCell _cellPrefab
@@ -120,7 +121,7 @@ namespace HMUI {
     // Get instance field reference: private System.Single _cellSize
     float& dyn__cellSize();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__texts();
+    System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__texts();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // private System.Void LazyInit()
@@ -128,7 +129,7 @@ namespace HMUI {
     void LazyInit();
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
     // Offset: 0x14CDB7C
-    void SetTexts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts);
+    void SetTexts(System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
     // public System.Single CellSize()
     // Offset: 0x14CDEF8
     float CellSize();
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::SimpleTextDropdown::SetTexts
 // Il2CppName: SetTexts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&HMUI::SimpleTextDropdown::SetTexts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(&HMUI::SimpleTextDropdown::SetTexts)> {
   static const MethodInfo* get() {
     static auto* texts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "SetTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texts});

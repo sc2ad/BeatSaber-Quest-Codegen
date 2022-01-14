@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -129,9 +130,9 @@ namespace GlobalNamespace {
     // private System.String _nextText
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* nextText;
+    ::StringW nextText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _fade
     // Size: 0x4
     // Offset: 0x38
@@ -150,7 +151,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private TextFadeTransitions/State _state
     GlobalNamespace::TextFadeTransitions::State& dyn__state();
     // Get instance field reference: private System.String _nextText
-    ::Il2CppString*& dyn__nextText();
+    ::StringW& dyn__nextText();
     // Get instance field reference: private System.Single _fade
     float& dyn__fade();
     // protected System.Void Awake()
@@ -167,7 +168,7 @@ namespace GlobalNamespace {
     void RefreshTextAlpha();
     // public System.Void ShowText(System.String text)
     // Offset: 0x1203950
-    void ShowText(::Il2CppString* text);
+    void ShowText(::StringW text);
     // public System.Void .ctor()
     // Offset: 0x12039BC
     // Implemented from: UnityEngine.MonoBehaviour
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TextFadeTransitions::ShowText
 // Il2CppName: ShowText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TextFadeTransitions::*)(::Il2CppString*)>(&GlobalNamespace::TextFadeTransitions::ShowText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TextFadeTransitions::*)(::StringW)>(&GlobalNamespace::TextFadeTransitions::ShowText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextFadeTransitions*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

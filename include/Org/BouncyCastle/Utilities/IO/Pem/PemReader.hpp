@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -72,7 +73,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
     // private Org.BouncyCastle.Utilities.IO.Pem.PemObject LoadObject(System.String type)
     // Offset: 0x222B614
-    Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::Il2CppString* type);
+    Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemReader
   #pragma pack(pop)
   static check_size<sizeof(PemReader), 16 + sizeof(System::IO::TextReader*)> __Org_BouncyCastle_Utilities_IO_Pem_PemReaderSizeCheck;
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject
 // Il2CppName: LoadObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IO::Pem::PemObject* (Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IO::Pem::PemObject* (Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::StringW)>(&Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

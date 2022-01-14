@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {
@@ -42,26 +43,26 @@ namespace System::Reflection {
     // private System.String m_informationalVersion
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_informationalVersion;
+    ::StringW m_informationalVersion;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_informationalVersion;
     }
     // Get instance field reference: private System.String m_informationalVersion
-    ::Il2CppString*& dyn_m_informationalVersion();
+    ::StringW& dyn_m_informationalVersion();
     // public System.Void .ctor(System.String informationalVersion)
     // Offset: 0x1E8E6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssemblyInformationalVersionAttribute* New_ctor(::Il2CppString* informationalVersion) {
+    static AssemblyInformationalVersionAttribute* New_ctor(::StringW informationalVersion) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyInformationalVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyInformationalVersionAttribute*, creationType>(informationalVersion)));
     }
   }; // System.Reflection.AssemblyInformationalVersionAttribute
   #pragma pack(pop)
-  static check_size<sizeof(AssemblyInformationalVersionAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyInformationalVersionAttributeSizeCheck;
+  static check_size<sizeof(AssemblyInformationalVersionAttribute), 16 + sizeof(::StringW)> __System_Reflection_AssemblyInformationalVersionAttributeSizeCheck;
   static_assert(sizeof(AssemblyInformationalVersionAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

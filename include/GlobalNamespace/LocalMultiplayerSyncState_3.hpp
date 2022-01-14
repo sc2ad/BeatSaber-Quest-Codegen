@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool TryGetSerializedState(GlobalNamespace::IPacketPool_1<T>* pool, ByRef<T> serializable) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IPoolablePacket, std::remove_pointer_t<T>> && std::is_base_of_v<GlobalNamespace::ISyncStateSerializable_1<TStateTable>, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IPoolablePacket> && std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::ISyncStateSerializable_1<TStateTable>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::TryGetSerializedState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedState", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pool), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -139,7 +139,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool TryGetSerializedStateDelta(GlobalNamespace::IPacketPool_1<T>* pool, ByRef<T> serializable) {
-      static_assert(std::is_base_of_v<GlobalNamespace::IPoolablePacket, std::remove_pointer_t<T>> && std::is_base_of_v<GlobalNamespace::ISyncStateDeltaSerializable_1<TStateTable>, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IPoolablePacket> && std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::ISyncStateDeltaSerializable_1<TStateTable>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalMultiplayerSyncState_3::TryGetSerializedStateDelta");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetSerializedStateDelta", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(pool), ::il2cpp_utils::ExtractIndependentType<T&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

@@ -8,6 +8,7 @@
 // Including type: UnityEngine.Profiling.Experimental.DebugScreenCapture
 #include "UnityEngine/Profiling/Experimental/DebugScreenCapture.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,14 +54,14 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0xEB8B60
     // Get static field: static private System.Action`2<System.String,System.Boolean> m_SnapshotFinished
-    static System::Action_2<::Il2CppString*, bool>* _get_m_SnapshotFinished();
+    static System::Action_2<::StringW, bool>* _get_m_SnapshotFinished();
     // Set static field: static private System.Action`2<System.String,System.Boolean> m_SnapshotFinished
-    static void _set_m_SnapshotFinished(System::Action_2<::Il2CppString*, bool>* value);
+    static void _set_m_SnapshotFinished(System::Action_2<::StringW, bool>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xEB8B9C
     // Get static field: static private System.Action`3<System.String,System.Boolean,UnityEngine.Profiling.Experimental.DebugScreenCapture> m_SaveScreenshotToDisk
-    static System::Action_3<::Il2CppString*, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* _get_m_SaveScreenshotToDisk();
+    static System::Action_3<::StringW, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* _get_m_SaveScreenshotToDisk();
     // Set static field: static private System.Action`3<System.String,System.Boolean,UnityEngine.Profiling.Experimental.DebugScreenCapture> m_SaveScreenshotToDisk
-    static void _set_m_SaveScreenshotToDisk(System::Action_3<::Il2CppString*, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* value);
+    static void _set_m_SaveScreenshotToDisk(System::Action_3<::StringW, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xEB8BD8
     // Get static field: static private System.Action`1<UnityEngine.Profiling.Memory.Experimental.MetaData> createMetaData
     static System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData*>* _get_createMetaData();
@@ -74,13 +75,13 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static int WriteIntToByteArray(::ArrayW<uint8_t> array, int offset, int value);
     // static System.Int32 WriteStringToByteArray(System.Byte[] array, System.Int32 offset, System.String value)
     // Offset: 0x1DEF678
-    static int WriteStringToByteArray(::ArrayW<uint8_t> array, int offset, ::Il2CppString* value);
+    static int WriteStringToByteArray(::ArrayW<uint8_t> array, int offset, ::StringW value);
     // static private System.Void FinalizeSnapshot(System.String path, System.Boolean result)
     // Offset: 0x1DEF720
-    static void FinalizeSnapshot(::Il2CppString* path, bool result);
+    static void FinalizeSnapshot(::StringW path, bool result);
     // static private System.Void SaveScreenshotToDisk(System.String path, System.Boolean result, System.IntPtr pixelsPtr, System.Int32 pixelsCount, UnityEngine.TextureFormat format, System.Int32 width, System.Int32 height)
     // Offset: 0x1DEF7AC
-    static void SaveScreenshotToDisk(::Il2CppString* path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
+    static void SaveScreenshotToDisk(::StringW path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
   }; // UnityEngine.Profiling.Memory.Experimental.MemoryProfiler
   #pragma pack(pop)
 }
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray
 // Il2CppName: WriteStringToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, ::Il2CppString*)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, ::StringW)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::FinalizeSnapshot
 // Il2CppName: FinalizeSnapshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::FinalizeSnapshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::FinalizeSnapshot)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -128,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk
 // Il2CppName: SaveScreenshotToDisk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, System::IntPtr, int, UnityEngine::TextureFormat, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, System::IntPtr, int, UnityEngine::TextureFormat, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

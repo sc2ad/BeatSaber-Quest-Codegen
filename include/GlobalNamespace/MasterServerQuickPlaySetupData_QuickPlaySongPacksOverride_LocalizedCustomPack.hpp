@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -44,9 +45,9 @@ namespace GlobalNamespace {
     // public System.String serializedName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* serializedName;
+    ::StringW serializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 order
     // Size: 0x4
     // Offset: 0x18
@@ -64,18 +65,18 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> packIds
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<::Il2CppString*>* packIds;
+    System::Collections::Generic::List_1<::StringW>* packIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.String serializedName
-    ::Il2CppString*& dyn_serializedName();
+    ::StringW& dyn_serializedName();
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName[] localizedNames
     ::ArrayW<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>& dyn_localizedNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> packIds
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_packIds();
+    System::Collections::Generic::List_1<::StringW>*& dyn_packIds();
     // public System.Void .ctor()
     // Offset: 0x1158C2C
     // Implemented from: System.Object
@@ -87,7 +88,7 @@ namespace GlobalNamespace {
     }
   }; // MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack
   #pragma pack(pop)
-  static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
+  static check_size<sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

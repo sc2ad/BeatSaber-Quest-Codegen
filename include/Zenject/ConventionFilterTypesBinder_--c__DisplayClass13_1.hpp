@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -61,7 +62,7 @@ namespace Zenject {
     System::Type*& dyn_t();
     // System.Boolean <InNamespaces>b__1(System.String n)
     // Offset: 0x14FE758
-    bool $InNamespaces$b__1(::Il2CppString* n);
+    bool $InNamespaces$b__1(::StringW n);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x14FE760
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
@@ -86,7 +87,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::$InNamespaces$b__1
 // Il2CppName: <InNamespaces>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::$InNamespaces$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::*)(::StringW)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::$InNamespaces$b__1)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1*), "<InNamespaces>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -55,14 +56,14 @@ namespace GlobalNamespace {
     // public System.String audioClipFilePath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* audioClipFilePath;
+    ::StringW audioClipFilePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public AudioClipAsyncLoader <>4__this
     GlobalNamespace::AudioClipAsyncLoader*& dyn_$$4__this();
     // Get instance field reference: public System.String audioClipFilePath
-    ::Il2CppString*& dyn_audioClipFilePath();
+    ::StringW& dyn_audioClipFilePath();
     // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
     // Offset: 0x1313CE8
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* $Load$b__0();
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
     }
   }; // AudioClipAsyncLoader/<>c__DisplayClass17_0
   #pragma pack(pop)
-  static check_size<sizeof(AudioClipAsyncLoader::$$c__DisplayClass17_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AudioClipAsyncLoader_$$c__DisplayClass17_0SizeCheck;
+  static check_size<sizeof(AudioClipAsyncLoader::$$c__DisplayClass17_0), 24 + sizeof(::StringW)> __GlobalNamespace_AudioClipAsyncLoader_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(AudioClipAsyncLoader::$$c__DisplayClass17_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

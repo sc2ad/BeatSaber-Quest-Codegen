@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -55,17 +56,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String assemblyString
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* assemblyString;
+    ::StringW assemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // Get instance field reference: System.String assemblyString
-    ::Il2CppString*& dyn_assemblyString();
+    ::StringW& dyn_assemblyString();
     // System.Void Set(System.Int32 assemId, System.String assemblyString)
     // Offset: 0x185B480
-    void Set(int assemId, ::Il2CppString* assemblyString);
+    void Set(int assemId, ::StringW assemblyString);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x185B48C
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
@@ -86,14 +87,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryAssembly
   #pragma pack(pop)
-  static check_size<sizeof(BinaryAssembly), 24 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_BinaryAssemblySizeCheck;
+  static check_size<sizeof(BinaryAssembly), 24 + sizeof(::StringW)> __System_Runtime_Serialization_Formatters_Binary_BinaryAssemblySizeCheck;
   static_assert(sizeof(BinaryAssembly) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::*)(int, ::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::*)(int, ::StringW)>(&System::Runtime::Serialization::Formatters::Binary::BinaryAssembly::Set)> {
   static const MethodInfo* get() {
     static auto* assemId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

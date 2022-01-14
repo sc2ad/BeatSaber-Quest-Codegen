@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -149,7 +150,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(UnityEngine::AudioClip* audioClip);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.String audioClipFilePath)
     // Offset: 0x13133DC
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(::Il2CppString* audioClipFilePath);
+    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(::StringW audioClipFilePath);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.Int32 cacheKey, AudioClipAsyncLoader/LoadMethodDelegate loadMethodDelegate)
     // Offset: 0x131369C
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(int cacheKey, GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate* loadMethodDelegate);
@@ -158,7 +159,7 @@ namespace GlobalNamespace {
     void Unload(UnityEngine::AudioClip* audioClip);
     // private System.Void Unload(System.String audioClipFilePath)
     // Offset: 0x13135B8
-    void Unload(::Il2CppString* audioClipFilePath);
+    void Unload(::StringW audioClipFilePath);
     // public System.Void Unload(System.Int32 cacheKey, System.Action`1<UnityEngine.AudioClip> onDelete)
     // Offset: 0x1313AB4
     void Unload(int cacheKey, System::Action_1<UnityEngine::AudioClip*>* onDelete);
@@ -167,10 +168,10 @@ namespace GlobalNamespace {
     int GetCacheKey(UnityEngine::AudioClip* audioClip);
     // public System.Int32 GetCacheKey(System.String audioClipFilePath)
     // Offset: 0x1313880
-    int GetCacheKey(::Il2CppString* audioClipFilePath);
+    int GetCacheKey(::StringW audioClipFilePath);
     // static public System.Void LogError(System.String message)
     // Offset: 0x1313B84
-    static void LogError(::Il2CppString* message);
+    static void LogError(::StringW message);
   }; // AudioClipAsyncLoader
   #pragma pack(pop)
   static check_size<sizeof(AudioClipAsyncLoader), 24 + sizeof(GlobalNamespace::IMediaAsyncLoader*)> __GlobalNamespace_AudioClipAsyncLoaderSizeCheck;
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::Il2CppString*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* audioClipFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipFilePath});
@@ -329,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::Il2CppString*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* audioClipFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipFilePath});
@@ -357,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::GetCacheKey
 // Il2CppName: GetCacheKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AudioClipAsyncLoader::*)(::Il2CppString*)>(&GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
   static const MethodInfo* get() {
     static auto* audioClipFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "GetCacheKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipFilePath});
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::AudioClipAsyncLoader::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::LogError)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

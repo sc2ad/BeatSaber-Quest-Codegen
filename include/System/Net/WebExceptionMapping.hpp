@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -31,15 +32,15 @@ namespace System::Net {
   class WebExceptionMapping : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.String[] s_Mapping
-    static ::ArrayW<::Il2CppString*> _get_s_Mapping();
+    static ::ArrayW<::StringW> _get_s_Mapping();
     // Set static field: static private readonly System.String[] s_Mapping
-    static void _set_s_Mapping(::ArrayW<::Il2CppString*> value);
+    static void _set_s_Mapping(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
     // Offset: 0x17F384C
     static void _cctor();
     // static System.String GetWebStatusString(System.Net.WebExceptionStatus status)
     // Offset: 0x17F3694
-    static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus status);
+    static ::StringW GetWebStatusString(System::Net::WebExceptionStatus status);
   }; // System.Net.WebExceptionMapping
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::WebExceptionMapping::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::WebExceptionMapping::GetWebStatusString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::WebExceptionStatus)>(&System::Net::WebExceptionMapping::GetWebStatusString)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status});

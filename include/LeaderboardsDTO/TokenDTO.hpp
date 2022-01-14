@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
@@ -38,9 +39,9 @@ namespace LeaderboardsDTO {
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* token;
+    ::StringW token;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 expireIn
     // Size: 0x4
     // Offset: 0x18
@@ -49,7 +50,7 @@ namespace LeaderboardsDTO {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String token
-    ::Il2CppString*& dyn_token();
+    ::StringW& dyn_token();
     // Get instance field reference: public System.Int32 expireIn
     int& dyn_expireIn();
     // public System.Void .ctor()

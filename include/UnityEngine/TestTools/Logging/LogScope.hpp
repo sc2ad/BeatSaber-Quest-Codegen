@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Logging
@@ -135,9 +136,9 @@ namespace UnityEngine::TestTools::Logging {
     // private System.String <NUnitExceptionMessage>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* NUnitExceptionMessage;
+    ::StringW NUnitExceptionMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
@@ -170,7 +171,7 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.Boolean <IsNUnitIgnoreException>k__BackingField
     bool& dyn_$IsNUnitIgnoreException$k__BackingField();
     // Get instance field reference: private System.String <NUnitExceptionMessage>k__BackingField
-    ::Il2CppString*& dyn_$NUnitExceptionMessage$k__BackingField();
+    ::StringW& dyn_$NUnitExceptionMessage$k__BackingField();
     // public System.Collections.Generic.Queue`1<UnityEngine.TestTools.Logging.LogMatch> get_ExpectedLogs()
     // Offset: 0x16D0258
     System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* get_ExpectedLogs();
@@ -203,7 +204,7 @@ namespace UnityEngine::TestTools::Logging {
     void set_IsNUnitIgnoreException(bool value);
     // private System.Void set_NUnitExceptionMessage(System.String value)
     // Offset: 0x16D02BC
-    void set_NUnitExceptionMessage(::Il2CppString* value);
+    void set_NUnitExceptionMessage(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x16D0E90
     static void _cctor();
@@ -221,10 +222,10 @@ namespace UnityEngine::TestTools::Logging {
     static void UnregisterScope(UnityEngine::TestTools::Logging::LogScope* logScope);
     // public System.Void AddLog(System.String message, System.String stacktrace, UnityEngine.LogType type)
     // Offset: 0x16D0574
-    void AddLog(::Il2CppString* message, ::Il2CppString* stacktrace, UnityEngine::LogType type);
+    void AddLog(::StringW message, ::StringW stacktrace, UnityEngine::LogType type);
     // static private System.Boolean IsNUnitResultStateException(System.String stacktrace, UnityEngine.LogType logType)
     // Offset: 0x16D08A0
-    static bool IsNUnitResultStateException(::Il2CppString* stacktrace, UnityEngine::LogType logType);
+    static bool IsNUnitResultStateException(::StringW stacktrace, UnityEngine::LogType logType);
     // static private System.Boolean IsFailingLog(UnityEngine.LogType type)
     // Offset: 0x16D093C
     static bool IsFailingLog(UnityEngine::LogType type);
@@ -254,7 +255,7 @@ namespace UnityEngine::TestTools::Logging {
     }
   }; // UnityEngine.TestTools.Logging.LogScope
   #pragma pack(pop)
-  static check_size<sizeof(LogScope), 64 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Logging_LogScopeSizeCheck;
+  static check_size<sizeof(LogScope), 64 + sizeof(::StringW)> __UnityEngine_TestTools_Logging_LogScopeSizeCheck;
   static_assert(sizeof(LogScope) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -347,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage
 // Il2CppName: set_NUnitExceptionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::StringW)>(&UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_NUnitExceptionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -398,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::AddLog
 // Il2CppName: AddLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::AddLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::StringW, ::StringW, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::AddLog)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stacktrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -409,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException
 // Il2CppName: IsNUnitResultStateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException)> {
   static const MethodInfo* get() {
     static auto* stacktrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;

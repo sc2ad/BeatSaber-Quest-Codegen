@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -61,7 +62,7 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(System.String algorithm)
     // Offset: 0x1526F84
-    static Org::BouncyCastle::Crypto::IDigest* GetDigest(::Il2CppString* algorithm);
+    static Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
     // static public System.Byte[] DoFinal(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1527910
     static ::ArrayW<uint8_t> DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::GetDigest
 // Il2CppName: GetDigest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IDigest* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IDigest* (*)(::StringW)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "GetDigest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});

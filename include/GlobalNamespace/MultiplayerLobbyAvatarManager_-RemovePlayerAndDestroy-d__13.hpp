@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -65,9 +66,9 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public MultiplayerLobbyAvatarController multiplayerAvatar
     // Size: 0x8
     // Offset: 0x30
@@ -86,7 +87,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerLobbyAvatarManager <>4__this
     GlobalNamespace::MultiplayerLobbyAvatarManager*& dyn_$$4__this();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public MultiplayerLobbyAvatarController multiplayerAvatar
     GlobalNamespace::MultiplayerLobbyAvatarController*& dyn_multiplayerAvatar();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()

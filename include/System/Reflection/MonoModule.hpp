@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -67,7 +68,7 @@ namespace System::Reflection {
     // Offset: 0x1E9AA80
     // Implemented from: System.Reflection.Module
     // Base method: System.String Module::get_ScopeName()
-    ::Il2CppString* get_ScopeName();
+    ::StringW get_ScopeName();
     // public override System.Guid get_ModuleVersionId()
     // Offset: 0x1E9AA88
     // Implemented from: System.Reflection.Module
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_ScopeName
 // Il2CppName: get_ScopeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ScopeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ScopeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_ScopeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

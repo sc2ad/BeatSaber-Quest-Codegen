@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -48,30 +49,30 @@ namespace System::Net {
     // private readonly System.String statusDescription
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* statusDescription;
+    ::StringW statusDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
     System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription
-    ::Il2CppString*& dyn_statusDescription();
+    ::StringW& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
     // Offset: 0x15F6FA4
     System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
     // Offset: 0x15F6FAC
-    ::Il2CppString* get_StatusDescription();
+    ::StringW get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
     // Offset: 0x15F6F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
+    static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpStatus*, creationType>(statusCode, statusDescription)));
     }
   }; // System.Net.FtpStatus
   #pragma pack(pop)
-  static check_size<sizeof(FtpStatus), 24 + sizeof(::Il2CppString*)> __System_Net_FtpStatusSizeCheck;
+  static check_size<sizeof(FtpStatus), 24 + sizeof(::StringW)> __System_Net_FtpStatusSizeCheck;
   static_assert(sizeof(FtpStatus) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusDescription
 // Il2CppName: get_StatusDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

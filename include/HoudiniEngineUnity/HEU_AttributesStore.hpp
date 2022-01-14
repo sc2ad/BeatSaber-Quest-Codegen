@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -95,9 +96,9 @@ namespace HoudiniEngineUnity {
     // private System.String _geoName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* geoName;
+    ::StringW geoName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_AttributeData> _attributeDatas
     // Size: 0x8
     // Offset: 0x28
@@ -202,7 +203,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Int32 _partID
     int& dyn__partID();
     // Get instance field reference: private System.String _geoName
-    ::Il2CppString*& dyn__geoName();
+    ::StringW& dyn__geoName();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_AttributeData> _attributeDatas
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_AttributeData*>*& dyn__attributeDatas();
     // Get instance field reference: private System.Boolean _hasColorAttribute
@@ -241,7 +242,7 @@ namespace HoudiniEngineUnity {
     int get_PartID();
     // public System.String get_GeoName()
     // Offset: 0x14675E8
-    ::Il2CppString* get_GeoName();
+    ::StringW get_GeoName();
     // public UnityEngine.Transform get_OutputTransform()
     // Offset: 0x14675F8
     UnityEngine::Transform* get_OutputTransform();
@@ -292,16 +293,16 @@ namespace HoudiniEngineUnity {
     static void SetAttributeDataDirty(HoudiniEngineUnity::HEU_AttributeData* attributeData);
     // public HoudiniEngineUnity.HEU_AttributeData CreateAttribute(System.String attributeName, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo)
     // Offset: 0x1467DEC
-    HoudiniEngineUnity::HEU_AttributeData* CreateAttribute(::Il2CppString* attributeName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
+    HoudiniEngineUnity::HEU_AttributeData* CreateAttribute(::StringW attributeName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // public HoudiniEngineUnity.HEU_AttributeData GetAttributeData(System.String name)
     // Offset: 0x1467CC0
-    HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(::Il2CppString* name);
+    HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(::StringW name);
     // public HoudiniEngineUnity.HEU_AttributeData GetAttributeData(System.Int32 index)
     // Offset: 0x146982C
     HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(int index);
     // public System.Collections.Generic.List`1<System.String> GetAttributeNames()
     // Offset: 0x14698B4
-    System::Collections::Generic::List_1<::Il2CppString*>* GetAttributeNames();
+    System::Collections::Generic::List_1<::StringW>* GetAttributeNames();
     // public System.Void EnablePaintCollider()
     // Offset: 0x14699F8
     void EnablePaintCollider();
@@ -331,7 +332,7 @@ namespace HoudiniEngineUnity {
     static void SetAttributeEditValueFloat(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<float> values);
     // static public System.Void SetAttributeEditValueString(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.String[] values)
     // Offset: 0x146A61C
-    static void SetAttributeEditValueString(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<::Il2CppString*> values);
+    static void SetAttributeEditValueString(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<::StringW> values);
     // static public System.Void ReplaceAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
     // Offset: 0x146A704
     static void ReplaceAttributeValueInt(HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
@@ -419,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::get_GeoName
 // Il2CppName: get_GeoName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_AttributesStore::*)()>(&HoudiniEngineUnity::HEU_AttributesStore::get_GeoName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_AttributesStore::*)()>(&HoudiniEngineUnity::HEU_AttributesStore::get_GeoName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "get_GeoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -590,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::CreateAttribute
 // Il2CppName: CreateAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributeData* (HoudiniEngineUnity::HEU_AttributesStore::*)(::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_AttributesStore::CreateAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributeData* (HoudiniEngineUnity::HEU_AttributesStore::*)(::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_AttributesStore::CreateAttribute)> {
   static const MethodInfo* get() {
     static auto* attributeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attributeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
@@ -600,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::GetAttributeData
 // Il2CppName: GetAttributeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributeData* (HoudiniEngineUnity::HEU_AttributesStore::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AttributesStore::GetAttributeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_AttributeData* (HoudiniEngineUnity::HEU_AttributesStore::*)(::StringW)>(&HoudiniEngineUnity::HEU_AttributesStore::GetAttributeData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetAttributeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -618,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::GetAttributeNames
 // Il2CppName: GetAttributeNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (HoudiniEngineUnity::HEU_AttributesStore::*)()>(&HoudiniEngineUnity::HEU_AttributesStore::GetAttributeNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (HoudiniEngineUnity::HEU_AttributesStore::*)()>(&HoudiniEngineUnity::HEU_AttributesStore::GetAttributeNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetAttributeNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -709,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString
 // Il2CppName: SetAttributeEditValueString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayW<::StringW>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString)> {
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

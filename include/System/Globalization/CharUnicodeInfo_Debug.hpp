@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Globalization.CharUnicodeInfo
 #include "System/Globalization/CharUnicodeInfo.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Globalization::CharUnicodeInfo::Debug);
@@ -21,7 +22,7 @@ namespace System::Globalization {
     public:
     // static System.Void Assert(System.Boolean condition, System.String message)
     // Offset: 0x19AE834
-    static void Assert_(bool condition, ::Il2CppString* message);
+    static void Assert_(bool condition, ::StringW message);
   }; // System.Globalization.CharUnicodeInfo/System.Globalization.Debug
   #pragma pack(pop)
 }
@@ -29,7 +30,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::Debug::Assert_
 // Il2CppName: Assert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&System::Globalization::CharUnicodeInfo::Debug::Assert_)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::StringW)>(&System::Globalization::CharUnicodeInfo::Debug::Assert_)> {
   static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

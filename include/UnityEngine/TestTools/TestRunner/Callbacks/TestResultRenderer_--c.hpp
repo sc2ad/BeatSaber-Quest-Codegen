@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,15 +43,15 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static public readonly UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer/UnityEngine.TestTools.TestRunner.Callbacks.<>c <>9
     static void _set_$$9(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c* value);
     // Get static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__8_0
-    static System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::Il2CppString*>* _get_$$9__8_0();
+    static System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::StringW>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::Il2CppString*>* value);
+    static void _set_$$9__8_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x16D43B0
     static void _cctor();
     // System.String <Draw>b__8_0(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x16D441C
-    ::Il2CppString* $Draw$b__8_0(NUnit::Framework::Interfaces::ITestResult* result);
+    ::StringW $Draw$b__8_0(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
     // Offset: 0x16D4414
     // Implemented from: System.Object
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::$Draw$b__8_0
 // Il2CppName: <Draw>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::$Draw$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c::$Draw$b__8_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c*), "<Draw>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

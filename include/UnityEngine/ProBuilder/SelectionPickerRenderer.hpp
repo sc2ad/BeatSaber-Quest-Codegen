@@ -16,6 +16,7 @@
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -89,9 +90,9 @@ namespace UnityEngine::ProBuilder {
     // static field const value: static private System.String k_FacePickerOcclusionTintUniform
     static constexpr const char* k_FacePickerOcclusionTintUniform = "_Tint";
     // Get static field: static private System.String k_FacePickerOcclusionTintUniform
-    static ::Il2CppString* _get_k_FacePickerOcclusionTintUniform();
+    static ::StringW _get_k_FacePickerOcclusionTintUniform();
     // Set static field: static private System.String k_FacePickerOcclusionTintUniform
-    static void _set_k_FacePickerOcclusionTintUniform(::Il2CppString* value);
+    static void _set_k_FacePickerOcclusionTintUniform(::StringW value);
     // Get static field: static private readonly UnityEngine.Color k_Blackf
     static UnityEngine::Color _get_k_Blackf();
     // Set static field: static private readonly UnityEngine.Color k_Blackf

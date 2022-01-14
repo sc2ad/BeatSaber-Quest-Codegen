@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__color();
     // public System.Void SetScore(System.Int32 score, System.String playerName, System.Int32 rank, System.Boolean highlighted, System.Boolean showSeparator)
     // Offset: 0x11A22A8
-    void SetScore(int score, ::Il2CppString* playerName, int rank, bool highlighted, bool showSeparator);
+    void SetScore(int score, ::StringW playerName, int rank, bool highlighted, bool showSeparator);
     // public System.Void .ctor()
     // Offset: 0x11A2448
     // Implemented from: UnityEngine.MonoBehaviour
@@ -106,7 +107,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::SetScore
 // Il2CppName: SetScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardEntry::*)(int, ::Il2CppString*, int, bool, bool)>(&GlobalNamespace::LeaderboardEntry::SetScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardEntry::*)(int, ::StringW, int, bool, bool)>(&GlobalNamespace::LeaderboardEntry::SetScore)> {
   static const MethodInfo* get() {
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

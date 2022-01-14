@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -54,28 +55,28 @@ namespace GlobalNamespace {
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* descriptionLocalizationKey;
+    ::StringW descriptionLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [LocalizationKeyAttribute] Offset: 0xF36950
     // private System.String _characteristicNameLocalizationKey
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* characteristicNameLocalizationKey;
+    ::StringW characteristicNameLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _serializedName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* serializedName;
+    ::StringW serializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _compoundIdPartName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* compoundIdPartName;
+    ::StringW compoundIdPartName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _sortingOrder
     // Size: 0x4
     // Offset: 0x40
@@ -108,13 +109,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     UnityEngine::Sprite*& dyn__icon();
     // Get instance field reference: private System.String _descriptionLocalizationKey
-    ::Il2CppString*& dyn__descriptionLocalizationKey();
+    ::StringW& dyn__descriptionLocalizationKey();
     // Get instance field reference: private System.String _characteristicNameLocalizationKey
-    ::Il2CppString*& dyn__characteristicNameLocalizationKey();
+    ::StringW& dyn__characteristicNameLocalizationKey();
     // Get instance field reference: private System.String _serializedName
-    ::Il2CppString*& dyn__serializedName();
+    ::StringW& dyn__serializedName();
     // Get instance field reference: private System.String _compoundIdPartName
-    ::Il2CppString*& dyn__compoundIdPartName();
+    ::StringW& dyn__compoundIdPartName();
     // Get instance field reference: private System.Int32 _sortingOrder
     int& dyn__sortingOrder();
     // Get instance field reference: private System.Boolean _containsRotationEvents
@@ -128,16 +129,16 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* get_icon();
     // public System.String get_descriptionLocalizationKey()
     // Offset: 0x12CA7E4
-    ::Il2CppString* get_descriptionLocalizationKey();
+    ::StringW get_descriptionLocalizationKey();
     // public System.String get_characteristicNameLocalizationKey()
     // Offset: 0x12CA7EC
-    ::Il2CppString* get_characteristicNameLocalizationKey();
+    ::StringW get_characteristicNameLocalizationKey();
     // public System.String get_serializedName()
     // Offset: 0x12CA7F4
-    ::Il2CppString* get_serializedName();
+    ::StringW get_serializedName();
     // public System.String get_compoundIdPartName()
     // Offset: 0x12CA7FC
-    ::Il2CppString* get_compoundIdPartName();
+    ::StringW get_compoundIdPartName();
     // public System.Int32 get_sortingOrder()
     // Offset: 0x12CA804
     int get_sortingOrder();
@@ -179,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSO::get_descriptionLocalizationKey
 // Il2CppName: get_descriptionLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_descriptionLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_descriptionLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSO*), "get_descriptionLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSO::get_characteristicNameLocalizationKey
 // Il2CppName: get_characteristicNameLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_characteristicNameLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_characteristicNameLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSO*), "get_characteristicNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSO::get_serializedName
 // Il2CppName: get_serializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_serializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_serializedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSO*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSO::get_compoundIdPartName
 // Il2CppName: get_compoundIdPartName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_compoundIdPartName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapCharacteristicSO::*)()>(&GlobalNamespace::BeatmapCharacteristicSO::get_compoundIdPartName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSO*), "get_compoundIdPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

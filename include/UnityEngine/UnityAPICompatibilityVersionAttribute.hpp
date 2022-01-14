@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -42,30 +43,30 @@ namespace UnityEngine {
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] _configurationAssembliesHashes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> configurationAssembliesHashes;
+    ::ArrayW<::StringW> configurationAssembliesHashes;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: private System.String _version
-    ::Il2CppString*& dyn__version();
+    ::StringW& dyn__version();
     // Get instance field reference: private System.String[] _configurationAssembliesHashes
-    ::ArrayW<::Il2CppString*>& dyn__configurationAssembliesHashes();
+    ::ArrayW<::StringW>& dyn__configurationAssembliesHashes();
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
     // Offset: 0x243A68C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::ArrayW<::Il2CppString*> configurationAssembliesHashes) {
+    static UnityAPICompatibilityVersionAttribute* New_ctor(::StringW version, ::ArrayW<::StringW> configurationAssembliesHashes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityAPICompatibilityVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAPICompatibilityVersionAttribute*, creationType>(version, configurationAssembliesHashes)));
     }
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
   #pragma pack(pop)
-  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
+  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayW<::StringW>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
   static_assert(sizeof(UnityAPICompatibilityVersionAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

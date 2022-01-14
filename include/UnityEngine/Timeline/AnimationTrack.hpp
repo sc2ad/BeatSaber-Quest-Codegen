@@ -21,6 +21,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -236,15 +237,15 @@ namespace UnityEngine::Timeline {
     // static field const value: static private System.String k_DefaultInfiniteClipName
     static constexpr const char* k_DefaultInfiniteClipName = "Recorded";
     // Get static field: static private System.String k_DefaultInfiniteClipName
-    static ::Il2CppString* _get_k_DefaultInfiniteClipName();
+    static ::StringW _get_k_DefaultInfiniteClipName();
     // Set static field: static private System.String k_DefaultInfiniteClipName
-    static void _set_k_DefaultInfiniteClipName(::Il2CppString* value);
+    static void _set_k_DefaultInfiniteClipName(::StringW value);
     // static field const value: static private System.String k_DefaultRecordableClipName
     static constexpr const char* k_DefaultRecordableClipName = "Recorded";
     // Get static field: static private System.String k_DefaultRecordableClipName
-    static ::Il2CppString* _get_k_DefaultRecordableClipName();
+    static ::StringW _get_k_DefaultRecordableClipName();
     // Set static field: static private System.String k_DefaultRecordableClipName
-    static void _set_k_DefaultRecordableClipName(::Il2CppString* value);
+    static void _set_k_DefaultRecordableClipName(::StringW value);
     // Get static field: static private readonly System.Collections.Generic.Queue`1<UnityEngine.Transform> s_CachedQueue
     static System::Collections::Generic::Queue_1<UnityEngine::Transform*>* _get_s_CachedQueue();
     // Set static field: static private readonly System.Collections.Generic.Queue`1<UnityEngine.Transform> s_CachedQueue
@@ -434,10 +435,10 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TimelineClip* CreateClip(UnityEngine::AnimationClip* clip);
     // public System.Void CreateInfiniteClip(System.String infiniteClipName)
     // Offset: 0x19F3FA0
-    void CreateInfiniteClip(::Il2CppString* infiniteClipName);
+    void CreateInfiniteClip(::StringW infiniteClipName);
     // public UnityEngine.Timeline.TimelineClip CreateRecordableClip(System.String animClipName)
     // Offset: 0x19F40A4
-    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::Il2CppString* animClipName);
+    UnityEngine::Timeline::TimelineClip* CreateRecordableClip(::StringW animClipName);
     // System.Void UpdateClipOffsets()
     // Offset: 0x19F3CB4
     void UpdateClipOffsets();
@@ -497,7 +498,7 @@ namespace UnityEngine::Timeline {
     bool AnimatesRootTransform();
     // static private UnityEngine.Transform FindInHierarchyBreadthFirst(UnityEngine.Transform t, System.String name)
     // Offset: 0x19F6A30
-    static UnityEngine::Transform* FindInHierarchyBreadthFirst(UnityEngine::Transform* t, ::Il2CppString* name);
+    static UnityEngine::Transform* FindInHierarchyBreadthFirst(UnityEngine::Transform* t, ::StringW name);
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
     // Offset: 0x19F39E8
     // Implemented from: UnityEngine.Timeline.TrackAsset
@@ -985,7 +986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::CreateInfiniteClip
 // Il2CppName: CreateInfiniteClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationTrack::*)(::Il2CppString*)>(&UnityEngine::Timeline::AnimationTrack::CreateInfiniteClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationTrack::*)(::StringW)>(&UnityEngine::Timeline::AnimationTrack::CreateInfiniteClip)> {
   static const MethodInfo* get() {
     static auto* infiniteClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationTrack*), "CreateInfiniteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{infiniteClipName});
@@ -994,7 +995,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::CreateRecordableClip
 // Il2CppName: CreateRecordableClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AnimationTrack::*)(::Il2CppString*)>(&UnityEngine::Timeline::AnimationTrack::CreateRecordableClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AnimationTrack::*)(::StringW)>(&UnityEngine::Timeline::AnimationTrack::CreateRecordableClip)> {
   static const MethodInfo* get() {
     static auto* animClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationTrack*), "CreateRecordableClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animClipName});
@@ -1194,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::FindInHierarchyBreadthFirst
 // Il2CppName: FindInHierarchyBreadthFirst
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&UnityEngine::Timeline::AnimationTrack::FindInHierarchyBreadthFirst)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::StringW)>(&UnityEngine::Timeline::AnimationTrack::FindInHierarchyBreadthFirst)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

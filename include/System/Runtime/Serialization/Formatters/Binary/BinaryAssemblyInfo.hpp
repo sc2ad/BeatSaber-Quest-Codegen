@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -45,9 +46,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String assemblyString
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* assemblyString;
+    ::StringW assemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Reflection.Assembly assembly
     // Size: 0x8
     // Offset: 0x18
@@ -56,20 +57,20 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
     public:
     // Get instance field reference: System.String assemblyString
-    ::Il2CppString*& dyn_assemblyString();
+    ::StringW& dyn_assemblyString();
     // Get instance field reference: private System.Reflection.Assembly assembly
     System::Reflection::Assembly*& dyn_assembly();
     // System.Void .ctor(System.String assemblyString)
     // Offset: 0x185B568
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString) {
+    static BinaryAssemblyInfo* New_ctor(::StringW assemblyString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString)));
     }
     // System.Void .ctor(System.String assemblyString, System.Reflection.Assembly assembly)
     // Offset: 0x185B594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BinaryAssemblyInfo* New_ctor(::Il2CppString* assemblyString, System::Reflection::Assembly* assembly) {
+    static BinaryAssemblyInfo* New_ctor(::StringW assemblyString, System::Reflection::Assembly* assembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryAssemblyInfo*, creationType>(assemblyString, assembly)));
     }

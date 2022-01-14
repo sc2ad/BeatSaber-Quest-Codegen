@@ -22,6 +22,7 @@
 // Including type: OVRPlugin/Rectf
 #include "GlobalNamespace/OVRPlugin_Rectf.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerDesc, "", "OVRPlugin/LayerDesc");
@@ -158,7 +159,7 @@ namespace GlobalNamespace {
     // Offset: 0x186F378
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // OVRPlugin/LayerDesc
   #pragma pack(pop)
   static check_size<sizeof(OVRPlugin::LayerDesc), 68 + sizeof(GlobalNamespace::OVRPlugin::Sizei)> __GlobalNamespace_OVRPlugin_LayerDescSizeCheck;
@@ -168,7 +169,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::LayerDesc::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRPlugin::LayerDesc::*)()>(&GlobalNamespace::OVRPlugin::LayerDesc::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OVRPlugin::LayerDesc::*)()>(&GlobalNamespace::OVRPlugin::LayerDesc::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::LayerDesc), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

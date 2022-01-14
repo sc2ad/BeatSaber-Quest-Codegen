@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -235,15 +236,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String previousAssemblyString
     // Size: 0x8
     // Offset: 0xB8
-    ::Il2CppString* previousAssemblyString;
+    ::StringW previousAssemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String previousName
     // Size: 0x8
     // Offset: 0xC0
-    ::Il2CppString* previousName;
+    ::StringW previousName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type previousType
     // Size: 0x8
     // Offset: 0xC8
@@ -294,9 +295,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.NameCache typeCache
     System::Runtime::Serialization::Formatters::Binary::NameCache*& dyn_typeCache();
     // Get instance field reference: private System.String previousAssemblyString
-    ::Il2CppString*& dyn_previousAssemblyString();
+    ::StringW& dyn_previousAssemblyString();
     // Get instance field reference: private System.String previousName
-    ::Il2CppString*& dyn_previousName();
+    ::StringW& dyn_previousName();
     // Get instance field reference: private System.Type previousType
     System::Type*& dyn_previousType();
     // private System.Runtime.Serialization.Formatters.Binary.SerStack get_ValueFixupStack()
@@ -335,7 +336,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes)
     // Offset: 0x1861950
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::ArrayW<::Il2CppString*> memberNames, ::ArrayW<System::Type*> memberTypes);
+    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::ArrayW<::StringW> memberNames, ::ArrayW<System::Type*> memberTypes);
     // System.Void Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
     // Offset: 0x1862DDC
     void Parse(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
@@ -386,19 +387,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int64_t GetId(int64_t objectId);
     // System.Type Bind(System.String assemblyString, System.String typeString)
     // Offset: 0x1865D1C
-    System::Type* Bind(::Il2CppString* assemblyString, ::Il2CppString* typeString);
+    System::Type* Bind(::StringW assemblyString, ::StringW typeString);
     // System.Type FastBindToType(System.String assemblyName, System.String typeName)
     // Offset: 0x1865D84
-    System::Type* FastBindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
+    System::Type* FastBindToType(::StringW assemblyName, ::StringW typeName);
     // static private System.Reflection.Assembly ResolveSimpleAssemblyName(System.Reflection.AssemblyName assemblyName)
     // Offset: 0x186605C
     static System::Reflection::Assembly* ResolveSimpleAssemblyName(System::Reflection::AssemblyName* assemblyName);
     // static private System.Void GetSimplyNamedTypeFromAssembly(System.Reflection.Assembly assm, System.String typeName, ref System.Type type)
     // Offset: 0x18660C8
-    static void GetSimplyNamedTypeFromAssembly(System::Reflection::Assembly* assm, ::Il2CppString* typeName, ByRef<System::Type*> type);
+    static void GetSimplyNamedTypeFromAssembly(System::Reflection::Assembly* assm, ::StringW typeName, ByRef<System::Type*> type);
     // System.Type GetType(System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo assemblyInfo, System.String name)
     // Offset: 0x185C7E8
-    System::Type* GetType(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::Il2CppString* name);
+    System::Type* GetType(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::StringW name);
     // static private System.Void CheckTypeForwardedTo(System.Reflection.Assembly sourceAssembly, System.Reflection.Assembly destAssembly, System.Type resolvedType)
     // Offset: 0x18662E8
     static void CheckTypeForwardedTo(System::Reflection::Assembly* sourceAssembly, System::Reflection::Assembly* destAssembly, System::Type* resolvedType);
@@ -495,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo
 // Il2CppName: CreateReadObjectInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Type*, ::ArrayW<::Il2CppString*>, ::ArrayW<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Type*, ::ArrayW<::StringW>, ::ArrayW<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo)> {
   static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -657,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::Bind
 // Il2CppName: Bind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::Bind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(::StringW, ::StringW)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::Bind)> {
   static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -667,7 +668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::FastBindToType
 // Il2CppName: FastBindToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::FastBindToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(::StringW, ::StringW)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::FastBindToType)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -686,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetSimplyNamedTypeFromAssembly
 // Il2CppName: GetSimplyNamedTypeFromAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*, ::Il2CppString*, ByRef<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetSimplyNamedTypeFromAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*, ::StringW, ByRef<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetSimplyNamedTypeFromAssembly)> {
   static const MethodInfo* get() {
     static auto* assm = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -697,7 +698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::StringW)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::GetType)> {
   static const MethodInfo* get() {
     static auto* assemblyInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

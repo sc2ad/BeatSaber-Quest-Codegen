@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -48,29 +49,29 @@ namespace System::IO {
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _fusionLog
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* fusionLog;
+    ::StringW fusionLog;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private System.String _fileName
-    ::Il2CppString*& dyn__fileName();
+    ::StringW& dyn__fileName();
     // Get instance field reference: private System.String _fusionLog
-    ::Il2CppString*& dyn__fusionLog();
+    ::StringW& dyn__fusionLog();
     // public System.String get_FusionLog()
     // Offset: 0x1AFC938
-    ::Il2CppString* get_FusionLog();
+    ::StringW get_FusionLog();
     // public System.Void .ctor(System.String message, System.String fileName)
     // Offset: 0x1AFA6C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileNotFoundException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName) {
+    static FileNotFoundException* New_ctor(::StringW message, ::StringW fileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>(message, fileName)));
     }
@@ -81,7 +82,7 @@ namespace System::IO {
     // Offset: 0x1AFC4A8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x1AFC3D8
     // Implemented from: System.IO.IOException
@@ -101,7 +102,7 @@ namespace System::IO {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileNotFoundException* New_ctor(::Il2CppString* message) {
+    static FileNotFoundException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileNotFoundException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileNotFoundException*, creationType>(message)));
     }
@@ -120,7 +121,7 @@ namespace System::IO {
     // Offset: 0x1AFC550
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1AFC940
     // Implemented from: System.Exception
@@ -128,14 +129,14 @@ namespace System::IO {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileNotFoundException
   #pragma pack(pop)
-  static check_size<sizeof(FileNotFoundException), 152 + sizeof(::Il2CppString*)> __System_IO_FileNotFoundExceptionSizeCheck;
+  static check_size<sizeof(FileNotFoundException), 152 + sizeof(::StringW)> __System_IO_FileNotFoundExceptionSizeCheck;
   static_assert(sizeof(FileNotFoundException) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileNotFoundException::get_FusionLog
 // Il2CppName: get_FusionLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::get_FusionLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::get_FusionLog)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileNotFoundException*), "get_FusionLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileNotFoundException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileNotFoundException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileNotFoundException::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileNotFoundException::*)()>(&System::IO::FileNotFoundException::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileNotFoundException*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

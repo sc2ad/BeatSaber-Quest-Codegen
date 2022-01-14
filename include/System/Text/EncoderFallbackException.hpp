@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -71,8 +72,8 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private System.Char charUnknown
     ::Il2CppChar& dyn_charUnknown();
     // Get instance field reference: private System.Char charUnknownHigh
@@ -84,14 +85,14 @@ namespace System::Text {
     // System.Void .ctor(System.String message, System.Char charUnknown, System.Int32 index)
     // Offset: 0x1EF9F5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknown, int index) {
+    static EncoderFallbackException* New_ctor(::StringW message, ::Il2CppChar charUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknown, index)));
     }
     // System.Void .ctor(System.String message, System.Char charUnknownHigh, System.Char charUnknownLow, System.Int32 index)
     // Offset: 0x1EF9F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EncoderFallbackException* New_ctor(::Il2CppString* message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index) {
+    static EncoderFallbackException* New_ctor(::StringW message, ::Il2CppChar charUnknownHigh, ::Il2CppChar charUnknownLow, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackException*, creationType>(message, charUnknownHigh, charUnknownLow, index)));
     }

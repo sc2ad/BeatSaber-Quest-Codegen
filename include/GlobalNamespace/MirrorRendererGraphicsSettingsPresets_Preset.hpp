@@ -137,8 +137,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: public MirrorRendererGraphicsSettingsPresets/Preset/MirrorType mirrorType
     GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType& dyn_mirrorType();
     // Get instance field reference: public UnityEngine.LayerMask reflectLayers

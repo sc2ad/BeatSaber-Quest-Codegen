@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -51,9 +52,9 @@ namespace TMPro {
     // public System.String name
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 hashCode
     // Size: 0x4
     // Offset: 0x40
@@ -80,7 +81,7 @@ namespace TMPro {
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: public System.Int32 hashCode
     int& dyn_hashCode();
     // Get instance field reference: public System.Int32 unicode

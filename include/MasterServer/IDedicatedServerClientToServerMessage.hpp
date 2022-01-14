@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IDedicatedServerMessage
 #include "MasterServer/IDedicatedServerMessage.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
   // Forward declaring type: IDedicatedServerClientToServerMessage
@@ -33,7 +31,7 @@ namespace MasterServer {
     }
     // public System.String get_dedicatedServerId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_dedicatedServerId();
+    ::StringW get_dedicatedServerId();
     // public System.Int64 get_dedicatedServerCreationTime()
     // Offset: 0xFFFFFFFF
     int64_t get_dedicatedServerCreationTime();
@@ -44,7 +42,7 @@ namespace MasterServer {
 // Writing MetadataGetter for method: MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IDedicatedServerClientToServerMessage::*)()>(&MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::IDedicatedServerClientToServerMessage::*)()>(&MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IDedicatedServerClientToServerMessage*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

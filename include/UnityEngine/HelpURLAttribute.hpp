@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -42,26 +43,26 @@ namespace UnityEngine {
     // readonly System.String m_Url
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Url;
+    ::StringW m_Url;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_Url;
     }
     // Get instance field reference: readonly System.String m_Url
-    ::Il2CppString*& dyn_m_Url();
+    ::StringW& dyn_m_Url();
     // public System.Void .ctor(System.String url)
     // Offset: 0x1D95614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HelpURLAttribute* New_ctor(::Il2CppString* url) {
+    static HelpURLAttribute* New_ctor(::StringW url) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HelpURLAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpURLAttribute*, creationType>(url)));
     }
   }; // UnityEngine.HelpURLAttribute
   #pragma pack(pop)
-  static check_size<sizeof(HelpURLAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_HelpURLAttributeSizeCheck;
+  static check_size<sizeof(HelpURLAttribute), 16 + sizeof(::StringW)> __UnityEngine_HelpURLAttributeSizeCheck;
   static_assert(sizeof(HelpURLAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

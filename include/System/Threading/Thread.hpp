@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -242,7 +243,7 @@ namespace System::Threading {
     void set_IsBackground(bool value);
     // public System.Void set_Name(System.String value)
     // Offset: 0x19C1194
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Threading.ThreadState get_ThreadState()
     // Offset: 0x19C0588
     System::Threading::ThreadState get_ThreadState();
@@ -352,7 +353,7 @@ namespace System::Threading {
     System::IntPtr Thread_internal(System::MulticastDelegate* start);
     // static private System.Void SetName_internal(System.Threading.InternalThread thread, System.String name)
     // Offset: 0x19C1190
-    static void SetName_internal(System::Threading::InternalThread* thread, ::Il2CppString* name);
+    static void SetName_internal(System::Threading::InternalThread* thread, ::StringW name);
     // static private System.Void Abort_internal(System.Threading.InternalThread thread, System.Object stateInfo)
     // Offset: 0x19C11CC
     static void Abort_internal(System::Threading::InternalThread* thread, ::Il2CppObject* stateInfo);
@@ -533,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::Il2CppString*)>(&System::Threading::Thread::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::StringW)>(&System::Threading::Thread::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -814,7 +815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Threading::Thread::SetName_internal
 // Il2CppName: SetName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppString*)>(&System::Threading::Thread::SetName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::StringW)>(&System::Threading::Thread::SetName_internal)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

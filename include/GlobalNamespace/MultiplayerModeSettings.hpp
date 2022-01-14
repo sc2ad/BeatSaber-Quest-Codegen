@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -54,9 +55,9 @@ namespace GlobalNamespace {
     // public System.String quickPlaySongPackMaskSerializedName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* quickPlaySongPackMaskSerializedName;
+    ::StringW quickPlaySongPackMaskSerializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean quickPlayEnableLevelSelection
     // Size: 0x1
     // Offset: 0x20
@@ -69,7 +70,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
     GlobalNamespace::BeatmapDifficultyMask& dyn_quickPlayBeatmapDifficulty();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
-    ::Il2CppString*& dyn_quickPlaySongPackMaskSerializedName();
+    ::StringW& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
     bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()

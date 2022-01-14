@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -61,17 +62,17 @@ namespace System {
     // Offset: 0x1E8A248
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::Compare(System.String x, System.String y)
-    int Compare(::Il2CppString* x, ::Il2CppString* y);
+    int Compare(::StringW x, ::StringW y);
     // public override System.Boolean Equals(System.String x, System.String y)
     // Offset: 0x1E8A2A0
     // Implemented from: System.StringComparer
     // Base method: System.Boolean StringComparer::Equals(System.String x, System.String y)
-    bool Equals(::Il2CppString* x, ::Il2CppString* y);
+    bool Equals(::StringW x, ::StringW y);
     // public override System.Int32 GetHashCode(System.String obj)
     // Offset: 0x1E8A320
     // Implemented from: System.StringComparer
     // Base method: System.Int32 StringComparer::GetHashCode(System.String obj)
-    int GetHashCode(::Il2CppString* obj);
+    int GetHashCode(::StringW obj);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1E8A3D8
     // Implemented from: System.Object
@@ -95,7 +96,7 @@ namespace System {
 // Writing MetadataGetter for method: System::OrdinalComparer::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::OrdinalComparer::*)(::Il2CppString*, ::Il2CppString*)>(&System::OrdinalComparer::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::OrdinalComparer::*)(::StringW, ::StringW)>(&System::OrdinalComparer::Compare)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::OrdinalComparer::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::OrdinalComparer::*)(::Il2CppString*, ::Il2CppString*)>(&System::OrdinalComparer::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::OrdinalComparer::*)(::StringW, ::StringW)>(&System::OrdinalComparer::Equals)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::OrdinalComparer::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::OrdinalComparer::*)(::Il2CppString*)>(&System::OrdinalComparer::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::OrdinalComparer::*)(::StringW)>(&System::OrdinalComparer::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::OrdinalComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});

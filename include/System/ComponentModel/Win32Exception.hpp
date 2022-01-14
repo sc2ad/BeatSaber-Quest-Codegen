@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -66,9 +67,9 @@ namespace System::ComponentModel {
     // Set static field: static private System.Boolean s_ErrorMessagesInitialized
     static void _set_s_ErrorMessagesInitialized(bool value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
-    static System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* _get_s_ErrorMessage();
+    static System::Collections::Generic::Dictionary_2<int, ::StringW>* _get_s_ErrorMessage();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.String> s_ErrorMessage
-    static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* value);
+    static void _set_s_ErrorMessage(System::Collections::Generic::Dictionary_2<int, ::StringW>* value);
     // Get instance field reference: private readonly System.Int32 nativeErrorCode
     int& dyn_nativeErrorCode();
     // public System.Int32 get_NativeErrorCode()
@@ -84,13 +85,13 @@ namespace System::ComponentModel {
     // public System.Void .ctor(System.Int32 error, System.String message)
     // Offset: 0x1A279E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Win32Exception* New_ctor(int error, ::Il2CppString* message) {
+    static Win32Exception* New_ctor(int error, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Win32Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Exception*, creationType>(error, message)));
     }
     // static System.String GetErrorMessage(System.Int32 error)
     // Offset: 0x1A278CC
-    static ::Il2CppString* GetErrorMessage(int error);
+    static ::StringW GetErrorMessage(int error);
     // static private System.Void InitializeErrorMessages()
     // Offset: 0x1A27B80
     static void InitializeErrorMessages();
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::ComponentModel::Win32Exception::GetErrorMessage
 // Il2CppName: GetErrorMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::ComponentModel::Win32Exception::GetErrorMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::ComponentModel::Win32Exception::GetErrorMessage)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::Win32Exception*), "GetErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});

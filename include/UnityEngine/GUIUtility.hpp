@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -114,13 +115,13 @@ namespace UnityEngine {
     static void set_textFieldInput(bool value);
     // static public System.String get_systemCopyBuffer()
     // Offset: 0x1CF53D0
-    static ::Il2CppString* get_systemCopyBuffer();
+    static ::StringW get_systemCopyBuffer();
     // static public System.Void set_systemCopyBuffer(System.String value)
     // Offset: 0x1CF5404
-    static void set_systemCopyBuffer(::Il2CppString* value);
+    static void set_systemCopyBuffer(::StringW value);
     // static System.String get_compositionString()
     // Offset: 0x1CE4F38
-    static ::Il2CppString* get_compositionString();
+    static ::StringW get_compositionString();
     // static System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
     // Offset: 0x1CF549C
     static void set_compositionCursorPos(UnityEngine::Vector2 value);
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::get_systemCopyBuffer
 // Il2CppName: get_systemCopyBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::GUIUtility::get_systemCopyBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::GUIUtility::get_systemCopyBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::set_systemCopyBuffer
 // Il2CppName: set_systemCopyBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::GUIUtility::set_systemCopyBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::GUIUtility::set_systemCopyBuffer)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::GUIUtility::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::GUIUtility::get_compositionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

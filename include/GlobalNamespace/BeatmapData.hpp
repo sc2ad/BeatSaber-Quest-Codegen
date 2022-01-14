@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -117,9 +118,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> _availableSpecialEventsPerKeywordDictionary
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* availableSpecialEventsPerKeywordDictionary;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* availableSpecialEventsPerKeywordDictionary;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>*) == 0x8);
     // private readonly BeatmapObjectsInTimeRowProcessor _beatmapObjectsInTimeRowProcessor
     // Size: 0x8
     // Offset: 0x38
@@ -162,7 +163,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventsData
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>*& dyn__beatmapEventsData();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> _availableSpecialEventsPerKeywordDictionary
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>*& dyn__availableSpecialEventsPerKeywordDictionary();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>*& dyn__availableSpecialEventsPerKeywordDictionary();
     // Get instance field reference: private readonly BeatmapObjectsInTimeRowProcessor _beatmapObjectsInTimeRowProcessor
     GlobalNamespace::BeatmapObjectsInTimeRowProcessor*& dyn__beatmapObjectsInTimeRowProcessor();
     // Get instance field reference: private readonly BeatmapEventDataProcessor _beatmapEventDataProcessor
@@ -179,7 +180,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* get_beatmapEventsData();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> get_availableSpecialEventsPerKeywordDictionary()
     // Offset: 0x12CC9EC
-    System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
+    System::Collections::Generic::IReadOnlyDictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
     // public System.Int32 get_numberOfLines()
     // Offset: 0x12CC9F4
     int get_numberOfLines();
@@ -228,7 +229,7 @@ namespace GlobalNamespace {
     void InsertBeatmapEventData(int index, GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void AddAvailableSpecialEventsPerKeyword(System.String keyword, System.Collections.Generic.HashSet`1<BeatmapEventType> availableSpecialEvents)
     // Offset: 0x12CD2B0
-    void AddAvailableSpecialEventsPerKeyword(::Il2CppString* keyword, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* availableSpecialEvents);
+    void AddAvailableSpecialEventsPerKeyword(::StringW keyword, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* availableSpecialEvents);
     // public System.Void ProcessRemainingData()
     // Offset: 0x12CD320
     void ProcessRemainingData();
@@ -278,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::get_availableSpecialEventsPerKeywordDictionary
 // Il2CppName: get_availableSpecialEventsPerKeywordDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* (GlobalNamespace::BeatmapData::*)()>(&GlobalNamespace::BeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* (GlobalNamespace::BeatmapData::*)()>(&GlobalNamespace::BeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData*), "get_availableSpecialEventsPerKeywordDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -402,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapData::AddAvailableSpecialEventsPerKeyword
 // Il2CppName: AddAvailableSpecialEventsPerKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)(::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*)>(&GlobalNamespace::BeatmapData::AddAvailableSpecialEventsPerKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::*)(::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*)>(&GlobalNamespace::BeatmapData::AddAvailableSpecialEventsPerKeyword)> {
   static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* availableSpecialEvents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventType")})->byval_arg;

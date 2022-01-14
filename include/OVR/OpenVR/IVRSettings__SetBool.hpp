@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -49,10 +50,10 @@ namespace OVR::OpenVR {
     }
     // public System.Void Invoke(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref OVR.OpenVR.EVRSettingsError peError)
     // Offset: 0x232446C
-    void Invoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, ByRef<OVR::OpenVR::EVRSettingsError> peError);
+    void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<OVR::OpenVR::EVRSettingsError> peError);
     // public System.IAsyncResult BeginInvoke(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref OVR.OpenVR.EVRSettingsError peError, System.AsyncCallback callback, System.Object object)
     // Offset: 0x23248A4
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchSection, ::Il2CppString* pchSettingsKey, bool bValue, ByRef<OVR::OpenVR::EVRSettingsError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<OVR::OpenVR::EVRSettingsError> peError, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(ref OVR.OpenVR.EVRSettingsError peError, System.IAsyncResult result)
     // Offset: 0x2324970
     void EndInvoke(ByRef<OVR::OpenVR::EVRSettingsError> peError, System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_SetBool::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSettings::_SetBool::*)(::Il2CppString*, ::Il2CppString*, bool, ByRef<OVR::OpenVR::EVRSettingsError>)>(&OVR::OpenVR::IVRSettings::_SetBool::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSettings::_SetBool::*)(::StringW, ::StringW, bool, ByRef<OVR::OpenVR::EVRSettingsError>)>(&OVR::OpenVR::IVRSettings::_SetBool::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_SetBool::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSettings::_SetBool::*)(::Il2CppString*, ::Il2CppString*, bool, ByRef<OVR::OpenVR::EVRSettingsError>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSettings::_SetBool::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSettings::_SetBool::*)(::StringW, ::StringW, bool, ByRef<OVR::OpenVR::EVRSettingsError>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSettings::_SetBool::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

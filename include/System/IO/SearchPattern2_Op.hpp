@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::SearchPattern2::Op);
@@ -45,9 +46,9 @@ namespace System::IO {
     // public System.String Argument
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Argument;
+    ::StringW Argument;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.IO.SearchPattern2/System.IO.Op Next
     // Size: 0x8
     // Offset: 0x20
@@ -58,7 +59,7 @@ namespace System::IO {
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.OpCode Code
     System::IO::SearchPattern2::OpCode& dyn_Code();
     // Get instance field reference: public System.String Argument
-    ::Il2CppString*& dyn_Argument();
+    ::StringW& dyn_Argument();
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.Op Next
     System::IO::SearchPattern2::Op*& dyn_Next();
     // public System.Void .ctor(System.IO.SearchPattern2/System.IO.OpCode code)

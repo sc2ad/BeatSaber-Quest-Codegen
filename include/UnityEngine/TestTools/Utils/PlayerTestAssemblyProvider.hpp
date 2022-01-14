@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -59,9 +60,9 @@ namespace UnityEngine::TestTools::Utils {
     // private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesToLoad;
+    System::Collections::Generic::List_1<::StringW>* m_AssembliesToLoad;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* _get_m_LoadedAssemblies();
@@ -70,11 +71,11 @@ namespace UnityEngine::TestTools::Utils {
     // Get instance field reference: private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
     UnityEngine::TestTools::Utils::IAssemblyLoadProxy*& dyn_m_AssemblyLoadProxy();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> m_AssembliesToLoad
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_m_AssembliesToLoad();
+    System::Collections::Generic::List_1<::StringW>*& dyn_m_AssembliesToLoad();
     // System.Void .ctor(UnityEngine.TestTools.Utils.IAssemblyLoadProxy assemblyLoadProxy, System.Collections.Generic.List`1<System.String> assembliesToLoad)
     // Offset: 0x26B4B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerTestAssemblyProvider* New_ctor(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, System::Collections::Generic::List_1<::Il2CppString*>* assembliesToLoad) {
+    static PlayerTestAssemblyProvider* New_ctor(UnityEngine::TestTools::Utils::IAssemblyLoadProxy* assemblyLoadProxy, System::Collections::Generic::List_1<::StringW>* assembliesToLoad) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerTestAssemblyProvider*, creationType>(assemblyLoadProxy, assembliesToLoad)));
     }
@@ -86,7 +87,7 @@ namespace UnityEngine::TestTools::Utils {
     void LoadAssemblies();
   }; // UnityEngine.TestTools.Utils.PlayerTestAssemblyProvider
   #pragma pack(pop)
-  static check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
+  static check_size<sizeof(PlayerTestAssemblyProvider), 24 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __UnityEngine_TestTools_Utils_PlayerTestAssemblyProviderSizeCheck;
   static_assert(sizeof(PlayerTestAssemblyProvider) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

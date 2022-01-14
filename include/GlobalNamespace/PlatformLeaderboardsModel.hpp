@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -171,9 +172,9 @@ namespace GlobalNamespace {
     // private System.String _playerId
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* playerId;
+    ::StringW playerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -190,7 +191,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlatformLeaderboardsModel/State _state
     GlobalNamespace::PlatformLeaderboardsModel::State& dyn__state();
     // Get instance field reference: private System.String _playerId
-    ::Il2CppString*& dyn__playerId();
+    ::StringW& dyn__playerId();
     // private System.Boolean get_initialized()
     // Offset: 0x1150660
     bool get_initialized();
@@ -239,7 +240,7 @@ namespace GlobalNamespace {
     }
   }; // PlatformLeaderboardsModel
   #pragma pack(pop)
-  static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
+  static check_size<sizeof(PlatformLeaderboardsModel), 72 + sizeof(::StringW)> __GlobalNamespace_PlatformLeaderboardsModelSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

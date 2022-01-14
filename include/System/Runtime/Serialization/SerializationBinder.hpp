@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,10 +37,10 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void BindToName(System.Type serializedType, out System.String assemblyName, out System.String typeName)
     // Offset: 0x1921908
-    void BindToName(System::Type* serializedType, ByRef<::Il2CppString*> assemblyName, ByRef<::Il2CppString*> typeName);
+    void BindToName(System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
     // public System.Type BindToType(System.String assemblyName, System.String typeName)
     // Offset: 0xFFFFFFFF
-    System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
+    System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
     // protected System.Void .ctor()
     // Offset: 0x1921914
     // Implemented from: System.Object
@@ -56,7 +57,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToName
 // Il2CppName: BindToName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationBinder::*)(System::Type*, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&System::Runtime::Serialization::SerializationBinder::BindToName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationBinder::*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Serialization::SerializationBinder::BindToName)> {
   static const MethodInfo* get() {
     static auto* serializedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -67,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationBinder::*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::SerializationBinder::BindToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationBinder::*)(::StringW, ::StringW)>(&System::Runtime::Serialization::SerializationBinder::BindToType)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

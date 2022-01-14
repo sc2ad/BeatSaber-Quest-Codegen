@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,13 +44,13 @@ namespace GlobalNamespace {
     class $$c;
     // static public ICertificateEncryptionProvider GetCertificateEncryptionProvider(System.String privateKeyPem, System.String password)
     // Offset: 0x268E158
-    static GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::Il2CppString* privateKeyPem, ::Il2CppString* password);
+    static GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
     // static private X509CertificateUtility/RSACertificateEncryptionProvider GetRSACertificateEncryptionProvider(System.String privateKeyPem, X509CertificateUtility/PasswordFinder passwordFinder)
     // Offset: 0x268E21C
-    static GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* GetRSACertificateEncryptionProvider(::Il2CppString* privateKeyPem, GlobalNamespace::X509CertificateUtility::PasswordFinder* passwordFinder);
+    static GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* GetRSACertificateEncryptionProvider(::StringW privateKeyPem, GlobalNamespace::X509CertificateUtility::PasswordFinder* passwordFinder);
     // static public System.Security.Cryptography.X509Certificates.X509Certificate2[] GetCertificateList(System.String certificatePem, System.String certificateChainPem)
     // Offset: 0x268E4DC
-    static ::ArrayW<System::Security::Cryptography::X509Certificates::X509Certificate2*> GetCertificateList(::Il2CppString* certificatePem, ::Il2CppString* certificateChainPem);
+    static ::ArrayW<System::Security::Cryptography::X509Certificates::X509Certificate2*> GetCertificateList(::StringW certificatePem, ::StringW certificateChainPem);
     // static public System.Void ValidateCertificateChain(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0x268DF6C
     static void ValidateCertificateChain(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider
 // Il2CppName: GetCertificateEncryptionProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ICertificateEncryptionProvider* (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ICertificateEncryptionProvider* (*)(::StringW, ::StringW)>(&GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider)> {
   static const MethodInfo* get() {
     static auto* privateKeyPem = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider
 // Il2CppName: GetRSACertificateEncryptionProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* (*)(::Il2CppString*, GlobalNamespace::X509CertificateUtility::PasswordFinder*)>(&GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::X509CertificateUtility::RSACertificateEncryptionProvider* (*)(::StringW, GlobalNamespace::X509CertificateUtility::PasswordFinder*)>(&GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider)> {
   static const MethodInfo* get() {
     static auto* privateKeyPem = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* passwordFinder = &::il2cpp_utils::GetClassFromName("", "X509CertificateUtility/PasswordFinder")->byval_arg;
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::X509CertificateUtility::GetCertificateList
 // Il2CppName: GetCertificateList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::X509Certificates::X509Certificate2*> (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::X509CertificateUtility::GetCertificateList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::X509Certificates::X509Certificate2*> (*)(::StringW, ::StringW)>(&GlobalNamespace::X509CertificateUtility::GetCertificateList)> {
   static const MethodInfo* get() {
     static auto* certificatePem = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* certificateChainPem = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

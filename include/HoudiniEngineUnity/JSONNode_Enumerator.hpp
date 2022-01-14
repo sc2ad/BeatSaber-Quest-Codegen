@@ -15,6 +15,7 @@
 #include "System/Collections/Generic/List_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -92,14 +93,14 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> m_Object
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator m_Object;
+    typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator m_Object;
     // private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> m_Array
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator m_Array;
     public:
     // Creating value type constructor for type: Enumerator
-    constexpr Enumerator(HoudiniEngineUnity::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator m_Array_ = {}) noexcept : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
+    constexpr Enumerator(HoudiniEngineUnity::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator m_Array_ = {}) noexcept : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -107,7 +108,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type type
     HoudiniEngineUnity::JSONNode::Enumerator::Type& dyn_type();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> m_Object
-    typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Object();
+    typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Object();
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> m_Array
     typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator& dyn_m_Array();
     // public System.Boolean get_IsValid()
@@ -115,13 +116,13 @@ namespace HoudiniEngineUnity {
     bool get_IsValid();
     // public System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> get_Current()
     // Offset: 0x178CE5C
-    System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*> get_Current();
+    System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*> get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<HoudiniEngineUnity.JSONNode> aArrayEnum)
     // Offset: 0x1786DEC
     Enumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
     // Offset: 0x178CE38
-    Enumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
+    Enumerator(typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Boolean MoveNext()
     // Offset: 0x178CF10
     bool MoveNext();
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Enumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*> (HoudiniEngineUnity::JSONNode::Enumerator::*)()>(&HoudiniEngineUnity::JSONNode::Enumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*> (HoudiniEngineUnity::JSONNode::Enumerator::*)()>(&HoudiniEngineUnity::JSONNode::Enumerator::get_Current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode::Enumerator), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

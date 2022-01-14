@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -42,63 +43,63 @@ namespace System {
     // private System.String application_base
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* application_base;
+    ::StringW application_base;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String application_name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* application_name;
+    ::StringW application_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String cache_path
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* cache_path;
+    ::StringW cache_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String configuration_file
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* configuration_file;
+    ::StringW configuration_file;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String dynamic_base
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* dynamic_base;
+    ::StringW dynamic_base;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String license_file
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* license_file;
+    ::StringW license_file;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String private_bin_path
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* private_bin_path;
+    ::StringW private_bin_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String private_bin_path_probe
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* private_bin_path_probe;
+    ::StringW private_bin_path_probe;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String shadow_copy_directories
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* shadow_copy_directories;
+    ::StringW shadow_copy_directories;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String shadow_copy_files
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* shadow_copy_files;
+    ::StringW shadow_copy_files;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean publisher_policy
     // Size: 0x1
     // Offset: 0x60
@@ -154,9 +155,9 @@ namespace System {
     // private System.String[] domain_initializer_args
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayW<::Il2CppString*> domain_initializer_args;
+    ::ArrayW<::StringW> domain_initializer_args;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Boolean disallow_appbase_probe
     // Size: 0x1
     // Offset: 0x90
@@ -181,30 +182,30 @@ namespace System {
     // private System.String <TargetFrameworkName>k__BackingField
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* TargetFrameworkName;
+    ::StringW TargetFrameworkName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String application_base
-    ::Il2CppString*& dyn_application_base();
+    ::StringW& dyn_application_base();
     // Get instance field reference: private System.String application_name
-    ::Il2CppString*& dyn_application_name();
+    ::StringW& dyn_application_name();
     // Get instance field reference: private System.String cache_path
-    ::Il2CppString*& dyn_cache_path();
+    ::StringW& dyn_cache_path();
     // Get instance field reference: private System.String configuration_file
-    ::Il2CppString*& dyn_configuration_file();
+    ::StringW& dyn_configuration_file();
     // Get instance field reference: private System.String dynamic_base
-    ::Il2CppString*& dyn_dynamic_base();
+    ::StringW& dyn_dynamic_base();
     // Get instance field reference: private System.String license_file
-    ::Il2CppString*& dyn_license_file();
+    ::StringW& dyn_license_file();
     // Get instance field reference: private System.String private_bin_path
-    ::Il2CppString*& dyn_private_bin_path();
+    ::StringW& dyn_private_bin_path();
     // Get instance field reference: private System.String private_bin_path_probe
-    ::Il2CppString*& dyn_private_bin_path_probe();
+    ::StringW& dyn_private_bin_path_probe();
     // Get instance field reference: private System.String shadow_copy_directories
-    ::Il2CppString*& dyn_shadow_copy_directories();
+    ::StringW& dyn_shadow_copy_directories();
     // Get instance field reference: private System.String shadow_copy_files
-    ::Il2CppString*& dyn_shadow_copy_files();
+    ::StringW& dyn_shadow_copy_files();
     // Get instance field reference: private System.Boolean publisher_policy
     bool& dyn_publisher_policy();
     // Get instance field reference: private System.Boolean path_changed
@@ -222,7 +223,7 @@ namespace System {
     // Get instance field reference: private System.Object application_trust
     ::Il2CppObject*& dyn_application_trust();
     // Get instance field reference: private System.String[] domain_initializer_args
-    ::ArrayW<::Il2CppString*>& dyn_domain_initializer_args();
+    ::ArrayW<::StringW>& dyn_domain_initializer_args();
     // Get instance field reference: private System.Boolean disallow_appbase_probe
     bool& dyn_disallow_appbase_probe();
     // Get instance field reference: private System.Byte[] configuration_bytes
@@ -230,7 +231,7 @@ namespace System {
     // Get instance field reference: private System.Byte[] serialized_non_primitives
     ::ArrayW<uint8_t>& dyn_serialized_non_primitives();
     // Get instance field reference: private System.String <TargetFrameworkName>k__BackingField
-    ::Il2CppString*& dyn_$TargetFrameworkName$k__BackingField();
+    ::StringW& dyn_$TargetFrameworkName$k__BackingField();
     // public System.Void .ctor()
     // Offset: 0x198A8A8
     // Implemented from: System.Object
@@ -242,7 +243,7 @@ namespace System {
     }
   }; // System.AppDomainSetup
   #pragma pack(pop)
-  static check_size<sizeof(AppDomainSetup), 168 + sizeof(::Il2CppString*)> __System_AppDomainSetupSizeCheck;
+  static check_size<sizeof(AppDomainSetup), 168 + sizeof(::StringW)> __System_AppDomainSetupSizeCheck;
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

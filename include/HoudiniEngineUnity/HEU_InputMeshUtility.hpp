@@ -10,6 +10,7 @@
 // Including type: UnityEngine.Vector3Int
 #include "UnityEngine/Vector3Int.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -43,28 +44,28 @@ namespace HoudiniEngineUnity {
     public:
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, System.Boolean bConvertToHoudiniCoordinateSystem)
     // Offset: 0x158D864
-    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
+    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, System.Single[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x159207C
-    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayW<float> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<float> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshVertexAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3[] data, System.Int32[] indices, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, System.Boolean bConvertToHoudiniCoordinateSystem)
     // Offset: 0x158DAB8
-    static bool SetMeshVertexAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3> data, ::ArrayW<int> indices, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
+    static bool SetMeshVertexAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3> data, ::ArrayW<int> indices, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo, bool bConvertToHoudiniCoordinateSystem);
     // static public System.Boolean SetMeshVertexFloatAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, System.Single[] data, System.Int32[] indices, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x158DD50
-    static bool SetMeshVertexFloatAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayW<float> data, ::ArrayW<int> indices, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+    static bool SetMeshVertexFloatAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<float> data, ::ArrayW<int> indices, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean UploadMeshIntoHoudiniNode(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetNodeID, System.Int32 objectID, System.Int32 geoID, ref UnityEngine.Mesh mesh)
     // Offset: 0x1592270
     static bool UploadMeshIntoHoudiniNode(HoudiniEngineUnity::HEU_SessionBase* session, int assetNodeID, int objectID, int geoID, ByRef<UnityEngine::Mesh*> mesh);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3Int[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x1591B24
-    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3Int> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, ::ArrayW<UnityEngine::Vector3Int> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshPointAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.String[] data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x1591D58
-    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ::ArrayW<::Il2CppString*> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+    static bool SetMeshPointAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ::ArrayW<::StringW> data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // static public System.Boolean SetMeshDetailAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, System.Int32 tupleSize, UnityEngine.Vector3 data, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x1591EE4
-    static bool SetMeshDetailAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, int tupleSize, UnityEngine::Vector3 data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+    static bool SetMeshDetailAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, int tupleSize, UnityEngine::Vector3 data, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
   }; // HoudiniEngineUnity.HEU_InputMeshUtility
   #pragma pack(pop)
 }
@@ -72,7 +73,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute
 // Il2CppName: SetMeshPointAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, ::ArrayW<UnityEngine::Vector3>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, ::ArrayW<UnityEngine::Vector3>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute
 // Il2CppName: SetMeshPointAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, ::ArrayW<float>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, ::ArrayW<float>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexAttribute
 // Il2CppName: SetMeshVertexAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexFloatAttribute
 // Il2CppName: SetMeshVertexFloatAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, ::ArrayW<float>, ::ArrayW<int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexFloatAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, ::ArrayW<float>, ::ArrayW<int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexFloatAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -149,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute
 // Il2CppName: SetMeshPointAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, ::ArrayW<UnityEngine::Vector3Int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, ::ArrayW<UnityEngine::Vector3Int>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute
 // Il2CppName: SetMeshPointAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ::ArrayW<::Il2CppString*>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ::ArrayW<::StringW>, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshDetailAttribute
 // Il2CppName: SetMeshDetailAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, int, UnityEngine::Vector3, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshDetailAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, int, UnityEngine::Vector3, ByRef<HoudiniEngineUnity::HAPI_PartInfo>)>(&HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshDetailAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

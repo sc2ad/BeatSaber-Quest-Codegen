@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -70,9 +71,9 @@ namespace GlobalNamespace {
     // public System.String filePath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* filePath;
+    ::StringW filePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Action`1<UnityEngine.AudioClip> finishCallback
     // Size: 0x8
     // Offset: 0x28
@@ -101,7 +102,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Object <>2__current
     ::Il2CppObject*& dyn_$$2__current();
     // Get instance field reference: public System.String filePath
-    ::Il2CppString*& dyn_filePath();
+    ::StringW& dyn_filePath();
     // Get instance field reference: public System.Action`1<UnityEngine.AudioClip> finishCallback
     System::Action_1<UnityEngine::AudioClip*>*& dyn_finishCallback();
     // Get instance field reference: public AudioClipLoaderSO <>4__this

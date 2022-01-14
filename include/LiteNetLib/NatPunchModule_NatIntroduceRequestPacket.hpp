@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -48,14 +49,14 @@ namespace LiteNetLib {
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Token;
+    ::StringW Token;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
     System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField
-    ::Il2CppString*& dyn_$Token$k__BackingField();
+    ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
     // Offset: 0x1DC6654
     System::Net::IPEndPoint* get_Internal();
@@ -64,10 +65,10 @@ namespace LiteNetLib {
     void set_Internal(System::Net::IPEndPoint* value);
     // public System.String get_Token()
     // Offset: 0x1DC6664
-    ::Il2CppString* get_Token();
+    ::StringW get_Token();
     // public System.Void set_Token(System.String value)
     // Offset: 0x1DC666C
-    void set_Token(::Il2CppString* value);
+    void set_Token(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1DC5F24
     // Implemented from: System.Object
@@ -79,7 +80,7 @@ namespace LiteNetLib {
     }
   }; // LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceRequestPacket
   #pragma pack(pop)
-  static check_size<sizeof(NatPunchModule::NatIntroduceRequestPacket), 24 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_NatIntroduceRequestPacketSizeCheck;
+  static check_size<sizeof(NatPunchModule::NatIntroduceRequestPacket), 24 + sizeof(::StringW)> __LiteNetLib_NatPunchModule_NatIntroduceRequestPacketSizeCheck;
   static_assert(sizeof(NatPunchModule::NatIntroduceRequestPacket) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token
 // Il2CppName: get_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token
 // Il2CppName: set_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(::StringW)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

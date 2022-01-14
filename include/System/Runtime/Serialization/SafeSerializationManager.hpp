@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -109,9 +110,9 @@ namespace System::Runtime::Serialization {
     // static field const value: static private System.String RealTypeSerializationName
     static constexpr const char* RealTypeSerializationName = "CLR_SafeSerializationManager_RealType";
     // Get static field: static private System.String RealTypeSerializationName
-    static ::Il2CppString* _get_RealTypeSerializationName();
+    static ::StringW _get_RealTypeSerializationName();
     // Set static field: static private System.String RealTypeSerializationName
-    static void _set_RealTypeSerializationName(::Il2CppString* value);
+    static void _set_RealTypeSerializationName(::StringW value);
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Object> m_serializedStates
     System::Collections::Generic::IList_1<::Il2CppObject*>*& dyn_m_serializedStates();
     // Get instance field reference: private System.Runtime.Serialization.SerializationInfo m_savedSerializationInfo

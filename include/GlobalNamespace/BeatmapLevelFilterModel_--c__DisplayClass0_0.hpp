@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,9 +57,9 @@ namespace GlobalNamespace {
     // public System.String[] searchTexts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> searchTexts;
+    ::ArrayW<::StringW> searchTexts;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public LevelFilterParams levelFilterParams
     // Size: 0x8
     // Offset: 0x20
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean searchByText
     bool& dyn_searchByText();
     // Get instance field reference: public System.String[] searchTexts
-    ::ArrayW<::Il2CppString*>& dyn_searchTexts();
+    ::ArrayW<::StringW>& dyn_searchTexts();
     // Get instance field reference: public LevelFilterParams levelFilterParams
     GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
     // Get instance field reference: public PlayerDataModel playerDataModel

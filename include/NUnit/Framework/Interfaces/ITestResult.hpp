@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.IXmlNodeBuilder
 #include "NUnit/Framework/Interfaces/IXmlNodeBuilder.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -27,9 +28,6 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Forward declaring type: ITestResult
@@ -55,10 +53,10 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ResultState* get_ResultState();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.String get_FullName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.Double get_Duration()
     // Offset: 0xFFFFFFFF
     double get_Duration();
@@ -70,10 +68,10 @@ namespace NUnit::Framework::Interfaces {
     System::DateTime get_EndTime();
     // public System.String get_Message()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.String get_StackTrace()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
     // public System.Int32 get_AssertCount()
     // Offset: 0xFFFFFFFF
     int get_AssertCount();
@@ -100,7 +98,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::ITest* get_Test();
     // public System.String get_Output()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Output();
+    ::StringW get_Output();
   }; // NUnit.Framework.Interfaces.ITestResult
   #pragma pack(pop)
 }
@@ -116,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestResult::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestResult*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -124,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestResult::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestResult*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestResult::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestResult*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestResult::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestResult*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -236,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestResult::get_Output
 // Il2CppName: get_Output
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Output)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::ITestResult::*)()>(&NUnit::Framework::Interfaces::ITestResult::get_Output)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestResult*), "get_Output", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

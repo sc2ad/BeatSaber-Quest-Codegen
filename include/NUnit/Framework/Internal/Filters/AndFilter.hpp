@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -42,7 +43,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Offset: 0x194C6AC
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.String CompositeFilter::get_ElementName()
-    ::Il2CppString* get_ElementName();
+    ::StringW get_ElementName();
     // public System.Void .ctor()
     // Offset: 0x194BC78
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
@@ -85,7 +86,7 @@ namespace NUnit::Framework::Internal::Filters {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::AndFilter::get_ElementName
 // Il2CppName: get_ElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::AndFilter::*)()>(&NUnit::Framework::Internal::Filters::AndFilter::get_ElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Filters::AndFilter::*)()>(&NUnit::Framework::Internal::Filters::AndFilter::get_ElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::AndFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

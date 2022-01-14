@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,9 +51,9 @@ namespace GlobalNamespace {
     // private System.String[] myFolders
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> myFolders;
+    ::ArrayW<::StringW> myFolders;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private FileBrowserItem[] _bookmarksFolders
     // Size: 0x8
     // Offset: 0x20
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] myFolders
-    ::ArrayW<::Il2CppString*>& dyn_myFolders();
+    ::ArrayW<::StringW>& dyn_myFolders();
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
     ::ArrayW<GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()

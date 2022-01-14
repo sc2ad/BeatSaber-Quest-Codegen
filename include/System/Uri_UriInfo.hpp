@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Uri::UriInfo);
@@ -37,21 +38,21 @@ namespace System {
     // public System.String Host
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Host;
+    ::StringW Host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String ScopeId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* ScopeId;
+    ::StringW ScopeId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String String
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* String;
+    ::StringW String;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Uri/System.Offset Offset
     // Size: 0x10
     // Offset: 0x28
@@ -61,9 +62,9 @@ namespace System {
     // public System.String DnsSafeHost
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* DnsSafeHost;
+    ::StringW DnsSafeHost;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Uri/System.MoreInfo MoreInfo
     // Size: 0x8
     // Offset: 0x40
@@ -72,15 +73,15 @@ namespace System {
     static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
     public:
     // Get instance field reference: public System.String Host
-    ::Il2CppString*& dyn_Host();
+    ::StringW& dyn_Host();
     // Get instance field reference: public System.String ScopeId
-    ::Il2CppString*& dyn_ScopeId();
+    ::StringW& dyn_ScopeId();
     // Get instance field reference: public System.String String
-    ::Il2CppString*& dyn_String();
+    ::StringW& dyn_String();
     // Get instance field reference: public System.Uri/System.Offset Offset
     System::Uri::Offset& dyn_Offset();
     // Get instance field reference: public System.String DnsSafeHost
-    ::Il2CppString*& dyn_DnsSafeHost();
+    ::StringW& dyn_DnsSafeHost();
     // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
     System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()

@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -58,15 +59,15 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 currentPartySize
     // Size: 0x4
     // Offset: 0x28
@@ -101,9 +102,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.UInt32 version
     uint& dyn_version();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.Int32 currentPartySize
     int& dyn_currentPartySize();
     // Get instance field reference: public System.Boolean isPartyOwner

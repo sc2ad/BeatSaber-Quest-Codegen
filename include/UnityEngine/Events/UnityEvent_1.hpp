@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -114,7 +115,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.UnityEventBase
     // Base method: System.Reflection.MethodInfo UnityEventBase::FindMethod_Impl(System.String name, System.Object targetObj)
-    System::Reflection::MethodInfo* FindMethod_Impl(::Il2CppString* name, ::Il2CppObject* targetObj) {
+    System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::Il2CppObject* targetObj) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::UnityEvent_1::FindMethod_Impl");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FindMethod_Impl", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(targetObj)})));
       return ::il2cpp_utils::RunMethodRethrow<System::Reflection::MethodInfo*, false>(this, ___internal__method, name, targetObj);

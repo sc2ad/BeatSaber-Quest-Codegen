@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -71,15 +72,15 @@ namespace Oculus::Platform::Models {
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* DataStore;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* DataStore;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // public readonly System.String Description
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* Description;
+    ::StringW Description;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x28
@@ -145,9 +146,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.Models.User OwnerOptional
     // Size: 0x8
     // Offset: 0x70
@@ -205,9 +206,9 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 ApplicationID
     uint64_t& dyn_ApplicationID();
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_DataStore();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_DataStore();
     // Get instance field reference: public readonly System.String Description
-    ::Il2CppString*& dyn_Description();
+    ::StringW& dyn_Description();
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
@@ -227,7 +228,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt32 MaxUsers
     uint& dyn_MaxUsers();
     // Get instance field reference: public readonly System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // Get instance field reference: public readonly Oculus.Platform.Models.User OwnerOptional
     Oculus::Platform::Models::User*& dyn_OwnerOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User Owner

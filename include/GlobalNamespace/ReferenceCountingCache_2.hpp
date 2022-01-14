@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -115,7 +116,7 @@ namespace GlobalNamespace {
     }
     // static private System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
-    static void LogError(::Il2CppString* message) {
+    static void LogError(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReferenceCountingCache_2::LogError");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReferenceCountingCache_2<TKey, TValue>*>::get(), "LogError", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, message);

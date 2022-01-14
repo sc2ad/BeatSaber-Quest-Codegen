@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,27 +53,27 @@ namespace System {
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _fusionLog
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* fusionLog;
+    ::StringW fusionLog;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _fileName
-    ::Il2CppString*& dyn__fileName();
+    ::StringW& dyn__fileName();
     // Get instance field reference: private System.String _fusionLog
-    ::Il2CppString*& dyn__fusionLog();
+    ::StringW& dyn__fusionLog();
     // public System.String get_FusionLog()
     // Offset: 0x1993E78
-    ::Il2CppString* get_FusionLog();
+    ::StringW get_FusionLog();
     // public System.Void .ctor(System.String message, System.String fileName)
     // Offset: 0x19939A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BadImageFormatException* New_ctor(::Il2CppString* message, ::Il2CppString* fileName) {
+    static BadImageFormatException* New_ctor(::StringW message, ::StringW fileName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::BadImageFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BadImageFormatException*, creationType>(message, fileName)));
     }
@@ -83,7 +84,7 @@ namespace System {
     // Offset: 0x19939E4
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x19938C8
     // Implemented from: System.SystemException
@@ -101,7 +102,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BadImageFormatException* New_ctor(::Il2CppString* message) {
+    static BadImageFormatException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::BadImageFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BadImageFormatException*, creationType>(message)));
     }
@@ -111,7 +112,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BadImageFormatException* New_ctor(::Il2CppString* message, System::Exception* inner) {
+    static BadImageFormatException* New_ctor(::StringW message, System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::BadImageFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BadImageFormatException*, creationType>(message, inner)));
     }
@@ -129,7 +130,7 @@ namespace System {
     // Offset: 0x1993A90
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1993E80
     // Implemented from: System.Exception
@@ -137,14 +138,14 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.BadImageFormatException
   #pragma pack(pop)
-  static check_size<sizeof(BadImageFormatException), 144 + sizeof(::Il2CppString*)> __System_BadImageFormatExceptionSizeCheck;
+  static check_size<sizeof(BadImageFormatException), 144 + sizeof(::StringW)> __System_BadImageFormatExceptionSizeCheck;
   static_assert(sizeof(BadImageFormatException) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::BadImageFormatException::get_FusionLog
 // Il2CppName: get_FusionLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::BadImageFormatException::*)()>(&System::BadImageFormatException::get_FusionLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::BadImageFormatException::*)()>(&System::BadImageFormatException::get_FusionLog)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::BadImageFormatException*), "get_FusionLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::BadImageFormatException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::BadImageFormatException::*)()>(&System::BadImageFormatException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::BadImageFormatException::*)()>(&System::BadImageFormatException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::BadImageFormatException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::BadImageFormatException::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::BadImageFormatException::*)()>(&System::BadImageFormatException::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::BadImageFormatException::*)()>(&System::BadImageFormatException::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::BadImageFormatException*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

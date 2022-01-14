@@ -125,7 +125,7 @@ namespace Unity::Collections {
       Enumerator(ByRef<Unity::Collections::NativeArray_1<T>> array) {
         static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::NativeArray_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
-        ::il2cpp_utils::RunMethodRethrow<typename NativeArray_1<T>::Enumerator, false>(this, ___internal__method, byref(array));
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, byref(array));
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -380,27 +381,27 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kFileName
     static constexpr const char* kFileName = "settings.cfg";
     // Get static field: static private System.String kFileName
-    static ::Il2CppString* _get_kFileName();
+    static ::StringW _get_kFileName();
     // Set static field: static private System.String kFileName
-    static void _set_kFileName(::Il2CppString* value);
+    static void _set_kFileName(::StringW value);
     // static field const value: static private System.String kTempFileName
     static constexpr const char* kTempFileName = "settings.cfg.tmp";
     // Get static field: static private System.String kTempFileName
-    static ::Il2CppString* _get_kTempFileName();
+    static ::StringW _get_kTempFileName();
     // Set static field: static private System.String kTempFileName
-    static void _set_kTempFileName(::Il2CppString* value);
+    static void _set_kTempFileName(::StringW value);
     // static field const value: static private System.String kBackupFileName
     static constexpr const char* kBackupFileName = "settings.cfg.bak";
     // Get static field: static private System.String kBackupFileName
-    static ::Il2CppString* _get_kBackupFileName();
+    static ::StringW _get_kBackupFileName();
     // Set static field: static private System.String kBackupFileName
-    static void _set_kBackupFileName(::Il2CppString* value);
+    static void _set_kBackupFileName(::StringW value);
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.0.0";
     // Get static field: static private System.String kCurrentVersion
-    static ::Il2CppString* _get_kCurrentVersion();
+    static ::StringW _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
-    static void _set_kCurrentVersion(::Il2CppString* value);
+    static void _set_kCurrentVersion(::StringW value);
     // static field const value: static public System.Single kControllersPositionOffsetLimit
     static constexpr const float kControllersPositionOffsetLimit = 0.1;
     // Get static field: static public System.Single kControllersPositionOffsetLimit

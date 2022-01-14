@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -72,15 +73,15 @@ namespace GlobalNamespace {
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String _userName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Boolean _isMe
     // Size: 0x1
     // Offset: 0x30
@@ -110,9 +111,9 @@ namespace GlobalNamespace {
     // public System.String inviteToken
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* inviteToken;
+    ::StringW inviteToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private IConnectedPlayer <connectedPlayer>k__BackingField
     // Size: 0x8
     // Offset: 0x88
@@ -141,9 +142,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.UInt64 _id
     uint64_t& dyn__id();
     // Get instance field reference: private readonly System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.Boolean _isMe
     bool& dyn__isMe();
     // Get instance field reference: private Oculus.Platform.Models.Room _room
@@ -155,7 +156,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean removed
     bool& dyn_removed();
     // Get instance field reference: public System.String inviteToken
-    ::Il2CppString*& dyn_inviteToken();
+    ::StringW& dyn_inviteToken();
     // Get instance field reference: private IConnectedPlayer <connectedPlayer>k__BackingField
     GlobalNamespace::IConnectedPlayer*& dyn_$connectedPlayer$k__BackingField();
     // Get instance field reference: private System.Boolean <isWaitingOnJoin>k__BackingField
@@ -167,10 +168,10 @@ namespace GlobalNamespace {
     uint64_t get_id();
     // public System.String get_userId()
     // Offset: 0x136B378
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x136B380
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Boolean get_isMe()
     // Offset: 0x136B388
     bool get_isMe();
@@ -240,7 +241,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(OculusNetworkPlayerModel playerModel, System.UInt64 id, System.String userName, System.Boolean isMe)
     // Offset: 0x1369984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OculusNetworkPlayerModel::OculusNetworkPlayer* New_ctor(GlobalNamespace::OculusNetworkPlayerModel* playerModel, uint64_t id, ::Il2CppString* userName, bool isMe) {
+    static OculusNetworkPlayerModel::OculusNetworkPlayer* New_ctor(GlobalNamespace::OculusNetworkPlayerModel* playerModel, uint64_t id, ::StringW userName, bool isMe) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusNetworkPlayerModel::OculusNetworkPlayer*, creationType>(playerModel, id, userName, isMe)));
     }
@@ -249,7 +250,7 @@ namespace GlobalNamespace {
     void Join();
     // public System.Void Join(System.String password)
     // Offset: 0x136BBD4
-    void Join(::Il2CppString* password);
+    void Join(::StringW password);
     // public System.Void Invite()
     // Offset: 0x136BC6C
     void Invite();
@@ -292,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (G
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)()>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -500,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)(::Il2CppString*)>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::*)(::StringW)>(&GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer::Join)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});

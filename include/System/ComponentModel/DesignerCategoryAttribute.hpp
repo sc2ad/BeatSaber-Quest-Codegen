@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -41,12 +42,12 @@ namespace System::ComponentModel {
     // private System.String category
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* category;
+    ::StringW category;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return category;
     }
     // Get static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Component
@@ -66,11 +67,11 @@ namespace System::ComponentModel {
     // Set static field: static public readonly System.ComponentModel.DesignerCategoryAttribute Generic
     static void _set_Generic(System::ComponentModel::DesignerCategoryAttribute* value);
     // Get instance field reference: private System.String category
-    ::Il2CppString*& dyn_category();
+    ::StringW& dyn_category();
     // public System.Void .ctor(System.String category)
     // Offset: 0x1A26A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesignerCategoryAttribute* New_ctor(::Il2CppString* category) {
+    static DesignerCategoryAttribute* New_ctor(::StringW category) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::DesignerCategoryAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesignerCategoryAttribute*, creationType>(category)));
     }
@@ -99,7 +100,7 @@ namespace System::ComponentModel {
     int GetHashCode();
   }; // System.ComponentModel.DesignerCategoryAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DesignerCategoryAttribute), 16 + sizeof(::Il2CppString*)> __System_ComponentModel_DesignerCategoryAttributeSizeCheck;
+  static check_size<sizeof(DesignerCategoryAttribute), 16 + sizeof(::StringW)> __System_ComponentModel_DesignerCategoryAttributeSizeCheck;
   static_assert(sizeof(DesignerCategoryAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

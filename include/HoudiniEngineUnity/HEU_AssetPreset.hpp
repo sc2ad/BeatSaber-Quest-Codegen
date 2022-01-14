@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -68,9 +69,9 @@ namespace HoudiniEngineUnity {
     // public System.String _assetOPName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* assetOPName;
+    ::StringW assetOPName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Byte[] _parameterPreset
     // Size: 0x8
     // Offset: 0x28
@@ -80,9 +81,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<System.String> _curveNames
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<::Il2CppString*>* curveNames;
+    System::Collections::Generic::List_1<::StringW>* curveNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
     // Size: 0x8
     // Offset: 0x38
@@ -109,11 +110,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _version
     int& dyn__version();
     // Get instance field reference: public System.String _assetOPName
-    ::Il2CppString*& dyn__assetOPName();
+    ::StringW& dyn__assetOPName();
     // Get instance field reference: public System.Byte[] _parameterPreset
     ::ArrayW<uint8_t>& dyn__parameterPreset();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> _curveNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__curveNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn__curveNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
     System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets

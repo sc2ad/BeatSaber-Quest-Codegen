@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {
@@ -42,26 +43,26 @@ namespace System::Reflection {
     // private System.String m_product
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_product;
+    ::StringW m_product;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_product;
     }
     // Get instance field reference: private System.String m_product
-    ::Il2CppString*& dyn_m_product();
+    ::StringW& dyn_m_product();
     // public System.Void .ctor(System.String product)
     // Offset: 0x1E8F7E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssemblyProductAttribute* New_ctor(::Il2CppString* product) {
+    static AssemblyProductAttribute* New_ctor(::StringW product) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyProductAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyProductAttribute*, creationType>(product)));
     }
   }; // System.Reflection.AssemblyProductAttribute
   #pragma pack(pop)
-  static check_size<sizeof(AssemblyProductAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_AssemblyProductAttributeSizeCheck;
+  static check_size<sizeof(AssemblyProductAttribute), 16 + sizeof(::StringW)> __System_Reflection_AssemblyProductAttributeSizeCheck;
   static_assert(sizeof(AssemblyProductAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

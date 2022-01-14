@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer);
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
     // Size: 0x8
     // Offset: 0x18
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*) == 0x8);
     public:
     // Get instance field reference: public System.String playerName
-    ::Il2CppString*& dyn_playerName();
+    ::StringW& dyn_playerName();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor()

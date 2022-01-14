@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,15 +33,15 @@ namespace GlobalNamespace {
     // static field const value: static public System.String kMirrorParentNameToIgnore
     static constexpr const char* kMirrorParentNameToIgnore = "PlayersPlace";
     // Get static field: static public System.String kMirrorParentNameToIgnore
-    static ::Il2CppString* _get_kMirrorParentNameToIgnore();
+    static ::StringW _get_kMirrorParentNameToIgnore();
     // Set static field: static public System.String kMirrorParentNameToIgnore
-    static void _set_kMirrorParentNameToIgnore(::Il2CppString* value);
+    static void _set_kMirrorParentNameToIgnore(::StringW value);
     // static field const value: static private System.String kDepthOnlyShaderName
     static constexpr const char* kDepthOnlyShaderName = "Custom/SetDepthOnly";
     // Get static field: static private System.String kDepthOnlyShaderName
-    static ::Il2CppString* _get_kDepthOnlyShaderName();
+    static ::StringW _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
-    static void _set_kDepthOnlyShaderName(::Il2CppString* value);
+    static void _set_kDepthOnlyShaderName(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF48FD0
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();

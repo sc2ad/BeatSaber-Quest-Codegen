@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -95,9 +96,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>* connectedPlayersById;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::IConnectedPlayer*>* connectedPlayersById;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::IConnectedPlayer*>*) == 0x8);
     // private GameplayServerMode _gameServerMode
     // Size: 0x4
     // Offset: 0x30
@@ -140,7 +141,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _connectedPlayers
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayers();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,IConnectedPlayer> _connectedPlayersById
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::IConnectedPlayer*>*& dyn__connectedPlayersById();
     // Get instance field reference: private GameplayServerMode _gameServerMode
     GlobalNamespace::GameplayServerMode& dyn__gameServerMode();
     // Get instance field reference: private DiscoveryPolicy _discoveryPolicy
@@ -193,7 +194,7 @@ namespace GlobalNamespace {
     void Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
     // Offset: 0x1353F70
-    GlobalNamespace::IConnectedPlayer* GetPlayerById(::Il2CppString* userId);
+    GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
     // Offset: 0x1354000
     void HandleMultiplayerSessionManagerPlayerConnected(GlobalNamespace::IConnectedPlayer* player);
@@ -334,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyStateDataModel::GetPlayerById
 // Il2CppName: GetPlayerById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::LobbyStateDataModel::*)(::Il2CppString*)>(&GlobalNamespace::LobbyStateDataModel::GetPlayerById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::LobbyStateDataModel::*)(::StringW)>(&GlobalNamespace::LobbyStateDataModel::GetPlayerById)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyStateDataModel*), "GetPlayerById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

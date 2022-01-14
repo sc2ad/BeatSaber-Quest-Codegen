@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -88,15 +89,15 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* readyPlayers;
+    System::Collections::Generic::HashSet_1<::StringW>* readyPlayers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.String,PlayerSpecificSettingsNetSerializable> _playersSpecificSettings
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* playersSpecificSettings;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* playersSpecificSettings;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*) == 0x8);
     // private System.Boolean _started
     // Size: 0x1
     // Offset: 0x38
@@ -108,21 +109,21 @@ namespace GlobalNamespace {
     // private System.String _sessionGameId
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* sessionGameId;
+    ::StringW sessionGameId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Action`1<System.String> sceneSetupDidFinishEvent
     // Size: 0x8
     // Offset: 0x48
-    System::Action_1<::Il2CppString*>* sceneSetupDidFinishEvent;
+    System::Action_1<::StringW>* sceneSetupDidFinishEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
     // Size: 0x8
     // Offset: 0x50
-    System::Action_1<::Il2CppString*>* sceneSetupDidReceiveTooLateEvent;
+    System::Action_1<::StringW>* sceneSetupDidReceiveTooLateEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
@@ -135,29 +136,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayersSpecificSettingsAtGameStartModel _playersAtGameStartModel
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& dyn__playersAtGameStartModel();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _readyPlayers
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__readyPlayers();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__readyPlayers();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,PlayerSpecificSettingsNetSerializable> _playersSpecificSettings
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn__playersSpecificSettings();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& dyn__playersSpecificSettings();
     // Get instance field reference: private System.Boolean _started
     bool& dyn__started();
     // Get instance field reference: private System.String _sessionGameId
-    ::Il2CppString*& dyn__sessionGameId();
+    ::StringW& dyn__sessionGameId();
     // Get instance field reference: private System.Action`1<System.String> sceneSetupDidFinishEvent
-    System::Action_1<::Il2CppString*>*& dyn_sceneSetupDidFinishEvent();
+    System::Action_1<::StringW>*& dyn_sceneSetupDidFinishEvent();
     // Get instance field reference: private System.Action`1<System.String> sceneSetupDidReceiveTooLateEvent
-    System::Action_1<::Il2CppString*>*& dyn_sceneSetupDidReceiveTooLateEvent();
+    System::Action_1<::StringW>*& dyn_sceneSetupDidReceiveTooLateEvent();
     // public System.Void add_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
     // Offset: 0x1810BD8
-    void add_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
+    void add_sceneSetupDidFinishEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_sceneSetupDidFinishEvent(System.Action`1<System.String> value)
     // Offset: 0x1810C7C
-    void remove_sceneSetupDidFinishEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_sceneSetupDidFinishEvent(System::Action_1<::StringW>* value);
     // public System.Void add_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
     // Offset: 0x1810D20
-    void add_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
+    void add_sceneSetupDidReceiveTooLateEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_sceneSetupDidReceiveTooLateEvent(System.Action`1<System.String> value)
     // Offset: 0x1810DC4
-    void remove_sceneSetupDidReceiveTooLateEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_sceneSetupDidReceiveTooLateEvent(System::Action_1<::StringW>* value);
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
     // Offset: 0x1810E68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -176,16 +177,16 @@ namespace GlobalNamespace {
     void ForceStart();
     // private System.Void HandleSetGameplaySceneReady(System.String userId, PlayerSpecificSettingsNetSerializable playerSpecificSettings)
     // Offset: 0x18122B0
-    void HandleSetGameplaySceneReady(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
+    void HandleSetGameplaySceneReady(::StringW userId, GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
     // private System.Void HandleGetGameplaySceneReady(System.String userId)
     // Offset: 0x1812674
-    void HandleGetGameplaySceneReady(::Il2CppString* userId);
+    void HandleGetGameplaySceneReady(::StringW userId);
     // private System.Void HandleSetGameplaySceneSyncFinished(System.String userId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
     // Offset: 0x1812738
-    void HandleSetGameplaySceneSyncFinished(::Il2CppString* userId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
+    void HandleSetGameplaySceneSyncFinished(::StringW userId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
     // private System.Void HandleSetPlayerDidConnectLate(System.String userId, System.String failedUserId, PlayerSpecificSettingsAtStartNetSerializable playersAtGameStart, System.String sessionId)
     // Offset: 0x18127D8
-    void HandleSetPlayerDidConnectLate(::Il2CppString* userId, ::Il2CppString* failedUserId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::Il2CppString* sessionId);
+    void HandleSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
     // private System.Void AddPlayerSpecificSettingsToDictionary(PlayerSpecificSettingsNetSerializable playerSpecificSettingsNetSerializable)
     // Offset: 0x18119B4
     void AddPlayerSpecificSettingsToDictionary(GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
@@ -194,14 +195,14 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
   }; // SceneStartHandler
   #pragma pack(pop)
-  static check_size<sizeof(SceneStartHandler), 80 + sizeof(System::Action_1<::Il2CppString*>*)> __GlobalNamespace_SceneStartHandlerSizeCheck;
+  static check_size<sizeof(SceneStartHandler), 80 + sizeof(System::Action_1<::StringW>*)> __GlobalNamespace_SceneStartHandlerSizeCheck;
   static_assert(sizeof(SceneStartHandler) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent
 // Il2CppName: add_sceneSetupDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "add_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::remove_sceneSetupDidFinishEvent
 // Il2CppName: remove_sceneSetupDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "remove_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -219,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent
 // Il2CppName: add_sceneSetupDidReceiveTooLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "add_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -228,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent
 // Il2CppName: remove_sceneSetupDidReceiveTooLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "remove_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneReady
 // Il2CppName: HandleSetGameplaySceneReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::StringW, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneReady)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsNetSerializable")->byval_arg;
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::HandleGetGameplaySceneReady
 // Il2CppName: HandleGetGameplaySceneReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleGetGameplaySceneReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::StringW)>(&GlobalNamespace::SceneStartHandler::HandleGetGameplaySceneReady)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "HandleGetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneSyncFinished
 // Il2CppName: HandleSetGameplaySceneSyncFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneSyncFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::StringW, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneSyncFinished)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersAtGameStart = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsAtStartNetSerializable")->byval_arg;
@@ -295,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartHandler::HandleSetPlayerDidConnectLate
 // Il2CppName: HandleSetPlayerDidConnectLate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleSetPlayerDidConnectLate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::StringW, ::StringW, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&GlobalNamespace::SceneStartHandler::HandleSetPlayerDidConnectLate)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* failedUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

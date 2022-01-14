@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -56,9 +57,9 @@ namespace System::Security::Cryptography {
     // System.String m_hashName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_hashName;
+    ::StringW m_hashName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Security.Cryptography.HashAlgorithm m_hash1
     // Size: 0x8
     // Offset: 0x40
@@ -95,7 +96,7 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.Int32 blockSizeValue
     int& dyn_blockSizeValue();
     // Get instance field reference: System.String m_hashName
-    ::Il2CppString*& dyn_m_hashName();
+    ::StringW& dyn_m_hashName();
     // Get instance field reference: System.Security.Cryptography.HashAlgorithm m_hash1
     System::Security::Cryptography::HashAlgorithm*& dyn_m_hash1();
     // Get instance field reference: System.Security.Cryptography.HashAlgorithm m_hash2

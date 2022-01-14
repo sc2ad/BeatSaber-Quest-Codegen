@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -61,9 +62,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
     }
     // Get static field: static readonly System.String PRECOMP_NAME
-    static ::Il2CppString* _get_PRECOMP_NAME();
+    static ::StringW _get_PRECOMP_NAME();
     // Set static field: static readonly System.String PRECOMP_NAME
-    static void _set_PRECOMP_NAME(::Il2CppString* value);
+    static void _set_PRECOMP_NAME(::StringW value);
     // Get instance field reference: private System.Boolean failed
     bool& dyn_failed();
     // Get instance field reference: private System.Boolean curveEquationPassed

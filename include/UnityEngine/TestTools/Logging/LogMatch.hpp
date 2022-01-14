@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -66,33 +67,33 @@ namespace UnityEngine::TestTools::Logging {
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_Message;
+    ::StringW m_Message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_MessageRegex
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_MessageRegex;
+    ::StringW m_MessageRegex;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_LogType
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_LogType;
+    ::StringW m_LogType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_UseRegex
     bool& dyn_m_UseRegex();
     // Get instance field reference: private System.String m_Message
-    ::Il2CppString*& dyn_m_Message();
+    ::StringW& dyn_m_Message();
     // Get instance field reference: private System.String m_MessageRegex
-    ::Il2CppString*& dyn_m_MessageRegex();
+    ::StringW& dyn_m_MessageRegex();
     // Get instance field reference: private System.String m_LogType
-    ::Il2CppString*& dyn_m_LogType();
+    ::StringW& dyn_m_LogType();
     // public System.String get_Message()
     // Offset: 0x16CFF14
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
     // Offset: 0x16CFF1C
     System::Text::RegularExpressions::Regex* get_MessageRegex();
@@ -115,17 +116,17 @@ namespace UnityEngine::TestTools::Logging {
     // Offset: 0x16D0188
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.TestTools.Logging.LogMatch
   #pragma pack(pop)
-  static check_size<sizeof(LogMatch), 40 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_Logging_LogMatchSizeCheck;
+  static check_size<sizeof(LogMatch), 40 + sizeof(::StringW)> __UnityEngine_TestTools_Logging_LogMatchSizeCheck;
   static_assert(sizeof(LogMatch) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

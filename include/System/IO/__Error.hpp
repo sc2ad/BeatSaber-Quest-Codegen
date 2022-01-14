@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -51,10 +52,10 @@ namespace System::IO {
     static void EndWriteCalledTwice();
     // static System.String GetDisplayablePath(System.String path, System.Boolean isInvalidPath)
     // Offset: 0x1A0E61C
-    static ::Il2CppString* GetDisplayablePath(::Il2CppString* path, bool isInvalidPath);
+    static ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
     // static System.Void WinIOError(System.Int32 errorCode, System.String maybeFullPath)
     // Offset: 0x1A0E754
-    static void WinIOError(int errorCode, ::Il2CppString* maybeFullPath);
+    static void WinIOError(int errorCode, ::StringW maybeFullPath);
     // static System.Void WriteNotSupported()
     // Offset: 0x1A0D9C8
     static void WriteNotSupported();
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::__Error::GetDisplayablePath
 // Il2CppName: GetDisplayablePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::IO::__Error::GetDisplayablePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&System::IO::__Error::GetDisplayablePath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isInvalidPath = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::__Error::WinIOError
 // Il2CppName: WinIOError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&System::IO::__Error::WinIOError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::StringW)>(&System::IO::__Error::WinIOError)> {
   static const MethodInfo* get() {
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maybeFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

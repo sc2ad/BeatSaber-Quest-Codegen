@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -187,9 +188,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.HashSet`1<System.String> _playerState
     // Size: 0x8
     // Offset: 0xD0
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* playerState;
+    System::Collections::Generic::HashSet_1<::StringW>* playerState;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private readonly MockPlayerSettings _settings
     // Size: 0x8
     // Offset: 0xD8
@@ -248,7 +249,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isReady
     bool& dyn__isReady();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _playerState
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__playerState();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__playerState();
     // Get instance field reference: private readonly MockPlayerSettings _settings
     GlobalNamespace::MockPlayerSettings*& dyn__settings();
     // Get instance field reference: private MockPlayerFiniteStateMachine _fsm
@@ -264,10 +265,10 @@ namespace GlobalNamespace {
     bool get_isMe();
     // public System.String get_userId()
     // Offset: 0x11BFF58
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x11BFF74
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Int32 get_sortIndex()
     // Offset: 0x11BFF90
     int get_sortIndex();
@@ -439,10 +440,10 @@ namespace GlobalNamespace {
     }
     // public System.Boolean SetState(System.String state, System.Boolean value)
     // Offset: 0x11C031C
-    bool SetState(::Il2CppString* state, bool value);
+    bool SetState(::StringW state, bool value);
     // public System.Boolean HasState(System.String state)
     // Offset: 0x11C0254
-    bool HasState(::Il2CppString* state);
+    bool HasState(::StringW state);
     // public System.Void Connect(IMultiplayerSessionManager multiplayerSessionManager, AvatarPartsModel avatarPartsModel, BeatmapLevelsModel beatmapLevelsModel, NodePoseSyncStateManager nodePoseSyncStateManager)
     // Offset: 0x11C0878
     void Connect(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::AvatarPartsModel* avatarPartsModel, GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
@@ -472,7 +473,7 @@ namespace GlobalNamespace {
     void Invite();
     // public System.Void Join(System.String password)
     // Offset: 0x11C1418
-    void Join(::Il2CppString* password);
+    void Join(::StringW password);
     // public System.Void Join()
     // Offset: 0x11C1478
     void Join();
@@ -516,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -524,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -991,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SetState
 // Il2CppName: SetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)(::Il2CppString*, bool)>(&GlobalNamespace::MockPlayer::SetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)(::StringW, bool)>(&GlobalNamespace::MockPlayer::SetState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1001,7 +1002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::HasState
 // Il2CppName: HasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayer::HasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)(::StringW)>(&GlobalNamespace::MockPlayer::HasState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -1088,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(::StringW)>(&GlobalNamespace::MockPlayer::Join)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {
@@ -42,9 +43,9 @@ namespace System::Runtime::Remoting::Metadata {
     // private System.String _elementName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* elementName;
+    ::StringW elementName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isElement
     // Size: 0x1
     // Offset: 0x30
@@ -53,12 +54,12 @@ namespace System::Runtime::Remoting::Metadata {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String _elementName
-    ::Il2CppString*& dyn__elementName();
+    ::StringW& dyn__elementName();
     // Get instance field reference: private System.Boolean _isElement
     bool& dyn__isElement();
     // public System.String get_XmlElementName()
     // Offset: 0x1C5C618
-    ::Il2CppString* get_XmlElementName();
+    ::StringW get_XmlElementName();
     // public System.Boolean IsInteropXmlElement()
     // Offset: 0x1C5C620
     bool IsInteropXmlElement();
@@ -87,7 +88,7 @@ namespace System::Runtime::Remoting::Metadata {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName
 // Il2CppName: get_XmlElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapFieldAttribute*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -38,20 +39,20 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* token;
+    ::StringW token;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String expiration
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* expiration;
+    ::StringW expiration;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String token
-    ::Il2CppString*& dyn_token();
+    ::StringW& dyn_token();
     // Get instance field reference: public System.String expiration
-    ::Il2CppString*& dyn_expiration();
+    ::StringW& dyn_expiration();
     // public System.Void .ctor()
     // Offset: 0x12C7988
     // Implemented from: System.Object
@@ -63,7 +64,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.AccessToken
   #pragma pack(pop)
-  static check_size<sizeof(AccessToken), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
+  static check_size<sizeof(AccessToken), 24 + sizeof(::StringW)> __BeatSaberAPI_DataTransferObjects_AccessTokenSizeCheck;
   static_assert(sizeof(AccessToken) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

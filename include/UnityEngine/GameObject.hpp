@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -97,10 +98,10 @@ namespace UnityEngine {
     bool get_isStaticBatchable();
     // public System.String get_tag()
     // Offset: 0x1D075BC
-    ::Il2CppString* get_tag();
+    ::StringW get_tag();
     // public System.Void set_tag(System.String value)
     // Offset: 0x1D07680
-    void set_tag(::Il2CppString* value);
+    void set_tag(::StringW value);
     // public UnityEngine.SceneManagement.Scene get_scene()
     // Offset: 0x1D10818
     UnityEngine::SceneManagement::Scene get_scene();
@@ -113,14 +114,14 @@ namespace UnityEngine {
     // public System.Void .ctor(System.String name)
     // Offset: 0x1D10524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameObject* New_ctor(::Il2CppString* name) {
+    static GameObject* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GameObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObject*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, params System.Type[] components)
     // Offset: 0x1D106A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameObject* New_ctor(::Il2CppString* name, ::ArrayW<System::Type*> components) {
+    static GameObject* New_ctor(::StringW name, ::ArrayW<System::Type*> components) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GameObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObject*, creationType>(name, components)));
     }
@@ -144,10 +145,10 @@ namespace UnityEngine {
     void GetComponentFastPath(System::Type* type, System::IntPtr oneFurtherThanResultValue);
     // UnityEngine.Component GetComponentByName(System.String type)
     // Offset: 0x1D0F870
-    UnityEngine::Component* GetComponentByName(::Il2CppString* type);
+    UnityEngine::Component* GetComponentByName(::StringW type);
     // public UnityEngine.Component GetComponent(System.String type)
     // Offset: 0x1D0F8C0
-    UnityEngine::Component* GetComponent(::Il2CppString* type);
+    UnityEngine::Component* GetComponent(::StringW type);
     // public UnityEngine.Component GetComponentInChildren(System.Type type, System.Boolean includeInactive)
     // Offset: 0x1D07018
     UnityEngine::Component* GetComponentInChildren(System::Type* type, bool includeInactive);
@@ -306,19 +307,19 @@ namespace UnityEngine {
     void TryGetComponentFastPath(System::Type* type, System::IntPtr oneFurtherThanResultValue);
     // static public UnityEngine.GameObject FindWithTag(System.String tag)
     // Offset: 0x1D0FBBC
-    static UnityEngine::GameObject* FindWithTag(::Il2CppString* tag);
+    static UnityEngine::GameObject* FindWithTag(::StringW tag);
     // public System.Void SendMessageUpwards(System.String methodName, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FC3C
-    void SendMessageUpwards(::Il2CppString* methodName, UnityEngine::SendMessageOptions options);
+    void SendMessageUpwards(::StringW methodName, UnityEngine::SendMessageOptions options);
     // public System.Void SendMessage(System.String methodName, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FD00
-    void SendMessage(::Il2CppString* methodName, UnityEngine::SendMessageOptions options);
+    void SendMessage(::StringW methodName, UnityEngine::SendMessageOptions options);
     // public System.Void BroadcastMessage(System.String methodName, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FDC4
-    void BroadcastMessage(::Il2CppString* methodName, UnityEngine::SendMessageOptions options);
+    void BroadcastMessage(::StringW methodName, UnityEngine::SendMessageOptions options);
     // UnityEngine.Component AddComponentInternal(System.String className)
     // Offset: 0x1D0FE88
-    UnityEngine::Component* AddComponentInternal(::Il2CppString* className);
+    UnityEngine::Component* AddComponentInternal(::StringW className);
     // private UnityEngine.Component Internal_AddComponentWithType(System.Type componentType)
     // Offset: 0x1D0FED8
     UnityEngine::Component* Internal_AddComponentWithType(System::Type* componentType);
@@ -343,46 +344,46 @@ namespace UnityEngine {
     void SetActiveRecursively(bool state);
     // public System.Boolean CompareTag(System.String tag)
     // Offset: 0x1D07754
-    bool CompareTag(::Il2CppString* tag);
+    bool CompareTag(::StringW tag);
     // static public UnityEngine.GameObject FindGameObjectWithTag(System.String tag)
     // Offset: 0x1D0FBFC
-    static UnityEngine::GameObject* FindGameObjectWithTag(::Il2CppString* tag);
+    static UnityEngine::GameObject* FindGameObjectWithTag(::StringW tag);
     // static public UnityEngine.GameObject[] FindGameObjectsWithTag(System.String tag)
     // Offset: 0x1D102C8
-    static ::ArrayW<UnityEngine::GameObject*> FindGameObjectsWithTag(::Il2CppString* tag);
+    static ::ArrayW<UnityEngine::GameObject*> FindGameObjectsWithTag(::StringW tag);
     // public System.Void SendMessageUpwards(System.String methodName, System.Object value, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FC98
-    void SendMessageUpwards(::Il2CppString* methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
+    void SendMessageUpwards(::StringW methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
     // public System.Void SendMessageUpwards(System.String methodName, System.Object value)
     // Offset: 0x1D10308
-    void SendMessageUpwards(::Il2CppString* methodName, ::Il2CppObject* value);
+    void SendMessageUpwards(::StringW methodName, ::Il2CppObject* value);
     // public System.Void SendMessageUpwards(System.String methodName)
     // Offset: 0x1D10364
-    void SendMessageUpwards(::Il2CppString* methodName);
+    void SendMessageUpwards(::StringW methodName);
     // public System.Void SendMessage(System.String methodName, System.Object value, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FD5C
-    void SendMessage(::Il2CppString* methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
+    void SendMessage(::StringW methodName, ::Il2CppObject* value, UnityEngine::SendMessageOptions options);
     // public System.Void SendMessage(System.String methodName, System.Object value)
     // Offset: 0x1D103BC
-    void SendMessage(::Il2CppString* methodName, ::Il2CppObject* value);
+    void SendMessage(::StringW methodName, ::Il2CppObject* value);
     // public System.Void SendMessage(System.String methodName)
     // Offset: 0x1D10418
-    void SendMessage(::Il2CppString* methodName);
+    void SendMessage(::StringW methodName);
     // public System.Void BroadcastMessage(System.String methodName, System.Object parameter, UnityEngine.SendMessageOptions options)
     // Offset: 0x1D0FE20
-    void BroadcastMessage(::Il2CppString* methodName, ::Il2CppObject* parameter, UnityEngine::SendMessageOptions options);
+    void BroadcastMessage(::StringW methodName, ::Il2CppObject* parameter, UnityEngine::SendMessageOptions options);
     // public System.Void BroadcastMessage(System.String methodName, System.Object parameter)
     // Offset: 0x1D10470
-    void BroadcastMessage(::Il2CppString* methodName, ::Il2CppObject* parameter);
+    void BroadcastMessage(::StringW methodName, ::Il2CppObject* parameter);
     // public System.Void BroadcastMessage(System.String methodName)
     // Offset: 0x1D104CC
-    void BroadcastMessage(::Il2CppString* methodName);
+    void BroadcastMessage(::StringW methodName);
     // static private System.Void Internal_CreateGameObject(UnityEngine.GameObject self, System.String name)
     // Offset: 0x1D105C4
-    static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::Il2CppString* name);
+    static void Internal_CreateGameObject(UnityEngine::GameObject* self, ::StringW name);
     // static public UnityEngine.GameObject Find(System.String name)
     // Offset: 0x1D107D8
-    static UnityEngine::GameObject* Find(::Il2CppString* name);
+    static UnityEngine::GameObject* Find(::StringW name);
     // private System.Void get_scene_Injected(out UnityEngine.SceneManagement.Scene ret)
     // Offset: 0x1D10870
     void get_scene_Injected(ByRef<UnityEngine::SceneManagement::Scene> ret);
@@ -486,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::get_tag
 // Il2CppName: get_tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GameObject::*)()>(&UnityEngine::GameObject::get_tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GameObject::*)()>(&UnityEngine::GameObject::get_tag)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "get_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -494,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GameObject::set_tag
 // Il2CppName: set_tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::set_tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::set_tag)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "set_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -566,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::GetComponentByName
 // Il2CppName: GetComponentByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::GetComponentByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::GetComponentByName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "GetComponentByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -575,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GameObject::GetComponent
 // Il2CppName: GetComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::GetComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::GetComponent)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -751,7 +752,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::FindWithTag
 // Il2CppName: FindWithTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&UnityEngine::GameObject::FindWithTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&UnityEngine::GameObject::FindWithTag)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "FindWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -760,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessageUpwards
 // Il2CppName: SendMessageUpwards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessageUpwards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessageUpwards)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine", "SendMessageOptions")->byval_arg;
@@ -770,7 +771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine", "SendMessageOptions")->byval_arg;
@@ -780,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::BroadcastMessage
 // Il2CppName: BroadcastMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::BroadcastMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::BroadcastMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine", "SendMessageOptions")->byval_arg;
@@ -790,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::AddComponentInternal
 // Il2CppName: AddComponentInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::AddComponentInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::AddComponentInternal)> {
   static const MethodInfo* get() {
     static auto* className = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "AddComponentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{className});
@@ -838,7 +839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::CompareTag
 // Il2CppName: CompareTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::CompareTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::CompareTag)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "CompareTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -847,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::FindGameObjectWithTag
 // Il2CppName: FindGameObjectWithTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&UnityEngine::GameObject::FindGameObjectWithTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&UnityEngine::GameObject::FindGameObjectWithTag)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "FindGameObjectWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -856,7 +857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GameObject::FindGameObjectsWithTag
 // Il2CppName: FindGameObjectsWithTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (*)(::Il2CppString*)>(&UnityEngine::GameObject::FindGameObjectsWithTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (*)(::StringW)>(&UnityEngine::GameObject::FindGameObjectsWithTag)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "FindGameObjectsWithTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -865,7 +866,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessageUpwards
 // Il2CppName: SendMessageUpwards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessageUpwards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessageUpwards)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -876,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessageUpwards
 // Il2CppName: SendMessageUpwards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::GameObject::SendMessageUpwards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*)>(&UnityEngine::GameObject::SendMessageUpwards)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -886,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessageUpwards
 // Il2CppName: SendMessageUpwards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::SendMessageUpwards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::SendMessageUpwards)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "SendMessageUpwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -895,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::SendMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -906,7 +907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::GameObject::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*)>(&UnityEngine::GameObject::SendMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -916,7 +917,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::SendMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -925,7 +926,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::BroadcastMessage
 // Il2CppName: BroadcastMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::BroadcastMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*, UnityEngine::SendMessageOptions)>(&UnityEngine::GameObject::BroadcastMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -936,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::BroadcastMessage
 // Il2CppName: BroadcastMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::GameObject::BroadcastMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW, ::Il2CppObject*)>(&UnityEngine::GameObject::BroadcastMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -946,7 +947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::BroadcastMessage
 // Il2CppName: BroadcastMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::Il2CppString*)>(&UnityEngine::GameObject::BroadcastMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GameObject::*)(::StringW)>(&UnityEngine::GameObject::BroadcastMessage)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "BroadcastMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -955,7 +956,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GameObject::Internal_CreateGameObject
 // Il2CppName: Internal_CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::Il2CppString*)>(&UnityEngine::GameObject::Internal_CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::StringW)>(&UnityEngine::GameObject::Internal_CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -965,7 +966,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GameObject::Find
 // Il2CppName: Find
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*)>(&UnityEngine::GameObject::Find)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&UnityEngine::GameObject::Find)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GameObject*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

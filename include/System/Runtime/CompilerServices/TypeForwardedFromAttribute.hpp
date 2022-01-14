@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
@@ -41,36 +42,36 @@ namespace System::Runtime::CompilerServices {
     // private System.String assemblyFullName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* assemblyFullName;
+    ::StringW assemblyFullName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return assemblyFullName;
     }
     // Get instance field reference: private System.String assemblyFullName
-    ::Il2CppString*& dyn_assemblyFullName();
+    ::StringW& dyn_assemblyFullName();
     // public System.String get_AssemblyFullName()
     // Offset: 0x1621DE0
-    ::Il2CppString* get_AssemblyFullName();
+    ::StringW get_AssemblyFullName();
     // public System.Void .ctor(System.String assemblyFullName)
     // Offset: 0x1621D38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeForwardedFromAttribute* New_ctor(::Il2CppString* assemblyFullName) {
+    static TypeForwardedFromAttribute* New_ctor(::StringW assemblyFullName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TypeForwardedFromAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeForwardedFromAttribute*, creationType>(assemblyFullName)));
     }
   }; // System.Runtime.CompilerServices.TypeForwardedFromAttribute
   #pragma pack(pop)
-  static check_size<sizeof(TypeForwardedFromAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_CompilerServices_TypeForwardedFromAttributeSizeCheck;
+  static check_size<sizeof(TypeForwardedFromAttribute), 16 + sizeof(::StringW)> __System_Runtime_CompilerServices_TypeForwardedFromAttributeSizeCheck;
   static_assert(sizeof(TypeForwardedFromAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName
 // Il2CppName: get_AssemblyFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TypeForwardedFromAttribute*), "get_AssemblyFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

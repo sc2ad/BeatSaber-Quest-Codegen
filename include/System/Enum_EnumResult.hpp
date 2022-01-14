@@ -11,6 +11,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.Enum/System.ParseFailureKind
 #include "System/Enum_ParseFailureKind.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,15 +55,15 @@ namespace System {
     // System.String m_failureMessageID
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_failureMessageID;
+    ::StringW m_failureMessageID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String m_failureParameter
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_failureParameter;
+    ::StringW m_failureParameter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Object m_failureMessageFormatArgument
     // Size: 0x8
     // Offset: 0x20
@@ -77,7 +78,7 @@ namespace System {
     static_assert(sizeof(System::Exception*) == 0x8);
     public:
     // Creating value type constructor for type: EnumResult
-    constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
+    constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::StringW m_failureMessageID_ = {}, ::StringW m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -89,9 +90,9 @@ namespace System {
     // Get instance field reference: System.Enum/System.ParseFailureKind m_failure
     System::Enum::ParseFailureKind& dyn_m_failure();
     // Get instance field reference: System.String m_failureMessageID
-    ::Il2CppString*& dyn_m_failureMessageID();
+    ::StringW& dyn_m_failureMessageID();
     // Get instance field reference: System.String m_failureParameter
-    ::Il2CppString*& dyn_m_failureParameter();
+    ::StringW& dyn_m_failureParameter();
     // Get instance field reference: System.Object m_failureMessageFormatArgument
     ::Il2CppObject*& dyn_m_failureMessageFormatArgument();
     // Get instance field reference: System.Exception m_innerException
@@ -104,10 +105,10 @@ namespace System {
     void SetFailure(System::Exception* unhandledException);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureParameter)
     // Offset: 0x19A5B80
-    void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureParameter);
+    void SetFailure(System::Enum::ParseFailureKind failure, ::StringW failureParameter);
     // System.Void SetFailure(System.Enum/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0x19A5BF8
-    void SetFailure(System::Enum::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::Enum::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Exception GetEnumParseException()
     // Offset: 0x19A5A18
     System::Exception* GetEnumParseException();
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Enum::EnumResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*)>(&System::Enum::EnumResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::StringW)>(&System::Enum::EnumResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Enum/ParseFailureKind")->byval_arg;
     static auto* failureParameter = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Enum::EnumResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::Enum::EnumResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Enum::EnumResult::*)(System::Enum::ParseFailureKind, ::StringW, ::Il2CppObject*)>(&System::Enum::EnumResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Enum/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

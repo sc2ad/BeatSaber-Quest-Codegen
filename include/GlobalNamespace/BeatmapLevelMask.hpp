@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -106,37 +107,37 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kToStringPrefix
     static constexpr const char* kToStringPrefix = "[BeatmapLevelMask ";
     // Get static field: static private System.String kToStringPrefix
-    static ::Il2CppString* _get_kToStringPrefix();
+    static ::StringW _get_kToStringPrefix();
     // Set static field: static private System.String kToStringPrefix
-    static void _set_kToStringPrefix(::Il2CppString* value);
+    static void _set_kToStringPrefix(::StringW value);
     // static field const value: static private System.String kToStringSuffix
     static constexpr const char* kToStringSuffix = "]";
     // Get static field: static private System.String kToStringSuffix
-    static ::Il2CppString* _get_kToStringSuffix();
+    static ::StringW _get_kToStringSuffix();
     // Set static field: static private System.String kToStringSuffix
-    static void _set_kToStringSuffix(::Il2CppString* value);
+    static void _set_kToStringSuffix(::StringW value);
     // Get instance field reference: private readonly BitMaskSparse _bloomFilter
     GlobalNamespace::BitMaskSparse*& dyn__bloomFilter();
     // public System.Void .ctor(System.String level)
     // Offset: 0x261E730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelMask* New_ctor(::Il2CppString* level) {
+    static BeatmapLevelMask* New_ctor(::StringW level) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(level)));
     }
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> levelSet)
     // Offset: 0x261E7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelMask* New_ctor(System::Collections::Generic::HashSet_1<::Il2CppString*>* levelSet) {
+    static BeatmapLevelMask* New_ctor(System::Collections::Generic::HashSet_1<::StringW>* levelSet) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelMask*, creationType>(levelSet)));
     }
     // public System.Boolean Contains(System.String state)
     // Offset: 0x261E8FC
-    bool Contains(::Il2CppString* state);
+    bool Contains(::StringW state);
     // public System.Void AddLevel(System.String state)
     // Offset: 0x261E964
-    void AddLevel(::Il2CppString* state);
+    void AddLevel(::StringW state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x261E9CC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -159,7 +160,7 @@ namespace GlobalNamespace {
     // Offset: 0x261EBE8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x261EC48
     // Implemented from: System.Object
@@ -187,7 +188,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelMask::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelMask::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelMask::*)(::StringW)>(&GlobalNamespace::BeatmapLevelMask::Contains)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelMask*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -196,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::AddLevel
 // Il2CppName: AddLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelMask::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelMask::AddLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelMask::*)(::StringW)>(&GlobalNamespace::BeatmapLevelMask::AddLevel)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelMask*), "AddLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -236,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelMask::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelMask::*)()>(&GlobalNamespace::BeatmapLevelMask::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelMask::*)()>(&GlobalNamespace::BeatmapLevelMask::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelMask*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

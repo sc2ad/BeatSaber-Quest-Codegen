@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -49,10 +50,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.String pchActionName, ref System.UInt64 pHandle)
     // Offset: 0x217D2A8
-    OVR::OpenVR::EVRInputError Invoke(::Il2CppString* pchActionName, ByRef<uint64_t> pHandle);
+    OVR::OpenVR::EVRInputError Invoke(::StringW pchActionName, ByRef<uint64_t> pHandle);
     // public System.IAsyncResult BeginInvoke(System.String pchActionName, ref System.UInt64 pHandle, System.AsyncCallback callback, System.Object object)
     // Offset: 0x217D698
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchActionName, ByRef<uint64_t> pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchActionName, ByRef<uint64_t> pHandle, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref System.UInt64 pHandle, System.IAsyncResult result)
     // Offset: 0x217D734
     OVR::OpenVR::EVRInputError EndInvoke(ByRef<uint64_t> pHandle, System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetActionHandle::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetActionHandle::*)(::Il2CppString*, ByRef<uint64_t>)>(&OVR::OpenVR::IVRInput::_GetActionHandle::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetActionHandle::*)(::StringW, ByRef<uint64_t>)>(&OVR::OpenVR::IVRInput::_GetActionHandle::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchActionName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetActionHandle::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetActionHandle::*)(::Il2CppString*, ByRef<uint64_t>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetActionHandle::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetActionHandle::*)(::StringW, ByRef<uint64_t>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetActionHandle::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchActionName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;

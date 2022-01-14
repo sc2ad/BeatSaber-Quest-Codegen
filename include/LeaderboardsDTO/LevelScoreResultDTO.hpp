@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
@@ -41,21 +42,21 @@ namespace LeaderboardsDTO {
     // public System.String guid
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* guid;
+    ::StringW guid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String guids
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* guids;
+    ::StringW guids;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String guidInstance
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* guidInstance;
+    ::StringW guidInstance;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 rawScore
     // Size: 0x4
     // Offset: 0x28
@@ -111,28 +112,28 @@ namespace LeaderboardsDTO {
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String deviceModel
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* deviceModel;
+    ::StringW deviceModel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String extraDataBase64
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* extraDataBase64;
+    ::StringW extraDataBase64;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String guid
-    ::Il2CppString*& dyn_guid();
+    ::StringW& dyn_guid();
     // Get instance field reference: public System.String guids
-    ::Il2CppString*& dyn_guids();
+    ::StringW& dyn_guids();
     // Get instance field reference: public System.String guidInstance
-    ::Il2CppString*& dyn_guidInstance();
+    ::StringW& dyn_guidInstance();
     // Get instance field reference: public System.Int32 rawScore
     int& dyn_rawScore();
     // Get instance field reference: public System.Int32 modifiedScore
@@ -150,11 +151,11 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
-    ::Il2CppString*& dyn_leaderboardId();
+    ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel
-    ::Il2CppString*& dyn_deviceModel();
+    ::StringW& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64
-    ::Il2CppString*& dyn_extraDataBase64();
+    ::StringW& dyn_extraDataBase64();
     // public System.Void .ctor()
     // Offset: 0x11A3AB8
     // Implemented from: System.Object
@@ -166,7 +167,7 @@ namespace LeaderboardsDTO {
     }
   }; // LeaderboardsDTO.LevelScoreResultDTO
   #pragma pack(pop)
-  static check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(::Il2CppString*)> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
+  static check_size<sizeof(LevelScoreResultDTO), 96 + sizeof(::StringW)> __LeaderboardsDTO_LevelScoreResultDTOSizeCheck;
   static_assert(sizeof(LevelScoreResultDTO) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

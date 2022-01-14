@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData);
@@ -36,20 +37,20 @@ namespace GlobalNamespace {
     // public System.String[] unlockedAchievements
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> unlockedAchievements;
+    ::ArrayW<::StringW> unlockedAchievements;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String[] unlockedAchievementsToUpload
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> unlockedAchievementsToUpload;
+    ::ArrayW<::StringW> unlockedAchievementsToUpload;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public System.String[] unlockedAchievements
-    ::ArrayW<::Il2CppString*>& dyn_unlockedAchievements();
+    ::ArrayW<::StringW>& dyn_unlockedAchievements();
     // Get instance field reference: public System.String[] unlockedAchievementsToUpload
-    ::ArrayW<::Il2CppString*>& dyn_unlockedAchievementsToUpload();
+    ::ArrayW<::StringW>& dyn_unlockedAchievementsToUpload();
     // public System.Void .ctor()
     // Offset: 0x11AAABC
     // Implemented from: System.Object
@@ -61,7 +62,7 @@ namespace GlobalNamespace {
     }
   }; // PlayerSaveDataV1_0_1/AchievementsData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
+  static check_size<sizeof(PlayerSaveDataV1_0_1::AchievementsData), 24 + sizeof(::ArrayW<::StringW>)> __GlobalNamespace_PlayerSaveDataV1_0_1_AchievementsDataSizeCheck;
   static_assert(sizeof(PlayerSaveDataV1_0_1::AchievementsData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

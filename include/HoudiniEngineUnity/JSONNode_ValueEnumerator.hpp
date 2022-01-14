@@ -11,6 +11,7 @@
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator
 #include "HoudiniEngineUnity/JSONNode_Enumerator.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode::ValueEnumerator, "HoudiniEngineUnity", "JSONNode/ValueEnumerator");
@@ -48,7 +49,7 @@ namespace HoudiniEngineUnity {
     ValueEnumerator(typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,HoudiniEngineUnity.JSONNode> aDictEnum)
     // Offset: 0x178D2FC
-    ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
+    ValueEnumerator(typename System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator aEnumerator)
     // Offset: 0x178D348
     // ABORTED: conflicts with another method.  ValueEnumerator(HoudiniEngineUnity::JSONNode::Enumerator aEnumerator);

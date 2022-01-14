@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -61,9 +62,9 @@ namespace NUnit::Framework::Internal {
     // static field const value: static public System.String DefaultStringChars
     static constexpr const char* DefaultStringChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789_";
     // Get static field: static public System.String DefaultStringChars
-    static ::Il2CppString* _get_DefaultStringChars();
+    static ::StringW _get_DefaultStringChars();
     // Set static field: static public System.String DefaultStringChars
-    static void _set_DefaultStringChars(::Il2CppString* value);
+    static void _set_DefaultStringChars(::StringW value);
     // static field const value: static private System.Int32 DefaultStringLength
     static constexpr const int DefaultStringLength = 25;
     // Get static field: static private System.Int32 DefaultStringLength

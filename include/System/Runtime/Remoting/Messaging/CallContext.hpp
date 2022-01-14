@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -42,19 +43,19 @@ namespace System::Runtime::Remoting::Messaging {
     static System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
     // static public System.Object LogicalGetData(System.String name)
     // Offset: 0x1C508D0
-    static ::Il2CppObject* LogicalGetData(::Il2CppString* name);
+    static ::Il2CppObject* LogicalGetData(::StringW name);
     // static private System.Object IllogicalGetData(System.String name)
     // Offset: 0x1C50934
-    static ::Il2CppObject* IllogicalGetData(::Il2CppString* name);
+    static ::Il2CppObject* IllogicalGetData(::StringW name);
     // static public System.Object GetData(System.String name)
     // Offset: 0x1C50998
-    static ::Il2CppObject* GetData(::Il2CppString* name);
+    static ::Il2CppObject* GetData(::StringW name);
     // static public System.Void SetData(System.String name, System.Object data)
     // Offset: 0x1C509CC
-    static void SetData(::Il2CppString* name, ::Il2CppObject* data);
+    static void SetData(::StringW name, ::Il2CppObject* data);
     // static public System.Void LogicalSetData(System.String name, System.Object data)
     // Offset: 0x1C50A90
-    static void LogicalSetData(::Il2CppString* name, ::Il2CppObject* data);
+    static void LogicalSetData(::StringW name, ::Il2CppObject* data);
     // private System.Void .ctor()
     // Offset: 0x1C50878
     // Implemented from: System.Object
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::LogicalGetData
 // Il2CppName: LogicalGetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalGetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalGetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "LogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::IllogicalGetData
 // Il2CppName: IllogicalGetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::IllogicalGetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW)>(&System::Runtime::Remoting::Messaging::CallContext::IllogicalGetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "IllogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW)>(&System::Runtime::Remoting::Messaging::CallContext::GetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::SetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::LogicalSetData
 // Il2CppName: LogicalSetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalSetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalSetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

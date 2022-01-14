@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -66,7 +67,7 @@ namespace Oculus::Platform {
     System::IntPtr& dyn_Handle();
     // public System.Void SetDescription(System.String value)
     // Offset: 0x174AE58
-    void SetDescription(::Il2CppString* value);
+    void SetDescription(::StringW value);
     // public System.Void SetEndDate(System.DateTime value)
     // Offset: 0x174AED4
     void SetEndDate(System::DateTime value);
@@ -81,13 +82,13 @@ namespace Oculus::Platform {
     void SetIncludePastChallenges(bool value);
     // public System.Void SetLeaderboardName(System.String value)
     // Offset: 0x174B0C4
-    void SetLeaderboardName(::Il2CppString* value);
+    void SetLeaderboardName(::StringW value);
     // public System.Void SetStartDate(System.DateTime value)
     // Offset: 0x174B140
     void SetStartDate(System::DateTime value);
     // public System.Void SetTitle(System.String value)
     // Offset: 0x174B1BC
-    void SetTitle(::Il2CppString* value);
+    void SetTitle(::StringW value);
     // public System.Void SetViewerFilter(Oculus.Platform.ChallengeViewerFilter value)
     // Offset: 0x174B238
     void SetViewerFilter(Oculus::Platform::ChallengeViewerFilter value);
@@ -120,7 +121,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription
 // Il2CppName: SetDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::StringW)>(&Oculus::Platform::ChallengeOptions::SetDescription)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetLeaderboardName
 // Il2CppName: SetLeaderboardName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetLeaderboardName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::StringW)>(&Oculus::Platform::ChallengeOptions::SetLeaderboardName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetLeaderboardName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetTitle
 // Il2CppName: SetTitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::Il2CppString*)>(&Oculus::Platform::ChallengeOptions::SetTitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ChallengeOptions::*)(::StringW)>(&Oculus::Platform::ChallengeOptions::SetTitle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ChallengeOptions*), "SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

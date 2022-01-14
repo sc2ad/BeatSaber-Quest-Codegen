@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -98,9 +99,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String memberName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* memberName;
+    ::StringW memberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static System.Reflection.MemberInfo valueInfo
     static System::Reflection::MemberInfo* _get_valueInfo();
@@ -119,7 +120,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_objectInfo();
     // Get instance field reference: System.String memberName
-    ::Il2CppString*& dyn_memberName();
+    ::StringW& dyn_memberName();
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
     // Offset: 0x18650EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -130,7 +131,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Void .ctor(System.Object memberObject, System.String memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
     // Offset: 0x1865824
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValueFixup* New_ctor(::Il2CppObject* memberObject, ::Il2CppString* memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
+    static ValueFixup* New_ctor(::Il2CppObject* memberObject, ::StringW memberName, System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(memberObject, memberName, objectInfo)));
     }
@@ -139,7 +140,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void Fixup(System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
   }; // System.Runtime.Serialization.Formatters.Binary.ValueFixup
   #pragma pack(pop)
-  static check_size<sizeof(ValueFixup), 64 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_ValueFixupSizeCheck;
+  static check_size<sizeof(ValueFixup), 64 + sizeof(::StringW)> __System_Runtime_Serialization_Formatters_Binary_ValueFixupSizeCheck;
   static_assert(sizeof(ValueFixup) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

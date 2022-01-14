@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -39,19 +40,19 @@ namespace GlobalNamespace {
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* presetNameLocalizationKey;
+    ::StringW presetNameLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return presetNameLocalizationKey;
     }
     // Get instance field reference: private System.String _presetNameLocalizationKey
-    ::Il2CppString*& dyn__presetNameLocalizationKey();
+    ::StringW& dyn__presetNameLocalizationKey();
     // public System.String get_presetNameLocalizationKey()
     // Offset: 0x117D7A4
-    ::Il2CppString* get_presetNameLocalizationKey();
+    ::StringW get_presetNameLocalizationKey();
     // public System.Void .ctor()
     // Offset: 0x117D7AC
     // Implemented from: System.Object
@@ -63,14 +64,14 @@ namespace GlobalNamespace {
     }
   }; // NamedPreset
   #pragma pack(pop)
-  static check_size<sizeof(NamedPreset), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_NamedPresetSizeCheck;
+  static check_size<sizeof(NamedPreset), 16 + sizeof(::StringW)> __GlobalNamespace_NamedPresetSizeCheck;
   static_assert(sizeof(NamedPreset) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedPreset::get_presetNameLocalizationKey
 // Il2CppName: get_presetNameLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NamedPreset::*)()>(&GlobalNamespace::NamedPreset::get_presetNameLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::NamedPreset::*)()>(&GlobalNamespace::NamedPreset::get_presetNameLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedPreset*), "get_presetNameLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

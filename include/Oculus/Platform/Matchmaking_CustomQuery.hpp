@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace Oculus::Platform {
       // public System.String key
       // Size: 0x8
       // Offset: 0x0
-      ::Il2CppString* key;
+      ::StringW key;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       // public Oculus.Platform.MatchmakingCriterionImportance importance
       // Size: 0x4
       // Offset: 0x8
@@ -68,28 +69,28 @@ namespace Oculus::Platform {
       // public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
       // Size: 0x8
       // Offset: 0x10
-      System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* parameters;
+      System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* parameters;
       // Field size check
-      static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*) == 0x8);
+      static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*) == 0x8);
       public:
       // Creating value type constructor for type: Criterion
-      constexpr Criterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* parameters_ = {}) noexcept : key{key_}, importance{importance_}, parameters{parameters_} {}
+      constexpr Criterion(::StringW key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* parameters_ = {}) noexcept : key{key_}, importance{importance_}, parameters{parameters_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
       }
       // Get instance field reference: public System.String key
-      ::Il2CppString*& dyn_key();
+      ::StringW& dyn_key();
       // Get instance field reference: public Oculus.Platform.MatchmakingCriterionImportance importance
       Oculus::Platform::MatchmakingCriterionImportance& dyn_importance();
       // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> parameters
-      System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_parameters();
+      System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*& dyn_parameters();
       // public System.Void .ctor(System.String key_, Oculus.Platform.MatchmakingCriterionImportance importance_)
       // Offset: 0x1752138
-      Criterion(::Il2CppString* key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
+      Criterion(::StringW key_, Oculus::Platform::MatchmakingCriterionImportance importance_);
     }; // Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion
     #pragma pack(pop)
-    static check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
+    static check_size<sizeof(Matchmaking::CustomQuery::Criterion), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*)> __Oculus_Platform_Matchmaking_CustomQuery_CriterionSizeCheck;
     static_assert(sizeof(Matchmaking::CustomQuery::Criterion) == 0x18);
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -103,9 +104,9 @@ namespace Oculus::Platform {
     // public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* data;
+    System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* data;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*) == 0x8);
     // public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     // Size: 0x8
     // Offset: 0x18
@@ -114,7 +115,7 @@ namespace Oculus::Platform {
     static_assert(sizeof(::ArrayW<Oculus::Platform::Matchmaking::CustomQuery::Criterion>) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Object> data
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_data();
+    System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>*& dyn_data();
     // Get instance field reference: public Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery/Oculus.Platform.Criterion[] criteria
     ::ArrayW<Oculus::Platform::Matchmaking::CustomQuery::Criterion>& dyn_criteria();
     // public System.IntPtr ToUnmanaged()

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -84,9 +85,9 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected
-    static ::Il2CppString* _get_prevConnected();
+    static ::StringW _get_prevConnected();
     // Set static field: static private System.String prevConnected
-    static void _set_prevConnected(::Il2CppString* value);
+    static void _set_prevConnected(::StringW value);
     // Get static field: static private OVRControllerTest/BoolMonitor controllers
     static GlobalNamespace::OVRControllerTest::BoolMonitor* _get_controllers();
     // Set static field: static private OVRControllerTest/BoolMonitor controllers

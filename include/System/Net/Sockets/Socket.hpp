@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -279,9 +280,9 @@ namespace System::Net::Sockets {
     // static field const value: static private System.String TIMEOUT_EXCEPTION_MSG
     static constexpr const char* TIMEOUT_EXCEPTION_MSG = "A connection attempt failed because the connected party did not properly respondafter a period of time, or established connection failed because connected host has failed to respond";
     // Get static field: static private System.String TIMEOUT_EXCEPTION_MSG
-    static ::Il2CppString* _get_TIMEOUT_EXCEPTION_MSG();
+    static ::StringW _get_TIMEOUT_EXCEPTION_MSG();
     // Set static field: static private System.String TIMEOUT_EXCEPTION_MSG
-    static void _set_TIMEOUT_EXCEPTION_MSG(::Il2CppString* value);
+    static void _set_TIMEOUT_EXCEPTION_MSG(::StringW value);
     // Get static field: static private System.AsyncCallback AcceptAsyncCallback
     static System::AsyncCallback* _get_AcceptAsyncCallback();
     // Set static field: static private System.AsyncCallback AcceptAsyncCallback
@@ -600,7 +601,7 @@ namespace System::Net::Sockets {
     void Connect(System::Net::EndPoint* remoteEP);
     // public System.IAsyncResult BeginConnect(System.String host, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
     // Offset: 0x16BA4F8
-    System::IAsyncResult* BeginConnect(::Il2CppString* host, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginConnect(::StringW host, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
     // public System.IAsyncResult BeginConnect(System.Net.IPAddress[] addresses, System.Int32 port, System.AsyncCallback requestCallback, System.Object state)
     // Offset: 0x16BA670
     System::IAsyncResult* BeginConnect(::ArrayW<System::Net::IPAddress*> addresses, int port, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
@@ -777,7 +778,7 @@ namespace System::Net::Sockets {
     void ThrowIfUdp();
     // private System.Net.Sockets.SocketAsyncResult ValidateEndIAsyncResult(System.IAsyncResult ares, System.String methodName, System.String argName)
     // Offset: 0x16B9BB0
-    System::Net::Sockets::SocketAsyncResult* ValidateEndIAsyncResult(System::IAsyncResult* ares, ::Il2CppString* methodName, ::Il2CppString* argName);
+    System::Net::Sockets::SocketAsyncResult* ValidateEndIAsyncResult(System::IAsyncResult* ares, ::StringW methodName, ::StringW argName);
     // private System.Void QueueIOSelectorJob(System.Threading.SemaphoreSlim sem, System.IntPtr handle, System.IOSelectorJob job)
     // Offset: 0x16B9820
     void QueueIOSelectorJob(System::Threading::SemaphoreSlim* sem, System::IntPtr handle, System::IOSelectorJob* job);
@@ -1482,7 +1483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginConnect
 // Il2CppName: BeginConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::StringW, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
   static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2173,7 +2174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::ValidateEndIAsyncResult
 // Il2CppName: ValidateEndIAsyncResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncResult* (System::Net::Sockets::Socket::*)(System::IAsyncResult*, ::Il2CppString*, ::Il2CppString*)>(&System::Net::Sockets::Socket::ValidateEndIAsyncResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncResult* (System::Net::Sockets::Socket::*)(System::IAsyncResult*, ::StringW, ::StringW)>(&System::Net::Sockets::Socket::ValidateEndIAsyncResult)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

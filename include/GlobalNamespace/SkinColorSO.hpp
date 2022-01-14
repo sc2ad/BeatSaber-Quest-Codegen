@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -42,9 +43,9 @@ namespace GlobalNamespace {
     // private System.String _id
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* id;
+    ::StringW id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x20
@@ -55,12 +56,12 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _id
-    ::Il2CppString*& dyn__id();
+    ::StringW& dyn__id();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.String get_id()
     // Offset: 0x1214820
-    ::Il2CppString* get_id();
+    ::StringW get_id();
     // public UnityEngine.Color get_Color()
     // Offset: 0x1214828
     UnityEngine::Color get_Color();
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SkinColorSO::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SkinColorSO::*)()>(&GlobalNamespace::SkinColorSO::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SkinColorSO::*)()>(&GlobalNamespace::SkinColorSO::get_id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SkinColorSO*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

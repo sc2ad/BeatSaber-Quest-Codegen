@@ -8,10 +8,8 @@
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Forward declaring type: Win32_IP_ADDR_STRING
@@ -38,15 +36,15 @@ namespace System::Net::NetworkInformation {
     // public System.String IpAddress
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* IpAddress;
+    ::StringW IpAddress;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String IpMask
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* IpMask;
+    ::StringW IpMask;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.UInt32 Context
     // Size: 0x4
     // Offset: 0x18
@@ -55,7 +53,7 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Creating value type constructor for type: Win32_IP_ADDR_STRING
-    constexpr Win32_IP_ADDR_STRING(System::IntPtr Next_ = {}, ::Il2CppString* IpAddress_ = {}, ::Il2CppString* IpMask_ = {}, uint Context_ = {}) noexcept : Next{Next_}, IpAddress{IpAddress_}, IpMask{IpMask_}, Context{Context_} {}
+    constexpr Win32_IP_ADDR_STRING(System::IntPtr Next_ = {}, ::StringW IpAddress_ = {}, ::StringW IpMask_ = {}, uint Context_ = {}) noexcept : Next{Next_}, IpAddress{IpAddress_}, IpMask{IpMask_}, Context{Context_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -63,9 +61,9 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.IntPtr Next
     System::IntPtr& dyn_Next();
     // Get instance field reference: public System.String IpAddress
-    ::Il2CppString*& dyn_IpAddress();
+    ::StringW& dyn_IpAddress();
     // Get instance field reference: public System.String IpMask
-    ::Il2CppString*& dyn_IpMask();
+    ::StringW& dyn_IpMask();
     // Get instance field reference: public System.UInt32 Context
     uint& dyn_Context();
   }; // System.Net.NetworkInformation.Win32_IP_ADDR_STRING

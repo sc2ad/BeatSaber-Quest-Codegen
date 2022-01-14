@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,7 +43,7 @@ namespace UnityEngine::AddressableAssets {
     // Base method: System.Void AssetReferenceT_1::.ctor(System.String guid)
     // Base method: System.Void AssetReference::.ctor(System.String guid)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetReferenceAtlasedSprite* New_ctor(::Il2CppString* guid) {
+    static AssetReferenceAtlasedSprite* New_ctor(::StringW guid) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceAtlasedSprite*, creationType>(guid)));
     }
@@ -55,7 +56,7 @@ namespace UnityEngine::AddressableAssets {
     // Offset: 0x160D1A0
     // Implemented from: UnityEngine.AddressableAssets.AssetReferenceT`1
     // Base method: System.Boolean AssetReferenceT_1::ValidateAsset(System.String path)
-    bool ValidateAsset(::Il2CppString* path);
+    bool ValidateAsset(::StringW path);
   }; // UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset
 // Il2CppName: ValidateAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::StringW)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

@@ -11,6 +11,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -36,16 +37,16 @@ namespace UnityEngine {
     // public System.String name
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xECEDE0
     // System.String parentName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* parentName;
+    ::StringW parentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xECEE18
     // public UnityEngine.Vector3 position
     // Size: 0xC
@@ -69,15 +70,15 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
     public:
     // Creating value type constructor for type: SkeletonBone
-    constexpr SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
+    constexpr SkeletonBone(::StringW name_ = {}, ::StringW parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: System.String parentName
-    ::Il2CppString*& dyn_parentName();
+    ::StringW& dyn_parentName();
     // Get instance field reference: public UnityEngine.Vector3 position
     UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Quaternion rotation

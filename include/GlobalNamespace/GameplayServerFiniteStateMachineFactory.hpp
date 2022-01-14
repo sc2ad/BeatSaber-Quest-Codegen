@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -44,7 +45,7 @@ namespace GlobalNamespace {
     public:
     // static public GameplayServerFiniteStateMachine Create(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String creatorId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     // Offset: 0x156A568
-    static GlobalNamespace::GameplayServerFiniteStateMachine* Create(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::Il2CppString* creatorId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
+    static GlobalNamespace::GameplayServerFiniteStateMachine* Create(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
   }; // GameplayServerFiniteStateMachineFactory
   #pragma pack(pop)
 }
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFiniteStateMachine* (*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFiniteStateMachine* (*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
   static const MethodInfo* get() {
     static auto* timeProvider = &::il2cpp_utils::GetClassFromName("MasterServer", "ITimeProvider")->byval_arg;
     static auto* multiplayerSessionManager = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSessionManager")->byval_arg;

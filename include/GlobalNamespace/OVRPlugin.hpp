@@ -14,6 +14,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -454,7 +455,7 @@ namespace GlobalNamespace {
       // Offset: 0x187B500
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // OVRPlugin/Vector3f
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Vector3f), 8 + sizeof(float)> __GlobalNamespace_OVRPlugin_Vector3fSizeCheck;
@@ -517,7 +518,7 @@ namespace GlobalNamespace {
       // Offset: 0x187AF30
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // OVRPlugin/Quatf
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Quatf), 12 + sizeof(float)> __GlobalNamespace_OVRPlugin_QuatfSizeCheck;
@@ -564,7 +565,7 @@ namespace GlobalNamespace {
       // Offset: 0x187AD88
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // OVRPlugin/Posef
     #pragma pack(pop)
     static check_size<sizeof(OVRPlugin::Posef), 16 + sizeof(GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_PosefSizeCheck;
@@ -2143,9 +2144,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Guid _cachedAudioOutGuid
     static void _set__cachedAudioOutGuid(System::Guid value);
     // Get static field: static private System.String _cachedAudioOutString
-    static ::Il2CppString* _get__cachedAudioOutString();
+    static ::StringW _get__cachedAudioOutString();
     // Set static field: static private System.String _cachedAudioOutString
-    static void _set__cachedAudioOutString(::Il2CppString* value);
+    static void _set__cachedAudioOutString(::StringW value);
     // Get static field: static private OVRPlugin/GUID _nativeAudioInGuid
     static GlobalNamespace::OVRPlugin::GUID* _get__nativeAudioInGuid();
     // Set static field: static private OVRPlugin/GUID _nativeAudioInGuid
@@ -2155,9 +2156,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Guid _cachedAudioInGuid
     static void _set__cachedAudioInGuid(System::Guid value);
     // Get static field: static private System.String _cachedAudioInString
-    static ::Il2CppString* _get__cachedAudioInString();
+    static ::StringW _get__cachedAudioInString();
     // Set static field: static private System.String _cachedAudioInString
-    static void _set__cachedAudioInString(::Il2CppString* value);
+    static void _set__cachedAudioInString(::StringW value);
     // Get static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
     static GlobalNamespace::OVRNativeBuffer* _get__nativeSystemDisplayFrequenciesAvailable();
     // Set static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
@@ -2181,9 +2182,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String pluginName
     static constexpr const char* pluginName = "OVRPlugin";
     // Get static field: static private System.String pluginName
-    static ::Il2CppString* _get_pluginName();
+    static ::StringW _get_pluginName();
     // Set static field: static private System.String pluginName
-    static void _set_pluginName(::Il2CppString* value);
+    static void _set_pluginName(::StringW value);
     // Get static field: static private System.Version _versionZero
     static System::Version* _get__versionZero();
     // Set static field: static private System.Version _versionZero
@@ -2256,10 +2257,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::SystemRegion get_systemRegion();
     // static public System.String get_audioOutId()
     // Offset: 0x148B2CC
-    static ::Il2CppString* get_audioOutId();
+    static ::StringW get_audioOutId();
     // static public System.String get_audioInId()
     // Offset: 0x148B600
-    static ::Il2CppString* get_audioInId();
+    static ::StringW get_audioInId();
     // static public System.Boolean get_hasVrFocus()
     // Offset: 0x148B934
     static bool get_hasVrFocus();
@@ -2274,10 +2275,10 @@ namespace GlobalNamespace {
     static bool get_shouldRecenter();
     // static public System.String get_productName()
     // Offset: 0x148BB94
-    static ::Il2CppString* get_productName();
+    static ::StringW get_productName();
     // static public System.String get_latency()
     // Offset: 0x148BBF4
-    static ::Il2CppString* get_latency();
+    static ::StringW get_latency();
     // static public System.Single get_eyeDepth()
     // Offset: 0x148BC9C
     static float get_eyeDepth();
@@ -2565,10 +2566,10 @@ namespace GlobalNamespace {
     static bool ResetDefaultExternalCamera();
     // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x1479D6C
-    static bool SetDefaultExternalCamera(::Il2CppString* cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static bool SetDefaultExternalCamera(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public System.Boolean SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x148E658
-    static bool SetExternalCameraProperties(::Il2CppString* cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static bool SetExternalCameraProperties(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Vector3f GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x148E778
     static GlobalNamespace::OVRPlugin::Vector3f GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
@@ -2613,7 +2614,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Handedness GetDominantHand();
     // static public System.Boolean SendEvent(System.String name, System.String param, System.String source)
     // Offset: 0x1490560
-    static bool SendEvent(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source);
+    static bool SendEvent(::StringW name, ::StringW param, ::StringW source);
     // static public System.Boolean SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
     // Offset: 0x1490750
     static bool SetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
@@ -2637,7 +2638,7 @@ namespace GlobalNamespace {
     static bool SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Boolean AddCustomMetadata(System.String name, System.String param)
     // Offset: 0x1490FF4
-    static bool AddCustomMetadata(::Il2CppString* name, ::Il2CppString* param);
+    static bool AddCustomMetadata(::StringW name, ::StringW param);
     // static public System.Boolean SetDeveloperMode(OVRPlugin/Bool active)
     // Offset: 0x149110C
     static bool SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active);
@@ -2899,7 +2900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_audioOutId
 // Il2CppName: get_audioOutId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::get_audioOutId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRPlugin::get_audioOutId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_audioOutId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2907,7 +2908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_audioInId
 // Il2CppName: get_audioInId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::get_audioInId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRPlugin::get_audioInId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_audioInId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2947,7 +2948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_productName
 // Il2CppName: get_productName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::get_productName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRPlugin::get_productName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_productName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2955,7 +2956,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_latency
 // Il2CppName: get_latency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::get_latency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::OVRPlugin::get_latency)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_latency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3825,7 +3826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetDefaultExternalCamera
 // Il2CppName: SetDefaultExternalCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetDefaultExternalCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetDefaultExternalCamera)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;
@@ -3836,7 +3837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetExternalCameraProperties
 // Il2CppName: SetExternalCameraProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetExternalCameraProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetExternalCameraProperties)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;
@@ -3966,7 +3967,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SendEvent
 // Il2CppName: SendEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::OVRPlugin::SendEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW)>(&GlobalNamespace::OVRPlugin::SendEvent)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -4043,7 +4044,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::AddCustomMetadata
 // Il2CppName: AddCustomMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::OVRPlugin::AddCustomMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&GlobalNamespace::OVRPlugin::AddCustomMetadata)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

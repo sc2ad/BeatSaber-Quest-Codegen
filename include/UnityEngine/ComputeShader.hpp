@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -28,7 +29,7 @@ namespace UnityEngine {
     public:
     // public System.Int32 FindKernel(System.String name)
     // Offset: 0x1D07868
-    int FindKernel(::Il2CppString* name);
+    int FindKernel(::StringW name);
   }; // UnityEngine.ComputeShader
   #pragma pack(pop)
 }
@@ -36,7 +37,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ComputeShader::FindKernel
 // Il2CppName: FindKernel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ComputeShader::*)(::Il2CppString*)>(&UnityEngine::ComputeShader::FindKernel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ComputeShader::*)(::StringW)>(&UnityEngine::ComputeShader::FindKernel)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ComputeShader*), "FindKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

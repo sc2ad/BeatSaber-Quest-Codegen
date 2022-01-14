@@ -11,6 +11,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.U2D
 namespace UnityEngine::U2D {
@@ -38,9 +39,9 @@ namespace UnityEngine::U2D {
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xEB88C8
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
@@ -71,13 +72,13 @@ namespace UnityEngine::U2D {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: SpriteBone
-    constexpr SpriteBone(::Il2CppString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
+    constexpr SpriteBone(::StringW m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: private UnityEngine.Vector3 m_Position
     UnityEngine::Vector3& dyn_m_Position();
     // Get instance field reference: private UnityEngine.Quaternion m_Rotation

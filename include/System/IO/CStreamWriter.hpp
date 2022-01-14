@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -73,7 +74,7 @@ namespace System::IO {
     }
     // public System.Void InternalWriteString(System.String val)
     // Offset: 0x1AF5E24
-    void InternalWriteString(::Il2CppString* val);
+    void InternalWriteString(::StringW val);
     // public System.Void InternalWriteChar(System.Char val)
     // Offset: 0x1AF5D54
     void InternalWriteChar(::Il2CppChar val);
@@ -99,7 +100,7 @@ namespace System::IO {
     // Offset: 0x1AF6168
     // Implemented from: System.IO.StreamWriter
     // Base method: System.Void StreamWriter::Write(System.String val)
-    void Write(::Il2CppString* val);
+    void Write(::StringW val);
   }; // System.IO.CStreamWriter
   #pragma pack(pop)
   static check_size<sizeof(CStreamWriter), 104 + sizeof(System::TermInfoDriver*)> __System_IO_CStreamWriterSizeCheck;
@@ -113,7 +114,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::CStreamWriter::InternalWriteString
 // Il2CppName: InternalWriteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppString*)>(&System::IO::CStreamWriter::InternalWriteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::StringW)>(&System::IO::CStreamWriter::InternalWriteString)> {
   static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "InternalWriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppString*)>(&System::IO::CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::StringW)>(&System::IO::CStreamWriter::Write)> {
   static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});

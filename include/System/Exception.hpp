@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -84,15 +85,15 @@ namespace System {
     // private System.String _className
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* className;
+    ::StringW className;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String _message
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.IDictionary _data
     // Size: 0x8
     // Offset: 0x20
@@ -108,9 +109,9 @@ namespace System {
     // private System.String _helpURL
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* helpURL;
+    ::StringW helpURL;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Object _stackTrace
     // Size: 0x8
     // Offset: 0x38
@@ -120,15 +121,15 @@ namespace System {
     // private System.String _stackTraceString
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* stackTraceString;
+    ::StringW stackTraceString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _remoteStackTraceString
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* remoteStackTraceString;
+    ::StringW remoteStackTraceString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _remoteStackIndex
     // Size: 0x4
     // Offset: 0x50
@@ -154,9 +155,9 @@ namespace System {
     // private System.String _source
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* source;
+    ::StringW source;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4098
     // private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
     // Size: 0x8
@@ -197,21 +198,21 @@ namespace System {
     // Set static field: static private System.Int32 _COMPlusExceptionCode
     static void _set__COMPlusExceptionCode(int value);
     // Get instance field reference: private System.String _className
-    ::Il2CppString*& dyn__className();
+    ::StringW& dyn__className();
     // Get instance field reference: System.String _message
-    ::Il2CppString*& dyn__message();
+    ::StringW& dyn__message();
     // Get instance field reference: private System.Collections.IDictionary _data
     System::Collections::IDictionary*& dyn__data();
     // Get instance field reference: private System.Exception _innerException
     System::Exception*& dyn__innerException();
     // Get instance field reference: private System.String _helpURL
-    ::Il2CppString*& dyn__helpURL();
+    ::StringW& dyn__helpURL();
     // Get instance field reference: private System.Object _stackTrace
     ::Il2CppObject*& dyn__stackTrace();
     // Get instance field reference: private System.String _stackTraceString
-    ::Il2CppString*& dyn__stackTraceString();
+    ::StringW& dyn__stackTraceString();
     // Get instance field reference: private System.String _remoteStackTraceString
-    ::Il2CppString*& dyn__remoteStackTraceString();
+    ::StringW& dyn__remoteStackTraceString();
     // Get instance field reference: private System.Int32 _remoteStackIndex
     int& dyn__remoteStackIndex();
     // Get instance field reference: private System.Object _dynamicMethods
@@ -219,7 +220,7 @@ namespace System {
     // Get instance field reference: System.Int32 _HResult
     int& dyn__HResult();
     // Get instance field reference: private System.String _source
-    ::Il2CppString*& dyn__source();
+    ::StringW& dyn__source();
     // Get instance field reference: private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
     System::Runtime::Serialization::SafeSerializationManager*& dyn__safeSerializationManager();
     // Get instance field reference: System.Diagnostics.StackTrace[] captured_traces
@@ -228,7 +229,7 @@ namespace System {
     ::ArrayW<System::IntPtr>& dyn_native_trace_ips();
     // public System.String get_Message()
     // Offset: 0x19AABE8
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Collections.IDictionary get_Data()
     // Offset: 0x19AAD08
     System::Collections::IDictionary* get_Data();
@@ -237,10 +238,10 @@ namespace System {
     System::Exception* get_InnerException();
     // public System.String get_StackTrace()
     // Offset: 0x19AADAC
-    ::Il2CppString* get_StackTrace();
+    ::StringW get_StackTrace();
     // public System.String get_Source()
     // Offset: 0x19AAE14
-    ::Il2CppString* get_Source();
+    ::StringW get_Source();
     // public System.Int32 get_HResult()
     // Offset: 0x19AB6D4
     int get_HResult();
@@ -250,14 +251,14 @@ namespace System {
     // public System.Void .ctor(System.String message)
     // Offset: 0x19AA83C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Exception* New_ctor(::Il2CppString* message) {
+    static Exception* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x19AA870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Exception* New_ctor(::Il2CppString* message, System::Exception* innerException) {
+    static Exception* New_ctor(::StringW message, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message, innerException)));
     }
@@ -279,16 +280,16 @@ namespace System {
     static bool IsImmutableAgileException(System::Exception* e);
     // private System.String GetClassName()
     // Offset: 0x19AACC0
-    ::Il2CppString* GetClassName();
+    ::StringW GetClassName();
     // private System.String GetStackTrace(System.Boolean needFileInfo)
     // Offset: 0x19AADB4
-    ::Il2CppString* GetStackTrace(bool needFileInfo);
+    ::StringW GetStackTrace(bool needFileInfo);
     // System.Void SetErrorCode(System.Int32 hr)
     // Offset: 0x19A32D4
     void SetErrorCode(int hr);
     // private System.String ToString(System.Boolean needFileLineInfo, System.Boolean needMessage)
     // Offset: 0x19AAF34
-    ::Il2CppString* ToString(bool needFileLineInfo, bool needMessage);
+    ::StringW ToString(bool needFileLineInfo, bool needMessage);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x19AB1A4
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -300,7 +301,7 @@ namespace System {
     void InternalPreserveStackTrace();
     // private System.String StripFileInfo(System.String stackTrace, System.Boolean isRemoteStackTrace)
     // Offset: 0x19AAE0C
-    ::Il2CppString* StripFileInfo(::Il2CppString* stackTrace, bool isRemoteStackTrace);
+    ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace);
     // System.Void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo exceptionDispatchInfo)
     // Offset: 0x19AB644
     void RestoreExceptionDispatchInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
@@ -309,7 +310,7 @@ namespace System {
     System::Type* GetType();
     // static System.String GetMessageFromNativeResources(System.Exception/System.ExceptionMessageKind kind)
     // Offset: 0x19AB6E4
-    static ::Il2CppString* GetMessageFromNativeResources(System::Exception::ExceptionMessageKind kind);
+    static ::StringW GetMessageFromNativeResources(System::Exception::ExceptionMessageKind kind);
     // System.Exception FixRemotingException()
     // Offset: 0x19AB740
     System::Exception* FixRemotingException();
@@ -329,7 +330,7 @@ namespace System {
     // Offset: 0x19AAF28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Exception
   #pragma pack(pop)
   static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<System::IntPtr>)> __System_ExceptionSizeCheck;
@@ -339,7 +340,7 @@ namespace System {
 // Writing MetadataGetter for method: System::Exception::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)()>(&System::Exception::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)()>(&System::Exception::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -363,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Exception::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)()>(&System::Exception::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)()>(&System::Exception::get_StackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -371,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Exception::get_Source
 // Il2CppName: get_Source
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)()>(&System::Exception::get_Source)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)()>(&System::Exception::get_Source)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -433,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Exception::GetClassName
 // Il2CppName: GetClassName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)()>(&System::Exception::GetClassName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)()>(&System::Exception::GetClassName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -441,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Exception::GetStackTrace
 // Il2CppName: GetStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(bool)>(&System::Exception::GetStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)(bool)>(&System::Exception::GetStackTrace)> {
   static const MethodInfo* get() {
     static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needFileInfo});
@@ -459,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Exception::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(bool, bool)>(&System::Exception::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)(bool, bool)>(&System::Exception::ToString)> {
   static const MethodInfo* get() {
     static auto* needFileLineInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* needMessage = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Exception::StripFileInfo
 // Il2CppName: StripFileInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(::Il2CppString*, bool)>(&System::Exception::StripFileInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)(::StringW, bool)>(&System::Exception::StripFileInfo)> {
   static const MethodInfo* get() {
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isRemoteStackTrace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -523,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Exception::GetMessageFromNativeResources
 // Il2CppName: GetMessageFromNativeResources
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception::ExceptionMessageKind)>(&System::Exception::GetMessageFromNativeResources)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception::ExceptionMessageKind)>(&System::Exception::GetMessageFromNativeResources)> {
   static const MethodInfo* get() {
     static auto* kind = &::il2cpp_utils::GetClassFromName("System", "Exception/ExceptionMessageKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
@@ -553,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Exception::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)()>(&System::Exception::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Exception::*)()>(&System::Exception::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

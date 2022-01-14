@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -104,32 +105,32 @@ namespace GlobalNamespace {
     // public readonly System.String platformUserId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String userName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly UserInfo/Platform platform
     GlobalNamespace::UserInfo::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String platformUserId
-    ::Il2CppString*& dyn_platformUserId();
+    ::StringW& dyn_platformUserId();
     // Get instance field reference: public readonly System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // public System.Void .ctor(UserInfo/Platform platform, System.String platformUserId, System.String userName)
     // Offset: 0x1BD7510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::Il2CppString* platformUserId, ::Il2CppString* userName) {
+    static UserInfo* New_ctor(GlobalNamespace::UserInfo::Platform platform, ::StringW platformUserId, ::StringW userName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UserInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserInfo*, creationType>(platform, platformUserId, userName)));
     }
   }; // UserInfo
   #pragma pack(pop)
-  static check_size<sizeof(UserInfo), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_UserInfoSizeCheck;
+  static check_size<sizeof(UserInfo), 32 + sizeof(::StringW)> __GlobalNamespace_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

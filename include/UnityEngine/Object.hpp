@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -81,23 +82,23 @@ namespace UnityEngine {
     // static field const value: static private System.String objectIsNullMessage
     static constexpr const char* objectIsNullMessage = "The Object you want to instantiate is null.";
     // Get static field: static private System.String objectIsNullMessage
-    static ::Il2CppString* _get_objectIsNullMessage();
+    static ::StringW _get_objectIsNullMessage();
     // Set static field: static private System.String objectIsNullMessage
-    static void _set_objectIsNullMessage(::Il2CppString* value);
+    static void _set_objectIsNullMessage(::StringW value);
     // static field const value: static private System.String cloneDestroyedMessage
     static constexpr const char* cloneDestroyedMessage = "Instantiate failed because the clone was destroyed during creation. This can happen if DestroyImmediate is called in MonoBehaviour.Awake.";
     // Get static field: static private System.String cloneDestroyedMessage
-    static ::Il2CppString* _get_cloneDestroyedMessage();
+    static ::StringW _get_cloneDestroyedMessage();
     // Set static field: static private System.String cloneDestroyedMessage
-    static void _set_cloneDestroyedMessage(::Il2CppString* value);
+    static void _set_cloneDestroyedMessage(::StringW value);
     // Get instance field reference: private System.IntPtr m_CachedPtr
     System::IntPtr& dyn_m_CachedPtr();
     // public System.String get_name()
     // Offset: 0x1DA3270
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void set_name(System.String value)
     // Offset: 0x1DA8C14
-    void set_name(::Il2CppString* value);
+    void set_name(::StringW value);
     // public UnityEngine.HideFlags get_hideFlags()
     // Offset: 0x1DA973C
     UnityEngine::HideFlags get_hideFlags();
@@ -221,7 +222,7 @@ namespace UnityEngine {
     }
     // static private System.Void CheckNullArgument(System.Object arg, System.String message)
     // Offset: 0x1DA8E98
-    static void CheckNullArgument(::Il2CppObject* arg, ::Il2CppString* message);
+    static void CheckNullArgument(::Il2CppObject* arg, ::StringW message);
     // static public UnityEngine.Object FindObjectOfType(System.Type type)
     // Offset: 0x1DA977C
     static UnityEngine::Object* FindObjectOfType(System::Type* type);
@@ -242,13 +243,13 @@ namespace UnityEngine {
     static UnityEngine::Object* Internal_InstantiateSingleWithParent(UnityEngine::Object* data, UnityEngine::Transform* parent, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
     // static private System.String ToString(UnityEngine.Object obj)
     // Offset: 0x1DA98A4
-    static ::Il2CppString* ToString(UnityEngine::Object* obj);
+    static ::StringW ToString(UnityEngine::Object* obj);
     // static private System.String GetName(UnityEngine.Object obj)
     // Offset: 0x1DA8BD4
-    static ::Il2CppString* GetName(UnityEngine::Object* obj);
+    static ::StringW GetName(UnityEngine::Object* obj);
     // static private System.Void SetName(UnityEngine.Object obj, System.String name)
     // Offset: 0x1DA8CA8
-    static void SetName(UnityEngine::Object* obj, ::Il2CppString* name);
+    static void SetName(UnityEngine::Object* obj, ::StringW name);
     // static UnityEngine.Object FindObjectFromInstanceID(System.Int32 instanceID)
     // Offset: 0x1DA9A24
     static UnityEngine::Object* FindObjectFromInstanceID(int instanceID);
@@ -281,7 +282,7 @@ namespace UnityEngine {
     // Offset: 0x1DA9820
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.Object
   #pragma pack(pop)
   static check_size<sizeof(Object), 16 + sizeof(System::IntPtr)> __UnityEngine_ObjectSizeCheck;
@@ -297,7 +298,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Object::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Object::*)()>(&UnityEngine::Object::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Object::*)()>(&UnityEngine::Object::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -305,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Object::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(::Il2CppString*)>(&UnityEngine::Object::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(::StringW)>(&UnityEngine::Object::set_name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -494,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::CheckNullArgument
 // Il2CppName: CheckNullArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&UnityEngine::Object::CheckNullArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::StringW)>(&UnityEngine::Object::CheckNullArgument)> {
   static const MethodInfo* get() {
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -564,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Object*)>(&UnityEngine::Object::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&UnityEngine::Object::ToString)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -573,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Object::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Object*)>(&UnityEngine::Object::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&UnityEngine::Object::GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -582,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Object::SetName
 // Il2CppName: SetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Object::SetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW)>(&UnityEngine::Object::SetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -645,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Object::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Object::*)()>(&UnityEngine::Object::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Object::*)()>(&UnityEngine::Object::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

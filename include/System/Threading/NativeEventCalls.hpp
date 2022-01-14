@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,7 +37,7 @@ namespace System::Threading {
     public:
     // static public System.IntPtr CreateEvent_internal(System.Boolean manual, System.Boolean initial, System.String name, out System.Int32 errorCode)
     // Offset: 0x1A5CB84
-    static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::Il2CppString* name, ByRef<int> errorCode);
+    static System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int> errorCode);
     // static public System.Boolean SetEvent(Microsoft.Win32.SafeHandles.SafeWaitHandle handle)
     // Offset: 0x1A5CCBC
     static bool SetEvent(Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
@@ -59,7 +60,7 @@ namespace System::Threading {
 // Writing MetadataGetter for method: System::Threading::NativeEventCalls::CreateEvent_internal
 // Il2CppName: CreateEvent_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, ByRef<int>)>(&System::Threading::NativeEventCalls::CreateEvent_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::StringW, ByRef<int>)>(&System::Threading::NativeEventCalls::CreateEvent_internal)> {
   static const MethodInfo* get() {
     static auto* manual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* initial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

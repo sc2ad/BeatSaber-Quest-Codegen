@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -65,9 +66,9 @@ namespace HMUI {
     // private System.String _textPrefix
     // Size: 0x8
     // Offset: 0x140
-    ::Il2CppString* textPrefix;
+    ::StringW textPrefix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [SpaceAttribute] Offset: 0xF250D0
     // private UnityEngine.Color _color0
     // Size: 0x10
@@ -112,7 +113,7 @@ namespace HMUI {
     // Set static field: static private readonly System.Text.StringBuilder _stringBuilder
     static void _set__stringBuilder(System::Text::StringBuilder* value);
     // Get instance field reference: private System.String _textPrefix
-    ::Il2CppString*& dyn__textPrefix();
+    ::StringW& dyn__textPrefix();
     // Get instance field reference: private UnityEngine.Color _color0
     UnityEngine::Color& dyn__color0();
     // Get instance field reference: private UnityEngine.Color _color1
@@ -178,7 +179,7 @@ namespace HMUI {
     // Offset: 0x1499AC8
     // Implemented from: HMUI.TextSlider
     // Base method: System.String TextSlider::TextForNormalizedValue(System.Single normalizedValue)
-    ::Il2CppString* TextForNormalizedValue(float normalizedValue);
+    ::StringW TextForNormalizedValue(float normalizedValue);
     // public override System.Void OnPointerUp(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x1499C8C
     // Implemented from: UnityEngine.UI.Selectable
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ColorGradientSlider::TextForNormalizedValue
 // Il2CppName: TextForNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::ColorGradientSlider::*)(float)>(&HMUI::ColorGradientSlider::TextForNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HMUI::ColorGradientSlider::*)(float)>(&HMUI::ColorGradientSlider::TextForNormalizedValue)> {
   static const MethodInfo* get() {
     static auto* normalizedValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizedValue});

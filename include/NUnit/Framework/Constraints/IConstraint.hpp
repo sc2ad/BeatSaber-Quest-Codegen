@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Constraints.IResolveConstraint
 #include "NUnit/Framework/Constraints/IResolveConstraint.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -17,7 +18,6 @@ namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: NUnit.Framework.Constraints
@@ -42,7 +42,7 @@ namespace NUnit::Framework::Constraints {
     }
     // public System.String get_Description()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Description();
+    ::StringW get_Description();
     // public System.Void set_Builder(NUnit.Framework.Constraints.ConstraintBuilder value)
     // Offset: 0xFFFFFFFF
     void set_Builder(NUnit::Framework::Constraints::ConstraintBuilder* value);
@@ -56,7 +56,7 @@ namespace NUnit::Framework::Constraints {
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::IConstraint::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::IConstraint::*)()>(&NUnit::Framework::Constraints::IConstraint::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Constraints::IConstraint::*)()>(&NUnit::Framework::Constraints::IConstraint::get_Description)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::IConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

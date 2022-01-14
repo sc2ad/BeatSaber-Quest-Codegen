@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -230,7 +231,7 @@ namespace System::Runtime::Remoting::Contexts {
     static bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
     // static public System.Boolean UnregisterDynamicProperty(System.String name, System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x162FF40
-    static bool UnregisterDynamicProperty(::Il2CppString* name, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
+    static bool UnregisterDynamicProperty(::StringW name, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
     // static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x162FD48
     static System::Runtime::Remoting::Contexts::DynamicPropertyCollection* GetDynamicPropertyCollection(System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
@@ -242,7 +243,7 @@ namespace System::Runtime::Remoting::Contexts {
     void NotifyDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // public System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String name)
     // Offset: 0x1630224
-    System::Runtime::Remoting::Contexts::IContextProperty* GetProperty(::Il2CppString* name);
+    System::Runtime::Remoting::Contexts::IContextProperty* GetProperty(::StringW name);
     // public System.Void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty prop)
     // Offset: 0x16303A8
     void SetProperty(System::Runtime::Remoting::Contexts::IContextProperty* prop);
@@ -275,13 +276,13 @@ namespace System::Runtime::Remoting::Contexts {
     static System::LocalDataStoreSlot* AllocateDataSlot();
     // static public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
     // Offset: 0x1630B7C
-    static System::LocalDataStoreSlot* AllocateNamedDataSlot(::Il2CppString* name);
+    static System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
     // static public System.Void FreeNamedDataSlot(System.String name)
     // Offset: 0x1630BF8
-    static void FreeNamedDataSlot(::Il2CppString* name);
+    static void FreeNamedDataSlot(::StringW name);
     // static public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
     // Offset: 0x1630C74
-    static System::LocalDataStoreSlot* GetNamedDataSlot(::Il2CppString* name);
+    static System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
     // static public System.Object GetData(System.LocalDataStoreSlot slot)
     // Offset: 0x1630CF0
     static ::Il2CppObject* GetData(System::LocalDataStoreSlot* slot);
@@ -306,7 +307,7 @@ namespace System::Runtime::Remoting::Contexts {
     // Offset: 0x1630640
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Runtime.Remoting.Contexts.Context
   #pragma pack(pop)
   static check_size<sizeof(Context), 80 + sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
@@ -425,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty
 // Il2CppName: UnregisterDynamicProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "ContextBoundObject")->byval_arg;
@@ -470,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetProperty
 // Il2CppName: GetProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IContextProperty* (System::Runtime::Remoting::Contexts::Context::*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::Context::GetProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IContextProperty* (System::Runtime::Remoting::Contexts::Context::*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetProperty)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -566,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot
 // Il2CppName: AllocateNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -575,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::FreeNamedDataSlot
 // Il2CppName: FreeNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::Context::FreeNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::FreeNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -584,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot
 // Il2CppName: GetNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -624,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

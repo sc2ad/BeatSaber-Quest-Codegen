@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -45,20 +46,20 @@ namespace NUnit::Framework::Internal {
     // private System.String _text
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return text;
     }
     // Get instance field reference: private System.String _text
-    ::Il2CppString*& dyn__text();
+    ::StringW& dyn__text();
     // public System.Void .ctor(System.String text)
     // Offset: 0x2556FF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestNameGenerator::FixedTextFragment* New_ctor(::Il2CppString* text) {
+    static TestNameGenerator::FixedTextFragment* New_ctor(::StringW text) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::FixedTextFragment*, creationType>(text)));
     }
@@ -66,10 +67,10 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x2557D04
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
+    ::StringW GetText(System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.FixedTextFragment
   #pragma pack(pop)
-  static check_size<sizeof(TestNameGenerator::FixedTextFragment), 16 + sizeof(::Il2CppString*)> __NUnit_Framework_Internal_TestNameGenerator_FixedTextFragmentSizeCheck;
+  static check_size<sizeof(TestNameGenerator::FixedTextFragment), 16 + sizeof(::StringW)> __NUnit_Framework_Internal_TestNameGenerator_FixedTextFragmentSizeCheck;
   static_assert(sizeof(TestNameGenerator::FixedTextFragment) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -80,7 +81,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::*)(System::Reflection::MethodInfo*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::*)(System::Reflection::MethodInfo*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::FixedTextFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

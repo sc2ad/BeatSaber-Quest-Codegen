@@ -14,6 +14,7 @@
 // Including type: BitMask128
 #include "GlobalNamespace/BitMask128.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,7 +37,6 @@ namespace LiteNetLib::Utils {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
@@ -85,15 +85,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kToStringPrefix
     static constexpr const char* kToStringPrefix = "[PlayerStateMask ";
     // Get static field: static private System.String kToStringPrefix
-    static ::Il2CppString* _get_kToStringPrefix();
+    static ::StringW _get_kToStringPrefix();
     // Set static field: static private System.String kToStringPrefix
-    static void _set_kToStringPrefix(::Il2CppString* value);
+    static void _set_kToStringPrefix(::StringW value);
     // static field const value: static private System.String kToStringSuffix
     static constexpr const char* kToStringSuffix = "]";
     // Get static field: static private System.String kToStringSuffix
-    static ::Il2CppString* _get_kToStringSuffix();
+    static ::StringW _get_kToStringSuffix();
     // Set static field: static private System.String kToStringSuffix
-    static void _set_kToStringSuffix(::Il2CppString* value);
+    static void _set_kToStringSuffix(::StringW value);
     // Get instance field reference: private readonly BitMask128 _bloomFilter
     GlobalNamespace::BitMask128& dyn__bloomFilter();
     // private System.Void .ctor(BitMask128 bloomFilter)
@@ -101,16 +101,16 @@ namespace GlobalNamespace {
     // ABORTED: conflicts with another method.  PlayerStateHash(GlobalNamespace::BitMask128 bloomFilter);
     // public System.Void .ctor(System.String state)
     // Offset: 0x180E4B0
-    PlayerStateHash(::Il2CppString* state);
+    PlayerStateHash(::StringW state);
     // public System.Void .ctor(System.Collections.Generic.HashSet`1<System.String> stateHashSet)
     // Offset: 0x180E51C
-    PlayerStateHash(System::Collections::Generic::HashSet_1<::Il2CppString*>* stateHashSet);
+    PlayerStateHash(System::Collections::Generic::HashSet_1<::StringW>* stateHashSet);
     // public System.Boolean Contains(System.String state)
     // Offset: 0x180E588
-    bool Contains(::Il2CppString* state);
+    bool Contains(::StringW state);
     // public PlayerStateHash AddState(System.String state)
     // Offset: 0x180E5F0
-    GlobalNamespace::PlayerStateHash AddState(::Il2CppString* state);
+    GlobalNamespace::PlayerStateHash AddState(::StringW state);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x180E658
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::PlayerStateHash Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.String ToShortString()
     // Offset: 0x180E700
-    ::Il2CppString* ToShortString();
+    ::StringW ToShortString();
     // public System.Byte[] ToBytes()
     // Offset: 0x180E750
     ::ArrayW<uint8_t> ToBytes();
@@ -131,10 +131,10 @@ namespace GlobalNamespace {
     bool Equals(GlobalNamespace::PlayerStateHash other);
     // static public System.Boolean TryParse(System.String stringSerializedMask, out PlayerStateHash playerStateHash)
     // Offset: 0x180E870
-    static bool TryParse(::Il2CppString* stringSerializedMask, ByRef<GlobalNamespace::PlayerStateHash> playerStateHash);
+    static bool TryParse(::StringW stringSerializedMask, ByRef<GlobalNamespace::PlayerStateHash> playerStateHash);
     // static public PlayerStateHash Parse(System.String stringSerializedMask)
     // Offset: 0x180E97C
-    static GlobalNamespace::PlayerStateHash Parse(::Il2CppString* stringSerializedMask);
+    static GlobalNamespace::PlayerStateHash Parse(::StringW stringSerializedMask);
     // static public PlayerStateHash FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0x180EA30
     static GlobalNamespace::PlayerStateHash FromBytes(::ArrayW<uint8_t> bytes, int offset);
@@ -142,7 +142,7 @@ namespace GlobalNamespace {
     // Offset: 0x180E674
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x180E7A0
     // Implemented from: System.ValueType
@@ -174,7 +174,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerStateHash::*)(::StringW)>(&GlobalNamespace::PlayerStateHash::Contains)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::AddState
 // Il2CppName: AddState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::AddState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (GlobalNamespace::PlayerStateHash::*)(::StringW)>(&GlobalNamespace::PlayerStateHash::AddState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "AddState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToShortString
 // Il2CppName: ToShortString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToShortString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToShortString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToShortString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<GlobalNamespace::PlayerStateHash>)>(&GlobalNamespace::PlayerStateHash::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<GlobalNamespace::PlayerStateHash>)>(&GlobalNamespace::PlayerStateHash::TryParse)> {
   static const MethodInfo* get() {
     static auto* stringSerializedMask = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playerStateHash = &::il2cpp_utils::GetClassFromName("", "PlayerStateHash")->this_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::StringW)>(&GlobalNamespace::PlayerStateHash::Parse)> {
   static const MethodInfo* get() {
     static auto* stringSerializedMask = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringSerializedMask});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

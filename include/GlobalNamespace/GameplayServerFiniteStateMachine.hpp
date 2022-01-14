@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -74,9 +75,9 @@ namespace GlobalNamespace {
     // private System.String <ownerUserId>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* ownerUserId;
+    ::StringW ownerUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private BeatmapLevelSelectionMask <selectionMask>k__BackingField
     // Size: 0x18
     // Offset: 0x28
@@ -125,7 +126,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
     GlobalNamespace::IMultiplayerSessionManager*& dyn_$multiplayerSessionManager$k__BackingField();
     // Get instance field reference: private System.String <ownerUserId>k__BackingField
-    ::Il2CppString*& dyn_$ownerUserId$k__BackingField();
+    ::StringW& dyn_$ownerUserId$k__BackingField();
     // Get instance field reference: private BeatmapLevelSelectionMask <selectionMask>k__BackingField
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_$selectionMask$k__BackingField();
     // Get instance field reference: private GameplayServerConfiguration <configuration>k__BackingField
@@ -154,10 +155,10 @@ namespace GlobalNamespace {
     void set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
     // Offset: 0x156A4D8
-    ::Il2CppString* get_ownerUserId();
+    ::StringW get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
     // Offset: 0x156A4E0
-    void set_ownerUserId(::Il2CppString* value);
+    void set_ownerUserId(::StringW value);
     // public BeatmapLevelSelectionMask get_selectionMask()
     // Offset: 0x156A4E8
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
@@ -191,7 +192,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
     // Offset: 0x1564884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::Il2CppString* ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
+    static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayServerFiniteStateMachine*, creationType>(timeProvider, multiplayerSessionManager, ownerUserId, selectionMask, configuration, beatmapProvider)));
     }
@@ -238,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId
 // Il2CppName: get_ownerUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "get_ownerUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -246,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::set_ownerUserId
 // Il2CppName: set_ownerUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(::Il2CppString*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::set_ownerUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(::StringW)>(&GlobalNamespace::GameplayServerFiniteStateMachine::set_ownerUserId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "set_ownerUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

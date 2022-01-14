@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities.Encoders
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -25,7 +26,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     public:
     // static public System.Byte[] Decode(System.String data)
     // Offset: 0x22297AC
-    static ::ArrayW<uint8_t> Decode(::Il2CppString* data);
+    static ::ArrayW<uint8_t> Decode(::StringW data);
   }; // Org.BouncyCastle.Utilities.Encoders.Base64
   #pragma pack(pop)
 }
@@ -33,7 +34,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::Base64::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Encoders::Base64::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&Org::BouncyCastle::Utilities::Encoders::Base64::Decode)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::Base64*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

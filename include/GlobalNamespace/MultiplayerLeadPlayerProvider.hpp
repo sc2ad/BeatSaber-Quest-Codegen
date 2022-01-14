@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -78,9 +79,9 @@ namespace GlobalNamespace {
     // private System.Action`1<System.String> newLeaderWasSelectedEvent
     // Size: 0x8
     // Offset: 0x30
-    System::Action_1<::Il2CppString*>* newLeaderWasSelectedEvent;
+    System::Action_1<::StringW>* newLeaderWasSelectedEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
     // private System.Single _currentLeadingPlayerStartTime
     // Size: 0x4
     // Offset: 0x38
@@ -113,7 +114,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerController _multiplayerController
     GlobalNamespace::MultiplayerController*& dyn__multiplayerController();
     // Get instance field reference: private System.Action`1<System.String> newLeaderWasSelectedEvent
-    System::Action_1<::Il2CppString*>*& dyn_newLeaderWasSelectedEvent();
+    System::Action_1<::StringW>*& dyn_newLeaderWasSelectedEvent();
     // Get instance field reference: private System.Single _currentLeadingPlayerStartTime
     float& dyn__currentLeadingPlayerStartTime();
     // Get instance field reference: private MultiplayerScoreProvider/RankedPlayer _currentlyDisplayedUser
@@ -122,10 +123,10 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*& dyn__currentlyLeadingUser();
     // public System.Void add_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
     // Offset: 0x12929E4
-    void add_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);
+    void add_newLeaderWasSelectedEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_newLeaderWasSelectedEvent(System.Action`1<System.String> value)
     // Offset: 0x1292940
-    void remove_newLeaderWasSelectedEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_newLeaderWasSelectedEvent(System::Action_1<::StringW>* value);
     // protected System.Void Start()
     // Offset: 0x12960CC
     void Start();
@@ -169,7 +170,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent
 // Il2CppName: add_newLeaderWasSelectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeadPlayerProvider::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeadPlayerProvider*), "add_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent
 // Il2CppName: remove_newLeaderWasSelectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeadPlayerProvider::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeadPlayerProvider::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeadPlayerProvider*), "remove_newLeaderWasSelectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -42,26 +43,26 @@ namespace System::Diagnostics {
     // private System.String m_conditionString
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_conditionString;
+    ::StringW m_conditionString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_conditionString;
     }
     // Get instance field reference: private System.String m_conditionString
-    ::Il2CppString*& dyn_m_conditionString();
+    ::StringW& dyn_m_conditionString();
     // public System.Void .ctor(System.String conditionString)
     // Offset: 0x1D538D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConditionalAttribute* New_ctor(::Il2CppString* conditionString) {
+    static ConditionalAttribute* New_ctor(::StringW conditionString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalAttribute*, creationType>(conditionString)));
     }
   }; // System.Diagnostics.ConditionalAttribute
   #pragma pack(pop)
-  static check_size<sizeof(ConditionalAttribute), 16 + sizeof(::Il2CppString*)> __System_Diagnostics_ConditionalAttributeSizeCheck;
+  static check_size<sizeof(ConditionalAttribute), 16 + sizeof(::StringW)> __System_Diagnostics_ConditionalAttributeSizeCheck;
   static_assert(sizeof(ConditionalAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

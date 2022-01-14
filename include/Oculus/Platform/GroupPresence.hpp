@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -65,16 +66,16 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request* Set(Oculus::Platform::GroupPresenceOptions* groupPresenceOptions);
     // static public Oculus.Platform.Request SetDestination(System.String api_name)
     // Offset: 0x174E1B8
-    static Oculus::Platform::Request* SetDestination(::Il2CppString* api_name);
+    static Oculus::Platform::Request* SetDestination(::StringW api_name);
     // static public Oculus.Platform.Request SetIsJoinable(System.Boolean is_joinable)
     // Offset: 0x174E2CC
     static Oculus::Platform::Request* SetIsJoinable(bool is_joinable);
     // static public Oculus.Platform.Request SetLobbySession(System.String id)
     // Offset: 0x174E3E0
-    static Oculus::Platform::Request* SetLobbySession(::Il2CppString* id);
+    static Oculus::Platform::Request* SetLobbySession(::StringW id);
     // static public Oculus.Platform.Request SetMatchSession(System.String id)
     // Offset: 0x174E4F4
-    static Oculus::Platform::Request* SetMatchSession(::Il2CppString* id);
+    static Oculus::Platform::Request* SetMatchSession(::StringW id);
     // static public System.Void SetInvitationsSentNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LaunchInvitePanelFlowResult> callback)
     // Offset: 0x174E608
     static void SetInvitationsSentNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchInvitePanelFlowResult*>::Callback* callback);
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresence::SetDestination
 // Il2CppName: SetDestination
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::Il2CppString*)>(&Oculus::Platform::GroupPresence::SetDestination)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::StringW)>(&Oculus::Platform::GroupPresence::SetDestination)> {
   static const MethodInfo* get() {
     static auto* api_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresence*), "SetDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{api_name});
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresence::SetLobbySession
 // Il2CppName: SetLobbySession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::Il2CppString*)>(&Oculus::Platform::GroupPresence::SetLobbySession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::StringW)>(&Oculus::Platform::GroupPresence::SetLobbySession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresence*), "SetLobbySession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresence::SetMatchSession
 // Il2CppName: SetMatchSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::Il2CppString*)>(&Oculus::Platform::GroupPresence::SetMatchSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::StringW)>(&Oculus::Platform::GroupPresence::SetMatchSession)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresence*), "SetMatchSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});

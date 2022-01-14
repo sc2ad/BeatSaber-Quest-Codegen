@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -247,21 +248,21 @@ namespace Valve::VR {
     // static field const value: static public System.String IVRSystem_Version
     static constexpr const char* IVRSystem_Version = "IVRSystem_019";
     // Get static field: static public System.String IVRSystem_Version
-    static ::Il2CppString* _get_IVRSystem_Version();
+    static ::StringW _get_IVRSystem_Version();
     // Set static field: static public System.String IVRSystem_Version
-    static void _set_IVRSystem_Version(::Il2CppString* value);
+    static void _set_IVRSystem_Version(::StringW value);
     // static field const value: static public System.String IVRExtendedDisplay_Version
     static constexpr const char* IVRExtendedDisplay_Version = "IVRExtendedDisplay_001";
     // Get static field: static public System.String IVRExtendedDisplay_Version
-    static ::Il2CppString* _get_IVRExtendedDisplay_Version();
+    static ::StringW _get_IVRExtendedDisplay_Version();
     // Set static field: static public System.String IVRExtendedDisplay_Version
-    static void _set_IVRExtendedDisplay_Version(::Il2CppString* value);
+    static void _set_IVRExtendedDisplay_Version(::StringW value);
     // static field const value: static public System.String IVRTrackedCamera_Version
     static constexpr const char* IVRTrackedCamera_Version = "IVRTrackedCamera_003";
     // Get static field: static public System.String IVRTrackedCamera_Version
-    static ::Il2CppString* _get_IVRTrackedCamera_Version();
+    static ::StringW _get_IVRTrackedCamera_Version();
     // Set static field: static public System.String IVRTrackedCamera_Version
-    static void _set_IVRTrackedCamera_Version(::Il2CppString* value);
+    static void _set_IVRTrackedCamera_Version(::StringW value);
     // static field const value: static public System.UInt32 k_unMaxApplicationKeyLength
     static constexpr const uint k_unMaxApplicationKeyLength = 128u;
     // Get static field: static public System.UInt32 k_unMaxApplicationKeyLength
@@ -271,39 +272,39 @@ namespace Valve::VR {
     // static field const value: static public System.String k_pch_MimeType_HomeApp
     static constexpr const char* k_pch_MimeType_HomeApp = "vr/home";
     // Get static field: static public System.String k_pch_MimeType_HomeApp
-    static ::Il2CppString* _get_k_pch_MimeType_HomeApp();
+    static ::StringW _get_k_pch_MimeType_HomeApp();
     // Set static field: static public System.String k_pch_MimeType_HomeApp
-    static void _set_k_pch_MimeType_HomeApp(::Il2CppString* value);
+    static void _set_k_pch_MimeType_HomeApp(::StringW value);
     // static field const value: static public System.String k_pch_MimeType_GameTheater
     static constexpr const char* k_pch_MimeType_GameTheater = "vr/game_theater";
     // Get static field: static public System.String k_pch_MimeType_GameTheater
-    static ::Il2CppString* _get_k_pch_MimeType_GameTheater();
+    static ::StringW _get_k_pch_MimeType_GameTheater();
     // Set static field: static public System.String k_pch_MimeType_GameTheater
-    static void _set_k_pch_MimeType_GameTheater(::Il2CppString* value);
+    static void _set_k_pch_MimeType_GameTheater(::StringW value);
     // static field const value: static public System.String IVRApplications_Version
     static constexpr const char* IVRApplications_Version = "IVRApplications_006";
     // Get static field: static public System.String IVRApplications_Version
-    static ::Il2CppString* _get_IVRApplications_Version();
+    static ::StringW _get_IVRApplications_Version();
     // Set static field: static public System.String IVRApplications_Version
-    static void _set_IVRApplications_Version(::Il2CppString* value);
+    static void _set_IVRApplications_Version(::StringW value);
     // static field const value: static public System.String IVRChaperone_Version
     static constexpr const char* IVRChaperone_Version = "IVRChaperone_003";
     // Get static field: static public System.String IVRChaperone_Version
-    static ::Il2CppString* _get_IVRChaperone_Version();
+    static ::StringW _get_IVRChaperone_Version();
     // Set static field: static public System.String IVRChaperone_Version
-    static void _set_IVRChaperone_Version(::Il2CppString* value);
+    static void _set_IVRChaperone_Version(::StringW value);
     // static field const value: static public System.String IVRChaperoneSetup_Version
     static constexpr const char* IVRChaperoneSetup_Version = "IVRChaperoneSetup_005";
     // Get static field: static public System.String IVRChaperoneSetup_Version
-    static ::Il2CppString* _get_IVRChaperoneSetup_Version();
+    static ::StringW _get_IVRChaperoneSetup_Version();
     // Set static field: static public System.String IVRChaperoneSetup_Version
-    static void _set_IVRChaperoneSetup_Version(::Il2CppString* value);
+    static void _set_IVRChaperoneSetup_Version(::StringW value);
     // static field const value: static public System.String IVRCompositor_Version
     static constexpr const char* IVRCompositor_Version = "IVRCompositor_022";
     // Get static field: static public System.String IVRCompositor_Version
-    static ::Il2CppString* _get_IVRCompositor_Version();
+    static ::StringW _get_IVRCompositor_Version();
     // Set static field: static public System.String IVRCompositor_Version
-    static void _set_IVRCompositor_Version(::Il2CppString* value);
+    static void _set_IVRCompositor_Version(::StringW value);
     // static field const value: static public System.UInt32 k_unVROverlayMaxKeyLength
     static constexpr const uint k_unVROverlayMaxKeyLength = 128u;
     // Get static field: static public System.UInt32 k_unVROverlayMaxKeyLength
@@ -331,45 +332,45 @@ namespace Valve::VR {
     // static field const value: static public System.String IVROverlay_Version
     static constexpr const char* IVROverlay_Version = "IVROverlay_018";
     // Get static field: static public System.String IVROverlay_Version
-    static ::Il2CppString* _get_IVROverlay_Version();
+    static ::StringW _get_IVROverlay_Version();
     // Set static field: static public System.String IVROverlay_Version
-    static void _set_IVROverlay_Version(::Il2CppString* value);
+    static void _set_IVROverlay_Version(::StringW value);
     // static field const value: static public System.String k_pch_Controller_Component_GDC2015
     static constexpr const char* k_pch_Controller_Component_GDC2015 = "gdc2015";
     // Get static field: static public System.String k_pch_Controller_Component_GDC2015
-    static ::Il2CppString* _get_k_pch_Controller_Component_GDC2015();
+    static ::StringW _get_k_pch_Controller_Component_GDC2015();
     // Set static field: static public System.String k_pch_Controller_Component_GDC2015
-    static void _set_k_pch_Controller_Component_GDC2015(::Il2CppString* value);
+    static void _set_k_pch_Controller_Component_GDC2015(::StringW value);
     // static field const value: static public System.String k_pch_Controller_Component_Base
     static constexpr const char* k_pch_Controller_Component_Base = "base";
     // Get static field: static public System.String k_pch_Controller_Component_Base
-    static ::Il2CppString* _get_k_pch_Controller_Component_Base();
+    static ::StringW _get_k_pch_Controller_Component_Base();
     // Set static field: static public System.String k_pch_Controller_Component_Base
-    static void _set_k_pch_Controller_Component_Base(::Il2CppString* value);
+    static void _set_k_pch_Controller_Component_Base(::StringW value);
     // static field const value: static public System.String k_pch_Controller_Component_Tip
     static constexpr const char* k_pch_Controller_Component_Tip = "tip";
     // Get static field: static public System.String k_pch_Controller_Component_Tip
-    static ::Il2CppString* _get_k_pch_Controller_Component_Tip();
+    static ::StringW _get_k_pch_Controller_Component_Tip();
     // Set static field: static public System.String k_pch_Controller_Component_Tip
-    static void _set_k_pch_Controller_Component_Tip(::Il2CppString* value);
+    static void _set_k_pch_Controller_Component_Tip(::StringW value);
     // static field const value: static public System.String k_pch_Controller_Component_HandGrip
     static constexpr const char* k_pch_Controller_Component_HandGrip = "handgrip";
     // Get static field: static public System.String k_pch_Controller_Component_HandGrip
-    static ::Il2CppString* _get_k_pch_Controller_Component_HandGrip();
+    static ::StringW _get_k_pch_Controller_Component_HandGrip();
     // Set static field: static public System.String k_pch_Controller_Component_HandGrip
-    static void _set_k_pch_Controller_Component_HandGrip(::Il2CppString* value);
+    static void _set_k_pch_Controller_Component_HandGrip(::StringW value);
     // static field const value: static public System.String k_pch_Controller_Component_Status
     static constexpr const char* k_pch_Controller_Component_Status = "status";
     // Get static field: static public System.String k_pch_Controller_Component_Status
-    static ::Il2CppString* _get_k_pch_Controller_Component_Status();
+    static ::StringW _get_k_pch_Controller_Component_Status();
     // Set static field: static public System.String k_pch_Controller_Component_Status
-    static void _set_k_pch_Controller_Component_Status(::Il2CppString* value);
+    static void _set_k_pch_Controller_Component_Status(::StringW value);
     // static field const value: static public System.String IVRRenderModels_Version
     static constexpr const char* IVRRenderModels_Version = "IVRRenderModels_005";
     // Get static field: static public System.String IVRRenderModels_Version
-    static ::Il2CppString* _get_IVRRenderModels_Version();
+    static ::StringW _get_IVRRenderModels_Version();
     // Set static field: static public System.String IVRRenderModels_Version
-    static void _set_IVRRenderModels_Version(::Il2CppString* value);
+    static void _set_IVRRenderModels_Version(::StringW value);
     // static field const value: static public System.UInt32 k_unNotificationTextMaxSize
     static constexpr const uint k_unNotificationTextMaxSize = 256u;
     // Get static field: static public System.UInt32 k_unNotificationTextMaxSize
@@ -379,9 +380,9 @@ namespace Valve::VR {
     // static field const value: static public System.String IVRNotifications_Version
     static constexpr const char* IVRNotifications_Version = "IVRNotifications_002";
     // Get static field: static public System.String IVRNotifications_Version
-    static ::Il2CppString* _get_IVRNotifications_Version();
+    static ::StringW _get_IVRNotifications_Version();
     // Set static field: static public System.String IVRNotifications_Version
-    static void _set_IVRNotifications_Version(::Il2CppString* value);
+    static void _set_IVRNotifications_Version(::StringW value);
     // static field const value: static public System.UInt32 k_unMaxSettingsKeyLength
     static constexpr const uint k_unMaxSettingsKeyLength = 128u;
     // Get static field: static public System.UInt32 k_unMaxSettingsKeyLength
@@ -391,795 +392,795 @@ namespace Valve::VR {
     // static field const value: static public System.String IVRSettings_Version
     static constexpr const char* IVRSettings_Version = "IVRSettings_002";
     // Get static field: static public System.String IVRSettings_Version
-    static ::Il2CppString* _get_IVRSettings_Version();
+    static ::StringW _get_IVRSettings_Version();
     // Set static field: static public System.String IVRSettings_Version
-    static void _set_IVRSettings_Version(::Il2CppString* value);
+    static void _set_IVRSettings_Version(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_Section
     static constexpr const char* k_pch_SteamVR_Section = "steamvr";
     // Get static field: static public System.String k_pch_SteamVR_Section
-    static ::Il2CppString* _get_k_pch_SteamVR_Section();
+    static ::StringW _get_k_pch_SteamVR_Section();
     // Set static field: static public System.String k_pch_SteamVR_Section
-    static void _set_k_pch_SteamVR_Section(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_Section(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_RequireHmd_String
     static constexpr const char* k_pch_SteamVR_RequireHmd_String = "requireHmd";
     // Get static field: static public System.String k_pch_SteamVR_RequireHmd_String
-    static ::Il2CppString* _get_k_pch_SteamVR_RequireHmd_String();
+    static ::StringW _get_k_pch_SteamVR_RequireHmd_String();
     // Set static field: static public System.String k_pch_SteamVR_RequireHmd_String
-    static void _set_k_pch_SteamVR_RequireHmd_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_RequireHmd_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ForcedDriverKey_String
     static constexpr const char* k_pch_SteamVR_ForcedDriverKey_String = "forcedDriver";
     // Get static field: static public System.String k_pch_SteamVR_ForcedDriverKey_String
-    static ::Il2CppString* _get_k_pch_SteamVR_ForcedDriverKey_String();
+    static ::StringW _get_k_pch_SteamVR_ForcedDriverKey_String();
     // Set static field: static public System.String k_pch_SteamVR_ForcedDriverKey_String
-    static void _set_k_pch_SteamVR_ForcedDriverKey_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ForcedDriverKey_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ForcedHmdKey_String
     static constexpr const char* k_pch_SteamVR_ForcedHmdKey_String = "forcedHmd";
     // Get static field: static public System.String k_pch_SteamVR_ForcedHmdKey_String
-    static ::Il2CppString* _get_k_pch_SteamVR_ForcedHmdKey_String();
+    static ::StringW _get_k_pch_SteamVR_ForcedHmdKey_String();
     // Set static field: static public System.String k_pch_SteamVR_ForcedHmdKey_String
-    static void _set_k_pch_SteamVR_ForcedHmdKey_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ForcedHmdKey_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DisplayDebug_Bool
     static constexpr const char* k_pch_SteamVR_DisplayDebug_Bool = "displayDebug";
     // Get static field: static public System.String k_pch_SteamVR_DisplayDebug_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_DisplayDebug_Bool();
+    static ::StringW _get_k_pch_SteamVR_DisplayDebug_Bool();
     // Set static field: static public System.String k_pch_SteamVR_DisplayDebug_Bool
-    static void _set_k_pch_SteamVR_DisplayDebug_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DisplayDebug_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DebugProcessPipe_String
     static constexpr const char* k_pch_SteamVR_DebugProcessPipe_String = "debugProcessPipe";
     // Get static field: static public System.String k_pch_SteamVR_DebugProcessPipe_String
-    static ::Il2CppString* _get_k_pch_SteamVR_DebugProcessPipe_String();
+    static ::StringW _get_k_pch_SteamVR_DebugProcessPipe_String();
     // Set static field: static public System.String k_pch_SteamVR_DebugProcessPipe_String
-    static void _set_k_pch_SteamVR_DebugProcessPipe_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DebugProcessPipe_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DisplayDebugX_Int32
     static constexpr const char* k_pch_SteamVR_DisplayDebugX_Int32 = "displayDebugX";
     // Get static field: static public System.String k_pch_SteamVR_DisplayDebugX_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_DisplayDebugX_Int32();
+    static ::StringW _get_k_pch_SteamVR_DisplayDebugX_Int32();
     // Set static field: static public System.String k_pch_SteamVR_DisplayDebugX_Int32
-    static void _set_k_pch_SteamVR_DisplayDebugX_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DisplayDebugX_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DisplayDebugY_Int32
     static constexpr const char* k_pch_SteamVR_DisplayDebugY_Int32 = "displayDebugY";
     // Get static field: static public System.String k_pch_SteamVR_DisplayDebugY_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_DisplayDebugY_Int32();
+    static ::StringW _get_k_pch_SteamVR_DisplayDebugY_Int32();
     // Set static field: static public System.String k_pch_SteamVR_DisplayDebugY_Int32
-    static void _set_k_pch_SteamVR_DisplayDebugY_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DisplayDebugY_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_SendSystemButtonToAllApps_Bool
     static constexpr const char* k_pch_SteamVR_SendSystemButtonToAllApps_Bool = "sendSystemButtonToAllApps";
     // Get static field: static public System.String k_pch_SteamVR_SendSystemButtonToAllApps_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_SendSystemButtonToAllApps_Bool();
+    static ::StringW _get_k_pch_SteamVR_SendSystemButtonToAllApps_Bool();
     // Set static field: static public System.String k_pch_SteamVR_SendSystemButtonToAllApps_Bool
-    static void _set_k_pch_SteamVR_SendSystemButtonToAllApps_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_SendSystemButtonToAllApps_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_LogLevel_Int32
     static constexpr const char* k_pch_SteamVR_LogLevel_Int32 = "loglevel";
     // Get static field: static public System.String k_pch_SteamVR_LogLevel_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_LogLevel_Int32();
+    static ::StringW _get_k_pch_SteamVR_LogLevel_Int32();
     // Set static field: static public System.String k_pch_SteamVR_LogLevel_Int32
-    static void _set_k_pch_SteamVR_LogLevel_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_LogLevel_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_IPD_Float
     static constexpr const char* k_pch_SteamVR_IPD_Float = "ipd";
     // Get static field: static public System.String k_pch_SteamVR_IPD_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_IPD_Float();
+    static ::StringW _get_k_pch_SteamVR_IPD_Float();
     // Set static field: static public System.String k_pch_SteamVR_IPD_Float
-    static void _set_k_pch_SteamVR_IPD_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_IPD_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_Background_String
     static constexpr const char* k_pch_SteamVR_Background_String = "background";
     // Get static field: static public System.String k_pch_SteamVR_Background_String
-    static ::Il2CppString* _get_k_pch_SteamVR_Background_String();
+    static ::StringW _get_k_pch_SteamVR_Background_String();
     // Set static field: static public System.String k_pch_SteamVR_Background_String
-    static void _set_k_pch_SteamVR_Background_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_Background_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_BackgroundUseDomeProjection_Bool
     static constexpr const char* k_pch_SteamVR_BackgroundUseDomeProjection_Bool = "backgroundUseDomeProjection";
     // Get static field: static public System.String k_pch_SteamVR_BackgroundUseDomeProjection_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_BackgroundUseDomeProjection_Bool();
+    static ::StringW _get_k_pch_SteamVR_BackgroundUseDomeProjection_Bool();
     // Set static field: static public System.String k_pch_SteamVR_BackgroundUseDomeProjection_Bool
-    static void _set_k_pch_SteamVR_BackgroundUseDomeProjection_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_BackgroundUseDomeProjection_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_BackgroundCameraHeight_Float
     static constexpr const char* k_pch_SteamVR_BackgroundCameraHeight_Float = "backgroundCameraHeight";
     // Get static field: static public System.String k_pch_SteamVR_BackgroundCameraHeight_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_BackgroundCameraHeight_Float();
+    static ::StringW _get_k_pch_SteamVR_BackgroundCameraHeight_Float();
     // Set static field: static public System.String k_pch_SteamVR_BackgroundCameraHeight_Float
-    static void _set_k_pch_SteamVR_BackgroundCameraHeight_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_BackgroundCameraHeight_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_BackgroundDomeRadius_Float
     static constexpr const char* k_pch_SteamVR_BackgroundDomeRadius_Float = "backgroundDomeRadius";
     // Get static field: static public System.String k_pch_SteamVR_BackgroundDomeRadius_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_BackgroundDomeRadius_Float();
+    static ::StringW _get_k_pch_SteamVR_BackgroundDomeRadius_Float();
     // Set static field: static public System.String k_pch_SteamVR_BackgroundDomeRadius_Float
-    static void _set_k_pch_SteamVR_BackgroundDomeRadius_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_BackgroundDomeRadius_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_GridColor_String
     static constexpr const char* k_pch_SteamVR_GridColor_String = "gridColor";
     // Get static field: static public System.String k_pch_SteamVR_GridColor_String
-    static ::Il2CppString* _get_k_pch_SteamVR_GridColor_String();
+    static ::StringW _get_k_pch_SteamVR_GridColor_String();
     // Set static field: static public System.String k_pch_SteamVR_GridColor_String
-    static void _set_k_pch_SteamVR_GridColor_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_GridColor_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_PlayAreaColor_String
     static constexpr const char* k_pch_SteamVR_PlayAreaColor_String = "playAreaColor";
     // Get static field: static public System.String k_pch_SteamVR_PlayAreaColor_String
-    static ::Il2CppString* _get_k_pch_SteamVR_PlayAreaColor_String();
+    static ::StringW _get_k_pch_SteamVR_PlayAreaColor_String();
     // Set static field: static public System.String k_pch_SteamVR_PlayAreaColor_String
-    static void _set_k_pch_SteamVR_PlayAreaColor_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_PlayAreaColor_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ShowStage_Bool
     static constexpr const char* k_pch_SteamVR_ShowStage_Bool = "showStage";
     // Get static field: static public System.String k_pch_SteamVR_ShowStage_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_ShowStage_Bool();
+    static ::StringW _get_k_pch_SteamVR_ShowStage_Bool();
     // Set static field: static public System.String k_pch_SteamVR_ShowStage_Bool
-    static void _set_k_pch_SteamVR_ShowStage_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ShowStage_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ActivateMultipleDrivers_Bool
     static constexpr const char* k_pch_SteamVR_ActivateMultipleDrivers_Bool = "activateMultipleDrivers";
     // Get static field: static public System.String k_pch_SteamVR_ActivateMultipleDrivers_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_ActivateMultipleDrivers_Bool();
+    static ::StringW _get_k_pch_SteamVR_ActivateMultipleDrivers_Bool();
     // Set static field: static public System.String k_pch_SteamVR_ActivateMultipleDrivers_Bool
-    static void _set_k_pch_SteamVR_ActivateMultipleDrivers_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ActivateMultipleDrivers_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DirectMode_Bool
     static constexpr const char* k_pch_SteamVR_DirectMode_Bool = "directMode";
     // Get static field: static public System.String k_pch_SteamVR_DirectMode_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_DirectMode_Bool();
+    static ::StringW _get_k_pch_SteamVR_DirectMode_Bool();
     // Set static field: static public System.String k_pch_SteamVR_DirectMode_Bool
-    static void _set_k_pch_SteamVR_DirectMode_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DirectMode_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DirectModeEdidVid_Int32
     static constexpr const char* k_pch_SteamVR_DirectModeEdidVid_Int32 = "directModeEdidVid";
     // Get static field: static public System.String k_pch_SteamVR_DirectModeEdidVid_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_DirectModeEdidVid_Int32();
+    static ::StringW _get_k_pch_SteamVR_DirectModeEdidVid_Int32();
     // Set static field: static public System.String k_pch_SteamVR_DirectModeEdidVid_Int32
-    static void _set_k_pch_SteamVR_DirectModeEdidVid_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DirectModeEdidVid_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DirectModeEdidPid_Int32
     static constexpr const char* k_pch_SteamVR_DirectModeEdidPid_Int32 = "directModeEdidPid";
     // Get static field: static public System.String k_pch_SteamVR_DirectModeEdidPid_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_DirectModeEdidPid_Int32();
+    static ::StringW _get_k_pch_SteamVR_DirectModeEdidPid_Int32();
     // Set static field: static public System.String k_pch_SteamVR_DirectModeEdidPid_Int32
-    static void _set_k_pch_SteamVR_DirectModeEdidPid_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DirectModeEdidPid_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_UsingSpeakers_Bool
     static constexpr const char* k_pch_SteamVR_UsingSpeakers_Bool = "usingSpeakers";
     // Get static field: static public System.String k_pch_SteamVR_UsingSpeakers_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_UsingSpeakers_Bool();
+    static ::StringW _get_k_pch_SteamVR_UsingSpeakers_Bool();
     // Set static field: static public System.String k_pch_SteamVR_UsingSpeakers_Bool
-    static void _set_k_pch_SteamVR_UsingSpeakers_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_UsingSpeakers_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float
     static constexpr const char* k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float = "speakersForwardYawOffsetDegrees";
     // Get static field: static public System.String k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float();
+    static ::StringW _get_k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float();
     // Set static field: static public System.String k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float
-    static void _set_k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_SpeakersForwardYawOffsetDegrees_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_BaseStationPowerManagement_Bool
     static constexpr const char* k_pch_SteamVR_BaseStationPowerManagement_Bool = "basestationPowerManagement";
     // Get static field: static public System.String k_pch_SteamVR_BaseStationPowerManagement_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_BaseStationPowerManagement_Bool();
+    static ::StringW _get_k_pch_SteamVR_BaseStationPowerManagement_Bool();
     // Set static field: static public System.String k_pch_SteamVR_BaseStationPowerManagement_Bool
-    static void _set_k_pch_SteamVR_BaseStationPowerManagement_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_BaseStationPowerManagement_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_NeverKillProcesses_Bool
     static constexpr const char* k_pch_SteamVR_NeverKillProcesses_Bool = "neverKillProcesses";
     // Get static field: static public System.String k_pch_SteamVR_NeverKillProcesses_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_NeverKillProcesses_Bool();
+    static ::StringW _get_k_pch_SteamVR_NeverKillProcesses_Bool();
     // Set static field: static public System.String k_pch_SteamVR_NeverKillProcesses_Bool
-    static void _set_k_pch_SteamVR_NeverKillProcesses_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_NeverKillProcesses_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_SupersampleScale_Float
     static constexpr const char* k_pch_SteamVR_SupersampleScale_Float = "supersampleScale";
     // Get static field: static public System.String k_pch_SteamVR_SupersampleScale_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_SupersampleScale_Float();
+    static ::StringW _get_k_pch_SteamVR_SupersampleScale_Float();
     // Set static field: static public System.String k_pch_SteamVR_SupersampleScale_Float
-    static void _set_k_pch_SteamVR_SupersampleScale_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_SupersampleScale_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_AllowAsyncReprojection_Bool
     static constexpr const char* k_pch_SteamVR_AllowAsyncReprojection_Bool = "allowAsyncReprojection";
     // Get static field: static public System.String k_pch_SteamVR_AllowAsyncReprojection_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_AllowAsyncReprojection_Bool();
+    static ::StringW _get_k_pch_SteamVR_AllowAsyncReprojection_Bool();
     // Set static field: static public System.String k_pch_SteamVR_AllowAsyncReprojection_Bool
-    static void _set_k_pch_SteamVR_AllowAsyncReprojection_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_AllowAsyncReprojection_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_AllowReprojection_Bool
     static constexpr const char* k_pch_SteamVR_AllowReprojection_Bool = "allowInterleavedReprojection";
     // Get static field: static public System.String k_pch_SteamVR_AllowReprojection_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_AllowReprojection_Bool();
+    static ::StringW _get_k_pch_SteamVR_AllowReprojection_Bool();
     // Set static field: static public System.String k_pch_SteamVR_AllowReprojection_Bool
-    static void _set_k_pch_SteamVR_AllowReprojection_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_AllowReprojection_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ForceReprojection_Bool
     static constexpr const char* k_pch_SteamVR_ForceReprojection_Bool = "forceReprojection";
     // Get static field: static public System.String k_pch_SteamVR_ForceReprojection_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_ForceReprojection_Bool();
+    static ::StringW _get_k_pch_SteamVR_ForceReprojection_Bool();
     // Set static field: static public System.String k_pch_SteamVR_ForceReprojection_Bool
-    static void _set_k_pch_SteamVR_ForceReprojection_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ForceReprojection_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ForceFadeOnBadTracking_Bool
     static constexpr const char* k_pch_SteamVR_ForceFadeOnBadTracking_Bool = "forceFadeOnBadTracking";
     // Get static field: static public System.String k_pch_SteamVR_ForceFadeOnBadTracking_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_ForceFadeOnBadTracking_Bool();
+    static ::StringW _get_k_pch_SteamVR_ForceFadeOnBadTracking_Bool();
     // Set static field: static public System.String k_pch_SteamVR_ForceFadeOnBadTracking_Bool
-    static void _set_k_pch_SteamVR_ForceFadeOnBadTracking_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ForceFadeOnBadTracking_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_DefaultMirrorView_Int32
     static constexpr const char* k_pch_SteamVR_DefaultMirrorView_Int32 = "defaultMirrorView";
     // Get static field: static public System.String k_pch_SteamVR_DefaultMirrorView_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_DefaultMirrorView_Int32();
+    static ::StringW _get_k_pch_SteamVR_DefaultMirrorView_Int32();
     // Set static field: static public System.String k_pch_SteamVR_DefaultMirrorView_Int32
-    static void _set_k_pch_SteamVR_DefaultMirrorView_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_DefaultMirrorView_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ShowMirrorView_Bool
     static constexpr const char* k_pch_SteamVR_ShowMirrorView_Bool = "showMirrorView";
     // Get static field: static public System.String k_pch_SteamVR_ShowMirrorView_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_ShowMirrorView_Bool();
+    static ::StringW _get_k_pch_SteamVR_ShowMirrorView_Bool();
     // Set static field: static public System.String k_pch_SteamVR_ShowMirrorView_Bool
-    static void _set_k_pch_SteamVR_ShowMirrorView_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ShowMirrorView_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_MirrorViewGeometry_String
     static constexpr const char* k_pch_SteamVR_MirrorViewGeometry_String = "mirrorViewGeometry";
     // Get static field: static public System.String k_pch_SteamVR_MirrorViewGeometry_String
-    static ::Il2CppString* _get_k_pch_SteamVR_MirrorViewGeometry_String();
+    static ::StringW _get_k_pch_SteamVR_MirrorViewGeometry_String();
     // Set static field: static public System.String k_pch_SteamVR_MirrorViewGeometry_String
-    static void _set_k_pch_SteamVR_MirrorViewGeometry_String(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_MirrorViewGeometry_String(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_StartMonitorFromAppLaunch
     static constexpr const char* k_pch_SteamVR_StartMonitorFromAppLaunch = "startMonitorFromAppLaunch";
     // Get static field: static public System.String k_pch_SteamVR_StartMonitorFromAppLaunch
-    static ::Il2CppString* _get_k_pch_SteamVR_StartMonitorFromAppLaunch();
+    static ::StringW _get_k_pch_SteamVR_StartMonitorFromAppLaunch();
     // Set static field: static public System.String k_pch_SteamVR_StartMonitorFromAppLaunch
-    static void _set_k_pch_SteamVR_StartMonitorFromAppLaunch(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_StartMonitorFromAppLaunch(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_StartCompositorFromAppLaunch_Bool
     static constexpr const char* k_pch_SteamVR_StartCompositorFromAppLaunch_Bool = "startCompositorFromAppLaunch";
     // Get static field: static public System.String k_pch_SteamVR_StartCompositorFromAppLaunch_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_StartCompositorFromAppLaunch_Bool();
+    static ::StringW _get_k_pch_SteamVR_StartCompositorFromAppLaunch_Bool();
     // Set static field: static public System.String k_pch_SteamVR_StartCompositorFromAppLaunch_Bool
-    static void _set_k_pch_SteamVR_StartCompositorFromAppLaunch_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_StartCompositorFromAppLaunch_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_StartDashboardFromAppLaunch_Bool
     static constexpr const char* k_pch_SteamVR_StartDashboardFromAppLaunch_Bool = "startDashboardFromAppLaunch";
     // Get static field: static public System.String k_pch_SteamVR_StartDashboardFromAppLaunch_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_StartDashboardFromAppLaunch_Bool();
+    static ::StringW _get_k_pch_SteamVR_StartDashboardFromAppLaunch_Bool();
     // Set static field: static public System.String k_pch_SteamVR_StartDashboardFromAppLaunch_Bool
-    static void _set_k_pch_SteamVR_StartDashboardFromAppLaunch_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_StartDashboardFromAppLaunch_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool
     static constexpr const char* k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool = "startOverlayAppsFromDashboard";
     // Get static field: static public System.String k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool();
+    static ::StringW _get_k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool();
     // Set static field: static public System.String k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool
-    static void _set_k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_StartOverlayAppsFromDashboard_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_EnableHomeApp
     static constexpr const char* k_pch_SteamVR_EnableHomeApp = "enableHomeApp";
     // Get static field: static public System.String k_pch_SteamVR_EnableHomeApp
-    static ::Il2CppString* _get_k_pch_SteamVR_EnableHomeApp();
+    static ::StringW _get_k_pch_SteamVR_EnableHomeApp();
     // Set static field: static public System.String k_pch_SteamVR_EnableHomeApp
-    static void _set_k_pch_SteamVR_EnableHomeApp(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_EnableHomeApp(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32
     static constexpr const char* k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32 = "CycleBackgroundImageTimeSec";
     // Get static field: static public System.String k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32
-    static ::Il2CppString* _get_k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32();
+    static ::StringW _get_k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32();
     // Set static field: static public System.String k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32
-    static void _set_k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_CycleBackgroundImageTimeSec_Int32(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_RetailDemo_Bool
     static constexpr const char* k_pch_SteamVR_RetailDemo_Bool = "retailDemo";
     // Get static field: static public System.String k_pch_SteamVR_RetailDemo_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_RetailDemo_Bool();
+    static ::StringW _get_k_pch_SteamVR_RetailDemo_Bool();
     // Set static field: static public System.String k_pch_SteamVR_RetailDemo_Bool
-    static void _set_k_pch_SteamVR_RetailDemo_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_RetailDemo_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_IpdOffset_Float
     static constexpr const char* k_pch_SteamVR_IpdOffset_Float = "ipdOffset";
     // Get static field: static public System.String k_pch_SteamVR_IpdOffset_Float
-    static ::Il2CppString* _get_k_pch_SteamVR_IpdOffset_Float();
+    static ::StringW _get_k_pch_SteamVR_IpdOffset_Float();
     // Set static field: static public System.String k_pch_SteamVR_IpdOffset_Float
-    static void _set_k_pch_SteamVR_IpdOffset_Float(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_IpdOffset_Float(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_AllowSupersampleFiltering_Bool
     static constexpr const char* k_pch_SteamVR_AllowSupersampleFiltering_Bool = "allowSupersampleFiltering";
     // Get static field: static public System.String k_pch_SteamVR_AllowSupersampleFiltering_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_AllowSupersampleFiltering_Bool();
+    static ::StringW _get_k_pch_SteamVR_AllowSupersampleFiltering_Bool();
     // Set static field: static public System.String k_pch_SteamVR_AllowSupersampleFiltering_Bool
-    static void _set_k_pch_SteamVR_AllowSupersampleFiltering_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_AllowSupersampleFiltering_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_EnableLinuxVulkanAsync_Bool
     static constexpr const char* k_pch_SteamVR_EnableLinuxVulkanAsync_Bool = "enableLinuxVulkanAsync";
     // Get static field: static public System.String k_pch_SteamVR_EnableLinuxVulkanAsync_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_EnableLinuxVulkanAsync_Bool();
+    static ::StringW _get_k_pch_SteamVR_EnableLinuxVulkanAsync_Bool();
     // Set static field: static public System.String k_pch_SteamVR_EnableLinuxVulkanAsync_Bool
-    static void _set_k_pch_SteamVR_EnableLinuxVulkanAsync_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_EnableLinuxVulkanAsync_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_AllowDisplayLockedMode_Bool
     static constexpr const char* k_pch_SteamVR_AllowDisplayLockedMode_Bool = "allowDisplayLockedMode";
     // Get static field: static public System.String k_pch_SteamVR_AllowDisplayLockedMode_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_AllowDisplayLockedMode_Bool();
+    static ::StringW _get_k_pch_SteamVR_AllowDisplayLockedMode_Bool();
     // Set static field: static public System.String k_pch_SteamVR_AllowDisplayLockedMode_Bool
-    static void _set_k_pch_SteamVR_AllowDisplayLockedMode_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_AllowDisplayLockedMode_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool
     static constexpr const char* k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool = "haveStartedTutorialForNativeChaperoneDriver";
     // Get static field: static public System.String k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool
-    static ::Il2CppString* _get_k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool();
+    static ::StringW _get_k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool();
     // Set static field: static public System.String k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool
-    static void _set_k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_HaveStartedTutorialForNativeChaperoneDriver_Bool(::StringW value);
     // static field const value: static public System.String k_pch_SteamVR_ForceWindows32bitVRMonitor
     static constexpr const char* k_pch_SteamVR_ForceWindows32bitVRMonitor = "forceWindows32BitVRMonitor";
     // Get static field: static public System.String k_pch_SteamVR_ForceWindows32bitVRMonitor
-    static ::Il2CppString* _get_k_pch_SteamVR_ForceWindows32bitVRMonitor();
+    static ::StringW _get_k_pch_SteamVR_ForceWindows32bitVRMonitor();
     // Set static field: static public System.String k_pch_SteamVR_ForceWindows32bitVRMonitor
-    static void _set_k_pch_SteamVR_ForceWindows32bitVRMonitor(::Il2CppString* value);
+    static void _set_k_pch_SteamVR_ForceWindows32bitVRMonitor(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_Section
     static constexpr const char* k_pch_Lighthouse_Section = "driver_lighthouse";
     // Get static field: static public System.String k_pch_Lighthouse_Section
-    static ::Il2CppString* _get_k_pch_Lighthouse_Section();
+    static ::StringW _get_k_pch_Lighthouse_Section();
     // Set static field: static public System.String k_pch_Lighthouse_Section
-    static void _set_k_pch_Lighthouse_Section(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_Section(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_DisableIMU_Bool
     static constexpr const char* k_pch_Lighthouse_DisableIMU_Bool = "disableimu";
     // Get static field: static public System.String k_pch_Lighthouse_DisableIMU_Bool
-    static ::Il2CppString* _get_k_pch_Lighthouse_DisableIMU_Bool();
+    static ::StringW _get_k_pch_Lighthouse_DisableIMU_Bool();
     // Set static field: static public System.String k_pch_Lighthouse_DisableIMU_Bool
-    static void _set_k_pch_Lighthouse_DisableIMU_Bool(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_DisableIMU_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_DisableIMUExceptHMD_Bool
     static constexpr const char* k_pch_Lighthouse_DisableIMUExceptHMD_Bool = "disableimuexcepthmd";
     // Get static field: static public System.String k_pch_Lighthouse_DisableIMUExceptHMD_Bool
-    static ::Il2CppString* _get_k_pch_Lighthouse_DisableIMUExceptHMD_Bool();
+    static ::StringW _get_k_pch_Lighthouse_DisableIMUExceptHMD_Bool();
     // Set static field: static public System.String k_pch_Lighthouse_DisableIMUExceptHMD_Bool
-    static void _set_k_pch_Lighthouse_DisableIMUExceptHMD_Bool(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_DisableIMUExceptHMD_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_UseDisambiguation_String
     static constexpr const char* k_pch_Lighthouse_UseDisambiguation_String = "usedisambiguation";
     // Get static field: static public System.String k_pch_Lighthouse_UseDisambiguation_String
-    static ::Il2CppString* _get_k_pch_Lighthouse_UseDisambiguation_String();
+    static ::StringW _get_k_pch_Lighthouse_UseDisambiguation_String();
     // Set static field: static public System.String k_pch_Lighthouse_UseDisambiguation_String
-    static void _set_k_pch_Lighthouse_UseDisambiguation_String(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_UseDisambiguation_String(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_DisambiguationDebug_Int32
     static constexpr const char* k_pch_Lighthouse_DisambiguationDebug_Int32 = "disambiguationdebug";
     // Get static field: static public System.String k_pch_Lighthouse_DisambiguationDebug_Int32
-    static ::Il2CppString* _get_k_pch_Lighthouse_DisambiguationDebug_Int32();
+    static ::StringW _get_k_pch_Lighthouse_DisambiguationDebug_Int32();
     // Set static field: static public System.String k_pch_Lighthouse_DisambiguationDebug_Int32
-    static void _set_k_pch_Lighthouse_DisambiguationDebug_Int32(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_DisambiguationDebug_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_PrimaryBasestation_Int32
     static constexpr const char* k_pch_Lighthouse_PrimaryBasestation_Int32 = "primarybasestation";
     // Get static field: static public System.String k_pch_Lighthouse_PrimaryBasestation_Int32
-    static ::Il2CppString* _get_k_pch_Lighthouse_PrimaryBasestation_Int32();
+    static ::StringW _get_k_pch_Lighthouse_PrimaryBasestation_Int32();
     // Set static field: static public System.String k_pch_Lighthouse_PrimaryBasestation_Int32
-    static void _set_k_pch_Lighthouse_PrimaryBasestation_Int32(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_PrimaryBasestation_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_DBHistory_Bool
     static constexpr const char* k_pch_Lighthouse_DBHistory_Bool = "dbhistory";
     // Get static field: static public System.String k_pch_Lighthouse_DBHistory_Bool
-    static ::Il2CppString* _get_k_pch_Lighthouse_DBHistory_Bool();
+    static ::StringW _get_k_pch_Lighthouse_DBHistory_Bool();
     // Set static field: static public System.String k_pch_Lighthouse_DBHistory_Bool
-    static void _set_k_pch_Lighthouse_DBHistory_Bool(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_DBHistory_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Lighthouse_EnableBluetooth_Bool
     static constexpr const char* k_pch_Lighthouse_EnableBluetooth_Bool = "enableBluetooth";
     // Get static field: static public System.String k_pch_Lighthouse_EnableBluetooth_Bool
-    static ::Il2CppString* _get_k_pch_Lighthouse_EnableBluetooth_Bool();
+    static ::StringW _get_k_pch_Lighthouse_EnableBluetooth_Bool();
     // Set static field: static public System.String k_pch_Lighthouse_EnableBluetooth_Bool
-    static void _set_k_pch_Lighthouse_EnableBluetooth_Bool(::Il2CppString* value);
+    static void _set_k_pch_Lighthouse_EnableBluetooth_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Null_Section
     static constexpr const char* k_pch_Null_Section = "driver_null";
     // Get static field: static public System.String k_pch_Null_Section
-    static ::Il2CppString* _get_k_pch_Null_Section();
+    static ::StringW _get_k_pch_Null_Section();
     // Set static field: static public System.String k_pch_Null_Section
-    static void _set_k_pch_Null_Section(::Il2CppString* value);
+    static void _set_k_pch_Null_Section(::StringW value);
     // static field const value: static public System.String k_pch_Null_SerialNumber_String
     static constexpr const char* k_pch_Null_SerialNumber_String = "serialNumber";
     // Get static field: static public System.String k_pch_Null_SerialNumber_String
-    static ::Il2CppString* _get_k_pch_Null_SerialNumber_String();
+    static ::StringW _get_k_pch_Null_SerialNumber_String();
     // Set static field: static public System.String k_pch_Null_SerialNumber_String
-    static void _set_k_pch_Null_SerialNumber_String(::Il2CppString* value);
+    static void _set_k_pch_Null_SerialNumber_String(::StringW value);
     // static field const value: static public System.String k_pch_Null_ModelNumber_String
     static constexpr const char* k_pch_Null_ModelNumber_String = "modelNumber";
     // Get static field: static public System.String k_pch_Null_ModelNumber_String
-    static ::Il2CppString* _get_k_pch_Null_ModelNumber_String();
+    static ::StringW _get_k_pch_Null_ModelNumber_String();
     // Set static field: static public System.String k_pch_Null_ModelNumber_String
-    static void _set_k_pch_Null_ModelNumber_String(::Il2CppString* value);
+    static void _set_k_pch_Null_ModelNumber_String(::StringW value);
     // static field const value: static public System.String k_pch_Null_WindowX_Int32
     static constexpr const char* k_pch_Null_WindowX_Int32 = "windowX";
     // Get static field: static public System.String k_pch_Null_WindowX_Int32
-    static ::Il2CppString* _get_k_pch_Null_WindowX_Int32();
+    static ::StringW _get_k_pch_Null_WindowX_Int32();
     // Set static field: static public System.String k_pch_Null_WindowX_Int32
-    static void _set_k_pch_Null_WindowX_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_WindowX_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_WindowY_Int32
     static constexpr const char* k_pch_Null_WindowY_Int32 = "windowY";
     // Get static field: static public System.String k_pch_Null_WindowY_Int32
-    static ::Il2CppString* _get_k_pch_Null_WindowY_Int32();
+    static ::StringW _get_k_pch_Null_WindowY_Int32();
     // Set static field: static public System.String k_pch_Null_WindowY_Int32
-    static void _set_k_pch_Null_WindowY_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_WindowY_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_WindowWidth_Int32
     static constexpr const char* k_pch_Null_WindowWidth_Int32 = "windowWidth";
     // Get static field: static public System.String k_pch_Null_WindowWidth_Int32
-    static ::Il2CppString* _get_k_pch_Null_WindowWidth_Int32();
+    static ::StringW _get_k_pch_Null_WindowWidth_Int32();
     // Set static field: static public System.String k_pch_Null_WindowWidth_Int32
-    static void _set_k_pch_Null_WindowWidth_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_WindowWidth_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_WindowHeight_Int32
     static constexpr const char* k_pch_Null_WindowHeight_Int32 = "windowHeight";
     // Get static field: static public System.String k_pch_Null_WindowHeight_Int32
-    static ::Il2CppString* _get_k_pch_Null_WindowHeight_Int32();
+    static ::StringW _get_k_pch_Null_WindowHeight_Int32();
     // Set static field: static public System.String k_pch_Null_WindowHeight_Int32
-    static void _set_k_pch_Null_WindowHeight_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_WindowHeight_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_RenderWidth_Int32
     static constexpr const char* k_pch_Null_RenderWidth_Int32 = "renderWidth";
     // Get static field: static public System.String k_pch_Null_RenderWidth_Int32
-    static ::Il2CppString* _get_k_pch_Null_RenderWidth_Int32();
+    static ::StringW _get_k_pch_Null_RenderWidth_Int32();
     // Set static field: static public System.String k_pch_Null_RenderWidth_Int32
-    static void _set_k_pch_Null_RenderWidth_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_RenderWidth_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_RenderHeight_Int32
     static constexpr const char* k_pch_Null_RenderHeight_Int32 = "renderHeight";
     // Get static field: static public System.String k_pch_Null_RenderHeight_Int32
-    static ::Il2CppString* _get_k_pch_Null_RenderHeight_Int32();
+    static ::StringW _get_k_pch_Null_RenderHeight_Int32();
     // Set static field: static public System.String k_pch_Null_RenderHeight_Int32
-    static void _set_k_pch_Null_RenderHeight_Int32(::Il2CppString* value);
+    static void _set_k_pch_Null_RenderHeight_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Null_SecondsFromVsyncToPhotons_Float
     static constexpr const char* k_pch_Null_SecondsFromVsyncToPhotons_Float = "secondsFromVsyncToPhotons";
     // Get static field: static public System.String k_pch_Null_SecondsFromVsyncToPhotons_Float
-    static ::Il2CppString* _get_k_pch_Null_SecondsFromVsyncToPhotons_Float();
+    static ::StringW _get_k_pch_Null_SecondsFromVsyncToPhotons_Float();
     // Set static field: static public System.String k_pch_Null_SecondsFromVsyncToPhotons_Float
-    static void _set_k_pch_Null_SecondsFromVsyncToPhotons_Float(::Il2CppString* value);
+    static void _set_k_pch_Null_SecondsFromVsyncToPhotons_Float(::StringW value);
     // static field const value: static public System.String k_pch_Null_DisplayFrequency_Float
     static constexpr const char* k_pch_Null_DisplayFrequency_Float = "displayFrequency";
     // Get static field: static public System.String k_pch_Null_DisplayFrequency_Float
-    static ::Il2CppString* _get_k_pch_Null_DisplayFrequency_Float();
+    static ::StringW _get_k_pch_Null_DisplayFrequency_Float();
     // Set static field: static public System.String k_pch_Null_DisplayFrequency_Float
-    static void _set_k_pch_Null_DisplayFrequency_Float(::Il2CppString* value);
+    static void _set_k_pch_Null_DisplayFrequency_Float(::StringW value);
     // static field const value: static public System.String k_pch_UserInterface_Section
     static constexpr const char* k_pch_UserInterface_Section = "userinterface";
     // Get static field: static public System.String k_pch_UserInterface_Section
-    static ::Il2CppString* _get_k_pch_UserInterface_Section();
+    static ::StringW _get_k_pch_UserInterface_Section();
     // Set static field: static public System.String k_pch_UserInterface_Section
-    static void _set_k_pch_UserInterface_Section(::Il2CppString* value);
+    static void _set_k_pch_UserInterface_Section(::StringW value);
     // static field const value: static public System.String k_pch_UserInterface_StatusAlwaysOnTop_Bool
     static constexpr const char* k_pch_UserInterface_StatusAlwaysOnTop_Bool = "StatusAlwaysOnTop";
     // Get static field: static public System.String k_pch_UserInterface_StatusAlwaysOnTop_Bool
-    static ::Il2CppString* _get_k_pch_UserInterface_StatusAlwaysOnTop_Bool();
+    static ::StringW _get_k_pch_UserInterface_StatusAlwaysOnTop_Bool();
     // Set static field: static public System.String k_pch_UserInterface_StatusAlwaysOnTop_Bool
-    static void _set_k_pch_UserInterface_StatusAlwaysOnTop_Bool(::Il2CppString* value);
+    static void _set_k_pch_UserInterface_StatusAlwaysOnTop_Bool(::StringW value);
     // static field const value: static public System.String k_pch_UserInterface_MinimizeToTray_Bool
     static constexpr const char* k_pch_UserInterface_MinimizeToTray_Bool = "MinimizeToTray";
     // Get static field: static public System.String k_pch_UserInterface_MinimizeToTray_Bool
-    static ::Il2CppString* _get_k_pch_UserInterface_MinimizeToTray_Bool();
+    static ::StringW _get_k_pch_UserInterface_MinimizeToTray_Bool();
     // Set static field: static public System.String k_pch_UserInterface_MinimizeToTray_Bool
-    static void _set_k_pch_UserInterface_MinimizeToTray_Bool(::Il2CppString* value);
+    static void _set_k_pch_UserInterface_MinimizeToTray_Bool(::StringW value);
     // static field const value: static public System.String k_pch_UserInterface_Screenshots_Bool
     static constexpr const char* k_pch_UserInterface_Screenshots_Bool = "screenshots";
     // Get static field: static public System.String k_pch_UserInterface_Screenshots_Bool
-    static ::Il2CppString* _get_k_pch_UserInterface_Screenshots_Bool();
+    static ::StringW _get_k_pch_UserInterface_Screenshots_Bool();
     // Set static field: static public System.String k_pch_UserInterface_Screenshots_Bool
-    static void _set_k_pch_UserInterface_Screenshots_Bool(::Il2CppString* value);
+    static void _set_k_pch_UserInterface_Screenshots_Bool(::StringW value);
     // static field const value: static public System.String k_pch_UserInterface_ScreenshotType_Int
     static constexpr const char* k_pch_UserInterface_ScreenshotType_Int = "screenshotType";
     // Get static field: static public System.String k_pch_UserInterface_ScreenshotType_Int
-    static ::Il2CppString* _get_k_pch_UserInterface_ScreenshotType_Int();
+    static ::StringW _get_k_pch_UserInterface_ScreenshotType_Int();
     // Set static field: static public System.String k_pch_UserInterface_ScreenshotType_Int
-    static void _set_k_pch_UserInterface_ScreenshotType_Int(::Il2CppString* value);
+    static void _set_k_pch_UserInterface_ScreenshotType_Int(::StringW value);
     // static field const value: static public System.String k_pch_Notifications_Section
     static constexpr const char* k_pch_Notifications_Section = "notifications";
     // Get static field: static public System.String k_pch_Notifications_Section
-    static ::Il2CppString* _get_k_pch_Notifications_Section();
+    static ::StringW _get_k_pch_Notifications_Section();
     // Set static field: static public System.String k_pch_Notifications_Section
-    static void _set_k_pch_Notifications_Section(::Il2CppString* value);
+    static void _set_k_pch_Notifications_Section(::StringW value);
     // static field const value: static public System.String k_pch_Notifications_DoNotDisturb_Bool
     static constexpr const char* k_pch_Notifications_DoNotDisturb_Bool = "DoNotDisturb";
     // Get static field: static public System.String k_pch_Notifications_DoNotDisturb_Bool
-    static ::Il2CppString* _get_k_pch_Notifications_DoNotDisturb_Bool();
+    static ::StringW _get_k_pch_Notifications_DoNotDisturb_Bool();
     // Set static field: static public System.String k_pch_Notifications_DoNotDisturb_Bool
-    static void _set_k_pch_Notifications_DoNotDisturb_Bool(::Il2CppString* value);
+    static void _set_k_pch_Notifications_DoNotDisturb_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_Section
     static constexpr const char* k_pch_Keyboard_Section = "keyboard";
     // Get static field: static public System.String k_pch_Keyboard_Section
-    static ::Il2CppString* _get_k_pch_Keyboard_Section();
+    static ::StringW _get_k_pch_Keyboard_Section();
     // Set static field: static public System.String k_pch_Keyboard_Section
-    static void _set_k_pch_Keyboard_Section(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_Section(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_TutorialCompletions
     static constexpr const char* k_pch_Keyboard_TutorialCompletions = "TutorialCompletions";
     // Get static field: static public System.String k_pch_Keyboard_TutorialCompletions
-    static ::Il2CppString* _get_k_pch_Keyboard_TutorialCompletions();
+    static ::StringW _get_k_pch_Keyboard_TutorialCompletions();
     // Set static field: static public System.String k_pch_Keyboard_TutorialCompletions
-    static void _set_k_pch_Keyboard_TutorialCompletions(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_TutorialCompletions(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_ScaleX
     static constexpr const char* k_pch_Keyboard_ScaleX = "ScaleX";
     // Get static field: static public System.String k_pch_Keyboard_ScaleX
-    static ::Il2CppString* _get_k_pch_Keyboard_ScaleX();
+    static ::StringW _get_k_pch_Keyboard_ScaleX();
     // Set static field: static public System.String k_pch_Keyboard_ScaleX
-    static void _set_k_pch_Keyboard_ScaleX(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_ScaleX(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_ScaleY
     static constexpr const char* k_pch_Keyboard_ScaleY = "ScaleY";
     // Get static field: static public System.String k_pch_Keyboard_ScaleY
-    static ::Il2CppString* _get_k_pch_Keyboard_ScaleY();
+    static ::StringW _get_k_pch_Keyboard_ScaleY();
     // Set static field: static public System.String k_pch_Keyboard_ScaleY
-    static void _set_k_pch_Keyboard_ScaleY(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_ScaleY(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_OffsetLeftX
     static constexpr const char* k_pch_Keyboard_OffsetLeftX = "OffsetLeftX";
     // Get static field: static public System.String k_pch_Keyboard_OffsetLeftX
-    static ::Il2CppString* _get_k_pch_Keyboard_OffsetLeftX();
+    static ::StringW _get_k_pch_Keyboard_OffsetLeftX();
     // Set static field: static public System.String k_pch_Keyboard_OffsetLeftX
-    static void _set_k_pch_Keyboard_OffsetLeftX(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_OffsetLeftX(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_OffsetRightX
     static constexpr const char* k_pch_Keyboard_OffsetRightX = "OffsetRightX";
     // Get static field: static public System.String k_pch_Keyboard_OffsetRightX
-    static ::Il2CppString* _get_k_pch_Keyboard_OffsetRightX();
+    static ::StringW _get_k_pch_Keyboard_OffsetRightX();
     // Set static field: static public System.String k_pch_Keyboard_OffsetRightX
-    static void _set_k_pch_Keyboard_OffsetRightX(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_OffsetRightX(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_OffsetY
     static constexpr const char* k_pch_Keyboard_OffsetY = "OffsetY";
     // Get static field: static public System.String k_pch_Keyboard_OffsetY
-    static ::Il2CppString* _get_k_pch_Keyboard_OffsetY();
+    static ::StringW _get_k_pch_Keyboard_OffsetY();
     // Set static field: static public System.String k_pch_Keyboard_OffsetY
-    static void _set_k_pch_Keyboard_OffsetY(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_OffsetY(::StringW value);
     // static field const value: static public System.String k_pch_Keyboard_Smoothing
     static constexpr const char* k_pch_Keyboard_Smoothing = "Smoothing";
     // Get static field: static public System.String k_pch_Keyboard_Smoothing
-    static ::Il2CppString* _get_k_pch_Keyboard_Smoothing();
+    static ::StringW _get_k_pch_Keyboard_Smoothing();
     // Set static field: static public System.String k_pch_Keyboard_Smoothing
-    static void _set_k_pch_Keyboard_Smoothing(::Il2CppString* value);
+    static void _set_k_pch_Keyboard_Smoothing(::StringW value);
     // static field const value: static public System.String k_pch_Perf_Section
     static constexpr const char* k_pch_Perf_Section = "perfcheck";
     // Get static field: static public System.String k_pch_Perf_Section
-    static ::Il2CppString* _get_k_pch_Perf_Section();
+    static ::StringW _get_k_pch_Perf_Section();
     // Set static field: static public System.String k_pch_Perf_Section
-    static void _set_k_pch_Perf_Section(::Il2CppString* value);
+    static void _set_k_pch_Perf_Section(::StringW value);
     // static field const value: static public System.String k_pch_Perf_HeuristicActive_Bool
     static constexpr const char* k_pch_Perf_HeuristicActive_Bool = "heuristicActive";
     // Get static field: static public System.String k_pch_Perf_HeuristicActive_Bool
-    static ::Il2CppString* _get_k_pch_Perf_HeuristicActive_Bool();
+    static ::StringW _get_k_pch_Perf_HeuristicActive_Bool();
     // Set static field: static public System.String k_pch_Perf_HeuristicActive_Bool
-    static void _set_k_pch_Perf_HeuristicActive_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_HeuristicActive_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Perf_NotifyInHMD_Bool
     static constexpr const char* k_pch_Perf_NotifyInHMD_Bool = "warnInHMD";
     // Get static field: static public System.String k_pch_Perf_NotifyInHMD_Bool
-    static ::Il2CppString* _get_k_pch_Perf_NotifyInHMD_Bool();
+    static ::StringW _get_k_pch_Perf_NotifyInHMD_Bool();
     // Set static field: static public System.String k_pch_Perf_NotifyInHMD_Bool
-    static void _set_k_pch_Perf_NotifyInHMD_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_NotifyInHMD_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Perf_NotifyOnlyOnce_Bool
     static constexpr const char* k_pch_Perf_NotifyOnlyOnce_Bool = "warnOnlyOnce";
     // Get static field: static public System.String k_pch_Perf_NotifyOnlyOnce_Bool
-    static ::Il2CppString* _get_k_pch_Perf_NotifyOnlyOnce_Bool();
+    static ::StringW _get_k_pch_Perf_NotifyOnlyOnce_Bool();
     // Set static field: static public System.String k_pch_Perf_NotifyOnlyOnce_Bool
-    static void _set_k_pch_Perf_NotifyOnlyOnce_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_NotifyOnlyOnce_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Perf_AllowTimingStore_Bool
     static constexpr const char* k_pch_Perf_AllowTimingStore_Bool = "allowTimingStore";
     // Get static field: static public System.String k_pch_Perf_AllowTimingStore_Bool
-    static ::Il2CppString* _get_k_pch_Perf_AllowTimingStore_Bool();
+    static ::StringW _get_k_pch_Perf_AllowTimingStore_Bool();
     // Set static field: static public System.String k_pch_Perf_AllowTimingStore_Bool
-    static void _set_k_pch_Perf_AllowTimingStore_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_AllowTimingStore_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Perf_SaveTimingsOnExit_Bool
     static constexpr const char* k_pch_Perf_SaveTimingsOnExit_Bool = "saveTimingsOnExit";
     // Get static field: static public System.String k_pch_Perf_SaveTimingsOnExit_Bool
-    static ::Il2CppString* _get_k_pch_Perf_SaveTimingsOnExit_Bool();
+    static ::StringW _get_k_pch_Perf_SaveTimingsOnExit_Bool();
     // Set static field: static public System.String k_pch_Perf_SaveTimingsOnExit_Bool
-    static void _set_k_pch_Perf_SaveTimingsOnExit_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_SaveTimingsOnExit_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Perf_TestData_Float
     static constexpr const char* k_pch_Perf_TestData_Float = "perfTestData";
     // Get static field: static public System.String k_pch_Perf_TestData_Float
-    static ::Il2CppString* _get_k_pch_Perf_TestData_Float();
+    static ::StringW _get_k_pch_Perf_TestData_Float();
     // Set static field: static public System.String k_pch_Perf_TestData_Float
-    static void _set_k_pch_Perf_TestData_Float(::Il2CppString* value);
+    static void _set_k_pch_Perf_TestData_Float(::StringW value);
     // static field const value: static public System.String k_pch_Perf_LinuxGPUProfiling_Bool
     static constexpr const char* k_pch_Perf_LinuxGPUProfiling_Bool = "linuxGPUProfiling";
     // Get static field: static public System.String k_pch_Perf_LinuxGPUProfiling_Bool
-    static ::Il2CppString* _get_k_pch_Perf_LinuxGPUProfiling_Bool();
+    static ::StringW _get_k_pch_Perf_LinuxGPUProfiling_Bool();
     // Set static field: static public System.String k_pch_Perf_LinuxGPUProfiling_Bool
-    static void _set_k_pch_Perf_LinuxGPUProfiling_Bool(::Il2CppString* value);
+    static void _set_k_pch_Perf_LinuxGPUProfiling_Bool(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_Section
     static constexpr const char* k_pch_CollisionBounds_Section = "collisionBounds";
     // Get static field: static public System.String k_pch_CollisionBounds_Section
-    static ::Il2CppString* _get_k_pch_CollisionBounds_Section();
+    static ::StringW _get_k_pch_CollisionBounds_Section();
     // Set static field: static public System.String k_pch_CollisionBounds_Section
-    static void _set_k_pch_CollisionBounds_Section(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_Section(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_Style_Int32
     static constexpr const char* k_pch_CollisionBounds_Style_Int32 = "CollisionBoundsStyle";
     // Get static field: static public System.String k_pch_CollisionBounds_Style_Int32
-    static ::Il2CppString* _get_k_pch_CollisionBounds_Style_Int32();
+    static ::StringW _get_k_pch_CollisionBounds_Style_Int32();
     // Set static field: static public System.String k_pch_CollisionBounds_Style_Int32
-    static void _set_k_pch_CollisionBounds_Style_Int32(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_Style_Int32(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_GroundPerimeterOn_Bool
     static constexpr const char* k_pch_CollisionBounds_GroundPerimeterOn_Bool = "CollisionBoundsGroundPerimeterOn";
     // Get static field: static public System.String k_pch_CollisionBounds_GroundPerimeterOn_Bool
-    static ::Il2CppString* _get_k_pch_CollisionBounds_GroundPerimeterOn_Bool();
+    static ::StringW _get_k_pch_CollisionBounds_GroundPerimeterOn_Bool();
     // Set static field: static public System.String k_pch_CollisionBounds_GroundPerimeterOn_Bool
-    static void _set_k_pch_CollisionBounds_GroundPerimeterOn_Bool(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_GroundPerimeterOn_Bool(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_CenterMarkerOn_Bool
     static constexpr const char* k_pch_CollisionBounds_CenterMarkerOn_Bool = "CollisionBoundsCenterMarkerOn";
     // Get static field: static public System.String k_pch_CollisionBounds_CenterMarkerOn_Bool
-    static ::Il2CppString* _get_k_pch_CollisionBounds_CenterMarkerOn_Bool();
+    static ::StringW _get_k_pch_CollisionBounds_CenterMarkerOn_Bool();
     // Set static field: static public System.String k_pch_CollisionBounds_CenterMarkerOn_Bool
-    static void _set_k_pch_CollisionBounds_CenterMarkerOn_Bool(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_CenterMarkerOn_Bool(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_PlaySpaceOn_Bool
     static constexpr const char* k_pch_CollisionBounds_PlaySpaceOn_Bool = "CollisionBoundsPlaySpaceOn";
     // Get static field: static public System.String k_pch_CollisionBounds_PlaySpaceOn_Bool
-    static ::Il2CppString* _get_k_pch_CollisionBounds_PlaySpaceOn_Bool();
+    static ::StringW _get_k_pch_CollisionBounds_PlaySpaceOn_Bool();
     // Set static field: static public System.String k_pch_CollisionBounds_PlaySpaceOn_Bool
-    static void _set_k_pch_CollisionBounds_PlaySpaceOn_Bool(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_PlaySpaceOn_Bool(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_FadeDistance_Float
     static constexpr const char* k_pch_CollisionBounds_FadeDistance_Float = "CollisionBoundsFadeDistance";
     // Get static field: static public System.String k_pch_CollisionBounds_FadeDistance_Float
-    static ::Il2CppString* _get_k_pch_CollisionBounds_FadeDistance_Float();
+    static ::StringW _get_k_pch_CollisionBounds_FadeDistance_Float();
     // Set static field: static public System.String k_pch_CollisionBounds_FadeDistance_Float
-    static void _set_k_pch_CollisionBounds_FadeDistance_Float(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_FadeDistance_Float(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_ColorGammaR_Int32
     static constexpr const char* k_pch_CollisionBounds_ColorGammaR_Int32 = "CollisionBoundsColorGammaR";
     // Get static field: static public System.String k_pch_CollisionBounds_ColorGammaR_Int32
-    static ::Il2CppString* _get_k_pch_CollisionBounds_ColorGammaR_Int32();
+    static ::StringW _get_k_pch_CollisionBounds_ColorGammaR_Int32();
     // Set static field: static public System.String k_pch_CollisionBounds_ColorGammaR_Int32
-    static void _set_k_pch_CollisionBounds_ColorGammaR_Int32(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_ColorGammaR_Int32(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_ColorGammaG_Int32
     static constexpr const char* k_pch_CollisionBounds_ColorGammaG_Int32 = "CollisionBoundsColorGammaG";
     // Get static field: static public System.String k_pch_CollisionBounds_ColorGammaG_Int32
-    static ::Il2CppString* _get_k_pch_CollisionBounds_ColorGammaG_Int32();
+    static ::StringW _get_k_pch_CollisionBounds_ColorGammaG_Int32();
     // Set static field: static public System.String k_pch_CollisionBounds_ColorGammaG_Int32
-    static void _set_k_pch_CollisionBounds_ColorGammaG_Int32(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_ColorGammaG_Int32(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_ColorGammaB_Int32
     static constexpr const char* k_pch_CollisionBounds_ColorGammaB_Int32 = "CollisionBoundsColorGammaB";
     // Get static field: static public System.String k_pch_CollisionBounds_ColorGammaB_Int32
-    static ::Il2CppString* _get_k_pch_CollisionBounds_ColorGammaB_Int32();
+    static ::StringW _get_k_pch_CollisionBounds_ColorGammaB_Int32();
     // Set static field: static public System.String k_pch_CollisionBounds_ColorGammaB_Int32
-    static void _set_k_pch_CollisionBounds_ColorGammaB_Int32(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_ColorGammaB_Int32(::StringW value);
     // static field const value: static public System.String k_pch_CollisionBounds_ColorGammaA_Int32
     static constexpr const char* k_pch_CollisionBounds_ColorGammaA_Int32 = "CollisionBoundsColorGammaA";
     // Get static field: static public System.String k_pch_CollisionBounds_ColorGammaA_Int32
-    static ::Il2CppString* _get_k_pch_CollisionBounds_ColorGammaA_Int32();
+    static ::StringW _get_k_pch_CollisionBounds_ColorGammaA_Int32();
     // Set static field: static public System.String k_pch_CollisionBounds_ColorGammaA_Int32
-    static void _set_k_pch_CollisionBounds_ColorGammaA_Int32(::Il2CppString* value);
+    static void _set_k_pch_CollisionBounds_ColorGammaA_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Camera_Section
     static constexpr const char* k_pch_Camera_Section = "camera";
     // Get static field: static public System.String k_pch_Camera_Section
-    static ::Il2CppString* _get_k_pch_Camera_Section();
+    static ::StringW _get_k_pch_Camera_Section();
     // Set static field: static public System.String k_pch_Camera_Section
-    static void _set_k_pch_Camera_Section(::Il2CppString* value);
+    static void _set_k_pch_Camera_Section(::StringW value);
     // static field const value: static public System.String k_pch_Camera_EnableCamera_Bool
     static constexpr const char* k_pch_Camera_EnableCamera_Bool = "enableCamera";
     // Get static field: static public System.String k_pch_Camera_EnableCamera_Bool
-    static ::Il2CppString* _get_k_pch_Camera_EnableCamera_Bool();
+    static ::StringW _get_k_pch_Camera_EnableCamera_Bool();
     // Set static field: static public System.String k_pch_Camera_EnableCamera_Bool
-    static void _set_k_pch_Camera_EnableCamera_Bool(::Il2CppString* value);
+    static void _set_k_pch_Camera_EnableCamera_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Camera_EnableCameraInDashboard_Bool
     static constexpr const char* k_pch_Camera_EnableCameraInDashboard_Bool = "enableCameraInDashboard";
     // Get static field: static public System.String k_pch_Camera_EnableCameraInDashboard_Bool
-    static ::Il2CppString* _get_k_pch_Camera_EnableCameraInDashboard_Bool();
+    static ::StringW _get_k_pch_Camera_EnableCameraInDashboard_Bool();
     // Set static field: static public System.String k_pch_Camera_EnableCameraInDashboard_Bool
-    static void _set_k_pch_Camera_EnableCameraInDashboard_Bool(::Il2CppString* value);
+    static void _set_k_pch_Camera_EnableCameraInDashboard_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Camera_EnableCameraForCollisionBounds_Bool
     static constexpr const char* k_pch_Camera_EnableCameraForCollisionBounds_Bool = "enableCameraForCollisionBounds";
     // Get static field: static public System.String k_pch_Camera_EnableCameraForCollisionBounds_Bool
-    static ::Il2CppString* _get_k_pch_Camera_EnableCameraForCollisionBounds_Bool();
+    static ::StringW _get_k_pch_Camera_EnableCameraForCollisionBounds_Bool();
     // Set static field: static public System.String k_pch_Camera_EnableCameraForCollisionBounds_Bool
-    static void _set_k_pch_Camera_EnableCameraForCollisionBounds_Bool(::Il2CppString* value);
+    static void _set_k_pch_Camera_EnableCameraForCollisionBounds_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Camera_EnableCameraForRoomView_Bool
     static constexpr const char* k_pch_Camera_EnableCameraForRoomView_Bool = "enableCameraForRoomView";
     // Get static field: static public System.String k_pch_Camera_EnableCameraForRoomView_Bool
-    static ::Il2CppString* _get_k_pch_Camera_EnableCameraForRoomView_Bool();
+    static ::StringW _get_k_pch_Camera_EnableCameraForRoomView_Bool();
     // Set static field: static public System.String k_pch_Camera_EnableCameraForRoomView_Bool
-    static void _set_k_pch_Camera_EnableCameraForRoomView_Bool(::Il2CppString* value);
+    static void _set_k_pch_Camera_EnableCameraForRoomView_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Camera_BoundsColorGammaR_Int32
     static constexpr const char* k_pch_Camera_BoundsColorGammaR_Int32 = "cameraBoundsColorGammaR";
     // Get static field: static public System.String k_pch_Camera_BoundsColorGammaR_Int32
-    static ::Il2CppString* _get_k_pch_Camera_BoundsColorGammaR_Int32();
+    static ::StringW _get_k_pch_Camera_BoundsColorGammaR_Int32();
     // Set static field: static public System.String k_pch_Camera_BoundsColorGammaR_Int32
-    static void _set_k_pch_Camera_BoundsColorGammaR_Int32(::Il2CppString* value);
+    static void _set_k_pch_Camera_BoundsColorGammaR_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Camera_BoundsColorGammaG_Int32
     static constexpr const char* k_pch_Camera_BoundsColorGammaG_Int32 = "cameraBoundsColorGammaG";
     // Get static field: static public System.String k_pch_Camera_BoundsColorGammaG_Int32
-    static ::Il2CppString* _get_k_pch_Camera_BoundsColorGammaG_Int32();
+    static ::StringW _get_k_pch_Camera_BoundsColorGammaG_Int32();
     // Set static field: static public System.String k_pch_Camera_BoundsColorGammaG_Int32
-    static void _set_k_pch_Camera_BoundsColorGammaG_Int32(::Il2CppString* value);
+    static void _set_k_pch_Camera_BoundsColorGammaG_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Camera_BoundsColorGammaB_Int32
     static constexpr const char* k_pch_Camera_BoundsColorGammaB_Int32 = "cameraBoundsColorGammaB";
     // Get static field: static public System.String k_pch_Camera_BoundsColorGammaB_Int32
-    static ::Il2CppString* _get_k_pch_Camera_BoundsColorGammaB_Int32();
+    static ::StringW _get_k_pch_Camera_BoundsColorGammaB_Int32();
     // Set static field: static public System.String k_pch_Camera_BoundsColorGammaB_Int32
-    static void _set_k_pch_Camera_BoundsColorGammaB_Int32(::Il2CppString* value);
+    static void _set_k_pch_Camera_BoundsColorGammaB_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Camera_BoundsColorGammaA_Int32
     static constexpr const char* k_pch_Camera_BoundsColorGammaA_Int32 = "cameraBoundsColorGammaA";
     // Get static field: static public System.String k_pch_Camera_BoundsColorGammaA_Int32
-    static ::Il2CppString* _get_k_pch_Camera_BoundsColorGammaA_Int32();
+    static ::StringW _get_k_pch_Camera_BoundsColorGammaA_Int32();
     // Set static field: static public System.String k_pch_Camera_BoundsColorGammaA_Int32
-    static void _set_k_pch_Camera_BoundsColorGammaA_Int32(::Il2CppString* value);
+    static void _set_k_pch_Camera_BoundsColorGammaA_Int32(::StringW value);
     // static field const value: static public System.String k_pch_Camera_BoundsStrength_Int32
     static constexpr const char* k_pch_Camera_BoundsStrength_Int32 = "cameraBoundsStrength";
     // Get static field: static public System.String k_pch_Camera_BoundsStrength_Int32
-    static ::Il2CppString* _get_k_pch_Camera_BoundsStrength_Int32();
+    static ::StringW _get_k_pch_Camera_BoundsStrength_Int32();
     // Set static field: static public System.String k_pch_Camera_BoundsStrength_Int32
-    static void _set_k_pch_Camera_BoundsStrength_Int32(::Il2CppString* value);
+    static void _set_k_pch_Camera_BoundsStrength_Int32(::StringW value);
     // static field const value: static public System.String k_pch_audio_Section
     static constexpr const char* k_pch_audio_Section = "audio";
     // Get static field: static public System.String k_pch_audio_Section
-    static ::Il2CppString* _get_k_pch_audio_Section();
+    static ::StringW _get_k_pch_audio_Section();
     // Set static field: static public System.String k_pch_audio_Section
-    static void _set_k_pch_audio_Section(::Il2CppString* value);
+    static void _set_k_pch_audio_Section(::StringW value);
     // static field const value: static public System.String k_pch_audio_OnPlaybackDevice_String
     static constexpr const char* k_pch_audio_OnPlaybackDevice_String = "onPlaybackDevice";
     // Get static field: static public System.String k_pch_audio_OnPlaybackDevice_String
-    static ::Il2CppString* _get_k_pch_audio_OnPlaybackDevice_String();
+    static ::StringW _get_k_pch_audio_OnPlaybackDevice_String();
     // Set static field: static public System.String k_pch_audio_OnPlaybackDevice_String
-    static void _set_k_pch_audio_OnPlaybackDevice_String(::Il2CppString* value);
+    static void _set_k_pch_audio_OnPlaybackDevice_String(::StringW value);
     // static field const value: static public System.String k_pch_audio_OnRecordDevice_String
     static constexpr const char* k_pch_audio_OnRecordDevice_String = "onRecordDevice";
     // Get static field: static public System.String k_pch_audio_OnRecordDevice_String
-    static ::Il2CppString* _get_k_pch_audio_OnRecordDevice_String();
+    static ::StringW _get_k_pch_audio_OnRecordDevice_String();
     // Set static field: static public System.String k_pch_audio_OnRecordDevice_String
-    static void _set_k_pch_audio_OnRecordDevice_String(::Il2CppString* value);
+    static void _set_k_pch_audio_OnRecordDevice_String(::StringW value);
     // static field const value: static public System.String k_pch_audio_OnPlaybackMirrorDevice_String
     static constexpr const char* k_pch_audio_OnPlaybackMirrorDevice_String = "onPlaybackMirrorDevice";
     // Get static field: static public System.String k_pch_audio_OnPlaybackMirrorDevice_String
-    static ::Il2CppString* _get_k_pch_audio_OnPlaybackMirrorDevice_String();
+    static ::StringW _get_k_pch_audio_OnPlaybackMirrorDevice_String();
     // Set static field: static public System.String k_pch_audio_OnPlaybackMirrorDevice_String
-    static void _set_k_pch_audio_OnPlaybackMirrorDevice_String(::Il2CppString* value);
+    static void _set_k_pch_audio_OnPlaybackMirrorDevice_String(::StringW value);
     // static field const value: static public System.String k_pch_audio_OffPlaybackDevice_String
     static constexpr const char* k_pch_audio_OffPlaybackDevice_String = "offPlaybackDevice";
     // Get static field: static public System.String k_pch_audio_OffPlaybackDevice_String
-    static ::Il2CppString* _get_k_pch_audio_OffPlaybackDevice_String();
+    static ::StringW _get_k_pch_audio_OffPlaybackDevice_String();
     // Set static field: static public System.String k_pch_audio_OffPlaybackDevice_String
-    static void _set_k_pch_audio_OffPlaybackDevice_String(::Il2CppString* value);
+    static void _set_k_pch_audio_OffPlaybackDevice_String(::StringW value);
     // static field const value: static public System.String k_pch_audio_OffRecordDevice_String
     static constexpr const char* k_pch_audio_OffRecordDevice_String = "offRecordDevice";
     // Get static field: static public System.String k_pch_audio_OffRecordDevice_String
-    static ::Il2CppString* _get_k_pch_audio_OffRecordDevice_String();
+    static ::StringW _get_k_pch_audio_OffRecordDevice_String();
     // Set static field: static public System.String k_pch_audio_OffRecordDevice_String
-    static void _set_k_pch_audio_OffRecordDevice_String(::Il2CppString* value);
+    static void _set_k_pch_audio_OffRecordDevice_String(::StringW value);
     // static field const value: static public System.String k_pch_audio_VIVEHDMIGain
     static constexpr const char* k_pch_audio_VIVEHDMIGain = "viveHDMIGain";
     // Get static field: static public System.String k_pch_audio_VIVEHDMIGain
-    static ::Il2CppString* _get_k_pch_audio_VIVEHDMIGain();
+    static ::StringW _get_k_pch_audio_VIVEHDMIGain();
     // Set static field: static public System.String k_pch_audio_VIVEHDMIGain
-    static void _set_k_pch_audio_VIVEHDMIGain(::Il2CppString* value);
+    static void _set_k_pch_audio_VIVEHDMIGain(::StringW value);
     // static field const value: static public System.String k_pch_Power_Section
     static constexpr const char* k_pch_Power_Section = "power";
     // Get static field: static public System.String k_pch_Power_Section
-    static ::Il2CppString* _get_k_pch_Power_Section();
+    static ::StringW _get_k_pch_Power_Section();
     // Set static field: static public System.String k_pch_Power_Section
-    static void _set_k_pch_Power_Section(::Il2CppString* value);
+    static void _set_k_pch_Power_Section(::StringW value);
     // static field const value: static public System.String k_pch_Power_PowerOffOnExit_Bool
     static constexpr const char* k_pch_Power_PowerOffOnExit_Bool = "powerOffOnExit";
     // Get static field: static public System.String k_pch_Power_PowerOffOnExit_Bool
-    static ::Il2CppString* _get_k_pch_Power_PowerOffOnExit_Bool();
+    static ::StringW _get_k_pch_Power_PowerOffOnExit_Bool();
     // Set static field: static public System.String k_pch_Power_PowerOffOnExit_Bool
-    static void _set_k_pch_Power_PowerOffOnExit_Bool(::Il2CppString* value);
+    static void _set_k_pch_Power_PowerOffOnExit_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Power_TurnOffScreensTimeout_Float
     static constexpr const char* k_pch_Power_TurnOffScreensTimeout_Float = "turnOffScreensTimeout";
     // Get static field: static public System.String k_pch_Power_TurnOffScreensTimeout_Float
-    static ::Il2CppString* _get_k_pch_Power_TurnOffScreensTimeout_Float();
+    static ::StringW _get_k_pch_Power_TurnOffScreensTimeout_Float();
     // Set static field: static public System.String k_pch_Power_TurnOffScreensTimeout_Float
-    static void _set_k_pch_Power_TurnOffScreensTimeout_Float(::Il2CppString* value);
+    static void _set_k_pch_Power_TurnOffScreensTimeout_Float(::StringW value);
     // static field const value: static public System.String k_pch_Power_TurnOffControllersTimeout_Float
     static constexpr const char* k_pch_Power_TurnOffControllersTimeout_Float = "turnOffControllersTimeout";
     // Get static field: static public System.String k_pch_Power_TurnOffControllersTimeout_Float
-    static ::Il2CppString* _get_k_pch_Power_TurnOffControllersTimeout_Float();
+    static ::StringW _get_k_pch_Power_TurnOffControllersTimeout_Float();
     // Set static field: static public System.String k_pch_Power_TurnOffControllersTimeout_Float
-    static void _set_k_pch_Power_TurnOffControllersTimeout_Float(::Il2CppString* value);
+    static void _set_k_pch_Power_TurnOffControllersTimeout_Float(::StringW value);
     // static field const value: static public System.String k_pch_Power_ReturnToWatchdogTimeout_Float
     static constexpr const char* k_pch_Power_ReturnToWatchdogTimeout_Float = "returnToWatchdogTimeout";
     // Get static field: static public System.String k_pch_Power_ReturnToWatchdogTimeout_Float
-    static ::Il2CppString* _get_k_pch_Power_ReturnToWatchdogTimeout_Float();
+    static ::StringW _get_k_pch_Power_ReturnToWatchdogTimeout_Float();
     // Set static field: static public System.String k_pch_Power_ReturnToWatchdogTimeout_Float
-    static void _set_k_pch_Power_ReturnToWatchdogTimeout_Float(::Il2CppString* value);
+    static void _set_k_pch_Power_ReturnToWatchdogTimeout_Float(::StringW value);
     // static field const value: static public System.String k_pch_Power_AutoLaunchSteamVROnButtonPress
     static constexpr const char* k_pch_Power_AutoLaunchSteamVROnButtonPress = "autoLaunchSteamVROnButtonPress";
     // Get static field: static public System.String k_pch_Power_AutoLaunchSteamVROnButtonPress
-    static ::Il2CppString* _get_k_pch_Power_AutoLaunchSteamVROnButtonPress();
+    static ::StringW _get_k_pch_Power_AutoLaunchSteamVROnButtonPress();
     // Set static field: static public System.String k_pch_Power_AutoLaunchSteamVROnButtonPress
-    static void _set_k_pch_Power_AutoLaunchSteamVROnButtonPress(::Il2CppString* value);
+    static void _set_k_pch_Power_AutoLaunchSteamVROnButtonPress(::StringW value);
     // static field const value: static public System.String k_pch_Power_PauseCompositorOnStandby_Bool
     static constexpr const char* k_pch_Power_PauseCompositorOnStandby_Bool = "pauseCompositorOnStandby";
     // Get static field: static public System.String k_pch_Power_PauseCompositorOnStandby_Bool
-    static ::Il2CppString* _get_k_pch_Power_PauseCompositorOnStandby_Bool();
+    static ::StringW _get_k_pch_Power_PauseCompositorOnStandby_Bool();
     // Set static field: static public System.String k_pch_Power_PauseCompositorOnStandby_Bool
-    static void _set_k_pch_Power_PauseCompositorOnStandby_Bool(::Il2CppString* value);
+    static void _set_k_pch_Power_PauseCompositorOnStandby_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Dashboard_Section
     static constexpr const char* k_pch_Dashboard_Section = "dashboard";
     // Get static field: static public System.String k_pch_Dashboard_Section
-    static ::Il2CppString* _get_k_pch_Dashboard_Section();
+    static ::StringW _get_k_pch_Dashboard_Section();
     // Set static field: static public System.String k_pch_Dashboard_Section
-    static void _set_k_pch_Dashboard_Section(::Il2CppString* value);
+    static void _set_k_pch_Dashboard_Section(::StringW value);
     // static field const value: static public System.String k_pch_Dashboard_EnableDashboard_Bool
     static constexpr const char* k_pch_Dashboard_EnableDashboard_Bool = "enableDashboard";
     // Get static field: static public System.String k_pch_Dashboard_EnableDashboard_Bool
-    static ::Il2CppString* _get_k_pch_Dashboard_EnableDashboard_Bool();
+    static ::StringW _get_k_pch_Dashboard_EnableDashboard_Bool();
     // Set static field: static public System.String k_pch_Dashboard_EnableDashboard_Bool
-    static void _set_k_pch_Dashboard_EnableDashboard_Bool(::Il2CppString* value);
+    static void _set_k_pch_Dashboard_EnableDashboard_Bool(::StringW value);
     // static field const value: static public System.String k_pch_Dashboard_ArcadeMode_Bool
     static constexpr const char* k_pch_Dashboard_ArcadeMode_Bool = "arcadeMode";
     // Get static field: static public System.String k_pch_Dashboard_ArcadeMode_Bool
-    static ::Il2CppString* _get_k_pch_Dashboard_ArcadeMode_Bool();
+    static ::StringW _get_k_pch_Dashboard_ArcadeMode_Bool();
     // Set static field: static public System.String k_pch_Dashboard_ArcadeMode_Bool
-    static void _set_k_pch_Dashboard_ArcadeMode_Bool(::Il2CppString* value);
+    static void _set_k_pch_Dashboard_ArcadeMode_Bool(::StringW value);
     // static field const value: static public System.String k_pch_modelskin_Section
     static constexpr const char* k_pch_modelskin_Section = "modelskins";
     // Get static field: static public System.String k_pch_modelskin_Section
-    static ::Il2CppString* _get_k_pch_modelskin_Section();
+    static ::StringW _get_k_pch_modelskin_Section();
     // Set static field: static public System.String k_pch_modelskin_Section
-    static void _set_k_pch_modelskin_Section(::Il2CppString* value);
+    static void _set_k_pch_modelskin_Section(::StringW value);
     // static field const value: static public System.String k_pch_Driver_Enable_Bool
     static constexpr const char* k_pch_Driver_Enable_Bool = "enable";
     // Get static field: static public System.String k_pch_Driver_Enable_Bool
-    static ::Il2CppString* _get_k_pch_Driver_Enable_Bool();
+    static ::StringW _get_k_pch_Driver_Enable_Bool();
     // Set static field: static public System.String k_pch_Driver_Enable_Bool
-    static void _set_k_pch_Driver_Enable_Bool(::Il2CppString* value);
+    static void _set_k_pch_Driver_Enable_Bool(::StringW value);
     // static field const value: static public System.String IVRScreenshots_Version
     static constexpr const char* IVRScreenshots_Version = "IVRScreenshots_001";
     // Get static field: static public System.String IVRScreenshots_Version
-    static ::Il2CppString* _get_IVRScreenshots_Version();
+    static ::StringW _get_IVRScreenshots_Version();
     // Set static field: static public System.String IVRScreenshots_Version
-    static void _set_IVRScreenshots_Version(::Il2CppString* value);
+    static void _set_IVRScreenshots_Version(::StringW value);
     // static field const value: static public System.String IVRResources_Version
     static constexpr const char* IVRResources_Version = "IVRResources_001";
     // Get static field: static public System.String IVRResources_Version
-    static ::Il2CppString* _get_IVRResources_Version();
+    static ::StringW _get_IVRResources_Version();
     // Set static field: static public System.String IVRResources_Version
-    static void _set_IVRResources_Version(::Il2CppString* value);
+    static void _set_IVRResources_Version(::StringW value);
     // static field const value: static public System.String IVRDriverManager_Version
     static constexpr const char* IVRDriverManager_Version = "IVRDriverManager_001";
     // Get static field: static public System.String IVRDriverManager_Version
-    static ::Il2CppString* _get_IVRDriverManager_Version();
+    static ::StringW _get_IVRDriverManager_Version();
     // Set static field: static public System.String IVRDriverManager_Version
-    static void _set_IVRDriverManager_Version(::Il2CppString* value);
+    static void _set_IVRDriverManager_Version(::StringW value);
     // Get static field: static private System.UInt32 <VRToken>k__BackingField
     static uint _get_$VRToken$k__BackingField();
     // Set static field: static private System.UInt32 <VRToken>k__BackingField
@@ -1187,9 +1188,9 @@ namespace Valve::VR {
     // static field const value: static private System.String FnTable_Prefix
     static constexpr const char* FnTable_Prefix = "FnTable:";
     // Get static field: static private System.String FnTable_Prefix
-    static ::Il2CppString* _get_FnTable_Prefix();
+    static ::StringW _get_FnTable_Prefix();
     // Set static field: static private System.String FnTable_Prefix
-    static void _set_FnTable_Prefix(::Il2CppString* value);
+    static void _set_FnTable_Prefix(::StringW value);
     // Get static field: static private Valve.VR.OpenVR/Valve.VR.COpenVRContext _OpenVRInternal_ModuleContext
     static Valve::VR::OpenVR::COpenVRContext* _get__OpenVRInternal_ModuleContext();
     // Set static field: static private Valve.VR.OpenVR/Valve.VR.COpenVRContext _OpenVRInternal_ModuleContext
@@ -1253,13 +1254,13 @@ namespace Valve::VR {
     static bool IsRuntimeInstalled();
     // static public System.String GetStringForHmdError(Valve.VR.EVRInitError error)
     // Offset: 0x1ED2BF8
-    static ::Il2CppString* GetStringForHmdError(Valve::VR::EVRInitError error);
+    static ::StringW GetStringForHmdError(Valve::VR::EVRInitError error);
     // static public System.IntPtr GetGenericInterface(System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
     // Offset: 0x1ED2C74
-    static System::IntPtr GetGenericInterface(::Il2CppString* pchInterfaceVersion, ByRef<Valve::VR::EVRInitError> peError);
+    static System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ByRef<Valve::VR::EVRInitError> peError);
     // static public System.Boolean IsInterfaceVersionValid(System.String pchInterfaceVersion)
     // Offset: 0x1ED2C7C
-    static bool IsInterfaceVersionValid(::Il2CppString* pchInterfaceVersion);
+    static bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
     // static public System.UInt32 GetInitToken()
     // Offset: 0x1ED2C84
     static uint GetInitToken();
@@ -1440,7 +1441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: Valve::VR::OpenVR::GetStringForHmdError
 // Il2CppName: GetStringForHmdError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Valve::VR::EVRInitError)>(&Valve::VR::OpenVR::GetStringForHmdError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Valve::VR::EVRInitError)>(&Valve::VR::OpenVR::GetStringForHmdError)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRInitError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR*), "GetStringForHmdError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1449,7 +1450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Valve::VR::OpenVR::GetGenericInterface
 // Il2CppName: GetGenericInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ByRef<Valve::VR::EVRInitError>)>(&Valve::VR::OpenVR::GetGenericInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, ByRef<Valve::VR::EVRInitError>)>(&Valve::VR::OpenVR::GetGenericInterface)> {
   static const MethodInfo* get() {
     static auto* pchInterfaceVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRInitError")->this_arg;
@@ -1459,7 +1460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Valve::VR::OpenVR::IsInterfaceVersionValid
 // Il2CppName: IsInterfaceVersionValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Valve::VR::OpenVR::IsInterfaceVersionValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Valve::VR::OpenVR::IsInterfaceVersionValid)> {
   static const MethodInfo* get() {
     static auto* pchInterfaceVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::OpenVR*), "IsInterfaceVersionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchInterfaceVersion});

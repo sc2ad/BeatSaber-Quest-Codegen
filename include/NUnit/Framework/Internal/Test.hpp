@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -101,23 +102,23 @@ namespace NUnit::Framework::Internal {
     // private System.String <Id>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* Id;
+    ::StringW Id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FE20
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FE5C
     // private System.String <FullName>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* FullName;
+    ::StringW FullName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FE98
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
@@ -184,9 +185,9 @@ namespace NUnit::Framework::Internal {
     static void _set__nextID(int value);
     // [DebuggerBrowsableAttribute] Offset: 0xF2FFC4
     // Get static field: static private System.String <IdPrefix>k__BackingField
-    static ::Il2CppString* _get_$IdPrefix$k__BackingField();
+    static ::StringW _get_$IdPrefix$k__BackingField();
     // Set static field: static private System.String <IdPrefix>k__BackingField
-    static void _set_$IdPrefix$k__BackingField(::Il2CppString* value);
+    static void _set_$IdPrefix$k__BackingField(::StringW value);
     // Get instance field reference: protected System.Reflection.MethodInfo[] setUpMethods
     ::ArrayW<System::Reflection::MethodInfo*>& dyn_setUpMethods();
     // Get instance field reference: protected System.Reflection.MethodInfo[] tearDownMethods
@@ -196,11 +197,11 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private NUnit.Framework.Interfaces.IMethodInfo _method
     NUnit::Framework::Interfaces::IMethodInfo*& dyn__method();
     // Get instance field reference: private System.String <Id>k__BackingField
-    ::Il2CppString*& dyn_$Id$k__BackingField();
+    ::StringW& dyn_$Id$k__BackingField();
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.String <FullName>k__BackingField
-    ::Il2CppString*& dyn_$FullName$k__BackingField();
+    ::StringW& dyn_$FullName$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     NUnit::Framework::Interfaces::ITypeInfo*& dyn_$TypeInfo$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
@@ -217,28 +218,28 @@ namespace NUnit::Framework::Internal {
     bool& dyn_$RequiresThread$k__BackingField();
     // public System.String get_Id()
     // Offset: 0x2554130
-    ::Il2CppString* get_Id();
+    ::StringW get_Id();
     // public System.Void set_Id(System.String value)
     // Offset: 0x2554138
-    void set_Id(::Il2CppString* value);
+    void set_Id(::StringW value);
     // public System.String get_Name()
     // Offset: 0x2554140
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public System.Void set_Name(System.String value)
     // Offset: 0x2554148
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.String get_FullName()
     // Offset: 0x2554150
-    ::Il2CppString* get_FullName();
+    ::StringW get_FullName();
     // public System.Void set_FullName(System.String value)
     // Offset: 0x2554158
-    void set_FullName(::Il2CppString* value);
+    void set_FullName(::StringW value);
     // public System.String get_ClassName()
     // Offset: 0x2554160
-    ::Il2CppString* get_ClassName();
+    ::StringW get_ClassName();
     // public System.String get_MethodName()
     // Offset: 0x25543BC
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
     // Offset: 0x25543C4
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
@@ -259,10 +260,10 @@ namespace NUnit::Framework::Internal {
     void set_RunState(NUnit::Framework::Interfaces::RunState value);
     // public System.String get_XmlElementName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_XmlElementName();
+    ::StringW get_XmlElementName();
     // public System.String get_TestType()
     // Offset: 0x25543E4
-    ::Il2CppString* get_TestType();
+    ::StringW get_TestType();
     // public System.Int32 get_TestCaseCount()
     // Offset: 0x255440C
     int get_TestCaseCount();
@@ -295,7 +296,7 @@ namespace NUnit::Framework::Internal {
     void set_Fixture(::Il2CppObject* value);
     // static public System.String get_IdPrefix()
     // Offset: 0x25544C4
-    static ::Il2CppString* get_IdPrefix();
+    static ::StringW get_IdPrefix();
     // public System.Int32 get_Seed()
     // Offset: 0x255452C
     int get_Seed();
@@ -305,14 +306,14 @@ namespace NUnit::Framework::Internal {
     // protected System.Void .ctor(System.String name)
     // Offset: 0x2553AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Test* New_ctor(::Il2CppString* name) {
+    static Test* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(name)));
     }
     // protected System.Void .ctor(System.String pathName, System.String name)
     // Offset: 0x2553C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Test* New_ctor(::Il2CppString* pathName, ::Il2CppString* name) {
+    static Test* New_ctor(::StringW pathName, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Test::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test*, creationType>(pathName, name)));
     }
@@ -335,10 +336,10 @@ namespace NUnit::Framework::Internal {
     static void _cctor();
     // private System.Void Initialize(System.String name)
     // Offset: 0x2553B68
-    void Initialize(::Il2CppString* name);
+    void Initialize(::StringW name);
     // static private System.String GetNextId()
     // Offset: 0x2554054
-    static ::Il2CppString* GetNextId();
+    static ::StringW GetNextId();
     // public NUnit.Framework.Internal.TestResult MakeTestResult()
     // Offset: 0xFFFFFFFF
     NUnit::Framework::Internal::TestResult* MakeTestResult();
@@ -366,7 +367,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_Id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -374,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::set_Id
 // Il2CppName: set_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Test::set_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::StringW)>(&NUnit::Framework::Internal::Test::set_Id)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -391,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Test::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::StringW)>(&NUnit::Framework::Internal::Test::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -400,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_FullName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -408,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::set_FullName
 // Il2CppName: set_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Test::set_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::StringW)>(&NUnit::Framework::Internal::Test::set_FullName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "set_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -417,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_ClassName
 // Il2CppName: get_ClassName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_ClassName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_ClassName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_ClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -425,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -484,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_XmlElementName
 // Il2CppName: get_XmlElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_XmlElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_XmlElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -492,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_TestType
 // Il2CppName: get_TestType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_TestType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Test::*)()>(&NUnit::Framework::Internal::Test::get_TestType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_TestType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -583,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::get_IdPrefix
 // Il2CppName: get_IdPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&NUnit::Framework::Internal::Test::get_IdPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&NUnit::Framework::Internal::Test::get_IdPrefix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "get_IdPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -632,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Test::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Test::*)(::StringW)>(&NUnit::Framework::Internal::Test::Initialize)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -641,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Test::GetNextId
 // Il2CppName: GetNextId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&NUnit::Framework::Internal::Test::GetNextId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&NUnit::Framework::Internal::Test::GetNextId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Test*), "GetNextId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -4,10 +4,8 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IRichPresenceData
@@ -26,10 +24,10 @@ namespace GlobalNamespace {
     public:
     // public System.String get_apiName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_apiName();
+    ::StringW get_apiName();
     // public System.String get_localizedDescription()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localizedDescription();
+    ::StringW get_localizedDescription();
   }; // IRichPresenceData
   #pragma pack(pop)
 }
@@ -37,7 +35,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IRichPresenceData::*)()>(&GlobalNamespace::IRichPresenceData::get_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IRichPresenceData::*)()>(&GlobalNamespace::IRichPresenceData::get_apiName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -45,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::IRichPresenceData::get_localizedDescription
 // Il2CppName: get_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IRichPresenceData::*)()>(&GlobalNamespace::IRichPresenceData::get_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IRichPresenceData::*)()>(&GlobalNamespace::IRichPresenceData::get_localizedDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

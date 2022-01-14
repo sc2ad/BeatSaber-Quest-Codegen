@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -62,9 +63,9 @@ namespace System::Diagnostics {
     // private System.String listenerName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* listenerName;
+    ::StringW listenerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
@@ -79,7 +80,7 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean needIndent
     bool& dyn_needIndent();
     // Get instance field reference: private System.String listenerName
-    ::Il2CppString*& dyn_listenerName();
+    ::StringW& dyn_listenerName();
     // public System.Boolean get_IsThreadSafe()
     // Offset: 0x1A2EECC
     bool get_IsThreadSafe();
@@ -98,7 +99,7 @@ namespace System::Diagnostics {
     // protected System.Void .ctor(System.String name)
     // Offset: 0x1A29110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TraceListener* New_ctor(::Il2CppString* name) {
+    static TraceListener* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
@@ -113,22 +114,22 @@ namespace System::Diagnostics {
     void Flush();
     // public System.Void Fail(System.String message)
     // Offset: 0x1A29164
-    void Fail(::Il2CppString* message);
+    void Fail(::StringW message);
     // public System.Void Fail(System.String message, System.String detailMessage)
     // Offset: 0x1A2921C
-    void Fail(::Il2CppString* message, ::Il2CppString* detailMessage);
+    void Fail(::StringW message, ::StringW detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
-    void Write(::Il2CppString* message);
+    void Write(::StringW message);
     // protected System.Void WriteIndent()
     // Offset: 0x1A2EF6C
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF
-    void WriteLine(::Il2CppString* message);
+    void WriteLine(::StringW message);
   }; // System.Diagnostics.TraceListener
   #pragma pack(pop)
-  static check_size<sizeof(TraceListener), 40 + sizeof(::Il2CppString*)> __System_Diagnostics_TraceListenerSizeCheck;
+  static check_size<sizeof(TraceListener), 40 + sizeof(::StringW)> __System_Diagnostics_TraceListenerSizeCheck;
   static_assert(sizeof(TraceListener) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -207,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::Il2CppString*)>(&System::Diagnostics::TraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::StringW)>(&System::Diagnostics::TraceListener::Fail)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::TraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::StringW, ::StringW)>(&System::Diagnostics::TraceListener::Fail)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* detailMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::Il2CppString*)>(&System::Diagnostics::TraceListener::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::StringW)>(&System::Diagnostics::TraceListener::Write)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceListener*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::Il2CppString*)>(&System::Diagnostics::TraceListener::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::TraceListener::*)(::StringW)>(&System::Diagnostics::TraceListener::WriteLine)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceListener*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

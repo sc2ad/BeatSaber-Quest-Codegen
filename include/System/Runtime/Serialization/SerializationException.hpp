@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -41,9 +42,9 @@ namespace System::Runtime::Serialization {
   class SerializationException : public System::SystemException {
     public:
     // Get static field: static private System.String _nullMessage
-    static ::Il2CppString* _get__nullMessage();
+    static ::StringW _get__nullMessage();
     // Set static field: static private System.String _nullMessage
-    static void _set__nullMessage(::Il2CppString* value);
+    static void _set__nullMessage(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1922190
     // Implemented from: System.SystemException
@@ -61,7 +62,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationException* New_ctor(::Il2CppString* message) {
+    static SerializationException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationException*, creationType>(message)));
     }
@@ -71,7 +72,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationException* New_ctor(::Il2CppString* message, System::Exception* innerException) {
+    static SerializationException* New_ctor(::StringW message, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationException*, creationType>(message, innerException)));
     }

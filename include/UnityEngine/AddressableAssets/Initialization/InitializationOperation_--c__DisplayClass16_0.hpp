@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::AddressableAssets
@@ -62,14 +63,14 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // public System.String providerSuffix
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* providerSuffix;
+    ::StringW providerSuffix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl addressables
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_addressables();
     // Get instance field reference: public System.String providerSuffix
-    ::Il2CppString*& dyn_providerSuffix();
+    ::StringW& dyn_providerSuffix();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> res)
     // Offset: 0x1612450
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
@@ -84,7 +85,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     }
   }; // UnityEngine.AddressableAssets.Initialization.InitializationOperation/UnityEngine.AddressableAssets.Initialization.<>c__DisplayClass16_0
   #pragma pack(pop)
-  static check_size<sizeof(InitializationOperation::$$c__DisplayClass16_0), 24 + sizeof(::Il2CppString*)> __UnityEngine_AddressableAssets_Initialization_InitializationOperation_$$c__DisplayClass16_0SizeCheck;
+  static check_size<sizeof(InitializationOperation::$$c__DisplayClass16_0), 24 + sizeof(::StringW)> __UnityEngine_AddressableAssets_Initialization_InitializationOperation_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(InitializationOperation::$$c__DisplayClass16_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

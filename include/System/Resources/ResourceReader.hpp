@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -91,9 +92,9 @@ namespace System::Resources {
     // System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>* resCache;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*) == 0x8);
     // private System.Int64 _nameSectionOffset
     // Size: 0x8
     // Offset: 0x20
@@ -176,7 +177,7 @@ namespace System::Resources {
     // Get instance field reference: private System.IO.BinaryReader _store
     System::IO::BinaryReader*& dyn__store();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*& dyn__resCache();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>*& dyn__resCache();
     // Get instance field reference: private System.Int64 _nameSectionOffset
     int64_t& dyn__nameSectionOffset();
     // Get instance field reference: private System.Int64 _dataSectionOffset
@@ -204,7 +205,7 @@ namespace System::Resources {
     // System.Void .ctor(System.IO.Stream stream, System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> resCache)
     // Offset: 0x161A4A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceReader* New_ctor(System::IO::Stream* stream, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>* resCache) {
+    static ResourceReader* New_ctor(System::IO::Stream* stream, System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceLocator>* resCache) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceReader*, creationType>(stream, resCache)));
     }
@@ -240,19 +241,19 @@ namespace System::Resources {
     System::Resources::ResourceReader::ResourceEnumerator* GetEnumeratorInternal();
     // System.Int32 FindPosForResource(System.String name)
     // Offset: 0x161ABC8
-    int FindPosForResource(::Il2CppString* name);
+    int FindPosForResource(::StringW name);
     // private System.Boolean CompareStringEqualsName(System.String name)
     // Offset: 0x161AF8C
-    bool CompareStringEqualsName(::Il2CppString* name);
+    bool CompareStringEqualsName(::StringW name);
     // private System.String AllocateStringForNameIndex(System.Int32 index, out System.Int32 dataOffset)
     // Offset: 0x161B1A4
-    ::Il2CppString* AllocateStringForNameIndex(int index, ByRef<int> dataOffset);
+    ::StringW AllocateStringForNameIndex(int index, ByRef<int> dataOffset);
     // private System.Object GetValueForNameIndex(System.Int32 index)
     // Offset: 0x161BA58
     ::Il2CppObject* GetValueForNameIndex(int index);
     // System.String LoadString(System.Int32 pos)
     // Offset: 0x161BF68
-    ::Il2CppString* LoadString(int pos);
+    ::StringW LoadString(int pos);
     // System.Object LoadObject(System.Int32 pos)
     // Offset: 0x161C584
     ::Il2CppObject* LoadObject(int pos);
@@ -380,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Res
 // Writing MetadataGetter for method: System::Resources::ResourceReader::FindPosForResource
 // Il2CppName: FindPosForResource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::FindPosForResource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(::StringW)>(&System::Resources::ResourceReader::FindPosForResource)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "FindPosForResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -389,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Resources::ResourceReader::CompareStringEqualsName
 // Il2CppName: CompareStringEqualsName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::CompareStringEqualsName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Resources::ResourceReader::*)(::StringW)>(&System::Resources::ResourceReader::CompareStringEqualsName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "CompareStringEqualsName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -398,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceReader::AllocateStringForNameIndex
 // Il2CppName: AllocateStringForNameIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int, ByRef<int>)>(&System::Resources::ResourceReader::AllocateStringForNameIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::ResourceReader::*)(int, ByRef<int>)>(&System::Resources::ResourceReader::AllocateStringForNameIndex)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* dataOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -417,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::ResourceReader::LoadString
 // Il2CppName: LoadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadString)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});

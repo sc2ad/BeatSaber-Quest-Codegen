@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -62,16 +63,16 @@ namespace RootMotion {
     // private System.String propertyName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* propertyName;
+    ::StringW propertyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve curve
     UnityEngine::AnimationCurve*& dyn_curve();
     // Get instance field reference: private System.Int32 muscleIndex
     int& dyn_muscleIndex();
     // Get instance field reference: private System.String propertyName
-    ::Il2CppString*& dyn_propertyName();
+    ::StringW& dyn_propertyName();
     // public System.Void .ctor(System.Int32 muscleIndex)
     // Offset: 0x1EA1464
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -81,7 +82,7 @@ namespace RootMotion {
     }
     // private System.String MuscleNameToPropertyName(System.String n)
     // Offset: 0x1EA14D4
-    ::Il2CppString* MuscleNameToPropertyName(::Il2CppString* n);
+    ::StringW MuscleNameToPropertyName(::StringW n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
     // Offset: 0x1EA1BBC
     void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
@@ -99,7 +100,7 @@ namespace RootMotion {
     void SetLoopFrame(float time);
   }; // RootMotion.BakerMuscle
   #pragma pack(pop)
-  static check_size<sizeof(BakerMuscle), 32 + sizeof(::Il2CppString*)> __RootMotion_BakerMuscleSizeCheck;
+  static check_size<sizeof(BakerMuscle), 32 + sizeof(::StringW)> __RootMotion_BakerMuscleSizeCheck;
   static_assert(sizeof(BakerMuscle) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -110,7 +111,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::MuscleNameToPropertyName
 // Il2CppName: MuscleNameToPropertyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RootMotion::BakerMuscle::*)(::Il2CppString*)>(&RootMotion::BakerMuscle::MuscleNameToPropertyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (RootMotion::BakerMuscle::*)(::StringW)>(&RootMotion::BakerMuscle::MuscleNameToPropertyName)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerMuscle*), "MuscleNameToPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});

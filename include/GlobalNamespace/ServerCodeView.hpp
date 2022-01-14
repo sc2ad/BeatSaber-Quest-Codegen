@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -75,9 +76,9 @@ namespace GlobalNamespace {
     // private System.String _serverCode
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* serverCode;
+    ::StringW serverCode;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _codeIsShown
     // Size: 0x1
     // Offset: 0x38
@@ -94,12 +95,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private System.String _serverCode
-    ::Il2CppString*& dyn__serverCode();
+    ::StringW& dyn__serverCode();
     // Get instance field reference: private System.Boolean _codeIsShown
     bool& dyn__codeIsShown();
     // public System.Void SetCode(System.String serverCode)
     // Offset: 0x1234EF4
-    void SetCode(::Il2CppString* serverCode);
+    void SetCode(::StringW serverCode);
     // protected System.Void OnEnable()
     // Offset: 0x1234F94
     void OnEnable();
@@ -134,7 +135,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::SetCode
 // Il2CppName: SetCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeView::*)(::Il2CppString*)>(&GlobalNamespace::ServerCodeView::SetCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeView::*)(::StringW)>(&GlobalNamespace::ServerCodeView::SetCode)> {
   static const MethodInfo* get() {
     static auto* serverCode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "SetCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverCode});

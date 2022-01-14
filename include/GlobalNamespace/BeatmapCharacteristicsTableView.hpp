@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -77,9 +78,9 @@ namespace GlobalNamespace {
     // private System.String _cellReuseIdentifier
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* cellReuseIdentifier;
+    ::StringW cellReuseIdentifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _cellWidth
     // Size: 0x4
     // Offset: 0x30
@@ -126,7 +127,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicTableCell _cellPrefab
     GlobalNamespace::BeatmapCharacteristicTableCell*& dyn__cellPrefab();
     // Get instance field reference: private System.String _cellReuseIdentifier
-    ::Il2CppString*& dyn__cellReuseIdentifier();
+    ::StringW& dyn__cellReuseIdentifier();
     // Get instance field reference: private System.Single _cellWidth
     float& dyn__cellWidth();
     // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectCharacteristic

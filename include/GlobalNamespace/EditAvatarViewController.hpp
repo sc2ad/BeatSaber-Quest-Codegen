@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -460,16 +461,16 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kEditApplyButtonLocalizationKey
     static constexpr const char* kEditApplyButtonLocalizationKey = "BUTTON_APPLY";
     // Get static field: static private System.String kEditApplyButtonLocalizationKey
-    static ::Il2CppString* _get_kEditApplyButtonLocalizationKey();
+    static ::StringW _get_kEditApplyButtonLocalizationKey();
     // Set static field: static private System.String kEditApplyButtonLocalizationKey
-    static void _set_kEditApplyButtonLocalizationKey(::Il2CppString* value);
+    static void _set_kEditApplyButtonLocalizationKey(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF44ED0
     // static field const value: static private System.String kCreateApplyButtonLocalizationKey
     static constexpr const char* kCreateApplyButtonLocalizationKey = "BUTTON_CREATE_AVATAR";
     // Get static field: static private System.String kCreateApplyButtonLocalizationKey
-    static ::Il2CppString* _get_kCreateApplyButtonLocalizationKey();
+    static ::StringW _get_kCreateApplyButtonLocalizationKey();
     // Set static field: static private System.String kCreateApplyButtonLocalizationKey
-    static void _set_kCreateApplyButtonLocalizationKey(::Il2CppString* value);
+    static void _set_kCreateApplyButtonLocalizationKey(::StringW value);
     // Get instance field reference: private NamedColorListController _skinColorValuePicker
     GlobalNamespace::NamedColorListController*& dyn__skinColorValuePicker();
     // Get instance field reference: private NamedIntListController _headTopValuePicker
@@ -573,7 +574,7 @@ namespace GlobalNamespace {
     void HandleSkinColorDidChanged(int value);
     // private System.Void EyesValuePickerHasChanged(System.String eyesId)
     // Offset: 0x11DA69C
-    void EyesValuePickerHasChanged(::Il2CppString* eyesId);
+    void EyesValuePickerHasChanged(::StringW eyesId);
     // private System.Void HandleUndoButtonWasPressed()
     // Offset: 0x11D98FC
     void HandleUndoButtonWasPressed();
@@ -605,7 +606,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*> CreateTextValuePairsForAvatarPartCollection(GlobalNamespace::AvatarPartCollection_1<T>* partCollection) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IAvatarPart>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "EditAvatarViewController", "CreateTextValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(partCollection)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -620,8 +621,8 @@ namespace GlobalNamespace {
     // private System.Void SetupValuePicker(AvatarPartCollection`1<T> partCollection, NamedIntListController valuePicker, System.Action`1<System.String> setIdAction, EditAvatarViewController/AvatarEditPart avatarEditPart)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetupValuePicker(GlobalNamespace::AvatarPartCollection_1<T>* partCollection, GlobalNamespace::NamedIntListController* valuePicker, System::Action_1<::Il2CppString*>* setIdAction, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
+    void SetupValuePicker(GlobalNamespace::AvatarPartCollection_1<T>* partCollection, GlobalNamespace::NamedIntListController* valuePicker, System::Action_1<::StringW>* setIdAction, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart) {
+      static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IAvatarPart>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::SetupValuePicker");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetupValuePicker", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(partCollection), ::il2cpp_utils::ExtractType(valuePicker), ::il2cpp_utils::ExtractType(setIdAction), ::il2cpp_utils::ExtractType(avatarEditPart)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -665,13 +666,13 @@ namespace GlobalNamespace {
     UnityEngine::Color $DidActivate$b__44_11();
     // private System.Void <DidActivate>b__44_12(System.String s)
     // Offset: 0x11DAD7C
-    void $DidActivate$b__44_12(::Il2CppString* s);
+    void $DidActivate$b__44_12(::StringW s);
     // private System.Void <DidActivate>b__44_13(System.String s)
     // Offset: 0x11DADA4
-    void $DidActivate$b__44_13(::Il2CppString* s);
+    void $DidActivate$b__44_13(::StringW s);
     // private System.Void <DidActivate>b__44_14(System.String s)
     // Offset: 0x11DADCC
-    void $DidActivate$b__44_14(::Il2CppString* s);
+    void $DidActivate$b__44_14(::StringW s);
     // public System.Void .ctor()
     // Offset: 0x11DAB04
     // Implemented from: HMUI.ViewController
@@ -834,7 +835,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::EyesValuePickerHasChanged
 // Il2CppName: EyesValuePickerHasChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::EyesValuePickerHasChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::StringW)>(&GlobalNamespace::EditAvatarViewController::EyesValuePickerHasChanged)> {
   static const MethodInfo* get() {
     static auto* eyesId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "EyesValuePickerHasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyesId});
@@ -1045,7 +1046,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_12
 // Il2CppName: <DidActivate>b__44_12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::StringW)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_12)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__44_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -1054,7 +1055,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_13
 // Il2CppName: <DidActivate>b__44_13
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_13)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::StringW)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_13)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__44_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -1063,7 +1064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_14
 // Il2CppName: <DidActivate>b__44_14
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_14)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::StringW)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__44_14)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__44_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

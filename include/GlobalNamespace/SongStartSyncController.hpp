@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -97,9 +98,9 @@ namespace GlobalNamespace {
     // private System.String _sessionGameId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* sessionGameId;
+    ::StringW sessionGameId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private SongStartHandler _songStartHandler
     // Size: 0x8
     // Offset: 0x40
@@ -144,7 +145,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _startTime
     float& dyn__startTime();
     // Get instance field reference: private System.String _sessionGameId
-    ::Il2CppString*& dyn__sessionGameId();
+    ::StringW& dyn__sessionGameId();
     // Get instance field reference: private SongStartHandler _songStartHandler
     GlobalNamespace::SongStartHandler*& dyn__songStartHandler();
     // Get instance field reference: private System.Action syncStartFailedEvent
@@ -191,7 +192,7 @@ namespace GlobalNamespace {
     void OnApplicationPause(bool pauseStatus);
     // public System.Void StartSong(PlayersSpecificSettingsAtGameStartModel playersSpecificSettingsAtGameStartModel, System.String sessionGameId)
     // Offset: 0x121997C
-    void StartSong(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::Il2CppString* sessionGameId);
+    void StartSong(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
     // private System.Void HandleSetSongStartSyncTime(System.Single songStartSyncTime)
     // Offset: 0x1219ACC
     void HandleSetSongStartSyncTime(float songStartSyncTime);
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongStartSyncController::StartSong
 // Il2CppName: StartSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartSyncController::*)(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*, ::Il2CppString*)>(&GlobalNamespace::SongStartSyncController::StartSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartSyncController::*)(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*, ::StringW)>(&GlobalNamespace::SongStartSyncController::StartSong)> {
   static const MethodInfo* get() {
     static auto* playersSpecificSettingsAtGameStartModel = &::il2cpp_utils::GetClassFromName("", "PlayersSpecificSettingsAtGameStartModel")->byval_arg;
     static auto* sessionGameId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

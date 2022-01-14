@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -131,18 +132,18 @@ namespace System {
     // private System.String m_Scheme
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_Scheme;
+    ::StringW m_Scheme;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* _get_m_Table();
+    static System::Collections::Generic::Dictionary_2<::StringW, System::UriParser*>* _get_m_Table();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table
-    static void _set_m_Table(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* value);
+    static void _set_m_Table(System::Collections::Generic::Dictionary_2<::StringW, System::UriParser*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_TempTable
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* _get_m_TempTable();
+    static System::Collections::Generic::Dictionary_2<::StringW, System::UriParser*>* _get_m_TempTable();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_TempTable
-    static void _set_m_TempTable(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* value);
+    static void _set_m_TempTable(System::Collections::Generic::Dictionary_2<::StringW, System::UriParser*>* value);
     // Get static field: static System.UriParser HttpUri
     static System::UriParser* _get_HttpUri();
     // Set static field: static System.UriParser HttpUri
@@ -228,10 +229,10 @@ namespace System {
     // Get instance field reference: private System.Int32 m_Port
     int& dyn_m_Port();
     // Get instance field reference: private System.String m_Scheme
-    ::Il2CppString*& dyn_m_Scheme();
+    ::StringW& dyn_m_Scheme();
     // System.String get_SchemeName()
     // Offset: 0x26A0D08
-    ::Il2CppString* get_SchemeName();
+    ::StringW get_SchemeName();
     // System.Int32 get_DefaultPort()
     // Offset: 0x26A0D10
     int get_DefaultPort();
@@ -262,10 +263,10 @@ namespace System {
     void InitializeAndValidate(System::Uri* uri, ByRef<System::UriFormatException*> parsingError);
     // protected System.String Resolve(System.Uri baseUri, System.Uri relativeUri, out System.UriFormatException parsingError)
     // Offset: 0x26A0D50
-    ::Il2CppString* Resolve(System::Uri* baseUri, System::Uri* relativeUri, ByRef<System::UriFormatException*> parsingError);
+    ::StringW Resolve(System::Uri* baseUri, System::Uri* relativeUri, ByRef<System::UriFormatException*> parsingError);
     // protected System.String GetComponents(System.Uri uri, System.UriComponents components, System.UriFormat format)
     // Offset: 0x26A0F50
-    ::Il2CppString* GetComponents(System::Uri* uri, System::UriComponents components, System::UriFormat format);
+    ::StringW GetComponents(System::Uri* uri, System::UriComponents components, System::UriFormat format);
     // protected System.Boolean IsWellFormedOriginalString(System.Uri uri)
     // Offset: 0x26A118C
     bool IsWellFormedOriginalString(System::Uri* uri);
@@ -283,10 +284,10 @@ namespace System {
     bool IsFullMatch(System::UriSyntaxFlags flags, System::UriSyntaxFlags expected);
     // static System.UriParser FindOrFetchAsUnknownV1Syntax(System.String lwrCaseScheme)
     // Offset: 0x26A19F4
-    static System::UriParser* FindOrFetchAsUnknownV1Syntax(::Il2CppString* lwrCaseScheme);
+    static System::UriParser* FindOrFetchAsUnknownV1Syntax(::StringW lwrCaseScheme);
     // static System.UriParser GetSyntax(System.String lwrCaseScheme)
     // Offset: 0x269EFC8
-    static System::UriParser* GetSyntax(::Il2CppString* lwrCaseScheme);
+    static System::UriParser* GetSyntax(::StringW lwrCaseScheme);
     // System.UriParser InternalOnNewUri()
     // Offset: 0x26A1C88
     System::UriParser* InternalOnNewUri();
@@ -295,16 +296,16 @@ namespace System {
     void InternalValidate(System::Uri* thisUri, ByRef<System::UriFormatException*> parsingError);
     // System.String InternalResolve(System.Uri thisBaseUri, System.Uri uriLink, out System.UriFormatException parsingError)
     // Offset: 0x26A1CE4
-    ::Il2CppString* InternalResolve(System::Uri* thisBaseUri, System::Uri* uriLink, ByRef<System::UriFormatException*> parsingError);
+    ::StringW InternalResolve(System::Uri* thisBaseUri, System::Uri* uriLink, ByRef<System::UriFormatException*> parsingError);
     // System.String InternalGetComponents(System.Uri thisUri, System.UriComponents uriComponents, System.UriFormat uriFormat)
     // Offset: 0x26A1CF0
-    ::Il2CppString* InternalGetComponents(System::Uri* thisUri, System::UriComponents uriComponents, System::UriFormat uriFormat);
+    ::StringW InternalGetComponents(System::Uri* thisUri, System::UriComponents uriComponents, System::UriFormat uriFormat);
     // System.Boolean InternalIsWellFormedOriginalString(System.Uri thisUri)
     // Offset: 0x26A1CFC
     bool InternalIsWellFormedOriginalString(System::Uri* thisUri);
   }; // System.UriParser
   #pragma pack(pop)
-  static check_size<sizeof(UriParser), 32 + sizeof(::Il2CppString*)> __System_UriParserSizeCheck;
+  static check_size<sizeof(UriParser), 32 + sizeof(::StringW)> __System_UriParserSizeCheck;
   static_assert(sizeof(UriParser) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -313,7 +314,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser
 // Writing MetadataGetter for method: System::UriParser::get_SchemeName
 // Il2CppName: get_SchemeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)()>(&System::UriParser::get_SchemeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriParser::*)()>(&System::UriParser::get_SchemeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "get_SchemeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriParser::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::Uri*, ByRef<System::UriFormatException*>)>(&System::UriParser::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriParser::*)(System::Uri*, System::Uri*, ByRef<System::UriFormatException*>)>(&System::UriParser::Resolve)> {
   static const MethodInfo* get() {
     static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* relativeUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -394,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::UriParser::GetComponents
 // Il2CppName: GetComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::GetComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::GetComponents)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* components = &::il2cpp_utils::GetClassFromName("System", "UriComponents")->byval_arg;
@@ -451,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::UriParser::FindOrFetchAsUnknownV1Syntax
 // Il2CppName: FindOrFetchAsUnknownV1Syntax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::Il2CppString*)>(&System::UriParser::FindOrFetchAsUnknownV1Syntax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::StringW)>(&System::UriParser::FindOrFetchAsUnknownV1Syntax)> {
   static const MethodInfo* get() {
     static auto* lwrCaseScheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "FindOrFetchAsUnknownV1Syntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lwrCaseScheme});
@@ -460,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::UriParser::GetSyntax
 // Il2CppName: GetSyntax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::Il2CppString*)>(&System::UriParser::GetSyntax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::UriParser* (*)(::StringW)>(&System::UriParser::GetSyntax)> {
   static const MethodInfo* get() {
     static auto* lwrCaseScheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriParser*), "GetSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lwrCaseScheme});
@@ -487,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriParser::InternalResolve
 // Il2CppName: InternalResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::Uri*, ByRef<System::UriFormatException*>)>(&System::UriParser::InternalResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriParser::*)(System::Uri*, System::Uri*, ByRef<System::UriFormatException*>)>(&System::UriParser::InternalResolve)> {
   static const MethodInfo* get() {
     static auto* thisBaseUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* uriLink = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -498,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::UriParser::InternalGetComponents
 // Il2CppName: InternalGetComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::InternalGetComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriParser::*)(System::Uri*, System::UriComponents, System::UriFormat)>(&System::UriParser::InternalGetComponents)> {
   static const MethodInfo* get() {
     static auto* thisUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* uriComponents = &::il2cpp_utils::GetClassFromName("System", "UriComponents")->byval_arg;

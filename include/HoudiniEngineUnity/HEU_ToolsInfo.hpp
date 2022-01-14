@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -177,9 +178,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _paintStringValue
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::Il2CppString*> paintStringValue;
+    ::ArrayW<::StringW> paintStringValue;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Int32 _lastAttributesGeoID
     // Size: 0x4
     // Offset: 0x38
@@ -195,15 +196,15 @@ namespace HoudiniEngineUnity {
     // public System.String _lastAttributeNodeName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* lastAttributeNodeName;
+    ::StringW lastAttributeNodeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _lastAttributeName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* lastAttributeName;
+    ::StringW lastAttributeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.Color _brushHandleColor
     // Size: 0x10
     // Offset: 0x50
@@ -298,15 +299,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] _paintFloatValue
     ::ArrayW<float>& dyn__paintFloatValue();
     // Get instance field reference: public System.String[] _paintStringValue
-    ::ArrayW<::Il2CppString*>& dyn__paintStringValue();
+    ::ArrayW<::StringW>& dyn__paintStringValue();
     // Get instance field reference: public System.Int32 _lastAttributesGeoID
     int& dyn__lastAttributesGeoID();
     // Get instance field reference: public System.Int32 _lastAttributesPartID
     int& dyn__lastAttributesPartID();
     // Get instance field reference: public System.String _lastAttributeNodeName
-    ::Il2CppString*& dyn__lastAttributeNodeName();
+    ::StringW& dyn__lastAttributeNodeName();
     // Get instance field reference: public System.String _lastAttributeName
-    ::Il2CppString*& dyn__lastAttributeName();
+    ::StringW& dyn__lastAttributeName();
     // Get instance field reference: public UnityEngine.Color _brushHandleColor
     UnityEngine::Color& dyn__brushHandleColor();
     // Get instance field reference: public UnityEngine.Color _affectedAreaPaintColor

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -66,9 +67,9 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* savedCurveNodeData;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* savedCurveNodeData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*) == 0x8);
     public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>() noexcept {
@@ -79,7 +80,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _softDeleted
     bool& dyn__softDeleted();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
     // public System.Boolean get_SoftDeleted()
     // Offset: 0x1465C30
     bool get_SoftDeleted();
@@ -88,7 +89,7 @@ namespace HoudiniEngineUnity {
     void set_SoftDeleted(bool value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> get_SavedCurveNodeData()
     // Offset: 0x1465C44
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AssetSerializedMetaData other)
     // Offset: 0x1465C4C
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
@@ -105,7 +106,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_AssetSerializedMetaData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_AssetSerializedMetaData), 32 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*)> __HoudiniEngineUnity_HEU_AssetSerializedMetaDataSizeCheck;
+  static check_size<sizeof(HEU_AssetSerializedMetaData), 32 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*)> __HoudiniEngineUnity_HEU_AssetSerializedMetaDataSizeCheck;
   static_assert(sizeof(HEU_AssetSerializedMetaData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SavedCurveNodeData
 // Il2CppName: get_SavedCurveNodeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* (HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)()>(&HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SavedCurveNodeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* (HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)()>(&HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SavedCurveNodeData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetSerializedMetaData*), "get_SavedCurveNodeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

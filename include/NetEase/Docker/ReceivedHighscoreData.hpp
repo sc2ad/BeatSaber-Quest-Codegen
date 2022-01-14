@@ -8,6 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: NetEase.Docker.ScoreData
 #include "NetEase/Docker/ScoreData.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -17,9 +18,6 @@ namespace System::Collections::Generic {
   class List_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Forward declaring type: ReceivedHighscoreData
@@ -57,9 +55,9 @@ namespace NetEase::Docker {
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* Track;
+    ::StringW Track;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xF2E954
     // private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     // Size: 0x8
@@ -69,7 +67,7 @@ namespace NetEase::Docker {
     static_assert(sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*) == 0x8);
     public:
     // Creating value type constructor for type: ReceivedHighscoreData
-    constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
+    constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::StringW Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -79,7 +77,7 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Int32 <HighscoreCode>k__BackingField
     int& dyn_$HighscoreCode$k__BackingField();
     // Get instance field reference: private System.String <Track>k__BackingField
-    ::Il2CppString*& dyn_$Track$k__BackingField();
+    ::StringW& dyn_$Track$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*& dyn_$Scores$k__BackingField();
     // public System.Boolean get_FetchingSuccessful()
@@ -93,10 +91,10 @@ namespace NetEase::Docker {
     void set_HighscoreCode(int value);
     // public System.String get_Track()
     // Offset: 0x26CAAE4
-    ::Il2CppString* get_Track();
+    ::StringW get_Track();
     // public System.Void set_Track(System.String value)
     // Offset: 0x26CAAEC
-    void set_Track(::Il2CppString* value);
+    void set_Track(::StringW value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
     // Offset: 0x26CAAF4
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();
@@ -138,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Writing MetadataGetter for method: NetEase::Docker::ReceivedHighscoreData::get_Track
 // Il2CppName: get_Track
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEase::Docker::ReceivedHighscoreData::*)()>(&NetEase::Docker::ReceivedHighscoreData::get_Track)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NetEase::Docker::ReceivedHighscoreData::*)()>(&NetEase::Docker::ReceivedHighscoreData::get_Track)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -146,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NetEase::Docker::ReceivedHighscoreData::set_Track
 // Il2CppName: set_Track
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(::Il2CppString*)>(&NetEase::Docker::ReceivedHighscoreData::set_Track)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(::StringW)>(&NetEase::Docker::ReceivedHighscoreData::set_Track)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

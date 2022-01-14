@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -45,9 +46,9 @@ namespace GlobalNamespace {
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* keyword;
+    ::StringW keyword;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
     // Size: 0x8
     // Offset: 0x18
@@ -56,19 +57,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*) == 0x8);
     public:
     // Get instance field reference: private System.String _keyword
-    ::Il2CppString*& dyn__keyword();
+    ::StringW& dyn__keyword();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*& dyn__specialEvents();
     // public System.String get_keyword()
     // Offset: 0x1331FE4
-    ::Il2CppString* get_keyword();
+    ::StringW get_keyword();
     // public System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> get_specialEvents()
     // Offset: 0x1331FEC
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* get_specialEvents();
     // public System.Void .ctor(System.String keyword, System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> specialEvents)
     // Offset: 0x1331FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::Il2CppString* keyword, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents) {
+    static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::StringW keyword, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData::SpecialEventsForKeyword*, creationType>(keyword, specialEvents)));
     }
@@ -81,7 +82,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword
 // Il2CppName: get_keyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::get_keyword)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*), "get_keyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

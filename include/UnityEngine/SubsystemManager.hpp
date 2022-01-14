@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -45,7 +46,7 @@ namespace UnityEngine {
     static void _cctor();
     // static System.Void ReportSingleSubsystemAnalytics(System.String id)
     // Offset: 0x26CE098
-    static void ReportSingleSubsystemAnalytics(::Il2CppString* id);
+    static void ReportSingleSubsystemAnalytics(::StringW id);
     // static System.Void StaticConstructScriptingClassMap()
     // Offset: 0x26CEB00
     static void StaticConstructScriptingClassMap();
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::SubsystemManager::ReportSingleSubsystemAnalytics
 // Il2CppName: ReportSingleSubsystemAnalytics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::SubsystemManager::ReportSingleSubsystemAnalytics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::SubsystemManager::ReportSingleSubsystemAnalytics)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SubsystemManager*), "ReportSingleSubsystemAnalytics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});

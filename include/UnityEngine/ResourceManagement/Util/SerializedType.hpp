@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -14,9 +15,6 @@ namespace System {
   class Type;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: SerializedType
@@ -38,16 +36,16 @@ namespace UnityEngine::ResourceManagement::Util {
     // private System.String m_AssemblyName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_AssemblyName;
+    ::StringW m_AssemblyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF28050
     // private System.String m_ClassName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* m_ClassName;
+    ::StringW m_ClassName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type m_CachedType
     // Size: 0x8
     // Offset: 0x10
@@ -62,25 +60,25 @@ namespace UnityEngine::ResourceManagement::Util {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: SerializedType
-    constexpr SerializedType(::Il2CppString* m_AssemblyName_ = {}, ::Il2CppString* m_ClassName_ = {}, System::Type* m_CachedType_ = {}, bool ValueChanged_ = {}) noexcept : m_AssemblyName{m_AssemblyName_}, m_ClassName{m_ClassName_}, m_CachedType{m_CachedType_}, ValueChanged{ValueChanged_} {}
+    constexpr SerializedType(::StringW m_AssemblyName_ = {}, ::StringW m_ClassName_ = {}, System::Type* m_CachedType_ = {}, bool ValueChanged_ = {}) noexcept : m_AssemblyName{m_AssemblyName_}, m_ClassName{m_ClassName_}, m_CachedType{m_CachedType_}, ValueChanged{ValueChanged_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_AssemblyName
-    ::Il2CppString*& dyn_m_AssemblyName();
+    ::StringW& dyn_m_AssemblyName();
     // Get instance field reference: private System.String m_ClassName
-    ::Il2CppString*& dyn_m_ClassName();
+    ::StringW& dyn_m_ClassName();
     // Get instance field reference: private System.Type m_CachedType
     System::Type*& dyn_m_CachedType();
     // Get instance field reference: private System.Boolean <ValueChanged>k__BackingField
     bool& dyn_$ValueChanged$k__BackingField();
     // public System.String get_AssemblyName()
     // Offset: 0x1BF2908
-    ::Il2CppString* get_AssemblyName();
+    ::StringW get_AssemblyName();
     // public System.String get_ClassName()
     // Offset: 0x1BF2910
-    ::Il2CppString* get_ClassName();
+    ::StringW get_ClassName();
     // public System.Type get_Value()
     // Offset: 0x1BF26F0
     System::Type* get_Value();
@@ -97,7 +95,7 @@ namespace UnityEngine::ResourceManagement::Util {
     // Offset: 0x1BF2918
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.ResourceManagement.Util.SerializedType
   #pragma pack(pop)
   static check_size<sizeof(SerializedType), 24 + sizeof(bool)> __UnityEngine_ResourceManagement_Util_SerializedTypeSizeCheck;
@@ -107,7 +105,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName
 // Il2CppName: get_ClassName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_ClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -157,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

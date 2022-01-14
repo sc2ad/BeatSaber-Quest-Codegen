@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -94,9 +95,9 @@ namespace GlobalNamespace {
     // public readonly System.String propertyName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* propertyName;
+    ::StringW propertyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Object ifNotValue
     // Size: 0x8
     // Offset: 0x20
@@ -107,7 +108,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly NullAllowed/Context context
     GlobalNamespace::NullAllowed::Context& dyn_context();
     // Get instance field reference: public readonly System.String propertyName
-    ::Il2CppString*& dyn_propertyName();
+    ::StringW& dyn_propertyName();
     // Get instance field reference: public readonly System.Object ifNotValue
     ::Il2CppObject*& dyn_ifNotValue();
     // public System.Void .ctor(NullAllowed/Context context)
@@ -120,7 +121,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String propertyName, System.Object ifNotValue)
     // Offset: 0x26D58CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NullAllowed* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* ifNotValue) {
+    static NullAllowed* New_ctor(::StringW propertyName, ::Il2CppObject* ifNotValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NullAllowed::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullAllowed*, creationType>(propertyName, ifNotValue)));
     }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,7 +34,7 @@ namespace System {
     class Display;
     // static System.TypeIdentifier FromDisplay(System.String displayName)
     // Offset: 0x25CE2B8
-    static System::TypeIdentifier* FromDisplay(::Il2CppString* displayName);
+    static System::TypeIdentifier* FromDisplay(::StringW displayName);
   }; // System.TypeIdentifiers
   #pragma pack(pop)
 }
@@ -41,7 +42,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TypeIdentifiers::FromDisplay
 // Il2CppName: FromDisplay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::Il2CppString*)>(&System::TypeIdentifiers::FromDisplay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::StringW)>(&System::TypeIdentifiers::FromDisplay)> {
   static const MethodInfo* get() {
     static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypeIdentifiers*), "FromDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{displayName});

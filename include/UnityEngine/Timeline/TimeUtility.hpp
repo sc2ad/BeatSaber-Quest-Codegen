@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -84,19 +85,19 @@ namespace UnityEngine::Timeline {
     static double RoundToFrame(double time, double frameRate);
     // static public System.String TimeAsFrames(System.Double timeValue, System.Double frameRate, System.String format)
     // Offset: 0x1A042DC
-    static ::Il2CppString* TimeAsFrames(double timeValue, double frameRate, ::Il2CppString* format);
+    static ::StringW TimeAsFrames(double timeValue, double frameRate, ::StringW format);
     // static public System.String TimeAsTimeCode(System.Double timeValue, System.Double frameRate, System.String format)
     // Offset: 0x1A043DC
-    static ::Il2CppString* TimeAsTimeCode(double timeValue, double frameRate, ::Il2CppString* format);
+    static ::StringW TimeAsTimeCode(double timeValue, double frameRate, ::StringW format);
     // static public System.Double ParseTimeCode(System.String timeCode, System.Double frameRate, System.Double defaultValue)
     // Offset: 0x1A04884
-    static double ParseTimeCode(::Il2CppString* timeCode, double frameRate, double defaultValue);
+    static double ParseTimeCode(::StringW timeCode, double frameRate, double defaultValue);
     // static public System.Double GetAnimationClipLength(UnityEngine.AnimationClip clip)
     // Offset: 0x19F254C
     static double GetAnimationClipLength(UnityEngine::AnimationClip* clip);
     // static private System.String RemoveChar(System.String str, System.Func`2<System.Char,System.Boolean> charToRemoveFunc)
     // Offset: 0x1A04E14
-    static ::Il2CppString* RemoveChar(::Il2CppString* str, System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
+    static ::StringW RemoveChar(::StringW str, System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
   }; // UnityEngine.Timeline.TimeUtility
   #pragma pack(pop)
 }
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::TimeAsFrames
 // Il2CppName: TimeAsFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&UnityEngine::Timeline::TimeUtility::TimeAsFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, double, ::StringW)>(&UnityEngine::Timeline::TimeUtility::TimeAsFrames)> {
   static const MethodInfo* get() {
     static auto* timeValue = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* frameRate = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -213,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::TimeAsTimeCode
 // Il2CppName: TimeAsTimeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&UnityEngine::Timeline::TimeUtility::TimeAsTimeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, double, ::StringW)>(&UnityEngine::Timeline::TimeUtility::TimeAsTimeCode)> {
   static const MethodInfo* get() {
     static auto* timeValue = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* frameRate = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ParseTimeCode
 // Il2CppName: ParseTimeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, double, double)>(&UnityEngine::Timeline::TimeUtility::ParseTimeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::StringW, double, double)>(&UnityEngine::Timeline::TimeUtility::ParseTimeCode)> {
   static const MethodInfo* get() {
     static auto* timeCode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* frameRate = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::RemoveChar
 // Il2CppName: RemoveChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Func_2<::Il2CppChar, bool>*)>(&UnityEngine::Timeline::TimeUtility::RemoveChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Func_2<::Il2CppChar, bool>*)>(&UnityEngine::Timeline::TimeUtility::RemoveChar)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charToRemoveFunc = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -143,9 +144,9 @@ namespace UnityEngine {
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static System.Boolean showKeyboardFocus
     static bool _get_showKeyboardFocus();
@@ -182,13 +183,13 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.RectOffset m_Overflow
     UnityEngine::RectOffset*& dyn_m_Overflow();
     // Get instance field reference: private System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // System.String get_rawName()
     // Offset: 0x1CF32B0
-    ::Il2CppString* get_rawName();
+    ::StringW get_rawName();
     // System.Void set_rawName(System.String value)
     // Offset: 0x1CF32F0
-    void set_rawName(::Il2CppString* value);
+    void set_rawName(::StringW value);
     // public UnityEngine.Font get_font()
     // Offset: 0x1CE4EB8
     UnityEngine::Font* get_font();
@@ -236,10 +237,10 @@ namespace UnityEngine {
     void set_Internal_clipOffset(UnityEngine::Vector2 value);
     // public System.String get_name()
     // Offset: 0x1CE6158
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // public System.Void set_name(System.String value)
     // Offset: 0x1CF1F40
-    void set_name(::Il2CppString* value);
+    void set_name(::StringW value);
     // public UnityEngine.GUIStyleState get_normal()
     // Offset: 0x1CF2CE0
     UnityEngine::GUIStyleState* get_normal();
@@ -306,7 +307,7 @@ namespace UnityEngine {
     int Internal_GetCursorStringIndex(UnityEngine::Rect position, UnityEngine::GUIContent* content, UnityEngine::Vector2 cursorPixelPosition);
     // System.String Internal_GetSelectedRenderedText(UnityEngine.Rect localPosition, UnityEngine.GUIContent mContent, System.Int32 selectIndex, System.Int32 cursorIndex)
     // Offset: 0x1CF3EA4
-    ::Il2CppString* Internal_GetSelectedRenderedText(UnityEngine::Rect localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
+    ::StringW Internal_GetSelectedRenderedText(UnityEngine::Rect localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
     // UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent content)
     // Offset: 0x1CF3F94
     UnityEngine::Vector2 Internal_CalcSize(UnityEngine::GUIContent* content);
@@ -321,7 +322,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 Internal_CalcMinMaxWidth(UnityEngine::GUIContent* content);
     // static System.Void SetMouseTooltip(System.String tooltip, UnityEngine.Rect screenRect)
     // Offset: 0x1CE5BC4
-    static void SetMouseTooltip(::Il2CppString* tooltip, UnityEngine::Rect screenRect);
+    static void SetMouseTooltip(::StringW tooltip, UnityEngine::Rect screenRect);
     // static private System.Single Internal_GetCursorFlashOffset()
     // Offset: 0x1CF4288
     static float Internal_GetCursorFlashOffset();
@@ -405,7 +406,7 @@ namespace UnityEngine {
     int Internal_GetCursorStringIndex_Injected(ByRef<UnityEngine::Rect> position, UnityEngine::GUIContent* content, ByRef<UnityEngine::Vector2> cursorPixelPosition);
     // private System.String Internal_GetSelectedRenderedText_Injected(ref UnityEngine.Rect localPosition, UnityEngine.GUIContent mContent, System.Int32 selectIndex, System.Int32 cursorIndex)
     // Offset: 0x1CF3F24
-    ::Il2CppString* Internal_GetSelectedRenderedText_Injected(ByRef<UnityEngine::Rect> localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
+    ::StringW Internal_GetSelectedRenderedText_Injected(ByRef<UnityEngine::Rect> localPosition, UnityEngine::GUIContent* mContent, int selectIndex, int cursorIndex);
     // private System.Void Internal_CalcSize_Injected(UnityEngine.GUIContent content, out UnityEngine.Vector2 ret)
     // Offset: 0x1CF3FF4
     void Internal_CalcSize_Injected(UnityEngine::GUIContent* content, ByRef<UnityEngine::Vector2> ret);
@@ -417,7 +418,7 @@ namespace UnityEngine {
     void Internal_CalcMinMaxWidth_Injected(UnityEngine::GUIContent* content, ByRef<UnityEngine::Vector2> ret);
     // static private System.Void SetMouseTooltip_Injected(System.String tooltip, ref UnityEngine.Rect screenRect)
     // Offset: 0x1CF4238
-    static void SetMouseTooltip_Injected(::Il2CppString* tooltip, ByRef<UnityEngine::Rect> screenRect);
+    static void SetMouseTooltip_Injected(::StringW tooltip, ByRef<UnityEngine::Rect> screenRect);
     // public System.Void .ctor()
     // Offset: 0x1CF1300
     // Implemented from: System.Object
@@ -436,17 +437,17 @@ namespace UnityEngine {
     // Offset: 0x1CF4ED8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.GUIStyle
   #pragma pack(pop)
-  static check_size<sizeof(GUIStyle), 120 + sizeof(::Il2CppString*)> __UnityEngine_GUIStyleSizeCheck;
+  static check_size<sizeof(GUIStyle), 120 + sizeof(::StringW)> __UnityEngine_GUIStyleSizeCheck;
   static_assert(sizeof(GUIStyle) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_rawName
 // Il2CppName: get_rawName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_rawName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_rawName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_rawName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -454,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_rawName
 // Il2CppName: set_rawName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::Il2CppString*)>(&UnityEngine::GUIStyle::set_rawName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::StringW)>(&UnityEngine::GUIStyle::set_rawName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_rawName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -590,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -598,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::Il2CppString*)>(&UnityEngine::GUIStyle::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyle::*)(::StringW)>(&UnityEngine::GUIStyle::set_name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -801,7 +802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetSelectedRenderedText
 // Il2CppName: Internal_GetSelectedRenderedText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIStyle::*)(UnityEngine::Rect, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText)> {
   static const MethodInfo* get() {
     static auto* localPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* mContent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
@@ -851,7 +852,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::SetMouseTooltip
 // Il2CppName: SetMouseTooltip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Rect)>(&UnityEngine::GUIStyle::SetMouseTooltip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::Rect)>(&UnityEngine::GUIStyle::SetMouseTooltip)> {
   static const MethodInfo* get() {
     static auto* tooltip = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
@@ -1180,7 +1181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::Internal_GetSelectedRenderedText_Injected
 // Il2CppName: Internal_GetSelectedRenderedText_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)(ByRef<UnityEngine::Rect>, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIStyle::*)(ByRef<UnityEngine::Rect>, UnityEngine::GUIContent*, int, int)>(&UnityEngine::GUIStyle::Internal_GetSelectedRenderedText_Injected)> {
   static const MethodInfo* get() {
     static auto* localPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     static auto* mContent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
@@ -1223,7 +1224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::SetMouseTooltip_Injected
 // Il2CppName: SetMouseTooltip_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ByRef<UnityEngine::Rect>)>(&UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<UnityEngine::Rect>)>(&UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
   static const MethodInfo* get() {
     static auto* tooltip = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
@@ -1245,7 +1246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIStyle::*)()>(&UnityEngine::GUIStyle::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyle*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

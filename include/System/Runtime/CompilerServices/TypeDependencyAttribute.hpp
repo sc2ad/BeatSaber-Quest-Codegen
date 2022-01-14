@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
@@ -41,26 +42,26 @@ namespace System::Runtime::CompilerServices {
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return typeName;
     }
     // Get instance field reference: private System.String typeName
-    ::Il2CppString*& dyn_typeName();
+    ::StringW& dyn_typeName();
     // public System.Void .ctor(System.String typeName)
     // Offset: 0x1621C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeDependencyAttribute* New_ctor(::Il2CppString* typeName) {
+    static TypeDependencyAttribute* New_ctor(::StringW typeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::TypeDependencyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeDependencyAttribute*, creationType>(typeName)));
     }
   }; // System.Runtime.CompilerServices.TypeDependencyAttribute
   #pragma pack(pop)
-  static check_size<sizeof(TypeDependencyAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_CompilerServices_TypeDependencyAttributeSizeCheck;
+  static check_size<sizeof(TypeDependencyAttribute), 16 + sizeof(::StringW)> __System_Runtime_CompilerServices_TypeDependencyAttributeSizeCheck;
   static_assert(sizeof(TypeDependencyAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

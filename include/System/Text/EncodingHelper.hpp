@@ -7,6 +7,7 @@
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -60,13 +61,13 @@ namespace System::Text {
     static void _cctor();
     // static System.String InternalCodePage(ref System.Int32 code_page)
     // Offset: 0x1F005F4
-    static ::Il2CppString* InternalCodePage(ByRef<int> code_page);
+    static ::StringW InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
     // Offset: 0x1EFEB14
     static System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
     // Offset: 0x1EFD034
-    static ::Il2CppObject* InvokeI18N(::Il2CppString* name, ::ArrayW<::Il2CppObject*> args);
+    static ::Il2CppObject* InvokeI18N(::StringW name, ::ArrayW<::Il2CppObject*> args);
   }; // System.Text.EncodingHelper
   #pragma pack(pop)
 }
@@ -90,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Text::EncodingHelper::InternalCodePage
 // Il2CppName: InternalCodePage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(ByRef<int>)>(&System::Text::EncodingHelper::InternalCodePage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<int>)>(&System::Text::EncodingHelper::InternalCodePage)> {
   static const MethodInfo* get() {
     static auto* code_page = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "InternalCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code_page});
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::EncodingHelper::InvokeI18N
 // Il2CppName: InvokeI18N
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Text::EncodingHelper::InvokeI18N)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Text::EncodingHelper::InvokeI18N)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

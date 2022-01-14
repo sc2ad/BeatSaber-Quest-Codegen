@@ -15,6 +15,7 @@
 #include "System/DateTime.hpp"
 // Including type: System.ParseFailureKind
 #include "System/ParseFailureKind.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -123,9 +124,9 @@ namespace System {
     // System.String failureMessageID
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* failureMessageID;
+    ::StringW failureMessageID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Object failureMessageFormatArgument
     // Size: 0x8
     // Offset: 0x50
@@ -135,12 +136,12 @@ namespace System {
     // System.String failureArgumentName
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* failureArgumentName;
+    ::StringW failureArgumentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: DateTimeResult
-    constexpr DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::Il2CppString* failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::Il2CppString* failureArgumentName_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
+    constexpr DateTimeResult(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, double fraction_ = {}, int era_ = {}, System::ParseFlags flags_ = {}, System::TimeSpan timeZoneOffset_ = {}, System::Globalization::Calendar* calendar_ = {}, System::DateTime parsedDate_ = {}, System::ParseFailureKind failure_ = {}, ::StringW failureMessageID_ = {}, ::Il2CppObject* failureMessageFormatArgument_ = {}, ::StringW failureArgumentName_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, fraction{fraction_}, era{era_}, flags{flags_}, timeZoneOffset{timeZoneOffset_}, calendar{calendar_}, parsedDate{parsedDate_}, failure{failure_}, failureMessageID{failureMessageID_}, failureMessageFormatArgument{failureMessageFormatArgument_}, failureArgumentName{failureArgumentName_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -172,11 +173,11 @@ namespace System {
     // Get instance field reference: System.ParseFailureKind failure
     System::ParseFailureKind& dyn_failure();
     // Get instance field reference: System.String failureMessageID
-    ::Il2CppString*& dyn_failureMessageID();
+    ::StringW& dyn_failureMessageID();
     // Get instance field reference: System.Object failureMessageFormatArgument
     ::Il2CppObject*& dyn_failureMessageFormatArgument();
     // Get instance field reference: System.String failureArgumentName
-    ::Il2CppString*& dyn_failureArgumentName();
+    ::StringW& dyn_failureArgumentName();
     // System.Void Init()
     // Offset: 0x1D40AC4
     void Init();
@@ -185,13 +186,13 @@ namespace System {
     void SetDate(int year, int month, int day);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0x1D40DA4
-    void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName)
     // Offset: 0x1D40D94
-    void SetFailure(System::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName);
+    void SetFailure(System::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName);
   }; // System.DateTimeResult
   #pragma pack(pop)
-  static check_size<sizeof(DateTimeResult), 88 + sizeof(::Il2CppString*)> __System_DateTimeResultSizeCheck;
+  static check_size<sizeof(DateTimeResult), 88 + sizeof(::StringW)> __System_DateTimeResultSizeCheck;
   static_assert(sizeof(DateTimeResult) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -217,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::DateTimeResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::StringW, ::Il2CppObject*)>(&System::DateTimeResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -228,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*)>(&System::DateTimeResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::StringW, ::Il2CppObject*, ::StringW)>(&System::DateTimeResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

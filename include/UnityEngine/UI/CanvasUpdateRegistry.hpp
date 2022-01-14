@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI::Collections
@@ -79,9 +80,9 @@ namespace UnityEngine::UI {
     // private System.String[] m_CanvasUpdateProfilerStrings
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> m_CanvasUpdateProfilerStrings;
+    ::ArrayW<::StringW> m_CanvasUpdateProfilerStrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
     // Size: 0x8
     // Offset: 0x20
@@ -102,9 +103,9 @@ namespace UnityEngine::UI {
     // static field const value: static private System.String m_CullingUpdateProfilerString
     static constexpr const char* m_CullingUpdateProfilerString = "ClipperRegistry.Cull";
     // Get static field: static private System.String m_CullingUpdateProfilerString
-    static ::Il2CppString* _get_m_CullingUpdateProfilerString();
+    static ::StringW _get_m_CullingUpdateProfilerString();
     // Set static field: static private System.String m_CullingUpdateProfilerString
-    static void _set_m_CullingUpdateProfilerString(::Il2CppString* value);
+    static void _set_m_CullingUpdateProfilerString(::StringW value);
     // Get static field: static private readonly System.Comparison`1<UnityEngine.UI.ICanvasElement> s_SortLayoutFunction
     static System::Comparison_1<UnityEngine::UI::ICanvasElement*>* _get_s_SortLayoutFunction();
     // Set static field: static private readonly System.Comparison`1<UnityEngine.UI.ICanvasElement> s_SortLayoutFunction
@@ -114,7 +115,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Boolean m_PerformingGraphicUpdate
     bool& dyn_m_PerformingGraphicUpdate();
     // Get instance field reference: private System.String[] m_CanvasUpdateProfilerStrings
-    ::ArrayW<::Il2CppString*>& dyn_m_CanvasUpdateProfilerStrings();
+    ::ArrayW<::StringW>& dyn_m_CanvasUpdateProfilerStrings();
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*& dyn_m_LayoutRebuildQueue();
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue

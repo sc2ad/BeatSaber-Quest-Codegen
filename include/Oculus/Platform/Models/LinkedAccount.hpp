@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -42,9 +43,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String AccessToken
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* AccessToken;
+    ::StringW AccessToken;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.ServiceProvider ServiceProvider
     // Size: 0x4
     // Offset: 0x18
@@ -56,16 +57,16 @@ namespace Oculus::Platform::Models {
     // public readonly System.String UserId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* UserId;
+    ::StringW UserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String AccessToken
-    ::Il2CppString*& dyn_AccessToken();
+    ::StringW& dyn_AccessToken();
     // Get instance field reference: public readonly Oculus.Platform.ServiceProvider ServiceProvider
     Oculus::Platform::ServiceProvider& dyn_ServiceProvider();
     // Get instance field reference: public readonly System.String UserId
-    ::Il2CppString*& dyn_UserId();
+    ::StringW& dyn_UserId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1760FFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,7 +76,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.LinkedAccount
   #pragma pack(pop)
-  static check_size<sizeof(LinkedAccount), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_LinkedAccountSizeCheck;
+  static check_size<sizeof(LinkedAccount), 32 + sizeof(::StringW)> __Oculus_Platform_Models_LinkedAccountSizeCheck;
   static_assert(sizeof(LinkedAccount) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

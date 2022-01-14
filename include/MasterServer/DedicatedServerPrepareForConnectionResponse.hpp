@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -121,9 +122,9 @@ namespace MasterServer {
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* dedicatedServerId;
+    ::StringW dedicatedServerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x28
@@ -138,7 +139,7 @@ namespace MasterServer {
     // Get instance field reference: public MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result
     MasterServer::DedicatedServerPrepareForConnectionResponse::Result& dyn_result();
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerPrepareForConnectionResponse> get_pool()
@@ -146,10 +147,10 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionResponse*>* get_pool();
     // public System.String get_dedicatedServerId()
     // Offset: 0x14B3B38
-    ::Il2CppString* get_dedicatedServerId();
+    ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
     // Offset: 0x14B3B40
-    void set_dedicatedServerId(::Il2CppString* value);
+    void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
     // Offset: 0x14B3B48
     int64_t get_dedicatedServerCreationTime();
@@ -158,10 +159,10 @@ namespace MasterServer {
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForFailure(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, MasterServer.DedicatedServerPrepareForConnectionResponse/MasterServer.Result result)
     // Offset: 0x14B3C74
-    MasterServer::DedicatedServerPrepareForConnectionResponse* InitForFailure(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::DedicatedServerPrepareForConnectionResponse::Result result);
+    MasterServer::DedicatedServerPrepareForConnectionResponse* InitForFailure(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::DedicatedServerPrepareForConnectionResponse::Result result);
     // public MasterServer.DedicatedServerPrepareForConnectionResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
     // Offset: 0x14B3C80
-    MasterServer::DedicatedServerPrepareForConnectionResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime);
+    MasterServer::DedicatedServerPrepareForConnectionResponse* InitForSuccess(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public override System.Byte get_resultCode()
     // Offset: 0x14B3AA0
     // Implemented from: BaseMasterServerReliableResponse
@@ -171,7 +172,7 @@ namespace MasterServer {
     // Offset: 0x14B3AA8
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
-    ::Il2CppString* get_resultCodeString();
+    ::StringW get_resultCodeString();
     // public System.Void .ctor()
     // Offset: 0x14B3C8C
     // Implemented from: BaseMasterServerReliableResponse
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionResponse::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)()>(&MasterServer::DedicatedServerPrepareForConnectionResponse::get_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::DedicatedServerPrepareForConnectionResponse::*)()>(&MasterServer::DedicatedServerPrepareForConnectionResponse::get_dedicatedServerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerPrepareForConnectionResponse*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionResponse::set_dedicatedServerId
 // Il2CppName: set_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::Il2CppString*)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::set_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::StringW)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::set_dedicatedServerId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerPrepareForConnectionResponse*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -250,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionResponse::InitForFailure
 // Il2CppName: InitForFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionResponse* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::Il2CppString*, int64_t, MasterServer::DedicatedServerPrepareForConnectionResponse::Result)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::InitForFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionResponse* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::StringW, int64_t, MasterServer::DedicatedServerPrepareForConnectionResponse::Result)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::InitForFailure)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionResponse::InitForSuccess
 // Il2CppName: InitForSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionResponse* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::Il2CppString*, int64_t)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::InitForSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionResponse* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)(::StringW, int64_t)>(&MasterServer::DedicatedServerPrepareForConnectionResponse::InitForSuccess)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ma
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::DedicatedServerPrepareForConnectionResponse::*)()>(&MasterServer::DedicatedServerPrepareForConnectionResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::DedicatedServerPrepareForConnectionResponse::*)()>(&MasterServer::DedicatedServerPrepareForConnectionResponse::get_resultCodeString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerPrepareForConnectionResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

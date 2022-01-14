@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -153,7 +154,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*& dyn_didFinishEvent();
     // protected System.String get_gameMode()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_gameMode();
+    ::StringW get_gameMode();
     // protected System.Boolean get_isInPracticeView()
     // Offset: 0x1238BD8
     bool get_isInPracticeView();
@@ -279,7 +280,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode
 // Il2CppName: get_gameMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

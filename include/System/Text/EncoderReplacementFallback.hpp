@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -49,21 +50,21 @@ namespace System::Text {
     // private System.String strDefault
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* strDefault;
+    ::StringW strDefault;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.String strDefault
-    ::Il2CppString*& dyn_strDefault();
+    ::StringW& dyn_strDefault();
     // public System.String get_DefaultString()
     // Offset: 0x1EFB338
-    ::Il2CppString* get_DefaultString();
+    ::StringW get_DefaultString();
     // public System.Void .ctor(System.String replacement)
     // Offset: 0x1EFB15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EncoderReplacementFallback* New_ctor(::Il2CppString* replacement) {
+    static EncoderReplacementFallback* New_ctor(::StringW replacement) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderReplacementFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderReplacementFallback*, creationType>(replacement)));
     }
@@ -99,14 +100,14 @@ namespace System::Text {
     int GetHashCode();
   }; // System.Text.EncoderReplacementFallback
   #pragma pack(pop)
-  static check_size<sizeof(EncoderReplacementFallback), 24 + sizeof(::Il2CppString*)> __System_Text_EncoderReplacementFallbackSizeCheck;
+  static check_size<sizeof(EncoderReplacementFallback), 24 + sizeof(::StringW)> __System_Text_EncoderReplacementFallbackSizeCheck;
   static_assert(sizeof(EncoderReplacementFallback) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderReplacementFallback::get_DefaultString
 // Il2CppName: get_DefaultString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::EncoderReplacementFallback::*)()>(&System::Text::EncoderReplacementFallback::get_DefaultString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::EncoderReplacementFallback::*)()>(&System::Text::EncoderReplacementFallback::get_DefaultString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderReplacementFallback*), "get_DefaultString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

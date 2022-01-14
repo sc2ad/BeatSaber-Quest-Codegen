@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -49,9 +50,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _instancePrefixes
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<::Il2CppString*> instancePrefixes;
+    ::ArrayW<::StringW> instancePrefixes;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Int32[] _instanceNodeIDs
     // Size: 0x8
     // Offset: 0x40
@@ -61,26 +62,26 @@ namespace HoudiniEngineUnity {
     // public System.String[] _assetPaths
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<::Il2CppString*> assetPaths;
+    ::ArrayW<::StringW> assetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String[] _collisionAssetPaths
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<::Il2CppString*> collisionAssetPaths;
+    ::ArrayW<::StringW> collisionAssetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
     ::ArrayW<HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
     // Get instance field reference: public System.String[] _instancePrefixes
-    ::ArrayW<::Il2CppString*>& dyn__instancePrefixes();
+    ::ArrayW<::StringW>& dyn__instancePrefixes();
     // Get instance field reference: public System.Int32[] _instanceNodeIDs
     ::ArrayW<int>& dyn__instanceNodeIDs();
     // Get instance field reference: public System.String[] _assetPaths
-    ::ArrayW<::Il2CppString*>& dyn__assetPaths();
+    ::ArrayW<::StringW>& dyn__assetPaths();
     // Get instance field reference: public System.String[] _collisionAssetPaths
-    ::ArrayW<::Il2CppString*>& dyn__collisionAssetPaths();
+    ::ArrayW<::StringW>& dyn__collisionAssetPaths();
     // public System.Void .ctor()
     // Offset: 0x159869C
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
@@ -93,7 +94,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferInstancer
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayW<::StringW>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferInstancer) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

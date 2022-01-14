@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Security.Certificates
 namespace Org::BouncyCastle::Security::Certificates {
@@ -45,7 +46,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void GeneralSecurityException::.ctor(System.String msg)
     // Base method: System.Void Exception::.ctor(System.String msg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CrlException* New_ctor(::Il2CppString* msg) {
+    static CrlException* New_ctor(::StringW msg) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CrlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlException*, creationType>(msg)));
     }

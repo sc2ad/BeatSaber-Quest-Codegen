@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -76,16 +77,16 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0x80
-    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>* viewControllers;
+    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>* viewControllers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*) == 0x8);
     public:
     // Get instance field reference: private HMUI.TextSegmentedControl _helpMenuSegmentedControl
     HMUI::TextSegmentedControl*& dyn__helpMenuSegmentedControl();
     // Get instance field reference: private System.Action`1<System.Int32> didSelectHelpSubMenuEvent
     System::Action_1<int>*& dyn_didSelectHelpSubMenuEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
-    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*& dyn__viewControllers();
+    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
     // Offset: 0x119DC2C
     void add_didSelectHelpSubMenuEvent(System::Action_1<int>* value);
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
     void remove_didSelectHelpSubMenuEvent(System::Action_1<int>* value);
     // public System.Void Init(System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> viewControllers)
     // Offset: 0x119E178
-    void Init(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>* viewControllers);
+    void Init(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>* viewControllers);
     // private System.Void HandleHelpMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
     // Offset: 0x119E358
     void HandleHelpMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
@@ -119,7 +120,7 @@ namespace GlobalNamespace {
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // HelpMenuViewController
   #pragma pack(pop)
-  static check_size<sizeof(HelpMenuViewController), 128 + sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*)> __GlobalNamespace_HelpMenuViewControllerSizeCheck;
+  static check_size<sizeof(HelpMenuViewController), 128 + sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*)> __GlobalNamespace_HelpMenuViewControllerSizeCheck;
   static_assert(sizeof(HelpMenuViewController) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::HelpMenuViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HelpMenuViewController::*)(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*)>(&GlobalNamespace::HelpMenuViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HelpMenuViewController::*)(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*)>(&GlobalNamespace::HelpMenuViewController::Init)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ValueTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), ::il2cpp_utils::GetClassFromName("System", "String")})})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HelpMenuViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewControllers});

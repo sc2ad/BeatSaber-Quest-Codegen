@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -91,33 +92,33 @@ namespace System::Net {
     // private System.String bannerMessage
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* bannerMessage;
+    ::StringW bannerMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String welcomeMessage
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* welcomeMessage;
+    ::StringW welcomeMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String exitMessage
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* exitMessage;
+    ::StringW exitMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String statusDescription
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* statusDescription;
+    ::StringW statusDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String method
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x60
@@ -150,15 +151,15 @@ namespace System::Net {
     // Get instance field reference: private System.DateTime lastModified
     System::DateTime& dyn_lastModified();
     // Get instance field reference: private System.String bannerMessage
-    ::Il2CppString*& dyn_bannerMessage();
+    ::StringW& dyn_bannerMessage();
     // Get instance field reference: private System.String welcomeMessage
-    ::Il2CppString*& dyn_welcomeMessage();
+    ::StringW& dyn_welcomeMessage();
     // Get instance field reference: private System.String exitMessage
-    ::Il2CppString*& dyn_exitMessage();
+    ::StringW& dyn_exitMessage();
     // Get instance field reference: private System.String statusDescription
-    ::Il2CppString*& dyn_statusDescription();
+    ::StringW& dyn_statusDescription();
     // Get instance field reference: private System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Net.FtpWebRequest request
@@ -170,10 +171,10 @@ namespace System::Net {
     void set_LastModified(System::DateTime value);
     // System.Void set_BannerMessage(System.String value)
     // Offset: 0x18A349C
-    void set_BannerMessage(::Il2CppString* value);
+    void set_BannerMessage(::StringW value);
     // System.Void set_WelcomeMessage(System.String value)
     // Offset: 0x18A34A4
-    void set_WelcomeMessage(::Il2CppString* value);
+    void set_WelcomeMessage(::StringW value);
     // System.Void set_StatusCode(System.Net.FtpStatusCode value)
     // Offset: 0x18A34AC
     void set_StatusCode(System::Net::FtpStatusCode value);
@@ -183,21 +184,21 @@ namespace System::Net {
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Boolean keepAlive)
     // Offset: 0x18A3244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, bool keepAlive) {
+    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::StringW method, bool keepAlive) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, keepAlive)));
     }
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatusCode statusCode, System.String statusDescription)
     // Offset: 0x18A3320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatusCode statusCode, ::Il2CppString* statusDescription) {
+    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::StringW method, System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, statusCode, statusDescription)));
     }
     // System.Void .ctor(System.Net.FtpWebRequest request, System.Uri uri, System.String method, System.Net.FtpStatus status)
     // Offset: 0x18A3410
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::Il2CppString* method, System::Net::FtpStatus* status) {
+    static FtpWebResponse* New_ctor(System::Net::FtpWebRequest* request, System::Uri* uri, ::StringW method, System::Net::FtpStatus* status) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpWebResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpWebResponse*, creationType>(request, uri, method, status)));
     }
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebResponse::set_BannerMessage
 // Il2CppName: set_BannerMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebResponse::*)(::Il2CppString*)>(&System::Net::FtpWebResponse::set_BannerMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebResponse::*)(::StringW)>(&System::Net::FtpWebResponse::set_BannerMessage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebResponse*), "set_BannerMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -257,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebResponse::set_WelcomeMessage
 // Il2CppName: set_WelcomeMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebResponse::*)(::Il2CppString*)>(&System::Net::FtpWebResponse::set_WelcomeMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebResponse::*)(::StringW)>(&System::Net::FtpWebResponse::set_WelcomeMessage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebResponse*), "set_WelcomeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

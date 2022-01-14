@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -87,9 +88,9 @@ namespace Zenject {
     // private System.String _decoratedContractName
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* decoratedContractName;
+    ::StringW decoratedContractName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x60
@@ -110,7 +111,7 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _lateScriptableObjectInstallers
     System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*& dyn__lateScriptableObjectInstallers();
     // Get instance field reference: private System.String _decoratedContractName
-    ::Il2CppString*& dyn__decoratedContractName();
+    ::StringW& dyn__decoratedContractName();
     // Get instance field reference: private Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> _injectableMonoBehaviours
@@ -135,7 +136,7 @@ namespace Zenject {
     void set_LateScriptableObjectInstallers(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>* value);
     // public System.String get_DecoratedContractName()
     // Offset: 0x218E174
-    ::Il2CppString* get_DecoratedContractName();
+    ::StringW get_DecoratedContractName();
     // public System.Void Initialize(Zenject.DiContainer container)
     // Offset: 0x218E1F0
     void Initialize(Zenject::DiContainer* container);
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_DecoratedContractName
 // Il2CppName: get_DecoratedContractName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_DecoratedContractName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::SceneDecoratorContext::*)()>(&Zenject::SceneDecoratorContext::get_DecoratedContractName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneDecoratorContext*), "get_DecoratedContractName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

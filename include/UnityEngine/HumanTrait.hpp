@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -29,7 +30,7 @@ namespace UnityEngine {
     static int get_MuscleCount();
     // static public System.String[] get_MuscleName()
     // Offset: 0x263E67C
-    static ::ArrayW<::Il2CppString*> get_MuscleName();
+    static ::ArrayW<::StringW> get_MuscleName();
     // static System.Int32 GetBoneIndexFromMono(System.Int32 humanId)
     // Offset: 0x2639D80
     static int GetBoneIndexFromMono(int humanId);
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::HumanTrait::get_MuscleName
 // Il2CppName: get_MuscleName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&UnityEngine::HumanTrait::get_MuscleName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&UnityEngine::HumanTrait::get_MuscleName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "get_MuscleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

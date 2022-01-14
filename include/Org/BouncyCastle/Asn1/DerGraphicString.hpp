@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -70,7 +71,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18FBA38
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
-    ::Il2CppString* GetString();
+    ::StringW GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18FBA44
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -99,7 +100,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGraphicString::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerGraphicString::*)()>(&Org::BouncyCastle::Asn1::DerGraphicString::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerGraphicString::*)()>(&Org::BouncyCastle::Asn1::DerGraphicString::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGraphicString*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

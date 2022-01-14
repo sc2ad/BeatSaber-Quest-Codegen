@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(MasterServer::MessageHandler::ConnectionState);
@@ -42,15 +43,15 @@ namespace MasterServer {
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.UInt32 _protocolVersion
     // Size: 0x4
     // Offset: 0x20
@@ -145,9 +146,9 @@ namespace MasterServer {
     // Set static field: static private System.Int32 kRequestBufferLength
     static void _set_kRequestBufferLength(int value);
     // Get instance field reference: private System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private System.UInt32 _protocolVersion
     uint& dyn__protocolVersion();
     // Get instance field reference: private System.Boolean _hasIdentity
@@ -192,16 +193,16 @@ namespace MasterServer {
     void SetEncryptionState(GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState);
     // public System.Void SetIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
     // Offset: 0x14BA2EC
-    void SetIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
+    void SetIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Boolean VerifyIdentity(System.UInt32 protocolVersion, System.String userId, System.String userName)
     // Offset: 0x14BA300
-    bool VerifyIdentity(uint protocolVersion, ::Il2CppString* userId, ::Il2CppString* userName);
+    bool VerifyIdentity(uint protocolVersion, ::StringW userId, ::StringW userName);
     // public System.Void Dispose()
     // Offset: 0x14BA370
     void Dispose();
     // static private System.Void LogD(System.String message)
     // Offset: 0x14BA380
-    static void LogD(::Il2CppString* message);
+    static void LogD(::StringW message);
     // public System.Void .ctor()
     // Offset: 0x14B892C
     // Implemented from: System.Object
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::SetIdentity
 // Il2CppName: SetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::SetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::ConnectionState::*)(uint, ::StringW, ::StringW)>(&MasterServer::MessageHandler::ConnectionState::SetIdentity)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::VerifyIdentity
 // Il2CppName: VerifyIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)(uint, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::VerifyIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::ConnectionState::*)(uint, ::StringW, ::StringW)>(&MasterServer::MessageHandler::ConnectionState::VerifyIdentity)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::LogD
 // Il2CppName: LogD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&MasterServer::MessageHandler::ConnectionState::LogD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&MasterServer::MessageHandler::ConnectionState::LogD)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::ConnectionState*), "LogD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

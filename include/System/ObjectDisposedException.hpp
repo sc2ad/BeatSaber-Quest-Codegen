@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -48,23 +49,23 @@ namespace System {
     // private System.String objectName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* objectName;
+    ::StringW objectName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return objectName;
     }
     // Get instance field reference: private System.String objectName
-    ::Il2CppString*& dyn_objectName();
+    ::StringW& dyn_objectName();
     // public System.String get_ObjectName()
     // Offset: 0x1E898BC
-    ::Il2CppString* get_ObjectName();
+    ::StringW get_ObjectName();
     // public System.Void .ctor(System.String objectName, System.String message)
     // Offset: 0x1E896DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectDisposedException* New_ctor(::Il2CppString* objectName, ::Il2CppString* message) {
+    static ObjectDisposedException* New_ctor(::StringW objectName, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>(objectName, message)));
     }
@@ -72,7 +73,7 @@ namespace System {
     // Offset: 0x1E897A8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // private System.Void .ctor()
     // Offset: 0x1E89660
     // Implemented from: System.InvalidOperationException
@@ -92,7 +93,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String objectName)
     // Base method: System.Void Exception::.ctor(System.String objectName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectDisposedException* New_ctor(::Il2CppString* objectName) {
+    static ObjectDisposedException* New_ctor(::StringW objectName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ObjectDisposedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectDisposedException*, creationType>(objectName)));
     }
@@ -114,14 +115,14 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.ObjectDisposedException
   #pragma pack(pop)
-  static check_size<sizeof(ObjectDisposedException), 136 + sizeof(::Il2CppString*)> __System_ObjectDisposedExceptionSizeCheck;
+  static check_size<sizeof(ObjectDisposedException), 136 + sizeof(::StringW)> __System_ObjectDisposedExceptionSizeCheck;
   static_assert(sizeof(ObjectDisposedException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ObjectDisposedException::get_ObjectName
 // Il2CppName: get_ObjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ObjectDisposedException::*)()>(&System::ObjectDisposedException::get_ObjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ObjectDisposedException::*)()>(&System::ObjectDisposedException::get_ObjectName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ObjectDisposedException*), "get_ObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ObjectDisposedException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ObjectDisposedException::*)()>(&System::ObjectDisposedException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ObjectDisposedException::*)()>(&System::ObjectDisposedException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ObjectDisposedException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

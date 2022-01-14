@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Polyglot
@@ -55,7 +56,7 @@ namespace Polyglot {
     Polyglot::Localization*& dyn_settings();
     // System.Void <ImportFromGoogle>b__0(System.String s)
     // Offset: 0x262AC1C
-    void $ImportFromGoogle$b__0(::Il2CppString* s);
+    void $ImportFromGoogle$b__0(::StringW s);
     // public System.Void .ctor()
     // Offset: 0x2629C60
     // Implemented from: System.Object
@@ -74,7 +75,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass5_0::$ImportFromGoogle$b__0
 // Il2CppName: <ImportFromGoogle>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationImporter::$$c__DisplayClass5_0::*)(::Il2CppString*)>(&Polyglot::LocalizationImporter::$$c__DisplayClass5_0::$ImportFromGoogle$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationImporter::$$c__DisplayClass5_0::*)(::StringW)>(&Polyglot::LocalizationImporter::$$c__DisplayClass5_0::$ImportFromGoogle$b__0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter::$$c__DisplayClass5_0*), "<ImportFromGoogle>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

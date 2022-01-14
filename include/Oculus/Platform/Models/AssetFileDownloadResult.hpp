@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -46,14 +47,14 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Filepath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Filepath;
+    ::StringW Filepath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.UInt64 AssetId
     uint64_t& dyn_AssetId();
     // Get instance field reference: public readonly System.String Filepath
-    ::Il2CppString*& dyn_Filepath();
+    ::StringW& dyn_Filepath();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1757900
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -63,7 +64,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.AssetFileDownloadResult
   #pragma pack(pop)
-  static check_size<sizeof(AssetFileDownloadResult), 24 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AssetFileDownloadResultSizeCheck;
+  static check_size<sizeof(AssetFileDownloadResult), 24 + sizeof(::StringW)> __Oculus_Platform_Models_AssetFileDownloadResultSizeCheck;
   static_assert(sizeof(AssetFileDownloadResult) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

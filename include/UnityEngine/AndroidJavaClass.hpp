@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -31,13 +32,13 @@ namespace UnityEngine {
     // public System.Void .ctor(System.String className)
     // Offset: 0x2659114
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaClass* New_ctor(::Il2CppString* className) {
+    static AndroidJavaClass* New_ctor(::StringW className) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaClass*, creationType>(className)));
     }
     // private System.Void _AndroidJavaClass(System.String className)
     // Offset: 0x265919C
-    void _AndroidJavaClass(::Il2CppString* className);
+    void _AndroidJavaClass(::StringW className);
     // System.Void .ctor(System.IntPtr jclass)
     // Offset: 0x26593B4
     // Implemented from: UnityEngine.AndroidJavaObject
@@ -58,7 +59,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaClass::_AndroidJavaClass
 // Il2CppName: _AndroidJavaClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaClass::*)(::Il2CppString*)>(&UnityEngine::AndroidJavaClass::_AndroidJavaClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AndroidJavaClass::*)(::StringW)>(&UnityEngine::AndroidJavaClass::_AndroidJavaClass)> {
   static const MethodInfo* get() {
     static auto* className = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaClass*), "_AndroidJavaClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{className});

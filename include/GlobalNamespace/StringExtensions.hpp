@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
     public:
     // static public System.String Truncate(System.String s, System.Int32 length, System.Boolean appendEllipsis)
     // Offset: 0x2641234
-    static ::Il2CppString* Truncate(::Il2CppString* s, int length, bool appendEllipsis);
+    static ::StringW Truncate(::StringW s, int length, bool appendEllipsis);
   }; // StringExtensions
   #pragma pack(pop)
 }
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::StringExtensions::Truncate
 // Il2CppName: Truncate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool)>(&GlobalNamespace::StringExtensions::Truncate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, bool)>(&GlobalNamespace::StringExtensions::Truncate)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

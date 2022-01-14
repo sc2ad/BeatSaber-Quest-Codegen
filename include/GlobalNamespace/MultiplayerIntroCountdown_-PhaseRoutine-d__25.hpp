@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$PhaseRoutine$d__25);
@@ -58,9 +59,9 @@ namespace GlobalNamespace {
     // public System.String text
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* text;
+    ::StringW text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single appearDuration
     // Size: 0x4
     // Offset: 0x30
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
     GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // Get instance field reference: public System.String text
-    ::Il2CppString*& dyn_text();
+    ::StringW& dyn_text();
     // Get instance field reference: public System.Single appearDuration
     float& dyn_appearDuration();
     // Get instance field reference: public System.Single disappearDuration

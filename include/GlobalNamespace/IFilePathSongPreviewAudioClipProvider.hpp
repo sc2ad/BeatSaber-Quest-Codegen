@@ -4,10 +4,8 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IFilePathSongPreviewAudioClipProvider
@@ -26,7 +24,7 @@ namespace GlobalNamespace {
     public:
     // public System.String get_songPreviewAudioClipPath()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_songPreviewAudioClipPath();
+    ::StringW get_songPreviewAudioClipPath();
   }; // IFilePathSongPreviewAudioClipProvider
   #pragma pack(pop)
 }
@@ -34,7 +32,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IFilePathSongPreviewAudioClipProvider::get_songPreviewAudioClipPath
 // Il2CppName: get_songPreviewAudioClipPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IFilePathSongPreviewAudioClipProvider::*)()>(&GlobalNamespace::IFilePathSongPreviewAudioClipProvider::get_songPreviewAudioClipPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IFilePathSongPreviewAudioClipProvider::*)()>(&GlobalNamespace::IFilePathSongPreviewAudioClipProvider::get_songPreviewAudioClipPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IFilePathSongPreviewAudioClipProvider*), "get_songPreviewAudioClipPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: OnlineServices
 namespace OnlineServices {
@@ -92,14 +93,14 @@ namespace OnlineServices {
     // public readonly System.String localizedMessage
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedMessage;
+    ::StringW localizedMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
     // Get instance field reference: public readonly System.String localizedMessage
-    ::Il2CppString*& dyn_localizedMessage();
+    ::StringW& dyn_localizedMessage();
     // static public OnlineServices.PlatformServicesAvailabilityInfo get_everythingOK()
     // Offset: 0x1144318
     static OnlineServices::PlatformServicesAvailabilityInfo* get_everythingOK();
@@ -109,13 +110,13 @@ namespace OnlineServices {
     // private System.Void .ctor(OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability, System.String localizedMessage)
     // Offset: 0x11443DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::Il2CppString* localizedMessage) {
+    static PlatformServicesAvailabilityInfo* New_ctor(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability availability, ::StringW localizedMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::PlatformServicesAvailabilityInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformServicesAvailabilityInfo*, creationType>(availability, localizedMessage)));
     }
   }; // OnlineServices.PlatformServicesAvailabilityInfo
   #pragma pack(pop)
-  static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::Il2CppString*)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
+  static check_size<sizeof(PlatformServicesAvailabilityInfo), 24 + sizeof(::StringW)> __OnlineServices_PlatformServicesAvailabilityInfoSizeCheck;
   static_assert(sizeof(PlatformServicesAvailabilityInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

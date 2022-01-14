@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -187,10 +188,10 @@ namespace LiteNetLib::Utils {
     ::ArrayW<double> GetDoubleArray();
     // public System.String[] GetStringArray()
     // Offset: 0x1DD3848
-    ::ArrayW<::Il2CppString*> GetStringArray();
+    ::ArrayW<::StringW> GetStringArray();
     // public System.String[] GetStringArray(System.Int32 maxStringLength)
     // Offset: 0x1DD3974
-    ::ArrayW<::Il2CppString*> GetStringArray(int maxStringLength);
+    ::ArrayW<::StringW> GetStringArray(int maxStringLength);
     // public System.Boolean GetBool()
     // Offset: 0x1DD3AB0
     bool GetBool();
@@ -223,10 +224,10 @@ namespace LiteNetLib::Utils {
     double GetDouble();
     // public System.String GetString(System.Int32 maxLength)
     // Offset: 0x1DD2E78
-    ::Il2CppString* GetString(int maxLength);
+    ::StringW GetString(int maxLength);
     // public System.String GetString()
     // Offset: 0x1DC0808
-    ::Il2CppString* GetString();
+    ::StringW GetString();
     // public System.ArraySegment`1<System.Byte> GetRemainingBytesSegment()
     // Offset: 0x1DD3F64
     System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
@@ -234,7 +235,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     T Get() {
-      static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -293,10 +294,10 @@ namespace LiteNetLib::Utils {
     double PeekDouble();
     // public System.String PeekString(System.Int32 maxLength)
     // Offset: 0x1DD472C
-    ::Il2CppString* PeekString(int maxLength);
+    ::StringW PeekString(int maxLength);
     // public System.String PeekString()
     // Offset: 0x1DD484C
-    ::Il2CppString* PeekString();
+    ::StringW PeekString();
     // public System.Boolean TryGetByte(out System.Byte result)
     // Offset: 0x1DD4928
     bool TryGetByte(ByRef<uint8_t> result);
@@ -335,10 +336,10 @@ namespace LiteNetLib::Utils {
     bool TryGetDouble(ByRef<double> result);
     // public System.Boolean TryGetString(out System.String result)
     // Offset: 0x1DD4C80
-    bool TryGetString(ByRef<::Il2CppString*> result);
+    bool TryGetString(ByRef<::StringW> result);
     // public System.Boolean TryGetStringArray(out System.String[] result)
     // Offset: 0x1DD4CE8
-    bool TryGetStringArray(ByRef<::ArrayW<::Il2CppString*>> result);
+    bool TryGetStringArray(ByRef<::ArrayW<::StringW>> result);
     // public System.Boolean TryGetBytesWithLength(out System.Byte[] result)
     // Offset: 0x1DD4DE0
     bool TryGetBytesWithLength(ByRef<::ArrayW<uint8_t>> result);
@@ -583,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<do
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetStringArray
 // Il2CppName: GetStringArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetStringArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetStringArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetStringArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetStringArray
 // Il2CppName: GetStringArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::GetStringArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::GetStringArray)> {
   static const MethodInfo* get() {
     static auto* maxStringLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetStringArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxStringLength});
@@ -680,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Lit
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::GetString)> {
   static const MethodInfo* get() {
     static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxLength});
@@ -689,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -849,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Lit
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::PeekString
 // Il2CppName: PeekString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::PeekString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::Utils::NetDataReader::*)(int)>(&LiteNetLib::Utils::NetDataReader::PeekString)> {
   static const MethodInfo* get() {
     static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "PeekString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxLength});
@@ -858,7 +859,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::PeekString
 // Il2CppName: PeekString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::PeekString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::PeekString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "PeekString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -974,7 +975,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetString
 // Il2CppName: TryGetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::Il2CppString*>)>(&LiteNetLib::Utils::NetDataReader::TryGetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::StringW>)>(&LiteNetLib::Utils::NetDataReader::TryGetString)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -983,7 +984,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::TryGetStringArray
 // Il2CppName: TryGetStringArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::ArrayW<::Il2CppString*>>)>(&LiteNetLib::Utils::NetDataReader::TryGetStringArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::Utils::NetDataReader::*)(ByRef<::ArrayW<::StringW>>)>(&LiteNetLib::Utils::NetDataReader::TryGetStringArray)> {
   static const MethodInfo* get() {
     static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "TryGetStringArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

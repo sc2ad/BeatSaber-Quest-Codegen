@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -52,12 +53,12 @@ namespace NUnit::Framework {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* parameters;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* parameters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*
+    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*() const noexcept {
       return parameters;
     }
     // Get static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
@@ -65,13 +66,13 @@ namespace NUnit::Framework {
     // Set static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
     static void _set_MODIFIED_INVARIANT_CULTURE(System::IFormatProvider* value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__parameters();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__parameters();
     // static private System.Void .cctor()
     // Offset: 0x255E39C
     static void _cctor();
     // System.Void Add(System.String name, System.String value)
     // Offset: 0x255E1E8
-    void Add(::Il2CppString* name, ::Il2CppString* value);
+    void Add(::StringW name, ::StringW value);
     // static private System.IFormatProvider CreateModifiedInvariantCulture()
     // Offset: 0x255E258
     static System::IFormatProvider* CreateModifiedInvariantCulture();
@@ -86,7 +87,7 @@ namespace NUnit::Framework {
     }
   }; // NUnit.Framework.TestParameters
   #pragma pack(pop)
-  static check_size<sizeof(TestParameters), 16 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)> __NUnit_Framework_TestParametersSizeCheck;
+  static check_size<sizeof(TestParameters), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)> __NUnit_Framework_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::TestParameters::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)(::StringW, ::StringW)>(&NUnit::Framework::TestParameters::Add)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -42,9 +43,9 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Certificate2Collection : public System::Security::Cryptography::X509Certificates::X509CertificateCollection {
     public:
     // Get static field: static private System.String[] newline_split
-    static ::ArrayW<::Il2CppString*> _get_newline_split();
+    static ::ArrayW<::StringW> _get_newline_split();
     // Set static field: static private System.String[] newline_split
-    static void _set_newline_split(::ArrayW<::Il2CppString*> value);
+    static void _set_newline_split(::ArrayW<::StringW> value);
     // public System.Security.Cryptography.X509Certificates.X509Certificate2 get_Item(System.Int32 index)
     // Offset: 0x19D74B8
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int index);

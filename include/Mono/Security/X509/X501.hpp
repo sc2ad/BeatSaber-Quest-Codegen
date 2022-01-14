@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -100,10 +101,10 @@ namespace Mono::Security::X509 {
     static void _cctor();
     // static public System.String ToString(Mono.Security.ASN1 seq)
     // Offset: 0x2685090
-    static ::Il2CppString* ToString(Mono::Security::ASN1* seq);
+    static ::StringW ToString(Mono::Security::ASN1* seq);
     // static public System.String ToString(Mono.Security.ASN1 seq, System.Boolean reversed, System.String separator, System.Boolean quotes)
     // Offset: 0x26858E8
-    static ::Il2CppString* ToString(Mono::Security::ASN1* seq, bool reversed, ::Il2CppString* separator, bool quotes);
+    static ::StringW ToString(Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
     // static private System.Void AppendEntry(System.Text.StringBuilder sb, Mono.Security.ASN1 entry, System.Boolean quotes)
     // Offset: 0x26851C0
     static void AppendEntry(System::Text::StringBuilder* sb, Mono::Security::ASN1* entry, bool quotes);
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::X509::X501::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&Mono::Security::X509::X501::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Mono::Security::ASN1*)>(&Mono::Security::X509::X501::ToString)> {
   static const MethodInfo* get() {
     static auto* seq = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X501*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seq});
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::X509::X501::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*, bool, ::Il2CppString*, bool)>(&Mono::Security::X509::X501::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Mono::Security::ASN1*, bool, ::StringW, bool)>(&Mono::Security::X509::X501::ToString)> {
   static const MethodInfo* get() {
     static auto* seq = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     static auto* reversed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

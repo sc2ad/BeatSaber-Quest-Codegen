@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -51,9 +52,9 @@ namespace System::Net {
     // System.String m_ToString
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_ToString;
+    ::StringW m_ToString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.Sockets.AddressFamily m_Family
     // Size: 0x4
     // Offset: 0x20
@@ -136,7 +137,7 @@ namespace System::Net {
     // Get instance field reference: System.Int64 m_Address
     int64_t& dyn_m_Address();
     // Get instance field reference: System.String m_ToString
-    ::Il2CppString*& dyn_m_ToString();
+    ::StringW& dyn_m_ToString();
     // Get instance field reference: private System.Net.Sockets.AddressFamily m_Family
     System::Net::Sockets::AddressFamily& dyn_m_Family();
     // Get instance field reference: private System.UInt16[] m_Numbers
@@ -194,13 +195,13 @@ namespace System::Net {
     static void _cctor();
     // static public System.Boolean TryParse(System.String ipString, out System.Net.IPAddress address)
     // Offset: 0x18B0D14
-    static bool TryParse(::Il2CppString* ipString, ByRef<System::Net::IPAddress*> address);
+    static bool TryParse(::StringW ipString, ByRef<System::Net::IPAddress*> address);
     // static public System.Net.IPAddress Parse(System.String ipString)
     // Offset: 0x18B6C08
-    static System::Net::IPAddress* Parse(::Il2CppString* ipString);
+    static System::Net::IPAddress* Parse(::StringW ipString);
     // static private System.Net.IPAddress InternalParse(System.String ipString, System.Boolean tryParse)
     // Offset: 0x18B68B4
-    static System::Net::IPAddress* InternalParse(::Il2CppString* ipString, bool tryParse);
+    static System::Net::IPAddress* InternalParse(::StringW ipString, bool tryParse);
     // public System.Byte[] GetAddressBytes()
     // Offset: 0x18B6C70
     ::ArrayW<uint8_t> GetAddressBytes();
@@ -217,7 +218,7 @@ namespace System::Net {
     // Offset: 0x18B6E44
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object comparand)
     // Offset: 0x18B7594
     // Implemented from: System.Object
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::IPAddress::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::IPAddress*>)>(&System::Net::IPAddress::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Net::IPAddress*>)>(&System::Net::IPAddress::TryParse)> {
   static const MethodInfo* get() {
     static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->this_arg;
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::IPAddress::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*)>(&System::Net::IPAddress::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::StringW)>(&System::Net::IPAddress::Parse)> {
   static const MethodInfo* get() {
     static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ipString});
@@ -308,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::IPAddress::InternalParse
 // Il2CppName: InternalParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*, bool)>(&System::Net::IPAddress::InternalParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::StringW, bool)>(&System::Net::IPAddress::InternalParse)> {
   static const MethodInfo* get() {
     static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tryParse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -353,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::IPAddress::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::IPAddress::*)()>(&System::Net::IPAddress::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::IPAddress::*)()>(&System::Net::IPAddress::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

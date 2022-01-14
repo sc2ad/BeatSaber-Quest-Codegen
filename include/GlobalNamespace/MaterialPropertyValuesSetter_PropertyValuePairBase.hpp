@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase);
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // private System.String _propertyName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* propertyName;
+    ::StringW propertyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 <propertyId>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String _propertyName
-    ::Il2CppString*& dyn__propertyName();
+    ::StringW& dyn__propertyName();
     // Get instance field reference: private System.Int32 <propertyId>k__BackingField
     int& dyn_$propertyId$k__BackingField();
     // public System.Int32 get_propertyId()

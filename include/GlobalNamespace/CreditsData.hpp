@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>& dyn_creditsItems();
     // static public CreditsData Deserialize(System.String text)
     // Offset: 0x118FD58
-    static GlobalNamespace::CreditsData* Deserialize(::Il2CppString* text);
+    static GlobalNamespace::CreditsData* Deserialize(::StringW text);
     // public System.Void .ctor()
     // Offset: 0x118FE1C
     // Implemented from: System.Object
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreditsData* (*)(::Il2CppString*)>(&GlobalNamespace::CreditsData::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreditsData* (*)(::StringW)>(&GlobalNamespace::CreditsData::Deserialize)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

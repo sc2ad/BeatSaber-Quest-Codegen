@@ -35,6 +35,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -520,9 +521,9 @@ namespace UnityEngine::UI {
     // protected System.String m_Text
     // Size: 0x8
     // Offset: 0x170
-    ::Il2CppString* m_Text;
+    ::StringW m_Text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [RangeAttribute] Offset: 0xEEBFBC
     // private System.Single m_CaretBlinkRate
     // Size: 0x4
@@ -670,9 +671,9 @@ namespace UnityEngine::UI {
     // private System.String m_OriginalText
     // Size: 0x8
     // Offset: 0x1E8
-    ::Il2CppString* m_OriginalText;
+    ::StringW m_OriginalText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_WasCanceled
     // Size: 0x1
     // Offset: 0x1F0
@@ -759,9 +760,9 @@ namespace UnityEngine::UI {
     // static field const value: static private System.String kEmailSpecialCharacters
     static constexpr const char* kEmailSpecialCharacters = "!#$%&'*+-/=?^_`{|}~";
     // Get static field: static private System.String kEmailSpecialCharacters
-    static ::Il2CppString* _get_kEmailSpecialCharacters();
+    static ::StringW _get_kEmailSpecialCharacters();
     // Set static field: static private System.String kEmailSpecialCharacters
-    static void _set_kEmailSpecialCharacters(::Il2CppString* value);
+    static void _set_kEmailSpecialCharacters(::StringW value);
     // static field const value: static private System.Int32 k_MaxTextLength
     static constexpr const int k_MaxTextLength = 16382;
     // Get static field: static private System.Int32 k_MaxTextLength
@@ -803,7 +804,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.Color m_SelectionColor
     UnityEngine::Color& dyn_m_SelectionColor();
     // Get instance field reference: protected System.String m_Text
-    ::Il2CppString*& dyn_m_Text();
+    ::StringW& dyn_m_Text();
     // Get instance field reference: private System.Single m_CaretBlinkRate
     float& dyn_m_CaretBlinkRate();
     // Get instance field reference: private System.Int32 m_CaretWidth
@@ -849,7 +850,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.Coroutine m_DragCoroutine
     UnityEngine::Coroutine*& dyn_m_DragCoroutine();
     // Get instance field reference: private System.String m_OriginalText
-    ::Il2CppString*& dyn_m_OriginalText();
+    ::StringW& dyn_m_OriginalText();
     // Get instance field reference: private System.Boolean m_WasCanceled
     bool& dyn_m_WasCanceled();
     // Get instance field reference: private System.Boolean m_HasDoneFocusTransition
@@ -865,7 +866,7 @@ namespace UnityEngine::UI {
     UnityEngine::EventSystems::BaseInput* get_input();
     // private System.String get_compositionString()
     // Offset: 0x1B1B6F4
-    ::Il2CppString* get_compositionString();
+    ::StringW get_compositionString();
     // protected UnityEngine.Mesh get_mesh()
     // Offset: 0x1B1B9DC
     UnityEngine::Mesh* get_mesh();
@@ -886,10 +887,10 @@ namespace UnityEngine::UI {
     void set_shouldActivateOnSelect(bool value);
     // public System.String get_text()
     // Offset: 0x1B1BBDC
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x1B1BBE4
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Boolean get_isFocused()
     // Offset: 0x1B1C3C8
     bool get_isFocused();
@@ -1048,10 +1049,10 @@ namespace UnityEngine::UI {
     void set_selectionFocusPosition(int value);
     // static private System.String get_clipboard()
     // Offset: 0x1B1DC8C
-    static ::Il2CppString* get_clipboard();
+    static ::StringW get_clipboard();
     // static private System.Void set_clipboard(System.String value)
     // Offset: 0x1B1DC94
-    static void set_clipboard(::Il2CppString* value);
+    static void set_clipboard(::StringW value);
     // public System.Single get_minWidth()
     // Offset: 0x1B24714
     float get_minWidth();
@@ -1078,10 +1079,10 @@ namespace UnityEngine::UI {
     UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
     // public System.Void SetTextWithoutNotify(System.String input)
     // Offset: 0x1B1BEBC
-    void SetTextWithoutNotify(::Il2CppString* input);
+    void SetTextWithoutNotify(::StringW input);
     // private System.Void SetText(System.String value, System.Boolean sendCallback)
     // Offset: 0x1B1BBEC
-    void SetText(::Il2CppString* value, bool sendCallback);
+    void SetText(::StringW value, bool sendCallback);
     // protected System.Void ClampPos(ref System.Int32 pos)
     // Offset: 0x1B1D084
     void ClampPos(ByRef<int> pos);
@@ -1156,7 +1157,7 @@ namespace UnityEngine::UI {
     void OnUpdateSelected(UnityEngine::EventSystems::BaseEventData* eventData);
     // private System.String GetSelectedString()
     // Offset: 0x1B206E0
-    ::Il2CppString* GetSelectedString();
+    ::StringW GetSelectedString();
     // private System.Int32 FindtNextWordBegin()
     // Offset: 0x1B20E78
     int FindtNextWordBegin();
@@ -1216,7 +1217,7 @@ namespace UnityEngine::UI {
     void SendOnSubmit();
     // protected System.Void Append(System.String input)
     // Offset: 0x1B21C04
-    void Append(::Il2CppString* input);
+    void Append(::StringW input);
     // protected System.Void Append(System.Char input)
     // Offset: 0x1B21CC4
     void Append(::Il2CppChar input);
@@ -1270,7 +1271,7 @@ namespace UnityEngine::UI {
     void GenerateHighlight(UnityEngine::UI::VertexHelper* vbo, UnityEngine::Vector2 roundingOffset);
     // protected System.Char Validate(System.String text, System.Int32 pos, System.Char ch)
     // Offset: 0x1B1EB54
-    ::Il2CppChar Validate(::Il2CppString* text, int pos, ::Il2CppChar ch);
+    ::Il2CppChar Validate(::StringW text, int pos, ::Il2CppChar ch);
     // public System.Void ActivateInputField()
     // Offset: 0x1B244B0
     void ActivateInputField();
@@ -1385,7 +1386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::get_compositionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1443,7 +1444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1451,7 +1452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::Il2CppString*)>(&UnityEngine::UI::InputField::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::StringW)>(&UnityEngine::UI::InputField::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1900,7 +1901,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_clipboard
 // Il2CppName: get_clipboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::UI::InputField::get_clipboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::UI::InputField::get_clipboard)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "get_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1908,7 +1909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::set_clipboard
 // Il2CppName: set_clipboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::UI::InputField::set_clipboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::UI::InputField::set_clipboard)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "set_clipboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1981,7 +1982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::SetTextWithoutNotify
 // Il2CppName: SetTextWithoutNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::Il2CppString*)>(&UnityEngine::UI::InputField::SetTextWithoutNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::StringW)>(&UnityEngine::UI::InputField::SetTextWithoutNotify)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "SetTextWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -1990,7 +1991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::Il2CppString*, bool)>(&UnityEngine::UI::InputField::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::StringW, bool)>(&UnityEngine::UI::InputField::SetText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sendCallback = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2208,7 +2209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::GetSelectedString
 // Il2CppName: GetSelectedString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::GetSelectedString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::UI::InputField::*)()>(&UnityEngine::UI::InputField::GetSelectedString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "GetSelectedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2385,7 +2386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::Il2CppString*)>(&UnityEngine::UI::InputField::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::InputField::*)(::StringW)>(&UnityEngine::UI::InputField::Append)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -2542,7 +2543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (UnityEngine::UI::InputField::*)(::Il2CppString*, int, ::Il2CppChar)>(&UnityEngine::UI::InputField::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (UnityEngine::UI::InputField::*)(::StringW, int, ::Il2CppChar)>(&UnityEngine::UI::InputField::Validate)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

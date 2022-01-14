@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -74,9 +75,9 @@ namespace System::Net::Http::Headers {
     // System.String media_type
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* media_type;
+    ::StringW media_type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
@@ -85,10 +86,10 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // Get instance field reference: System.String media_type
-    ::Il2CppString*& dyn_media_type();
+    ::StringW& dyn_media_type();
     // public System.String get_CharSet()
     // Offset: 0x17C2F30
-    ::Il2CppString* get_CharSet();
+    ::StringW get_CharSet();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
     // Offset: 0x17C2EB4
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
@@ -104,10 +105,10 @@ namespace System::Net::Http::Headers {
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.MediaTypeHeaderValue parsedValue)
     // Offset: 0x17C3260
-    static bool TryParse(::Il2CppString* input, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
+    static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
     // static System.Nullable`1<System.Net.Http.Headers.Token> TryParseMediaType(System.Net.Http.Headers.Lexer lexer, out System.String media)
     // Offset: 0x17C33A8
-    static System::Nullable_1<System::Net::Http::Headers::Token> TryParseMediaType(System::Net::Http::Headers::Lexer* lexer, ByRef<::Il2CppString*> media);
+    static System::Nullable_1<System::Net::Http::Headers::Token> TryParseMediaType(System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> media);
     // System.Void .ctor()
     // Offset: 0x17C2F28
     // Implemented from: System.Object
@@ -131,17 +132,17 @@ namespace System::Net::Http::Headers {
     // Offset: 0x17C31EC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.Headers.MediaTypeHeaderValue
   #pragma pack(pop)
-  static check_size<sizeof(MediaTypeHeaderValue), 24 + sizeof(::Il2CppString*)> __System_Net_Http_Headers_MediaTypeHeaderValueSizeCheck;
+  static check_size<sizeof(MediaTypeHeaderValue), 24 + sizeof(::StringW)> __System_Net_Http_Headers_MediaTypeHeaderValueSizeCheck;
   static_assert(sizeof(MediaTypeHeaderValue) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet
 // Il2CppName: get_CharSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "get_CharSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*>)>(&System::Net::Http::Headers::MediaTypeHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*>)>(&System::Net::Http::Headers::MediaTypeHeaderValue::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "MediaTypeHeaderValue")->this_arg;
@@ -179,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::TryParseMediaType
 // Il2CppName: TryParseMediaType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::Net::Http::Headers::Token> (*)(System::Net::Http::Headers::Lexer*, ByRef<::Il2CppString*>)>(&System::Net::Http::Headers::MediaTypeHeaderValue::TryParseMediaType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::Net::Http::Headers::Token> (*)(System::Net::Http::Headers::Lexer*, ByRef<::StringW>)>(&System::Net::Http::Headers::MediaTypeHeaderValue::TryParseMediaType)> {
   static const MethodInfo* get() {
     static auto* lexer = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Lexer")->byval_arg;
     static auto* media = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -210,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

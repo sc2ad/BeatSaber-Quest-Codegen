@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -73,21 +74,21 @@ namespace UnityEngine::ProBuilder {
     // static field const value: static private System.String k_ChangelogEntryPattern
     static constexpr const char* k_ChangelogEntryPattern = "(##\\s\\[[0-9]+\\.[0-9]+\\.[0-9]+(\\-[a-zA-Z]+(\\.[0-9]+)*)*\\])";
     // Get static field: static private System.String k_ChangelogEntryPattern
-    static ::Il2CppString* _get_k_ChangelogEntryPattern();
+    static ::StringW _get_k_ChangelogEntryPattern();
     // Set static field: static private System.String k_ChangelogEntryPattern
-    static void _set_k_ChangelogEntryPattern(::Il2CppString* value);
+    static void _set_k_ChangelogEntryPattern(::StringW value);
     // static field const value: static private System.String k_VersionInfoPattern
     static constexpr const char* k_VersionInfoPattern = "(?<=##\\s\\[).*(?=\\])";
     // Get static field: static private System.String k_VersionInfoPattern
-    static ::Il2CppString* _get_k_VersionInfoPattern();
+    static ::StringW _get_k_VersionInfoPattern();
     // Set static field: static private System.String k_VersionInfoPattern
-    static void _set_k_VersionInfoPattern(::Il2CppString* value);
+    static void _set_k_VersionInfoPattern(::StringW value);
     // static field const value: static private System.String k_VersionDatePattern
     static constexpr const char* k_VersionDatePattern = "(?<=##\\s\\[.*\\]\\s-\\s)[0-9-]*";
     // Get static field: static private System.String k_VersionDatePattern
-    static ::Il2CppString* _get_k_VersionDatePattern();
+    static ::StringW _get_k_VersionDatePattern();
     // Set static field: static private System.String k_VersionDatePattern
-    static void _set_k_VersionDatePattern(::Il2CppString* value);
+    static void _set_k_VersionDatePattern(::StringW value);
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
@@ -96,13 +97,13 @@ namespace UnityEngine::ProBuilder {
     // public System.Void .ctor(System.String log)
     // Offset: 0x21E3310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Changelog* New_ctor(::Il2CppString* log) {
+    static Changelog* New_ctor(::StringW log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
     // Offset: 0x21E3584
-    UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::Il2CppString* version, ::Il2CppString* contents);
+    UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)
   static check_size<sizeof(Changelog), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::CreateEntry
 // Il2CppName: CreateEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::StringW, ::StringW)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* contents = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

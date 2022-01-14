@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -31,10 +32,10 @@ namespace System::Net {
     public:
     // static public System.String GetWebStatusString(System.String Res, System.Net.WebExceptionStatus Status)
     // Offset: 0x18BB228
-    static ::Il2CppString* GetWebStatusString(::Il2CppString* Res, System::Net::WebExceptionStatus Status);
+    static ::StringW GetWebStatusString(::StringW Res, System::Net::WebExceptionStatus Status);
     // static public System.String GetWebStatusString(System.Net.WebExceptionStatus Status)
     // Offset: 0x18BB2F4
-    static ::Il2CppString* GetWebStatusString(System::Net::WebExceptionStatus Status);
+    static ::StringW GetWebStatusString(System::Net::WebExceptionStatus Status);
   }; // System.Net.NetRes
   #pragma pack(pop)
 }
@@ -42,7 +43,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
   static const MethodInfo* get() {
     static auto* Res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
@@ -52,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
   static const MethodInfo* get() {
     static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Status});

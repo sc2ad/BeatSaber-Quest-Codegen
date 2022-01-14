@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Multiplier
@@ -54,9 +55,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback
     class WTauNafCallback;
     // Get static field: static readonly System.String PRECOMP_NAME
-    static ::Il2CppString* _get_PRECOMP_NAME();
+    static ::StringW _get_PRECOMP_NAME();
     // Set static field: static readonly System.String PRECOMP_NAME
-    static void _set_PRECOMP_NAME(::Il2CppString* value);
+    static void _set_PRECOMP_NAME(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1F64350
     static void _cctor();

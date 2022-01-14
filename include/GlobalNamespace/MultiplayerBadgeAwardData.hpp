@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -68,15 +69,15 @@ namespace GlobalNamespace {
     // private readonly System.String _title
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String _subtitle
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* subtitle;
+    ::StringW subtitle;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly UnityEngine.Sprite _icon
     // Size: 0x8
     // Offset: 0x30
@@ -99,9 +100,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single _weight
     float& dyn__weight();
     // Get instance field reference: private readonly System.String _title
-    ::Il2CppString*& dyn__title();
+    ::StringW& dyn__title();
     // Get instance field reference: private readonly System.String _subtitle
-    ::Il2CppString*& dyn__subtitle();
+    ::StringW& dyn__subtitle();
     // Get instance field reference: private readonly UnityEngine.Sprite _icon
     UnityEngine::Sprite*& dyn__icon();
     // Get instance field reference: private readonly MultiplayerBadgeDataSO _badgeData
@@ -111,20 +112,20 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
     // public System.String get_titleLocalizationKey()
     // Offset: 0x11C53AC
-    ::Il2CppString* get_titleLocalizationKey();
+    ::StringW get_titleLocalizationKey();
     // public System.String get_title()
     // Offset: 0x11C53C8
-    ::Il2CppString* get_title();
+    ::StringW get_title();
     // public System.String get_subtitle()
     // Offset: 0x11C53D0
-    ::Il2CppString* get_subtitle();
+    ::StringW get_subtitle();
     // public UnityEngine.Sprite get_icon()
     // Offset: 0x11C53D8
     UnityEngine::Sprite* get_icon();
     // public System.Void .ctor(IConnectedPlayer awardedPlayer, System.Single weight, System.String title, System.String subtitle, MultiplayerBadgeDataSO badgeData)
     // Offset: 0x11C53E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerBadgeAwardData* New_ctor(GlobalNamespace::IConnectedPlayer* awardedPlayer, float weight, ::Il2CppString* title, ::Il2CppString* subtitle, GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
+    static MultiplayerBadgeAwardData* New_ctor(GlobalNamespace::IConnectedPlayer* awardedPlayer, float weight, ::StringW title, ::StringW subtitle, GlobalNamespace::MultiplayerBadgeDataSO* badgeData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgeAwardData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgeAwardData*, creationType>(awardedPlayer, weight, title, subtitle, badgeData)));
     }
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey
 // Il2CppName: get_titleLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_titleLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_title
 // Il2CppName: get_title
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle
 // Il2CppName: get_subtitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_subtitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

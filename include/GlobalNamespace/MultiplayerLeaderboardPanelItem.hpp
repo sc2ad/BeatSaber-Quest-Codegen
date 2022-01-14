@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -110,9 +111,9 @@ namespace GlobalNamespace {
     // private System.String _prevPlayerName
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* prevPlayerName;
+    ::StringW prevPlayerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _prevScore
     // Size: 0x4
     // Offset: 0x88
@@ -155,7 +156,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevPosition
     int& dyn__prevPosition();
     // Get instance field reference: private System.String _prevPlayerName
-    ::Il2CppString*& dyn__prevPlayerName();
+    ::StringW& dyn__prevPlayerName();
     // Get instance field reference: private System.Int32 _prevScore
     int& dyn__prevScore();
     // Get instance field reference: private System.Boolean _prevFailed
@@ -167,7 +168,7 @@ namespace GlobalNamespace {
     void set_hide(bool value);
     // public System.Void SetData(System.Int32 position, System.String playerName, System.Int32 score, System.Boolean failed, System.Int32 numberOfPlayers)
     // Offset: 0x1296964
-    void SetData(int position, ::Il2CppString* playerName, int score, bool failed, int numberOfPlayers);
+    void SetData(int position, ::StringW playerName, int score, bool failed, int numberOfPlayers);
     // public System.Void .ctor()
     // Offset: 0x1296C80
     // Implemented from: UnityEngine.MonoBehaviour
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(int, ::Il2CppString*, int, bool, int)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(int, ::StringW, int, bool, int)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

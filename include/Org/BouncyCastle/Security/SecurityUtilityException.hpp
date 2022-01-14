@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
@@ -43,7 +44,7 @@ namespace Org::BouncyCastle::Security {
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecurityUtilityException* New_ctor(::Il2CppString* message) {
+    static SecurityUtilityException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::SecurityUtilityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityUtilityException*, creationType>(message)));
     }

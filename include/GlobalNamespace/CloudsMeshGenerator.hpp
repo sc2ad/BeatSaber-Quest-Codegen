@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -315,9 +316,9 @@ namespace GlobalNamespace {
     // private System.String _meshName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* meshName;
+    ::StringW meshName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [HeaderAttribute] Offset: 0xF339F0
     // private System.Boolean _pauseGenerator
     // Size: 0x1
@@ -537,7 +538,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
     UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: private System.String _meshName
-    ::Il2CppString*& dyn__meshName();
+    ::StringW& dyn__meshName();
     // Get instance field reference: private System.Boolean _pauseGenerator
     bool& dyn__pauseGenerator();
     // Get instance field reference: private System.Boolean _bottomPushEnabled

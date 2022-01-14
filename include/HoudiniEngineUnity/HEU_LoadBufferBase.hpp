@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -53,9 +54,9 @@ namespace HoudiniEngineUnity {
     // public System.String _name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _bInstanced
     // Size: 0x1
     // Offset: 0x20
@@ -80,7 +81,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _id
     int& dyn__id();
     // Get instance field reference: public System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: public System.Boolean _bInstanced
     bool& dyn__bInstanced();
     // Get instance field reference: public System.Boolean _bInstancer
@@ -89,7 +90,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
     // public System.Void InitializeBuffer(System.Int32 id, System.String name, System.Boolean bInstanced, System.Boolean bInstancer)
     // Offset: 0x1598678
-    void InitializeBuffer(int id, ::Il2CppString* name, bool bInstanced, bool bInstancer);
+    void InitializeBuffer(int id, ::StringW name, bool bInstanced, bool bInstancer);
     // public System.Void .ctor()
     // Offset: 0x1598694
     // Implemented from: System.Object
@@ -108,7 +109,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer
 // Il2CppName: InitializeBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_LoadBufferBase::*)(int, ::Il2CppString*, bool, bool)>(&HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_LoadBufferBase::*)(int, ::StringW, bool, bool)>(&HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

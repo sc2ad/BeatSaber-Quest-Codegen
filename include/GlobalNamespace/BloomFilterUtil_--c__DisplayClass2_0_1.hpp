@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -71,7 +72,7 @@ namespace GlobalNamespace {
     }
     // T <ToBloomFilter>b__0(T bloomFilter, System.String str)
     // Offset: 0xFFFFFFFF
-    T $ToBloomFilter$b__0(T bloomFilter, ::Il2CppString* str) {
+    T $ToBloomFilter$b__0(T bloomFilter, ::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomFilterUtil::$$c__DisplayClass2_0_1::<ToBloomFilter>b__0");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<ToBloomFilter>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bloomFilter), ::il2cpp_utils::ExtractType(str)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, bloomFilter, str);

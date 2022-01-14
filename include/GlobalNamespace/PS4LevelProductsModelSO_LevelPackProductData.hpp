@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData);
@@ -36,21 +37,21 @@ namespace GlobalNamespace {
     // private System.String _productLabel
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* productLabel;
+    ::StringW productLabel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _categoryLabel
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* categoryLabel;
+    ::StringW categoryLabel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _packId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* packId;
+    ::StringW packId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _packLevelPriceDiscountMul
     // Size: 0x4
     // Offset: 0x28
@@ -67,24 +68,24 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>) == 0x8);
     public:
     // Get instance field reference: private System.String _productLabel
-    ::Il2CppString*& dyn__productLabel();
+    ::StringW& dyn__productLabel();
     // Get instance field reference: private System.String _categoryLabel
-    ::Il2CppString*& dyn__categoryLabel();
+    ::StringW& dyn__categoryLabel();
     // Get instance field reference: private System.String _packId
-    ::Il2CppString*& dyn__packId();
+    ::StringW& dyn__packId();
     // Get instance field reference: private System.Single _packLevelPriceDiscountMul
     float& dyn__packLevelPriceDiscountMul();
     // Get instance field reference: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
     ::ArrayW<GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_productLabel()
     // Offset: 0x1147D90
-    ::Il2CppString* get_productLabel();
+    ::StringW get_productLabel();
     // public System.String get_categoryLabel()
     // Offset: 0x1147D98
-    ::Il2CppString* get_categoryLabel();
+    ::StringW get_categoryLabel();
     // public System.String get_levelPackId()
     // Offset: 0x1147DA0
-    ::Il2CppString* get_levelPackId();
+    ::StringW get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
     // Offset: 0x1147DA8
     float get_packLevelPriceDiscountMul();
@@ -109,7 +110,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel
 // Il2CppName: get_productLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_productLabel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_productLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_categoryLabel
 // Il2CppName: get_categoryLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_categoryLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_categoryLabel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_categoryLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelPackId
 // Il2CppName: get_levelPackId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelPackId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::*)()>(&GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::get_levelPackId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*), "get_levelPackId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -77,9 +78,9 @@ namespace HoudiniEngineUnity {
     // private System.String _pipeName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* pipeName;
+    ::StringW pipeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _port
     // Size: 0x4
     // Offset: 0x30
@@ -91,9 +92,9 @@ namespace HoudiniEngineUnity {
     // private System.String _sessionClassType
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* sessionClassType;
+    ::StringW sessionClassType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isDefaultSession
     // Size: 0x1
     // Offset: 0x40
@@ -132,11 +133,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.String _pipeName
-    ::Il2CppString*& dyn__pipeName();
+    ::StringW& dyn__pipeName();
     // Get instance field reference: private System.Int32 _port
     int& dyn__port();
     // Get instance field reference: private System.String _sessionClassType
-    ::Il2CppString*& dyn__sessionClassType();
+    ::StringW& dyn__sessionClassType();
     // Get instance field reference: private System.Boolean _isDefaultSession
     bool& dyn__isDefaultSession();
     // Get instance field reference: private HoudiniEngineUnity.HEU_SessionSyncData _sessionSync
@@ -174,10 +175,10 @@ namespace HoudiniEngineUnity {
     bool get_IsValidSessionID();
     // public System.String get_PipeName()
     // Offset: 0x184658C
-    ::Il2CppString* get_PipeName();
+    ::StringW get_PipeName();
     // public System.Void set_PipeName(System.String value)
     // Offset: 0x18465D4
-    void set_PipeName(::Il2CppString* value);
+    void set_PipeName(::StringW value);
     // public System.Int32 get_Port()
     // Offset: 0x18465DC
     int get_Port();
@@ -317,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::get_PipeName
 // Il2CppName: get_PipeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_PipeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_PipeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "get_PipeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -325,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::set_PipeName
 // Il2CppName: set_PipeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_SessionData::set_PipeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::StringW)>(&HoudiniEngineUnity::HEU_SessionData::set_PipeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_PipeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

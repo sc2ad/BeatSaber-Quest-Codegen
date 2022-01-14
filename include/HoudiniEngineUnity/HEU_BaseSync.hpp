@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -100,9 +101,9 @@ namespace HoudiniEngineUnity {
     // public System.String _nodeName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* nodeName;
+    ::StringW nodeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x30
@@ -132,15 +133,15 @@ namespace HoudiniEngineUnity {
     // public System.String _outputCacheDirectory
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* outputCacheDirectory;
+    ::StringW outputCacheDirectory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<System.String> _outputCacheFilePaths
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::List_1<::Il2CppString*>* outputCacheFilePaths;
+    System::Collections::Generic::List_1<::StringW>* outputCacheFilePaths;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public HoudiniEngineUnity.HEU_GenerateOptions _generateOptions
     // Size: 0x5
     // Offset: 0x50
@@ -195,7 +196,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int64 _sessionID
     int64_t& dyn__sessionID();
     // Get instance field reference: public System.String _nodeName
-    ::Il2CppString*& dyn__nodeName();
+    ::StringW& dyn__nodeName();
     // Get instance field reference: public System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: public System.Boolean _syncing
@@ -205,9 +206,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeneratedOutput> _generatedOutputs
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeneratedOutput*>*& dyn__generatedOutputs();
     // Get instance field reference: public System.String _outputCacheDirectory
-    ::Il2CppString*& dyn__outputCacheDirectory();
+    ::StringW& dyn__outputCacheDirectory();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> _outputCacheFilePaths
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__outputCacheFilePaths();
+    System::Collections::Generic::List_1<::StringW>*& dyn__outputCacheFilePaths();
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateOptions _generateOptions
     HoudiniEngineUnity::HEU_GenerateOptions& dyn__generateOptions();
     // Get instance field reference: public System.Text.StringBuilder _log
@@ -245,13 +246,13 @@ namespace HoudiniEngineUnity {
     int GetParentNodeID(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void Log(System.String msg)
     // Offset: 0x146C17C
-    void Log(::Il2CppString* msg);
+    void Log(::StringW msg);
     // public System.Void ClearLog()
     // Offset: 0x146C21C
     void ClearLog();
     // public System.Void Error(System.String error)
     // Offset: 0x146C2EC
-    void Error(::Il2CppString* error);
+    void Error(::StringW error);
     // public System.Boolean IsLoaded()
     // Offset: 0x146C308
     bool IsLoaded();
@@ -308,7 +309,7 @@ namespace HoudiniEngineUnity {
     void GenerateInstancesFromAssetPaths(HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, UnityEngine::Transform* instanceRootTransform);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject assetSourceGO, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.String[] instancePrefixes, System.String instanceName, UnityEngine.GameObject collisionSourceGO)
     // Offset: 0x146FC8C
-    void CreateNewInstanceFromObject(UnityEngine::GameObject* assetSourceGO, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayW<::Il2CppString*> instancePrefixes, ::Il2CppString* instanceName, UnityEngine::GameObject* collisionSourceGO);
+    void CreateNewInstanceFromObject(UnityEngine::GameObject* assetSourceGO, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayW<::StringW> instancePrefixes, ::StringW instanceName, UnityEngine::GameObject* collisionSourceGO);
     // private System.Void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partId, ref UnityEngine.GameObject go)
     // Offset: 0x146E984
     void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partId, ByRef<UnityEngine::GameObject*> go);
@@ -320,13 +321,13 @@ namespace HoudiniEngineUnity {
     void SetOutputVisiblity(HoudiniEngineUnity::HEU_LoadBufferBase* buffer);
     // private System.String GetOutputCacheDirectory()
     // Offset: 0x146E880
-    ::Il2CppString* GetOutputCacheDirectory();
+    ::StringW GetOutputCacheDirectory();
     // public System.Void SetOutputCacheDirectory(System.String directory)
     // Offset: 0x146FE50
-    void SetOutputCacheDirectory(::Il2CppString* directory);
+    void SetOutputCacheDirectory(::StringW directory);
     // private System.Void AddGeneratedOutputFilePath(System.String path)
     // Offset: 0x146E8DC
-    void AddGeneratedOutputFilePath(::Il2CppString* path);
+    void AddGeneratedOutputFilePath(::StringW path);
     // public System.Void SyncUpdate()
     // Offset: 0x146FE58
     void SyncUpdate();
@@ -410,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_BaseSync::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::StringW)>(&HoudiniEngineUnity::HEU_BaseSync::Log)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -427,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_BaseSync::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::StringW)>(&HoudiniEngineUnity::HEU_BaseSync::Error)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -602,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject
 // Il2CppName: CreateNewInstanceFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, ::ArrayW<::Il2CppString*>, ::Il2CppString*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, ::ArrayW<::StringW>, ::StringW, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject)> {
   static const MethodInfo* get() {
     static auto* assetSourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* instanceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::GetOutputCacheDirectory
 // Il2CppName: GetOutputCacheDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_BaseSync::*)()>(&HoudiniEngineUnity::HEU_BaseSync::GetOutputCacheDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_BaseSync::*)()>(&HoudiniEngineUnity::HEU_BaseSync::GetOutputCacheDirectory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "GetOutputCacheDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -654,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::SetOutputCacheDirectory
 // Il2CppName: SetOutputCacheDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_BaseSync::SetOutputCacheDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::StringW)>(&HoudiniEngineUnity::HEU_BaseSync::SetOutputCacheDirectory)> {
   static const MethodInfo* get() {
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "SetOutputCacheDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{directory});
@@ -663,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::AddGeneratedOutputFilePath
 // Il2CppName: AddGeneratedOutputFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_BaseSync::AddGeneratedOutputFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(::StringW)>(&HoudiniEngineUnity::HEU_BaseSync::AddGeneratedOutputFilePath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_BaseSync*), "AddGeneratedOutputFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

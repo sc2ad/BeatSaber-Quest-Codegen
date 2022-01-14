@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -51,9 +52,9 @@ namespace System::Globalization {
     // System.String m_webName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_webName;
+    ::StringW m_webName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.UInt32 m_flags
     // Size: 0x4
     // Offset: 0x20
@@ -70,12 +71,12 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 m_uiFamilyCodePage
     int& dyn_m_uiFamilyCodePage();
     // Get instance field reference: System.String m_webName
-    ::Il2CppString*& dyn_m_webName();
+    ::StringW& dyn_m_webName();
     // Get instance field reference: System.UInt32 m_flags
     uint& dyn_m_flags();
     // public System.String get_WebName()
     // Offset: 0x19AEF6C
-    ::Il2CppString* get_WebName();
+    ::StringW get_WebName();
     // System.Void .ctor(System.Int32 dataIndex)
     // Offset: 0x19AEDBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -88,7 +89,7 @@ namespace System::Globalization {
     static void _cctor();
     // static System.String CreateString(System.String pStrings, System.UInt32 index)
     // Offset: 0x19AEE98
-    static ::Il2CppString* CreateString(::Il2CppString* pStrings, uint index);
+    static ::StringW CreateString(::StringW pStrings, uint index);
   }; // System.Globalization.CodePageDataItem
   #pragma pack(pop)
   static check_size<sizeof(CodePageDataItem), 32 + sizeof(uint)> __System_Globalization_CodePageDataItemSizeCheck;
@@ -98,7 +99,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::get_WebName
 // Il2CppName: get_WebName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::CodePageDataItem::*)()>(&System::Globalization::CodePageDataItem::get_WebName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::CodePageDataItem::*)()>(&System::Globalization::CodePageDataItem::get_WebName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CodePageDataItem*), "get_WebName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::CreateString
 // Il2CppName: CreateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint)>(&System::Globalization::CodePageDataItem::CreateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint)>(&System::Globalization::CodePageDataItem::CreateString)> {
   static const MethodInfo* get() {
     static auto* pStrings = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

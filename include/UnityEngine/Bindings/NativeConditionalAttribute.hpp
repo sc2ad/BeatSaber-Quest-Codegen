@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -43,9 +44,9 @@ namespace UnityEngine::Bindings {
     // private System.String <Condition>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Condition;
+    ::StringW Condition;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB0654
     // private System.Boolean <Enabled>k__BackingField
     // Size: 0x1
@@ -55,19 +56,19 @@ namespace UnityEngine::Bindings {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Condition>k__BackingField
-    ::Il2CppString*& dyn_$Condition$k__BackingField();
+    ::StringW& dyn_$Condition$k__BackingField();
     // Get instance field reference: private System.Boolean <Enabled>k__BackingField
     bool& dyn_$Enabled$k__BackingField();
     // public System.Void set_Condition(System.String value)
     // Offset: 0x26C9EB0
-    void set_Condition(::Il2CppString* value);
+    void set_Condition(::StringW value);
     // public System.Void set_Enabled(System.Boolean value)
     // Offset: 0x26C9EB8
     void set_Enabled(bool value);
     // public System.Void .ctor(System.String condition)
     // Offset: 0x26C9EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeConditionalAttribute* New_ctor(::Il2CppString* condition) {
+    static NativeConditionalAttribute* New_ctor(::StringW condition) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeConditionalAttribute*, creationType>(condition)));
     }
@@ -80,7 +81,7 @@ namespace UnityEngine::Bindings {
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::set_Condition
 // Il2CppName: set_Condition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeConditionalAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeConditionalAttribute::set_Condition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(&UnityEngine::Bindings::NativeConditionalAttribute::set_Condition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeConditionalAttribute*), "set_Condition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

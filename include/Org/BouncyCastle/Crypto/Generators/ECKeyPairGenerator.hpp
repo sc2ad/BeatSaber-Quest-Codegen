@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -76,9 +77,9 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // private readonly System.String algorithm
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* algorithm;
+    ::StringW algorithm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
     // Size: 0x8
     // Offset: 0x18
@@ -99,7 +100,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String algorithm
-    ::Il2CppString*& dyn_algorithm();
+    ::StringW& dyn_algorithm();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_parameters();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet
@@ -109,7 +110,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // public System.Void .ctor(System.String algorithm)
     // Offset: 0x1AB9558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECKeyPairGenerator* New_ctor(::Il2CppString* algorithm) {
+    static ECKeyPairGenerator* New_ctor(::StringW algorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECKeyPairGenerator*, creationType>(algorithm)));
     }

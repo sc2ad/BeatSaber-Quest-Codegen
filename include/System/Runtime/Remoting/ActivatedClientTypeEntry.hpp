@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace System::Runtime::Remoting {
     // private System.String applicationUrl
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* applicationUrl;
+    ::StringW applicationUrl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type obj_type
     // Size: 0x8
     // Offset: 0x28
@@ -65,12 +66,12 @@ namespace System::Runtime::Remoting {
     static_assert(sizeof(System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.String applicationUrl
-    ::Il2CppString*& dyn_applicationUrl();
+    ::StringW& dyn_applicationUrl();
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // public System.String get_ApplicationUrl()
     // Offset: 0x1624A7C
-    ::Il2CppString* get_ApplicationUrl();
+    ::StringW get_ApplicationUrl();
     // public System.Runtime.Remoting.Contexts.IContextAttribute[] get_ContextAttributes()
     // Offset: 0x1624A84
     ::ArrayW<System::Runtime::Remoting::Contexts::IContextAttribute*> get_ContextAttributes();
@@ -80,7 +81,7 @@ namespace System::Runtime::Remoting {
     // public System.Void .ctor(System.String typeName, System.String assemblyName, System.String appUrl)
     // Offset: 0x1624944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ActivatedClientTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName, ::Il2CppString* appUrl) {
+    static ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ActivatedClientTypeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivatedClientTypeEntry*, creationType>(typeName, assemblyName, appUrl)));
     }
@@ -88,7 +89,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1624A94
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Runtime.Remoting.ActivatedClientTypeEntry
   #pragma pack(pop)
   static check_size<sizeof(ActivatedClientTypeEntry), 40 + sizeof(System::Type*)> __System_Runtime_Remoting_ActivatedClientTypeEntrySizeCheck;
@@ -98,7 +99,7 @@ namespace System::Runtime::Remoting {
 // Writing MetadataGetter for method: System::Runtime::Remoting::ActivatedClientTypeEntry::get_ApplicationUrl
 // Il2CppName: get_ApplicationUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::get_ApplicationUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::get_ApplicationUrl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ActivatedClientTypeEntry*), "get_ApplicationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::ActivatedClientTypeEntry::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ActivatedClientTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

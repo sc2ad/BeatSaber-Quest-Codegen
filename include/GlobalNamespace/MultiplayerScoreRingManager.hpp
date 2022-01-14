@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -143,9 +144,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
     // Size: 0x8
     // Offset: 0x58
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>* scoreRingItems;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreRingItem*>* scoreRingItems;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreRingItem*>*) == 0x8);
     // private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
     // Size: 0x8
     // Offset: 0x60
@@ -204,7 +205,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerScoreRingItem/Pool _scoreRingItemPool
     GlobalNamespace::MultiplayerScoreRingItem::Pool*& dyn__scoreRingItemPool();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreRingItem> _scoreRingItems
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreRingItem*>*& dyn__scoreRingItems();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerScoreRingItem*>*& dyn__scoreRingItems();
     // Get instance field reference: private System.Collections.Generic.List`1<IConnectedPlayer> _allActivePlayers
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*& dyn__allActivePlayers();
     // Get instance field reference: private System.Int32 _currentlyScoreUpdateIndex
@@ -231,10 +232,10 @@ namespace GlobalNamespace {
     void UpdateScore(GlobalNamespace::IConnectedPlayer* playerToUpdate);
     // public System.Void AnimateColorsForPlayer(System.String userId, UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
     // Offset: 0x11796DC
-    void AnimateColorsForPlayer(::Il2CppString* userId, UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
+    void AnimateColorsForPlayer(::StringW userId, UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public MultiplayerScoreRingItem GetScoreRingItem(System.String userId)
     // Offset: 0x1179848
-    GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::Il2CppString* userId);
+    GlobalNamespace::MultiplayerScoreRingItem* GetScoreRingItem(::StringW userId);
     // public UnityEngine.GameObject[] GetScoreRingItems()
     // Offset: 0x1170474
     ::ArrayW<UnityEngine::GameObject*> GetScoreRingItems();
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::AnimateColorsForPlayer
 // Il2CppName: AnimateColorsForPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingManager::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerScoreRingManager::AnimateColorsForPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingManager::*)(::StringW, UnityEngine::Color, UnityEngine::Color, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerScoreRingManager::AnimateColorsForPlayer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nameColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::GetScoreRingItem
 // Il2CppName: GetScoreRingItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerScoreRingItem* (GlobalNamespace::MultiplayerScoreRingManager::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerScoreRingManager::GetScoreRingItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerScoreRingItem* (GlobalNamespace::MultiplayerScoreRingManager::*)(::StringW)>(&GlobalNamespace::MultiplayerScoreRingManager::GetScoreRingItem)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingManager*), "GetScoreRingItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});

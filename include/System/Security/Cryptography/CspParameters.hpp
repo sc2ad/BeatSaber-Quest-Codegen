@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -49,15 +50,15 @@ namespace System::Security::Cryptography {
     // public System.String ProviderName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* ProviderName;
+    ::StringW ProviderName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String KeyContainerName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* KeyContainerName;
+    ::StringW KeyContainerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 KeyNumber
     // Size: 0x4
     // Offset: 0x28
@@ -74,9 +75,9 @@ namespace System::Security::Cryptography {
     // Get instance field reference: public System.Int32 ProviderType
     int& dyn_ProviderType();
     // Get instance field reference: public System.String ProviderName
-    ::Il2CppString*& dyn_ProviderName();
+    ::StringW& dyn_ProviderName();
     // Get instance field reference: public System.String KeyContainerName
-    ::Il2CppString*& dyn_KeyContainerName();
+    ::StringW& dyn_KeyContainerName();
     // Get instance field reference: public System.Int32 KeyNumber
     int& dyn_KeyNumber();
     // Get instance field reference: private System.Int32 m_flags
@@ -97,14 +98,14 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.Int32 dwTypeIn, System.String strProviderNameIn, System.String strContainerNameIn)
     // Offset: 0x1A94E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CspParameters* New_ctor(int dwTypeIn, ::Il2CppString* strProviderNameIn, ::Il2CppString* strContainerNameIn) {
+    static CspParameters* New_ctor(int dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(dwTypeIn, strProviderNameIn, strContainerNameIn)));
     }
     // System.Void .ctor(System.Int32 providerType, System.String providerName, System.String keyContainerName, System.Security.Cryptography.CspProviderFlags flags)
     // Offset: 0x1A94EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CspParameters* New_ctor(int providerType, ::Il2CppString* providerName, ::Il2CppString* keyContainerName, System::Security::Cryptography::CspProviderFlags flags) {
+    static CspParameters* New_ctor(int providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(providerType, providerName, keyContainerName, flags)));
     }

@@ -8,6 +8,7 @@
 // Including type: System.Reflection.MethodInfo
 #include "System/Reflection/MethodInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -72,7 +73,7 @@ namespace System::Reflection::Emit {
     // Offset: 0x1E91DB8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.String MemberInfo::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.Type get_ReflectedType()
     // Offset: 0x1E91DF8
     // Implemented from: System.Reflection.MemberInfo
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

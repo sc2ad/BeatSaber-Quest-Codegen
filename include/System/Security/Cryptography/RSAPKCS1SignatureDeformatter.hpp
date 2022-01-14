@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -57,14 +58,14 @@ namespace System::Security::Cryptography {
     // private System.String hashName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* hashName;
+    ::StringW hashName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Security.Cryptography.RSA rsa
     System::Security::Cryptography::RSA*& dyn_rsa();
     // Get instance field reference: private System.String hashName
-    ::Il2CppString*& dyn_hashName();
+    ::StringW& dyn_hashName();
     // public System.Void .ctor(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0x1D1624C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,7 +87,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1D16284
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Void AsymmetricSignatureDeformatter::SetHashAlgorithm(System.String strName)
-    void SetHashAlgorithm(::Il2CppString* strName);
+    void SetHashAlgorithm(::StringW strName);
     // public override System.Void SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0x1D16314
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
@@ -99,7 +100,7 @@ namespace System::Security::Cryptography {
     bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
   }; // System.Security.Cryptography.RSAPKCS1SignatureDeformatter
   #pragma pack(pop)
-  static check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(::Il2CppString*)> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
+  static check_size<sizeof(RSAPKCS1SignatureDeformatter), 24 + sizeof(::StringW)> __System_Security_Cryptography_RSAPKCS1SignatureDeformatterSizeCheck;
   static_assert(sizeof(RSAPKCS1SignatureDeformatter) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -114,7 +115,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm
 // Il2CppName: SetHashAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::Il2CppString*)>(&System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::StringW)>(&System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm)> {
   static const MethodInfo* get() {
     static auto* strName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSAPKCS1SignatureDeformatter*), "SetHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{strName});

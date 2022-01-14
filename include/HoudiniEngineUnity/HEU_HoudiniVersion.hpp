@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -62,9 +63,9 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HOUDINI_VERSION_STRING
     static constexpr const char* HOUDINI_VERSION_STRING = "18.5.633";
     // Get static field: static public System.String HOUDINI_VERSION_STRING
-    static ::Il2CppString* _get_HOUDINI_VERSION_STRING();
+    static ::StringW _get_HOUDINI_VERSION_STRING();
     // Set static field: static public System.String HOUDINI_VERSION_STRING
-    static void _set_HOUDINI_VERSION_STRING(::Il2CppString* value);
+    static void _set_HOUDINI_VERSION_STRING(::StringW value);
     // static field const value: static public System.Int32 HOUDINI_ENGINE_MAJOR
     static constexpr const int HOUDINI_ENGINE_MAJOR = 3;
     // Get static field: static public System.Int32 HOUDINI_ENGINE_MAJOR
@@ -92,39 +93,39 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HOUDINI_INSTALL_PATH
     static constexpr const char* HOUDINI_INSTALL_PATH = "/opt/hfs18.5.633";
     // Get static field: static public System.String HOUDINI_INSTALL_PATH
-    static ::Il2CppString* _get_HOUDINI_INSTALL_PATH();
+    static ::StringW _get_HOUDINI_INSTALL_PATH();
     // Set static field: static public System.String HOUDINI_INSTALL_PATH
-    static void _set_HOUDINI_INSTALL_PATH(::Il2CppString* value);
+    static void _set_HOUDINI_INSTALL_PATH(::StringW value);
     // static field const value: static public System.String HAPI_BIN_PATH
     static constexpr const char* HAPI_BIN_PATH = "/bin";
     // Get static field: static public System.String HAPI_BIN_PATH
-    static ::Il2CppString* _get_HAPI_BIN_PATH();
+    static ::StringW _get_HAPI_BIN_PATH();
     // Set static field: static public System.String HAPI_BIN_PATH
-    static void _set_HAPI_BIN_PATH(::Il2CppString* value);
+    static void _set_HAPI_BIN_PATH(::StringW value);
     // static field const value: static public System.String HAPI_LIBRARY_PATH
     static constexpr const char* HAPI_LIBRARY_PATH = "/dsolib";
     // Get static field: static public System.String HAPI_LIBRARY_PATH
-    static ::Il2CppString* _get_HAPI_LIBRARY_PATH();
+    static ::StringW _get_HAPI_LIBRARY_PATH();
     // Set static field: static public System.String HAPI_LIBRARY_PATH
-    static void _set_HAPI_LIBRARY_PATH(::Il2CppString* value);
+    static void _set_HAPI_LIBRARY_PATH(::StringW value);
     // static field const value: static public System.String HAPI_SERVER
     static constexpr const char* HAPI_SERVER = "/opt/hfs18.5.633/bin/HARS";
     // Get static field: static public System.String HAPI_SERVER
-    static ::Il2CppString* _get_HAPI_SERVER();
+    static ::StringW _get_HAPI_SERVER();
     // Set static field: static public System.String HAPI_SERVER
-    static void _set_HAPI_SERVER(::Il2CppString* value);
+    static void _set_HAPI_SERVER(::StringW value);
     // static field const value: static public System.String HAPI_LIBRARY
     static constexpr const char* HAPI_LIBRARY = "/opt/hfs18.5.633/dsolib/libHAPIL.so";
     // Get static field: static public System.String HAPI_LIBRARY
-    static ::Il2CppString* _get_HAPI_LIBRARY();
+    static ::StringW _get_HAPI_LIBRARY();
     // Set static field: static public System.String HAPI_LIBRARY
-    static void _set_HAPI_LIBRARY(::Il2CppString* value);
+    static void _set_HAPI_LIBRARY(::StringW value);
     // static field const value: static public System.String HARC_LIBRARY
     static constexpr const char* HARC_LIBRARY = "/opt/hfs18.5.633/dsolib/libHARC.so";
     // Get static field: static public System.String HARC_LIBRARY
-    static ::Il2CppString* _get_HARC_LIBRARY();
+    static ::StringW _get_HARC_LIBRARY();
     // Set static field: static public System.String HARC_LIBRARY
-    static void _set_HARC_LIBRARY(::Il2CppString* value);
+    static void _set_HARC_LIBRARY(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x158ABDC
     // Implemented from: System.Object

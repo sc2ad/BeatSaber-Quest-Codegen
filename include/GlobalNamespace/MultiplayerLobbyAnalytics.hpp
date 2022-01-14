@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -92,10 +93,10 @@ namespace GlobalNamespace {
     void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
     // private System.Void LogClick(System.Collections.Generic.Dictionary`2<System.String,System.String> clickData)
     // Offset: 0x1299E40
-    void LogClick(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* clickData);
+    void LogClick(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
     // private System.String GetEventTypeFromLobbyType(GameServerLobbyFlowCoordinator/LobbyType lobbyType)
     // Offset: 0x1299D10
-    ::Il2CppString* GetEventTypeFromLobbyType(GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
+    ::StringW GetEventTypeFromLobbyType(GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType lobbyType);
     // public System.Void .ctor()
     // Offset: 0x129A0BC
     // Implemented from: UnityEngine.MonoBehaviour
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAnalytics::LogClick
 // Il2CppName: LogClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAnalytics::*)(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::MultiplayerLobbyAnalytics::LogClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAnalytics::*)(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&GlobalNamespace::MultiplayerLobbyAnalytics::LogClick)> {
   static const MethodInfo* get() {
     static auto* clickData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAnalytics*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clickData});
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAnalytics::GetEventTypeFromLobbyType
 // Il2CppName: GetEventTypeFromLobbyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerLobbyAnalytics::*)(GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType)>(&GlobalNamespace::MultiplayerLobbyAnalytics::GetEventTypeFromLobbyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerLobbyAnalytics::*)(GlobalNamespace::GameServerLobbyFlowCoordinator::LobbyType)>(&GlobalNamespace::MultiplayerLobbyAnalytics::GetEventTypeFromLobbyType)> {
   static const MethodInfo* get() {
     static auto* lobbyType = &::il2cpp_utils::GetClassFromName("", "GameServerLobbyFlowCoordinator/LobbyType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAnalytics*), "GetEventTypeFromLobbyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lobbyType});

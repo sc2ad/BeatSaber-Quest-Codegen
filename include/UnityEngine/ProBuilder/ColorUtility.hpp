@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -47,9 +48,9 @@ namespace UnityEngine::ProBuilder {
   class ColorUtility : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.ProBuilder.CIELabColor> ColorNameLookup
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::ProBuilder::CIELabColor*>* _get_ColorNameLookup();
+    static System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::ProBuilder::CIELabColor*>* _get_ColorNameLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.ProBuilder.CIELabColor> ColorNameLookup
-    static void _set_ColorNameLookup(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::ProBuilder::CIELabColor*>* value);
+    static void _set_ColorNameLookup(System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::ProBuilder::CIELabColor*>* value);
     // static private System.Void .cctor()
     // Offset: 0x21E4EA0
     static void _cctor();
@@ -82,7 +83,7 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::HSVColor* RGBtoHSV(UnityEngine::Color color);
     // static public System.String GetColorName(UnityEngine.Color InColor)
     // Offset: 0x21E4C98
-    static ::Il2CppString* GetColorName(UnityEngine::Color InColor);
+    static ::StringW GetColorName(UnityEngine::Color InColor);
     // static private UnityEngine.ProBuilder.CIELabColor CIELabFromRGB(System.Single R, System.Single G, System.Single B, System.Single Scale)
     // Offset: 0x21E4E74
     static UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(float R, float G, float B, float Scale);
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ColorUtility::GetColorName
 // Il2CppName: GetColorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::ColorUtility::GetColorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::ColorUtility::GetColorName)> {
   static const MethodInfo* get() {
     static auto* InColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ColorUtility*), "GetColorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{InColor});

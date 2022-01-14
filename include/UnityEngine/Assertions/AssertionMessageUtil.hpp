@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
@@ -24,13 +25,13 @@ namespace UnityEngine::Assertions {
     public:
     // static public System.String GetMessage(System.String failureMessage)
     // Offset: 0x1CFF3CC
-    static ::Il2CppString* GetMessage(::Il2CppString* failureMessage);
+    static ::StringW GetMessage(::StringW failureMessage);
     // static public System.String GetMessage(System.String failureMessage, System.String expected)
     // Offset: 0x1CFF4B8
-    static ::Il2CppString* GetMessage(::Il2CppString* failureMessage, ::Il2CppString* expected);
+    static ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
     // static public System.String GetEqualityMessage(System.Object actual, System.Object expected, System.Boolean expectEqual)
     // Offset: 0x1CFF0A8
-    static ::Il2CppString* GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
+    static ::StringW GetEqualityMessage(::Il2CppObject* actual, ::Il2CppObject* expected, bool expectEqual);
   }; // UnityEngine.Assertions.AssertionMessageUtil
   #pragma pack(pop)
 }
@@ -38,7 +39,7 @@ namespace UnityEngine::Assertions {
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetMessage
 // Il2CppName: GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   static const MethodInfo* get() {
     static auto* failureMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failureMessage});
@@ -47,7 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetMessage
 // Il2CppName: GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   static const MethodInfo* get() {
     static auto* failureMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -57,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage
 // Il2CppName: GetEqualityMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
   static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -48,35 +49,35 @@ namespace System::Runtime::Remoting {
     // private System.String serverType
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* serverType;
+    ::StringW serverType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] serverHierarchy
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> serverHierarchy;
+    ::ArrayW<::StringW> serverHierarchy;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String[] interfacesImplemented
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> interfacesImplemented;
+    ::ArrayW<::StringW> interfacesImplemented;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);
     }
     // Get instance field reference: private System.String serverType
-    ::Il2CppString*& dyn_serverType();
+    ::StringW& dyn_serverType();
     // Get instance field reference: private System.String[] serverHierarchy
-    ::ArrayW<::Il2CppString*>& dyn_serverHierarchy();
+    ::ArrayW<::StringW>& dyn_serverHierarchy();
     // Get instance field reference: private System.String[] interfacesImplemented
-    ::ArrayW<::Il2CppString*>& dyn_interfacesImplemented();
+    ::ArrayW<::StringW>& dyn_interfacesImplemented();
     // public System.String get_TypeName()
     // Offset: 0x1857550
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.Void .ctor(System.Type type)
     // Offset: 0x1854DAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,14 +90,14 @@ namespace System::Runtime::Remoting {
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
+  static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayW<::StringW>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
   static_assert(sizeof(TypeInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeInfo::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::TypeInfo::*)()>(&System::Runtime::Remoting::TypeInfo::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::TypeInfo::*)()>(&System::Runtime::Remoting::TypeInfo::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeInfo*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

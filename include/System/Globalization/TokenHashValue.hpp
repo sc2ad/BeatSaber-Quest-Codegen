@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -40,9 +41,9 @@ namespace System::Globalization {
     // System.String tokenString
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* tokenString;
+    ::StringW tokenString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.TokenType tokenType
     // Size: 0x4
     // Offset: 0x18
@@ -57,7 +58,7 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.String tokenString
-    ::Il2CppString*& dyn_tokenString();
+    ::StringW& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType
     System::TokenType& dyn_tokenType();
     // Get instance field reference: System.Int32 tokenValue
@@ -65,7 +66,7 @@ namespace System::Globalization {
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
     // Offset: 0x1C42FE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TokenHashValue* New_ctor(::Il2CppString* tokenString, System::TokenType tokenType, int tokenValue) {
+    static TokenHashValue* New_ctor(::StringW tokenString, System::TokenType tokenType, int tokenValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenHashValue*, creationType>(tokenString, tokenType, tokenValue)));
     }

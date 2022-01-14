@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(Microsoft::Win32::Win32Native::WIN32_FIND_DATA);
@@ -43,14 +44,14 @@ namespace Microsoft::Win32 {
     // System.String cFileName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* cFileName;
+    ::StringW cFileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Int32 dwFileAttributes
     int& dyn_dwFileAttributes();
     // Get instance field reference: System.String cFileName
-    ::Il2CppString*& dyn_cFileName();
+    ::StringW& dyn_cFileName();
     // public System.Void .ctor()
     // Offset: 0x1C6C328
     // Implemented from: System.Object
@@ -62,7 +63,7 @@ namespace Microsoft::Win32 {
     }
   }; // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA
   #pragma pack(pop)
-  static check_size<sizeof(Win32Native::WIN32_FIND_DATA), 24 + sizeof(::Il2CppString*)> __Microsoft_Win32_Win32Native_WIN32_FIND_DATASizeCheck;
+  static check_size<sizeof(Win32Native::WIN32_FIND_DATA), 24 + sizeof(::StringW)> __Microsoft_Win32_Win32Native_WIN32_FIND_DATASizeCheck;
   static_assert(sizeof(Win32Native::WIN32_FIND_DATA) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -249,9 +250,9 @@ namespace GlobalNamespace {
     // public System.String configPath
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* configPath;
+    ::StringW configPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.IO.FileSystemWatcher watcher
     // Size: 0x8
     // Offset: 0x70
@@ -318,7 +319,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SteamVR_ExternalCamera/Config config
     GlobalNamespace::SteamVR_ExternalCamera::Config& dyn_config();
     // Get instance field reference: public System.String configPath
-    ::Il2CppString*& dyn_configPath();
+    ::StringW& dyn_configPath();
     // Get instance field reference: private System.IO.FileSystemWatcher watcher
     System::IO::FileSystemWatcher*& dyn_watcher();
     // Get instance field reference: private UnityEngine.Camera cam

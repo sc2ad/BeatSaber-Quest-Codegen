@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner::GUI
@@ -75,27 +76,27 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // public System.String[] assemblyNames
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> assemblyNames;
+    ::ArrayW<::StringW> assemblyNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String[] groupNames
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> groupNames;
+    ::ArrayW<::StringW> groupNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String[] categoryNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> categoryNames;
+    ::ArrayW<::StringW> categoryNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String[] testNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> testNames;
+    ::ArrayW<::StringW> testNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Boolean synchronousOnly
     // Size: 0x1
     // Offset: 0x30
@@ -104,13 +105,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.String[] assemblyNames
-    ::ArrayW<::Il2CppString*>& dyn_assemblyNames();
+    ::ArrayW<::StringW>& dyn_assemblyNames();
     // Get instance field reference: public System.String[] groupNames
-    ::ArrayW<::Il2CppString*>& dyn_groupNames();
+    ::ArrayW<::StringW>& dyn_groupNames();
     // Get instance field reference: public System.String[] categoryNames
-    ::ArrayW<::Il2CppString*>& dyn_categoryNames();
+    ::ArrayW<::StringW>& dyn_categoryNames();
     // Get instance field reference: public System.String[] testNames
-    ::ArrayW<::Il2CppString*>& dyn_testNames();
+    ::ArrayW<::StringW>& dyn_testNames();
     // Get instance field reference: public System.Boolean synchronousOnly
     bool& dyn_synchronousOnly();
     // public NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
@@ -118,10 +119,10 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // static private NUnit.Framework.Internal.Filters.FullNameFilter OptimizedGroupFilter(System.String s)
     // Offset: 0x16D5150
-    static NUnit::Framework::Internal::Filters::FullNameFilter* OptimizedGroupFilter(::Il2CppString* s);
+    static NUnit::Framework::Internal::Filters::FullNameFilter* OptimizedGroupFilter(::StringW s);
     // static private System.Void AddFilters(System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestFilter> filters, System.String[] values, System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder)
     // Offset: 0x16D4D04
-    static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::ArrayW<::Il2CppString*> values, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder);
+    static void AddFilters(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>* filters, ::ArrayW<::StringW> values, System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>* builder);
     // public System.Void .ctor()
     // Offset: 0x16D52AC
     // Implemented from: System.Object
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::OptimizedGroupFilter
 // Il2CppName: OptimizedGroupFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Filters::FullNameFilter* (*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::OptimizedGroupFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Filters::FullNameFilter* (*)(::StringW)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::OptimizedGroupFilter)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*), "OptimizedGroupFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters
 // Il2CppName: AddFilters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::ArrayW<::Il2CppString*>, System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestFilter*>*, ::ArrayW<::StringW>, System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::AddFilters)> {
   static const MethodInfo* get() {
     static auto* filters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")})->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Xml.XmlCharType
 #include "System/Xml/XmlCharType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -33,10 +34,10 @@ namespace System::Xml {
     static void _cctor();
     // static System.Int32 ParseNCName(System.String s, System.Int32 offset)
     // Offset: 0x1B621E0
-    static int ParseNCName(::Il2CppString* s, int offset);
+    static int ParseNCName(::StringW s, int offset);
     // static System.Int32 ParseQName(System.String s, System.Int32 offset, out System.Int32 colonOffset)
     // Offset: 0x1B6232C
-    static int ParseQName(::Il2CppString* s, int offset, ByRef<int> colonOffset);
+    static int ParseQName(::StringW s, int offset, ByRef<int> colonOffset);
   }; // System.Xml.ValidateNames
   #pragma pack(pop)
 }
@@ -52,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::ValidateNames::ParseNCName
 // Il2CppName: ParseNCName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&System::Xml::ValidateNames::ParseNCName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int)>(&System::Xml::ValidateNames::ParseNCName)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Xml::ValidateNames::ParseQName
 // Il2CppName: ParseQName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ByRef<int>)>(&System::Xml::ValidateNames::ParseQName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ByRef<int>)>(&System::Xml::ValidateNames::ParseQName)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

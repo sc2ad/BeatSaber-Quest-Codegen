@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,9 +50,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String NIFullName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* NIFullName;
+    ::StringW NIFullName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Int64 NIobjectId
     // Size: 0x8
     // Offset: 0x18
@@ -130,7 +131,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.String NIFullName
-    ::Il2CppString*& dyn_NIFullName();
+    ::StringW& dyn_NIFullName();
     // Get instance field reference: System.Int64 NIobjectId
     int64_t& dyn_NIobjectId();
     // Get instance field reference: System.Int64 NIassemId
@@ -160,10 +161,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     bool get_IsSealed();
     // public System.String get_NIname()
     // Offset: 0x1860ED8
-    ::Il2CppString* get_NIname();
+    ::StringW get_NIname();
     // public System.Void set_NIname(System.String value)
     // Offset: 0x1860F1C
-    void set_NIname(::Il2CppString* value);
+    void set_NIname(::StringW value);
     // System.Void Init()
     // Offset: 0x1860E60
     void Init();
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname
 // Il2CppName: get_NIname
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::NameInfo*), "get_NIname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname
 // Il2CppName: set_NIname
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::NameInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::NameInfo::*)(::StringW)>(&System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::NameInfo*), "set_NIname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

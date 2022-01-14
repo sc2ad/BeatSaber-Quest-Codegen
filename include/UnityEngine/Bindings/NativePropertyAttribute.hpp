@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -61,7 +62,7 @@ namespace UnityEngine::Bindings {
     // public System.Void .ctor(System.String name, System.Boolean isFree, UnityEngine.Bindings.TargetType targetType)
     // Offset: 0x26CA224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativePropertyAttribute* New_ctor(::Il2CppString* name, bool isFree, UnityEngine::Bindings::TargetType targetType) {
+    static NativePropertyAttribute* New_ctor(::StringW name, bool isFree, UnityEngine::Bindings::TargetType targetType) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>(name, isFree, targetType)));
     }
@@ -81,7 +82,7 @@ namespace UnityEngine::Bindings {
     // Implemented from: UnityEngine.Bindings.NativeMethodAttribute
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativePropertyAttribute* New_ctor(::Il2CppString* name) {
+    static NativePropertyAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativePropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativePropertyAttribute*, creationType>(name)));
     }

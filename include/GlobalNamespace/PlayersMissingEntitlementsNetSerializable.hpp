@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -55,27 +56,27 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::Il2CppString*>* playersWithoutEntitlements;
+    System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
-    // Creating conversion operator: operator System::Collections::Generic::List_1<::Il2CppString*>*
-    constexpr operator System::Collections::Generic::List_1<::Il2CppString*>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::List_1<::StringW>*
+    constexpr operator System::Collections::Generic::List_1<::StringW>*() const noexcept {
       return playersWithoutEntitlements;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _playersWithoutEntitlements
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__playersWithoutEntitlements();
+    System::Collections::Generic::List_1<::StringW>*& dyn__playersWithoutEntitlements();
     // public System.Collections.Generic.List`1<System.String> get_playersWithoutEntitlements()
     // Offset: 0x2623E60
-    System::Collections::Generic::List_1<::Il2CppString*>* get_playersWithoutEntitlements();
+    System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
     // public System.Void .ctor(System.Collections.Generic.List`1<System.String> playersWithoutEntitlements)
     // Offset: 0x2623E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayersMissingEntitlementsNetSerializable* New_ctor(System::Collections::Generic::List_1<::Il2CppString*>* playersWithoutEntitlements) {
+    static PlayersMissingEntitlementsNetSerializable* New_ctor(System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayersMissingEntitlementsNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayersMissingEntitlementsNetSerializable*, creationType>(playersWithoutEntitlements)));
     }
@@ -96,14 +97,14 @@ namespace GlobalNamespace {
     }
   }; // PlayersMissingEntitlementsNetSerializable
   #pragma pack(pop)
-  static check_size<sizeof(PlayersMissingEntitlementsNetSerializable), 16 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_PlayersMissingEntitlementsNetSerializableSizeCheck;
+  static check_size<sizeof(PlayersMissingEntitlementsNetSerializable), 16 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_PlayersMissingEntitlementsNetSerializableSizeCheck;
   static_assert(sizeof(PlayersMissingEntitlementsNetSerializable) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements
 // Il2CppName: get_playersWithoutEntitlements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(&GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(&GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersMissingEntitlementsNetSerializable*), "get_playersWithoutEntitlements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

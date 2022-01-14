@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -74,7 +75,7 @@ namespace OVR::OpenVR {
     uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt64 GetDriverHandle(System.String pchDriverName)
     // Offset: 0x17DC160
-    uint64_t GetDriverHandle(::Il2CppString* pchDriverName);
+    uint64_t GetDriverHandle(::StringW pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
   #pragma pack(pop)
   static check_size<sizeof(CVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager)> __OVR_OpenVR_CVRDriverManagerSizeCheck;
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverHandle
 // Il2CppName: GetDriverHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRDriverManager::*)(::Il2CppString*)>(&OVR::OpenVR::CVRDriverManager::GetDriverHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRDriverManager::*)(::StringW)>(&OVR::OpenVR::CVRDriverManager::GetDriverHandle)> {
   static const MethodInfo* get() {
     static auto* pchDriverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchDriverName});

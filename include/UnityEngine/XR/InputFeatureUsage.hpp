@@ -11,6 +11,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: UnityEngine.XR.InputFeatureType
 #include "UnityEngine/XR/InputFeatureType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
@@ -35,9 +36,9 @@ namespace UnityEngine::XR {
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xEDBF50
     // UnityEngine.XR.InputFeatureType m_InternalType
     // Size: 0x4
@@ -47,7 +48,7 @@ namespace UnityEngine::XR {
     static_assert(sizeof(UnityEngine::XR::InputFeatureType) == 0x4);
     public:
     // Creating value type constructor for type: InputFeatureUsage
-    constexpr InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) noexcept : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
+    constexpr InputFeatureUsage(::StringW m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) noexcept : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -57,12 +58,12 @@ namespace UnityEngine::XR {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>*>(this);
     }
     // Get instance field reference: System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: UnityEngine.XR.InputFeatureType m_InternalType
     UnityEngine::XR::InputFeatureType& dyn_m_InternalType();
     // public System.String get_name()
     // Offset: 0x26BBBA4
-    ::Il2CppString* get_name();
+    ::StringW get_name();
     // UnityEngine.XR.InputFeatureType get_internalType()
     // Offset: 0x26BBBAC
     UnityEngine::XR::InputFeatureType get_internalType();
@@ -88,7 +89,7 @@ namespace UnityEngine::XR {
 // Writing MetadataGetter for method: UnityEngine::XR::InputFeatureUsage::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::XR::InputFeatureUsage::*)()>(&UnityEngine::XR::InputFeatureUsage::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::XR::InputFeatureUsage::*)()>(&UnityEngine::XR::InputFeatureUsage::get_name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputFeatureUsage), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

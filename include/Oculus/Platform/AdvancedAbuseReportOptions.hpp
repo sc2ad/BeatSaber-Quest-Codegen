@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -61,7 +62,7 @@ namespace Oculus::Platform {
     System::IntPtr& dyn_Handle();
     // public System.Void SetObjectType(System.String value)
     // Offset: 0x1D6E160
-    void SetObjectType(::Il2CppString* value);
+    void SetObjectType(::StringW value);
     // public System.Void SetReportType(Oculus.Platform.AbuseReportType value)
     // Offset: 0x1D6E284
     void SetReportType(Oculus::Platform::AbuseReportType value);
@@ -94,7 +95,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(::Il2CppString*)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(::StringW)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

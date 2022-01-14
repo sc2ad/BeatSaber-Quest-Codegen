@@ -14,6 +14,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
 #include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http
@@ -22,9 +23,6 @@ namespace System::Net::Http {
   class HttpResponseMessage;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient::$GetStringAsync$d__52, "System.Net.Http", "HttpClient/<GetStringAsync>d__52");
 // Type namespace: System.Net.Http
@@ -45,7 +43,7 @@ namespace System::Net::Http {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder;
     // public System.Net.Http.HttpClient <>4__this
     // Size: 0x8
     // Offset: 0x20
@@ -55,9 +53,9 @@ namespace System::Net::Http {
     // public System.String requestUri
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* requestUri;
+    ::StringW requestUri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.Http.HttpResponseMessage <resp>5__1
     // Size: 0x8
     // Offset: 0x30
@@ -71,10 +69,10 @@ namespace System::Net::Http {
     // private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.String> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x48
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter $$u__2;
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::StringW>::ConfiguredTaskAwaiter $$u__2;
     public:
     // Creating value type constructor for type: $GetStringAsync$d__52
-    constexpr $GetStringAsync$d__52(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, System::Net::Http::HttpClient* $$4__this_ = {}, ::Il2CppString* requestUri_ = {}, System::Net::Http::HttpResponseMessage* $resp$5__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, requestUri{requestUri_}, $resp$5__1{$resp$5__1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $GetStringAsync$d__52(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> $$t__builder_ = {}, System::Net::Http::HttpClient* $$4__this_ = {}, ::StringW requestUri_ = {}, System::Net::Http::HttpResponseMessage* $resp$5__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::StringW>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, requestUri{requestUri_}, $resp$5__1{$resp$5__1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -86,17 +84,17 @@ namespace System::Net::Http {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>& dyn_$$t__builder();
     // Get instance field reference: public System.Net.Http.HttpClient <>4__this
     System::Net::Http::HttpClient*& dyn_$$4__this();
     // Get instance field reference: public System.String requestUri
-    ::Il2CppString*& dyn_requestUri();
+    ::StringW& dyn_requestUri();
     // Get instance field reference: private System.Net.Http.HttpResponseMessage <resp>5__1
     System::Net::Http::HttpResponseMessage*& dyn_$resp$5__1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.Net.Http.HttpResponseMessage> <>u__1
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<System.String> <>u__2
-    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter& dyn_$$u__2();
+    typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::StringW>::ConfiguredTaskAwaiter& dyn_$$u__2();
     // private System.Void MoveNext()
     // Offset: 0x17C9E6C
     void MoveNext();

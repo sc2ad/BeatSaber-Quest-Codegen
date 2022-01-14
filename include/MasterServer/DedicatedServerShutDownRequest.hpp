@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,9 +58,9 @@ namespace MasterServer {
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* dedicatedServerId;
+    ::StringW dedicatedServerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 <dedicatedServerCreationTime>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -76,7 +77,7 @@ namespace MasterServer {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
     }
     // Get instance field reference: private System.String <dedicatedServerId>k__BackingField
-    ::Il2CppString*& dyn_$dedicatedServerId$k__BackingField();
+    ::StringW& dyn_$dedicatedServerId$k__BackingField();
     // Get instance field reference: private System.Int64 <dedicatedServerCreationTime>k__BackingField
     int64_t& dyn_$dedicatedServerCreationTime$k__BackingField();
     // static public PacketPool`1<MasterServer.DedicatedServerShutDownRequest> get_pool()
@@ -84,10 +85,10 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerShutDownRequest*>* get_pool();
     // public System.String get_dedicatedServerId()
     // Offset: 0x14B3CDC
-    ::Il2CppString* get_dedicatedServerId();
+    ::StringW get_dedicatedServerId();
     // private System.Void set_dedicatedServerId(System.String value)
     // Offset: 0x14B3CE4
-    void set_dedicatedServerId(::Il2CppString* value);
+    void set_dedicatedServerId(::StringW value);
     // public System.Int64 get_dedicatedServerCreationTime()
     // Offset: 0x14B3CEC
     int64_t get_dedicatedServerCreationTime();
@@ -96,7 +97,7 @@ namespace MasterServer {
     void set_dedicatedServerCreationTime(int64_t value);
     // public MasterServer.DedicatedServerShutDownRequest Init(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime)
     // Offset: 0x14B3CFC
-    MasterServer::DedicatedServerShutDownRequest* Init(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime);
+    MasterServer::DedicatedServerShutDownRequest* Init(::StringW dedicatedServerId, int64_t dedicatedServerCreationTime);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x14B3D04
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::DedicatedServerShutDownRequest::*)()>(&MasterServer::DedicatedServerShutDownRequest::get_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::DedicatedServerShutDownRequest::*)()>(&MasterServer::DedicatedServerShutDownRequest::get_dedicatedServerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerShutDownRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::set_dedicatedServerId
 // Il2CppName: set_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerShutDownRequest::*)(::Il2CppString*)>(&MasterServer::DedicatedServerShutDownRequest::set_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::DedicatedServerShutDownRequest::*)(::StringW)>(&MasterServer::DedicatedServerShutDownRequest::set_dedicatedServerId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::DedicatedServerShutDownRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerShutDownRequest* (MasterServer::DedicatedServerShutDownRequest::*)(::Il2CppString*, int64_t)>(&MasterServer::DedicatedServerShutDownRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerShutDownRequest* (MasterServer::DedicatedServerShutDownRequest::*)(::StringW, int64_t)>(&MasterServer::DedicatedServerShutDownRequest::Init)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

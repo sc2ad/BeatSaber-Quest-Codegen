@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
@@ -41,9 +42,9 @@ namespace JetBrains::Annotations {
     // private System.String <Contract>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Contract;
+    ::StringW Contract;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <ForceFullStates>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -52,15 +53,15 @@ namespace JetBrains::Annotations {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Contract>k__BackingField
-    ::Il2CppString*& dyn_$Contract$k__BackingField();
+    ::StringW& dyn_$Contract$k__BackingField();
     // Get instance field reference: private System.Boolean <ForceFullStates>k__BackingField
     bool& dyn_$ForceFullStates$k__BackingField();
     // public System.String get_Contract()
     // Offset: 0x26B9F74
-    ::Il2CppString* get_Contract();
+    ::StringW get_Contract();
     // private System.Void set_Contract(System.String value)
     // Offset: 0x26B9F7C
-    void set_Contract(::Il2CppString* value);
+    void set_Contract(::StringW value);
     // public System.Boolean get_ForceFullStates()
     // Offset: 0x26B9F84
     bool get_ForceFullStates();
@@ -70,14 +71,14 @@ namespace JetBrains::Annotations {
     // public System.Void .ctor(System.String contract)
     // Offset: 0x26B9F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract) {
+    static ContractAnnotationAttribute* New_ctor(::StringW contract) {
       static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ContractAnnotationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContractAnnotationAttribute*, creationType>(contract)));
     }
     // public System.Void .ctor(System.String contract, System.Boolean forceFullStates)
     // Offset: 0x26B9F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContractAnnotationAttribute* New_ctor(::Il2CppString* contract, bool forceFullStates) {
+    static ContractAnnotationAttribute* New_ctor(::StringW contract, bool forceFullStates) {
       static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::ContractAnnotationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContractAnnotationAttribute*, creationType>(contract, forceFullStates)));
     }
@@ -90,7 +91,7 @@ namespace JetBrains::Annotations {
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::get_Contract
 // Il2CppName: get_Contract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "get_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::ContractAnnotationAttribute::set_Contract
 // Il2CppName: set_Contract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "set_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

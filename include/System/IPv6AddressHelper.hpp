@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -32,10 +33,10 @@ namespace System {
     public:
     // static System.String ParseCanonicalName(System.String str, System.Int32 start, ref System.Boolean isLoopback, ref System.String scopeId)
     // Offset: 0x15DED48
-    static ::Il2CppString* ParseCanonicalName(::Il2CppString* str, int start, ByRef<bool> isLoopback, ByRef<::Il2CppString*> scopeId);
+    static ::StringW ParseCanonicalName(::StringW str, int start, ByRef<bool> isLoopback, ByRef<::StringW> scopeId);
     // static System.String CreateCanonicalName(System.UInt16* numbers)
     // Offset: 0x15DF2F8
-    static ::Il2CppString* CreateCanonicalName(uint16_t* numbers);
+    static ::StringW CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
     // Offset: 0x15DF904
     static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
@@ -53,7 +54,7 @@ namespace System {
     static bool IsValidStrict(::Il2CppChar* name, int start, ByRef<int> end);
     // static System.Boolean Parse(System.String address, System.UInt16* numbers, System.Int32 start, ref System.String scopeId)
     // Offset: 0x15DEE0C
-    static bool Parse(::Il2CppString* address, uint16_t* numbers, int start, ByRef<::Il2CppString*> scopeId);
+    static bool Parse(::StringW address, uint16_t* numbers, int start, ByRef<::StringW> scopeId);
   }; // System.IPv6AddressHelper
   #pragma pack(pop)
 }
@@ -61,7 +62,7 @@ namespace System {
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, ByRef<bool>, ByRef<::Il2CppString*>)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, ByRef<bool>, ByRef<::StringW>)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -73,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IPv6AddressHelper::CreateCanonicalName
 // Il2CppName: CreateCanonicalName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint16_t*)>(&System::IPv6AddressHelper::CreateCanonicalName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint16_t*)>(&System::IPv6AddressHelper::CreateCanonicalName)> {
   static const MethodInfo* get() {
     static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "CreateCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numbers});
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IPv6AddressHelper::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, uint16_t*, int, ByRef<::Il2CppString*>)>(&System::IPv6AddressHelper::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, uint16_t*, int, ByRef<::StringW>)>(&System::IPv6AddressHelper::Parse)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;

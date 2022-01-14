@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1.Misc
 namespace Org::BouncyCastle::Asn1::Misc {
@@ -39,7 +40,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
     // Offset: 0x1970C2C
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Org.BouncyCastle.Asn1.Misc.NetscapeCertType
   #pragma pack(pop)
 }
@@ -51,7 +52,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)()>(&Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)()>(&Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

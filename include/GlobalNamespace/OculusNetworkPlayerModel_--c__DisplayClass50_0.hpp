@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -61,14 +62,14 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* tcs;
+    System::Threading::Tasks::TaskCompletionSource_1<::StringW>* tcs;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.UInt64 id
     uint64_t& dyn_id();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*& dyn_tcs();
+    System::Threading::Tasks::TaskCompletionSource_1<::StringW>*& dyn_tcs();
     // System.Void <GetUserNameAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.User> result)
     // Offset: 0x136A0E0
     void $GetUserNameAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>* result);
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     }
   }; // OculusNetworkPlayerModel/<>c__DisplayClass50_0
   #pragma pack(pop)
-  static check_size<sizeof(OculusNetworkPlayerModel::$$c__DisplayClass50_0), 24 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*)> __GlobalNamespace_OculusNetworkPlayerModel_$$c__DisplayClass50_0SizeCheck;
+  static check_size<sizeof(OculusNetworkPlayerModel::$$c__DisplayClass50_0), 24 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<::StringW>*)> __GlobalNamespace_OculusNetworkPlayerModel_$$c__DisplayClass50_0SizeCheck;
   static_assert(sizeof(OculusNetworkPlayerModel::$$c__DisplayClass50_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

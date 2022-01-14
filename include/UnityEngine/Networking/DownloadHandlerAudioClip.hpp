@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -58,16 +59,16 @@ namespace UnityEngine::Networking {
     // public System.Void .ctor(System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x26D329C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DownloadHandlerAudioClip* New_ctor(::Il2CppString* url, UnityEngine::AudioType audioType) {
+    static DownloadHandlerAudioClip* New_ctor(::StringW url, UnityEngine::AudioType audioType) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::DownloadHandlerAudioClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DownloadHandlerAudioClip*, creationType>(url, audioType)));
     }
     // static private System.IntPtr Create(UnityEngine.Networking.DownloadHandlerAudioClip obj, System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x26D31E4
-    static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::Il2CppString* url, UnityEngine::AudioType audioType);
+    static System::IntPtr Create(UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, UnityEngine::AudioType audioType);
     // private System.Void InternalCreateAudioClip(System.String url, UnityEngine.AudioType audioType)
     // Offset: 0x26D323C
-    void InternalCreateAudioClip(::Il2CppString* url, UnityEngine::AudioType audioType);
+    void InternalCreateAudioClip(::StringW url, UnityEngine::AudioType audioType);
     // static public UnityEngine.AudioClip GetContent(UnityEngine.Networking.UnityWebRequest www)
     // Offset: 0x26D3408
     static UnityEngine::AudioClip* GetContent(UnityEngine::Networking::UnityWebRequest* www);
@@ -80,7 +81,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x26D330C
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.String DownloadHandler::GetText()
-    ::Il2CppString* GetText();
+    ::StringW GetText();
   }; // UnityEngine.Networking.DownloadHandlerAudioClip
   #pragma pack(pop)
 }
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAudioClip*, ::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAudioClip*, ::StringW, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::Create)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerAudioClip")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip
 // Il2CppName: InternalCreateAudioClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAudioClip::*)(::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAudioClip::*)(::StringW, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* audioType = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioType")->byval_arg;
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

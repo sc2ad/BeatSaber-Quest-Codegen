@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
     float& dyn__relativeSfxVolume();
     // public System.String get_levelId()
     // Offset: 0x11B4898
-    ::Il2CppString* get_levelId();
+    ::StringW get_levelId();
     // public System.Single get_relativeSfxVolume()
     // Offset: 0x11B4948
     float get_relativeSfxVolume();
@@ -80,7 +81,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::get_levelId
 // Il2CppName: get_levelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::*)()>(&GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::get_levelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::*)()>(&GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::get_levelId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

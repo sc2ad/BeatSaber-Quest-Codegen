@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -78,9 +79,9 @@ namespace GlobalNamespace {
     // public System.String pathName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* pathName;
+    ::StringW pathName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 cubemapSize
     // Size: 0x4
     // Offset: 0x30
@@ -99,7 +100,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.KeyCode triggeredByKey
     UnityEngine::KeyCode& dyn_triggeredByKey();
     // Get instance field reference: public System.String pathName
-    ::Il2CppString*& dyn_pathName();
+    ::StringW& dyn_pathName();
     // Get instance field reference: public System.Int32 cubemapSize
     int& dyn_cubemapSize();
     // private System.Void Update()
@@ -107,13 +108,13 @@ namespace GlobalNamespace {
     void Update();
     // static public System.Void TriggerCubemapCapture(UnityEngine.Vector3 capturePos, System.Int32 cubemapSize, System.String pathName)
     // Offset: 0x13E1508
-    static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::Il2CppString* pathName);
+    static void TriggerCubemapCapture(UnityEngine::Vector3 capturePos, int cubemapSize, ::StringW pathName);
     // static public System.Void RenderIntoCubemap(UnityEngine.Camera ownerCamera, UnityEngine.Cubemap outCubemap)
     // Offset: 0x13E1774
     static void RenderIntoCubemap(UnityEngine::Camera* ownerCamera, UnityEngine::Cubemap* outCubemap);
     // static public System.Boolean SaveCubemapCapture(UnityEngine.Cubemap cubemap, System.String pathName)
     // Offset: 0x13E1DD0
-    static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::Il2CppString* pathName);
+    static bool SaveCubemapCapture(UnityEngine::Cubemap* cubemap, ::StringW pathName);
     // public System.Void .ctor()
     // Offset: 0x13E24C8
     // Implemented from: UnityEngine.MonoBehaviour
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::TriggerCubemapCapture
 // Il2CppName: TriggerCubemapCapture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, int, ::Il2CppString*)>(&GlobalNamespace::OVRCubemapCapture::TriggerCubemapCapture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, int, ::StringW)>(&GlobalNamespace::OVRCubemapCapture::TriggerCubemapCapture)> {
   static const MethodInfo* get() {
     static auto* capturePos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* cubemapSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::SaveCubemapCapture
 // Il2CppName: SaveCubemapCapture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Cubemap*, ::Il2CppString*)>(&GlobalNamespace::OVRCubemapCapture::SaveCubemapCapture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Cubemap*, ::StringW)>(&GlobalNamespace::OVRCubemapCapture::SaveCubemapCapture)> {
   static const MethodInfo* get() {
     static auto* cubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
     static auto* pathName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -13,6 +13,7 @@
 #include "Oculus/Platform/MatchmakingCriterionImportance.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
@@ -29,9 +30,9 @@ namespace Oculus::Platform {
     // public System.String key_
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* key;
+    ::StringW key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public Oculus.Platform.MatchmakingCriterionImportance importance_
     // Size: 0x4
     // Offset: 0x8
@@ -54,13 +55,13 @@ namespace Oculus::Platform {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Creating value type constructor for type: ovrMatchmakingCriterion
-    constexpr ovrMatchmakingCriterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) noexcept : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
+    constexpr ovrMatchmakingCriterion(::StringW key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) noexcept : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.String key_
-    ::Il2CppString*& dyn_key_();
+    ::StringW& dyn_key_();
     // Get instance field reference: public Oculus.Platform.MatchmakingCriterionImportance importance_
     Oculus::Platform::MatchmakingCriterionImportance& dyn_importance_();
     // Get instance field reference: public System.IntPtr parameterArray
@@ -69,7 +70,7 @@ namespace Oculus::Platform {
     uint& dyn_parameterArrayCount();
     // public System.Void .ctor(System.String key, Oculus.Platform.MatchmakingCriterionImportance importance)
     // Offset: 0x1749DC4
-    ovrMatchmakingCriterion(::Il2CppString* key, Oculus::Platform::MatchmakingCriterionImportance importance);
+    ovrMatchmakingCriterion(::StringW key, Oculus::Platform::MatchmakingCriterionImportance importance);
   }; // Oculus.Platform.CAPI/Oculus.Platform.ovrMatchmakingCriterion
   #pragma pack(pop)
   static check_size<sizeof(CAPI::ovrMatchmakingCriterion), 24 + sizeof(uint)> __Oculus_Platform_CAPI_ovrMatchmakingCriterionSizeCheck;

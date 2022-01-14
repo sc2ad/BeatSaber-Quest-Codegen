@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -82,9 +83,9 @@ namespace HoudiniEngineUnity {
     // public System.String _instancedObjectPath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* instancedObjectPath;
+    ::StringW instancedObjectPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
     // Size: 0x8
     // Offset: 0x38
@@ -105,7 +106,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _instancedObjectNodeID
     int& dyn__instancedObjectNodeID();
     // Get instance field reference: public System.String _instancedObjectPath
-    ::Il2CppString*& dyn__instancedObjectPath();
+    ::StringW& dyn__instancedObjectPath();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
     System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__instances();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Serialization
 namespace UnityEngine::Serialization {
@@ -42,26 +43,26 @@ namespace UnityEngine::Serialization {
     // private System.String m_oldName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_oldName;
+    ::StringW m_oldName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_oldName;
     }
     // Get instance field reference: private System.String m_oldName
-    ::Il2CppString*& dyn_m_oldName();
+    ::StringW& dyn_m_oldName();
     // public System.Void .ctor(System.String oldName)
     // Offset: 0x1DFEAC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FormerlySerializedAsAttribute* New_ctor(::Il2CppString* oldName) {
+    static FormerlySerializedAsAttribute* New_ctor(::StringW oldName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Serialization::FormerlySerializedAsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormerlySerializedAsAttribute*, creationType>(oldName)));
     }
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute
   #pragma pack(pop)
-  static check_size<sizeof(FormerlySerializedAsAttribute), 16 + sizeof(::Il2CppString*)> __UnityEngine_Serialization_FormerlySerializedAsAttributeSizeCheck;
+  static check_size<sizeof(FormerlySerializedAsAttribute), 16 + sizeof(::StringW)> __UnityEngine_Serialization_FormerlySerializedAsAttributeSizeCheck;
   static_assert(sizeof(FormerlySerializedAsAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -84,8 +84,8 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract, class TMemoryPool>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
-      static_assert(std::is_base_of_v<Zenject::MemoryPool_2<Zenject::IMemoryPool*, TContract>, std::remove_pointer_t<TMemoryPool>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, Zenject::MemoryPool_2<Zenject::IMemoryPool*, TContract>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()})));
@@ -95,7 +95,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder) {
-      static_assert(std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
@@ -105,7 +105,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
@@ -115,7 +115,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
+      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromMonoPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromMonoPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
@@ -125,7 +125,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract>
     static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
+      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromMonoPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromMonoPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
@@ -135,8 +135,8 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TContract, class TMemoryPool>
     static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_1<TContract>* fromBinder) {
-      static_assert(std::is_base_of_v<Zenject::IPoolable_1<Zenject::IMemoryPool*>, std::remove_pointer_t<TContract>>);
-      static_assert(std::is_base_of_v<Zenject::MemoryPool_2<Zenject::IMemoryPool*, TContract>, std::remove_pointer_t<TMemoryPool>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_1<Zenject::IMemoryPool*>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, Zenject::MemoryPool_2<Zenject::IMemoryPool*, TContract>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder0Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder0Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()})));

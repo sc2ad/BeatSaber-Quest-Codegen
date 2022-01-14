@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,10 +51,10 @@ namespace UnityEngine::Experimental::TerrainAPI {
     }
     // public System.Void Invoke(UnityEngine.Terrain terrain, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched)
     // Offset: 0x2695A5C
-    void Invoke(UnityEngine::Terrain* terrain, ::Il2CppString* textureName, UnityEngine::RectInt texelRegion, bool synched);
+    void Invoke(UnityEngine::Terrain* terrain, ::StringW textureName, UnityEngine::RectInt texelRegion, bool synched);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Terrain terrain, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched, System.AsyncCallback callback, System.Object object)
     // Offset: 0x2695FB4
-    System::IAsyncResult* BeginInvoke(UnityEngine::Terrain* terrain, ::Il2CppString* textureName, UnityEngine::RectInt texelRegion, bool synched, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Terrain* terrain, ::StringW textureName, UnityEngine::RectInt texelRegion, bool synched, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x2696078
     void EndInvoke(System::IAsyncResult* result);
@@ -68,7 +69,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::*)(UnityEngine::Terrain*, ::Il2CppString*, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::*)(UnityEngine::Terrain*, ::StringW, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* terrain = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     static auto* textureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::*)(UnityEngine::Terrain*, ::Il2CppString*, UnityEngine::RectInt, bool, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::*)(UnityEngine::Terrain*, ::StringW, UnityEngine::RectInt, bool, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* terrain = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     static auto* textureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

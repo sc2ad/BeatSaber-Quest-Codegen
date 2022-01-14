@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::OculusTestExperiment::ExperimentData);
@@ -37,40 +38,40 @@ namespace GlobalNamespace {
     // private readonly System.String _experimentPlatformKey
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* experimentPlatformKey;
+    ::StringW experimentPlatformKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator GlobalNamespace::IExperimentData
     operator GlobalNamespace::IExperimentData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IExperimentData*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return experimentPlatformKey;
     }
     // Get instance field reference: private readonly System.String _experimentPlatformKey
-    ::Il2CppString*& dyn__experimentPlatformKey();
+    ::StringW& dyn__experimentPlatformKey();
     // public System.String get_experimentPlatformKey()
     // Offset: 0x1371B70
-    ::Il2CppString* get_experimentPlatformKey();
+    ::StringW get_experimentPlatformKey();
     // public System.Void .ctor(System.String experimentPlatformKey)
     // Offset: 0x1371B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OculusTestExperiment::ExperimentData* New_ctor(::Il2CppString* experimentPlatformKey) {
+    static OculusTestExperiment::ExperimentData* New_ctor(::StringW experimentPlatformKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusTestExperiment::ExperimentData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusTestExperiment::ExperimentData*, creationType>(experimentPlatformKey)));
     }
   }; // OculusTestExperiment/ExperimentData
   #pragma pack(pop)
-  static check_size<sizeof(OculusTestExperiment::ExperimentData), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_OculusTestExperiment_ExperimentDataSizeCheck;
+  static check_size<sizeof(OculusTestExperiment::ExperimentData), 16 + sizeof(::StringW)> __GlobalNamespace_OculusTestExperiment_ExperimentDataSizeCheck;
   static_assert(sizeof(OculusTestExperiment::ExperimentData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusTestExperiment::ExperimentData::get_experimentPlatformKey
 // Il2CppName: get_experimentPlatformKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusTestExperiment::ExperimentData::*)()>(&GlobalNamespace::OculusTestExperiment::ExperimentData::get_experimentPlatformKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OculusTestExperiment::ExperimentData::*)()>(&GlobalNamespace::OculusTestExperiment::ExperimentData::get_experimentPlatformKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusTestExperiment::ExperimentData*), "get_experimentPlatformKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

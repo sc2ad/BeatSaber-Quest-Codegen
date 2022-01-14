@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -157,9 +158,9 @@ namespace System::Security::Util {
     // private System.String _inString
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* inString;
+    ::StringW inString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _inIndex
     // Size: 0x4
     // Offset: 0x30
@@ -199,15 +200,15 @@ namespace System::Security::Util {
     // private System.String[] _searchStrings
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<::Il2CppString*> searchStrings;
+    ::ArrayW<::StringW> searchStrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String[] _replaceStrings
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<::Il2CppString*> replaceStrings;
+    ::ArrayW<::StringW> replaceStrings;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Int32 _inNestedIndex
     // Size: 0x4
     // Offset: 0x60
@@ -223,9 +224,9 @@ namespace System::Security::Util {
     // private System.String _inNestedString
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* inNestedString;
+    ::StringW inNestedString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Int32 LineNo
     int& dyn_LineNo();
@@ -236,7 +237,7 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Char[] _inChars
     ::ArrayW<::Il2CppChar>& dyn__inChars();
     // Get instance field reference: private System.String _inString
-    ::Il2CppString*& dyn__inString();
+    ::StringW& dyn__inString();
     // Get instance field reference: private System.Int32 _inIndex
     int& dyn__inIndex();
     // Get instance field reference: private System.Int32 _inSize
@@ -250,19 +251,19 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // Get instance field reference: private System.String[] _searchStrings
-    ::ArrayW<::Il2CppString*>& dyn__searchStrings();
+    ::ArrayW<::StringW>& dyn__searchStrings();
     // Get instance field reference: private System.String[] _replaceStrings
-    ::ArrayW<::Il2CppString*>& dyn__replaceStrings();
+    ::ArrayW<::StringW>& dyn__replaceStrings();
     // Get instance field reference: private System.Int32 _inNestedIndex
     int& dyn__inNestedIndex();
     // Get instance field reference: private System.Int32 _inNestedSize
     int& dyn__inNestedSize();
     // Get instance field reference: private System.String _inNestedString
-    ::Il2CppString*& dyn__inNestedString();
+    ::StringW& dyn__inNestedString();
     // System.Void .ctor(System.String input)
     // Offset: 0x1DD60F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Tokenizer* New_ctor(::Il2CppString* input) {
+    static Tokenizer* New_ctor(::StringW input) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer*, creationType>(input)));
     }
@@ -280,10 +281,10 @@ namespace System::Security::Util {
     void GetTokens(System::Security::Util::TokenizerStream* stream, int maxNum, bool endAfterKet);
     // private System.String GetStringToken()
     // Offset: 0x1DD73B0
-    ::Il2CppString* GetStringToken();
+    ::StringW GetStringToken();
   }; // System.Security.Util.Tokenizer
   #pragma pack(pop)
-  static check_size<sizeof(Tokenizer), 104 + sizeof(::Il2CppString*)> __System_Security_Util_TokenizerSizeCheck;
+  static check_size<sizeof(Tokenizer), 104 + sizeof(::StringW)> __System_Security_Util_TokenizerSizeCheck;
   static_assert(sizeof(Tokenizer) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::GetStringToken
 // Il2CppName: GetStringToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Util::Tokenizer::*)()>(&System::Security::Util::Tokenizer::GetStringToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Util::Tokenizer::*)()>(&System::Security::Util::Tokenizer::GetStringToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer*), "GetStringToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -10,6 +10,7 @@
 // Including type: System.Net.Configuration.UnicodeEncodingConformance
 #include "System/Net/Configuration/UnicodeEncodingConformance.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -64,19 +65,19 @@ namespace System::Net {
     static void _cctor();
     // static public System.String HtmlEncode(System.String value)
     // Offset: 0x17F922C
-    static ::Il2CppString* HtmlEncode(::Il2CppString* value);
+    static ::StringW HtmlEncode(::StringW value);
     // static public System.Void HtmlEncode(System.String value, System.IO.TextWriter output)
     // Offset: 0x17F94A8
-    static void HtmlEncode(::Il2CppString* value, System::IO::TextWriter* output);
+    static void HtmlEncode(::StringW value, System::IO::TextWriter* output);
     // static private System.Int32 IndexOfHtmlEncodingChars(System.String s, System.Int32 startPos)
     // Offset: 0x17F9354
-    static int IndexOfHtmlEncodingChars(::Il2CppString* s, int startPos);
+    static int IndexOfHtmlEncodingChars(::StringW s, int startPos);
     // static private System.String UrlDecodeInternal(System.String value, System.Text.Encoding encoding)
     // Offset: 0x17F99E8
-    static ::Il2CppString* UrlDecodeInternal(::Il2CppString* value, System::Text::Encoding* encoding);
+    static ::StringW UrlDecodeInternal(::StringW value, System::Text::Encoding* encoding);
     // static public System.String UrlDecode(System.String encodedValue)
     // Offset: 0x17F9E88
-    static ::Il2CppString* UrlDecode(::Il2CppString* encodedValue);
+    static ::StringW UrlDecode(::StringW encodedValue);
     // static private System.Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(ref System.Char* pch, ref System.Int32 charsRemaining)
     // Offset: 0x17F9920
     static int GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::Il2CppChar*> pch, ByRef<int> charsRemaining);
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::WebUtility::HtmlEncode
 // Il2CppName: HtmlEncode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::WebUtility::HtmlEncode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::WebUtility::HtmlEncode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility*), "HtmlEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebUtility::HtmlEncode
 // Il2CppName: HtmlEncode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::IO::TextWriter*)>(&System::Net::WebUtility::HtmlEncode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::IO::TextWriter*)>(&System::Net::WebUtility::HtmlEncode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::WebUtility::IndexOfHtmlEncodingChars
 // Il2CppName: IndexOfHtmlEncodingChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&System::Net::WebUtility::IndexOfHtmlEncodingChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int)>(&System::Net::WebUtility::IndexOfHtmlEncodingChars)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Net::WebUtility::UrlDecodeInternal
 // Il2CppName: UrlDecodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecodeInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebUtility::UrlDecode
 // Il2CppName: UrlDecode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::WebUtility::UrlDecode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::WebUtility::UrlDecode)> {
   static const MethodInfo* get() {
     static auto* encodedValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility*), "UrlDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encodedValue});

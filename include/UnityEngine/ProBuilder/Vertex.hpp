@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -285,7 +286,7 @@ namespace UnityEngine::ProBuilder {
     void Normalize();
     // public System.String ToString(System.String args)
     // Offset: 0x2587F50
-    ::Il2CppString* ToString(::Il2CppString* args);
+    ::StringW ToString(::StringW args);
     // static public System.Void GetArrays(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, out UnityEngine.Vector3[] position, out UnityEngine.Color[] color, out UnityEngine.Vector2[] uv0, out UnityEngine.Vector3[] normal, out UnityEngine.Vector4[] tangent, out UnityEngine.Vector2[] uv2, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv3, out System.Collections.Generic.List`1<UnityEngine.Vector4> uv4)
     // Offset: 0x2588210
     static void GetArrays(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::ArrayW<UnityEngine::Vector3>> position, ByRef<::ArrayW<UnityEngine::Color>> color, ByRef<::ArrayW<UnityEngine::Vector2>> uv0, ByRef<::ArrayW<UnityEngine::Vector3>> normal, ByRef<::ArrayW<UnityEngine::Vector4>> tangent, ByRef<::ArrayW<UnityEngine::Vector2>> uv2, ByRef<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uv3, ByRef<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uv4);
@@ -743,7 +744,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vertex::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Vertex::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Vertex::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ProBuilder::Vertex::*)(::StringW)>(&UnityEngine::ProBuilder::Vertex::ToString)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Vertex*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

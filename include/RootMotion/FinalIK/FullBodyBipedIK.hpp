@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion
@@ -94,10 +95,10 @@ namespace RootMotion::FinalIK {
     void SetReferences(RootMotion::BipedReferences* references, UnityEngine::Transform* rootNode);
     // public System.Boolean ReferencesError(ref System.String errorMessage)
     // Offset: 0x1E71C28
-    bool ReferencesError(ByRef<::Il2CppString*> errorMessage);
+    bool ReferencesError(ByRef<::StringW> errorMessage);
     // public System.Boolean ReferencesWarning(ref System.String warningMessage)
     // Offset: 0x1E71DE4
-    bool ReferencesWarning(ByRef<::Il2CppString*> warningMessage);
+    bool ReferencesWarning(ByRef<::StringW> warningMessage);
     // private System.Void Reinitiate()
     // Offset: 0x1E72138
     void Reinitiate();
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesError
 // Il2CppName: ReferencesError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(ByRef<::StringW>)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesError)> {
   static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning
 // Il2CppName: ReferencesWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(ByRef<::StringW>)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning)> {
   static const MethodInfo* get() {
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{warningMessage});

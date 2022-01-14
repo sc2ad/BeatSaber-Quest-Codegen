@@ -32,6 +32,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -459,7 +460,7 @@ namespace UnityEngine::UI {
     void DoSpriteSwap(UnityEngine::Sprite* newSprite);
     // private System.Void TriggerAnimation(System.String triggername)
     // Offset: 0x1BB8BA8
-    void TriggerAnimation(::Il2CppString* triggername);
+    void TriggerAnimation(::StringW triggername);
     // protected System.Boolean IsHighlighted()
     // Offset: 0x1BB9670
     bool IsHighlighted();
@@ -909,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::TriggerAnimation
 // Il2CppName: TriggerAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(::Il2CppString*)>(&UnityEngine::UI::Selectable::TriggerAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(::StringW)>(&UnityEngine::UI::Selectable::TriggerAnimation)> {
   static const MethodInfo* get() {
     static auto* triggername = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "TriggerAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{triggername});

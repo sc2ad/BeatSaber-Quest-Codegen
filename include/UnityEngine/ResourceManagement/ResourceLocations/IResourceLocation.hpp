@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -19,7 +20,6 @@ namespace System {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.ResourceLocations
@@ -40,10 +40,10 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     public:
     // public System.String get_InternalId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_InternalId();
+    ::StringW get_InternalId();
     // public System.String get_ProviderId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ProviderId();
+    ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
@@ -58,7 +58,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     ::Il2CppObject* get_Data();
     // public System.String get_PrimaryKey()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_PrimaryKey();
+    ::StringW get_PrimaryKey();
     // public System.Type get_ResourceType()
     // Offset: 0xFFFFFFFF
     System::Type* get_ResourceType();
@@ -72,7 +72,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId
 // Il2CppName: get_InternalId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_InternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ProviderId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_ProviderId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_PrimaryKey
 // Il2CppName: get_PrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_PrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)()>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_PrimaryKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "get_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

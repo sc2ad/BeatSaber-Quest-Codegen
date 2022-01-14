@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -58,39 +59,39 @@ namespace UnityEngine {
     // static field const value: static private System.String k_ScriptingInterfaceName
     static constexpr const char* k_ScriptingInterfaceName = "TerrainDataScriptingInterface";
     // Get static field: static private System.String k_ScriptingInterfaceName
-    static ::Il2CppString* _get_k_ScriptingInterfaceName();
+    static ::StringW _get_k_ScriptingInterfaceName();
     // Set static field: static private System.String k_ScriptingInterfaceName
-    static void _set_k_ScriptingInterfaceName(::Il2CppString* value);
+    static void _set_k_ScriptingInterfaceName(::StringW value);
     // static field const value: static private System.String k_ScriptingInterfacePrefix
     static constexpr const char* k_ScriptingInterfacePrefix = "TerrainDataScriptingInterface::";
     // Get static field: static private System.String k_ScriptingInterfacePrefix
-    static ::Il2CppString* _get_k_ScriptingInterfacePrefix();
+    static ::StringW _get_k_ScriptingInterfacePrefix();
     // Set static field: static private System.String k_ScriptingInterfacePrefix
-    static void _set_k_ScriptingInterfacePrefix(::Il2CppString* value);
+    static void _set_k_ScriptingInterfacePrefix(::StringW value);
     // static field const value: static private System.String k_HeightmapPrefix
     static constexpr const char* k_HeightmapPrefix = "GetHeightmap().";
     // Get static field: static private System.String k_HeightmapPrefix
-    static ::Il2CppString* _get_k_HeightmapPrefix();
+    static ::StringW _get_k_HeightmapPrefix();
     // Set static field: static private System.String k_HeightmapPrefix
-    static void _set_k_HeightmapPrefix(::Il2CppString* value);
+    static void _set_k_HeightmapPrefix(::StringW value);
     // static field const value: static private System.String k_DetailDatabasePrefix
     static constexpr const char* k_DetailDatabasePrefix = "GetDetailDatabase().";
     // Get static field: static private System.String k_DetailDatabasePrefix
-    static ::Il2CppString* _get_k_DetailDatabasePrefix();
+    static ::StringW _get_k_DetailDatabasePrefix();
     // Set static field: static private System.String k_DetailDatabasePrefix
-    static void _set_k_DetailDatabasePrefix(::Il2CppString* value);
+    static void _set_k_DetailDatabasePrefix(::StringW value);
     // static field const value: static private System.String k_TreeDatabasePrefix
     static constexpr const char* k_TreeDatabasePrefix = "GetTreeDatabase().";
     // Get static field: static private System.String k_TreeDatabasePrefix
-    static ::Il2CppString* _get_k_TreeDatabasePrefix();
+    static ::StringW _get_k_TreeDatabasePrefix();
     // Set static field: static private System.String k_TreeDatabasePrefix
-    static void _set_k_TreeDatabasePrefix(::Il2CppString* value);
+    static void _set_k_TreeDatabasePrefix(::StringW value);
     // static field const value: static private System.String k_SplatDatabasePrefix
     static constexpr const char* k_SplatDatabasePrefix = "GetSplatDatabase().";
     // Get static field: static private System.String k_SplatDatabasePrefix
-    static ::Il2CppString* _get_k_SplatDatabasePrefix();
+    static ::StringW _get_k_SplatDatabasePrefix();
     // Set static field: static private System.String k_SplatDatabasePrefix
-    static void _set_k_SplatDatabasePrefix(::Il2CppString* value);
+    static void _set_k_SplatDatabasePrefix(::StringW value);
     // Get static field: static readonly System.Int32 k_MaximumResolution
     static int _get_k_MaximumResolution();
     // Set static field: static readonly System.Int32 k_MaximumResolution

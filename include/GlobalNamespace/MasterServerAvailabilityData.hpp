@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -98,9 +99,9 @@ namespace GlobalNamespace {
     // public System.String minimumAppVersion
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* minimumAppVersion;
+    ::StringW minimumAppVersion;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public MasterServerAvailabilityData/AvailabilityStatus status
     // Size: 0x4
     // Offset: 0x18
@@ -129,7 +130,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData::UserMessage*) == 0x8);
     public:
     // Get instance field reference: public System.String minimumAppVersion
-    ::Il2CppString*& dyn_minimumAppVersion();
+    ::StringW& dyn_minimumAppVersion();
     // Get instance field reference: public MasterServerAvailabilityData/AvailabilityStatus status
     GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus& dyn_status();
     // Get instance field reference: public System.Int64 maintenanceStartTime

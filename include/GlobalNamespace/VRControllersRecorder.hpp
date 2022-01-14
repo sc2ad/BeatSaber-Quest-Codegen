@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -133,9 +134,9 @@ namespace GlobalNamespace {
     // private System.String _recordingFileName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* recordingFileName;
+    ::StringW recordingFileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private VRControllersRecorder/Mode _mode
     // Size: 0x4
     // Offset: 0x28
@@ -269,7 +270,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
     UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private System.String _recordingFileName
-    ::Il2CppString*& dyn__recordingFileName();
+    ::StringW& dyn__recordingFileName();
     // Get instance field reference: private VRControllersRecorder/Mode _mode
     GlobalNamespace::VRControllersRecorder::Mode& dyn__mode();
     // Get instance field reference: private System.Boolean _dontMoveHead
@@ -324,10 +325,10 @@ namespace GlobalNamespace {
     void set_recordingTextAsset(UnityEngine::TextAsset* value);
     // public System.String get_recordingFileName()
     // Offset: 0x1BD88C8
-    ::Il2CppString* get_recordingFileName();
+    ::StringW get_recordingFileName();
     // public System.Void set_recordingFileName(System.String value)
     // Offset: 0x1BD88C0
-    void set_recordingFileName(::Il2CppString* value);
+    void set_recordingFileName(::StringW value);
     // public System.Boolean get_changeToNonVRCamera()
     // Offset: 0x1BD88DC
     bool get_changeToNonVRCamera();
@@ -369,7 +370,7 @@ namespace GlobalNamespace {
     void Load();
     // static public UnityEngine.AnimationClip CreateAnimationClipFromRecording(System.String recordingfilePath)
     // Offset: 0x1BDA350
-    static UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::Il2CppString* recordingfilePath);
+    static UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::StringW recordingfilePath);
     // public System.Void .ctor()
     // Offset: 0x1BDAE84
     // Implemented from: UnityEngine.MonoBehaviour
@@ -428,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_recordingFileName
 // Il2CppName: get_recordingFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_recordingFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_recordingFileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "get_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -436,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_recordingFileName
 // Il2CppName: set_recordingFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(::Il2CppString*)>(&GlobalNamespace::VRControllersRecorder::set_recordingFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(::StringW)>(&GlobalNamespace::VRControllersRecorder::set_recordingFileName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -554,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording
 // Il2CppName: CreateAnimationClipFromRecording
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::Il2CppString*)>(&GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::StringW)>(&GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording)> {
   static const MethodInfo* get() {
     static auto* recordingfilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "CreateAnimationClipFromRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recordingfilePath});

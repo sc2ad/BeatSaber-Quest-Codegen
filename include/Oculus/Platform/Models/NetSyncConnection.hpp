@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -72,9 +73,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String ZoneId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* ZoneId;
+    ::StringW ZoneId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
@@ -85,7 +86,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.NetSyncConnectionStatus Status
     Oculus::Platform::NetSyncConnectionStatus& dyn_Status();
     // Get instance field reference: public readonly System.String ZoneId
-    ::Il2CppString*& dyn_ZoneId();
+    ::StringW& dyn_ZoneId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x175CB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -95,7 +96,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.NetSyncConnection
   #pragma pack(pop)
-  static check_size<sizeof(NetSyncConnection), 48 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
+  static check_size<sizeof(NetSyncConnection), 48 + sizeof(::StringW)> __Oculus_Platform_Models_NetSyncConnectionSizeCheck;
   static_assert(sizeof(NetSyncConnection) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

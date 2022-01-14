@@ -15,6 +15,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -54,9 +55,9 @@ namespace GlobalNamespace {
     // public System.String filePath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* filePath;
+    ::StringW filePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Networking.UnityWebRequest <www>5__2
     // Size: 0x8
     // Offset: 0x28
@@ -77,7 +78,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     public:
     // Creating value type constructor for type: $LoadAudioClipFromFilePathAsync$d__1
-    constexpr $LoadAudioClipFromFilePathAsync$d__1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::AudioClip*> $$t__builder_ = {}, ::Il2CppString* filePath_ = {}, UnityEngine::Networking::UnityWebRequest* $www$5__2_ = {}, UnityEngine::AsyncOperation* $request$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, filePath{filePath_}, $www$5__2{$www$5__2_}, $request$5__3{$request$5__3_}, $$u__1{$$u__1_} {}
+    constexpr $LoadAudioClipFromFilePathAsync$d__1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::AudioClip*> $$t__builder_ = {}, ::StringW filePath_ = {}, UnityEngine::Networking::UnityWebRequest* $www$5__2_ = {}, UnityEngine::AsyncOperation* $request$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, filePath{filePath_}, $www$5__2{$www$5__2_}, $request$5__3{$request$5__3_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -91,7 +92,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.AudioClip> <>t__builder
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<UnityEngine::AudioClip*>& dyn_$$t__builder();
     // Get instance field reference: public System.String filePath
-    ::Il2CppString*& dyn_filePath();
+    ::StringW& dyn_filePath();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <www>5__2
     UnityEngine::Networking::UnityWebRequest*& dyn_$www$5__2();
     // Get instance field reference: private UnityEngine.AsyncOperation <request>5__3

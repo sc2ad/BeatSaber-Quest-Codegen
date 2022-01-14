@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Reflection
 namespace System::Reflection {
@@ -42,36 +43,36 @@ namespace System::Reflection {
     // private System.String m_memberName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_memberName;
+    ::StringW m_memberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return m_memberName;
     }
     // Get instance field reference: private System.String m_memberName
-    ::Il2CppString*& dyn_m_memberName();
+    ::StringW& dyn_m_memberName();
     // public System.String get_MemberName()
     // Offset: 0x1E91980
-    ::Il2CppString* get_MemberName();
+    ::StringW get_MemberName();
     // public System.Void .ctor(System.String memberName)
     // Offset: 0x1E91954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultMemberAttribute* New_ctor(::Il2CppString* memberName) {
+    static DefaultMemberAttribute* New_ctor(::StringW memberName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::DefaultMemberAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultMemberAttribute*, creationType>(memberName)));
     }
   }; // System.Reflection.DefaultMemberAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DefaultMemberAttribute), 16 + sizeof(::Il2CppString*)> __System_Reflection_DefaultMemberAttributeSizeCheck;
+  static check_size<sizeof(DefaultMemberAttribute), 16 + sizeof(::StringW)> __System_Reflection_DefaultMemberAttributeSizeCheck;
   static_assert(sizeof(DefaultMemberAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::DefaultMemberAttribute::get_MemberName
 // Il2CppName: get_MemberName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::DefaultMemberAttribute::*)()>(&System::Reflection::DefaultMemberAttribute::get_MemberName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::DefaultMemberAttribute::*)()>(&System::Reflection::DefaultMemberAttribute::get_MemberName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::DefaultMemberAttribute*), "get_MemberName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -24,9 +25,9 @@ namespace System::Net {
   class ValidationHelper : public ::Il2CppObject {
     public:
     // Get static field: static public System.String[] EmptyArray
-    static ::ArrayW<::Il2CppString*> _get_EmptyArray();
+    static ::ArrayW<::StringW> _get_EmptyArray();
     // Set static field: static public System.String[] EmptyArray
-    static void _set_EmptyArray(::ArrayW<::Il2CppString*> value);
+    static void _set_EmptyArray(::ArrayW<::StringW> value);
     // Get static field: static readonly System.Char[] InvalidMethodChars
     static ::ArrayW<::Il2CppChar> _get_InvalidMethodChars();
     // Set static field: static readonly System.Char[] InvalidMethodChars
@@ -40,10 +41,10 @@ namespace System::Net {
     static void _cctor();
     // static public System.String MakeStringNull(System.String stringValue)
     // Offset: 0x17E8818
-    static ::Il2CppString* MakeStringNull(::Il2CppString* stringValue);
+    static ::StringW MakeStringNull(::StringW stringValue);
     // static public System.Boolean IsBlankString(System.String stringValue)
     // Offset: 0x17E882C
-    static bool IsBlankString(::Il2CppString* stringValue);
+    static bool IsBlankString(::StringW stringValue);
     // static public System.Boolean ValidateTcpPort(System.Int32 port)
     // Offset: 0x17E63AC
     static bool ValidateTcpPort(int port);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::ValidationHelper::MakeStringNull
 // Il2CppName: MakeStringNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::ValidationHelper::MakeStringNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::ValidationHelper::MakeStringNull)> {
   static const MethodInfo* get() {
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), "MakeStringNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringValue});
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::ValidationHelper::IsBlankString
 // Il2CppName: IsBlankString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::ValidationHelper::IsBlankString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::ValidationHelper::IsBlankString)> {
   static const MethodInfo* get() {
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), "IsBlankString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringValue});

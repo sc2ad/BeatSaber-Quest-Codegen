@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -98,9 +99,9 @@ namespace HoudiniEngineUnity {
     // private System.String _geoName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* geoName;
+    ::StringW geoName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> _parts
     // Size: 0x8
     // Offset: 0x48
@@ -151,7 +152,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private HoudiniEngineUnity.HAPI_GeoInfo _geoInfo
     HoudiniEngineUnity::HAPI_GeoInfo& dyn__geoInfo();
     // Get instance field reference: private System.String _geoName
-    ::Il2CppString*& dyn__geoName();
+    ::StringW& dyn__geoName();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> _parts
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PartData*>*& dyn__parts();
     // Get instance field reference: private HoudiniEngineUnity.HEU_ObjectNode _containerObjectNode
@@ -169,7 +170,7 @@ namespace HoudiniEngineUnity {
     int get_GeoID();
     // public System.String get_GeoName()
     // Offset: 0x14E7C84
-    ::Il2CppString* get_GeoName();
+    ::StringW get_GeoName();
     // public HoudiniEngineUnity.HAPI_GeoType get_GeoType()
     // Offset: 0x14E7C8C
     HoudiniEngineUnity::HAPI_GeoType get_GeoType();
@@ -259,10 +260,10 @@ namespace HoudiniEngineUnity {
     void SetGeoInfo(HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
     // public System.String GeneratePartFullName(System.String partName)
     // Offset: 0x14E99A0
-    ::Il2CppString* GeneratePartFullName(::Il2CppString* partName);
+    ::StringW GeneratePartFullName(::StringW partName);
     // public System.String GenerateGeoCurveName()
     // Offset: 0x14EA0F0
-    ::Il2CppString* GenerateGeoCurveName();
+    ::StringW GenerateGeoCurveName();
     // public System.Boolean HasGeoNodeChanged(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x14EA0F8
     bool HasGeoNodeChanged(HoudiniEngineUnity::HEU_SessionBase* session);
@@ -341,7 +342,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0x14EBDBC
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // HoudiniEngineUnity.HEU_GeoNode
   #pragma pack(pop)
   static check_size<sizeof(HEU_GeoNode), 112 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>*)> __HoudiniEngineUnity_HEU_GeoNodeSizeCheck;
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoNode::get_GeoName
 // Il2CppName: get_GeoName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::get_GeoName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::get_GeoName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeoNode*), "get_GeoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -619,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoNode::GeneratePartFullName
 // Il2CppName: GeneratePartFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_GeoNode::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_GeoNode::GeneratePartFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_GeoNode::*)(::StringW)>(&HoudiniEngineUnity::HEU_GeoNode::GeneratePartFullName)> {
   static const MethodInfo* get() {
     static auto* partName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeoNode*), "GeneratePartFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{partName});
@@ -628,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoNode::GenerateGeoCurveName
 // Il2CppName: GenerateGeoCurveName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::GenerateGeoCurveName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::GenerateGeoCurveName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeoNode*), "GenerateGeoCurveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -826,7 +827,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeoNode::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_GeoNode::*)()>(&HoudiniEngineUnity::HEU_GeoNode::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeoNode*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

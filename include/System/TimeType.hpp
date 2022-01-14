@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -52,20 +53,20 @@ namespace System {
     // public System.String Name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public readonly System.Boolean IsDst
     bool& dyn_IsDst();
     // Get instance field reference: public System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // public System.Void .ctor(System.Int32 offset, System.Boolean is_dst, System.String abbrev)
     // Offset: 0x19C883C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TimeType* New_ctor(int offset, bool is_dst, ::Il2CppString* abbrev) {
+    static TimeType* New_ctor(int offset, bool is_dst, ::StringW abbrev) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TimeType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeType*, creationType>(offset, is_dst, abbrev)));
     }
@@ -73,10 +74,10 @@ namespace System {
     // Offset: 0x19C8884
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.TimeType
   #pragma pack(pop)
-  static check_size<sizeof(TimeType), 24 + sizeof(::Il2CppString*)> __System_TimeTypeSizeCheck;
+  static check_size<sizeof(TimeType), 24 + sizeof(::StringW)> __System_TimeTypeSizeCheck;
   static_assert(sizeof(TimeType) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -87,7 +88,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TimeType::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeType::*)()>(&System::TimeType::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TimeType::*)()>(&System::TimeType::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

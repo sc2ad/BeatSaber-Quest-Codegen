@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -120,7 +121,7 @@ namespace UnityEngine {
     void set_type(UnityEngine::EventType value);
     // public System.String get_commandName()
     // Offset: 0x1CDDA68
-    ::Il2CppString* get_commandName();
+    ::StringW get_commandName();
     // public System.Boolean get_shift()
     // Offset: 0x1CDDEC0
     bool get_shift();
@@ -175,7 +176,7 @@ namespace UnityEngine {
     static void Internal_MakeMasterEventCurrent(int displayIndex);
     // static public UnityEngine.Event KeyboardEvent(System.String key)
     // Offset: 0x1CDE168
-    static UnityEngine::Event* KeyboardEvent(::Il2CppString* key);
+    static UnityEngine::Event* KeyboardEvent(::StringW key);
     // public System.Void Use()
     // Offset: 0x1CE060C
     void Use();
@@ -213,7 +214,7 @@ namespace UnityEngine {
     // Offset: 0x1CDFE28
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // UnityEngine.Event
   #pragma pack(pop)
   static check_size<sizeof(Event), 16 + sizeof(System::IntPtr)> __UnityEngine_EventSizeCheck;
@@ -340,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_commandName
 // Il2CppName: get_commandName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Event::*)()>(&UnityEngine::Event::get_commandName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Event::*)()>(&UnityEngine::Event::get_commandName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_commandName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -478,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Event::KeyboardEvent
 // Il2CppName: KeyboardEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Event* (*)(::Il2CppString*)>(&UnityEngine::Event::KeyboardEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Event* (*)(::StringW)>(&UnityEngine::Event::KeyboardEvent)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "KeyboardEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -542,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Event::*)()>(&UnityEngine::Event::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Event::*)()>(&UnityEngine::Event::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

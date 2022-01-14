@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -41,9 +42,9 @@ namespace System::Net {
     // Set static field: static private System.Object _LocalAddressesLock
     static void _set__LocalAddressesLock(::Il2CppObject* value);
     // Get static field: static System.String _LocalDomainName
-    static ::Il2CppString* _get__LocalDomainName();
+    static ::StringW _get__LocalDomainName();
     // Set static field: static System.String _LocalDomainName
-    static void _set__LocalDomainName(::Il2CppString* value);
+    static void _set__LocalDomainName(::StringW value);
     // static System.Net.IPAddress[] get_LocalAddresses()
     // Offset: 0x18BAD30
     static ::ArrayW<System::Net::IPAddress*> get_LocalAddresses();

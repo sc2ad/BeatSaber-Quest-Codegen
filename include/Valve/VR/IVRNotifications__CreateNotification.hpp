@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -55,10 +56,10 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRNotificationError Invoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId)
     // Offset: 0x2259D80
-    Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
+    Valve::VR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::StringW pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId);
     // public System.IAsyncResult BeginInvoke(System.UInt64 ulOverlayHandle, System.UInt64 ulUserValue, Valve.VR.EVRNotificationType type, System.String pchText, Valve.VR.EVRNotificationStyle style, ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x225A0A4
-    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::Il2CppString* pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, Valve::VR::EVRNotificationType type, ::StringW pchText, Valve::VR::EVRNotificationStyle style, ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRNotificationError EndInvoke(ref Valve.VR.NotificationBitmap_t pImage, ref System.UInt32 pNotificationId, System.IAsyncResult result)
     // Offset: 0x225A1D4
     Valve::VR::EVRNotificationError EndInvoke(ByRef<Valve::VR::NotificationBitmap_t> pImage, ByRef<uint> pNotificationId, System::IAsyncResult* result);
@@ -73,7 +74,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>)>(&Valve::VR::IVRNotifications::_CreateNotification::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::StringW, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>)>(&Valve::VR::IVRNotifications::_CreateNotification::Invoke)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRNotifications::_CreateNotification::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::StringW, Valve::VR::EVRNotificationStyle, ByRef<Valve::VR::NotificationBitmap_t>, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRNotifications::_CreateNotification::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;

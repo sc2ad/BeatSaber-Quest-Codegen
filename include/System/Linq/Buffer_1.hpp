@@ -78,7 +78,7 @@ namespace System::Linq {
     Buffer_1(System::Collections::Generic::IEnumerable_1<TElement>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Buffer_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
-      ::il2cpp_utils::RunMethodRethrow<Buffer_1<TElement>, false>(this, ___internal__method, source);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, source);
     }
     // TElement[] ToArray()
     // Offset: 0xFFFFFFFF

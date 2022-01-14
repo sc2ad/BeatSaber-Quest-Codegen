@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel);
@@ -35,15 +36,15 @@ namespace GlobalNamespace {
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* title;
+    ::StringW title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String hint
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* hint;
+    ::StringW hint;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Boolean mixed
     // Size: 0x1
     // Offset: 0x20
@@ -52,15 +53,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.String title
-    ::Il2CppString*& dyn_title();
+    ::StringW& dyn_title();
     // Get instance field reference: public readonly System.String hint
-    ::Il2CppString*& dyn_hint();
+    ::StringW& dyn_hint();
     // Get instance field reference: public readonly System.Boolean mixed
     bool& dyn_mixed();
     // public System.Void .ctor(System.String title, System.String hint, System.Boolean mixed)
     // Offset: 0x1186D1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::Il2CppString* title, ::Il2CppString* hint, bool mixed) {
+    static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::StringW title, ::StringW hint, bool mixed) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::LeaderboardPanel*, creationType>(title, hint, mixed)));
     }

@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -74,9 +75,9 @@ namespace System::Runtime::Remoting::Channels {
     // Set static field: static private System.Runtime.Remoting.Contexts.CrossContextChannel _crossContextSink
     static void _set__crossContextSink(System::Runtime::Remoting::Contexts::CrossContextChannel* value);
     // Get static field: static System.String CrossContextUrl
-    static ::Il2CppString* _get_CrossContextUrl();
+    static ::StringW _get_CrossContextUrl();
     // Set static field: static System.String CrossContextUrl
-    static void _set_CrossContextUrl(::Il2CppString* value);
+    static void _set_CrossContextUrl(::StringW value);
     // Get static field: static private System.Collections.IList oldStartModeTypes
     static System::Collections::IList* _get_oldStartModeTypes();
     // Set static field: static private System.Collections.IList oldStartModeTypes
@@ -89,10 +90,10 @@ namespace System::Runtime::Remoting::Channels {
     static void _cctor();
     // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.String url, System.Object remoteChannelData, out System.String objectUri)
     // Offset: 0x162875C
-    static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::Il2CppString* url, ::Il2CppObject* remoteChannelData, ByRef<::Il2CppString*> objectUri);
+    static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::StringW url, ::Il2CppObject* remoteChannelData, ByRef<::StringW> objectUri);
     // static System.Runtime.Remoting.Messaging.IMessageSink CreateClientChannelSinkChain(System.Runtime.Remoting.Channels.IChannelSender sender, System.String url, System.Object[] channelDataArray, out System.String objectUri)
     // Offset: 0x1628F50
-    static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(System::Runtime::Remoting::Channels::IChannelSender* sender, ::Il2CppString* url, ::ArrayW<::Il2CppObject*> channelDataArray, ByRef<::Il2CppString*> objectUri);
+    static System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(System::Runtime::Remoting::Channels::IChannelSender* sender, ::StringW url, ::ArrayW<::Il2CppObject*> channelDataArray, ByRef<::StringW> objectUri);
     // static public System.Void RegisterChannel(System.Runtime.Remoting.Channels.IChannel chnl)
     // Offset: 0x162917C
     static void RegisterChannel(System::Runtime::Remoting::Channels::IChannel* chnl);
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain
 // Il2CppName: CreateClientChannelSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ByRef<::Il2CppString*>)>(&System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::StringW, ::Il2CppObject*, ByRef<::StringW>)>(&System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* remoteChannelData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain
 // Il2CppName: CreateClientChannelSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(System::Runtime::Remoting::Channels::IChannelSender*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>, ByRef<::Il2CppString*>)>(&System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(System::Runtime::Remoting::Channels::IChannelSender*, ::StringW, ::ArrayW<::Il2CppObject*>, ByRef<::StringW>)>(&System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Channels", "IChannelSender")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

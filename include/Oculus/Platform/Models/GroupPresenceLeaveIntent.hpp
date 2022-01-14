@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -40,28 +41,28 @@ namespace Oculus::Platform::Models {
     // public readonly System.String DestinationApiName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DestinationApiName;
+    ::StringW DestinationApiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String LobbySessionId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* LobbySessionId;
+    ::StringW LobbySessionId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String MatchSessionId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* MatchSessionId;
+    ::StringW MatchSessionId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DestinationApiName
-    ::Il2CppString*& dyn_DestinationApiName();
+    ::StringW& dyn_DestinationApiName();
     // Get instance field reference: public readonly System.String LobbySessionId
-    ::Il2CppString*& dyn_LobbySessionId();
+    ::StringW& dyn_LobbySessionId();
     // Get instance field reference: public readonly System.String MatchSessionId
-    ::Il2CppString*& dyn_MatchSessionId();
+    ::StringW& dyn_MatchSessionId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1759AA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +72,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.GroupPresenceLeaveIntent
   #pragma pack(pop)
-  static check_size<sizeof(GroupPresenceLeaveIntent), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_GroupPresenceLeaveIntentSizeCheck;
+  static check_size<sizeof(GroupPresenceLeaveIntent), 32 + sizeof(::StringW)> __Oculus_Platform_Models_GroupPresenceLeaveIntentSizeCheck;
   static_assert(sizeof(GroupPresenceLeaveIntent) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

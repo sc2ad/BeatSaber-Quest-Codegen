@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -42,38 +43,38 @@ namespace System::Diagnostics {
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String value
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* value;
+    ::StringW value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String type
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* type;
+    ::StringW type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.String value
-    ::Il2CppString*& dyn_value();
+    ::StringW& dyn_value();
     // Get instance field reference: private System.String type
-    ::Il2CppString*& dyn_type();
+    ::StringW& dyn_type();
     // public System.Void .ctor(System.String value)
     // Offset: 0x1D53A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DebuggerDisplayAttribute* New_ctor(::Il2CppString* value) {
+    static DebuggerDisplayAttribute* New_ctor(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerDisplayAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerDisplayAttribute*, creationType>(value)));
     }
   }; // System.Diagnostics.DebuggerDisplayAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DebuggerDisplayAttribute), 32 + sizeof(::Il2CppString*)> __System_Diagnostics_DebuggerDisplayAttributeSizeCheck;
+  static check_size<sizeof(DebuggerDisplayAttribute), 32 + sizeof(::StringW)> __System_Diagnostics_DebuggerDisplayAttributeSizeCheck;
   static_assert(sizeof(DebuggerDisplayAttribute) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

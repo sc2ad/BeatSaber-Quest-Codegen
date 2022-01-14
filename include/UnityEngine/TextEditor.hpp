@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -577,9 +578,9 @@ namespace UnityEngine {
     // private System.String oldText
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* oldText;
+    ::StringW oldText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 oldPos
     // Size: 0x4
     // Offset: 0x88
@@ -638,17 +639,17 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 m_iAltCursorPos
     int& dyn_m_iAltCursorPos();
     // Get instance field reference: private System.String oldText
-    ::Il2CppString*& dyn_oldText();
+    ::StringW& dyn_oldText();
     // Get instance field reference: private System.Int32 oldPos
     int& dyn_oldPos();
     // Get instance field reference: private System.Int32 oldSelectPos
     int& dyn_oldSelectPos();
     // public System.String get_text()
     // Offset: 0x1CE4E9C
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x1CE39E0
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public UnityEngine.Rect get_position()
     // Offset: 0x1CF7B2C
     UnityEngine::Rect get_position();
@@ -717,7 +718,7 @@ namespace UnityEngine {
     bool DeleteSelection();
     // public System.Void ReplaceSelection(System.String replace)
     // Offset: 0x1CE4F6C
-    void ReplaceSelection(::Il2CppString* replace);
+    void ReplaceSelection(::StringW replace);
     // public System.Void Insert(System.Char c)
     // Offset: 0x1CE4F00
     void Insert(::Il2CppChar c);
@@ -873,7 +874,7 @@ namespace UnityEngine {
     void UpdateScrollOffset();
     // public System.Void DrawCursor(System.String newText)
     // Offset: 0x1CE4FF4
-    void DrawCursor(::Il2CppString* newText);
+    void DrawCursor(::StringW newText);
     // private System.Boolean PerformOperation(UnityEngine.TextEditor/UnityEngine.TextEditOp operation, System.Boolean textIsReadOnly)
     // Offset: 0x1CF8A7C
     bool PerformOperation(UnityEngine::TextEditor::TextEditOp operation, bool textIsReadOnly);
@@ -888,13 +889,13 @@ namespace UnityEngine {
     void Copy();
     // static private System.String ReplaceNewlinesWithSpaces(System.String value)
     // Offset: 0x1CFABEC
-    static ::Il2CppString* ReplaceNewlinesWithSpaces(::Il2CppString* value);
+    static ::StringW ReplaceNewlinesWithSpaces(::StringW value);
     // public System.Boolean Paste()
     // Offset: 0x1CFAB40
     bool Paste();
     // static private System.Void MapKey(System.String key, UnityEngine.TextEditor/UnityEngine.TextEditOp action)
     // Offset: 0x1CFAC7C
-    static void MapKey(::Il2CppString* key, UnityEngine::TextEditor::TextEditOp action);
+    static void MapKey(::StringW key, UnityEngine::TextEditor::TextEditOp action);
     // private System.Void InitKeyActions()
     // Offset: 0x1CF841C
     void InitKeyActions();
@@ -947,7 +948,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine",
 // Writing MetadataGetter for method: UnityEngine::TextEditor::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -955,7 +956,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TextEditor::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::StringW)>(&UnityEngine::TextEditor::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1146,7 +1147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TextEditor::ReplaceSelection
 // Il2CppName: ReplaceSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::ReplaceSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::StringW)>(&UnityEngine::TextEditor::ReplaceSelection)> {
   static const MethodInfo* get() {
     static auto* replace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ReplaceSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{replace});
@@ -1581,7 +1582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextEditor::DrawCursor
 // Il2CppName: DrawCursor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::DrawCursor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::StringW)>(&UnityEngine::TextEditor::DrawCursor)> {
   static const MethodInfo* get() {
     static auto* newText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DrawCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newText});
@@ -1624,7 +1625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextEditor::ReplaceNewlinesWithSpaces
 // Il2CppName: ReplaceNewlinesWithSpaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::TextEditor::ReplaceNewlinesWithSpaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngine::TextEditor::ReplaceNewlinesWithSpaces)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ReplaceNewlinesWithSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1641,7 +1642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TextEditor::MapKey
 // Il2CppName: MapKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::TextEditor::TextEditOp)>(&UnityEngine::TextEditor::MapKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::TextEditor::TextEditOp)>(&UnityEngine::TextEditor::MapKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextEditor/TextEditOp")->byval_arg;

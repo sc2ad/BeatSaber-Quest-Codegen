@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
@@ -24,7 +25,7 @@ namespace System::Collections::Generic {
     public:
     // static System.String PairToString(System.Object key, System.Object value)
     // Offset: 0x199F05C
-    static ::Il2CppString* PairToString(::Il2CppObject* key, ::Il2CppObject* value);
+    static ::StringW PairToString(::Il2CppObject* key, ::Il2CppObject* value);
   }; // System.Collections.Generic.KeyValuePair
   #pragma pack(pop)
 }
@@ -32,7 +33,7 @@ namespace System::Collections::Generic {
 // Writing MetadataGetter for method: System::Collections::Generic::KeyValuePair::PairToString
 // Il2CppName: PairToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Generic::KeyValuePair::PairToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Generic::KeyValuePair::PairToString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

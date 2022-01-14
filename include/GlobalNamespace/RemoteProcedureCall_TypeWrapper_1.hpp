@@ -20,6 +20,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -162,14 +163,14 @@ namespace GlobalNamespace {
     }
     // private System.String get_s()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_s() {
+    ::StringW get_s() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::get_s");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_s", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
     // private System.Void set_s(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_s(::Il2CppString* value) {
+    void set_s(::StringW value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::set_s");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_s", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
@@ -246,14 +247,14 @@ namespace GlobalNamespace {
     }
     // private System.String[] get_sa()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<::Il2CppString*> get_sa() {
+    ::ArrayW<::StringW> get_sa() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::get_sa");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "get_sa", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::Il2CppString*>, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::StringW>, false>(this, ___internal__method);
     }
     // private System.Void set_sa(System.String[] value)
     // Offset: 0xFFFFFFFF
-    void set_sa(::ArrayW<::Il2CppString*> value) {
+    void set_sa(::ArrayW<::StringW> value) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::set_sa");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "set_sa", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
@@ -333,7 +334,7 @@ namespace GlobalNamespace {
     TypeWrapper_1(T v) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RemoteProcedureCall::TypeWrapper_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(v)})));
-      ::il2cpp_utils::RunMethodRethrow<RemoteProcedureCall::TypeWrapper_1<T>, false>(this, ___internal__method, v);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, v);
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF

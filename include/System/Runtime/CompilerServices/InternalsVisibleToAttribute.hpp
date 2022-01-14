@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
@@ -41,9 +42,9 @@ namespace System::Runtime::CompilerServices {
     // private System.String _assemblyName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* assemblyName;
+    ::StringW assemblyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _allInternalsVisible
     // Size: 0x1
     // Offset: 0x18
@@ -52,12 +53,12 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String _assemblyName
-    ::Il2CppString*& dyn__assemblyName();
+    ::StringW& dyn__assemblyName();
     // Get instance field reference: private System.Boolean _allInternalsVisible
     bool& dyn__allInternalsVisible();
     // public System.String get_AssemblyName()
     // Offset: 0x16215F8
-    ::Il2CppString* get_AssemblyName();
+    ::StringW get_AssemblyName();
     // public System.Boolean get_AllInternalsVisible()
     // Offset: 0x1621600
     bool get_AllInternalsVisible();
@@ -67,7 +68,7 @@ namespace System::Runtime::CompilerServices {
     // public System.Void .ctor(System.String assemblyName)
     // Offset: 0x16215C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InternalsVisibleToAttribute* New_ctor(::Il2CppString* assemblyName) {
+    static InternalsVisibleToAttribute* New_ctor(::StringW assemblyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::InternalsVisibleToAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalsVisibleToAttribute*, creationType>(assemblyName)));
     }
@@ -80,7 +81,7 @@ namespace System::Runtime::CompilerServices {
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)()>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)()>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

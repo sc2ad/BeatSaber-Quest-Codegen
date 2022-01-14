@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -87,9 +88,9 @@ namespace GlobalNamespace {
     // public readonly System.String propertyName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* propertyName;
+    ::StringW propertyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Object value
     // Size: 0x8
     // Offset: 0x18
@@ -110,7 +111,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::DrawIfAttribute::DisablingType) == 0x4);
     public:
     // Get instance field reference: public readonly System.String propertyName
-    ::Il2CppString*& dyn_propertyName();
+    ::StringW& dyn_propertyName();
     // Get instance field reference: public readonly System.Object value
     ::Il2CppObject*& dyn_value();
     // Get instance field reference: public readonly System.Object orValue
@@ -120,14 +121,14 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String propertyName, System.Object value, DrawIfAttribute/DisablingType disablingType)
     // Offset: 0x13928F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
+    static DrawIfAttribute* New_ctor(::StringW propertyName, ::Il2CppObject* value, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DrawIfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawIfAttribute*, creationType>(propertyName, value, disablingType)));
     }
     // public System.Void .ctor(System.String propertyName, System.Object value, System.Object orValue, DrawIfAttribute/DisablingType disablingType)
     // Offset: 0x1392938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DrawIfAttribute* New_ctor(::Il2CppString* propertyName, ::Il2CppObject* value, ::Il2CppObject* orValue, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
+    static DrawIfAttribute* New_ctor(::StringW propertyName, ::Il2CppObject* value, ::Il2CppObject* orValue, GlobalNamespace::DrawIfAttribute::DisablingType disablingType) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DrawIfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawIfAttribute*, creationType>(propertyName, value, orValue, disablingType)));
     }

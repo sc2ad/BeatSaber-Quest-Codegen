@@ -76,7 +76,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class TConcrete, class TFactory>
     Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory() {
-      static_assert(std::is_base_of_v<Zenject::IFactory_1<TConcrete>, std::remove_pointer_t<TFactory>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TFactory>, Zenject::IFactory_1<TConcrete>>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FromBinderNonGeneric::FromFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "FromFactory", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFactory>::get()})));

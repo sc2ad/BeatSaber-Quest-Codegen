@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Math
@@ -196,10 +197,10 @@ namespace Mono::Math {
     ::ArrayW<uint8_t> GetBytes();
     // public System.String ToString(System.UInt32 radix)
     // Offset: 0x1F898E8
-    ::Il2CppString* ToString(uint radix);
+    ::StringW ToString(uint radix);
     // public System.String ToString(System.UInt32 radix, System.String characterSet)
     // Offset: 0x1F89948
-    ::Il2CppString* ToString(uint radix, ::Il2CppString* characterSet);
+    ::StringW ToString(uint radix, ::StringW characterSet);
     // private System.Void Normalize()
     // Offset: 0x1F87D00
     void Normalize();
@@ -221,7 +222,7 @@ namespace Mono::Math {
     // Offset: 0x1F89C30
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Boolean Equals(System.Object o)
     // Offset: 0x1F89C38
     // Implemented from: System.Object
@@ -390,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::ToString)> {
   static const MethodInfo* get() {
     static auto* radix = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{radix});
@@ -399,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint, ::Il2CppString*)>(&Mono::Math::BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Math::BigInteger::*)(uint, ::StringW)>(&Mono::Math::BigInteger::ToString)> {
   static const MethodInfo* get() {
     static auto* radix = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* characterSet = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -451,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

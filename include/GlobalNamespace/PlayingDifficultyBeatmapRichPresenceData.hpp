@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,36 +48,36 @@ namespace GlobalNamespace {
     // private System.String <apiName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* apiName;
+    ::StringW apiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedDescription;
+    ::StringW localizedDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator GlobalNamespace::IRichPresenceData
     operator GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);
     }
     // Get instance field reference: private System.String <apiName>k__BackingField
-    ::Il2CppString*& dyn_$apiName$k__BackingField();
+    ::StringW& dyn_$apiName$k__BackingField();
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
-    ::Il2CppString*& dyn_$localizedDescription$k__BackingField();
+    ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
     // Offset: 0x11AD204
-    ::Il2CppString* get_apiName();
+    ::StringW get_apiName();
     // private System.Void set_apiName(System.String value)
     // Offset: 0x11AD20C
-    void set_apiName(::Il2CppString* value);
+    void set_apiName(::StringW value);
     // public System.String get_localizedDescription()
     // Offset: 0x11AD214
-    ::Il2CppString* get_localizedDescription();
+    ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
     // Offset: 0x11AD21C
-    void set_localizedDescription(::Il2CppString* value);
+    void set_localizedDescription(::StringW value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x11AD224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -86,17 +87,17 @@ namespace GlobalNamespace {
     }
     // static public System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x11AD268
-    static ::Il2CppString* GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    static ::StringW GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // PlayingDifficultyBeatmapRichPresenceData
   #pragma pack(pop)
-  static check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
+  static check_size<sizeof(PlayingDifficultyBeatmapRichPresenceData), 24 + sizeof(::StringW)> __GlobalNamespace_PlayingDifficultyBeatmapRichPresenceDataSizeCheck;
   static_assert(sizeof(PlayingDifficultyBeatmapRichPresenceData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_apiName
 // Il2CppName: set_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(::StringW)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_apiName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*), "set_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription
 // Il2CppName: get_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -121,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription
 // Il2CppName: set_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(::StringW)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::set_localizedDescription)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString
 // Il2CppName: GetDestinationLocalizedString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*), "GetDestinationLocalizedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});

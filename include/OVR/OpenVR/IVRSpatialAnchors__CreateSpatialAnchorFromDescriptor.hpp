@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -49,10 +50,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRSpatialAnchorError Invoke(System.String pchDescriptor, ref System.UInt32 pHandleOut)
     // Offset: 0x2325CD4
-    OVR::OpenVR::EVRSpatialAnchorError Invoke(::Il2CppString* pchDescriptor, ByRef<uint> pHandleOut);
+    OVR::OpenVR::EVRSpatialAnchorError Invoke(::StringW pchDescriptor, ByRef<uint> pHandleOut);
     // public System.IAsyncResult BeginInvoke(System.String pchDescriptor, ref System.UInt32 pHandleOut, System.AsyncCallback callback, System.Object object)
     // Offset: 0x23260C4
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchDescriptor, ByRef<uint> pHandleOut, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchDescriptor, ByRef<uint> pHandleOut, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRSpatialAnchorError EndInvoke(ref System.UInt32 pHandleOut, System.IAsyncResult result)
     // Offset: 0x2326160
     OVR::OpenVR::EVRSpatialAnchorError EndInvoke(ByRef<uint> pHandleOut, System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, ByRef<uint>)>(&OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::StringW, ByRef<uint>)>(&OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchDescriptor = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandleOut = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::Il2CppString*, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::*)(::StringW, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchDescriptor = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandleOut = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

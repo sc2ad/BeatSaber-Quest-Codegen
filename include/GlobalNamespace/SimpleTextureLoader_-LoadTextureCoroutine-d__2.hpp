@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -78,9 +79,9 @@ namespace GlobalNamespace {
     // public System.String filePath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* filePath;
+    ::StringW filePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Action`1<UnityEngine.Texture2D> finishedCallback
     // Size: 0x8
     // Offset: 0x30
@@ -105,7 +106,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean useCache
     bool& dyn_useCache();
     // Get instance field reference: public System.String filePath
-    ::Il2CppString*& dyn_filePath();
+    ::StringW& dyn_filePath();
     // Get instance field reference: public System.Action`1<UnityEngine.Texture2D> finishedCallback
     System::Action_1<UnityEngine::Texture2D*>*& dyn_finishedCallback();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <uwr>5__2

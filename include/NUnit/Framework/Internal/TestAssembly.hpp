@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -69,7 +70,7 @@ namespace NUnit::Framework::Internal {
     // public System.Void .ctor(System.Reflection.Assembly assembly, System.String path)
     // Offset: 0x2554BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::Il2CppString* path) {
+    static TestAssembly* New_ctor(System::Reflection::Assembly* assembly, ::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(assembly, path)));
     }
@@ -77,14 +78,14 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x2554DA8
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_TestType()
-    ::Il2CppString* get_TestType();
+    ::StringW get_TestType();
     // public System.Void .ctor(System.String path)
     // Offset: 0x2554D10
     // Implemented from: NUnit.Framework.Internal.TestSuite
     // Base method: System.Void TestSuite::.ctor(System.String path)
     // Base method: System.Void Test::.ctor(System.String path)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestAssembly* New_ctor(::Il2CppString* path) {
+    static TestAssembly* New_ctor(::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestAssembly*, creationType>(path)));
     }
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestAssembly::get_TestType
 // Il2CppName: get_TestType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestAssembly::*)()>(&NUnit::Framework::Internal::TestAssembly::get_TestType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::TestAssembly::*)()>(&NUnit::Framework::Internal::TestAssembly::get_TestType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestAssembly*), "get_TestType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

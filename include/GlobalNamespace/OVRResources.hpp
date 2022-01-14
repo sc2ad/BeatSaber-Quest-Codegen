@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -55,16 +56,16 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.AssetBundle resourceBundle
     static void _set_resourceBundle(UnityEngine::AssetBundle* value);
     // Get static field: static private System.Collections.Generic.List`1<System.String> assetNames
-    static System::Collections::Generic::List_1<::Il2CppString*>* _get_assetNames();
+    static System::Collections::Generic::List_1<::StringW>* _get_assetNames();
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
-    static void _set_assetNames(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    static void _set_assetNames(System::Collections::Generic::List_1<::StringW>* value);
     // static public UnityEngine.Object Load(System.String path)
     // Offset: 0x187DEE8
-    static UnityEngine::Object* Load(::Il2CppString* path);
+    static UnityEngine::Object* Load(::StringW path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Load(::Il2CppString* path) {
+    static T Load(::StringW path) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRResources::Load");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRResources", "Load", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(path)})));
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&GlobalNamespace::OVRResources::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::StringW)>(&GlobalNamespace::OVRResources::Load)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

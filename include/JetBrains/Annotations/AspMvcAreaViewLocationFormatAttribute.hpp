@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
@@ -41,39 +42,39 @@ namespace JetBrains::Annotations {
     // private System.String <Format>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Format;
+    ::StringW Format;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return Format;
     }
     // Get instance field reference: private System.String <Format>k__BackingField
-    ::Il2CppString*& dyn_$Format$k__BackingField();
+    ::StringW& dyn_$Format$k__BackingField();
     // public System.String get_Format()
     // Offset: 0x26B9C60
-    ::Il2CppString* get_Format();
+    ::StringW get_Format();
     // private System.Void set_Format(System.String value)
     // Offset: 0x26B9C68
-    void set_Format(::Il2CppString* value);
+    void set_Format(::StringW value);
     // public System.Void .ctor(System.String format)
     // Offset: 0x26B9C34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AspMvcAreaViewLocationFormatAttribute* New_ctor(::Il2CppString* format) {
+    static AspMvcAreaViewLocationFormatAttribute* New_ctor(::StringW format) {
       static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AspMvcAreaViewLocationFormatAttribute*, creationType>(format)));
     }
   }; // JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute
   #pragma pack(pop)
-  static check_size<sizeof(AspMvcAreaViewLocationFormatAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_AspMvcAreaViewLocationFormatAttributeSizeCheck;
+  static check_size<sizeof(AspMvcAreaViewLocationFormatAttribute), 16 + sizeof(::StringW)> __JetBrains_Annotations_AspMvcAreaViewLocationFormatAttributeSizeCheck;
   static_assert(sizeof(AspMvcAreaViewLocationFormatAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::get_Format
 // Il2CppName: get_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::*)()>(&JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::get_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::*)()>(&JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::get_Format)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::set_Format
 // Il2CppName: set_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::set_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::*)(::StringW)>(&JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute::set_Format)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcAreaViewLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

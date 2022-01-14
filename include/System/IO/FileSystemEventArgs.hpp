@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -50,32 +51,32 @@ namespace System::IO {
     // private System.String directory
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* directory;
+    ::StringW directory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
     System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String directory
-    ::Il2CppString*& dyn_directory();
+    ::StringW& dyn_directory();
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
     // Offset: 0x1A36758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::Il2CppString* directory, ::Il2CppString* name) {
+    static FileSystemEventArgs* New_ctor(System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileSystemEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemEventArgs*, creationType>(changeType, directory, name)));
     }
   }; // System.IO.FileSystemEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(FileSystemEventArgs), 32 + sizeof(::Il2CppString*)> __System_IO_FileSystemEventArgsSizeCheck;
+  static check_size<sizeof(FileSystemEventArgs), 32 + sizeof(::StringW)> __System_IO_FileSystemEventArgsSizeCheck;
   static_assert(sizeof(FileSystemEventArgs) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

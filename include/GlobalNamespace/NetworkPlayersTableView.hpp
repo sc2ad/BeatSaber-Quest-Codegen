@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -123,9 +124,9 @@ namespace GlobalNamespace {
     // private System.String _selectedPlayerID
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* selectedPlayerID;
+    ::StringW selectedPlayerID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _selectedCellHasOptions
     // Size: 0x1
     // Offset: 0x58
@@ -142,21 +143,21 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPlayerCellIdentifier
     static constexpr const char* kPlayerCellIdentifier = "PlayerCell";
     // Get static field: static private System.String kPlayerCellIdentifier
-    static ::Il2CppString* _get_kPlayerCellIdentifier();
+    static ::StringW _get_kPlayerCellIdentifier();
     // Set static field: static private System.String kPlayerCellIdentifier
-    static void _set_kPlayerCellIdentifier(::Il2CppString* value);
+    static void _set_kPlayerCellIdentifier(::StringW value);
     // static field const value: static private System.String kHeaderCellIdentifier
     static constexpr const char* kHeaderCellIdentifier = "HeaderCell";
     // Get static field: static private System.String kHeaderCellIdentifier
-    static ::Il2CppString* _get_kHeaderCellIdentifier();
+    static ::StringW _get_kHeaderCellIdentifier();
     // Set static field: static private System.String kHeaderCellIdentifier
-    static void _set_kHeaderCellIdentifier(::Il2CppString* value);
+    static void _set_kHeaderCellIdentifier(::StringW value);
     // static field const value: static private System.String kOptionsCellIdentifier
     static constexpr const char* kOptionsCellIdentifier = "OptionsCell";
     // Get static field: static private System.String kOptionsCellIdentifier
-    static ::Il2CppString* _get_kOptionsCellIdentifier();
+    static ::StringW _get_kOptionsCellIdentifier();
     // Set static field: static private System.String kOptionsCellIdentifier
-    static void _set_kOptionsCellIdentifier(::Il2CppString* value);
+    static void _set_kOptionsCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
     HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private NetworkPlayerTableCell _playerCellPrefab
@@ -172,7 +173,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _selectedCellIndex
     int& dyn__selectedCellIndex();
     // Get instance field reference: private System.String _selectedPlayerID
-    ::Il2CppString*& dyn__selectedPlayerID();
+    ::StringW& dyn__selectedPlayerID();
     // Get instance field reference: private System.Boolean _selectedCellHasOptions
     bool& dyn__selectedCellHasOptions();
     // public System.Single CellSize()
@@ -186,10 +187,10 @@ namespace GlobalNamespace {
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // private System.Void AddPlayers(System.Collections.Generic.IEnumerable`1<INetworkPlayer> players, System.String title)
     // Offset: 0x13391DC
-    void AddPlayers(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* players, ::Il2CppString* title);
+    void AddPlayers(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
     // public System.Void SetParties(System.Collections.Generic.IEnumerable`1<INetworkPlayer> partyPlayers, System.Collections.Generic.IEnumerable`1<INetworkPlayer> otherPlayers, System.String myPartyTitle, System.String otherPlayersTitle)
     // Offset: 0x1339A90
-    void SetParties(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* partyPlayers, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* otherPlayers, ::Il2CppString* myPartyTitle, ::Il2CppString* otherPlayersTitle);
+    void SetParties(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* partyPlayers, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
     // private System.Void HandleCellWasPressed(HMUI.TableView tableView, HMUI.TableCell tableCell)
     // Offset: 0x1339BB0
     void HandleCellWasPressed(HMUI::TableView* tableView, HMUI::TableCell* tableCell);
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::AddPlayers
 // Il2CppName: AddPlayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::Il2CppString*)>(&GlobalNamespace::NetworkPlayersTableView::AddPlayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::StringW)>(&GlobalNamespace::NetworkPlayersTableView::AddPlayers)> {
   static const MethodInfo* get() {
     static auto* players = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -254,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::SetParties
 // Il2CppName: SetParties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::NetworkPlayersTableView::SetParties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::StringW, ::StringW)>(&GlobalNamespace::NetworkPlayersTableView::SetParties)> {
   static const MethodInfo* get() {
     static auto* partyPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     static auto* otherPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;

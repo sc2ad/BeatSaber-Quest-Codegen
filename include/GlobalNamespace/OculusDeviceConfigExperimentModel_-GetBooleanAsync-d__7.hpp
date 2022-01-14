@@ -15,6 +15,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter
 #include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeviceConfigExperimentModel::$GetBooleanAsync$d__7, "", "OculusDeviceConfigExperimentModel/<GetBooleanAsync>d__7");
@@ -46,9 +47,9 @@ namespace GlobalNamespace {
     // public System.String key
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* key;
+    ::StringW key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     // Size: 0x8
     // Offset: 0x30
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     public:
     // Creating value type constructor for type: $GetBooleanAsync$d__7
-    constexpr $GetBooleanAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> $$t__builder_ = {}, GlobalNamespace::OculusDeviceConfigExperimentModel* $$4__this_ = {}, ::Il2CppString* key_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, key{key_}, $$u__1{$$u__1_} {}
+    constexpr $GetBooleanAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> $$t__builder_ = {}, GlobalNamespace::OculusDeviceConfigExperimentModel* $$4__this_ = {}, ::StringW key_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, key{key_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -73,7 +74,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusDeviceConfigExperimentModel <>4__this
     GlobalNamespace::OculusDeviceConfigExperimentModel*& dyn_$$4__this();
     // Get instance field reference: public System.String key
-    ::Il2CppString*& dyn_key();
+    ::StringW& dyn_key();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()

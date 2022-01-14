@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -50,7 +51,7 @@ namespace System::Security {
     // public System.Void .ctor(System.Int32 lineNumber, System.String message)
     // Offset: 0x1DD6E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSyntaxException* New_ctor(int lineNumber, ::Il2CppString* message) {
+    static XmlSyntaxException* New_ctor(int lineNumber, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::XmlSyntaxException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSyntaxException*, creationType>(lineNumber, message)));
     }
@@ -71,7 +72,7 @@ namespace System::Security {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSyntaxException* New_ctor(::Il2CppString* message) {
+    static XmlSyntaxException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::XmlSyntaxException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSyntaxException*, creationType>(message)));
     }
@@ -81,7 +82,7 @@ namespace System::Security {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception inner)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception inner)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSyntaxException* New_ctor(::Il2CppString* message, System::Exception* inner) {
+    static XmlSyntaxException* New_ctor(::StringW message, System::Exception* inner) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::XmlSyntaxException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSyntaxException*, creationType>(message, inner)));
     }

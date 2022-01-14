@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -42,9 +43,9 @@ namespace System {
     // private System.String _message
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* message;
+    ::StringW message;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _error
     // Size: 0x1
     // Offset: 0x18
@@ -53,23 +54,23 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String _message
-    ::Il2CppString*& dyn__message();
+    ::StringW& dyn__message();
     // Get instance field reference: private System.Boolean _error
     bool& dyn__error();
     // public System.String get_Message()
     // Offset: 0x1E89B4C
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor(System.String message)
     // Offset: 0x1E89ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObsoleteAttribute* New_ctor(::Il2CppString* message) {
+    static ObsoleteAttribute* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Boolean error)
     // Offset: 0x1E89B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObsoleteAttribute* New_ctor(::Il2CppString* message, bool error) {
+    static ObsoleteAttribute* New_ctor(::StringW message, bool error) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message, error)));
     }
@@ -92,7 +93,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ObsoleteAttribute::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ObsoleteAttribute::*)()>(&System::ObsoleteAttribute::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ObsoleteAttribute::*)()>(&System::ObsoleteAttribute::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ObsoleteAttribute*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

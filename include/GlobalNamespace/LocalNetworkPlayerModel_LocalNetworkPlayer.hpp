@@ -19,6 +19,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -61,15 +62,15 @@ namespace GlobalNamespace {
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String _userName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Net.IPAddress _ipAddress
     // Size: 0x8
     // Offset: 0x28
@@ -119,9 +120,9 @@ namespace GlobalNamespace {
     // private System.String _secret
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _multiplayerPort
     // Size: 0x4
     // Offset: 0x48
@@ -210,9 +211,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LocalNetworkPlayerModel _playerModel
     GlobalNamespace::LocalNetworkPlayerModel*& dyn__playerModel();
     // Get instance field reference: private readonly System.String _userId
-    ::Il2CppString*& dyn__userId();
+    ::StringW& dyn__userId();
     // Get instance field reference: private readonly System.String _userName
-    ::Il2CppString*& dyn__userName();
+    ::StringW& dyn__userName();
     // Get instance field reference: private readonly System.Net.IPAddress _ipAddress
     System::Net::IPAddress*& dyn__ipAddress();
     // Get instance field reference: private readonly System.Boolean _isMe
@@ -228,7 +229,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasBlockedMe
     bool& dyn__hasBlockedMe();
     // Get instance field reference: private System.String _secret
-    ::Il2CppString*& dyn__secret();
+    ::StringW& dyn__secret();
     // Get instance field reference: private System.Int32 _multiplayerPort
     int& dyn__multiplayerPort();
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
@@ -251,10 +252,10 @@ namespace GlobalNamespace {
     bool& dyn__invitedMeToJoinTheirParty();
     // public System.String get_userId()
     // Offset: 0x135CF9C
-    ::Il2CppString* get_userId();
+    ::StringW get_userId();
     // public System.String get_userName()
     // Offset: 0x135CFA4
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Net.IPAddress get_ipAddress()
     // Offset: 0x135CFAC
     System::Net::IPAddress* get_ipAddress();
@@ -284,7 +285,7 @@ namespace GlobalNamespace {
     bool get_hasBlockedMe();
     // public System.String get_secret()
     // Offset: 0x135D00C
-    ::Il2CppString* get_secret();
+    ::StringW get_secret();
     // public System.Int32 get_multiplayerPort()
     // Offset: 0x135D014
     int get_multiplayerPort();
@@ -339,7 +340,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(LocalNetworkPlayerModel playerModel, System.String userId, System.String userName, System.Net.IPAddress ipAddress, System.Boolean isMe)
     // Offset: 0x135AFD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LocalNetworkPlayerModel::LocalNetworkPlayer* New_ctor(GlobalNamespace::LocalNetworkPlayerModel* playerModel, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPAddress* ipAddress, bool isMe) {
+    static LocalNetworkPlayerModel::LocalNetworkPlayer* New_ctor(GlobalNamespace::LocalNetworkPlayerModel* playerModel, ::StringW userId, ::StringW userName, System::Net::IPAddress* ipAddress, bool isMe) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkPlayerModel::LocalNetworkPlayer*, creationType>(playerModel, userId, userName, ipAddress, isMe)));
     }
@@ -348,7 +349,7 @@ namespace GlobalNamespace {
     void Join();
     // public System.Void Join(System.String password)
     // Offset: 0x135D28C
-    void Join(::Il2CppString* password);
+    void Join(::StringW password);
     // public System.Void Invite()
     // Offset: 0x135D394
     void Invite();
@@ -378,10 +379,10 @@ namespace GlobalNamespace {
     bool HasFailedToConnect();
     // public System.Void SetInvited(System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.Int32 multiplayerPort)
     // Offset: 0x135BAC4
-    void SetInvited(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, int multiplayerPort);
+    void SetInvited(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, int multiplayerPort);
     // public System.Void SetJoinResponse(System.Boolean isPartyOwner, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.Int32 multiplayerPort, System.Boolean blocked)
     // Offset: 0x135B74C
-    void SetJoinResponse(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* secret, int multiplayerPort, bool blocked);
+    void SetJoinResponse(bool isPartyOwner, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, int multiplayerPort, bool blocked);
     // public System.Void SetInviteResponse(System.Boolean accepted, System.Boolean blocked)
     // Offset: 0x135BCD0
     void SetInviteResponse(bool accepted, bool blocked);
@@ -406,7 +407,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -414,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -494,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret
 // Il2CppName: get_secret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::get_secret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -650,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::Il2CppString*)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(::StringW)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::Join)> {
   static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});
@@ -737,7 +738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited
 // Il2CppName: SetInvited
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, int)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, int)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetInvited)> {
   static const MethodInfo* get() {
     static auto* isPartyOwner = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
@@ -750,7 +751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse
 // Il2CppName: SetJoinResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, int, bool)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::*)(bool, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, int, bool)>(&GlobalNamespace::LocalNetworkPlayerModel::LocalNetworkPlayer::SetJoinResponse)> {
   static const MethodInfo* get() {
     static auto* isPartyOwner = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;

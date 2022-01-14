@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -97,9 +98,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames;
+    System::Collections::Generic::List_1<::StringW>* songPackSerializedNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -112,7 +113,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _songPackSerializedNames
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__songPackSerializedNames();
+    System::Collections::Generic::List_1<::StringW>*& dyn__songPackSerializedNames();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
     // Offset: 0x12174A4
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
@@ -130,7 +131,7 @@ namespace GlobalNamespace {
     void OnDestroy();
     // public System.Void SetOverrideSongPacks(System.Collections.Generic.List`1<System.String> songPackSerializedNames)
     // Offset: 0x12178C0
-    void SetOverrideSongPacks(System::Collections::Generic::List_1<::Il2CppString*>* songPackSerializedNames);
+    void SetOverrideSongPacks(System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
     // public SongPackMask GetSelectedSongPackMask()
     // Offset: 0x12178C8
     GlobalNamespace::SongPackMask GetSelectedSongPackMask();
@@ -158,7 +159,7 @@ namespace GlobalNamespace {
     }
   }; // SongPacksDropdown
   #pragma pack(pop)
-  static check_size<sizeof(SongPacksDropdown), 56 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_SongPacksDropdownSizeCheck;
+  static check_size<sizeof(SongPacksDropdown), 56 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_SongPacksDropdownSizeCheck;
   static_assert(sizeof(SongPacksDropdown) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -207,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::SetOverrideSongPacks
 // Il2CppName: SetOverrideSongPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPacksDropdown::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GlobalNamespace::SongPacksDropdown::SetOverrideSongPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPacksDropdown::*)(System::Collections::Generic::List_1<::StringW>*)>(&GlobalNamespace::SongPacksDropdown::SetOverrideSongPacks)> {
   static const MethodInfo* get() {
     static auto* songPackSerializedNames = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown*), "SetOverrideSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackSerializedNames});

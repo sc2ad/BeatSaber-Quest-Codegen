@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -39,9 +40,9 @@ namespace System::Net {
     // private System.String header
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* header;
+    ::StringW header;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 length
     // Size: 0x4
     // Offset: 0x18
@@ -57,41 +58,41 @@ namespace System::Net {
     // private System.String[] values
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> values;
+    ::ArrayW<::StringW> values;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get static field: static private System.String[] keywords
-    static ::ArrayW<::Il2CppString*> _get_keywords();
+    static ::ArrayW<::StringW> _get_keywords();
     // Set static field: static private System.String[] keywords
-    static void _set_keywords(::ArrayW<::Il2CppString*> value);
+    static void _set_keywords(::ArrayW<::StringW> value);
     // Get instance field reference: private System.String header
-    ::Il2CppString*& dyn_header();
+    ::StringW& dyn_header();
     // Get instance field reference: private System.Int32 length
     int& dyn_length();
     // Get instance field reference: private System.Int32 pos
     int& dyn_pos();
     // Get instance field reference: private System.String[] values
-    ::ArrayW<::Il2CppString*>& dyn_values();
+    ::ArrayW<::StringW>& dyn_values();
     // public System.String get_Realm()
     // Offset: 0x15ED060
-    ::Il2CppString* get_Realm();
+    ::StringW get_Realm();
     // public System.String get_Opaque()
     // Offset: 0x15ED094
-    ::Il2CppString* get_Opaque();
+    ::StringW get_Opaque();
     // public System.String get_Nonce()
     // Offset: 0x15ED0CC
-    ::Il2CppString* get_Nonce();
+    ::StringW get_Nonce();
     // public System.String get_Algorithm()
     // Offset: 0x15ED104
-    ::Il2CppString* get_Algorithm();
+    ::StringW get_Algorithm();
     // public System.String get_QOP()
     // Offset: 0x15ED13C
-    ::Il2CppString* get_QOP();
+    ::StringW get_QOP();
     // public System.Void .ctor(System.String header)
     // Offset: 0x15ECFA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DigestHeaderParser* New_ctor(::Il2CppString* header) {
+    static DigestHeaderParser* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
@@ -106,20 +107,20 @@ namespace System::Net {
     void SkipWhitespace();
     // private System.String GetKey()
     // Offset: 0x15ED584
-    ::Il2CppString* GetKey();
+    ::StringW GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
     // Offset: 0x15ED35C
-    bool GetKeywordAndValue(ByRef<::Il2CppString*> key, ByRef<::Il2CppString*> value);
+    bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)
-  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Net_DigestHeaderParserSizeCheck;
+  static check_size<sizeof(DigestHeaderParser), 32 + sizeof(::ArrayW<::StringW>)> __System_Net_DigestHeaderParserSizeCheck;
   static_assert(sizeof(DigestHeaderParser) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Realm
 // Il2CppName: get_Realm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Realm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Realm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Opaque
 // Il2CppName: get_Opaque
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Opaque)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Opaque)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "get_Opaque", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Nonce
 // Il2CppName: get_Nonce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Nonce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Nonce)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "get_Nonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_Algorithm
 // Il2CppName: get_Algorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Algorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_Algorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::get_QOP
 // Il2CppName: get_QOP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_QOP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::get_QOP)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "get_QOP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::GetKey
 // Il2CppName: GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestHeaderParser::*)()>(&System::Net::DigestHeaderParser::GetKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestHeaderParser*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestHeaderParser::GetKeywordAndValue
 // Il2CppName: GetKeywordAndValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestHeaderParser::*)(ByRef<::Il2CppString*>, ByRef<::Il2CppString*>)>(&System::Net::DigestHeaderParser::GetKeywordAndValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestHeaderParser::*)(ByRef<::StringW>, ByRef<::StringW>)>(&System::Net::DigestHeaderParser::GetKeywordAndValue)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -41,17 +42,17 @@ namespace GlobalNamespace {
     // public System.String _msg
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* msg;
+    ::StringW msg;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _msg
-    ::Il2CppString*& dyn__msg();
+    ::StringW& dyn__msg();
     // private System.Void AssetCallbackWithMsg(System.String msg)
     // Offset: 0x14619C0
-    void AssetCallbackWithMsg(::Il2CppString* msg);
+    void AssetCallbackWithMsg(::StringW msg);
     // private System.Void AssetCallbackNoMsg()
     // Offset: 0x1461A5C
     void AssetCallbackNoMsg();
@@ -70,14 +71,14 @@ namespace GlobalNamespace {
     }
   }; // HEU_ScriptCallbackExample
   #pragma pack(pop)
-  static check_size<sizeof(HEU_ScriptCallbackExample), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_HEU_ScriptCallbackExampleSizeCheck;
+  static check_size<sizeof(HEU_ScriptCallbackExample), 24 + sizeof(::StringW)> __GlobalNamespace_HEU_ScriptCallbackExampleSizeCheck;
   static_assert(sizeof(HEU_ScriptCallbackExample) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg
 // Il2CppName: AssetCallbackWithMsg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HEU_ScriptCallbackExample::*)(::Il2CppString*)>(&GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HEU_ScriptCallbackExample::*)(::StringW)>(&GlobalNamespace::HEU_ScriptCallbackExample::AssetCallbackWithMsg)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ScriptCallbackExample*), "AssetCallbackWithMsg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

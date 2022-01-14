@@ -148,7 +148,7 @@ namespace System::Collections::Generic {
       Enumerator(System::Collections::Generic::Queue_1<T>* q) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Queue_1::Enumerator::.ctor");
         static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(q)})));
-        ::il2cpp_utils::RunMethodRethrow<typename Queue_1<T>::Enumerator, false>(this, ___internal__method, q);
+        ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, q);
       }
       // public System.Void Dispose()
       // Offset: 0xFFFFFFFF

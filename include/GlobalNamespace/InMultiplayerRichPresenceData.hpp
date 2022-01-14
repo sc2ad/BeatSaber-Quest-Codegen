@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,21 +48,21 @@ namespace GlobalNamespace {
     // private System.String <apiName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* apiName;
+    ::StringW apiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedDescription;
+    ::StringW localizedDescription;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String <multiplayerSecret>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* multiplayerSecret;
+    ::StringW multiplayerSecret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <atMaxPartySize>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -83,37 +84,37 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
     static constexpr const char* kInMultiplayerLobbyRichPresenceLocalizationKey = "IN_MULTIPLAYER_LOBBY_PRESENCE";
     // Get static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
-    static ::Il2CppString* _get_kInMultiplayerLobbyRichPresenceLocalizationKey();
+    static ::StringW _get_kInMultiplayerLobbyRichPresenceLocalizationKey();
     // Set static field: static private System.String kInMultiplayerLobbyRichPresenceLocalizationKey
-    static void _set_kInMultiplayerLobbyRichPresenceLocalizationKey(::Il2CppString* value);
+    static void _set_kInMultiplayerLobbyRichPresenceLocalizationKey(::StringW value);
     // Get instance field reference: private System.String <apiName>k__BackingField
-    ::Il2CppString*& dyn_$apiName$k__BackingField();
+    ::StringW& dyn_$apiName$k__BackingField();
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
-    ::Il2CppString*& dyn_$localizedDescription$k__BackingField();
+    ::StringW& dyn_$localizedDescription$k__BackingField();
     // Get instance field reference: private System.String <multiplayerSecret>k__BackingField
-    ::Il2CppString*& dyn_$multiplayerSecret$k__BackingField();
+    ::StringW& dyn_$multiplayerSecret$k__BackingField();
     // Get instance field reference: private System.Boolean <atMaxPartySize>k__BackingField
     bool& dyn_$atMaxPartySize$k__BackingField();
     // Get instance field reference: private System.Boolean <canInvite>k__BackingField
     bool& dyn_$canInvite$k__BackingField();
     // public System.String get_apiName()
     // Offset: 0x119FAFC
-    ::Il2CppString* get_apiName();
+    ::StringW get_apiName();
     // protected System.Void set_apiName(System.String value)
     // Offset: 0x119FB04
-    void set_apiName(::Il2CppString* value);
+    void set_apiName(::StringW value);
     // public System.String get_localizedDescription()
     // Offset: 0x119FB0C
-    ::Il2CppString* get_localizedDescription();
+    ::StringW get_localizedDescription();
     // protected System.Void set_localizedDescription(System.String value)
     // Offset: 0x119FB14
-    void set_localizedDescription(::Il2CppString* value);
+    void set_localizedDescription(::StringW value);
     // public System.String get_multiplayerSecret()
     // Offset: 0x119FB1C
-    ::Il2CppString* get_multiplayerSecret();
+    ::StringW get_multiplayerSecret();
     // public System.Void set_multiplayerSecret(System.String value)
     // Offset: 0x119FB24
-    void set_multiplayerSecret(::Il2CppString* value);
+    void set_multiplayerSecret(::StringW value);
     // public System.Boolean get_atMaxPartySize()
     // Offset: 0x119FB2C
     bool get_atMaxPartySize();
@@ -132,7 +133,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String multiplayerSecret, System.Boolean canInvite, System.Boolean atMaxPartySize)
     // Offset: 0x119FB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InMultiplayerRichPresenceData* New_ctor(::Il2CppString* multiplayerSecret, bool canInvite, bool atMaxPartySize) {
+    static InMultiplayerRichPresenceData* New_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::InMultiplayerRichPresenceData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InMultiplayerRichPresenceData*, creationType>(multiplayerSecret, canInvite, atMaxPartySize)));
     }
@@ -145,7 +146,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_apiName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::set_apiName
 // Il2CppName: set_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_apiName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription
 // Il2CppName: get_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription
 // Il2CppName: set_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -179,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerSecret
 // Il2CppName: get_multiplayerSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerSecret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_multiplayerSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerSecret
 // Il2CppName: set_multiplayerSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerSecret)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_multiplayerSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

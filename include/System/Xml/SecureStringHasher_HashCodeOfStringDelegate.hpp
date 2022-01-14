@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,10 +44,10 @@ namespace System::Xml {
     }
     // public System.Int32 Invoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy)
     // Offset: 0x1B61954
-    int Invoke(::Il2CppString* s, int sLen, int64_t additionalEntropy);
+    int Invoke(::StringW s, int sLen, int64_t additionalEntropy);
     // public System.IAsyncResult BeginInvoke(System.String s, System.Int32 sLen, System.Int64 additionalEntropy, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1B61E18
-    System::IAsyncResult* BeginInvoke(::Il2CppString* s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW s, int sLen, int64_t additionalEntropy, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x1B61ED0
     int EndInvoke(System::IAsyncResult* result);
@@ -61,7 +62,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::SecureStringHasher::HashCodeOfStringDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t)>(&System::Xml::SecureStringHasher::HashCodeOfStringDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::SecureStringHasher::HashCodeOfStringDelegate::*)(::StringW, int, int64_t)>(&System::Xml::SecureStringHasher::HashCodeOfStringDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::SecureStringHasher::HashCodeOfStringDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Xml::SecureStringHasher::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t, System::AsyncCallback*, ::Il2CppObject*)>(&System::Xml::SecureStringHasher::HashCodeOfStringDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Xml::SecureStringHasher::HashCodeOfStringDelegate::*)(::StringW, int, int64_t, System::AsyncCallback*, ::Il2CppObject*)>(&System::Xml::SecureStringHasher::HashCodeOfStringDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

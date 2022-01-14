@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair);
@@ -43,14 +44,14 @@ namespace GlobalNamespace {
     // public System.String property
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* property;
+    ::StringW property;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Color tintColor
     UnityEngine::Color& dyn_tintColor();
     // Get instance field reference: public System.String property
-    ::Il2CppString*& dyn_property();
+    ::StringW& dyn_property();
     // public System.Void .ctor()
     // Offset: 0x1236BD4
     // Implemented from: System.Object
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     }
   }; // SetSaberGlowColor/PropertyTintColorPair
   #pragma pack(pop)
-  static check_size<sizeof(SetSaberGlowColor::PropertyTintColorPair), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_SetSaberGlowColor_PropertyTintColorPairSizeCheck;
+  static check_size<sizeof(SetSaberGlowColor::PropertyTintColorPair), 32 + sizeof(::StringW)> __GlobalNamespace_SetSaberGlowColor_PropertyTintColorPairSizeCheck;
   static_assert(sizeof(SetSaberGlowColor::PropertyTintColorPair) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

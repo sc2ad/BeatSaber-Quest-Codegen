@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -49,9 +50,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] canonEncoding
     // Size: 0x8
     // Offset: 0x28
@@ -60,7 +61,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: private System.Byte[] canonEncoding
     ::ArrayW<uint8_t>& dyn_canonEncoding();
     // public System.Void .ctor(System.Byte[] encodedDistinguishedName)
@@ -72,16 +73,16 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // public System.String Decode(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags flag)
     // Offset: 0x19D51B0
-    ::Il2CppString* Decode(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
+    ::StringW Decode(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
     // static private System.String GetSeparator(System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags flag)
     // Offset: 0x19D52EC
-    static ::Il2CppString* GetSeparator(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
+    static ::StringW GetSeparator(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags flag);
     // private System.Void DecodeRawData()
     // Offset: 0x19D50D4
     void DecodeRawData();
     // static private System.String Canonize(System.String s)
     // Offset: 0x19D53D0
-    static ::Il2CppString* Canonize(::Il2CppString* s);
+    static ::StringW Canonize(::StringW s);
     // static System.Boolean AreEqual(System.Security.Cryptography.X509Certificates.X500DistinguishedName name1, System.Security.Cryptography.X509Certificates.X500DistinguishedName name2)
     // Offset: 0x19D5654
     static bool AreEqual(System::Security::Cryptography::X509Certificates::X500DistinguishedName* name1, System::Security::Cryptography::X509Certificates::X500DistinguishedName* name2);
@@ -89,7 +90,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x19D5360
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::Format(System.Boolean multiLine)
-    ::Il2CppString* Format(bool multiLine);
+    ::StringW Format(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X500DistinguishedName
   #pragma pack(pop)
   static check_size<sizeof(X500DistinguishedName), 40 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameSizeCheck;
@@ -103,7 +104,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X500DistinguishedName::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Decode)> {
   static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X500DistinguishedName::GetSeparator
 // Il2CppName: GetSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::GetSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::GetSeparator)> {
   static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "GetSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X500DistinguishedName::Canonize
 // Il2CppName: Canonize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Canonize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Canonize)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Canonize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X500DistinguishedName::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(bool)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(bool)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Format)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});

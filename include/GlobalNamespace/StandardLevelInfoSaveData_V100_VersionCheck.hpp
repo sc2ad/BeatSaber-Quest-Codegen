@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck);
@@ -35,19 +36,19 @@ namespace GlobalNamespace {
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return version;
     }
     // Get instance field reference: private System.String _version
-    ::Il2CppString*& dyn__version();
+    ::StringW& dyn__version();
     // public System.String get_version()
     // Offset: 0x1223084
-    ::Il2CppString* get_version();
+    ::StringW get_version();
     // public System.Void .ctor()
     // Offset: 0x122308C
     // Implemented from: System.Object
@@ -59,14 +60,14 @@ namespace GlobalNamespace {
     }
   }; // StandardLevelInfoSaveData_V100/VersionCheck
   #pragma pack(pop)
-  static check_size<sizeof(StandardLevelInfoSaveData_V100::VersionCheck), 16 + sizeof(::Il2CppString*)> __GlobalNamespace_StandardLevelInfoSaveData_V100_VersionCheckSizeCheck;
+  static check_size<sizeof(StandardLevelInfoSaveData_V100::VersionCheck), 16 + sizeof(::StringW)> __GlobalNamespace_StandardLevelInfoSaveData_V100_VersionCheckSizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100::VersionCheck) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

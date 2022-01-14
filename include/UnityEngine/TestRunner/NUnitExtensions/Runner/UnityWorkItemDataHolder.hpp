@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -31,13 +32,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class UnityWorkItemDataHolder : public ::Il2CppObject {
     public:
     // Get static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests
-    static System::Collections::Generic::List_1<::Il2CppString*>* _get_alreadyStartedTests();
+    static System::Collections::Generic::List_1<::StringW>* _get_alreadyStartedTests();
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests
-    static void _set_alreadyStartedTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    static void _set_alreadyStartedTests(System::Collections::Generic::List_1<::StringW>* value);
     // Get static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
-    static System::Collections::Generic::List_1<::Il2CppString*>* _get_alreadyExecutedTests();
+    static System::Collections::Generic::List_1<::StringW>* _get_alreadyExecutedTests();
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
-    static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x16C7C34
     static void _cctor();

@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -46,9 +47,9 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // private System.String type
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* type;
+    ::StringW type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.IList headers
     // Size: 0x8
     // Offset: 0x18
@@ -63,14 +64,14 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String type
-    ::Il2CppString*& dyn_type();
+    ::StringW& dyn_type();
     // Get instance field reference: private System.Collections.IList headers
     System::Collections::IList*& dyn_headers();
     // Get instance field reference: private System.Byte[] content
     ::ArrayW<uint8_t>& dyn_content();
     // public System.String get_Type()
     // Offset: 0x222B2EC
-    ::Il2CppString* get_Type();
+    ::StringW get_Type();
     // public System.Collections.IList get_Headers()
     // Offset: 0x222B2F4
     System::Collections::IList* get_Headers();
@@ -80,7 +81,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
     // Offset: 0x222B1F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::ArrayW<uint8_t> content) {
+    static PemObject* New_ctor(::StringW type, System::Collections::IList* headers, ::ArrayW<uint8_t> content) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemObject*, creationType>(type, headers, content)));
     }
@@ -93,7 +94,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

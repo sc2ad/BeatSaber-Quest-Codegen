@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,9 +58,9 @@ namespace GlobalNamespace {
     // private System.String _argument
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* argument;
+    ::StringW argument;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x20
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _argument
-    ::Il2CppString*& dyn__argument();
+    ::StringW& dyn__argument();
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // protected System.Collections.IEnumerator Start()

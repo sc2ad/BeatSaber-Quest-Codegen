@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -66,9 +67,9 @@ namespace System::Runtime::Serialization {
     // System.String[] m_members
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> m_members;
+    ::ArrayW<::StringW> m_members;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Object[] m_data
     // Size: 0x8
     // Offset: 0x18
@@ -84,9 +85,9 @@ namespace System::Runtime::Serialization {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* m_nameToIndex;
+    System::Collections::Generic::Dictionary_2<::StringW, int>* m_nameToIndex;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // System.Int32 m_currMember
     // Size: 0x4
     // Offset: 0x30
@@ -104,15 +105,15 @@ namespace System::Runtime::Serialization {
     // private System.String m_fullTypeName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* m_fullTypeName;
+    ::StringW m_fullTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_assemName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* m_assemName;
+    ::StringW m_assemName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Type objectType
     // Size: 0x8
     // Offset: 0x50
@@ -147,31 +148,31 @@ namespace System::Runtime::Serialization {
     // static field const value: static private System.String s_mscorlibAssemblySimpleName
     static constexpr const char* s_mscorlibAssemblySimpleName = "mscorlib";
     // Get static field: static private System.String s_mscorlibAssemblySimpleName
-    static ::Il2CppString* _get_s_mscorlibAssemblySimpleName();
+    static ::StringW _get_s_mscorlibAssemblySimpleName();
     // Set static field: static private System.String s_mscorlibAssemblySimpleName
-    static void _set_s_mscorlibAssemblySimpleName(::Il2CppString* value);
+    static void _set_s_mscorlibAssemblySimpleName(::StringW value);
     // static field const value: static private System.String s_mscorlibFileName
     static constexpr const char* s_mscorlibFileName = "mscorlib.dll";
     // Get static field: static private System.String s_mscorlibFileName
-    static ::Il2CppString* _get_s_mscorlibFileName();
+    static ::StringW _get_s_mscorlibFileName();
     // Set static field: static private System.String s_mscorlibFileName
-    static void _set_s_mscorlibFileName(::Il2CppString* value);
+    static void _set_s_mscorlibFileName(::StringW value);
     // Get instance field reference: System.String[] m_members
-    ::ArrayW<::Il2CppString*>& dyn_m_members();
+    ::ArrayW<::StringW>& dyn_m_members();
     // Get instance field reference: System.Object[] m_data
     ::ArrayW<::Il2CppObject*>& dyn_m_data();
     // Get instance field reference: System.Type[] m_types
     ::ArrayW<System::Type*>& dyn_m_types();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_m_nameToIndex();
+    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn_m_nameToIndex();
     // Get instance field reference: System.Int32 m_currMember
     int& dyn_m_currMember();
     // Get instance field reference: System.Runtime.Serialization.IFormatterConverter m_converter
     System::Runtime::Serialization::IFormatterConverter*& dyn_m_converter();
     // Get instance field reference: private System.String m_fullTypeName
-    ::Il2CppString*& dyn_m_fullTypeName();
+    ::StringW& dyn_m_fullTypeName();
     // Get instance field reference: private System.String m_assemName
-    ::Il2CppString*& dyn_m_assemName();
+    ::StringW& dyn_m_assemName();
     // Get instance field reference: private System.Type objectType
     System::Type*& dyn_objectType();
     // Get instance field reference: private System.Boolean isFullTypeNameSetExplicit
@@ -182,10 +183,10 @@ namespace System::Runtime::Serialization {
     bool& dyn_requireSameTokenInPartialTrust();
     // public System.String get_FullTypeName()
     // Offset: 0x19228A0
-    ::Il2CppString* get_FullTypeName();
+    ::StringW get_FullTypeName();
     // public System.String get_AssemblyName()
     // Offset: 0x19228A8
-    ::Il2CppString* get_AssemblyName();
+    ::StringW get_AssemblyName();
     // public System.Int32 get_MemberCount()
     // Offset: 0x1922A64
     int get_MemberCount();
@@ -220,10 +221,10 @@ namespace System::Runtime::Serialization {
     static bool Compare(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
     // static System.Void DemandForUnsafeAssemblyNameAssignments(System.String originalAssemblyName, System.String newAssemblyName)
     // Offset: 0x19228B0
-    static void DemandForUnsafeAssemblyNameAssignments(::Il2CppString* originalAssemblyName, ::Il2CppString* newAssemblyName);
+    static void DemandForUnsafeAssemblyNameAssignments(::StringW originalAssemblyName, ::StringW newAssemblyName);
     // static System.Boolean IsAssemblyNameAssignmentSafe(System.String originalAssemblyName, System.String newAssemblyName)
     // Offset: 0x1922940
-    static bool IsAssemblyNameAssignmentSafe(::Il2CppString* originalAssemblyName, ::Il2CppString* newAssemblyName);
+    static bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::StringW newAssemblyName);
     // public System.Runtime.Serialization.SerializationInfoEnumerator GetEnumerator()
     // Offset: 0x1922A84
     System::Runtime::Serialization::SerializationInfoEnumerator* GetEnumerator();
@@ -232,73 +233,73 @@ namespace System::Runtime::Serialization {
     void ExpandArrays();
     // public System.Void AddValue(System.String name, System.Object value, System.Type type)
     // Offset: 0x1920FD8
-    void AddValue(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
+    void AddValue(::StringW name, ::Il2CppObject* value, System::Type* type);
     // public System.Void AddValue(System.String name, System.Object value)
     // Offset: 0x1922E50
-    void AddValue(::Il2CppString* name, ::Il2CppObject* value);
+    void AddValue(::StringW name, ::Il2CppObject* value);
     // public System.Void AddValue(System.String name, System.Boolean value)
     // Offset: 0x1922F0C
-    void AddValue(::Il2CppString* name, bool value);
+    void AddValue(::StringW name, bool value);
     // public System.Void AddValue(System.String name, System.Char value)
     // Offset: 0x1922FD0
-    void AddValue(::Il2CppString* name, ::Il2CppChar value);
+    void AddValue(::StringW name, ::Il2CppChar value);
     // public System.Void AddValue(System.String name, System.Byte value)
     // Offset: 0x1923094
-    void AddValue(::Il2CppString* name, uint8_t value);
+    void AddValue(::StringW name, uint8_t value);
     // public System.Void AddValue(System.String name, System.Int16 value)
     // Offset: 0x1923158
-    void AddValue(::Il2CppString* name, int16_t value);
+    void AddValue(::StringW name, int16_t value);
     // public System.Void AddValue(System.String name, System.Int32 value)
     // Offset: 0x192321C
-    void AddValue(::Il2CppString* name, int value);
+    void AddValue(::StringW name, int value);
     // public System.Void AddValue(System.String name, System.Int64 value)
     // Offset: 0x19232E0
-    void AddValue(::Il2CppString* name, int64_t value);
+    void AddValue(::StringW name, int64_t value);
     // public System.Void AddValue(System.String name, System.UInt64 value)
     // Offset: 0x19233A4
-    void AddValue(::Il2CppString* name, uint64_t value);
+    void AddValue(::StringW name, uint64_t value);
     // public System.Void AddValue(System.String name, System.Single value)
     // Offset: 0x1923468
-    void AddValue(::Il2CppString* name, float value);
+    void AddValue(::StringW name, float value);
     // public System.Void AddValue(System.String name, System.DateTime value)
     // Offset: 0x192352C
-    void AddValue(::Il2CppString* name, System::DateTime value);
+    void AddValue(::StringW name, System::DateTime value);
     // System.Void AddValueInternal(System.String name, System.Object value, System.Type type)
     // Offset: 0x1922C78
-    void AddValueInternal(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
+    void AddValueInternal(::StringW name, ::Il2CppObject* value, System::Type* type);
     // System.Void UpdateValue(System.String name, System.Object value, System.Type type)
     // Offset: 0x191E5A0
-    void UpdateValue(::Il2CppString* name, ::Il2CppObject* value, System::Type* type);
+    void UpdateValue(::StringW name, ::Il2CppObject* value, System::Type* type);
     // private System.Int32 FindElement(System.String name)
     // Offset: 0x19235F0
-    int FindElement(::Il2CppString* name);
+    int FindElement(::StringW name);
     // private System.Object GetElement(System.String name, out System.Type foundType)
     // Offset: 0x19236B0
-    ::Il2CppObject* GetElement(::Il2CppString* name, ByRef<System::Type*> foundType);
+    ::Il2CppObject* GetElement(::StringW name, ByRef<System::Type*> foundType);
     // private System.Object GetElementNoThrow(System.String name, out System.Type foundType)
     // Offset: 0x19237EC
-    ::Il2CppObject* GetElementNoThrow(::Il2CppString* name, ByRef<System::Type*> foundType);
+    ::Il2CppObject* GetElementNoThrow(::StringW name, ByRef<System::Type*> foundType);
     // public System.Object GetValue(System.String name, System.Type type)
     // Offset: 0x1920C6C
-    ::Il2CppObject* GetValue(::Il2CppString* name, System::Type* type);
+    ::Il2CppObject* GetValue(::StringW name, System::Type* type);
     // System.Object GetValueNoThrow(System.String name, System.Type type)
     // Offset: 0x1920B40
-    ::Il2CppObject* GetValueNoThrow(::Il2CppString* name, System::Type* type);
+    ::Il2CppObject* GetValueNoThrow(::StringW name, System::Type* type);
     // public System.Boolean GetBoolean(System.String name)
     // Offset: 0x1923874
-    bool GetBoolean(::Il2CppString* name);
+    bool GetBoolean(::StringW name);
     // public System.Int32 GetInt32(System.String name)
     // Offset: 0x19239E8
-    int GetInt32(::Il2CppString* name);
+    int GetInt32(::StringW name);
     // public System.Int64 GetInt64(System.String name)
     // Offset: 0x1923B50
-    int64_t GetInt64(::Il2CppString* name);
+    int64_t GetInt64(::StringW name);
     // public System.Single GetSingle(System.String name)
     // Offset: 0x1923CB8
-    float GetSingle(::Il2CppString* name);
+    float GetSingle(::StringW name);
     // public System.String GetString(System.String name)
     // Offset: 0x1923E20
-    ::Il2CppString* GetString(::Il2CppString* name);
+    ::StringW GetString(::StringW name);
   }; // System.Runtime.Serialization.SerializationInfo
   #pragma pack(pop)
   static check_size<sizeof(SerializationInfo), 90 + sizeof(bool)> __System_Runtime_Serialization_SerializationInfoSizeCheck;
@@ -308,7 +309,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::get_FullTypeName
 // Il2CppName: get_FullTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationInfo::*)()>(&System::Runtime::Serialization::SerializationInfo::get_FullTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::SerializationInfo::*)()>(&System::Runtime::Serialization::SerializationInfo::get_FullTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "get_FullTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -316,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationInfo::*)()>(&System::Runtime::Serialization::SerializationInfo::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::SerializationInfo::*)()>(&System::Runtime::Serialization::SerializationInfo::get_AssemblyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::DemandForUnsafeAssemblyNameAssignments
 // Il2CppName: DemandForUnsafeAssemblyNameAssignments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::DemandForUnsafeAssemblyNameAssignments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&System::Runtime::Serialization::SerializationInfo::DemandForUnsafeAssemblyNameAssignments)> {
   static const MethodInfo* get() {
     static auto* originalAssemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newAssemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -393,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::IsAssemblyNameAssignmentSafe
 // Il2CppName: IsAssemblyNameAssignmentSafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::IsAssemblyNameAssignmentSafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&System::Runtime::Serialization::SerializationInfo::IsAssemblyNameAssignmentSafe)> {
   static const MethodInfo* get() {
     static auto* originalAssemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newAssemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -419,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -430,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -440,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, bool)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, bool)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -450,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ::Il2CppChar)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ::Il2CppChar)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -460,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, uint8_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, uint8_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -470,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, int16_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, int16_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
@@ -480,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, int)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, int)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -490,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, int64_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, int64_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -500,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, uint64_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, uint64_t)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -510,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, float)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, float)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -520,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, System::DateTime)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, System::DateTime)>(&System::Runtime::Serialization::SerializationInfo::AddValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
@@ -530,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::AddValueInternal
 // Il2CppName: AddValueInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::AddValueInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::AddValueInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -541,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::UpdateValue
 // Il2CppName: UpdateValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::UpdateValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::UpdateValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -552,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::FindElement
 // Il2CppName: FindElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::FindElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::FindElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "FindElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -561,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetElement
 // Il2CppName: GetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ByRef<System::Type*>)>(&System::Runtime::Serialization::SerializationInfo::GetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ByRef<System::Type*>)>(&System::Runtime::Serialization::SerializationInfo::GetElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* foundType = &::il2cpp_utils::GetClassFromName("System", "Type")->this_arg;
@@ -571,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetElementNoThrow
 // Il2CppName: GetElementNoThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, ByRef<System::Type*>)>(&System::Runtime::Serialization::SerializationInfo::GetElementNoThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::StringW, ByRef<System::Type*>)>(&System::Runtime::Serialization::SerializationInfo::GetElementNoThrow)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* foundType = &::il2cpp_utils::GetClassFromName("System", "Type")->this_arg;
@@ -581,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::StringW, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::GetValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -591,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetValueNoThrow
 // Il2CppName: GetValueNoThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::GetValueNoThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::SerializationInfo::*)(::StringW, System::Type*)>(&System::Runtime::Serialization::SerializationInfo::GetValueNoThrow)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -601,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetBoolean
 // Il2CppName: GetBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::GetBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::GetBoolean)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "GetBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::GetInt32)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -619,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetInt64
 // Il2CppName: GetInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::GetInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::GetInt64)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "GetInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -628,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetSingle
 // Il2CppName: GetSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::GetSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::GetSingle)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "GetSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -637,7 +638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::SerializationInfo::*)(::Il2CppString*)>(&System::Runtime::Serialization::SerializationInfo::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::SerializationInfo::*)(::StringW)>(&System::Runtime::Serialization::SerializationInfo::GetString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationInfo*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

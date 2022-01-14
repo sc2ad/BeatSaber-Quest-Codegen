@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -12,9 +13,6 @@ namespace UnityEngine::TestTools::Utils {
   class IAssemblyWrapper;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
   // Forward declaring type: IAssemblyLoadProxy
@@ -33,7 +31,7 @@ namespace UnityEngine::TestTools::Utils {
     public:
     // public UnityEngine.TestTools.Utils.IAssemblyWrapper Load(System.String assemblyString)
     // Offset: 0xFFFFFFFF
-    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::Il2CppString* assemblyString);
+    UnityEngine::TestTools::Utils::IAssemblyWrapper* Load(::StringW assemblyString);
   }; // UnityEngine.TestTools.Utils.IAssemblyLoadProxy
   #pragma pack(pop)
 }
@@ -41,7 +39,7 @@ namespace UnityEngine::TestTools::Utils {
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::IAssemblyLoadProxy::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::IAssemblyLoadProxy::*)(::StringW)>(&UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load)> {
   static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});

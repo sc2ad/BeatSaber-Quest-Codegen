@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -39,13 +40,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
     // Offset: 0x16BE32C
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
-    ::Il2CppString* get_ElementName();
+    ::StringW get_ElementName();
     // public System.Void .ctor(System.String assemblyName)
     // Offset: 0x16BDE34
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssemblyNameFilter* New_ctor(::Il2CppString* assemblyName) {
+    static AssemblyNameFilter* New_ctor(::StringW assemblyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyNameFilter*, creationType>(assemblyName)));
     }
@@ -61,7 +62,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::get_ElementName
 // Il2CppName: get_ElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::get_ElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter::get_ElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Filters::AssemblyNameFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

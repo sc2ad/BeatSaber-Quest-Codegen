@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,16 +50,16 @@ namespace System::Diagnostics {
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return typeName;
     }
     // Get instance field reference: private System.String typeName
-    ::Il2CppString*& dyn_typeName();
+    ::StringW& dyn_typeName();
     // public System.Void .ctor(System.Type type)
     // Offset: 0x1D53B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -68,7 +69,7 @@ namespace System::Diagnostics {
     }
   }; // System.Diagnostics.DebuggerTypeProxyAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DebuggerTypeProxyAttribute), 16 + sizeof(::Il2CppString*)> __System_Diagnostics_DebuggerTypeProxyAttributeSizeCheck;
+  static check_size<sizeof(DebuggerTypeProxyAttribute), 16 + sizeof(::StringW)> __System_Diagnostics_DebuggerTypeProxyAttributeSizeCheck;
   static_assert(sizeof(DebuggerTypeProxyAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

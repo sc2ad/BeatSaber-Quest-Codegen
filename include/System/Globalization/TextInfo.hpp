@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -59,9 +60,9 @@ namespace System::Globalization {
     // private System.String m_listSeparator
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_listSeparator;
+    ::StringW m_listSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4D70
     // private System.Boolean m_isReadOnly
     // Size: 0x1
@@ -73,9 +74,9 @@ namespace System::Globalization {
     // private System.String m_cultureName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_cultureName;
+    ::StringW m_cultureName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Globalization.CultureData m_cultureData
     // Size: 0x8
     // Offset: 0x28
@@ -85,9 +86,9 @@ namespace System::Globalization {
     // private System.String m_textInfoName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_textInfoName;
+    ::StringW m_textInfoName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Nullable`1<System.Boolean> m_IsAsciiCasingSameAsInvariant
     // Size: 0xFFFFFFFF
     // Offset: 0x38
@@ -96,9 +97,9 @@ namespace System::Globalization {
     // private System.String customCultureName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* customCultureName;
+    ::StringW customCultureName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4E18
     // System.Int32 m_nDataItem
     // Size: 0x4
@@ -140,19 +141,19 @@ namespace System::Globalization {
     // Set static field: static private System.Int32 wordSeparatorMask
     static void _set_wordSeparatorMask(int value);
     // Get instance field reference: private System.String m_listSeparator
-    ::Il2CppString*& dyn_m_listSeparator();
+    ::StringW& dyn_m_listSeparator();
     // Get instance field reference: private System.Boolean m_isReadOnly
     bool& dyn_m_isReadOnly();
     // Get instance field reference: private System.String m_cultureName
-    ::Il2CppString*& dyn_m_cultureName();
+    ::StringW& dyn_m_cultureName();
     // Get instance field reference: private System.Globalization.CultureData m_cultureData
     System::Globalization::CultureData*& dyn_m_cultureData();
     // Get instance field reference: private System.String m_textInfoName
-    ::Il2CppString*& dyn_m_textInfoName();
+    ::StringW& dyn_m_textInfoName();
     // Get instance field reference: private System.Nullable`1<System.Boolean> m_IsAsciiCasingSameAsInvariant
     System::Nullable_1<bool>& dyn_m_IsAsciiCasingSameAsInvariant();
     // Get instance field reference: private System.String customCultureName
-    ::Il2CppString*& dyn_customCultureName();
+    ::StringW& dyn_customCultureName();
     // Get instance field reference: System.Int32 m_nDataItem
     int& dyn_m_nDataItem();
     // Get instance field reference: System.Boolean m_useUserOverride
@@ -164,7 +165,7 @@ namespace System::Globalization {
     static System::Globalization::TextInfo* get_Invariant();
     // public System.String get_CultureName()
     // Offset: 0x1C402B8
-    ::Il2CppString* get_CultureName();
+    ::StringW get_CultureName();
     // private System.Boolean get_IsAsciiCasingSameAsInvariant()
     // Offset: 0x1C403D4
     bool get_IsAsciiCasingSameAsInvariant();
@@ -189,22 +190,22 @@ namespace System::Globalization {
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String s)
     // Offset: 0x1C3FE4C
-    static int GetHashCodeOrdinalIgnoreCase(::Il2CppString* s);
+    static int GetHashCodeOrdinalIgnoreCase(::StringW s);
     // static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String s, System.Boolean forceRandomizedHashing, System.Int64 additionalEntropy)
     // Offset: 0x1C3FE58
-    static int GetHashCodeOrdinalIgnoreCase(::Il2CppString* s, bool forceRandomizedHashing, int64_t additionalEntropy);
+    static int GetHashCodeOrdinalIgnoreCase(::StringW s, bool forceRandomizedHashing, int64_t additionalEntropy);
     // static System.Int32 CompareOrdinalIgnoreCase(System.String str1, System.String str2)
     // Offset: 0x1C3FF84
-    static int CompareOrdinalIgnoreCase(::Il2CppString* str1, ::Il2CppString* str2);
+    static int CompareOrdinalIgnoreCase(::StringW str1, ::StringW str2);
     // static System.Int32 CompareOrdinalIgnoreCaseEx(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 lengthA, System.Int32 lengthB)
     // Offset: 0x1C40178
-    static int CompareOrdinalIgnoreCaseEx(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int lengthA, int lengthB);
+    static int CompareOrdinalIgnoreCaseEx(::StringW strA, int indexA, ::StringW strB, int indexB, int lengthA, int lengthB);
     // static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String source, System.String value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x1C4017C
-    static int IndexOfStringOrdinalIgnoreCase(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count);
+    static int IndexOfStringOrdinalIgnoreCase(::StringW source, ::StringW value, int startIndex, int count);
     // static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String source, System.String value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x1C40224
-    static int LastIndexOfStringOrdinalIgnoreCase(::Il2CppString* source, ::Il2CppString* value, int startIndex, int count);
+    static int LastIndexOfStringOrdinalIgnoreCase(::StringW source, ::StringW value, int startIndex, int count);
     // public System.Object Clone()
     // Offset: 0x1C402C0
     ::Il2CppObject* Clone();
@@ -216,7 +217,7 @@ namespace System::Globalization {
     ::Il2CppChar ToLower(::Il2CppChar c);
     // public System.String ToLower(System.String str)
     // Offset: 0x1C409B8
-    ::Il2CppString* ToLower(::Il2CppString* str);
+    ::StringW ToLower(::StringW str);
     // static private System.Char ToLowerAsciiInvariant(System.Char c)
     // Offset: 0x1C404B8
     static ::Il2CppChar ToLowerAsciiInvariant(::Il2CppChar c);
@@ -225,7 +226,7 @@ namespace System::Globalization {
     ::Il2CppChar ToUpper(::Il2CppChar c);
     // public System.String ToUpper(System.String str)
     // Offset: 0x1C410AC
-    ::Il2CppString* ToUpper(::Il2CppString* str);
+    ::StringW ToUpper(::StringW str);
     // static private System.Char ToUpperAsciiInvariant(System.Char c)
     // Offset: 0x1C40BA0
     static ::Il2CppChar ToUpperAsciiInvariant(::Il2CppChar c);
@@ -237,19 +238,19 @@ namespace System::Globalization {
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // System.Int32 GetCaseInsensitiveHashCode(System.String str)
     // Offset: 0x1C41364
-    int GetCaseInsensitiveHashCode(::Il2CppString* str);
+    int GetCaseInsensitiveHashCode(::StringW str);
     // System.Int32 GetCaseInsensitiveHashCode(System.String str, System.Boolean forceRandomizedHashing, System.Int64 additionalEntropy)
     // Offset: 0x1C3FE88
-    int GetCaseInsensitiveHashCode(::Il2CppString* str, bool forceRandomizedHashing, int64_t additionalEntropy);
+    int GetCaseInsensitiveHashCode(::StringW str, bool forceRandomizedHashing, int64_t additionalEntropy);
     // private System.Int32 GetInvariantCaseInsensitiveHashCode(System.String str)
     // Offset: 0x1C4136C
-    int GetInvariantCaseInsensitiveHashCode(::Il2CppString* str);
+    int GetInvariantCaseInsensitiveHashCode(::StringW str);
     // private System.String ToUpperInternal(System.String str)
     // Offset: 0x1C41140
-    ::Il2CppString* ToUpperInternal(::Il2CppString* str);
+    ::StringW ToUpperInternal(::StringW str);
     // private System.String ToLowerInternal(System.String str)
     // Offset: 0x1C40A4C
-    ::Il2CppString* ToLowerInternal(::Il2CppString* str);
+    ::StringW ToLowerInternal(::StringW str);
     // private System.Char ToUpperInternal(System.Char c)
     // Offset: 0x1C40BBC
     ::Il2CppChar ToUpperInternal(::Il2CppChar c);
@@ -258,7 +259,7 @@ namespace System::Globalization {
     ::Il2CppChar ToLowerInternal(::Il2CppChar c);
     // static private System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 lenA, System.Int32 lenB)
     // Offset: 0x1C3FFB4
-    static int InternalCompareStringOrdinalIgnoreCase(::Il2CppString* strA, int indexA, ::Il2CppString* strB, int indexB, int lenA, int lenB);
+    static int InternalCompareStringOrdinalIgnoreCase(::StringW strA, int indexA, ::StringW strB, int indexB, int lenA, int lenB);
     // System.Void .ctor()
     // Offset: 0x1C414B4
     // Implemented from: System.Object
@@ -282,7 +283,7 @@ namespace System::Globalization {
     // Offset: 0x1C41300
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Globalization.TextInfo
   // WARNING Not writing size check since size may be invalid!
 }
@@ -298,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::TextInfo::get_CultureName
 // Il2CppName: get_CultureName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::get_CultureName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::get_CultureName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -353,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase
 // Il2CppName: GetHashCodeOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetHashCodeOrdinalIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -362,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase
 // Il2CppName: GetHashCodeOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, bool, int64_t)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, bool, int64_t)>(&System::Globalization::TextInfo::GetHashCodeOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* forceRandomizedHashing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -373,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Globalization::TextInfo::CompareOrdinalIgnoreCase
 // Il2CppName: CompareOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* str1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* str2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Globalization::TextInfo::CompareOrdinalIgnoreCaseEx
 // Il2CppName: CompareOrdinalIgnoreCaseEx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ::Il2CppString*, int, int, int)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCaseEx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, int)>(&System::Globalization::TextInfo::CompareOrdinalIgnoreCaseEx)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* indexA = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Globalization::TextInfo::IndexOfStringOrdinalIgnoreCase
 // Il2CppName: IndexOfStringOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, int)>(&System::Globalization::TextInfo::IndexOfStringOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, int, int)>(&System::Globalization::TextInfo::IndexOfStringOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -409,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Globalization::TextInfo::LastIndexOfStringOrdinalIgnoreCase
 // Il2CppName: LastIndexOfStringOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, int)>(&System::Globalization::TextInfo::LastIndexOfStringOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, int, int)>(&System::Globalization::TextInfo::LastIndexOfStringOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLower
 // Il2CppName: ToLower
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToLower)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::ToLower)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLower", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -474,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpper
 // Il2CppName: ToUpper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToUpper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::ToUpper)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -510,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetCaseInsensitiveHashCode
 // Il2CppName: GetCaseInsensitiveHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -519,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetCaseInsensitiveHashCode
 // Il2CppName: GetCaseInsensitiveHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*, bool, int64_t)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::StringW, bool, int64_t)>(&System::Globalization::TextInfo::GetCaseInsensitiveHashCode)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* forceRandomizedHashing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -530,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::TextInfo::GetInvariantCaseInsensitiveHashCode
 // Il2CppName: GetInvariantCaseInsensitiveHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::GetInvariantCaseInsensitiveHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::GetInvariantCaseInsensitiveHashCode)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "GetInvariantCaseInsensitiveHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -539,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToUpperInternal
 // Il2CppName: ToUpperInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToUpperInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::ToUpperInternal)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToUpperInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -548,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToLowerInternal
 // Il2CppName: ToLowerInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)(::Il2CppString*)>(&System::Globalization::TextInfo::ToLowerInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)(::StringW)>(&System::Globalization::TextInfo::ToLowerInternal)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToLowerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -575,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Globalization::TextInfo::InternalCompareStringOrdinalIgnoreCase
 // Il2CppName: InternalCompareStringOrdinalIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, ::Il2CppString*, int, int, int)>(&System::Globalization::TextInfo::InternalCompareStringOrdinalIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, int)>(&System::Globalization::TextInfo::InternalCompareStringOrdinalIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* indexA = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::TextInfo::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::TextInfo::*)()>(&System::Globalization::TextInfo::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TextInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

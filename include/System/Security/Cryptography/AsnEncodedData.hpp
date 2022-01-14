@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -75,7 +76,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.String oid, System.Byte[] rawData)
     // Offset: 0x17FA524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsnEncodedData* New_ctor(::Il2CppString* oid, ::ArrayW<uint8_t> rawData) {
+    static AsnEncodedData* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
@@ -91,31 +92,31 @@ namespace System::Security::Cryptography {
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
     // Offset: 0x17FA83C
-    ::Il2CppString* Format(bool multiLine);
+    ::StringW Format(bool multiLine);
     // System.String ToString(System.Boolean multiLine)
     // Offset: 0x17FA9FC
-    ::Il2CppString* ToString(bool multiLine);
+    ::StringW ToString(bool multiLine);
     // System.String Default(System.Boolean multiLine)
     // Offset: 0x17FA8E4
-    ::Il2CppString* Default(bool multiLine);
+    ::StringW Default(bool multiLine);
     // System.String BasicConstraintsExtension(System.Boolean multiLine)
     // Offset: 0x17FAB98
-    ::Il2CppString* BasicConstraintsExtension(bool multiLine);
+    ::StringW BasicConstraintsExtension(bool multiLine);
     // System.String EnhancedKeyUsageExtension(System.Boolean multiLine)
     // Offset: 0x17FACB0
-    ::Il2CppString* EnhancedKeyUsageExtension(bool multiLine);
+    ::StringW EnhancedKeyUsageExtension(bool multiLine);
     // System.String KeyUsageExtension(System.Boolean multiLine)
     // Offset: 0x17FADC8
-    ::Il2CppString* KeyUsageExtension(bool multiLine);
+    ::StringW KeyUsageExtension(bool multiLine);
     // System.String SubjectKeyIdentifierExtension(System.Boolean multiLine)
     // Offset: 0x17FAEE0
-    ::Il2CppString* SubjectKeyIdentifierExtension(bool multiLine);
+    ::StringW SubjectKeyIdentifierExtension(bool multiLine);
     // System.String SubjectAltName(System.Boolean multiLine)
     // Offset: 0x17FAFF8
-    ::Il2CppString* SubjectAltName(bool multiLine);
+    ::StringW SubjectAltName(bool multiLine);
     // System.String NetscapeCertType(System.Boolean multiLine)
     // Offset: 0x17FB374
-    ::Il2CppString* NetscapeCertType(bool multiLine);
+    ::StringW NetscapeCertType(bool multiLine);
     // protected System.Void .ctor()
     // Offset: 0x17FA51C
     // Implemented from: System.Object
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::Format)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::ToString)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::Default
 // Il2CppName: Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::Default)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::BasicConstraintsExtension
 // Il2CppName: BasicConstraintsExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::BasicConstraintsExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::BasicConstraintsExtension)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "BasicConstraintsExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::EnhancedKeyUsageExtension
 // Il2CppName: EnhancedKeyUsageExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::EnhancedKeyUsageExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::EnhancedKeyUsageExtension)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "EnhancedKeyUsageExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -230,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::KeyUsageExtension
 // Il2CppName: KeyUsageExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::KeyUsageExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::KeyUsageExtension)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "KeyUsageExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::SubjectKeyIdentifierExtension
 // Il2CppName: SubjectKeyIdentifierExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::SubjectKeyIdentifierExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::SubjectKeyIdentifierExtension)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "SubjectKeyIdentifierExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::SubjectAltName
 // Il2CppName: SubjectAltName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::SubjectAltName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::SubjectAltName)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "SubjectAltName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
@@ -257,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::NetscapeCertType
 // Il2CppName: NetscapeCertType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::NetscapeCertType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::AsnEncodedData::*)(bool)>(&System::Security::Cryptography::AsnEncodedData::NetscapeCertType)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "NetscapeCertType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});

@@ -8,6 +8,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,9 +29,6 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Forward declaring type: IPropertyCollector
@@ -62,7 +60,7 @@ namespace UnityEngine::Timeline {
     // public System.Void AddFromName(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddFromName(::Il2CppString* name) {
+    void AddFromName(::StringW name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
@@ -71,7 +69,7 @@ namespace UnityEngine::Timeline {
     }
     // public System.Void AddFromName(System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(::Il2CppString* name);
+    void AddFromName(::StringW name);
     // public System.Void AddFromClip(UnityEngine.GameObject obj, UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
     void AddFromClip(UnityEngine::GameObject* obj, UnityEngine::AnimationClip* clip);
@@ -81,7 +79,7 @@ namespace UnityEngine::Timeline {
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddFromName(UnityEngine::GameObject* obj, ::Il2CppString* name) {
+    void AddFromName(UnityEngine::GameObject* obj, ::StringW name) {
       static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(name)})));
@@ -90,10 +88,10 @@ namespace UnityEngine::Timeline {
     }
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::GameObject* obj, ::Il2CppString* name);
+    void AddFromName(UnityEngine::GameObject* obj, ::StringW name);
     // public System.Void AddFromName(UnityEngine.Component component, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::Component* component, ::Il2CppString* name);
+    void AddFromName(UnityEngine::Component* component, ::StringW name);
     // public System.Void AddFromComponent(UnityEngine.GameObject obj, UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
     void AddFromComponent(UnityEngine::GameObject* obj, UnityEngine::Component* component);
@@ -145,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -177,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, ::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -187,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Component*, ::Il2CppString*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Component*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
   static const MethodInfo* get() {
     static auto* component = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

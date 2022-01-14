@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
@@ -39,32 +40,32 @@ namespace System::Runtime::Remoting {
     // private System.String assembly_name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* assembly_name;
+    ::StringW assembly_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String type_name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* type_name;
+    ::StringW type_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String assembly_name
-    ::Il2CppString*& dyn_assembly_name();
+    ::StringW& dyn_assembly_name();
     // Get instance field reference: private System.String type_name
-    ::Il2CppString*& dyn_type_name();
+    ::StringW& dyn_type_name();
     // public System.String get_AssemblyName()
     // Offset: 0x1857530
-    ::Il2CppString* get_AssemblyName();
+    ::StringW get_AssemblyName();
     // public System.Void set_AssemblyName(System.String value)
     // Offset: 0x1857538
-    void set_AssemblyName(::Il2CppString* value);
+    void set_AssemblyName(::StringW value);
     // public System.String get_TypeName()
     // Offset: 0x1857540
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.Void set_TypeName(System.String value)
     // Offset: 0x1857548
-    void set_TypeName(::Il2CppString* value);
+    void set_TypeName(::StringW value);
     // protected System.Void .ctor()
     // Offset: 0x1857528
     // Implemented from: System.Object
@@ -76,14 +77,14 @@ namespace System::Runtime::Remoting {
     }
   }; // System.Runtime.Remoting.TypeEntry
   #pragma pack(pop)
-  static check_size<sizeof(TypeEntry), 24 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_TypeEntrySizeCheck;
+  static check_size<sizeof(TypeEntry), 24 + sizeof(::StringW)> __System_Runtime_Remoting_TypeEntrySizeCheck;
   static_assert(sizeof(TypeEntry) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_AssemblyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::set_AssemblyName
 // Il2CppName: set_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::Il2CppString*)>(&System::Runtime::Remoting::TypeEntry::set_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::StringW)>(&System::Runtime::Remoting::TypeEntry::set_AssemblyName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "set_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -100,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::set_TypeName
 // Il2CppName: set_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::Il2CppString*)>(&System::Runtime::Remoting::TypeEntry::set_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::StringW)>(&System::Runtime::Remoting::TypeEntry::set_TypeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "set_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

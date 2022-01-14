@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -43,16 +44,16 @@ namespace UnityEngineInternal {
     static void _cctor();
     // static System.String RedirectTo(System.String baseUri, System.String redirectUri)
     // Offset: 0x26A73F4
-    static ::Il2CppString* RedirectTo(::Il2CppString* baseUri, ::Il2CppString* redirectUri);
+    static ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
     // static System.String MakeInitialUrl(System.String targetUrl, System.String localUrl)
     // Offset: 0x26A5860
-    static ::Il2CppString* MakeInitialUrl(::Il2CppString* targetUrl, ::Il2CppString* localUrl);
+    static ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
     // static System.String MakeUriString(System.Uri targetUri, System.String targetUrl, System.Boolean prependProtocol)
     // Offset: 0x26A74FC
-    static ::Il2CppString* MakeUriString(System::Uri* targetUri, ::Il2CppString* targetUrl, bool prependProtocol);
+    static ::StringW MakeUriString(System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
     // static private System.String URLDecode(System.String encoded)
     // Offset: 0x26A784C
-    static ::Il2CppString* URLDecode(::Il2CppString* encoded);
+    static ::StringW URLDecode(::StringW encoded);
   }; // UnityEngineInternal.WebRequestUtils
   #pragma pack(pop)
 }
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::RedirectTo
 // Il2CppName: RedirectTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::RedirectTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&UnityEngineInternal::WebRequestUtils::RedirectTo)> {
   static const MethodInfo* get() {
     static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* redirectUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -78,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::MakeInitialUrl
 // Il2CppName: MakeInitialUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
   static const MethodInfo* get() {
     static auto* targetUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::MakeUriString
 // Il2CppName: MakeUriString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Uri*, ::Il2CppString*, bool)>(&UnityEngineInternal::WebRequestUtils::MakeUriString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Uri*, ::StringW, bool)>(&UnityEngineInternal::WebRequestUtils::MakeUriString)> {
   static const MethodInfo* get() {
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* targetUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::URLDecode
 // Il2CppName: URLDecode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::URLDecode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&UnityEngineInternal::WebRequestUtils::URLDecode)> {
   static const MethodInfo* get() {
     static auto* encoded = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoded});

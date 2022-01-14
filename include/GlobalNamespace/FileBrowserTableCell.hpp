@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -76,10 +77,10 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image*& dyn__highlightImage();
     // public System.String get_text()
     // Offset: 0x11E2BF8
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x11E2BDC
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x11E2CE8
     // Implemented from: HMUI.TableCell
@@ -115,7 +116,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableCell::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::FileBrowserTableCell::*)()>(&GlobalNamespace::FileBrowserTableCell::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::FileBrowserTableCell::*)()>(&GlobalNamespace::FileBrowserTableCell::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableCell::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableCell::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserTableCell::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableCell::*)(::StringW)>(&GlobalNamespace::FileBrowserTableCell::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

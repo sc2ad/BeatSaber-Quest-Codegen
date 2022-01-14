@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -33,7 +34,7 @@ namespace UnityEngine {
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExitGUIException* New_ctor(::Il2CppString* message) {
+    static ExitGUIException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExitGUIException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExitGUIException*, creationType>(message)));
     }

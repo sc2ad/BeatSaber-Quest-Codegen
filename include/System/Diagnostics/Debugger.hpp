@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
@@ -25,9 +26,9 @@ namespace System::Diagnostics {
   class Debugger : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.String DefaultCategory
-    static ::Il2CppString* _get_DefaultCategory();
+    static ::StringW _get_DefaultCategory();
     // Set static field: static public readonly System.String DefaultCategory
-    static void _set_DefaultCategory(::Il2CppString* value);
+    static void _set_DefaultCategory(::StringW value);
     // static public System.Boolean get_IsAttached()
     // Offset: 0x1D5392C
     static bool get_IsAttached();
@@ -42,7 +43,7 @@ namespace System::Diagnostics {
     static bool IsLogging();
     // static public System.Void Log(System.Int32 level, System.String category, System.String message)
     // Offset: 0x1D53990
-    static void Log(int level, ::Il2CppString* category, ::Il2CppString* message);
+    static void Log(int level, ::StringW category, ::StringW message);
     // static public System.Void NotifyOfCrossThreadDependency()
     // Offset: 0x1D53994
     static void NotifyOfCrossThreadDependency();
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Diagnostics::Debugger::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::Debugger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::StringW, ::StringW)>(&System::Diagnostics::Debugger::Log)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

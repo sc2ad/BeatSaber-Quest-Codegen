@@ -7,6 +7,7 @@
 #include <initializer_list>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -55,9 +56,9 @@ namespace System::IO {
     // Set static field: static public readonly System.Char PathSeparator
     static void _set_PathSeparator(::Il2CppChar value);
     // Get static field: static readonly System.String DirectorySeparatorStr
-    static ::Il2CppString* _get_DirectorySeparatorStr();
+    static ::StringW _get_DirectorySeparatorStr();
     // Set static field: static readonly System.String DirectorySeparatorStr
-    static void _set_DirectorySeparatorStr(::Il2CppString* value);
+    static void _set_DirectorySeparatorStr(::StringW value);
     // Get static field: static public readonly System.Char VolumeSeparatorChar
     static ::Il2CppChar _get_VolumeSeparatorChar();
     // Set static field: static public readonly System.Char VolumeSeparatorChar
@@ -80,7 +81,7 @@ namespace System::IO {
     static void _set_trimEndCharsUnix(::ArrayW<::Il2CppChar> value);
     // static System.String get_DirectorySeparatorCharAsString()
     // Offset: 0x1B0756C
-    static ::Il2CppString* get_DirectorySeparatorCharAsString();
+    static ::StringW get_DirectorySeparatorCharAsString();
     // static System.Char[] get_TrimEndChars()
     // Offset: 0x1B075D4
     static ::ArrayW<::Il2CppChar> get_TrimEndChars();
@@ -89,52 +90,52 @@ namespace System::IO {
     static void _cctor();
     // static public System.String ChangeExtension(System.String path, System.String extension)
     // Offset: 0x1B04698
-    static ::Il2CppString* ChangeExtension(::Il2CppString* path, ::Il2CppString* extension);
+    static ::StringW ChangeExtension(::StringW path, ::StringW extension);
     // static public System.String Combine(System.String path1, System.String path2)
     // Offset: 0x1B04938
-    static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2);
+    static ::StringW Combine(::StringW path1, ::StringW path2);
     // static System.String CleanPath(System.String s)
     // Offset: 0x1B04DA0
-    static ::Il2CppString* CleanPath(::Il2CppString* s);
+    static ::StringW CleanPath(::StringW s);
     // static public System.String GetDirectoryName(System.String path)
     // Offset: 0x1AF8520
-    static ::Il2CppString* GetDirectoryName(::Il2CppString* path);
+    static ::StringW GetDirectoryName(::StringW path);
     // static public System.String GetExtension(System.String path)
     // Offset: 0x1B05718
-    static ::Il2CppString* GetExtension(::Il2CppString* path);
+    static ::StringW GetExtension(::StringW path);
     // static public System.String GetFileName(System.String path)
     // Offset: 0x1AF8CF0
-    static ::Il2CppString* GetFileName(::Il2CppString* path);
+    static ::StringW GetFileName(::StringW path);
     // static public System.String GetFileNameWithoutExtension(System.String path)
     // Offset: 0x1B05840
-    static ::Il2CppString* GetFileNameWithoutExtension(::Il2CppString* path);
+    static ::StringW GetFileNameWithoutExtension(::StringW path);
     // static public System.String GetFullPath(System.String path)
     // Offset: 0x1AF8060
-    static ::Il2CppString* GetFullPath(::Il2CppString* path);
+    static ::StringW GetFullPath(::StringW path);
     // static System.String GetFullPathInternal(System.String path)
     // Offset: 0x1AFB810
-    static ::Il2CppString* GetFullPathInternal(::Il2CppString* path);
+    static ::StringW GetFullPathInternal(::StringW path);
     // static private System.Int32 GetFullPathName(System.String path, System.Int32 numBufferChars, System.Text.StringBuilder buffer, ref System.IntPtr lpFilePartOrNull)
     // Offset: 0x1B058AC
-    static int GetFullPathName(::Il2CppString* path, int numBufferChars, System::Text::StringBuilder* buffer, ByRef<System::IntPtr> lpFilePartOrNull);
+    static int GetFullPathName(::StringW path, int numBufferChars, System::Text::StringBuilder* buffer, ByRef<System::IntPtr> lpFilePartOrNull);
     // static System.String GetFullPathName(System.String path)
     // Offset: 0x1B0598C
-    static ::Il2CppString* GetFullPathName(::Il2CppString* path);
+    static ::StringW GetFullPathName(::StringW path);
     // static System.String WindowsDriveAdjustment(System.String path)
     // Offset: 0x1B05B40
-    static ::Il2CppString* WindowsDriveAdjustment(::Il2CppString* path);
+    static ::StringW WindowsDriveAdjustment(::StringW path);
     // static System.String InsecureGetFullPath(System.String path)
     // Offset: 0x1AFD74C
-    static ::Il2CppString* InsecureGetFullPath(::Il2CppString* path);
+    static ::StringW InsecureGetFullPath(::StringW path);
     // static System.Boolean IsDirectorySeparator(System.Char c)
     // Offset: 0x1B05E28
     static bool IsDirectorySeparator(::Il2CppChar c);
     // static public System.String GetPathRoot(System.String path)
     // Offset: 0x1B0528C
-    static ::Il2CppString* GetPathRoot(::Il2CppString* path);
+    static ::StringW GetPathRoot(::StringW path);
     // static public System.Boolean IsPathRooted(System.String path)
     // Offset: 0x1B04BCC
-    static bool IsPathRooted(::Il2CppString* path);
+    static bool IsPathRooted(::StringW path);
     // static public System.Char[] GetInvalidFileNameChars()
     // Offset: 0x1B06674
     static ::ArrayW<::Il2CppChar> GetInvalidFileNameChars();
@@ -143,40 +144,40 @@ namespace System::IO {
     static ::ArrayW<::Il2CppChar> GetInvalidPathChars();
     // static public System.String GetRandomFileName()
     // Offset: 0x1B067BC
-    static ::Il2CppString* GetRandomFileName();
+    static ::StringW GetRandomFileName();
     // static private System.Int32 findExtension(System.String path)
     // Offset: 0x1B0488C
-    static int findExtension(::Il2CppString* path);
+    static int findExtension(::StringW path);
     // static private System.String GetServerAndShare(System.String path)
     // Offset: 0x1B06ADC
-    static ::Il2CppString* GetServerAndShare(::Il2CppString* path);
+    static ::StringW GetServerAndShare(::StringW path);
     // static private System.Boolean SameRoot(System.String root, System.String path)
     // Offset: 0x1B06C58
-    static bool SameRoot(::Il2CppString* root, ::Il2CppString* path);
+    static bool SameRoot(::StringW root, ::StringW path);
     // static private System.String CanonicalizePath(System.String path)
     // Offset: 0x1B05ECC
-    static ::Il2CppString* CanonicalizePath(::Il2CppString* path);
+    static ::StringW CanonicalizePath(::StringW path);
     // static public System.String Combine(params System.String[] paths)
     // Offset: 0x1B06F74
-    static ::Il2CppString* Combine(::ArrayW<::Il2CppString*> paths);
+    static ::StringW Combine(::ArrayW<::StringW> paths);
     // static public System.String Combine(System.String path1, System.String path2, System.String path3)
     // Offset: 0x1B07280
-    static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2, ::Il2CppString* path3);
+    static ::StringW Combine(::StringW path1, ::StringW path2, ::StringW path3);
     // static System.Void Validate(System.String path)
     // Offset: 0x1AF78A0
-    static void Validate(::Il2CppString* path);
+    static void Validate(::StringW path);
     // static System.Void Validate(System.String path, System.String parameterName)
     // Offset: 0x1B07414
-    static void Validate(::Il2CppString* path, ::Il2CppString* parameterName);
+    static void Validate(::StringW path, ::StringW parameterName);
     // static System.Void CheckSearchPattern(System.String searchPattern)
     // Offset: 0x1B07674
-    static void CheckSearchPattern(::Il2CppString* searchPattern);
+    static void CheckSearchPattern(::StringW searchPattern);
     // static System.Void CheckInvalidPathChars(System.String path, System.Boolean checkAdditional)
     // Offset: 0x1B07800
-    static void CheckInvalidPathChars(::Il2CppString* path, bool checkAdditional);
+    static void CheckInvalidPathChars(::StringW path, bool checkAdditional);
     // static System.String InternalCombine(System.String path1, System.String path2)
     // Offset: 0x1B07968
-    static ::Il2CppString* InternalCombine(::Il2CppString* path1, ::Il2CppString* path2);
+    static ::StringW InternalCombine(::StringW path1, ::StringW path2);
   }; // System.IO.Path
   #pragma pack(pop)
 }
@@ -184,7 +185,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::Path::get_DirectorySeparatorCharAsString
 // Il2CppName: get_DirectorySeparatorCharAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Path::get_DirectorySeparatorCharAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::IO::Path::get_DirectorySeparatorCharAsString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "get_DirectorySeparatorCharAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -208,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::Path::ChangeExtension
 // Il2CppName: ChangeExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::ChangeExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::IO::Path::ChangeExtension)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extension = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -218,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::IO::Path::Combine)> {
   static const MethodInfo* get() {
     static auto* path1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -228,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::CleanPath
 // Il2CppName: CleanPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::CleanPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::CleanPath)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "CleanPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -237,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetDirectoryName
 // Il2CppName: GetDirectoryName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetDirectoryName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetDirectoryName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetDirectoryName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -246,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetExtension
 // Il2CppName: GetExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetExtension)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetFileName
 // Il2CppName: GetFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetFileName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetFileNameWithoutExtension
 // Il2CppName: GetFileNameWithoutExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetFileNameWithoutExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetFileNameWithoutExtension)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetFileNameWithoutExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -273,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetFullPath
 // Il2CppName: GetFullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetFullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetFullPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetFullPathInternal
 // Il2CppName: GetFullPathInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetFullPathInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetFullPathInternal)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetFullPathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::GetFullPathName
 // Il2CppName: GetFullPathName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, System::Text::StringBuilder*, ByRef<System::IntPtr>)>(&System::IO::Path::GetFullPathName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, System::Text::StringBuilder*, ByRef<System::IntPtr>)>(&System::IO::Path::GetFullPathName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numBufferChars = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -303,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::IO::Path::GetFullPathName
 // Il2CppName: GetFullPathName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetFullPathName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetFullPathName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetFullPathName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -312,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::WindowsDriveAdjustment
 // Il2CppName: WindowsDriveAdjustment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::WindowsDriveAdjustment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::WindowsDriveAdjustment)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "WindowsDriveAdjustment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -321,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::InsecureGetFullPath
 // Il2CppName: InsecureGetFullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::InsecureGetFullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::InsecureGetFullPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "InsecureGetFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -339,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::Path::GetPathRoot
 // Il2CppName: GetPathRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetPathRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetPathRoot)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetPathRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::IsPathRooted
 // Il2CppName: IsPathRooted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::IO::Path::IsPathRooted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::IO::Path::IsPathRooted)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "IsPathRooted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -373,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::IO::Path::GetRandomFileName
 // Il2CppName: GetRandomFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Path::GetRandomFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::IO::Path::GetRandomFileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetRandomFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -381,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::findExtension
 // Il2CppName: findExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::IO::Path::findExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&System::IO::Path::findExtension)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "findExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -390,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::IO::Path::GetServerAndShare
 // Il2CppName: GetServerAndShare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::GetServerAndShare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::GetServerAndShare)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetServerAndShare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -399,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::SameRoot
 // Il2CppName: SameRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::SameRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&System::IO::Path::SameRoot)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -409,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::Path::CanonicalizePath
 // Il2CppName: CanonicalizePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::IO::Path::CanonicalizePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::IO::Path::CanonicalizePath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "CanonicalizePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -418,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<::Il2CppString*>)>(&System::IO::Path::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<::StringW>)>(&System::IO::Path::Combine)> {
   static const MethodInfo* get() {
     static auto* paths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paths});
@@ -427,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&System::IO::Path::Combine)> {
   static const MethodInfo* get() {
     static auto* path1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -438,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Path::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::IO::Path::Validate)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::Path::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&System::IO::Path::Validate)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -457,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::Path::CheckSearchPattern
 // Il2CppName: CheckSearchPattern
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Path::CheckSearchPattern)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&System::IO::Path::CheckSearchPattern)> {
   static const MethodInfo* get() {
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "CheckSearchPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{searchPattern});
@@ -466,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::Path::CheckInvalidPathChars
 // Il2CppName: CheckInvalidPathChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&System::IO::Path::CheckInvalidPathChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool)>(&System::IO::Path::CheckInvalidPathChars)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* checkAdditional = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -476,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::Path::InternalCombine
 // Il2CppName: InternalCombine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Path::InternalCombine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&System::IO::Path::InternalCombine)> {
   static const MethodInfo* get() {
     static auto* path1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

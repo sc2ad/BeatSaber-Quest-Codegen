@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,27 +54,27 @@ namespace System {
     // private System.String _fragment
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* fragment;
+    ::StringW fragment;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _host
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* host;
+    ::StringW host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _password
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* password;
+    ::StringW password;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _path
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* path;
+    ::StringW path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 _port
     // Size: 0x4
     // Offset: 0x38
@@ -85,21 +86,21 @@ namespace System {
     // private System.String _query
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* query;
+    ::StringW query;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _scheme
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* scheme;
+    ::StringW scheme;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _schemeDelimiter
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* schemeDelimiter;
+    ::StringW schemeDelimiter;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Uri _uri
     // Size: 0x8
     // Offset: 0x58
@@ -109,68 +110,68 @@ namespace System {
     // private System.String _username
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* username;
+    ::StringW username;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Boolean _changed
     bool& dyn__changed();
     // Get instance field reference: private System.String _fragment
-    ::Il2CppString*& dyn__fragment();
+    ::StringW& dyn__fragment();
     // Get instance field reference: private System.String _host
-    ::Il2CppString*& dyn__host();
+    ::StringW& dyn__host();
     // Get instance field reference: private System.String _password
-    ::Il2CppString*& dyn__password();
+    ::StringW& dyn__password();
     // Get instance field reference: private System.String _path
-    ::Il2CppString*& dyn__path();
+    ::StringW& dyn__path();
     // Get instance field reference: private System.Int32 _port
     int& dyn__port();
     // Get instance field reference: private System.String _query
-    ::Il2CppString*& dyn__query();
+    ::StringW& dyn__query();
     // Get instance field reference: private System.String _scheme
-    ::Il2CppString*& dyn__scheme();
+    ::StringW& dyn__scheme();
     // Get instance field reference: private System.String _schemeDelimiter
-    ::Il2CppString*& dyn__schemeDelimiter();
+    ::StringW& dyn__schemeDelimiter();
     // Get instance field reference: private System.Uri _uri
     System::Uri*& dyn__uri();
     // Get instance field reference: private System.String _username
-    ::Il2CppString*& dyn__username();
+    ::StringW& dyn__username();
     // public System.Void set_Host(System.String value)
     // Offset: 0x269E6A8
-    void set_Host(::Il2CppString* value);
+    void set_Host(::StringW value);
     // public System.Void set_Path(System.String value)
     // Offset: 0x269E858
-    void set_Path(::Il2CppString* value);
+    void set_Path(::StringW value);
     // public System.Void set_Port(System.Int32 value)
     // Offset: 0x269E7B8
     void set_Port(int value);
     // public System.Void set_Query(System.String value)
     // Offset: 0x269E918
-    void set_Query(::Il2CppString* value);
+    void set_Query(::StringW value);
     // public System.Void set_Scheme(System.String value)
     // Offset: 0x269E56C
-    void set_Scheme(::Il2CppString* value);
+    void set_Scheme(::StringW value);
     // public System.Uri get_Uri()
     // Offset: 0x269E9D4
     System::Uri* get_Uri();
     // public System.Void .ctor(System.String uri)
     // Offset: 0x269DFBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriBuilder* New_ctor(::Il2CppString* uri) {
+    static UriBuilder* New_ctor(::StringW uri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // public System.Void .ctor(System.String schemeName, System.String hostName)
     // Offset: 0x269E440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriBuilder* New_ctor(::Il2CppString* schemeName, ::Il2CppString* hostName) {
+    static UriBuilder* New_ctor(::StringW schemeName, ::StringW hostName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
     // Offset: 0x269E78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriBuilder* New_ctor(::Il2CppString* scheme, ::Il2CppString* host, int portNumber) {
+    static UriBuilder* New_ctor(::StringW scheme, ::StringW host, int portNumber) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
@@ -203,17 +204,17 @@ namespace System {
     // Offset: 0x269EB04
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.UriBuilder
   #pragma pack(pop)
-  static check_size<sizeof(UriBuilder), 96 + sizeof(::Il2CppString*)> __System_UriBuilderSizeCheck;
+  static check_size<sizeof(UriBuilder), 96 + sizeof(::StringW)> __System_UriBuilderSizeCheck;
   static_assert(sizeof(UriBuilder) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UriBuilder::set_Host
 // Il2CppName: set_Host
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Host)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::StringW)>(&System::UriBuilder::set_Host)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriBuilder::set_Path
 // Il2CppName: set_Path
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Path)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::StringW)>(&System::UriBuilder::set_Path)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriBuilder::set_Query
 // Il2CppName: set_Query
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Query)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::StringW)>(&System::UriBuilder::set_Query)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Query", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -249,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriBuilder::set_Scheme
 // Il2CppName: set_Scheme
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::Il2CppString*)>(&System::UriBuilder::set_Scheme)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::StringW)>(&System::UriBuilder::set_Scheme)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "set_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -317,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::UriBuilder::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::UriBuilder::*)()>(&System::UriBuilder::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::UriBuilder::*)()>(&System::UriBuilder::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

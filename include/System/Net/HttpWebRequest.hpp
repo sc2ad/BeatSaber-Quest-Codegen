@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -236,7 +237,7 @@ namespace System::Net {
       // Offset: 0x18B5A40
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
-      ::Il2CppString* ToString();
+      ::StringW ToString();
     }; // System.Net.HttpWebRequest/System.Net.AuthorizationState
     #pragma pack(pop)
     static check_size<sizeof(HttpWebRequest::AuthorizationState), 12 + sizeof(System::Net::HttpWebRequest::NtlmAuthState)> __System_Net_HttpWebRequest_AuthorizationStateSizeCheck;
@@ -291,9 +292,9 @@ namespace System::Net {
     // private System.String connectionGroup
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* connectionGroup;
+    ::StringW connectionGroup;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean haveContentLength
     // Size: 0x1
     // Offset: 0x48
@@ -369,21 +370,21 @@ namespace System::Net {
     // private System.String mediaType
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* mediaType;
+    ::StringW mediaType;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String method
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String initialMethod
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* initialMethod;
+    ::StringW initialMethod;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean pipelined
     // Size: 0x1
     // Offset: 0xA0
@@ -601,9 +602,9 @@ namespace System::Net {
     // private System.String host
     // Size: 0x8
     // Offset: 0x188
-    ::Il2CppString* host;
+    ::StringW host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Action`1<System.IO.Stream> ResendContentFactory
     // Size: 0x8
     // Offset: 0x190
@@ -654,7 +655,7 @@ namespace System::Net {
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates
     System::Security::Cryptography::X509Certificates::X509CertificateCollection*& dyn_certificates();
     // Get instance field reference: private System.String connectionGroup
-    ::Il2CppString*& dyn_connectionGroup();
+    ::StringW& dyn_connectionGroup();
     // Get instance field reference: private System.Boolean haveContentLength
     bool& dyn_haveContentLength();
     // Get instance field reference: private System.Int64 contentLength
@@ -678,11 +679,11 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 maxAutoRedirect
     int& dyn_maxAutoRedirect();
     // Get instance field reference: private System.String mediaType
-    ::Il2CppString*& dyn_mediaType();
+    ::StringW& dyn_mediaType();
     // Get instance field reference: private System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.String initialMethod
-    ::Il2CppString*& dyn_initialMethod();
+    ::StringW& dyn_initialMethod();
     // Get instance field reference: private System.Boolean pipelined
     bool& dyn_pipelined();
     // Get instance field reference: private System.Boolean preAuthenticate
@@ -750,7 +751,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpWebRequest/System.Net.AuthorizationState proxy_auth_state
     System::Net::HttpWebRequest::AuthorizationState& dyn_proxy_auth_state();
     // Get instance field reference: private System.String host
-    ::Il2CppString*& dyn_host();
+    ::StringW& dyn_host();
     // Get instance field reference: System.Action`1<System.IO.Stream> ResendContentFactory
     System::Action_1<System::IO::Stream*>*& dyn_ResendContentFactory();
     // Get instance field reference: private System.Boolean <ThrowOnError>k__BackingField
@@ -811,10 +812,10 @@ namespace System::Net {
     void set_CookieContainer(System::Net::CookieContainer* value);
     // public System.String get_Host()
     // Offset: 0x18B0A80
-    ::Il2CppString* get_Host();
+    ::StringW get_Host();
     // public System.Void set_Host(System.String value)
     // Offset: 0x18B0AAC
-    void set_Host(::Il2CppString* value);
+    void set_Host(::StringW value);
     // public System.Boolean get_KeepAlive()
     // Offset: 0x18B0D9C
     bool get_KeepAlive();
@@ -847,7 +848,7 @@ namespace System::Net {
     System::Net::ServicePoint* get_ServicePointNoLock();
     // public System.String get_TransferEncoding()
     // Offset: 0x18B1300
-    ::Il2CppString* get_TransferEncoding();
+    ::StringW get_TransferEncoding();
     // public System.Boolean get_UnsafeAuthenticatedConnectionSharing()
     // Offset: 0x18B1478
     bool get_UnsafeAuthenticatedConnectionSharing();
@@ -893,7 +894,7 @@ namespace System::Net {
     void ResetAuthorization();
     // static private System.Boolean CheckValidHost(System.String scheme, System.String val)
     // Offset: 0x18B0BDC
-    static bool CheckValidHost(::Il2CppString* scheme, ::Il2CppString* val);
+    static bool CheckValidHost(::StringW scheme, ::StringW val);
     // System.Net.ServicePoint GetServicePoint()
     // Offset: 0x18B11A0
     System::Net::ServicePoint* GetServicePoint();
@@ -917,7 +918,7 @@ namespace System::Net {
     bool Redirect(System::Net::WebAsyncResult* result, System::Net::HttpStatusCode code, System::Net::WebResponse* response);
     // private System.String GetHeaders()
     // Offset: 0x18B2BFC
-    ::Il2CppString* GetHeaders();
+    ::StringW GetHeaders();
     // private System.Void DoPreAuthenticate()
     // Offset: 0x18B322C
     void DoPreAuthenticate();
@@ -938,7 +939,7 @@ namespace System::Net {
     void SetWriteStreamError(System::Exception* exc);
     // System.Void SetResponseError(System.Net.WebExceptionStatus status, System.Exception e, System.String where)
     // Offset: 0x18B3B5C
-    void SetResponseError(System::Net::WebExceptionStatus status, System::Exception* e, ::Il2CppString* where);
+    void SetResponseError(System::Net::WebExceptionStatus status, System::Exception* e, ::StringW where);
     // private System.Void CheckSendError(System.Net.WebConnectionData data)
     // Offset: 0x18B3D60
     void CheckSendError(System::Net::WebConnectionData* data);
@@ -967,7 +968,7 @@ namespace System::Net {
     // Offset: 0x18B0988
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ConnectionGroupName(System.String value)
-    void set_ConnectionGroupName(::Il2CppString* value);
+    void set_ConnectionGroupName(::StringW value);
     // public override System.Int64 get_ContentLength()
     // Offset: 0x18B0990
     // Implemented from: System.Net.WebRequest
@@ -997,12 +998,12 @@ namespace System::Net {
     // Offset: 0x18B0E58
     // Implemented from: System.Net.WebRequest
     // Base method: System.String WebRequest::get_Method()
-    ::Il2CppString* get_Method();
+    ::StringW get_Method();
     // public override System.Void set_Method(System.String value)
     // Offset: 0x18B0E60
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Method(System.String value)
-    void set_Method(::Il2CppString* value);
+    void set_Method(::StringW value);
     // public override System.Void set_PreAuthenticate(System.Boolean value)
     // Offset: 0x18B1000
     // Implemented from: System.Net.WebRequest
@@ -1246,7 +1247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::get_Host
 // Il2CppName: get_Host
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Host)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Host)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1254,7 +1255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::set_Host
 // Il2CppName: set_Host
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_Host)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::StringW)>(&System::Net::HttpWebRequest::set_Host)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1347,7 +1348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::get_TransferEncoding
 // Il2CppName: get_TransferEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_TransferEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_TransferEncoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_TransferEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1458,7 +1459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::CheckValidHost
 // Il2CppName: CheckValidHost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::HttpWebRequest::CheckValidHost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&System::Net::HttpWebRequest::CheckValidHost)> {
   static const MethodInfo* get() {
     static auto* scheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1532,7 +1533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::GetHeaders
 // Il2CppName: GetHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetHeaders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1593,7 +1594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::SetResponseError
 // Il2CppName: SetResponseError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebExceptionStatus, System::Exception*, ::Il2CppString*)>(&System::Net::HttpWebRequest::SetResponseError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebExceptionStatus, System::Exception*, ::StringW)>(&System::Net::HttpWebRequest::SetResponseError)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -1677,7 +1678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::set_ConnectionGroupName
 // Il2CppName: set_ConnectionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_ConnectionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::StringW)>(&System::Net::HttpWebRequest::set_ConnectionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1728,7 +1729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::get_Method
 // Il2CppName: get_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Method)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1736,7 +1737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::set_Method
 // Il2CppName: set_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::StringW)>(&System::Net::HttpWebRequest::set_Method)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

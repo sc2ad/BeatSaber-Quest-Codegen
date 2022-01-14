@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -231,45 +232,45 @@ namespace TMPro {
     // Set static field: static public System.Int32 ID_ScaleRatio_C
     static void _set_ID_ScaleRatio_C(int value);
     // Get static field: static public System.String Keyword_Bevel
-    static ::Il2CppString* _get_Keyword_Bevel();
+    static ::StringW _get_Keyword_Bevel();
     // Set static field: static public System.String Keyword_Bevel
-    static void _set_Keyword_Bevel(::Il2CppString* value);
+    static void _set_Keyword_Bevel(::StringW value);
     // Get static field: static public System.String Keyword_Glow
-    static ::Il2CppString* _get_Keyword_Glow();
+    static ::StringW _get_Keyword_Glow();
     // Set static field: static public System.String Keyword_Glow
-    static void _set_Keyword_Glow(::Il2CppString* value);
+    static void _set_Keyword_Glow(::StringW value);
     // Get static field: static public System.String Keyword_Underlay
-    static ::Il2CppString* _get_Keyword_Underlay();
+    static ::StringW _get_Keyword_Underlay();
     // Set static field: static public System.String Keyword_Underlay
-    static void _set_Keyword_Underlay(::Il2CppString* value);
+    static void _set_Keyword_Underlay(::StringW value);
     // Get static field: static public System.String Keyword_Ratios
-    static ::Il2CppString* _get_Keyword_Ratios();
+    static ::StringW _get_Keyword_Ratios();
     // Set static field: static public System.String Keyword_Ratios
-    static void _set_Keyword_Ratios(::Il2CppString* value);
+    static void _set_Keyword_Ratios(::StringW value);
     // Get static field: static public System.String Keyword_MASK_SOFT
-    static ::Il2CppString* _get_Keyword_MASK_SOFT();
+    static ::StringW _get_Keyword_MASK_SOFT();
     // Set static field: static public System.String Keyword_MASK_SOFT
-    static void _set_Keyword_MASK_SOFT(::Il2CppString* value);
+    static void _set_Keyword_MASK_SOFT(::StringW value);
     // Get static field: static public System.String Keyword_MASK_HARD
-    static ::Il2CppString* _get_Keyword_MASK_HARD();
+    static ::StringW _get_Keyword_MASK_HARD();
     // Set static field: static public System.String Keyword_MASK_HARD
-    static void _set_Keyword_MASK_HARD(::Il2CppString* value);
+    static void _set_Keyword_MASK_HARD(::StringW value);
     // Get static field: static public System.String Keyword_MASK_TEX
-    static ::Il2CppString* _get_Keyword_MASK_TEX();
+    static ::StringW _get_Keyword_MASK_TEX();
     // Set static field: static public System.String Keyword_MASK_TEX
-    static void _set_Keyword_MASK_TEX(::Il2CppString* value);
+    static void _set_Keyword_MASK_TEX(::StringW value);
     // Get static field: static public System.String Keyword_Outline
-    static ::Il2CppString* _get_Keyword_Outline();
+    static ::StringW _get_Keyword_Outline();
     // Set static field: static public System.String Keyword_Outline
-    static void _set_Keyword_Outline(::Il2CppString* value);
+    static void _set_Keyword_Outline(::StringW value);
     // Get static field: static public System.String ShaderTag_ZTestMode
-    static ::Il2CppString* _get_ShaderTag_ZTestMode();
+    static ::StringW _get_ShaderTag_ZTestMode();
     // Set static field: static public System.String ShaderTag_ZTestMode
-    static void _set_ShaderTag_ZTestMode(::Il2CppString* value);
+    static void _set_ShaderTag_ZTestMode(::StringW value);
     // Get static field: static public System.String ShaderTag_CullMode
-    static ::Il2CppString* _get_ShaderTag_CullMode();
+    static ::StringW _get_ShaderTag_CullMode();
     // Set static field: static public System.String ShaderTag_CullMode
-    static void _set_ShaderTag_CullMode(::Il2CppString* value);
+    static void _set_ShaderTag_CullMode(::StringW value);
     // Get static field: static private System.Single m_clamp
     static float _get_m_clamp();
     // Set static field: static private System.Single m_clamp

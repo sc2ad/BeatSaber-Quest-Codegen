@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Concurrent
@@ -46,26 +47,26 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return name;
     }
     // Get static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
-    static System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_ht();
+    static System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* _get_ht();
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
-    static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* value);
     // Get instance field reference: private System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // static private System.Void .cctor()
     // Offset: 0x1860DE4
     static void _cctor();
     // System.Object GetCachedValue(System.String name)
     // Offset: 0x1860C9C
-    ::Il2CppObject* GetCachedValue(::Il2CppString* name);
+    ::Il2CppObject* GetCachedValue(::StringW name);
     // System.Void SetCachedValue(System.Object value)
     // Offset: 0x1860D48
     void SetCachedValue(::Il2CppObject* value);
@@ -80,7 +81,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.NameCache
   #pragma pack(pop)
-  static check_size<sizeof(NameCache), 16 + sizeof(::Il2CppString*)> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
+  static check_size<sizeof(NameCache), 16 + sizeof(::StringW)> __System_Runtime_Serialization_Formatters_Binary_NameCacheSizeCheck;
   static_assert(sizeof(NameCache) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::NameCache::GetCachedValue
 // Il2CppName: GetCachedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::NameCache::*)(::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::NameCache::GetCachedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::NameCache::*)(::StringW)>(&System::Runtime::Serialization::Formatters::Binary::NameCache::GetCachedValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::NameCache*), "GetCachedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

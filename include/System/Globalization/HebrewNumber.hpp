@@ -8,6 +8,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -201,7 +202,7 @@ namespace System::Globalization {
     static void _cctor();
     // static System.String ToString(System.Int32 Number)
     // Offset: 0x1C3A384
-    static ::Il2CppString* ToString(int Number);
+    static ::StringW ToString(int Number);
     // static System.Globalization.HebrewNumberParsingState ParseByChar(System.Char ch, ref System.Globalization.HebrewNumberParsingContext context)
     // Offset: 0x1C3A5F0
     static System::Globalization::HebrewNumberParsingState ParseByChar(::Il2CppChar ch, ByRef<System::Globalization::HebrewNumberParsingContext> context);
@@ -225,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Globalization::HebrewNumber::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Globalization::HebrewNumber::ToString)> {
   static const MethodInfo* get() {
     static auto* Number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Number});

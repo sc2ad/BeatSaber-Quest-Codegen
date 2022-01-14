@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -50,9 +51,9 @@ namespace Mono::Security::X509 {
     // protected System.String extnOid
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* extnOid;
+    ::StringW extnOid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.Boolean extnCritical
     // Size: 0x1
     // Offset: 0x18
@@ -69,14 +70,14 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
     public:
     // Get instance field reference: protected System.String extnOid
-    ::Il2CppString*& dyn_extnOid();
+    ::StringW& dyn_extnOid();
     // Get instance field reference: protected System.Boolean extnCritical
     bool& dyn_extnCritical();
     // Get instance field reference: protected Mono.Security.ASN1 extnValue
     Mono::Security::ASN1*& dyn_extnValue();
     // public System.String get_Oid()
     // Offset: 0x2689910
-    ::Il2CppString* get_Oid();
+    ::StringW get_Oid();
     // public System.Boolean get_Critical()
     // Offset: 0x2689918
     bool get_Critical();
@@ -120,7 +121,7 @@ namespace Mono::Security::X509 {
     // Offset: 0x2689CAC
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Mono.Security.X509.X509Extension
   #pragma pack(pop)
   static check_size<sizeof(X509Extension), 32 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_X509ExtensionSizeCheck;
@@ -130,7 +131,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Oid
 // Il2CppName: get_Oid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Oid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Oid)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::X509::X509Extension::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

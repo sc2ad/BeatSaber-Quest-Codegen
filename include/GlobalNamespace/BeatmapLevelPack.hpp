@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -54,21 +55,21 @@ namespace GlobalNamespace {
     // private System.String _levelPackID
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* levelPackID;
+    ::StringW levelPackID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _packName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* packName;
+    ::StringW packName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _shortPackName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* shortPackName;
+    ::StringW shortPackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Sprite _coverImage
     // Size: 0x8
     // Offset: 0x28
@@ -93,11 +94,11 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);
     }
     // Get instance field reference: private System.String _levelPackID
-    ::Il2CppString*& dyn__levelPackID();
+    ::StringW& dyn__levelPackID();
     // Get instance field reference: private System.String _packName
-    ::Il2CppString*& dyn__packName();
+    ::StringW& dyn__packName();
     // Get instance field reference: private System.String _shortPackName
-    ::Il2CppString*& dyn__shortPackName();
+    ::StringW& dyn__shortPackName();
     // Get instance field reference: private UnityEngine.Sprite _coverImage
     UnityEngine::Sprite*& dyn__coverImage();
     // Get instance field reference: private UnityEngine.Sprite _smallCoverImage
@@ -106,16 +107,16 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelCollection*& dyn__beatmapLevelCollection();
     // public System.String get_packID()
     // Offset: 0x1324694
-    ::Il2CppString* get_packID();
+    ::StringW get_packID();
     // public System.String get_packName()
     // Offset: 0x132469C
-    ::Il2CppString* get_packName();
+    ::StringW get_packName();
     // public System.String get_shortPackName()
     // Offset: 0x13246A4
-    ::Il2CppString* get_shortPackName();
+    ::StringW get_shortPackName();
     // public System.String get_collectionName()
     // Offset: 0x13246AC
-    ::Il2CppString* get_collectionName();
+    ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
     // Offset: 0x13246B4
     UnityEngine::Sprite* get_coverImage();
@@ -128,7 +129,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String levelPackID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, UnityEngine.Sprite smallCoverImage, IBeatmapLevelCollection levelCollection)
     // Offset: 0x13246CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelPack* New_ctor(::Il2CppString* levelPackID, ::Il2CppString* packName, ::Il2CppString* shortPackName, UnityEngine::Sprite* coverImage, UnityEngine::Sprite* smallCoverImage, GlobalNamespace::IBeatmapLevelCollection* levelCollection) {
+    static BeatmapLevelPack* New_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite* coverImage, UnityEngine::Sprite* smallCoverImage, GlobalNamespace::IBeatmapLevelCollection* levelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelPack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPack*, creationType>(levelPackID, packName, shortPackName, coverImage, smallCoverImage, levelCollection)));
     }
@@ -144,7 +145,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPack::get_packID
 // Il2CppName: get_packID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_packID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_packID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPack*), "get_packID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPack::get_packName
 // Il2CppName: get_packName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_packName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_packName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPack*), "get_packName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPack::get_shortPackName
 // Il2CppName: get_shortPackName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_shortPackName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_shortPackName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPack*), "get_shortPackName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPack::get_collectionName
 // Il2CppName: get_collectionName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_collectionName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelPack::*)()>(&GlobalNamespace::BeatmapLevelPack::get_collectionName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelPack*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

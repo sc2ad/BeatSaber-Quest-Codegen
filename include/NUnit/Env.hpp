@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: NUnit
 namespace NUnit {
@@ -23,17 +24,17 @@ namespace NUnit {
   class Env : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.String NewLine
-    static ::Il2CppString* _get_NewLine();
+    static ::StringW _get_NewLine();
     // Set static field: static public readonly System.String NewLine
-    static void _set_NewLine(::Il2CppString* value);
+    static void _set_NewLine(::StringW value);
     // Get static field: static public System.String DocumentFolder
-    static ::Il2CppString* _get_DocumentFolder();
+    static ::StringW _get_DocumentFolder();
     // Set static field: static public System.String DocumentFolder
-    static void _set_DocumentFolder(::Il2CppString* value);
+    static void _set_DocumentFolder(::StringW value);
     // Get static field: static public readonly System.String DefaultWorkDirectory
-    static ::Il2CppString* _get_DefaultWorkDirectory();
+    static ::StringW _get_DefaultWorkDirectory();
     // Set static field: static public readonly System.String DefaultWorkDirectory
-    static void _set_DefaultWorkDirectory(::Il2CppString* value);
+    static void _set_DefaultWorkDirectory(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1932238
     static void _cctor();

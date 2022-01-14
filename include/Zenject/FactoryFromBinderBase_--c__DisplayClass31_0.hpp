@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -62,16 +63,16 @@ namespace Zenject {
     // public System.String resourcePath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* resourcePath;
+    ::StringW resourcePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
     Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
     Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Get instance field reference: public System.String resourcePath
-    ::Il2CppString*& dyn_resourcePath();
+    ::StringW& dyn_resourcePath();
     // Zenject.IProvider <FromNewComponentOnNewPrefabResource>b__0(Zenject.DiContainer container)
     // Offset: 0x1AA4F44
     Zenject::IProvider* $FromNewComponentOnNewPrefabResource$b__0(Zenject::DiContainer* container);
@@ -92,7 +93,7 @@ namespace Zenject {
     }
   }; // Zenject.FactoryFromBinderBase/Zenject.<>c__DisplayClass31_0
   #pragma pack(pop)
-  static check_size<sizeof(FactoryFromBinderBase::$$c__DisplayClass31_0), 32 + sizeof(::Il2CppString*)> __Zenject_FactoryFromBinderBase_$$c__DisplayClass31_0SizeCheck;
+  static check_size<sizeof(FactoryFromBinderBase::$$c__DisplayClass31_0), 32 + sizeof(::StringW)> __Zenject_FactoryFromBinderBase_$$c__DisplayClass31_0SizeCheck;
   static_assert(sizeof(FactoryFromBinderBase::$$c__DisplayClass31_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

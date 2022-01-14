@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -69,9 +70,9 @@ namespace System::Net {
     // private System.String[] accept_types
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> accept_types;
+    ::ArrayW<::StringW> accept_types;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Int64 content_length
     // Size: 0x8
     // Offset: 0x18
@@ -101,9 +102,9 @@ namespace System::Net {
     // private System.String method
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.IO.Stream input_stream
     // Size: 0x8
     // Offset: 0x40
@@ -125,9 +126,9 @@ namespace System::Net {
     // private System.String raw_url
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* raw_url;
+    ::StringW raw_url;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Uri url
     // Size: 0x8
     // Offset: 0x60
@@ -143,9 +144,9 @@ namespace System::Net {
     // private System.String[] user_languages
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayW<::Il2CppString*> user_languages;
+    ::ArrayW<::StringW> user_languages;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x78
@@ -180,7 +181,7 @@ namespace System::Net {
     // Set static field: static private System.Char[] separators
     static void _set_separators(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.String[] accept_types
-    ::ArrayW<::Il2CppString*>& dyn_accept_types();
+    ::ArrayW<::StringW>& dyn_accept_types();
     // Get instance field reference: private System.Int64 content_length
     int64_t& dyn_content_length();
     // Get instance field reference: private System.Boolean cl_set
@@ -190,7 +191,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.WebHeaderCollection headers
     System::Net::WebHeaderCollection*& dyn_headers();
     // Get instance field reference: private System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.IO.Stream input_stream
     System::IO::Stream*& dyn_input_stream();
     // Get instance field reference: private System.Version version
@@ -198,13 +199,13 @@ namespace System::Net {
     // Get instance field reference: private System.Collections.Specialized.NameValueCollection query_string
     System::Collections::Specialized::NameValueCollection*& dyn_query_string();
     // Get instance field reference: private System.String raw_url
-    ::Il2CppString*& dyn_raw_url();
+    ::StringW& dyn_raw_url();
     // Get instance field reference: private System.Uri url
     System::Uri*& dyn_url();
     // Get instance field reference: private System.Uri referrer
     System::Uri*& dyn_referrer();
     // Get instance field reference: private System.String[] user_languages
-    ::ArrayW<::Il2CppString*>& dyn_user_languages();
+    ::ArrayW<::StringW>& dyn_user_languages();
     // Get instance field reference: private System.Net.HttpListenerContext context
     System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean is_chunked
@@ -239,10 +240,10 @@ namespace System::Net {
     System::Uri* get_Url();
     // public System.String get_UserHostAddress()
     // Offset: 0x18ACAC8
-    ::Il2CppString* get_UserHostAddress();
+    ::StringW get_UserHostAddress();
     // public System.String get_UserHostName()
     // Offset: 0x18ACA6C
-    ::Il2CppString* get_UserHostName();
+    ::StringW get_UserHostName();
     // System.Void .ctor(System.Net.HttpListenerContext context)
     // Offset: 0x18AB88C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -255,25 +256,25 @@ namespace System::Net {
     static void _cctor();
     // System.Void SetRequestLine(System.String req)
     // Offset: 0x18A781C
-    void SetRequestLine(::Il2CppString* req);
+    void SetRequestLine(::StringW req);
     // private System.Void CreateQueryString(System.String query)
     // Offset: 0x18AC5D4
-    void CreateQueryString(::Il2CppString* query);
+    void CreateQueryString(::StringW query);
     // static private System.Boolean MaybeUri(System.String s)
     // Offset: 0x18AC82C
-    static bool MaybeUri(::Il2CppString* s);
+    static bool MaybeUri(::StringW s);
     // static private System.Boolean IsPredefinedScheme(System.String scheme)
     // Offset: 0x18AC8E4
-    static bool IsPredefinedScheme(::Il2CppString* scheme);
+    static bool IsPredefinedScheme(::StringW scheme);
     // System.Void FinishInitialization()
     // Offset: 0x18A6CF8
     void FinishInitialization();
     // static System.String Unquote(System.String str)
     // Offset: 0x18ACBD0
-    static ::Il2CppString* Unquote(::Il2CppString* str);
+    static ::StringW Unquote(::StringW str);
     // System.Void AddHeader(System.String header)
     // Offset: 0x18A7B20
-    void AddHeader(::Il2CppString* header);
+    void AddHeader(::StringW header);
     // System.Boolean FlushInput()
     // Offset: 0x18A8B94
     bool FlushInput();
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_UserHostAddress
 // Il2CppName: get_UserHostAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_UserHostAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_UserHostAddress)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_UserHostAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_UserHostName
 // Il2CppName: get_UserHostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_UserHostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_UserHostName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_UserHostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -378,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::SetRequestLine
 // Il2CppName: SetRequestLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::SetRequestLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::StringW)>(&System::Net::HttpListenerRequest::SetRequestLine)> {
   static const MethodInfo* get() {
     static auto* req = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "SetRequestLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{req});
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::CreateQueryString
 // Il2CppName: CreateQueryString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::CreateQueryString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::StringW)>(&System::Net::HttpListenerRequest::CreateQueryString)> {
   static const MethodInfo* get() {
     static auto* query = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "CreateQueryString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{query});
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::MaybeUri
 // Il2CppName: MaybeUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::MaybeUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::HttpListenerRequest::MaybeUri)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "MaybeUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -405,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::IsPredefinedScheme
 // Il2CppName: IsPredefinedScheme
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::IsPredefinedScheme)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Net::HttpListenerRequest::IsPredefinedScheme)> {
   static const MethodInfo* get() {
     static auto* scheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "IsPredefinedScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scheme});
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::Unquote
 // Il2CppName: Unquote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::Unquote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Net::HttpListenerRequest::Unquote)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "Unquote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -431,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::AddHeader
 // Il2CppName: AddHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::Il2CppString*)>(&System::Net::HttpListenerRequest::AddHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequest::*)(::StringW)>(&System::Net::HttpListenerRequest::AddHeader)> {
   static const MethodInfo* get() {
     static auto* header = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "AddHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{header});

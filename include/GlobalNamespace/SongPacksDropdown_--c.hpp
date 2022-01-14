@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,15 +38,15 @@ namespace GlobalNamespace {
     // Set static field: static public readonly SongPacksDropdown/<>c <>9
     static void _set_$$9(GlobalNamespace::SongPacksDropdown::$$c* value);
     // Get static field: static public System.Func`2<System.String,System.String> <>9__7_0
-    static System::Func_2<::Il2CppString*, ::Il2CppString*>* _get_$$9__7_0();
+    static System::Func_2<::StringW, ::StringW>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<System.String,System.String> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<::Il2CppString*, ::Il2CppString*>* value);
+    static void _set_$$9__7_0(System::Func_2<::StringW, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x1217B60
     static void _cctor();
     // System.String <LazyInit>b__7_0(System.String serializedName)
     // Offset: 0x1217BCC
-    ::Il2CppString* $LazyInit$b__7_0(::Il2CppString* serializedName);
+    ::StringW $LazyInit$b__7_0(::StringW serializedName);
     // public System.Void .ctor()
     // Offset: 0x1217BC4
     // Implemented from: System.Object
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0
 // Il2CppName: <LazyInit>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPacksDropdown::$$c::*)(::Il2CppString*)>(&GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SongPacksDropdown::$$c::*)(::StringW)>(&GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0)> {
   static const MethodInfo* get() {
     static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), "<LazyInit>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName});

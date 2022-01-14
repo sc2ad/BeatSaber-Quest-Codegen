@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -74,9 +75,9 @@ namespace System::Text::RegularExpressions {
     // protected internal System.String runtext
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* runtext;
+    ::StringW runtext;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected internal System.Int32 runtextpos
     // Size: 0x4
     // Offset: 0x28
@@ -177,7 +178,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: protected internal System.Int32 runtextstart
     int& dyn_runtextstart();
     // Get instance field reference: protected internal System.String runtext
-    ::Il2CppString*& dyn_runtext();
+    ::StringW& dyn_runtext();
     // Get instance field reference: protected internal System.Int32 runtextpos
     int& dyn_runtextpos();
     // Get instance field reference: protected internal System.Int32[] runtrack
@@ -208,7 +209,7 @@ namespace System::Text::RegularExpressions {
     int& dyn_timeoutChecksToSkip();
     // protected internal System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart, System.Int32 prevlen, System.Boolean quick, System.TimeSpan timeout)
     // Offset: 0x1A44C94
-    System::Text::RegularExpressions::Match* Scan(System::Text::RegularExpressions::Regex* regex, ::Il2CppString* text, int textbeg, int textend, int textstart, int prevlen, bool quick, System::TimeSpan timeout);
+    System::Text::RegularExpressions::Match* Scan(System::Text::RegularExpressions::Regex* regex, ::StringW text, int textbeg, int textend, int textstart, int prevlen, bool quick, System::TimeSpan timeout);
     // private System.Void StartTimeoutWatch()
     // Offset: 0x1A44FEC
     void StartTimeoutWatch();
@@ -296,7 +297,7 @@ namespace System::Text::RegularExpressions {
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunner::Scan
 // Il2CppName: Scan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(System::Text::RegularExpressions::Regex*, ::Il2CppString*, int, int, int, int, bool, System::TimeSpan)>(&System::Text::RegularExpressions::RegexRunner::Scan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(System::Text::RegularExpressions::Regex*, ::StringW, int, int, int, int, bool, System::TimeSpan)>(&System::Text::RegularExpressions::RegexRunner::Scan)> {
   static const MethodInfo* get() {
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

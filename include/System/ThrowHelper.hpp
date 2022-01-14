@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -74,10 +75,10 @@ namespace System {
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
     // Offset: 0x19C77A8
-    static ::Il2CppString* GetArgumentName(System::ExceptionArgument argument);
+    static ::StringW GetArgumentName(System::ExceptionArgument argument);
     // static System.String GetResourceName(System.ExceptionResource resource)
     // Offset: 0x19C773C
-    static ::Il2CppString* GetResourceName(System::ExceptionResource resource);
+    static ::StringW GetResourceName(System::ExceptionResource resource);
   }; // System.ThrowHelper
   #pragma pack(pop)
 }
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::GetArgumentName
 // Il2CppName: GetArgumentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionArgument)>(&System::ThrowHelper::GetArgumentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::ExceptionArgument)>(&System::ThrowHelper::GetArgumentName)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetArgumentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ThrowHelper::GetResourceName
 // Il2CppName: GetResourceName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::ExceptionResource)>(&System::ThrowHelper::GetResourceName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::ExceptionResource)>(&System::ThrowHelper::GetResourceName)> {
   static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetResourceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});

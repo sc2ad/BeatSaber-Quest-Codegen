@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -73,9 +74,9 @@ namespace System {
     // private System.String _servicePack
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* servicePack;
+    ::StringW servicePack;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
@@ -90,7 +91,7 @@ namespace System {
     // Get instance field reference: private System.Version _version
     System::Version*& dyn__version();
     // Get instance field reference: private System.String _servicePack
-    ::Il2CppString*& dyn__servicePack();
+    ::StringW& dyn__servicePack();
     // public System.PlatformID get_Platform()
     // Offset: 0x1E89DF0
     System::PlatformID get_Platform();
@@ -99,7 +100,7 @@ namespace System {
     System::Version* get_Version();
     // public System.String get_ServicePack()
     // Offset: 0x1E89E00
-    ::Il2CppString* get_ServicePack();
+    ::StringW get_ServicePack();
     // public System.Void .ctor(System.PlatformID platform, System.Version version)
     // Offset: 0x1E89B54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -124,10 +125,10 @@ namespace System {
     // Offset: 0x1E89F40
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.OperatingSystem
   #pragma pack(pop)
-  static check_size<sizeof(OperatingSystem), 32 + sizeof(::Il2CppString*)> __System_OperatingSystemSizeCheck;
+  static check_size<sizeof(OperatingSystem), 32 + sizeof(::StringW)> __System_OperatingSystemSizeCheck;
   static_assert(sizeof(OperatingSystem) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 // Writing MetadataGetter for method: System::OperatingSystem::get_ServicePack
 // Il2CppName: get_ServicePack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::OperatingSystem::*)()>(&System::OperatingSystem::get_ServicePack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::OperatingSystem::*)()>(&System::OperatingSystem::get_ServicePack)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::OperatingSystem*), "get_ServicePack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::OperatingSystem::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::OperatingSystem::*)()>(&System::OperatingSystem::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::OperatingSystem::*)()>(&System::OperatingSystem::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::OperatingSystem*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

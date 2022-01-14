@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -42,9 +43,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Bucket
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Bucket;
+    ::StringW Bucket;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Int64 Counter
     // Size: 0x8
     // Offset: 0x18
@@ -62,15 +63,15 @@ namespace Oculus::Platform::Models {
     // public readonly System.String ExtraData
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* ExtraData;
+    ::StringW ExtraData;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String Key
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* Key;
+    ::StringW Key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.UInt64 SaveTime
     // Size: 0x8
     // Offset: 0x38
@@ -88,26 +89,26 @@ namespace Oculus::Platform::Models {
     // public readonly System.String VersionHandle
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* VersionHandle;
+    ::StringW VersionHandle;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.String Bucket
-    ::Il2CppString*& dyn_Bucket();
+    ::StringW& dyn_Bucket();
     // Get instance field reference: public readonly System.Int64 Counter
     int64_t& dyn_Counter();
     // Get instance field reference: public readonly System.UInt32 DataSize
     uint& dyn_DataSize();
     // Get instance field reference: public readonly System.String ExtraData
-    ::Il2CppString*& dyn_ExtraData();
+    ::StringW& dyn_ExtraData();
     // Get instance field reference: public readonly System.String Key
-    ::Il2CppString*& dyn_Key();
+    ::StringW& dyn_Key();
     // Get instance field reference: public readonly System.UInt64 SaveTime
     uint64_t& dyn_SaveTime();
     // Get instance field reference: public readonly Oculus.Platform.CloudStorageDataStatus Status
     Oculus::Platform::CloudStorageDataStatus& dyn_Status();
     // Get instance field reference: public readonly System.String VersionHandle
-    ::Il2CppString*& dyn_VersionHandle();
+    ::StringW& dyn_VersionHandle();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1759140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -117,7 +118,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.CloudStorageMetadata
   #pragma pack(pop)
-  static check_size<sizeof(CloudStorageMetadata), 72 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_CloudStorageMetadataSizeCheck;
+  static check_size<sizeof(CloudStorageMetadata), 72 + sizeof(::StringW)> __Oculus_Platform_Models_CloudStorageMetadataSizeCheck;
   static_assert(sizeof(CloudStorageMetadata) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

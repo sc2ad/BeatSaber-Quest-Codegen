@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Net
 namespace Mono::Net {
@@ -33,7 +34,7 @@ namespace Mono::Net {
     static System::IntPtr CFURLCreateWithString(System::IntPtr allocator, System::IntPtr str, System::IntPtr baseURL);
     // static public Mono.Net.CFUrl Create(System.String absolute)
     // Offset: 0x182A8BC
-    static Mono::Net::CFUrl* Create(::Il2CppString* absolute);
+    static Mono::Net::CFUrl* Create(::StringW absolute);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
     // Offset: 0x182D66C
     // Implemented from: Mono.Net.CFObject
@@ -61,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Mono::Net::CFUrl::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFUrl* (*)(::Il2CppString*)>(&Mono::Net::CFUrl::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFUrl* (*)(::StringW)>(&Mono::Net::CFUrl::Create)> {
   static const MethodInfo* get() {
     static auto* absolute = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFUrl*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{absolute});

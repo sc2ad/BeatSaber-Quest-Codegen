@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -67,9 +68,9 @@ namespace System::Net::Http {
     // private System.String reasonPhrase
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* reasonPhrase;
+    ::StringW reasonPhrase;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.HttpStatusCode statusCode
     // Size: 0x4
     // Offset: 0x20
@@ -112,7 +113,7 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.Headers.HttpResponseHeaders headers
     System::Net::Http::Headers::HttpResponseHeaders*& dyn_headers();
     // Get instance field reference: private System.String reasonPhrase
-    ::Il2CppString*& dyn_reasonPhrase();
+    ::StringW& dyn_reasonPhrase();
     // Get instance field reference: private System.Net.HttpStatusCode statusCode
     System::Net::HttpStatusCode& dyn_statusCode();
     // Get instance field reference: private System.Version version
@@ -137,10 +138,10 @@ namespace System::Net::Http {
     bool get_IsSuccessStatusCode();
     // public System.String get_ReasonPhrase()
     // Offset: 0x17CE174
-    ::Il2CppString* get_ReasonPhrase();
+    ::StringW get_ReasonPhrase();
     // public System.Void set_ReasonPhrase(System.String value)
     // Offset: 0x17CE190
-    void set_ReasonPhrase(::Il2CppString* value);
+    void set_ReasonPhrase(::StringW value);
     // public System.Void set_RequestMessage(System.Net.Http.HttpRequestMessage value)
     // Offset: 0x17CE198
     void set_RequestMessage(System::Net::Http::HttpRequestMessage* value);
@@ -173,7 +174,7 @@ namespace System::Net::Http {
     // Offset: 0x17CE260
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Net.Http.HttpResponseMessage
   #pragma pack(pop)
   static check_size<sizeof(HttpResponseMessage), 64 + sizeof(System::Net::Http::HttpRequestMessage*)> __System_Net_Http_HttpResponseMessageSizeCheck;
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_ReasonPhrase
 // Il2CppName: get_ReasonPhrase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_ReasonPhrase
 // Il2CppName: set_ReasonPhrase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(::Il2CppString*)>(&System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(::StringW)>(&System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -296,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

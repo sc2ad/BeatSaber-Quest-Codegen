@@ -10,6 +10,7 @@
 // Including type: System.Single
 #include "System/Single.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
     static void _set_RescaleFactor(float value);
     // static public System.Void Save(System.String filepath, UnityEngine.AudioClip clip, System.Single start, System.Single duration)
     // Offset: 0x122E0F4
-    static void Save(::Il2CppString* filepath, UnityEngine::AudioClip* clip, float start, float duration);
+    static void Save(::StringW filepath, UnityEngine::AudioClip* clip, float start, float duration);
     // static public System.Byte[] GetWav(UnityEngine.AudioClip clip, out System.UInt32 length, System.Single start, System.Single duration)
     // Offset: 0x122E390
     static ::ArrayW<uint8_t> GetWav(UnityEngine::AudioClip* clip, ByRef<uint> length, float start, float duration);
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SavWav::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::AudioClip*, float, float)>(&GlobalNamespace::SavWav::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::AudioClip*, float, float)>(&GlobalNamespace::SavWav::Save)> {
   static const MethodInfo* get() {
     static auto* filepath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;

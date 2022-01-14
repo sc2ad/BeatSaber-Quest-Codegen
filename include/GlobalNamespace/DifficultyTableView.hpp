@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -111,15 +112,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellIdentifier
     static constexpr const char* kCellIdentifier = "Cell";
     // Get static field: static private System.String kCellIdentifier
-    static ::Il2CppString* _get_kCellIdentifier();
+    static ::StringW _get_kCellIdentifier();
     // Set static field: static private System.String kCellIdentifier
-    static void _set_kCellIdentifier(::Il2CppString* value);
+    static void _set_kCellIdentifier(::StringW value);
     // static field const value: static private System.String kNonSelectableCellIdentifier
     static constexpr const char* kNonSelectableCellIdentifier = "NonSelectableCell";
     // Get static field: static private System.String kNonSelectableCellIdentifier
-    static ::Il2CppString* _get_kNonSelectableCellIdentifier();
+    static ::StringW _get_kNonSelectableCellIdentifier();
     // Set static field: static private System.String kNonSelectableCellIdentifier
-    static void _set_kNonSelectableCellIdentifier(::Il2CppString* value);
+    static void _set_kNonSelectableCellIdentifier(::StringW value);
     // Get instance field reference: private HMUI.TableView _tableView
     HMUI::TableView*& dyn__tableView();
     // Get instance field reference: private DifficultyTableCell _cellPrefab

@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -180,7 +181,7 @@ namespace GlobalNamespace {
     static void set_instance(GlobalNamespace::SteamVR_Overlay* value);
     // static public System.String get_key()
     // Offset: 0x15BF7B0
-    static ::Il2CppString* get_key();
+    static ::StringW get_key();
     // private System.Void OnEnable()
     // Offset: 0x15C3050
     void OnEnable();
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Overlay::get_key
 // Il2CppName: get_key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::SteamVR_Overlay::get_key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&GlobalNamespace::SteamVR_Overlay::get_key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Overlay*), "get_key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -43,7 +44,7 @@ namespace Org::BouncyCastle::Security {
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IMac GetMac(System.String algorithm)
     // Offset: 0x152D1E4
-    static Org::BouncyCastle::Crypto::IMac* GetMac(::Il2CppString* algorithm);
+    static Org::BouncyCastle::Crypto::IMac* GetMac(::StringW algorithm);
   }; // Org.BouncyCastle.Security.MacUtilities
   #pragma pack(pop)
 }
@@ -59,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::MacUtilities::GetMac
 // Il2CppName: GetMac
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IMac* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::MacUtilities::GetMac)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IMac* (*)(::StringW)>(&Org::BouncyCastle::Security::MacUtilities::GetMac)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::MacUtilities*), "GetMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});

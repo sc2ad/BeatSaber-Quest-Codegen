@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -120,9 +121,9 @@ namespace GlobalNamespace {
     // private System.String _backButtonText
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* backButtonText;
+    ::StringW backButtonText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _useTestNoteCutSoundEffects
     // Size: 0x1
     // Offset: 0x60
@@ -162,7 +163,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private PracticeSettings _practiceSettings
     GlobalNamespace::PracticeSettings*& dyn__practiceSettings();
     // Get instance field reference: private System.String _backButtonText
-    ::Il2CppString*& dyn__backButtonText();
+    ::StringW& dyn__backButtonText();
     // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
     bool& dyn__useTestNoteCutSoundEffects();
     // Get instance field reference: private StandardLevelScenesTransitionSetupDataSO _scenesTransitionSetupData

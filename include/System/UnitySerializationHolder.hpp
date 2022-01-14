@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -100,15 +101,15 @@ namespace System {
     // private System.String m_data
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_data;
+    ::StringW m_data;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_assemblyName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* m_assemblyName;
+    ::StringW m_assemblyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_unityType
     // Size: 0x4
     // Offset: 0x48
@@ -135,9 +136,9 @@ namespace System {
     // Get instance field reference: private System.Reflection.MethodBase m_declaringMethod
     System::Reflection::MethodBase*& dyn_m_declaringMethod();
     // Get instance field reference: private System.String m_data
-    ::Il2CppString*& dyn_m_data();
+    ::StringW& dyn_m_data();
     // Get instance field reference: private System.String m_assemblyName
-    ::Il2CppString*& dyn_m_assemblyName();
+    ::StringW& dyn_m_assemblyName();
     // Get instance field reference: private System.Int32 m_unityType
     int& dyn_m_unityType();
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -161,10 +162,10 @@ namespace System {
     static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, System::RuntimeType* type);
     // static System.Void GetUnitySerializationInfo(System.Runtime.Serialization.SerializationInfo info, System.Int32 unityType, System.String data, System.Reflection.RuntimeAssembly assembly)
     // Offset: 0x25D4030
-    static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, int unityType, ::Il2CppString* data, System::Reflection::RuntimeAssembly* assembly);
+    static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo* info, int unityType, ::StringW data, System::Reflection::RuntimeAssembly* assembly);
     // private System.Void ThrowInsufficientInformation(System.String field)
     // Offset: 0x25D4480
-    void ThrowInsufficientInformation(::Il2CppString* field);
+    void ThrowInsufficientInformation(::StringW field);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x25D4540
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -223,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::UnitySerializationHolder::GetUnitySerializationInfo
 // Il2CppName: GetUnitySerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, int, ::Il2CppString*, System::Reflection::RuntimeAssembly*)>(&System::UnitySerializationHolder::GetUnitySerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Serialization::SerializationInfo*, int, ::StringW, System::Reflection::RuntimeAssembly*)>(&System::UnitySerializationHolder::GetUnitySerializationInfo)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* unityType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::UnitySerializationHolder::ThrowInsufficientInformation
 // Il2CppName: ThrowInsufficientInformation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(::Il2CppString*)>(&System::UnitySerializationHolder::ThrowInsufficientInformation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnitySerializationHolder::*)(::StringW)>(&System::UnitySerializationHolder::ThrowInsufficientInformation)> {
   static const MethodInfo* get() {
     static auto* field = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UnitySerializationHolder*), "ThrowInsufficientInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{field});

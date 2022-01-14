@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -52,9 +53,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String DisplayScore
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DisplayScore;
+    ::StringW DisplayScore;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Byte[] ExtraData
     // Size: 0x8
     // Offset: 0x18
@@ -102,7 +103,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DisplayScore
-    ::Il2CppString*& dyn_DisplayScore();
+    ::StringW& dyn_DisplayScore();
     // Get instance field reference: public readonly System.Byte[] ExtraData
     ::ArrayW<uint8_t>& dyn_ExtraData();
     // Get instance field reference: public readonly System.Int32 Rank

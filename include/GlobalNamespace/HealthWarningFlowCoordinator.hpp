@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -146,9 +147,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
     // Size: 0x8
     // Offset: 0x100
-    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
+    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::StringW>* viewControllerTitles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::StringW>*) == 0x8);
     public:
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
@@ -173,7 +174,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HealthWarningFlowCoordinator/InitData _initData
     GlobalNamespace::HealthWarningFlowCoordinator::InitData*& dyn__initData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<HMUI.ViewController,System.String> _viewControllerTitles
-    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*& dyn__viewControllerTitles();
+    System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::StringW>*& dyn__viewControllerTitles();
     // private HMUI.ViewController ResolvePlayerAgreementsViewController()
     // Offset: 0x119C8A0
     HMUI::ViewController* ResolvePlayerAgreementsViewController();
@@ -229,7 +230,7 @@ namespace GlobalNamespace {
     void TopViewControllerWillChange(HMUI::ViewController* oldViewController, HMUI::ViewController* newViewController, HMUI::ViewController::AnimationType animationType);
   }; // HealthWarningFlowCoordinator
   #pragma pack(pop)
-  static check_size<sizeof(HealthWarningFlowCoordinator), 256 + sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*)> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
+  static check_size<sizeof(HealthWarningFlowCoordinator), 256 + sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::StringW>*)> __GlobalNamespace_HealthWarningFlowCoordinatorSizeCheck;
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x108);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IEquatable`1
 #include "System/IEquatable_1.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System
 namespace System {
   // Forward declaring type: TypeName
@@ -32,7 +30,7 @@ namespace System {
     }
     // public System.String get_DisplayName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
   }; // System.TypeName
   #pragma pack(pop)
 }
@@ -40,7 +38,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TypeName::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeName::*)()>(&System::TypeName::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeName::*)()>(&System::TypeName::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeName*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

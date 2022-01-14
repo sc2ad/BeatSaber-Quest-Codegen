@@ -8,10 +8,8 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Diagnostics
 namespace UnityEngine::ResourceManagement::Diagnostics {
   // Forward declaring type: DiagnosticEvent
@@ -32,9 +30,9 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // private System.String m_Graph
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_Graph;
+    ::StringW m_Graph;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32[] m_Dependencies
     // Size: 0x8
     // Offset: 0x8
@@ -52,9 +50,9 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // private System.String m_DisplayName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_DisplayName;
+    ::StringW m_DisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_Stream
     // Size: 0x4
     // Offset: 0x20
@@ -75,19 +73,19 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: DiagnosticEvent
-    constexpr DiagnosticEvent(::Il2CppString* m_Graph_ = {}, ::ArrayW<int> m_Dependencies_ = ::ArrayW<int>(static_cast<void*>(nullptr)), int m_ObjectId_ = {}, ::Il2CppString* m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
+    constexpr DiagnosticEvent(::StringW m_Graph_ = {}, ::ArrayW<int> m_Dependencies_ = ::ArrayW<int>(static_cast<void*>(nullptr)), int m_ObjectId_ = {}, ::StringW m_DisplayName_ = {}, int m_Stream_ = {}, int m_Frame_ = {}, int m_Value_ = {}) noexcept : m_Graph{m_Graph_}, m_Dependencies{m_Dependencies_}, m_ObjectId{m_ObjectId_}, m_DisplayName{m_DisplayName_}, m_Stream{m_Stream_}, m_Frame{m_Frame_}, m_Value{m_Value_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_Graph
-    ::Il2CppString*& dyn_m_Graph();
+    ::StringW& dyn_m_Graph();
     // Get instance field reference: private System.Int32[] m_Dependencies
     ::ArrayW<int>& dyn_m_Dependencies();
     // Get instance field reference: private System.Int32 m_ObjectId
     int& dyn_m_ObjectId();
     // Get instance field reference: private System.String m_DisplayName
-    ::Il2CppString*& dyn_m_DisplayName();
+    ::StringW& dyn_m_DisplayName();
     // Get instance field reference: private System.Int32 m_Stream
     int& dyn_m_Stream();
     // Get instance field reference: private System.Int32 m_Frame
@@ -96,13 +94,13 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     int& dyn_m_Value();
     // public System.String get_Graph()
     // Offset: 0x1BE4C8C
-    ::Il2CppString* get_Graph();
+    ::StringW get_Graph();
     // public System.Int32 get_ObjectId()
     // Offset: 0x1BE4C94
     int get_ObjectId();
     // public System.String get_DisplayName()
     // Offset: 0x1BE4C9C
-    ::Il2CppString* get_DisplayName();
+    ::StringW get_DisplayName();
     // public System.Int32[] get_Dependencies()
     // Offset: 0x1BE4CA4
     ::ArrayW<int> get_Dependencies();
@@ -117,7 +115,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     int get_Value();
     // public System.Void .ctor(System.String graph, System.String name, System.Int32 id, System.Int32 stream, System.Int32 frame, System.Int32 value, System.Int32[] deps)
     // Offset: 0x1BE4CC4
-    DiagnosticEvent(::Il2CppString* graph, ::Il2CppString* name, int id, int stream, int frame, int value, ::ArrayW<int> deps);
+    DiagnosticEvent(::StringW graph, ::StringW name, int id, int stream, int frame, int value, ::ArrayW<int> deps);
     // System.Byte[] Serialize()
     // Offset: 0x1BE4CDC
     ::ArrayW<uint8_t> Serialize();
@@ -133,7 +131,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph
 // Il2CppName: get_Graph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent), "get_Graph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -149,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_DisplayName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

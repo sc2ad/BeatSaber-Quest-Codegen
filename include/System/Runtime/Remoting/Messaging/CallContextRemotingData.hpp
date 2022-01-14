@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -40,26 +41,26 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _logicalCallID
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* logicalCallID;
+    ::StringW logicalCallID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return logicalCallID;
     }
     // Get instance field reference: private System.String _logicalCallID
-    ::Il2CppString*& dyn__logicalCallID();
+    ::StringW& dyn__logicalCallID();
     // System.String get_LogicalCallID()
     // Offset: 0x1C50C54
-    ::Il2CppString* get_LogicalCallID();
+    ::StringW get_LogicalCallID();
     // System.Void set_LogicalCallID(System.String value)
     // Offset: 0x1C50C5C
-    void set_LogicalCallID(::Il2CppString* value);
+    void set_LogicalCallID(::StringW value);
     // System.Boolean get_HasInfo()
     // Offset: 0x1C50C64
     bool get_HasInfo();
@@ -77,14 +78,14 @@ namespace System::Runtime::Remoting::Messaging {
     }
   }; // System.Runtime.Remoting.Messaging.CallContextRemotingData
   #pragma pack(pop)
-  static check_size<sizeof(CallContextRemotingData), 16 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_CallContextRemotingDataSizeCheck;
+  static check_size<sizeof(CallContextRemotingData), 16 + sizeof(::StringW)> __System_Runtime_Remoting_Messaging_CallContextRemotingDataSizeCheck;
   static_assert(sizeof(CallContextRemotingData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID
 // Il2CppName: get_LogicalCallID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "get_LogicalCallID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID
 // Il2CppName: set_LogicalCallID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CallContextRemotingData::*)(::StringW)>(&System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContextRemotingData*), "set_LogicalCallID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

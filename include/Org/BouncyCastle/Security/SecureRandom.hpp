@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Prng
@@ -90,7 +91,7 @@ namespace Org::BouncyCastle::Security {
     static int64_t NextCounterValue();
     // static private Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator CreatePrng(System.String digestName, System.Boolean autoSeed)
     // Offset: 0x1539A80
-    static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::Il2CppString* digestName, bool autoSeed);
+    static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::StringW digestName, bool autoSeed);
     // static public System.Byte[] GetNextBytes(Org.BouncyCastle.Security.SecureRandom secureRandom, System.Int32 length)
     // Offset: 0x1539C38
     static ::ArrayW<uint8_t> GetNextBytes(Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::CreatePrng
 // Il2CppName: CreatePrng
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* (*)(::Il2CppString*, bool)>(&Org::BouncyCastle::Security::SecureRandom::CreatePrng)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* (*)(::StringW, bool)>(&Org::BouncyCastle::Security::SecureRandom::CreatePrng)> {
   static const MethodInfo* get() {
     static auto* digestName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* autoSeed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

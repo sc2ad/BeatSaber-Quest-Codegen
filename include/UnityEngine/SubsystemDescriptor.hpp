@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -41,23 +42,23 @@ namespace UnityEngine {
     // private System.String <id>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* id;
+    ::StringW id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptor
     operator UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptor*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return id;
     }
     // Get instance field reference: private System.String <id>k__BackingField
-    ::Il2CppString*& dyn_$id$k__BackingField();
+    ::StringW& dyn_$id$k__BackingField();
     // public System.String get_id()
     // Offset: 0x26CEABC
-    ::Il2CppString* get_id();
+    ::StringW get_id();
     // protected System.Void .ctor()
     // Offset: 0x26CEAC4
     // Implemented from: System.Object
@@ -69,14 +70,14 @@ namespace UnityEngine {
     }
   }; // UnityEngine.SubsystemDescriptor
   #pragma pack(pop)
-  static check_size<sizeof(SubsystemDescriptor), 16 + sizeof(::Il2CppString*)> __UnityEngine_SubsystemDescriptorSizeCheck;
+  static check_size<sizeof(SubsystemDescriptor), 16 + sizeof(::StringW)> __UnityEngine_SubsystemDescriptorSizeCheck;
   static_assert(sizeof(SubsystemDescriptor) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SubsystemDescriptor::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::SubsystemDescriptor::*)()>(&UnityEngine::SubsystemDescriptor::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::SubsystemDescriptor::*)()>(&UnityEngine::SubsystemDescriptor::get_id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SubsystemDescriptor*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

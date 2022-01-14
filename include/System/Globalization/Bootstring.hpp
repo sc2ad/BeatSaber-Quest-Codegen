@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -111,7 +112,7 @@ namespace System::Globalization {
     }
     // public System.String Encode(System.String s, System.Int32 offset)
     // Offset: 0x19ABD58
-    ::Il2CppString* Encode(::Il2CppString* s, int offset);
+    ::StringW Encode(::StringW s, int offset);
     // private System.Char EncodeDigit(System.Int32 d)
     // Offset: 0x19AC0B8
     ::Il2CppChar EncodeDigit(int d);
@@ -123,7 +124,7 @@ namespace System::Globalization {
     int Adapt(int delta, int numPoints, bool firstTime);
     // public System.String Decode(System.String s, System.Int32 offset)
     // Offset: 0x19AC188
-    ::Il2CppString* Decode(::Il2CppString* s, int offset);
+    ::StringW Decode(::StringW s, int offset);
   }; // System.Globalization.Bootstring
   #pragma pack(pop)
   static check_size<sizeof(Bootstring), 44 + sizeof(int)> __System_Globalization_BootstringSizeCheck;
@@ -137,7 +138,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::Bootstring::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::Bootstring::*)(::StringW, int)>(&System::Globalization::Bootstring::Encode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::Bootstring::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::Bootstring::*)(::StringW, int)>(&System::Globalization::Bootstring::Decode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

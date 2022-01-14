@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {
@@ -50,27 +51,27 @@ namespace System::Runtime::Remoting::Metadata {
     // private System.String _xmlElementName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* xmlElementName;
+    ::StringW xmlElementName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _xmlNamespace
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* xmlNamespace;
+    ::StringW xmlNamespace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _xmlTypeName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* xmlTypeName;
+    ::StringW xmlTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _xmlTypeNamespace
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* xmlTypeNamespace;
+    ::StringW xmlTypeNamespace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _isType
     // Size: 0x1
     // Offset: 0x50
@@ -87,26 +88,26 @@ namespace System::Runtime::Remoting::Metadata {
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: private System.String _xmlElementName
-    ::Il2CppString*& dyn__xmlElementName();
+    ::StringW& dyn__xmlElementName();
     // Get instance field reference: private System.String _xmlNamespace
-    ::Il2CppString*& dyn__xmlNamespace();
+    ::StringW& dyn__xmlNamespace();
     // Get instance field reference: private System.String _xmlTypeName
-    ::Il2CppString*& dyn__xmlTypeName();
+    ::StringW& dyn__xmlTypeName();
     // Get instance field reference: private System.String _xmlTypeNamespace
-    ::Il2CppString*& dyn__xmlTypeNamespace();
+    ::StringW& dyn__xmlTypeNamespace();
     // Get instance field reference: private System.Boolean _isType
     bool& dyn__isType();
     // Get instance field reference: private System.Boolean _isElement
     bool& dyn__isElement();
     // public System.String get_XmlElementName()
     // Offset: 0x1C5C8A8
-    ::Il2CppString* get_XmlElementName();
+    ::StringW get_XmlElementName();
     // public System.String get_XmlTypeName()
     // Offset: 0x1C5C8B8
-    ::Il2CppString* get_XmlTypeName();
+    ::StringW get_XmlTypeName();
     // public System.String get_XmlTypeNamespace()
     // Offset: 0x1C5C8C0
-    ::Il2CppString* get_XmlTypeNamespace();
+    ::StringW get_XmlTypeNamespace();
     // System.Boolean get_IsInteropXmlElement()
     // Offset: 0x1C5C8C8
     bool get_IsInteropXmlElement();
@@ -122,7 +123,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Offset: 0x1C5C8B0
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
     // Base method: System.String SoapAttribute::get_XmlNamespace()
-    ::Il2CppString* get_XmlNamespace();
+    ::StringW get_XmlNamespace();
     // public System.Void .ctor()
     // Offset: 0x1C4B364
     // Implemented from: System.Runtime.Remoting.Metadata.SoapAttribute
@@ -148,7 +149,7 @@ namespace System::Runtime::Remoting::Metadata {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName
 // Il2CppName: get_XmlElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlElementName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapTypeAttribute*), "get_XmlElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeName
 // Il2CppName: get_XmlTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapTypeAttribute*), "get_XmlTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeNamespace
 // Il2CppName: get_XmlTypeNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlTypeNamespace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapTypeAttribute*), "get_XmlTypeNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlNamespace
 // Il2CppName: get_XmlNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Metadata::SoapTypeAttribute::*)()>(&System::Runtime::Remoting::Metadata::SoapTypeAttribute::get_XmlNamespace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Metadata::SoapTypeAttribute*), "get_XmlNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

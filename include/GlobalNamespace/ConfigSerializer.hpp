@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -28,10 +29,10 @@ namespace GlobalNamespace {
     public:
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
     // Offset: 0x138F18C
-    static void SaveConfig(::Il2CppObject* config, ::Il2CppString* filePath);
+    static void SaveConfig(::Il2CppObject* config, ::StringW filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
     // Offset: 0x138F5C4
-    static bool LoadConfig(::Il2CppObject* config, ::Il2CppString* filePath);
+    static bool LoadConfig(::Il2CppObject* config, ::StringW filePath);
     // public System.Void .ctor()
     // Offset: 0x138FB8C
     // Implemented from: System.Object
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ConfigSerializer::SaveConfig
 // Il2CppName: SaveConfig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&GlobalNamespace::ConfigSerializer::SaveConfig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::StringW)>(&GlobalNamespace::ConfigSerializer::SaveConfig)> {
   static const MethodInfo* get() {
     static auto* config = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -58,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::ConfigSerializer::LoadConfig
 // Il2CppName: LoadConfig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*)>(&GlobalNamespace::ConfigSerializer::LoadConfig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::StringW)>(&GlobalNamespace::ConfigSerializer::LoadConfig)> {
   static const MethodInfo* get() {
     static auto* config = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

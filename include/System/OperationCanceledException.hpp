@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -76,7 +77,7 @@ namespace System {
     // public System.Void .ctor(System.String message, System.Threading.CancellationToken token)
     // Offset: 0x1E8A180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OperationCanceledException* New_ctor(::Il2CppString* message, System::Threading::CancellationToken token) {
+    static OperationCanceledException* New_ctor(::StringW message, System::Threading::CancellationToken token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(message, token)));
     }
@@ -97,7 +98,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OperationCanceledException* New_ctor(::Il2CppString* message) {
+    static OperationCanceledException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::OperationCanceledException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperationCanceledException*, creationType>(message)));
     }

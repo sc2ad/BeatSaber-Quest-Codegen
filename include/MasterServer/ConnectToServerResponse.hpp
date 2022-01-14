@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -167,27 +168,27 @@ namespace MasterServer {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String secret
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* secret;
+    ::StringW secret;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String code
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* code;
+    ::StringW code;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x40
@@ -235,9 +236,9 @@ namespace MasterServer {
     // public System.String managerId
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* managerId;
+    ::StringW managerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator MasterServer::IUserServerToClientMessage
     operator MasterServer::IUserServerToClientMessage() noexcept {
@@ -246,13 +247,13 @@ namespace MasterServer {
     // Get instance field reference: public MasterServer.ConnectToServerResponse/MasterServer.Result result
     MasterServer::ConnectToServerResponse::Result& dyn_result();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.String secret
-    ::Il2CppString*& dyn_secret();
+    ::StringW& dyn_secret();
     // Get instance field reference: public System.String code
-    ::Il2CppString*& dyn_code();
+    ::StringW& dyn_code();
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public System.Boolean isConnectionOwner
@@ -268,7 +269,7 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // Get instance field reference: public System.String managerId
-    ::Il2CppString*& dyn_managerId();
+    ::StringW& dyn_managerId();
     // static public IPacketPool`1<MasterServer.ConnectToServerResponse> get_pool()
     // Offset: 0x14B2118
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerResponse*>* get_pool();
@@ -280,7 +281,7 @@ namespace MasterServer {
     MasterServer::ConnectToServerResponse* InitForFailure(MasterServer::ConnectToServerResponse::Result result);
     // public MasterServer.ConnectToServerResponse InitForSuccess(System.String userId, System.String userName, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey, System.String managerId)
     // Offset: 0x14B2298
-    MasterServer::ConnectToServerResponse* InitForSuccess(::Il2CppString* userId, ::Il2CppString* userName, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::Il2CppString* managerId);
+    MasterServer::ConnectToServerResponse* InitForSuccess(::StringW userId, ::StringW userName, ::StringW secret, ::StringW code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, bool isConnectionOwner, bool isDedicatedServer, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW managerId);
     // public override System.Byte get_resultCode()
     // Offset: 0x14B2160
     // Implemented from: BaseMasterServerReliableResponse
@@ -290,7 +291,7 @@ namespace MasterServer {
     // Offset: 0x14B2168
     // Implemented from: BaseMasterServerReliableResponse
     // Base method: System.String BaseMasterServerReliableResponse::get_resultCodeString()
-    ::Il2CppString* get_resultCodeString();
+    ::StringW get_resultCodeString();
     // public System.Void .ctor()
     // Offset: 0x14B26A0
     // Implemented from: BaseMasterServerReliableResponse
@@ -318,7 +319,7 @@ namespace MasterServer {
     void Release();
   }; // MasterServer.ConnectToServerResponse
   #pragma pack(pop)
-  static check_size<sizeof(ConnectToServerResponse), 144 + sizeof(::Il2CppString*)> __MasterServer_ConnectToServerResponseSizeCheck;
+  static check_size<sizeof(ConnectToServerResponse), 144 + sizeof(::StringW)> __MasterServer_ConnectToServerResponseSizeCheck;
   static_assert(sizeof(ConnectToServerResponse) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -352,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::InitForSuccess
 // Il2CppName: InitForSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (MasterServer::ConnectToServerResponse::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, bool, bool, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::Il2CppString*)>(&MasterServer::ConnectToServerResponse::InitForSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerResponse* (MasterServer::ConnectToServerResponse::*)(::StringW, ::StringW, ::StringW, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, bool, bool, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::StringW)>(&MasterServer::ConnectToServerResponse::InitForSuccess)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -380,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ma
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::ConnectToServerResponse::*)()>(&MasterServer::ConnectToServerResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::ConnectToServerResponse::*)()>(&MasterServer::ConnectToServerResponse::get_resultCodeString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -48,9 +49,9 @@ namespace GlobalNamespace {
     // private System.String _objectiveName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* objectiveName;
+    ::StringW objectiveName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _noConditionValue
     // Size: 0x1
     // Offset: 0x20
@@ -69,17 +70,17 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _objectiveName
-    ::Il2CppString*& dyn__objectiveName();
+    ::StringW& dyn__objectiveName();
     // Get instance field reference: private System.Boolean _noConditionValue
     bool& dyn__noConditionValue();
     // Get instance field reference: private ObjectiveValueFormatterSO _objectiveValueFormater
     GlobalNamespace::ObjectiveValueFormatterSO*& dyn__objectiveValueFormater();
     // public System.String get_objectiveName()
     // Offset: 0x1166E30
-    ::Il2CppString* get_objectiveName();
+    ::StringW get_objectiveName();
     // public System.String get_objectiveNameLocalized()
     // Offset: 0x1161088
-    ::Il2CppString* get_objectiveNameLocalized();
+    ::StringW get_objectiveNameLocalized();
     // public System.Boolean get_noConditionValue()
     // Offset: 0x1166E38
     bool get_noConditionValue();
@@ -107,7 +108,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName
 // Il2CppName: get_objectiveName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized
 // Il2CppName: get_objectiveNameLocalized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveNameLocalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -41,10 +42,10 @@ namespace NUnit::Framework::Internal::Commands {
     public:
     // private System.String GetSkipReason()
     // Offset: 0x1949B34
-    ::Il2CppString* GetSkipReason();
+    ::StringW GetSkipReason();
     // private System.String GetProviderStackTrace()
     // Offset: 0x1949C24
-    ::Il2CppString* GetProviderStackTrace();
+    ::StringW GetProviderStackTrace();
     // public System.Void .ctor(NUnit.Framework.Internal.Test test)
     // Offset: 0x1949928
     // Implemented from: NUnit.Framework.Internal.Commands.TestCommand
@@ -66,7 +67,7 @@ namespace NUnit::Framework::Internal::Commands {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason
 // Il2CppName: GetSkipReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -74,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetProviderStackTrace
 // Il2CppName: GetProviderStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetProviderStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetProviderStackTrace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

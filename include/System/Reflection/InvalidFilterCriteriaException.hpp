@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -53,7 +54,7 @@ namespace System::Reflection {
     // Base method: System.Void ApplicationException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InvalidFilterCriteriaException* New_ctor(::Il2CppString* message) {
+    static InvalidFilterCriteriaException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::InvalidFilterCriteriaException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidFilterCriteriaException*, creationType>(message)));
     }

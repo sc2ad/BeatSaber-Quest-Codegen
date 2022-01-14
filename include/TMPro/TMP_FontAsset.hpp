@@ -24,6 +24,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -93,15 +94,15 @@ namespace TMPro {
     // private System.String m_Version
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_Version;
+    ::StringW m_Version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String m_SourceFontFileGUID
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_SourceFontFileGUID;
+    ::StringW m_SourceFontFileGUID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Font m_SourceFontFile
     // Size: 0x8
     // Offset: 0x40
@@ -357,9 +358,9 @@ namespace TMPro {
     // Set static field: static System.Collections.Generic.List`1<System.UInt32> s_MissingCharacterList
     static void _set_s_MissingCharacterList(System::Collections::Generic::List_1<uint>* value);
     // Get instance field reference: private System.String m_Version
-    ::Il2CppString*& dyn_m_Version();
+    ::StringW& dyn_m_Version();
     // Get instance field reference: System.String m_SourceFontFileGUID
-    ::Il2CppString*& dyn_m_SourceFontFileGUID();
+    ::StringW& dyn_m_SourceFontFileGUID();
     // Get instance field reference: private UnityEngine.Font m_SourceFontFile
     UnityEngine::Font*& dyn_m_SourceFontFile();
     // Get instance field reference: private TMPro.AtlasPopulationMode m_AtlasPopulationMode
@@ -440,10 +441,10 @@ namespace TMPro {
     System::Collections::Generic::List_1<TMPro::TMP_Character*>*& dyn_m_CharactersToAdd();
     // public System.String get_version()
     // Offset: 0x1247728
-    ::Il2CppString* get_version();
+    ::StringW get_version();
     // System.Void set_version(System.String value)
     // Offset: 0x1247730
-    void set_version(::Il2CppString* value);
+    void set_version(::StringW value);
     // public UnityEngine.Font get_sourceFontFile()
     // Offset: 0x1247738
     UnityEngine::Font* get_sourceFontFile();
@@ -590,13 +591,13 @@ namespace TMPro {
     bool HasCharacter_Internal(::Il2CppChar character, bool searchFallbacks);
     // public System.Boolean HasCharacters(System.String text, out System.Collections.Generic.List`1<System.Char> missingCharacters)
     // Offset: 0x124A440
-    bool HasCharacters(::Il2CppString* text, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*> missingCharacters);
+    bool HasCharacters(::StringW text, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*> missingCharacters);
     // public System.Boolean HasCharacters(System.String text)
     // Offset: 0x124A57C
-    bool HasCharacters(::Il2CppString* text);
+    bool HasCharacters(::StringW text);
     // static public System.String GetCharacters(TMPro.TMP_FontAsset fontAsset)
     // Offset: 0x124A640
-    static ::Il2CppString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
+    static ::StringW GetCharacters(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32[] GetCharactersArray(TMPro.TMP_FontAsset fontAsset)
     // Offset: 0x124A720
     static ::ArrayW<int> GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
@@ -608,10 +609,10 @@ namespace TMPro {
     bool TryAddCharacters(::ArrayW<uint> unicodes, ByRef<::ArrayW<uint>> missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
     // Offset: 0x124AF34
-    bool TryAddCharacters(::Il2CppString* characters);
+    bool TryAddCharacters(::StringW characters);
     // public System.Boolean TryAddCharacters(System.String characters, out System.String missingCharacters)
     // Offset: 0x124AF5C
-    bool TryAddCharacters(::Il2CppString* characters, ByRef<::Il2CppString*> missingCharacters);
+    bool TryAddCharacters(::StringW characters, ByRef<::StringW> missingCharacters);
     // System.Boolean TryAddCharacter_Internal(System.UInt32 unicode)
     // Offset: 0x124B59C
     bool TryAddCharacter_Internal(uint unicode);
@@ -665,7 +666,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -673,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_version
 // Il2CppName: set_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::set_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::StringW)>(&TMPro::TMP_FontAsset::set_version)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1096,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
 // Il2CppName: HasCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*>)>(&TMPro::TMP_FontAsset::HasCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::StringW, ByRef<System::Collections::Generic::List_1<::Il2CppChar>*>)>(&TMPro::TMP_FontAsset::HasCharacters)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* missingCharacters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->this_arg;
@@ -1106,7 +1107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
 // Il2CppName: HasCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::HasCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::StringW)>(&TMPro::TMP_FontAsset::HasCharacters)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -1115,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharacters
 // Il2CppName: GetCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharacters)> {
   static const MethodInfo* get() {
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fontAsset});
@@ -1152,7 +1153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::StringW)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters});
@@ -1161,7 +1162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ByRef<::Il2CppString*>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::StringW, ByRef<::StringW>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* missingCharacters = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

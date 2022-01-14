@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,10 +33,10 @@ namespace GlobalNamespace {
     public:
     // static public System.String MinSecDurationText(System.Single duration)
     // Offset: 0x26416D8
-    static ::Il2CppString* MinSecDurationText(float duration);
+    static ::StringW MinSecDurationText(float duration);
     // static public System.String MinSecMillisecDurationText(System.Single duration)
     // Offset: 0x2641900
-    static ::Il2CppString* MinSecMillisecDurationText(float duration);
+    static ::StringW MinSecMillisecDurationText(float duration);
     // static public System.Single OneBeatDuration(System.Single bpm)
     // Offset: 0x2641A20
     static float OneBeatDuration(float bpm);
@@ -97,7 +98,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::MinSecDurationText
 // Il2CppName: MinSecDurationText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecDurationText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecDurationText)> {
   static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::MinSecMillisecDurationText
 // Il2CppName: MinSecMillisecDurationText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
   static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecMillisecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});

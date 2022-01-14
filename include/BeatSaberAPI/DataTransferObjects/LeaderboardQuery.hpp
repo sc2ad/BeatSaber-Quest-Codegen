@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -43,9 +44,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 count
     // Size: 0x4
     // Offset: 0x18
@@ -69,9 +70,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String[] friendsUserIds
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> friendsUserIds;
+    ::ArrayW<::StringW> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Boolean onlyWithSpecificGameplayModifiers
     // Size: 0x1
     // Offset: 0x30
@@ -88,7 +89,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     public:
     // Get instance field reference: public System.String leaderboardId
-    ::Il2CppString*& dyn_leaderboardId();
+    ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 count
     int& dyn_count();
     // Get instance field reference: public System.Int32 fromRank
@@ -96,7 +97,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.ScoresScope scope
     BeatSaberAPI::DataTransferObjects::ScoresScope& dyn_scope();
     // Get instance field reference: public System.String[] friendsUserIds
-    ::ArrayW<::Il2CppString*>& dyn_friendsUserIds();
+    ::ArrayW<::StringW>& dyn_friendsUserIds();
     // Get instance field reference: public System.Boolean onlyWithSpecificGameplayModifiers
     bool& dyn_onlyWithSpecificGameplayModifiers();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers

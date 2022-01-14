@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::UriParser::BuiltInUriParser);
@@ -28,7 +29,7 @@ namespace System {
     // System.Void .ctor(System.String lwrCaseScheme, System.Int32 defaultPort, System.UriSyntaxFlags syntaxFlags)
     // Offset: 0x26A1880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriParser::BuiltInUriParser* New_ctor(::Il2CppString* lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
+    static UriParser::BuiltInUriParser* New_ctor(::StringW lwrCaseScheme, int defaultPort, System::UriSyntaxFlags syntaxFlags) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriParser::BuiltInUriParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriParser::BuiltInUriParser*, creationType>(lwrCaseScheme, defaultPort, syntaxFlags)));
     }

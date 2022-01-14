@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -364,7 +365,7 @@ namespace RootMotion::FinalIK {
     ::ArrayW<RootMotion::FinalIK::InteractionTarget*> GetTargets();
     // public UnityEngine.Transform GetTarget(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.String tag)
     // Offset: 0x1FEED2C
-    UnityEngine::Transform* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::Il2CppString* tag);
+    UnityEngine::Transform* GetTarget(RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::StringW tag);
     // public System.Void OnStartInteraction(RootMotion.FinalIK.InteractionSystem interactionSystem)
     // Offset: 0x1FEEE70
     void OnStartInteraction(RootMotion::FinalIK::InteractionSystem* interactionSystem);
@@ -565,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ro
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::GetTarget
 // Il2CppName: GetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::FullBodyBipedEffector, ::Il2CppString*)>(&RootMotion::FinalIK::InteractionObject::GetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::FullBodyBipedEffector, ::StringW)>(&RootMotion::FinalIK::InteractionObject::GetTarget)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

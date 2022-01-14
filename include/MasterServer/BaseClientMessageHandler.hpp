@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -154,9 +155,9 @@ namespace MasterServer {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task> _orderedRequests
     // Size: 0x8
     // Offset: 0xA8
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* orderedRequests;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Threading::Tasks::Task*>* orderedRequests;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Threading::Tasks::Task*>*) == 0x8);
     public:
     // Get static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static LiteNetLib::Utils::NetDataWriter* _get__authenticationDataWriter();
@@ -173,7 +174,7 @@ namespace MasterServer {
     // Get instance field reference: private System.Boolean _disposed
     bool& dyn__disposed();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task> _orderedRequests
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*& dyn__orderedRequests();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Threading::Tasks::Task*>*& dyn__orderedRequests();
     // public MasterServerEndPoint get_endPoint()
     // Offset: 0x14AD274
     GlobalNamespace::MasterServerEndPoint* get_endPoint();
@@ -195,7 +196,7 @@ namespace MasterServer {
     }
     // protected System.Void SendOrderedAuthenticatedRequest(System.String queue, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x14AD904
-    void SendOrderedAuthenticatedRequest(::Il2CppString* queue, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
+    void SendOrderedAuthenticatedRequest(::StringW queue, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task SendOrderedAuthenticatedRequestAsync(System.Threading.Tasks.Task previousTask, MasterServer.IMasterServerReliableRequest message, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x14AD9DC
     System::Threading::Tasks::Task* SendOrderedAuthenticatedRequestAsync(System::Threading::Tasks::Task* previousTask, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken);
@@ -203,7 +204,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Threading::Tasks::Task_1<T>* SendAuthenticatedRequestAsync(MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
-      static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, MasterServer::IMasterServerReliableResponse>);
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -219,7 +220,7 @@ namespace MasterServer {
     // Offset: 0xFFFFFFFF
     template<class T>
     System::Threading::Tasks::Task_1<T>* OnSendFailedAwaitResponse(uint protocolVersion, System::Net::IPEndPoint* remoteEndPoint, MasterServer::IMasterServerReliableRequest* message, System::Threading::CancellationToken cancellationToken) {
-      static_assert(std::is_base_of_v<MasterServer::IMasterServerReliableResponse, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, MasterServer::IMasterServerReliableResponse>);
       static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::BaseClientMessageHandler::OnSendFailedAwaitResponse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSendFailedAwaitResponse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(protocolVersion), ::il2cpp_utils::ExtractType(remoteEndPoint), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -251,7 +252,7 @@ namespace MasterServer {
     System::Threading::Tasks::Task_1<bool>* VerifySignature(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey, ::ArrayW<uint8_t> signature, ::ArrayW<::ArrayW<uint8_t>> certData);
     // private System.Void HandshakeLog(System.String message)
     // Offset: 0x14AE3E8
-    void HandshakeLog(::Il2CppString* message);
+    void HandshakeLog(::StringW message);
     // public override System.Void Dispose()
     // Offset: 0x14AD7EC
     // Implemented from: MasterServer.MessageHandler
@@ -269,7 +270,7 @@ namespace MasterServer {
     bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* endPoint);
   }; // MasterServer.BaseClientMessageHandler
   #pragma pack(pop)
-  static check_size<sizeof(BaseClientMessageHandler), 168 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*)> __MasterServer_BaseClientMessageHandlerSizeCheck;
+  static check_size<sizeof(BaseClientMessageHandler), 168 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Threading::Tasks::Task*>*)> __MasterServer_BaseClientMessageHandlerSizeCheck;
   static_assert(sizeof(BaseClientMessageHandler) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -312,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest
 // Il2CppName: SendOrderedAuthenticatedRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::StringW, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest)> {
   static const MethodInfo* get() {
     static auto* queue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
@@ -431,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::HandshakeLog
 // Il2CppName: HandshakeLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*)>(&MasterServer::BaseClientMessageHandler::HandshakeLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::StringW)>(&MasterServer::BaseClientMessageHandler::HandshakeLog)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "HandshakeLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

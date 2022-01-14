@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -49,16 +50,16 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* str;
+    ::StringW str;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return str;
     }
     // Get instance field reference: private readonly System.String str
-    ::Il2CppString*& dyn_str();
+    ::StringW& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
     // Offset: 0x18EDF7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,7 +70,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.String str)
     // Offset: 0x18FE30C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerT61String* New_ctor(::Il2CppString* str) {
+    static DerT61String* New_ctor(::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerT61String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerT61String*, creationType>(str)));
     }
@@ -80,7 +81,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18FE3A8
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
-    ::Il2CppString* GetString();
+    ::StringW GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18FE3B0
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -93,7 +94,7 @@ namespace Org::BouncyCastle::Asn1 {
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerT61String
   #pragma pack(pop)
-  static check_size<sizeof(DerT61String), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerT61StringSizeCheck;
+  static check_size<sizeof(DerT61String), 16 + sizeof(::StringW)> __Org_BouncyCastle_Asn1_DerT61StringSizeCheck;
   static_assert(sizeof(DerT61String) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerT61String::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerT61String::*)()>(&Org::BouncyCastle::Asn1::DerT61String::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerT61String::*)()>(&Org::BouncyCastle::Asn1::DerT61String::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerT61String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

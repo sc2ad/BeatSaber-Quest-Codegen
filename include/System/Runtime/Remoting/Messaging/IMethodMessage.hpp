@@ -7,6 +7,7 @@
 // Including type: System.Runtime.Remoting.Messaging.IMessage
 #include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -22,7 +23,6 @@ namespace System::Reflection {
 // Completed forward declares
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
-struct Il2CppString;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
@@ -59,16 +59,16 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public System.Object get_MethodSignature()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_MethodSignature();
     // public System.String get_TypeName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Uri();
+    ::StringW get_Uri();
     // public System.Object GetArg(System.Int32 argNum)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetArg(int argNum);
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMethodMessage::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IMethodMessage*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMethodMessage::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IMethodMessage*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMethodMessage::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IMethodMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

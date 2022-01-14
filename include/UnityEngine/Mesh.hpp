@@ -37,6 +37,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -325,10 +326,10 @@ namespace UnityEngine {
     void ClearBlendShapes();
     // public System.String GetBlendShapeName(System.Int32 shapeIndex)
     // Offset: 0x1D9FB94
-    ::Il2CppString* GetBlendShapeName(int shapeIndex);
+    ::StringW GetBlendShapeName(int shapeIndex);
     // public System.Int32 GetBlendShapeIndex(System.String blendShapeName)
     // Offset: 0x1D9FBE4
-    int GetBlendShapeIndex(::Il2CppString* blendShapeName);
+    int GetBlendShapeIndex(::StringW blendShapeName);
     // public System.Int32 GetBlendShapeFrameCount(System.Int32 shapeIndex)
     // Offset: 0x1D9FC34
     int GetBlendShapeFrameCount(int shapeIndex);
@@ -340,7 +341,7 @@ namespace UnityEngine {
     void GetBlendShapeFrameVertices(int shapeIndex, int frameIndex, ::ArrayW<UnityEngine::Vector3> deltaVertices, ::ArrayW<UnityEngine::Vector3> deltaNormals, ::ArrayW<UnityEngine::Vector3> deltaTangents);
     // public System.Void AddBlendShapeFrame(System.String shapeName, System.Single frameWeight, UnityEngine.Vector3[] deltaVertices, UnityEngine.Vector3[] deltaNormals, UnityEngine.Vector3[] deltaTangents)
     // Offset: 0x1D9FD5C
-    void AddBlendShapeFrame(::Il2CppString* shapeName, float frameWeight, ::ArrayW<UnityEngine::Vector3> deltaVertices, ::ArrayW<UnityEngine::Vector3> deltaNormals, ::ArrayW<UnityEngine::Vector3> deltaTangents);
+    void AddBlendShapeFrame(::StringW shapeName, float frameWeight, ::ArrayW<UnityEngine::Vector3> deltaVertices, ::ArrayW<UnityEngine::Vector3> deltaNormals, ::ArrayW<UnityEngine::Vector3> deltaTangents);
     // private System.Boolean HasBoneWeights()
     // Offset: 0x1D9FDDC
     bool HasBoneWeights();
@@ -1801,7 +1802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBlendShapeName
 // Il2CppName: GetBlendShapeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBlendShapeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBlendShapeName)> {
   static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shapeIndex});
@@ -1810,7 +1811,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBlendShapeIndex
 // Il2CppName: GetBlendShapeIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::Il2CppString*)>(&UnityEngine::Mesh::GetBlendShapeIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::StringW)>(&UnityEngine::Mesh::GetBlendShapeIndex)> {
   static const MethodInfo* get() {
     static auto* blendShapeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blendShapeName});
@@ -1851,7 +1852,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::AddBlendShapeFrame
 // Il2CppName: AddBlendShapeFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Il2CppString*, float, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::AddBlendShapeFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::StringW, float, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::AddBlendShapeFrame)> {
   static const MethodInfo* get() {
     static auto* shapeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* frameWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

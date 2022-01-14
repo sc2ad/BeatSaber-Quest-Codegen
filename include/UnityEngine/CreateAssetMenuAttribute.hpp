@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -42,27 +43,27 @@ namespace UnityEngine {
     // private System.String <menuName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* menuName;
+    ::StringW menuName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB8758
     // private System.String <fileName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <menuName>k__BackingField
-    ::Il2CppString*& dyn_$menuName$k__BackingField();
+    ::StringW& dyn_$menuName$k__BackingField();
     // Get instance field reference: private System.String <fileName>k__BackingField
-    ::Il2CppString*& dyn_$fileName$k__BackingField();
+    ::StringW& dyn_$fileName$k__BackingField();
     // public System.Void set_menuName(System.String value)
     // Offset: 0x1D07AA4
-    void set_menuName(::Il2CppString* value);
+    void set_menuName(::StringW value);
     // public System.Void set_fileName(System.String value)
     // Offset: 0x1D07AAC
-    void set_fileName(::Il2CppString* value);
+    void set_fileName(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1D07AB4
     // Implemented from: System.Attribute
@@ -75,14 +76,14 @@ namespace UnityEngine {
     }
   }; // UnityEngine.CreateAssetMenuAttribute
   #pragma pack(pop)
-  static check_size<sizeof(CreateAssetMenuAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_CreateAssetMenuAttributeSizeCheck;
+  static check_size<sizeof(CreateAssetMenuAttribute), 24 + sizeof(::StringW)> __UnityEngine_CreateAssetMenuAttributeSizeCheck;
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_menuName
 // Il2CppName: set_menuName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_fileName
 // Il2CppName: set_fileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

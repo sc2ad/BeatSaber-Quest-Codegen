@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -41,7 +42,7 @@ namespace UnityEngine::EventSystems {
     public:
     // public System.String get_compositionString()
     // Offset: 0x16611F4
-    ::Il2CppString* get_compositionString();
+    ::StringW get_compositionString();
     // public UnityEngine.IMECompositionMode get_imeCompositionMode()
     // Offset: 0x16611FC
     UnityEngine::IMECompositionMode get_imeCompositionMode();
@@ -83,10 +84,10 @@ namespace UnityEngine::EventSystems {
     UnityEngine::Touch GetTouch(int index);
     // public System.Single GetAxisRaw(System.String axisName)
     // Offset: 0x1661278
-    float GetAxisRaw(::Il2CppString* axisName);
+    float GetAxisRaw(::StringW axisName);
     // public System.Boolean GetButtonDown(System.String buttonName)
     // Offset: 0x1661284
-    bool GetButtonDown(::Il2CppString* buttonName);
+    bool GetButtonDown(::StringW buttonName);
     // public System.Void .ctor()
     // Offset: 0x1661290
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
@@ -108,7 +109,7 @@ namespace UnityEngine::EventSystems {
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInput::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::BaseInput::*)()>(&UnityEngine::EventSystems::BaseInput::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::BaseInput::*)()>(&UnityEngine::EventSystems::BaseInput::get_compositionString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInput*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInput::GetAxisRaw
 // Il2CppName: GetAxisRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::EventSystems::BaseInput::*)(::Il2CppString*)>(&UnityEngine::EventSystems::BaseInput::GetAxisRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::EventSystems::BaseInput::*)(::StringW)>(&UnityEngine::EventSystems::BaseInput::GetAxisRaw)> {
   static const MethodInfo* get() {
     static auto* axisName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInput*), "GetAxisRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axisName});
@@ -235,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInput::GetButtonDown
 // Il2CppName: GetButtonDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::BaseInput::*)(::Il2CppString*)>(&UnityEngine::EventSystems::BaseInput::GetButtonDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::BaseInput::*)(::StringW)>(&UnityEngine::EventSystems::BaseInput::GetButtonDown)> {
   static const MethodInfo* get() {
     static auto* buttonName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInput*), "GetButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonName});

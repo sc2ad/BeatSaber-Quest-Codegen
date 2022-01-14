@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -96,9 +97,9 @@ namespace System::Resources {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>* resourceSets;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>* resourceSets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>*) == 0x8);
     // protected System.Reflection.Assembly MainAssembly
     // Size: 0x8
     // Offset: 0x20
@@ -173,17 +174,17 @@ namespace System::Resources {
     // Set static field: static private readonly System.Type _minResourceSet
     static void _set__minResourceSet(System::Type* value);
     // Get static field: static readonly System.String ResReaderTypeName
-    static ::Il2CppString* _get_ResReaderTypeName();
+    static ::StringW _get_ResReaderTypeName();
     // Set static field: static readonly System.String ResReaderTypeName
-    static void _set_ResReaderTypeName(::Il2CppString* value);
+    static void _set_ResReaderTypeName(::StringW value);
     // Get static field: static readonly System.String ResSetTypeName
-    static ::Il2CppString* _get_ResSetTypeName();
+    static ::StringW _get_ResSetTypeName();
     // Set static field: static readonly System.String ResSetTypeName
-    static void _set_ResSetTypeName(::Il2CppString* value);
+    static void _set_ResSetTypeName(::StringW value);
     // Get static field: static readonly System.String MscorlibName
-    static ::Il2CppString* _get_MscorlibName();
+    static ::StringW _get_MscorlibName();
     // Set static field: static readonly System.String MscorlibName
-    static void _set_MscorlibName(::Il2CppString* value);
+    static void _set_MscorlibName(::StringW value);
     // Get static field: static readonly System.Int32 DEBUG
     static int _get_DEBUG();
     // Set static field: static readonly System.Int32 DEBUG
@@ -191,7 +192,7 @@ namespace System::Resources {
     // Get instance field reference: protected System.Collections.Hashtable ResourceSets
     System::Collections::Hashtable*& dyn_ResourceSets();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceSet*>*& dyn__resourceSets();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>*& dyn__resourceSets();
     // Get instance field reference: protected System.Reflection.Assembly MainAssembly
     System::Reflection::Assembly*& dyn_MainAssembly();
     // Get instance field reference: private System.Globalization.CultureInfo _neutralResourcesCulture
@@ -227,7 +228,7 @@ namespace System::Resources {
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
     // static System.Boolean CompareNames(System.String asmTypeName1, System.String typeName2, System.Reflection.AssemblyName asmName2)
     // Offset: 0x161A0E8
-    static bool CompareNames(::Il2CppString* asmTypeName1, ::Il2CppString* typeName2, System::Reflection::AssemblyName* asmName2);
+    static bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, System::Reflection::AssemblyName* asmName2);
     // protected System.Void .ctor()
     // Offset: 0x1619DAC
     // Implemented from: System.Object
@@ -289,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceManager::CompareNames
 // Il2CppName: CompareNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Reflection::AssemblyName*)>(&System::Resources::ResourceManager::CompareNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, System::Reflection::AssemblyName*)>(&System::Resources::ResourceManager::CompareNames)> {
   static const MethodInfo* get() {
     static auto* asmTypeName1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

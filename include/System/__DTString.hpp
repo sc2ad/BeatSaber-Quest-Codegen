@@ -8,6 +8,7 @@
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -45,9 +46,9 @@ namespace System {
     // System.String Value
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* Value;
+    ::StringW Value;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Int32 Index
     // Size: 0x4
     // Offset: 0x8
@@ -82,7 +83,7 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: __DTString
-    constexpr __DTString(::Il2CppString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) noexcept : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
+    constexpr __DTString(::StringW Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) noexcept : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -92,7 +93,7 @@ namespace System {
     // Set static field: static private System.Char[] WhiteSpaceChecks
     static void _set_WhiteSpaceChecks(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: System.String Value
-    ::Il2CppString*& dyn_Value();
+    ::StringW& dyn_Value();
     // Get instance field reference: System.Int32 Index
     int& dyn_Index();
     // Get instance field reference: System.Int32 len
@@ -108,10 +109,10 @@ namespace System {
     System::Globalization::CompareInfo* get_CompareInfo();
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi, System.Boolean checkDigitToken)
     // Offset: 0x25D7330
-    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
+    __DTString(::StringW str, System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
     // System.Void .ctor(System.String str, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x25D735C
-    __DTString(::Il2CppString* str, System::Globalization::DateTimeFormatInfo* dtfi);
+    __DTString(::StringW str, System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.Void .cctor()
     // Offset: 0x25D8600
     static void _cctor();
@@ -132,22 +133,22 @@ namespace System {
     System::TokenType GetSeparatorToken(System::Globalization::DateTimeFormatInfo* dtfi, ByRef<int> indexBeforeSeparator, ByRef<::Il2CppChar> charBeforeSeparator);
     // System.Boolean MatchSpecifiedWord(System.String target)
     // Offset: 0x25D7904
-    bool MatchSpecifiedWord(::Il2CppString* target);
+    bool MatchSpecifiedWord(::StringW target);
     // System.Boolean MatchSpecifiedWord(System.String target, System.Int32 endIndex)
     // Offset: 0x25D7924
-    bool MatchSpecifiedWord(::Il2CppString* target, int endIndex);
+    bool MatchSpecifiedWord(::StringW target, int endIndex);
     // System.Boolean MatchSpecifiedWords(System.String target, System.Boolean checkWordBoundary, ref System.Int32 matchLength)
     // Offset: 0x25D79A8
-    bool MatchSpecifiedWords(::Il2CppString* target, bool checkWordBoundary, ByRef<int> matchLength);
+    bool MatchSpecifiedWords(::StringW target, bool checkWordBoundary, ByRef<int> matchLength);
     // System.Boolean Match(System.String str)
     // Offset: 0x25D7D08
-    bool Match(::Il2CppString* str);
+    bool Match(::StringW str);
     // System.Boolean Match(System.Char ch)
     // Offset: 0x25D7DBC
     bool Match(::Il2CppChar ch);
     // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
     // Offset: 0x25D7E34
-    int MatchLongestWords(::ArrayW<::Il2CppString*> words, ByRef<int> maxMatchStrLen);
+    int MatchLongestWords(::ArrayW<::StringW> words, ByRef<int> maxMatchStrLen);
     // System.Int32 GetRepeatCount()
     // Offset: 0x25D7EF8
     int GetRepeatCount();
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tok
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWord
 // Il2CppName: MatchSpecifiedWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*)>(&System::__DTString::MatchSpecifiedWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::StringW)>(&System::__DTString::MatchSpecifiedWord)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchSpecifiedWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWord
 // Il2CppName: MatchSpecifiedWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*, int)>(&System::__DTString::MatchSpecifiedWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::StringW, int)>(&System::__DTString::MatchSpecifiedWord)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* endIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -280,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__DTString::MatchSpecifiedWords
 // Il2CppName: MatchSpecifiedWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*, bool, ByRef<int>)>(&System::__DTString::MatchSpecifiedWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::StringW, bool, ByRef<int>)>(&System::__DTString::MatchSpecifiedWords)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* checkWordBoundary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__DTString::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::Il2CppString*)>(&System::__DTString::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__DTString::*)(::StringW)>(&System::__DTString::Match)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__DTString), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -309,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__DTString::MatchLongestWords
 // Il2CppName: MatchLongestWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::ArrayW<::Il2CppString*>, ByRef<int>)>(&System::__DTString::MatchLongestWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::ArrayW<::StringW>, ByRef<int>)>(&System::__DTString::MatchLongestWords)> {
   static const MethodInfo* get() {
     static auto* words = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* maxMatchStrLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

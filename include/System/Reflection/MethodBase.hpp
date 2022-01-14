@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -133,10 +134,10 @@ namespace System::Reflection {
     ::Il2CppObject* Invoke(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> parameters);
     // static System.String ConstructParameters(System.Type[] parameterTypes, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
     // Offset: 0x1E97368
-    static ::Il2CppString* ConstructParameters(::ArrayW<System::Type*> parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
+    static ::StringW ConstructParameters(::ArrayW<System::Type*> parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
     // System.String FormatNameAndSig(System.Boolean serialization)
     // Offset: 0x1E9754C
-    ::Il2CppString* FormatNameAndSig(bool serialization);
+    ::StringW FormatNameAndSig(bool serialization);
     // System.Type[] GetParameterTypes()
     // Offset: 0x1E97660
     ::ArrayW<System::Type*> GetParameterTypes();
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::MethodBase::ConstructParameters
 // Il2CppName: ConstructParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<System::Type*>, System::Reflection::CallingConventions, bool)>(&System::Reflection::MethodBase::ConstructParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<System::Type*>, System::Reflection::CallingConventions, bool)>(&System::Reflection::MethodBase::ConstructParameters)> {
   static const MethodInfo* get() {
     static auto* parameterTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     static auto* callingConvention = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Reflection::MethodBase::FormatNameAndSig
 // Il2CppName: FormatNameAndSig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::MethodBase::*)(bool)>(&System::Reflection::MethodBase::FormatNameAndSig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Reflection::MethodBase::*)(bool)>(&System::Reflection::MethodBase::FormatNameAndSig)> {
   static const MethodInfo* get() {
     static auto* serialization = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "FormatNameAndSig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialization});

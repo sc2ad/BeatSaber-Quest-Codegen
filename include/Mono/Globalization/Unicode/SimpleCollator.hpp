@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Globalization::Unicode
@@ -203,16 +204,16 @@ namespace Mono::Globalization::Unicode {
     static bool IsHalfKana(int cp, System::Globalization::CompareOptions opt);
     // private Mono.Globalization.Unicode.Contraction GetContraction(System.String s, System.Int32 start, System.Int32 end)
     // Offset: 0x1C70600
-    Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end);
+    Mono::Globalization::Unicode::Contraction* GetContraction(::StringW s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
     // Offset: 0x1C706DC
-    Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
+    Mono::Globalization::Unicode::Contraction* GetContraction(::StringW s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end)
     // Offset: 0x1C70810
-    Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end);
+    Mono::Globalization::Unicode::Contraction* GetTailContraction(::StringW s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
     // Offset: 0x1C708EC
-    Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
+    Mono::Globalization::Unicode::Contraction* GetTailContraction(::StringW s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private System.Int32 FilterOptions(System.Int32 i, System.Globalization.CompareOptions opt)
     // Offset: 0x1C70B00
     int FilterOptions(int i, System::Globalization::CompareOptions opt);
@@ -233,13 +234,13 @@ namespace Mono::Globalization::Unicode {
     bool IsSafe(int i);
     // public System.Globalization.SortKey GetSortKey(System.String s, System.Globalization.CompareOptions options)
     // Offset: 0x1C71080
-    System::Globalization::SortKey* GetSortKey(::Il2CppString* s, System::Globalization::CompareOptions options);
+    System::Globalization::SortKey* GetSortKey(::StringW s, System::Globalization::CompareOptions options);
     // public System.Globalization.SortKey GetSortKey(System.String s, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions options)
     // Offset: 0x1C710A0
-    System::Globalization::SortKey* GetSortKey(::Il2CppString* s, int start, int length, System::Globalization::CompareOptions options);
+    System::Globalization::SortKey* GetSortKey(::StringW s, int start, int length, System::Globalization::CompareOptions options);
     // private System.Void GetSortKey(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.SortKeyBuffer buf, System.Globalization.CompareOptions opt)
     // Offset: 0x1C7132C
-    void GetSortKey(::Il2CppString* s, int start, int end, Mono::Globalization::Unicode::SortKeyBuffer* buf, System::Globalization::CompareOptions opt);
+    void GetSortKey(::StringW s, int start, int end, Mono::Globalization::Unicode::SortKeyBuffer* buf, System::Globalization::CompareOptions opt);
     // private System.Void FillSortKeyRaw(System.Int32 i, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, Mono.Globalization.Unicode.SortKeyBuffer buf, System.Globalization.CompareOptions opt)
     // Offset: 0x1C7172C
     void FillSortKeyRaw(int i, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, Mono::Globalization::Unicode::SortKeyBuffer* buf, System::Globalization::CompareOptions opt);
@@ -248,76 +249,76 @@ namespace Mono::Globalization::Unicode {
     void FillSurrogateSortKeyRaw(int i, Mono::Globalization::Unicode::SortKeyBuffer* buf);
     // System.Int32 Compare(System.String s1, System.Int32 idx1, System.Int32 len1, System.String s2, System.Int32 idx2, System.Int32 len2, System.Globalization.CompareOptions options)
     // Offset: 0x1C71E30
-    int Compare(::Il2CppString* s1, int idx1, int len1, ::Il2CppString* s2, int idx2, int len2, System::Globalization::CompareOptions options);
+    int Compare(::StringW s1, int idx1, int len1, ::StringW s2, int idx2, int len2, System::Globalization::CompareOptions options);
     // private System.Void ClearBuffer(System.Byte* buffer, System.Int32 size)
     // Offset: 0x1C716F4
     void ClearBuffer(uint8_t* buffer, int size);
     // private System.Int32 CompareInternal(System.String s1, System.Int32 idx1, System.Int32 len1, System.String s2, System.Int32 idx2, System.Int32 len2, out System.Boolean targetConsumed, out System.Boolean sourceConsumed, System.Boolean skipHeadingExtenders, System.Boolean immediateBreakup, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C71EF0
-    int CompareInternal(::Il2CppString* s1, int idx1, int len1, ::Il2CppString* s2, int idx2, int len2, ByRef<bool> targetConsumed, ByRef<bool> sourceConsumed, bool skipHeadingExtenders, bool immediateBreakup, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    int CompareInternal(::StringW s1, int idx1, int len1, ::StringW s2, int idx2, int len2, ByRef<bool> targetConsumed, ByRef<bool> sourceConsumed, bool skipHeadingExtenders, bool immediateBreakup, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 CompareFlagPair(System.Boolean b1, System.Boolean b2)
     // Offset: 0x1C733A4
     int CompareFlagPair(bool b1, bool b2);
     // public System.Boolean IsPrefix(System.String src, System.String target, System.Globalization.CompareOptions opt)
     // Offset: 0x1C733C4
-    bool IsPrefix(::Il2CppString* src, ::Il2CppString* target, System::Globalization::CompareOptions opt);
+    bool IsPrefix(::StringW src, ::StringW target, System::Globalization::CompareOptions opt);
     // public System.Boolean IsPrefix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
     // Offset: 0x1C733E4
-    bool IsPrefix(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
+    bool IsPrefix(::StringW s, ::StringW target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Boolean IsPrefix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Boolean skipHeadingExtenders, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C73498
-    bool IsPrefix(::Il2CppString* s, ::Il2CppString* target, int start, int length, bool skipHeadingExtenders, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    bool IsPrefix(::StringW s, ::StringW target, int start, int length, bool skipHeadingExtenders, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // public System.Boolean IsSuffix(System.String src, System.String target, System.Globalization.CompareOptions opt)
     // Offset: 0x1C73504
-    bool IsSuffix(::Il2CppString* src, ::Il2CppString* target, System::Globalization::CompareOptions opt);
+    bool IsSuffix(::StringW src, ::StringW target, System::Globalization::CompareOptions opt);
     // public System.Boolean IsSuffix(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
     // Offset: 0x1C73524
-    bool IsSuffix(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
+    bool IsSuffix(::StringW s, ::StringW target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 QuickIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, out System.Boolean testWasUnable)
     // Offset: 0x1C7379C
-    int QuickIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, ByRef<bool> testWasUnable);
+    int QuickIndexOf(::StringW s, ::StringW target, int start, int length, ByRef<bool> testWasUnable);
     // public System.Int32 IndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
     // Offset: 0x1C73910
-    int IndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
+    int IndexOf(::StringW s, ::StringW target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 IndexOfOrdinal(System.String s, System.String target, System.Int32 start, System.Int32 length)
     // Offset: 0x1C73FD0
-    int IndexOfOrdinal(::Il2CppString* s, ::Il2CppString* target, int start, int length);
+    int IndexOfOrdinal(::StringW s, ::StringW target, int start, int length);
     // private System.Int32 IndexOfOrdinal(System.String s, System.Char target, System.Int32 start, System.Int32 length)
     // Offset: 0x1C740AC
-    int IndexOfOrdinal(::Il2CppString* s, ::Il2CppChar target, int start, int length);
+    int IndexOfOrdinal(::StringW s, ::Il2CppChar target, int start, int length);
     // private System.Int32 IndexOfSortKey(System.String s, System.Int32 start, System.Int32 length, System.Byte* sortkey, System.Char target, System.Int32 ti, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C7411C
-    int IndexOfSortKey(::Il2CppString* s, int start, int length, uint8_t* sortkey, ::Il2CppChar target, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    int IndexOfSortKey(::StringW s, int start, int length, uint8_t* sortkey, ::Il2CppChar target, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 IndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Byte* targetSortKey, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C73AFC
-    int IndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    int IndexOf(::StringW s, ::StringW target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // public System.Int32 LastIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Globalization.CompareOptions opt)
     // Offset: 0x1C735C0
-    int LastIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, System::Globalization::CompareOptions opt);
+    int LastIndexOf(::StringW s, ::StringW target, int start, int length, System::Globalization::CompareOptions opt);
     // private System.Int32 LastIndexOfOrdinal(System.String s, System.String target, System.Int32 start, System.Int32 length)
     // Offset: 0x1C7437C
-    int LastIndexOfOrdinal(::Il2CppString* s, ::Il2CppString* target, int start, int length);
+    int LastIndexOfOrdinal(::StringW s, ::StringW target, int start, int length);
     // private System.Int32 LastIndexOfSortKey(System.String s, System.Int32 start, System.Int32 orgStart, System.Int32 length, System.Byte* sortkey, System.Int32 ti, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C749F8
-    int LastIndexOfSortKey(::Il2CppString* s, int start, int orgStart, int length, uint8_t* sortkey, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    int LastIndexOfSortKey(::StringW s, int start, int orgStart, int length, uint8_t* sortkey, int ti, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Int32 LastIndexOf(System.String s, System.String target, System.Int32 start, System.Int32 length, System.Byte* targetSortKey, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C744AC
-    int LastIndexOf(::Il2CppString* s, ::Il2CppString* target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    int LastIndexOf(::StringW s, ::StringW target, int start, int length, uint8_t* targetSortKey, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesForward(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C741BC
-    bool MatchesForward(::Il2CppString* s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    bool MatchesForward(::StringW s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesForwardCore(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C74C70
-    bool MatchesForwardCore(::Il2CppString* s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    bool MatchesForwardCore(::StringW s, ByRef<int> idx, int end, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesPrimitive(System.Globalization.CompareOptions opt, System.Byte* source, System.Int32 si, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, System.Byte* target, System.Int32 ti, System.Boolean noLv4)
     // Offset: 0x1C74FE0
     bool MatchesPrimitive(System::Globalization::CompareOptions opt, uint8_t* source, int si, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, uint8_t* target, int ti, bool noLv4);
     // private System.Boolean MatchesBackward(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 orgStart, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C74AA8
-    bool MatchesBackward(::Il2CppString* s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    bool MatchesBackward(::StringW s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
     // private System.Boolean MatchesBackwardCore(System.String s, ref System.Int32 idx, System.Int32 end, System.Int32 orgStart, System.Int32 ti, System.Byte* sortkey, System.Boolean noLv4, Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.ExtenderType ext, ref Mono.Globalization.Unicode.Contraction ct, ref Mono.Globalization.Unicode.SimpleCollator/Mono.Globalization.Unicode.Context ctx)
     // Offset: 0x1C7523C
-    bool MatchesBackwardCore(::Il2CppString* s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
+    bool MatchesBackwardCore(::StringW s, ByRef<int> idx, int end, int orgStart, int ti, uint8_t* sortkey, bool noLv4, Mono::Globalization::Unicode::SimpleCollator::ExtenderType ext, ByRef<Mono::Globalization::Unicode::Contraction*> ct, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context> ctx);
   }; // Mono.Globalization.Unicode.SimpleCollator
   #pragma pack(pop)
   static check_size<sizeof(SimpleCollator), 92 + sizeof(bool)> __Mono_Globalization_Unicode_SimpleCollatorSizeCheck;
@@ -400,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetContraction
 // Il2CppName: GetContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -411,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetContraction
 // Il2CppName: GetContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -423,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetTailContraction
 // Il2CppName: GetTailContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -434,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetTailContraction
 // Il2CppName: GetTailContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -505,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
 // Il2CppName: GetSortKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
@@ -515,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
 // Il2CppName: GetSortKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -527,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
 // Il2CppName: GetSortKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -562,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, ::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::Compare)> {
   static const MethodInfo* get() {
     static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -587,7 +588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::CompareInternal
 // Il2CppName: CompareInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, ByRef<bool>, ByRef<bool>, bool, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, ::StringW, int, int, ByRef<bool>, ByRef<bool>, bool, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
   static const MethodInfo* get() {
     static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -616,7 +617,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
 // Il2CppName: IsPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -627,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
 // Il2CppName: IsPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -640,7 +641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
 // Il2CppName: IsPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -654,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsSuffix
 // Il2CppName: IsSuffix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -665,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsSuffix
 // Il2CppName: IsSuffix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -678,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf
 // Il2CppName: QuickIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, ByRef<bool>)>(&Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, ByRef<bool>)>(&Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -691,7 +692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -704,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal
 // Il2CppName: IndexOfOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -716,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal
 // Il2CppName: IndexOfOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppChar, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::Il2CppChar, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -728,7 +729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey
 // Il2CppName: IndexOfSortKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, uint8_t*, ::Il2CppChar, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, uint8_t*, ::Il2CppChar, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -744,7 +745,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, uint8_t*, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -758,7 +759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -771,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal
 // Il2CppName: LastIndexOfOrdinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -783,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey
 // Il2CppName: LastIndexOfSortKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, int, uint8_t*, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int, int, int, uint8_t*, int, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -799,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int, int, uint8_t*, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -813,7 +814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesForward
 // Il2CppName: MatchesForward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ByRef<int>, int, int, uint8_t*, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ByRef<int>, int, int, uint8_t*, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -828,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore
 // Il2CppName: MatchesForwardCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ByRef<int>, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, ByRef<Mono::Globalization::Unicode::Contraction*>, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ByRef<int>, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, ByRef<Mono::Globalization::Unicode::Contraction*>, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -860,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesBackward
 // Il2CppName: MatchesBackward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ByRef<int>, int, int, int, uint8_t*, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ByRef<int>, int, int, int, uint8_t*, bool, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -876,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore
 // Il2CppName: MatchesBackwardCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ByRef<int>, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, ByRef<Mono::Globalization::Unicode::Contraction*>, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ByRef<int>, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, ByRef<Mono::Globalization::Unicode::Contraction*>, ByRef<Mono::Globalization::Unicode::SimpleCollator::Context>)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -15,6 +15,7 @@
 #include "System/IntPtr.hpp"
 // Including type: UnityEngine.CubemapFace
 #include "UnityEngine/CubemapFace.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -125,7 +126,7 @@ namespace UnityEngine::Rendering {
     // Offset: 0x1DFAE58
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Int32 GetHashCode()
     // Offset: 0x1DFAFC4
     // Implemented from: System.ValueType
@@ -166,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Rendering::RenderTargetIdentifier::*)()>(&UnityEngine::Rendering::RenderTargetIdentifier::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Rendering::RenderTargetIdentifier::*)()>(&UnityEngine::Rendering::RenderTargetIdentifier::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderTargetIdentifier), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

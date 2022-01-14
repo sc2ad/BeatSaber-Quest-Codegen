@@ -4,10 +4,8 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Security.Principal
 namespace System::Security::Principal {
   // Forward declaring type: IIdentity
@@ -27,10 +25,10 @@ namespace System::Security::Principal {
     public:
     // public System.String get_AuthenticationType()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_AuthenticationType();
+    ::StringW get_AuthenticationType();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
   }; // System.Security.Principal.IIdentity
   #pragma pack(pop)
 }
@@ -38,7 +36,7 @@ namespace System::Security::Principal {
 // Writing MetadataGetter for method: System::Security::Principal::IIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::IIdentity::*)()>(&System::Security::Principal::IIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::IIdentity::*)()>(&System::Security::Principal::IIdentity::get_AuthenticationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::IIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -46,7 +44,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Principal::IIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::IIdentity::*)()>(&System::Security::Principal::IIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::IIdentity::*)()>(&System::Security::Principal::IIdentity::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::IIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

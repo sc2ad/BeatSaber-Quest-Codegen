@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -60,16 +61,16 @@ namespace System::Net {
     static void _set_MultiParser(System::Net::HeaderParser* value);
     // System.Net.HeaderInfo get_Item(System.String name)
     // Offset: 0x18A5160
-    System::Net::HeaderInfo* get_Item(::Il2CppString* name);
+    System::Net::HeaderInfo* get_Item(::StringW name);
     // static private System.Void .cctor()
     // Offset: 0x18A3B2C
     static void _cctor();
     // static private System.String[] ParseSingleValue(System.String value)
     // Offset: 0x18A3890
-    static ::ArrayW<::Il2CppString*> ParseSingleValue(::Il2CppString* value);
+    static ::ArrayW<::StringW> ParseSingleValue(::StringW value);
     // static private System.String[] ParseMultiValue(System.String value)
     // Offset: 0x18A3930
-    static ::ArrayW<::Il2CppString*> ParseMultiValue(::Il2CppString* value);
+    static ::ArrayW<::StringW> ParseMultiValue(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x18A5248
     // Implemented from: System.Object
@@ -86,7 +87,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HeaderInfo* (System::Net::HeaderInfoTable::*)(::Il2CppString*)>(&System::Net::HeaderInfoTable::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HeaderInfo* (System::Net::HeaderInfoTable::*)(::StringW)>(&System::Net::HeaderInfoTable::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderInfoTable*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::ParseSingleValue
 // Il2CppName: ParseSingleValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&System::Net::HeaderInfoTable::ParseSingleValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&System::Net::HeaderInfoTable::ParseSingleValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderInfoTable*), "ParseSingleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::ParseMultiValue
 // Il2CppName: ParseMultiValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&System::Net::HeaderInfoTable::ParseMultiValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&System::Net::HeaderInfoTable::ParseMultiValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderInfoTable*), "ParseMultiValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

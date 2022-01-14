@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -43,9 +44,9 @@ namespace System {
     // private System.String str
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* str;
+    ::StringW str;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x18
@@ -68,7 +69,7 @@ namespace System {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: private System.String str
-    ::Il2CppString*& dyn_str();
+    ::StringW& dyn_str();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // Get instance field reference: private System.Char currentElement
@@ -82,7 +83,7 @@ namespace System {
     // System.Void .ctor(System.String str)
     // Offset: 0x1999E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CharEnumerator* New_ctor(::Il2CppString* str) {
+    static CharEnumerator* New_ctor(::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::CharEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CharEnumerator*, creationType>(str)));
     }

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,15 +54,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String methodName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* methodName;
+    ::StringW methodName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Object[] args
     // Size: 0x8
     // Offset: 0x20
@@ -96,9 +97,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
     public:
     // Get instance field reference: private System.String methodName
-    ::Il2CppString*& dyn_methodName();
+    ::StringW& dyn_methodName();
     // Get instance field reference: private System.String typeName
-    ::Il2CppString*& dyn_typeName();
+    ::StringW& dyn_typeName();
     // Get instance field reference: private System.Object[] args
     ::ArrayW<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.Object callContext

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -81,9 +82,9 @@ namespace GlobalNamespace {
     // private System.Action`2<EnterTextViewController,System.String> didFinishEvent
     // Size: 0x8
     // Offset: 0x88
-    System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent;
+    System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>* didFinishEvent;
     // Field size check
-    static_assert(sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>*) == 0x8);
     public:
     // Get instance field reference: private VRTextEntryController _textEntryController
     GlobalNamespace::VRTextEntryController*& dyn__textEntryController();
@@ -92,16 +93,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private System.Action`2<EnterTextViewController,System.String> didFinishEvent
-    System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*& dyn_didFinishEvent();
+    System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
     // Offset: 0x11DD4F0
-    void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
+    void add_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<EnterTextViewController,System.String> value)
     // Offset: 0x11DD594
-    void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* value);
+    void remove_didFinishEvent(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>* value);
     // public System.Void Init(System.String titleText)
     // Offset: 0x11DD638
-    void Init(::Il2CppString* titleText);
+    void Init(::StringW titleText);
     // public System.Void OkButtonPressed()
     // Offset: 0x11DD730
     void OkButtonPressed();
@@ -126,14 +127,14 @@ namespace GlobalNamespace {
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
   }; // EnterTextViewController
   #pragma pack(pop)
-  static check_size<sizeof(EnterTextViewController), 136 + sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*)> __GlobalNamespace_EnterTextViewControllerSizeCheck;
+  static check_size<sizeof(EnterTextViewController), 136 + sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>*)> __GlobalNamespace_EnterTextViewControllerSizeCheck;
   static_assert(sizeof(EnterTextViewController) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*)>(&GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>*)>(&GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EnterTextViewController"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*)>(&GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(System::Action_2<GlobalNamespace::EnterTextViewController*, ::StringW>*)>(&GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EnterTextViewController"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EnterTextViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(::Il2CppString*)>(&GlobalNamespace::EnterTextViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterTextViewController::*)(::StringW)>(&GlobalNamespace::EnterTextViewController::Init)> {
   static const MethodInfo* get() {
     static auto* titleText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterTextViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{titleText});

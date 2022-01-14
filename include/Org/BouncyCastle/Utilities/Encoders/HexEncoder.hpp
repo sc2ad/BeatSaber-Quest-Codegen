@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -74,10 +75,10 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
     // Offset: 0x2229C0C
-    int DecodeString(::Il2CppString* data, System::IO::Stream* outStream);
+    int DecodeString(::StringW data, System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
     // Offset: 0x2229FAC
-    ::ArrayW<uint8_t> DecodeStrict(::Il2CppString* str, int off, int len);
+    ::ArrayW<uint8_t> DecodeStrict(::StringW str, int off, int len);
     // public System.Void .ctor()
     // Offset: 0x222A240
     // Implemented from: System.Object
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* outStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict
 // Il2CppName: DecodeStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, int, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

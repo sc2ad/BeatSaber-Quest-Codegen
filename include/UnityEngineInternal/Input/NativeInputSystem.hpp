@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngineInternal.Input.NativeInputUpdateType
 #include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngineInternal::Input
@@ -60,9 +61,9 @@ namespace UnityEngineInternal::Input {
     // Set static field: static public System.Func`2<UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean> onShouldRunUpdate
     static void _set_onShouldRunUpdate(System::Func_2<UnityEngineInternal::Input::NativeInputUpdateType, bool>* value);
     // Get static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
-    static System::Action_2<int, ::Il2CppString*>* _get_s_OnDeviceDiscoveredCallback();
+    static System::Action_2<int, ::StringW>* _get_s_OnDeviceDiscoveredCallback();
     // Set static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
-    static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::Il2CppString*>* value);
+    static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::StringW>* value);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)
     // Offset: 0x26D3990
     static void set_hasDeviceDiscoveredCallback(bool value);
@@ -77,7 +78,7 @@ namespace UnityEngineInternal::Input {
     static void NotifyUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, System::IntPtr eventBuffer);
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
     // Offset: 0x26D3D8C
-    static void NotifyDeviceDiscovered(int deviceId, ::Il2CppString* deviceDescriptor);
+    static void NotifyDeviceDiscovered(int deviceId, ::StringW deviceDescriptor);
     // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, out System.Boolean retval)
     // Offset: 0x26D3E2C
     static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, ByRef<bool> retval);
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered
 // Il2CppName: NotifyDeviceDiscovered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::StringW)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
   static const MethodInfo* get() {
     static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* deviceDescriptor = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

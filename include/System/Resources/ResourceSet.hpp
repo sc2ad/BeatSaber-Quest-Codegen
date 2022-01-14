@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -116,22 +117,22 @@ namespace System::Resources {
     System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
     // public System.String GetString(System.String name)
     // Offset: 0x161E4C0
-    ::Il2CppString* GetString(::Il2CppString* name);
+    ::StringW GetString(::StringW name);
     // public System.String GetString(System.String name, System.Boolean ignoreCase)
     // Offset: 0x161E728
-    ::Il2CppString* GetString(::Il2CppString* name, bool ignoreCase);
+    ::StringW GetString(::StringW name, bool ignoreCase);
     // public System.Object GetObject(System.String name)
     // Offset: 0x161EC10
-    ::Il2CppObject* GetObject(::Il2CppString* name);
+    ::Il2CppObject* GetObject(::StringW name);
     // public System.Object GetObject(System.String name, System.Boolean ignoreCase)
     // Offset: 0x161EC14
-    ::Il2CppObject* GetObject(::Il2CppString* name, bool ignoreCase);
+    ::Il2CppObject* GetObject(::StringW name, bool ignoreCase);
     // private System.Object GetObjectInternal(System.String name)
     // Offset: 0x161E630
-    ::Il2CppObject* GetObjectInternal(::Il2CppString* name);
+    ::Il2CppObject* GetObjectInternal(::StringW name);
     // private System.Object GetCaseInsensitiveObjectInternal(System.String name)
     // Offset: 0x161E92C
-    ::Il2CppObject* GetCaseInsensitiveObjectInternal(::Il2CppString* name);
+    ::Il2CppObject* GetCaseInsensitiveObjectInternal(::StringW name);
     // protected System.Void .ctor()
     // Offset: 0x161E2A4
     // Implemented from: System.Object
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceSet::*)(::Il2CppString*)>(&System::Resources::ResourceSet::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::ResourceSet::*)(::StringW)>(&System::Resources::ResourceSet::GetString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::ResourceSet::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Resources::ResourceSet::*)(::StringW, bool)>(&System::Resources::ResourceSet::GetString)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetObject
 // Il2CppName: GetObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::Il2CppString*)>(&System::Resources::ResourceSet::GetObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::StringW)>(&System::Resources::ResourceSet::GetObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetObject
 // Il2CppName: GetObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::ResourceSet::GetObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::StringW, bool)>(&System::Resources::ResourceSet::GetObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -241,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetObjectInternal
 // Il2CppName: GetObjectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::Il2CppString*)>(&System::Resources::ResourceSet::GetObjectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::StringW)>(&System::Resources::ResourceSet::GetObjectInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceSet*), "GetObjectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -250,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Resources::ResourceSet::GetCaseInsensitiveObjectInternal
 // Il2CppName: GetCaseInsensitiveObjectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::Il2CppString*)>(&System::Resources::ResourceSet::GetCaseInsensitiveObjectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceSet::*)(::StringW)>(&System::Resources::ResourceSet::GetCaseInsensitiveObjectInternal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceSet*), "GetCaseInsensitiveObjectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

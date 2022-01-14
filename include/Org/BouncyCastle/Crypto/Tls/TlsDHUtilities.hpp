@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -56,41 +57,41 @@ namespace Org::BouncyCastle::Crypto::Tls {
     // Set static field: static readonly Org.BouncyCastle.Math.BigInteger Two
     static void _set_Two(Org::BouncyCastle::Math::BigInteger* value);
     // Get static field: static private readonly System.String draft_ffdhe2432_p
-    static ::Il2CppString* _get_draft_ffdhe2432_p();
+    static ::StringW _get_draft_ffdhe2432_p();
     // Set static field: static private readonly System.String draft_ffdhe2432_p
-    static void _set_draft_ffdhe2432_p(::Il2CppString* value);
+    static void _set_draft_ffdhe2432_p(::StringW value);
     // Get static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe2432
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_draft_ffdhe2432();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe2432
     static void _set_draft_ffdhe2432(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String draft_ffdhe3072_p
-    static ::Il2CppString* _get_draft_ffdhe3072_p();
+    static ::StringW _get_draft_ffdhe3072_p();
     // Set static field: static private readonly System.String draft_ffdhe3072_p
-    static void _set_draft_ffdhe3072_p(::Il2CppString* value);
+    static void _set_draft_ffdhe3072_p(::StringW value);
     // Get static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe3072
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_draft_ffdhe3072();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe3072
     static void _set_draft_ffdhe3072(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String draft_ffdhe4096_p
-    static ::Il2CppString* _get_draft_ffdhe4096_p();
+    static ::StringW _get_draft_ffdhe4096_p();
     // Set static field: static private readonly System.String draft_ffdhe4096_p
-    static void _set_draft_ffdhe4096_p(::Il2CppString* value);
+    static void _set_draft_ffdhe4096_p(::StringW value);
     // Get static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe4096
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_draft_ffdhe4096();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe4096
     static void _set_draft_ffdhe4096(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String draft_ffdhe6144_p
-    static ::Il2CppString* _get_draft_ffdhe6144_p();
+    static ::StringW _get_draft_ffdhe6144_p();
     // Set static field: static private readonly System.String draft_ffdhe6144_p
-    static void _set_draft_ffdhe6144_p(::Il2CppString* value);
+    static void _set_draft_ffdhe6144_p(::StringW value);
     // Get static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe6144
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_draft_ffdhe6144();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe6144
     static void _set_draft_ffdhe6144(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String draft_ffdhe8192_p
-    static ::Il2CppString* _get_draft_ffdhe8192_p();
+    static ::StringW _get_draft_ffdhe8192_p();
     // Set static field: static private readonly System.String draft_ffdhe8192_p
-    static void _set_draft_ffdhe8192_p(::Il2CppString* value);
+    static void _set_draft_ffdhe8192_p(::StringW value);
     // Get static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe8192
     static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_draft_ffdhe8192();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Parameters.DHParameters draft_ffdhe8192
@@ -100,10 +101,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
     static void _cctor();
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
     // Offset: 0x13C8924
-    static Org::BouncyCastle::Math::BigInteger* FromHex(::Il2CppString* hex);
+    static Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters FromSafeP(System.String hexP)
     // Offset: 0x13C89BC
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::Il2CppString* hexP);
+    static Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::StringW hexP);
     // static public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateDHKeyPair(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams)
     // Offset: 0x13C8A7C
     static Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateDHKeyPair(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams);
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromHex
 // Il2CppName: FromHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromHex)> {
   static const MethodInfo* get() {
     static auto* hex = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsDHUtilities*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hex});
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromSafeP
 // Il2CppName: FromSafeP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromSafeP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Tls::TlsDHUtilities::FromSafeP)> {
   static const MethodInfo* get() {
     static auto* hexP = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::TlsDHUtilities*), "FromSafeP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexP});

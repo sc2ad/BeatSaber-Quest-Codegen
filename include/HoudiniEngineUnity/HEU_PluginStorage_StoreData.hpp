@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginStorage::StoreData);
@@ -45,14 +46,14 @@ namespace HoudiniEngineUnity {
     // public System.String _valueStr
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* valueStr;
+    ::StringW valueStr;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr
-    ::Il2CppString*& dyn__valueStr();
+    ::StringW& dyn__valueStr();
     // public System.Void .ctor()
     // Offset: 0x1844534
     // Implemented from: System.Object
@@ -64,7 +65,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_PluginStorage::StoreData), 24 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_PluginStorage_StoreDataSizeCheck;
+  static check_size<sizeof(HEU_PluginStorage::StoreData), 24 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_PluginStorage_StoreDataSizeCheck;
   static_assert(sizeof(HEU_PluginStorage::StoreData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry);
@@ -35,9 +36,9 @@ namespace System::Collections::Specialized {
     // System.String Key
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Key;
+    ::StringW Key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Object Value
     // Size: 0x8
     // Offset: 0x18
@@ -46,13 +47,13 @@ namespace System::Collections::Specialized {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.String Key
-    ::Il2CppString*& dyn_Key();
+    ::StringW& dyn_Key();
     // Get instance field reference: System.Object Value
     ::Il2CppObject*& dyn_Value();
     // System.Void .ctor(System.String name, System.Object value)
     // Offset: 0x1A23B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NameObjectCollectionBase::NameObjectEntry* New_ctor(::Il2CppString* name, ::Il2CppObject* value) {
+    static NameObjectCollectionBase::NameObjectEntry* New_ctor(::StringW name, ::Il2CppObject* value) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::NameObjectCollectionBase::NameObjectEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameObjectCollectionBase::NameObjectEntry*, creationType>(name, value)));
     }

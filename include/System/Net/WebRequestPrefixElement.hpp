@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -50,9 +51,9 @@ namespace System::Net {
     // public System.String Prefix
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Prefix;
+    ::StringW Prefix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Net.IWebRequestCreate creator
     // Size: 0x8
     // Offset: 0x18
@@ -67,7 +68,7 @@ namespace System::Net {
     static_assert(sizeof(System::Type*) == 0x8);
     public:
     // Get instance field reference: public System.String Prefix
-    ::Il2CppString*& dyn_Prefix();
+    ::StringW& dyn_Prefix();
     // Get instance field reference: System.Net.IWebRequestCreate creator
     System::Net::IWebRequestCreate*& dyn_creator();
     // Get instance field reference: System.Type creatorType
@@ -81,7 +82,7 @@ namespace System::Net {
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
     // Offset: 0x17F7930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebRequestPrefixElement* New_ctor(::Il2CppString* P, System::Net::IWebRequestCreate* C) {
+    static WebRequestPrefixElement* New_ctor(::StringW P, System::Net::IWebRequestCreate* C) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequestPrefixElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestPrefixElement*, creationType>(P, C)));
     }

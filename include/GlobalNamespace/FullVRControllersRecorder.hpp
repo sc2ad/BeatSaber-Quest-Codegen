@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -110,9 +111,9 @@ namespace GlobalNamespace {
     // private System.String _recordingFilePath
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* recordingFilePath;
+    ::StringW recordingFilePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private FullVRControllersRecorder/Mode _mode
     // Size: 0x4
     // Offset: 0x20
@@ -183,7 +184,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _recordingFilePath
-    ::Il2CppString*& dyn__recordingFilePath();
+    ::StringW& dyn__recordingFilePath();
     // Get instance field reference: private FullVRControllersRecorder/Mode _mode
     GlobalNamespace::FullVRControllersRecorder::Mode& dyn__mode();
     // Get instance field reference: private System.Single _timeOffset

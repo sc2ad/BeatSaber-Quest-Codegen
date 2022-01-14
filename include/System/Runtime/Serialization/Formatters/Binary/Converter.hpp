@@ -10,6 +10,7 @@
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Type[] arrayTypeA
     static void _set_arrayTypeA(::ArrayW<System::Type*> value);
     // Get static field: static private System.String[] valueA
-    static ::ArrayW<::Il2CppString*> _get_valueA();
+    static ::ArrayW<::StringW> _get_valueA();
     // Set static field: static private System.String[] valueA
-    static void _set_valueA(::ArrayW<::Il2CppString*> value);
+    static void _set_valueA(::ArrayW<::StringW> value);
     // Get static field: static private System.TypeCode[] typeCodeA
     static ::ArrayW<System::TypeCode> _get_typeCodeA();
     // Set static field: static private System.TypeCode[] typeCodeA
@@ -150,9 +151,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Reflection.Assembly urtAssembly
     static void _set_urtAssembly(System::Reflection::Assembly* value);
     // Get static field: static System.String urtAssemblyString
-    static ::Il2CppString* _get_urtAssemblyString();
+    static ::StringW _get_urtAssemblyString();
     // Set static field: static System.String urtAssemblyString
-    static void _set_urtAssemblyString(::Il2CppString* value);
+    static void _set_urtAssemblyString(::StringW value);
     // Get static field: static System.Type typeofTypeArray
     static System::Type* _get_typeofTypeArray();
     // Set static field: static System.Type typeofTypeArray
@@ -264,7 +265,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static void InitValueA();
     // static System.String ToComType(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
     // Offset: 0x185C530
-    static ::Il2CppString* ToComType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
+    static ::StringW ToComType(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
     // static private System.Void InitTypeCodeA()
     // Offset: 0x185F728
     static void InitTypeCodeA();
@@ -279,7 +280,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(System::TypeCode typeCode);
     // static System.Object FromString(System.String value, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code)
     // Offset: 0x185FB64
-    static ::Il2CppObject* FromString(::Il2CppString* value, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
+    static ::Il2CppObject* FromString(::StringW value, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
   }; // System.Runtime.Serialization.Formatters.Binary.Converter
   #pragma pack(pop)
 }
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::Converter::ToComType
 // Il2CppName: ToComType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&System::Runtime::Serialization::Formatters::Binary::Converter::ToComType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&System::Runtime::Serialization::Formatters::Binary::Converter::ToComType)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::Converter*), "ToComType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});
@@ -427,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::Converter::FromString
 // Il2CppName: FromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&System::Runtime::Serialization::Formatters::Binary::Converter::FromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&System::Runtime::Serialization::Formatters::Binary::Converter::FromString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;

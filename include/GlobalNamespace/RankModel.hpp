@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,7 +32,7 @@ namespace GlobalNamespace {
     struct Rank;
     // static public System.String GetRankName(RankModel/Rank rank)
     // Offset: 0x2625360
-    static ::Il2CppString* GetRankName(GlobalNamespace::RankModel::Rank rank);
+    static ::StringW GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
     // Offset: 0x26253C4
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
@@ -42,7 +43,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RankModel::GetRankName
 // Il2CppName: GetRankName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::RankModel::GetRankName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::RankModel::GetRankName)> {
   static const MethodInfo* get() {
     static auto* rank = &::il2cpp_utils::GetClassFromName("", "RankModel/Rank")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RankModel*), "GetRankName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rank});

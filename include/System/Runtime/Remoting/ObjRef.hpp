@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting
@@ -73,9 +74,9 @@ namespace System::Runtime::Remoting {
     // private System.String uri
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* uri;
+    ::StringW uri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.Remoting.IRemotingTypeInfo typeInfo
     // Size: 0x8
     // Offset: 0x20
@@ -122,7 +123,7 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Runtime.Remoting.IChannelInfo channel_info
     System::Runtime::Remoting::IChannelInfo*& dyn_channel_info();
     // Get instance field reference: private System.String uri
-    ::Il2CppString*& dyn_uri();
+    ::StringW& dyn_uri();
     // Get instance field reference: private System.Runtime.Remoting.IRemotingTypeInfo typeInfo
     System::Runtime::Remoting::IRemotingTypeInfo*& dyn_typeInfo();
     // Get instance field reference: private System.Runtime.Remoting.IEnvoyInfo envoyInfo
@@ -151,24 +152,24 @@ namespace System::Runtime::Remoting {
     void set_TypeInfo(System::Runtime::Remoting::IRemotingTypeInfo* value);
     // public System.String get_URI()
     // Offset: 0x1C5D12C
-    ::Il2CppString* get_URI();
+    ::StringW get_URI();
     // public System.Void set_URI(System.String value)
     // Offset: 0x1C5D134
-    void set_URI(::Il2CppString* value);
+    void set_URI(::StringW value);
     // System.Type get_ServerType()
     // Offset: 0x1C5D368
     System::Type* get_ServerType();
     // System.Void .ctor(System.String uri, System.Runtime.Remoting.IChannelInfo cinfo)
     // Offset: 0x1C5CB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjRef* New_ctor(::Il2CppString* uri, System::Runtime::Remoting::IChannelInfo* cinfo) {
+    static ObjRef* New_ctor(::StringW uri, System::Runtime::Remoting::IChannelInfo* cinfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>(uri, cinfo)));
     }
     // System.Void .ctor(System.Type type, System.String url, System.Object remoteChannelData)
     // Offset: 0x1C5CB8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjRef* New_ctor(System::Type* type, ::Il2CppString* url, ::Il2CppObject* remoteChannelData) {
+    static ObjRef* New_ctor(System::Type* type, ::StringW url, ::Il2CppObject* remoteChannelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjRef*, creationType>(type, url, remoteChannelData)));
     }
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::get_URI
 // Il2CppName: get_URI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ObjRef::*)()>(&System::Runtime::Remoting::ObjRef::get_URI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::ObjRef::*)()>(&System::Runtime::Remoting::ObjRef::get_URI)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "get_URI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -273,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::set_URI
 // Il2CppName: set_URI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(::Il2CppString*)>(&System::Runtime::Remoting::ObjRef::set_URI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(::StringW)>(&System::Runtime::Remoting::ObjRef::set_URI)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_URI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

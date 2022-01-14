@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,9 +49,9 @@ namespace UnityEngine {
     // private System.String m_Text
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Text;
+    ::StringW m_Text;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Texture m_Image
     // Size: 0x8
     // Offset: 0x18
@@ -60,9 +61,9 @@ namespace UnityEngine {
     // private System.String m_Tooltip
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_Tooltip;
+    ::StringW m_Tooltip;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private readonly UnityEngine.GUIContent s_Text
     static UnityEngine::GUIContent* _get_s_Text();
@@ -81,37 +82,37 @@ namespace UnityEngine {
     // Set static field: static public UnityEngine.GUIContent none
     static void _set_none(UnityEngine::GUIContent* value);
     // Get instance field reference: private System.String m_Text
-    ::Il2CppString*& dyn_m_Text();
+    ::StringW& dyn_m_Text();
     // Get instance field reference: private UnityEngine.Texture m_Image
     UnityEngine::Texture*& dyn_m_Image();
     // Get instance field reference: private System.String m_Tooltip
-    ::Il2CppString*& dyn_m_Tooltip();
+    ::StringW& dyn_m_Tooltip();
     // public System.String get_text()
     // Offset: 0x1CE395C
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x1CE3964
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void set_image(UnityEngine.Texture value)
     // Offset: 0x1CE9A1C
     void set_image(UnityEngine::Texture* value);
     // public System.String get_tooltip()
     // Offset: 0x1CE5B68
-    ::Il2CppString* get_tooltip();
+    ::StringW get_tooltip();
     // public System.Void set_tooltip(System.String value)
     // Offset: 0x1CE9A24
-    void set_tooltip(::Il2CppString* value);
+    void set_tooltip(::StringW value);
     // public System.Void .ctor(System.String text)
     // Offset: 0x1CE9A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUIContent* New_ctor(::Il2CppString* text) {
+    static GUIContent* New_ctor(::StringW text) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Texture image, System.String tooltip)
     // Offset: 0x1CE9B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUIContent* New_ctor(::Il2CppString* text, UnityEngine::Texture* image, ::Il2CppString* tooltip) {
+    static GUIContent* New_ctor(::StringW text, UnityEngine::Texture* image, ::StringW tooltip) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text, image, tooltip)));
     }
@@ -127,7 +128,7 @@ namespace UnityEngine {
     static void _cctor();
     // static UnityEngine.GUIContent Temp(System.String t)
     // Offset: 0x1CE9C34
-    static UnityEngine::GUIContent* Temp(::Il2CppString* t);
+    static UnityEngine::GUIContent* Temp(::StringW t);
     // static UnityEngine.GUIContent Temp(UnityEngine.Texture i)
     // Offset: 0x1CE9CD8
     static UnityEngine::GUIContent* Temp(UnityEngine::Texture* i);
@@ -145,14 +146,14 @@ namespace UnityEngine {
     }
   }; // UnityEngine.GUIContent
   #pragma pack(pop)
-  static check_size<sizeof(GUIContent), 32 + sizeof(::Il2CppString*)> __UnityEngine_GUIContentSizeCheck;
+  static check_size<sizeof(GUIContent), 32 + sizeof(::StringW)> __UnityEngine_GUIContentSizeCheck;
   static_assert(sizeof(GUIContent) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIContent::*)()>(&UnityEngine::GUIContent::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIContent::*)()>(&UnityEngine::GUIContent::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUIContent::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(::Il2CppString*)>(&UnityEngine::GUIContent::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(::StringW)>(&UnityEngine::GUIContent::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_tooltip
 // Il2CppName: get_tooltip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::GUIContent::*)()>(&UnityEngine::GUIContent::get_tooltip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::GUIContent::*)()>(&UnityEngine::GUIContent::get_tooltip)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "get_tooltip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::GUIContent::set_tooltip
 // Il2CppName: set_tooltip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(::Il2CppString*)>(&UnityEngine::GUIContent::set_tooltip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(::StringW)>(&UnityEngine::GUIContent::set_tooltip)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "set_tooltip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIContent::Temp
 // Il2CppName: Temp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIContent* (*)(::Il2CppString*)>(&UnityEngine::GUIContent::Temp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIContent* (*)(::StringW)>(&UnityEngine::GUIContent::Temp)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "Temp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

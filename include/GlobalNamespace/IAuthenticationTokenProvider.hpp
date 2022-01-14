@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AuthenticationToken
 #include "GlobalNamespace/AuthenticationToken.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -34,10 +35,10 @@ namespace GlobalNamespace {
     public:
     // public System.String get_hashedUserId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_hashedUserId();
+    ::StringW get_hashedUserId();
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_userName();
+    ::StringW get_userName();
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
@@ -48,7 +49,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId
 // Il2CppName: get_hashedUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -56,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

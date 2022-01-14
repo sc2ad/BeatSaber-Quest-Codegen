@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0);
@@ -36,9 +37,9 @@ namespace GlobalNamespace {
     // public System.String key
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* key;
+    ::StringW key;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UIKeyboard <>4__this
     // Size: 0x8
     // Offset: 0x18
@@ -47,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
     public:
     // Get instance field reference: public System.String key
-    ::Il2CppString*& dyn_key();
+    ::StringW& dyn_key();
     // Get instance field reference: public UIKeyboard <>4__this
     GlobalNamespace::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__4()

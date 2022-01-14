@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Profiling.Memory.Experimental
 namespace UnityEngine::Profiling::Memory::Experimental {
@@ -38,20 +39,20 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // public System.String content
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* content;
+    ::StringW content;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platform
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* platform;
+    ::StringW platform;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String content
-    ::Il2CppString*& dyn_content();
+    ::StringW& dyn_content();
     // Get instance field reference: public System.String platform
-    ::Il2CppString*& dyn_platform();
+    ::StringW& dyn_platform();
     // public System.Void .ctor()
     // Offset: 0x1DEF5D0
     // Implemented from: System.Object
@@ -63,7 +64,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     }
   }; // UnityEngine.Profiling.Memory.Experimental.MetaData
   #pragma pack(pop)
-  static check_size<sizeof(MetaData), 24 + sizeof(::Il2CppString*)> __UnityEngine_Profiling_Memory_Experimental_MetaDataSizeCheck;
+  static check_size<sizeof(MetaData), 24 + sizeof(::StringW)> __UnityEngine_Profiling_Memory_Experimental_MetaDataSizeCheck;
   static_assert(sizeof(MetaData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

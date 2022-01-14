@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -212,28 +213,28 @@ namespace System {
     // private System.Collections.Generic.List`1<System.String> compatibility_switch
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::List_1<::Il2CppString*>* compatibility_switch;
+    System::Collections::Generic::List_1<::StringW>* compatibility_switch;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private System.String _process_guid
-    static ::Il2CppString* _get__process_guid();
+    static ::StringW _get__process_guid();
     // Set static field: static private System.String _process_guid
-    static void _set__process_guid(::Il2CppString* value);
+    static void _set__process_guid(::StringW value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_type_resolve_in_progress();
+    static System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* _get_type_resolve_in_progress();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> type_resolve_in_progress
-    static void _set_type_resolve_in_progress(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    static void _set_type_resolve_in_progress(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_assembly_resolve_in_progress();
+    static System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* _get_assembly_resolve_in_progress();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress
-    static void _set_assembly_resolve_in_progress(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    static void _set_assembly_resolve_in_progress(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* _get_assembly_resolve_in_progress_refonly();
+    static System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* _get_assembly_resolve_in_progress_refonly();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Object> assembly_resolve_in_progress_refonly
-    static void _set_assembly_resolve_in_progress_refonly(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* value);
+    static void _set_assembly_resolve_in_progress_refonly(System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* value);
     // Get static field: static private System.Object _principal
     static ::Il2CppObject* _get__principal();
     // Set static field: static private System.Object _principal
@@ -275,10 +276,10 @@ namespace System {
     // Get instance field reference: private System.Object _applicationIdentity
     ::Il2CppObject*& dyn__applicationIdentity();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> compatibility_switch
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn_compatibility_switch();
+    System::Collections::Generic::List_1<::StringW>*& dyn_compatibility_switch();
     // public System.String get_FriendlyName()
     // Offset: 0x19894D4
-    ::Il2CppString* get_FriendlyName();
+    ::StringW get_FriendlyName();
     // System.Security.Principal.IPrincipal get_DefaultPrincipal()
     // Offset: 0x19894D8
     System::Security::Principal::IPrincipal* get_DefaultPrincipal();
@@ -299,7 +300,7 @@ namespace System {
     void remove_UnhandledException(System::UnhandledExceptionEventHandler* value);
     // private System.String getFriendlyName()
     // Offset: 0x19894D0
-    ::Il2CppString* getFriendlyName();
+    ::StringW getFriendlyName();
     // static private System.AppDomain getCurDomain()
     // Offset: 0x1989650
     static System::AppDomain* getCurDomain();
@@ -311,16 +312,16 @@ namespace System {
     ::ArrayW<System::Reflection::Assembly*> GetAssemblies();
     // public System.Object GetData(System.String name)
     // Offset: 0x1989668
-    ::Il2CppObject* GetData(::Il2CppString* name);
+    ::Il2CppObject* GetData(::StringW name);
     // System.Reflection.Assembly LoadAssembly(System.String assemblyRef, System.Security.Policy.Evidence securityEvidence, System.Boolean refOnly)
     // Offset: 0x1989674
-    System::Reflection::Assembly* LoadAssembly(::Il2CppString* assemblyRef, System::Security::Policy::Evidence* securityEvidence, bool refOnly);
+    System::Reflection::Assembly* LoadAssembly(::StringW assemblyRef, System::Security::Policy::Evidence* securityEvidence, bool refOnly);
     // public System.Reflection.Assembly Load(System.String assemblyString)
     // Offset: 0x198967C
-    System::Reflection::Assembly* Load(::Il2CppString* assemblyString);
+    System::Reflection::Assembly* Load(::StringW assemblyString);
     // System.Reflection.Assembly Load(System.String assemblyString, System.Security.Policy.Evidence assemblySecurity, System.Boolean refonly)
     // Offset: 0x1989688
-    System::Reflection::Assembly* Load(::Il2CppString* assemblyString, System::Security::Policy::Evidence* assemblySecurity, bool refonly);
+    System::Reflection::Assembly* Load(::StringW assemblyString, System::Security::Policy::Evidence* assemblySecurity, bool refonly);
     // static private System.AppDomain InternalSetDomainByID(System.Int32 domain_id)
     // Offset: 0x19897B4
     static System::AppDomain* InternalSetDomainByID(int domain_id);
@@ -344,13 +345,13 @@ namespace System {
     static System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext();
     // static System.String InternalGetProcessGuid(System.String newguid)
     // Offset: 0x19897D0
-    static ::Il2CppString* InternalGetProcessGuid(::Il2CppString* newguid);
+    static ::StringW InternalGetProcessGuid(::StringW newguid);
     // static System.Object InvokeInDomainByID(System.Int32 domain_id, System.Reflection.MethodInfo method, System.Object obj, System.Object[] args)
     // Offset: 0x19897D4
     static ::Il2CppObject* InvokeInDomainByID(int domain_id, System::Reflection::MethodInfo* method, ::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // static System.String GetProcessGuid()
     // Offset: 0x1989930
-    static ::Il2CppString* GetProcessGuid();
+    static ::StringW GetProcessGuid();
     // static private System.Boolean InternalIsFinalizingForUnload(System.Int32 domain_id)
     // Offset: 0x19899E4
     static bool InternalIsFinalizingForUnload(int domain_id);
@@ -365,7 +366,7 @@ namespace System {
     void DoAssemblyLoad(System::Reflection::Assembly* assembly);
     // private System.Reflection.Assembly DoAssemblyResolve(System.String name, System.Reflection.Assembly requestingAssembly, System.Boolean refonly)
     // Offset: 0x1989EFC
-    System::Reflection::Assembly* DoAssemblyResolve(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly, bool refonly);
+    System::Reflection::Assembly* DoAssemblyResolve(::StringW name, System::Reflection::Assembly* requestingAssembly, bool refonly);
     // System.Reflection.Assembly DoTypeResolve(System.Object name_or_tb)
     // Offset: 0x198A190
     System::Reflection::Assembly* DoTypeResolve(::Il2CppObject* name_or_tb);
@@ -397,17 +398,17 @@ namespace System {
     // Offset: 0x1989A08
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.AppDomain
   #pragma pack(pop)
-  static check_size<sizeof(AppDomain), 152 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __System_AppDomainSizeCheck;
+  static check_size<sizeof(AppDomain), 152 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __System_AppDomainSizeCheck;
   static_assert(sizeof(AppDomain) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::AppDomain::get_FriendlyName
 // Il2CppName: get_FriendlyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::get_FriendlyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::AppDomain::*)()>(&System::AppDomain::get_FriendlyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_FriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -467,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::AppDomain::getFriendlyName
 // Il2CppName: getFriendlyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::getFriendlyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::AppDomain::*)()>(&System::AppDomain::getFriendlyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getFriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -500,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::AppDomain::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)(::StringW)>(&System::AppDomain::GetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -509,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::AppDomain::LoadAssembly
 // Il2CppName: LoadAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::LoadAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::StringW, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::LoadAssembly)> {
   static const MethodInfo* get() {
     static auto* assemblyRef = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
@@ -520,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::AppDomain::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::StringW)>(&System::AppDomain::Load)> {
   static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});
@@ -529,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::AppDomain::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::StringW, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::Load)> {
   static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assemblySecurity = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
@@ -600,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::AppDomain::InternalGetProcessGuid
 // Il2CppName: InternalGetProcessGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::AppDomain::InternalGetProcessGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::AppDomain::InternalGetProcessGuid)> {
   static const MethodInfo* get() {
     static auto* newguid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newguid});
@@ -621,7 +622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::AppDomain::GetProcessGuid
 // Il2CppName: GetProcessGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::AppDomain::GetProcessGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::AppDomain::GetProcessGuid)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -663,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::AppDomain::DoAssemblyResolve
 // Il2CppName: DoAssemblyResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Reflection::Assembly*, bool)>(&System::AppDomain::DoAssemblyResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::StringW, System::Reflection::Assembly*, bool)>(&System::AppDomain::DoAssemblyResolve)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requestingAssembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
@@ -723,7 +724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::AppDomain::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::AppDomain::*)()>(&System::AppDomain::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

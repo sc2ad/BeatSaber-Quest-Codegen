@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -192,9 +193,9 @@ namespace System::Net {
     // private System.String file_name
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* file_name;
+    ::StringW file_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Net.ServicePoint servicePoint
     // Size: 0x8
     // Offset: 0x30
@@ -302,15 +303,15 @@ namespace System::Net {
     // private System.String method
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* method;
+    ::StringW method;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String renameTo
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* renameTo;
+    ::StringW renameTo;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Object locker
     // Size: 0x8
     // Offset: 0xA8
@@ -346,9 +347,9 @@ namespace System::Net {
     // private System.String initial_path
     // Size: 0x8
     // Offset: 0xD0
-    ::Il2CppString* initial_path;
+    ::StringW initial_path;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Text.Encoding dataEncoding
     // Size: 0x8
     // Offset: 0xD8
@@ -357,13 +358,13 @@ namespace System::Net {
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
     public:
     // Get static field: static private readonly System.String[] supportedCommands
-    static ::ArrayW<::Il2CppString*> _get_supportedCommands();
+    static ::ArrayW<::StringW> _get_supportedCommands();
     // Set static field: static private readonly System.String[] supportedCommands
-    static void _set_supportedCommands(::ArrayW<::Il2CppString*> value);
+    static void _set_supportedCommands(::ArrayW<::StringW> value);
     // Get instance field reference: private System.Uri requestUri
     System::Uri*& dyn_requestUri();
     // Get instance field reference: private System.String file_name
-    ::Il2CppString*& dyn_file_name();
+    ::StringW& dyn_file_name();
     // Get instance field reference: private System.Net.ServicePoint servicePoint
     System::Net::ServicePoint*& dyn_servicePoint();
     // Get instance field reference: private System.IO.Stream origDataStream
@@ -399,9 +400,9 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean keepAlive
     bool& dyn_keepAlive();
     // Get instance field reference: private System.String method
-    ::Il2CppString*& dyn_method();
+    ::StringW& dyn_method();
     // Get instance field reference: private System.String renameTo
-    ::Il2CppString*& dyn_renameTo();
+    ::StringW& dyn_renameTo();
     // Get instance field reference: private System.Object locker
     ::Il2CppObject*& dyn_locker();
     // Get instance field reference: private System.Net.FtpWebRequest/System.Net.RequestState requestState
@@ -413,7 +414,7 @@ namespace System::Net {
     // Get instance field reference: private System.IO.Stream requestStream
     System::IO::Stream*& dyn_requestStream();
     // Get instance field reference: private System.String initial_path
-    ::Il2CppString*& dyn_initial_path();
+    ::StringW& dyn_initial_path();
     // Get instance field reference: private System.Text.Encoding dataEncoding
     System::Text::Encoding*& dyn_dataEncoding();
     // public System.Boolean get_EnableSsl()
@@ -427,7 +428,7 @@ namespace System::Net {
     System::Net::ServicePoint* get_ServicePoint();
     // private System.String get_DataType()
     // Offset: 0x15F7580
-    ::Il2CppString* get_DataType();
+    ::StringW get_DataType();
     // private System.Net.FtpWebRequest/System.Net.RequestState get_State()
     // Offset: 0x15F75E0
     System::Net::FtpWebRequest::RequestState get_State();
@@ -458,7 +459,7 @@ namespace System::Net {
     void SetType();
     // private System.String GetRemoteFolderPath(System.Uri uri)
     // Offset: 0x15F901C
-    ::Il2CppString* GetRemoteFolderPath(System::Uri* uri);
+    ::StringW GetRemoteFolderPath(System::Uri* uri);
     // private System.Void CWDAndSetFileName(System.Uri uri)
     // Offset: 0x15F91F0
     void CWDAndSetFileName(System::Uri* uri);
@@ -491,22 +492,22 @@ namespace System::Net {
     void OpenControlConnection();
     // static private System.String GetInitialPath(System.Net.FtpStatus status)
     // Offset: 0x15FA808
-    static ::Il2CppString* GetInitialPath(System::Net::FtpStatus* status);
+    static ::StringW GetInitialPath(System::Net::FtpStatus* status);
     // private System.Net.Sockets.Socket SetupPassiveConnection(System.String statusDescription, System.Boolean ipv6)
     // Offset: 0x15FA990
-    System::Net::Sockets::Socket* SetupPassiveConnection(::Il2CppString* statusDescription, bool ipv6);
+    System::Net::Sockets::Socket* SetupPassiveConnection(::StringW statusDescription, bool ipv6);
     // private System.Int32 GetPortV4(System.String responseString)
     // Offset: 0x15FAB60
-    int GetPortV4(::Il2CppString* responseString);
+    int GetPortV4(::StringW responseString);
     // private System.Int32 GetPortV6(System.String responseString)
     // Offset: 0x15FAD9C
-    int GetPortV6(::Il2CppString* responseString);
+    int GetPortV6(::StringW responseString);
     // private System.String FormatAddress(System.Net.IPAddress address, System.Int32 Port)
     // Offset: 0x15FAF6C
-    ::Il2CppString* FormatAddress(System::Net::IPAddress* address, int Port);
+    ::StringW FormatAddress(System::Net::IPAddress* address, int Port);
     // private System.String FormatAddressV6(System.Net.IPAddress address, System.Int32 port)
     // Offset: 0x15FB0B0
-    ::Il2CppString* FormatAddressV6(System::Net::IPAddress* address, int port);
+    ::StringW FormatAddressV6(System::Net::IPAddress* address, int port);
     // private System.Exception CreateExceptionFromResponse(System.Net.FtpStatus status)
     // Offset: 0x15F8F3C
     System::Exception* CreateExceptionFromResponse(System::Net::FtpStatus* status);
@@ -530,10 +531,10 @@ namespace System::Net {
     void Authenticate();
     // private System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
     // Offset: 0x15F8F2C
-    System::Net::FtpStatus* SendCommand(::Il2CppString* command, ::ArrayW<::Il2CppString*> parameters);
+    System::Net::FtpStatus* SendCommand(::StringW command, ::ArrayW<::StringW> parameters);
     // private System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
     // Offset: 0x15F796C
-    System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, ::ArrayW<::Il2CppString*> parameters);
+    System::Net::FtpStatus* SendCommand(bool waitResponse, ::StringW command, ::ArrayW<::StringW> parameters);
     // static System.Net.FtpStatus ServiceNotAvailable()
     // Offset: 0x15FB8C0
     static System::Net::FtpStatus* ServiceNotAvailable();
@@ -562,7 +563,7 @@ namespace System::Net {
     // Offset: 0x15F7010
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_ConnectionGroupName(System.String value)
-    void set_ConnectionGroupName(::Il2CppString* value);
+    void set_ConnectionGroupName(::StringW value);
     // public override System.Int64 get_ContentLength()
     // Offset: 0x15F7074
     // Implemented from: System.Net.WebRequest
@@ -592,12 +593,12 @@ namespace System::Net {
     // Offset: 0x15F725C
     // Implemented from: System.Net.WebRequest
     // Base method: System.String WebRequest::get_Method()
-    ::Il2CppString* get_Method();
+    ::StringW get_Method();
     // public override System.Void set_Method(System.String value)
     // Offset: 0x15F7264
     // Implemented from: System.Net.WebRequest
     // Base method: System.Void WebRequest::set_Method(System.String value)
-    void set_Method(::Il2CppString* value);
+    void set_Method(::StringW value);
     // public override System.Void set_PreAuthenticate(System.Boolean value)
     // Offset: 0x15F7380
     // Implemented from: System.Net.WebRequest
@@ -703,7 +704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::get_DataType
 // Il2CppName: get_DataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpWebRequest::*)()>(&System::Net::FtpWebRequest::get_DataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpWebRequest::*)()>(&System::Net::FtpWebRequest::get_DataType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "get_DataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -772,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::GetRemoteFolderPath
 // Il2CppName: GetRemoteFolderPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpWebRequest::*)(System::Uri*)>(&System::Net::FtpWebRequest::GetRemoteFolderPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpWebRequest::*)(System::Uri*)>(&System::Net::FtpWebRequest::GetRemoteFolderPath)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "GetRemoteFolderPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
@@ -862,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::GetInitialPath
 // Il2CppName: GetInitialPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::FtpStatus*)>(&System::Net::FtpWebRequest::GetInitialPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::FtpStatus*)>(&System::Net::FtpWebRequest::GetInitialPath)> {
   static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "FtpStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "GetInitialPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status});
@@ -871,7 +872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::SetupPassiveConnection
 // Il2CppName: SetupPassiveConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::FtpWebRequest::*)(::Il2CppString*, bool)>(&System::Net::FtpWebRequest::SetupPassiveConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::FtpWebRequest::*)(::StringW, bool)>(&System::Net::FtpWebRequest::SetupPassiveConnection)> {
   static const MethodInfo* get() {
     static auto* statusDescription = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ipv6 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -881,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::GetPortV4
 // Il2CppName: GetPortV4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpWebRequest::*)(::Il2CppString*)>(&System::Net::FtpWebRequest::GetPortV4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpWebRequest::*)(::StringW)>(&System::Net::FtpWebRequest::GetPortV4)> {
   static const MethodInfo* get() {
     static auto* responseString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "GetPortV4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseString});
@@ -890,7 +891,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::GetPortV6
 // Il2CppName: GetPortV6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpWebRequest::*)(::Il2CppString*)>(&System::Net::FtpWebRequest::GetPortV6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpWebRequest::*)(::StringW)>(&System::Net::FtpWebRequest::GetPortV6)> {
   static const MethodInfo* get() {
     static auto* responseString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "GetPortV6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseString});
@@ -899,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::FormatAddress
 // Il2CppName: FormatAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpWebRequest::*)(System::Net::IPAddress*, int)>(&System::Net::FtpWebRequest::FormatAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpWebRequest::*)(System::Net::IPAddress*, int)>(&System::Net::FtpWebRequest::FormatAddress)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* Port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -909,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::FormatAddressV6
 // Il2CppName: FormatAddressV6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpWebRequest::*)(System::Net::IPAddress*, int)>(&System::Net::FtpWebRequest::FormatAddressV6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpWebRequest::*)(System::Net::IPAddress*, int)>(&System::Net::FtpWebRequest::FormatAddressV6)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -977,7 +978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::SendCommand
 // Il2CppName: SendCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(::StringW, ::ArrayW<::StringW>)>(&System::Net::FtpWebRequest::SendCommand)> {
   static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -987,7 +988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::SendCommand
 // Il2CppName: SendCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(bool, ::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(bool, ::StringW, ::ArrayW<::StringW>)>(&System::Net::FtpWebRequest::SendCommand)> {
   static const MethodInfo* get() {
     static auto* waitResponse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1064,7 +1065,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::set_ConnectionGroupName
 // Il2CppName: set_ConnectionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebRequest::*)(::Il2CppString*)>(&System::Net::FtpWebRequest::set_ConnectionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebRequest::*)(::StringW)>(&System::Net::FtpWebRequest::set_ConnectionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1115,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::get_Method
 // Il2CppName: get_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpWebRequest::*)()>(&System::Net::FtpWebRequest::get_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::FtpWebRequest::*)()>(&System::Net::FtpWebRequest::get_Method)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1123,7 +1124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::set_Method
 // Il2CppName: set_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebRequest::*)(::Il2CppString*)>(&System::Net::FtpWebRequest::set_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpWebRequest::*)(::StringW)>(&System::Net::FtpWebRequest::set_Method)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

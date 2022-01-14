@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -52,16 +53,16 @@ namespace Oculus::Platform {
     System::IntPtr& dyn_Handle();
     // public System.Void SetDestinationApiName(System.String value)
     // Offset: 0x174E7E8
-    void SetDestinationApiName(::Il2CppString* value);
+    void SetDestinationApiName(::StringW value);
     // public System.Void SetIsJoinable(System.Boolean value)
     // Offset: 0x174E864
     void SetIsJoinable(bool value);
     // public System.Void SetLobbySessionId(System.String value)
     // Offset: 0x174E8E0
-    void SetLobbySessionId(::Il2CppString* value);
+    void SetLobbySessionId(::StringW value);
     // public System.Void SetMatchSessionId(System.String value)
     // Offset: 0x174E95C
-    void SetMatchSessionId(::Il2CppString* value);
+    void SetMatchSessionId(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
     // Offset: 0x174E168
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
@@ -88,7 +89,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetDestinationApiName
 // Il2CppName: SetDestinationApiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::Il2CppString*)>(&Oculus::Platform::GroupPresenceOptions::SetDestinationApiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&Oculus::Platform::GroupPresenceOptions::SetDestinationApiName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresenceOptions*), "SetDestinationApiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetLobbySessionId
 // Il2CppName: SetLobbySessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::Il2CppString*)>(&Oculus::Platform::GroupPresenceOptions::SetLobbySessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&Oculus::Platform::GroupPresenceOptions::SetLobbySessionId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresenceOptions*), "SetLobbySessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::SetMatchSessionId
 // Il2CppName: SetMatchSessionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::Il2CppString*)>(&Oculus::Platform::GroupPresenceOptions::SetMatchSessionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&Oculus::Platform::GroupPresenceOptions::SetMatchSessionId)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresenceOptions*), "SetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

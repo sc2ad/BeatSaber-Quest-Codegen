@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -42,9 +43,9 @@ namespace GlobalNamespace {
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* keyword;
+    ::StringW keyword;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private BaseResultsEnvironmentController _resultsEnvironmentController
     // Size: 0x8
     // Offset: 0x18
@@ -53,12 +54,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::BaseResultsEnvironmentController*) == 0x8);
     public:
     // Get instance field reference: private System.String _keyword
-    ::Il2CppString*& dyn__keyword();
+    ::StringW& dyn__keyword();
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController
     GlobalNamespace::BaseResultsEnvironmentController*& dyn__resultsEnvironmentController();
     // public System.String get_keyword()
     // Offset: 0x11B5268
-    ::Il2CppString* get_keyword();
+    ::StringW get_keyword();
     // public BaseResultsEnvironmentController get_resultsEnvironmentController()
     // Offset: 0x11B5270
     GlobalNamespace::BaseResultsEnvironmentController* get_resultsEnvironmentController();
@@ -80,7 +81,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword
 // Il2CppName: get_keyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*), "get_keyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

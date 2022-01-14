@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -83,15 +84,15 @@ namespace System::Security::Cryptography::X509Certificates {
     // static field const value: static System.String oid
     static constexpr const char* oid = "2.5.29.19";
     // Get static field: static System.String oid
-    static ::Il2CppString* _get_oid();
+    static ::StringW _get_oid();
     // Set static field: static System.String oid
-    static void _set_oid(::Il2CppString* value);
+    static void _set_oid(::StringW value);
     // static field const value: static System.String friendlyName
     static constexpr const char* friendlyName = "Basic Constraints";
     // Get static field: static System.String friendlyName
-    static ::Il2CppString* _get_friendlyName();
+    static ::StringW _get_friendlyName();
     // Set static field: static System.String friendlyName
-    static void _set_friendlyName(::Il2CppString* value);
+    static void _set_friendlyName(::StringW value);
     // Get instance field reference: private System.Boolean _certificateAuthority
     bool& dyn__certificateAuthority();
     // Get instance field reference: private System.Boolean _hasPathLengthConstraint
@@ -149,7 +150,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x19D6170
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.String AsnEncodedData::ToString(System.Boolean multiLine)
-    ::Il2CppString* ToString(bool multiLine);
+    ::StringW ToString(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension
   #pragma pack(pop)
   static check_size<sizeof(X509BasicConstraintsExtension), 40 + sizeof(System::Security::Cryptography::AsnDecodeStatus)> __System_Security_Cryptography_X509Certificates_X509BasicConstraintsExtensionSizeCheck;
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::ToString)> {
   static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -49,15 +50,15 @@ namespace System {
     // protected System.String ClassName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* ClassName;
+    ::StringW ClassName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.String MemberName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* MemberName;
+    ::StringW MemberName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // protected System.Byte[] Signature
     // Size: 0x8
     // Offset: 0x98
@@ -66,19 +67,19 @@ namespace System {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: protected System.String ClassName
-    ::Il2CppString*& dyn_ClassName();
+    ::StringW& dyn_ClassName();
     // Get instance field reference: protected System.String MemberName
-    ::Il2CppString*& dyn_MemberName();
+    ::StringW& dyn_MemberName();
     // Get instance field reference: protected System.Byte[] Signature
     ::ArrayW<uint8_t>& dyn_Signature();
     // static System.String FormatSignature(System.Byte[] signature)
     // Offset: 0x1A13E48
-    static ::Il2CppString* FormatSignature(::ArrayW<uint8_t> signature);
+    static ::StringW FormatSignature(::ArrayW<uint8_t> signature);
     // public override System.String get_Message()
     // Offset: 0x1A13CF8
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x1A13E80
     // Implemented from: System.MemberAccessException
@@ -98,7 +99,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissingMemberException* New_ctor(::Il2CppString* message) {
+    static MissingMemberException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MissingMemberException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissingMemberException*, creationType>(message)));
     }
@@ -127,7 +128,7 @@ namespace System {
 // Writing MetadataGetter for method: System::MissingMemberException::FormatSignature
 // Il2CppName: FormatSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&System::MissingMemberException::FormatSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&System::MissingMemberException::FormatSignature)> {
   static const MethodInfo* get() {
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "FormatSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{signature});
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::MissingMemberException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::MissingMemberException::*)()>(&System::MissingMemberException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::MissingMemberException::*)()>(&System::MissingMemberException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

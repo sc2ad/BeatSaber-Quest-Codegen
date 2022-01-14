@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
@@ -24,10 +25,10 @@ namespace NUnit::Framework::Internal {
     public:
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase)
     // Offset: 0x2553AC0
-    static int Compare(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
+    static int Compare(::StringW strA, ::StringW strB, bool ignoreCase);
     // static public System.Boolean StringsEqual(System.String strA, System.String strB, System.Boolean ignoreCase)
     // Offset: 0x2553ACC
-    static bool StringsEqual(::Il2CppString* strA, ::Il2CppString* strB, bool ignoreCase);
+    static bool StringsEqual(::StringW strA, ::StringW strB, bool ignoreCase);
   }; // NUnit.Framework.Internal.StringUtil
   #pragma pack(pop)
 }
@@ -35,7 +36,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, bool)>(&NUnit::Framework::Internal::StringUtil::Compare)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -46,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::StringsEqual
 // Il2CppName: StringsEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::StringsEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, bool)>(&NUnit::Framework::Internal::StringUtil::StringsEqual)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

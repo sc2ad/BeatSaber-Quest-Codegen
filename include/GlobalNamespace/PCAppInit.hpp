@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -85,9 +86,9 @@ namespace GlobalNamespace {
     // private System.String _goStraightToMenuCommandArgument
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* goStraightToMenuCommandArgument;
+    ::StringW goStraightToMenuCommandArgument;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
@@ -100,7 +101,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private System.String _goStraightToMenuCommandArgument
-    ::Il2CppString*& dyn__goStraightToMenuCommandArgument();
+    ::StringW& dyn__goStraightToMenuCommandArgument();
     // public System.Void .ctor()
     // Offset: 0x11464EC
     // Implemented from: AppInit
@@ -139,7 +140,7 @@ namespace GlobalNamespace {
     void InstallBindings();
   }; // PCAppInit
   #pragma pack(pop)
-  static check_size<sizeof(PCAppInit), 104 + sizeof(::Il2CppString*)> __GlobalNamespace_PCAppInitSizeCheck;
+  static check_size<sizeof(PCAppInit), 104 + sizeof(::StringW)> __GlobalNamespace_PCAppInitSizeCheck;
   static_assert(sizeof(PCAppInit) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -106,16 +107,16 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
-    static ::Il2CppString* _get_kPlayNow();
+    static ::StringW _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
-    static void _set_kPlayNow(::Il2CppString* value);
+    static void _set_kPlayNow(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF4896C
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
-    static ::Il2CppString* _get_kGetNow();
+    static ::StringW _get_kGetNow();
     // Set static field: static private System.String kGetNow
-    static void _set_kGetNow(::Il2CppString* value);
+    static void _set_kGetNow(::StringW value);
     // Get instance field reference: private TMPro.TextMeshProUGUI _promoText
     TMPro::TextMeshProUGUI*& dyn__promoText();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
@@ -136,7 +137,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
     // Offset: 0x117CE18
-    ::Il2CppString* get_promoButtonText();
+    ::StringW get_promoButtonText();
     // public System.Void Setup(DlcPromoPanelDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
     // Offset: 0x117CE34
     void Setup(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
@@ -178,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::get_promoButtonText
 // Il2CppName: get_promoButtonText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "get_promoButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

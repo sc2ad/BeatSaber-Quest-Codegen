@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: IRichPresenceData
 #include "GlobalNamespace/IRichPresenceData.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IMultiplayerRichPresenceData
@@ -32,10 +30,10 @@ namespace GlobalNamespace {
     }
     // public System.String get_multiplayerSecret()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_multiplayerSecret();
+    ::StringW get_multiplayerSecret();
     // public System.Void set_multiplayerSecret(System.String value)
     // Offset: 0xFFFFFFFF
-    void set_multiplayerSecret(::Il2CppString* value);
+    void set_multiplayerSecret(::StringW value);
     // public System.Boolean get_atMaxPartySize()
     // Offset: 0xFFFFFFFF
     bool get_atMaxPartySize();
@@ -58,7 +56,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerSecret
 // Il2CppName: get_multiplayerSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IMultiplayerRichPresenceData::*)()>(&GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IMultiplayerRichPresenceData::*)()>(&GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerSecret)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "get_multiplayerSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -66,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerSecret
 // Il2CppName: set_multiplayerSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerRichPresenceData::*)(::StringW)>(&GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerSecret)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "set_multiplayerSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

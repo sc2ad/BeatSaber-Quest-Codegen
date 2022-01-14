@@ -22,6 +22,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -342,11 +343,11 @@ namespace UnityEngine::Timeline {
     static void AddSubTracksRecursive(UnityEngine::Timeline::TrackAsset* track, ByRef<System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*> allTracks);
     // public UnityEngine.Timeline.TrackAsset CreateTrack(System.Type type, UnityEngine.Timeline.TrackAsset parent, System.String name)
     // Offset: 0x1A06B98
-    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* name);
+    UnityEngine::Timeline::TrackAsset* CreateTrack(System::Type* type, UnityEngine::Timeline::TrackAsset* parent, ::StringW name);
     // public T CreateTrack(UnityEngine.Timeline.TrackAsset parent, System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::Il2CppString* trackName) {
+    T CreateTrack(UnityEngine::Timeline::TrackAsset* parent, ::StringW trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(parent), ::il2cpp_utils::ExtractType(trackName)})));
@@ -356,7 +357,7 @@ namespace UnityEngine::Timeline {
     // public T CreateTrack(System.String trackName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T CreateTrack(::Il2CppString* trackName) {
+    T CreateTrack(::StringW trackName) {
       static_assert(std::is_convertible_v<T, UnityEngine::Timeline::TrackAsset*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineAsset::CreateTrack");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateTrack", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(trackName)})));
@@ -384,7 +385,7 @@ namespace UnityEngine::Timeline {
     void MoveLastTrackBefore(UnityEngine::Timeline::TrackAsset* asset);
     // UnityEngine.Timeline.TrackAsset AllocateTrack(UnityEngine.Timeline.TrackAsset trackAssetParent, System.String trackName, System.Type trackType)
     // Offset: 0x1A06F24
-    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::Il2CppString* trackName, System::Type* trackType);
+    UnityEngine::Timeline::TrackAsset* AllocateTrack(UnityEngine::Timeline::TrackAsset* trackAssetParent, ::StringW trackName, System::Type* trackType);
     // private System.Void DeleteRecordedAnimation(UnityEngine.Timeline.TrackAsset track)
     // Offset: 0x1A07944
     void DeleteRecordedAnimation(UnityEngine::Timeline::TrackAsset* track);
@@ -688,7 +689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::CreateTrack
 // Il2CppName: CreateTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(System::Type*, UnityEngine::Timeline::TrackAsset*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineAsset::CreateTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(System::Type*, UnityEngine::Timeline::TrackAsset*, ::StringW)>(&UnityEngine::Timeline::TimelineAsset::CreateTrack)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
@@ -735,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::AllocateTrack
 // Il2CppName: AllocateTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*, ::Il2CppString*, System::Type*)>(&UnityEngine::Timeline::TimelineAsset::AllocateTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineAsset::*)(UnityEngine::Timeline::TrackAsset*, ::StringW, System::Type*)>(&UnityEngine::Timeline::TimelineAsset::AllocateTrack)> {
   static const MethodInfo* get() {
     static auto* trackAssetParent = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     static auto* trackName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

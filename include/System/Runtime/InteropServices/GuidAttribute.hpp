@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
@@ -42,36 +43,36 @@ namespace System::Runtime::InteropServices {
     // System.String _val
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* val;
+    ::StringW val;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return val;
     }
     // Get instance field reference: System.String _val
-    ::Il2CppString*& dyn__val();
+    ::StringW& dyn__val();
     // public System.String get_Value()
     // Offset: 0x162328C
-    ::Il2CppString* get_Value();
+    ::StringW get_Value();
     // public System.Void .ctor(System.String guid)
     // Offset: 0x1623260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GuidAttribute* New_ctor(::Il2CppString* guid) {
+    static GuidAttribute* New_ctor(::StringW guid) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GuidAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuidAttribute*, creationType>(guid)));
     }
   }; // System.Runtime.InteropServices.GuidAttribute
   #pragma pack(pop)
-  static check_size<sizeof(GuidAttribute), 16 + sizeof(::Il2CppString*)> __System_Runtime_InteropServices_GuidAttributeSizeCheck;
+  static check_size<sizeof(GuidAttribute), 16 + sizeof(::StringW)> __System_Runtime_InteropServices_GuidAttributeSizeCheck;
   static_assert(sizeof(GuidAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GuidAttribute::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::InteropServices::GuidAttribute::*)()>(&System::Runtime::InteropServices::GuidAttribute::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::InteropServices::GuidAttribute::*)()>(&System::Runtime::InteropServices::GuidAttribute::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GuidAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

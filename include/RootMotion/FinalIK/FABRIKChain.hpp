@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -85,7 +86,7 @@ namespace RootMotion::FinalIK {
     ::ArrayW<int>& dyn_children();
     // public System.Boolean IsValid(ref System.String message)
     // Offset: 0x1EAE278
-    bool IsValid(ByRef<::Il2CppString*> message);
+    bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate()
     // Offset: 0x1EAE340
     void Initiate();
@@ -116,7 +117,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FABRIKChain::*)(ByRef<::Il2CppString*>)>(&RootMotion::FinalIK::FABRIKChain::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FABRIKChain::*)(ByRef<::StringW>)>(&RootMotion::FinalIK::FABRIKChain::IsValid)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

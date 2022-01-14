@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -78,27 +79,27 @@ namespace System::Diagnostics {
     // private System.String fileName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String arguments
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* arguments;
+    ::StringW arguments;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String directory
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* directory;
+    ::StringW directory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String verb
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* verb;
+    ::StringW verb;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Diagnostics.ProcessWindowStyle windowStyle
     // Size: 0x4
     // Offset: 0x30
@@ -130,15 +131,15 @@ namespace System::Diagnostics {
     // private System.String userName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String domain
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* domain;
+    ::StringW domain;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Security.SecureString password
     // Size: 0x8
     // Offset: 0x58
@@ -148,9 +149,9 @@ namespace System::Diagnostics {
     // private System.String passwordInClearText
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* passwordInClearText;
+    ::StringW passwordInClearText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean loadUserProfile
     // Size: 0x1
     // Offset: 0x68
@@ -212,22 +213,22 @@ namespace System::Diagnostics {
     // private System.Collections.Generic.IDictionary`2<System.String,System.String> environment
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* environment;
+    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*) == 0x8);
     public:
     // Get static field: static private readonly System.String[] empty
-    static ::ArrayW<::Il2CppString*> _get_empty();
+    static ::ArrayW<::StringW> _get_empty();
     // Set static field: static private readonly System.String[] empty
-    static void _set_empty(::ArrayW<::Il2CppString*> value);
+    static void _set_empty(::ArrayW<::StringW> value);
     // Get instance field reference: private System.String fileName
-    ::Il2CppString*& dyn_fileName();
+    ::StringW& dyn_fileName();
     // Get instance field reference: private System.String arguments
-    ::Il2CppString*& dyn_arguments();
+    ::StringW& dyn_arguments();
     // Get instance field reference: private System.String directory
-    ::Il2CppString*& dyn_directory();
+    ::StringW& dyn_directory();
     // Get instance field reference: private System.String verb
-    ::Il2CppString*& dyn_verb();
+    ::StringW& dyn_verb();
     // Get instance field reference: private System.Diagnostics.ProcessWindowStyle windowStyle
     System::Diagnostics::ProcessWindowStyle& dyn_windowStyle();
     // Get instance field reference: private System.Boolean errorDialog
@@ -237,13 +238,13 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean useShellExecute
     bool& dyn_useShellExecute();
     // Get instance field reference: private System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: private System.String domain
-    ::Il2CppString*& dyn_domain();
+    ::StringW& dyn_domain();
     // Get instance field reference: private System.Security.SecureString password
     System::Security::SecureString*& dyn_password();
     // Get instance field reference: private System.String passwordInClearText
-    ::Il2CppString*& dyn_passwordInClearText();
+    ::StringW& dyn_passwordInClearText();
     // Get instance field reference: private System.Boolean loadUserProfile
     bool& dyn_loadUserProfile();
     // Get instance field reference: private System.Boolean redirectStandardInput
@@ -263,13 +264,13 @@ namespace System::Diagnostics {
     // Get instance field reference: System.Collections.Specialized.StringDictionary environmentVariables
     System::Collections::Specialized::StringDictionary*& dyn_environmentVariables();
     // Get instance field reference: private System.Collections.Generic.IDictionary`2<System.String,System.String> environment
-    System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_environment();
+    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& dyn_environment();
     // public System.String get_Arguments()
     // Offset: 0x1A2D9F8
-    ::Il2CppString* get_Arguments();
+    ::StringW get_Arguments();
     // public System.Void set_Arguments(System.String value)
     // Offset: 0x1A2DB0C
-    void set_Arguments(::Il2CppString* value);
+    void set_Arguments(::StringW value);
     // public System.Collections.Specialized.StringDictionary get_EnvironmentVariables()
     // Offset: 0x1A2D544
     System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
@@ -293,25 +294,25 @@ namespace System::Diagnostics {
     bool get_UseShellExecute();
     // public System.String get_UserName()
     // Offset: 0x1A2D184
-    ::Il2CppString* get_UserName();
+    ::StringW get_UserName();
     // public System.Security.SecureString get_Password()
     // Offset: 0x1A2DB44
     System::Security::SecureString* get_Password();
     // public System.String get_Domain()
     // Offset: 0x1A2DAB0
-    ::Il2CppString* get_Domain();
+    ::StringW get_Domain();
     // public System.Boolean get_LoadUserProfile()
     // Offset: 0x1A2DB4C
     bool get_LoadUserProfile();
     // public System.String get_FileName()
     // Offset: 0x1A2B7C4
-    ::Il2CppString* get_FileName();
+    ::StringW get_FileName();
     // public System.Void set_FileName(System.String value)
     // Offset: 0x1A2DB54
-    void set_FileName(::Il2CppString* value);
+    void set_FileName(::StringW value);
     // public System.String get_WorkingDirectory()
     // Offset: 0x1A2DA54
-    ::Il2CppString* get_WorkingDirectory();
+    ::StringW get_WorkingDirectory();
     // System.Boolean get_HaveEnvVars()
     // Offset: 0x1A2D534
     bool get_HaveEnvVars();
@@ -327,14 +328,14 @@ namespace System::Diagnostics {
     static void _cctor();
   }; // System.Diagnostics.ProcessStartInfo
   #pragma pack(pop)
-  static check_size<sizeof(ProcessStartInfo), 152 + sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
+  static check_size<sizeof(ProcessStartInfo), 152 + sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
   static_assert(sizeof(ProcessStartInfo) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -342,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::ProcessStartInfo::*)(::Il2CppString*)>(&System::Diagnostics::ProcessStartInfo::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::ProcessStartInfo::*)(::StringW)>(&System::Diagnostics::ProcessStartInfo::set_Arguments)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -407,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_UserName
 // Il2CppName: get_UserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_UserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_UserName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -423,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_Domain
 // Il2CppName: get_Domain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Domain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Domain)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -439,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_FileName
 // Il2CppName: get_FileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_FileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_FileName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_FileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::set_FileName
 // Il2CppName: set_FileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::ProcessStartInfo::*)(::Il2CppString*)>(&System::Diagnostics::ProcessStartInfo::set_FileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::ProcessStartInfo::*)(::StringW)>(&System::Diagnostics::ProcessStartInfo::set_FileName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "set_FileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -456,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_WorkingDirectory
 // Il2CppName: get_WorkingDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_WorkingDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_WorkingDirectory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_WorkingDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

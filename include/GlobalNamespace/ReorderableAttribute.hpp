@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,9 +41,9 @@ namespace GlobalNamespace {
     // private System.String <ElementHeader>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* ElementHeader;
+    ::StringW ElementHeader;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <HeaderZeroIndex>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -57,17 +58,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <ElementHeader>k__BackingField
-    ::Il2CppString*& dyn_$ElementHeader$k__BackingField();
+    ::StringW& dyn_$ElementHeader$k__BackingField();
     // Get instance field reference: private System.Boolean <HeaderZeroIndex>k__BackingField
     bool& dyn_$HeaderZeroIndex$k__BackingField();
     // Get instance field reference: private System.Boolean <ElementSingleLine>k__BackingField
     bool& dyn_$ElementSingleLine$k__BackingField();
     // public System.String get_ElementHeader()
     // Offset: 0x263E770
-    ::Il2CppString* get_ElementHeader();
+    ::StringW get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
     // Offset: 0x263E778
-    void set_ElementHeader(::Il2CppString* value);
+    void set_ElementHeader(::StringW value);
     // public System.Boolean get_HeaderZeroIndex()
     // Offset: 0x263E780
     bool get_HeaderZeroIndex();
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
     // Offset: 0x263E810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReorderableAttribute* New_ctor(::Il2CppString* headerString, bool isZeroIndex, bool isSingleLine) {
+    static ReorderableAttribute* New_ctor(::StringW headerString, bool isZeroIndex, bool isSingleLine) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>(headerString, isZeroIndex, isSingleLine)));
     }
@@ -107,7 +108,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementHeader
 // Il2CppName: get_ElementHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::get_ElementHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::get_ElementHeader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "get_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::set_ElementHeader
 // Il2CppName: set_ElementHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(::Il2CppString*)>(&GlobalNamespace::ReorderableAttribute::set_ElementHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(::StringW)>(&GlobalNamespace::ReorderableAttribute::set_ElementHeader)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "set_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

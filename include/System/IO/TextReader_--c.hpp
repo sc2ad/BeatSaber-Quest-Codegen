@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::IO::TextReader::$$c);
@@ -33,7 +34,7 @@ namespace System::IO {
     static void _cctor();
     // System.String <.cctor>b__22_0(System.Object state)
     // Offset: 0x1A0A228
-    ::Il2CppString* $_cctor$b__22_0(::Il2CppObject* state);
+    ::StringW $_cctor$b__22_0(::Il2CppObject* state);
     // System.Int32 <.cctor>b__22_1(System.Object state)
     // Offset: 0x1A0A2E0
     int $_cctor$b__22_1(::Il2CppObject* state);
@@ -61,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::TextReader::$$c::$_cctor$b__22_0
 // Il2CppName: <.cctor>b__22_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::$$c::*)(::Il2CppObject*)>(&System::IO::TextReader::$$c::$_cctor$b__22_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::TextReader::$$c::*)(::Il2CppObject*)>(&System::IO::TextReader::$$c::$_cctor$b__22_0)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::$$c*), "<.cctor>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -168,13 +169,13 @@ namespace GlobalNamespace {
     void OnDestroy();
     // public System.Void ShowLoading(System.String text)
     // Offset: 0x12FBFC8
-    void ShowLoading(::Il2CppString* text);
+    void ShowLoading(::StringW text);
     // public System.Void ShowText(System.String text, System.Boolean showRefreshButton)
     // Offset: 0x12FC050
-    void ShowText(::Il2CppString* text, bool showRefreshButton);
+    void ShowText(::StringW text, bool showRefreshButton);
     // public System.Void ShowDownloadingProgress(System.String text, System.Single downloadingProgress)
     // Offset: 0x1304BA0
-    void ShowDownloadingProgress(::Il2CppString* text, float downloadingProgress);
+    void ShowDownloadingProgress(::StringW text, float downloadingProgress);
     // public System.Void Hide()
     // Offset: 0x12FC104
     void Hide();
@@ -245,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::ShowLoading
 // Il2CppName: ShowLoading
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*)>(&GlobalNamespace::LoadingControl::ShowLoading)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::StringW)>(&GlobalNamespace::LoadingControl::ShowLoading)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -254,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::ShowText
 // Il2CppName: ShowText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*, bool)>(&GlobalNamespace::LoadingControl::ShowText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::StringW, bool)>(&GlobalNamespace::LoadingControl::ShowText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* showRefreshButton = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::ShowDownloadingProgress
 // Il2CppName: ShowDownloadingProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*, float)>(&GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::StringW, float)>(&GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* downloadingProgress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -48,21 +49,21 @@ namespace System {
     // private System.String ClassName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* ClassName;
+    ::StringW ClassName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String AssemblyName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* AssemblyName;
+    ::StringW AssemblyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String MessageArg
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* MessageArg;
+    ::StringW MessageArg;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Int32 ResourceId
     // Size: 0x4
     // Offset: 0xA0
@@ -71,24 +72,24 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.String ClassName
-    ::Il2CppString*& dyn_ClassName();
+    ::StringW& dyn_ClassName();
     // Get instance field reference: private System.String AssemblyName
-    ::Il2CppString*& dyn_AssemblyName();
+    ::StringW& dyn_AssemblyName();
     // Get instance field reference: private System.String MessageArg
-    ::Il2CppString*& dyn_MessageArg();
+    ::StringW& dyn_MessageArg();
     // Get instance field reference: System.Int32 ResourceId
     int& dyn_ResourceId();
     // private System.Void .ctor(System.String className, System.String assemblyName)
     // Offset: 0x25CE990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName) {
+    static TypeLoadException* New_ctor(::StringW className, ::StringW assemblyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(className, assemblyName)));
     }
     // private System.Void .ctor(System.String className, System.String assemblyName, System.String messageArg, System.Int32 resourceId)
     // Offset: 0x25CE99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeLoadException* New_ctor(::Il2CppString* className, ::Il2CppString* assemblyName, ::Il2CppString* messageArg, int resourceId) {
+    static TypeLoadException* New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int resourceId) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(className, assemblyName, messageArg, resourceId)));
     }
@@ -99,7 +100,7 @@ namespace System {
     // Offset: 0x25CE868
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x25CE7F4
     // Implemented from: System.SystemException
@@ -117,7 +118,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeLoadException* New_ctor(::Il2CppString* message) {
+    static TypeLoadException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeLoadException*, creationType>(message)));
     }
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TypeLoadException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeLoadException::*)()>(&System::TypeLoadException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeLoadException::*)()>(&System::TypeLoadException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeLoadException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

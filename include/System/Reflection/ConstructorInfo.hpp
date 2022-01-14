@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -56,14 +57,14 @@ namespace System::Reflection {
     }
     // [ComVisibleAttribute] Offset: 0xEA4440
     // Get static field: static public readonly System.String ConstructorName
-    static ::Il2CppString* _get_ConstructorName();
+    static ::StringW _get_ConstructorName();
     // Set static field: static public readonly System.String ConstructorName
-    static void _set_ConstructorName(::Il2CppString* value);
+    static void _set_ConstructorName(::StringW value);
     // [ComVisibleAttribute] Offset: 0xEA4454
     // Get static field: static public readonly System.String TypeConstructorName
-    static ::Il2CppString* _get_TypeConstructorName();
+    static ::StringW _get_TypeConstructorName();
     // Set static field: static public readonly System.String TypeConstructorName
-    static void _set_TypeConstructorName(::Il2CppString* value);
+    static void _set_TypeConstructorName(::StringW value);
     // static private System.Void .cctor()
     // Offset: 0x1E8F9E8
     static void _cctor();

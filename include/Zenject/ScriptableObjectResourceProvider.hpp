@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -83,9 +84,9 @@ namespace Zenject {
     // private readonly System.String _resourcePath
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* resourcePath;
+    ::StringW resourcePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
     // Size: 0x8
     // Offset: 0x28
@@ -122,7 +123,7 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Type _resourceType
     System::Type*& dyn__resourceType();
     // Get instance field reference: private readonly System.String _resourcePath
-    ::Il2CppString*& dyn__resourcePath();
+    ::StringW& dyn__resourcePath();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArguments
     System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn__extraArguments();
     // Get instance field reference: private readonly System.Boolean _createNew
@@ -140,7 +141,7 @@ namespace Zenject {
     // public System.Void .ctor(System.String resourcePath, System.Type resourceType, Zenject.DiContainer container, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArguments, System.Boolean createNew, System.Object concreteIdentifier, System.Action`2<Zenject.InjectContext,System.Object> instantiateCallback)
     // Offset: 0x218FB0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ScriptableObjectResourceProvider* New_ctor(::Il2CppString* resourcePath, System::Type* resourceType, Zenject::DiContainer* container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, bool createNew, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
+    static ScriptableObjectResourceProvider* New_ctor(::StringW resourcePath, System::Type* resourceType, Zenject::DiContainer* container, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArguments, bool createNew, ::Il2CppObject* concreteIdentifier, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectResourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectResourceProvider*, creationType>(resourcePath, resourceType, container, extraArguments, createNew, concreteIdentifier, instantiateCallback)));
     }

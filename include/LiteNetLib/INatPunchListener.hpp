@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -17,9 +18,6 @@ namespace LiteNetLib {
   struct NatAddressType;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Forward declaring type: INatPunchListener
@@ -38,10 +36,10 @@ namespace LiteNetLib {
     public:
     // public System.Void OnNatIntroductionRequest(System.Net.IPEndPoint localEndPoint, System.Net.IPEndPoint remoteEndPoint, System.String token)
     // Offset: 0xFFFFFFFF
-    void OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* token);
+    void OnNatIntroductionRequest(System::Net::IPEndPoint* localEndPoint, System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
     // public System.Void OnNatIntroductionSuccess(System.Net.IPEndPoint targetEndPoint, LiteNetLib.NatAddressType type, System.String token)
     // Offset: 0xFFFFFFFF
-    void OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::Il2CppString* token);
+    void OnNatIntroductionSuccess(System::Net::IPEndPoint* targetEndPoint, LiteNetLib::NatAddressType type, ::StringW token);
   }; // LiteNetLib.INatPunchListener
   #pragma pack(pop)
 }
@@ -49,7 +47,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::INatPunchListener::OnNatIntroductionRequest
 // Il2CppName: OnNatIntroductionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::INatPunchListener::OnNatIntroductionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::StringW)>(&LiteNetLib::INatPunchListener::OnNatIntroductionRequest)> {
   static const MethodInfo* get() {
     static auto* localEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -60,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INatPunchListener::OnNatIntroductionSuccess
 // Il2CppName: OnNatIntroductionSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, LiteNetLib::NatAddressType, ::Il2CppString*)>(&LiteNetLib::INatPunchListener::OnNatIntroductionSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, LiteNetLib::NatAddressType, ::StringW)>(&LiteNetLib::INatPunchListener::OnNatIntroductionSuccess)> {
   static const MethodInfo* get() {
     static auto* targetEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NatAddressType")->byval_arg;

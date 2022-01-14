@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -106,177 +107,177 @@ namespace HoudiniEngineUnity {
     // static field const value: static public System.String HAPI_ATTRIB_POSITION
     static constexpr const char* HAPI_ATTRIB_POSITION = "P";
     // Get static field: static public System.String HAPI_ATTRIB_POSITION
-    static ::Il2CppString* _get_HAPI_ATTRIB_POSITION();
+    static ::StringW _get_HAPI_ATTRIB_POSITION();
     // Set static field: static public System.String HAPI_ATTRIB_POSITION
-    static void _set_HAPI_ATTRIB_POSITION(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_POSITION(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_UV
     static constexpr const char* HAPI_ATTRIB_UV = "uv";
     // Get static field: static public System.String HAPI_ATTRIB_UV
-    static ::Il2CppString* _get_HAPI_ATTRIB_UV();
+    static ::StringW _get_HAPI_ATTRIB_UV();
     // Set static field: static public System.String HAPI_ATTRIB_UV
-    static void _set_HAPI_ATTRIB_UV(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_UV(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_UV2
     static constexpr const char* HAPI_ATTRIB_UV2 = "uv2";
     // Get static field: static public System.String HAPI_ATTRIB_UV2
-    static ::Il2CppString* _get_HAPI_ATTRIB_UV2();
+    static ::StringW _get_HAPI_ATTRIB_UV2();
     // Set static field: static public System.String HAPI_ATTRIB_UV2
-    static void _set_HAPI_ATTRIB_UV2(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_UV2(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_NORMAL
     static constexpr const char* HAPI_ATTRIB_NORMAL = "N";
     // Get static field: static public System.String HAPI_ATTRIB_NORMAL
-    static ::Il2CppString* _get_HAPI_ATTRIB_NORMAL();
+    static ::StringW _get_HAPI_ATTRIB_NORMAL();
     // Set static field: static public System.String HAPI_ATTRIB_NORMAL
-    static void _set_HAPI_ATTRIB_NORMAL(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_NORMAL(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_TANGENT
     static constexpr const char* HAPI_ATTRIB_TANGENT = "tangentu";
     // Get static field: static public System.String HAPI_ATTRIB_TANGENT
-    static ::Il2CppString* _get_HAPI_ATTRIB_TANGENT();
+    static ::StringW _get_HAPI_ATTRIB_TANGENT();
     // Set static field: static public System.String HAPI_ATTRIB_TANGENT
-    static void _set_HAPI_ATTRIB_TANGENT(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_TANGENT(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_TANGENT2
     static constexpr const char* HAPI_ATTRIB_TANGENT2 = "tangentv";
     // Get static field: static public System.String HAPI_ATTRIB_TANGENT2
-    static ::Il2CppString* _get_HAPI_ATTRIB_TANGENT2();
+    static ::StringW _get_HAPI_ATTRIB_TANGENT2();
     // Set static field: static public System.String HAPI_ATTRIB_TANGENT2
-    static void _set_HAPI_ATTRIB_TANGENT2(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_TANGENT2(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_COLOR
     static constexpr const char* HAPI_ATTRIB_COLOR = "Cd";
     // Get static field: static public System.String HAPI_ATTRIB_COLOR
-    static ::Il2CppString* _get_HAPI_ATTRIB_COLOR();
+    static ::StringW _get_HAPI_ATTRIB_COLOR();
     // Set static field: static public System.String HAPI_ATTRIB_COLOR
-    static void _set_HAPI_ATTRIB_COLOR(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_COLOR(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_NAME
     static constexpr const char* HAPI_ATTRIB_NAME = "name";
     // Get static field: static public System.String HAPI_ATTRIB_NAME
-    static ::Il2CppString* _get_HAPI_ATTRIB_NAME();
+    static ::StringW _get_HAPI_ATTRIB_NAME();
     // Set static field: static public System.String HAPI_ATTRIB_NAME
-    static void _set_HAPI_ATTRIB_NAME(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_NAME(::StringW value);
     // static field const value: static public System.String HAPI_ATTRIB_INSTANCE
     static constexpr const char* HAPI_ATTRIB_INSTANCE = "instance";
     // Get static field: static public System.String HAPI_ATTRIB_INSTANCE
-    static ::Il2CppString* _get_HAPI_ATTRIB_INSTANCE();
+    static ::StringW _get_HAPI_ATTRIB_INSTANCE();
     // Set static field: static public System.String HAPI_ATTRIB_INSTANCE
-    static void _set_HAPI_ATTRIB_INSTANCE(::Il2CppString* value);
+    static void _set_HAPI_ATTRIB_INSTANCE(::StringW value);
     // static field const value: static public System.String HAPI_UNGROUPED_GROUP_NAME
     static constexpr const char* HAPI_UNGROUPED_GROUP_NAME = "__ungrouped_group";
     // Get static field: static public System.String HAPI_UNGROUPED_GROUP_NAME
-    static ::Il2CppString* _get_HAPI_UNGROUPED_GROUP_NAME();
+    static ::StringW _get_HAPI_UNGROUPED_GROUP_NAME();
     // Set static field: static public System.String HAPI_UNGROUPED_GROUP_NAME
-    static void _set_HAPI_UNGROUPED_GROUP_NAME(::Il2CppString* value);
+    static void _set_HAPI_UNGROUPED_GROUP_NAME(::StringW value);
     // static field const value: static public System.String HAPI_RAW_FORMAT_NAME
     static constexpr const char* HAPI_RAW_FORMAT_NAME = "HAPI_RAW";
     // Get static field: static public System.String HAPI_RAW_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_RAW_FORMAT_NAME();
+    static ::StringW _get_HAPI_RAW_FORMAT_NAME();
     // Set static field: static public System.String HAPI_RAW_FORMAT_NAME
-    static void _set_HAPI_RAW_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_RAW_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_PNG_FORMAT_NAME
     static constexpr const char* HAPI_PNG_FORMAT_NAME = "PNG";
     // Get static field: static public System.String HAPI_PNG_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_PNG_FORMAT_NAME();
+    static ::StringW _get_HAPI_PNG_FORMAT_NAME();
     // Set static field: static public System.String HAPI_PNG_FORMAT_NAME
-    static void _set_HAPI_PNG_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_PNG_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_JPEG_FORMAT_NAME
     static constexpr const char* HAPI_JPEG_FORMAT_NAME = "JPEG";
     // Get static field: static public System.String HAPI_JPEG_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_JPEG_FORMAT_NAME();
+    static ::StringW _get_HAPI_JPEG_FORMAT_NAME();
     // Set static field: static public System.String HAPI_JPEG_FORMAT_NAME
-    static void _set_HAPI_JPEG_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_JPEG_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_BMP_FORMAT_NAME
     static constexpr const char* HAPI_BMP_FORMAT_NAME = "Bitmap";
     // Get static field: static public System.String HAPI_BMP_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_BMP_FORMAT_NAME();
+    static ::StringW _get_HAPI_BMP_FORMAT_NAME();
     // Set static field: static public System.String HAPI_BMP_FORMAT_NAME
-    static void _set_HAPI_BMP_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_BMP_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_TIFF_FORMAT_NAME
     static constexpr const char* HAPI_TIFF_FORMAT_NAME = "TIFF";
     // Get static field: static public System.String HAPI_TIFF_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_TIFF_FORMAT_NAME();
+    static ::StringW _get_HAPI_TIFF_FORMAT_NAME();
     // Set static field: static public System.String HAPI_TIFF_FORMAT_NAME
-    static void _set_HAPI_TIFF_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_TIFF_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_TGA_FORMAT_NAME
     static constexpr const char* HAPI_TGA_FORMAT_NAME = "Targa";
     // Get static field: static public System.String HAPI_TGA_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_TGA_FORMAT_NAME();
+    static ::StringW _get_HAPI_TGA_FORMAT_NAME();
     // Set static field: static public System.String HAPI_TGA_FORMAT_NAME
-    static void _set_HAPI_TGA_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_TGA_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_DEFAULT_IMAGE_FORMAT_NAME
     static constexpr const char* HAPI_DEFAULT_IMAGE_FORMAT_NAME = "PNG";
     // Get static field: static public System.String HAPI_DEFAULT_IMAGE_FORMAT_NAME
-    static ::Il2CppString* _get_HAPI_DEFAULT_IMAGE_FORMAT_NAME();
+    static ::StringW _get_HAPI_DEFAULT_IMAGE_FORMAT_NAME();
     // Set static field: static public System.String HAPI_DEFAULT_IMAGE_FORMAT_NAME
-    static void _set_HAPI_DEFAULT_IMAGE_FORMAT_NAME(::Il2CppString* value);
+    static void _set_HAPI_DEFAULT_IMAGE_FORMAT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_GLOBAL_NODES_NODE_NAME
     static constexpr const char* HAPI_GLOBAL_NODES_NODE_NAME = "GlobalNodes";
     // Get static field: static public System.String HAPI_GLOBAL_NODES_NODE_NAME
-    static ::Il2CppString* _get_HAPI_GLOBAL_NODES_NODE_NAME();
+    static ::StringW _get_HAPI_GLOBAL_NODES_NODE_NAME();
     // Set static field: static public System.String HAPI_GLOBAL_NODES_NODE_NAME
-    static void _set_HAPI_GLOBAL_NODES_NODE_NAME(::Il2CppString* value);
+    static void _set_HAPI_GLOBAL_NODES_NODE_NAME(::StringW value);
     // static field const value: static public System.String HAPI_ENV_HIP
     static constexpr const char* HAPI_ENV_HIP = "HIP";
     // Get static field: static public System.String HAPI_ENV_HIP
-    static ::Il2CppString* _get_HAPI_ENV_HIP();
+    static ::StringW _get_HAPI_ENV_HIP();
     // Set static field: static public System.String HAPI_ENV_HIP
-    static void _set_HAPI_ENV_HIP(::Il2CppString* value);
+    static void _set_HAPI_ENV_HIP(::StringW value);
     // static field const value: static public System.String HAPI_ENV_JOB
     static constexpr const char* HAPI_ENV_JOB = "JOB";
     // Get static field: static public System.String HAPI_ENV_JOB
-    static ::Il2CppString* _get_HAPI_ENV_JOB();
+    static ::StringW _get_HAPI_ENV_JOB();
     // Set static field: static public System.String HAPI_ENV_JOB
-    static void _set_HAPI_ENV_JOB(::Il2CppString* value);
+    static void _set_HAPI_ENV_JOB(::StringW value);
     // static field const value: static public System.String HAPI_ENV_CLIENT_NAME
     static constexpr const char* HAPI_ENV_CLIENT_NAME = "HAPI_CLIENT_NAME";
     // Get static field: static public System.String HAPI_ENV_CLIENT_NAME
-    static ::Il2CppString* _get_HAPI_ENV_CLIENT_NAME();
+    static ::StringW _get_HAPI_ENV_CLIENT_NAME();
     // Set static field: static public System.String HAPI_ENV_CLIENT_NAME
-    static void _set_HAPI_ENV_CLIENT_NAME(::Il2CppString* value);
+    static void _set_HAPI_ENV_CLIENT_NAME(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_COP_COOK
     static constexpr const char* HAPI_CACHE_COP_COOK = "COP Cook Cache";
     // Get static field: static public System.String HAPI_CACHE_COP_COOK
-    static ::Il2CppString* _get_HAPI_CACHE_COP_COOK();
+    static ::StringW _get_HAPI_CACHE_COP_COOK();
     // Set static field: static public System.String HAPI_CACHE_COP_COOK
-    static void _set_HAPI_CACHE_COP_COOK(::Il2CppString* value);
+    static void _set_HAPI_CACHE_COP_COOK(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_COP_FLIPBOOK
     static constexpr const char* HAPI_CACHE_COP_FLIPBOOK = "COP Flipbook Cache";
     // Get static field: static public System.String HAPI_CACHE_COP_FLIPBOOK
-    static ::Il2CppString* _get_HAPI_CACHE_COP_FLIPBOOK();
+    static ::StringW _get_HAPI_CACHE_COP_FLIPBOOK();
     // Set static field: static public System.String HAPI_CACHE_COP_FLIPBOOK
-    static void _set_HAPI_CACHE_COP_FLIPBOOK(::Il2CppString* value);
+    static void _set_HAPI_CACHE_COP_FLIPBOOK(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_IMAGE
     static constexpr const char* HAPI_CACHE_IMAGE = "Image Cache";
     // Get static field: static public System.String HAPI_CACHE_IMAGE
-    static ::Il2CppString* _get_HAPI_CACHE_IMAGE();
+    static ::StringW _get_HAPI_CACHE_IMAGE();
     // Set static field: static public System.String HAPI_CACHE_IMAGE
-    static void _set_HAPI_CACHE_IMAGE(::Il2CppString* value);
+    static void _set_HAPI_CACHE_IMAGE(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_OBJ
     static constexpr const char* HAPI_CACHE_OBJ = "Object Transform Cache";
     // Get static field: static public System.String HAPI_CACHE_OBJ
-    static ::Il2CppString* _get_HAPI_CACHE_OBJ();
+    static ::StringW _get_HAPI_CACHE_OBJ();
     // Set static field: static public System.String HAPI_CACHE_OBJ
-    static void _set_HAPI_CACHE_OBJ(::Il2CppString* value);
+    static void _set_HAPI_CACHE_OBJ(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_GL_TEXTURE
     static constexpr const char* HAPI_CACHE_GL_TEXTURE = "OpenGL Texture Cache";
     // Get static field: static public System.String HAPI_CACHE_GL_TEXTURE
-    static ::Il2CppString* _get_HAPI_CACHE_GL_TEXTURE();
+    static ::StringW _get_HAPI_CACHE_GL_TEXTURE();
     // Set static field: static public System.String HAPI_CACHE_GL_TEXTURE
-    static void _set_HAPI_CACHE_GL_TEXTURE(::Il2CppString* value);
+    static void _set_HAPI_CACHE_GL_TEXTURE(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_GL_VERTEX
     static constexpr const char* HAPI_CACHE_GL_VERTEX = "OpenGL Vertex Cache";
     // Get static field: static public System.String HAPI_CACHE_GL_VERTEX
-    static ::Il2CppString* _get_HAPI_CACHE_GL_VERTEX();
+    static ::StringW _get_HAPI_CACHE_GL_VERTEX();
     // Set static field: static public System.String HAPI_CACHE_GL_VERTEX
-    static void _set_HAPI_CACHE_GL_VERTEX(::Il2CppString* value);
+    static void _set_HAPI_CACHE_GL_VERTEX(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_SOP
     static constexpr const char* HAPI_CACHE_SOP = "SOP Cache";
     // Get static field: static public System.String HAPI_CACHE_SOP
-    static ::Il2CppString* _get_HAPI_CACHE_SOP();
+    static ::StringW _get_HAPI_CACHE_SOP();
     // Set static field: static public System.String HAPI_CACHE_SOP
-    static void _set_HAPI_CACHE_SOP(::Il2CppString* value);
+    static void _set_HAPI_CACHE_SOP(::StringW value);
     // static field const value: static public System.String HAPI_CACHE_VEX
     static constexpr const char* HAPI_CACHE_VEX = "VEX File Cache";
     // Get static field: static public System.String HAPI_CACHE_VEX
-    static ::Il2CppString* _get_HAPI_CACHE_VEX();
+    static ::StringW _get_HAPI_CACHE_VEX();
     // Set static field: static public System.String HAPI_CACHE_VEX
-    static void _set_HAPI_CACHE_VEX(::Il2CppString* value);
+    static void _set_HAPI_CACHE_VEX(::StringW value);
   }; // HoudiniEngineUnity.HEU_HAPIConstants
   #pragma pack(pop)
 }

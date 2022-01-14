@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -46,7 +47,7 @@ namespace NUnit::Framework::Interfaces {
     static void _cctor();
     // System.String <EscapeInvalidXmlCharacters>b__38_0(System.Text.RegularExpressions.Match match)
     // Offset: 0x1942750
-    ::Il2CppString* $EscapeInvalidXmlCharacters$b__38_0(System::Text::RegularExpressions::Match* match);
+    ::StringW $EscapeInvalidXmlCharacters$b__38_0(System::Text::RegularExpressions::Match* match);
     // public System.Void .ctor()
     // Offset: 0x1942748
     // Implemented from: System.Object
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::$EscapeInvalidXmlCharacters$b__38_0
 // Il2CppName: <EscapeInvalidXmlCharacters>b__38_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::TNode::$$c::*)(System::Text::RegularExpressions::Match*)>(&NUnit::Framework::Interfaces::TNode::$$c::$EscapeInvalidXmlCharacters$b__38_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (NUnit::Framework::Interfaces::TNode::$$c::*)(System::Text::RegularExpressions::Match*)>(&NUnit::Framework::Interfaces::TNode::$$c::$EscapeInvalidXmlCharacters$b__38_0)> {
   static const MethodInfo* get() {
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode::$$c*), "<EscapeInvalidXmlCharacters>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match});

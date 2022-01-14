@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,15 +53,15 @@ namespace GlobalNamespace {
     // public System.String sourceDirectoryName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* sourceDirectoryName;
+    ::StringW sourceDirectoryName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String destinationArchiveFileName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* destinationArchiveFileName;
+    ::StringW destinationArchiveFileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Action`1<System.Boolean> finishCallback
     // Size: 0x8
     // Offset: 0x28
@@ -71,9 +72,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean success
     bool& dyn_success();
     // Get instance field reference: public System.String sourceDirectoryName
-    ::Il2CppString*& dyn_sourceDirectoryName();
+    ::StringW& dyn_sourceDirectoryName();
     // Get instance field reference: public System.String destinationArchiveFileName
-    ::Il2CppString*& dyn_destinationArchiveFileName();
+    ::StringW& dyn_destinationArchiveFileName();
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
     System::Action_1<bool>*& dyn_finishCallback();
     // System.Void <CreateZipFromDirectoryAsync>b__0()

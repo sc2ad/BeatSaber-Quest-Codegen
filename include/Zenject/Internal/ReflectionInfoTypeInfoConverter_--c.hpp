@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -60,9 +61,9 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo,Zenject.InjectableInfo> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*, Zenject::InjectableInfo*>* value);
     // Get static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
-    static System::Func_2<System::Reflection::FieldInfo*, ::Il2CppString*>* _get_$$9__8_1();
+    static System::Func_2<System::Reflection::FieldInfo*, ::StringW>* _get_$$9__8_1();
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
-    static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::Il2CppString*>* value);
+    static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D3B3C
     static void _cctor();
@@ -74,7 +75,7 @@ namespace Zenject::Internal {
     Zenject::InjectableInfo* $ConvertConstructor$b__1_0(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
     // Offset: 0x18D3BD8
-    ::Il2CppString* $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
+    ::StringW $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x18D3BF8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1
 // Il2CppName: <GetOnlyPropertySetter>b__8_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)(System::Reflection::FieldInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)(System::Reflection::FieldInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1)> {
   static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), "<GetOnlyPropertySetter>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});

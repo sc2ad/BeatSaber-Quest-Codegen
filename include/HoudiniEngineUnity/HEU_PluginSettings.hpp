@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,10 +43,10 @@ namespace HoudiniEngineUnity {
     public:
     // static public System.String get_HoudiniEngineEnvFilePath()
     // Offset: 0x183F104
-    static ::Il2CppString* get_HoudiniEngineEnvFilePath();
+    static ::StringW get_HoudiniEngineEnvFilePath();
     // static public System.Void set_HoudiniEngineEnvFilePath(System.String value)
     // Offset: 0x183F29C
-    static void set_HoudiniEngineEnvFilePath(::Il2CppString* value);
+    static void set_HoudiniEngineEnvFilePath(::StringW value);
     // static public System.Boolean get_CookingEnabled()
     // Offset: 0x183F6C4
     static bool get_CookingEnabled();
@@ -78,64 +79,64 @@ namespace HoudiniEngineUnity {
     static void set_TransformChangeTriggersCooks(bool value);
     // static public System.String get_CollisionGroupName()
     // Offset: 0x183FC64
-    static ::Il2CppString* get_CollisionGroupName();
+    static ::StringW get_CollisionGroupName();
     // static public System.Void set_CollisionGroupName(System.String value)
     // Offset: 0x183FCD8
-    static void set_CollisionGroupName(::Il2CppString* value);
+    static void set_CollisionGroupName(::StringW value);
     // static public System.String get_RenderedCollisionGroupName()
     // Offset: 0x183FD34
-    static ::Il2CppString* get_RenderedCollisionGroupName();
+    static ::StringW get_RenderedCollisionGroupName();
     // static public System.Void set_RenderedCollisionGroupName(System.String value)
     // Offset: 0x183FDA8
-    static void set_RenderedCollisionGroupName(::Il2CppString* value);
+    static void set_RenderedCollisionGroupName(::StringW value);
     // static public System.String get_RenderedConvexCollisionGroupName()
     // Offset: 0x183FE04
-    static ::Il2CppString* get_RenderedConvexCollisionGroupName();
+    static ::StringW get_RenderedConvexCollisionGroupName();
     // static public System.Void set_RenderedConvexCollisionGroupName(System.String value)
     // Offset: 0x183FE78
-    static void set_RenderedConvexCollisionGroupName(::Il2CppString* value);
+    static void set_RenderedConvexCollisionGroupName(::StringW value);
     // static public System.String get_UnityMaterialAttribName()
     // Offset: 0x183FED4
-    static ::Il2CppString* get_UnityMaterialAttribName();
+    static ::StringW get_UnityMaterialAttribName();
     // static public System.Void set_UnityMaterialAttribName(System.String value)
     // Offset: 0x183FF48
-    static void set_UnityMaterialAttribName(::Il2CppString* value);
+    static void set_UnityMaterialAttribName(::StringW value);
     // static public System.String get_UnitySubMaterialAttribName()
     // Offset: 0x183FFA4
-    static ::Il2CppString* get_UnitySubMaterialAttribName();
+    static ::StringW get_UnitySubMaterialAttribName();
     // static public System.Void set_UnitySubMaterialAttribName(System.String value)
     // Offset: 0x1840018
-    static void set_UnitySubMaterialAttribName(::Il2CppString* value);
+    static void set_UnitySubMaterialAttribName(::StringW value);
     // static public System.String get_UnitySubMaterialIndexAttribName()
     // Offset: 0x1840074
-    static ::Il2CppString* get_UnitySubMaterialIndexAttribName();
+    static ::StringW get_UnitySubMaterialIndexAttribName();
     // static public System.Void set_UnitySubMaterialIndexAttribName(System.String value)
     // Offset: 0x18400E8
-    static void set_UnitySubMaterialIndexAttribName(::Il2CppString* value);
+    static void set_UnitySubMaterialIndexAttribName(::StringW value);
     // static public System.String get_UnityTagAttributeName()
     // Offset: 0x1840144
-    static ::Il2CppString* get_UnityTagAttributeName();
+    static ::StringW get_UnityTagAttributeName();
     // static public System.Void set_UnityTagAttributeName(System.String value)
     // Offset: 0x18401B8
-    static void set_UnityTagAttributeName(::Il2CppString* value);
+    static void set_UnityTagAttributeName(::StringW value);
     // static public System.String get_UnityStaticAttributeName()
     // Offset: 0x1840214
-    static ::Il2CppString* get_UnityStaticAttributeName();
+    static ::StringW get_UnityStaticAttributeName();
     // static public System.Void set_UnityStaticAttributeName(System.String value)
     // Offset: 0x1840288
-    static void set_UnityStaticAttributeName(::Il2CppString* value);
+    static void set_UnityStaticAttributeName(::StringW value);
     // static public System.String get_UnityScriptAttributeName()
     // Offset: 0x18402E4
-    static ::Il2CppString* get_UnityScriptAttributeName();
+    static ::StringW get_UnityScriptAttributeName();
     // static public System.Void set_UnityScriptAttributeName(System.String value)
     // Offset: 0x1840358
-    static void set_UnityScriptAttributeName(::Il2CppString* value);
+    static void set_UnityScriptAttributeName(::StringW value);
     // static public System.String get_UnityLayerAttributeName()
     // Offset: 0x18403B4
-    static ::Il2CppString* get_UnityLayerAttributeName();
+    static ::StringW get_UnityLayerAttributeName();
     // static public System.Void set_UnityLayerAttributeName(System.String value)
     // Offset: 0x1840428
-    static void set_UnityLayerAttributeName(::Il2CppString* value);
+    static void set_UnityLayerAttributeName(::StringW value);
     // static public System.Single get_ImageGamma()
     // Offset: 0x1840484
     static float get_ImageGamma();
@@ -150,34 +151,34 @@ namespace HoudiniEngineUnity {
     static void set_NormalGenerationThresholdAngle(float value);
     // static public System.String get_LastLoadHDAPath()
     // Offset: 0x1840828
-    static ::Il2CppString* get_LastLoadHDAPath();
+    static ::StringW get_LastLoadHDAPath();
     // static public System.Void set_LastLoadHDAPath(System.String value)
     // Offset: 0x184089C
-    static void set_LastLoadHDAPath(::Il2CppString* value);
+    static void set_LastLoadHDAPath(::StringW value);
     // static public System.String get_LastLoadHIPPath()
     // Offset: 0x18408F8
-    static ::Il2CppString* get_LastLoadHIPPath();
+    static ::StringW get_LastLoadHIPPath();
     // static public System.Void set_LastLoadHIPPath(System.String value)
     // Offset: 0x184096C
-    static void set_LastLoadHIPPath(::Il2CppString* value);
+    static void set_LastLoadHIPPath(::StringW value);
     // static public System.String get_InstanceAttr()
     // Offset: 0x18409C8
-    static ::Il2CppString* get_InstanceAttr();
+    static ::StringW get_InstanceAttr();
     // static public System.Void set_InstanceAttr(System.String value)
     // Offset: 0x1840A3C
-    static void set_InstanceAttr(::Il2CppString* value);
+    static void set_InstanceAttr(::StringW value);
     // static public System.String get_UnityInstanceAttr()
     // Offset: 0x1840A98
-    static ::Il2CppString* get_UnityInstanceAttr();
+    static ::StringW get_UnityInstanceAttr();
     // static public System.Void set_UnityInstanceAttr(System.String value)
     // Offset: 0x1840B0C
-    static void set_UnityInstanceAttr(::Il2CppString* value);
+    static void set_UnityInstanceAttr(::StringW value);
     // static public System.String get_UnityInputMeshAttr()
     // Offset: 0x1840B68
-    static ::Il2CppString* get_UnityInputMeshAttr();
+    static ::StringW get_UnityInputMeshAttr();
     // static public System.Void set_UnityInputMeshAttr(System.String value)
     // Offset: 0x1840BDC
-    static void set_UnityInputMeshAttr(::Il2CppString* value);
+    static void set_UnityInputMeshAttr(::StringW value);
     // static public UnityEngine.Color get_LineColor()
     // Offset: 0x1840C38
     static UnityEngine::Color get_LineColor();
@@ -186,16 +187,16 @@ namespace HoudiniEngineUnity {
     static void set_LineColor(UnityEngine::Color value);
     // static public System.String get_EditorOnly_Tag()
     // Offset: 0x1840D78
-    static ::Il2CppString* get_EditorOnly_Tag();
+    static ::StringW get_EditorOnly_Tag();
     // static public System.Void set_EditorOnly_Tag(System.String value)
     // Offset: 0x1840DEC
-    static void set_EditorOnly_Tag(::Il2CppString* value);
+    static void set_EditorOnly_Tag(::StringW value);
     // static public System.String get_HDAData_Name()
     // Offset: 0x1840EAC
-    static ::Il2CppString* get_HDAData_Name();
+    static ::StringW get_HDAData_Name();
     // static public System.Void set_HDAData_Name(System.String value)
     // Offset: 0x1840F20
-    static void set_HDAData_Name(::Il2CppString* value);
+    static void set_HDAData_Name(::StringW value);
     // static public HoudiniEngineUnity.SessionMode get_Session_Mode()
     // Offset: 0x1840F7C
     static HoudiniEngineUnity::SessionMode get_Session_Mode();
@@ -204,16 +205,16 @@ namespace HoudiniEngineUnity {
     static void set_Session_Mode(HoudiniEngineUnity::SessionMode value);
     // static public System.String get_Session_PipeName()
     // Offset: 0x1841204
-    static ::Il2CppString* get_Session_PipeName();
+    static ::StringW get_Session_PipeName();
     // static public System.Void set_Session_PipeName(System.String value)
     // Offset: 0x1841278
-    static void set_Session_PipeName(::Il2CppString* value);
+    static void set_Session_PipeName(::StringW value);
     // static public System.String get_Session_Localhost()
     // Offset: 0x18412D4
-    static ::Il2CppString* get_Session_Localhost();
+    static ::StringW get_Session_Localhost();
     // static public System.Void set_Session_Localhost(System.String value)
     // Offset: 0x1841348
-    static void set_Session_Localhost(::Il2CppString* value);
+    static void set_Session_Localhost(::StringW value);
     // static public System.Int32 get_Session_Port()
     // Offset: 0x18413A4
     static int get_Session_Port();
@@ -240,10 +241,10 @@ namespace HoudiniEngineUnity {
     static void set_Curves_ShowInSceneView(bool value);
     // static public System.String get_AssetCachePath()
     // Offset: 0x18416D4
-    static ::Il2CppString* get_AssetCachePath();
+    static ::StringW get_AssetCachePath();
     // static public System.Void set_AssetCachePath(System.String value)
     // Offset: 0x1841748
-    static void set_AssetCachePath(::Il2CppString* value);
+    static void set_AssetCachePath(::StringW value);
     // static public System.Boolean get_UseFullPathNamesForOutput()
     // Offset: 0x18417A4
     static bool get_UseFullPathNamesForOutput();
@@ -252,10 +253,10 @@ namespace HoudiniEngineUnity {
     static void set_UseFullPathNamesForOutput(bool value);
     // static public System.Collections.Generic.List`1<System.String> get_HEngineToolsShelves()
     // Offset: 0x184186C
-    static System::Collections::Generic::List_1<::Il2CppString*>* get_HEngineToolsShelves();
+    static System::Collections::Generic::List_1<::StringW>* get_HEngineToolsShelves();
     // static public System.Void set_HEngineToolsShelves(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0x1841A64
-    static void set_HEngineToolsShelves(System::Collections::Generic::List_1<::Il2CppString*>* value);
+    static void set_HEngineToolsShelves(System::Collections::Generic::List_1<::StringW>* value);
     // static public System.Int32 get_HEngineShelfSelectedIndex()
     // Offset: 0x1841C04
     static int get_HEngineShelfSelectedIndex();
@@ -264,40 +265,40 @@ namespace HoudiniEngineUnity {
     static void set_HEngineShelfSelectedIndex(int value);
     // static public System.String get_DefaultTerrainMaterial()
     // Offset: 0x1841CC8
-    static ::Il2CppString* get_DefaultTerrainMaterial();
+    static ::StringW get_DefaultTerrainMaterial();
     // static public System.Void set_DefaultTerrainMaterial(System.String value)
     // Offset: 0x1841D3C
-    static void set_DefaultTerrainMaterial(::Il2CppString* value);
+    static void set_DefaultTerrainMaterial(::StringW value);
     // static public System.String get_TerrainSplatTextureDefault()
     // Offset: 0x1841D98
-    static ::Il2CppString* get_TerrainSplatTextureDefault();
+    static ::StringW get_TerrainSplatTextureDefault();
     // static public System.Void set_TerrainSplatTextureDefault(System.String value)
     // Offset: 0x1841E0C
-    static void set_TerrainSplatTextureDefault(::Il2CppString* value);
+    static void set_TerrainSplatTextureDefault(::StringW value);
     // static public System.String get_DefaultStandardShader()
     // Offset: 0x1841E68
-    static ::Il2CppString* get_DefaultStandardShader();
+    static ::StringW get_DefaultStandardShader();
     // static public System.Void set_DefaultStandardShader(System.String value)
     // Offset: 0x18421AC
-    static void set_DefaultStandardShader(::Il2CppString* value);
+    static void set_DefaultStandardShader(::StringW value);
     // static public System.String get_DefaultVertexColorShader()
     // Offset: 0x1842208
-    static ::Il2CppString* get_DefaultVertexColorShader();
+    static ::StringW get_DefaultVertexColorShader();
     // static public System.Void set_DefaultVertexColorShader(System.String value)
     // Offset: 0x1842360
-    static void set_DefaultVertexColorShader(::Il2CppString* value);
+    static void set_DefaultVertexColorShader(::StringW value);
     // static public System.String get_DefaultTransparentShader()
     // Offset: 0x18423BC
-    static ::Il2CppString* get_DefaultTransparentShader();
+    static ::StringW get_DefaultTransparentShader();
     // static public System.Void set_DefaultTransparentShader(System.String value)
     // Offset: 0x1842514
-    static void set_DefaultTransparentShader(::Il2CppString* value);
+    static void set_DefaultTransparentShader(::StringW value);
     // static public System.String get_DefaultCurveShader()
     // Offset: 0x1842570
-    static ::Il2CppString* get_DefaultCurveShader();
+    static ::StringW get_DefaultCurveShader();
     // static public System.Void set_DefaultCurveShader(System.String value)
     // Offset: 0x1842688
-    static void set_DefaultCurveShader(::Il2CppString* value);
+    static void set_DefaultCurveShader(::StringW value);
     // static public System.Boolean get_SupportHoudiniBoxType()
     // Offset: 0x18426E4
     static bool get_SupportHoudiniBoxType();
@@ -318,16 +319,16 @@ namespace HoudiniEngineUnity {
     static void set_SetCurrentThreadToInvariantCulture(bool value);
     // static public System.String get_HoudiniDebugLaunchPath()
     // Offset: 0x1842A8C
-    static ::Il2CppString* get_HoudiniDebugLaunchPath();
+    static ::StringW get_HoudiniDebugLaunchPath();
     // static public System.Void set_HoudiniDebugLaunchPath(System.String value)
     // Offset: 0x1842B74
-    static void set_HoudiniDebugLaunchPath(::Il2CppString* value);
+    static void set_HoudiniDebugLaunchPath(::StringW value);
     // static public System.String get_LastExportPath()
     // Offset: 0x1842BD0
-    static ::Il2CppString* get_LastExportPath();
+    static ::StringW get_LastExportPath();
     // static public System.Void set_LastExportPath(System.String value)
     // Offset: 0x1842C44
-    static void set_LastExportPath(::Il2CppString* value);
+    static void set_LastExportPath(::StringW value);
     // static public System.Int32 get_InputSelectionFilterLocation()
     // Offset: 0x1842CA0
     static int get_InputSelectionFilterLocation();
@@ -348,10 +349,10 @@ namespace HoudiniEngineUnity {
     static void set_InputSelectionFilterRoots(bool value);
     // static public System.String get_InputSelectionFilterName()
     // Offset: 0x1842EF4
-    static ::Il2CppString* get_InputSelectionFilterName();
+    static ::StringW get_InputSelectionFilterName();
     // static public System.Void set_InputSelectionFilterName(System.String value)
     // Offset: 0x1842F68
-    static void set_InputSelectionFilterName(::Il2CppString* value);
+    static void set_InputSelectionFilterName(::StringW value);
     // static public System.Boolean get_CookOptionSplitGeosByGroup()
     // Offset: 0x1842FC4
     static bool get_CookOptionSplitGeosByGroup();
@@ -366,16 +367,16 @@ namespace HoudiniEngineUnity {
     static void set_MaxVerticesPerPrimitive(int value);
     // static public System.String get_HoudiniInstallPath()
     // Offset: 0x1843150
-    static ::Il2CppString* get_HoudiniInstallPath();
+    static ::StringW get_HoudiniInstallPath();
     // static public System.Void set_HoudiniInstallPath(System.String value)
     // Offset: 0x18431C4
-    static void set_HoudiniInstallPath(::Il2CppString* value);
+    static void set_HoudiniInstallPath(::StringW value);
     // static public System.String get_LastHoudiniVersion()
     // Offset: 0x1843220
-    static ::Il2CppString* get_LastHoudiniVersion();
+    static ::StringW get_LastHoudiniVersion();
     // static public System.Void set_LastHoudiniVersion(System.String value)
     // Offset: 0x1843294
-    static void set_LastHoudiniVersion(::Il2CppString* value);
+    static void set_LastHoudiniVersion(::StringW value);
     // static public System.Boolean get_SessionSyncAutoCook()
     // Offset: 0x18432F0
     static bool get_SessionSyncAutoCook();
@@ -419,7 +420,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniEngineEnvFilePath
 // Il2CppName: get_HoudiniEngineEnvFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniEngineEnvFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniEngineEnvFilePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HoudiniEngineEnvFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -427,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniEngineEnvFilePath
 // Il2CppName: set_HoudiniEngineEnvFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniEngineEnvFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniEngineEnvFilePath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HoudiniEngineEnvFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -521,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_CollisionGroupName
 // Il2CppName: get_CollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_CollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_CollisionGroupName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_CollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -529,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_CollisionGroupName
 // Il2CppName: set_CollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_CollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_CollisionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_CollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -538,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_RenderedCollisionGroupName
 // Il2CppName: get_RenderedCollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_RenderedCollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_RenderedCollisionGroupName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_RenderedCollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -546,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_RenderedCollisionGroupName
 // Il2CppName: set_RenderedCollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_RenderedCollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_RenderedCollisionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_RenderedCollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -555,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_RenderedConvexCollisionGroupName
 // Il2CppName: get_RenderedConvexCollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_RenderedConvexCollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_RenderedConvexCollisionGroupName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_RenderedConvexCollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -563,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_RenderedConvexCollisionGroupName
 // Il2CppName: set_RenderedConvexCollisionGroupName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_RenderedConvexCollisionGroupName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_RenderedConvexCollisionGroupName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_RenderedConvexCollisionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -572,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityMaterialAttribName
 // Il2CppName: get_UnityMaterialAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityMaterialAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityMaterialAttribName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityMaterialAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -580,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityMaterialAttribName
 // Il2CppName: set_UnityMaterialAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityMaterialAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityMaterialAttribName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityMaterialAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -589,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialAttribName
 // Il2CppName: get_UnitySubMaterialAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialAttribName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnitySubMaterialAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -597,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialAttribName
 // Il2CppName: set_UnitySubMaterialAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialAttribName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnitySubMaterialAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -606,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialIndexAttribName
 // Il2CppName: get_UnitySubMaterialIndexAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialIndexAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialIndexAttribName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnitySubMaterialIndexAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -614,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialIndexAttribName
 // Il2CppName: set_UnitySubMaterialIndexAttribName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialIndexAttribName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialIndexAttribName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnitySubMaterialIndexAttribName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -623,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityTagAttributeName
 // Il2CppName: get_UnityTagAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityTagAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityTagAttributeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityTagAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -631,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityTagAttributeName
 // Il2CppName: set_UnityTagAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityTagAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityTagAttributeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityTagAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -640,7 +641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityStaticAttributeName
 // Il2CppName: get_UnityStaticAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityStaticAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityStaticAttributeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityStaticAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -648,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityStaticAttributeName
 // Il2CppName: set_UnityStaticAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityStaticAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityStaticAttributeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityStaticAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -657,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityScriptAttributeName
 // Il2CppName: get_UnityScriptAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityScriptAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityScriptAttributeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityScriptAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -665,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityScriptAttributeName
 // Il2CppName: set_UnityScriptAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityScriptAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityScriptAttributeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityScriptAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -674,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityLayerAttributeName
 // Il2CppName: get_UnityLayerAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityLayerAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityLayerAttributeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityLayerAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -682,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityLayerAttributeName
 // Il2CppName: set_UnityLayerAttributeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityLayerAttributeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityLayerAttributeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityLayerAttributeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -725,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHDAPath
 // Il2CppName: get_LastLoadHDAPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHDAPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHDAPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_LastLoadHDAPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -733,7 +734,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHDAPath
 // Il2CppName: set_LastLoadHDAPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHDAPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHDAPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_LastLoadHDAPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -742,7 +743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHIPPath
 // Il2CppName: get_LastLoadHIPPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHIPPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHIPPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_LastLoadHIPPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -750,7 +751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHIPPath
 // Il2CppName: set_LastLoadHIPPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHIPPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHIPPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_LastLoadHIPPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -759,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_InstanceAttr
 // Il2CppName: get_InstanceAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_InstanceAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_InstanceAttr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_InstanceAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -767,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_InstanceAttr
 // Il2CppName: set_InstanceAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_InstanceAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_InstanceAttr)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_InstanceAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -776,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityInstanceAttr
 // Il2CppName: get_UnityInstanceAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityInstanceAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityInstanceAttr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityInstanceAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -784,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityInstanceAttr
 // Il2CppName: set_UnityInstanceAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityInstanceAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityInstanceAttr)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityInstanceAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -793,7 +794,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_UnityInputMeshAttr
 // Il2CppName: get_UnityInputMeshAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityInputMeshAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_UnityInputMeshAttr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_UnityInputMeshAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -801,7 +802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_UnityInputMeshAttr
 // Il2CppName: set_UnityInputMeshAttr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityInputMeshAttr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_UnityInputMeshAttr)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_UnityInputMeshAttr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -827,7 +828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_EditorOnly_Tag
 // Il2CppName: get_EditorOnly_Tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_EditorOnly_Tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_EditorOnly_Tag)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_EditorOnly_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -835,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_EditorOnly_Tag
 // Il2CppName: set_EditorOnly_Tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_EditorOnly_Tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_EditorOnly_Tag)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_EditorOnly_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -844,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HDAData_Name
 // Il2CppName: get_HDAData_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HDAData_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HDAData_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HDAData_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -852,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HDAData_Name
 // Il2CppName: set_HDAData_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HDAData_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HDAData_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HDAData_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -878,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_Session_PipeName
 // Il2CppName: get_Session_PipeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_PipeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_PipeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_Session_PipeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -886,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_Session_PipeName
 // Il2CppName: set_Session_PipeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_PipeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_PipeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_Session_PipeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -895,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_Session_Localhost
 // Il2CppName: get_Session_Localhost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_Localhost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_Localhost)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_Session_Localhost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -903,7 +904,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_Session_Localhost
 // Il2CppName: set_Session_Localhost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_Localhost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_Localhost)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_Session_Localhost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -980,7 +981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_AssetCachePath
 // Il2CppName: get_AssetCachePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_AssetCachePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_AssetCachePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_AssetCachePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -988,7 +989,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_AssetCachePath
 // Il2CppName: set_AssetCachePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_AssetCachePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_AssetCachePath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_AssetCachePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1014,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves
 // Il2CppName: get_HEngineToolsShelves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HEngineToolsShelves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1022,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves
 // Il2CppName: set_HEngineToolsShelves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HEngineToolsShelves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1048,7 +1049,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTerrainMaterial
 // Il2CppName: get_DefaultTerrainMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTerrainMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTerrainMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_DefaultTerrainMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1056,7 +1057,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTerrainMaterial
 // Il2CppName: set_DefaultTerrainMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTerrainMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTerrainMaterial)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_DefaultTerrainMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1065,7 +1066,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_TerrainSplatTextureDefault
 // Il2CppName: get_TerrainSplatTextureDefault
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_TerrainSplatTextureDefault)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_TerrainSplatTextureDefault)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_TerrainSplatTextureDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1073,7 +1074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_TerrainSplatTextureDefault
 // Il2CppName: set_TerrainSplatTextureDefault
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_TerrainSplatTextureDefault)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_TerrainSplatTextureDefault)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_TerrainSplatTextureDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1082,7 +1083,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_DefaultStandardShader
 // Il2CppName: get_DefaultStandardShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultStandardShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultStandardShader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_DefaultStandardShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1090,7 +1091,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_DefaultStandardShader
 // Il2CppName: set_DefaultStandardShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultStandardShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultStandardShader)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_DefaultStandardShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1099,7 +1100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_DefaultVertexColorShader
 // Il2CppName: get_DefaultVertexColorShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultVertexColorShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultVertexColorShader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_DefaultVertexColorShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1107,7 +1108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_DefaultVertexColorShader
 // Il2CppName: set_DefaultVertexColorShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultVertexColorShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultVertexColorShader)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_DefaultVertexColorShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1116,7 +1117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTransparentShader
 // Il2CppName: get_DefaultTransparentShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTransparentShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTransparentShader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_DefaultTransparentShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1124,7 +1125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTransparentShader
 // Il2CppName: set_DefaultTransparentShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTransparentShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTransparentShader)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_DefaultTransparentShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1133,7 +1134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_DefaultCurveShader
 // Il2CppName: get_DefaultCurveShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultCurveShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_DefaultCurveShader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_DefaultCurveShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1141,7 +1142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_DefaultCurveShader
 // Il2CppName: set_DefaultCurveShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultCurveShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_DefaultCurveShader)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_DefaultCurveShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1201,7 +1202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniDebugLaunchPath
 // Il2CppName: get_HoudiniDebugLaunchPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniDebugLaunchPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniDebugLaunchPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HoudiniDebugLaunchPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1209,7 +1210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniDebugLaunchPath
 // Il2CppName: set_HoudiniDebugLaunchPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniDebugLaunchPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniDebugLaunchPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HoudiniDebugLaunchPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1218,7 +1219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_LastExportPath
 // Il2CppName: get_LastExportPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastExportPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastExportPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_LastExportPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1226,7 +1227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_LastExportPath
 // Il2CppName: set_LastExportPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastExportPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastExportPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_LastExportPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1286,7 +1287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterName
 // Il2CppName: get_InputSelectionFilterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_InputSelectionFilterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1294,7 +1295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterName
 // Il2CppName: set_InputSelectionFilterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_InputSelectionFilterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1337,7 +1338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniInstallPath
 // Il2CppName: get_HoudiniInstallPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniInstallPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniInstallPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HoudiniInstallPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1345,7 +1346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniInstallPath
 // Il2CppName: set_HoudiniInstallPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniInstallPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniInstallPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HoudiniInstallPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1354,7 +1355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_LastHoudiniVersion
 // Il2CppName: get_LastHoudiniVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastHoudiniVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LastHoudiniVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_LastHoudiniVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1362,7 +1363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_LastHoudiniVersion
 // Il2CppName: set_LastHoudiniVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastHoudiniVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LastHoudiniVersion)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_LastHoudiniVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

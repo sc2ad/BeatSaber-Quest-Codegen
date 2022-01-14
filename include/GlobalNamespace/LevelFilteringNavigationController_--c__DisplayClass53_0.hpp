@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -55,7 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
     // Offset: 0x12F9230
-    bool $SelectAnnotatedBeatmapLevelCollection$b__1(::Il2CppString* packID);
+    bool $SelectAnnotatedBeatmapLevelCollection$b__1(::StringW packID);
     // public System.Void .ctor()
     // Offset: 0x12F8F48
     // Implemented from: System.Object
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::$SelectAnnotatedBeatmapLevelCollection$b__1
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::*)(::Il2CppString*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::$SelectAnnotatedBeatmapLevelCollection$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::*)(::StringW)>(&GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::$SelectAnnotatedBeatmapLevelCollection$b__1)> {
   static const MethodInfo* get() {
     static auto* packID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0*), "<SelectAnnotatedBeatmapLevelCollection>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packID});

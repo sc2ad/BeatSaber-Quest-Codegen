@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -71,7 +72,7 @@ namespace UnityEngine {
     static UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
     // static public System.String get_graphicsDeviceVersion()
     // Offset: 0x2431AC4
-    static ::Il2CppString* get_graphicsDeviceVersion();
+    static ::StringW get_graphicsDeviceVersion();
     // static public System.Boolean get_supportsInstancing()
     // Offset: 0x2431B2C
     static bool get_supportsInstancing();
@@ -98,7 +99,7 @@ namespace UnityEngine {
     static UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
     // static private System.String GetGraphicsDeviceVersion()
     // Offset: 0x2431AF8
-    static ::Il2CppString* GetGraphicsDeviceVersion();
+    static ::StringW GetGraphicsDeviceVersion();
     // static private System.Boolean SupportsInstancing()
     // Offset: 0x2431B60
     static bool SupportsInstancing();
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_graphicsDeviceVersion
 // Il2CppName: get_graphicsDeviceVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_graphicsDeviceVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsDeviceVersion
 // Il2CppName: GetGraphicsDeviceVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsDeviceVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
@@ -24,13 +25,13 @@ namespace NUnit::Framework {
     public:
     // static public System.Void ArgumentNotNull(System.Object value, System.String name)
     // Offset: 0x1941120
-    static void ArgumentNotNull(::Il2CppObject* value, ::Il2CppString* name);
+    static void ArgumentNotNull(::Il2CppObject* value, ::StringW name);
     // static public System.Void ArgumentNotNullOrEmpty(System.String value, System.String name)
     // Offset: 0x19411D4
-    static void ArgumentNotNullOrEmpty(::Il2CppString* value, ::Il2CppString* name);
+    static void ArgumentNotNullOrEmpty(::StringW value, ::StringW name);
     // static public System.Void ArgumentValid(System.Boolean condition, System.String message, System.String paramName)
     // Offset: 0x19412B4
-    static void ArgumentValid(bool condition, ::Il2CppString* message, ::Il2CppString* paramName);
+    static void ArgumentValid(bool condition, ::StringW message, ::StringW paramName);
   }; // NUnit.Framework.Guard
   #pragma pack(pop)
 }
@@ -38,7 +39,7 @@ namespace NUnit::Framework {
 // Writing MetadataGetter for method: NUnit::Framework::Guard::ArgumentNotNull
 // Il2CppName: ArgumentNotNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&NUnit::Framework::Guard::ArgumentNotNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::StringW)>(&NUnit::Framework::Guard::ArgumentNotNull)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: NUnit::Framework::Guard::ArgumentNotNullOrEmpty
 // Il2CppName: ArgumentNotNullOrEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Guard::ArgumentNotNullOrEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&NUnit::Framework::Guard::ArgumentNotNullOrEmpty)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -58,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: NUnit::Framework::Guard::ArgumentValid
 // Il2CppName: ArgumentValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Guard::ArgumentValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::StringW, ::StringW)>(&NUnit::Framework::Guard::ArgumentValid)> {
   static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

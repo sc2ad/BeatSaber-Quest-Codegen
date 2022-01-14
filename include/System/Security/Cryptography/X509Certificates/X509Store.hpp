@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -60,9 +61,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Security.Cryptography.X509Certificates.StoreLocation _location
     // Size: 0x4
     // Offset: 0x18
@@ -97,7 +98,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return *reinterpret_cast<System::IDisposable*>(this);
     }
     // Get instance field reference: private System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation _location
     System::Security::Cryptography::X509Certificates::StoreLocation& dyn__location();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2Collection list

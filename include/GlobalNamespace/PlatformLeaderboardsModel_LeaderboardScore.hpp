@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -60,34 +61,34 @@ namespace GlobalNamespace {
     // public readonly System.String playerName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String playerId
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* playerId;
+    ::StringW playerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 score
     int& dyn_score();
     // Get instance field reference: public readonly System.Int32 rank
     int& dyn_rank();
     // Get instance field reference: public readonly System.String playerName
-    ::Il2CppString*& dyn_playerName();
+    ::StringW& dyn_playerName();
     // Get instance field reference: public readonly System.String playerId
-    ::Il2CppString*& dyn_playerId();
+    ::StringW& dyn_playerId();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
     // Offset: 0x11513B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::Il2CppString* playerName, ::Il2CppString* playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
+    static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::LeaderboardScore*, creationType>(score, rank, playerName, playerId, gameplayModifiers)));
     }
   }; // PlatformLeaderboardsModel/LeaderboardScore
   #pragma pack(pop)
-  static check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(::Il2CppString*)> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
+  static check_size<sizeof(PlatformLeaderboardsModel::LeaderboardScore), 32 + sizeof(::StringW)> __GlobalNamespace_PlatformLeaderboardsModel_LeaderboardScoreSizeCheck;
   static_assert(sizeof(PlatformLeaderboardsModel::LeaderboardScore) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

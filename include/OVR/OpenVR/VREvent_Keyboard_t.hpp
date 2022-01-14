@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Forward declaring type: VREvent_Keyboard_t
@@ -109,7 +107,7 @@ namespace OVR::OpenVR {
     uint64_t& dyn_uUserValue();
     // public System.String get_cNewInput()
     // Offset: 0x13D93D8
-    ::Il2CppString* get_cNewInput();
+    ::StringW get_cNewInput();
   }; // OVR.OpenVR.VREvent_Keyboard_t
   #pragma pack(pop)
   static check_size<sizeof(VREvent_Keyboard_t), 8 + sizeof(uint64_t)> __OVR_OpenVR_VREvent_Keyboard_tSizeCheck;
@@ -119,7 +117,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput
 // Il2CppName: get_cNewInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::VREvent_Keyboard_t::*)()>(&OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::VREvent_Keyboard_t::*)()>(&OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::VREvent_Keyboard_t), "get_cNewInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

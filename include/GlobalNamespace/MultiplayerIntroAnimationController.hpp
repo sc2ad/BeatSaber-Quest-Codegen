@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -91,15 +92,15 @@ namespace GlobalNamespace {
     // private System.String[] _playerTimelineTrackNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> playerTimelineTrackNames;
+    ::ArrayW<::StringW> playerTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.String[] _ringTimelineTrackNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> ringTimelineTrackNames;
+    ::ArrayW<::StringW> ringTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x30
@@ -110,15 +111,15 @@ namespace GlobalNamespace {
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* localPlayerTrackName;
+    ::StringW localPlayerTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _localPlayerRingTrackName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* localPlayerRingTrackName;
+    ::StringW localPlayerRingTrackName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     // Size: 0x4
     // Offset: 0x48
@@ -143,9 +144,9 @@ namespace GlobalNamespace {
     // private System.String _endMarkerName
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* endMarkerName;
+    ::StringW endMarkerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [SpaceAttribute] Offset: 0xF3E7E4
     // private MultiplayerScoreRingManager _scoreRingManager
     // Size: 0x8
@@ -198,15 +199,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__playerTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::ArrayW<::Il2CppString*>& dyn__ringTimelineTrackNames();
+    ::ArrayW<::StringW>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     ::ArrayW<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
-    ::Il2CppString*& dyn__localPlayerTrackName();
+    ::StringW& dyn__localPlayerTrackName();
     // Get instance field reference: private System.String _localPlayerRingTrackName
-    ::Il2CppString*& dyn__localPlayerRingTrackName();
+    ::StringW& dyn__localPlayerRingTrackName();
     // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
     // Get instance field reference: private System.Single _firstConnectedPlayerStart
@@ -214,7 +215,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnDuration
     float& dyn__spawnDuration();
     // Get instance field reference: private System.String _endMarkerName
-    ::Il2CppString*& dyn__endMarkerName();
+    ::StringW& dyn__endMarkerName();
     // Get instance field reference: private MultiplayerScoreRingManager _scoreRingManager
     GlobalNamespace::MultiplayerScoreRingManager*& dyn__scoreRingManager();
     // Get instance field reference: private readonly MultiplayerPlayersManager _multiplayerPlayersManager

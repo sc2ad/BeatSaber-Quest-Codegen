@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -150,9 +151,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.String <WorkDirectory>k__BackingField
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* WorkDirectory;
+    ::StringW WorkDirectory;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
     // Size: 0x4
     // Offset: 0x58
@@ -224,9 +225,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.String <WorkerId>k__BackingField
     // Size: 0x8
     // Offset: 0xA8
-    ::Il2CppString* WorkerId;
+    ::StringW WorkerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
     // Size: 0x8
     // Offset: 0xB0
@@ -291,7 +292,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private System.Object <TestObject>k__BackingField
     ::Il2CppObject*& dyn_$TestObject$k__BackingField();
     // Get instance field reference: private System.String <WorkDirectory>k__BackingField
-    ::Il2CppString*& dyn_$WorkDirectory$k__BackingField();
+    ::StringW& dyn_$WorkDirectory$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.TestExecutionStatus _executionStatus
     NUnit::Framework::Internal::TestExecutionStatus& dyn__executionStatus();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <UpstreamActions>k__BackingField
@@ -313,7 +314,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private NUnit.Framework.ParallelScope <ParallelScope>k__BackingField
     NUnit::Framework::ParallelScope& dyn_$ParallelScope$k__BackingField();
     // Get instance field reference: private System.String <WorkerId>k__BackingField
-    ::Il2CppString*& dyn_$WorkerId$k__BackingField();
+    ::StringW& dyn_$WorkerId$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Randomizer <RandomGenerator>k__BackingField
     NUnit::Framework::Internal::Randomizer*& dyn_$RandomGenerator$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Constraints.ValueFormatter <CurrentValueFormatter>k__BackingField
@@ -364,10 +365,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     void set_TestObject(::Il2CppObject* value);
     // public System.String get_WorkDirectory()
     // Offset: 0x16C752C
-    ::Il2CppString* get_WorkDirectory();
+    ::StringW get_WorkDirectory();
     // public System.Void set_WorkDirectory(System.String value)
     // Offset: 0x16C7534
-    void set_WorkDirectory(::Il2CppString* value);
+    void set_WorkDirectory(::StringW value);
     // public NUnit.Framework.Internal.TestExecutionStatus get_ExecutionStatus()
     // Offset: 0x16BEB64
     NUnit::Framework::Internal::TestExecutionStatus get_ExecutionStatus();
@@ -561,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_WorkDirectory
 // Il2CppName: get_WorkDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_WorkDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_WorkDirectory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "get_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -569,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_WorkDirectory
 // Il2CppName: set_WorkDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_WorkDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::*)(::StringW)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::set_WorkDirectory)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*), "set_WorkDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

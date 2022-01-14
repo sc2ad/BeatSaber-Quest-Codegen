@@ -9,15 +9,13 @@
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Unity::Profiling
 namespace Unity::Profiling {
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
   // Forward declaring type: ProfilerMarker
@@ -61,13 +59,13 @@ namespace Unity::Profiling {
     System::IntPtr& dyn_m_Ptr();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1CFC388
-    ProfilerMarker(::Il2CppString* name);
+    ProfilerMarker(::StringW name);
     // public Unity.Profiling.ProfilerMarker/Unity.Profiling.AutoScope Auto()
     // Offset: 0x1CFC430
     Unity::Profiling::ProfilerMarker::AutoScope Auto();
     // static System.IntPtr Internal_Create(System.String name, System.UInt16 flags)
     // Offset: 0x1CFC3E0
-    static System::IntPtr Internal_Create(::Il2CppString* name, uint16_t flags);
+    static System::IntPtr Internal_Create(::StringW name, uint16_t flags);
     // static System.Void Internal_Begin(System.IntPtr markerPtr)
     // Offset: 0x1CFC478
     static void Internal_Begin(System::IntPtr markerPtr);
@@ -95,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Prof
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, uint16_t)>(&Unity::Profiling::ProfilerMarker::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, uint16_t)>(&Unity::Profiling::ProfilerMarker::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;

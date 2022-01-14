@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -38,16 +39,16 @@ namespace HoudiniEngineUnity {
     // public System.String _gameObjectName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* gameObjectName;
+    ::StringW gameObjectName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return gameObjectName;
     }
     // Get instance field reference: public System.String _gameObjectName
-    ::Il2CppString*& dyn__gameObjectName();
+    ::StringW& dyn__gameObjectName();
     // public System.Void .ctor()
     // Offset: 0x158ABE4
     // Implemented from: System.Object
@@ -59,7 +60,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_InputAssetPreset
   #pragma pack(pop)
-  static check_size<sizeof(HEU_InputAssetPreset), 16 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_InputAssetPresetSizeCheck;
+  static check_size<sizeof(HEU_InputAssetPreset), 16 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_InputAssetPresetSizeCheck;
   static_assert(sizeof(HEU_InputAssetPreset) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

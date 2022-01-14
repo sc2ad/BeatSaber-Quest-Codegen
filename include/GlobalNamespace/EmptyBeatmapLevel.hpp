@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -70,33 +71,33 @@ namespace GlobalNamespace {
     // private readonly System.String <levelID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* levelID;
+    ::StringW levelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String <songName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* songName;
+    ::StringW songName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String <songSubName>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* songSubName;
+    ::StringW songSubName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String <songAuthorName>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* songAuthorName;
+    ::StringW songAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.String <levelAuthorName>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* levelAuthorName;
+    ::StringW levelAuthorName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly System.Single <beatsPerMinute>k__BackingField
     // Size: 0x4
     // Offset: 0x38
@@ -171,15 +172,15 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
     }
     // Get instance field reference: private readonly System.String <levelID>k__BackingField
-    ::Il2CppString*& dyn_$levelID$k__BackingField();
+    ::StringW& dyn_$levelID$k__BackingField();
     // Get instance field reference: private readonly System.String <songName>k__BackingField
-    ::Il2CppString*& dyn_$songName$k__BackingField();
+    ::StringW& dyn_$songName$k__BackingField();
     // Get instance field reference: private readonly System.String <songSubName>k__BackingField
-    ::Il2CppString*& dyn_$songSubName$k__BackingField();
+    ::StringW& dyn_$songSubName$k__BackingField();
     // Get instance field reference: private readonly System.String <songAuthorName>k__BackingField
-    ::Il2CppString*& dyn_$songAuthorName$k__BackingField();
+    ::StringW& dyn_$songAuthorName$k__BackingField();
     // Get instance field reference: private readonly System.String <levelAuthorName>k__BackingField
-    ::Il2CppString*& dyn_$levelAuthorName$k__BackingField();
+    ::StringW& dyn_$levelAuthorName$k__BackingField();
     // Get instance field reference: private readonly System.Single <beatsPerMinute>k__BackingField
     float& dyn_$beatsPerMinute$k__BackingField();
     // Get instance field reference: private readonly System.Single <songTimeOffset>k__BackingField
@@ -204,19 +205,19 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
     // public System.String get_levelID()
     // Offset: 0x11DC464
-    ::Il2CppString* get_levelID();
+    ::StringW get_levelID();
     // public System.String get_songName()
     // Offset: 0x11DC46C
-    ::Il2CppString* get_songName();
+    ::StringW get_songName();
     // public System.String get_songSubName()
     // Offset: 0x11DC474
-    ::Il2CppString* get_songSubName();
+    ::StringW get_songSubName();
     // public System.String get_songAuthorName()
     // Offset: 0x11DC47C
-    ::Il2CppString* get_songAuthorName();
+    ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
     // Offset: 0x11DC484
-    ::Il2CppString* get_levelAuthorName();
+    ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
     // Offset: 0x11DC48C
     float get_beatsPerMinute();
@@ -274,7 +275,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_levelID
 // Il2CppName: get_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_levelID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_songName
 // Il2CppName: get_songName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -290,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_songSubName
 // Il2CppName: get_songSubName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songSubName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songSubName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -298,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_songAuthorName
 // Il2CppName: get_songAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_songAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -306,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_levelAuthorName
 // Il2CppName: get_levelAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_levelAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EmptyBeatmapLevel::*)()>(&GlobalNamespace::EmptyBeatmapLevel::get_levelAuthorName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EmptyBeatmapLevel*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

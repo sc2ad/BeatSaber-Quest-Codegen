@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -153,38 +154,38 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0xF8
-    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>* viewControllers;
+    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>* viewControllers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*) == 0x8);
     public:
     // [LocalizationKeyAttribute] Offset: 0xF42FF4
     // static field const value: static private System.String kHowToPlayMenu
     static constexpr const char* kHowToPlayMenu = "LABEL_HOW_TO_PLAY";
     // Get static field: static private System.String kHowToPlayMenu
-    static ::Il2CppString* _get_kHowToPlayMenu();
+    static ::StringW _get_kHowToPlayMenu();
     // Set static field: static private System.String kHowToPlayMenu
-    static void _set_kHowToPlayMenu(::Il2CppString* value);
+    static void _set_kHowToPlayMenu(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF43004
     // static field const value: static private System.String kPrivacyPolicyMenu
     static constexpr const char* kPrivacyPolicyMenu = "PRIVACY_POLICY_MENU";
     // Get static field: static private System.String kPrivacyPolicyMenu
-    static ::Il2CppString* _get_kPrivacyPolicyMenu();
+    static ::StringW _get_kPrivacyPolicyMenu();
     // Set static field: static private System.String kPrivacyPolicyMenu
-    static void _set_kPrivacyPolicyMenu(::Il2CppString* value);
+    static void _set_kPrivacyPolicyMenu(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF43014
     // static field const value: static private System.String kEulaMenu
     static constexpr const char* kEulaMenu = "EULA_MENU";
     // Get static field: static private System.String kEulaMenu
-    static ::Il2CppString* _get_kEulaMenu();
+    static ::StringW _get_kEulaMenu();
     // Set static field: static private System.String kEulaMenu
-    static void _set_kEulaMenu(::Il2CppString* value);
+    static void _set_kEulaMenu(::StringW value);
     // [LocalizationKeyAttribute] Offset: 0xF43024
     // static field const value: static private System.String kHealthWarningMenu
     static constexpr const char* kHealthWarningMenu = "HEALTH_AND_SAFETY_MENU";
     // Get static field: static private System.String kHealthWarningMenu
-    static ::Il2CppString* _get_kHealthWarningMenu();
+    static ::StringW _get_kHealthWarningMenu();
     // Set static field: static private System.String kHealthWarningMenu
-    static void _set_kHealthWarningMenu(::Il2CppString* value);
+    static void _set_kHealthWarningMenu(::StringW value);
     // Get instance field reference: private readonly HelpMenuViewController _helpMenuViewController
     GlobalNamespace::HelpMenuViewController*& dyn__helpMenuViewController();
     // Get instance field reference: private readonly HelpNavigationController _helpNavigationController
@@ -206,7 +207,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<HelpFlowCoordinator> didFinishEvent
     System::Action_1<GlobalNamespace::HelpFlowCoordinator*>*& dyn_didFinishEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
-    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*& dyn__viewControllers();
+    System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didFinishEvent(System.Action`1<HelpFlowCoordinator> value)
     // Offset: 0x119D75C
     void add_didFinishEvent(System::Action_1<GlobalNamespace::HelpFlowCoordinator*>* value);
@@ -253,7 +254,7 @@ namespace GlobalNamespace {
     void BackButtonWasPressed(HMUI::ViewController* topViewController);
   }; // HelpFlowCoordinator
   #pragma pack(pop)
-  static check_size<sizeof(HelpFlowCoordinator), 248 + sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::Il2CppString*>>*)> __GlobalNamespace_HelpFlowCoordinatorSizeCheck;
+  static check_size<sizeof(HelpFlowCoordinator), 248 + sizeof(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*)> __GlobalNamespace_HelpFlowCoordinatorSizeCheck;
   static_assert(sizeof(HelpFlowCoordinator) == 0x100);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -49,30 +50,30 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // private System.String[] m_Keys
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> m_Keys;
+    ::ArrayW<::StringW> m_Keys;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2D91C
     // private System.String m_InternalId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_InternalId;
+    ::StringW m_InternalId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2D968
     // private System.String m_Provider
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* m_Provider;
+    ::StringW m_Provider;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2D9B4
     // private System.String[] m_Dependencies
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> m_Dependencies;
+    ::ArrayW<::StringW> m_Dependencies;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
     // Size: 0x19
     // Offset: 0x30
@@ -95,13 +96,13 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.String[] m_Keys
-    ::ArrayW<::Il2CppString*>& dyn_m_Keys();
+    ::ArrayW<::StringW>& dyn_m_Keys();
     // Get instance field reference: private System.String m_InternalId
-    ::Il2CppString*& dyn_m_InternalId();
+    ::StringW& dyn_m_InternalId();
     // Get instance field reference: private System.String m_Provider
-    ::Il2CppString*& dyn_m_Provider();
+    ::StringW& dyn_m_Provider();
     // Get instance field reference: private System.String[] m_Dependencies
-    ::ArrayW<::Il2CppString*>& dyn_m_Dependencies();
+    ::ArrayW<::StringW>& dyn_m_Dependencies();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
     UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ResourceType();
     // Get instance field reference: private System.Byte[] SerializedData
@@ -110,16 +111,16 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     ::Il2CppObject*& dyn__Data();
     // public System.String[] get_Keys()
     // Offset: 0x1613F90
-    ::ArrayW<::Il2CppString*> get_Keys();
+    ::ArrayW<::StringW> get_Keys();
     // public System.String get_InternalId()
     // Offset: 0x1613F98
-    ::Il2CppString* get_InternalId();
+    ::StringW get_InternalId();
     // public System.String get_Provider()
     // Offset: 0x1613FA0
-    ::Il2CppString* get_Provider();
+    ::StringW get_Provider();
     // public System.String[] get_Dependencies()
     // Offset: 0x1613FA8
-    ::ArrayW<::Il2CppString*> get_Dependencies();
+    ::ArrayW<::StringW> get_Dependencies();
     // public System.Type get_ResourceType()
     // Offset: 0x1613FB0
     System::Type* get_ResourceType();
@@ -132,7 +133,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // public System.Void .ctor(System.String[] keys, System.String id, System.Type provider, System.Type t, System.String[] dependencies)
     // Offset: 0x16140AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceLocationData* New_ctor(::ArrayW<::Il2CppString*> keys, ::Il2CppString* id, System::Type* provider, System::Type* t, ::ArrayW<::Il2CppString*> dependencies) {
+    static ResourceLocationData* New_ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type* provider, System::Type* t, ::ArrayW<::StringW> dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationData*, creationType>(keys, id, provider, t, dependencies)));
     }
@@ -145,7 +146,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_InternalId
 // Il2CppName: get_InternalId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_InternalId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_InternalId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*), "get_InternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Provider
 // Il2CppName: get_Provider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Provider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Provider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*), "get_Provider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Dependencies
 // Il2CppName: get_Dependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Dependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_Dependencies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*), "get_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

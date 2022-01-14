@@ -9,6 +9,7 @@
 #include "Oculus/Platform/CAPI.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
@@ -33,15 +34,15 @@ namespace Oculus::Platform {
     // public System.String email
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* email;
+    ::StringW email;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String password
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* password;
+    ::StringW password;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.UInt64 appId
     // Size: 0x8
     // Offset: 0x18
@@ -51,12 +52,12 @@ namespace Oculus::Platform {
     // public System.String uriPrefixOverride
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* uriPrefixOverride;
+    ::StringW uriPrefixOverride;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: OculusInitParams
-    constexpr OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) noexcept : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
+    constexpr OculusInitParams(int sType_ = {}, ::StringW email_ = {}, ::StringW password_ = {}, uint64_t appId_ = {}, ::StringW uriPrefixOverride_ = {}) noexcept : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -64,16 +65,16 @@ namespace Oculus::Platform {
     // Get instance field reference: public System.Int32 sType
     int& dyn_sType();
     // Get instance field reference: public System.String email
-    ::Il2CppString*& dyn_email();
+    ::StringW& dyn_email();
     // Get instance field reference: public System.String password
-    ::Il2CppString*& dyn_password();
+    ::StringW& dyn_password();
     // Get instance field reference: public System.UInt64 appId
     uint64_t& dyn_appId();
     // Get instance field reference: public System.String uriPrefixOverride
-    ::Il2CppString*& dyn_uriPrefixOverride();
+    ::StringW& dyn_uriPrefixOverride();
   }; // Oculus.Platform.CAPI/Oculus.Platform.OculusInitParams
   #pragma pack(pop)
-  static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::Il2CppString*)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;
+  static check_size<sizeof(CAPI::OculusInitParams), 32 + sizeof(::StringW)> __Oculus_Platform_CAPI_OculusInitParamsSizeCheck;
   static_assert(sizeof(CAPI::OculusInitParams) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

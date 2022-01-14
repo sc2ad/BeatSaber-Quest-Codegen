@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Polyglot
 namespace Polyglot {
@@ -42,9 +43,9 @@ namespace Polyglot {
     // private System.String preferenceKey
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* preferenceKey;
+    ::StringW preferenceKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
@@ -53,7 +54,7 @@ namespace Polyglot {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String preferenceKey
-    ::Il2CppString*& dyn_preferenceKey();
+    ::StringW& dyn_preferenceKey();
     // public System.Void Start()
     // Offset: 0x262B5E8
     void Start();
@@ -75,7 +76,7 @@ namespace Polyglot {
     }
   }; // Polyglot.SaveLanguagePreference
   #pragma pack(pop)
-  static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::Il2CppString*)> __Polyglot_SaveLanguagePreferenceSizeCheck;
+  static check_size<sizeof(SaveLanguagePreference), 24 + sizeof(::StringW)> __Polyglot_SaveLanguagePreferenceSizeCheck;
   static_assert(sizeof(SaveLanguagePreference) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

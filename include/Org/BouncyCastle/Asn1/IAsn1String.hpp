@@ -4,10 +4,8 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Forward declaring type: IAsn1String
@@ -26,7 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // public System.String GetString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetString();
+    ::StringW GetString();
   }; // Org.BouncyCastle.Asn1.IAsn1String
   #pragma pack(pop)
 }
@@ -34,7 +32,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IAsn1String::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::IAsn1String::*)()>(&Org::BouncyCastle::Asn1::IAsn1String::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::IAsn1String::*)()>(&Org::BouncyCastle::Asn1::IAsn1String::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::IAsn1String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

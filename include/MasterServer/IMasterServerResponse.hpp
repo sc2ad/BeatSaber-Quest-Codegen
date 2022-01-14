@@ -7,10 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerMessage
 #include "MasterServer/IMasterServerMessage.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: MasterServer
 namespace MasterServer {
   // Forward declaring type: IMasterServerResponse
@@ -39,7 +37,7 @@ namespace MasterServer {
     uint8_t get_resultCode();
     // public System.String get_resultCodeString()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_resultCodeString();
+    ::StringW get_resultCodeString();
     // public MasterServer.IMasterServerResponse WithResponseId(System.UInt32 responseId)
     // Offset: 0xFFFFFFFF
     MasterServer::IMasterServerResponse* WithResponseId(uint responseId);
@@ -66,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ma
 // Writing MetadataGetter for method: MasterServer::IMasterServerResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IMasterServerResponse::*)()>(&MasterServer::IMasterServerResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (MasterServer::IMasterServerResponse::*)()>(&MasterServer::IMasterServerResponse::get_resultCodeString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

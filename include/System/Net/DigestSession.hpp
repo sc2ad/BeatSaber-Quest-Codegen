@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -88,9 +89,9 @@ namespace System::Net {
     // private System.String _cnonce
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* cnonce;
+    ::StringW cnonce;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
@@ -105,25 +106,25 @@ namespace System::Net {
     // Get instance field reference: private System.Net.DigestHeaderParser parser
     System::Net::DigestHeaderParser*& dyn_parser();
     // Get instance field reference: private System.String _cnonce
-    ::Il2CppString*& dyn__cnonce();
+    ::StringW& dyn__cnonce();
     // public System.String get_Algorithm()
     // Offset: 0x15ED7F8
-    ::Il2CppString* get_Algorithm();
+    ::StringW get_Algorithm();
     // public System.String get_Realm()
     // Offset: 0x15ED810
-    ::Il2CppString* get_Realm();
+    ::StringW get_Realm();
     // public System.String get_Nonce()
     // Offset: 0x15EC88C
-    ::Il2CppString* get_Nonce();
+    ::StringW get_Nonce();
     // public System.String get_Opaque()
     // Offset: 0x15ED828
-    ::Il2CppString* get_Opaque();
+    ::StringW get_Opaque();
     // public System.String get_QOP()
     // Offset: 0x15ED840
-    ::Il2CppString* get_QOP();
+    ::StringW get_QOP();
     // public System.String get_CNonce()
     // Offset: 0x15ED858
-    ::Il2CppString* get_CNonce();
+    ::StringW get_CNonce();
     // public System.DateTime get_LastUse()
     // Offset: 0x15EDDF0
     System::DateTime get_LastUse();
@@ -132,19 +133,19 @@ namespace System::Net {
     static void _cctor();
     // public System.Boolean Parse(System.String challenge)
     // Offset: 0x15EC7B0
-    bool Parse(::Il2CppString* challenge);
+    bool Parse(::StringW challenge);
     // private System.String HashToHexString(System.String toBeHashed)
     // Offset: 0x15ED954
-    ::Il2CppString* HashToHexString(::Il2CppString* toBeHashed);
+    ::StringW HashToHexString(::StringW toBeHashed);
     // private System.String HA1(System.String username, System.String password)
     // Offset: 0x15EDAAC
-    ::Il2CppString* HA1(::Il2CppString* username, ::Il2CppString* password);
+    ::StringW HA1(::StringW username, ::StringW password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
     // Offset: 0x15EDBCC
-    ::Il2CppString* HA2(System::Net::HttpWebRequest* webRequest);
+    ::StringW HA2(System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
     // Offset: 0x15EDCA0
-    ::Il2CppString* Response(::Il2CppString* username, ::Il2CppString* password, System::Net::HttpWebRequest* webRequest);
+    ::StringW Response(::StringW username, ::StringW password, System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     // Offset: 0x15EC8A4
     System::Net::Authorization* Authenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
@@ -159,14 +160,14 @@ namespace System::Net {
     }
   }; // System.Net.DigestSession
   #pragma pack(pop)
-  static check_size<sizeof(DigestSession), 48 + sizeof(::Il2CppString*)> __System_Net_DigestSessionSizeCheck;
+  static check_size<sizeof(DigestSession), 48 + sizeof(::StringW)> __System_Net_DigestSessionSizeCheck;
   static_assert(sizeof(DigestSession) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestSession::get_Algorithm
 // Il2CppName: get_Algorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Algorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Algorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_Algorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::get_Realm
 // Il2CppName: get_Realm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Realm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Realm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::get_Nonce
 // Il2CppName: get_Nonce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Nonce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Nonce)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_Nonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::get_Opaque
 // Il2CppName: get_Opaque
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Opaque)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_Opaque)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_Opaque", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::get_QOP
 // Il2CppName: get_QOP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_QOP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_QOP)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_QOP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::get_CNonce
 // Il2CppName: get_CNonce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_CNonce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_CNonce)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_CNonce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -230,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::DigestSession::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestSession::*)(::Il2CppString*)>(&System::Net::DigestSession::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestSession::*)(::StringW)>(&System::Net::DigestSession::Parse)> {
   static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challenge});
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::DigestSession::HashToHexString
 // Il2CppName: HashToHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*)>(&System::Net::DigestSession::HashToHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::StringW)>(&System::Net::DigestSession::HashToHexString)> {
   static const MethodInfo* get() {
     static auto* toBeHashed = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HashToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toBeHashed});
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::HA1
 // Il2CppName: HA1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::DigestSession::HA1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::StringW, ::StringW)>(&System::Net::DigestSession::HA1)> {
   static const MethodInfo* get() {
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::HA2
 // Il2CppName: HA2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(System::Net::HttpWebRequest*)>(&System::Net::DigestSession::HA2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(System::Net::HttpWebRequest*)>(&System::Net::DigestSession::HA2)> {
   static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest});
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::DigestSession::Response
 // Il2CppName: Response
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*, ::Il2CppString*, System::Net::HttpWebRequest*)>(&System::Net::DigestSession::Response)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::StringW, ::StringW, System::Net::HttpWebRequest*)>(&System::Net::DigestSession::Response)> {
   static const MethodInfo* get() {
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

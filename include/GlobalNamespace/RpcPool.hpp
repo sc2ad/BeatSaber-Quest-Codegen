@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Obtain() {
-      static_assert(std::is_base_of_v<GlobalNamespace::IRemoteProcedureCall, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IRemoteProcedureCall>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RpcPool::Obtain");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "RpcPool", "Obtain", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

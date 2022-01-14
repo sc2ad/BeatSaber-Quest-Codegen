@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -189,9 +190,9 @@ namespace GlobalNamespace {
     // private System.String _actionButtonTextInDetailView
     // Size: 0x8
     // Offset: 0x100
-    ::Il2CppString* actionButtonTextInDetailView;
+    ::StringW actionButtonTextInDetailView;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private IBeatmapLevelPack _levelPack
     // Size: 0x8
     // Offset: 0x108
@@ -266,7 +267,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showPracticeButtonInDetailView
     bool& dyn__showPracticeButtonInDetailView();
     // Get instance field reference: private System.String _actionButtonTextInDetailView
-    ::Il2CppString*& dyn__actionButtonTextInDetailView();
+    ::StringW& dyn__actionButtonTextInDetailView();
     // Get instance field reference: private IBeatmapLevelPack _levelPack
     GlobalNamespace::IBeatmapLevelPack*& dyn__levelPack();
     // Get instance field reference: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
@@ -325,7 +326,7 @@ namespace GlobalNamespace {
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, System.Boolean showPackHeader, System.Boolean showPracticeButton, System.String actionButtonText, UnityEngine.GameObject noDataInfoPrefab, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics)
     // Offset: 0x11A5A0C
-    void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, bool showPackHeader, bool showPracticeButton, ::Il2CppString* actionButtonText, UnityEngine::GameObject* noDataInfoPrefab, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
+    void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText, UnityEngine::GameObject* noDataInfoPrefab, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x11A5DFC
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
@@ -334,10 +335,10 @@ namespace GlobalNamespace {
     void AnimateCanvasGroupAlpha(GlobalNamespace::LevelCollectionNavigationController::AlphaAnimationType animationType);
     // private System.Void SetDataForPack(IBeatmapLevelPack levelPack, System.Boolean showPackHeader, System.Boolean showPracticeButton, System.String actionButtonText)
     // Offset: 0x11A5BA0
-    void SetDataForPack(GlobalNamespace::IBeatmapLevelPack* levelPack, bool showPackHeader, bool showPracticeButton, ::Il2CppString* actionButtonText);
+    void SetDataForPack(GlobalNamespace::IBeatmapLevelPack* levelPack, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText);
     // private System.Void SetDataForLevelCollection(IBeatmapLevelCollection beatmapLevelCollection, System.Boolean showPracticeButton, System.String actionButtonText, UnityEngine.GameObject noDataInfoPrefab)
     // Offset: 0x11A5DAC
-    void SetDataForLevelCollection(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, bool showPracticeButton, ::Il2CppString* actionButtonText, UnityEngine::GameObject* noDataInfoPrefab);
+    void SetDataForLevelCollection(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, bool showPracticeButton, ::StringW actionButtonText, UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void RefreshDetail()
     // Offset: 0x11A6814
     void RefreshDetail();
@@ -551,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, ::Il2CppString*, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>)>(&GlobalNamespace::LevelCollectionNavigationController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, ::StringW, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>)>(&GlobalNamespace::LevelCollectionNavigationController::SetData)> {
   static const MethodInfo* get() {
     static auto* annotatedBeatmapLevelCollection = &::il2cpp_utils::GetClassFromName("", "IAnnotatedBeatmapLevelCollection")->byval_arg;
     static auto* showPackHeader = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -584,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::SetDataForPack
 // Il2CppName: SetDataForPack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*, bool, bool, ::Il2CppString*)>(&GlobalNamespace::LevelCollectionNavigationController::SetDataForPack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelPack*, bool, bool, ::StringW)>(&GlobalNamespace::LevelCollectionNavigationController::SetDataForPack)> {
   static const MethodInfo* get() {
     static auto* levelPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* showPackHeader = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -596,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::SetDataForLevelCollection
 // Il2CppName: SetDataForLevelCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelCollection*, bool, ::Il2CppString*, UnityEngine::GameObject*)>(&GlobalNamespace::LevelCollectionNavigationController::SetDataForLevelCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IBeatmapLevelCollection*, bool, ::StringW, UnityEngine::GameObject*)>(&GlobalNamespace::LevelCollectionNavigationController::SetDataForLevelCollection)> {
   static const MethodInfo* get() {
     static auto* beatmapLevelCollection = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelCollection")->byval_arg;
     static auto* showPracticeButton = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

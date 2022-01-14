@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -76,9 +77,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String[] _methodKeys
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<::Il2CppString*> methodKeys;
+    ::ArrayW<::StringW> methodKeys;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Boolean _ownProperties
     // Size: 0x1
     // Offset: 0x28
@@ -95,7 +96,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMethodMessage _message
     System::Runtime::Remoting::Messaging::IMethodMessage*& dyn__message();
     // Get instance field reference: private System.String[] _methodKeys
-    ::ArrayW<::Il2CppString*>& dyn__methodKeys();
+    ::ArrayW<::StringW>& dyn__methodKeys();
     // Get instance field reference: private System.Boolean _ownProperties
     bool& dyn__ownProperties();
     // System.Collections.IDictionary get_InternalDictionary()
@@ -103,7 +104,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* get_InternalDictionary();
     // public System.Void set_MethodKeys(System.String[] value)
     // Offset: 0x1C55344
-    void set_MethodKeys(::ArrayW<::Il2CppString*> value);
+    void set_MethodKeys(::ArrayW<::StringW> value);
     // public System.Object get_Item(System.Object key)
     // Offset: 0x1C5544C
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -137,13 +138,13 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* GetInternalProperties();
     // private System.Boolean IsOverridenKey(System.String key)
     // Offset: 0x1C553B4
-    bool IsOverridenKey(::Il2CppString* key);
+    bool IsOverridenKey(::StringW key);
     // protected System.Object GetMethodProperty(System.String key)
     // Offset: 0x1C52678
-    ::Il2CppObject* GetMethodProperty(::Il2CppString* key);
+    ::Il2CppObject* GetMethodProperty(::StringW key);
     // protected System.Void SetMethodProperty(System.String key, System.Object value)
     // Offset: 0x1C52E64
-    void SetMethodProperty(::Il2CppString* key, ::Il2CppObject* value);
+    void SetMethodProperty(::StringW key, ::Il2CppObject* value);
     // public System.Void Add(System.Object key, System.Object value)
     // Offset: 0x1C555A8
     void Add(::Il2CppObject* key, ::Il2CppObject* value);
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys
 // Il2CppName: set_MethodKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayW<::Il2CppString*>)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayW<::StringW>)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "set_MethodKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -256,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey
 // Il2CppName: IsOverridenKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(&System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "IsOverridenKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -265,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty
 // Il2CppName: GetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW)>(&System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "GetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -274,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty
 // Il2CppName: SetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

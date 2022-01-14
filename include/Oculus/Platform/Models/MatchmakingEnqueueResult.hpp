@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -80,9 +81,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Pool
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* Pool;
+    ::StringW Pool;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.UInt32 RecentMatchPercentage
     // Size: 0x4
     // Offset: 0x38
@@ -94,9 +95,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String RequestHash
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* RequestHash;
+    ::StringW RequestHash;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
@@ -109,11 +110,11 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt32 MaxExpectedWait
     uint& dyn_MaxExpectedWait();
     // Get instance field reference: public readonly System.String Pool
-    ::Il2CppString*& dyn_Pool();
+    ::StringW& dyn_Pool();
     // Get instance field reference: public readonly System.UInt32 RecentMatchPercentage
     uint& dyn_RecentMatchPercentage();
     // Get instance field reference: public readonly System.String RequestHash
-    ::Il2CppString*& dyn_RequestHash();
+    ::StringW& dyn_RequestHash();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x175C010
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -123,7 +124,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueueResult
   #pragma pack(pop)
-  static check_size<sizeof(MatchmakingEnqueueResult), 64 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_MatchmakingEnqueueResultSizeCheck;
+  static check_size<sizeof(MatchmakingEnqueueResult), 64 + sizeof(::StringW)> __Oculus_Platform_Models_MatchmakingEnqueueResultSizeCheck;
   static_assert(sizeof(MatchmakingEnqueueResult) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

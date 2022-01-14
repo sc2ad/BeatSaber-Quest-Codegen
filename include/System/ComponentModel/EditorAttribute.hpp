@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
@@ -41,24 +42,24 @@ namespace System::ComponentModel {
     // private System.String baseTypeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* baseTypeName;
+    ::StringW baseTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String baseTypeName
-    ::Il2CppString*& dyn_baseTypeName();
+    ::StringW& dyn_baseTypeName();
     // Get instance field reference: private System.String typeName
-    ::Il2CppString*& dyn_typeName();
+    ::StringW& dyn_typeName();
     // public System.Void .ctor(System.String typeName, System.String baseTypeName)
     // Offset: 0x1A26FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EditorAttribute* New_ctor(::Il2CppString* typeName, ::Il2CppString* baseTypeName) {
+    static EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EditorAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditorAttribute*, creationType>(typeName, baseTypeName)));
     }
@@ -74,7 +75,7 @@ namespace System::ComponentModel {
     int GetHashCode();
   }; // System.ComponentModel.EditorAttribute
   #pragma pack(pop)
-  static check_size<sizeof(EditorAttribute), 24 + sizeof(::Il2CppString*)> __System_ComponentModel_EditorAttributeSizeCheck;
+  static check_size<sizeof(EditorAttribute), 24 + sizeof(::StringW)> __System_ComponentModel_EditorAttributeSizeCheck;
   static_assert(sizeof(EditorAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

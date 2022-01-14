@@ -6,10 +6,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: GetAssetBundleFileResult
@@ -38,12 +36,12 @@ namespace GlobalNamespace {
     // public readonly System.String assetBundlePath
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* assetBundlePath;
+    ::StringW assetBundlePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: GetAssetBundleFileResult
-    constexpr GetAssetBundleFileResult(bool isError_ = {}, ::Il2CppString* assetBundlePath_ = {}) noexcept : isError{isError_}, assetBundlePath{assetBundlePath_} {}
+    constexpr GetAssetBundleFileResult(bool isError_ = {}, ::StringW assetBundlePath_ = {}) noexcept : isError{isError_}, assetBundlePath{assetBundlePath_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -51,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly System.String assetBundlePath
-    ::Il2CppString*& dyn_assetBundlePath();
+    ::StringW& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
     // Offset: 0x1197398
-    // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::Il2CppString* assetBundlePath);
+    // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath);
   }; // GetAssetBundleFileResult
   #pragma pack(pop)
-  static check_size<sizeof(GetAssetBundleFileResult), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_GetAssetBundleFileResultSizeCheck;
+  static check_size<sizeof(GetAssetBundleFileResult), 8 + sizeof(::StringW)> __GlobalNamespace_GetAssetBundleFileResultSizeCheck;
   static_assert(sizeof(GetAssetBundleFileResult) == 0x10);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

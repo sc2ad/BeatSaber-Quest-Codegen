@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -118,9 +119,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kQuickPlayOverrideSetupJson
     static constexpr const char* kQuickPlayOverrideSetupJson = "mp_override.json";
     // Get static field: static private System.String kQuickPlayOverrideSetupJson
-    static ::Il2CppString* _get_kQuickPlayOverrideSetupJson();
+    static ::StringW _get_kQuickPlayOverrideSetupJson();
     // Set static field: static private System.String kQuickPlayOverrideSetupJson
-    static void _set_kQuickPlayOverrideSetupJson(::Il2CppString* value);
+    static void _set_kQuickPlayOverrideSetupJson(::StringW value);
     // Get instance field reference: private readonly INetworkConfig _networkConfig
     GlobalNamespace::INetworkConfig*& dyn__networkConfig();
     // Get instance field reference: private readonly System.Net.Http.HttpClient _client
@@ -146,7 +147,7 @@ namespace GlobalNamespace {
     bool IsQuickPlaySetupTaskValid();
     // private System.Boolean IsUrlValid(System.String url)
     // Offset: 0x1158FAC
-    bool IsUrlValid(::Il2CppString* url);
+    bool IsUrlValid(::StringW url);
     // public System.Void .ctor()
     // Offset: 0x1159018
     // Implemented from: System.Object
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupModel::IsUrlValid
 // Il2CppName: IsUrlValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerQuickPlaySetupModel::*)(::Il2CppString*)>(&GlobalNamespace::MasterServerQuickPlaySetupModel::IsUrlValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerQuickPlaySetupModel::*)(::StringW)>(&GlobalNamespace::MasterServerQuickPlaySetupModel::IsUrlValid)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "IsUrlValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});

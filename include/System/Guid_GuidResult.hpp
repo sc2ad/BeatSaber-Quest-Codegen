@@ -13,6 +13,7 @@
 #include "System/Guid_GuidParseThrowStyle.hpp"
 // Including type: System.Guid/System.ParseFailureKind
 #include "System/Guid_ParseFailureKind.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -54,9 +55,9 @@ namespace System {
     // System.String m_failureMessageID
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_failureMessageID;
+    ::StringW m_failureMessageID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Object m_failureMessageFormatArgument
     // Size: 0x8
     // Offset: 0x20
@@ -66,9 +67,9 @@ namespace System {
     // System.String m_failureArgumentName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_failureArgumentName;
+    ::StringW m_failureArgumentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Exception m_innerException
     // Size: 0x8
     // Offset: 0x30
@@ -77,7 +78,7 @@ namespace System {
     static_assert(sizeof(System::Exception*) == 0x8);
     public:
     // Creating value type constructor for type: GuidResult
-    constexpr GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::Il2CppString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
+    constexpr GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::StringW m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::StringW m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -89,11 +90,11 @@ namespace System {
     // Get instance field reference: System.Guid/System.ParseFailureKind m_failure
     System::Guid::ParseFailureKind& dyn_m_failure();
     // Get instance field reference: System.String m_failureMessageID
-    ::Il2CppString*& dyn_m_failureMessageID();
+    ::StringW& dyn_m_failureMessageID();
     // Get instance field reference: System.Object m_failureMessageFormatArgument
     ::Il2CppObject*& dyn_m_failureMessageFormatArgument();
     // Get instance field reference: System.String m_failureArgumentName
-    ::Il2CppString*& dyn_m_failureArgumentName();
+    ::StringW& dyn_m_failureArgumentName();
     // Get instance field reference: System.Exception m_innerException
     System::Exception*& dyn_m_innerException();
     // System.Void Init(System.Guid/System.GuidParseThrowStyle canThrow)
@@ -104,13 +105,13 @@ namespace System {
     void SetFailure(System::Exception* nativeException);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID)
     // Offset: 0x1C43C18
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::StringW failureMessageID);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument)
     // Offset: 0x1C44B18
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument);
     // System.Void SetFailure(System.Guid/System.ParseFailureKind failure, System.String failureMessageID, System.Object failureMessageFormatArgument, System.String failureArgumentName, System.Exception innerException)
     // Offset: 0x1C44858
-    void SetFailure(System::Guid::ParseFailureKind failure, ::Il2CppString* failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::Il2CppString* failureArgumentName, System::Exception* innerException);
+    void SetFailure(System::Guid::ParseFailureKind failure, ::StringW failureMessageID, ::Il2CppObject* failureMessageFormatArgument, ::StringW failureArgumentName, System::Exception* innerException);
     // System.Exception GetGuidParseException()
     // Offset: 0x1C4386C
     System::Exception* GetGuidParseException();
@@ -141,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*)>(&System::Guid::GuidResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::StringW)>(&System::Guid::GuidResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::Guid::GuidResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::StringW, ::Il2CppObject*)>(&System::Guid::GuidResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
 // Il2CppName: SetFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*, System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::StringW, ::Il2CppObject*, ::StringW, System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
   static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

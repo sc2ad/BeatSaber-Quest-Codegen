@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -31,10 +32,10 @@ namespace System::Net {
     public:
     // static System.String Get(System.Net.HttpStatusCode code)
     // Offset: 0x18AFDEC
-    static ::Il2CppString* Get(System::Net::HttpStatusCode code);
+    static ::StringW Get(System::Net::HttpStatusCode code);
     // static System.String Get(System.Int32 code)
     // Offset: 0x18A85E8
-    static ::Il2CppString* Get(int code);
+    static ::StringW Get(int code);
   }; // System.Net.HttpStatusDescription
   #pragma pack(pop)
 }
@@ -42,7 +43,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::HttpStatusDescription::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::HttpStatusCode)>(&System::Net::HttpStatusDescription::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::HttpStatusCode)>(&System::Net::HttpStatusDescription::Get)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Net", "HttpStatusCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpStatusDescription*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});
@@ -51,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpStatusDescription::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Net::HttpStatusDescription::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Net::HttpStatusDescription::Get)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpStatusDescription*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});

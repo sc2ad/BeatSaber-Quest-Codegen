@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -189,9 +190,9 @@ namespace NUnit::Framework::Internal {
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static private readonly System.String CONTEXT_KEY
-    static ::Il2CppString* _get_CONTEXT_KEY();
+    static ::StringW _get_CONTEXT_KEY();
     // Set static field: static private readonly System.String CONTEXT_KEY
-    static void _set_CONTEXT_KEY(::Il2CppString* value);
+    static void _set_CONTEXT_KEY(::StringW value);
     // Get instance field reference: private NUnit.Framework.Internal.TestExecutionContext _priorContext
     NUnit::Framework::Internal::TestExecutionContext*& dyn__priorContext();
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestListener _listener

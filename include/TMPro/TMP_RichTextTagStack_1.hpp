@@ -111,14 +111,14 @@ namespace TMPro {
     TMP_RichTextTagStack_1(::ArrayW<T> tagStack) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(tagStack)})));
-      ::il2cpp_utils::RunMethodRethrow<TMP_RichTextTagStack_1<T>, false>(this, ___internal__method, tagStack);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, tagStack);
     }
     // public System.Void .ctor(System.Int32 capacity)
     // Offset: 0xFFFFFFFF
     TMP_RichTextTagStack_1(int capacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_RichTextTagStack_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(capacity)})));
-      ::il2cpp_utils::RunMethodRethrow<TMP_RichTextTagStack_1<T>, false>(this, ___internal__method, capacity);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, capacity);
     }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF

@@ -10,10 +10,8 @@
 #include "System/IntPtr.hpp"
 // Including type: System.Net.NetworkInformation.ifa_ifu
 #include "System/Net/NetworkInformation/ifa_ifu.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Forward declaring type: ifaddrs
@@ -39,9 +37,9 @@ namespace System::Net::NetworkInformation {
     // public System.String ifa_name
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* ifa_name;
+    ::StringW ifa_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.UInt32 ifa_flags
     // Size: 0x4
     // Offset: 0x10
@@ -72,7 +70,7 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: ifaddrs
-    constexpr ifaddrs(System::IntPtr ifa_next_ = {}, ::Il2CppString* ifa_name_ = {}, uint ifa_flags_ = {}, System::IntPtr ifa_addr_ = {}, System::IntPtr ifa_netmask_ = {}, System::Net::NetworkInformation::ifa_ifu ifa_ifu_ = {}, System::IntPtr ifa_data_ = {}) noexcept : ifa_next{ifa_next_}, ifa_name{ifa_name_}, ifa_flags{ifa_flags_}, ifa_addr{ifa_addr_}, ifa_netmask{ifa_netmask_}, ifa_ifu{ifa_ifu_}, ifa_data{ifa_data_} {}
+    constexpr ifaddrs(System::IntPtr ifa_next_ = {}, ::StringW ifa_name_ = {}, uint ifa_flags_ = {}, System::IntPtr ifa_addr_ = {}, System::IntPtr ifa_netmask_ = {}, System::Net::NetworkInformation::ifa_ifu ifa_ifu_ = {}, System::IntPtr ifa_data_ = {}) noexcept : ifa_next{ifa_next_}, ifa_name{ifa_name_}, ifa_flags{ifa_flags_}, ifa_addr{ifa_addr_}, ifa_netmask{ifa_netmask_}, ifa_ifu{ifa_ifu_}, ifa_data{ifa_data_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -80,7 +78,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.IntPtr ifa_next
     System::IntPtr& dyn_ifa_next();
     // Get instance field reference: public System.String ifa_name
-    ::Il2CppString*& dyn_ifa_name();
+    ::StringW& dyn_ifa_name();
     // Get instance field reference: public System.UInt32 ifa_flags
     uint& dyn_ifa_flags();
     // Get instance field reference: public System.IntPtr ifa_addr

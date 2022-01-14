@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Xml
@@ -94,9 +95,9 @@ namespace Mono::Xml {
     // private System.String xmlSpace
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* xmlSpace;
+    ::StringW xmlSpace;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Text.StringBuilder buffer
     // Size: 0x8
     // Offset: 0x38
@@ -151,7 +152,7 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Stack xmlSpaces
     System::Collections::Stack*& dyn_xmlSpaces();
     // Get instance field reference: private System.String xmlSpace
-    ::Il2CppString*& dyn_xmlSpace();
+    ::StringW& dyn_xmlSpace();
     // Get instance field reference: private System.Text.StringBuilder buffer
     System::Text::StringBuilder*& dyn_buffer();
     // Get instance field reference: private System.Char[] nameBuffer
@@ -168,7 +169,7 @@ namespace Mono::Xml {
     bool& dyn_resetColumn();
     // private System.Exception Error(System.String msg)
     // Offset: 0x1C94078
-    System::Exception* Error(::Il2CppString* msg);
+    System::Exception* Error(::StringW msg);
     // private System.Exception UnexpectedEndError()
     // Offset: 0x1C941B8
     System::Exception* UnexpectedEndError();
@@ -198,10 +199,10 @@ namespace Mono::Xml {
     void Expect(int c);
     // private System.String ReadUntil(System.Char until, System.Boolean handleReferences)
     // Offset: 0x1C946D4
-    ::Il2CppString* ReadUntil(::Il2CppChar until, bool handleReferences);
+    ::StringW ReadUntil(::Il2CppChar until, bool handleReferences);
     // public System.String ReadName()
     // Offset: 0x1C94960
-    ::Il2CppString* ReadName();
+    ::StringW ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler)
     // Offset: 0x1C93A48
     void Parse(System::IO::TextReader* input, Mono::Xml::SmallXmlParser::IContentHandler* handler);
@@ -250,7 +251,7 @@ namespace Mono::Xml {
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Mono::Xml::SmallXmlParser::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Mono::Xml::SmallXmlParser::*)(::StringW)>(&Mono::Xml::SmallXmlParser::Error)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -336,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::ReadUntil
 // Il2CppName: ReadUntil
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::*)(::Il2CppChar, bool)>(&Mono::Xml::SmallXmlParser::ReadUntil)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Xml::SmallXmlParser::*)(::Il2CppChar, bool)>(&Mono::Xml::SmallXmlParser::ReadUntil)> {
   static const MethodInfo* get() {
     static auto* until = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* handleReferences = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -346,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::ReadName
 // Il2CppName: ReadName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::*)()>(&Mono::Xml::SmallXmlParser::ReadName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Xml::SmallXmlParser::*)()>(&Mono::Xml::SmallXmlParser::ReadName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser*), "ReadName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

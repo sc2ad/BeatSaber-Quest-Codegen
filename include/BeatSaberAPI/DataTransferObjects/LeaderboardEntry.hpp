@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -73,15 +74,15 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String userDisplayName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* userDisplayName;
+    ::StringW userDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String platformUserId
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
@@ -100,9 +101,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.DateTime updated
     System::DateTime& dyn_updated();
     // Get instance field reference: public System.String userDisplayName
-    ::Il2CppString*& dyn_userDisplayName();
+    ::StringW& dyn_userDisplayName();
     // Get instance field reference: public System.String platformUserId
-    ::Il2CppString*& dyn_platformUserId();
+    ::StringW& dyn_platformUserId();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // public System.Void .ctor()

@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -19,9 +20,6 @@ namespace UnityEngine::Timeline {
   class TrackAsset;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Forward declaring type: ICurvesOwner
@@ -49,7 +47,7 @@ namespace UnityEngine::Timeline {
     double get_duration();
     // public System.String get_defaultCurvesName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_defaultCurvesName();
+    ::StringW get_defaultCurvesName();
     // public UnityEngine.Object get_asset()
     // Offset: 0xFFFFFFFF
     UnityEngine::Object* get_asset();
@@ -61,7 +59,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackAsset* get_targetTrack();
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0xFFFFFFFF
-    void CreateCurves(::Il2CppString* curvesClipName);
+    void CreateCurves(::StringW curvesClipName);
   }; // UnityEngine.Timeline.ICurvesOwner
   #pragma pack(pop)
 }
@@ -93,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_defaultCurvesName
 // Il2CppName: get_defaultCurvesName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_defaultCurvesName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_defaultCurvesName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::CreateCurves
 // Il2CppName: CreateCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ICurvesOwner::*)(::Il2CppString*)>(&UnityEngine::Timeline::ICurvesOwner::CreateCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ICurvesOwner::*)(::StringW)>(&UnityEngine::Timeline::ICurvesOwner::CreateCurves)> {
   static const MethodInfo* get() {
     static auto* curvesClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curvesClipName});

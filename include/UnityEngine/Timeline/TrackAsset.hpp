@@ -28,6 +28,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -204,9 +205,9 @@ namespace UnityEngine::Timeline {
     // private System.String m_CustomPlayableFullTypename
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_CustomPlayableFullTypename;
+    ::StringW m_CustomPlayableFullTypename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.AnimationClip m_Curves
     // Size: 0x8
     // Offset: 0x38
@@ -305,9 +306,9 @@ namespace UnityEngine::Timeline {
     // static field const value: static System.String kDefaultCurvesName
     static constexpr const char* kDefaultCurvesName = "Track Parameters";
     // Get static field: static System.String kDefaultCurvesName
-    static ::Il2CppString* _get_kDefaultCurvesName();
+    static ::StringW _get_kDefaultCurvesName();
     // Set static field: static System.String kDefaultCurvesName
-    static void _set_kDefaultCurvesName(::Il2CppString* value);
+    static void _set_kDefaultCurvesName(::StringW value);
     // Get static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
     static System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* _get_OnClipPlayableCreate();
     // Set static field: static private System.Action`3<UnityEngine.Timeline.TimelineClip,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnClipPlayableCreate
@@ -333,7 +334,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Boolean m_Muted
     bool& dyn_m_Muted();
     // Get instance field reference: private System.String m_CustomPlayableFullTypename
-    ::Il2CppString*& dyn_m_CustomPlayableFullTypename();
+    ::StringW& dyn_m_CustomPlayableFullTypename();
     // Get instance field reference: private UnityEngine.AnimationClip m_Curves
     UnityEngine::AnimationClip*& dyn_m_Curves();
     // Get instance field reference: private UnityEngine.Playables.PlayableAsset m_Parent
@@ -399,10 +400,10 @@ namespace UnityEngine::Timeline {
     bool get_isSubTrack();
     // System.String get_customPlayableTypename()
     // Offset: 0x2617C58
-    ::Il2CppString* get_customPlayableTypename();
+    ::StringW get_customPlayableTypename();
     // System.Void set_customPlayableTypename(System.String value)
     // Offset: 0x2617C60
-    void set_customPlayableTypename(::Il2CppString* value);
+    void set_customPlayableTypename(::StringW value);
     // public UnityEngine.AnimationClip get_curves()
     // Offset: 0x2617C68
     UnityEngine::AnimationClip* get_curves();
@@ -411,7 +412,7 @@ namespace UnityEngine::Timeline {
     void set_curves(UnityEngine::AnimationClip* value);
     // private System.String UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName()
     // Offset: 0x2617C78
-    ::Il2CppString* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
+    ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
     // private UnityEngine.Object UnityEngine.Timeline.ICurvesOwner.get_asset()
     // Offset: 0x2617CC0
     UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset();
@@ -477,7 +478,7 @@ namespace UnityEngine::Timeline {
     void __internalAwake();
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0x2617FD8
-    void CreateCurves(::Il2CppString* curvesClipName);
+    void CreateCurves(::StringW curvesClipName);
     // public UnityEngine.Playables.Playable CreateTrackMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
     // Offset: 0x261808C
     UnityEngine::Playables::Playable CreateTrackMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
@@ -488,7 +489,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     template<class T>
     UnityEngine::Timeline::TimelineClip* CreateClip() {
-      static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_base_of_v<UnityEngine::Playables::IPlayableAsset, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::Playables::IPlayableAsset>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateClip");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateClip", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -504,7 +505,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     template<class T>
     T CreateMarker(double time) {
-      static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_base_of_v<UnityEngine::Timeline::IMarker, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*> && std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::Timeline::IMarker>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::CreateMarker");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateMarker", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(time)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -813,7 +814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_customPlayableTypename
 // Il2CppName: get_customPlayableTypename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_customPlayableTypename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_customPlayableTypename)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -821,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_customPlayableTypename
 // Il2CppName: set_customPlayableTypename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::Il2CppString*)>(&UnityEngine::Timeline::TrackAsset::set_customPlayableTypename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::StringW)>(&UnityEngine::Timeline::TrackAsset::set_customPlayableTypename)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -847,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1029,7 +1030,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateCurves
 // Il2CppName: CreateCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::Il2CppString*)>(&UnityEngine::Timeline::TrackAsset::CreateCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::StringW)>(&UnityEngine::Timeline::TrackAsset::CreateCurves)> {
   static const MethodInfo* get() {
     static auto* curvesClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curvesClipName});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Analytics
@@ -51,7 +52,7 @@ namespace UnityEngine::Analytics {
     static void CallSessionStateChanged(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // static System.Void CallIdentityTokenChanged(System.String token)
     // Offset: 0x26D0614
-    static void CallIdentityTokenChanged(::Il2CppString* token);
+    static void CallIdentityTokenChanged(::StringW token);
   }; // UnityEngine.Analytics.AnalyticsSessionInfo
   #pragma pack(pop)
 }
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::CallIdentityTokenChanged
 // Il2CppName: CallIdentityTokenChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::CallIdentityTokenChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::Analytics::AnalyticsSessionInfo::CallIdentityTokenChanged)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Analytics::AnalyticsSessionInfo*), "CallIdentityTokenChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});

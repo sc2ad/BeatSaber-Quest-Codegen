@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::NUnitExtensions
@@ -72,23 +73,23 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // private readonly System.String m_ProductName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_ProductName;
+    ::StringW m_ProductName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept = delete;
     // Get instance field reference: private readonly System.String m_ProductName
-    ::Il2CppString*& dyn_m_ProductName();
+    ::StringW& dyn_m_ProductName();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0x16C7204
-    NUnit::Framework::Interfaces::ITest* Build(::ArrayW<System::Reflection::Assembly*> assemblies, ::ArrayW<UnityEngine::TestTools::TestPlatform> testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
+    NUnit::Framework::Interfaces::ITest* Build(::ArrayW<System::Reflection::Assembly*> assemblies, ::ArrayW<UnityEngine::TestTools::TestPlatform> testPlatforms, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // public System.Collections.Generic.IEnumerator`1<NUnit.Framework.Interfaces.ITest> BuildAsync(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform[] testPlatforms, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0x16D1008
-    System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::ArrayW<System::Reflection::Assembly*> assemblies, ::ArrayW<UnityEngine::TestTools::TestPlatform> testPlatforms, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* options);
+    System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* BuildAsync(::ArrayW<System::Reflection::Assembly*> assemblies, ::ArrayW<UnityEngine::TestTools::TestPlatform> testPlatforms, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Object> GetNUnitTestBuilderSettings(UnityEngine.TestTools.TestPlatform testPlatform)
     // Offset: 0x16D10C4
-    static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
+    static System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* GetNUnitTestBuilderSettings(UnityEngine::TestTools::TestPlatform testPlatform);
     // public System.Void .ctor()
     // Offset: 0x16D0F90
     // Implemented from: NUnit.Framework.Api.DefaultTestAssemblyBuilder
@@ -101,14 +102,14 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     }
   }; // UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder
   #pragma pack(pop)
-  static check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(::Il2CppString*)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
+  static check_size<sizeof(UnityTestAssemblyBuilder), 24 + sizeof(::StringW)> __UnityEngine_TestTools_NUnitExtensions_UnityTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(UnityTestAssemblyBuilder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::ArrayW<System::Reflection::Assembly*>, ::ArrayW<UnityEngine::TestTools::TestPlatform>, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::ArrayW<System::Reflection::Assembly*>, ::ArrayW<UnityEngine::TestTools::TestPlatform>, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build)> {
   static const MethodInfo* get() {
     static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
     static auto* testPlatforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform"), 1)->byval_arg;
@@ -119,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync
 // Il2CppName: BuildAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::ArrayW<System::Reflection::Assembly*>, ::ArrayW<UnityEngine::TestTools::TestPlatform>, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::ArrayW<System::Reflection::Assembly*>, ::ArrayW<UnityEngine::TestTools::TestPlatform>, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync)> {
   static const MethodInfo* get() {
     static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
     static auto* testPlatforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform"), 1)->byval_arg;
@@ -130,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings
 // Il2CppName: GetNUnitTestBuilderSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppObject*>* (*)(UnityEngine::TestTools::TestPlatform)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::Il2CppObject*>* (*)(UnityEngine::TestTools::TestPlatform)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::GetNUnitTestBuilderSettings)> {
   static const MethodInfo* get() {
     static auto* testPlatform = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "GetNUnitTestBuilderSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testPlatform});

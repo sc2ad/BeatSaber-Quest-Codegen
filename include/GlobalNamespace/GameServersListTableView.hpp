@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -139,15 +140,15 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCellReuseIdentifier
     static constexpr const char* kCellReuseIdentifier = "Cell";
     // Get static field: static private System.String kCellReuseIdentifier
-    static ::Il2CppString* _get_kCellReuseIdentifier();
+    static ::StringW _get_kCellReuseIdentifier();
     // Set static field: static private System.String kCellReuseIdentifier
-    static void _set_kCellReuseIdentifier(::Il2CppString* value);
+    static void _set_kCellReuseIdentifier(::StringW value);
     // static field const value: static private System.String kDetailCellReuseIdentifier
     static constexpr const char* kDetailCellReuseIdentifier = "DetailCell";
     // Get static field: static private System.String kDetailCellReuseIdentifier
-    static ::Il2CppString* _get_kDetailCellReuseIdentifier();
+    static ::StringW _get_kDetailCellReuseIdentifier();
     // Set static field: static private System.String kDetailCellReuseIdentifier
-    static void _set_kDetailCellReuseIdentifier(::Il2CppString* value);
+    static void _set_kDetailCellReuseIdentifier(::StringW value);
     // Get instance field reference: private TableViewWithDetailCell _tableView
     GlobalNamespace::TableViewWithDetailCell*& dyn__tableView();
     // Get instance field reference: private GameServerListTableCell _gameServerListCellPrefab

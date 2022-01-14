@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -48,9 +49,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private System.String m_CacheDirectoryOverride
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_CacheDirectoryOverride;
+    ::StringW m_CacheDirectoryOverride;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2DAD8
     // private System.Int32 m_ExpirationDelay
     // Size: 0x4
@@ -78,7 +79,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.Boolean m_CompressionEnabled
     bool& dyn_m_CompressionEnabled();
     // Get instance field reference: private System.String m_CacheDirectoryOverride
-    ::Il2CppString*& dyn_m_CacheDirectoryOverride();
+    ::StringW& dyn_m_CacheDirectoryOverride();
     // Get instance field reference: private System.Int32 m_ExpirationDelay
     int& dyn_m_ExpirationDelay();
     // Get instance field reference: private System.Boolean m_LimitCacheSize
@@ -93,10 +94,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     void set_CompressionEnabled(bool value);
     // public System.String get_CacheDirectoryOverride()
     // Offset: 0x160FBA0
-    ::Il2CppString* get_CacheDirectoryOverride();
+    ::StringW get_CacheDirectoryOverride();
     // public System.Void set_CacheDirectoryOverride(System.String value)
     // Offset: 0x160FBA8
-    void set_CacheDirectoryOverride(::Il2CppString* value);
+    void set_CacheDirectoryOverride(::StringW value);
     // public System.Int32 get_ExpirationDelay()
     // Offset: 0x160FBB0
     int get_ExpirationDelay();
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride
 // Il2CppName: get_CacheDirectoryOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -158,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride
 // Il2CppName: set_CacheDirectoryOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

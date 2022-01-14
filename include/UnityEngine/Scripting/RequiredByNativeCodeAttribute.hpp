@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Scripting
 namespace UnityEngine::Scripting {
@@ -43,9 +44,9 @@ namespace UnityEngine::Scripting {
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB0AC8
     // private System.Boolean <Optional>k__BackingField
     // Size: 0x1
@@ -62,14 +63,14 @@ namespace UnityEngine::Scripting {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String <Name>k__BackingField
-    ::Il2CppString*& dyn_$Name$k__BackingField();
+    ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Boolean <Optional>k__BackingField
     bool& dyn_$Optional$k__BackingField();
     // Get instance field reference: private System.Boolean <GenerateProxy>k__BackingField
     bool& dyn_$GenerateProxy$k__BackingField();
     // public System.Void set_Name(System.String value)
     // Offset: 0x26CA62C
-    void set_Name(::Il2CppString* value);
+    void set_Name(::StringW value);
     // public System.Void set_Optional(System.Boolean value)
     // Offset: 0x26CA634
     void set_Optional(bool value);
@@ -79,7 +80,7 @@ namespace UnityEngine::Scripting {
     // public System.Void .ctor(System.String name)
     // Offset: 0x26CA600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RequiredByNativeCodeAttribute* New_ctor(::Il2CppString* name) {
+    static RequiredByNativeCodeAttribute* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::RequiredByNativeCodeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequiredByNativeCodeAttribute*, creationType>(name)));
     }
@@ -102,7 +103,7 @@ namespace UnityEngine::Scripting {
 // Writing MetadataGetter for method: UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::Il2CppString*)>(&UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(&UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::RequiredByNativeCodeAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

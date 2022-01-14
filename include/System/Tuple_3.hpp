@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -168,10 +169,10 @@ namespace System {
     }
     // private System.String System.ITupleInternal.ToString(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* System_ITupleInternal_ToString(System::Text::StringBuilder* sb) {
+    ::StringW System_ITupleInternal_ToString(System::Text::StringBuilder* sb) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_3::System.ITupleInternal.ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.ITupleInternal.ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sb)})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method, sb);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method, sb);
     }
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0xFFFFFFFF
@@ -195,10 +196,10 @@ namespace System {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString() {
+    ::StringW ToString() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Tuple_3::ToString");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToString", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<::Il2CppString*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(this, ___internal__method);
     }
   }; // System.Tuple`3
   // Could not write size check! Type: System.Tuple`3 is generic, or has no fields that are valid for size checks!

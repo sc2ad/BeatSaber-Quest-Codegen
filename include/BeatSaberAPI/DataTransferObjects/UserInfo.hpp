@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -38,20 +39,20 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public System.String platformUserId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* platformUserId;
+    ::StringW platformUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String publicPlatformDisplayName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* publicPlatformDisplayName;
+    ::StringW publicPlatformDisplayName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String platformUserId
-    ::Il2CppString*& dyn_platformUserId();
+    ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String publicPlatformDisplayName
-    ::Il2CppString*& dyn_publicPlatformDisplayName();
+    ::StringW& dyn_publicPlatformDisplayName();
     // public System.Void .ctor()
     // Offset: 0x12C79D8
     // Implemented from: System.Object
@@ -63,7 +64,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.UserInfo
   #pragma pack(pop)
-  static check_size<sizeof(UserInfo), 24 + sizeof(::Il2CppString*)> __BeatSaberAPI_DataTransferObjects_UserInfoSizeCheck;
+  static check_size<sizeof(UserInfo), 24 + sizeof(::StringW)> __BeatSaberAPI_DataTransferObjects_UserInfoSizeCheck;
   static_assert(sizeof(UserInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

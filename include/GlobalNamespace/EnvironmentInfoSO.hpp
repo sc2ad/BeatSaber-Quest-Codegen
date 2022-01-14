@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,9 +65,9 @@ namespace GlobalNamespace {
     // private System.String _environmentName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* environmentName;
+    ::StringW environmentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private ColorSchemeSO _colorScheme
     // Size: 0x8
     // Offset: 0x20
@@ -82,9 +83,9 @@ namespace GlobalNamespace {
     // private System.String _serializedName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* serializedName;
+    ::StringW serializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private EnvironmentTypeSO _environmentType
     // Size: 0x8
     // Offset: 0x38
@@ -106,20 +107,20 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<System.String> _environmentKeywords
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<::Il2CppString*>* environmentKeywords;
+    System::Collections::Generic::List_1<::StringW>* environmentKeywords;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _environmentName
-    ::Il2CppString*& dyn__environmentName();
+    ::StringW& dyn__environmentName();
     // Get instance field reference: private ColorSchemeSO _colorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // Get instance field reference: private SceneInfo _sceneInfo
     GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // Get instance field reference: private System.String _serializedName
-    ::Il2CppString*& dyn__serializedName();
+    ::StringW& dyn__serializedName();
     // Get instance field reference: private EnvironmentTypeSO _environmentType
     GlobalNamespace::EnvironmentTypeSO*& dyn__environmentType();
     // Get instance field reference: private EnvironmentSizeData _environmentSizeData
@@ -127,19 +128,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentIntensityReductionOptions _environmentIntensityReductionOptions
     GlobalNamespace::EnvironmentIntensityReductionOptions*& dyn__environmentIntensityReductionOptions();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _environmentKeywords
-    System::Collections::Generic::List_1<::Il2CppString*>*& dyn__environmentKeywords();
+    System::Collections::Generic::List_1<::StringW>*& dyn__environmentKeywords();
     // public SceneInfo get_sceneInfo()
     // Offset: 0x11DDBF8
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
     // Offset: 0x11DDC00
-    ::Il2CppString* get_environmentName();
+    ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
     // Offset: 0x11DDC08
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
     // Offset: 0x11DDC10
-    ::Il2CppString* get_serializedName();
+    ::StringW get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
     // Offset: 0x11DDC18
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
@@ -151,7 +152,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
     // Offset: 0x11DDC30
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* get_environmentKeywords();
+    System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public System.Void .ctor()
     // Offset: 0x11DDC38
     // Implemented from: PersistentScriptableObject
@@ -166,7 +167,7 @@ namespace GlobalNamespace {
     }
   }; // EnvironmentInfoSO
   #pragma pack(pop)
-  static check_size<sizeof(EnvironmentInfoSO), 80 + sizeof(System::Collections::Generic::List_1<::Il2CppString*>*)> __GlobalNamespace_EnvironmentInfoSOSizeCheck;
+  static check_size<sizeof(EnvironmentInfoSO), 80 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_EnvironmentInfoSOSizeCheck;
   static_assert(sizeof(EnvironmentInfoSO) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -181,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentInfoSO::get_environmentName
 // Il2CppName: get_environmentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_environmentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_environmentName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentInfoSO*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -197,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentInfoSO::get_serializedName
 // Il2CppName: get_serializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_serializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_serializedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentInfoSO*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentInfoSO::get_environmentKeywords
 // Il2CppName: get_environmentKeywords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_environmentKeywords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::StringW>* (GlobalNamespace::EnvironmentInfoSO::*)()>(&GlobalNamespace::EnvironmentInfoSO::get_environmentKeywords)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentInfoSO*), "get_environmentKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

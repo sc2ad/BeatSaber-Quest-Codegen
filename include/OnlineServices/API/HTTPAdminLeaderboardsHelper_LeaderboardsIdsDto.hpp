@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto);
@@ -36,16 +37,16 @@ namespace OnlineServices::API {
     // public System.String[] leaderboardsIds
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<::Il2CppString*> leaderboardsIds;
+    ::ArrayW<::StringW> leaderboardsIds;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<::Il2CppString*>
-    constexpr operator ::ArrayW<::Il2CppString*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::StringW>
+    constexpr operator ::ArrayW<::StringW>() const noexcept {
       return leaderboardsIds;
     }
     // Get instance field reference: public System.String[] leaderboardsIds
-    ::ArrayW<::Il2CppString*>& dyn_leaderboardsIds();
+    ::ArrayW<::StringW>& dyn_leaderboardsIds();
     // public System.Void .ctor()
     // Offset: 0x1372718
     // Implemented from: System.Object
@@ -57,7 +58,7 @@ namespace OnlineServices::API {
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsIdsDto
   #pragma pack(pop)
-  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::ArrayW<::Il2CppString*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
+  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto), 16 + sizeof(::ArrayW<::StringW>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsIdsDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

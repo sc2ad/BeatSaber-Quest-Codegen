@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Il2CppInspector.DLL
 namespace Il2CppInspector::DLL {
@@ -38,16 +39,16 @@ namespace Il2CppInspector::DLL {
     // public System.String Offset
     // Size: 0x8
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* Offset;
+    ::StringW Offset;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return Offset;
     }
     // Get instance field reference: public System.String Offset
-    ::Il2CppString*& dyn_Offset();
+    ::StringW& dyn_Offset();
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Attribute

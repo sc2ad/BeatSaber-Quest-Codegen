@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -93,9 +94,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLobbyAvatarController> _playerIdToAvatarMap
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>* playerIdToAvatarMap;
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerLobbyAvatarController*>* playerIdToAvatarMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerLobbyAvatarController*>*) == 0x8);
     // private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
     // Size: 0x8
     // Offset: 0x38
@@ -114,7 +115,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minOuterCircleRadius
     float& dyn__minOuterCircleRadius();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerLobbyAvatarController> _playerIdToAvatarMap
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__playerIdToAvatarMap();
+    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__playerIdToAvatarMap();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<MultiplayerLobbyAvatarController> _inProgressDespawnAnimations
     System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>*& dyn__inProgressDespawnAnimations();
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
@@ -140,7 +141,7 @@ namespace GlobalNamespace {
     void RemovePlayer(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // private System.Collections.IEnumerator RemovePlayerAndDestroy(System.String userId, MultiplayerLobbyAvatarController multiplayerAvatar)
     // Offset: 0x129B438
-    System::Collections::IEnumerator* RemovePlayerAndDestroy(::Il2CppString* userId, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
+    System::Collections::IEnumerator* RemovePlayerAndDestroy(::StringW userId, GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar);
     // public System.Void .ctor()
     // Offset: 0x129B4E8
     // Implemented from: UnityEngine.MonoBehaviour
@@ -225,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy
 // Il2CppName: RemovePlayerAndDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::StringW, GlobalNamespace::MultiplayerLobbyAvatarController*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* multiplayerAvatar = &::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyAvatarController")->byval_arg;

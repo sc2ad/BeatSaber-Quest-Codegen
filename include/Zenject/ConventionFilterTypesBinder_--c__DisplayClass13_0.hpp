@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -55,16 +56,16 @@ namespace Zenject {
     // public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces;
+    System::Collections::Generic::IEnumerable_1<::StringW>* namespaces;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*
-    constexpr operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*() const noexcept {
+    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::StringW>*
+    constexpr operator System::Collections::Generic::IEnumerable_1<::StringW>*() const noexcept {
       return namespaces;
     }
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
-    System::Collections::Generic::IEnumerable_1<::Il2CppString*>*& dyn_namespaces();
+    System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_namespaces();
     // System.Boolean <InNamespaces>b__0(System.Type t)
     // Offset: 0x14FE4D4
     bool $InNamespaces$b__0(System::Type* t);
@@ -85,7 +86,7 @@ namespace Zenject {
     }
   }; // Zenject.ConventionFilterTypesBinder/Zenject.<>c__DisplayClass13_0
   #pragma pack(pop)
-  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
+  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

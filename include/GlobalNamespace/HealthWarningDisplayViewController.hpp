@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -55,9 +56,9 @@ namespace GlobalNamespace {
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* healthAndSafetyFullLocalizationKey;
+    ::StringW healthAndSafetyFullLocalizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _showShortHealthAndSafety
     // Size: 0x1
     // Offset: 0x80
@@ -68,7 +69,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     TMPro::TextMeshProUGUI*& dyn__healthAndSafetyTextMesh();
     // Get instance field reference: private System.String _healthAndSafetyFullLocalizationKey
-    ::Il2CppString*& dyn__healthAndSafetyFullLocalizationKey();
+    ::StringW& dyn__healthAndSafetyFullLocalizationKey();
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety
     bool& dyn__showShortHealthAndSafety();
     // public System.Void .ctor()

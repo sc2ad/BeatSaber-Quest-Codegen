@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -52,15 +53,15 @@ namespace GlobalNamespace {
     // public System.String serverUserId
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* serverUserId;
+    ::StringW serverUserId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String serverUserName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* serverUserName;
+    ::StringW serverUserName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean serverIsConnectionOwner
     // Size: 0x1
     // Offset: 0x50
@@ -71,9 +72,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Net.IPEndPoint endPoint
     System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.String serverUserId
-    ::Il2CppString*& dyn_serverUserId();
+    ::StringW& dyn_serverUserId();
     // Get instance field reference: public System.String serverUserName
-    ::Il2CppString*& dyn_serverUserName();
+    ::StringW& dyn_serverUserName();
     // Get instance field reference: public System.Boolean serverIsConnectionOwner
     bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()

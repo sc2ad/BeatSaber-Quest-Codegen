@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -68,7 +69,7 @@ namespace Mono::Security::X509 {
     bool& dyn_readOnly();
     // public Mono.Security.X509.X509Extension get_Item(System.String oid)
     // Offset: 0x2689F28
-    Mono::Security::X509::X509Extension* get_Item(::Il2CppString* oid);
+    Mono::Security::X509::X509Extension* get_Item(::StringW oid);
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
     // Offset: 0x26866CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +79,7 @@ namespace Mono::Security::X509 {
     }
     // public System.Int32 IndexOf(System.String oid)
     // Offset: 0x2689DB0
-    int IndexOf(::Il2CppString* oid);
+    int IndexOf(::StringW oid);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x2689EFC
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -101,7 +102,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::X509ExtensionCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Extension* (Mono::Security::X509::X509ExtensionCollection::*)(::Il2CppString*)>(&Mono::Security::X509::X509ExtensionCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Extension* (Mono::Security::X509::X509ExtensionCollection::*)(::StringW)>(&Mono::Security::X509::X509ExtensionCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509ExtensionCollection::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::X509::X509ExtensionCollection::*)(::Il2CppString*)>(&Mono::Security::X509::X509ExtensionCollection::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::X509::X509ExtensionCollection::*)(::StringW)>(&Mono::Security::X509::X509ExtensionCollection::IndexOf)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

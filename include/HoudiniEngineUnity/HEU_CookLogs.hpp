@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -63,9 +64,9 @@ namespace HoudiniEngineUnity {
     // private System.String _lastLogStr
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* lastLogStr;
+    ::StringW lastLogStr;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _uniqueStrOnly
     // Size: 0x1
     // Offset: 0x28
@@ -94,7 +95,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Int32 _currentCookLogCount
     int& dyn__currentCookLogCount();
     // Get instance field reference: private System.String _lastLogStr
-    ::Il2CppString*& dyn__lastLogStr();
+    ::StringW& dyn__lastLogStr();
     // Get instance field reference: private System.Boolean _uniqueStrOnly
     bool& dyn__uniqueStrOnly();
     // static public HoudiniEngineUnity.HEU_CookLogs get_Instance()
@@ -102,22 +103,22 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::HEU_CookLogs* get_Instance();
     // public System.String GetCookLogString()
     // Offset: 0x146FF58
-    ::Il2CppString* GetCookLogString();
+    ::StringW GetCookLogString();
     // public System.Void AppendCookLog(System.String logStr)
     // Offset: 0x146FF78
-    void AppendCookLog(::Il2CppString* logStr);
+    void AppendCookLog(::StringW logStr);
     // public System.Void ClearCookLog()
     // Offset: 0x147023C
     void ClearCookLog();
     // public System.String GetCookLogFilePath()
     // Offset: 0x14702A0
-    ::Il2CppString* GetCookLogFilePath();
+    ::StringW GetCookLogFilePath();
     // public System.Void DeleteCookingFile()
     // Offset: 0x147036C
     void DeleteCookingFile();
     // public System.Void WriteToLogFile(System.String logStr, System.Boolean checkLastLogStr)
     // Offset: 0x147007C
-    void WriteToLogFile(::Il2CppString* logStr, bool checkLastLogStr);
+    void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
     // public System.Int64 GetFileSizeOfLogFile()
     // Offset: 0x14703FC
     int64_t GetFileSizeOfLogFile();
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::GetCookLogString
 // Il2CppName: GetCookLogString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_CookLogs::*)()>(&HoudiniEngineUnity::HEU_CookLogs::GetCookLogString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_CookLogs::*)()>(&HoudiniEngineUnity::HEU_CookLogs::GetCookLogString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "GetCookLogString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::AppendCookLog
 // Il2CppName: AppendCookLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_CookLogs::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_CookLogs::AppendCookLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_CookLogs::*)(::StringW)>(&HoudiniEngineUnity::HEU_CookLogs::AppendCookLog)> {
   static const MethodInfo* get() {
     static auto* logStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "AppendCookLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logStr});
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::GetCookLogFilePath
 // Il2CppName: GetCookLogFilePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_CookLogs::*)()>(&HoudiniEngineUnity::HEU_CookLogs::GetCookLogFilePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_CookLogs::*)()>(&HoudiniEngineUnity::HEU_CookLogs::GetCookLogFilePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "GetCookLogFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::WriteToLogFile
 // Il2CppName: WriteToLogFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_CookLogs::*)(::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_CookLogs::WriteToLogFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_CookLogs::*)(::StringW, bool)>(&HoudiniEngineUnity::HEU_CookLogs::WriteToLogFile)> {
   static const MethodInfo* get() {
     static auto* logStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* checkLastLogStr = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

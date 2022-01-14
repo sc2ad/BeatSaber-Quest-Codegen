@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -40,15 +41,15 @@ namespace Oculus::Platform {
     // private System.String ovrAppID
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* ovrAppID;
+    ::StringW ovrAppID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String ovrMobileAppID
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* ovrMobileAppID;
+    ::StringW ovrMobileAppID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean ovrUseStandalonePlatform
     // Size: 0x1
     // Offset: 0x28
@@ -63,23 +64,23 @@ namespace Oculus::Platform {
     // Set static field: static private Oculus.Platform.PlatformSettings instance
     static void _set_instance(Oculus::Platform::PlatformSettings* value);
     // Get instance field reference: private System.String ovrAppID
-    ::Il2CppString*& dyn_ovrAppID();
+    ::StringW& dyn_ovrAppID();
     // Get instance field reference: private System.String ovrMobileAppID
-    ::Il2CppString*& dyn_ovrMobileAppID();
+    ::StringW& dyn_ovrMobileAppID();
     // Get instance field reference: private System.Boolean ovrUseStandalonePlatform
     bool& dyn_ovrUseStandalonePlatform();
     // static public System.String get_AppID()
     // Offset: 0x26616F0
-    static ::Il2CppString* get_AppID();
+    static ::StringW get_AppID();
     // static public System.Void set_AppID(System.String value)
     // Offset: 0x2661824
-    static void set_AppID(::Il2CppString* value);
+    static void set_AppID(::StringW value);
     // static public System.String get_MobileAppID()
     // Offset: 0x2661850
-    static ::Il2CppString* get_MobileAppID();
+    static ::StringW get_MobileAppID();
     // static public System.Void set_MobileAppID(System.String value)
     // Offset: 0x2661870
-    static void set_MobileAppID(::Il2CppString* value);
+    static void set_MobileAppID(::StringW value);
     // static public System.Boolean get_UseStandalonePlatform()
     // Offset: 0x266189C
     static bool get_UseStandalonePlatform();
@@ -112,7 +113,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_AppID
 // Il2CppName: get_AppID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::PlatformSettings::get_AppID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::PlatformSettings::get_AppID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_AppID
 // Il2CppName: set_AppID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::PlatformSettings::set_AppID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&Oculus::Platform::PlatformSettings::set_AppID)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_AppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -129,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::get_MobileAppID
 // Il2CppName: get_MobileAppID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::PlatformSettings::get_MobileAppID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::PlatformSettings::get_MobileAppID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "get_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Oculus::Platform::PlatformSettings::set_MobileAppID
 // Il2CppName: set_MobileAppID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::PlatformSettings::set_MobileAppID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&Oculus::Platform::PlatformSettings::set_MobileAppID)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformSettings*), "set_MobileAppID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

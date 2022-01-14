@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
@@ -42,22 +43,22 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // public System.String id
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* id;
+    ::StringW id;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String data
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* data;
+    ::StringW data;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id
-    ::Il2CppString*& dyn_id();
+    ::StringW& dyn_id();
     // Get instance field reference: public System.String data
-    ::Il2CppString*& dyn_data();
+    ::StringW& dyn_data();
     // System.Boolean <InitializeAsync>b__0()
     // Offset: 0x1BEEDEC
     bool $InitializeAsync$b__0();
@@ -72,7 +73,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/UnityEngine.ResourceManagement.ResourceProviders.<>c__DisplayClass10_0
   #pragma pack(pop)
-  static check_size<sizeof(ResourceProviderBase::$$c__DisplayClass10_0), 32 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase_$$c__DisplayClass10_0SizeCheck;
+  static check_size<sizeof(ResourceProviderBase::$$c__DisplayClass10_0), 32 + sizeof(::StringW)> __UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase_$$c__DisplayClass10_0SizeCheck;
   static_assert(sizeof(ResourceProviderBase::$$c__DisplayClass10_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

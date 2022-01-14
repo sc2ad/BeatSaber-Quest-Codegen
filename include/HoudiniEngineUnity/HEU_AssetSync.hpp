@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -63,20 +64,20 @@ namespace HoudiniEngineUnity {
     // public System.String _assetPath
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* assetPath;
+    ::StringW assetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback _onAssetLoaded
     HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback*& dyn__onAssetLoaded();
     // Get instance field reference: public System.String _assetPath
-    ::Il2CppString*& dyn__assetPath();
+    ::StringW& dyn__assetPath();
     // private System.Void OnEnable()
     // Offset: 0x1465D68
     void OnEnable();
     // public System.Void InitializeAsset(HoudiniEngineUnity.HEU_SessionBase session, System.String assetPath, System.String nodeName, UnityEngine.Transform parent, UnityEngine.Vector3 startPosition)
     // Offset: 0x1465D78
-    void InitializeAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ::Il2CppString* nodeName, UnityEngine::Transform* parent, UnityEngine::Vector3 startPosition);
+    void InitializeAsset(HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ::StringW nodeName, UnityEngine::Transform* parent, UnityEngine::Vector3 startPosition);
     // private HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo CreateThreadedTask()
     // Offset: 0x1465E88
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* CreateThreadedTask();
@@ -119,7 +120,7 @@ namespace HoudiniEngineUnity {
     void Resync();
   }; // HoudiniEngineUnity.HEU_AssetSync
   #pragma pack(pop)
-  static check_size<sizeof(HEU_AssetSync), 136 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_AssetSyncSizeCheck;
+  static check_size<sizeof(HEU_AssetSync), 136 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_AssetSyncSizeCheck;
   static_assert(sizeof(HEU_AssetSync) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetSync::InitializeAsset
 // Il2CppName: InitializeAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AssetSync::*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Transform*, UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_AssetSync::InitializeAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AssetSync::*)(HoudiniEngineUnity::HEU_SessionBase*, ::StringW, ::StringW, UnityEngine::Transform*, UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_AssetSync::InitializeAsset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

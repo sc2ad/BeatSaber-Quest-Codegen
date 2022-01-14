@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -87,9 +88,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String name
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
     // Size: 0x4
     // Offset: 0x30
@@ -161,9 +162,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayW<::Il2CppString*> memberNames;
+    ::ArrayW<::StringW> memberNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x78
@@ -190,7 +191,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object expectedTypeInformation
     ::Il2CppObject*& dyn_expectedTypeInformation();
     // Get instance field reference: System.String name
-    ::Il2CppString*& dyn_name();
+    ::StringW& dyn_name();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
     System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_objectTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
@@ -214,7 +215,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object[] typeInformationA
     ::ArrayW<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.String[] memberNames
-    ::ArrayW<::Il2CppString*>& dyn_memberNames();
+    ::ArrayW<::StringW>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
     ::ArrayW<System::Type*>& dyn_memberTypes();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr

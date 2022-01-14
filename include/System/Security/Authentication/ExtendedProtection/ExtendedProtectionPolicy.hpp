@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -66,7 +67,7 @@ namespace System::Security::Authentication::ExtendedProtection {
     // Offset: 0x17FA4B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy
   #pragma pack(pop)
 }
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)()>(&System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)()>(&System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

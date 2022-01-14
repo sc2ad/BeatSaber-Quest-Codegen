@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: UnityEngine.HumanLimit
 #include "UnityEngine/HumanLimit.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -33,15 +34,15 @@ namespace UnityEngine {
     // private System.String m_BoneName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* m_BoneName;
+    ::StringW m_BoneName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_HumanName
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* m_HumanName;
+    ::StringW m_HumanName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NativeNameAttribute] Offset: 0xECEEC0
     // public UnityEngine.HumanLimit limit
     // Size: 0x2C
@@ -51,15 +52,15 @@ namespace UnityEngine {
     static_assert(sizeof(UnityEngine::HumanLimit) == 0x2C);
     public:
     // Creating value type constructor for type: HumanBone
-    constexpr HumanBone(::Il2CppString* m_BoneName_ = {}, ::Il2CppString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
+    constexpr HumanBone(::StringW m_BoneName_ = {}, ::StringW m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_BoneName
-    ::Il2CppString*& dyn_m_BoneName();
+    ::StringW& dyn_m_BoneName();
     // Get instance field reference: private System.String m_HumanName
-    ::Il2CppString*& dyn_m_HumanName();
+    ::StringW& dyn_m_HumanName();
     // Get instance field reference: public UnityEngine.HumanLimit limit
     UnityEngine::HumanLimit& dyn_limit();
   }; // UnityEngine.HumanBone

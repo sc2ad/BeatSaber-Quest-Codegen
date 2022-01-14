@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::Util
@@ -12,9 +13,6 @@ namespace UnityEngine::ResourceManagement::Util {
   struct ObjectInitializationData;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: IObjectInitializationDataProvider
@@ -33,7 +31,7 @@ namespace UnityEngine::ResourceManagement::Util {
     public:
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public UnityEngine.ResourceManagement.Util.ObjectInitializationData CreateObjectInitializationData()
     // Offset: 0xFFFFFFFF
     UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
@@ -44,7 +42,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

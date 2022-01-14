@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,19 +53,19 @@ namespace System {
     // private System.String _typeName
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* typeName;
+    ::StringW typeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return typeName;
     }
     // Get instance field reference: private System.String _typeName
-    ::Il2CppString*& dyn__typeName();
+    ::StringW& dyn__typeName();
     // public System.String get_TypeName()
     // Offset: 0x25CE68C
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // private System.Void .ctor()
     // Offset: 0x25CE494
     // Implemented from: System.SystemException
@@ -82,7 +83,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String fullTypeName, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String fullTypeName, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeInitializationException* New_ctor(::Il2CppString* fullTypeName, System::Exception* innerException) {
+    static TypeInitializationException* New_ctor(::StringW fullTypeName, System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TypeInitializationException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInitializationException*, creationType>(fullTypeName, innerException)));
     }
@@ -103,14 +104,14 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.TypeInitializationException
   #pragma pack(pop)
-  static check_size<sizeof(TypeInitializationException), 136 + sizeof(::Il2CppString*)> __System_TypeInitializationExceptionSizeCheck;
+  static check_size<sizeof(TypeInitializationException), 136 + sizeof(::StringW)> __System_TypeInitializationExceptionSizeCheck;
   static_assert(sizeof(TypeInitializationException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeInitializationException::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeInitializationException::*)()>(&System::TypeInitializationException::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TypeInitializationException::*)()>(&System::TypeInitializationException::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypeInitializationException*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

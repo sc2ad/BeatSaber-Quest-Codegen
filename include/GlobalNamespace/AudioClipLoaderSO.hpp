@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -73,10 +74,10 @@ namespace GlobalNamespace {
     bool& dyn__isLoading();
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0x131419C
-    void LoadAudioFile(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
+    void LoadAudioFile(::StringW filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
     // Offset: 0x131425C
-    System::Collections::IEnumerator* LoadAudioFileCoroutine(::Il2CppString* filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
+    System::Collections::IEnumerator* LoadAudioFileCoroutine(::StringW filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Void .ctor()
     // Offset: 0x131430C
     // Implemented from: PersistentScriptableObject
@@ -103,7 +104,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFile
 // Il2CppName: LoadAudioFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipLoaderSO::*)(::StringW, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
@@ -113,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine
 // Il2CppName: LoadAudioFileCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioClipLoaderSO::*)(::StringW, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;

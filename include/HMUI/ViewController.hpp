@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -315,7 +316,7 @@ namespace HMUI {
     bool IsViewControllerInHierarchy(HMUI::ViewController* viewController);
     // static public System.Void Log(System.String message)
     // Offset: 0x264CA1C
-    static void Log(::Il2CppString* message);
+    static void Log(::StringW message);
     // public System.Void .ctor()
     // Offset: 0x264CA84
     // Implemented from: UnityEngine.MonoBehaviour
@@ -661,7 +662,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HMUI::ViewController::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&HMUI::ViewController::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

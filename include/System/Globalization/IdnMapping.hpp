@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -71,37 +72,37 @@ namespace System::Globalization {
     System::Globalization::Punycode*& dyn_puny();
     // public System.String GetAscii(System.String unicode)
     // Offset: 0x1C3B83C
-    ::Il2CppString* GetAscii(::Il2CppString* unicode);
+    ::StringW GetAscii(::StringW unicode);
     // public System.String GetAscii(System.String unicode, System.Int32 index, System.Int32 count)
     // Offset: 0x1C3B8D8
-    ::Il2CppString* GetAscii(::Il2CppString* unicode, int index, int count);
+    ::StringW GetAscii(::StringW unicode, int index, int count);
     // private System.String Convert(System.String input, System.Int32 index, System.Int32 count, System.Boolean toAscii)
     // Offset: 0x1C3B9E8
-    ::Il2CppString* Convert(::Il2CppString* input, int index, int count, bool toAscii);
+    ::StringW Convert(::StringW input, int index, int count, bool toAscii);
     // private System.String ToAscii(System.String s, System.Int32 offset)
     // Offset: 0x1C3BC0C
-    ::Il2CppString* ToAscii(::Il2CppString* s, int offset);
+    ::StringW ToAscii(::StringW s, int offset);
     // private System.Void VerifyLength(System.String s, System.Int32 offset)
     // Offset: 0x1C3C378
-    void VerifyLength(::Il2CppString* s, int offset);
+    void VerifyLength(::StringW s, int offset);
     // private System.String NamePrep(System.String s, System.Int32 offset)
     // Offset: 0x1C3C02C
-    ::Il2CppString* NamePrep(::Il2CppString* s, int offset);
+    ::StringW NamePrep(::StringW s, int offset);
     // private System.Void VerifyProhibitedCharacters(System.String s, System.Int32 offset)
     // Offset: 0x1C3C470
-    void VerifyProhibitedCharacters(::Il2CppString* s, int offset);
+    void VerifyProhibitedCharacters(::StringW s, int offset);
     // private System.Void VerifyStd3AsciiRules(System.String s, System.Int32 offset)
     // Offset: 0x1C3C188
-    void VerifyStd3AsciiRules(::Il2CppString* s, int offset);
+    void VerifyStd3AsciiRules(::StringW s, int offset);
     // public System.String GetUnicode(System.String ascii)
     // Offset: 0x1C3C6BC
-    ::Il2CppString* GetUnicode(::Il2CppString* ascii);
+    ::StringW GetUnicode(::StringW ascii);
     // public System.String GetUnicode(System.String ascii, System.Int32 index, System.Int32 count)
     // Offset: 0x1C3C758
-    ::Il2CppString* GetUnicode(::Il2CppString* ascii, int index, int count);
+    ::StringW GetUnicode(::StringW ascii, int index, int count);
     // private System.String ToUnicode(System.String s, System.Int32 offset)
     // Offset: 0x1C3BE4C
-    ::Il2CppString* ToUnicode(::Il2CppString* s, int offset);
+    ::StringW ToUnicode(::StringW s, int offset);
     // public System.Void .ctor()
     // Offset: 0x1C3B690
     // Implemented from: System.Object
@@ -130,7 +131,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetAscii)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW)>(&System::Globalization::IdnMapping::GetAscii)> {
   static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
@@ -139,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetAscii)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int, int)>(&System::Globalization::IdnMapping::GetAscii)> {
   static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int, bool)>(&System::Globalization::IdnMapping::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int, int, bool)>(&System::Globalization::IdnMapping::Convert)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToAscii
 // Il2CppName: ToAscii
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToAscii)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::ToAscii)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyLength
 // Il2CppName: VerifyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::VerifyLength)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::NamePrep
 // Il2CppName: NamePrep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::NamePrep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::NamePrep)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -192,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyProhibitedCharacters
 // Il2CppName: VerifyProhibitedCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyStd3AsciiRules
 // Il2CppName: VerifyStd3AsciiRules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
 // Il2CppName: GetUnicode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetUnicode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW)>(&System::Globalization::IdnMapping::GetUnicode)> {
   static const MethodInfo* get() {
     static auto* ascii = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ascii});
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
 // Il2CppName: GetUnicode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetUnicode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int, int)>(&System::Globalization::IdnMapping::GetUnicode)> {
   static const MethodInfo* get() {
     static auto* ascii = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToUnicode
 // Il2CppName: ToUnicode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToUnicode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::IdnMapping::*)(::StringW, int)>(&System::Globalization::IdnMapping::ToUnicode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

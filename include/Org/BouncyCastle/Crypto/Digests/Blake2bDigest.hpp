@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Digests
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -151,7 +152,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     uint64_t& dyn_f0();
     // public System.String get_AlgorithmName()
     // Offset: 0x1ED56B8
-    ::Il2CppString* get_AlgorithmName();
+    ::StringW get_AlgorithmName();
     // public System.Void .ctor(System.Int32 digestSize)
     // Offset: 0x1ED4478
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -204,7 +205,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Blake2bDigest::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Digests::Blake2bDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::Blake2bDigest::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Crypto::Digests::Blake2bDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::Blake2bDigest::get_AlgorithmName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::Blake2bDigest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceProviders
@@ -73,7 +74,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     void set_IgnoreFailures(bool value);
     // public System.Object Convert(System.Type type, System.String text)
     // Offset: 0x1BF0564
-    ::Il2CppObject* Convert(System::Type* type, ::Il2CppString* text);
+    ::Il2CppObject* Convert(System::Type* type, ::StringW text);
     // public System.Void .ctor()
     // Offset: 0x1BEE0A0
     // Implemented from: UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(System::Type*, ::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::*)(System::Type*, ::StringW)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::Convert)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::MainSettingsModelSO::Config);
@@ -37,9 +38,9 @@ namespace GlobalNamespace {
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 windowResolutionWidth
     // Size: 0x4
     // Offset: 0x18
@@ -259,9 +260,9 @@ namespace GlobalNamespace {
     // public System.String customServerHostName
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* customServerHostName;
+    ::StringW customServerHostName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single volume
     // Size: 0x4
     // Offset: 0xA8
@@ -343,12 +344,12 @@ namespace GlobalNamespace {
     // public System.String language
     // Size: 0x8
     // Offset: 0xD0
-    ::Il2CppString* language;
+    ::StringW language;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String version
-    ::Il2CppString*& dyn_version();
+    ::StringW& dyn_version();
     // Get instance field reference: public System.Int32 windowResolutionWidth
     int& dyn_windowResolutionWidth();
     // Get instance field reference: public System.Int32 windowResolutionHeight
@@ -420,7 +421,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean useCustomServerEnvironment
     bool& dyn_useCustomServerEnvironment();
     // Get instance field reference: public System.String customServerHostName
-    ::Il2CppString*& dyn_customServerHostName();
+    ::StringW& dyn_customServerHostName();
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public System.Single ambientVolumeScale
@@ -446,7 +447,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean openVrThreadedHaptics
     bool& dyn_openVrThreadedHaptics();
     // Get instance field reference: public System.String language
-    ::Il2CppString*& dyn_language();
+    ::StringW& dyn_language();
     // public System.Void .ctor()
     // Offset: 0x1156D34
     // Implemented from: System.Object
@@ -458,7 +459,7 @@ namespace GlobalNamespace {
     }
   }; // MainSettingsModelSO/Config
   #pragma pack(pop)
-  static check_size<sizeof(MainSettingsModelSO::Config), 208 + sizeof(::Il2CppString*)> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
+  static check_size<sizeof(MainSettingsModelSO::Config), 208 + sizeof(::StringW)> __GlobalNamespace_MainSettingsModelSO_ConfigSizeCheck;
   static_assert(sizeof(MainSettingsModelSO::Config) == 0xD8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

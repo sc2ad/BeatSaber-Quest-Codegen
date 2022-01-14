@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,9 +44,9 @@ namespace UnityEngine::U2D {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0xEB89F8
     // Get static field: static private System.Action`2<System.String,System.Action`1<UnityEngine.U2D.SpriteAtlas>> atlasRequested
-    static System::Action_2<::Il2CppString*, System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>* _get_atlasRequested();
+    static System::Action_2<::StringW, System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>* _get_atlasRequested();
     // Set static field: static private System.Action`2<System.String,System.Action`1<UnityEngine.U2D.SpriteAtlas>> atlasRequested
-    static void _set_atlasRequested(System::Action_2<::Il2CppString*, System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>* value);
+    static void _set_atlasRequested(System::Action_2<::StringW, System::Action_1<UnityEngine::U2D::SpriteAtlas*>*>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xEB8A34
     // Get static field: static private System.Action`1<UnityEngine.U2D.SpriteAtlas> atlasRegistered
     static System::Action_1<UnityEngine::U2D::SpriteAtlas*>* _get_atlasRegistered();
@@ -62,7 +63,7 @@ namespace UnityEngine::U2D {
     static void _cctor();
     // static private System.Boolean RequestAtlas(System.String tag)
     // Offset: 0x243A070
-    static bool RequestAtlas(::Il2CppString* tag);
+    static bool RequestAtlas(::StringW tag);
     // static private System.Void PostRegisteredAtlas(UnityEngine.U2D.SpriteAtlas spriteAtlas)
     // Offset: 0x243A34C
     static void PostRegisteredAtlas(UnityEngine::U2D::SpriteAtlas* spriteAtlas);
@@ -102,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::U2D::SpriteAtlasManager::RequestAtlas
 // Il2CppName: RequestAtlas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::U2D::SpriteAtlasManager::RequestAtlas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::U2D::SpriteAtlasManager::RequestAtlas)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "RequestAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -65,10 +66,10 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI*& dyn__conditionText();
     // public System.Void set_title(System.String value)
     // Offset: 0x1344FE0
-    void set_title(::Il2CppString* value);
+    void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
     // Offset: 0x1344FFC
-    void set_conditionText(::Il2CppString* value);
+    void set_conditionText(::StringW value);
     // public System.Void set_hideCondition(System.Boolean value)
     // Offset: 0x1345018
     void set_hideCondition(bool value);
@@ -94,7 +95,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveListItem::set_title
 // Il2CppName: set_title
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ObjectiveListItem::set_title)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::StringW)>(&GlobalNamespace::ObjectiveListItem::set_title)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveListItem*), "set_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveListItem::set_conditionText
 // Il2CppName: set_conditionText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ObjectiveListItem::set_conditionText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::StringW)>(&GlobalNamespace::ObjectiveListItem::set_conditionText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveListItem*), "set_conditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -28,6 +28,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -300,9 +301,9 @@ namespace UnityEngine::ProBuilder {
     // System.String assetGuid
     // Size: 0x8
     // Offset: 0xA0
-    ::Il2CppString* assetGuid;
+    ::StringW assetGuid;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private UnityEngine.Mesh m_Mesh
     // Size: 0x8
     // Offset: 0xA8
@@ -469,7 +470,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Boolean m_PreserveMeshAssetOnDestroy
     bool& dyn_m_PreserveMeshAssetOnDestroy();
     // Get instance field reference: System.String assetGuid
-    ::Il2CppString*& dyn_assetGuid();
+    ::StringW& dyn_assetGuid();
     // Get instance field reference: private UnityEngine.Mesh m_Mesh
     UnityEngine::Mesh*& dyn_m_Mesh();
     // Get instance field reference: private UnityEngine.MeshRenderer m_MeshRenderer

@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -110,9 +111,9 @@ namespace HoudiniEngineUnity {
     // public System.String _partName
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* partName;
+    ::StringW partName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32[] _vertexList
     // Size: 0x8
     // Offset: 0x70
@@ -168,9 +169,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _unityMaterialAttrStringsMap
     // Size: 0x8
     // Offset: 0xC8
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* unityMaterialAttrStringsMap;
+    System::Collections::Generic::Dictionary_2<int, ::StringW>* unityMaterialAttrStringsMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*) == 0x8);
     // public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrNameInfo
     // Size: 0x24
     // Offset: 0xD0
@@ -188,9 +189,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _substanceMaterialAttrStringsMap
     // Size: 0x8
     // Offset: 0x100
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* substanceMaterialAttrStringsMap;
+    System::Collections::Generic::Dictionary_2<int, ::StringW>* substanceMaterialAttrStringsMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::StringW>*) == 0x8);
     // public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrIndexInfo
     // Size: 0x24
     // Offset: 0x108
@@ -296,9 +297,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _groups
     // Size: 0x8
     // Offset: 0x240
-    ::ArrayW<::Il2CppString*> groups;
+    ::ArrayW<::StringW> groups;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Boolean _hasGroupGeometry
     // Size: 0x1
     // Offset: 0x248
@@ -310,21 +311,21 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.Dictionary`2<System.String,System.Int32[]> _groupSplitVertexIndices
     // Size: 0x8
     // Offset: 0x250
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::ArrayW<int>>* groupSplitVertexIndices;
+    System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int>>* groupSplitVertexIndices;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::ArrayW<int>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int>>*) == 0x8);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupSplitFaceIndices
     // Size: 0x8
     // Offset: 0x258
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>* groupSplitFaceIndices;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>* groupSplitFaceIndices;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>*) == 0x8);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupVertexOffsets
     // Size: 0x8
     // Offset: 0x260
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>* groupVertexOffsets;
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>* groupVertexOffsets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>*) == 0x8);
     // public System.Int32[] _allCollisionVertexList
     // Size: 0x8
     // Offset: 0x268
@@ -386,9 +387,9 @@ namespace HoudiniEngineUnity {
     // public System.String _assetCacheFolderPath
     // Size: 0x8
     // Offset: 0x2A8
-    ::Il2CppString* assetCacheFolderPath;
+    ::StringW assetCacheFolderPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HEU_MeshIndexFormat _meshIndexFormat
     // Size: 0x8
     // Offset: 0x2B0
@@ -403,7 +404,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PartInfo _partInfo
     HoudiniEngineUnity::HAPI_PartInfo& dyn__partInfo();
     // Get instance field reference: public System.String _partName
-    ::Il2CppString*& dyn__partName();
+    ::StringW& dyn__partName();
     // Get instance field reference: public System.Int32[] _vertexList
     ::ArrayW<int>& dyn__vertexList();
     // Get instance field reference: public System.Int32[] _faceCounts
@@ -421,13 +422,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32[] _unityMaterialAttrName
     ::ArrayW<int>& dyn__unityMaterialAttrName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _unityMaterialAttrStringsMap
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*& dyn__unityMaterialAttrStringsMap();
+    System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__unityMaterialAttrStringsMap();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrNameInfo
     HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrNameInfo();
     // Get instance field reference: public System.Int32[] _substanceMaterialAttrName
     ::ArrayW<int>& dyn__substanceMaterialAttrName();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.String> _substanceMaterialAttrStringsMap
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*& dyn__substanceMaterialAttrStringsMap();
+    System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__substanceMaterialAttrStringsMap();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeInfo _substanceMaterialAttrIndexInfo
     HoudiniEngineUnity::HAPI_AttributeInfo& dyn__substanceMaterialAttrIndexInfo();
     // Get instance field reference: public System.Int32[] _substanceMaterialAttrIndex
@@ -459,15 +460,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single[] _tangentAttr
     ::ArrayW<float>& dyn__tangentAttr();
     // Get instance field reference: public System.String[] _groups
-    ::ArrayW<::Il2CppString*>& dyn__groups();
+    ::ArrayW<::StringW>& dyn__groups();
     // Get instance field reference: public System.Boolean _hasGroupGeometry
     bool& dyn__hasGroupGeometry();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Int32[]> _groupSplitVertexIndices
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::ArrayW<int>>*& dyn__groupSplitVertexIndices();
+    System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int>>*& dyn__groupSplitVertexIndices();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupSplitFaceIndices
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>*& dyn__groupSplitFaceIndices();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>*& dyn__groupSplitFaceIndices();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.Int32>> _groupVertexOffsets
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<int>*>*& dyn__groupVertexOffsets();
+    System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<int>*>*& dyn__groupVertexOffsets();
     // Get instance field reference: public System.Int32[] _allCollisionVertexList
     ::ArrayW<int>& dyn__allCollisionVertexList();
     // Get instance field reference: public System.Int32[] _allCollisionFaceIndices
@@ -487,7 +488,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MaterialData> _materialIDToDataMap
     System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_MaterialData*>*& dyn__materialIDToDataMap();
     // Get instance field reference: public System.String _assetCacheFolderPath
-    ::Il2CppString*& dyn__assetCacheFolderPath();
+    ::StringW& dyn__assetCacheFolderPath();
     // Get instance field reference: public HoudiniEngineUnity.HEU_MeshIndexFormat _meshIndexFormat
     HoudiniEngineUnity::HEU_MeshIndexFormat*& dyn__meshIndexFormat();
     // public System.Int32 get_GeoID()
@@ -504,13 +505,13 @@ namespace HoudiniEngineUnity {
     void set_AssetID(int value);
     // static public HoudiniEngineUnity.HEU_GenerateGeoCache GetPopulatedGeoCache(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 geoID, System.Int32 partID, System.Boolean bUseLODGroups, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
     // Offset: 0x14DCB74
-    static HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int geoID, int partID, bool bUseLODGroups, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::Il2CppString* assetCacheFolderPath);
+    static HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int geoID, int partID, bool bUseLODGroups, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // public System.Void PopulateUnityMaterialData(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x14DCFB8
     void PopulateUnityMaterialData(HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Int32 GetMaterialKeyFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 attributeIndex, out System.String unityMaterialName, out System.String substanceName, out System.Int32 substanceIndex)
     // Offset: 0x14DEE00
-    static int GetMaterialKeyFromAttributeIndex(HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int attributeIndex, ByRef<::Il2CppString*> unityMaterialName, ByRef<::Il2CppString*> substanceName, ByRef<int> substanceIndex);
+    static int GetMaterialKeyFromAttributeIndex(HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int attributeIndex, ByRef<::StringW> unityMaterialName, ByRef<::StringW> substanceName, ByRef<int> substanceIndex);
     // static public System.Void CreateMaterialInfoEntryFromAttributeIndex(HoudiniEngineUnity.HEU_GenerateGeoCache geoCache, System.Int32 materialAttributeIndex)
     // Offset: 0x14DED00
     static void CreateMaterialInfoEntryFromAttributeIndex(HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int materialAttributeIndex);
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache
 // Il2CppName: GetPopulatedGeoCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_GenerateGeoCache* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_GenerateGeoCache* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::GetPopulatedGeoCache)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -634,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex
 // Il2CppName: GetMaterialKeyFromAttributeIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_GenerateGeoCache*, int, ByRef<::Il2CppString*>, ByRef<::Il2CppString*>, ByRef<int>)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(HoudiniEngineUnity::HEU_GenerateGeoCache*, int, ByRef<::StringW>, ByRef<::StringW>, ByRef<int>)>(&HoudiniEngineUnity::HEU_GenerateGeoCache::GetMaterialKeyFromAttributeIndex)> {
   static const MethodInfo* get() {
     static auto* geoCache = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_GenerateGeoCache")->byval_arg;
     static auto* attributeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

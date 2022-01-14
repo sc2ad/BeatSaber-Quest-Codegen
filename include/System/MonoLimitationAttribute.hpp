@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -34,7 +35,7 @@ namespace System {
     // Implemented from: System.MonoTODOAttribute
     // Base method: System.Void MonoTODOAttribute::.ctor(System.String comment)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoLimitationAttribute* New_ctor(::Il2CppString* comment) {
+    static MonoLimitationAttribute* New_ctor(::StringW comment) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::MonoLimitationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoLimitationAttribute*, creationType>(comment)));
     }

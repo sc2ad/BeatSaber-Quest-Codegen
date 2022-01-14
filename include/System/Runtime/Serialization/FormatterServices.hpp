@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -118,25 +119,25 @@ namespace System::Runtime::Serialization {
     static ::ArrayW<::Il2CppObject*> GetObjectData(::Il2CppObject* obj, ::ArrayW<System::Reflection::MemberInfo*> members);
     // static public System.Type GetTypeFromAssembly(System.Reflection.Assembly assem, System.String name)
     // Offset: 0x185A0DC
-    static System::Type* GetTypeFromAssembly(System::Reflection::Assembly* assem, ::Il2CppString* name);
+    static System::Type* GetTypeFromAssembly(System::Reflection::Assembly* assem, ::StringW name);
     // static System.Reflection.Assembly LoadAssemblyFromString(System.String assemblyName)
     // Offset: 0x185A19C
-    static System::Reflection::Assembly* LoadAssemblyFromString(::Il2CppString* assemblyName);
+    static System::Reflection::Assembly* LoadAssemblyFromString(::StringW assemblyName);
     // static System.Reflection.Assembly LoadAssemblyFromStringNoThrow(System.String assemblyName)
     // Offset: 0x185A1A4
-    static System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::Il2CppString* assemblyName);
+    static System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::StringW assemblyName);
     // static System.String GetClrAssemblyName(System.Type type, out System.Boolean hasTypeForwardedFrom)
     // Offset: 0x185A288
-    static ::Il2CppString* GetClrAssemblyName(System::Type* type, ByRef<bool> hasTypeForwardedFrom);
+    static ::StringW GetClrAssemblyName(System::Type* type, ByRef<bool> hasTypeForwardedFrom);
     // static System.String GetClrTypeFullName(System.Type type)
     // Offset: 0x185A3EC
-    static ::Il2CppString* GetClrTypeFullName(System::Type* type);
+    static ::StringW GetClrTypeFullName(System::Type* type);
     // static private System.String GetClrTypeFullNameForArray(System.Type type)
     // Offset: 0x185A490
-    static ::Il2CppString* GetClrTypeFullNameForArray(System::Type* type);
+    static ::StringW GetClrTypeFullNameForArray(System::Type* type);
     // static private System.String GetClrTypeFullNameForNonArrayTypes(System.Type type)
     // Offset: 0x185A688
-    static ::Il2CppString* GetClrTypeFullNameForNonArrayTypes(System::Type* type);
+    static ::StringW GetClrTypeFullNameForNonArrayTypes(System::Type* type);
   }; // System.Runtime.Serialization.FormatterServices
   #pragma pack(pop)
 }
@@ -266,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetTypeFromAssembly
 // Il2CppName: GetTypeFromAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::Assembly*, ::Il2CppString*)>(&System::Runtime::Serialization::FormatterServices::GetTypeFromAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::Assembly*, ::StringW)>(&System::Runtime::Serialization::FormatterServices::GetTypeFromAssembly)> {
   static const MethodInfo* get() {
     static auto* assem = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::LoadAssemblyFromString
 // Il2CppName: LoadAssemblyFromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&System::Runtime::Serialization::FormatterServices::LoadAssemblyFromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::StringW)>(&System::Runtime::Serialization::FormatterServices::LoadAssemblyFromString)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "LoadAssemblyFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyName});
@@ -285,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::LoadAssemblyFromStringNoThrow
 // Il2CppName: LoadAssemblyFromStringNoThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::Il2CppString*)>(&System::Runtime::Serialization::FormatterServices::LoadAssemblyFromStringNoThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(::StringW)>(&System::Runtime::Serialization::FormatterServices::LoadAssemblyFromStringNoThrow)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "LoadAssemblyFromStringNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyName});
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetClrAssemblyName
 // Il2CppName: GetClrAssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ByRef<bool>)>(&System::Runtime::Serialization::FormatterServices::GetClrAssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*, ByRef<bool>)>(&System::Runtime::Serialization::FormatterServices::GetClrAssemblyName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* hasTypeForwardedFrom = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -304,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetClrTypeFullName
 // Il2CppName: GetClrTypeFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetClrTypeFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -313,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForArray
 // Il2CppName: GetClrTypeFullNameForArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForArray)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetClrTypeFullNameForArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -322,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForNonArrayTypes
 // Il2CppName: GetClrTypeFullNameForNonArrayTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForNonArrayTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForNonArrayTypes)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetClrTypeFullNameForNonArrayTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

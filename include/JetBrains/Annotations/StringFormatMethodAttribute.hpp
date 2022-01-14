@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
@@ -41,39 +42,39 @@ namespace JetBrains::Annotations {
     // private System.String <FormatParameterName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* FormatParameterName;
+    ::StringW FormatParameterName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return FormatParameterName;
     }
     // Get instance field reference: private System.String <FormatParameterName>k__BackingField
-    ::Il2CppString*& dyn_$FormatParameterName$k__BackingField();
+    ::StringW& dyn_$FormatParameterName$k__BackingField();
     // public System.String get_FormatParameterName()
     // Offset: 0x26BA4C8
-    ::Il2CppString* get_FormatParameterName();
+    ::StringW get_FormatParameterName();
     // private System.Void set_FormatParameterName(System.String value)
     // Offset: 0x26BA4D0
-    void set_FormatParameterName(::Il2CppString* value);
+    void set_FormatParameterName(::StringW value);
     // public System.Void .ctor(System.String formatParameterName)
     // Offset: 0x26BA49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StringFormatMethodAttribute* New_ctor(::Il2CppString* formatParameterName) {
+    static StringFormatMethodAttribute* New_ctor(::StringW formatParameterName) {
       static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::StringFormatMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringFormatMethodAttribute*, creationType>(formatParameterName)));
     }
   }; // JetBrains.Annotations.StringFormatMethodAttribute
   #pragma pack(pop)
-  static check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(::Il2CppString*)> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
+  static check_size<sizeof(StringFormatMethodAttribute), 16 + sizeof(::StringW)> __JetBrains_Annotations_StringFormatMethodAttributeSizeCheck;
   static_assert(sizeof(StringFormatMethodAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName
 // Il2CppName: get_FormatParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::StringFormatMethodAttribute::*)()>(&JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (JetBrains::Annotations::StringFormatMethodAttribute::*)()>(&JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "get_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName
 // Il2CppName: set_FormatParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::StringW)>(&JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "set_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

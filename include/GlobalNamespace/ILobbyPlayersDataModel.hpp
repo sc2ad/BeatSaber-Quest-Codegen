@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -32,9 +33,6 @@ namespace System {
   class Action_1;
 }
 // Completed forward declares
-// Begin il2cpp-utils forward declares
-struct Il2CppString;
-// Completed il2cpp-utils forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ILobbyPlayersDataModel
@@ -53,49 +51,49 @@ namespace GlobalNamespace {
     public:
     // public System.String get_localUserId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_localUserId();
+    ::StringW get_localUserId();
     // public System.String get_partyOwnerId()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_partyOwnerId();
+    ::StringW get_partyOwnerId();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,ILobbyPlayerData> get_playersData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>* get_playersData();
+    System::Collections::Generic::IReadOnlyDictionary_2<::StringW, GlobalNamespace::ILobbyPlayerData*>* get_playersData();
     // public System.Void add_didChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void add_didChangeEvent(System::Action_1<::Il2CppString*>* value);
+    void add_didChangeEvent(System::Action_1<::StringW>* value);
     // public System.Void remove_didChangeEvent(System.Action`1<System.String> value)
     // Offset: 0xFFFFFFFF
-    void remove_didChangeEvent(System::Action_1<::Il2CppString*>* value);
+    void remove_didChangeEvent(System::Action_1<::StringW>* value);
     // public ILobbyPlayerData GetLobbyPlayerDataModel(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::ILobbyPlayerData* GetLobbyPlayerDataModel(::Il2CppString* userId);
+    GlobalNamespace::ILobbyPlayerData* GetLobbyPlayerDataModel(::StringW userId);
     // public IPreviewBeatmapLevel GetPlayerBeatmapLevel(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IPreviewBeatmapLevel* GetPlayerBeatmapLevel(::Il2CppString* userId);
+    GlobalNamespace::IPreviewBeatmapLevel* GetPlayerBeatmapLevel(::StringW userId);
     // public BeatmapDifficulty GetPlayerBeatmapDifficulty(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapDifficulty GetPlayerBeatmapDifficulty(::Il2CppString* userId);
+    GlobalNamespace::BeatmapDifficulty GetPlayerBeatmapDifficulty(::StringW userId);
     // public BeatmapCharacteristicSO GetPlayerBeatmapCharacteristic(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapCharacteristicSO* GetPlayerBeatmapCharacteristic(::Il2CppString* userId);
+    GlobalNamespace::BeatmapCharacteristicSO* GetPlayerBeatmapCharacteristic(::StringW userId);
     // public GameplayModifiers GetPlayerGameplayModifiers(System.String userId)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayModifiers* GetPlayerGameplayModifiers(::Il2CppString* userId);
+    GlobalNamespace::GameplayModifiers* GetPlayerGameplayModifiers(::StringW userId);
     // public System.Boolean GetPlayerIsActive(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsActive(::Il2CppString* userId);
+    bool GetPlayerIsActive(::StringW userId);
     // public System.Boolean GetPlayerIsReady(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsReady(::Il2CppString* userId);
+    bool GetPlayerIsReady(::StringW userId);
     // public System.Boolean GetPlayerIsInLobby(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsInLobby(::Il2CppString* userId);
+    bool GetPlayerIsInLobby(::StringW userId);
     // public System.Boolean GetPlayerIsPartyOwner(System.String userId)
     // Offset: 0xFFFFFFFF
-    bool GetPlayerIsPartyOwner(::Il2CppString* userId);
+    bool GetPlayerIsPartyOwner(::StringW userId);
     // public System.Void SetLocalPlayerBeatmapLevel(System.String levelId, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO characteristic)
     // Offset: 0xFFFFFFFF
-    void SetLocalPlayerBeatmapLevel(::Il2CppString* levelId, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* characteristic);
+    void SetLocalPlayerBeatmapLevel(::StringW levelId, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* characteristic);
     // public System.Void ClearLocalPlayerBeatmapLevel()
     // Offset: 0xFFFFFFFF
     void ClearLocalPlayerBeatmapLevel();
@@ -116,7 +114,7 @@ namespace GlobalNamespace {
     void SetLocalPlayerIsInLobby(bool isInLobby);
     // public System.Void RequestKickPlayer(System.String kickedUserId)
     // Offset: 0xFFFFFFFF
-    void RequestKickPlayer(::Il2CppString* kickedUserId);
+    void RequestKickPlayer(::StringW kickedUserId);
     // public System.Void ClearData()
     // Offset: 0xFFFFFFFF
     void ClearData();
@@ -136,7 +134,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::get_localUserId
 // Il2CppName: get_localUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_localUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_localUserId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "get_localUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::get_partyOwnerId
 // Il2CppName: get_partyOwnerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_partyOwnerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_partyOwnerId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "get_partyOwnerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::get_playersData
 // Il2CppName: get_playersData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, GlobalNamespace::ILobbyPlayerData*>* (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_playersData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::StringW, GlobalNamespace::ILobbyPlayerData*>* (GlobalNamespace::ILobbyPlayersDataModel::*)()>(&GlobalNamespace::ILobbyPlayersDataModel::get_playersData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "get_playersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::add_didChangeEvent
 // Il2CppName: add_didChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::ILobbyPlayersDataModel::add_didChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::ILobbyPlayersDataModel::add_didChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "add_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -169,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::remove_didChangeEvent
 // Il2CppName: remove_didChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::ILobbyPlayersDataModel::remove_didChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(System::Action_1<::StringW>*)>(&GlobalNamespace::ILobbyPlayersDataModel::remove_didChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "remove_didChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -178,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetLobbyPlayerDataModel
 // Il2CppName: GetLobbyPlayerDataModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILobbyPlayerData* (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetLobbyPlayerDataModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILobbyPlayerData* (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetLobbyPlayerDataModel)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetLobbyPlayerDataModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -187,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapLevel
 // Il2CppName: GetPlayerBeatmapLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapLevel)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -196,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapDifficulty
 // Il2CppName: GetPlayerBeatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapDifficulty)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -205,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapCharacteristic
 // Il2CppName: GetPlayerBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerBeatmapCharacteristic)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -214,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerGameplayModifiers
 // Il2CppName: GetPlayerGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerGameplayModifiers)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -223,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsActive
 // Il2CppName: GetPlayerIsActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsActive)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerIsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -232,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsReady
 // Il2CppName: GetPlayerIsReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsReady)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -241,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsInLobby
 // Il2CppName: GetPlayerIsInLobby
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsInLobby)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsInLobby)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -250,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsPartyOwner
 // Il2CppName: GetPlayerIsPartyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsPartyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::GetPlayerIsPartyOwner)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "GetPlayerIsPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -259,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel
 // Il2CppName: SetLocalPlayerBeatmapLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
@@ -322,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyPlayersDataModel::RequestKickPlayer
 // Il2CppName: RequestKickPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(::Il2CppString*)>(&GlobalNamespace::ILobbyPlayersDataModel::RequestKickPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyPlayersDataModel::*)(::StringW)>(&GlobalNamespace::ILobbyPlayersDataModel::RequestKickPlayer)> {
   static const MethodInfo* get() {
     static auto* kickedUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyPlayersDataModel*), "RequestKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kickedUserId});

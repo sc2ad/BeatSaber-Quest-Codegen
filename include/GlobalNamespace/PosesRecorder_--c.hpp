@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,9 +52,9 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<PoseObject,UnityEngine.Transform> <>9__2_0
     static void _set_$$9__2_0(System::Func_2<GlobalNamespace::PoseObject*, UnityEngine::Transform*>* value);
     // Get static field: static public System.Func`2<PoseObject,System.String> <>9__2_1
-    static System::Func_2<GlobalNamespace::PoseObject*, ::Il2CppString*>* _get_$$9__2_1();
+    static System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<PoseObject,System.String> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<GlobalNamespace::PoseObject*, ::Il2CppString*>* value);
+    static void _set_$$9__2_1(System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x11AE3C8
     static void _cctor();
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* $StartRecording$b__2_0(GlobalNamespace::PoseObject* ro);
     // System.String <StartRecording>b__2_1(PoseObject ro)
     // Offset: 0x11AE44C
-    ::Il2CppString* $StartRecording$b__2_1(GlobalNamespace::PoseObject* ro);
+    ::StringW $StartRecording$b__2_1(GlobalNamespace::PoseObject* ro);
     // public System.Void .ctor()
     // Offset: 0x11AE42C
     // Implemented from: System.Object
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_1
 // Il2CppName: <StartRecording>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_1)> {
   static const MethodInfo* get() {
     static auto* ro = &::il2cpp_utils::GetClassFromName("", "PoseObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<StartRecording>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});

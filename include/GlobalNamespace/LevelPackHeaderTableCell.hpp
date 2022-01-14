@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -95,7 +96,7 @@ namespace GlobalNamespace {
     UnityEngine::Color& dyn__selectedAndHighlightedBackgroundColor();
     // public System.Void SetData(System.String headerText)
     // Offset: 0x12FCA74
-    void SetData(::Il2CppString* headerText);
+    void SetData(::StringW headerText);
     // private System.Void RefreshVisuals()
     // Offset: 0x12FCA94
     void RefreshVisuals();
@@ -134,7 +135,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackHeaderTableCell::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)(::Il2CppString*)>(&GlobalNamespace::LevelPackHeaderTableCell::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackHeaderTableCell::*)(::StringW)>(&GlobalNamespace::LevelPackHeaderTableCell::SetData)> {
   static const MethodInfo* get() {
     static auto* headerText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackHeaderTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headerText});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -60,16 +61,16 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private System.String m_buildTarget
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_buildTarget;
+    ::StringW m_buildTarget;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2DBCC
     // private System.String m_SettingsHash
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_SettingsHash;
+    ::StringW m_SettingsHash;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2DC18
     // private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     // Size: 0x8
@@ -125,9 +126,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private System.String m_AddressablesVersion
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* m_AddressablesVersion;
+    ::StringW m_AddressablesVersion;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 m_maxConcurrentWebRequests
     // Size: 0x4
     // Offset: 0x68
@@ -138,13 +139,13 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // static field const value: static public System.String kCatalogAddress
     static constexpr const char* kCatalogAddress = "AddressablesMainContentCatalog";
     // Get static field: static public System.String kCatalogAddress
-    static ::Il2CppString* _get_kCatalogAddress();
+    static ::StringW _get_kCatalogAddress();
     // Set static field: static public System.String kCatalogAddress
-    static void _set_kCatalogAddress(::Il2CppString* value);
+    static void _set_kCatalogAddress(::StringW value);
     // Get instance field reference: private System.String m_buildTarget
-    ::Il2CppString*& dyn_m_buildTarget();
+    ::StringW& dyn_m_buildTarget();
     // Get instance field reference: private System.String m_SettingsHash
-    ::Il2CppString*& dyn_m_SettingsHash();
+    ::StringW& dyn_m_SettingsHash();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
     // Get instance field reference: private System.Boolean m_ProfileEvents
@@ -160,21 +161,21 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
     UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
     // Get instance field reference: private System.String m_AddressablesVersion
-    ::Il2CppString*& dyn_m_AddressablesVersion();
+    ::StringW& dyn_m_AddressablesVersion();
     // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
     int& dyn_m_maxConcurrentWebRequests();
     // public System.String get_BuildTarget()
     // Offset: 0x16124E0
-    ::Il2CppString* get_BuildTarget();
+    ::StringW get_BuildTarget();
     // public System.Void set_BuildTarget(System.String value)
     // Offset: 0x16124E8
-    void set_BuildTarget(::Il2CppString* value);
+    void set_BuildTarget(::StringW value);
     // public System.String get_SettingsHash()
     // Offset: 0x16124F0
-    ::Il2CppString* get_SettingsHash();
+    ::StringW get_SettingsHash();
     // public System.Void set_SettingsHash(System.String value)
     // Offset: 0x16124F8
-    void set_SettingsHash(::Il2CppString* value);
+    void set_SettingsHash(::StringW value);
     // public System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> get_CatalogLocations()
     // Offset: 0x1612500
     System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
@@ -213,10 +214,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     void set_CertificateHandlerType(System::Type* value);
     // public System.String get_AddressablesVersion()
     // Offset: 0x161256C
-    ::Il2CppString* get_AddressablesVersion();
+    ::StringW get_AddressablesVersion();
     // public System.Void set_AddressablesVersion(System.String value)
     // Offset: 0x1612574
-    void set_AddressablesVersion(::Il2CppString* value);
+    void set_AddressablesVersion(::StringW value);
     // public System.Int32 get_MaxConcurrentWebRequests()
     // Offset: 0x161257C
     int get_MaxConcurrentWebRequests();
@@ -241,7 +242,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_BuildTarget
 // Il2CppName: get_BuildTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_BuildTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_BuildTarget)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -249,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_BuildTarget
 // Il2CppName: set_BuildTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_BuildTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_BuildTarget)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "set_BuildTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_SettingsHash
 // Il2CppName: get_SettingsHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_SettingsHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_SettingsHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -266,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_SettingsHash
 // Il2CppName: set_SettingsHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_SettingsHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_SettingsHash)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "set_SettingsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -376,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_AddressablesVersion
 // Il2CppName: get_AddressablesVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_AddressablesVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_AddressablesVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_AddressablesVersion
 // Il2CppName: set_AddressablesVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_AddressablesVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::StringW)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_AddressablesVersion)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "set_AddressablesVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

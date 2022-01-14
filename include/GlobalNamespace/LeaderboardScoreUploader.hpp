@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -97,9 +98,9 @@ namespace GlobalNamespace {
     // private System.String _playerId
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* playerId;
+    ::StringW playerId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _uploading
     // Size: 0x1
     // Offset: 0x40
@@ -112,9 +113,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kScoresToUploadFileName
     static constexpr const char* kScoresToUploadFileName = "ScoresToUpload.dat";
     // Get static field: static private System.String kScoresToUploadFileName
-    static ::Il2CppString* _get_kScoresToUploadFileName();
+    static ::StringW _get_kScoresToUploadFileName();
     // Set static field: static private System.String kScoresToUploadFileName
-    static void _set_kScoresToUploadFileName(::Il2CppString* value);
+    static void _set_kScoresToUploadFileName(::StringW value);
     // Get instance field reference: private System.Action allScoresDidUploadEvent
     System::Action*& dyn_allScoresDidUploadEvent();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> _scoresToUpload
@@ -124,7 +125,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LeaderboardScoreUploader/UploadScoreCallback _uploadScoreCallback
     GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*& dyn__uploadScoreCallback();
     // Get instance field reference: private System.String _playerId
-    ::Il2CppString*& dyn__playerId();
+    ::StringW& dyn__playerId();
     // Get instance field reference: private System.Boolean _uploading
     bool& dyn__uploading();
     // public System.Void add_allScoresDidUploadEvent(System.Action value)
@@ -135,7 +136,7 @@ namespace GlobalNamespace {
     void remove_allScoresDidUploadEvent(System::Action* value);
     // public System.Void Init(LeaderboardScoreUploader/UploadScoreCallback uploadScoreCallback, System.String playerId)
     // Offset: 0x11A2690
-    void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::Il2CppString* playerId);
+    void Init(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
     // private System.Void OnApplicationQuit()
     // Offset: 0x11A273C
     void OnApplicationQuit();
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, ::Il2CppString*)>(&GlobalNamespace::LeaderboardScoreUploader::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, ::StringW)>(&GlobalNamespace::LeaderboardScoreUploader::Init)> {
   static const MethodInfo* get() {
     static auto* uploadScoreCallback = &::il2cpp_utils::GetClassFromName("", "LeaderboardScoreUploader/UploadScoreCallback")->byval_arg;
     static auto* playerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

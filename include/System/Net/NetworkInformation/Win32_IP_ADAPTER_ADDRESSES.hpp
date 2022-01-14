@@ -18,6 +18,7 @@
 // Including type: System.Net.NetworkInformation.Win32_SOCKET_ADDRESS
 #include "System/Net/NetworkInformation/Win32_SOCKET_ADDRESS.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
@@ -51,9 +52,9 @@ namespace System::Net::NetworkInformation {
     // public System.String AdapterName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* AdapterName;
+    ::StringW AdapterName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.IntPtr FirstUnicastAddress
     // Size: 0x8
     // Offset: 0x18
@@ -81,21 +82,21 @@ namespace System::Net::NetworkInformation {
     // public System.String DnsSuffix
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* DnsSuffix;
+    ::StringW DnsSuffix;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String Description
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* Description;
+    ::StringW Description;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String FriendlyName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* FriendlyName;
+    ::StringW FriendlyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Byte[] PhysicalAddress
     // Size: 0x8
     // Offset: 0x50
@@ -260,7 +261,7 @@ namespace System::Net::NetworkInformation {
     static_assert(sizeof(System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: Win32_IP_ADAPTER_ADDRESSES
-    constexpr Win32_IP_ADAPTER_ADDRESSES(System::Net::NetworkInformation::AlignmentUnion Alignment_ = {}, System::IntPtr Next_ = {}, ::Il2CppString* AdapterName_ = {}, System::IntPtr FirstUnicastAddress_ = {}, System::IntPtr FirstAnycastAddress_ = {}, System::IntPtr FirstMulticastAddress_ = {}, System::IntPtr FirstDnsServerAddress_ = {}, ::Il2CppString* DnsSuffix_ = {}, ::Il2CppString* Description_ = {}, ::Il2CppString* FriendlyName_ = {}, ::ArrayW<uint8_t> PhysicalAddress_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), uint PhysicalAddressLength_ = {}, uint Flags_ = {}, uint Mtu_ = {}, System::Net::NetworkInformation::NetworkInterfaceType IfType_ = {}, System::Net::NetworkInformation::OperationalStatus OperStatus_ = {}, int Ipv6IfIndex_ = {}, ::ArrayW<uint> ZoneIndices_ = ::ArrayW<uint>(static_cast<void*>(nullptr)), System::IntPtr FirstPrefix_ = {}, uint64_t TransmitLinkSpeed_ = {}, uint64_t ReceiveLinkSpeed_ = {}, System::IntPtr FirstWinsServerAddress_ = {}, System::IntPtr FirstGatewayAddress_ = {}, uint Ipv4Metric_ = {}, uint Ipv6Metric_ = {}, uint64_t Luid_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv4Server_ = {}, uint CompartmentId_ = {}, uint64_t NetworkGuid_ = {}, int ConnectionType_ = {}, int TunnelType_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv6Server_ = {}, ::ArrayW<uint8_t> Dhcpv6ClientDuid_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), uint64_t Dhcpv6ClientDuidLength_ = {}, uint64_t Dhcpv6Iaid_ = {}, System::IntPtr FirstDnsSuffix_ = {}) noexcept : Alignment{Alignment_}, Next{Next_}, AdapterName{AdapterName_}, FirstUnicastAddress{FirstUnicastAddress_}, FirstAnycastAddress{FirstAnycastAddress_}, FirstMulticastAddress{FirstMulticastAddress_}, FirstDnsServerAddress{FirstDnsServerAddress_}, DnsSuffix{DnsSuffix_}, Description{Description_}, FriendlyName{FriendlyName_}, PhysicalAddress{PhysicalAddress_}, PhysicalAddressLength{PhysicalAddressLength_}, Flags{Flags_}, Mtu{Mtu_}, IfType{IfType_}, OperStatus{OperStatus_}, Ipv6IfIndex{Ipv6IfIndex_}, ZoneIndices{ZoneIndices_}, FirstPrefix{FirstPrefix_}, TransmitLinkSpeed{TransmitLinkSpeed_}, ReceiveLinkSpeed{ReceiveLinkSpeed_}, FirstWinsServerAddress{FirstWinsServerAddress_}, FirstGatewayAddress{FirstGatewayAddress_}, Ipv4Metric{Ipv4Metric_}, Ipv6Metric{Ipv6Metric_}, Luid{Luid_}, Dhcpv4Server{Dhcpv4Server_}, CompartmentId{CompartmentId_}, NetworkGuid{NetworkGuid_}, ConnectionType{ConnectionType_}, TunnelType{TunnelType_}, Dhcpv6Server{Dhcpv6Server_}, Dhcpv6ClientDuid{Dhcpv6ClientDuid_}, Dhcpv6ClientDuidLength{Dhcpv6ClientDuidLength_}, Dhcpv6Iaid{Dhcpv6Iaid_}, FirstDnsSuffix{FirstDnsSuffix_} {}
+    constexpr Win32_IP_ADAPTER_ADDRESSES(System::Net::NetworkInformation::AlignmentUnion Alignment_ = {}, System::IntPtr Next_ = {}, ::StringW AdapterName_ = {}, System::IntPtr FirstUnicastAddress_ = {}, System::IntPtr FirstAnycastAddress_ = {}, System::IntPtr FirstMulticastAddress_ = {}, System::IntPtr FirstDnsServerAddress_ = {}, ::StringW DnsSuffix_ = {}, ::StringW Description_ = {}, ::StringW FriendlyName_ = {}, ::ArrayW<uint8_t> PhysicalAddress_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), uint PhysicalAddressLength_ = {}, uint Flags_ = {}, uint Mtu_ = {}, System::Net::NetworkInformation::NetworkInterfaceType IfType_ = {}, System::Net::NetworkInformation::OperationalStatus OperStatus_ = {}, int Ipv6IfIndex_ = {}, ::ArrayW<uint> ZoneIndices_ = ::ArrayW<uint>(static_cast<void*>(nullptr)), System::IntPtr FirstPrefix_ = {}, uint64_t TransmitLinkSpeed_ = {}, uint64_t ReceiveLinkSpeed_ = {}, System::IntPtr FirstWinsServerAddress_ = {}, System::IntPtr FirstGatewayAddress_ = {}, uint Ipv4Metric_ = {}, uint Ipv6Metric_ = {}, uint64_t Luid_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv4Server_ = {}, uint CompartmentId_ = {}, uint64_t NetworkGuid_ = {}, int ConnectionType_ = {}, int TunnelType_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Dhcpv6Server_ = {}, ::ArrayW<uint8_t> Dhcpv6ClientDuid_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), uint64_t Dhcpv6ClientDuidLength_ = {}, uint64_t Dhcpv6Iaid_ = {}, System::IntPtr FirstDnsSuffix_ = {}) noexcept : Alignment{Alignment_}, Next{Next_}, AdapterName{AdapterName_}, FirstUnicastAddress{FirstUnicastAddress_}, FirstAnycastAddress{FirstAnycastAddress_}, FirstMulticastAddress{FirstMulticastAddress_}, FirstDnsServerAddress{FirstDnsServerAddress_}, DnsSuffix{DnsSuffix_}, Description{Description_}, FriendlyName{FriendlyName_}, PhysicalAddress{PhysicalAddress_}, PhysicalAddressLength{PhysicalAddressLength_}, Flags{Flags_}, Mtu{Mtu_}, IfType{IfType_}, OperStatus{OperStatus_}, Ipv6IfIndex{Ipv6IfIndex_}, ZoneIndices{ZoneIndices_}, FirstPrefix{FirstPrefix_}, TransmitLinkSpeed{TransmitLinkSpeed_}, ReceiveLinkSpeed{ReceiveLinkSpeed_}, FirstWinsServerAddress{FirstWinsServerAddress_}, FirstGatewayAddress{FirstGatewayAddress_}, Ipv4Metric{Ipv4Metric_}, Ipv6Metric{Ipv6Metric_}, Luid{Luid_}, Dhcpv4Server{Dhcpv4Server_}, CompartmentId{CompartmentId_}, NetworkGuid{NetworkGuid_}, ConnectionType{ConnectionType_}, TunnelType{TunnelType_}, Dhcpv6Server{Dhcpv6Server_}, Dhcpv6ClientDuid{Dhcpv6ClientDuid_}, Dhcpv6ClientDuidLength{Dhcpv6ClientDuidLength_}, Dhcpv6Iaid{Dhcpv6Iaid_}, FirstDnsSuffix{FirstDnsSuffix_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -270,7 +271,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.IntPtr Next
     System::IntPtr& dyn_Next();
     // Get instance field reference: public System.String AdapterName
-    ::Il2CppString*& dyn_AdapterName();
+    ::StringW& dyn_AdapterName();
     // Get instance field reference: public System.IntPtr FirstUnicastAddress
     System::IntPtr& dyn_FirstUnicastAddress();
     // Get instance field reference: public System.IntPtr FirstAnycastAddress
@@ -280,11 +281,11 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: public System.IntPtr FirstDnsServerAddress
     System::IntPtr& dyn_FirstDnsServerAddress();
     // Get instance field reference: public System.String DnsSuffix
-    ::Il2CppString*& dyn_DnsSuffix();
+    ::StringW& dyn_DnsSuffix();
     // Get instance field reference: public System.String Description
-    ::Il2CppString*& dyn_Description();
+    ::StringW& dyn_Description();
     // Get instance field reference: public System.String FriendlyName
-    ::Il2CppString*& dyn_FriendlyName();
+    ::StringW& dyn_FriendlyName();
     // Get instance field reference: public System.Byte[] PhysicalAddress
     ::ArrayW<uint8_t>& dyn_PhysicalAddress();
     // Get instance field reference: public System.UInt32 PhysicalAddressLength

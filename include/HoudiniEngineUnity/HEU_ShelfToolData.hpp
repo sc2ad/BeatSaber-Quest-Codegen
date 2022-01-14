@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -97,9 +98,9 @@ namespace HoudiniEngineUnity {
     // public System.String _name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* name;
+    ::StringW name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType
     // Size: 0x4
     // Offset: 0x18
@@ -111,56 +112,56 @@ namespace HoudiniEngineUnity {
     // public System.String _toolTip
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* toolTip;
+    ::StringW toolTip;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _iconPath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* iconPath;
+    ::StringW iconPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _assetPath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* assetPath;
+    ::StringW assetPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _helpURL
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* helpURL;
+    ::StringW helpURL;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String[] _targets
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<::Il2CppString*> targets;
+    ::ArrayW<::StringW> targets;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.String _jsonPath
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* jsonPath;
+    ::StringW jsonPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.String _name
-    ::Il2CppString*& dyn__name();
+    ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType
     HoudiniEngineUnity::HEU_ShelfToolData::ToolType& dyn__toolType();
     // Get instance field reference: public System.String _toolTip
-    ::Il2CppString*& dyn__toolTip();
+    ::StringW& dyn__toolTip();
     // Get instance field reference: public System.String _iconPath
-    ::Il2CppString*& dyn__iconPath();
+    ::StringW& dyn__iconPath();
     // Get instance field reference: public System.String _assetPath
-    ::Il2CppString*& dyn__assetPath();
+    ::StringW& dyn__assetPath();
     // Get instance field reference: public System.String _helpURL
-    ::Il2CppString*& dyn__helpURL();
+    ::StringW& dyn__helpURL();
     // Get instance field reference: public System.String[] _targets
-    ::ArrayW<::Il2CppString*>& dyn__targets();
+    ::ArrayW<::StringW>& dyn__targets();
     // Get instance field reference: public System.String _jsonPath
-    ::Il2CppString*& dyn__jsonPath();
+    ::StringW& dyn__jsonPath();
     // public System.Void .ctor()
     // Offset: 0x1849794
     // Implemented from: System.Object
@@ -172,7 +173,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_ShelfToolData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_ShelfToolData), 72 + sizeof(::Il2CppString*)> __HoudiniEngineUnity_HEU_ShelfToolDataSizeCheck;
+  static check_size<sizeof(HEU_ShelfToolData), 72 + sizeof(::StringW)> __HoudiniEngineUnity_HEU_ShelfToolDataSizeCheck;
   static_assert(sizeof(HEU_ShelfToolData) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

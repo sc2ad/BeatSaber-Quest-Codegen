@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -55,9 +56,9 @@ namespace UnityEngine::Events {
     // private System.String m_ObjectArgumentAssemblyTypeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* m_ObjectArgumentAssemblyTypeName;
+    ::StringW m_ObjectArgumentAssemblyTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xEB8CAC
     // private System.Int32 m_IntArgument
     // Size: 0x4
@@ -76,9 +77,9 @@ namespace UnityEngine::Events {
     // private System.String m_StringArgument
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* m_StringArgument;
+    ::StringW m_StringArgument;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean m_BoolArgument
     // Size: 0x1
     // Offset: 0x30
@@ -93,13 +94,13 @@ namespace UnityEngine::Events {
     // Get instance field reference: private UnityEngine.Object m_ObjectArgument
     UnityEngine::Object*& dyn_m_ObjectArgument();
     // Get instance field reference: private System.String m_ObjectArgumentAssemblyTypeName
-    ::Il2CppString*& dyn_m_ObjectArgumentAssemblyTypeName();
+    ::StringW& dyn_m_ObjectArgumentAssemblyTypeName();
     // Get instance field reference: private System.Int32 m_IntArgument
     int& dyn_m_IntArgument();
     // Get instance field reference: private System.Single m_FloatArgument
     float& dyn_m_FloatArgument();
     // Get instance field reference: private System.String m_StringArgument
-    ::Il2CppString*& dyn_m_StringArgument();
+    ::StringW& dyn_m_StringArgument();
     // Get instance field reference: private System.Boolean m_BoolArgument
     bool& dyn_m_BoolArgument();
     // public UnityEngine.Object get_unityObjectArgument()
@@ -107,7 +108,7 @@ namespace UnityEngine::Events {
     UnityEngine::Object* get_unityObjectArgument();
     // public System.String get_unityObjectArgumentAssemblyTypeName()
     // Offset: 0x1D0B34C
-    ::Il2CppString* get_unityObjectArgumentAssemblyTypeName();
+    ::StringW get_unityObjectArgumentAssemblyTypeName();
     // public System.Int32 get_intArgument()
     // Offset: 0x1D0B354
     int get_intArgument();
@@ -116,7 +117,7 @@ namespace UnityEngine::Events {
     float get_floatArgument();
     // public System.String get_stringArgument()
     // Offset: 0x1D0B364
-    ::Il2CppString* get_stringArgument();
+    ::StringW get_stringArgument();
     // public System.Boolean get_boolArgument()
     // Offset: 0x1D0B36C
     bool get_boolArgument();
@@ -155,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName
 // Il2CppName: get_unityObjectArgumentAssemblyTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_unityObjectArgumentAssemblyTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -179,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_stringArgument
 // Il2CppName: get_stringArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_stringArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_stringArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_stringArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

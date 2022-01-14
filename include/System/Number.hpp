@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,25 +53,25 @@ namespace System {
     static bool NumberBufferToDouble(uint8_t* number, ByRef<double> value);
     // static public System.String FormatDecimal(System.Decimal value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A17334
-    static ::Il2CppString* FormatDecimal(System::Decimal value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatDecimal(System::Decimal value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatDouble(System.Double value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A17498
-    static ::Il2CppString* FormatDouble(double value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatDouble(double value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatInt32(System.Int32 value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A0EF34
-    static ::Il2CppString* FormatInt32(int value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatInt32(int value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatUInt32(System.UInt32 value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A0F0C4
-    static ::Il2CppString* FormatUInt32(uint value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatUInt32(uint value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatInt64(System.Int64 value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A1095C
-    static ::Il2CppString* FormatInt64(int64_t value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatInt64(int64_t value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatUInt64(System.UInt64 value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A1785C
-    static ::Il2CppString* FormatUInt64(uint64_t value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatUInt64(uint64_t value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static public System.String FormatSingle(System.Single value, System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A17988
-    static ::Il2CppString* FormatSingle(float value, ::Il2CppString* format, System::Globalization::NumberFormatInfo* info);
+    static ::StringW FormatSingle(float value, ::StringW format, System::Globalization::NumberFormatInfo* info);
     // static private System.Boolean HexNumberToInt32(ref System.Number/System.NumberBuffer number, ref System.Int32 value)
     // Offset: 0x1A17B34
     static bool HexNumberToInt32(ByRef<System::Number::NumberBuffer> number, ByRef<int> value);
@@ -100,61 +101,61 @@ namespace System {
     static bool NumberToUInt64(ByRef<System::Number::NumberBuffer> number, ByRef<uint64_t> value);
     // static private System.Char* MatchChars(System.Char* p, System.String str)
     // Offset: 0x1A17F10
-    static ::Il2CppChar* MatchChars(::Il2CppChar* p, ::Il2CppString* str);
+    static ::Il2CppChar* MatchChars(::Il2CppChar* p, ::StringW str);
     // static private System.Char* MatchChars(System.Char* p, System.Char* str)
     // Offset: 0x1A17F84
     static ::Il2CppChar* MatchChars(::Il2CppChar* p, ::Il2CppChar* str);
     // static System.Decimal ParseDecimal(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A17FD0
-    static System::Decimal ParseDecimal(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static System::Decimal ParseDecimal(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.Double ParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A182BC
-    static double ParseDouble(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static double ParseDouble(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.Int32 ParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1A0F344
-    static int ParseInt32(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
+    static int ParseInt32(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
     // static System.Int64 ParseInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A10AA8
-    static int64_t ParseInt64(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static int64_t ParseInt64(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static private System.Boolean ParseNumber(ref System.Char* str, System.Globalization.NumberStyles options, ref System.Number/System.NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x1A18530
     static bool ParseNumber(ByRef<::Il2CppChar*> str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
     // static System.Single ParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A18A58
-    static float ParseSingle(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static float ParseSingle(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.UInt32 ParseUInt32(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A18CD4
-    static uint ParseUInt32(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static uint ParseUInt32(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static System.UInt64 ParseUInt64(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt)
     // Offset: 0x1A18E20
-    static uint64_t ParseUInt64(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
+    static uint64_t ParseUInt64(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt);
     // static private System.Void StringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/System.NumberBuffer number, System.Globalization.NumberFormatInfo info, System.Boolean parseDecimal)
     // Offset: 0x1A18140
-    static void StringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Globalization::NumberFormatInfo* info, bool parseDecimal);
+    static void StringToNumber(::StringW str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Globalization::NumberFormatInfo* info, bool parseDecimal);
     // static private System.Boolean TrailingZeros(System.String s, System.Int32 index)
     // Offset: 0x1A18F6C
-    static bool TrailingZeros(::Il2CppString* s, int index);
+    static bool TrailingZeros(::StringW s, int index);
     // static System.Boolean TryParseDouble(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, out System.Double result)
     // Offset: 0x1A18FD4
-    static bool TryParseDouble(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, ByRef<double> result);
+    static bool TryParseDouble(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, ByRef<double> result);
     // static System.Boolean TryParseInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Int32 result)
     // Offset: 0x1A0FF3C
-    static bool TryParseInt32(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<int> result);
+    static bool TryParseInt32(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<int> result);
     // static System.Boolean TryParseInt64(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.Int64 result)
     // Offset: 0x1A10CD0
-    static bool TryParseInt64(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<int64_t> result);
+    static bool TryParseInt64(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<int64_t> result);
     // static System.Boolean TryParseSingle(System.String value, System.Globalization.NumberStyles options, System.Globalization.NumberFormatInfo numfmt, out System.Single result)
     // Offset: 0x1A190F4
-    static bool TryParseSingle(::Il2CppString* value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, ByRef<float> result);
+    static bool TryParseSingle(::StringW value, System::Globalization::NumberStyles options, System::Globalization::NumberFormatInfo* numfmt, ByRef<float> result);
     // static System.Boolean TryParseUInt32(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.UInt32 result)
     // Offset: 0x1A1924C
-    static bool TryParseUInt32(::Il2CppString* s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<uint> result);
+    static bool TryParseUInt32(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<uint> result);
     // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/System.NumberBuffer number, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x1A1851C
-    static bool TryStringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
+    static bool TryStringToNumber(::StringW str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
     // static System.Boolean TryStringToNumber(System.String str, System.Globalization.NumberStyles options, ref System.Number/System.NumberBuffer number, System.Text.StringBuilder sb, System.Globalization.NumberFormatInfo numfmt, System.Boolean parseDecimal)
     // Offset: 0x1A19368
-    static bool TryStringToNumber(::Il2CppString* str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
+    static bool TryStringToNumber(::StringW str, System::Globalization::NumberStyles options, ByRef<System::Number::NumberBuffer> number, System::Text::StringBuilder* sb, System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
   }; // System.Number
   #pragma pack(pop)
 }
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: System::Number::FormatDecimal
 // Il2CppName: FormatDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Decimal, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatDouble
 // Il2CppName: FormatDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatInt32
 // Il2CppName: FormatInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -215,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatUInt32
 // Il2CppName: FormatUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatInt64
 // Il2CppName: FormatInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -237,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatUInt64
 // Il2CppName: FormatUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint64_t, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Number::FormatSingle
 // Il2CppName: FormatSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float, ::StringW, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: System::Number::MatchChars
 // Il2CppName: MatchChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::Il2CppString*)>(&System::Number::MatchChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::StringW)>(&System::Number::MatchChars)> {
   static const MethodInfo* get() {
     static auto* p = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -368,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Number::ParseDecimal
 // Il2CppName: ParseDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -379,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Number::ParseDouble
 // Il2CppName: ParseDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -390,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Number::ParseInt32
 // Il2CppName: ParseInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt32)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -401,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Number::ParseInt64
 // Il2CppName: ParseInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -426,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: System::Number::ParseSingle
 // Il2CppName: ParseSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -437,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 // Writing MetadataGetter for method: System::Number::ParseUInt32
 // Il2CppName: ParseUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -448,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: System::Number::ParseUInt64
 // Il2CppName: ParseUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -459,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::Number::StringToNumber
 // Il2CppName: StringToNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::StringToNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::StringToNumber)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -472,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Number::TrailingZeros
 // Il2CppName: TrailingZeros
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Number::TrailingZeros)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int)>(&System::Number::TrailingZeros)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -482,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryParseDouble
 // Il2CppName: TryParseDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<double>)>(&System::Number::TryParseDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<double>)>(&System::Number::TryParseDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -494,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryParseInt32
 // Il2CppName: TryParseInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<int>)>(&System::Number::TryParseInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<int>)>(&System::Number::TryParseInt32)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -506,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryParseInt64
 // Il2CppName: TryParseInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<int64_t>)>(&System::Number::TryParseInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<int64_t>)>(&System::Number::TryParseInt64)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -518,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryParseSingle
 // Il2CppName: TryParseSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<float>)>(&System::Number::TryParseSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<float>)>(&System::Number::TryParseSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -530,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryParseUInt32
 // Il2CppName: TryParseUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<uint>)>(&System::Number::TryParseUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<uint>)>(&System::Number::TryParseUInt32)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -542,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
 // Il2CppName: TryStringToNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -555,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
 // Il2CppName: TryStringToNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, ByRef<System::Number::NumberBuffer>, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;

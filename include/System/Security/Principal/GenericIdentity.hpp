@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -58,24 +59,24 @@ namespace System::Security::Principal {
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* m_name;
+    ::StringW m_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_type
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* m_type;
+    ::StringW m_type;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String m_name
-    ::Il2CppString*& dyn_m_name();
+    ::StringW& dyn_m_name();
     // Get instance field reference: private System.String m_type
-    ::Il2CppString*& dyn_m_type();
+    ::StringW& dyn_m_type();
     // public System.Void .ctor(System.String name, System.String type)
     // Offset: 0x1D23B28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GenericIdentity* New_ctor(::Il2CppString* name, ::Il2CppString* type) {
+    static GenericIdentity* New_ctor(::StringW name, ::StringW type) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Principal::GenericIdentity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericIdentity*, creationType>(name, type)));
     }
@@ -98,12 +99,12 @@ namespace System::Security::Principal {
     // Offset: 0x1D23D50
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_Name()
-    ::Il2CppString* get_Name();
+    ::StringW get_Name();
     // public override System.String get_AuthenticationType()
     // Offset: 0x1D23D58
     // Implemented from: System.Security.Claims.ClaimsIdentity
     // Base method: System.String ClaimsIdentity::get_AuthenticationType()
-    ::Il2CppString* get_AuthenticationType();
+    ::StringW get_AuthenticationType();
     // private System.Void .ctor()
     // Offset: 0x1D23CA0
     // Implemented from: System.Security.Claims.ClaimsIdentity
@@ -126,7 +127,7 @@ namespace System::Security::Principal {
     void OnDeserializedMethod(System::Runtime::Serialization::StreamingContext context);
   }; // System.Security.Principal.GenericIdentity
   #pragma pack(pop)
-  static check_size<sizeof(GenericIdentity), 128 + sizeof(::Il2CppString*)> __System_Security_Principal_GenericIdentitySizeCheck;
+  static check_size<sizeof(GenericIdentity), 128 + sizeof(::StringW)> __System_Security_Principal_GenericIdentitySizeCheck;
   static_assert(sizeof(GenericIdentity) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_AuthenticationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

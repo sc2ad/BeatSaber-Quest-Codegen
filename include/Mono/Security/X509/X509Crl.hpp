@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -67,9 +68,9 @@ namespace Mono::Security::X509 {
     // private System.String issuer
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* issuer;
+    ::StringW issuer;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte version
     // Size: 0x1
     // Offset: 0x18
@@ -99,9 +100,9 @@ namespace Mono::Security::X509 {
     // private System.String signatureOID
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* signatureOID;
+    ::StringW signatureOID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] signature
     // Size: 0x8
     // Offset: 0x40
@@ -128,7 +129,7 @@ namespace Mono::Security::X509 {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.String issuer
-    ::Il2CppString*& dyn_issuer();
+    ::StringW& dyn_issuer();
     // Get instance field reference: private System.Byte version
     uint8_t& dyn_version();
     // Get instance field reference: private System.DateTime thisUpdate
@@ -138,7 +139,7 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Collections.ArrayList entries
     System::Collections::ArrayList*& dyn_entries();
     // Get instance field reference: private System.String signatureOID
-    ::Il2CppString*& dyn_signatureOID();
+    ::StringW& dyn_signatureOID();
     // Get instance field reference: private System.Byte[] signature
     ::ArrayW<uint8_t>& dyn_signature();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
@@ -155,7 +156,7 @@ namespace Mono::Security::X509 {
     ::ArrayW<uint8_t> get_Hash();
     // public System.String get_IssuerName()
     // Offset: 0x2688CB0
-    ::Il2CppString* get_IssuerName();
+    ::StringW get_IssuerName();
     // public System.DateTime get_NextUpdate()
     // Offset: 0x2688CB8
     System::DateTime get_NextUpdate();
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_IssuerName
 // Il2CppName: get_IssuerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_IssuerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_IssuerName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_IssuerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

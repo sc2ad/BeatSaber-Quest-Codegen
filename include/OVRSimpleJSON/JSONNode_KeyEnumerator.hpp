@@ -11,6 +11,7 @@
 #include "System/ValueType.hpp"
 // Including type: OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator
 #include "OVRSimpleJSON/JSONNode_Enumerator.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
@@ -42,13 +43,13 @@ namespace OVRSimpleJSON {
     OVRSimpleJSON::JSONNode::Enumerator& dyn_m_Enumerator();
     // public System.String get_Current()
     // Offset: 0x2164DA8
-    ::Il2CppString* get_Current();
+    ::StringW get_Current();
     // public System.Void .ctor(System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> aArrayEnum)
     // Offset: 0x2164CFC
     KeyEnumerator(typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator aArrayEnum);
     // public System.Void .ctor(System.Collections.Generic.Dictionary`2/System.Collections.Generic.Enumerator<System.String,OVRSimpleJSON.JSONNode> aDictEnum)
     // Offset: 0x2164D44
-    KeyEnumerator(typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
+    KeyEnumerator(typename System::Collections::Generic::Dictionary_2<::StringW, OVRSimpleJSON::JSONNode*>::Enumerator aDictEnum);
     // public System.Void .ctor(OVRSimpleJSON.JSONNode/OVRSimpleJSON.Enumerator aEnumerator)
     // Offset: 0x2164D90
     // ABORTED: conflicts with another method.  KeyEnumerator(OVRSimpleJSON::JSONNode::Enumerator aEnumerator);
@@ -65,7 +66,7 @@ namespace OVRSimpleJSON {
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::KeyEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRSimpleJSON::JSONNode::KeyEnumerator::*)()>(&OVRSimpleJSON::JSONNode::KeyEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVRSimpleJSON::JSONNode::KeyEnumerator::*)()>(&OVRSimpleJSON::JSONNode::KeyEnumerator::get_Current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::KeyEnumerator), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -98,7 +99,7 @@ namespace HoudiniEngineUnity {
     bool AnyWorkItemsPending();
     // public System.String ProgressRatio()
     // Offset: 0x1786568
-    ::Il2CppString* ProgressRatio();
+    ::StringW ProgressRatio();
     // public System.Void .ctor()
     // Offset: 0x1786644
     // Implemented from: System.Object
@@ -149,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_WorkItemTally::ProgressRatio
 // Il2CppName: ProgressRatio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&HoudiniEngineUnity::HEU_WorkItemTally::ProgressRatio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&HoudiniEngineUnity::HEU_WorkItemTally::ProgressRatio)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_WorkItemTally*), "ProgressRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

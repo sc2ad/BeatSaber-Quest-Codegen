@@ -10,6 +10,7 @@
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -44,9 +45,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kFirstAlphabet
     static constexpr const char* kFirstAlphabet = "A";
     // Get static field: static private System.String kFirstAlphabet
-    static ::Il2CppString* _get_kFirstAlphabet();
+    static ::StringW _get_kFirstAlphabet();
     // Set static field: static private System.String kFirstAlphabet
-    static void _set_kFirstAlphabet(::Il2CppString* value);
+    static void _set_kFirstAlphabet(::StringW value);
     // static field const value: static private System.Char kNonAlphabetChar
     static constexpr const ::Il2CppChar kNonAlphabetChar = u'#';
     // Get static field: static private System.Char kNonAlphabetChar

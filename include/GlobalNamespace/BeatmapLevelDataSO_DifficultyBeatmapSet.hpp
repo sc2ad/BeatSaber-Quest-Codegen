@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet);
@@ -38,9 +39,9 @@ namespace GlobalNamespace {
     // private System.String _beatmapCharacteristicSerializedName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* beatmapCharacteristicSerializedName;
+    ::StringW beatmapCharacteristicSerializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
     // Size: 0x8
     // Offset: 0x18
@@ -49,19 +50,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>) == 0x8);
     public:
     // Get instance field reference: private System.String _beatmapCharacteristicSerializedName
-    ::Il2CppString*& dyn__beatmapCharacteristicSerializedName();
+    ::StringW& dyn__beatmapCharacteristicSerializedName();
     // Get instance field reference: private BeatmapLevelSO/DifficultyBeatmap[] _difficultyBeatmaps
     ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.String get_beatmapCharacteristicSerializedName()
     // Offset: 0x1322B08
-    ::Il2CppString* get_beatmapCharacteristicSerializedName();
+    ::StringW get_beatmapCharacteristicSerializedName();
     // public BeatmapLevelSO/DifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0x1322B10
     ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> get_difficultyBeatmaps();
     // public System.Void .ctor(System.String beatmapCharacteristicSerializedName, BeatmapLevelSO/DifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x1322B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapLevelDataSO::DifficultyBeatmapSet* New_ctor(::Il2CppString* beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> difficultyBeatmaps) {
+    static BeatmapLevelDataSO::DifficultyBeatmapSet* New_ctor(::StringW beatmapCharacteristicSerializedName, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*> difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataSO::DifficultyBeatmapSet*, creationType>(beatmapCharacteristicSerializedName, difficultyBeatmaps)));
     }
@@ -74,7 +75,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_beatmapCharacteristicSerializedName
 // Il2CppName: get_beatmapCharacteristicSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::*)()>(&GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_beatmapCharacteristicSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::*)()>(&GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_beatmapCharacteristicSerializedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*), "get_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

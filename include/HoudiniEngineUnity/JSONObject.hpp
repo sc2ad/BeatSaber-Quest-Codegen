@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -68,9 +69,9 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.JSONNode> m_Dict
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>* m_Dict;
+    System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>* m_Dict;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>*) == 0x8);
     // private System.Boolean inline
     // Size: 0x1
     // Offset: 0x18
@@ -79,7 +80,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.JSONNode> m_Dict
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>*& dyn_m_Dict();
+    System::Collections::Generic::Dictionary_2<::StringW, HoudiniEngineUnity::JSONNode*>*& dyn_m_Dict();
     // Get instance field reference: private System.Boolean inline
     bool& dyn_inline();
     // public override System.Boolean get_Inline()
@@ -106,12 +107,12 @@ namespace HoudiniEngineUnity {
     // Offset: 0x178DBB4
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNode JSONNode::get_Item(System.String aKey)
-    HoudiniEngineUnity::JSONNode* get_Item(::Il2CppString* aKey);
+    HoudiniEngineUnity::JSONNode* get_Item(::StringW aKey);
     // public override System.Void set_Item(System.String aKey, HoudiniEngineUnity.JSONNode value)
     // Offset: 0x178DC70
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::set_Item(System.String aKey, HoudiniEngineUnity.JSONNode value)
-    void set_Item(::Il2CppString* aKey, HoudiniEngineUnity::JSONNode* value);
+    void set_Item(::StringW aKey, HoudiniEngineUnity::JSONNode* value);
     // public override HoudiniEngineUnity.JSONNode get_Item(System.Int32 aIndex)
     // Offset: 0x178DD84
     // Implemented from: HoudiniEngineUnity.JSONNode
@@ -151,12 +152,12 @@ namespace HoudiniEngineUnity {
     // Offset: 0x178DF90
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: System.Void JSONNode::Add(System.String aKey, HoudiniEngineUnity.JSONNode aItem)
-    void Add(::Il2CppString* aKey, HoudiniEngineUnity::JSONNode* aItem);
+    void Add(::StringW aKey, HoudiniEngineUnity::JSONNode* aItem);
     // public override HoudiniEngineUnity.JSONNode Remove(System.String aKey)
     // Offset: 0x178E114
     // Implemented from: HoudiniEngineUnity.JSONNode
     // Base method: HoudiniEngineUnity.JSONNode JSONNode::Remove(System.String aKey)
-    HoudiniEngineUnity::JSONNode* Remove(::Il2CppString* aKey);
+    HoudiniEngineUnity::JSONNode* Remove(::StringW aKey);
     // public override HoudiniEngineUnity.JSONNode Remove(System.Int32 aIndex)
     // Offset: 0x178E1D0
     // Implemented from: HoudiniEngineUnity.JSONNode
@@ -214,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONObject::*)(::Il2CppString*)>(&HoudiniEngineUnity::JSONObject::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONObject::*)(::StringW)>(&HoudiniEngineUnity::JSONObject::get_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONObject*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});
@@ -223,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONObject::*)(::Il2CppString*, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONObject::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONObject::*)(::StringW, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONObject::set_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
@@ -280,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONObject::*)(::Il2CppString*, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONObject::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONObject::*)(::StringW, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONObject::Add)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aItem = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
@@ -290,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONObject::*)(::Il2CppString*)>(&HoudiniEngineUnity::JSONObject::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONObject::*)(::StringW)>(&HoudiniEngineUnity::JSONObject::Remove)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONObject*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});

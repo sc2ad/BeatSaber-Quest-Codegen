@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -82,9 +83,9 @@ namespace System::Net {
     // private System.String error
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* error;
+    ::StringW error;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int32 err_status
     // Size: 0x4
     // Offset: 0x38
@@ -109,7 +110,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpConnection cnc
     System::Net::HttpConnection*& dyn_cnc();
     // Get instance field reference: private System.String error
-    ::Il2CppString*& dyn_error();
+    ::StringW& dyn_error();
     // Get instance field reference: private System.Int32 err_status
     int& dyn_err_status();
     // Get instance field reference: System.Net.HttpListener Listener
@@ -122,10 +123,10 @@ namespace System::Net {
     void set_ErrorStatus(int value);
     // System.String get_ErrorMessage()
     // Offset: 0x18ABA34
-    ::Il2CppString* get_ErrorMessage();
+    ::StringW get_ErrorMessage();
     // System.Void set_ErrorMessage(System.String value)
     // Offset: 0x18ABA3C
-    void set_ErrorMessage(::Il2CppString* value);
+    void set_ErrorMessage(::StringW value);
     // System.Boolean get_HaveError()
     // Offset: 0x18A6CE8
     bool get_HaveError();
@@ -150,7 +151,7 @@ namespace System::Net {
     void ParseAuthentication(System::Net::AuthenticationSchemes expectedSchemes);
     // System.Security.Principal.IPrincipal ParseBasicAuthentication(System.String authData)
     // Offset: 0x18ABA5C
-    System::Security::Principal::IPrincipal* ParseBasicAuthentication(::Il2CppString* authData);
+    System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
   }; // System.Net.HttpListenerContext
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerContext), 64 + sizeof(System::Net::HttpListener*)> __System_Net_HttpListenerContextSizeCheck;
@@ -177,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerContext::get_ErrorMessage
 // Il2CppName: get_ErrorMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorMessage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerContext::set_ErrorMessage
 // Il2CppName: set_ErrorMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::set_ErrorMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(::StringW)>(&System::Net::HttpListenerContext::set_ErrorMessage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "set_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -239,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerContext::ParseBasicAuthentication
 // Il2CppName: ParseBasicAuthentication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::ParseBasicAuthentication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::Net::HttpListenerContext::*)(::StringW)>(&System::Net::HttpListenerContext::ParseBasicAuthentication)> {
   static const MethodInfo* get() {
     static auto* authData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "ParseBasicAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{authData});

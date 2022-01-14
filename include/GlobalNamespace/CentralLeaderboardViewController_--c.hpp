@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,29 +45,29 @@ namespace GlobalNamespace {
     // Set static field: static public readonly CentralLeaderboardViewController/<>c <>9
     static void _set_$$9(GlobalNamespace::CentralLeaderboardViewController::$$c* value);
     // Get static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__26_1
-    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* _get_$$9__26_1();
+    static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::StringW>* _get_$$9__26_1();
     // Set static field: static public System.Func`2<CentralLeaderboardViewController/LeaderboardPanel,System.String> <>9__26_1
-    static void _set_$$9__26_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::Il2CppString*>* value);
+    static void _set_$$9__26_1(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, ::StringW>* value);
     // Get static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/HMUI.DataItem> <>9__26_2
     static System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* _get_$$9__26_2();
     // Set static field: static public System.Func`2<CentralLeaderboardViewController/ScoreScopeInfo,HMUI.IconSegmentedControl/HMUI.DataItem> <>9__26_2
     static void _set_$$9__26_2(System::Func_2<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
     // Get static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
-    static System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* _get_$$9__37_0();
+    static System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::StringW>* _get_$$9__37_0();
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
-    static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::Il2CppString*>* value);
+    static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x11875BC
     static void _cctor();
     // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
     // Offset: 0x1187628
-    ::Il2CppString* $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
+    ::StringW $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
     // Offset: 0x1187640
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
     // Offset: 0x11876BC
-    ::Il2CppString* $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
+    ::StringW $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
     // Offset: 0x1187620
     // Implemented from: System.Object
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1
 // Il2CppName: <DidActivate>b__26_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$DidActivate$b__26_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "CentralLeaderboardViewController/LeaderboardPanel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<DidActivate>b__26_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconS
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::$LoadScoresAsync$b__37_0
 // Il2CppName: <LoadScoresAsync>b__37_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::GameplayModifierParamsSO*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$LoadScoresAsync$b__37_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::CentralLeaderboardViewController::$$c::*)(GlobalNamespace::GameplayModifierParamsSO*)>(&GlobalNamespace::CentralLeaderboardViewController::$$c::$LoadScoresAsync$b__37_0)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CentralLeaderboardViewController::$$c*), "<LoadScoresAsync>b__37_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});

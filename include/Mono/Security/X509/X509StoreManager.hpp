@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -30,13 +31,13 @@ namespace Mono::Security::X509 {
   class X509StoreManager : public ::Il2CppObject {
     public:
     // Get static field: static private System.String _userPath
-    static ::Il2CppString* _get__userPath();
+    static ::StringW _get__userPath();
     // Set static field: static private System.String _userPath
-    static void _set__userPath(::Il2CppString* value);
+    static void _set__userPath(::StringW value);
     // Get static field: static private System.String _localMachinePath
-    static ::Il2CppString* _get__localMachinePath();
+    static ::StringW _get__localMachinePath();
     // Set static field: static private System.String _localMachinePath
-    static void _set__localMachinePath(::Il2CppString* value);
+    static void _set__localMachinePath(::StringW value);
     // Get static field: static private Mono.Security.X509.X509Stores _userStore
     static Mono::Security::X509::X509Stores* _get__userStore();
     // Set static field: static private Mono.Security.X509.X509Stores _userStore
@@ -47,10 +48,10 @@ namespace Mono::Security::X509 {
     static void _set__machineStore(Mono::Security::X509::X509Stores* value);
     // static System.String get_CurrentUserPath()
     // Offset: 0x268A808
-    static ::Il2CppString* get_CurrentUserPath();
+    static ::StringW get_CurrentUserPath();
     // static System.String get_LocalMachinePath()
     // Offset: 0x268A8EC
-    static ::Il2CppString* get_LocalMachinePath();
+    static ::StringW get_LocalMachinePath();
     // static public Mono.Security.X509.X509Stores get_CurrentUser()
     // Offset: 0x268A9C8
     static Mono::Security::X509::X509Stores* get_CurrentUser();
@@ -64,7 +65,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_CurrentUserPath
 // Il2CppName: get_CurrentUserPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUserPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUserPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_CurrentUserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_LocalMachinePath
 // Il2CppName: get_LocalMachinePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachinePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachinePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_LocalMachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

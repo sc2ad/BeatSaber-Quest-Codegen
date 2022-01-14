@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,13 +40,13 @@ namespace GlobalNamespace {
     class TypeSerializationBinder;
     // static public System.Void SaveToFile(System.String filePath, PosesRecordingData data)
     // Offset: 0x11AE518
-    static void SaveToFile(::Il2CppString* filePath, GlobalNamespace::PosesRecordingData* data);
+    static void SaveToFile(::StringW filePath, GlobalNamespace::PosesRecordingData* data);
     // static private PosesRecordingSaveData LoadSaveDataFromFile(System.String filePath)
     // Offset: 0x11AE86C
-    static GlobalNamespace::PosesRecordingSaveData* LoadSaveDataFromFile(::Il2CppString* filePath);
+    static GlobalNamespace::PosesRecordingSaveData* LoadSaveDataFromFile(::StringW filePath);
     // static public PosesRecordingData LoadFromFile(System.String filePath)
     // Offset: 0x11AEA54
-    static GlobalNamespace::PosesRecordingData* LoadFromFile(::Il2CppString* filePath);
+    static GlobalNamespace::PosesRecordingData* LoadFromFile(::StringW filePath);
     // public System.Void .ctor()
     // Offset: 0x11AED00
     // Implemented from: System.Object
@@ -62,7 +63,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PosesSerializer::SaveToFile
 // Il2CppName: SaveToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, GlobalNamespace::PosesRecordingData*)>(&GlobalNamespace::PosesSerializer::SaveToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, GlobalNamespace::PosesRecordingData*)>(&GlobalNamespace::PosesSerializer::SaveToFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "PosesRecordingData")->byval_arg;
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::PosesSerializer::LoadSaveDataFromFile
 // Il2CppName: LoadSaveDataFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PosesRecordingSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::PosesSerializer::LoadSaveDataFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PosesRecordingSaveData* (*)(::StringW)>(&GlobalNamespace::PosesSerializer::LoadSaveDataFromFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesSerializer*), "LoadSaveDataFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PosesSerializer::LoadFromFile
 // Il2CppName: LoadFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PosesRecordingData* (*)(::Il2CppString*)>(&GlobalNamespace::PosesSerializer::LoadFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PosesRecordingData* (*)(::StringW)>(&GlobalNamespace::PosesSerializer::LoadFromFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesSerializer*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});

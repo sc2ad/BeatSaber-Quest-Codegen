@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -96,9 +97,9 @@ namespace GlobalNamespace {
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* token;
+    ::StringW token;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -107,15 +108,15 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
     public:
     // Get instance field reference: private System.String <token>k__BackingField
-    ::Il2CppString*& dyn_$token$k__BackingField();
+    ::StringW& dyn_$token$k__BackingField();
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment& dyn_$validPlatformEnvironment$k__BackingField();
     // public System.String get_token()
     // Offset: 0x11514E8
-    ::Il2CppString* get_token();
+    ::StringW get_token();
     // private System.Void set_token(System.String value)
     // Offset: 0x11514F0
-    void set_token(::Il2CppString* value);
+    void set_token(::StringW value);
     // public PlatformUserAuthTokenData/PlatformEnviroment get_validPlatformEnvironment()
     // Offset: 0x11514F8
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment get_validPlatformEnvironment();
@@ -125,7 +126,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String token, PlatformUserAuthTokenData/PlatformEnviroment validPlatformEnvironment)
     // Offset: 0x1151508
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlatformUserAuthTokenData* New_ctor(::Il2CppString* token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
+    static PlatformUserAuthTokenData* New_ctor(::StringW token, GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformUserAuthTokenData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformUserAuthTokenData*, creationType>(token, validPlatformEnvironment)));
     }
@@ -140,7 +141,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnvir
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_token
 // Il2CppName: get_token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_token)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "get_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::set_token
 // Il2CppName: set_token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(::Il2CppString*)>(&GlobalNamespace::PlatformUserAuthTokenData::set_token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(::StringW)>(&GlobalNamespace::PlatformUserAuthTokenData::set_token)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "set_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

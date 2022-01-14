@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem);
@@ -37,15 +38,15 @@ namespace GlobalNamespace {
     // public System.String serializedName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* serializedName;
+    ::StringW serializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String localizedName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* localizedName;
+    ::StringW localizedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 order
     // Size: 0x4
     // Offset: 0x20
@@ -62,9 +63,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
     public:
     // Get instance field reference: public System.String serializedName
-    ::Il2CppString*& dyn_serializedName();
+    ::StringW& dyn_serializedName();
     // Get instance field reference: public System.String localizedName
-    ::Il2CppString*& dyn_localizedName();
+    ::StringW& dyn_localizedName();
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public SongPackMask songPackMask

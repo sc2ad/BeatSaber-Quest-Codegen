@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,7 +44,7 @@ namespace UnityEngine {
     bool GetHumanoidBodyPartActive(UnityEngine::AvatarMaskBodyPart index);
     // public System.String GetTransformPath(System.Int32 index)
     // Offset: 0x263DF8C
-    ::Il2CppString* GetTransformPath(int index);
+    ::StringW GetTransformPath(int index);
     // private System.Single GetTransformWeight(System.Int32 index)
     // Offset: 0x263DFDC
     float GetTransformWeight(int index);
@@ -74,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AvatarMask::GetTransformPath
 // Il2CppName: GetTransformPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AvatarMask::*)(int)>(&UnityEngine::AvatarMask::GetTransformPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AvatarMask::*)(int)>(&UnityEngine::AvatarMask::GetTransformPath)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetTransformPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

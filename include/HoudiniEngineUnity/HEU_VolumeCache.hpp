@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -116,15 +117,15 @@ namespace HoudiniEngineUnity {
     // private System.String _geoName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* geoName;
+    ::StringW geoName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _objName
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* objName;
+    ::StringW objName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _uiExpanded
     // Size: 0x1
     // Offset: 0x48
@@ -169,9 +170,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _isDirty
     bool& dyn__isDirty();
     // Get instance field reference: private System.String _geoName
-    ::Il2CppString*& dyn__geoName();
+    ::StringW& dyn__geoName();
     // Get instance field reference: private System.String _objName
-    ::Il2CppString*& dyn__objName();
+    ::StringW& dyn__objName();
     // Get instance field reference: public System.Boolean _uiExpanded
     bool& dyn__uiExpanded();
     // Get instance field reference: private UnityEngine.TerrainData _terrainData
@@ -191,10 +192,10 @@ namespace HoudiniEngineUnity {
     int get_TileIndex();
     // public System.String get_ObjectName()
     // Offset: 0x1782470
-    ::Il2CppString* get_ObjectName();
+    ::StringW get_ObjectName();
     // public System.String get_GeoName()
     // Offset: 0x1782478
-    ::Il2CppString* get_GeoName();
+    ::StringW get_GeoName();
     // public System.Boolean get_UIExpanded()
     // Offset: 0x1782480
     bool get_UIExpanded();
@@ -212,7 +213,7 @@ namespace HoudiniEngineUnity {
     void ResetParameters();
     // public HoudiniEngineUnity.HEU_VolumeLayer GetLayer(System.String layerName)
     // Offset: 0x1783214
-    HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::Il2CppString* layerName);
+    HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::StringW layerName);
     // public System.Void StartUpdateLayers()
     // Offset: 0x1782C3C
     void StartUpdateLayers();
@@ -224,16 +225,16 @@ namespace HoudiniEngineUnity {
     void GetPartLayerAttributes(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HEU_VolumeLayer* layer);
     // private System.Boolean LoadLayerTextureFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out UnityEngine.Texture2D outTexture)
     // Offset: 0x1783490
-    bool LoadLayerTextureFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Texture2D*> outTexture);
+    bool LoadLayerTextureFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Texture2D*> outTexture);
     // private System.Boolean LoadLayerFloatFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref System.Single floatValue)
     // Offset: 0x17836AC
-    bool LoadLayerFloatFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<float> floatValue);
+    bool LoadLayerFloatFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> floatValue);
     // private System.Boolean LoadLayerColorFromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color colorValue)
     // Offset: 0x17837D8
-    bool LoadLayerColorFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Color> colorValue);
+    bool LoadLayerColorFromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Color> colorValue);
     // private System.Boolean LoadLayerVector2FromAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Vector2 vectorValue)
     // Offset: 0x17839A8
-    bool LoadLayerVector2FromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* attrName, ByRef<UnityEngine::Vector2> vectorValue);
+    bool LoadLayerVector2FromAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Vector2> vectorValue);
     // public System.Void UpdateLayerFromPart(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_PartData part)
     // Offset: 0x1782CA4
     void UpdateLayerFromPart(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_PartData* part);
@@ -272,7 +273,7 @@ namespace HoudiniEngineUnity {
     static UnityEngine::Texture2D* LoadDefaultSplatTexture();
     // static public UnityEngine.Texture2D LoadAssetTexture(System.String path)
     // Offset: 0x17835A4
-    static UnityEngine::Texture2D* LoadAssetTexture(::Il2CppString* path);
+    static UnityEngine::Texture2D* LoadAssetTexture(::StringW path);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeCache other)
     // Offset: 0x1785C04
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeCache* other);
@@ -321,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Houdin
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::get_ObjectName
 // Il2CppName: get_ObjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_VolumeCache::*)()>(&HoudiniEngineUnity::HEU_VolumeCache::get_ObjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_VolumeCache::*)()>(&HoudiniEngineUnity::HEU_VolumeCache::get_ObjectName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeCache*), "get_ObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -329,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::get_GeoName
 // Il2CppName: get_GeoName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoudiniEngineUnity::HEU_VolumeCache::*)()>(&HoudiniEngineUnity::HEU_VolumeCache::get_GeoName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (HoudiniEngineUnity::HEU_VolumeCache::*)()>(&HoudiniEngineUnity::HEU_VolumeCache::get_GeoName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeCache*), "get_GeoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::GetLayer
 // Il2CppName: GetLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_VolumeLayer* (HoudiniEngineUnity::HEU_VolumeCache::*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_VolumeCache::GetLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_VolumeLayer* (HoudiniEngineUnity::HEU_VolumeCache::*)(::StringW)>(&HoudiniEngineUnity::HEU_VolumeCache::GetLayer)> {
   static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeCache*), "GetLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName});
@@ -421,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::LoadLayerTextureFromAttribute
 // Il2CppName: LoadLayerTextureFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<UnityEngine::Texture2D*>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerTextureFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Texture2D*>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerTextureFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -434,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::LoadLayerFloatFromAttribute
 // Il2CppName: LoadLayerFloatFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<float>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerFloatFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<float>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerFloatFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -447,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::LoadLayerColorFromAttribute
 // Il2CppName: LoadLayerColorFromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerColorFromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerColorFromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -460,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::LoadLayerVector2FromAttribute
 // Il2CppName: LoadLayerVector2FromAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<UnityEngine::Vector2>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerVector2FromAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_VolumeCache::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Vector2>)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadLayerVector2FromAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -598,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_VolumeCache::LoadAssetTexture
 // Il2CppName: LoadAssetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadAssetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(::StringW)>(&HoudiniEngineUnity::HEU_VolumeCache::LoadAssetTexture)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_VolumeCache*), "LoadAssetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -46,15 +47,15 @@ namespace System::Net {
     // private System.String hostName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* hostName;
+    ::StringW hostName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String[] aliases
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<::Il2CppString*> aliases;
+    ::ArrayW<::StringW> aliases;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private System.Net.IPAddress[] addressList
     // Size: 0x8
     // Offset: 0x20
@@ -69,22 +70,22 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String hostName
-    ::Il2CppString*& dyn_hostName();
+    ::StringW& dyn_hostName();
     // Get instance field reference: private System.String[] aliases
-    ::ArrayW<::Il2CppString*>& dyn_aliases();
+    ::ArrayW<::StringW>& dyn_aliases();
     // Get instance field reference: private System.Net.IPAddress[] addressList
     ::ArrayW<System::Net::IPAddress*>& dyn_addressList();
     // Get instance field reference: System.Boolean isTrustedHost
     bool& dyn_isTrustedHost();
     // public System.String get_HostName()
     // Offset: 0x18B8088
-    ::Il2CppString* get_HostName();
+    ::StringW get_HostName();
     // public System.Void set_HostName(System.String value)
     // Offset: 0x18B8090
-    void set_HostName(::Il2CppString* value);
+    void set_HostName(::StringW value);
     // public System.Void set_Aliases(System.String[] value)
     // Offset: 0x18B8098
-    void set_Aliases(::ArrayW<::Il2CppString*> value);
+    void set_Aliases(::ArrayW<::StringW> value);
     // public System.Net.IPAddress[] get_AddressList()
     // Offset: 0x18B80A0
     ::ArrayW<System::Net::IPAddress*> get_AddressList();
@@ -109,7 +110,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::IPHostEntry::get_HostName
 // Il2CppName: get_HostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::IPHostEntry::*)()>(&System::Net::IPHostEntry::get_HostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::IPHostEntry::*)()>(&System::Net::IPHostEntry::get_HostName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPHostEntry*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::IPHostEntry::set_HostName
 // Il2CppName: set_HostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::Il2CppString*)>(&System::Net::IPHostEntry::set_HostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::StringW)>(&System::Net::IPHostEntry::set_HostName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPHostEntry*), "set_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::IPHostEntry::set_Aliases
 // Il2CppName: set_Aliases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::ArrayW<::Il2CppString*>)>(&System::Net::IPHostEntry::set_Aliases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::ArrayW<::StringW>)>(&System::Net::IPHostEntry::set_Aliases)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPHostEntry*), "set_Aliases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

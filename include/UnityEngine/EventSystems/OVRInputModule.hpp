@@ -15,6 +15,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems
@@ -200,27 +201,27 @@ namespace UnityEngine::EventSystems {
     // private System.String m_HorizontalAxis
     // Size: 0x8
     // Offset: 0xB0
-    ::Il2CppString* m_HorizontalAxis;
+    ::StringW m_HorizontalAxis;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_VerticalAxis
     // Size: 0x8
     // Offset: 0xB8
-    ::Il2CppString* m_VerticalAxis;
+    ::StringW m_VerticalAxis;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_SubmitButton
     // Size: 0x8
     // Offset: 0xC0
-    ::Il2CppString* m_SubmitButton;
+    ::StringW m_SubmitButton;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_CancelButton
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* m_CancelButton;
+    ::StringW m_CancelButton;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single m_InputActionsPerSecond
     // Size: 0x4
     // Offset: 0xD0
@@ -283,13 +284,13 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
     UnityEngine::Vector2& dyn_m_MousePosition();
     // Get instance field reference: private System.String m_HorizontalAxis
-    ::Il2CppString*& dyn_m_HorizontalAxis();
+    ::StringW& dyn_m_HorizontalAxis();
     // Get instance field reference: private System.String m_VerticalAxis
-    ::Il2CppString*& dyn_m_VerticalAxis();
+    ::StringW& dyn_m_VerticalAxis();
     // Get instance field reference: private System.String m_SubmitButton
-    ::Il2CppString*& dyn_m_SubmitButton();
+    ::StringW& dyn_m_SubmitButton();
     // Get instance field reference: private System.String m_CancelButton
-    ::Il2CppString*& dyn_m_CancelButton();
+    ::StringW& dyn_m_CancelButton();
     // Get instance field reference: private System.Single m_InputActionsPerSecond
     float& dyn_m_InputActionsPerSecond();
     // Get instance field reference: private System.Boolean m_AllowActivationOnMobileDevice
@@ -315,28 +316,28 @@ namespace UnityEngine::EventSystems {
     void set_inputActionsPerSecond(float value);
     // public System.String get_horizontalAxis()
     // Offset: 0x216D6F4
-    ::Il2CppString* get_horizontalAxis();
+    ::StringW get_horizontalAxis();
     // public System.Void set_horizontalAxis(System.String value)
     // Offset: 0x216D6FC
-    void set_horizontalAxis(::Il2CppString* value);
+    void set_horizontalAxis(::StringW value);
     // public System.String get_verticalAxis()
     // Offset: 0x216D704
-    ::Il2CppString* get_verticalAxis();
+    ::StringW get_verticalAxis();
     // public System.Void set_verticalAxis(System.String value)
     // Offset: 0x216D70C
-    void set_verticalAxis(::Il2CppString* value);
+    void set_verticalAxis(::StringW value);
     // public System.String get_submitButton()
     // Offset: 0x216D714
-    ::Il2CppString* get_submitButton();
+    ::StringW get_submitButton();
     // public System.Void set_submitButton(System.String value)
     // Offset: 0x216D71C
-    void set_submitButton(::Il2CppString* value);
+    void set_submitButton(::StringW value);
     // public System.String get_cancelButton()
     // Offset: 0x216D724
-    ::Il2CppString* get_cancelButton();
+    ::StringW get_cancelButton();
     // public System.Void set_cancelButton(System.String value)
     // Offset: 0x216D72C
-    void set_cancelButton(::Il2CppString* value);
+    void set_cancelButton(::StringW value);
     // private System.Boolean SendSubmitEventToSelectedObject()
     // Offset: 0x216DCF4
     bool SendSubmitEventToSelectedObject();
@@ -503,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis
 // Il2CppName: get_horizontalAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -511,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis
 // Il2CppName: set_horizontalAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -520,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_verticalAxis
 // Il2CppName: get_verticalAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -528,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_verticalAxis
 // Il2CppName: set_verticalAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -537,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_submitButton
 // Il2CppName: get_submitButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -545,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_submitButton
 // Il2CppName: set_submitButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -554,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_cancelButton
 // Il2CppName: get_cancelButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -562,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::set_cancelButton
 // Il2CppName: set_cancelButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

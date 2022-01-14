@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -150,9 +151,9 @@ namespace RootMotion {
     // public System.String[] animationStates
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<::Il2CppString*> animationStates;
+    ::ArrayW<::StringW> animationStates;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // [TooltipAttribute] Offset: 0xF5C804
     // public System.Boolean loop
     // Size: 0x1
@@ -166,23 +167,23 @@ namespace RootMotion {
     // public System.String saveToFolder
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* saveToFolder;
+    ::StringW saveToFolder;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TooltipAttribute] Offset: 0xF5C874
     // public System.String appendName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* appendName;
+    ::StringW appendName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TooltipAttribute] Offset: 0xF5C8AC
     // public System.String saveName
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* saveName;
+    ::StringW saveName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean <isBaking>k__BackingField
     // Size: 0x1
     // Offset: 0x58
@@ -227,15 +228,15 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.AnimationClip[] animationClips
     ::ArrayW<UnityEngine::AnimationClip*>& dyn_animationClips();
     // Get instance field reference: public System.String[] animationStates
-    ::ArrayW<::Il2CppString*>& dyn_animationStates();
+    ::ArrayW<::StringW>& dyn_animationStates();
     // Get instance field reference: public System.Boolean loop
     bool& dyn_loop();
     // Get instance field reference: public System.String saveToFolder
-    ::Il2CppString*& dyn_saveToFolder();
+    ::StringW& dyn_saveToFolder();
     // Get instance field reference: public System.String appendName
-    ::Il2CppString*& dyn_appendName();
+    ::StringW& dyn_appendName();
     // Get instance field reference: public System.String saveName
-    ::Il2CppString*& dyn_saveName();
+    ::StringW& dyn_saveName();
     // Get instance field reference: private System.Boolean <isBaking>k__BackingField
     bool& dyn_$isBaking$k__BackingField();
     // Get instance field reference: private System.Single <bakingProgress>k__BackingField

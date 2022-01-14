@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http
@@ -161,9 +162,9 @@ namespace System::Net::Http {
     // private System.String connectionGroupName
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* connectionGroupName;
+    ::StringW connectionGroupName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x58
@@ -200,7 +201,7 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Boolean sentRequest
     bool& dyn_sentRequest();
     // Get instance field reference: private System.String connectionGroupName
-    ::Il2CppString*& dyn_connectionGroupName();
+    ::StringW& dyn_connectionGroupName();
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // public System.Net.CookieContainer get_CookieContainer()

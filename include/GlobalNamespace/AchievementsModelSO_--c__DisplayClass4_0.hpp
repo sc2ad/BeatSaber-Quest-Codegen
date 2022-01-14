@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0);
@@ -44,14 +45,14 @@ namespace GlobalNamespace {
     // public System.String achievementId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* achievementId;
+    ::StringW achievementId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public AchievementsModelSO <>4__this
     GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
     // Get instance field reference: public System.String achievementId
-    ::Il2CppString*& dyn_achievementId();
+    ::StringW& dyn_achievementId();
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
     // Offset: 0x130BA1C
     void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
@@ -66,7 +67,7 @@ namespace GlobalNamespace {
     }
   }; // AchievementsModelSO/<>c__DisplayClass4_0
   #pragma pack(pop)
-  static check_size<sizeof(AchievementsModelSO::$$c__DisplayClass4_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AchievementsModelSO_$$c__DisplayClass4_0SizeCheck;
+  static check_size<sizeof(AchievementsModelSO::$$c__DisplayClass4_0), 24 + sizeof(::StringW)> __GlobalNamespace_AchievementsModelSO_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(AchievementsModelSO::$$c__DisplayClass4_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

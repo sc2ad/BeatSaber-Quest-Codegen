@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -40,17 +41,17 @@ namespace GlobalNamespace {
     // private System.String _achievementId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* achievementId;
+    ::StringW achievementId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _achievementId
-    ::Il2CppString*& dyn__achievementId();
+    ::StringW& dyn__achievementId();
     // public System.String get_achievementId()
     // Offset: 0x130A6F4
-    ::Il2CppString* get_achievementId();
+    ::StringW get_achievementId();
     // public System.Void .ctor()
     // Offset: 0x130A6FC
     // Implemented from: PersistentScriptableObject
@@ -65,14 +66,14 @@ namespace GlobalNamespace {
     }
   }; // AchievementSO
   #pragma pack(pop)
-  static check_size<sizeof(AchievementSO), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_AchievementSOSizeCheck;
+  static check_size<sizeof(AchievementSO), 24 + sizeof(::StringW)> __GlobalNamespace_AchievementSOSizeCheck;
   static_assert(sizeof(AchievementSO) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementSO::get_achievementId
 // Il2CppName: get_achievementId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AchievementSO::*)()>(&GlobalNamespace::AchievementSO::get_achievementId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AchievementSO::*)()>(&GlobalNamespace::AchievementSO::get_achievementId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementSO*), "get_achievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

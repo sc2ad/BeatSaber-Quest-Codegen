@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -59,22 +60,22 @@ namespace UnityEngine {
     void CancelInvoke();
     // public System.Void Invoke(System.String methodName, System.Single time)
     // Offset: 0x1DA5E04
-    void Invoke(::Il2CppString* methodName, float time);
+    void Invoke(::StringW methodName, float time);
     // public System.Void InvokeRepeating(System.String methodName, System.Single time, System.Single repeatRate)
     // Offset: 0x1DA5ED0
-    void InvokeRepeating(::Il2CppString* methodName, float time, float repeatRate);
+    void InvokeRepeating(::StringW methodName, float time, float repeatRate);
     // public System.Void CancelInvoke(System.String methodName)
     // Offset: 0x1DA5FB0
-    void CancelInvoke(::Il2CppString* methodName);
+    void CancelInvoke(::StringW methodName);
     // public System.Boolean IsInvoking(System.String methodName)
     // Offset: 0x1DA6050
-    bool IsInvoking(::Il2CppString* methodName);
+    bool IsInvoking(::StringW methodName);
     // public UnityEngine.Coroutine StartCoroutine(System.String methodName)
     // Offset: 0x1DA60F0
-    UnityEngine::Coroutine* StartCoroutine(::Il2CppString* methodName);
+    UnityEngine::Coroutine* StartCoroutine(::StringW methodName);
     // public UnityEngine.Coroutine StartCoroutine(System.String methodName, System.Object value)
     // Offset: 0x1DA60F8
-    UnityEngine::Coroutine* StartCoroutine(::Il2CppString* methodName, ::Il2CppObject* value);
+    UnityEngine::Coroutine* StartCoroutine(::StringW methodName, ::Il2CppObject* value);
     // public UnityEngine.Coroutine StartCoroutine(System.Collections.IEnumerator routine)
     // Offset: 0x1DA62B0
     UnityEngine::Coroutine* StartCoroutine(System::Collections::IEnumerator* routine);
@@ -89,7 +90,7 @@ namespace UnityEngine {
     void StopCoroutine(UnityEngine::Coroutine* routine);
     // public System.Void StopCoroutine(System.String methodName)
     // Offset: 0x1DA66C8
-    void StopCoroutine(::Il2CppString* methodName);
+    void StopCoroutine(::StringW methodName);
     // public System.Void StopAllCoroutines()
     // Offset: 0x1DA6718
     void StopAllCoroutines();
@@ -104,19 +105,19 @@ namespace UnityEngine {
     static bool Internal_IsInvokingAll(UnityEngine::MonoBehaviour* self);
     // static private System.Void InvokeDelayed(UnityEngine.MonoBehaviour self, System.String methodName, System.Single time, System.Single repeatRate)
     // Offset: 0x1DA5E68
-    static void InvokeDelayed(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName, float time, float repeatRate);
+    static void InvokeDelayed(UnityEngine::MonoBehaviour* self, ::StringW methodName, float time, float repeatRate);
     // static private System.Void CancelInvoke(UnityEngine.MonoBehaviour self, System.String methodName)
     // Offset: 0x1DA6000
-    static void CancelInvoke(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName);
+    static void CancelInvoke(UnityEngine::MonoBehaviour* self, ::StringW methodName);
     // static private System.Boolean IsInvoking(UnityEngine.MonoBehaviour self, System.String methodName)
     // Offset: 0x1DA60A0
-    static bool IsInvoking(UnityEngine::MonoBehaviour* self, ::Il2CppString* methodName);
+    static bool IsInvoking(UnityEngine::MonoBehaviour* self, ::StringW methodName);
     // static private System.Boolean IsObjectMonoBehaviour(UnityEngine.Object obj)
     // Offset: 0x1DA6218
     static bool IsObjectMonoBehaviour(UnityEngine::Object* obj);
     // private UnityEngine.Coroutine StartCoroutineManaged(System.String methodName, System.Object value)
     // Offset: 0x1DA6258
-    UnityEngine::Coroutine* StartCoroutineManaged(::Il2CppString* methodName, ::Il2CppObject* value);
+    UnityEngine::Coroutine* StartCoroutineManaged(::StringW methodName, ::Il2CppObject* value);
     // private UnityEngine.Coroutine StartCoroutineManaged2(System.Collections.IEnumerator enumerator)
     // Offset: 0x1DA63BC
     UnityEngine::Coroutine* StartCoroutineManaged2(System::Collections::IEnumerator* enumerator);
@@ -128,7 +129,7 @@ namespace UnityEngine {
     void StopCoroutineFromEnumeratorManaged(System::Collections::IEnumerator* routine);
     // System.String GetScriptClassName()
     // Offset: 0x1DA6850
-    ::Il2CppString* GetScriptClassName();
+    ::StringW GetScriptClassName();
     // public System.Void .ctor()
     // Offset: 0x1DA6890
     // Implemented from: UnityEngine.Behaviour
@@ -181,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::Il2CppString*, float)>(&UnityEngine::MonoBehaviour::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::StringW, float)>(&UnityEngine::MonoBehaviour::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -191,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::InvokeRepeating
 // Il2CppName: InvokeRepeating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::Il2CppString*, float, float)>(&UnityEngine::MonoBehaviour::InvokeRepeating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::StringW, float, float)>(&UnityEngine::MonoBehaviour::InvokeRepeating)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::CancelInvoke
 // Il2CppName: CancelInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::Il2CppString*)>(&UnityEngine::MonoBehaviour::CancelInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::StringW)>(&UnityEngine::MonoBehaviour::CancelInvoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MonoBehaviour*), "CancelInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -211,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::IsInvoking
 // Il2CppName: IsInvoking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::MonoBehaviour::*)(::Il2CppString*)>(&UnityEngine::MonoBehaviour::IsInvoking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::MonoBehaviour::*)(::StringW)>(&UnityEngine::MonoBehaviour::IsInvoking)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MonoBehaviour*), "IsInvoking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -220,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::StartCoroutine
 // Il2CppName: StartCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::Il2CppString*)>(&UnityEngine::MonoBehaviour::StartCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::StringW)>(&UnityEngine::MonoBehaviour::StartCoroutine)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MonoBehaviour*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::StartCoroutine
 // Il2CppName: StartCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::MonoBehaviour::StartCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::StringW, ::Il2CppObject*)>(&UnityEngine::MonoBehaviour::StartCoroutine)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::StopCoroutine
 // Il2CppName: StopCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::Il2CppString*)>(&UnityEngine::MonoBehaviour::StopCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MonoBehaviour::*)(::StringW)>(&UnityEngine::MonoBehaviour::StopCoroutine)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MonoBehaviour*), "StopCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName});
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::InvokeDelayed
 // Il2CppName: InvokeDelayed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*, float, float)>(&UnityEngine::MonoBehaviour::InvokeDelayed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::StringW, float, float)>(&UnityEngine::MonoBehaviour::InvokeDelayed)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -331,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::CancelInvoke
 // Il2CppName: CancelInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&UnityEngine::MonoBehaviour::CancelInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, ::StringW)>(&UnityEngine::MonoBehaviour::CancelInvoke)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::IsInvoking
 // Il2CppName: IsInvoking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*, ::Il2CppString*)>(&UnityEngine::MonoBehaviour::IsInvoking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::MonoBehaviour*, ::StringW)>(&UnityEngine::MonoBehaviour::IsInvoking)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::StartCoroutineManaged
 // Il2CppName: StartCoroutineManaged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::MonoBehaviour::StartCoroutineManaged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (UnityEngine::MonoBehaviour::*)(::StringW, ::Il2CppObject*)>(&UnityEngine::MonoBehaviour::StartCoroutineManaged)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MonoBehaviour::GetScriptClassName
 // Il2CppName: GetScriptClassName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::MonoBehaviour::*)()>(&UnityEngine::MonoBehaviour::GetScriptClassName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::MonoBehaviour::*)()>(&UnityEngine::MonoBehaviour::GetScriptClassName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MonoBehaviour*), "GetScriptClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

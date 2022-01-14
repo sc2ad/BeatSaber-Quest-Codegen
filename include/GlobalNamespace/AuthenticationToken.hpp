@@ -12,6 +12,7 @@
 // Including type: System.Enum
 #include "System/Enum.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -135,15 +136,15 @@ namespace GlobalNamespace {
     // public readonly System.String userId
     // Size: 0x8
     // Offset: 0x8
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String userName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Byte[] sessionToken
     // Size: 0x8
     // Offset: 0x18
@@ -152,7 +153,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Creating value type constructor for type: AuthenticationToken
-    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::ArrayW<uint8_t> sessionToken_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
+    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::StringW userId_ = {}, ::StringW userName_ = {}, ::ArrayW<uint8_t> sessionToken_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -164,14 +165,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly AuthenticationToken/Platform platform
     GlobalNamespace::AuthenticationToken::Platform& dyn_platform();
     // Get instance field reference: public readonly System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public readonly System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public readonly System.Byte[] sessionToken
     ::ArrayW<uint8_t>& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
     // Offset: 0x155BA80
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayW<uint8_t> sessionToken);
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::ArrayW<uint8_t> sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x155BA90
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,9 +51,9 @@ namespace RootMotion::FinalIK {
     // public System.String function
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* function;
+    ::StringW function;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TooltipAttribute] Offset: 0xF61AC4
     // public UnityEngine.GameObject recipient
     // Size: 0x8
@@ -64,11 +65,11 @@ namespace RootMotion::FinalIK {
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
     // Get static field: static private System.String empty
-    static ::Il2CppString* _get_empty();
+    static ::StringW _get_empty();
     // Set static field: static private System.String empty
-    static void _set_empty(::Il2CppString* value);
+    static void _set_empty(::StringW value);
     // Get instance field reference: public System.String function
-    ::Il2CppString*& dyn_function();
+    ::StringW& dyn_function();
     // Get instance field reference: public UnityEngine.GameObject recipient
     UnityEngine::GameObject*& dyn_recipient();
     // public System.Void Send(UnityEngine.Transform t)

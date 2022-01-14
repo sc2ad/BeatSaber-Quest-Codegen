@@ -11,6 +11,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION
 #include "System/TimeZoneInfo_TIME_ZONE_INFORMATION.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION, "System", "TimeZoneInfo/DYNAMIC_TIME_ZONE_INFORMATION");
@@ -35,9 +36,9 @@ namespace System {
     // System.String TimeZoneKeyName
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* TimeZoneKeyName;
+    ::StringW TimeZoneKeyName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.Byte DynamicDaylightTimeDisabled
     // Size: 0x1
     // Offset: 0x50
@@ -46,7 +47,7 @@ namespace System {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Creating value type constructor for type: DYNAMIC_TIME_ZONE_INFORMATION
-    constexpr DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::Il2CppString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) noexcept : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
+    constexpr DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::StringW TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) noexcept : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -54,7 +55,7 @@ namespace System {
     // Get instance field reference: System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
     System::TimeZoneInfo::TIME_ZONE_INFORMATION& dyn_TZI();
     // Get instance field reference: System.String TimeZoneKeyName
-    ::Il2CppString*& dyn_TimeZoneKeyName();
+    ::StringW& dyn_TimeZoneKeyName();
     // Get instance field reference: System.Byte DynamicDaylightTimeDisabled
     uint8_t& dyn_DynamicDaylightTimeDisabled();
   }; // System.TimeZoneInfo/System.DYNAMIC_TIME_ZONE_INFORMATION

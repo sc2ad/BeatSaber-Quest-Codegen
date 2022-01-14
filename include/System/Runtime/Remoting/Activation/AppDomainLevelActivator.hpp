@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Activation
@@ -49,9 +50,9 @@ namespace System::Runtime::Remoting::Activation {
     // private System.String _activationUrl
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* activationUrl;
+    ::StringW activationUrl;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Runtime.Remoting.Activation.IActivator _next
     // Size: 0x8
     // Offset: 0x18
@@ -64,7 +65,7 @@ namespace System::Runtime::Remoting::Activation {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);
     }
     // Get instance field reference: private System.String _activationUrl
-    ::Il2CppString*& dyn__activationUrl();
+    ::StringW& dyn__activationUrl();
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _next
     System::Runtime::Remoting::Activation::IActivator*& dyn__next();
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
@@ -73,7 +74,7 @@ namespace System::Runtime::Remoting::Activation {
     // public System.Void .ctor(System.String activationUrl, System.Runtime.Remoting.Activation.IActivator next)
     // Offset: 0x1625C04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AppDomainLevelActivator* New_ctor(::Il2CppString* activationUrl, System::Runtime::Remoting::Activation::IActivator* next) {
+    static AppDomainLevelActivator* New_ctor(::StringW activationUrl, System::Runtime::Remoting::Activation::IActivator* next) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Activation::AppDomainLevelActivator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppDomainLevelActivator*, creationType>(activationUrl, next)));
     }

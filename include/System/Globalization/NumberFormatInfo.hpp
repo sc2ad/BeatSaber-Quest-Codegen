@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -81,100 +82,100 @@ namespace System::Globalization {
     // System.String positiveSign
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* positiveSign;
+    ::StringW positiveSign;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String negativeSign
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* negativeSign;
+    ::StringW negativeSign;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String numberDecimalSeparator
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* numberDecimalSeparator;
+    ::StringW numberDecimalSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String numberGroupSeparator
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* numberGroupSeparator;
+    ::StringW numberGroupSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String currencyGroupSeparator
     // Size: 0x8
     // Offset: 0x48
-    ::Il2CppString* currencyGroupSeparator;
+    ::StringW currencyGroupSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String currencyDecimalSeparator
     // Size: 0x8
     // Offset: 0x50
-    ::Il2CppString* currencyDecimalSeparator;
+    ::StringW currencyDecimalSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String currencySymbol
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* currencySymbol;
+    ::StringW currencySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String ansiCurrencySymbol
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* ansiCurrencySymbol;
+    ::StringW ansiCurrencySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String nanSymbol
     // Size: 0x8
     // Offset: 0x68
-    ::Il2CppString* nanSymbol;
+    ::StringW nanSymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String positiveInfinitySymbol
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* positiveInfinitySymbol;
+    ::StringW positiveInfinitySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String negativeInfinitySymbol
     // Size: 0x8
     // Offset: 0x78
-    ::Il2CppString* negativeInfinitySymbol;
+    ::StringW negativeInfinitySymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String percentDecimalSeparator
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* percentDecimalSeparator;
+    ::StringW percentDecimalSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String percentGroupSeparator
     // Size: 0x8
     // Offset: 0x88
-    ::Il2CppString* percentGroupSeparator;
+    ::StringW percentGroupSeparator;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String percentSymbol
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* percentSymbol;
+    ::StringW percentSymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // System.String perMilleSymbol
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* perMilleSymbol;
+    ::StringW perMilleSymbol;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4BB0
     // System.String[] nativeDigits
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayW<::Il2CppString*> nativeDigits;
+    ::ArrayW<::StringW> nativeDigits;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEA4BE8
     // System.Int32 m_dataItem
     // Size: 0x4
@@ -297,37 +298,37 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32[] percentGroupSizes
     ::ArrayW<int>& dyn_percentGroupSizes();
     // Get instance field reference: System.String positiveSign
-    ::Il2CppString*& dyn_positiveSign();
+    ::StringW& dyn_positiveSign();
     // Get instance field reference: System.String negativeSign
-    ::Il2CppString*& dyn_negativeSign();
+    ::StringW& dyn_negativeSign();
     // Get instance field reference: System.String numberDecimalSeparator
-    ::Il2CppString*& dyn_numberDecimalSeparator();
+    ::StringW& dyn_numberDecimalSeparator();
     // Get instance field reference: System.String numberGroupSeparator
-    ::Il2CppString*& dyn_numberGroupSeparator();
+    ::StringW& dyn_numberGroupSeparator();
     // Get instance field reference: System.String currencyGroupSeparator
-    ::Il2CppString*& dyn_currencyGroupSeparator();
+    ::StringW& dyn_currencyGroupSeparator();
     // Get instance field reference: System.String currencyDecimalSeparator
-    ::Il2CppString*& dyn_currencyDecimalSeparator();
+    ::StringW& dyn_currencyDecimalSeparator();
     // Get instance field reference: System.String currencySymbol
-    ::Il2CppString*& dyn_currencySymbol();
+    ::StringW& dyn_currencySymbol();
     // Get instance field reference: System.String ansiCurrencySymbol
-    ::Il2CppString*& dyn_ansiCurrencySymbol();
+    ::StringW& dyn_ansiCurrencySymbol();
     // Get instance field reference: System.String nanSymbol
-    ::Il2CppString*& dyn_nanSymbol();
+    ::StringW& dyn_nanSymbol();
     // Get instance field reference: System.String positiveInfinitySymbol
-    ::Il2CppString*& dyn_positiveInfinitySymbol();
+    ::StringW& dyn_positiveInfinitySymbol();
     // Get instance field reference: System.String negativeInfinitySymbol
-    ::Il2CppString*& dyn_negativeInfinitySymbol();
+    ::StringW& dyn_negativeInfinitySymbol();
     // Get instance field reference: System.String percentDecimalSeparator
-    ::Il2CppString*& dyn_percentDecimalSeparator();
+    ::StringW& dyn_percentDecimalSeparator();
     // Get instance field reference: System.String percentGroupSeparator
-    ::Il2CppString*& dyn_percentGroupSeparator();
+    ::StringW& dyn_percentGroupSeparator();
     // Get instance field reference: System.String percentSymbol
-    ::Il2CppString*& dyn_percentSymbol();
+    ::StringW& dyn_percentSymbol();
     // Get instance field reference: System.String perMilleSymbol
-    ::Il2CppString*& dyn_perMilleSymbol();
+    ::StringW& dyn_perMilleSymbol();
     // Get instance field reference: System.String[] nativeDigits
-    ::ArrayW<::Il2CppString*>& dyn_nativeDigits();
+    ::ArrayW<::StringW>& dyn_nativeDigits();
     // Get instance field reference: System.Int32 m_dataItem
     int& dyn_m_dataItem();
     // Get instance field reference: System.Int32 numberDecimalDigits
@@ -366,7 +367,7 @@ namespace System::Globalization {
     int get_CurrencyDecimalDigits();
     // public System.String get_CurrencyDecimalSeparator()
     // Offset: 0x1C3E0D8
-    ::Il2CppString* get_CurrencyDecimalSeparator();
+    ::StringW get_CurrencyDecimalSeparator();
     // public System.Boolean get_IsReadOnly()
     // Offset: 0x1C3E0E0
     bool get_IsReadOnly();
@@ -381,19 +382,19 @@ namespace System::Globalization {
     ::ArrayW<int> get_PercentGroupSizes();
     // public System.String get_CurrencyGroupSeparator()
     // Offset: 0x1C3E268
-    ::Il2CppString* get_CurrencyGroupSeparator();
+    ::StringW get_CurrencyGroupSeparator();
     // public System.Void set_CurrencyGroupSeparator(System.String value)
     // Offset: 0x1C3E270
-    void set_CurrencyGroupSeparator(::Il2CppString* value);
+    void set_CurrencyGroupSeparator(::StringW value);
     // public System.String get_CurrencySymbol()
     // Offset: 0x1C3E2DC
-    ::Il2CppString* get_CurrencySymbol();
+    ::StringW get_CurrencySymbol();
     // static public System.Globalization.NumberFormatInfo get_CurrentInfo()
     // Offset: 0x1C3DF70
     static System::Globalization::NumberFormatInfo* get_CurrentInfo();
     // public System.String get_NaNSymbol()
     // Offset: 0x1C3E2E4
-    ::Il2CppString* get_NaNSymbol();
+    ::StringW get_NaNSymbol();
     // public System.Int32 get_CurrencyNegativePattern()
     // Offset: 0x1C3E2EC
     int get_CurrencyNegativePattern();
@@ -408,49 +409,49 @@ namespace System::Globalization {
     int get_PercentNegativePattern();
     // public System.String get_NegativeInfinitySymbol()
     // Offset: 0x1C3E30C
-    ::Il2CppString* get_NegativeInfinitySymbol();
+    ::StringW get_NegativeInfinitySymbol();
     // public System.String get_NegativeSign()
     // Offset: 0x1C3E314
-    ::Il2CppString* get_NegativeSign();
+    ::StringW get_NegativeSign();
     // public System.Int32 get_NumberDecimalDigits()
     // Offset: 0x1C3E31C
     int get_NumberDecimalDigits();
     // public System.String get_NumberDecimalSeparator()
     // Offset: 0x1C3E324
-    ::Il2CppString* get_NumberDecimalSeparator();
+    ::StringW get_NumberDecimalSeparator();
     // public System.String get_NumberGroupSeparator()
     // Offset: 0x1C3E32C
-    ::Il2CppString* get_NumberGroupSeparator();
+    ::StringW get_NumberGroupSeparator();
     // public System.Void set_NumberGroupSeparator(System.String value)
     // Offset: 0x1C3E334
-    void set_NumberGroupSeparator(::Il2CppString* value);
+    void set_NumberGroupSeparator(::StringW value);
     // public System.Int32 get_CurrencyPositivePattern()
     // Offset: 0x1C3E3A0
     int get_CurrencyPositivePattern();
     // public System.String get_PositiveInfinitySymbol()
     // Offset: 0x1C3E3A8
-    ::Il2CppString* get_PositiveInfinitySymbol();
+    ::StringW get_PositiveInfinitySymbol();
     // public System.String get_PositiveSign()
     // Offset: 0x1C3E3B0
-    ::Il2CppString* get_PositiveSign();
+    ::StringW get_PositiveSign();
     // public System.Int32 get_PercentDecimalDigits()
     // Offset: 0x1C3E3B8
     int get_PercentDecimalDigits();
     // public System.String get_PercentDecimalSeparator()
     // Offset: 0x1C3E3C0
-    ::Il2CppString* get_PercentDecimalSeparator();
+    ::StringW get_PercentDecimalSeparator();
     // public System.String get_PercentGroupSeparator()
     // Offset: 0x1C3E3C8
-    ::Il2CppString* get_PercentGroupSeparator();
+    ::StringW get_PercentGroupSeparator();
     // public System.Void set_PercentGroupSeparator(System.String value)
     // Offset: 0x1C3E3D0
-    void set_PercentGroupSeparator(::Il2CppString* value);
+    void set_PercentGroupSeparator(::StringW value);
     // public System.String get_PercentSymbol()
     // Offset: 0x1C3E43C
-    ::Il2CppString* get_PercentSymbol();
+    ::StringW get_PercentSymbol();
     // public System.String get_PerMilleSymbol()
     // Offset: 0x1C3E444
-    ::Il2CppString* get_PerMilleSymbol();
+    ::StringW get_PerMilleSymbol();
     // System.Void .ctor(System.Globalization.CultureData cultureData)
     // Offset: 0x1C3D67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -469,7 +470,7 @@ namespace System::Globalization {
     void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
     // static private System.Void VerifyGroupSeparator(System.String groupSep, System.String propertyName)
     // Offset: 0x1C3DB18
-    static void VerifyGroupSeparator(::Il2CppString* groupSep, ::Il2CppString* propertyName);
+    static void VerifyGroupSeparator(::StringW groupSep, ::StringW propertyName);
     // private System.Void VerifyWritable()
     // Offset: 0x1C3DBBC
     void VerifyWritable();
@@ -525,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator
 // Il2CppName: get_CurrencyDecimalSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -565,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator
 // Il2CppName: get_CurrencyGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -573,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator
 // Il2CppName: set_CurrencyGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::StringW)>(&System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -582,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencySymbol
 // Il2CppName: get_CurrencySymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencySymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencySymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -598,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NaNSymbol
 // Il2CppName: get_NaNSymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NaNSymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NaNSymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NaNSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -638,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol
 // Il2CppName: get_NegativeInfinitySymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NegativeInfinitySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -646,7 +647,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NegativeSign
 // Il2CppName: get_NegativeSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NegativeSign)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NegativeSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -662,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator
 // Il2CppName: get_NumberDecimalSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -670,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberGroupSeparator
 // Il2CppName: get_NumberGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -678,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_NumberGroupSeparator
 // Il2CppName: set_NumberGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::StringW)>(&System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -695,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol
 // Il2CppName: get_PositiveInfinitySymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PositiveInfinitySymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -703,7 +704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PositiveSign
 // Il2CppName: get_PositiveSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PositiveSign)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PositiveSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -719,7 +720,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator
 // Il2CppName: get_PercentDecimalSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentDecimalSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -727,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentGroupSeparator
 // Il2CppName: get_PercentGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSeparator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -735,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::set_PercentGroupSeparator
 // Il2CppName: set_PercentGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_PercentGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::StringW)>(&System::Globalization::NumberFormatInfo::set_PercentGroupSeparator)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -744,7 +745,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentSymbol
 // Il2CppName: get_PercentSymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentSymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentSymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -752,7 +753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PerMilleSymbol
 // Il2CppName: get_PerMilleSymbol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PerMilleSymbol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PerMilleSymbol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PerMilleSymbol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -791,7 +792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::VerifyGroupSeparator
 // Il2CppName: VerifyGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
   static const MethodInfo* get() {
     static auto* groupSep = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

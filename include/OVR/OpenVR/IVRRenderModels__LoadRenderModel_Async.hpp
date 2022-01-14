@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -49,10 +50,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRRenderModelError Invoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
     // Offset: 0x231EF34
-    OVR::OpenVR::EVRRenderModelError Invoke(::Il2CppString* pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
+    OVR::OpenVR::EVRRenderModelError Invoke(::StringW pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
     // public System.IAsyncResult BeginInvoke(System.String pchRenderModelName, ref System.IntPtr ppRenderModel, System.AsyncCallback callback, System.Object object)
     // Offset: 0x231F324
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchRenderModelName, ByRef<System::IntPtr> ppRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ByRef<System::IntPtr> ppRenderModel, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRRenderModelError EndInvoke(ref System.IntPtr ppRenderModel, System.IAsyncResult result)
     // Offset: 0x231F3C0
     OVR::OpenVR::EVRRenderModelError EndInvoke(ByRef<System::IntPtr> ppRenderModel, System::IAsyncResult* result);
@@ -67,7 +68,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, ByRef<System::IntPtr>)>(&OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::*)(::StringW, ByRef<System::IntPtr>)>(&OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ppRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, ByRef<System::IntPtr>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::*)(::StringW, ByRef<System::IntPtr>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_LoadRenderModel_Async::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ppRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;

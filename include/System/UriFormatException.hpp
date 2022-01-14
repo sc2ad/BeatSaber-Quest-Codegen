@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -57,7 +58,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String textString)
     // Base method: System.Void Exception::.ctor(System.String textString)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UriFormatException* New_ctor(::Il2CppString* textString) {
+    static UriFormatException* New_ctor(::StringW textString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::UriFormatException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriFormatException*, creationType>(textString)));
     }

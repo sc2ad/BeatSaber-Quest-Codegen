@@ -70,7 +70,7 @@ namespace UnityEngine {
       UnityEngine::Camera*& dyn_camera();
       // public System.Void SendMessage(System.String name)
       // Offset: 0x26CCF3C
-      void SendMessage(::Il2CppString* name);
+      void SendMessage(::StringW name);
       // static public System.Boolean Compare(UnityEngine.SendMouseEvents/UnityEngine.HitInfo lhs, UnityEngine.SendMouseEvents/UnityEngine.HitInfo rhs)
       // Offset: 0x26CCF60
       static bool Compare(UnityEngine::SendMouseEvents::HitInfo lhs, UnityEngine::SendMouseEvents::HitInfo rhs);

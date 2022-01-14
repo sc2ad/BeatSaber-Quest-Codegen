@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -58,20 +59,20 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String _uri
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* uri;
+    ::StringW uri;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodCallMessage
     operator System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
     }
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return uri;
     }
     // Get instance field reference: private System.String _uri
-    ::Il2CppString*& dyn__uri();
+    ::StringW& dyn__uri();
     // public System.Int32 get_ArgCount()
     // Offset: 0x1C53938
     int get_ArgCount();
@@ -83,7 +84,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0x1C53950
-    ::Il2CppString* get_MethodName();
+    ::StringW get_MethodName();
     // public System.Object get_MethodSignature()
     // Offset: 0x1C53998
     ::Il2CppObject* get_MethodSignature();
@@ -92,10 +93,10 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* get_Properties();
     // public System.String get_TypeName()
     // Offset: 0x1C539A8
-    ::Il2CppString* get_TypeName();
+    ::StringW get_TypeName();
     // public System.String get_Uri()
     // Offset: 0x1C539F0
-    ::Il2CppString* get_Uri();
+    ::StringW get_Uri();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
     // Offset: 0x1C53A00
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
@@ -113,7 +114,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
   }; // System.Runtime.Remoting.Messaging.ErrorMessage
   #pragma pack(pop)
-  static check_size<sizeof(ErrorMessage), 16 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_ErrorMessageSizeCheck;
+  static check_size<sizeof(ErrorMessage), 16 + sizeof(::StringW)> __System_Runtime_Remoting_Messaging_ErrorMessageSizeCheck;
   static_assert(sizeof(ErrorMessage) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName
 // Il2CppName: get_MethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_MethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

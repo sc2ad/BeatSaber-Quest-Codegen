@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,16 +54,16 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.String time
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* time;
+    ::StringW time;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return time;
     }
     // Get instance field reference: private readonly System.String time
-    ::Il2CppString*& dyn_time();
+    ::StringW& dyn_time();
     // private System.Boolean get_HasFractionalSeconds()
     // Offset: 0x18FB634
     bool get_HasFractionalSeconds();
@@ -78,22 +79,22 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
     // Offset: 0x18FADB8
-    ::Il2CppString* GetTime();
+    ::StringW GetTime();
     // private System.String CalculateGmtOffset()
     // Offset: 0x18FB0C0
-    ::Il2CppString* CalculateGmtOffset();
+    ::StringW CalculateGmtOffset();
     // static private System.String Convert(System.Int32 time)
     // Offset: 0x18FB59C
-    static ::Il2CppString* Convert(int time);
+    static ::StringW Convert(int time);
     // public System.DateTime ToDateTime()
     // Offset: 0x18FB354
     System::DateTime ToDateTime();
     // private System.String FString(System.Int32 count)
     // Offset: 0x18FB664
-    ::Il2CppString* FString(int count);
+    ::StringW FString(int count);
     // private System.DateTime ParseDateString(System.String s, System.String format, System.Boolean makeUniversal)
     // Offset: 0x18FB700
-    System::DateTime ParseDateString(::Il2CppString* s, ::Il2CppString* format, bool makeUniversal);
+    System::DateTime ParseDateString(::StringW s, ::StringW format, bool makeUniversal);
     // private System.Byte[] GetOctets()
     // Offset: 0x18FB920
     ::ArrayW<uint8_t> GetOctets();
@@ -114,7 +115,7 @@ namespace Org::BouncyCastle::Asn1 {
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerGeneralizedTime
   #pragma pack(pop)
-  static check_size<sizeof(DerGeneralizedTime), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerGeneralizedTimeSizeCheck;
+  static check_size<sizeof(DerGeneralizedTime), 16 + sizeof(::StringW)> __Org_BouncyCastle_Asn1_DerGeneralizedTimeSizeCheck;
   static_assert(sizeof(DerGeneralizedTime) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::GetTime
 // Il2CppName: GetTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::GetTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::GetTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGeneralizedTime*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::CalculateGmtOffset
 // Il2CppName: CalculateGmtOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::CalculateGmtOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::CalculateGmtOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGeneralizedTime*), "CalculateGmtOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -158,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::Convert)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGeneralizedTime*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::FString
 // Il2CppName: FString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(int)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::FString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(int)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::FString)> {
   static const MethodInfo* get() {
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerGeneralizedTime*), "FString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{count});
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerGeneralizedTime::ParseDateString
 // Il2CppName: ParseDateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::Il2CppString*, ::Il2CppString*, bool)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::ParseDateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::StringW, ::StringW, bool)>(&Org::BouncyCastle::Asn1::DerGeneralizedTime::ParseDateString)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

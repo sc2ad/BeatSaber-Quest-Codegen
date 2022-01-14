@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::NamedIntListController::TextValuePair);
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // public System.String localizationKey
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* localizationKey;
+    ::StringW localizationKey;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 value
     // Size: 0x4
     // Offset: 0x18
@@ -46,12 +47,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public System.String localizationKey
-    ::Il2CppString*& dyn_localizationKey();
+    ::StringW& dyn_localizationKey();
     // Get instance field reference: public System.Int32 value
     int& dyn_value();
     // public System.String get_localizedText()
     // Offset: 0x117D5A8
-    ::Il2CppString* get_localizedText();
+    ::StringW get_localizedText();
     // public System.Void .ctor()
     // Offset: 0x117D5BC
     // Implemented from: System.Object
@@ -70,7 +71,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::TextValuePair::get_localizedText
 // Il2CppName: get_localizedText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NamedIntListController::TextValuePair::*)()>(&GlobalNamespace::NamedIntListController::TextValuePair::get_localizedText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::NamedIntListController::TextValuePair::*)()>(&GlobalNamespace::NamedIntListController::TextValuePair::get_localizedText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedIntListController::TextValuePair*), "get_localizedText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

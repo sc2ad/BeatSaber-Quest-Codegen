@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -64,7 +65,7 @@ namespace System::Runtime::Remoting {
     // public System.Void .ctor(System.String typeName, System.String assemblyName)
     // Offset: 0x1624AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ActivatedServiceTypeEntry* New_ctor(::Il2CppString* typeName, ::Il2CppString* assemblyName) {
+    static ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ActivatedServiceTypeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActivatedServiceTypeEntry*, creationType>(typeName, assemblyName)));
     }
@@ -72,7 +73,7 @@ namespace System::Runtime::Remoting {
     // Offset: 0x1624BD8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // System.Runtime.Remoting.ActivatedServiceTypeEntry
   #pragma pack(pop)
   static check_size<sizeof(ActivatedServiceTypeEntry), 32 + sizeof(System::Type*)> __System_Runtime_Remoting_ActivatedServiceTypeEntrySizeCheck;
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ActivatedServiceTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

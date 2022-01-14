@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -80,9 +81,9 @@ namespace GlobalNamespace {
     // public System.String _serializedName
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* serializedName;
+    ::StringW serializedName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [NullAllowed] Offset: 0xF4B3A8
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
@@ -116,7 +117,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
     // Get instance field reference: public System.String _serializedName
-    ::Il2CppString*& dyn__serializedName();
+    ::StringW& dyn__serializedName();
     // Get instance field reference: public BeatmapLevelPackCollectionSO _levelPackCollection
     GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
@@ -127,7 +128,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
     // Offset: 0x1216C58
-    ::Il2CppString* get_serializedName();
+    ::StringW get_serializedName();
     // public SongPackMask get_songPackMask()
     // Offset: 0x1216C9C
     GlobalNamespace::SongPackMask get_songPackMask();
@@ -152,7 +153,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName
 // Il2CppName: get_serializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

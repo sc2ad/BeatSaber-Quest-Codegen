@@ -21,6 +21,7 @@
 #include "GlobalNamespace/AdditionalContentModel.hpp"
 // Including type: BeatmapLevelLoader/LoadBeatmapLevelResult
 #include "GlobalNamespace/BeatmapLevelLoader.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,9 +65,9 @@ namespace GlobalNamespace {
     // public System.String levelID
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* levelID;
+    ::StringW levelID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x30
@@ -99,7 +100,7 @@ namespace GlobalNamespace {
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$u__3;
     public:
     // Creating value type constructor for type: $GetBeatmapLevelAsync$d__38
-    constexpr $GetBeatmapLevelAsync$d__38(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelsModel* $$4__this_ = {}, ::Il2CppString* levelID_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}, GlobalNamespace::IBeatmapLevel* $beatmapLevel$5__2_ = {}, GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult $loadLevelResult$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelID{levelID_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $beatmapLevel$5__2{$beatmapLevel$5__2_}, $loadLevelResult$5__3{$loadLevelResult$5__3_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    constexpr $GetBeatmapLevelAsync$d__38(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelsModel* $$4__this_ = {}, ::StringW levelID_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}, GlobalNamespace::IBeatmapLevel* $beatmapLevel$5__2_ = {}, GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult $loadLevelResult$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::AudioClip*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelID{levelID_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $beatmapLevel$5__2{$beatmapLevel$5__2_}, $loadLevelResult$5__3{$loadLevelResult$5__3_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -115,7 +116,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapLevelsModel <>4__this
     GlobalNamespace::BeatmapLevelsModel*& dyn_$$4__this();
     // Get instance field reference: public System.String levelID
-    ::Il2CppString*& dyn_levelID();
+    ::StringW& dyn_levelID();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/EntitlementStatus> <>u__1

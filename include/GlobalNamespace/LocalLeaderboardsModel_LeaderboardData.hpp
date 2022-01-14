@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -43,9 +44,9 @@ namespace GlobalNamespace {
     // public System.String _leaderboardId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* leaderboardId;
+    ::StringW leaderboardId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
     public:
     // Get instance field reference: public System.String _leaderboardId
-    ::Il2CppString*& dyn__leaderboardId();
+    ::StringW& dyn__leaderboardId();
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*& dyn__scores();
     // public System.Void .ctor()

@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -30,9 +31,9 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class CrlReason : public Org::BouncyCastle::Asn1::DerEnumerated {
     public:
     // Get static field: static private readonly System.String[] ReasonString
-    static ::ArrayW<::Il2CppString*> _get_ReasonString();
+    static ::ArrayW<::StringW> _get_ReasonString();
     // Set static field: static private readonly System.String[] ReasonString
-    static void _set_ReasonString(::ArrayW<::Il2CppString*> value);
+    static void _set_ReasonString(::ArrayW<::StringW> value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
     // Offset: 0x1C1BF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -49,7 +50,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Offset: 0x1C1C01C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Org.BouncyCastle.Asn1.X509.CrlReason
   #pragma pack(pop)
 }
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlReason::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::X509::CrlReason::*)()>(&Org::BouncyCastle::Asn1::X509::CrlReason::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::X509::CrlReason::*)()>(&Org::BouncyCastle::Asn1::X509::CrlReason::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlReason*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

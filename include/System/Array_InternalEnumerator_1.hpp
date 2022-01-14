@@ -86,7 +86,7 @@ namespace System {
     InternalEnumerator_1(System::Array* array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Array::InternalEnumerator_1::.ctor");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
-      ::il2cpp_utils::RunMethodRethrow<Array::InternalEnumerator_1<T>, false>(this, ___internal__method, array);
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, array);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF

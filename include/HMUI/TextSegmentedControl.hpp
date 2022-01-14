@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -127,9 +128,9 @@ namespace HMUI {
     // private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts;
+    System::Collections::Generic::IReadOnlyList_1<::StringW>* texts;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::StringW>*) == 0x8);
     public:
     // Creating interface conversion operator: operator HMUI::SegmentedControl::IDataSource
     operator HMUI::SegmentedControl::IDataSource() noexcept {
@@ -154,10 +155,10 @@ namespace HMUI {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.String> _texts
-    System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__texts();
+    System::Collections::Generic::IReadOnlyList_1<::StringW>*& dyn__texts();
     // public System.Void SetTexts(System.Collections.Generic.IReadOnlyList`1<System.String> texts)
     // Offset: 0x14D2318
-    void SetTexts(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts);
+    void SetTexts(System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
     // public System.Int32 NumberOfCells()
     // Offset: 0x14D2330
     int NumberOfCells();
@@ -183,14 +184,14 @@ namespace HMUI {
     }
   }; // HMUI.TextSegmentedControl
   #pragma pack(pop)
-  static check_size<sizeof(TextSegmentedControl), 144 + sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)> __HMUI_TextSegmentedControlSizeCheck;
+  static check_size<sizeof(TextSegmentedControl), 144 + sizeof(System::Collections::Generic::IReadOnlyList_1<::StringW>*)> __HMUI_TextSegmentedControlSizeCheck;
   static_assert(sizeof(TextSegmentedControl) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TextSegmentedControl::SetTexts
 // Il2CppName: SetTexts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSegmentedControl::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&HMUI::TextSegmentedControl::SetTexts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TextSegmentedControl::*)(System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(&HMUI::TextSegmentedControl::SetTexts)> {
   static const MethodInfo* get() {
     static auto* texts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::TextSegmentedControl*), "SetTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texts});

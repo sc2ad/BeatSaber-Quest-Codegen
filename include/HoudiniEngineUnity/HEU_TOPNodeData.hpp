@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -138,15 +139,15 @@ namespace HoudiniEngineUnity {
     // public System.String _nodeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* nodeName;
+    ::StringW nodeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _parentName
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* parentName;
+    ::StringW parentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public UnityEngine.GameObject _workResultParentGO
     // Size: 0x8
     // Offset: 0x28
@@ -189,9 +190,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
-    ::Il2CppString*& dyn__nodeName();
+    ::StringW& dyn__nodeName();
     // Get instance field reference: public System.String _parentName
-    ::Il2CppString*& dyn__parentName();
+    ::StringW& dyn__parentName();
     // Get instance field reference: public UnityEngine.GameObject _workResultParentGO
     UnityEngine::GameObject*& dyn__workResultParentGO();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPWorkResult> _workResults

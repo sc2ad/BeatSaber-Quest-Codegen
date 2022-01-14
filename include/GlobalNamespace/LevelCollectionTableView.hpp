@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -102,9 +103,9 @@ namespace GlobalNamespace {
     // private System.String _levelCellsReuseIdentifier
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* levelCellsReuseIdentifier;
+    ::StringW levelCellsReuseIdentifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private LevelPackHeaderTableCell _packCellPrefab
     // Size: 0x8
     // Offset: 0x38
@@ -114,9 +115,9 @@ namespace GlobalNamespace {
     // private System.String _packCellsReuseIdentifier
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* packCellsReuseIdentifier;
+    ::StringW packCellsReuseIdentifier;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Single _cellHeight
     // Size: 0x4
     // Offset: 0x48
@@ -171,9 +172,9 @@ namespace GlobalNamespace {
     // private System.String _headerText
     // Size: 0x8
     // Offset: 0x80
-    ::Il2CppString* headerText;
+    ::StringW headerText;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean _showLevelPackHeader
     // Size: 0x1
     // Offset: 0x88
@@ -185,9 +186,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds;
+    System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private System.Int32 _selectedRow
     // Size: 0x4
     // Offset: 0x98
@@ -216,11 +217,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private LevelListTableCell _levelCellPrefab
     GlobalNamespace::LevelListTableCell*& dyn__levelCellPrefab();
     // Get instance field reference: private System.String _levelCellsReuseIdentifier
-    ::Il2CppString*& dyn__levelCellsReuseIdentifier();
+    ::StringW& dyn__levelCellsReuseIdentifier();
     // Get instance field reference: private LevelPackHeaderTableCell _packCellPrefab
     GlobalNamespace::LevelPackHeaderTableCell*& dyn__packCellPrefab();
     // Get instance field reference: private System.String _packCellsReuseIdentifier
-    ::Il2CppString*& dyn__packCellsReuseIdentifier();
+    ::StringW& dyn__packCellsReuseIdentifier();
     // Get instance field reference: private System.Single _cellHeight
     float& dyn__cellHeight();
     // Get instance field reference: private System.Int32 _showAlphabetScrollbarLevelCountThreshold
@@ -238,11 +239,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _headerSprite
     UnityEngine::Sprite*& dyn__headerSprite();
     // Get instance field reference: private System.String _headerText
-    ::Il2CppString*& dyn__headerText();
+    ::StringW& dyn__headerText();
     // Get instance field reference: private System.Boolean _showLevelPackHeader
     bool& dyn__showLevelPackHeader();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _favoriteLevelIds
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__favoriteLevelIds();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__favoriteLevelIds();
     // Get instance field reference: private System.Int32 _selectedRow
     int& dyn__selectedRow();
     // Get instance field reference: private IPreviewBeatmapLevel _selectedPreviewBeatmapLevel
@@ -261,16 +262,16 @@ namespace GlobalNamespace {
     void remove_didSelectHeaderEvent(System::Action_1<GlobalNamespace::LevelCollectionTableView*>* value);
     // public System.Void Init(System.String headerText, UnityEngine.Sprite headerSprite)
     // Offset: 0x11A7290
-    void Init(::Il2CppString* headerText, UnityEngine::Sprite* headerSprite);
+    void Init(::StringW headerText, UnityEngine::Sprite* headerSprite);
     // private System.Void Init()
     // Offset: 0x11A72DC
     void Init();
     // public System.Void SetData(IPreviewBeatmapLevel[] previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
     // Offset: 0x11A73A8
-    void SetData(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
+    void SetData(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
     // Offset: 0x11A75AC
-    void RefreshFavorites(System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds);
+    void RefreshFavorites(System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
     // protected System.Void OnEnable()
     // Offset: 0x11A7658
     void OnEnable();
@@ -368,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::Il2CppString*, UnityEngine::Sprite*)>(&GlobalNamespace::LevelCollectionTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::StringW, UnityEngine::Sprite*)>(&GlobalNamespace::LevelCollectionTableView::Init)> {
   static const MethodInfo* get() {
     static auto* headerText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* headerSprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
@@ -386,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>, System::Collections::Generic::HashSet_1<::StringW>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
   static const MethodInfo* get() {
     static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
     static auto* favoriteLevelIds = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::RefreshFavorites
 // Il2CppName: RefreshFavorites
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::LevelCollectionTableView::RefreshFavorites)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Collections::Generic::HashSet_1<::StringW>*)>(&GlobalNamespace::LevelCollectionTableView::RefreshFavorites)> {
   static const MethodInfo* get() {
     static auto* favoriteLevelIds = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "RefreshFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{favoriteLevelIds});

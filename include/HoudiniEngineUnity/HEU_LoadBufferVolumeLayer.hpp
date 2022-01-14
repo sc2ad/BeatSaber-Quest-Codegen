@@ -18,6 +18,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -47,9 +48,9 @@ namespace HoudiniEngineUnity {
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* layerName;
+    ::StringW layerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Int32 _partID
     // Size: 0x4
     // Offset: 0x18
@@ -77,15 +78,15 @@ namespace HoudiniEngineUnity {
     // public System.String _diffuseTexturePath
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* diffuseTexturePath;
+    ::StringW diffuseTexturePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String _maskTexturePath
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* maskTexturePath;
+    ::StringW maskTexturePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single _metallic
     // Size: 0x4
     // Offset: 0x38
@@ -97,9 +98,9 @@ namespace HoudiniEngineUnity {
     // public System.String _normalTexturePath
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* normalTexturePath;
+    ::StringW normalTexturePath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Single _normalScale
     // Size: 0x4
     // Offset: 0x48
@@ -209,9 +210,9 @@ namespace HoudiniEngineUnity {
     // public System.String _layerPath
     // Size: 0x8
     // Offset: 0xC8
-    ::Il2CppString* layerPath;
+    ::StringW layerPath;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean _hasLayerAttributes
     // Size: 0x1
     // Offset: 0xD0
@@ -228,7 +229,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(HoudiniEngineUnity::HFLayerType) == 0x4);
     public:
     // Get instance field reference: public System.String _layerName
-    ::Il2CppString*& dyn__layerName();
+    ::StringW& dyn__layerName();
     // Get instance field reference: public System.Int32 _partID
     int& dyn__partID();
     // Get instance field reference: public System.Int32 _heightMapWidth
@@ -238,13 +239,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _strength
     float& dyn__strength();
     // Get instance field reference: public System.String _diffuseTexturePath
-    ::Il2CppString*& dyn__diffuseTexturePath();
+    ::StringW& dyn__diffuseTexturePath();
     // Get instance field reference: public System.String _maskTexturePath
-    ::Il2CppString*& dyn__maskTexturePath();
+    ::StringW& dyn__maskTexturePath();
     // Get instance field reference: public System.Single _metallic
     float& dyn__metallic();
     // Get instance field reference: public System.String _normalTexturePath
-    ::Il2CppString*& dyn__normalTexturePath();
+    ::StringW& dyn__normalTexturePath();
     // Get instance field reference: public System.Single _normalScale
     float& dyn__normalScale();
     // Get instance field reference: public System.Single _smoothness
@@ -280,7 +281,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _center
     UnityEngine::Vector3& dyn__center();
     // Get instance field reference: public System.String _layerPath
-    ::Il2CppString*& dyn__layerPath();
+    ::StringW& dyn__layerPath();
     // Get instance field reference: public System.Boolean _hasLayerAttributes
     bool& dyn__hasLayerAttributes();
     // Get instance field reference: public HoudiniEngineUnity.HFLayerType _layerType

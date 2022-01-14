@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -55,10 +56,10 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI*& dyn__text();
     // public System.String get_text()
     // Offset: 0x264E50C
-    ::Il2CppString* get_text();
+    ::StringW get_text();
     // public System.Void set_text(System.String value)
     // Offset: 0x264E4F0
-    void set_text(::Il2CppString* value);
+    void set_text(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x264E528
     // Implemented from: HMUI.TableCell
@@ -84,7 +85,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextTableCell::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SimpleTextTableCell::*)()>(&GlobalNamespace::SimpleTextTableCell::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::SimpleTextTableCell::*)()>(&GlobalNamespace::SimpleTextTableCell::get_text)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextTableCell*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextTableCell::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleTextTableCell::*)(::Il2CppString*)>(&GlobalNamespace::SimpleTextTableCell::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleTextTableCell::*)(::StringW)>(&GlobalNamespace::SimpleTextTableCell::set_text)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

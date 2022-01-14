@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,15 +41,15 @@ namespace TMPro {
     // static field const value: static private System.String k_LookupStringL
     static constexpr const char* k_LookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
     // Get static field: static private System.String k_LookupStringL
-    static ::Il2CppString* _get_k_LookupStringL();
+    static ::StringW _get_k_LookupStringL();
     // Set static field: static private System.String k_LookupStringL
-    static void _set_k_LookupStringL(::Il2CppString* value);
+    static void _set_k_LookupStringL(::StringW value);
     // static field const value: static private System.String k_LookupStringU
     static constexpr const char* k_LookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
     // Get static field: static private System.String k_LookupStringU
-    static ::Il2CppString* _get_k_LookupStringU();
+    static ::StringW _get_k_LookupStringU();
     // Set static field: static private System.String k_LookupStringU
-    static void _set_k_LookupStringU(::Il2CppString* value);
+    static void _set_k_LookupStringU(::StringW value);
     // static public TMPro.TMP_TextParsingUtilities get_instance()
     // Offset: 0x1632978
     static TMPro::TMP_TextParsingUtilities* get_instance();
@@ -57,10 +58,10 @@ namespace TMPro {
     static void _cctor();
     // static public System.UInt32 GetHashCode(System.String s)
     // Offset: 0x16329E0
-    static uint GetHashCode(::Il2CppString* s);
+    static uint GetHashCode(::StringW s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
     // Offset: 0x1632B30
-    static int GetHashCodeCaseSensitive(::Il2CppString* s);
+    static int GetHashCodeCaseSensitive(::StringW s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
     // Offset: 0x1632BA8
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW)>(&TMPro::TMP_TextParsingUtilities::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive
 // Il2CppName: GetHashCodeCaseSensitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCodeCaseSensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,7 +48,7 @@ namespace UnityEngine::AddressableAssets {
     // Implemented from: UnityEngine.AddressableAssets.AssetReference
     // Base method: System.Void AssetReference::.ctor(System.String guid)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetReferenceT_1<TObject>* New_ctor(::Il2CppString* guid) {
+    static AssetReferenceT_1<TObject>* New_ctor(::StringW guid) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceT_1<TObject>*, creationType>(guid)));
     }
@@ -73,7 +74,7 @@ namespace UnityEngine::AddressableAssets {
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.AddressableAssets.AssetReference
     // Base method: System.Boolean AssetReference::ValidateAsset(System.String mainAssetPath)
-    bool ValidateAsset(::Il2CppString* mainAssetPath) {
+    bool ValidateAsset(::StringW mainAssetPath) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AssetReferenceT_1::ValidateAsset");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ValidateAsset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(mainAssetPath)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, mainAssetPath);

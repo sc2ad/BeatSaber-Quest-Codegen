@@ -7,6 +7,7 @@
 // Including type: System.Runtime.Remoting.Messaging.IMethodCallMessage
 #include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,7 +27,6 @@ namespace System::Collections {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: System.Runtime.Remoting.Activation
@@ -55,7 +55,7 @@ namespace System::Runtime::Remoting::Activation {
     System::Type* get_ActivationType();
     // public System.String get_ActivationTypeName()
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* get_ActivationTypeName();
+    ::StringW get_ActivationTypeName();
     // public System.Runtime.Remoting.Activation.IActivator get_Activator()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Activation::IActivator* get_Activator();
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationTypeName
 // Il2CppName: get_ActivationTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_ActivationTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

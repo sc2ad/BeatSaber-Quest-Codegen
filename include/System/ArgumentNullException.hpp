@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -55,7 +56,7 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String paramName)
     // Base method: System.Void Exception::.ctor(System.String paramName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentNullException* New_ctor(::Il2CppString* paramName) {
+    static ArgumentNullException* New_ctor(::StringW paramName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentNullException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentNullException*, creationType>(paramName)));
     }
@@ -64,7 +65,7 @@ namespace System {
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String paramName, System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgumentNullException* New_ctor(::Il2CppString* paramName, ::Il2CppString* message) {
+    static ArgumentNullException* New_ctor(::StringW paramName, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ArgumentNullException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgumentNullException*, creationType>(paramName, message)));
     }

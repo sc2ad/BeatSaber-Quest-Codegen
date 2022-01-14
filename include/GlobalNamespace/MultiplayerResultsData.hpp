@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -60,9 +61,9 @@ namespace GlobalNamespace {
     // private readonly System.String _gameId
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* gameId;
+    ::StringW gameId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private readonly MultiplayerPlayerResultsData _localPlayerResultData
     // Size: 0x8
     // Offset: 0x18
@@ -83,7 +84,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String _gameId
-    ::Il2CppString*& dyn__gameId();
+    ::StringW& dyn__gameId();
     // Get instance field reference: private readonly MultiplayerPlayerResultsData _localPlayerResultData
     GlobalNamespace::MultiplayerPlayerResultsData*& dyn__localPlayerResultData();
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _otherPlayersData
@@ -92,7 +93,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__allPlayersSortedData();
     // public System.String get_gameId()
     // Offset: 0x1174E80
-    ::Il2CppString* get_gameId();
+    ::StringW get_gameId();
     // public MultiplayerPlayerResultsData get_localPlayerResultData()
     // Offset: 0x1174E88
     GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
@@ -105,7 +106,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String gameId, MultiplayerLevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
     // Offset: 0x1174EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerResultsData* New_ctor(::Il2CppString* gameId, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+    static MultiplayerResultsData* New_ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsData*, creationType>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager)));
     }
@@ -118,7 +119,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_gameId
 // Il2CppName: get_gameId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_gameId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_gameId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_gameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

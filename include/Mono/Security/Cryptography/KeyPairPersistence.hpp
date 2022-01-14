@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -51,38 +52,38 @@ namespace Mono::Security::Cryptography {
     // private System.String _keyvalue
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* keyvalue;
+    ::StringW keyvalue;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _filename
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* filename;
+    ::StringW filename;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _container
     // Size: 0x8
     // Offset: 0x28
-    ::Il2CppString* container;
+    ::StringW container;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Boolean _userPathExists
     static bool _get__userPathExists();
     // Set static field: static private System.Boolean _userPathExists
     static void _set__userPathExists(bool value);
     // Get static field: static private System.String _userPath
-    static ::Il2CppString* _get__userPath();
+    static ::StringW _get__userPath();
     // Set static field: static private System.String _userPath
-    static void _set__userPath(::Il2CppString* value);
+    static void _set__userPath(::StringW value);
     // Get static field: static private System.Boolean _machinePathExists
     static bool _get__machinePathExists();
     // Set static field: static private System.Boolean _machinePathExists
     static void _set__machinePathExists(bool value);
     // Get static field: static private System.String _machinePath
-    static ::Il2CppString* _get__machinePath();
+    static ::StringW _get__machinePath();
     // Set static field: static private System.String _machinePath
-    static void _set__machinePath(::Il2CppString* value);
+    static void _set__machinePath(::StringW value);
     // Get static field: static private System.Object lockobj
     static ::Il2CppObject* _get_lockobj();
     // Set static field: static private System.Object lockobj
@@ -90,26 +91,26 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Security.Cryptography.CspParameters _params
     System::Security::Cryptography::CspParameters*& dyn__params();
     // Get instance field reference: private System.String _keyvalue
-    ::Il2CppString*& dyn__keyvalue();
+    ::StringW& dyn__keyvalue();
     // Get instance field reference: private System.String _filename
-    ::Il2CppString*& dyn__filename();
+    ::StringW& dyn__filename();
     // Get instance field reference: private System.String _container
-    ::Il2CppString*& dyn__container();
+    ::StringW& dyn__container();
     // public System.String get_Filename()
     // Offset: 0x1C81A0C
-    ::Il2CppString* get_Filename();
+    ::StringW get_Filename();
     // public System.String get_KeyValue()
     // Offset: 0x1C8272C
-    ::Il2CppString* get_KeyValue();
+    ::StringW get_KeyValue();
     // public System.Void set_KeyValue(System.String value)
     // Offset: 0x1C82734
-    void set_KeyValue(::Il2CppString* value);
+    void set_KeyValue(::StringW value);
     // static private System.String get_UserPath()
     // Offset: 0x1C82204
-    static ::Il2CppString* get_UserPath();
+    static ::StringW get_UserPath();
     // static private System.String get_MachinePath()
     // Offset: 0x1C81CE0
-    static ::Il2CppString* get_MachinePath();
+    static ::StringW get_MachinePath();
     // private System.Boolean get_CanChange()
     // Offset: 0x1C82748
     bool get_CanChange();
@@ -121,7 +122,7 @@ namespace Mono::Security::Cryptography {
     bool get_UseMachineKeyStore();
     // private System.String get_ContainerName()
     // Offset: 0x1C81B98
-    ::Il2CppString* get_ContainerName();
+    ::StringW get_ContainerName();
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters)
     // Offset: 0x1C818B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -132,7 +133,7 @@ namespace Mono::Security::Cryptography {
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters, System.String keyPair)
     // Offset: 0x1C818BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyPairPersistence* New_ctor(System::Security::Cryptography::CspParameters* parameters, ::Il2CppString* keyPair) {
+    static KeyPairPersistence* New_ctor(System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::KeyPairPersistence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyPairPersistence*, creationType>(parameters, keyPair)));
     }
@@ -150,53 +151,53 @@ namespace Mono::Security::Cryptography {
     void Remove();
     // static System.Boolean _CanSecure(System.String root)
     // Offset: 0x1C82FC0
-    static bool _CanSecure(::Il2CppString* root);
+    static bool _CanSecure(::StringW root);
     // static System.Boolean _ProtectUser(System.String path)
     // Offset: 0x1C82FC4
-    static bool _ProtectUser(::Il2CppString* path);
+    static bool _ProtectUser(::StringW path);
     // static System.Boolean _ProtectMachine(System.String path)
     // Offset: 0x1C82FC8
-    static bool _ProtectMachine(::Il2CppString* path);
+    static bool _ProtectMachine(::StringW path);
     // static System.Boolean _IsUserProtected(System.String path)
     // Offset: 0x1C82FCC
-    static bool _IsUserProtected(::Il2CppString* path);
+    static bool _IsUserProtected(::StringW path);
     // static System.Boolean _IsMachineProtected(System.String path)
     // Offset: 0x1C82FD0
-    static bool _IsMachineProtected(::Il2CppString* path);
+    static bool _IsMachineProtected(::StringW path);
     // static private System.Boolean CanSecure(System.String path)
     // Offset: 0x1C82FD4
-    static bool CanSecure(::Il2CppString* path);
+    static bool CanSecure(::StringW path);
     // static private System.Boolean ProtectUser(System.String path)
     // Offset: 0x1C82DE0
-    static bool ProtectUser(::Il2CppString* path);
+    static bool ProtectUser(::StringW path);
     // static private System.Boolean ProtectMachine(System.String path)
     // Offset: 0x1C82D48
-    static bool ProtectMachine(::Il2CppString* path);
+    static bool ProtectMachine(::StringW path);
     // static private System.Boolean IsUserProtected(System.String path)
     // Offset: 0x1C82E90
-    static bool IsUserProtected(::Il2CppString* path);
+    static bool IsUserProtected(::StringW path);
     // static private System.Boolean IsMachineProtected(System.String path)
     // Offset: 0x1C82F28
-    static bool IsMachineProtected(::Il2CppString* path);
+    static bool IsMachineProtected(::StringW path);
     // private System.Security.Cryptography.CspParameters Copy(System.Security.Cryptography.CspParameters p)
     // Offset: 0x1C81964
     System::Security::Cryptography::CspParameters* Copy(System::Security::Cryptography::CspParameters* p);
     // private System.Void FromXml(System.String xml)
     // Offset: 0x1C82894
-    void FromXml(::Il2CppString* xml);
+    void FromXml(::StringW xml);
     // private System.String ToXml()
     // Offset: 0x1C82B80
-    ::Il2CppString* ToXml();
+    ::StringW ToXml();
   }; // Mono.Security.Cryptography.KeyPairPersistence
   #pragma pack(pop)
-  static check_size<sizeof(KeyPairPersistence), 40 + sizeof(::Il2CppString*)> __Mono_Security_Cryptography_KeyPairPersistenceSizeCheck;
+  static check_size<sizeof(KeyPairPersistence), 40 + sizeof(::StringW)> __Mono_Security_Cryptography_KeyPairPersistenceSizeCheck;
   static_assert(sizeof(KeyPairPersistence) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_Filename
 // Il2CppName: get_Filename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_Filename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_Filename)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "get_Filename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_KeyValue
 // Il2CppName: get_KeyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_KeyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_KeyValue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "get_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::set_KeyValue
 // Il2CppName: set_KeyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::KeyPairPersistence::*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::set_KeyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::set_KeyValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "set_KeyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_UserPath
 // Il2CppName: get_UserPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_UserPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_UserPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "get_UserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_MachinePath
 // Il2CppName: get_MachinePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_MachinePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_MachinePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "get_MachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::get_ContainerName
 // Il2CppName: get_ContainerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_ContainerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::get_ContainerName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "get_ContainerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -309,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::_CanSecure
 // Il2CppName: _CanSecure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::_CanSecure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::_CanSecure)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "_CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
@@ -318,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser
 // Il2CppName: _ProtectUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "_ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -327,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine
 // Il2CppName: _ProtectMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "_ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -336,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected
 // Il2CppName: _IsUserProtected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "_IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -345,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected
 // Il2CppName: _IsMachineProtected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "_IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -354,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::CanSecure
 // Il2CppName: CanSecure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::CanSecure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::CanSecure)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "CanSecure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -363,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::ProtectUser
 // Il2CppName: ProtectUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::ProtectUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::ProtectUser)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "ProtectUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -372,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::ProtectMachine
 // Il2CppName: ProtectMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::ProtectMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::ProtectMachine)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "ProtectMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -381,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::IsUserProtected
 // Il2CppName: IsUserProtected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::IsUserProtected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::IsUserProtected)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "IsUserProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -390,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::IsMachineProtected
 // Il2CppName: IsMachineProtected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::IsMachineProtected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::IsMachineProtected)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "IsMachineProtected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -408,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::FromXml
 // Il2CppName: FromXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::KeyPairPersistence::*)(::Il2CppString*)>(&Mono::Security::Cryptography::KeyPairPersistence::FromXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(&Mono::Security::Cryptography::KeyPairPersistence::FromXml)> {
   static const MethodInfo* get() {
     static auto* xml = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "FromXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xml});
@@ -417,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::Cryptography::KeyPairPersistence::*)()>(&Mono::Security::Cryptography::KeyPairPersistence::ToXml)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

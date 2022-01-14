@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -67,7 +68,7 @@ namespace System::Collections::Specialized {
     System::Collections::Hashtable*& dyn_contents();
     // public System.Void Add(System.String key, System.String value)
     // Offset: 0x1A2560C
-    void Add(::Il2CppString* key, ::Il2CppString* value);
+    void Add(::StringW key, ::StringW value);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1A256F8
     System::Collections::IEnumerator* GetEnumerator();
@@ -89,7 +90,7 @@ namespace System::Collections::Specialized {
 // Writing MetadataGetter for method: System::Collections::Specialized::StringDictionary::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::StringDictionary::*)(::Il2CppString*, ::Il2CppString*)>(&System::Collections::Specialized::StringDictionary::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::StringDictionary::*)(::StringW, ::StringW)>(&System::Collections::Specialized::StringDictionary::Add)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

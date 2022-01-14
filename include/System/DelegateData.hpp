@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,9 +52,9 @@ namespace System {
     // public System.String method_name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* method_name;
+    ::StringW method_name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean curried_first_arg
     // Size: 0x1
     // Offset: 0x20
@@ -64,7 +65,7 @@ namespace System {
     // Get instance field reference: public System.Type target_type
     System::Type*& dyn_target_type();
     // Get instance field reference: public System.String method_name
-    ::Il2CppString*& dyn_method_name();
+    ::StringW& dyn_method_name();
     // Get instance field reference: public System.Boolean curried_first_arg
     bool& dyn_curried_first_arg();
     // public System.Void .ctor()

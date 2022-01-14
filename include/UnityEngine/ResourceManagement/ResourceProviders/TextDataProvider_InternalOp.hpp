@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking
@@ -114,7 +115,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     void RequestOperation_completed(UnityEngine::AsyncOperation* op);
     // private System.Object ConvertText(System.String text)
     // Offset: 0x1BF0BD0
-    ::Il2CppObject* ConvertText(::Il2CppString* text);
+    ::Il2CppObject* ConvertText(::StringW text);
     // private System.Void <Start>b__7_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation)
     // Offset: 0x1BF0F20
     void $Start$b__7_0(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::ConvertText
 // Il2CppName: ConvertText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::ConvertText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::StringW)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::ConvertText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "ConvertText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});

@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -51,7 +52,7 @@ namespace System::Runtime::Remoting::Channels {
     static void _set_s_lock(::Il2CppObject* value);
     // public System.String get_ChannelName()
     // Offset: 0x162B030
-    ::Il2CppString* get_ChannelName();
+    ::StringW get_ChannelName();
     // public System.Int32 get_ChannelPriority()
     // Offset: 0x162B078
     int get_ChannelPriority();
@@ -69,7 +70,7 @@ namespace System::Runtime::Remoting::Channels {
     void StartListening(::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IMessageSink CreateMessageSink(System.String url, System.Object data, out System.String uri)
     // Offset: 0x162B194
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::Il2CppString* url, ::Il2CppObject* data, ByRef<::Il2CppString*> uri);
+    System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::Il2CppObject* data, ByRef<::StringW> uri);
     // public System.Void .ctor()
     // Offset: 0x162B028
     // Implemented from: System.Object
@@ -86,7 +87,7 @@ namespace System::Runtime::Remoting::Channels {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName
 // Il2CppName: get_ChannelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainChannel*), "get_ChannelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink
 // Il2CppName: CreateMessageSink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::Il2CppString*, ::Il2CppObject*, ByRef<::Il2CppString*>)>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::StringW, ::Il2CppObject*, ByRef<::StringW>)>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0);
@@ -42,14 +43,14 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
     GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
     // Offset: 0x11F51B4
     void $HandleServerPlayerListViewControllerKickPlayer$b__0(int btnId);
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass87_0
   #pragma pack(pop)
-  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0), 24 + sizeof(::Il2CppString*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass87_0SizeCheck;
+  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0), 24 + sizeof(::StringW)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass87_0SizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

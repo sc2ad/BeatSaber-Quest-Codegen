@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -69,9 +70,9 @@ namespace NUnit::Framework::Internal::Builders {
       return testBuilder;
     }
     // Get static field: static private readonly System.String NO_TYPE_ARGS_MSG
-    static ::Il2CppString* _get_NO_TYPE_ARGS_MSG();
+    static ::StringW _get_NO_TYPE_ARGS_MSG();
     // Set static field: static private readonly System.String NO_TYPE_ARGS_MSG
-    static void _set_NO_TYPE_ARGS_MSG(::Il2CppString* value);
+    static void _set_NO_TYPE_ARGS_MSG(::StringW value);
     // Get instance field reference: private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     NUnit::Framework::Interfaces::ITestCaseBuilder*& dyn__testBuilder();
     // static private System.Void .cctor()

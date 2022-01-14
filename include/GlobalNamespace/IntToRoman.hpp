@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -25,7 +26,7 @@ namespace GlobalNamespace {
     public:
     // static public System.String Roman(System.Int32 number)
     // Offset: 0x139BB74
-    static ::Il2CppString* Roman(int number);
+    static ::StringW Roman(int number);
   }; // IntToRoman
   #pragma pack(pop)
 }
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IntToRoman::Roman
 // Il2CppName: Roman
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&GlobalNamespace::IntToRoman::Roman)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&GlobalNamespace::IntToRoman::Roman)> {
   static const MethodInfo* get() {
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntToRoman*), "Roman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number});

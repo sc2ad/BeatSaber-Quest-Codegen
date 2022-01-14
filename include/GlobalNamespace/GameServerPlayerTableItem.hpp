@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -38,21 +39,21 @@ namespace GlobalNamespace {
     // public readonly System.String playerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* playerName;
+    ::StringW playerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String suggestedLevel
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* suggestedLevel;
+    ::StringW suggestedLevel;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String suggestedModifiers
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* suggestedModifiers;
+    ::StringW suggestedModifiers;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.Boolean isReady
     // Size: 0x1
     // Offset: 0x28
@@ -61,17 +62,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public readonly System.String playerName
-    ::Il2CppString*& dyn_playerName();
+    ::StringW& dyn_playerName();
     // Get instance field reference: public readonly System.String suggestedLevel
-    ::Il2CppString*& dyn_suggestedLevel();
+    ::StringW& dyn_suggestedLevel();
     // Get instance field reference: public readonly System.String suggestedModifiers
-    ::Il2CppString*& dyn_suggestedModifiers();
+    ::StringW& dyn_suggestedModifiers();
     // Get instance field reference: public readonly System.Boolean isReady
     bool& dyn_isReady();
     // public System.Void .ctor(System.String playerName, System.String suggestedLevel, System.String suggestedModifiers, System.Boolean isReady)
     // Offset: 0x11F6D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameServerPlayerTableItem* New_ctor(::Il2CppString* playerName, ::Il2CppString* suggestedLevel, ::Il2CppString* suggestedModifiers, bool isReady) {
+    static GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableItem*, creationType>(playerName, suggestedLevel, suggestedModifiers, isReady)));
     }

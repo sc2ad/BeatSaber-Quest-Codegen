@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -62,9 +63,9 @@ namespace HoudiniEngineUnity {
     // public System.String _nodeName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* nodeName;
+    ::StringW nodeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
     // Size: 0x8
     // Offset: 0x20
@@ -74,9 +75,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _topNodeNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<::Il2CppString*> topNodeNames;
+    ::ArrayW<::StringW> topNodeNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // public System.Int32 _selectedTOPIndex
     // Size: 0x4
     // Offset: 0x30
@@ -88,9 +89,9 @@ namespace HoudiniEngineUnity {
     // public System.String _parentName
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* parentName;
+    ::StringW parentName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.TOPNodeTags _tags
     // Size: 0x8
     // Offset: 0x40
@@ -101,15 +102,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
-    ::Il2CppString*& dyn__nodeName();
+    ::StringW& dyn__nodeName();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
     // Get instance field reference: public System.String[] _topNodeNames
-    ::ArrayW<::Il2CppString*>& dyn__topNodeNames();
+    ::ArrayW<::StringW>& dyn__topNodeNames();
     // Get instance field reference: public System.Int32 _selectedTOPIndex
     int& dyn__selectedTOPIndex();
     // Get instance field reference: public System.String _parentName
-    ::Il2CppString*& dyn__parentName();
+    ::StringW& dyn__parentName();
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
     HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()

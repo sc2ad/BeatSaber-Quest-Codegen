@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: HoudiniEngineUnity.HEU_MaterialData
 #include "HoudiniEngineUnity/HEU_MaterialData.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -57,19 +58,19 @@ namespace HoudiniEngineUnity {
     static void _set__defaultStandardMaterial(UnityEngine::Material* value);
     // static public UnityEngine.Shader FindShader(System.String shaderName)
     // Offset: 0x159A808
-    static UnityEngine::Shader* FindShader(::Il2CppString* shaderName);
+    static UnityEngine::Shader* FindShader(::StringW shaderName);
     // static public UnityEngine.Shader FindPluginShader(System.String shaderName)
     // Offset: 0x15997A0
-    static UnityEngine::Shader* FindPluginShader(::Il2CppString* shaderName);
+    static UnityEngine::Shader* FindPluginShader(::StringW shaderName);
     // static public UnityEngine.Material GetNewMaterialWithShader(System.String assetCacheFolderPath, System.String shaderName, System.String materialName, System.Boolean bWriteToFile)
     // Offset: 0x159A858
-    static UnityEngine::Material* GetNewMaterialWithShader(::Il2CppString* assetCacheFolderPath, ::Il2CppString* shaderName, ::Il2CppString* materialName, bool bWriteToFile);
+    static UnityEngine::Material* GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName, bool bWriteToFile);
     // static public UnityEngine.Material CreateNewHoudiniStandardMaterial(System.String assetCacheFolderPath, System.String materialName, System.Boolean bWriteToFile)
     // Offset: 0x159AA4C
-    static UnityEngine::Material* CreateNewHoudiniStandardMaterial(::Il2CppString* assetCacheFolderPath, ::Il2CppString* materialName, bool bWriteToFile);
+    static UnityEngine::Material* CreateNewHoudiniStandardMaterial(::StringW assetCacheFolderPath, ::StringW materialName, bool bWriteToFile);
     // static public System.Void WriteMaterialToAssetCache(UnityEngine.Material material, System.String assetCacheFolderPath, System.String materialName, System.Boolean bOverwriteExisting)
     // Offset: 0x159AA90
-    static void WriteMaterialToAssetCache(UnityEngine::Material* material, ::Il2CppString* assetCacheFolderPath, ::Il2CppString* materialName, bool bOverwriteExisting);
+    static void WriteMaterialToAssetCache(UnityEngine::Material* material, ::StringW assetCacheFolderPath, ::StringW materialName, bool bOverwriteExisting);
     // static public System.Boolean DoesMaterialExistInAssetCache(UnityEngine.Material material)
     // Offset: 0x159AB68
     static bool DoesMaterialExistInAssetCache(UnityEngine::Material* material);
@@ -81,31 +82,31 @@ namespace HoudiniEngineUnity {
     static void DeleteAssetMaterial(UnityEngine::Material* material);
     // static public UnityEngine.Texture2D RenderAndExtractImageToTexture(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.Int32 textureParmID, System.String textureName, System.String assetCacheFolderPath, System.Boolean isNormalMap, System.Boolean invertTexture)
     // Offset: 0x1599F60
-    static UnityEngine::Texture2D* RenderAndExtractImageToTexture(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, int textureParmID, ::Il2CppString* textureName, ::Il2CppString* assetCacheFolderPath, bool isNormalMap, bool invertTexture);
+    static UnityEngine::Texture2D* RenderAndExtractImageToTexture(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, int textureParmID, ::StringW textureName, ::StringW assetCacheFolderPath, bool isNormalMap, bool invertTexture);
     // static private UnityEngine.Texture2D ExtractHoudiniImageToTexturePNGJPEG(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes)
     // Offset: 0x159AF58
-    static UnityEngine::Texture2D* ExtractHoudiniImageToTexturePNGJPEG(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* imagePlanes);
+    static UnityEngine::Texture2D* ExtractHoudiniImageToTexturePNGJPEG(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes);
     // static private UnityEngine.Texture2D ExtractHoudiniImageToTextureRaw(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes)
     // Offset: 0x159AC48
-    static UnityEngine::Texture2D* ExtractHoudiniImageToTextureRaw(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* imagePlanes);
+    static UnityEngine::Texture2D* ExtractHoudiniImageToTextureRaw(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes);
     // static public UnityEngine.Texture2D ExtractHoudiniImageToTextureFile(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String imagePlanes, System.String assetCacheFolderPath)
     // Offset: 0x159B090
-    static UnityEngine::Texture2D* ExtractHoudiniImageToTextureFile(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* imagePlanes, ::Il2CppString* assetCacheFolderPath);
+    static UnityEngine::Texture2D* ExtractHoudiniImageToTextureFile(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW imagePlanes, ::StringW assetCacheFolderPath);
     // static public UnityEngine.Material LoadUnityMaterial(System.String materialPath)
     // Offset: 0x159B230
-    static UnityEngine::Material* LoadUnityMaterial(::Il2CppString* materialPath);
+    static UnityEngine::Material* LoadUnityMaterial(::StringW materialPath);
     // static public UnityEngine.Material LoadSubstanceMaterialWithName(System.String materialPath, System.String substanceName)
     // Offset: 0x159B49C
-    static UnityEngine::Material* LoadSubstanceMaterialWithName(::Il2CppString* materialPath, ::Il2CppString* substanceName);
+    static UnityEngine::Material* LoadSubstanceMaterialWithName(::StringW materialPath, ::StringW substanceName);
     // static public UnityEngine.Material LoadSubstanceMaterialWithIndex(System.String materialPath, System.Int32 substanceMaterialIndex)
     // Offset: 0x159B688
-    static UnityEngine::Material* LoadSubstanceMaterialWithIndex(::Il2CppString* materialPath, int substanceMaterialIndex);
+    static UnityEngine::Material* LoadSubstanceMaterialWithIndex(::StringW materialPath, int substanceMaterialIndex);
     // static public System.Int32 GetUnitySubstanceMaterialKey(System.String unityMaterialPath, System.String substanceName, System.Int32 substanceIndex)
     // Offset: 0x159B8F4
-    static int GetUnitySubstanceMaterialKey(::Il2CppString* unityMaterialPath, ::Il2CppString* substanceName, int substanceIndex);
+    static int GetUnitySubstanceMaterialKey(::StringW unityMaterialPath, ::StringW substanceName, int substanceIndex);
     // static public System.Int32 MaterialNameToKey(System.String materialName)
     // Offset: 0x159BA04
-    static int MaterialNameToKey(::Il2CppString* materialName);
+    static int MaterialNameToKey(::StringW materialName);
     // static public System.Void EnableGPUInstancing(UnityEngine.Material material)
     // Offset: 0x159BA20
     static void EnableGPUInstancing(UnityEngine::Material* material);
@@ -120,28 +121,28 @@ namespace HoudiniEngineUnity {
     static UnityEngine::Material* GetDefaultStandardMaterial();
     // static public UnityEngine.Texture2D LoadTexture(System.String path)
     // Offset: 0x159BB70
-    static UnityEngine::Texture2D* LoadTexture(::Il2CppString* path);
+    static UnityEngine::Texture2D* LoadTexture(::StringW path);
     // static public UnityEngine.Texture2D WhiteTexture()
     // Offset: 0x159BC8C
     static UnityEngine::Texture2D* WhiteTexture();
     // static public HoudiniEngineUnity.HEU_MaterialData CreateUnitySubstanceMaterialData(System.Int32 materialKey, System.String materialPath, System.String substanceName, System.Int32 substanceIndex, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
     // Offset: 0x159BC94
-    static HoudiniEngineUnity::HEU_MaterialData* CreateUnitySubstanceMaterialData(int materialKey, ::Il2CppString* materialPath, ::Il2CppString* substanceName, int substanceIndex, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::Il2CppString* assetCacheFolderPath);
+    static HoudiniEngineUnity::HEU_MaterialData* CreateUnitySubstanceMaterialData(int materialKey, ::StringW materialPath, ::StringW substanceName, int substanceIndex, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData CreateMaterialInCache(System.Int32 materialKey, System.String materialName, HoudiniEngineUnity.HEU_MaterialData/HoudiniEngineUnity.Source sourceType, System.Boolean bWriteToFile, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
     // Offset: 0x159BFA4
-    static HoudiniEngineUnity::HEU_MaterialData* CreateMaterialInCache(int materialKey, ::Il2CppString* materialName, HoudiniEngineUnity::HEU_MaterialData::Source sourceType, bool bWriteToFile, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::Il2CppString* assetCacheFolderPath);
+    static HoudiniEngineUnity::HEU_MaterialData* CreateMaterialInCache(int materialKey, ::StringW materialName, HoudiniEngineUnity::HEU_MaterialData::Source sourceType, bool bWriteToFile, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData GetOrCreateDefaultMaterialInCache(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Boolean bWriteToFile, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
     // Offset: 0x159C0BC
-    static HoudiniEngineUnity::HEU_MaterialData* GetOrCreateDefaultMaterialInCache(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, bool bWriteToFile, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::Il2CppString* assetCacheFolderPath);
+    static HoudiniEngineUnity::HEU_MaterialData* GetOrCreateDefaultMaterialInCache(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, bool bWriteToFile, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public HoudiniEngineUnity.HEU_MaterialData GetMaterialDataFromCache(System.Int32 materialKey, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache)
     // Offset: 0x159C25C
     static HoudiniEngineUnity::HEU_MaterialData* GetMaterialDataFromCache(int materialKey, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
     // static public System.String GenerateDefaultMaterialName(System.Int32 geoID, System.Int32 partID)
     // Offset: 0x159C1B8
-    static ::Il2CppString* GenerateDefaultMaterialName(int geoID, int partID);
+    static ::StringW GenerateDefaultMaterialName(int geoID, int partID);
     // static public HoudiniEngineUnity.HEU_MaterialData CreateHoudiniMaterialData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, System.Int32 materialID, System.Int32 geoID, System.Int32 partID, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache, System.String assetCacheFolderPath)
     // Offset: 0x159C370
-    static HoudiniEngineUnity::HEU_MaterialData* CreateHoudiniMaterialData(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int materialID, int geoID, int partID, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::Il2CppString* assetCacheFolderPath);
+    static HoudiniEngineUnity::HEU_MaterialData* CreateHoudiniMaterialData(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, int materialID, int geoID, int partID, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache, ::StringW assetCacheFolderPath);
     // static public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MaterialData> GetMaterialDataMapFromCache(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_MaterialData> materialCache)
     // Offset: 0x159C504
     static System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_MaterialData*>* GetMaterialDataMapFromCache(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
@@ -152,7 +153,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::FindShader
 // Il2CppName: FindShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::FindShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::FindShader)> {
   static const MethodInfo* get() {
     static auto* shaderName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialFactory*), "FindShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shaderName});
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::FindPluginShader
 // Il2CppName: FindPluginShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::FindPluginShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::FindPluginShader)> {
   static const MethodInfo* get() {
     static auto* shaderName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialFactory*), "FindPluginShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shaderName});
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::GetNewMaterialWithShader
 // Il2CppName: GetNewMaterialWithShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetNewMaterialWithShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::StringW, ::StringW, ::StringW, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetNewMaterialWithShader)> {
   static const MethodInfo* get() {
     static auto* assetCacheFolderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* shaderName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::CreateNewHoudiniStandardMaterial
 // Il2CppName: CreateNewHoudiniStandardMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateNewHoudiniStandardMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::StringW, ::StringW, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateNewHoudiniStandardMaterial)> {
   static const MethodInfo* get() {
     static auto* assetCacheFolderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* materialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::WriteMaterialToAssetCache
 // Il2CppName: WriteMaterialToAssetCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, ::Il2CppString*, ::Il2CppString*, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::WriteMaterialToAssetCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, ::StringW, ::StringW, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::WriteMaterialToAssetCache)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* assetCacheFolderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -233,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::RenderAndExtractImageToTexture
 // Il2CppName: RenderAndExtractImageToTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, int, ::Il2CppString*, ::Il2CppString*, bool, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::RenderAndExtractImageToTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, int, ::StringW, ::StringW, bool, bool)>(&HoudiniEngineUnity::HEU_MaterialFactory::RenderAndExtractImageToTexture)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* materialInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_MaterialInfo")->byval_arg;
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTexturePNGJPEG
 // Il2CppName: ExtractHoudiniImageToTexturePNGJPEG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTexturePNGJPEG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTexturePNGJPEG)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* materialInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_MaterialInfo")->byval_arg;
@@ -259,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureRaw
 // Il2CppName: ExtractHoudiniImageToTextureRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureRaw)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* materialInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_MaterialInfo")->byval_arg;
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureFile
 // Il2CppName: ExtractHoudiniImageToTextureFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureFile)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* materialInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_MaterialInfo")->byval_arg;
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::LoadUnityMaterial
 // Il2CppName: LoadUnityMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadUnityMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadUnityMaterial)> {
   static const MethodInfo* get() {
     static auto* materialPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialFactory*), "LoadUnityMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materialPath});
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithName
 // Il2CppName: LoadSubstanceMaterialWithName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithName)> {
   static const MethodInfo* get() {
     static auto* materialPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* substanceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithIndex
 // Il2CppName: LoadSubstanceMaterialWithIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(::StringW, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithIndex)> {
   static const MethodInfo* get() {
     static auto* materialPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* substanceMaterialIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::GetUnitySubstanceMaterialKey
 // Il2CppName: GetUnitySubstanceMaterialKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetUnitySubstanceMaterialKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetUnitySubstanceMaterialKey)> {
   static const MethodInfo* get() {
     static auto* unityMaterialPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* substanceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -322,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::MaterialNameToKey
 // Il2CppName: MaterialNameToKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::MaterialNameToKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::MaterialNameToKey)> {
   static const MethodInfo* get() {
     static auto* materialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialFactory*), "MaterialNameToKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materialName});
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::LoadTexture
 // Il2CppName: LoadTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::LoadTexture)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_MaterialFactory*), "LoadTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::CreateUnitySubstanceMaterialData
 // Il2CppName: CreateUnitySubstanceMaterialData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(int, ::Il2CppString*, ::Il2CppString*, int, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateUnitySubstanceMaterialData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(int, ::StringW, ::StringW, int, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateUnitySubstanceMaterialData)> {
   static const MethodInfo* get() {
     static auto* materialKey = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* materialPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -397,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::CreateMaterialInCache
 // Il2CppName: CreateMaterialInCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(int, ::Il2CppString*, HoudiniEngineUnity::HEU_MaterialData::Source, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateMaterialInCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(int, ::StringW, HoudiniEngineUnity::HEU_MaterialData::Source, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateMaterialInCache)> {
   static const MethodInfo* get() {
     static auto* materialKey = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* materialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -411,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::GetOrCreateDefaultMaterialInCache
 // Il2CppName: GetOrCreateDefaultMaterialInCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetOrCreateDefaultMaterialInCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, bool, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::GetOrCreateDefaultMaterialInCache)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -435,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::GenerateDefaultMaterialName
 // Il2CppName: GenerateDefaultMaterialName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::GenerateDefaultMaterialName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int)>(&HoudiniEngineUnity::HEU_MaterialFactory::GenerateDefaultMaterialName)> {
   static const MethodInfo* get() {
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -445,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialFactory::CreateHoudiniMaterialData
 // Il2CppName: CreateHoudiniMaterialData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::Il2CppString*)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateHoudiniMaterialData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_MaterialData* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_MaterialData*>*, ::StringW)>(&HoudiniEngineUnity::HEU_MaterialFactory::CreateHoudiniMaterialData)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

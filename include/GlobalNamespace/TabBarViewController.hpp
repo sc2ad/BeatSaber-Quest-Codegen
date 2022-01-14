@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -72,9 +73,9 @@ namespace GlobalNamespace {
     // private System.String[] _labels
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<::Il2CppString*> labels;
+    ::ArrayW<::StringW> labels;
     // Field size check
-    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     // private TabBarViewController/TabBarItem[] _items
     // Size: 0x8
     // Offset: 0x88
@@ -93,7 +94,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
     UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
     // Get instance field reference: private System.String[] _labels
-    ::ArrayW<::Il2CppString*>& dyn__labels();
+    ::ArrayW<::StringW>& dyn__labels();
     // Get instance field reference: private TabBarViewController/TabBarItem[] _items
     ::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
     // Get instance field reference: private System.Boolean _shouldReloadData

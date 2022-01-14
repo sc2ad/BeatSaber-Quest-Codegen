@@ -16,6 +16,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -133,9 +134,9 @@ namespace System::Runtime::Remoting::Messaging {
     // static field const value: static private System.String s_CorrelationMgrSlotName
     static constexpr const char* s_CorrelationMgrSlotName = "System.Diagnostics.Trace.CorrelationManagerSlot";
     // Get static field: static private System.String s_CorrelationMgrSlotName
-    static ::Il2CppString* _get_s_CorrelationMgrSlotName();
+    static ::StringW _get_s_CorrelationMgrSlotName();
     // Set static field: static private System.String s_CorrelationMgrSlotName
-    static void _set_s_CorrelationMgrSlotName(::Il2CppString* value);
+    static void _set_s_CorrelationMgrSlotName(::StringW value);
     // Get instance field reference: private System.Collections.Hashtable m_Datastore
     System::Collections::Hashtable*& dyn_m_Datastore();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.CallContextRemotingData m_RemotingData
@@ -180,13 +181,13 @@ namespace System::Runtime::Remoting::Messaging {
     void Merge(System::Runtime::Remoting::Messaging::LogicalCallContext* lc);
     // public System.Void FreeNamedDataSlot(System.String name)
     // Offset: 0x1C50B04
-    void FreeNamedDataSlot(::Il2CppString* name);
+    void FreeNamedDataSlot(::StringW name);
     // public System.Object GetData(System.String name)
     // Offset: 0x1C54FA4
-    ::Il2CppObject* GetData(::Il2CppString* name);
+    ::Il2CppObject* GetData(::StringW name);
     // public System.Void SetData(System.String name, System.Object data)
     // Offset: 0x1C50BB4
-    void SetData(::Il2CppString* name, ::Il2CppObject* data);
+    void SetData(::StringW name, ::Il2CppObject* data);
     // System.Void .ctor()
     // Offset: 0x1C54140
     // Implemented from: System.Object
@@ -268,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::LogicalCallContext::FreeNamedDataSlot
 // Il2CppName: FreeNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::FreeNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::StringW)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::FreeNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::LogicalCallContext*), "FreeNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -277,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::LogicalCallContext::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::StringW)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::GetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::LogicalCallContext*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -286,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::LogicalCallContext::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::StringW, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::LogicalCallContext::SetData)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

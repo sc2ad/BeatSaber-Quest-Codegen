@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,7 +52,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CertificateException* New_ctor(::Il2CppString* message) {
+    static CertificateException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CertificateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message)));
     }
@@ -61,7 +62,7 @@ namespace Org::BouncyCastle::Security::Certificates {
     // Base method: System.Void GeneralSecurityException::.ctor(System.String message, System.Exception exception)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception exception)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CertificateException* New_ctor(::Il2CppString* message, System::Exception* exception) {
+    static CertificateException* New_ctor(::StringW message, System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Security::Certificates::CertificateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateException*, creationType>(message, exception)));
     }

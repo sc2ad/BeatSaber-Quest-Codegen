@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -251,12 +252,12 @@ namespace UnityEngine::ResourceManagement {
       // private readonly System.String <Error>k__BackingField
       // Size: 0x8
       // Offset: 0x30
-      ::Il2CppString* Error;
+      ::StringW Error;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       public:
       // Creating value type constructor for type: DiagnosticEventContext
-      constexpr DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle OperationHandle_ = {}, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType Type_ = {}, int EventValue_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location_ = {}, ::Il2CppObject* Context_ = {}, ::Il2CppString* Error_ = {}) noexcept : OperationHandle{OperationHandle_}, Type{Type_}, EventValue{EventValue_}, Location{Location_}, Context{Context_}, Error{Error_} {}
+      constexpr DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle OperationHandle_ = {}, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType Type_ = {}, int EventValue_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location_ = {}, ::Il2CppObject* Context_ = {}, ::StringW Error_ = {}) noexcept : OperationHandle{OperationHandle_}, Type{Type_}, EventValue{EventValue_}, Location{Location_}, Context{Context_}, Error{Error_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -272,7 +273,7 @@ namespace UnityEngine::ResourceManagement {
       // Get instance field reference: private readonly System.Object <Context>k__BackingField
       ::Il2CppObject*& dyn_$Context$k__BackingField();
       // Get instance field reference: private readonly System.String <Error>k__BackingField
-      ::Il2CppString*& dyn_$Error$k__BackingField();
+      ::StringW& dyn_$Error$k__BackingField();
       // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_OperationHandle()
       // Offset: 0x1BE9FD8
       UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
@@ -290,13 +291,13 @@ namespace UnityEngine::ResourceManagement {
       ::Il2CppObject* get_Context();
       // public System.String get_Error()
       // Offset: 0x1BEA00C
-      ::Il2CppString* get_Error();
+      ::StringW get_Error();
       // public System.Void .ctor(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType type, System.Int32 eventValue, System.String error, System.Object context)
       // Offset: 0x1BEA014
-      DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::Il2CppString* error, ::Il2CppObject* context);
+      DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType type, int eventValue, ::StringW error, ::Il2CppObject* context);
     }; // UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventContext
     #pragma pack(pop)
-    static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;
+    static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::StringW)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;
     static_assert(sizeof(ResourceManager::DiagnosticEventContext) == 0x38);
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -318,9 +319,9 @@ namespace UnityEngine::ResourceManagement {
     // private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* InternalIdTransformFunc;
+    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* InternalIdTransformFunc;
     // Field size check
-    static_assert(sizeof(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*) == 0x8);
     // System.Boolean CallbackHooksEnabled
     // Size: 0x1
     // Offset: 0x20
@@ -461,7 +462,7 @@ namespace UnityEngine::ResourceManagement {
     // Get instance field reference: System.Boolean postProfilerEvents
     bool& dyn_postProfilerEvents();
     // Get instance field reference: private System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> <InternalIdTransformFunc>k__BackingField
-    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*& dyn_$InternalIdTransformFunc$k__BackingField();
+    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*& dyn_$InternalIdTransformFunc$k__BackingField();
     // Get instance field reference: System.Boolean CallbackHooksEnabled
     bool& dyn_CallbackHooksEnabled();
     // Get instance field reference: private ListWithEvents`1<UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider> m_ResourceProviders
@@ -508,10 +509,10 @@ namespace UnityEngine::ResourceManagement {
     static void set_ExceptionHandler(System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>* value);
     // public System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> get_InternalIdTransformFunc()
     // Offset: 0x1BE66D0
-    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* get_InternalIdTransformFunc();
+    System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
     // public System.Void set_InternalIdTransformFunc(System.Func`2<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.String> value)
     // Offset: 0x1BE66D8
-    void set_InternalIdTransformFunc(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* value);
+    void set_InternalIdTransformFunc(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
     // System.Int32 get_OperationCacheCount()
     // Offset: 0x1BE67C0
     int get_OperationCacheCount();
@@ -545,7 +546,7 @@ namespace UnityEngine::ResourceManagement {
     static void _cctor();
     // public System.String TransformInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location)
     // Offset: 0x1BE66E0
-    ::Il2CppString* TransformInternalId(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
+    ::StringW TransformInternalId(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
     // public System.Void AddUpdateReceiver(UnityEngine.ResourceManagement.IUpdateReceiver receiver)
     // Offset: 0x1BE6868
     void AddUpdateReceiver(UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
@@ -625,7 +626,7 @@ namespace UnityEngine::ResourceManagement {
     // Offset: 0xFFFFFFFF
     template<class T>
     T CreateOperation(System::Type* actualType, int typeHash, int operationHash, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* onDestroyAction) {
-      static_assert(std::is_base_of_v<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(actualType), ::il2cpp_utils::ExtractType(typeHash), ::il2cpp_utils::ExtractType(operationHash), ::il2cpp_utils::ExtractType(onDestroyAction)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -646,7 +647,7 @@ namespace UnityEngine::ResourceManagement {
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperation(TObject result, System.String errorMsg)
     // Offset: 0xFFFFFFFF
     template<class TObject>
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperation(TObject result, ::Il2CppString* errorMsg) {
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperation(TObject result, ::StringW errorMsg) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateCompletedOperation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(errorMsg)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
@@ -655,7 +656,7 @@ namespace UnityEngine::ResourceManagement {
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject> CreateCompletedOperationInternal(TObject result, System.Boolean success, System.String errorMsg, System.Boolean releaseDependenciesOnFailure)
     // Offset: 0xFFFFFFFF
     template<class TObject>
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationInternal(TObject result, bool success, ::Il2CppString* errorMsg, bool releaseDependenciesOnFailure) {
+    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationInternal(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceManager::CreateCompletedOperationInternal");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateCompletedOperationInternal", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result), ::il2cpp_utils::ExtractType(success), ::il2cpp_utils::ExtractType(errorMsg), ::il2cpp_utils::ExtractType(releaseDependenciesOnFailure)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get()}));
@@ -805,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::get_InternalIdTransformFunc
 // Il2CppName: get_InternalIdTransformFunc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_InternalIdTransformFunc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_InternalIdTransformFunc)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -813,7 +814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::set_InternalIdTransformFunc
 // Il2CppName: set_InternalIdTransformFunc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&UnityEngine::ResourceManagement::ResourceManager::set_InternalIdTransformFunc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*)>(&UnityEngine::ResourceManagement::ResourceManager::set_InternalIdTransformFunc)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -892,7 +893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::TransformInternalId
 // Il2CppName: TransformInternalId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceManager::TransformInternalId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceManager::TransformInternalId)> {
   static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "TransformInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});

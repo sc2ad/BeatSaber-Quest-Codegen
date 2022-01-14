@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -48,9 +49,9 @@ namespace System {
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Name;
+    ::StringW m_Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Reflection.Assembly m_Requesting
     // Size: 0x8
     // Offset: 0x18
@@ -59,20 +60,20 @@ namespace System {
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
     public:
     // Get instance field reference: private System.String m_Name
-    ::Il2CppString*& dyn_m_Name();
+    ::StringW& dyn_m_Name();
     // Get instance field reference: private System.Reflection.Assembly m_Requesting
     System::Reflection::Assembly*& dyn_m_Requesting();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1618D50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResolveEventArgs* New_ctor(::Il2CppString* name) {
+    static ResolveEventArgs* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ResolveEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveEventArgs*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Reflection.Assembly requestingAssembly)
     // Offset: 0x1618DCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResolveEventArgs* New_ctor(::Il2CppString* name, System::Reflection::Assembly* requestingAssembly) {
+    static ResolveEventArgs* New_ctor(::StringW name, System::Reflection::Assembly* requestingAssembly) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ResolveEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResolveEventArgs*, creationType>(name, requestingAssembly)));
     }

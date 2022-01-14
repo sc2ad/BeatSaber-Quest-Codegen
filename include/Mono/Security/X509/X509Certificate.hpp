@@ -14,6 +14,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -101,15 +102,15 @@ namespace Mono::Security::X509 {
     // private System.String m_issuername
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* m_issuername;
+    ::StringW m_issuername;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String m_keyalgo
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* m_keyalgo;
+    ::StringW m_keyalgo;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] m_keyalgoparams
     // Size: 0x8
     // Offset: 0x48
@@ -125,9 +126,9 @@ namespace Mono::Security::X509 {
     // private System.String m_subject
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* m_subject;
+    ::StringW m_subject;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] m_publickey
     // Size: 0x8
     // Offset: 0x60
@@ -143,9 +144,9 @@ namespace Mono::Security::X509 {
     // private System.String m_signaturealgo
     // Size: 0x8
     // Offset: 0x70
-    ::Il2CppString* m_signaturealgo;
+    ::StringW m_signaturealgo;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Byte[] m_signaturealgoparams
     // Size: 0x8
     // Offset: 0x78
@@ -208,9 +209,9 @@ namespace Mono::Security::X509 {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get static field: static private System.String encoding_error
-    static ::Il2CppString* _get_encoding_error();
+    static ::StringW _get_encoding_error();
     // Set static field: static private System.String encoding_error
-    static void _set_encoding_error(::Il2CppString* value);
+    static void _set_encoding_error(::StringW value);
     // Get instance field reference: private Mono.Security.ASN1 decoder
     Mono::Security::ASN1*& dyn_decoder();
     // Get instance field reference: private System.Byte[] m_encodedcert
@@ -222,21 +223,21 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private Mono.Security.ASN1 issuer
     Mono::Security::ASN1*& dyn_issuer();
     // Get instance field reference: private System.String m_issuername
-    ::Il2CppString*& dyn_m_issuername();
+    ::StringW& dyn_m_issuername();
     // Get instance field reference: private System.String m_keyalgo
-    ::Il2CppString*& dyn_m_keyalgo();
+    ::StringW& dyn_m_keyalgo();
     // Get instance field reference: private System.Byte[] m_keyalgoparams
     ::ArrayW<uint8_t>& dyn_m_keyalgoparams();
     // Get instance field reference: private Mono.Security.ASN1 subject
     Mono::Security::ASN1*& dyn_subject();
     // Get instance field reference: private System.String m_subject
-    ::Il2CppString*& dyn_m_subject();
+    ::StringW& dyn_m_subject();
     // Get instance field reference: private System.Byte[] m_publickey
     ::ArrayW<uint8_t>& dyn_m_publickey();
     // Get instance field reference: private System.Byte[] signature
     ::ArrayW<uint8_t>& dyn_signature();
     // Get instance field reference: private System.String m_signaturealgo
-    ::Il2CppString*& dyn_m_signaturealgo();
+    ::StringW& dyn_m_signaturealgo();
     // Get instance field reference: private System.Byte[] m_signaturealgoparams
     ::ArrayW<uint8_t>& dyn_m_signaturealgoparams();
     // Get instance field reference: private System.Byte[] certhash
@@ -269,10 +270,10 @@ namespace Mono::Security::X509 {
     ::ArrayW<uint8_t> get_Hash();
     // public System.String get_IssuerName()
     // Offset: 0x268704C
-    ::Il2CppString* get_IssuerName();
+    ::StringW get_IssuerName();
     // public System.String get_KeyAlgorithm()
     // Offset: 0x2687054
-    ::Il2CppString* get_KeyAlgorithm();
+    ::StringW get_KeyAlgorithm();
     // public System.Byte[] get_KeyAlgorithmParameters()
     // Offset: 0x268705C
     ::ArrayW<uint8_t> get_KeyAlgorithmParameters();
@@ -299,10 +300,10 @@ namespace Mono::Security::X509 {
     ::ArrayW<uint8_t> get_Signature();
     // public System.String get_SignatureAlgorithm()
     // Offset: 0x26877D4
-    ::Il2CppString* get_SignatureAlgorithm();
+    ::StringW get_SignatureAlgorithm();
     // public System.String get_SubjectName()
     // Offset: 0x26877DC
-    ::Il2CppString* get_SubjectName();
+    ::StringW get_SubjectName();
     // public System.DateTime get_ValidFrom()
     // Offset: 0x26877E4
     System::DateTime get_ValidFrom();
@@ -348,7 +349,7 @@ namespace Mono::Security::X509 {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
     // Offset: 0x26869A8
-    static ::ArrayW<uint8_t> PEM(::Il2CppString* type, ::ArrayW<uint8_t> data);
+    static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
   }; // Mono.Security.X509.X509Certificate
   #pragma pack(pop)
   static check_size<sizeof(X509Certificate), 184 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509CertificateSizeCheck;
@@ -391,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::get_IssuerName
 // Il2CppName: get_IssuerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_IssuerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_IssuerName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Certificate*), "get_IssuerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -399,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::get_KeyAlgorithm
 // Il2CppName: get_KeyAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_KeyAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_KeyAlgorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Certificate*), "get_KeyAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -473,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::get_SignatureAlgorithm
 // Il2CppName: get_SignatureAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_SignatureAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_SignatureAlgorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Certificate*), "get_SignatureAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -481,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::get_SubjectName
 // Il2CppName: get_SubjectName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_SubjectName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::X509::X509Certificate::*)()>(&Mono::Security::X509::X509Certificate::get_SubjectName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Certificate*), "get_SubjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -596,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::PEM
 // Il2CppName: PEM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Certificate::PEM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Certificate::PEM)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

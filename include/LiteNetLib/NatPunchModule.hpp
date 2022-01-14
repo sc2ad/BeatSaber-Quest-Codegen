@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -94,12 +95,12 @@ namespace LiteNetLib {
       // public System.String Token
       // Size: 0x8
       // Offset: 0x10
-      ::Il2CppString* Token;
+      ::StringW Token;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       public:
       // Creating value type constructor for type: RequestEventData
-      constexpr RequestEventData(System::Net::IPEndPoint* LocalEndPoint_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::Il2CppString* Token_ = {}) noexcept : LocalEndPoint{LocalEndPoint_}, RemoteEndPoint{RemoteEndPoint_}, Token{Token_} {}
+      constexpr RequestEventData(System::Net::IPEndPoint* LocalEndPoint_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::StringW Token_ = {}) noexcept : LocalEndPoint{LocalEndPoint_}, RemoteEndPoint{RemoteEndPoint_}, Token{Token_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -109,10 +110,10 @@ namespace LiteNetLib {
       // Get instance field reference: public System.Net.IPEndPoint RemoteEndPoint
       System::Net::IPEndPoint*& dyn_RemoteEndPoint();
       // Get instance field reference: public System.String Token
-      ::Il2CppString*& dyn_Token();
+      ::StringW& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.RequestEventData
     #pragma pack(pop)
-    static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
+    static check_size<sizeof(NatPunchModule::RequestEventData), 16 + sizeof(::StringW)> __LiteNetLib_NatPunchModule_RequestEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::RequestEventData) == 0x18);
     // Size: 0x18
     #pragma pack(push, 1)
@@ -139,12 +140,12 @@ namespace LiteNetLib {
       // public System.String Token
       // Size: 0x8
       // Offset: 0x10
-      ::Il2CppString* Token;
+      ::StringW Token;
       // Field size check
-      static_assert(sizeof(::Il2CppString*) == 0x8);
+      static_assert(sizeof(::StringW) == 0x8);
       public:
       // Creating value type constructor for type: SuccessEventData
-      constexpr SuccessEventData(System::Net::IPEndPoint* TargetEndPoint_ = {}, LiteNetLib::NatAddressType Type_ = {}, ::Il2CppString* Token_ = {}) noexcept : TargetEndPoint{TargetEndPoint_}, Type{Type_}, Token{Token_} {}
+      constexpr SuccessEventData(System::Net::IPEndPoint* TargetEndPoint_ = {}, LiteNetLib::NatAddressType Type_ = {}, ::StringW Token_ = {}) noexcept : TargetEndPoint{TargetEndPoint_}, Type{Type_}, Token{Token_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -154,10 +155,10 @@ namespace LiteNetLib {
       // Get instance field reference: public LiteNetLib.NatAddressType Type
       LiteNetLib::NatAddressType& dyn_Type();
       // Get instance field reference: public System.String Token
-      ::Il2CppString*& dyn_Token();
+      ::StringW& dyn_Token();
     }; // LiteNetLib.NatPunchModule/LiteNetLib.SuccessEventData
     #pragma pack(pop)
-    static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
+    static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::StringW)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::SuccessEventData) == 0x18);
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -255,16 +256,16 @@ namespace LiteNetLib {
     }
     // public System.Void NatIntroduce(System.Net.IPEndPoint hostInternal, System.Net.IPEndPoint hostExternal, System.Net.IPEndPoint clientInternal, System.Net.IPEndPoint clientExternal, System.String additionalInfo)
     // Offset: 0x1DC56F8
-    void NatIntroduce(System::Net::IPEndPoint* hostInternal, System::Net::IPEndPoint* hostExternal, System::Net::IPEndPoint* clientInternal, System::Net::IPEndPoint* clientExternal, ::Il2CppString* additionalInfo);
+    void NatIntroduce(System::Net::IPEndPoint* hostInternal, System::Net::IPEndPoint* hostExternal, System::Net::IPEndPoint* clientInternal, System::Net::IPEndPoint* clientExternal, ::StringW additionalInfo);
     // public System.Void PollEvents()
     // Offset: 0x1DC57C8
     void PollEvents();
     // public System.Void SendNatIntroduceRequest(System.String host, System.Int32 port, System.String additionalInfo)
     // Offset: 0x1DC5B10
-    void SendNatIntroduceRequest(::Il2CppString* host, int port, ::Il2CppString* additionalInfo);
+    void SendNatIntroduceRequest(::StringW host, int port, ::StringW additionalInfo);
     // public System.Void SendNatIntroduceRequest(System.Net.IPEndPoint masterServerEndPoint, System.String additionalInfo)
     // Offset: 0x1DC5C48
-    void SendNatIntroduceRequest(System::Net::IPEndPoint* masterServerEndPoint, ::Il2CppString* additionalInfo);
+    void SendNatIntroduceRequest(System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
     // private System.Void OnNatIntroductionRequest(LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceRequestPacket req, System.Net.IPEndPoint senderEndPoint)
     // Offset: 0x1DC5F2C
     void OnNatIntroductionRequest(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket* req, System::Net::IPEndPoint* senderEndPoint);
@@ -313,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduce
 // Il2CppName: NatIntroduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatIntroduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::StringW)>(&LiteNetLib::NatPunchModule::NatIntroduce)> {
   static const MethodInfo* get() {
     static auto* hostInternal = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* hostExternal = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -334,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::SendNatIntroduceRequest
 // Il2CppName: SendNatIntroduceRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(::Il2CppString*, int, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(::StringW, int, ::StringW)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
   static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -345,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::SendNatIntroduceRequest
 // Il2CppName: SendNatIntroduceRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, ::StringW)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
   static const MethodInfo* get() {
     static auto* masterServerEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* additionalInfo = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

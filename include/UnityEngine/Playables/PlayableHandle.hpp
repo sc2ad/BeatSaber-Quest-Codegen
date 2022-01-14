@@ -102,7 +102,7 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class T>
     T GetObject() {
-      static_assert(std::is_base_of_v<UnityEngine::Playables::IPlayableBehaviour, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::Playables::IPlayableBehaviour>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableHandle::GetObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "GetObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

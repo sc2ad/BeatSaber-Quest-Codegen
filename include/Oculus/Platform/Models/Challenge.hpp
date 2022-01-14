@@ -17,6 +17,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -63,9 +64,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Description
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Description;
+    ::StringW Description;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.DateTime EndDate
     // Size: 0x8
     // Offset: 0x20
@@ -119,9 +120,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Title
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* Title;
+    ::StringW Title;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.ChallengeVisibility Visibility
     // Size: 0x4
     // Offset: 0x68
@@ -132,7 +133,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.ChallengeCreationType CreationType
     Oculus::Platform::ChallengeCreationType& dyn_CreationType();
     // Get instance field reference: public readonly System.String Description
-    ::Il2CppString*& dyn_Description();
+    ::StringW& dyn_Description();
     // Get instance field reference: public readonly System.DateTime EndDate
     System::DateTime& dyn_EndDate();
     // Get instance field reference: public readonly System.UInt64 ID
@@ -150,7 +151,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.DateTime StartDate
     System::DateTime& dyn_StartDate();
     // Get instance field reference: public readonly System.String Title
-    ::Il2CppString*& dyn_Title();
+    ::StringW& dyn_Title();
     // Get instance field reference: public readonly Oculus.Platform.ChallengeVisibility Visibility
     Oculus::Platform::ChallengeVisibility& dyn_Visibility();
     // public System.Void .ctor(System.IntPtr o)

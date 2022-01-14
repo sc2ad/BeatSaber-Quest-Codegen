@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,9 +63,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kDepthTextureEnabledKeyword
     static constexpr const char* kDepthTextureEnabledKeyword = "DEPTH_TEXTURE_ENABLED";
     // Get static field: static private System.String kDepthTextureEnabledKeyword
-    static ::Il2CppString* _get_kDepthTextureEnabledKeyword();
+    static ::StringW _get_kDepthTextureEnabledKeyword();
     // Set static field: static private System.String kDepthTextureEnabledKeyword
-    static void _set_kDepthTextureEnabledKeyword(::Il2CppString* value);
+    static void _set_kDepthTextureEnabledKeyword(::StringW value);
     // Get instance field reference: private BoolSO _depthTextureEnabled
     GlobalNamespace::BoolSO*& dyn__depthTextureEnabled();
     // protected System.Void Awake()
@@ -75,7 +76,7 @@ namespace GlobalNamespace {
     void OnPreRender();
     // private System.Void SetShaderKeyword(System.String keyword, System.Boolean value)
     // Offset: 0x2633168
-    void SetShaderKeyword(::Il2CppString* keyword, bool value);
+    void SetShaderKeyword(::StringW keyword, bool value);
     // public System.Void .ctor()
     // Offset: 0x263317C
     // Implemented from: UnityEngine.MonoBehaviour
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::SetShaderKeyword
 // Il2CppName: SetShaderKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)(::Il2CppString*, bool)>(&GlobalNamespace::VisualEffectsController::SetShaderKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)(::StringW, bool)>(&GlobalNamespace::VisualEffectsController::SetShaderKeyword)> {
   static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

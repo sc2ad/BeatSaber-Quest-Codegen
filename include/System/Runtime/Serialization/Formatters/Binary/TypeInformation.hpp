@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -38,15 +39,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* fullTypeName;
+    ::StringW fullTypeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String assemblyString
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* assemblyString;
+    ::StringW assemblyString;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean hasTypeForwardedFrom
     // Size: 0x1
     // Offset: 0x20
@@ -55,24 +56,24 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.String fullTypeName
-    ::Il2CppString*& dyn_fullTypeName();
+    ::StringW& dyn_fullTypeName();
     // Get instance field reference: private System.String assemblyString
-    ::Il2CppString*& dyn_assemblyString();
+    ::StringW& dyn_assemblyString();
     // Get instance field reference: private System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // System.String get_FullTypeName()
     // Offset: 0x1869E5C
-    ::Il2CppString* get_FullTypeName();
+    ::StringW get_FullTypeName();
     // System.String get_AssemblyString()
     // Offset: 0x1869E64
-    ::Il2CppString* get_AssemblyString();
+    ::StringW get_AssemblyString();
     // System.Boolean get_HasTypeForwardedFrom()
     // Offset: 0x1869E6C
     bool get_HasTypeForwardedFrom();
     // System.Void .ctor(System.String fullTypeName, System.String assemblyString, System.Boolean hasTypeForwardedFrom)
     // Offset: 0x185DB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeInformation* New_ctor(::Il2CppString* fullTypeName, ::Il2CppString* assemblyString, bool hasTypeForwardedFrom) {
+    static TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInformation*, creationType>(fullTypeName, assemblyString, hasTypeForwardedFrom)));
     }
@@ -85,7 +86,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName
 // Il2CppName: get_FullTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(&System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(&System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::TypeInformation*), "get_FullTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_AssemblyString
 // Il2CppName: get_AssemblyString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(&System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_AssemblyString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Runtime::Serialization::Formatters::Binary::TypeInformation::*)()>(&System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_AssemblyString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::TypeInformation*), "get_AssemblyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

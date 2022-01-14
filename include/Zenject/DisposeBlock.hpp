@@ -167,7 +167,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     template<class T>
     void AddRange(System::Collections::Generic::IList_1<T>* disposables) {
-      static_assert(std::is_base_of_v<System::IDisposable, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::IDisposable>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposeBlock::AddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposables)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceLocations
@@ -53,9 +54,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // private System.String m_Hash
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* m_Hash;
+    ::StringW m_Hash;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF281DC
     // private System.UInt32 m_Crc
     // Size: 0x4
@@ -98,9 +99,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // private System.String m_BundleName
     // Size: 0x8
     // Offset: 0x30
-    ::Il2CppString* m_BundleName;
+    ::StringW m_BundleName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Int64 m_BundleSize
     // Size: 0x8
     // Offset: 0x38
@@ -125,7 +126,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);
     }
     // Get instance field reference: private System.String m_Hash
-    ::Il2CppString*& dyn_m_Hash();
+    ::StringW& dyn_m_Hash();
     // Get instance field reference: private System.UInt32 m_Crc
     uint& dyn_m_Crc();
     // Get instance field reference: private System.Int32 m_Timeout
@@ -137,7 +138,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: private System.Int32 m_RetryCount
     int& dyn_m_RetryCount();
     // Get instance field reference: private System.String m_BundleName
-    ::Il2CppString*& dyn_m_BundleName();
+    ::StringW& dyn_m_BundleName();
     // Get instance field reference: private System.Int64 m_BundleSize
     int64_t& dyn_m_BundleSize();
     // Get instance field reference: private System.Boolean m_UseCrcForCachedBundles
@@ -146,10 +147,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool& dyn_m_ClearOtherCachedVersionsWhenLoaded();
     // public System.String get_Hash()
     // Offset: 0x1BEAD9C
-    ::Il2CppString* get_Hash();
+    ::StringW get_Hash();
     // public System.Void set_Hash(System.String value)
     // Offset: 0x1BEADA4
-    void set_Hash(::Il2CppString* value);
+    void set_Hash(::StringW value);
     // public System.UInt32 get_Crc()
     // Offset: 0x1BEADAC
     uint get_Crc();
@@ -182,10 +183,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     void set_RetryCount(int value);
     // public System.String get_BundleName()
     // Offset: 0x1BEAE00
-    ::Il2CppString* get_BundleName();
+    ::StringW get_BundleName();
     // public System.Void set_BundleName(System.String value)
     // Offset: 0x1BEAE08
-    void set_BundleName(::Il2CppString* value);
+    void set_BundleName(::StringW value);
     // public System.Int64 get_BundleSize()
     // Offset: 0x1BEAE10
     int64_t get_BundleSize();
@@ -225,7 +226,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash
 // Il2CppName: get_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -233,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Hash
 // Il2CppName: set_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::StringW)>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Hash)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*), "set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -327,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_BundleName
 // Il2CppName: get_BundleName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_BundleName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_BundleName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*), "get_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -335,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_BundleName
 // Il2CppName: set_BundleName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_BundleName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::StringW)>(&UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_BundleName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*), "set_BundleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

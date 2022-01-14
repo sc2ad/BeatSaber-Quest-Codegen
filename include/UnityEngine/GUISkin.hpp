@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -218,9 +219,9 @@ namespace UnityEngine {
     // private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
     // Size: 0x8
     // Offset: 0xE0
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* m_Styles;
+    System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>* m_Styles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -287,7 +288,7 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.GUISettings m_Settings
     UnityEngine::GUISettings*& dyn_m_Settings();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*& dyn_m_Styles();
+    System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*& dyn_m_Styles();
     // public UnityEngine.Font get_font()
     // Offset: 0x1CE4EF8
     UnityEngine::Font* get_font();
@@ -452,10 +453,10 @@ namespace UnityEngine {
     void BuildStyleCache();
     // public UnityEngine.GUIStyle GetStyle(System.String styleName)
     // Offset: 0x1CE61A8
-    UnityEngine::GUIStyle* GetStyle(::Il2CppString* styleName);
+    UnityEngine::GUIStyle* GetStyle(::StringW styleName);
     // public UnityEngine.GUIStyle FindStyle(System.String styleName)
     // Offset: 0x1CF2D98
-    UnityEngine::GUIStyle* FindStyle(::Il2CppString* styleName);
+    UnityEngine::GUIStyle* FindStyle(::StringW styleName);
     // System.Void MakeCurrent()
     // Offset: 0x1CE12F4
     void MakeCurrent();
@@ -475,7 +476,7 @@ namespace UnityEngine {
     }
   }; // UnityEngine.GUISkin
   #pragma pack(pop)
-  static check_size<sizeof(GUISkin), 224 + sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
+  static check_size<sizeof(GUISkin), 224 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
   static_assert(sizeof(GUISkin) == 0xE8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -938,7 +939,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::GetStyle
 // Il2CppName: GetStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::GetStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::GetStyle)> {
   static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});
@@ -947,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::FindStyle
 // Il2CppName: FindStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::FindStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::FindStyle)> {
   static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "FindStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});

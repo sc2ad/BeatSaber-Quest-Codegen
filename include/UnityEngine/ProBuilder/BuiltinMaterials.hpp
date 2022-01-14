@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -45,39 +46,39 @@ namespace UnityEngine::ProBuilder {
     // static field const value: static public System.String faceShader
     static constexpr const char* faceShader = "Hidden/ProBuilder/FaceHighlight";
     // Get static field: static public System.String faceShader
-    static ::Il2CppString* _get_faceShader();
+    static ::StringW _get_faceShader();
     // Set static field: static public System.String faceShader
-    static void _set_faceShader(::Il2CppString* value);
+    static void _set_faceShader(::StringW value);
     // static field const value: static public System.String lineShader
     static constexpr const char* lineShader = "Hidden/ProBuilder/LineBillboard";
     // Get static field: static public System.String lineShader
-    static ::Il2CppString* _get_lineShader();
+    static ::StringW _get_lineShader();
     // Set static field: static public System.String lineShader
-    static void _set_lineShader(::Il2CppString* value);
+    static void _set_lineShader(::StringW value);
     // static field const value: static public System.String lineShaderMetal
     static constexpr const char* lineShaderMetal = "Hidden/ProBuilder/LineBillboardMetal";
     // Get static field: static public System.String lineShaderMetal
-    static ::Il2CppString* _get_lineShaderMetal();
+    static ::StringW _get_lineShaderMetal();
     // Set static field: static public System.String lineShaderMetal
-    static void _set_lineShaderMetal(::Il2CppString* value);
+    static void _set_lineShaderMetal(::StringW value);
     // static field const value: static public System.String pointShader
     static constexpr const char* pointShader = "Hidden/ProBuilder/PointBillboard";
     // Get static field: static public System.String pointShader
-    static ::Il2CppString* _get_pointShader();
+    static ::StringW _get_pointShader();
     // Set static field: static public System.String pointShader
-    static void _set_pointShader(::Il2CppString* value);
+    static void _set_pointShader(::StringW value);
     // static field const value: static public System.String wireShader
     static constexpr const char* wireShader = "Hidden/ProBuilder/FaceHighlight";
     // Get static field: static public System.String wireShader
-    static ::Il2CppString* _get_wireShader();
+    static ::StringW _get_wireShader();
     // Set static field: static public System.String wireShader
-    static void _set_wireShader(::Il2CppString* value);
+    static void _set_wireShader(::StringW value);
     // static field const value: static public System.String dotShader
     static constexpr const char* dotShader = "Hidden/ProBuilder/VertexShader";
     // Get static field: static public System.String dotShader
-    static ::Il2CppString* _get_dotShader();
+    static ::StringW _get_dotShader();
     // Set static field: static public System.String dotShader
-    static void _set_dotShader(::Il2CppString* value);
+    static void _set_dotShader(::StringW value);
     // Get static field: static readonly UnityEngine.Color previewColor
     static UnityEngine::Color _get_previewColor();
     // Set static field: static readonly UnityEngine.Color previewColor
@@ -119,29 +120,29 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private UnityEngine.Material s_ShapePreviewMaterial
     static void _set_s_ShapePreviewMaterial(UnityEngine::Material* value);
     // Get static field: static private System.String k_EdgePickerMaterial
-    static ::Il2CppString* _get_k_EdgePickerMaterial();
+    static ::StringW _get_k_EdgePickerMaterial();
     // Set static field: static private System.String k_EdgePickerMaterial
-    static void _set_k_EdgePickerMaterial(::Il2CppString* value);
+    static void _set_k_EdgePickerMaterial(::StringW value);
     // Get static field: static private System.String k_FacePickerMaterial
-    static ::Il2CppString* _get_k_FacePickerMaterial();
+    static ::StringW _get_k_FacePickerMaterial();
     // Set static field: static private System.String k_FacePickerMaterial
-    static void _set_k_FacePickerMaterial(::Il2CppString* value);
+    static void _set_k_FacePickerMaterial(::StringW value);
     // Get static field: static private System.String k_VertexPickerMaterial
-    static ::Il2CppString* _get_k_VertexPickerMaterial();
+    static ::StringW _get_k_VertexPickerMaterial();
     // Set static field: static private System.String k_VertexPickerMaterial
-    static void _set_k_VertexPickerMaterial(::Il2CppString* value);
+    static void _set_k_VertexPickerMaterial(::StringW value);
     // Get static field: static private System.String k_EdgePickerShader
-    static ::Il2CppString* _get_k_EdgePickerShader();
+    static ::StringW _get_k_EdgePickerShader();
     // Set static field: static private System.String k_EdgePickerShader
-    static void _set_k_EdgePickerShader(::Il2CppString* value);
+    static void _set_k_EdgePickerShader(::StringW value);
     // Get static field: static private System.String k_FacePickerShader
-    static ::Il2CppString* _get_k_FacePickerShader();
+    static ::StringW _get_k_FacePickerShader();
     // Set static field: static private System.String k_FacePickerShader
-    static void _set_k_FacePickerShader(::Il2CppString* value);
+    static void _set_k_FacePickerShader(::StringW value);
     // Get static field: static private System.String k_VertexPickerShader
-    static ::Il2CppString* _get_k_VertexPickerShader();
+    static ::StringW _get_k_VertexPickerShader();
     // Set static field: static private System.String k_VertexPickerShader
-    static void _set_k_VertexPickerShader(::Il2CppString* value);
+    static void _set_k_VertexPickerShader(::StringW value);
     // static public System.Boolean get_geometryShadersSupported()
     // Offset: 0x21E24DC
     static bool get_geometryShadersSupported();

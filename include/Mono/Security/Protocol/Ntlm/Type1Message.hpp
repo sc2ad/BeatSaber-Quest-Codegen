@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
@@ -41,26 +42,26 @@ namespace Mono::Security::Protocol::Ntlm {
     // private System.String _host
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* host;
+    ::StringW host;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _domain
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* domain;
+    ::StringW domain;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String _host
-    ::Il2CppString*& dyn__host();
+    ::StringW& dyn__host();
     // Get instance field reference: private System.String _domain
-    ::Il2CppString*& dyn__domain();
+    ::StringW& dyn__domain();
     // public System.Void set_Domain(System.String value)
     // Offset: 0x1F98738
-    void set_Domain(::Il2CppString* value);
+    void set_Domain(::StringW value);
     // public System.Void set_Host(System.String value)
     // Offset: 0x1F987C0
-    void set_Host(::Il2CppString* value);
+    void set_Host(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x1F986A4
     // Implemented from: System.Object
@@ -82,14 +83,14 @@ namespace Mono::Security::Protocol::Ntlm {
     ::ArrayW<uint8_t> GetBytes();
   }; // Mono.Security.Protocol.Ntlm.Type1Message
   #pragma pack(pop)
-  static check_size<sizeof(Type1Message), 32 + sizeof(::Il2CppString*)> __Mono_Security_Protocol_Ntlm_Type1MessageSizeCheck;
+  static check_size<sizeof(Type1Message), 32 + sizeof(::StringW)> __Mono_Security_Protocol_Ntlm_Type1MessageSizeCheck;
   static_assert(sizeof(Type1Message) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type1Message::set_Domain
 // Il2CppName: set_Domain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type1Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type1Message::set_Domain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type1Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type1Message::set_Domain)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type1Message*), "set_Domain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type1Message::set_Host
 // Il2CppName: set_Host
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type1Message::*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::Type1Message::set_Host)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::Type1Message::*)(::StringW)>(&Mono::Security::Protocol::Ntlm::Type1Message::set_Host)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::Type1Message*), "set_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

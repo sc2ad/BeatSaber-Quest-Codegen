@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -140,9 +141,9 @@ namespace System::Net {
     // private System.String realm
     // Size: 0x8
     // Offset: 0x40
-    ::Il2CppString* realm;
+    ::StringW realm;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Boolean ignore_write_exceptions
     // Size: 0x1
     // Offset: 0x48
@@ -223,7 +224,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.AuthenticationSchemeSelector auth_selector
     System::Net::AuthenticationSchemeSelector*& dyn_auth_selector();
     // Get instance field reference: private System.String realm
-    ::Il2CppString*& dyn_realm();
+    ::StringW& dyn_realm();
     // Get instance field reference: private System.Boolean ignore_write_exceptions
     bool& dyn_ignore_write_exceptions();
     // Get instance field reference: private System.Boolean listening
@@ -261,7 +262,7 @@ namespace System::Net {
     System::Net::HttpListenerPrefixCollection* get_Prefixes();
     // public System.String get_Realm()
     // Offset: 0x18A98F0
-    ::Il2CppString* get_Realm();
+    ::StringW get_Realm();
     // System.Security.Cryptography.X509Certificates.X509Certificate LoadCertificateAndKey(System.Net.IPAddress addr, System.Int32 port)
     // Offset: 0x18A930C
     System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(System::Net::IPAddress* addr, int port);
@@ -374,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpListener::get_Realm
 // Il2CppName: get_Realm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_Realm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_Realm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

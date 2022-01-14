@@ -20,6 +20,7 @@
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -90,15 +91,15 @@ namespace GlobalNamespace {
     // public System.String userId
     // Size: 0x8
     // Offset: 0x58
-    ::Il2CppString* userId;
+    ::StringW userId;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.String userName
     // Size: 0x8
     // Offset: 0x60
-    ::Il2CppString* userName;
+    ::StringW userName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Boolean remoteUserIsConnectionOwner
     // Size: 0x1
     // Offset: 0x68
@@ -117,7 +118,7 @@ namespace GlobalNamespace {
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2;
     public:
     // Creating value type constructor for type: $ConnectToEndPoint$d__84
-    constexpr $ConnectToEndPoint$d__84(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, bool isDedicatedServer_ = {}, GlobalNamespace::MasterServerConnectionManager* $$4__this_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, ::ArrayW<uint8_t> preMasterSecret_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> myRandom_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> remoteRandom_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, bool remoteUserIsConnectionOwner_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, isDedicatedServer{isDedicatedServer_}, $$4__this{$$4__this_}, remoteEndPoint{remoteEndPoint_}, preMasterSecret{preMasterSecret_}, myRandom{myRandom_}, remoteRandom{remoteRandom_}, userId{userId_}, userName{userName_}, remoteUserIsConnectionOwner{remoteUserIsConnectionOwner_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    constexpr $ConnectToEndPoint$d__84(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, bool isDedicatedServer_ = {}, GlobalNamespace::MasterServerConnectionManager* $$4__this_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, ::ArrayW<uint8_t> preMasterSecret_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> myRandom_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::ArrayW<uint8_t> remoteRandom_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr)), ::StringW userId_ = {}, ::StringW userName_ = {}, bool remoteUserIsConnectionOwner_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, isDedicatedServer{isDedicatedServer_}, $$4__this{$$4__this_}, remoteEndPoint{remoteEndPoint_}, preMasterSecret{preMasterSecret_}, myRandom{myRandom_}, remoteRandom{remoteRandom_}, userId{userId_}, userName{userName_}, remoteUserIsConnectionOwner{remoteUserIsConnectionOwner_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -143,9 +144,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Byte[] remoteRandom
     ::ArrayW<uint8_t>& dyn_remoteRandom();
     // Get instance field reference: public System.String userId
-    ::Il2CppString*& dyn_userId();
+    ::StringW& dyn_userId();
     // Get instance field reference: public System.String userName
-    ::Il2CppString*& dyn_userName();
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.Boolean remoteUserIsConnectionOwner
     bool& dyn_remoteUserIsConnectionOwner();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1

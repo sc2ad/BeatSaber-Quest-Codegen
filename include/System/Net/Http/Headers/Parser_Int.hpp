@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Net::Http::Headers::Parser::Int);
@@ -21,7 +22,7 @@ namespace System::Net::Http::Headers {
     public:
     // static public System.Boolean TryParse(System.String input, out System.Int32 result)
     // Offset: 0x17C479C
-    static bool TryParse(::Il2CppString* input, ByRef<int> result);
+    static bool TryParse(::StringW input, ByRef<int> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Int
   #pragma pack(pop)
 }
@@ -29,7 +30,7 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::Int::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<int>)>(&System::Net::Http::Headers::Parser::Int::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<int>)>(&System::Net::Http::Headers::Parser::Int::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

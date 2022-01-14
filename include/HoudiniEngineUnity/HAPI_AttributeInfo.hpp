@@ -13,6 +13,7 @@
 #include "HoudiniEngineUnity/HAPI_StorageType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_AttributeTypeInfo
 #include "HoudiniEngineUnity/HAPI_AttributeTypeInfo.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -106,7 +107,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo& dyn_typeInfo();
     // public System.Void .ctor(System.String ignored)
     // Offset: 0x1462CA8
-    HAPI_AttributeInfo(::Il2CppString* ignored);
+    HAPI_AttributeInfo(::StringW ignored);
   }; // HoudiniEngineUnity.HAPI_AttributeInfo
   #pragma pack(pop)
   static check_size<sizeof(HAPI_AttributeInfo), 32 + sizeof(HoudiniEngineUnity::HAPI_AttributeTypeInfo)> __HoudiniEngineUnity_HAPI_AttributeInfoSizeCheck;

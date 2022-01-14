@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities.Date
 namespace Org::BouncyCastle::Utilities::Date {
@@ -61,7 +62,7 @@ namespace Org::BouncyCastle::Utilities::Date {
     // Offset: 0x2229540
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // Org.BouncyCastle.Utilities.Date.DateTimeObject
   #pragma pack(pop)
   static check_size<sizeof(DateTimeObject), 16 + sizeof(System::DateTime)> __Org_BouncyCastle_Utilities_Date_DateTimeObjectSizeCheck;
@@ -75,7 +76,7 @@ namespace Org::BouncyCastle::Utilities::Date {
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::Date::DateTimeObject::*)()>(&Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Utilities::Date::DateTimeObject::*)()>(&Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Date::DateTimeObject*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

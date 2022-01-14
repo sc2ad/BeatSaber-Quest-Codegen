@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -56,9 +57,9 @@ namespace HoudiniEngineUnity {
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* layerName;
+    ::StringW layerName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public HoudiniEngineUnity.HEU_PartData _part
     // Size: 0x8
     // Offset: 0x18
@@ -131,7 +132,7 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);
     }
     // Get instance field reference: public System.String _layerName
-    ::Il2CppString*& dyn__layerName();
+    ::StringW& dyn__layerName();
     // Get instance field reference: public HoudiniEngineUnity.HEU_PartData _part
     HoudiniEngineUnity::HEU_PartData*& dyn__part();
     // Get instance field reference: public System.Single _strength

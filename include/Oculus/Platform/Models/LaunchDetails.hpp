@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -49,21 +50,21 @@ namespace Oculus::Platform::Models {
     // public readonly System.String DeeplinkMessage
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* DeeplinkMessage;
+    ::StringW DeeplinkMessage;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String DestinationApiName
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* DestinationApiName;
+    ::StringW DestinationApiName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly System.String LaunchSource
     // Size: 0x8
     // Offset: 0x20
-    ::Il2CppString* LaunchSource;
+    ::StringW LaunchSource;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.LaunchType LaunchType
     // Size: 0x4
     // Offset: 0x28
@@ -81,9 +82,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.String TrackingID
     // Size: 0x8
     // Offset: 0x38
-    ::Il2CppString* TrackingID;
+    ::StringW TrackingID;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // public readonly Oculus.Platform.Models.UserList UsersOptional
     // Size: 0x8
     // Offset: 0x40
@@ -99,17 +100,17 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DeeplinkMessage
-    ::Il2CppString*& dyn_DeeplinkMessage();
+    ::StringW& dyn_DeeplinkMessage();
     // Get instance field reference: public readonly System.String DestinationApiName
-    ::Il2CppString*& dyn_DestinationApiName();
+    ::StringW& dyn_DestinationApiName();
     // Get instance field reference: public readonly System.String LaunchSource
-    ::Il2CppString*& dyn_LaunchSource();
+    ::StringW& dyn_LaunchSource();
     // Get instance field reference: public readonly Oculus.Platform.LaunchType LaunchType
     Oculus::Platform::LaunchType& dyn_LaunchType();
     // Get instance field reference: public readonly System.UInt64 RoomID
     uint64_t& dyn_RoomID();
     // Get instance field reference: public readonly System.String TrackingID
-    ::Il2CppString*& dyn_TrackingID();
+    ::StringW& dyn_TrackingID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
     Oculus::Platform::Models::UserList*& dyn_UsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users

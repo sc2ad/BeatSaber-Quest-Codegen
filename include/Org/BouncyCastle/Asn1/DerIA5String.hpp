@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -51,16 +52,16 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* str;
+    ::StringW str;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept {
+    // Creating conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept {
       return str;
     }
     // Get instance field reference: private readonly System.String str
-    ::Il2CppString*& dyn_str();
+    ::StringW& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
     // Offset: 0x18EDDE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,14 +72,14 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.String str)
     // Offset: 0x18FBEDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerIA5String* New_ctor(::Il2CppString* str) {
+    static DerIA5String* New_ctor(::StringW str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str)));
     }
     // public System.Void .ctor(System.String str, System.Boolean validate)
     // Offset: 0x18FBDF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerIA5String* New_ctor(::Il2CppString* str, bool validate) {
+    static DerIA5String* New_ctor(::StringW str, bool validate) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerIA5String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerIA5String*, creationType>(str, validate)));
     }
@@ -93,12 +94,12 @@ namespace Org::BouncyCastle::Asn1 {
     ::ArrayW<uint8_t> GetOctets();
     // static public System.Boolean IsIA5String(System.String str)
     // Offset: 0x18FBEE4
-    static bool IsIA5String(::Il2CppString* str);
+    static bool IsIA5String(::StringW str);
     // public override System.String GetString()
     // Offset: 0x18FBF50
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
     // Base method: System.String DerStringBase::GetString()
-    ::Il2CppString* GetString();
+    ::StringW GetString();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18FBF64
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -116,7 +117,7 @@ namespace Org::BouncyCastle::Asn1 {
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerIA5String
   #pragma pack(pop)
-  static check_size<sizeof(DerIA5String), 16 + sizeof(::Il2CppString*)> __Org_BouncyCastle_Asn1_DerIA5StringSizeCheck;
+  static check_size<sizeof(DerIA5String), 16 + sizeof(::StringW)> __Org_BouncyCastle_Asn1_DerIA5StringSizeCheck;
   static_assert(sizeof(DerIA5String) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::IsIA5String
 // Il2CppName: IsIA5String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerIA5String::IsIA5String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&Org::BouncyCastle::Asn1::DerIA5String::IsIA5String)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerIA5String*), "IsIA5String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerIA5String::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerIA5String::*)()>(&Org::BouncyCastle::Asn1::DerIA5String::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::Asn1::DerIA5String::*)()>(&Org::BouncyCastle::Asn1::DerIA5String::GetString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerIA5String*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

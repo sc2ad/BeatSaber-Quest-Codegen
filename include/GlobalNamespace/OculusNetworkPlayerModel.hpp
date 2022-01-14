@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -159,9 +160,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
     // Size: 0x8
     // Offset: 0xA8
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* roomDataStore;
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* roomDataStore;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _partyPlayers
     // Size: 0x8
     // Offset: 0xB0
@@ -196,81 +197,81 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kConnectionTypeKey
     static constexpr const char* kConnectionTypeKey = "connection";
     // Get static field: static private System.String kConnectionTypeKey
-    static ::Il2CppString* _get_kConnectionTypeKey();
+    static ::StringW _get_kConnectionTypeKey();
     // Set static field: static private System.String kConnectionTypeKey
-    static void _set_kConnectionTypeKey(::Il2CppString* value);
+    static void _set_kConnectionTypeKey(::StringW value);
     // static field const value: static private System.String kConnectionTypeOculus
     static constexpr const char* kConnectionTypeOculus = "oculus";
     // Get static field: static private System.String kConnectionTypeOculus
-    static ::Il2CppString* _get_kConnectionTypeOculus();
+    static ::StringW _get_kConnectionTypeOculus();
     // Set static field: static private System.String kConnectionTypeOculus
-    static void _set_kConnectionTypeOculus(::Il2CppString* value);
+    static void _set_kConnectionTypeOculus(::StringW value);
     // static field const value: static private System.String kConnectionTypeLiteNetLib
     static constexpr const char* kConnectionTypeLiteNetLib = "litenetlib";
     // Get static field: static private System.String kConnectionTypeLiteNetLib
-    static ::Il2CppString* _get_kConnectionTypeLiteNetLib();
+    static ::StringW _get_kConnectionTypeLiteNetLib();
     // Set static field: static private System.String kConnectionTypeLiteNetLib
-    static void _set_kConnectionTypeLiteNetLib(::Il2CppString* value);
+    static void _set_kConnectionTypeLiteNetLib(::StringW value);
     // static field const value: static private System.String kCurrentPartySizeKey
     static constexpr const char* kCurrentPartySizeKey = "currentPartySize";
     // Get static field: static private System.String kCurrentPartySizeKey
-    static ::Il2CppString* _get_kCurrentPartySizeKey();
+    static ::StringW _get_kCurrentPartySizeKey();
     // Set static field: static private System.String kCurrentPartySizeKey
-    static void _set_kCurrentPartySizeKey(::Il2CppString* value);
+    static void _set_kCurrentPartySizeKey(::StringW value);
     // static field const value: static private System.String kDifficultiesKey
     static constexpr const char* kDifficultiesKey = "difficulties";
     // Get static field: static private System.String kDifficultiesKey
-    static ::Il2CppString* _get_kDifficultiesKey();
+    static ::StringW _get_kDifficultiesKey();
     // Set static field: static private System.String kDifficultiesKey
-    static void _set_kDifficultiesKey(::Il2CppString* value);
+    static void _set_kDifficultiesKey(::StringW value);
     // static field const value: static private System.String kModifiersKey
     static constexpr const char* kModifiersKey = "modifiers";
     // Get static field: static private System.String kModifiersKey
-    static ::Il2CppString* _get_kModifiersKey();
+    static ::StringW _get_kModifiersKey();
     // Set static field: static private System.String kModifiersKey
-    static void _set_kModifiersKey(::Il2CppString* value);
+    static void _set_kModifiersKey(::StringW value);
     // static field const value: static private System.String kSongPacksKey
     static constexpr const char* kSongPacksKey = "songPacks";
     // Get static field: static private System.String kSongPacksKey
-    static ::Il2CppString* _get_kSongPacksKey();
+    static ::StringW _get_kSongPacksKey();
     // Set static field: static private System.String kSongPacksKey
-    static void _set_kSongPacksKey(::Il2CppString* value);
+    static void _set_kSongPacksKey(::StringW value);
     // static field const value: static private System.String kMaxPlayerCountKey
     static constexpr const char* kMaxPlayerCountKey = "maxPlayerCount";
     // Get static field: static private System.String kMaxPlayerCountKey
-    static ::Il2CppString* _get_kMaxPlayerCountKey();
+    static ::StringW _get_kMaxPlayerCountKey();
     // Set static field: static private System.String kMaxPlayerCountKey
-    static void _set_kMaxPlayerCountKey(::Il2CppString* value);
+    static void _set_kMaxPlayerCountKey(::StringW value);
     // static field const value: static private System.String kDiscoveryPolicyKey
     static constexpr const char* kDiscoveryPolicyKey = "discoveryPolicy";
     // Get static field: static private System.String kDiscoveryPolicyKey
-    static ::Il2CppString* _get_kDiscoveryPolicyKey();
+    static ::StringW _get_kDiscoveryPolicyKey();
     // Set static field: static private System.String kDiscoveryPolicyKey
-    static void _set_kDiscoveryPolicyKey(::Il2CppString* value);
+    static void _set_kDiscoveryPolicyKey(::StringW value);
     // static field const value: static private System.String kInvitePolicyKey
     static constexpr const char* kInvitePolicyKey = "invitePolicy";
     // Get static field: static private System.String kInvitePolicyKey
-    static ::Il2CppString* _get_kInvitePolicyKey();
+    static ::StringW _get_kInvitePolicyKey();
     // Set static field: static private System.String kInvitePolicyKey
-    static void _set_kInvitePolicyKey(::Il2CppString* value);
+    static void _set_kInvitePolicyKey(::StringW value);
     // static field const value: static private System.String kGameplayServerModeKey
     static constexpr const char* kGameplayServerModeKey = "gameplayServerMode";
     // Get static field: static private System.String kGameplayServerModeKey
-    static ::Il2CppString* _get_kGameplayServerModeKey();
+    static ::StringW _get_kGameplayServerModeKey();
     // Set static field: static private System.String kGameplayServerModeKey
-    static void _set_kGameplayServerModeKey(::Il2CppString* value);
+    static void _set_kGameplayServerModeKey(::StringW value);
     // static field const value: static private System.String kSongSelectionModeKey
     static constexpr const char* kSongSelectionModeKey = "songSelectionMode";
     // Get static field: static private System.String kSongSelectionModeKey
-    static ::Il2CppString* _get_kSongSelectionModeKey();
+    static ::StringW _get_kSongSelectionModeKey();
     // Set static field: static private System.String kSongSelectionModeKey
-    static void _set_kSongSelectionModeKey(::Il2CppString* value);
+    static void _set_kSongSelectionModeKey(::StringW value);
     // static field const value: static private System.String kGameplayServerControlSettingsKey
     static constexpr const char* kGameplayServerControlSettingsKey = "gameplayServerControlSettings";
     // Get static field: static private System.String kGameplayServerControlSettingsKey
-    static ::Il2CppString* _get_kGameplayServerControlSettingsKey();
+    static ::StringW _get_kGameplayServerControlSettingsKey();
     // Set static field: static private System.String kGameplayServerControlSettingsKey
-    static void _set_kGameplayServerControlSettingsKey(::Il2CppString* value);
+    static void _set_kGameplayServerControlSettingsKey(::StringW value);
     // static field const value: static private System.Single kAutoRefreshRate
     static constexpr const float kAutoRefreshRate = 30;
     // Get static field: static private System.Single kAutoRefreshRate
@@ -292,7 +293,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _waitingOnRoomCreate
     bool& dyn__waitingOnRoomCreate();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _roomDataStore
-    System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn__roomDataStore();
+    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__roomDataStore();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _partyPlayers
     System::Collections::Generic::List_1<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*>*& dyn__partyPlayers();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<OculusNetworkPlayerModel/OculusNetworkPlayer> _otherPlayers
@@ -314,22 +315,22 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(uint64_t id);
     // private OculusNetworkPlayerModel/OculusNetworkPlayer GetPlayer(System.String userId)
     // Offset: 0x1368EF8
-    GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(::Il2CppString* userId);
+    GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* GetPlayer(::StringW userId);
     // private System.Void TryCreateRoom()
     // Offset: 0x1369038
     void TryCreateRoom();
     // public System.String GetUserName(System.UInt64 id)
     // Offset: 0x1365B74
-    ::Il2CppString* GetUserName(uint64_t id);
+    ::StringW GetUserName(uint64_t id);
     // private System.Threading.Tasks.Task`1<System.String> GetUserNameAsync(System.UInt64 id)
     // Offset: 0x1369254
-    System::Threading::Tasks::Task_1<::Il2CppString*>* GetUserNameAsync(uint64_t id);
+    System::Threading::Tasks::Task_1<::StringW>* GetUserNameAsync(uint64_t id);
     // private System.Void HandleRoomInviteReceived(Oculus.Platform.Message`1<Oculus.Platform.Models.RoomInviteNotification> message)
     // Offset: 0x1369364
     void HandleRoomInviteReceived(Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>* message);
     // private System.Void HandleRoomInviteAccepted(Oculus.Platform.Message`1<System.String> message)
     // Offset: 0x1369428
-    void HandleRoomInviteAccepted(Oculus::Platform::Message_1<::Il2CppString*>* message);
+    void HandleRoomInviteAccepted(Oculus::Platform::Message_1<::StringW>* message);
     // private System.Void HandleRoomUpdate(Oculus.Platform.Message`1<Oculus.Platform.Models.Room> message)
     // Offset: 0x136942C
     void HandleRoomUpdate(Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>* message);
@@ -436,7 +437,7 @@ namespace GlobalNamespace {
     // Base method: System.Boolean BaseNetworkPlayerModel::CreatePartyConnection(INetworkPlayerModelPartyConfig`1<T> createConfig)
     template<class T>
     bool CreatePartyConnection(GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig) {
-      static_assert(std::is_base_of_v<GlobalNamespace::INetworkPlayerModel, std::remove_pointer_t<T>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::INetworkPlayerModel>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusNetworkPlayerModel::CreatePartyConnection");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreatePartyConnection", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(createConfig)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::GetPlayer
 // Il2CppName: GetPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* (GlobalNamespace::OculusNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::OculusNetworkPlayerModel::GetPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer* (GlobalNamespace::OculusNetworkPlayerModel::*)(::StringW)>(&GlobalNamespace::OculusNetworkPlayerModel::GetPlayer)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel*), "GetPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
@@ -513,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::GetUserName
 // Il2CppName: GetUserName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusNetworkPlayerModel::*)(uint64_t)>(&GlobalNamespace::OculusNetworkPlayerModel::GetUserName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::OculusNetworkPlayerModel::*)(uint64_t)>(&GlobalNamespace::OculusNetworkPlayerModel::GetUserName)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel*), "GetUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -522,7 +523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::GetUserNameAsync
 // Il2CppName: GetUserNameAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (GlobalNamespace::OculusNetworkPlayerModel::*)(uint64_t)>(&GlobalNamespace::OculusNetworkPlayerModel::GetUserNameAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (GlobalNamespace::OculusNetworkPlayerModel::*)(uint64_t)>(&GlobalNamespace::OculusNetworkPlayerModel::GetUserNameAsync)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel*), "GetUserNameAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -540,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::HandleRoomInviteAccepted
 // Il2CppName: HandleRoomInviteAccepted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusNetworkPlayerModel::*)(Oculus::Platform::Message_1<::Il2CppString*>*)>(&GlobalNamespace::OculusNetworkPlayerModel::HandleRoomInviteAccepted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusNetworkPlayerModel::*)(Oculus::Platform::Message_1<::StringW>*)>(&GlobalNamespace::OculusNetworkPlayerModel::HandleRoomInviteAccepted)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusNetworkPlayerModel*), "HandleRoomInviteAccepted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

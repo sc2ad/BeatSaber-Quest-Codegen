@@ -10,6 +10,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -77,9 +78,9 @@ namespace GlobalNamespace {
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* version;
+    ::StringW version;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.Collections.Generic.List`1<BeatmapSaveData/EventData> _events
     // Size: 0x8
     // Offset: 0x18
@@ -114,11 +115,11 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.5.0";
     // Get static field: static private System.String kCurrentVersion
-    static ::Il2CppString* _get_kCurrentVersion();
+    static ::StringW _get_kCurrentVersion();
     // Set static field: static private System.String kCurrentVersion
-    static void _set_kCurrentVersion(::Il2CppString* value);
+    static void _set_kCurrentVersion(::StringW value);
     // Get instance field reference: private System.String _version
-    ::Il2CppString*& dyn__version();
+    ::StringW& dyn__version();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/EventData> _events
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>*& dyn__events();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/NoteData> _notes
@@ -131,7 +132,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*& dyn__specialEventsKeywordFilters();
     // public System.String get_version()
     // Offset: 0x1331704
-    ::Il2CppString* get_version();
+    ::StringW get_version();
     // public System.Collections.Generic.List`1<BeatmapSaveData/EventData> get_events()
     // Offset: 0x133170C
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* get_events();
@@ -162,10 +163,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::ArrayW<uint8_t> data);
     // public System.String SerializeToJSONString()
     // Offset: 0x1331AD4
-    ::Il2CppString* SerializeToJSONString();
+    ::StringW SerializeToJSONString();
     // static public BeatmapSaveData DeserializeFromJSONString(System.String stringData)
     // Offset: 0x1331ADC
-    static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::Il2CppString* stringData);
+    static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::StringW stringData);
     // static private System.Void ConvertBeatmapSaveDataPreV2_5_0(BeatmapSaveData beatmapSaveData)
     // Offset: 0x1331BD4
     static void ConvertBeatmapSaveDataPreV2_5_0(GlobalNamespace::BeatmapSaveData* beatmapSaveData);
@@ -178,7 +179,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -247,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SerializeToJSONString
 // Il2CppName: SerializeToJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToJSONString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "SerializeToJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -255,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::DeserializeFromJSONString
 // Il2CppName: DeserializeFromJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::StringW)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromJSONString)> {
   static const MethodInfo* get() {
     static auto* stringData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringData});

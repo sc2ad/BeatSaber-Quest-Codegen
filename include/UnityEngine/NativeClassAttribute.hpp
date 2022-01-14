@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -43,51 +44,51 @@ namespace UnityEngine {
     // private System.String <QualifiedNativeName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::Il2CppString* QualifiedNativeName;
+    ::StringW QualifiedNativeName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEB05DC
     // private System.String <Declaration>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Declaration;
+    ::StringW Declaration;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.String <QualifiedNativeName>k__BackingField
-    ::Il2CppString*& dyn_$QualifiedNativeName$k__BackingField();
+    ::StringW& dyn_$QualifiedNativeName$k__BackingField();
     // Get instance field reference: private System.String <Declaration>k__BackingField
-    ::Il2CppString*& dyn_$Declaration$k__BackingField();
+    ::StringW& dyn_$Declaration$k__BackingField();
     // private System.Void set_QualifiedNativeName(System.String value)
     // Offset: 0x26CA530
-    void set_QualifiedNativeName(::Il2CppString* value);
+    void set_QualifiedNativeName(::StringW value);
     // private System.Void set_Declaration(System.String value)
     // Offset: 0x26CA538
-    void set_Declaration(::Il2CppString* value);
+    void set_Declaration(::StringW value);
     // public System.Void .ctor(System.String qualifiedCppName)
     // Offset: 0x26CA540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName) {
+    static NativeClassAttribute* New_ctor(::StringW qualifiedCppName) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName)));
     }
     // public System.Void .ctor(System.String qualifiedCppName, System.String declaration)
     // Offset: 0x26CA5B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeClassAttribute* New_ctor(::Il2CppString* qualifiedCppName, ::Il2CppString* declaration) {
+    static NativeClassAttribute* New_ctor(::StringW qualifiedCppName, ::StringW declaration) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName, declaration)));
     }
   }; // UnityEngine.NativeClassAttribute
   #pragma pack(pop)
-  static check_size<sizeof(NativeClassAttribute), 24 + sizeof(::Il2CppString*)> __UnityEngine_NativeClassAttributeSizeCheck;
+  static check_size<sizeof(NativeClassAttribute), 24 + sizeof(::StringW)> __UnityEngine_NativeClassAttributeSizeCheck;
   static_assert(sizeof(NativeClassAttribute) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::NativeClassAttribute::set_QualifiedNativeName
 // Il2CppName: set_QualifiedNativeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::Il2CppString*)>(&UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::StringW)>(&UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::NativeClassAttribute*), "set_QualifiedNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::NativeClassAttribute::set_Declaration
 // Il2CppName: set_Declaration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::Il2CppString*)>(&UnityEngine::NativeClassAttribute::set_Declaration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::StringW)>(&UnityEngine::NativeClassAttribute::set_Declaration)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::NativeClassAttribute*), "set_Declaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -7,6 +7,7 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MissionObjective
 #include "GlobalNamespace/MissionObjective.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -27,7 +28,7 @@ namespace GlobalNamespace {
     public:
     // static public System.String Name(MissionObjective/ReferenceValueComparisonType comparisonType)
     // Offset: 0x115FE70
-    static ::Il2CppString* Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
+    static ::StringW Name(GlobalNamespace::MissionObjective::ReferenceValueComparisonType comparisonType);
   }; // MissionDataExtensions
   #pragma pack(pop)
 }
@@ -35,7 +36,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataExtensions::Name
 // Il2CppName: Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MissionObjective::ReferenceValueComparisonType)>(&GlobalNamespace::MissionDataExtensions::Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MissionObjective::ReferenceValueComparisonType)>(&GlobalNamespace::MissionDataExtensions::Name)> {
   static const MethodInfo* get() {
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("", "MissionObjective/ReferenceValueComparisonType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataExtensions*), "Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparisonType});

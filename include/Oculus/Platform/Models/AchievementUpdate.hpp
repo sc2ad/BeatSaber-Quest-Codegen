@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -48,14 +49,14 @@ namespace Oculus::Platform::Models {
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x18
-    ::Il2CppString* Name;
+    ::StringW Name;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.Boolean JustUnlocked
     bool& dyn_JustUnlocked();
     // Get instance field reference: public readonly System.String Name
-    ::Il2CppString*& dyn_Name();
+    ::StringW& dyn_Name();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1756DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +66,7 @@ namespace Oculus::Platform::Models {
     }
   }; // Oculus.Platform.Models.AchievementUpdate
   #pragma pack(pop)
-  static check_size<sizeof(AchievementUpdate), 24 + sizeof(::Il2CppString*)> __Oculus_Platform_Models_AchievementUpdateSizeCheck;
+  static check_size<sizeof(AchievementUpdate), 24 + sizeof(::StringW)> __Oculus_Platform_Models_AchievementUpdateSizeCheck;
   static_assert(sizeof(AchievementUpdate) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

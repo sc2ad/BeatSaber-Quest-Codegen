@@ -6,6 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -33,9 +34,9 @@ namespace GlobalNamespace {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF2241C
     // Get static field: static private readonly System.String[] _shaderKeywordMap
-    static ::ArrayW<::Il2CppString*> _get__shaderKeywordMap();
+    static ::ArrayW<::StringW> _get__shaderKeywordMap();
     // Set static field: static private readonly System.String[] _shaderKeywordMap
-    static void _set__shaderKeywordMap(::ArrayW<::Il2CppString*> value);
+    static void _set__shaderKeywordMap(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
     // Offset: 0x1DBD820
     static void _cctor();

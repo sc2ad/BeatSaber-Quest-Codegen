@@ -13,6 +13,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,7 +47,7 @@ namespace GlobalNamespace {
     // Offset: 0x11AED08
     // Implemented from: System.Runtime.Serialization.SerializationBinder
     // Base method: System.Type SerializationBinder::BindToType(System.String assemblyName, System.String typeName)
-    System::Type* BindToType(::Il2CppString* assemblyName, ::Il2CppString* typeName);
+    System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
   }; // PosesSerializer/TypeSerializationBinder
   #pragma pack(pop)
 }
@@ -58,7 +59,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PosesSerializer::TypeSerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (GlobalNamespace::PosesSerializer::TypeSerializationBinder::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::PosesSerializer::TypeSerializationBinder::BindToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (GlobalNamespace::PosesSerializer::TypeSerializationBinder::*)(::StringW, ::StringW)>(&GlobalNamespace::PosesSerializer::TypeSerializationBinder::BindToType)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

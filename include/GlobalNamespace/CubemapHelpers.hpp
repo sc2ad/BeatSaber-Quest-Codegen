@@ -10,6 +10,7 @@
 // Including type: UnityEngine.CubemapFace
 #include "UnityEngine/CubemapFace.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -52,9 +53,9 @@ namespace GlobalNamespace {
     // static field const value: static private System.String kCubemapHelpersShaderName
     static constexpr const char* kCubemapHelpersShaderName = "Hidden/CubemapHelpers";
     // Get static field: static private System.String kCubemapHelpersShaderName
-    static ::Il2CppString* _get_kCubemapHelpersShaderName();
+    static ::StringW _get_kCubemapHelpersShaderName();
     // Set static field: static private System.String kCubemapHelpersShaderName
-    static void _set_kCubemapHelpersShaderName(::Il2CppString* value);
+    static void _set_kCubemapHelpersShaderName(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF490EC
     // Get static field: static private UnityEngine.Material _cubemapHelpersMaterial
     static UnityEngine::Material* _get__cubemapHelpersMaterial();

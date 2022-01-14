@@ -12,6 +12,7 @@
 #include "System/IEquatable_1.hpp"
 // Including type: System.ValueTuple`2
 #include "System/ValueTuple_2.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,7 +26,6 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 // Begin il2cpp-utils forward declares
-struct Il2CppString;
 struct Il2CppObject;
 // Completed il2cpp-utils forward declares
 // Type namespace: 
@@ -50,32 +50,32 @@ namespace GlobalNamespace {
     // public readonly System.String metricName
     // Size: 0x8
     // Offset: 0x0
-    ::Il2CppString* metricName;
+    ::StringW metricName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // [TupleElementNamesAttribute] Offset: 0xF1D6C4
     // private readonly System.ValueTuple`2<System.String,System.String> _tag0
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0;
+    System::ValueTuple_2<::StringW, ::StringW> tag0;
     // [TupleElementNamesAttribute] Offset: 0xF1D74C
     // private readonly System.ValueTuple`2<System.String,System.String> _tag1
     // Size: 0xFFFFFFFF
     // Offset: 0x18
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1;
+    System::ValueTuple_2<::StringW, ::StringW> tag1;
     // [TupleElementNamesAttribute] Offset: 0xF1D7D4
     // private readonly System.ValueTuple`2<System.String,System.String> _tag2
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2;
+    System::ValueTuple_2<::StringW, ::StringW> tag2;
     // [TupleElementNamesAttribute] Offset: 0xF1D85C
     // private readonly System.ValueTuple`2<System.String,System.String> _tag3
     // Size: 0xFFFFFFFF
     // Offset: 0x38
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3;
+    System::ValueTuple_2<::StringW, ::StringW> tag3;
     public:
     // Creating value type constructor for type: MetricIdentifier
-    constexpr MetricIdentifier(::Il2CppString* metricName_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3_ = {}) noexcept : metricName{metricName_}, tag0{tag0_}, tag1{tag1_}, tag2{tag2_}, tag3{tag3_} {}
+    constexpr MetricIdentifier(::StringW metricName_ = {}, System::ValueTuple_2<::StringW, ::StringW> tag0_ = {}, System::ValueTuple_2<::StringW, ::StringW> tag1_ = {}, System::ValueTuple_2<::StringW, ::StringW> tag2_ = {}, System::ValueTuple_2<::StringW, ::StringW> tag3_ = {}) noexcept : metricName{metricName_}, tag0{tag0_}, tag1{tag1_}, tag2{tag2_}, tag3{tag3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -89,21 +89,21 @@ namespace GlobalNamespace {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MetricIdentifier>*>(this);
     }
     // Get instance field reference: public readonly System.String metricName
-    ::Il2CppString*& dyn_metricName();
+    ::StringW& dyn_metricName();
     // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag0
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag0();
+    System::ValueTuple_2<::StringW, ::StringW>& dyn__tag0();
     // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag1
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag1();
+    System::ValueTuple_2<::StringW, ::StringW>& dyn__tag1();
     // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag2
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag2();
+    System::ValueTuple_2<::StringW, ::StringW>& dyn__tag2();
     // Get instance field reference: private readonly System.ValueTuple`2<System.String,System.String> _tag3
-    System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>& dyn__tag3();
+    System::ValueTuple_2<::StringW, ::StringW>& dyn__tag3();
     // public System.Int32 get_tagCount()
     // Offset: 0x18056B0
     int get_tagCount();
     // public System.Void .ctor(System.String metricName, System.ValueTuple`2<System.String,System.String> tag0, System.ValueTuple`2<System.String,System.String> tag1, System.ValueTuple`2<System.String,System.String> tag2, System.ValueTuple`2<System.String,System.String> tag3)
     // Offset: 0x18047E0
-    // ABORTED: conflicts with another method.  MetricIdentifier(::Il2CppString* metricName, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3);
+    // ABORTED: conflicts with another method.  MetricIdentifier(::StringW metricName, System::ValueTuple_2<::StringW, ::StringW> tag0, System::ValueTuple_2<::StringW, ::StringW> tag1, System::ValueTuple_2<::StringW, ::StringW> tag2, System::ValueTuple_2<::StringW, ::StringW> tag3);
     // public System.Int32 CompareTo(MetricIdentifier other)
     // Offset: 0x18056F4
     int CompareTo(GlobalNamespace::MetricIdentifier other);
@@ -112,7 +112,7 @@ namespace GlobalNamespace {
     bool Equals(GlobalNamespace::MetricIdentifier other);
     // public System.Collections.Generic.IEnumerable`1<System.ValueTuple`2<System.String,System.String>> GetTags()
     // Offset: 0x1805D08
-    System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* GetTags();
+    System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::StringW, ::StringW>>* GetTags();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x18057D4
     // Implemented from: System.ValueType
@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     // Offset: 0x1805958
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
   }; // MetricIdentifier
   // WARNING Not writing size check since size may be invalid!
 }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::GetTags
 // Il2CppName: GetTags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>* (GlobalNamespace::MetricIdentifier::*)()>(&GlobalNamespace::MetricIdentifier::GetTags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::StringW, ::StringW>>* (GlobalNamespace::MetricIdentifier::*)()>(&GlobalNamespace::MetricIdentifier::GetTags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MetricIdentifier), "GetTags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::MetricIdentifier::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MetricIdentifier::*)()>(&GlobalNamespace::MetricIdentifier::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::MetricIdentifier::*)()>(&GlobalNamespace::MetricIdentifier::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MetricIdentifier), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

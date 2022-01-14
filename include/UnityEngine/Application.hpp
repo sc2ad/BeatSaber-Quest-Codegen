@@ -5,6 +5,7 @@
 // Begin includes
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -95,9 +96,9 @@ namespace UnityEngine {
     static void _set_focusChanged(System::Action_1<bool>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xEB7990
     // Get static field: static private System.Action`1<System.String> deepLinkActivated
-    static System::Action_1<::Il2CppString*>* _get_deepLinkActivated();
+    static System::Action_1<::StringW>* _get_deepLinkActivated();
     // Set static field: static private System.Action`1<System.String> deepLinkActivated
-    static void _set_deepLinkActivated(System::Action_1<::Il2CppString*>* value);
+    static void _set_deepLinkActivated(System::Action_1<::StringW>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xEB79CC
     // Get static field: static private System.Func`1<System.Boolean> wantsToQuit
     static System::Func_1<bool>* _get_wantsToQuit();
@@ -116,31 +117,31 @@ namespace UnityEngine {
     static void set_runInBackground(bool value);
     // static public System.String get_dataPath()
     // Offset: 0x1CFD140
-    static ::Il2CppString* get_dataPath();
+    static ::StringW get_dataPath();
     // static public System.String get_streamingAssetsPath()
     // Offset: 0x1CFD174
-    static ::Il2CppString* get_streamingAssetsPath();
+    static ::StringW get_streamingAssetsPath();
     // static public System.String get_persistentDataPath()
     // Offset: 0x1CFD1A8
-    static ::Il2CppString* get_persistentDataPath();
+    static ::StringW get_persistentDataPath();
     // static public System.String get_temporaryCachePath()
     // Offset: 0x1CFD1DC
-    static ::Il2CppString* get_temporaryCachePath();
+    static ::StringW get_temporaryCachePath();
     // static public System.String get_unityVersion()
     // Offset: 0x1CFD210
-    static ::Il2CppString* get_unityVersion();
+    static ::StringW get_unityVersion();
     // static public System.String get_version()
     // Offset: 0x1CFD244
-    static ::Il2CppString* get_version();
+    static ::StringW get_version();
     // static public System.String get_identifier()
     // Offset: 0x1CFD278
-    static ::Il2CppString* get_identifier();
+    static ::StringW get_identifier();
     // static public System.String get_productName()
     // Offset: 0x1CFD2AC
-    static ::Il2CppString* get_productName();
+    static ::StringW get_productName();
     // static public System.String get_companyName()
     // Offset: 0x1CFD2E0
-    static ::Il2CppString* get_companyName();
+    static ::StringW get_companyName();
     // static public System.Void set_targetFrameRate(System.Int32 value)
     // Offset: 0x1CFD354
     static void set_targetFrameRate(int value);
@@ -191,10 +192,10 @@ namespace UnityEngine {
     static bool CanStreamedLevelBeLoaded(int levelIndex);
     // static public System.Boolean CanStreamedLevelBeLoaded(System.String levelName)
     // Offset: 0x1CFD08C
-    static bool CanStreamedLevelBeLoaded(::Il2CppString* levelName);
+    static bool CanStreamedLevelBeLoaded(::StringW levelName);
     // static public System.Void OpenURL(System.String url)
     // Offset: 0x1CFD314
-    static void OpenURL(::Il2CppString* url);
+    static void OpenURL(::StringW url);
     // static private System.Void SetLogCallbackDefined(System.Boolean defined)
     // Offset: 0x1CFD394
     static void SetLogCallbackDefined(bool defined);
@@ -203,7 +204,7 @@ namespace UnityEngine {
     static void CallLowMemory();
     // static private System.Void CallLogCallback(System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread)
     // Offset: 0x1CFDA0C
-    static void CallLogCallback(::Il2CppString* logString, ::Il2CppString* stackTrace, UnityEngine::LogType type, bool invokedOnMainThread);
+    static void CallLogCallback(::StringW logString, ::StringW stackTrace, UnityEngine::LogType type, bool invokedOnMainThread);
     // static private System.Boolean Internal_ApplicationWantsToQuit()
     // Offset: 0x1CFE5E0
     static bool Internal_ApplicationWantsToQuit();
@@ -218,7 +219,7 @@ namespace UnityEngine {
     static void InvokeFocusChanged(bool focus);
     // static System.Void InvokeDeepLinkActivated(System.String url)
     // Offset: 0x1CFEB9C
-    static void InvokeDeepLinkActivated(::Il2CppString* url);
+    static void InvokeDeepLinkActivated(::StringW url);
   }; // UnityEngine.Application
   #pragma pack(pop)
 }
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::Application::get_dataPath
 // Il2CppName: get_dataPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_dataPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_dataPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_dataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_streamingAssetsPath
 // Il2CppName: get_streamingAssetsPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_streamingAssetsPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_streamingAssetsPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_streamingAssetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_persistentDataPath
 // Il2CppName: get_persistentDataPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_persistentDataPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_persistentDataPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_persistentDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_temporaryCachePath
 // Il2CppName: get_temporaryCachePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_temporaryCachePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_temporaryCachePath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_temporaryCachePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_unityVersion
 // Il2CppName: get_unityVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_unityVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_unityVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_unityVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -283,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_identifier
 // Il2CppName: get_identifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_identifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_identifier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -299,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_productName
 // Il2CppName: get_productName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_productName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_productName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_productName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Application::get_companyName
 // Il2CppName: get_companyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_companyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&UnityEngine::Application::get_companyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_companyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -453,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: UnityEngine::Application::CanStreamedLevelBeLoaded
 // Il2CppName: CanStreamedLevelBeLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Application::CanStreamedLevelBeLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&UnityEngine::Application::CanStreamedLevelBeLoaded)> {
   static const MethodInfo* get() {
     static auto* levelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelName});
@@ -462,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::Application::OpenURL
 // Il2CppName: OpenURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Application::OpenURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::Application::OpenURL)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "OpenURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
@@ -488,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Application::CallLogCallback
 // Il2CppName: CallLogCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType, bool)>(&UnityEngine::Application::CallLogCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, UnityEngine::LogType, bool)>(&UnityEngine::Application::CallLogCallback)> {
   static const MethodInfo* get() {
     static auto* logString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -533,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::Application::InvokeDeepLinkActivated
 // Il2CppName: InvokeDeepLinkActivated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Application::InvokeDeepLinkActivated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&UnityEngine::Application::InvokeDeepLinkActivated)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "InvokeDeepLinkActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});

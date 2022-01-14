@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -387,7 +388,7 @@ namespace System::Net {
     }
     // private System.Boolean CheckAuthHeader(System.String headerName)
     // Offset: 0x17F08C4
-    bool CheckAuthHeader(::Il2CppString* headerName);
+    bool CheckAuthHeader(::StringW headerName);
     // private System.Boolean IsNtlmAuth()
     // Offset: 0x17F03AC
     bool IsNtlmAuth();
@@ -626,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::CheckAuthHeader
 // Il2CppName: CheckAuthHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::*)(::Il2CppString*)>(&System::Net::WebConnectionStream::CheckAuthHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::*)(::StringW)>(&System::Net::WebConnectionStream::CheckAuthHeader)> {
   static const MethodInfo* get() {
     static auto* headerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "CheckAuthHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headerName});

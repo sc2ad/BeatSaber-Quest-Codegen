@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -48,36 +49,36 @@ namespace System::IO {
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x90
-    ::Il2CppString* fileName;
+    ::StringW fileName;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     // private System.String _fusionLog
     // Size: 0x8
     // Offset: 0x98
-    ::Il2CppString* fusionLog;
+    ::StringW fusionLog;
     // Field size check
-    static_assert(sizeof(::Il2CppString*) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Deleting conversion operator: operator ::Il2CppString*
-    constexpr operator ::Il2CppString*() const noexcept = delete;
+    // Deleting conversion operator: operator ::StringW
+    constexpr operator ::StringW() const noexcept = delete;
     // Get instance field reference: private System.String _fileName
-    ::Il2CppString*& dyn__fileName();
+    ::StringW& dyn__fileName();
     // Get instance field reference: private System.String _fusionLog
-    ::Il2CppString*& dyn__fusionLog();
+    ::StringW& dyn__fusionLog();
     // public System.String get_FusionLog()
     // Offset: 0x1AFC22C
-    ::Il2CppString* get_FusionLog();
+    ::StringW get_FusionLog();
     // private System.Void SetMessageField()
     // Offset: 0x1AFBD94
     void SetMessageField();
     // static System.String FormatFileLoadExceptionMessage(System.String fileName, System.Int32 hResult)
     // Offset: 0x1AFBDC8
-    static ::Il2CppString* FormatFileLoadExceptionMessage(::Il2CppString* fileName, int hResult);
+    static ::StringW FormatFileLoadExceptionMessage(::StringW fileName, int hResult);
     // public override System.String get_Message()
     // Offset: 0x1AFBD64
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
-    ::Il2CppString* get_Message();
+    ::StringW get_Message();
     // public System.Void .ctor()
     // Offset: 0x1AFBC8C
     // Implemented from: System.IO.IOException
@@ -97,7 +98,7 @@ namespace System::IO {
     // Base method: System.Void SystemException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FileLoadException* New_ctor(::Il2CppString* message) {
+    static FileLoadException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileLoadException*, creationType>(message)));
     }
@@ -116,7 +117,7 @@ namespace System::IO {
     // Offset: 0x1AFBE44
     // Implemented from: System.Exception
     // Base method: System.String Exception::ToString()
-    ::Il2CppString* ToString();
+    ::StringW ToString();
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1AFC234
     // Implemented from: System.Exception
@@ -124,14 +125,14 @@ namespace System::IO {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.IO.FileLoadException
   #pragma pack(pop)
-  static check_size<sizeof(FileLoadException), 152 + sizeof(::Il2CppString*)> __System_IO_FileLoadExceptionSizeCheck;
+  static check_size<sizeof(FileLoadException), 152 + sizeof(::StringW)> __System_IO_FileLoadExceptionSizeCheck;
   static_assert(sizeof(FileLoadException) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileLoadException::get_FusionLog
 // Il2CppName: get_FusionLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::get_FusionLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::get_FusionLog)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileLoadException*), "get_FusionLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileLoadException::FormatFileLoadExceptionMessage
 // Il2CppName: FormatFileLoadExceptionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int)>(&System::IO::FileLoadException::FormatFileLoadExceptionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int)>(&System::IO::FileLoadException::FormatFileLoadExceptionMessage)> {
   static const MethodInfo* get() {
     static auto* fileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hResult = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileLoadException::get_Message
 // Il2CppName: get_Message
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::get_Message)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::get_Message)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileLoadException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::FileLoadException::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IO::FileLoadException::*)()>(&System::IO::FileLoadException::ToString)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileLoadException*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

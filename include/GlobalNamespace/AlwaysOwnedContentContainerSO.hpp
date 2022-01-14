@@ -11,6 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -59,30 +60,30 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedBeatmapLevelIds;
+    System::Collections::Generic::HashSet_1<::StringW>* alwaysOwnedBeatmapLevelIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* alwaysOwnedPacksIds;
+    System::Collections::Generic::HashSet_1<::StringW>* alwaysOwnedPacksIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AlwaysOwnedContentSO _alwaysOwnedContent
     GlobalNamespace::AlwaysOwnedContentSO*& dyn__alwaysOwnedContent();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedBeatmapLevelIds
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__alwaysOwnedBeatmapLevelIds();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__alwaysOwnedBeatmapLevelIds();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _alwaysOwnedPacksIds
-    System::Collections::Generic::HashSet_1<::Il2CppString*>*& dyn__alwaysOwnedPacksIds();
+    System::Collections::Generic::HashSet_1<::StringW>*& dyn__alwaysOwnedPacksIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedBeatmapLevelIds()
     // Offset: 0x130C0B0
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedBeatmapLevelIds();
+    System::Collections::Generic::HashSet_1<::StringW>* get_alwaysOwnedBeatmapLevelIds();
     // public System.Collections.Generic.HashSet`1<System.String> get_alwaysOwnedPacksIds()
     // Offset: 0x130C35C
-    System::Collections::Generic::HashSet_1<::Il2CppString*>* get_alwaysOwnedPacksIds();
+    System::Collections::Generic::HashSet_1<::StringW>* get_alwaysOwnedPacksIds();
     // private System.Void InitAlwaysOwnedItems()
     // Offset: 0x130C910
     void InitAlwaysOwnedItems();
@@ -105,14 +106,14 @@ namespace GlobalNamespace {
     void OnEnable();
   }; // AlwaysOwnedContentContainerSO
   #pragma pack(pop)
-  static check_size<sizeof(AlwaysOwnedContentContainerSO), 40 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*)> __GlobalNamespace_AlwaysOwnedContentContainerSOSizeCheck;
+  static check_size<sizeof(AlwaysOwnedContentContainerSO), 40 + sizeof(System::Collections::Generic::HashSet_1<::StringW>*)> __GlobalNamespace_AlwaysOwnedContentContainerSOSizeCheck;
   static_assert(sizeof(AlwaysOwnedContentContainerSO) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds
 // Il2CppName: get_alwaysOwnedBeatmapLevelIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::StringW>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedBeatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds
 // Il2CppName: get_alwaysOwnedPacksIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::StringW>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedPacksIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

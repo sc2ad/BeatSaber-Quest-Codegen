@@ -9,6 +9,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -28,22 +29,22 @@ namespace Oculus::Platform {
     public:
     // static public System.String get_OculusPlatformTestUserEmail()
     // Offset: 0x2664CDC
-    static ::Il2CppString* get_OculusPlatformTestUserEmail();
+    static ::StringW get_OculusPlatformTestUserEmail();
     // static public System.Void set_OculusPlatformTestUserEmail(System.String value)
     // Offset: 0x2664D2C
-    static void set_OculusPlatformTestUserEmail(::Il2CppString* value);
+    static void set_OculusPlatformTestUserEmail(::StringW value);
     // static public System.String get_OculusPlatformTestUserPassword()
     // Offset: 0x2664D30
-    static ::Il2CppString* get_OculusPlatformTestUserPassword();
+    static ::StringW get_OculusPlatformTestUserPassword();
     // static public System.Void set_OculusPlatformTestUserPassword(System.String value)
     // Offset: 0x2664D80
-    static void set_OculusPlatformTestUserPassword(::Il2CppString* value);
+    static void set_OculusPlatformTestUserPassword(::StringW value);
     // static public System.String get_OculusPlatformTestUserAccessToken()
     // Offset: 0x2664D84
-    static ::Il2CppString* get_OculusPlatformTestUserAccessToken();
+    static ::StringW get_OculusPlatformTestUserAccessToken();
     // static public System.Void set_OculusPlatformTestUserAccessToken(System.String value)
     // Offset: 0x2664DD4
-    static void set_OculusPlatformTestUserAccessToken(::Il2CppString* value);
+    static void set_OculusPlatformTestUserAccessToken(::StringW value);
     // public System.Void .ctor()
     // Offset: 0x2664DD8
     // Implemented from: System.Object
@@ -60,7 +61,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail
 // Il2CppName: get_OculusPlatformTestUserEmail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserEmail)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "get_OculusPlatformTestUserEmail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserEmail
 // Il2CppName: set_OculusPlatformTestUserEmail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserEmail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserEmail)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "set_OculusPlatformTestUserEmail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserPassword
 // Il2CppName: get_OculusPlatformTestUserPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserPassword)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "get_OculusPlatformTestUserPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserPassword
 // Il2CppName: set_OculusPlatformTestUserPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserPassword)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "set_OculusPlatformTestUserPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -94,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken
 // Il2CppName: get_OculusPlatformTestUserAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&Oculus::Platform::StandalonePlatformSettings::get_OculusPlatformTestUserAccessToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "get_OculusPlatformTestUserAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -102,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken
 // Il2CppName: set_OculusPlatformTestUserAccessToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&Oculus::Platform::StandalonePlatformSettings::set_OculusPlatformTestUserAccessToken)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatformSettings*), "set_OculusPlatformTestUserAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
