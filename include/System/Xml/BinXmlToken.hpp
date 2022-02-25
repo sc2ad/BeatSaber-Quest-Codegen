@@ -54,7 +54,7 @@ namespace System::Xml {
     // Set static field: static public System.Xml.BinXmlToken NotImpl
     static void _set_NotImpl(System::Xml::BinXmlToken value);
     // static field const value: static public System.Xml.BinXmlToken EOF
-    static constexpr const int EOF = -1;
+    static constexpr const int _EOF = -1;
     // Get static field: static public System.Xml.BinXmlToken EOF
     static System::Xml::BinXmlToken _get_EOF();
     // Set static field: static public System.Xml.BinXmlToken EOF

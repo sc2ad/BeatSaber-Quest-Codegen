@@ -166,7 +166,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XmlSqlBinaryReader/System.Xml.ScanState Error
       static void _set_Error(System::Xml::XmlSqlBinaryReader::ScanState value);
       // static field const value: static public System.Xml.XmlSqlBinaryReader/System.Xml.ScanState EOF
-      static constexpr const int EOF = 7;
+      static constexpr const int _EOF = 7;
       // Get static field: static public System.Xml.XmlSqlBinaryReader/System.Xml.ScanState EOF
       static System::Xml::XmlSqlBinaryReader::ScanState _get_EOF();
       // Set static field: static public System.Xml.XmlSqlBinaryReader/System.Xml.ScanState EOF

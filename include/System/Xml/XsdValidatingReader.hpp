@@ -203,7 +203,7 @@ namespace System::Xml {
       // Set static field: static public System.Xml.XsdValidatingReader/System.Xml.ValidatingReaderState ReaderClosed
       static void _set_ReaderClosed(System::Xml::XsdValidatingReader::ValidatingReaderState value);
       // static field const value: static public System.Xml.XsdValidatingReader/System.Xml.ValidatingReaderState EOF
-      static constexpr const int EOF = 9;
+      static constexpr const int _EOF = 9;
       // Get static field: static public System.Xml.XsdValidatingReader/System.Xml.ValidatingReaderState EOF
       static System::Xml::XsdValidatingReader::ValidatingReaderState _get_EOF();
       // Set static field: static public System.Xml.XsdValidatingReader/System.Xml.ValidatingReaderState EOF
